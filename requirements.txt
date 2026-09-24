@@ -1,0 +1,15 @@
+torch
+torchvision
+transformers==4.55.0
+accelerate
+datasets
+huggingface_hub
+safetensors
+pillow
+pyyaml
+pandas
+tqdm
+einops
+sentencepiece
+megfile
+qwen-vl-utils==0.0.10

@@ -1,0 +1,17 @@
+experiment_name: thinking_reflection
+
+model:
+  model_id: stepfun-ai/Step1X-Edit-v1p2
+  dtype: bfloat16
+  cpu_offload: true
+
+generation:
+  num_inference_steps: 50
+  true_cfg_scale: 6.0
+  enable_thinking_mode: true
+  enable_reflection_mode: true
+
+seed: 42
+
+output_dir: outputs/thinking_reflection
+log_file: logs/thinking_reflection.jsonl

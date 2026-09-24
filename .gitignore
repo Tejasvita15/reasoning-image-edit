@@ -1,0 +1,38 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.vscode/
+.idea/
+
+# Outputs
+outputs/
+logs/
+
+# Model / checkpoint files
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Hugging Face cache
+.cache/
+huggingface/
+hf_cache/
+
+# Dataset downloads
+*.parquet
+*.arrow
+
+# Local custom diffusers clone
+diffusers/
+
+# OS
+.DS_Store
+Thumbs.db

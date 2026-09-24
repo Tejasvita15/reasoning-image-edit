@@ -1,0 +1,2452 @@
+[
+  {
+    "id": "48",
+    "category": "size_adjustment",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "size_adjustment__48"
+  },
+  {
+    "id": "50",
+    "category": "color_change",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "color_change__50"
+  },
+  {
+    "id": "10",
+    "category": "part_completion",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "part_completion__10"
+  },
+  {
+    "id": "61",
+    "category": "anomaly_correction",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "anomaly_correction__61"
+  },
+  {
+    "id": "24",
+    "category": "part_completion",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "part_completion__24"
+  },
+  {
+    "id": "8",
+    "category": "anomaly_correction",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "anomaly_correction__8"
+  },
+  {
+    "id": "10",
+    "category": "size_adjustment",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "size_adjustment__10"
+  },
+  {
+    "id": "1",
+    "category": "size_adjustment",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "size_adjustment__1"
+  },
+  {
+    "id": "20",
+    "category": "size_adjustment",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "size_adjustment__20"
+  },
+  {
+    "id": "6",
+    "category": "color_change",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "color_change__6"
+  },
+  {
+    "id": "41",
+    "category": "part_completion",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "part_completion__41"
+  },
+  {
+    "id": "6",
+    "category": "size_adjustment",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "size_adjustment__6"
+  },
+  {
+    "id": "37",
+    "category": "anomaly_correction",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "anomaly_correction__37"
+  },
+  {
+    "id": "33",
+    "category": "color_change",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "color_change__33"
+  },
+  {
+    "id": "44",
+    "category": "anomaly_correction",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "anomaly_correction__44"
+  },
+  {
+    "id": "45",
+    "category": "count_change",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "count_change__45"
+  },
+  {
+    "id": "60",
+    "category": "anomaly_correction",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "anomaly_correction__60"
+  },
+  {
+    "id": "16",
+    "category": "count_change",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "count_change__16"
+  },
+  {
+    "id": "39",
+    "category": "part_completion",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "part_completion__39"
+  },
+  {
+    "id": "40",
+    "category": "color_change",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "color_change__40"
+  },
+  {
+    "id": "26",
+    "category": "count_change",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "count_change__26"
+  },
+  {
+    "id": "2",
+    "category": "count_change",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "count_change__2"
+  },
+  {
+    "id": "43",
+    "category": "size_adjustment",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "size_adjustment__43"
+  },
+  {
+    "id": "12",
+    "category": "size_adjustment",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "size_adjustment__12"
+  },
+  {
+    "id": "29",
+    "category": "part_completion",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "part_completion__29"
+  },
+  {
+    "id": "40",
+    "category": "part_completion",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "part_completion__40"
+  },
+  {
+    "id": "20",
+    "category": "color_change",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "color_change__20"
+  },
+  {
+    "id": "12",
+    "category": "count_change",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "count_change__12"
+  },
+  {
+    "id": "49",
+    "category": "part_completion",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "part_completion__49"
+  },
+  {
+    "id": "19",
+    "category": "anomaly_correction",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "anomaly_correction__19"
+  },
+  {
+    "id": "72",
+    "category": "anomaly_correction",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "anomaly_correction__72"
+  },
+  {
+    "id": "7",
+    "category": "part_completion",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "part_completion__7"
+  },
+  {
+    "id": "1",
+    "category": "color_change",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "color_change__1"
+  },
+  {
+    "id": "40",
+    "category": "anomaly_correction",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "anomaly_correction__40"
+  },
+  {
+    "id": "25",
+    "category": "size_adjustment",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "size_adjustment__25"
+  },
+  {
+    "id": "29",
+    "category": "count_change",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "count_change__29"
+  },
+  {
+    "id": "17",
+    "category": "color_change",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "color_change__17"
+  },
+  {
+    "id": "44",
+    "category": "count_change",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "count_change__44"
+  },
+  {
+    "id": "10",
+    "category": "color_change",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "color_change__10"
+  },
+  {
+    "id": "19",
+    "category": "size_adjustment",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "size_adjustment__19"
+  },
+  {
+    "id": "47",
+    "category": "anomaly_correction",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "anomaly_correction__47"
+  },
+  {
+    "id": "37",
+    "category": "count_change",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "count_change__37"
+  },
+  {
+    "id": "26",
+    "category": "size_adjustment",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "size_adjustment__26"
+  },
+  {
+    "id": "9",
+    "category": "anomaly_correction",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "anomaly_correction__9"
+  },
+  {
+    "id": "33",
+    "category": "count_change",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "count_change__33"
+  },
+  {
+    "id": "29",
+    "category": "color_change",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "color_change__29"
+  },
+  {
+    "id": "44",
+    "category": "part_completion",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "part_completion__44"
+  },
+  {
+    "id": "46",
+    "category": "part_completion",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "part_completion__46"
+  },
+  {
+    "id": "19",
+    "category": "count_change",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "count_change__19"
+  },
+  {
+    "id": "31",
+    "category": "color_change",
+    "reasoning_dimension": "attribute_perception",
+    "knowledge_type": "factual",
+    "example_uid": "color_change__31"
+  },
+  {
+    "id": "15",
+    "category": "multi-element_composition",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-element_composition__15"
+  },
+  {
+    "id": "70",
+    "category": "multi-element_composition",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-element_composition__70"
+  },
+  {
+    "id": "3",
+    "category": "multi-element_composition",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-element_composition__3"
+  },
+  {
+    "id": "32",
+    "category": "multi-instruction_execution",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-instruction_execution__32"
+  },
+  {
+    "id": "66",
+    "category": "multi-instruction_execution",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-instruction_execution__66"
+  },
+  {
+    "id": "33",
+    "category": "multi-instruction_execution",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-instruction_execution__33"
+  },
+  {
+    "id": "26",
+    "category": "multi-element_composition",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-element_composition__26"
+  },
+  {
+    "id": "2",
+    "category": "multi-element_composition",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-element_composition__2"
+  },
+  {
+    "id": "43",
+    "category": "multi-element_composition",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-element_composition__43"
+  },
+  {
+    "id": "30",
+    "category": "multi-instruction_execution",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-instruction_execution__30"
+  },
+  {
+    "id": "32",
+    "category": "multi-element_composition",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-element_composition__32"
+  },
+  {
+    "id": "4",
+    "category": "multi-instruction_execution",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-instruction_execution__4"
+  },
+  {
+    "id": "25",
+    "category": "multi-element_composition",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-element_composition__25"
+  },
+  {
+    "id": "46",
+    "category": "multi-instruction_execution",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-instruction_execution__46"
+  },
+  {
+    "id": "21",
+    "category": "multi-instruction_execution",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-instruction_execution__21"
+  },
+  {
+    "id": "12",
+    "category": "multi-element_composition",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-element_composition__12"
+  },
+  {
+    "id": "31",
+    "category": "multi-instruction_execution",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-instruction_execution__31"
+  },
+  {
+    "id": "9",
+    "category": "multi-instruction_execution",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-instruction_execution__9"
+  },
+  {
+    "id": "39",
+    "category": "multi-instruction_execution",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-instruction_execution__39"
+  },
+  {
+    "id": "61",
+    "category": "multi-instruction_execution",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-instruction_execution__61"
+  },
+  {
+    "id": "1",
+    "category": "multi-instruction_execution",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-instruction_execution__1"
+  },
+  {
+    "id": "35",
+    "category": "multi-instruction_execution",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-instruction_execution__35"
+  },
+  {
+    "id": "47",
+    "category": "multi-element_composition",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-element_composition__47"
+  },
+  {
+    "id": "6",
+    "category": "multi-element_composition",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-element_composition__6"
+  },
+  {
+    "id": "41",
+    "category": "multi-instruction_execution",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-instruction_execution__41"
+  },
+  {
+    "id": "62",
+    "category": "multi-instruction_execution",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-instruction_execution__62"
+  },
+  {
+    "id": "22",
+    "category": "multi-element_composition",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-element_composition__22"
+  },
+  {
+    "id": "62",
+    "category": "multi-element_composition",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-element_composition__62"
+  },
+  {
+    "id": "38",
+    "category": "multi-element_composition",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-element_composition__38"
+  },
+  {
+    "id": "64",
+    "category": "multi-instruction_execution",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-instruction_execution__64"
+  },
+  {
+    "id": "66",
+    "category": "multi-element_composition",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-element_composition__66"
+  },
+  {
+    "id": "10",
+    "category": "multi-element_composition",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-element_composition__10"
+  },
+  {
+    "id": "6",
+    "category": "multi-instruction_execution",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-instruction_execution__6"
+  },
+  {
+    "id": "57",
+    "category": "multi-element_composition",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-element_composition__57"
+  },
+  {
+    "id": "13",
+    "category": "multi-instruction_execution",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-instruction_execution__13"
+  },
+  {
+    "id": "47",
+    "category": "multi-instruction_execution",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-instruction_execution__47"
+  },
+  {
+    "id": "45",
+    "category": "multi-element_composition",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-element_composition__45"
+  },
+  {
+    "id": "55",
+    "category": "multi-element_composition",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-element_composition__55"
+  },
+  {
+    "id": "49",
+    "category": "multi-instruction_execution",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-instruction_execution__49"
+  },
+  {
+    "id": "50",
+    "category": "multi-element_composition",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-element_composition__50"
+  },
+  {
+    "id": "13",
+    "category": "multi-element_composition",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-element_composition__13"
+  },
+  {
+    "id": "26",
+    "category": "multi-instruction_execution",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-instruction_execution__26"
+  },
+  {
+    "id": "29",
+    "category": "multi-instruction_execution",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-instruction_execution__29"
+  },
+  {
+    "id": "50",
+    "category": "multi-instruction_execution",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-instruction_execution__50"
+  },
+  {
+    "id": "42",
+    "category": "multi-element_composition",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-element_composition__42"
+  },
+  {
+    "id": "56",
+    "category": "multi-element_composition",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-element_composition__56"
+  },
+  {
+    "id": "74",
+    "category": "multi-instruction_execution",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-instruction_execution__74"
+  },
+  {
+    "id": "68",
+    "category": "multi-instruction_execution",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-instruction_execution__68"
+  },
+  {
+    "id": "8",
+    "category": "multi-element_composition",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-element_composition__8"
+  },
+  {
+    "id": "28",
+    "category": "multi-element_composition",
+    "reasoning_dimension": "instruction_decomposition",
+    "knowledge_type": "procedural",
+    "example_uid": "multi-element_composition__28"
+  },
+  {
+    "id": "66",
+    "category": "rule-based_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "rule-based_reasoning__66"
+  },
+  {
+    "id": "44",
+    "category": "rule-based_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "rule-based_reasoning__44"
+  },
+  {
+    "id": "3",
+    "category": "rule-based_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "rule-based_reasoning__3"
+  },
+  {
+    "id": "53",
+    "category": "rule-based_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "rule-based_reasoning__53"
+  },
+  {
+    "id": "39",
+    "category": "rule-based_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "rule-based_reasoning__39"
+  },
+  {
+    "id": "29",
+    "category": "rule-based_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "rule-based_reasoning__29"
+  },
+  {
+    "id": "9",
+    "category": "abstract_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "abstract_reasoning__9"
+  },
+  {
+    "id": "17",
+    "category": "rule-based_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "rule-based_reasoning__17"
+  },
+  {
+    "id": "46",
+    "category": "abstract_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "abstract_reasoning__46"
+  },
+  {
+    "id": "55",
+    "category": "rule-based_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "rule-based_reasoning__55"
+  },
+  {
+    "id": "74",
+    "category": "abstract_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "abstract_reasoning__74"
+  },
+  {
+    "id": "4",
+    "category": "abstract_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "abstract_reasoning__4"
+  },
+  {
+    "id": "21",
+    "category": "rule-based_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "rule-based_reasoning__21"
+  },
+  {
+    "id": "45",
+    "category": "abstract_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "abstract_reasoning__45"
+  },
+  {
+    "id": "33",
+    "category": "rule-based_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "rule-based_reasoning__33"
+  },
+  {
+    "id": "42",
+    "category": "rule-based_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "rule-based_reasoning__42"
+  },
+  {
+    "id": "51",
+    "category": "rule-based_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "rule-based_reasoning__51"
+  },
+  {
+    "id": "29",
+    "category": "abstract_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "abstract_reasoning__29"
+  },
+  {
+    "id": "6",
+    "category": "rule-based_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "rule-based_reasoning__6"
+  },
+  {
+    "id": "58",
+    "category": "rule-based_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "rule-based_reasoning__58"
+  },
+  {
+    "id": "51",
+    "category": "abstract_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "abstract_reasoning__51"
+  },
+  {
+    "id": "67",
+    "category": "abstract_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "abstract_reasoning__67"
+  },
+  {
+    "id": "60",
+    "category": "rule-based_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "rule-based_reasoning__60"
+  },
+  {
+    "id": "26",
+    "category": "rule-based_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "rule-based_reasoning__26"
+  },
+  {
+    "id": "35",
+    "category": "abstract_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "abstract_reasoning__35"
+  },
+  {
+    "id": "73",
+    "category": "abstract_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "abstract_reasoning__73"
+  },
+  {
+    "id": "19",
+    "category": "rule-based_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "rule-based_reasoning__19"
+  },
+  {
+    "id": "47",
+    "category": "abstract_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "abstract_reasoning__47"
+  },
+  {
+    "id": "40",
+    "category": "rule-based_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "rule-based_reasoning__40"
+  },
+  {
+    "id": "7",
+    "category": "rule-based_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "rule-based_reasoning__7"
+  },
+  {
+    "id": "24",
+    "category": "abstract_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "abstract_reasoning__24"
+  },
+  {
+    "id": "19",
+    "category": "abstract_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "abstract_reasoning__19"
+  },
+  {
+    "id": "8",
+    "category": "rule-based_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "rule-based_reasoning__8"
+  },
+  {
+    "id": "58",
+    "category": "abstract_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "abstract_reasoning__58"
+  },
+  {
+    "id": "14",
+    "category": "abstract_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "abstract_reasoning__14"
+  },
+  {
+    "id": "28",
+    "category": "rule-based_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "rule-based_reasoning__28"
+  },
+  {
+    "id": "71",
+    "category": "abstract_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "abstract_reasoning__71"
+  },
+  {
+    "id": "48",
+    "category": "abstract_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "abstract_reasoning__48"
+  },
+  {
+    "id": "38",
+    "category": "abstract_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "abstract_reasoning__38"
+  },
+  {
+    "id": "34",
+    "category": "abstract_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "abstract_reasoning__34"
+  },
+  {
+    "id": "64",
+    "category": "abstract_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "abstract_reasoning__64"
+  },
+  {
+    "id": "12",
+    "category": "rule-based_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "rule-based_reasoning__12"
+  },
+  {
+    "id": "36",
+    "category": "abstract_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "abstract_reasoning__36"
+  },
+  {
+    "id": "61",
+    "category": "rule-based_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "rule-based_reasoning__61"
+  },
+  {
+    "id": "63",
+    "category": "abstract_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "abstract_reasoning__63"
+  },
+  {
+    "id": "21",
+    "category": "abstract_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "abstract_reasoning__21"
+  },
+  {
+    "id": "24",
+    "category": "rule-based_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "rule-based_reasoning__24"
+  },
+  {
+    "id": "69",
+    "category": "abstract_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "abstract_reasoning__69"
+  },
+  {
+    "id": "8",
+    "category": "abstract_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "abstract_reasoning__8"
+  },
+  {
+    "id": "47",
+    "category": "rule-based_reasoning",
+    "reasoning_dimension": "logical_reasoning",
+    "knowledge_type": "procedural",
+    "example_uid": "rule-based_reasoning__47"
+  },
+  {
+    "id": "35",
+    "category": "geography",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "geography__35"
+  },
+  {
+    "id": "12",
+    "category": "physics",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "physics__12"
+  },
+  {
+    "id": "41",
+    "category": "medicine",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "medicine__41"
+  },
+  {
+    "id": "46",
+    "category": "physics",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "physics__46"
+  },
+  {
+    "id": "4",
+    "category": "mathematics",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "mathematics__4"
+  },
+  {
+    "id": "41",
+    "category": "chemistry",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "chemistry__41"
+  },
+  {
+    "id": "13",
+    "category": "medicine",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "medicine__13"
+  },
+  {
+    "id": "57",
+    "category": "chemistry",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "chemistry__57"
+  },
+  {
+    "id": "23",
+    "category": "biology",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "biology__23"
+  },
+  {
+    "id": "25",
+    "category": "mathematics",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "mathematics__25"
+  },
+  {
+    "id": "13",
+    "category": "mathematics",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "mathematics__13"
+  },
+  {
+    "id": "39",
+    "category": "biology",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "biology__39"
+  },
+  {
+    "id": "14",
+    "category": "mathematics",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "mathematics__14"
+  },
+  {
+    "id": "56",
+    "category": "physics",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "physics__56"
+  },
+  {
+    "id": "48",
+    "category": "mathematics",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "mathematics__48"
+  },
+  {
+    "id": "72",
+    "category": "chemistry",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "chemistry__72"
+  },
+  {
+    "id": "44",
+    "category": "chemistry",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "chemistry__44"
+  },
+  {
+    "id": "62",
+    "category": "biology",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "biology__62"
+  },
+  {
+    "id": "58",
+    "category": "biology",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "biology__58"
+  },
+  {
+    "id": "67",
+    "category": "chemistry",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "chemistry__67"
+  },
+  {
+    "id": "47",
+    "category": "physics",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "physics__47"
+  },
+  {
+    "id": "51",
+    "category": "chemistry",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "chemistry__51"
+  },
+  {
+    "id": "5",
+    "category": "mathematics",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "mathematics__5"
+  },
+  {
+    "id": "62",
+    "category": "geography",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "geography__62"
+  },
+  {
+    "id": "48",
+    "category": "medicine",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "medicine__48"
+  },
+  {
+    "id": "11",
+    "category": "medicine",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "medicine__11"
+  },
+  {
+    "id": "36",
+    "category": "biology",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "biology__36"
+  },
+  {
+    "id": "11",
+    "category": "chemistry",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "chemistry__11"
+  },
+  {
+    "id": "24",
+    "category": "medicine",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "medicine__24"
+  },
+  {
+    "id": "44",
+    "category": "geography",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "geography__44"
+  },
+  {
+    "id": "4",
+    "category": "biology",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "biology__4"
+  },
+  {
+    "id": "45",
+    "category": "geography",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "geography__45"
+  },
+  {
+    "id": "24",
+    "category": "chemistry",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "chemistry__24"
+  },
+  {
+    "id": "52",
+    "category": "physics",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "physics__52"
+  },
+  {
+    "id": "3",
+    "category": "biology",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "biology__3"
+  },
+  {
+    "id": "4",
+    "category": "physics",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "physics__4"
+  },
+  {
+    "id": "47",
+    "category": "mathematics",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "mathematics__47"
+  },
+  {
+    "id": "25",
+    "category": "geography",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "geography__25"
+  },
+  {
+    "id": "47",
+    "category": "geography",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "geography__47"
+  },
+  {
+    "id": "14",
+    "category": "medicine",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "medicine__14"
+  },
+  {
+    "id": "24",
+    "category": "physics",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "physics__24"
+  },
+  {
+    "id": "2",
+    "category": "biology",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "biology__2"
+  },
+  {
+    "id": "46",
+    "category": "medicine",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "medicine__46"
+  },
+  {
+    "id": "13",
+    "category": "geography",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "geography__13"
+  },
+  {
+    "id": "75",
+    "category": "physics",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "physics__75"
+  },
+  {
+    "id": "47",
+    "category": "medicine",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "medicine__47"
+  },
+  {
+    "id": "21",
+    "category": "geography",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "geography__21"
+  },
+  {
+    "id": "46",
+    "category": "chemistry",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "chemistry__46"
+  },
+  {
+    "id": "24",
+    "category": "mathematics",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "mathematics__24"
+  },
+  {
+    "id": "44",
+    "category": "biology",
+    "reasoning_dimension": "natural_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "biology__44"
+  },
+  {
+    "id": "28",
+    "category": "practical_knowledge",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "practical_knowledge__28"
+  },
+  {
+    "id": "10",
+    "category": "humanities",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "humanities__10"
+  },
+  {
+    "id": "67",
+    "category": "humanities",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "humanities__67"
+  },
+  {
+    "id": "14",
+    "category": "humanities",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "humanities__14"
+  },
+  {
+    "id": "34",
+    "category": "humanities",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "humanities__34"
+  },
+  {
+    "id": "53",
+    "category": "humanities",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "humanities__53"
+  },
+  {
+    "id": "14",
+    "category": "practical_knowledge",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "practical_knowledge__14"
+  },
+  {
+    "id": "13",
+    "category": "practical_knowledge",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "practical_knowledge__13"
+  },
+  {
+    "id": "61",
+    "category": "humanities",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "humanities__61"
+  },
+  {
+    "id": "7",
+    "category": "practical_knowledge",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "practical_knowledge__7"
+  },
+  {
+    "id": "3",
+    "category": "humanities",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "humanities__3"
+  },
+  {
+    "id": "52",
+    "category": "humanities",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "humanities__52"
+  },
+  {
+    "id": "42",
+    "category": "practical_knowledge",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "practical_knowledge__42"
+  },
+  {
+    "id": "35",
+    "category": "practical_knowledge",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "practical_knowledge__35"
+  },
+  {
+    "id": "16",
+    "category": "practical_knowledge",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "practical_knowledge__16"
+  },
+  {
+    "id": "29",
+    "category": "practical_knowledge",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "practical_knowledge__29"
+  },
+  {
+    "id": "6",
+    "category": "humanities",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "humanities__6"
+  },
+  {
+    "id": "47",
+    "category": "practical_knowledge",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "practical_knowledge__47"
+  },
+  {
+    "id": "9",
+    "category": "humanities",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "humanities__9"
+  },
+  {
+    "id": "41",
+    "category": "practical_knowledge",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "practical_knowledge__41"
+  },
+  {
+    "id": "32",
+    "category": "practical_knowledge",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "practical_knowledge__32"
+  },
+  {
+    "id": "54",
+    "category": "humanities",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "humanities__54"
+  },
+  {
+    "id": "24",
+    "category": "humanities",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "humanities__24"
+  },
+  {
+    "id": "20",
+    "category": "practical_knowledge",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "practical_knowledge__20"
+  },
+  {
+    "id": "45",
+    "category": "practical_knowledge",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "practical_knowledge__45"
+  },
+  {
+    "id": "40",
+    "category": "practical_knowledge",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "practical_knowledge__40"
+  },
+  {
+    "id": "62",
+    "category": "humanities",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "humanities__62"
+  },
+  {
+    "id": "39",
+    "category": "practical_knowledge",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "practical_knowledge__39"
+  },
+  {
+    "id": "27",
+    "category": "humanities",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "humanities__27"
+  },
+  {
+    "id": "46",
+    "category": "humanities",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "humanities__46"
+  },
+  {
+    "id": "42",
+    "category": "humanities",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "humanities__42"
+  },
+  {
+    "id": "57",
+    "category": "humanities",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "humanities__57"
+  },
+  {
+    "id": "25",
+    "category": "practical_knowledge",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "practical_knowledge__25"
+  },
+  {
+    "id": "49",
+    "category": "practical_knowledge",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "practical_knowledge__49"
+  },
+  {
+    "id": "44",
+    "category": "practical_knowledge",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "practical_knowledge__44"
+  },
+  {
+    "id": "23",
+    "category": "practical_knowledge",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "practical_knowledge__23"
+  },
+  {
+    "id": "36",
+    "category": "humanities",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "humanities__36"
+  },
+  {
+    "id": "50",
+    "category": "practical_knowledge",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "practical_knowledge__50"
+  },
+  {
+    "id": "3",
+    "category": "practical_knowledge",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "practical_knowledge__3"
+  },
+  {
+    "id": "27",
+    "category": "practical_knowledge",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "practical_knowledge__27"
+  },
+  {
+    "id": "21",
+    "category": "humanities",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "humanities__21"
+  },
+  {
+    "id": "46",
+    "category": "practical_knowledge",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "practical_knowledge__46"
+  },
+  {
+    "id": "68",
+    "category": "humanities",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "humanities__68"
+  },
+  {
+    "id": "22",
+    "category": "humanities",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "humanities__22"
+  },
+  {
+    "id": "2",
+    "category": "practical_knowledge",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "practical_knowledge__2"
+  },
+  {
+    "id": "15",
+    "category": "humanities",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "humanities__15"
+  },
+  {
+    "id": "47",
+    "category": "humanities",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "humanities__47"
+  },
+  {
+    "id": "75",
+    "category": "humanities",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "humanities__75"
+  },
+  {
+    "id": "21",
+    "category": "practical_knowledge",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "practical_knowledge__21"
+  },
+  {
+    "id": "65",
+    "category": "humanities",
+    "reasoning_dimension": "social_science",
+    "knowledge_type": "conceptual",
+    "example_uid": "humanities__65"
+  },
+  {
+    "id": "43",
+    "category": "position_movement",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "position_movement__43"
+  },
+  {
+    "id": "24",
+    "category": "position_movement",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "position_movement__24"
+  },
+  {
+    "id": "43",
+    "category": "viewpoint_change",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "viewpoint_change__43"
+  },
+  {
+    "id": "36",
+    "category": "viewpoint_change",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "viewpoint_change__36"
+  },
+  {
+    "id": "3",
+    "category": "position_movement",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "position_movement__3"
+  },
+  {
+    "id": "24",
+    "category": "viewpoint_change",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "viewpoint_change__24"
+  },
+  {
+    "id": "20",
+    "category": "position_movement",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "position_movement__20"
+  },
+  {
+    "id": "16",
+    "category": "position_movement",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "position_movement__16"
+  },
+  {
+    "id": "29",
+    "category": "position_movement",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "position_movement__29"
+  },
+  {
+    "id": "49",
+    "category": "viewpoint_change",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "viewpoint_change__49"
+  },
+  {
+    "id": "45",
+    "category": "viewpoint_change",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "viewpoint_change__45"
+  },
+  {
+    "id": "37",
+    "category": "position_movement",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "position_movement__37"
+  },
+  {
+    "id": "11",
+    "category": "viewpoint_change",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "viewpoint_change__11"
+  },
+  {
+    "id": "27",
+    "category": "viewpoint_change",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "viewpoint_change__27"
+  },
+  {
+    "id": "27",
+    "category": "position_movement",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "position_movement__27"
+  },
+  {
+    "id": "19",
+    "category": "position_movement",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "position_movement__19"
+  },
+  {
+    "id": "45",
+    "category": "position_movement",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "position_movement__45"
+  },
+  {
+    "id": "48",
+    "category": "viewpoint_change",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "viewpoint_change__48"
+  },
+  {
+    "id": "22",
+    "category": "viewpoint_change",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "viewpoint_change__22"
+  },
+  {
+    "id": "19",
+    "category": "viewpoint_change",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "viewpoint_change__19"
+  },
+  {
+    "id": "4",
+    "category": "position_movement",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "position_movement__4"
+  },
+  {
+    "id": "14",
+    "category": "viewpoint_change",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "viewpoint_change__14"
+  },
+  {
+    "id": "34",
+    "category": "viewpoint_change",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "viewpoint_change__34"
+  },
+  {
+    "id": "48",
+    "category": "position_movement",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "position_movement__48"
+  },
+  {
+    "id": "31",
+    "category": "position_movement",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "position_movement__31"
+  },
+  {
+    "id": "3",
+    "category": "viewpoint_change",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "viewpoint_change__3"
+  },
+  {
+    "id": "13",
+    "category": "position_movement",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "position_movement__13"
+  },
+  {
+    "id": "13",
+    "category": "viewpoint_change",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "viewpoint_change__13"
+  },
+  {
+    "id": "32",
+    "category": "position_movement",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "position_movement__32"
+  },
+  {
+    "id": "21",
+    "category": "position_movement",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "position_movement__21"
+  },
+  {
+    "id": "35",
+    "category": "viewpoint_change",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "viewpoint_change__35"
+  },
+  {
+    "id": "8",
+    "category": "viewpoint_change",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "viewpoint_change__8"
+  },
+  {
+    "id": "33",
+    "category": "viewpoint_change",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "viewpoint_change__33"
+  },
+  {
+    "id": "30",
+    "category": "position_movement",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "position_movement__30"
+  },
+  {
+    "id": "41",
+    "category": "viewpoint_change",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "viewpoint_change__41"
+  },
+  {
+    "id": "44",
+    "category": "position_movement",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "position_movement__44"
+  },
+  {
+    "id": "6",
+    "category": "position_movement",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "position_movement__6"
+  },
+  {
+    "id": "39",
+    "category": "viewpoint_change",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "viewpoint_change__39"
+  },
+  {
+    "id": "44",
+    "category": "viewpoint_change",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "viewpoint_change__44"
+  },
+  {
+    "id": "16",
+    "category": "viewpoint_change",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "viewpoint_change__16"
+  },
+  {
+    "id": "23",
+    "category": "position_movement",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "position_movement__23"
+  },
+  {
+    "id": "12",
+    "category": "viewpoint_change",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "viewpoint_change__12"
+  },
+  {
+    "id": "41",
+    "category": "position_movement",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "position_movement__41"
+  },
+  {
+    "id": "11",
+    "category": "position_movement",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "position_movement__11"
+  },
+  {
+    "id": "25",
+    "category": "position_movement",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "position_movement__25"
+  },
+  {
+    "id": "1",
+    "category": "viewpoint_change",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "viewpoint_change__1"
+  },
+  {
+    "id": "23",
+    "category": "viewpoint_change",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "viewpoint_change__23"
+  },
+  {
+    "id": "47",
+    "category": "viewpoint_change",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "viewpoint_change__47"
+  },
+  {
+    "id": "46",
+    "category": "position_movement",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "position_movement__46"
+  },
+  {
+    "id": "7",
+    "category": "position_movement",
+    "reasoning_dimension": "spatial_perception",
+    "knowledge_type": "factual",
+    "example_uid": "position_movement__7"
+  },
+  {
+    "id": "16",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__16"
+  },
+  {
+    "id": "13",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__13"
+  },
+  {
+    "id": "72",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__72"
+  },
+  {
+    "id": "54",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__54"
+  },
+  {
+    "id": "71",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__71"
+  },
+  {
+    "id": "26",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__26"
+  },
+  {
+    "id": "43",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__43"
+  },
+  {
+    "id": "39",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__39"
+  },
+  {
+    "id": "37",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__37"
+  },
+  {
+    "id": "8",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__8"
+  },
+  {
+    "id": "65",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__65"
+  },
+  {
+    "id": "73",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__73"
+  },
+  {
+    "id": "55",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__55"
+  },
+  {
+    "id": "28",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__28"
+  },
+  {
+    "id": "42",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__42"
+  },
+  {
+    "id": "32",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__32"
+  },
+  {
+    "id": "66",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__66"
+  },
+  {
+    "id": "23",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__23"
+  },
+  {
+    "id": "64",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__64"
+  },
+  {
+    "id": "5",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__5"
+  },
+  {
+    "id": "18",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__18"
+  },
+  {
+    "id": "3",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__3"
+  },
+  {
+    "id": "74",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__74"
+  },
+  {
+    "id": "6",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__6"
+  },
+  {
+    "id": "2",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__2"
+  },
+  {
+    "id": "61",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__61"
+  },
+  {
+    "id": "35",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__35"
+  },
+  {
+    "id": "58",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__58"
+  },
+  {
+    "id": "31",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__31"
+  },
+  {
+    "id": "15",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__15"
+  },
+  {
+    "id": "60",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__60"
+  },
+  {
+    "id": "38",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__38"
+  },
+  {
+    "id": "57",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__57"
+  },
+  {
+    "id": "63",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__63"
+  },
+  {
+    "id": "29",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__29"
+  },
+  {
+    "id": "49",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__49"
+  },
+  {
+    "id": "56",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__56"
+  },
+  {
+    "id": "62",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__62"
+  },
+  {
+    "id": "68",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__68"
+  },
+  {
+    "id": "46",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__46"
+  },
+  {
+    "id": "7",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__7"
+  },
+  {
+    "id": "36",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__36"
+  },
+  {
+    "id": "67",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__67"
+  },
+  {
+    "id": "17",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__17"
+  },
+  {
+    "id": "53",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__53"
+  },
+  {
+    "id": "59",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__59"
+  },
+  {
+    "id": "33",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__33"
+  },
+  {
+    "id": "51",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__51"
+  },
+  {
+    "id": "10",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__10"
+  },
+  {
+    "id": "41",
+    "category": "temporal_prediction",
+    "reasoning_dimension": "temporal_prediction",
+    "knowledge_type": "factual",
+    "example_uid": "temporal_prediction__41"
+  }
+]
