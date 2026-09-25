@@ -7,7 +7,7 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=24G
 #SBATCH --time=06:00:00
-#SBATCH --job-name=step1x_base
+#SBATCH --job-name=rq1_base_kdev
 #SBATCH --output=logs/slurm_%x_%j.out
 #SBATCH --error=logs/slurm_%x_%j.err
 
@@ -19,42 +19,81 @@ echo "Node: $(hostname)"
 echo "Start: $(date)"
 echo "=========================================="
 
-# Load cluster modules
+# ---------------------------------------------------------
+# Environment
+# ---------------------------------------------------------
+
 module purge
 module load anaconda
 module load cuda/12.8.0
 
-# Enable conda inside batch shell
 eval "$(conda shell.bash hook)"
-
-# Activate your environment
 conda activate step1x
 
-# Move to project directory
 cd ~/reasoning-image-edit
 
+# ---------------------------------------------------------
 # Hugging Face cache
+# ---------------------------------------------------------
+
 export HF_HOME=$HOME/hf_cache
 export HUGGINGFACE_HUB_CACHE=$HF_HOME/hub
 
+# ---------------------------------------------------------
+# Directories
+# ---------------------------------------------------------
+
 mkdir -p logs
-mkdir -p outputs/base
+mkdir -p outputs/rq1/base
+
+# ---------------------------------------------------------
+# Environment check
+# ---------------------------------------------------------
 
 echo "Python:"
 which python
 
+echo
 echo "GPU:"
 nvidia-smi
 
+echo
 echo "PyTorch:"
-python -c "import torch; print(torch.__version__); print('CUDA:', torch.cuda.is_available()); print('GPU:', torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'none')"
+python - <<'PY'
+import torch
 
-echo "Starting experiment..."
+print("Torch:", torch.__version__)
+print("CUDA available:", torch.cuda.is_available())
+
+if torch.cuda.is_available():
+    print("GPU:", torch.cuda.get_device_name(0))
+    print(
+        "GPU memory:",
+        round(
+            torch.cuda.get_device_properties(0).total_memory
+            / 1024**3,
+            2,
+        ),
+        "GB",
+    )
+PY
+
+# ---------------------------------------------------------
+# RQ1 Base / K-dev
+# ---------------------------------------------------------
+
+echo
+echo "=========================================="
+echo "Starting RQ1 Base K-dev"
+echo "=========================================="
 
 python -m src.run_experiment \
     --config configs/base.yaml \
-    --evaluation-set data/evaluation_set.json
+    --splits data/splits.json \
+    --split k_dev \
+    --seed 42
 
+echo
 echo "=========================================="
 echo "Finished: $(date)"
 echo "=========================================="

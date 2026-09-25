@@ -1,8 +1,4 @@
-from dataset import (
-    load_kris_bench,
-    get_source_images,
-    print_example_info,
-)
+from dataset import (load_kris_bench,get_source_images,print_example_info,)
 
 
 dataset = load_kris_bench()

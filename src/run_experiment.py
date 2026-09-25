@@ -39,7 +39,8 @@ def build_log_path(
     seed: int,
 ) -> Path:
     """
-    Create a separate log file for each split and seed.
+    Create a separate log file
+    for each split and seed.
 
     Example:
         logs/rq1_thinking.jsonl
@@ -47,9 +48,14 @@ def build_log_path(
         logs/rq1_thinking_k_test_seed42.jsonl
     """
 
-    path = Path(base_log_file)
+    path = Path(
+        base_log_file
+    )
 
-    suffix = path.suffix or ".jsonl"
+    suffix = (
+        path.suffix
+        or ".jsonl"
+    )
 
     filename = (
         f"{path.stem}_"
@@ -58,7 +64,10 @@ def build_log_path(
         f"{suffix}"
     )
 
-    return path.parent / filename
+    return (
+        path.parent
+        / filename
+    )
 
 
 def save_candidate_images(
@@ -67,15 +76,13 @@ def save_candidate_images(
     example_uid: str,
 ):
     """
-    Save every candidate image returned by Step1X.
+    Save candidate images returned
+    by Step1X.
 
-    This is particularly important for the RQ1.2
-    correction condition.
-
-    Note:
-    The exact Step1X correction candidate semantics
-    will still need to be verified before the final
-    RQ1.2 run.
+    Important:
+    For RQ1.2, exact candidate semantics
+    must still be verified from the
+    Step1X retry loop.
     """
 
     candidate_paths = []
@@ -86,6 +93,7 @@ def save_candidate_images(
     for candidate_idx, image in enumerate(
         candidate_images
     ):
+
         candidate_path = (
             output_dir
             / (
@@ -94,7 +102,9 @@ def save_candidate_images(
             )
         )
 
-        image.save(candidate_path)
+        image.save(
+            candidate_path
+        )
 
         candidate_paths.append(
             str(candidate_path)
@@ -107,20 +117,25 @@ def main():
 
     parser = argparse.ArgumentParser(
         description=(
-            "Run Step1X RQ1 image-editing experiments."
+            "Run Step1X RQ1 "
+            "image-editing experiments."
         )
     )
 
     parser.add_argument(
         "--config",
         required=True,
-        help="Path to RQ1 YAML config.",
+        help=(
+            "Path to RQ1 YAML config."
+        ),
     )
 
     parser.add_argument(
         "--splits",
         default="data/splits.json",
-        help="Path to frozen splits.json.",
+        help=(
+            "Path to frozen splits.json."
+        ),
     )
 
     parser.add_argument(
@@ -132,9 +147,7 @@ def main():
             "k_small",
         ],
         help=(
-            "Dataset split to run. "
-            "RQ1 final experiments use k_test "
-            "and k_small."
+            "Dataset split to run."
         ),
     )
 
@@ -144,9 +157,9 @@ def main():
         required=True,
         help=(
             "Base seed. "
-            "Use 42 for K-test. "
-            "Use 42, 1234 and 7 for "
-            "three-seed K-small runs."
+            "Use 42 for single-seed runs. "
+            "K-small additionally uses "
+            "1234 and 7."
         ),
     )
 
@@ -165,37 +178,49 @@ def main():
         seed=args.seed,
     )
 
-    condition = config[
-        "experiment_name"
-    ]
+    condition = (
+        config[
+            "experiment_name"
+        ]
+    )
 
-    model_id = config[
-        "model"
-    ][
-        "model_id"
-    ]
+    model_id = (
+        config[
+            "model"
+        ][
+            "model_id"
+        ]
+    )
 
-    generation_cfg = config[
-        "generation"
-    ]
+    generation_cfg = (
+        config[
+            "generation"
+        ]
+    )
 
     # =========================================================
     # Dataset
     # =========================================================
 
     print(
-        f"Loading KRIS-Bench..."
+        "Loading KRIS-Bench..."
     )
 
-    dataset = load_kris_bench()
-
-    examples = select_split_examples(
-        dataset=dataset,
-        splits_path=args.splits,
-        split_name=args.split,
+    dataset = (
+        load_kris_bench()
     )
 
-    total = len(examples)
+    examples = (
+        select_split_examples(
+            dataset=dataset,
+            splits_path=args.splits,
+            split_name=args.split,
+        )
+    )
+
+    total = len(
+        examples
+    )
 
     print(
         f"Split: {args.split}"
@@ -215,7 +240,9 @@ def main():
 
     output_dir = (
         Path(
-            config["output_dir"]
+            config[
+                "output_dir"
+            ]
         )
         / args.split
         / f"seed_{args.seed}"
@@ -235,22 +262,36 @@ def main():
     # Log file
     # =========================================================
 
-    log_file = build_log_path(
-        base_log_file=config["log_file"],
-        split_name=args.split,
-        seed=args.seed,
+    log_file = (
+        build_log_path(
+            base_log_file=
+                config[
+                    "log_file"
+                ],
+
+            split_name=
+                args.split,
+
+            seed=
+                args.seed,
+        )
     )
 
-    logger = ExperimentLogger(
-        str(log_file)
+    logger = (
+        ExperimentLogger(
+            str(log_file)
+        )
     )
 
-    completed = load_completed_run_keys(
-        str(log_file)
+    completed = (
+        load_completed_run_keys(
+            str(log_file)
+        )
     )
 
     print(
-        f"Log file: {log_file}"
+        f"Log file: "
+        f"{log_file}"
     )
 
     print(
@@ -262,35 +303,56 @@ def main():
     # Model
     # =========================================================
 
-    runner = Step1XRunner(
-        config
+    runner = (
+        Step1XRunner(
+            config
+        )
     )
 
     # =========================================================
-    # Experiment
+    # Experiment counters
     # =========================================================
 
     success_count = 0
     failure_count = 0
     skipped_count = 0
 
+    # =========================================================
+    # Experiment loop
+    # =========================================================
+
     for idx in range(total):
 
-        raw_example = examples[idx]
-
-        example = prepare_example(
-            raw_example
+        raw_example = (
+            examples[idx]
         )
 
-        example_uid = example[
-            "example_uid"
-        ]
+        example = (
+            prepare_example(
+                raw_example
+            )
+        )
 
-        run_key = make_run_key(
-            example_uid=example_uid,
-            condition=condition,
-            base_seed=args.seed,
-            split_name=args.split,
+        example_uid = (
+            example[
+                "example_uid"
+            ]
+        )
+
+        run_key = (
+            make_run_key(
+                example_uid=
+                    example_uid,
+
+                condition=
+                    condition,
+
+                base_seed=
+                    args.seed,
+
+                split_name=
+                    args.split,
+            )
         )
 
         # -----------------------------------------------------
@@ -331,15 +393,31 @@ def main():
             f"{example['instruction']}"
         )
 
-        # Stage seeds are derived here as well so that
-        # a failure can still be logged with the intended
-        # deterministic seeds.
-        stage_seeds = get_rq1_stage_seeds(
-            base_seed=args.seed,
-            example_uid=example_uid,
-            max_try_cnt=generation_cfg[
-                "max_try_cnt"
-            ],
+        # -----------------------------------------------------
+        # Precompute stage seeds
+        # -----------------------------------------------------
+
+        stage_seeds = (
+            get_rq1_stage_seeds(
+                base_seed=
+                    args.seed,
+
+                example_uid=
+                    example_uid,
+
+                max_try_cnt=
+                    generation_cfg[
+                        "max_try_cnt"
+                    ],
+            )
+        )
+
+        # True end-to-end timer.
+        #
+        # Starts before decoding and ends
+        # after images have been saved.
+        end_to_end_start = (
+            time.perf_counter()
         )
 
         try:
@@ -365,8 +443,8 @@ def main():
 
             if len(images) != 1:
                 raise RuntimeError(
-                    f"RQ1 expected exactly one "
-                    f"source image, got "
+                    f"RQ1 expected exactly "
+                    f"one source image, got "
                     f"{len(images)}."
                 )
 
@@ -374,17 +452,25 @@ def main():
             # Inference
             # =================================================
 
-            result = runner.run(
-                images=images,
-                instruction=example[
-                    "instruction"
-                ],
-                example_uid=example_uid,
-                base_seed=args.seed,
+            result = (
+                runner.run(
+                    images=images,
+
+                    instruction=
+                        example[
+                            "instruction"
+                        ],
+
+                    example_uid=
+                        example_uid,
+
+                    base_seed=
+                        args.seed,
+                )
             )
 
             # =================================================
-            # Save final + candidates
+            # Save final output
             # =================================================
 
             postprocess_start = (
@@ -402,13 +488,22 @@ def main():
                 output_path
             )
 
+            # =================================================
+            # Save candidates
+            # =================================================
+
             candidate_paths = (
                 save_candidate_images(
-                    candidate_images=result.get(
-                        "candidate_images"
-                    ),
-                    output_dir=output_dir,
-                    example_uid=example_uid,
+                    candidate_images=
+                        result.get(
+                            "candidate_images"
+                        ),
+
+                    output_dir=
+                        output_dir,
+
+                    example_uid=
+                        example_uid,
                 )
             )
 
@@ -417,44 +512,86 @@ def main():
                 - postprocess_start
             )
 
-            # If Step1X returned only one image and that is
-            # the final image, this is safe to record.
+            # =================================================
+            # Direct end-to-end timing
+            # =================================================
+
+            latency_end_to_end_sec = (
+                time.perf_counter()
+                - end_to_end_start
+            )
+
+            # =================================================
+            # Candidate metadata
+            # =================================================
+
             selected_candidate_index = (
                 result.get(
                     "selected_candidate_index"
                 )
             )
 
+            attempt_count = (
+                result.get(
+                    "attempt_count"
+                )
+            )
+
+            retry_triggered = (
+                result.get(
+                    "retry_triggered"
+                )
+            )
+
+            stop_reason = (
+                result.get(
+                    "stop_reason"
+                )
+            )
+
+            selected_is_last_candidate = (
+                result.get(
+                    "selected_is_last_candidate"
+                )
+            )
+
+            # For single-attempt Base / Thinking,
+            # if Step1X exposes exactly one returned
+            # image and no explicit index, we can
+            # safely record candidate 0.
             if (
                 selected_candidate_index
                 is None
                 and len(candidate_paths) == 1
+                and generation_cfg[
+                    "max_try_cnt"
+                ] == 1
             ):
                 selected_candidate_index = 0
 
-            attempt_count = result.get(
-                "attempt_count"
-            )
-
-            retry_triggered = result.get(
-                "retry_triggered"
-            )
-
             # =================================================
-            # Build log record
+            # Build generation record
             # =================================================
 
             record = (
                 build_generation_record(
+
+                    # -----------------------------------------
                     # Identity
+                    # -----------------------------------------
+
                     example_uid=
                         example_uid,
 
                     example_id=
-                        example["id"],
+                        example[
+                            "id"
+                        ],
 
                     category=
-                        example["category"],
+                        example[
+                            "category"
+                        ],
 
                     reasoning_dimension=
                         example[
@@ -466,7 +603,10 @@ def main():
                             "knowledge_type"
                         ],
 
+                    # -----------------------------------------
                     # Input
+                    # -----------------------------------------
+
                     instruction=
                         example[
                             "instruction"
@@ -475,7 +615,10 @@ def main():
                     num_source_images=
                         len(images),
 
+                    # -----------------------------------------
                     # Experiment
+                    # -----------------------------------------
+
                     model_id=
                         model_id,
 
@@ -485,7 +628,13 @@ def main():
                     split_name=
                         args.split,
 
+                    full_config=
+                        config,
+
+                    # -----------------------------------------
                     # Randomness
+                    # -----------------------------------------
+
                     base_seed=
                         args.seed,
 
@@ -494,7 +643,10 @@ def main():
                             "stage_seeds"
                         ],
 
+                    # -----------------------------------------
                     # Generation
+                    # -----------------------------------------
+
                     num_inference_steps=
                         generation_cfg[
                             "num_inference_steps"
@@ -520,11 +672,17 @@ def main():
                             "max_try_cnt"
                         ],
 
+                    # -----------------------------------------
                     # Main output
+                    # -----------------------------------------
+
                     output_path=
                         str(output_path),
 
-                    # Candidates
+                    # -----------------------------------------
+                    # Candidate / correction
+                    # -----------------------------------------
+
                     candidate_paths=
                         candidate_paths,
 
@@ -537,7 +695,16 @@ def main():
                     retry_triggered=
                         retry_triggered,
 
+                    stop_reason=
+                        stop_reason,
+
+                    selected_is_last_candidate=
+                        selected_is_last_candidate,
+
+                    # -----------------------------------------
                     # Reasoning
+                    # -----------------------------------------
+
                     reformat_prompt=
                         result.get(
                             "reformat_prompt"
@@ -546,6 +713,11 @@ def main():
                     think_info=
                         result.get(
                             "think_info"
+                        ),
+
+                    thinking_token_count=
+                        result.get(
+                            "thinking_token_count"
                         ),
 
                     best_info=
@@ -558,10 +730,21 @@ def main():
                             "reflection_info"
                         ),
 
-                    # Timing
-                    latency_total_sec=
+                    reflection_token_count=
                         result.get(
-                            "latency_total_sec"
+                            "reflection_token_count"
+                        ),
+
+                    # -----------------------------------------
+                    # Timing
+                    # -----------------------------------------
+
+                    latency_end_to_end_sec=
+                        latency_end_to_end_sec,
+
+                    latency_pipeline_sec=
+                        result.get(
+                            "latency_pipeline_sec"
                         ),
 
                     latency_preprocess_sec=
@@ -572,28 +755,42 @@ def main():
                             "latency_thinking_sec"
                         ),
 
-                    latency_diffusion_sec=
+                    latency_diffusion_attempts_sec=
                         result.get(
-                            "latency_diffusion_sec"
+                            "latency_diffusion_attempts_sec"
                         ),
 
-                    latency_reflection_sec=
+                    latency_reflection_rounds_sec=
                         result.get(
-                            "latency_reflection_sec"
+                            "latency_reflection_rounds_sec"
                         ),
 
                     latency_postprocess_sec=
                         latency_postprocess_sec,
 
+                    latency_offload_sec=
+                        result.get(
+                            "latency_offload_sec"
+                        ),
+
+                    # -----------------------------------------
                     # Resources
+                    # -----------------------------------------
+
                     peak_vram_gb=
                         result.get(
                             "peak_vram_gb"
                         ),
 
+                    # -----------------------------------------
                     # Status
-                    status="success",
-                    error=None,
+                    # -----------------------------------------
+
+                    status=
+                        "success",
+
+                    error=
+                        None,
                 )
             )
 
@@ -601,7 +798,16 @@ def main():
                 record
             )
 
+            # Update in-memory completed set as well.
+            completed.add(
+                run_key
+            )
+
             success_count += 1
+
+            # =================================================
+            # Console output
+            # =================================================
 
             print(
                 f"Saved: "
@@ -609,13 +815,19 @@ def main():
             )
 
             print(
-                f"Latency: "
-                f"{result['latency_total_sec']:.2f}s"
+                f"Pipeline latency: "
+                f"{result['latency_pipeline_sec']:.2f}s"
+            )
+
+            print(
+                f"End-to-end latency: "
+                f"{latency_end_to_end_sec:.2f}s"
             )
 
             if result.get(
                 "reformat_prompt"
             ):
+
                 print(
                     "Rewritten prompt:",
                     result[
@@ -623,7 +835,20 @@ def main():
                     ],
                 )
 
+            if (
+                result.get(
+                    "thinking_token_count"
+                )
+                is not None
+            ):
+
+                print(
+                    f"Rewrite tokens: "
+                    f"{result['thinking_token_count']}"
+                )
+
             if attempt_count is not None:
+
                 print(
                     f"Attempts: "
                     f"{attempt_count}"
@@ -632,6 +857,11 @@ def main():
         except Exception as exc:
 
             failure_count += 1
+
+            latency_end_to_end_sec = (
+                time.perf_counter()
+                - end_to_end_start
+            )
 
             print(
                 f"FAILED: "
@@ -645,15 +875,22 @@ def main():
             log_failure(
                 logger=logger,
 
+                # ---------------------------------------------
                 # Identity
+                # ---------------------------------------------
+
                 example_uid=
                     example_uid,
 
                 example_id=
-                    example["id"],
+                    example[
+                        "id"
+                    ],
 
                 category=
-                    example["category"],
+                    example[
+                        "category"
+                    ],
 
                 reasoning_dimension=
                     example[
@@ -665,7 +902,10 @@ def main():
                         "knowledge_type"
                     ],
 
+                # ---------------------------------------------
                 # Input
+                # ---------------------------------------------
+
                 instruction=
                     example[
                         "instruction"
@@ -676,7 +916,10 @@ def main():
                         "num_source_images"
                     ],
 
+                # ---------------------------------------------
                 # Experiment
+                # ---------------------------------------------
+
                 model_id=
                     model_id,
 
@@ -686,14 +929,23 @@ def main():
                 split_name=
                     args.split,
 
+                full_config=
+                    config,
+
+                # ---------------------------------------------
                 # Randomness
+                # ---------------------------------------------
+
                 base_seed=
                     args.seed,
 
                 stage_seeds=
                     stage_seeds,
 
+                # ---------------------------------------------
                 # Generation
+                # ---------------------------------------------
+
                 num_inference_steps=
                     generation_cfg[
                         "num_inference_steps"
@@ -719,7 +971,15 @@ def main():
                         "max_try_cnt"
                     ],
 
-                error=exc,
+                # ---------------------------------------------
+                # Failure
+                # ---------------------------------------------
+
+                error=
+                    exc,
+
+                latency_end_to_end_sec=
+                    latency_end_to_end_sec,
             )
 
     # =========================================================

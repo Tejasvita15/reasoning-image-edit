@@ -1,7 +1,7 @@
 # src/step1x_runner.py
 
 import time
-from typing import Any, Dict
+from typing import Any, Dict, Optional
 
 import torch
 from diffusers import Step1XEditPipelineV1P2
@@ -21,14 +21,14 @@ DTYPE_MAP = {
 
 class Step1XRunner:
     """
-    Wrapper around Step1X-Edit-v1p2 for RQ1 experiments.
+    Step1X-Edit-v1p2 wrapper for RQ1 experiments.
 
     Supports:
-    - Base / direct editing
-    - Thinking-only
-    - Thinking + correction
+    - direct editing
+    - thinking-only
+    - thinking + correction
 
-    All generation flags are passed explicitly.
+    The Step1X library itself is left unchanged.
     """
 
     def __init__(
@@ -38,7 +38,6 @@ class Step1XRunner:
         self.config = config
 
         model_cfg = config["model"]
-
         dtype_name = model_cfg["dtype"]
 
         if dtype_name not in DTYPE_MAP:
@@ -47,25 +46,24 @@ class Step1XRunner:
             )
 
         dtype = DTYPE_MAP[dtype_name]
+        model_id = model_cfg["model_id"]
 
-        print(
-            f"Loading model: "
-            f"{model_cfg['model_id']}"
+        print(f"Loading model: {model_id}")
+
+        self.pipe = Step1XEditPipelineV1P2.from_pretrained(
+            model_id,
+            torch_dtype=dtype,
         )
 
-        self.pipe = (
-            Step1XEditPipelineV1P2.from_pretrained(
-                model_cfg["model_id"],
-                torch_dtype=dtype,
+        self.cpu_offload = bool(
+            model_cfg.get(
+                "cpu_offload",
+                False,
             )
         )
 
-        if model_cfg.get(
-            "cpu_offload",
-            False,
-        ):
+        if self.cpu_offload:
             self.pipe.enable_model_cpu_offload()
-
         else:
             if not torch.cuda.is_available():
                 raise RuntimeError(
@@ -77,6 +75,225 @@ class Step1XRunner:
 
         print("Step1X loaded.")
 
+    @staticmethod
+    def _sync_cuda() -> None:
+        """
+        Synchronize CUDA before/after wall-clock timing.
+        """
+
+        if torch.cuda.is_available():
+            torch.cuda.synchronize()
+
+    @staticmethod
+    def _count_text_tokens(
+        tokenizer,
+        text: Optional[str],
+    ) -> Optional[int]:
+        """
+        Count tokens with the model tokenizer when available.
+        """
+
+        if not text:
+            return 0
+
+        if tokenizer is None:
+            return None
+
+        try:
+            encoded = tokenizer(
+                text,
+                add_special_tokens=False,
+                return_attention_mask=False,
+                return_token_type_ids=False,
+            )
+
+            input_ids = encoded["input_ids"]
+
+            if (
+                len(input_ids) > 0
+                and isinstance(
+                    input_ids[0],
+                    list,
+                )
+            ):
+                input_ids = input_ids[0]
+
+            return len(input_ids)
+
+        except Exception:
+            return None
+
+    def _get_available_tokenizer(
+        self,
+    ):
+        """
+        Return the tokenizer actually exposed by Step1X.
+        """
+
+        processor = getattr(
+            self.pipe,
+            "processor",
+            None,
+        )
+
+        if processor is not None:
+            tokenizer = getattr(
+                processor,
+                "tokenizer",
+                None,
+            )
+
+            if tokenizer is not None:
+                return tokenizer
+
+        for name in (
+            "tokenizer",
+            "tokenizer_2",
+        ):
+            tokenizer = getattr(
+                self.pipe,
+                name,
+                None,
+            )
+
+            if tokenizer is not None:
+                return tokenizer
+
+        return None
+
+    @staticmethod
+    def _get_selected_candidate_index(
+        best_info,
+        think_info,
+        num_candidates: int,
+    ) -> int:
+        """
+        Reproduce Step1X-v1p2 native candidate selection.
+
+        Step1X chooses the candidate maximizing:
+
+            min(score1) * min(score2)
+
+        Ties prefer a candidate containing <#Success>.
+        If still tied, the later candidate wins.
+        """
+
+        if num_candidates <= 0:
+            raise ValueError(
+                "num_candidates must be positive."
+            )
+
+        if not best_info:
+            return 0
+
+        best_idx = 0
+        max_score = -1
+        best_has_success = False
+
+        for i, info in enumerate(best_info):
+            if i >= num_candidates:
+                break
+
+            try:
+                s1_min = min(
+                    info["score1"]["score"]
+                )
+
+                s2_min = min(
+                    info["score2"]["score"]
+                )
+
+                current_score = (
+                    s1_min * s2_min
+                )
+
+            except (
+                KeyError,
+                TypeError,
+                ValueError,
+            ):
+                continue
+
+            current_think_str = ""
+
+            if (
+                think_info
+                and i < len(think_info)
+            ):
+                current_think_str = str(
+                    think_info[i]
+                )
+
+            current_has_success = (
+                "<#Success>"
+                in current_think_str
+            )
+
+            if current_score > max_score:
+                best_idx = i
+                max_score = current_score
+                best_has_success = (
+                    current_has_success
+                )
+
+            elif current_score == max_score:
+                if (
+                    current_has_success
+                    and not best_has_success
+                ):
+                    best_idx = i
+                    best_has_success = True
+
+                elif (
+                    current_has_success
+                    == best_has_success
+                ):
+                    best_idx = i
+
+        return best_idx
+
+    @staticmethod
+    def _get_stop_reason(
+        think_info,
+        retry_triggered: bool,
+    ) -> str:
+        """
+        Interpret the final Step1X reflection result.
+
+        This only logs what happened; it does not alter
+        Step1X's native correction behavior.
+        """
+
+        if not think_info:
+            return (
+                "single_pass"
+                if not retry_triggered
+                else "max_attempts_or_unknown"
+            )
+
+        last_info = str(
+            think_info[-1]
+        )
+
+        if "<#Success>" in last_info:
+            return "reflection_success"
+
+        if "<#Failed>" in last_info:
+            return "reflection_failed"
+
+        if "<#Reflection>" in last_info:
+            return (
+                "max_attempts_reflection_requested"
+                if retry_triggered
+                else "reflection_requested_retry"
+            )
+
+        return (
+            "max_attempts_or_unknown"
+            if retry_triggered
+            else "single_pass"
+        )
+
     def run(
         self,
         images,
@@ -85,49 +302,30 @@ class Step1XRunner:
         base_seed: int,
     ) -> Dict[str, Any]:
         """
-        Run one RQ1 generation.
-
-        Args:
-            images:
-                Decoded source images.
-
-            instruction:
-                Original KRIS-Bench instruction.
-
-            example_uid:
-                Stable category__id identifier.
-
-            base_seed:
-                Experiment-level seed, e.g.
-                42, 1234 or 7.
+        Run one Step1X RQ1 generation.
         """
 
         generation_cfg = self.config[
             "generation"
         ]
 
-        # -----------------------------------------------------
+        # =====================================================
         # Validate input
-        # -----------------------------------------------------
-
-        if len(images) == 0:
-            raise ValueError(
-                f"{example_uid}: "
-                "no source image found."
-            )
+        # =====================================================
 
         if len(images) != 1:
             raise ValueError(
-                f"{example_uid}: RQ1 requires exactly "
-                f"one source image, but got "
+                f"{example_uid}: "
+                f"RQ1 requires exactly one "
+                f"source image, got "
                 f"{len(images)}."
             )
 
         image_input = images[0]
 
-        # -----------------------------------------------------
-        # Read experiment configuration
-        # -----------------------------------------------------
+        # =====================================================
+        # Configuration
+        # =====================================================
 
         num_inference_steps = int(
             generation_cfg[
@@ -159,9 +357,9 @@ class Step1XRunner:
             ]
         )
 
-        # -----------------------------------------------------
-        # Deterministic stage seeds
-        # -----------------------------------------------------
+        # =====================================================
+        # Seeds
+        # =====================================================
 
         stage_seeds = get_rq1_stage_seeds(
             base_seed=base_seed,
@@ -169,114 +367,105 @@ class Step1XRunner:
             max_try_cnt=max_try_cnt,
         )
 
-        # Step1X thinking uses the global torch RNG.
-        #
-        # Set it immediately before the pipeline call.
-        # For Base this is also harmless and makes the
-        # complete run deterministic.
+        # Step1X's thinking module samples through the
+        # global torch RNG.
         set_global_seed(
             stage_seeds["thinking"]
         )
 
-        # Diffusion uses its own generator.
+        if not torch.cuda.is_available():
+            raise RuntimeError(
+                "Step1X RQ1 generation "
+                "requires CUDA."
+            )
+
+        # Step1X receives one explicitly seeded diffusion
+        # generator. If its native correction loop retries,
+        # that same generator continues its RNG stream.
         generator = torch.Generator(
             device="cuda"
         ).manual_seed(
             stage_seeds["diffusion_0"]
         )
 
-        # -----------------------------------------------------
-        # GPU measurement setup
-        # -----------------------------------------------------
+        # =====================================================
+        # GPU statistics
+        # =====================================================
 
-        if torch.cuda.is_available():
-            torch.cuda.empty_cache()
-            torch.cuda.reset_peak_memory_stats()
+        torch.cuda.reset_peak_memory_stats()
 
-            # Important for correct wall-clock GPU timing.
-            torch.cuda.synchronize()
+        self._sync_cuda()
 
-        start_time = time.perf_counter()
+        pipeline_start = time.perf_counter()
 
-        # -----------------------------------------------------
-        # Step1X inference
-        # -----------------------------------------------------
+        # =====================================================
+        # Inference
+        # =====================================================
 
         result = self.pipe(
             image=image_input,
             prompt=instruction,
-
-            # Always explicit.
-            num_inference_steps=
-                num_inference_steps,
-
-            true_cfg_scale=
-                true_cfg_scale,
-
-            enable_thinking_mode=
-                thinking_enabled,
-
-            enable_reflection_mode=
-                reflection_enabled,
-
-            max_try_cnt=
-                max_try_cnt,
-
-            generator=
-                generator,
+            num_inference_steps=num_inference_steps,
+            true_cfg_scale=true_cfg_scale,
+            enable_thinking_mode=thinking_enabled,
+            enable_reflection_mode=reflection_enabled,
+            max_try_cnt=max_try_cnt,
+            generator=generator,
         )
 
-        if torch.cuda.is_available():
-            torch.cuda.synchronize()
+        self._sync_cuda()
 
-        latency_total_sec = (
+        latency_pipeline_sec = (
             time.perf_counter()
-            - start_time
+            - pipeline_start
         )
 
-        # -----------------------------------------------------
+        # =====================================================
         # GPU memory
-        # -----------------------------------------------------
+        # =====================================================
 
-        peak_vram_gb = None
-
-        if torch.cuda.is_available():
-            peak_vram_gb = (
-                torch.cuda.max_memory_allocated()
-                / (1024 ** 3)
-            )
-
-        # -----------------------------------------------------
-        # Outputs
-        # -----------------------------------------------------
-
-        result_images = getattr(
-            result,
-            "images",
-            None,
+        peak_vram_gb = (
+            torch.cuda.max_memory_allocated()
+            / (1024 ** 3)
         )
 
-        if result_images is None:
-            raise RuntimeError(
-                f"{example_uid}: Step1X result "
-                "does not contain 'images'."
-            )
+        # =====================================================
+        # Candidate outputs
+        # =====================================================
 
         result_images = list(
-            result_images
+            getattr(
+                result,
+                "images",
+                [],
+            )
         )
 
         if len(result_images) == 0:
             raise RuntimeError(
-                f"{example_uid}: Step1X returned "
-                "zero output images."
+                f"{example_uid}: "
+                "Step1X returned zero output images."
             )
 
-        final_image = result_images[0]
+        # Step1X-v1p2 returns all generated attempts in
+        # result.images and its internally selected image in
+        # result.final_images.
+        final_images = list(
+            getattr(
+                result,
+                "final_images",
+                [],
+            )
+        )
 
-        # -----------------------------------------------------
-        # Extract optional Step1X metadata
-        # -----------------------------------------------------
+        if len(final_images) > 0:
+            final_image = final_images[0]
+        else:
+            final_image = result_images[0]
+
+        # =====================================================
+        # Reasoning / reflection metadata
+        # =====================================================
 
         reformat_prompt = getattr(
             result,
@@ -296,47 +485,79 @@ class Step1XRunner:
             None,
         )
 
-        # Keep these generic for now.
-        #
-        # We will populate more precise correction information
-        # after inspecting the exact v1p2 pipeline return
-        # structure.
-        reflection_info = getattr(
-            result,
-            "reflection_info",
-            None,
+        # In Step1X reflection mode, result.think_info contains
+        # the reflection output for each generated attempt.
+        reflection_info = (
+            think_info
+            if reflection_enabled
+            else None
         )
 
-        attempt_count = getattr(
-            result,
-            "attempt_count",
-            None,
+        # =====================================================
+        # Token count
+        # =====================================================
+
+        tokenizer = (
+            self._get_available_tokenizer()
         )
 
-        selected_candidate_index = getattr(
-            result,
-            "selected_candidate_index",
-            None,
+        thinking_token_count = (
+            self._count_text_tokens(
+                tokenizer=tokenizer,
+                text=reformat_prompt,
+            )
         )
 
-        retry_triggered = None
+        # Reflection contains one string per attempt. Keep the
+        # exact strings in reflection_info; do not collapse them
+        # into a misleading single per-round token count.
+        reflection_token_count = None
 
-        if attempt_count is not None:
-            try:
-                retry_triggered = (
-                    int(attempt_count) > 1
-                )
-            except (TypeError, ValueError):
-                retry_triggered = None
+        # =====================================================
+        # Correction metadata
+        # =====================================================
 
-        # -----------------------------------------------------
-        # Return standardized information
-        # -----------------------------------------------------
+        # result.images is the native Step1X candidate history,
+        # so its length is the actual number of generated
+        # attempts.
+        attempt_count = len(
+            result_images
+        )
+
+        retry_triggered = (
+            attempt_count > 1
+        )
+
+        selected_candidate_index = (
+            self._get_selected_candidate_index(
+                best_info=best_info,
+                think_info=think_info,
+                num_candidates=attempt_count,
+            )
+        )
+
+        selected_is_last_candidate = (
+            selected_candidate_index
+            == attempt_count - 1
+        )
+
+        stop_reason = (
+            self._get_stop_reason(
+                think_info=think_info,
+                retry_triggered=retry_triggered,
+            )
+        )
+
+        # =====================================================
+        # Return
+        # =====================================================
 
         return {
+            # Main output
             "final_image":
                 final_image,
 
+            # All native Step1X candidates / attempts
             "candidate_images":
                 result_images,
 
@@ -347,11 +568,17 @@ class Step1XRunner:
             "think_info":
                 think_info,
 
+            "thinking_token_count":
+                thinking_token_count,
+
             "best_info":
                 best_info,
 
             "reflection_info":
                 reflection_info,
+
+            "reflection_token_count":
+                reflection_token_count,
 
             # Correction metadata
             "attempt_count":
@@ -363,6 +590,12 @@ class Step1XRunner:
             "retry_triggered":
                 retry_triggered,
 
+            "stop_reason":
+                stop_reason,
+
+            "selected_is_last_candidate":
+                selected_is_last_candidate,
+
             # Seeds
             "base_seed":
                 base_seed,
@@ -371,22 +604,22 @@ class Step1XRunner:
                 stage_seeds,
 
             # Timing
-            "latency_total_sec":
-                latency_total_sec,
+            "latency_pipeline_sec":
+                latency_pipeline_sec,
 
-            "latency_preprocess_sec":
-                None,
-
+            # These require instrumentation inside the
+            # Step1X implementation and are intentionally
+            # not guessed.
             "latency_thinking_sec":
                 None,
 
-            "latency_diffusion_sec":
-                None,
+            "latency_diffusion_attempts_sec":
+                [],
 
-            "latency_reflection_sec":
-                None,
+            "latency_reflection_rounds_sec":
+                [],
 
-            "latency_postprocess_sec":
+            "latency_offload_sec":
                 None,
 
             # Resources

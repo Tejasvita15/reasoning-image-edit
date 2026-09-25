@@ -68,57 +68,48 @@ def get_rq1_stage_seeds(
     max_try_cnt: int,
 ) -> Dict[str, int]:
     """
-    Generate deterministic seeds needed by RQ1.
+    Derive deterministic seeds for every stochastic
+    stage of one Step1X RQ1 generation.
 
-    Always includes:
-        thinking
-        diffusion_0
+    For each attempt:
+        diffusion_i
+        reflection_i
 
-    When correction is enabled with max_try_cnt=2,
-    also prepare:
-        reflection_1
-        diffusion_1
-
-    Note:
-    diffusion_1 is only a prepared deterministic seed.
-    Whether Step1X's internal retry can directly consume it
-    depends on the pipeline implementation and will be checked
-    before the RQ1.2 correction run.
+    The initial instruction rewrite has its own
+    independent thinking seed.
     """
 
     if max_try_cnt < 1:
         raise ValueError(
-            "max_try_cnt must be >= 1"
+            "max_try_cnt must be >= 1."
         )
 
     seeds = {
         "thinking": derive_seed(
-            base_seed=base_seed,
-            example_uid=example_uid,
-            stage="thinking",
-        ),
-
-        "diffusion_0": derive_seed(
-            base_seed=base_seed,
-            example_uid=example_uid,
-            stage="diffusion_0",
-        ),
+            base_seed,
+            example_uid,
+            "thinking",
+        )
     }
 
-    # RQ1 correction condition:
-    # initial generation + at most one retry.
-    if max_try_cnt > 1:
+    for attempt_idx in range(
+        max_try_cnt
+    ):
 
-        seeds["reflection_1"] = derive_seed(
-            base_seed=base_seed,
-            example_uid=example_uid,
-            stage="reflection_1",
+        seeds[
+            f"diffusion_{attempt_idx}"
+        ] = derive_seed(
+            base_seed,
+            example_uid,
+            f"diffusion_{attempt_idx}",
         )
 
-        seeds["diffusion_1"] = derive_seed(
-            base_seed=base_seed,
-            example_uid=example_uid,
-            stage="diffusion_1",
+        seeds[
+            f"reflection_{attempt_idx}"
+        ] = derive_seed(
+            base_seed,
+            example_uid,
+            f"reflection_{attempt_idx}",
         )
 
     return seeds
