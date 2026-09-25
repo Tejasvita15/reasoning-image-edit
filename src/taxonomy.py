@@ -1,3 +1,5 @@
+# src/taxonomy.py
+
 CATEGORY_TO_DIMENSION = {
 
     # Factual knowledge
@@ -45,7 +47,22 @@ DIMENSION_TO_KNOWLEDGE = {
 }
 
 
-def get_reasoning_dimension(category):
+# Categories that are not eligible for the RQ1 Step1X comparison.
+#
+# Step1X is being evaluated only on single-reference image editing.
+# multi-element_composition contains multi-reference examples and
+# should therefore be excluded from the eligible pool.
+RQ1_EXCLUDED_CATEGORIES = {
+    "multi-element_composition",
+}
+
+
+def get_reasoning_dimension(category: str) -> str:
+    """
+    Map a KRIS-Bench native category to one of the
+    seven reasoning dimensions.
+    """
+
     if category not in CATEGORY_TO_DIMENSION:
         raise ValueError(
             f"Unknown KRIS-Bench category: {category}"
@@ -54,6 +71,31 @@ def get_reasoning_dimension(category):
     return CATEGORY_TO_DIMENSION[category]
 
 
-def get_knowledge_type(category):
+def get_knowledge_type(category: str) -> str:
+    """
+    Map a KRIS-Bench native category to the primary
+    RQ1 knowledge type: factual, conceptual, or procedural.
+    """
+
     dimension = get_reasoning_dimension(category)
+
     return DIMENSION_TO_KNOWLEDGE[dimension]
+
+
+def is_rq1_category_allowed(category: str) -> bool:
+    """
+    Return whether the category is eligible for the RQ1
+    single-reference experiment.
+
+    Note:
+    We will still verify the actual number of source images
+    per example in dataset.py. This category-level check is
+    only an additional safeguard.
+    """
+
+    if category not in CATEGORY_TO_DIMENSION:
+        raise ValueError(
+            f"Unknown KRIS-Bench category: {category}"
+        )
+
+    return category not in RQ1_EXCLUDED_CATEGORIES

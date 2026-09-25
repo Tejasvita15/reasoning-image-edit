@@ -3,16 +3,14 @@ experiment_name: base
 model:
   model_id: stepfun-ai/Step1X-Edit-v1p2
   dtype: bfloat16
-  device: cuda
-  cpu_offload: true
+  cpu_offload: false
 
 generation:
   num_inference_steps: 50
   true_cfg_scale: 6.0
   enable_thinking_mode: false
   enable_reflection_mode: false
+  max_try_cnt: 1
 
-seed: 42
-
-output_dir: outputs/base
-log_file: logs/base.jsonl
+output_dir: outputs/rq1/base
+log_file: logs/rq1_base.jsonl
