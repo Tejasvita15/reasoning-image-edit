@@ -29,7 +29,7 @@ not have a complete frozen deployment/evaluation protocol before this change.
 | Precision/offload | RQ1 uses bfloat16, `cpu_offload: false` | RQ3 proposes bfloat16 + whole-model transfers; coordinate this difference before comparing latency |
 | Sampling | RQ1 uses 50 steps, CFG 6 | RQ3 fixes **28 steps, CFG 6**, reflection off, one attempt for every arm |
 | Seeds | SHA-256 derivation; global thinker RNG and separate `diffusion_0` seed | Same derivation; 42 primary; optional 1234 and 7 reported separately. Actual initial-noise hashes verify pairing |
-| Judge | No evaluator or judge config | `configs/judge_config.yaml`: pinned official code, exact upstream prompts, proposed GPT-4o snapshot, temperature 0; group must confirm availability and aggregation |
+| Judge | No evaluator or judge config | Selected: manual ChatGPT judging with pinned KRIS rubric text and a separate recorded UI policy; `configs/judge_config.yaml` retains the optional GPT-4o API route |
 | Statistics | No shared implementation | 10,000 paired example-bootstrap resamples, 95% CI, Wilcoxon check. Freeze MMD and equivalence margin δ before test scoring |
 
 Commit the agreed configs, split/subset files and this code revision before
@@ -181,32 +181,33 @@ reuse. The validator reports a failure rather than concealing differing events.
 After removing context, trajectories can diverge; investigate any discrepancy
 on development examples before scaling. Do not tune on K-small.
 
-**Scoring configuration needs an explicit group decision.** The official scripts
-return component scores without an aggregate function. Proposed subset Q is
-`mean(25 * (score - 1))` across applicable official dimensions, on a 0–100 scale.
-This is a transparent subset aggregate, not the published category-weighted
-full-benchmark score. Agree on it, then set `aggregate_confirmed: true` in
-`configs/judge_config.yaml`. If the pinned judge snapshot is unavailable, agree
-on one replacement for all RQs before scoring anything.
+**Selected evaluation path: ChatGPT interface, without an API key.** Use
+`python -m src.rq3_manual` and the NSCC commands under
+[Manual ChatGPT judging](#manual-chatgpt-judging-no-api-key) below. A completed
+60-output calibration run is reusable: the exporter verifies its archived
+protocol, original images and output hashes, then selects the first 20 distinct
+quality outputs in the predetermined generation order. It creates two blinded
+passes over the same images. No GPU regeneration is needed for this export.
 
-After that config edit, make a fresh 10-example K-dev calibration run. API keys
-come from `OPENAI_API_KEY` in the process environment; do not put keys in YAML or Git.
-Scoring defaults to validation only; `--execute` sends paid API requests.
+Subset Q remains `mean(25 * (score - 1))` over consistency, instruction following,
+visual quality, and knowledge plausibility where applicable. This is a 0–100
+subset aggregate, not the published category-weighted full-benchmark score.
+Manual judging preserves the applicable official rubric text, but combines the
+three metric prompts in a ChatGPT session. The UI model label, settings, prompt
+hashes and raw answers are recorded as a separate evaluation protocol. Coordinate
+that choice across RQs before comparing their numerical scores.
 
-```bash
-python -m src.rq3.run --phase pilot --limit 10 --output outputs/rq3/calibration
-python -m src.rq3.evaluate score --config configs/rq3.yaml --generations outputs/rq3/calibration/generations.jsonl --calibration --limit 20 --output outputs/rq3/calibration/judge_first.jsonl
-python -m src.rq3.evaluate score --config configs/rq3.yaml --generations outputs/rq3/calibration/generations.jsonl --calibration --limit 20 --output outputs/rq3/calibration/judge_first.jsonl --execute
-python -m src.rq3.evaluate score --config configs/rq3.yaml --generations outputs/rq3/calibration/generations.jsonl --calibration --limit 20 --output outputs/rq3/calibration/judge_second.jsonl --execute
-python -m src.rq3.evaluate repeatability --first outputs/rq3/calibration/judge_first.jsonl --second outputs/rq3/calibration/judge_second.jsonl --output reports/rq3_repeatability.json
-```
+The legacy `configs/judge_config.yaml` and `src.rq3.evaluate score` describe the
+optional GPT-4o API route. Leave `aggregate_confirmed` unchanged for the manual
+route: it does not read that API approval flag or claim API-equivalent ratings.
+Do not send manual scores to `src.rq3.analyze`; use `src.rq3_manual analyze`.
 
-The first 20 quality outputs in this predetermined generation order are rescored;
-the order is independent of quality. The report proposes MMD as the 95th
-percentile of absolute repeated Q differences. Agree on the shared estimate and
-fill `statistics.minimum_meaningful_difference` and a positive
-`statistics.equivalence_margin >= MMD` in `configs/rq3.yaml` before test scoring.
-Never choose δ from test results. Keep the raw judge response sidecars.
+The repeatability report proposes MMD as the 95th percentile of absolute repeated
+Q differences. Freeze `statistics.minimum_meaningful_difference` at least that
+large, and a positive `statistics.equivalence_margin >= MMD` in
+`configs/rq3.yaml` before final pilots and main generation. Never choose these
+values from test scores. Preserve the exported bundle, both raw judgment passes,
+and the session log.
 
 ## 5. Determinism and component validation under the final frozen config
 
@@ -304,7 +305,10 @@ repository path. Schedule one experiment per GPU for timing.
 
 ## 7. Score and analyse
 
-Score every condition in one batch using the same frozen judge. Official
+For the selected manual route, follow the NSCC export/import/analysis commands
+below. The following commands are retained only for an explicitly chosen API
+judge, with its configuration confirmed before generation. Score every condition
+using that same frozen API judge. Official
 annotations, instructions and prompt templates are loaded from the pinned
 checkout. Raw responses (including failed requests) are retained next to scores.
 
@@ -673,6 +677,36 @@ interpreter is available cannot reliably send an alert. Check PBS status and
 artifact completion markers for the authoritative result. See the
 [Telegram sendMessage API](https://core.telegram.org/bots/api#sendmessage).
 
+If a delivery test reports `configured: true`, `ConnectionResetError`, and
+`delivered: false`, the credentials were loaded but the HTTPS exchange failed
+before a usable Telegram response. This does not validate the token/chat or
+prove a firewall block. NSCC documents outbound domain filtering; a reset can
+also come from a proxy, remote endpoint or transient network issue.
+
+Compare from your Mac using its existing `.env`. This explicitly sends one
+test message, regardless of the `auto` notification threshold:
+
+```bash
+cd /Users/aloysiustan/Development/ai6132_group
+conda activate ai6132
+python - <<'PY'
+from src.notifications import load_notification_env, TelegramSender
+load_notification_env()
+sender = TelegramSender()
+print({"configured": sender.configured})
+print({"delivered": sender("[ai6132] Mac Telegram delivery test")})
+PY
+```
+
+If the same bot/chat succeeds from your Mac but repeatedly resets on NSCC,
+ask `help@nscc.sg` to check HTTPS access to `api.telegram.org:443` from your
+ASPIRE-2A login/compute host and confirm any approved proxy configuration.
+Provide the hostname, UTC time, PBS job ID and exception class, without
+credentials or token-bearing URLs. The sender already uses urllib's default
+proxy handling; do not borrow proxy addresses documented for ASPIRE-2A+
+containers. See [NSCC's filtering announcement](https://help.nscc.sg/aspire2a/urgent-scheduled-maintenance-for-aspire-2a-on-22-january-2025-9am-to-6-30pm-2-2/).
+Experiments can continue while delivery is investigated; monitor PBS and logs.
+
 Install this code before final development pilots: changes to the RQ3 runner or
 scorer change the frozen implementation hash. Changing `.env` settings or
 notification CLI flags does not change the scientific protocol or model seeds.
@@ -774,11 +808,10 @@ prefix as a substitute for the Linux environment. [NSCC network FAQ](https://hel
 Inspect the smoke logs and `reports/rq3_smoke_components.json`. A passing PBS
 exit code does not replace visual inspection of outputs and RegionE traces.
 
-### Calibrate the judge and freeze the final protocol
+### Manual ChatGPT judging (no API key)
 
-First agree on the judge and aggregate as described in Section 4 and set
-`aggregate_confirmed: true`. Do not edit configs while dependent jobs are running.
-Then submit fresh calibration images under that configuration:
+If calibration has already finished with `completed: 60, failures: 0`, use those
+outputs. Otherwise, submit the calibration image job once from the login node:
 
 ```bash
 CALIBRATION_JOB=$(qsub -o "$RQ3_LOG_DIR/" -l walltime=04:00:00 \
@@ -786,31 +819,124 @@ CALIBRATION_JOB=$(qsub -o "$RQ3_LOG_DIR/" -l walltime=04:00:00 \
 qstat -f "$CALIBRATION_JOB"
 ```
 
-After that job succeeds, run the following on an allocated CPU node with API
-access (or a prepared workstation with the same files and paths). For an NSCC
-interactive CPU allocation:
+Export after the job finishes. This is a small CPU task: two CPUs, 8 GB memory,
+30 minutes, no GPU or API access. Use the updated branch on NSCC first. Select
+one image-capable model in ChatGPT, then enter its actual displayed label below;
+keep that model and the UI settings fixed across both passes and main judging.
+The model label is operator metadata, not the model's self-reported identity.
 
 ```bash
 qsub -I -q normal -P personal-rtan134 \
-  -l select=1:ncpus=2:mem=8gb -l walltime=02:00:00
+  -l select=1:ncpus=2:mem=8gb -l walltime=00:30:00
 cd "$HOME/ai6132_group"
 source jobs/nscc/common.sh
 rq3_activate
-# Supply OPENAI_API_KEY through your normal secure session mechanism.
-python -m src.rq3.evaluate score --generations "$RQ3_OUTPUT_ROOT/calibration/generations.jsonl" \
-  --calibration --limit 20 --output "$RQ3_OUTPUT_ROOT/calibration/judge_first.jsonl" --execute
-python -m src.rq3.evaluate score --generations "$RQ3_OUTPUT_ROOT/calibration/generations.jsonl" \
-  --calibration --limit 20 --output "$RQ3_OUTPUT_ROOT/calibration/judge_second.jsonl" --execute
-python -m src.rq3.evaluate repeatability \
-  --first "$RQ3_OUTPUT_ROOT/calibration/judge_first.jsonl" \
-  --second "$RQ3_OUTPUT_ROOT/calibration/judge_second.jsonl" --output reports/rq3_repeatability.json
+read -r -p 'Exact model label selected in ChatGPT: ' RQ3_JUDGE_LABEL
+python -m src.rq3_manual export \
+  --generations "$RQ3_OUTPUT_ROOT/calibration/generations.jsonl" \
+  --kind calibration --limit 20 --batch-size 2 \
+  --judge-label "$RQ3_JUDGE_LABEL" \
+  --output-dir "$RQ3_OUTPUT_ROOT/chatgpt_calibration"
 exit
 ```
 
-Review the repeatability report and freeze MMD and δ in `configs/rq3.yaml`.
-These scientific decisions are intentionally not filled automatically by the
-batch script. The dataset preparation is independent of the judge decisions;
-changing them does not require redownloading model weights or regenerating splits.
+This creates `chatgpt_calibration.zip` alongside the bundle directory in scratch.
+It copies only the selected source/output images, any required official viewpoint
+references, prompts and provenance. It does not copy model weights or the Conda
+environment. Existing bundles are never overwritten. Resume manual work using
+that bundle; an interrupted export before publication can be rerun. Inspect any
+leftover export lock before removing it after an abrupt process termination.
+
+Download and extract **on your Mac**, using NSCC's approved login/transfer route
+and VPN if required:
+
+```bash
+export NSCC_DEST='rtan134@aspire2antu.nscc.sg'
+scp "${NSCC_DEST}:scratch/ai6132/outputs/rq3/nscc/chatgpt_calibration.zip" "$HOME/Downloads/"
+mkdir -p "$HOME/Downloads/chatgpt_calibration"
+unzip "$HOME/Downloads/chatgpt_calibration.zip" -d "$HOME/Downloads/chatgpt_calibration"
+cd "$HOME/Downloads/chatgpt_calibration"
+mkdir -p responses
+cp -n session_log_template.json session_log.json
+open .
+```
+
+The ZIP is a transport file for you. **Extract it first; upload only one batch's
+image files and paste that batch's `prompt.md` into ChatGPT.** Do not upload the
+whole ZIP, `private/`, this runbook, generation logs or prior scores: they expose
+condition assignments. Keep image filenames intact. ChatGPT supports image
+attachments; this workflow uses direct images rather than relying on reading
+images inside another file format. [Official attachment guidance](https://learn.chatgpt.com/docs/use-chatgpt)
+
+With the default batch size there are 10 batches in `upload/pass_1/` and 10 in
+`upload/pass_2/`: 20 outputs judged twice, in 20 independent chats. Each batch
+has two edited outputs and their source images, plus a reference image if its
+rubric requires one. The order and opaque image IDs differ between passes.
+
+1. Start a fresh temporary chat for each batch, with memory/custom instructions
+   disabled and tools off. Use the same selected model and settings throughout.
+2. Attach **all image files** in that batch folder, paste its complete `prompt.md`,
+   and submit once. The prompt asks for independent absolute ratings and strict
+   JSON. Do not reveal A–F, thinking traces, seeds or which output you prefer.
+3. Save the complete JSON answer unchanged as `responses/p1_b001.json`, etc.
+   The filename must equal the batch ID. Do not fill scores yourself, average
+   answers or retry to obtain a preferred rating. Save the chat transcript for
+   audit. If an image is unreadable, the prompt requires null scores; resolve the
+   attachment problem and document it before repeating the same fixed batch.
+4. Fill that batch's entry in `session_log.json`: actual model/settings,
+   `judged_at` with timezone (e.g. `2026-09-30T18:00:00+08:00`), and a unique
+   conversation URL or your own session ID. A temporary chat can use an operator
+   ID linked to its saved transcript. Never claim an API snapshot or temperature
+   that the UI does not expose.
+5. Finish pass 1, then repeat in new chats for pass 2 without supplying pass-1
+   scores. Keep saved responses so work can resume batch by batch. The importer
+   requires a complete pass and rejects missing, duplicate or invalid ratings.
+
+Return the responses and session log **from your Mac**:
+
+```bash
+export NSCC_DEST='rtan134@aspire2antu.nscc.sg'
+rsync -av "$HOME/Downloads/chatgpt_calibration/responses/" \
+  "${NSCC_DEST}:scratch/ai6132/outputs/rq3/nscc/chatgpt_calibration/responses/"
+scp "$HOME/Downloads/chatgpt_calibration/session_log.json" \
+  "${NSCC_DEST}:scratch/ai6132/outputs/rq3/nscc/chatgpt_calibration/session_log.json"
+```
+
+Import and calculate repeatability on NSCC (the same commands also work locally
+with the bundle path changed and the project's CPU dependencies installed):
+
+```bash
+qsub -I -q normal -P personal-rtan134 \
+  -l select=1:ncpus=2:mem=8gb -l walltime=00:30:00
+cd "$HOME/ai6132_group"
+source jobs/nscc/common.sh
+rq3_activate
+RQ3_BUNDLE="$RQ3_OUTPUT_ROOT/chatgpt_calibration"
+python -m src.rq3_manual import --bundle "$RQ3_BUNDLE" \
+  --responses "$RQ3_BUNDLE/responses" --session-log "$RQ3_BUNDLE/session_log.json" \
+  --pass-number 1 --output "$RQ3_BUNDLE/judge_first.jsonl"
+python -m src.rq3_manual import --bundle "$RQ3_BUNDLE" \
+  --responses "$RQ3_BUNDLE/responses" --session-log "$RQ3_BUNDLE/session_log.json" \
+  --pass-number 2 --output "$RQ3_BUNDLE/judge_second.jsonl"
+python -m src.rq3_manual repeatability \
+  --first "$RQ3_BUNDLE/judge_first.jsonl" --second "$RQ3_BUNDLE/judge_second.jsonl" \
+  --output "$RQ3_BUNDLE/repeatability.json"
+exit
+```
+
+No key or network request is used by these commands. Scores are integers 1–5;
+Q is calculated by code, with knowledge required only for the applicable
+categories. Imported records retain the exact raw answer and its hash, model
+label, date/session metadata, generation identity and manual evaluation identity.
+For knowledge items, an instruction score of 1 or 2 requires knowledge score 1
+under the official rubric.
+
+Review `repeatability.json` and freeze MMD and δ in `configs/rq3.yaml` before the
+final pilots below. Do not edit configs while jobs are running. Keep the manual
+judge label, UI settings, batch size and judging code unchanged after calibration;
+main export checks its policy against this report. If the UI model or rubric
+changes, recalibrate. Keep results from this UI protocol separately labelled from
+API-judged results in the report. Dataset preparation is unaffected by this choice.
 
 ### Final pilots, determinism and walltime estimation
 
@@ -934,32 +1060,46 @@ If an array fails, its `afterok` dependents will not become a successful pipelin
 automatically after you create a separate retry job. Remove obsolete dependent
 jobs when needed and submit a fresh finish job after all shards complete.
 
-### Final scoring and CPU analysis
+### Final manual scoring and CPU analysis
 
-On an allocated CPU node with API access, after merge completes:
-
-```bash
-cd "$HOME/ai6132_group"
-source jobs/nscc/common.sh
-rq3_activate
-python -m src.rq3.evaluate score \
-  --generations "$RQ3_OUTPUT_ROOT/main/merged/generations.jsonl" \
-  --output "$RQ3_OUTPUT_ROOT/main/merged/scores.jsonl"
-python -m src.rq3.evaluate score \
-  --generations "$RQ3_OUTPUT_ROOT/main/merged/generations.jsonl" \
-  --output "$RQ3_OUTPUT_ROOT/main/merged/scores.jsonl" --execute
-```
-
-Then submit CPU analysis from the login/submission shell:
+After main quality/timing shards have merged, export all 200 repeat-zero outputs
+per seed. Use a CPU allocation, activate the environment as above, and reuse the
+**exact** calibration model label (and `--ui-settings` if you customized it):
 
 ```bash
-qsub -o "$RQ3_LOG_DIR/" -v RQ3_ACTION=analyze,RQ3_SIMILARITY=1 jobs/nscc/finish.pbs
+read -r -p 'Same ChatGPT model label used for calibration: ' RQ3_JUDGE_LABEL
+python -m src.rq3_manual export \
+  --generations "$RQ3_OUTPUT_ROOT/main/merged/generations.jsonl" \
+  --kind main --batch-size 2 --judge-label "$RQ3_JUDGE_LABEL" \
+  --calibration-report "$RQ3_OUTPUT_ROOT/chatgpt_calibration/repeatability.json" \
+  --output-dir "$RQ3_OUTPUT_ROOT/chatgpt_main"
 ```
 
-No GPU needs to sit idle during judge API calls or bootstrap analysis. The PBS
-scripts never export an entire login environment (`qsub -V`), print API keys or
-automatically invoke paid scoring. Standard analysis results, region/cache
-diagnostics and LPIPS/PSNR outputs appear under `merged/analysis`.
+Download/extract `chatgpt_main.zip` and follow the same batch procedure. The main
+bundle has one pass: 100 chats at two outputs per batch for seed 42. Timing
+repetitions are never judged. Return `responses/` and `session_log.json` to the
+`chatgpt_main` directory on NSCC, then run on an allocated CPU node:
+
+```bash
+RQ3_BUNDLE="$RQ3_OUTPUT_ROOT/chatgpt_main"
+python -m src.rq3_manual import --bundle "$RQ3_BUNDLE" \
+  --responses "$RQ3_BUNDLE/responses" --session-log "$RQ3_BUNDLE/session_log.json" \
+  --pass-number 1 --output "$RQ3_BUNDLE/scores.jsonl"
+python -m src.rq3_manual analyze --bundle "$RQ3_BUNDLE" \
+  --scores "$RQ3_BUNDLE/scores.jsonl" \
+  --generations "$RQ3_OUTPUT_ROOT/main/merged/generations.jsonl" \
+  --output-dir "$RQ3_OUTPUT_ROOT/main/merged/analysis_manual"
+```
+
+Use 4 CPUs, 16 GB and up to 2 hours for analysis. Add `--similarity` for optional
+LPIPS/PSNR diagnostics once their dependencies/weights are available. The manual
+analyzer requires the complete paired score matrix and at least three measured
+timing repetitions, validates image/protocol hashes and computes the existing
+RQ3 contrasts, component ablations, bootstrap intervals and quality–latency plot.
+Use this manual command instead of the API-oriented `RQ3_ACTION=analyze` job.
+The report explicitly records the manual evaluation policy. Keep original shard
+images available; merged logs reference them. No GPU is needed for judging or
+standard statistical analysis.
 
 ### Back up results without copying the environment and model cache
 
