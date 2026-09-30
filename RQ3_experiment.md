@@ -140,6 +140,13 @@ native thinking/reflection off and `max_try_cnt=1`. A/C share the raw instructio
 B/D/E/F share the rewrite. Every arm resets the same initial diffusion seed.
 Thought caches include protocol, source hash, instruction, seed and token count.
 
+For PyTorch 2.5.1 strict determinism, the native Transformers top-p filter runs
+on CPU and returns its scores to the original sampling device. Its processor
+position and parameters are preserved, including preceding repetition penalty,
+temperature and top-k filtering. The model and seeded token sampling remain on
+their original device. The CPU filter and transfers count toward thinking time;
+runtime metadata records `thinking_top_p_backend: transformers_cpu`.
+
 RegionE's pinned defaults are `warmup_step=6`, `post_step=2`, `refresh_step='16'`,
 `threshold=0.88`, `cache_threshold=0.02`, `erosion_dilation=true`, 28 steps.
 Both native embedded `guidance_scale=6` and `true_cfg_scale=6` are explicit;
@@ -219,6 +226,16 @@ bitwise-identical image pixels. If the hardware cannot achieve bitwise identity,
 document that limitation and rerun the **comparison** with `--tolerance 1`;
 every image must have MAE strictly below 1 on the 0–255 scale. Do not relax
 PyTorch deterministic algorithms or quietly accept failed checks.
+
+PyTorch 2.5.1 rejects floating-point CUDA `cumsum` under strict determinism;
+Transformers 4.55.4 uses it inside nucleus (top-p) filtering. RQ3 therefore
+delegates that native filter to CPU through an encoder-instance override,
+restored after each thinking call. CPU and CUDA filtering may differ at
+floating-point boundaries or ties: this is a fixed implementation choice for
+all RQ3 runs, not a claim that old CUDA-filter outputs would be bitwise equal.
+Keep the independent rewrite/image checks above. The restriction is documented
+in [PyTorch 2.5.1's deterministic-algorithms definition](https://github.com/pytorch/pytorch/blob/v2.5.1/torch/__init__.py)
+and the filter in [Transformers 4.55.4's source](https://github.com/huggingface/transformers/blob/v4.55.4/src/transformers/generation/logits_process.py).
 
 Scaled generation checks the passing reports and their protocol hashes. A changed
 protocol needs fresh reports. Reports are measurements, not manually filled
@@ -394,6 +411,16 @@ The current FAQ describes automatic routing by requested resources/time and a
 Queue policy and project eligibility can change; check `qstat -Q` and the
 [current NSCC FAQ, job scheduling section](https://help.nscc.sg/aspire2a/faqs/).
 
+The two-hour smoke request routes to `gdev`, which currently permits at most
+16 GPUs running across all users. `would exceed overall limit on resource
+ngpus in queue gdev` means the job is waiting for queue capacity. Keep it queued;
+its `afterok` validation job normally stays in state `H` until smoke succeeds.
+Monitor with `qstat -ans`. A new one-GPU request for three hours routes through
+`normal` to `g1`, but does not guarantee an earlier start. If choosing to replace
+the queued smoke job, cancel its old dependent checker too and submit a new
+checker with the new smoke job ID. Avoid duplicate submissions to the same
+output directory. See the FAQ's queue routing and limits in section 6.8.
+
 One worker processes an example's A/B/C/D and, where applicable, E/F sequentially.
 All conditions, seeds and timing repetitions for an ID stay in one shard, sharing
 its rewrite cache. Four shards cover exactly the frozen 40 examples: 10 IDs each,
@@ -426,9 +453,13 @@ ssh "$NSCC_DEST" 'mkdir -p "$HOME/ai6132_group"'
 rsync -av --exclude='.nscc/' --exclude='.conda/' --exclude='external' \
   --include='.env.example' --exclude='.env*' \
   --exclude='outputs/' --exclude='logs/' --exclude='__pycache__/' \
-  ./ "$NSCC_DEST:ai6132_group/"
+  ./ "${NSCC_DEST}:ai6132_group/"
 ssh "$NSCC_DEST"
 ```
+
+Set `NSCC_DEST` to plain `user@hostname` text, without Markdown or `mailto:`.
+Keep the braces in `${NSCC_DEST}:...`; macOS zsh otherwise interprets the colon
+as a variable modifier and can turn the remote destination into a local path.
 
 On NSCC:
 
@@ -577,7 +608,7 @@ The local private `.env` can be copied separately to NSCC. From your Mac, after
 the code-only transfer above and with `NSCC_DEST` already set:
 
 ```bash
-scp .env "$NSCC_DEST:ai6132_group/.env"
+scp .env "${NSCC_DEST}:ai6132_group/.env"
 ssh "$NSCC_DEST" 'chmod 600 "$HOME/ai6132_group/.env"'
 ```
 
@@ -658,10 +689,11 @@ SMOKE_CHECK_JOB=$(qsub -o "$RQ3_LOG_DIR/" -W "depend=afterok:$SMOKE_JOB" \
 qstat -ans
 ```
 
-Setup creates a **Linux** environment from conda-forge using Miniforge, pins
-PyTorch 2.5.1/torchvision 0.20.1 with CUDA 12.1 wheels, installs the project
-requirements and editable pinned checkouts, stages the checkpoint and dataset,
-and checks the frozen IDs. It does not copy the Mac's environment. PyTorch
+Setup creates a **Linux** environment with Python 3.10 and Git from conda-forge
+using Miniforge, pins PyTorch 2.5.1/torchvision 0.20.1 with CUDA 12.1 wheels,
+installs the project requirements and editable pinned checkouts, stages the
+checkpoint and dataset, and checks the frozen IDs. It does not copy the Mac's
+environment. PyTorch
 publishes this wheel combination in its
 [previous-version installation instructions](https://pytorch.org/get-started/previous-versions/).
 
@@ -676,6 +708,62 @@ is rejected. RegionE's unrelated strict package metadata is audited separately
 from the dependencies actually used; unexpected dependency errors remain fatal.
 GPU jobs do not install packages or download data. They validate the staged
 images and start with Hugging Face offline mode enabled.
+
+If an older bootstrap stops at `--stage-sources` with
+`FileNotFoundError: ... 'git'`, install Git into the interrupted environment
+and resume from the same NSCC CPU session:
+
+```bash
+cd "$HOME/ai6132_group"
+module load miniforge3 cuda/12.2.2
+source jobs/nscc/common.sh
+rq3_paths
+conda install --yes --prefix "$RQ3_ENV_PREFIX" \
+  --override-channels --channel conda-forge --freeze-installed git
+"$RQ3_ENV_PREFIX/bin/git" --version
+bash jobs/nscc/bootstrap.sh --prepare
+```
+
+The current bootstrap includes Git for fresh environments and repairs this
+missing dependency when resuming interrupted setup. Git is needed both to
+stage the pinned sources and to verify their revisions on compute nodes.
+The existing Python packages can be reused; do not delete the environment or
+create a readiness stamp manually.
+
+If smoke fails with `cumsum_cuda_kernel does not have a deterministic
+implementation`, update to the backend containing `_CPUTopPLogitsWarper`.
+After publishing the updated branch to GitHub, run the following from the
+NSCC login node. First check that the failed smoke job has stopped with
+`qstat -ans`; cancel its old held validation job with `qdel JOB_ID` if it still
+exists. Then:
+
+```bash
+cd "$HOME/ai6132_group"
+source jobs/nscc/common.sh
+rq3_paths
+"$RQ3_ENV_PREFIX/bin/git" pull --ff-only origin rq3_implementation
+
+# Preserve the failed attempt; the backend change has a new generation hash.
+if [[ -d "$RQ3_OUTPUT_ROOT/smoke" ]]; then
+  RQ3_FAILED_SMOKE=$(mktemp -d "$RQ3_OUTPUT_ROOT/smoke_before_top_p_fix.XXXXXXXX")
+  mv -- "$RQ3_OUTPUT_ROOT/smoke" "$RQ3_FAILED_SMOKE/run"
+fi
+
+SMOKE_JOB=$(qsub -N rq3_smoke -o "$RQ3_LOG_DIR/" -l walltime=02:00:00 \
+  -v RQ3_MODE=smoke,TELEGRAM_NOTIFICATIONS=on jobs/nscc/gpu.pbs)
+SMOKE_CHECK_JOB=$(qsub -N rq3_smoke_check -o "$RQ3_LOG_DIR/" \
+  -W "depend=afterok:${SMOKE_JOB}" \
+  -v RQ3_ACTION=smoke_check,TELEGRAM_NOTIFICATIONS=on jobs/nscc/finish.pbs)
+printf 'Smoke: %s; validation: %s\n' "$SMOKE_JOB" "$SMOKE_CHECK_JOB"
+qstat -ans
+```
+
+This fix changes only the generation implementation. The ready environment,
+prepared examples and downloaded weights remain valid; setup need not run
+again. Preserve the archive for diagnosis; archived manifests may contain old
+absolute paths and are not inputs to the new run. The checker expects the new
+smoke run in its default `smoke/` directory. Keep determinism strict and rerun
+the independent development pilots before collecting test results.
 
 HTTP(S) access on NSCC is filtered, so a blocked GitHub/Hugging Face download
 may need staging from an allowed machine and transfer to NSCC; it is not fixed
@@ -884,18 +972,18 @@ export NSCC_DEST='YOUR_NSCC_USER@YOUR_ASPIRE2A_LOGIN'
 export RQ3_BACKUP="$HOME/ai6132-rq3-backup/$(date +%Y%m%d)"
 mkdir -p "$RQ3_BACKUP/results" "$RQ3_BACKUP/logs" "$RQ3_BACKUP/reports" \
   "$RQ3_BACKUP/environment" "$RQ3_BACKUP/code"
-rsync -avH "$NSCC_DEST:scratch/ai6132/outputs/" "$RQ3_BACKUP/results/"
-rsync -av "$NSCC_DEST:scratch/ai6132/logs/" "$RQ3_BACKUP/logs/"
-rsync -av "$NSCC_DEST:ai6132_group/reports/" "$RQ3_BACKUP/reports/"
-rsync -av "$NSCC_DEST:scratch/ai6132/state/logs/" "$RQ3_BACKUP/environment/"
-rsync -av "$NSCC_DEST:scratch/ai6132/state/envs/ai6132/.rq3-ready.json" \
+rsync -avH "${NSCC_DEST}:scratch/ai6132/outputs/" "$RQ3_BACKUP/results/"
+rsync -av "${NSCC_DEST}:scratch/ai6132/logs/" "$RQ3_BACKUP/logs/"
+rsync -av "${NSCC_DEST}:ai6132_group/reports/" "$RQ3_BACKUP/reports/"
+rsync -av "${NSCC_DEST}:scratch/ai6132/state/logs/" "$RQ3_BACKUP/environment/"
+rsync -av "${NSCC_DEST}:scratch/ai6132/state/envs/ai6132/.rq3-ready.json" \
   "$RQ3_BACKUP/environment/"
 rsync -av --exclude='.nscc/' --exclude='.conda/' --exclude='external' \
   --include='.env.example' --exclude='.env*' \
   --exclude='outputs/' --exclude='logs/' --exclude='__pycache__/' \
-  "$NSCC_DEST:ai6132_group/" "$RQ3_BACKUP/code/"
+  "${NSCC_DEST}:ai6132_group/" "$RQ3_BACKUP/code/"
 # Verify result contents; an empty itemized list means no differences.
-rsync -nrcH --itemize-changes "$NSCC_DEST:scratch/ai6132/outputs/" "$RQ3_BACKUP/results/"
+rsync -nrcH --itemize-changes "${NSCC_DEST}:scratch/ai6132/outputs/" "$RQ3_BACKUP/results/"
 ```
 
 `-H` preserves hardlinks between identical repeat images; copy the complete

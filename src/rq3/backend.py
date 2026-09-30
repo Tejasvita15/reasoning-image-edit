@@ -20,6 +20,7 @@ from .regione import AttentionRecorder, NoRIKVProcessor, RegionTrace
 
 DIFFUSERS_REVISION = "f5f1c98fa00cb4d0479af1b1b1c17d724345963a"
 REGIONE_REVISION = "df66d2e60710f66ce801e8b7c151d22c3239d114"
+THINKING_TOP_P_BACKEND = "transformers_cpu"
 REGIONE_DEFAULTS = {"num_inference_steps": 28, "warmup_step": 6, "post_step": 2,
                     "refresh_step": "16", "threshold": 0.88,
                     "cache_threshold": 0.02, "erosion_dilation": True}
@@ -50,6 +51,50 @@ def _replace(obj, name, replacement):
             setattr(obj, name, previous)
         else:
             delattr(obj, name)
+
+
+class _CPUTopPLogitsWarper:
+    """Run the original Transformers nucleus filter on CPU under strict mode.
+
+    PyTorch 2.5.1 rejects floating-point CUDA cumsum in deterministic mode.
+    Reusing the native processor on CPU preserves its threshold/tie/min-token
+    rules without changing global determinism or copying upstream tensor code.
+    The result returns to the sampling device; the seeded multinomial stays
+    native. CPU transfers and filtering are included in the thinking timer.
+    """
+
+    def __init__(self, processor):
+        self.processor = processor
+
+    def __call__(self, input_ids, scores):
+        return self.processor(input_ids.to("cpu"), scores.to("cpu")).to(scores.device)
+
+
+@contextmanager
+def _deterministic_top_p(text_encoder):
+    """Replace only the generated top-p processor, at its original position.
+
+    Transformers 4.55.4 appends sampling warpers *after* custom processors.
+    Passing logits_processor= would change their order and leave native CUDA
+    top-p active. Scope this override to the current encoder invocation and
+    restore it on both success and error; other models are never modified.
+    """
+    from transformers.generation.logits_process import TopPLogitsWarper
+
+    original = text_encoder._get_logits_processor
+
+    def build_processors(*args, **kwargs):
+        processors = original(*args, **kwargs)
+        indices = [index for index, processor in enumerate(processors)
+                   if type(processor) is TopPLogitsWarper]
+        if len(indices) != 1 or processors[indices[0]].top_p != .9:
+            raise RuntimeError("Expected exactly one native top_p=.9 processor for the RQ3 thinker")
+        index = indices[0]
+        processors[index] = _CPUTopPLogitsWarper(processors[index])
+        return processors
+
+    with _replace(text_encoder, "_get_logits_processor", build_processors):
+        yield
 
 
 class Step1XBackend:
@@ -137,6 +182,7 @@ class Step1XBackend:
             "compute_capability": [properties.major, properties.minor],
             "attention_backend": "pytorch_sdpa", "offload_mode": self.offload_mode,
             "deterministic_algorithms": torch.are_deterministic_algorithms_enabled(),
+            "thinking_top_p_backend": THINKING_TOP_P_BACKEND,
             "torch_num_threads": torch.get_num_threads(),
             "torch_num_interop_threads": torch.get_num_interop_threads(),
             "omp_num_threads": os.environ.get("OMP_NUM_THREADS"),
@@ -203,7 +249,9 @@ class Step1XBackend:
 
         try:
             self._resident("text_encoder")
-            with self.torch.inference_mode(), _replace(self.pipe.text_encoder, "generate", capture_generate):
+            with (self.torch.inference_mode(),
+                  _deterministic_top_p(self.pipe.text_encoder),
+                  _replace(self.pipe.text_encoder, "generate", capture_generate)):
                 rewrite = self.thinker.think(image, instruction)
             if not rewrite or "token_count" not in captured:
                 raise RuntimeError("The native thinker returned no rewrite or token trace")
@@ -211,6 +259,7 @@ class Step1XBackend:
             self._resident(None)
             self._sync()
         return {"rewrite": rewrite, **captured,
+                "top_p_backend": THINKING_TOP_P_BACKEND,
                 "token_count_includes_eos": True,
                 "seconds": time.perf_counter() - start - self._offload_seconds,
                 "offload_seconds": self._offload_seconds,

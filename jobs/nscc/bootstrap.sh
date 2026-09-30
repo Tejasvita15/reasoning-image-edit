@@ -57,13 +57,21 @@ if [[ -f $RQ3_ENV_STAMP ]]; then
     printf 'Matching ready environment found; skipping every conda/pip installation.\n'
 else
     if [[ ! -x $RQ3_ENV_PREFIX/bin/python ]]; then
-        conda create --yes --prefix "$RQ3_ENV_PREFIX" --override-channels --channel conda-forge python=3.10 pip
+        conda create --yes --prefix "$RQ3_ENV_PREFIX" --override-channels --channel conda-forge python=3.10 pip git
     elif [[ ! -f $RQ3_ENV_PREFIX/.rq3-bootstrap-in-progress ]]; then
         rq3_error "Unstamped pre-existing environment at $RQ3_ENV_PREFIX. Choose a fresh RQ3_ENV_PREFIX; bootstrap will not modify an unrelated environment."
         exit 1
     fi
     touch "$RQ3_ENV_PREFIX/.rq3-bootstrap-in-progress"
     rq3_activate_env
+    # Compute nodes may not expose the login node's Git. Keep it in this
+    # prefix so source staging and later offline checkout verification work.
+    # Repair interrupted environments created before Git was included above.
+    if [[ ! -x $RQ3_ENV_PREFIX/bin/git ]]; then
+        conda install --yes --prefix "$RQ3_ENV_PREFIX" --override-channels --channel conda-forge --freeze-installed git
+    fi
+    [[ -x $RQ3_ENV_PREFIX/bin/git ]] || { rq3_error 'Git is missing from the RQ3 environment after installation.'; exit 1; }
+    git --version
     python -m pip install --no-cache-dir "torch==$RQ3_TORCH_VERSION" "torchvision==$RQ3_TORCHVISION_VERSION" --index-url "$RQ3_TORCH_INDEX_URL"
     python -m pip install --no-cache-dir -r "$RQ3_WORKDIR/requirements-rq3.txt"
     python -m src.rq3.prepare --config "$RQ3_CONFIG" --stage-sources
