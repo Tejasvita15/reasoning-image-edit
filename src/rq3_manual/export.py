@@ -18,8 +18,9 @@ import shutil
 import tempfile
 import zipfile
 
-from src.rq3.evaluate import OFFICIAL_REVISION, OfficialEvaluator
+from src.rq3.evaluate import OFFICIAL_REVISION
 from src.rq3.protocol import REPO_ROOT, build_jobs, validate_config, validate_splits
+from .references import PreparedReferenceEvaluator
 
 
 def _read_json(path):
@@ -157,23 +158,6 @@ def _write_json(path, value):
     Path(path).write_text(json.dumps(value, indent=2, ensure_ascii=False, allow_nan=False) + "\n", encoding="utf-8")
 
 
-def _ground_truth(evaluator, category, annotation):
-    from PIL import Image
-    from .common import file_sha256
-
-    value = annotation.get("gt_img")
-    if not isinstance(value, str) or not value:
-        raise ValueError("Viewpoint judging requires the official ground-truth image")
-    category_root = (evaluator.root / "KRIS_Bench" / category).resolve()
-    path = (category_root / value).resolve()
-    if (not path.is_relative_to(category_root) or not path.is_file()
-            or path.suffix.lower() not in {".png", ".jpg", ".jpeg", ".webp"}):
-        raise ValueError("Official viewpoint ground-truth image path is invalid")
-    with Image.open(path) as image:
-        image.verify()
-    return path, file_sha256(path)
-
-
 def _calibration_report(args, policy_hash, config):
     path = getattr(args, "calibration_report", None)
     if not path:
@@ -211,7 +195,10 @@ def _readme(kind):
             "Record the actual UI model/settings and evaluation date when importing responses. "
             "Do not edit upload files or the private manifest after export.\n\n"
             "These are manual ChatGPT UI ratings using adapted official rubrics, not the pinned API judge. "
-            "The bundle preserves the original generation protocol and records a separate evaluation policy.\n")
+            "The bundle preserves the original generation protocol and records a separate evaluation policy. "
+            "Saved source images and any ground-truth references are verified against the pinned prepared "
+            "Hugging Face dataset used by the experiment. Differences from the official GitHub image copy "
+            "are recorded in private/manifest.json as reference_provenance; they are not hidden by resizing.\n")
 
 
 def export_bundle(args):
@@ -228,6 +215,9 @@ def export_bundle(args):
         raise ValueError("Record the ChatGPT UI judge label before exporting")
     if not isinstance(args.ui_settings, str) or not args.ui_settings.strip():
         raise ValueError("Record the ChatGPT UI settings before exporting")
+    prepared_data = getattr(args, "prepared_data", None) or os.environ.get("RQ3_PREPARED_DATA")
+    if not prepared_data:
+        raise ValueError("Set RQ3_PREPARED_DATA or pass --prepared-data to verify the pinned generation reference")
     generations = Path(args.generations).resolve()
     output = Path(args.output_dir).resolve()
     zip_path = output.with_name(output.name + ".zip")
@@ -256,16 +246,18 @@ def export_bundle(args):
             selected = _select_rows(snapshot, rows, kind=kind, seeds=args.seeds, limit=args.limit)
             judge = dict(snapshot["judge"])
             judge["official_checkout"] = str((REPO_ROOT / judge["official_checkout"]).resolve())
-            evaluator = OfficialEvaluator(judge)
+            evaluator = PreparedReferenceEvaluator(judge, snapshot, prepared_data,
+                                                   [row["example_uid"] for row in selected])
             items, ground_truth_paths = [], {}
             for index, row in enumerate(selected, 1):
                 _verify_images(row)
                 category, _, annotation = evaluator.annotation(row)
                 family = evaluator.family(category)
                 item = {"item_key": f"item_{index:04d}", "row": row,
-                        "official_family": family, "knowledge_required": family == "knowledge"}
+                        "official_family": family, "knowledge_required": family == "knowledge",
+                        "reference_provenance": evaluator.reference_provenance(row)}
                 if family == "view":
-                    path, digest = _ground_truth(evaluator, category, annotation)
+                    path, digest = evaluator.ground_truth(row)
                     ground_truth_paths[item["item_key"]] = path
                     item["ground_truth_sha256"] = digest
                 items.append(item)
@@ -279,7 +271,8 @@ def export_bundle(args):
                         "generation_protocol_hash": snapshot["protocol_hash"], "generation_snapshot": snapshot,
                         "evaluation_protocol": policy, "evaluation_protocol_hash": canonical_hash(policy),
                         "selection_hash": selection_hash, "seeds": list(args.seeds),
-                        "items": items, "batches": [], "files": {}, "generations_sha256": log_hash}
+                        "items": items, "batches": [], "files": {}, "generations_sha256": log_hash,
+                        "prepared_data_provenance": evaluator.data_provenance}
             if kind == "main":
                 manifest["calibration_report"] = _calibration_report(args, manifest["evaluation_protocol_hash"], snapshot["config"])
             items_by_key = {item["item_key"]: item for item in items}
@@ -355,7 +348,9 @@ def export_bundle(args):
                       "selected_outputs": len(items), "batches": len(manifest["batches"]),
                       "generation_protocol_hash": snapshot["protocol_hash"],
                       "evaluation_protocol_hash": manifest["evaluation_protocol_hash"],
-                      "manifest_hash": manifest["manifest_hash"]}
+                      "manifest_hash": manifest["manifest_hash"],
+                      "official_source_pixel_mismatches": sum(
+                          not item["reference_provenance"]["source"]["official_pixels_equal"] for item in items)}
             print(json.dumps(result, indent=2))
             return result
     finally:

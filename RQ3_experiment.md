@@ -821,7 +821,8 @@ qstat -f "$CALIBRATION_JOB"
 
 Export after the job finishes. This is a small CPU task: two CPUs, 8 GB memory,
 30 minutes, no GPU or API access. Use the updated branch on NSCC first. Select
-one image-capable model in ChatGPT, then enter its actual displayed label below;
+one image-capable model in ChatGPT, then replace the quoted placeholder below
+with its actual displayed label before pasting the commands;
 keep that model and the UI settings fixed across both passes and main judging.
 The model label is operator metadata, not the model's self-reported identity.
 
@@ -831,9 +832,10 @@ qsub -I -q normal -P personal-rtan134 \
 cd "$HOME/ai6132_group"
 source jobs/nscc/common.sh
 rq3_activate
-read -r -p 'Exact model label selected in ChatGPT: ' RQ3_JUDGE_LABEL
+RQ3_JUDGE_LABEL='REPLACE_WITH_YOUR_SELECTED_CHATGPT_MODEL_LABEL'
 python -m src.rq3_manual export \
   --generations "$RQ3_OUTPUT_ROOT/calibration/generations.jsonl" \
+  --prepared-data "$RQ3_PREPARED_DATA" \
   --kind calibration --limit 20 --batch-size 2 \
   --judge-label "$RQ3_JUDGE_LABEL" \
   --output-dir "$RQ3_OUTPUT_ROOT/chatgpt_calibration"
@@ -841,11 +843,34 @@ exit
 ```
 
 This creates `chatgpt_calibration.zip` alongside the bundle directory in scratch.
-It copies only the selected source/output images, any required official viewpoint
+It copies only the selected source/output images, any required prepared viewpoint
 references, prompts and provenance. It does not copy model weights or the Conda
 environment. Existing bundles are never overwritten. Resume manual work using
 that bundle; an interrupted export before publication can be rerun. Inspect any
 leftover export lock before removing it after an abrupt process termination.
+
+The manual exporter verifies each saved generation source against the same
+prepared Hugging Face dataset used by the runner. It checks the archived dataset
+revision/preprocessing/data-code identity, prepared manifest and file hashes,
+exact RGB pixels, and matching official annotation IDs/instructions. Viewpoint
+ground truth comes from the same verified prepared record. `--prepared-data`
+defaults to `RQ3_PREPARED_DATA`, set by `source jobs/nscc/common.sh` and `rq3_paths`.
+This verification reads cached files; it does not load the model or download data.
+
+If an older exporter raised `HF/generation reference differs from official
+evaluator reference`, update the code and rerun the export above. That older
+check required the separate GitHub image copy to have identical pixels to the
+Hugging Face input. The manual workflow now records this comparison in each
+item's private `reference_provenance` rather than using the GitHub copy as the
+judge's source. Dimensions, RGB/file hashes and same-size pixel differences are
+logged without resizing either image or applying a similarity tolerance. A
+mismatch against the actual prepared input still stops the export. A failed
+export does not publish a bundle; the existing generation run can be reused.
+For the pinned `anomaly_correction__60` assets, JPEG quality-85 re-encoding of
+the GitHub source reproduced the Hugging Face file exactly in the local
+Pillow 12.3.0 check; both were 1260×1771. This explains that reported mismatch.
+The exporter does not assume every mismatch has the same cause: it records each
+comparison and always requires exact agreement with the prepared generation input.
 
 Download and extract **on your Mac**, using NSCC's approved login/transfer route
 and VPN if required:
@@ -1067,9 +1092,10 @@ per seed. Use a CPU allocation, activate the environment as above, and reuse the
 **exact** calibration model label (and `--ui-settings` if you customized it):
 
 ```bash
-read -r -p 'Same ChatGPT model label used for calibration: ' RQ3_JUDGE_LABEL
+RQ3_JUDGE_LABEL='REPLACE_WITH_THE_SAME_MODEL_LABEL_USED_FOR_CALIBRATION'
 python -m src.rq3_manual export \
   --generations "$RQ3_OUTPUT_ROOT/main/merged/generations.jsonl" \
+  --prepared-data "$RQ3_PREPARED_DATA" \
   --kind main --batch-size 2 --judge-label "$RQ3_JUDGE_LABEL" \
   --calibration-report "$RQ3_OUTPUT_ROOT/chatgpt_calibration/repeatability.json" \
   --output-dir "$RQ3_OUTPUT_ROOT/chatgpt_main"

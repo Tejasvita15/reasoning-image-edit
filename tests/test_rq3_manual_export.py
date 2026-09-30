@@ -2,6 +2,7 @@
 
 import copy
 import fcntl
+import hashlib
 import json
 from pathlib import Path
 from types import SimpleNamespace
@@ -27,7 +28,7 @@ def write_rows(path, rows):
 def archive_factory(tmp_path, monkeypatch):
     counter = [0]
 
-    def make(*, kind="calibration", viewpoint=False, frozen=True):
+    def make(*, kind="calibration", viewpoint=False, frozen=True, source_variant=False):
         counter[0] += 1
         root = tmp_path / f"fixture_{counter[0]}"
         root.mkdir()
@@ -63,13 +64,26 @@ def archive_factory(tmp_path, monkeypatch):
         gt = official_root / "KRIS_Bench/viewpoint_change/target.jpeg"
         gt.parent.mkdir(parents=True)
         Image.new("RGB", (8, 6), (1, 2, 3)).save(gt)
-        checked = []
+        checked, evaluator_calls = [], []
+        prepared_data = root / "prepared"
+        prepared_data.mkdir()
+        prepared_gt = prepared_data / "ground_truth.png"
+        Image.new("RGB", (8, 6), (11, 12, 13)).save(prepared_gt)
+        data_provenance = {
+            "data_identity": "b" * 64, "manifest_sha256": "c" * 64,
+            "dataset": {key: snapshot["config"]["data"][key] for key in ("dataset_id", "revision", "split")},
+            "preprocessing": snapshot["config"]["preprocessing"],
+            "implementation_sha256": {"src/rq3/prepare.py": "d" * 64},
+        }
 
         class FakeEvaluator:
             prompt_sha256 = "a" * 64
 
-            def __init__(self, judge):
+            def __init__(self, judge, snapshot, prepared_data, uids):
                 self.root = official_root
+                self.data_provenance = copy.deepcopy(data_provenance)
+                evaluator_calls.append({"judge": copy.deepcopy(judge), "snapshot": copy.deepcopy(snapshot),
+                                        "prepared_data": Path(prepared_data), "uids": set(uids)})
 
             def annotation(self, row):
                 checked.append(row["example_uid"])
@@ -79,9 +93,39 @@ def archive_factory(tmp_path, monkeypatch):
             def family(self, category):
                 return "view" if category == "viewpoint_change" else "common"
 
-        monkeypatch.setattr(export, "OfficialEvaluator", FakeEvaluator)
+            def reference_provenance(self, row):
+                with Image.open(row["source_path"]) as image:
+                    rgb = image.convert("RGB")
+                    digest = hashlib.sha256(rgb.tobytes()).hexdigest()
+                    size = list(rgb.size)
+                mismatch = source_variant and row["example_uid"] == rows[0]["example_uid"]
+                source = {"prepared_file_sha256": row["source_sha256"],
+                          "generation_file_sha256": row["source_sha256"], "rgb_sha256": digest, "size": size,
+                          "official_file_sha256": "e" * 64 if mismatch else row["source_sha256"],
+                          "official_rgb_sha256": "f" * 64 if mismatch else digest, "official_size": size,
+                          "official_pixels_equal": not mismatch, "official_mae": 1.0 if mismatch else 0.0,
+                          "official_max_abs_difference": 1 if mismatch else 0}
+                ground_truth = None
+                if row["example_uid"].startswith("viewpoint_change__"):
+                    with Image.open(prepared_gt) as prepared, Image.open(gt) as official:
+                        prepared_rgb, official_rgb = prepared.convert("RGB"), official.convert("RGB")
+                        differences = [abs(a - b) for a, b in zip(prepared_rgb.tobytes(), official_rgb.tobytes())]
+                        ground_truth = {"prepared_file_sha256": common.file_sha256(prepared_gt),
+                                        "rgb_sha256": hashlib.sha256(prepared_rgb.tobytes()).hexdigest(),
+                                        "size": list(prepared_rgb.size), "official_file_sha256": common.file_sha256(gt),
+                                        "official_rgb_sha256": hashlib.sha256(official_rgb.tobytes()).hexdigest(),
+                                        "official_size": list(official_rgb.size), "official_pixels_equal": False,
+                                        "official_mae": sum(differences) / len(differences),
+                                        "official_max_abs_difference": max(differences)}
+                return {"source": source, "ground_truth": ground_truth}
+
+            def ground_truth(self, row):
+                return prepared_gt, common.file_sha256(prepared_gt)
+
+        monkeypatch.setattr(export, "PreparedReferenceEvaluator", FakeEvaluator, raising=False)
         policy = {"interface": "chatgpt_manual", "aggregate": "mean_applicable_normalized",
                   "judge_label": "UI test model", "ui_settings": "fresh chats",
+                  "reference_source": "pinned_prepared_hf_generation_source",
                   "adapter_files_sha256": common.adapter_hashes()}
         monkeypatch.setattr(common, "make_policy", lambda *args: copy.deepcopy(policy))
 
@@ -98,9 +142,12 @@ def archive_factory(tmp_path, monkeypatch):
                             "candidate_minimum_meaningful_difference": 1.0})
         args = SimpleNamespace(generations=str(generations), output_dir=str(root / "bundle"), kind=kind,
                                limit=20, seeds=[42], batch_size=2, judge_label="UI test model", ui_settings="fresh chats",
+                               prepared_data=str(prepared_data),
                                calibration_report=str(report) if kind == "main" else None)
         return SimpleNamespace(root=root, rows=rows, snapshot=snapshot, args=args, generations=generations,
-                               policy=policy, report=report, checked=checked, gt=gt)
+                               policy=policy, report=report, checked=checked, gt=prepared_gt, official_gt=gt,
+                               evaluator_calls=evaluator_calls, prepared_data=prepared_data,
+                               data_provenance=data_provenance)
 
     return make
 
@@ -115,6 +162,17 @@ def test_calibration_exports_blinded_two_passes_without_changing_generation_iden
     assert manifest["generation_snapshot"]["judge"]["aggregate_confirmed"] is False
     assert len(manifest["items"]) == 20 and len(manifest["batches"]) == 20
     assert len(fixture.checked) == 20
+    assert fixture.evaluator_calls == [{
+        "judge": {**fixture.snapshot["judge"],
+                  "official_checkout": str((export.REPO_ROOT / fixture.snapshot["judge"]["official_checkout"]).resolve())},
+        "snapshot": fixture.snapshot, "prepared_data": fixture.prepared_data,
+        "uids": {item["row"]["example_uid"] for item in manifest["items"]},
+    }]
+    assert manifest["prepared_data_provenance"] == fixture.data_provenance
+    assert manifest["evaluation_protocol"]["reference_source"] == "pinned_prepared_hf_generation_source"
+    assert result["official_source_pixel_mismatches"] == 0
+    assert all(item["reference_provenance"]["source"]["generation_file_sha256"] == item["row"]["source_sha256"]
+               for item in manifest["items"])
     assert common.file_sha256(fixture.generations) == before
     ordered, aliases = {}, {}
     for batch in manifest["batches"]:
@@ -258,7 +316,7 @@ def test_main_rejects_missing_or_incompatible_manual_calibration(archive_factory
         export.export_bundle(fixture.args)
 
 
-def test_viewpoint_ground_truth_uses_unchanged_bytes_and_blind_reference_filename(archive_factory):
+def test_viewpoint_uses_frozen_prepared_ground_truth_and_blind_reference_filename(archive_factory):
     fixture = archive_factory(viewpoint=True)
     result = export.export_bundle(fixture.args)
     directory = Path(result["output_dir"])
@@ -267,8 +325,40 @@ def test_viewpoint_ground_truth_uses_unchanged_bytes_and_blind_reference_filenam
     assert len(references) == 12
     for entry in references:
         image = directory / entry["ground_truth_file"]
-        assert image.name == entry["blind_id"] + "_reference.jpeg"
+        assert image.name == entry["blind_id"] + "_reference.png"
         assert image.read_bytes() == fixture.gt.read_bytes()
+        assert image.read_bytes() != fixture.official_gt.read_bytes()
+        item = next(item for item in manifest["items"] if item["item_key"] == entry["item_key"])
+        assert item["reference_provenance"]["ground_truth"]["prepared_file_sha256"] == common.file_sha256(fixture.gt)
+
+
+def test_official_source_variant_is_reported_without_replacing_or_skipping_frozen_images(archive_factory):
+    fixture = archive_factory(source_variant=True)
+    original_hash = common.file_sha256(fixture.generations)
+    result = export.export_bundle(fixture.args)
+    directory = Path(result["output_dir"])
+    manifest = common.load_bundle(directory)
+    assert len(manifest["items"]) == 20
+    assert [export._row_key(item["row"]) for item in manifest["items"]] == [export._row_key(row) for row in fixture.rows[:20]]
+    mismatches = [item for item in manifest["items"] if not item["reference_provenance"]["source"]["official_pixels_equal"]]
+    assert len(mismatches) == result["official_source_pixel_mismatches"] == 6
+    assert {item["row"]["example_uid"] for item in mismatches} == {fixture.rows[0]["example_uid"]}
+    assert common.file_sha256(fixture.generations) == original_hash
+    items = {item["item_key"]: item for item in manifest["items"]}
+    for batch in manifest["batches"]:
+        for entry in batch["items"]:
+            row = items[entry["item_key"]]["row"]
+            assert (directory / entry["source_file"]).read_bytes() == Path(row["source_path"]).read_bytes()
+
+
+def test_missing_prepared_data_requires_an_explicit_verified_source(archive_factory, monkeypatch):
+    fixture = archive_factory()
+    fixture.args.prepared_data = None
+    monkeypatch.delenv("RQ3_PREPARED_DATA", raising=False)
+    with pytest.raises(ValueError, match="prepared-data|RQ3_PREPARED_DATA"):
+        export.export_bundle(fixture.args)
+    assert fixture.evaluator_calls == []
+    assert not Path(fixture.args.output_dir).exists()
 
 
 def test_partial_export_is_not_published_and_existing_bundle_is_not_overwritten(archive_factory, monkeypatch):

@@ -1,5 +1,6 @@
 """Export images for ChatGPT, import manual judgments, and analyze RQ3."""
 import argparse
+import os
 
 
 def main():
@@ -7,6 +8,8 @@ def main():
     commands = parser.add_subparsers(dest="command", required=True)
     command = commands.add_parser("export", help="Make an offline ZIP with blinded images and prompts")
     command.add_argument("--generations", required=True)
+    command.add_argument("--prepared-data", default=os.environ.get("RQ3_PREPARED_DATA"),
+                         help="Verified prepared HF data directory; defaults to RQ3_PREPARED_DATA")
     command.add_argument("--output-dir", required=True)
     command.add_argument("--kind", choices=("calibration", "main"), default="calibration")
     command.add_argument("--limit", type=int, default=20)

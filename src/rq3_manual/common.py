@@ -12,7 +12,8 @@ def adapter_hashes():
     """Freeze the importer, prompt renderer and statistical implementation too."""
     files = sorted(Path(__file__).parent.glob("*.py"))
     files += [REPO_ROOT / name for name in (
-        "src/rq3/evaluate.py", "src/rq3/analyze.py", "src/rq3/protocol.py", "src/taxonomy.py")]
+        "src/rq3/evaluate.py", "src/rq3/analyze.py", "src/rq3/protocol.py", "src/rq3/prepare.py",
+        "src/dataset.py", "src/taxonomy.py")]
     return {str(path.relative_to(REPO_ROOT)): file_sha256(path) for path in files}
 
 
@@ -27,6 +28,9 @@ def make_policy(judge_label, ui_settings, evaluator):
         "ui_settings": ui_settings.strip(), "prompt_version": PROMPT_VERSION,
         "aggregate": "mean_applicable_normalized", "score_range": [0, 100],
         "component_range": [1, 5], "component_type": "integer",
+        "reference_source": "pinned_prepared_hf_generation_source",
+        "ground_truth_source": "pinned_prepared_hf_gt_image",
+        "official_reference_comparison": "diagnostic_only; no resizing or tolerance-based substitution",
         "official_revision": "cf1475253a13f5e5666826c10d8967e38917468a",
         "official_prompt_sha256": evaluator.prompt_sha256,
         "rubric_sha256": rubric_hashes(evaluator),

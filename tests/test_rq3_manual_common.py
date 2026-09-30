@@ -16,10 +16,14 @@ def test_policy_records_ui_limits_and_complete_adapter_identity():
     assert policy["temperature"] is None
     assert policy["model_snapshot"] is None
     assert policy["aggregate"] == "mean_applicable_normalized"
+    assert policy["reference_source"] == "pinned_prepared_hf_generation_source"
+    assert policy["ground_truth_source"] == "pinned_prepared_hf_gt_image"
     assert set(policy["rubric_sha256"]) == set(RUBRIC_NAMES)
     assert policy["adapter_files_sha256"] == adapter_hashes()
     assert "src/rq3_manual/analysis.py" in policy["adapter_files_sha256"]
     assert "src/rq3/analyze.py" in policy["adapter_files_sha256"]
+    assert "src/rq3/prepare.py" in policy["adapter_files_sha256"]
+    assert "src/dataset.py" in policy["adapter_files_sha256"]
 
 
 @pytest.mark.parametrize("relative", ["../escape.png", "/absolute.png", ".", ""])
