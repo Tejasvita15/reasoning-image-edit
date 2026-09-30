@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "source_splits_sha256": "b513673f210e8ac63b6fdfa7bda0bc62323b2dffdb7e4c4e5658234c49a60dc9",
+  "parent_split": "k_small",
+  "sampling_seed": 42,
+  "sampling_method": "random.Random(42).sample within sorted knowledge-type pools, factual then conceptual then procedural",
+  "per_knowledge_type": {
+    "factual": 7,
+    "conceptual": 7,
+    "procedural": 6
+  },
+  "example_uids": [
+    "abstract_reasoning__33",
+    "anomaly_correction__25",
+    "anomaly_correction__74",
+    "biology__49",
+    "color_change__49",
+    "count_change__16",
+    "count_change__47",
+    "geography__40",
+    "mathematics__10",
+    "medicine__24",
+    "multi-instruction_execution__10",
+    "multi-instruction_execution__56",
+    "physics__53",
+    "practical_knowledge__28",
+    "practical_knowledge__29",
+    "rule-based_reasoning__52",
+    "rule-based_reasoning__68",
+    "rule-based_reasoning__75",
+    "size_adjustment__33",
+    "size_adjustment__38"
+  ]
+}

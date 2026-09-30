@@ -1,0 +1,74 @@
+# RQ3 is independent of RQ1/RQ2 outputs. Coordinate these shared choices first.
+schema_version: 1
+experiment_name: rq3_step1x_regione
+model:
+  model_id: stepfun-ai/Step1X-Edit-v1p2
+  revision: ca85b97fd19f2235dc0d6fd3633d1319f169e149
+  dtype: bfloat16
+  offload_mode: model
+data:
+  dataset_id: Liang0223/KRIS_Bench
+  revision: 0748003488a5d39a81d2f40290a86d787824b92d
+  split: train
+  splits_path: data/splits.json
+  splits_sha256: b513673f210e8ac63b6fdfa7bda0bc62323b2dffdb7e4c4e5658234c49a60dc9
+  subset_path: data/rq3_subset.json
+  subset_sha256: a01412109baf36aa2c29dd1e54ea0cc040e86ef5d06af3302dd7a1e201b68843
+source:
+  step1x_revision: 4cca05dfcd6c32dc810d0b4db84c2bf0682a5aeb
+  diffusers_revision: f5f1c98fa00cb4d0479af1b1b1c17d724345963a
+  diffusers_path: external/diffusers
+  regione_revision: df66d2e60710f66ce801e8b7c151d22c3239d114
+  regione_path: external/RegionE
+generation:
+  num_inference_steps: 28
+  true_cfg_scale: 6.0
+  guidance_scale: 6.0
+  negative_prompt: ''
+  enable_reflection_mode: false
+  max_try_cnt: 1
+preprocessing:
+  mode: step1x_native
+  size_level: 1024
+  exif_transpose: true
+  color_mode: RGB
+thinking:
+  temperature: 0.7
+  top_p: 0.9
+  max_new_tokens: 128
+seeds:
+  default: 42
+  additional: [1234, 7]
+  derivation: sha256_first8_mod_2^31_minus1
+  stages: [thinking, diffusion_0]
+regione:
+  params:
+    num_inference_steps: 28
+    warmup_step: 6
+    post_step: 2
+    refresh_step: '16'
+    threshold: 0.88
+    cache_threshold: 0.02
+    erosion_dilation: true
+  no_avd_cache_threshold: -1.0
+  no_rikv_mode: no_contextual_injection
+judge:
+  config_path: configs/judge_config.yaml
+statistics:
+  bootstrap_resamples: 10000
+  confidence: 0.95
+  bootstrap_seed: 42
+  # Fill from the shared repeatability study BEFORE test scoring; delta >= MMD.
+  equivalence_margin: null
+  minimum_meaningful_difference: null
+timing:
+  warmup_generations: 1
+  repeats: 3
+  synchronize_cuda: true
+validation:
+  deterministic_algorithms: true
+  determinism_examples: 10
+  image_mae_tolerance: 1.0
+  determinism_report: reports/rq3_determinism.json
+  components_report: reports/rq3_components.json
+output_dir: outputs/rq3

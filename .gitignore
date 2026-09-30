@@ -36,3 +36,15 @@ diffusers/
 # OS
 .DS_Store
 Thumbs.db
+
+# Standalone RQ3 dependencies and local experiment artifacts
+external
+.conda/
+*.egg-info/
+.pytest_cache/
+.env
+.env.*
+!.env.example
+.nscc/
+*.o[0-9]*
+*.e[0-9]*
