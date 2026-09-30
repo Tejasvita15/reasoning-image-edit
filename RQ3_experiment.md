@@ -872,8 +872,139 @@ Pillow 12.3.0 check; both were 1260×1771. This explains that reported mismatch.
 The exporter does not assume every mismatch has the same cause: it records each
 comparison and always requires exact agreement with the prepared generation input.
 
-Download and extract **on your Mac**, using NSCC's approved login/transfer route
-and VPN if required:
+#### Transfer through Git when SCP is unavailable
+
+Use a disposable scratch repository and the temporary branch
+`rq3_transfer_calibration`. Keep the implementation checkout on
+`rq3_implementation`; never merge the transfer branch. The ZIP is split into
+45 MiB chunks to stay below GitHub's 100 MiB per-file limit. A later `git rm`
+commit would leave the earlier file in history, so remove the temporary branch
+when the transfer and return of results are complete. Branch deletion does not
+promise immediate removal of GitHub's stored objects. [GitHub file limits and history](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github)
+
+The following upload uses GitHub push authentication already available on NSCC.
+A successful anonymous clone/pull alone does not grant push access. Run this
+**on NSCC**, in a shell with Git available. The parentheses keep error handling
+and directory changes inside the pasted block:
+
+```bash
+(
+set -eu
+cd "$HOME/ai6132_group"
+source jobs/nscc/common.sh
+rq3_paths
+RQ3_REMOTE=$(git remote get-url origin)
+RQ3_XFER="$RQ3_STORAGE_ROOT/transfers/chatgpt_calibration"
+test -s "$RQ3_OUTPUT_ROOT/chatgpt_calibration.zip"
+mkdir -p "$RQ3_STORAGE_ROOT/transfers"
+mkdir "$RQ3_XFER"
+split -b 45M "$RQ3_OUTPUT_ROOT/chatgpt_calibration.zip" "$RQ3_XFER/chatgpt_calibration.zip.part-"
+cd "$RQ3_OUTPUT_ROOT"
+sha256sum chatgpt_calibration.zip > "$RQ3_XFER/BUNDLE.sha256"
+cd "$RQ3_XFER"
+sha256sum chatgpt_calibration.zip.part-* > PARTS.sha256
+git init
+git checkout -b rq3_transfer_calibration
+git remote add origin "$RQ3_REMOTE"
+git add -- BUNDLE.sha256 PARTS.sha256 chatgpt_calibration.zip.part-*
+git -c user.name='RQ3 transfer' -c user.email='rq3-transfer@localhost' commit -m 'Transfer RQ3 calibration judging bundle'
+git push origin HEAD:refs/heads/rq3_transfer_calibration
+)
+```
+
+Only chunks and checksum files are staged. Bulk files and this disposable
+`.git` directory remain on scratch. The local commit identity labels the artifact
+transfer; it does not configure GitHub authentication. If push fails after the
+commit, fix authentication and retry only `git -C "$RQ3_STORAGE_ROOT/transfers/chatgpt_calibration" push origin HEAD:refs/heads/rq3_transfer_calibration`.
+If the remote branch already exists with different history, inspect it or choose
+a new transfer branch name on both machines; do not force-push over it.
+
+Then run **on your Mac**. These destinations must be fresh; if they already
+exist, inspect them instead of overwriting an earlier judging session:
+
+```bash
+(
+set -eu
+git clone --depth 1 --single-branch --branch rq3_transfer_calibration https://github.com/Tejasvita15/reasoning-image-edit.git "$HOME/Downloads/rq3_transfer_calibration"
+cd "$HOME/Downloads/rq3_transfer_calibration"
+shasum -a 256 -c PARTS.sha256
+cat chatgpt_calibration.zip.part-* > chatgpt_calibration.zip
+shasum -a 256 -c BUNDLE.sha256
+mkdir "$HOME/Downloads/chatgpt_calibration"
+unzip -q chatgpt_calibration.zip -d "$HOME/Downloads/chatgpt_calibration"
+mkdir "$HOME/Downloads/chatgpt_calibration/responses"
+cp "$HOME/Downloads/chatgpt_calibration/session_log_template.json" "$HOME/Downloads/chatgpt_calibration/session_log.json"
+)
+open "$HOME/Downloads/chatgpt_calibration/upload/pass_1/p1_b001"
+pbcopy < "$HOME/Downloads/chatgpt_calibration/upload/pass_1/p1_b001/prompt.md"
+```
+
+Both checksum checks must report `OK`, and extraction must succeed. The extracted
+bundle is outside the disposable clone, so cleanup can preserve your working
+images, private manifest and responses. Start judging with the numbered procedure
+below. The first batch's prompt is now on your clipboard; attach its image files
+and paste the prompt in a fresh ChatGPT chat. Save its JSON answer unchanged as
+`$HOME/Downloads/chatgpt_calibration/responses/p1_b001.json`.
+
+You can delete the reconstructed ZIP now, after those checks, while keeping the
+transfer clone for sending answers back later:
+
+```bash
+rm -i "$HOME/Downloads/rq3_transfer_calibration/chatgpt_calibration.zip"
+```
+
+After both passes are complete, return only the responses and operator session
+log through the same temporary branch. **On your Mac**:
+
+```bash
+(
+set -eu
+cd "$HOME/Downloads/rq3_transfer_calibration"
+mkdir returned
+cp -R "$HOME/Downloads/chatgpt_calibration/responses" returned/responses
+cp "$HOME/Downloads/chatgpt_calibration/session_log.json" returned/session_log.json
+git add -- returned/responses returned/session_log.json
+git -c user.name='RQ3 transfer' -c user.email='rq3-transfer@localhost' commit -m 'Return manual calibration judgments'
+git push origin HEAD:refs/heads/rq3_transfer_calibration
+)
+```
+
+**On NSCC**, receive those files into the existing bundle, then use the import
+and repeatability commands below:
+
+```bash
+(
+set -eu
+cd "$HOME/ai6132_group"
+source jobs/nscc/common.sh
+rq3_paths
+RQ3_XFER="$RQ3_STORAGE_ROOT/transfers/chatgpt_calibration"
+git -C "$RQ3_XFER" pull --ff-only origin rq3_transfer_calibration
+mkdir "$RQ3_OUTPUT_ROOT/chatgpt_calibration/responses"
+cp "$RQ3_XFER/returned/responses/"*.json "$RQ3_OUTPUT_ROOT/chatgpt_calibration/responses/"
+cp -i "$RQ3_XFER/returned/session_log.json" "$RQ3_OUTPUT_ROOT/chatgpt_calibration/session_log.json"
+)
+```
+
+After successful import/repeatability and a verified Mac copy, delete the
+**temporary transfer branch only**, using its disposable Mac clone:
+
+```bash
+git -C "$HOME/Downloads/rq3_transfer_calibration" push origin --delete rq3_transfer_calibration
+```
+
+You may then move `$HOME/Downloads/rq3_transfer_calibration` to Trash on your Mac,
+and delete `$RQ3_STORAGE_ROOT/transfers/chatgpt_calibration` on NSCC. Those are
+only disposable transport repositories. Keep the separate extracted
+`chatgpt_calibration` directories, source/output images, manifests, judgments and
+repeatability report. The original scratch ZIP can also be removed after
+verification: `rm -i "$RQ3_OUTPUT_ROOT/chatgpt_calibration.zip"`. Do not delete
+`rq3_implementation` or rewrite its history.
+
+#### Direct transfer alternative
+
+If SCP is working, download and extract **on your Mac**, using NSCC's approved
+login/transfer route and VPN if required (skip this block after a Git transfer):
 
 ```bash
 export NSCC_DEST='rtan134@aspire2antu.nscc.sg'
@@ -917,7 +1048,8 @@ rubric requires one. The order and opaque image IDs differ between passes.
    scores. Keep saved responses so work can resume batch by batch. The importer
    requires a complete pass and rejects missing, duplicate or invalid ratings.
 
-Return the responses and session log **from your Mac**:
+For the direct-transfer alternative, return the responses and session log
+**from your Mac** (Git users use the temporary branch commands above):
 
 ```bash
 export NSCC_DEST='rtan134@aspire2antu.nscc.sg'
@@ -965,11 +1097,128 @@ API-judged results in the report. Dataset preparation is unaffected by this choi
 
 ### Final pilots, determinism and walltime estimation
 
+#### Calibration completed on 2026-09-30: corrected metadata and Git return
+
+The 20 selected development outputs have now been imported twice (40 ratings).
+All paired component scores and Q values agree: mean absolute difference = 0
+and p95 absolute difference = 0. `configs/rq3.yaml` freezes MMD = **0** and
+δ = **5**. The five-point tolerance is a chosen acceptable loss on the 0–100 Q
+scale before test evaluation; zero observed spread does not establish a
+noise-free judge. The decision and complete calibration provenance are in
+[`reports/rq3_chatgpt_calibration/`](reports/rq3_chatgpt_calibration/README.md).
+
+The model placeholder was corrected to the original session entries' recorded
+label, `GPT-6 Astra Pro`. The operator rejected the shared-conversation
+description and authorized the fresh-chat metadata correction. Session IDs
+beginning `operator-attested:` are assigned local IDs, not actual ChatGPT URLs;
+independence/settings rely on that correction. Original metadata and response
+bytes are preserved in the audit. The original Downloads bundle is untouched;
+the corrected local copy is `outputs/rq3/manual_calibration/corrected_bundle/`.
+
+For this completed calibration, use the following Git return procedure instead
+of the earlier response-only transfer block. It transfers about 3 MB of reports
+and metadata on the implementation branch; existing NSCC images are reused.
+No ZIP or SCP is needed. **On your Mac**, publish the prepared files:
+
+```bash
+cd /Users/aloysiustan/Development/ai6132_group
+git add -- configs/rq3.yaml RQ3_experiment.md reports/rq3_chatgpt_calibration tests/test_rq3_protocol.py tests/test_rq3_manual_export.py
+git commit -m "Record manual calibration and freeze RQ3 quality margin"
+git push origin rq3_implementation
+```
+
+**On the NSCC login node**, with no experiment running from this checkout:
+
+```bash
+cd "$HOME/ai6132_group"
+git switch rq3_implementation
+git pull --ff-only origin rq3_implementation
+qsub -I -q normal -P personal-rtan134 -l select=1:ncpus=2:mem=8gb -l walltime=00:30:00
+```
+
+Once the CPU allocation opens, restore and verify the corrected bundle. This
+copies the original bundle into a separate scratch directory, checks the
+original identity, and applies only the supplied metadata/responses. A repeat
+invocation validates and reuses a completed corrected copy; it never overwrites
+an existing destination. The original bundle is preserved.
+
+```bash
+cd "$HOME/ai6132_group"
+source jobs/nscc/common.sh
+rq3_activate
+(
+set -eu
+export RQ3_BUNDLE="$RQ3_OUTPUT_ROOT/chatgpt_calibration_corrected"
+(
+cd reports/rq3_chatgpt_calibration
+sha256sum -c SHA256SUMS
+)
+python - <<'PY'
+import json, os, shutil, tempfile
+from pathlib import Path
+from src.rq3_manual.common import load_bundle
+
+metadata = Path('reports/rq3_chatgpt_calibration/bundle_metadata')
+source = Path(os.environ['RQ3_OUTPUT_ROOT']) / 'chatgpt_calibration'
+destination = Path(os.environ['RQ3_BUNDLE'])
+before = json.loads((metadata / 'private/metadata_correction/original_manifest.json').read_text())
+after = json.loads((metadata / 'private/manifest.json').read_text())
+if load_bundle(source) != before:
+    raise ValueError('Original NSCC bundle differs from the archived calibration')
+if not destination.exists():
+    temporary = Path(tempfile.mkdtemp(prefix='.calibration-correction-', dir=destination.parent))
+    try:
+        shutil.copytree(source, temporary, dirs_exist_ok=True)
+        shutil.copytree(metadata, temporary, dirs_exist_ok=True)
+        if load_bundle(temporary) != after:
+            raise ValueError('Corrected bundle differs from the supplied manifest')
+        temporary.rename(destination)
+    finally:
+        if temporary.exists():
+            shutil.rmtree(temporary)
+if load_bundle(destination) != after:
+    raise ValueError('Existing corrected bundle differs; inspect it before proceeding')
+print(f'Corrected bundle verified: {destination}')
+PY
+python -m src.rq3_manual import --bundle "$RQ3_BUNDLE" --responses "$RQ3_BUNDLE/responses" --session-log "$RQ3_BUNDLE/session_log.json" --pass-number 1 --output "$RQ3_BUNDLE/judge_first.jsonl"
+python -m src.rq3_manual import --bundle "$RQ3_BUNDLE" --responses "$RQ3_BUNDLE/responses" --session-log "$RQ3_BUNDLE/session_log.json" --pass-number 2 --output "$RQ3_BUNDLE/judge_second.jsonl"
+python -m src.rq3_manual repeatability --first "$RQ3_BUNDLE/judge_first.jsonl" --second "$RQ3_BUNDLE/judge_second.jsonl" --output "$RQ3_BUNDLE/repeatability.json"
+cmp reports/rq3_chatgpt_calibration/repeatability.json "$RQ3_BUNDLE/repeatability.json"
+)
+```
+
+Expected: both imports report `outputs: 20`, repeatability reports both
+differences as `0.0`, and `cmp` prints nothing. After successful verification,
+`exit` returns to the login node. The existing temporary image-transfer branch
+can then be cleaned up using the earlier instructions; retain calibration
+images and audit records. The Git-ready report also supplies the calibration
+input for main export below.
+
+#### Submit the final pilots
+
+Freezing MMD/δ changes the generation protocol hash to
+`a2001fe4612dfee6ae489c243b0fb204b1f04ba39f4877bf0f53853fe7f1438c`.
+Start final pilots in fresh directories. Do not resume old-protocol pilots or
+rewrite their logs; the existing smoke and calibration outputs remain archived.
+No environment rebuild or model/dataset download is needed for this change.
+For the first submission, run on the login node:
+
+```bash
+cd "$HOME/ai6132_group"
+source jobs/nscc/common.sh
+rq3_paths
+```
+
+If `pilot_first` or `pilot_second` already exists under `$RQ3_OUTPUT_ROOT`, check
+its `protocol.json` before submission. Keep any prior-protocol directory under a
+distinct archive name before creating the final pilot. Same-protocol retries
+resume with the commands below. Keep pilot timing free of competing GPU jobs.
+
 ```bash
 PILOT1_JOB=$(qsub -o "$RQ3_LOG_DIR/" -l walltime=08:00:00 \
   -v RQ3_MODE=pilot_first,RQ3_TIMING_REPEATS=3 jobs/nscc/gpu.pbs)
 PILOT2_JOB=$(qsub -o "$RQ3_LOG_DIR/" -W "depend=afterok:$PILOT1_JOB" -l walltime=04:00:00 \
-  -v RQ3_MODE=pilot_second jobs/nscc/gpu.pbs)
+  -v RQ3_MODE=pilot_second,RQ3_TIMING_REPEATS=0 jobs/nscc/gpu.pbs)
 VERIFY_JOB=$(qsub -o "$RQ3_LOG_DIR/" -W "depend=afterok:$PILOT2_JOB" \
   -v RQ3_ACTION=validate jobs/nscc/finish.pbs)
 BUDGET_JOB=$(qsub -o "$RQ3_LOG_DIR/" -W "depend=afterok:$PILOT1_JOB" \
@@ -1092,14 +1341,19 @@ per seed. Use a CPU allocation, activate the environment as above, and reuse the
 **exact** calibration model label (and `--ui-settings` if you customized it):
 
 ```bash
-RQ3_JUDGE_LABEL='REPLACE_WITH_THE_SAME_MODEL_LABEL_USED_FOR_CALIBRATION'
+RQ3_JUDGE_LABEL='GPT-6 Astra Pro'
 python -m src.rq3_manual export \
   --generations "$RQ3_OUTPUT_ROOT/main/merged/generations.jsonl" \
   --prepared-data "$RQ3_PREPARED_DATA" \
   --kind main --batch-size 2 --judge-label "$RQ3_JUDGE_LABEL" \
-  --calibration-report "$RQ3_OUTPUT_ROOT/chatgpt_calibration/repeatability.json" \
+  --calibration-report reports/rq3_chatgpt_calibration/repeatability.json \
   --output-dir "$RQ3_OUTPUT_ROOT/chatgpt_main"
 ```
+
+This command uses the completed 2026-09-30 calibration returned through Git.
+Keep the recorded model and fresh-chat settings fixed. If that model/settings
+cannot be used for main judging, recalibrate rather than changing the label to
+make a different judge pass the identity check.
 
 Download/extract `chatgpt_main.zip` and follow the same batch procedure. The main
 bundle has one pass: 100 chats at two outputs per batch for seed 42. Timing

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p2_b007",
+  "results": [
+    {
+      "blind_id": "case_37dbc9ad77c1a699",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The eight existing dot arrays, dividing lines, framing and white background are unchanged. Instruction: The bottom-right cell still contains the question mark; no solution has been drawn, so the requested edit is absent. Knowledge: The supplied same-color/different-color rule is not expressed in a completed dot array. Instruction failure implies knowledge invalid, requiring a score of 1. Quality: Assessed alone, the diagram has clean lines, well-formed circles and a legible question mark, without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_0f8132e59a7962e2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The facial appearance, green-and-tan clothing palette, fruit table and broad background arrangement remain recognizable. However, the other resting hand moves inward, the lower legs and shoes change position, and the chair pedestal and visible furniture details are altered. These are multiple noticeable non-instructed changes. Instruction: The hanging hand beside the fruit is removed and the glass-holding arm is retained, reducing the number of hands to two. A complete correction should leave two coherently connected arms, but the green sleeve and white cuff terminate awkwardly against the separate raised tan sleeve, leaving the arm connection unresolved. Quality: Assessed alone, the face, glass and overall seated composition are coherent, but the mismatched, interrupted sleeve assembly is a clear structural flaw; image softness alone is not penalized."
+    }
+  ]
+}

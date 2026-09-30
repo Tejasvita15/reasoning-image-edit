@@ -35,6 +35,8 @@ def archive_factory(tmp_path, monkeypatch):
         config = load_protocol()
         if kind == "main" and frozen:
             config["statistics"].update(minimum_meaningful_difference=2.0, equivalence_margin=5.0)
+        elif not frozen:
+            config["statistics"].update(minimum_meaningful_difference=None, equivalence_margin=None)
         snapshot = protocol_manifest(config)
         snapshot["protocol_hash"] = canonical_hash({key: snapshot[key] for key in ("config", "splits", "subset", "judge")})
         public = {**snapshot["config"], "protocol_hash": snapshot["protocol_hash"]}

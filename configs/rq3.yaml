@@ -58,9 +58,11 @@ statistics:
   bootstrap_resamples: 10000
   confidence: 0.95
   bootstrap_seed: 42
-  # Fill from the shared repeatability study BEFORE test scoring; delta >= MMD.
-  equivalence_margin: null
-  minimum_meaningful_difference: null
+  # Frozen before test scoring: reports/rq3_chatgpt_calibration/decision.json.
+  # Observed calibration p95 |rescore Q difference| = 0; delta is a chosen
+  # 5-point acceptable-loss tolerance on Q's 0-100 scale, not estimated noise.
+  equivalence_margin: 5.0
+  minimum_meaningful_difference: 0.0
 timing:
   warmup_generations: 1
   repeats: 3

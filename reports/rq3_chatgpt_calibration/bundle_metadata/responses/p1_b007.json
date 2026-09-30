@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b007",
+  "results": [
+    {
+      "blind_id": "case_99ba4792d6596a33",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: All eight completed panels, their dot arrangements, the grid lines and the blank answer-cell background remain visually consistent with the source. Instruction: The original question mark remains in the bottom-right cell, with no replacement dot pattern. The required edit is absent. Knowledge: No answer is supplied that could implement the position-wise color-comparison rule. Instruction failure ⇒ knowledge invalid. Quality: The standalone image is a clean, legible puzzle diagram, with regular circles, intact borders and a well-formed question mark. Its unanswered state is not a visual-quality defect."
+    },
+    {
+      "blind_id": "case_87784bbb98e7f4c1",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The shirt outline, collar and sleeves, hem, side tag, placement and white background remain consistent. The chest emblem is noticeably redrawn, with heavier lettering and a longer, sharper swoosh rather than preserving the original emblem contours; this is a non-instructed graphic change, not merely increased contrast against white fabric. The inner label also loses some fine detail. Instruction: The torso, sleeves and collar are changed from black to white, with appropriate pale-gray fold shading, fully meeting the color request. Quality: The edited garment has a coherent silhouette, natural fabric folds, a readable logo and clean edges without noticeable structural or texture artifacts."
+    }
+  ]
+}

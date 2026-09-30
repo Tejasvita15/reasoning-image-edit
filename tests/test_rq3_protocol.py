@@ -119,8 +119,10 @@ class ProtocolTests(unittest.TestCase):
             validate_runtime_protocol(config)
 
     def test_calibration_and_seed_validation(self):
+        unfrozen = copy.deepcopy(self.config)
+        unfrozen["statistics"].update(equivalence_margin=None, minimum_meaningful_difference=None)
         with self.assertRaisesRegex(ValueError, "Freeze equivalence_margin"):
-            validate_runtime_protocol(self.config, require_equivalence=True)
+            validate_runtime_protocol(unfrozen, require_equivalence=True)
         changed = copy.deepcopy(self.config)
         changed["statistics"].update(equivalence_margin=1.0, minimum_meaningful_difference=2.0)
         with self.assertRaisesRegex(ValueError, "at least"):

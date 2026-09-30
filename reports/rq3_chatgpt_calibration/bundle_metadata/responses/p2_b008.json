@@ -1,0 +1,23 @@
+{
+  "batch_id": "p2_b008",
+  "results": [
+    {
+      "blind_id": "case_ec1090bcdcef83da",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The eight supplied dot arrays, cell borders and background are visually retained; the change is confined to the requested answer cell. Instruction: The question mark is replaced with one large solid disk. The expected answer is a four-by-four array of black and white dots, so most of the required solution is missing despite an attempted drawing in the correct cell. Knowledge: A single disk does not encode the supplied position-wise same-color/different-color rule. Instruction failure implies knowledge invalid, requiring a score of 1. Quality: Assessed alone, the circles, disk and grid are clean and structurally coherent, with no noticeable rendering defects; answer correctness is not counted as a visual-quality defect."
+    },
+    {
+      "blind_id": "case_e5631c70e8472c46",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Although a seated bearded figure and a broadly similar room remain, most major non-instructed details are altered: the facial features, tan waistcoat and tie, leg pose and shoes, fruit and foliage, chair structure and background textures. Instruction: The extra central arm and glass are removed, addressing the main problem, but the viewer-left arm ends in an ambiguous wrist/fabric mass rather than a clearly resolved hand, and the leg structures are malformed. The requested anatomical correction is therefore incomplete. Quality: Assessed alone, multiple distracting structural errors remain: the left wrist merges into a large fabric shape, disjointed panels interrupt the lap and knee, and the lower shoe has a block-like form. Furniture and floor details also blend unnaturally; these are semantic and structural defects rather than softness alone."
+    }
+  ]
+}
