@@ -26,14 +26,18 @@
 #   3. K-dev thought cache (built once, never regenerated):
 #        sbatch --export=ALL,STAGE=cache jobs/rq2_step1x.sh
 #
-#   4. RQ2.1 grid, one job per grid point. Resubmitting the same command
-#      resumes where it stopped. THINKING=cached jobs need step 3 done.
+#   4. RQ2.1 grid. Resubmitting the same command resumes where it stopped.
+#      Whole grid in one job (builds the thought cache first if missing,
+#      so step 3 can be skipped):
+#        sbatch --export=ALL,STAGE=rq2_1 jobs/rq2_step1x.sh
+#      Or one job per grid point (run step 3 first, then):
 #        for t in off cached; do for c in 2 6 10; do
 #          sbatch --export=ALL,STAGE=rq2_1,THINKING=$t,CFGS=$c jobs/rq2_step1x.sh
 #        done; done
 #      Optional guidance points if time allows: c in 4 8.
 #      Never run two jobs on the same (THINKING, CFG) at once; they share
-#      a log file.
+#      a log file. Never start several THINKING=cached jobs before the
+#      cache exists; they would each try to build it.
 #
 #   5. Validate the RQ2.1 logs before handing images to the judge
 #      (no GPU needed; can also be run directly on a login node):
@@ -197,6 +201,14 @@ rq2_1)
     CACHE_ARGS=()
 
     if [[ " $THINKING " == *" cached "* ]]; then
+        # Build the K-dev thought cache on first use; later jobs and
+        # resubmissions reuse it (it is never regenerated).
+        if [ ! -f "$KDEV_CACHE" ]; then
+            python -m src.rq2.build_thought_cache \
+                --config "$CONFIG" --splits "$SPLITS" --split k_dev --seed "$SEED" \
+                --out "$KDEV_CACHE"
+        fi
+
         CACHE_ARGS=(--thought_cache "$KDEV_CACHE")
     fi
 

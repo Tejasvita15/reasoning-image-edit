@@ -5,7 +5,7 @@
 #PBS -q normal
 # ASPIRE2A enforces 16 CPUs + 110 GB RAM per GPU (A100 40GB).
 #PBS -l select=1:ngpus=1:ncpus=16:mem=110G
-#PBS -l walltime=06:00:00
+#PBS -l walltime=24:00:00
 #PBS -j oe
 
 # =============================================================
@@ -21,14 +21,18 @@
 #   3. K-dev thought cache (built once, never regenerated):
 #        qsub -v STAGE=cache jobs/rq2_step1x_aspire2a.sh
 #
-#   4. RQ2.1 grid, one job per grid point. Resubmitting the same command
-#      resumes where it stopped. THINKING=cached jobs need step 3 done.
+#   4. RQ2.1 grid. Resubmitting the same command resumes where it stopped.
+#      Whole grid in one job (builds the thought cache first if missing,
+#      so step 3 can be skipped):
+#        qsub -v STAGE=rq2_1 jobs/rq2_step1x_aspire2a.sh
+#      Or one job per grid point (run step 3 first, then):
 #        for t in off cached; do for c in 2 6 10; do
 #          qsub -v STAGE=rq2_1,THINKING=$t,CFGS=$c jobs/rq2_step1x_aspire2a.sh
 #        done; done
 #      Optional guidance points if time allows: c in 4 8.
 #      Never run two jobs on the same (THINKING, CFG) at once; they share
-#      a log file.
+#      a log file. Never start several THINKING=cached jobs before the
+#      cache exists; they would each try to build it.
 #
 #   5. Validate the RQ2.1 logs before handing images to the judge
 #      (no GPU needed; login nodes are not allowed for computation,
@@ -216,6 +220,14 @@ rq2_1)
     CACHE_ARGS=()
 
     if [[ " $THINKING " == *" cached "* ]]; then
+        # Build the K-dev thought cache on first use; later jobs and
+        # resubmissions reuse it (it is never regenerated).
+        if [ ! -f "$KDEV_CACHE" ]; then
+            python -m src.rq2.build_thought_cache \
+                --config "$CONFIG" --splits "$SPLITS" --split k_dev --seed "$SEED" \
+                --out "$KDEV_CACHE"
+        fi
+
         CACHE_ARGS=(--thought_cache "$KDEV_CACHE")
     fi
 
