@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #PBS -N rq2_step1x
-#PBS -P <Project ID>
+#PBS -P personal-ngch0136
 #PBS -q normal
 # ASPIRE2A enforces 16 CPUs + 110 GB RAM per GPU (A100 40GB).
 #PBS -l select=1:ngpus=1:ncpus=16:mem=110G
@@ -99,7 +99,7 @@ conda activate reasoning-image-edit
 
 # /home is only 50 GB on ASPIRE2A; keep model weights out of it.
 # Set HF_HOME to your scratch or project directory (check `myquota`).
-export HF_HOME=${HF_HOME:-/scratch/$USER/hf_cache}
+export HF_HOME=${HF_HOME:-/scratch/users/ntu/$USER/hf_cache}
 export HUGGINGFACE_HUB_CACHE=$HF_HOME/hub
 mkdir -p "$HUGGINGFACE_HUB_CACHE"
 
