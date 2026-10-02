@@ -365,11 +365,11 @@ old readiness reports and prevents an unsafe resume.
 `runtime.json` records actual library/CUDA/GPU settings and is checked on resume.
 
 CPU tests cover the experiment plan, split integrity, pairing/replay, resume
-integrity, ablation instrumentation and paired analysis. This implementation
-was developed on an Apple Silicon Mac: **CUDA model loading, the 40GB deployment,
-upstream kernel compatibility, image quality and real speedups require the
-documented GPU pilots. No research generations or paid judge calls have been
-performed as part of implementation.**
+integrity, ablation instrumentation and paired analysis. Development took place
+on an Apple Silicon Mac; the completed NSCC run used an A100-SXM4-40GB. Final
+development checks passed, all 800 planned generations completed, and the
+200 manual judgments were imported and analyzed successfully. Detailed runtime
+settings and original results remain in the verified analysis archive.
 
 The original implementation passed 40 tests, including numerical attention
 subtests and mocked calls through the pinned official evaluator. After the NSCC
@@ -446,24 +446,10 @@ timing even when GPUs differ. No unverified `place=excl` policy is assumed by
 these scripts. NSCC documents reservations in the
 [same training guide](https://help.nscc.sg/wp-content/uploads/ASPIRE2A-ADVANCED-JOB-MANAGEMENT-TRAINING_GUIDE.pdf#page=135).
 
-### Copy the repository and check the account
+### Check the NSCC account and experiment paths
 
-On your Mac, replace the SSH destination with your assigned ASPIRE-2A login:
-
-```bash
-cd /Users/aloysiustan/Development/ai6132_group
-export NSCC_DEST='YOUR_NSCC_USER@YOUR_ASPIRE2A_LOGIN'
-ssh "$NSCC_DEST" 'mkdir -p "$HOME/ai6132_group"'
-rsync -av --exclude='.nscc/' --exclude='.conda/' --exclude='external' \
-  --include='.env.example' --exclude='.env*' \
-  --exclude='outputs/' --exclude='logs/' --exclude='__pycache__/' \
-  ./ "${NSCC_DEST}:ai6132_group/"
-ssh "$NSCC_DEST"
-```
-
-Set `NSCC_DEST` to plain `user@hostname` text, without Markdown or `mailto:`.
-Keep the braces in `${NSCC_DEST}:...`; macOS zsh otherwise interprets the colon
-as a variable modifier and can turn the remote destination into a local path.
+Use the project checkout at `$HOME/ai6132_group` on NSCC. Keep the pinned
+implementation and experiment configuration unchanged throughout a run.
 
 On NSCC:
 
@@ -583,8 +569,8 @@ only after their jobs have ended. Nothing automatically deletes research data.
 `.nscc/`, `external/`, `outputs/`, home caches or Conda environment. Recreate the
 Linux environment at its final scratch prefix; Conda/editable installs embed
 absolute paths. If repository `external/` already lives in HOME, bootstrap
-stops without replacing it: use a fresh code-only checkout using the transfer
-exclusions above. Preserve old results separately. Storage-related Python
+stops without replacing it: use a fresh checkout with no HOME-resident
+`external/`, environment or output directories. Preserve old results separately. Storage-related Python
 changes affect the protocol hash, so use fresh development pilots before a new
 production run; do not append these runs to logs from the earlier code version.
 An old prepared-data manifest also needs a fresh `RQ3_PREPARED_DATA` directory
@@ -608,12 +594,11 @@ precedence, including deliberately empty values. It does not import unrelated
 AI6101 API credentials or settings. No credentials are written into experiment
 configs, protocol manifests or scheduler arguments.
 
-The local private `.env` can be copied separately to NSCC. From your Mac, after
-the code-only transfer above and with `NSCC_DEST` already set:
+Create the private `.env` in the NSCC repository using the settings above,
+and restrict its permissions:
 
 ```bash
-scp .env "${NSCC_DEST}:ai6132_group/.env"
-ssh "$NSCC_DEST" 'chmod 600 "$HOME/ai6132_group/.env"'
+chmod 600 "$HOME/ai6132_group/.env"
 ```
 
 On NSCC, check that the settings are present without sending a message or
@@ -764,40 +749,9 @@ stage the pinned sources and to verify their revisions on compute nodes.
 The existing Python packages can be reused; do not delete the environment or
 create a readiness stamp manually.
 
-If smoke fails with `cumsum_cuda_kernel does not have a deterministic
-implementation`, update to the backend containing `_CPUTopPLogitsWarper`.
-After publishing the updated branch to GitHub, run the following from the
-NSCC login node. First check that the failed smoke job has stopped with
-`qstat -ans`; cancel its old held validation job with `qdel JOB_ID` if it still
-exists. Then:
-
-```bash
-cd "$HOME/ai6132_group"
-source jobs/nscc/common.sh
-rq3_paths
-"$RQ3_ENV_PREFIX/bin/git" pull --ff-only origin rq3_implementation
-
-# Preserve the failed attempt; the backend change has a new generation hash.
-if [[ -d "$RQ3_OUTPUT_ROOT/smoke" ]]; then
-  RQ3_FAILED_SMOKE=$(mktemp -d "$RQ3_OUTPUT_ROOT/smoke_before_top_p_fix.XXXXXXXX")
-  mv -- "$RQ3_OUTPUT_ROOT/smoke" "$RQ3_FAILED_SMOKE/run"
-fi
-
-SMOKE_JOB=$(qsub -N rq3_smoke -o "$RQ3_LOG_DIR/" -l walltime=02:00:00 \
-  -v RQ3_MODE=smoke,TELEGRAM_NOTIFICATIONS=on jobs/nscc/gpu.pbs)
-SMOKE_CHECK_JOB=$(qsub -N rq3_smoke_check -o "$RQ3_LOG_DIR/" \
-  -W "depend=afterok:${SMOKE_JOB}" \
-  -v RQ3_ACTION=smoke_check,TELEGRAM_NOTIFICATIONS=on jobs/nscc/finish.pbs)
-printf 'Smoke: %s; validation: %s\n' "$SMOKE_JOB" "$SMOKE_CHECK_JOB"
-qstat -ans
-```
-
-This fix changes only the generation implementation. The ready environment,
-prepared examples and downloaded weights remain valid; setup need not run
-again. Preserve the archive for diagnosis; archived manifests may contain old
-absolute paths and are not inputs to the new run. The checker expects the new
-smoke run in its default `smoke/` directory. Keep determinism strict and rerun
-the independent development pilots before collecting test results.
+The validated backend uses CPU top-p filtering with strict deterministic
+algorithms, as described in Section 5. A different backend requires new smoke
+and independent development checks before collecting test results.
 
 HTTP(S) access on NSCC is filtered, so a blocked GitHub/Hugging Face download
 may need staging from an allowed machine and transfer to NSCC; it is not fixed
@@ -872,149 +826,19 @@ Pillow 12.3.0 check; both were 1260×1771. This explains that reported mismatch.
 The exporter does not assume every mismatch has the same cause: it records each
 comparison and always requires exact agreement with the prepared generation input.
 
-#### Transfer through Git when SCP is unavailable
+#### Judge the calibration outputs
 
-Use a disposable scratch repository and the temporary branch
-`rq3_transfer_calibration`. Keep the implementation checkout on
-`rq3_implementation`; never merge the transfer branch. The ZIP is split into
-45 MiB chunks to stay below GitHub's 100 MiB per-file limit. A later `git rm`
-commit would leave the earlier file in history, so remove the temporary branch
-when the transfer and return of results are complete. Branch deletion does not
-promise immediate removal of GitHub's stored objects. [GitHub file limits and history](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github)
-
-The following upload uses GitHub push authentication already available on NSCC.
-A successful anonymous clone/pull alone does not grant push access. Run this
-**on NSCC**, in a shell with Git available. The parentheses keep error handling
-and directory changes inside the pasted block:
+Use the verified exported bundle at `outputs/rq3/evidence/calibration` on your
+Mac. For a new bundle, initialize response storage and session metadata without
+replacing existing work:
 
 ```bash
-(
-set -eu
-cd "$HOME/ai6132_group"
-source jobs/nscc/common.sh
-rq3_paths
-RQ3_REMOTE=$(git remote get-url origin)
-RQ3_XFER="$RQ3_STORAGE_ROOT/transfers/chatgpt_calibration"
-test -s "$RQ3_OUTPUT_ROOT/chatgpt_calibration.zip"
-mkdir -p "$RQ3_STORAGE_ROOT/transfers"
-mkdir "$RQ3_XFER"
-split -b 45M "$RQ3_OUTPUT_ROOT/chatgpt_calibration.zip" "$RQ3_XFER/chatgpt_calibration.zip.part-"
-cd "$RQ3_OUTPUT_ROOT"
-sha256sum chatgpt_calibration.zip > "$RQ3_XFER/BUNDLE.sha256"
-cd "$RQ3_XFER"
-sha256sum chatgpt_calibration.zip.part-* > PARTS.sha256
-git init
-git checkout -b rq3_transfer_calibration
-git remote add origin "$RQ3_REMOTE"
-git add -- BUNDLE.sha256 PARTS.sha256 chatgpt_calibration.zip.part-*
-git -c user.name='RQ3 transfer' -c user.email='rq3-transfer@localhost' commit -m 'Transfer RQ3 calibration judging bundle'
-git push origin HEAD:refs/heads/rq3_transfer_calibration
-)
-```
-
-Only chunks and checksum files are staged. Bulk files and this disposable
-`.git` directory remain on scratch. The local commit identity labels the artifact
-transfer; it does not configure GitHub authentication. If push fails after the
-commit, fix authentication and retry only `git -C "$RQ3_STORAGE_ROOT/transfers/chatgpt_calibration" push origin HEAD:refs/heads/rq3_transfer_calibration`.
-If the remote branch already exists with different history, inspect it or choose
-a new transfer branch name on both machines; do not force-push over it.
-
-Then run **on your Mac**. These destinations must be fresh; if they already
-exist, inspect them instead of overwriting an earlier judging session:
-
-```bash
-(
-set -eu
-git clone --depth 1 --single-branch --branch rq3_transfer_calibration https://github.com/Tejasvita15/reasoning-image-edit.git "$HOME/Downloads/rq3_transfer_calibration"
-cd "$HOME/Downloads/rq3_transfer_calibration"
-shasum -a 256 -c PARTS.sha256
-cat chatgpt_calibration.zip.part-* > chatgpt_calibration.zip
-shasum -a 256 -c BUNDLE.sha256
-mkdir "$HOME/Downloads/chatgpt_calibration"
-unzip -q chatgpt_calibration.zip -d "$HOME/Downloads/chatgpt_calibration"
-mkdir "$HOME/Downloads/chatgpt_calibration/responses"
-cp "$HOME/Downloads/chatgpt_calibration/session_log_template.json" "$HOME/Downloads/chatgpt_calibration/session_log.json"
-)
-open "$HOME/Downloads/chatgpt_calibration/upload/pass_1/p1_b001"
-pbcopy < "$HOME/Downloads/chatgpt_calibration/upload/pass_1/p1_b001/prompt.md"
-```
-
-Both checksum checks must report `OK`, and extraction must succeed. The extracted
-bundle is outside the disposable clone, so cleanup can preserve your working
-images, private manifest and responses. Start judging with the numbered procedure
-below. The first batch's prompt is now on your clipboard; attach its image files
-and paste the prompt in a fresh ChatGPT chat. Save its JSON answer unchanged as
-`$HOME/Downloads/chatgpt_calibration/responses/p1_b001.json`.
-
-You can delete the reconstructed ZIP now, after those checks, while keeping the
-transfer clone for sending answers back later:
-
-```bash
-rm -i "$HOME/Downloads/rq3_transfer_calibration/chatgpt_calibration.zip"
-```
-
-After both passes are complete, return only the responses and operator session
-log through the same temporary branch. **On your Mac**:
-
-```bash
-(
-set -eu
-cd "$HOME/Downloads/rq3_transfer_calibration"
-mkdir returned
-cp -R "$HOME/Downloads/chatgpt_calibration/responses" returned/responses
-cp "$HOME/Downloads/chatgpt_calibration/session_log.json" returned/session_log.json
-git add -- returned/responses returned/session_log.json
-git -c user.name='RQ3 transfer' -c user.email='rq3-transfer@localhost' commit -m 'Return manual calibration judgments'
-git push origin HEAD:refs/heads/rq3_transfer_calibration
-)
-```
-
-**On NSCC**, receive those files into the existing bundle, then use the import
-and repeatability commands below:
-
-```bash
-(
-set -eu
-cd "$HOME/ai6132_group"
-source jobs/nscc/common.sh
-rq3_paths
-RQ3_XFER="$RQ3_STORAGE_ROOT/transfers/chatgpt_calibration"
-git -C "$RQ3_XFER" pull --ff-only origin rq3_transfer_calibration
-mkdir "$RQ3_OUTPUT_ROOT/chatgpt_calibration/responses"
-cp "$RQ3_XFER/returned/responses/"*.json "$RQ3_OUTPUT_ROOT/chatgpt_calibration/responses/"
-cp -i "$RQ3_XFER/returned/session_log.json" "$RQ3_OUTPUT_ROOT/chatgpt_calibration/session_log.json"
-)
-```
-
-After successful import/repeatability and a verified Mac copy, delete the
-**temporary transfer branch only**, using its disposable Mac clone:
-
-```bash
-git -C "$HOME/Downloads/rq3_transfer_calibration" push origin --delete rq3_transfer_calibration
-```
-
-You may then move `$HOME/Downloads/rq3_transfer_calibration` to Trash on your Mac,
-and delete `$RQ3_STORAGE_ROOT/transfers/chatgpt_calibration` on NSCC. Those are
-only disposable transport repositories. Keep the separate extracted
-`chatgpt_calibration` directories, source/output images, manifests, judgments and
-repeatability report. The original scratch ZIP can also be removed after
-verification: `rm -i "$RQ3_OUTPUT_ROOT/chatgpt_calibration.zip"`. Do not delete
-`rq3_implementation` or rewrite its history.
-
-#### Direct transfer alternative
-
-If SCP is working, download and extract **on your Mac**, using NSCC's approved
-login/transfer route and VPN if required (skip this block after a Git transfer):
-
-```bash
-export NSCC_DEST='rtan134@aspire2antu.nscc.sg'
-scp "${NSCC_DEST}:scratch/ai6132/outputs/rq3/nscc/chatgpt_calibration.zip" "$HOME/Downloads/"
-mkdir -p "$HOME/Downloads/chatgpt_calibration"
-unzip "$HOME/Downloads/chatgpt_calibration.zip" -d "$HOME/Downloads/chatgpt_calibration"
-cd "$HOME/Downloads/chatgpt_calibration"
+cd /Users/aloysiustan/Development/ai6132_group
+cd outputs/rq3/evidence/calibration
 mkdir -p responses
 cp -n session_log_template.json session_log.json
-open .
+open upload/pass_1/p1_b001
+pbcopy < upload/pass_1/p1_b001/prompt.md
 ```
 
 The ZIP is a transport file for you. **Extract it first; upload only one batch's
@@ -1048,16 +872,9 @@ rubric requires one. The order and opaque image IDs differ between passes.
    scores. Keep saved responses so work can resume batch by batch. The importer
    requires a complete pass and rejects missing, duplicate or invalid ratings.
 
-For the direct-transfer alternative, return the responses and session log
-**from your Mac** (Git users use the temporary branch commands above):
-
-```bash
-export NSCC_DEST='rtan134@aspire2antu.nscc.sg'
-rsync -av "$HOME/Downloads/chatgpt_calibration/responses/" \
-  "${NSCC_DEST}:scratch/ai6132/outputs/rq3/nscc/chatgpt_calibration/responses/"
-scp "$HOME/Downloads/chatgpt_calibration/session_log.json" \
-  "${NSCC_DEST}:scratch/ai6132/outputs/rq3/nscc/chatgpt_calibration/session_log.json"
-```
+For NSCC import, the completed response files and session log must be present
+in the matching `$RQ3_OUTPUT_ROOT/chatgpt_calibration` bundle. Preserve the
+original JSON answers, manifest and image files.
 
 Import and calculate repeatability on NSCC (the same commands also work locally
 with the bundle path changed and the project's CPU dependencies installed):
@@ -1097,7 +914,7 @@ API-judged results in the report. Dataset preparation is unaffected by this choi
 
 ### Final pilots, determinism and walltime estimation
 
-#### Calibration completed on 2026-09-30: corrected metadata and Git return
+#### Calibration findings and frozen quality margin (2026-09-30)
 
 The 20 selected development outputs have now been imported twice (40 ratings).
 All paired component scores and Q values agree: mean absolute difference = 0
@@ -1112,87 +929,23 @@ label, `GPT-6 Astra Pro`. The operator rejected the shared-conversation
 description and authorized the fresh-chat metadata correction. Session IDs
 beginning `operator-attested:` are assigned local IDs, not actual ChatGPT URLs;
 independence/settings rely on that correction. Original metadata and response
-bytes are preserved in the audit. The original Downloads bundle is untouched;
-the corrected local copy is `outputs/rq3/manual_calibration/corrected_bundle/`.
+bytes are preserved in the audit. The corrected calibration source is
+`outputs/rq3/manual_calibration/corrected_bundle/`; the local working evidence
+copy is `outputs/rq3/evidence/calibration/`.
 
-For this completed calibration, use the following Git return procedure instead
-of the earlier response-only transfer block. It transfers about 3 MB of reports
-and metadata on the implementation branch; existing NSCC images are reused.
-No ZIP or SCP is needed. **On your Mac**, publish the prepared files:
-
-```bash
-cd /Users/aloysiustan/Development/ai6132_group
-git add -- configs/rq3.yaml RQ3_experiment.md reports/rq3_chatgpt_calibration tests/test_rq3_protocol.py tests/test_rq3_manual_export.py
-git commit -m "Record manual calibration and freeze RQ3 quality margin"
-git push origin rq3_implementation
-```
-
-**On the NSCC login node**, with no experiment running from this checkout:
+The archived `repeatability.json` is the calibration input for main export.
+Verify the committed calibration artifacts on NSCC before reuse:
 
 ```bash
-cd "$HOME/ai6132_group"
-git switch rq3_implementation
-git pull --ff-only origin rq3_implementation
-qsub -I -q normal -P personal-rtan134 -l select=1:ncpus=2:mem=8gb -l walltime=00:30:00
-```
-
-Once the CPU allocation opens, restore and verify the corrected bundle. This
-copies the original bundle into a separate scratch directory, checks the
-original identity, and applies only the supplied metadata/responses. A repeat
-invocation validates and reuses a completed corrected copy; it never overwrites
-an existing destination. The original bundle is preserved.
-
-```bash
-cd "$HOME/ai6132_group"
-source jobs/nscc/common.sh
-rq3_activate
 (
-set -eu
-export RQ3_BUNDLE="$RQ3_OUTPUT_ROOT/chatgpt_calibration_corrected"
-(
-cd reports/rq3_chatgpt_calibration
+cd "$HOME/ai6132_group/reports/rq3_chatgpt_calibration"
 sha256sum -c SHA256SUMS
 )
-python - <<'PY'
-import json, os, shutil, tempfile
-from pathlib import Path
-from src.rq3_manual.common import load_bundle
-
-metadata = Path('reports/rq3_chatgpt_calibration/bundle_metadata')
-source = Path(os.environ['RQ3_OUTPUT_ROOT']) / 'chatgpt_calibration'
-destination = Path(os.environ['RQ3_BUNDLE'])
-before = json.loads((metadata / 'private/metadata_correction/original_manifest.json').read_text())
-after = json.loads((metadata / 'private/manifest.json').read_text())
-if load_bundle(source) != before:
-    raise ValueError('Original NSCC bundle differs from the archived calibration')
-if not destination.exists():
-    temporary = Path(tempfile.mkdtemp(prefix='.calibration-correction-', dir=destination.parent))
-    try:
-        shutil.copytree(source, temporary, dirs_exist_ok=True)
-        shutil.copytree(metadata, temporary, dirs_exist_ok=True)
-        if load_bundle(temporary) != after:
-            raise ValueError('Corrected bundle differs from the supplied manifest')
-        temporary.rename(destination)
-    finally:
-        if temporary.exists():
-            shutil.rmtree(temporary)
-if load_bundle(destination) != after:
-    raise ValueError('Existing corrected bundle differs; inspect it before proceeding')
-print(f'Corrected bundle verified: {destination}')
-PY
-python -m src.rq3_manual import --bundle "$RQ3_BUNDLE" --responses "$RQ3_BUNDLE/responses" --session-log "$RQ3_BUNDLE/session_log.json" --pass-number 1 --output "$RQ3_BUNDLE/judge_first.jsonl"
-python -m src.rq3_manual import --bundle "$RQ3_BUNDLE" --responses "$RQ3_BUNDLE/responses" --session-log "$RQ3_BUNDLE/session_log.json" --pass-number 2 --output "$RQ3_BUNDLE/judge_second.jsonl"
-python -m src.rq3_manual repeatability --first "$RQ3_BUNDLE/judge_first.jsonl" --second "$RQ3_BUNDLE/judge_second.jsonl" --output "$RQ3_BUNDLE/repeatability.json"
-cmp reports/rq3_chatgpt_calibration/repeatability.json "$RQ3_BUNDLE/repeatability.json"
-)
 ```
 
-Expected: both imports report `outputs: 20`, repeatability reports both
-differences as `0.0`, and `cmp` prints nothing. After successful verification,
-`exit` returns to the login node. The existing temporary image-transfer branch
-can then be cleaned up using the earlier instructions; retain calibration
-images and audit records. The Git-ready report also supplies the calibration
-input for main export below.
+Retain both score passes, raw responses, original metadata and correction audit
+with the results. Do not reinterpret the retrospective session correction as
+independent transcript verification.
 
 #### Submit the final pilots
 
@@ -1337,10 +1090,27 @@ jobs when needed and submit a fresh finish job after all shards complete.
 ### Final manual scoring and CPU analysis
 
 After main quality/timing shards have merged, export all 200 repeat-zero outputs
-per seed. Use a CPU allocation, activate the environment as above, and reuse the
-**exact** calibration model label (and `--ui-settings` if you customized it):
+per seed. Completion is certified by `main/merged/merge.json`: for the current
+run, `completed_generations: 800`, `example_count: 40`, `num_shards: 4`,
+`timing_repeats: 3`, and protocol hash
+`a2001fe4612dfee6ae489c243b0fb204b1f04ba39f4877bf0f53853fe7f1438c`.
+All 200 outputs have now been judged and the CPU analysis completed. The
+commands below reproduce those stages. Retain every source shard directory.
+
+From the **NSCC login node**, request a CPU allocation (no GPU needed):
 
 ```bash
+cd "$HOME/ai6132_group"
+qsub -I -q normal -P personal-rtan134 -l select=1:ncpus=2:mem=8gb -l walltime=00:30:00
+```
+
+Once the allocated shell opens, export using the **exact** calibration model
+label and UI settings:
+
+```bash
+cd "$HOME/ai6132_group"
+source jobs/nscc/common.sh
+rq3_activate
 RQ3_JUDGE_LABEL='GPT-6 Astra Pro'
 python -m src.rq3_manual export \
   --generations "$RQ3_OUTPUT_ROOT/main/merged/generations.jsonl" \
@@ -1350,17 +1120,86 @@ python -m src.rq3_manual export \
   --output-dir "$RQ3_OUTPUT_ROOT/chatgpt_main"
 ```
 
-This command uses the completed 2026-09-30 calibration returned through Git.
+This command uses the completed 2026-09-30 calibration archived in `reports/`.
 Keep the recorded model and fresh-chat settings fixed. If that model/settings
 cannot be used for main judging, recalibrate rather than changing the label to
 make a different judge pass the identity check.
 
-Download/extract `chatgpt_main.zip` and follow the same batch procedure. The main
-bundle has one pass: 100 chats at two outputs per batch for seed 42. Timing
-repetitions are never judged. Return `responses/` and `session_log.json` to the
-`chatgpt_main` directory on NSCC, then run on an allocated CPU node:
+Expected export summary: `kind: main`, `selected_outputs: 200`, `batches: 100`,
+and evaluation hash
+`095c775e5aae19c2469c5647e717d9209b14a9887ae43ec7410f50657e6af2e2`.
+The bundle is `$RQ3_OUTPUT_ROOT/chatgpt_main/`; the transport file is
+`$RQ3_OUTPUT_ROOT/chatgpt_main.zip`. Existing bundles are never overwritten;
+resume judging an existing successful export rather than exporting over it.
+After export succeeds, `exit` returns to the login node.
+
+#### Judge the main outputs
+
+There is **one pass**, with batches `p1_b001` through `p1_b100`: two outputs per
+batch for seed 42. Timing repetitions are never judged. The verified bundle
+is at `outputs/rq3/evidence/chatgpt_main` on your Mac. For a new bundle, initialize
+response storage and the session log once; existing files are retained:
 
 ```bash
+cd /Users/aloysiustan/Development/ai6132_group
+cd outputs/rq3/evidence/chatgpt_main
+mkdir -p responses
+cp -n session_log_template.json session_log.json
+```
+
+Start the first batch:
+
+```bash
+cd /Users/aloysiustan/Development/ai6132_group
+open outputs/rq3/evidence/chatgpt_main/upload/pass_1/p1_b001
+pbcopy < outputs/rq3/evidence/chatgpt_main/upload/pass_1/p1_b001/prompt.md
+```
+
+Use the frozen ChatGPT label `GPT-6 Astra Pro` and settings: a fresh temporary
+chat per batch, memory/custom instructions off, tools off. Attach every image
+in that batch folder and paste its complete prompt. Save the unchanged JSON
+answer as `responses/p1_b001.json`, then proceed through `p1_b100` in separate
+fresh chats. Upload only the batch images and prompt; the ZIP/private manifest,
+other batches, scores and experiment reports reveal condition assignments.
+
+Complete each entry in `session_log.json` yourself using the actual timestamp
+with timezone and a distinct conversation URL or your own session ID linked
+to a saved transcript. The template already contains the frozen model/settings;
+record what was actually used. Do not ask the judge to invent session metadata.
+Keep the manifest and raw ratings unchanged, and follow the calibration
+procedure for documenting any unreadable-image problem. There is no second
+main judging pass.
+
+For CPU analysis on NSCC, the matching `$RQ3_OUTPUT_ROOT/chatgpt_main` bundle
+must contain all 100 unchanged response JSON files in `responses/` and the
+completed `session_log.json`. This completed run already has those inputs.
+The importer validates complete coverage, score ranges, session records and
+bundle identities before producing the 200-row score file.
+
+#### Import and analyze the main scores
+
+Once the completed judgments are available in the NSCC bundle, request a CPU allocation:
+
+```bash
+cd "$HOME/ai6132_group"
+qsub -I -q normal -P personal-rtan134 -l select=1:ncpus=4:mem=16gb -l walltime=02:00:00
+```
+
+Once the allocation opens:
+
+```bash
+(
+set -euo pipefail
+cd "$HOME/ai6132_group"
+source jobs/nscc/common.sh
+rq3_paths
+RQ3_ANALYSIS_DIR=$(mktemp -d "$RQ3_OUTPUT_ROOT/main/merged/analysis_manual.XXXXXX")
+printf 'Analysis directory: %s\n' "$RQ3_ANALYSIS_DIR"
+exec > >(tee "$RQ3_ANALYSIS_DIR/run.log") 2>&1
+trap 'RQ3_STATUS=$?; printf "Analysis exit code: %s\n" "$RQ3_STATUS"' EXIT
+rq3_activate
+export OMP_NUM_THREADS=4 MKL_NUM_THREADS=4 PYTHONUNBUFFERED=1
+export HF_HUB_OFFLINE=1 HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1
 RQ3_BUNDLE="$RQ3_OUTPUT_ROOT/chatgpt_main"
 python -m src.rq3_manual import --bundle "$RQ3_BUNDLE" \
   --responses "$RQ3_BUNDLE/responses" --session-log "$RQ3_BUNDLE/session_log.json" \
@@ -1368,8 +1207,15 @@ python -m src.rq3_manual import --bundle "$RQ3_BUNDLE" \
 python -m src.rq3_manual analyze --bundle "$RQ3_BUNDLE" \
   --scores "$RQ3_BUNDLE/scores.jsonl" \
   --generations "$RQ3_OUTPUT_ROOT/main/merged/generations.jsonl" \
-  --output-dir "$RQ3_OUTPUT_ROOT/main/merged/analysis_manual"
+  --output-dir "$RQ3_ANALYSIS_DIR"
+printf 'Analysis complete: %s\n' "$RQ3_ANALYSIS_DIR"
+)
 ```
+
+Each attempt uses a new analysis directory and saves its console output in
+`run.log`. Score import accepts an identical existing `scores.jsonl` and refuses
+conflicting results. Record the successful directory path with the results;
+success ends with `Analysis complete: ...` and `Analysis exit code: 0`.
 
 Use 4 CPUs, 16 GB and up to 2 hours for analysis. Add `--similarity` for optional
 LPIPS/PSNR diagnostics once their dependencies/weights are available. The manual
@@ -1381,41 +1227,176 @@ The report explicitly records the manual evaluation policy. Keep original shard
 images available; merged logs reference them. No GPU is needed for judging or
 standard statistical analysis.
 
-### Back up results without copying the environment and model cache
+### Mac plotting and discussion analysis
 
-After jobs finish, run these transfers **from your Mac**, using your assigned
-login or NSCC-approved transfer endpoint. The examples use the default paths;
-adjust the remote source if you overrode the storage root.
+The existing analyzer completed on NSCC with exit code 0 at
+`/scratch/users/ntu/rtan134/ai6132/outputs/rq3/nscc/main/merged/analysis_manual.ir9Sqs`.
+The verified Mac analysis archive is `outputs/rq3/evidence/analysis`: 76 inventoried
+files, all 800 generation records and all 200 scores. The score file matches
+the locally imported main judgments byte for byte. The separate verified
+`outputs/rq3/evidence/chatgpt_main` bundle supplies the source and quality-output
+images. These paths are relative to the repository root. All working evidence
+is kept inside `outputs/rq3/evidence/`, including the completed calibration at
+`outputs/rq3/evidence/calibration/`. The evidence directories are ignored by Git
+so routine source commits stay small; preserve them in a separate durable backup.
+
+| Local artifact | Purpose |
+| --- | --- |
+| `outputs/rq3/evidence/analysis/analysis/` | Existing statistical report, paired effects, quality–latency plot and selected-region overlays |
+| `outputs/rq3/evidence/analysis/records/` | All generations, scores, merge record, protocol snapshot and runtime metadata |
+| `outputs/rq3/evidence/analysis/provenance/` | Judging manifest, calibration and development validation reports |
+| `outputs/rq3/evidence/analysis/TRANSFER.json` | Original archive inventory with file sizes and SHA-256 hashes |
+| `outputs/rq3/evidence/chatgpt_main/` | Blinded images, prompts, responses, session records and original private manifest |
+| `outputs/rq3/evidence/calibration/` | Corrected calibration bundle, both rating passes, session records and metadata audit |
+
+Run the additional post-processing on your Mac using the existing CPU environment:
 
 ```bash
-export NSCC_DEST='YOUR_NSCC_USER@YOUR_ASPIRE2A_LOGIN'
-export RQ3_BACKUP="$HOME/ai6132-rq3-backup/$(date +%Y%m%d)"
-mkdir -p "$RQ3_BACKUP/results" "$RQ3_BACKUP/logs" "$RQ3_BACKUP/reports" \
-  "$RQ3_BACKUP/environment" "$RQ3_BACKUP/code"
-rsync -avH "${NSCC_DEST}:scratch/ai6132/outputs/" "$RQ3_BACKUP/results/"
-rsync -av "${NSCC_DEST}:scratch/ai6132/logs/" "$RQ3_BACKUP/logs/"
-rsync -av "${NSCC_DEST}:ai6132_group/reports/" "$RQ3_BACKUP/reports/"
-rsync -av "${NSCC_DEST}:scratch/ai6132/state/logs/" "$RQ3_BACKUP/environment/"
-rsync -av "${NSCC_DEST}:scratch/ai6132/state/envs/ai6132/.rq3-ready.json" \
-  "$RQ3_BACKUP/environment/"
-rsync -av --exclude='.nscc/' --exclude='.conda/' --exclude='external' \
-  --include='.env.example' --exclude='.env*' \
-  --exclude='outputs/' --exclude='logs/' --exclude='__pycache__/' \
-  "${NSCC_DEST}:ai6132_group/" "$RQ3_BACKUP/code/"
-# Verify result contents; an empty itemized list means no differences.
-rsync -nrcH --itemize-changes "${NSCC_DEST}:scratch/ai6132/outputs/" "$RQ3_BACKUP/results/"
+cd /Users/aloysiustan/Development/ai6132_group
+conda activate ai6132
+python -m src.rq3_postprocess \
+  --analysis outputs/rq3/evidence/analysis \
+  --bundle outputs/rq3/evidence/chatgpt_main \
+  --output-dir outputs/rq3/postprocessing
 ```
 
-`-H` preserves hardlinks between identical repeat images; copy the complete
-output tree in one invocation. No `--delete` is used. The checksum verification
-reads all result files; run it after writers stop. For a large backup, arrange
-the scan through a compute allocation/approved transfer service. Preserve all
-shards, pilot outputs, thought caches, scores/raw judge responses and manifests,
-not just the merged directory. Logs still record the original absolute NSCC
-paths: the backup is an archive, and analysis on a different machine requires
-deliberate path remapping. Keep an unchanged copy for provenance.
+For the planned LPIPS comparisons, the completed Mac run uses a separate
+repository-local dependency directory with the existing CPU PyTorch 2.7.1.
+The matching torchvision version is 0.22.1. These analysis packages do not
+modify the frozen NSCC environment or generation/evaluation code.
 
-The Linux environment, caches and prepared dataset can be recreated from the
-recorded pins; do not copy them into your 50GB HOME allocation. No existing
-NSCC files are deleted by these commands. The scripts are syntax- and CPU-tested
-locally; they have **not** been submitted to NSCC from this development session.
+```bash
+python -m pip install --no-cache-dir --no-deps \
+  --target outputs/rq3/analysis_dependencies \
+  lpips==0.1.4 torchvision==0.22.1 tqdm==4.67.1
+PYTHONPATH="$PWD/outputs/rq3/analysis_dependencies" \
+TORCH_HOME="$PWD/outputs/rq3/cache/torch" \
+python -c "import lpips; lpips.LPIPS(net='alex', version='0.1', verbose=False).eval()"
+python -m src.rq3_postprocess \
+  --analysis outputs/rq3/evidence/analysis \
+  --bundle outputs/rq3/evidence/chatgpt_main \
+  --output-dir outputs/rq3/postprocessing \
+  --lpips --dependency-dir outputs/rq3/analysis_dependencies
+```
+
+The first model initialization downloads the official AlexNet weights into the
+ignored repository cache; it needs network access once. The postprocessor
+requires those weights to exist and records their SHA-256 hashes, package
+versions and input image hashes. It computes float32 CPU LPIPS version 0.1 at
+original image resolution. Completed pairs are retained in a validated resume
+log. [LPIPS implementation](https://github.com/richzhang/PerceptualSimilarity),
+[PyTorch version compatibility](https://pytorch.org/get-started/previous-versions/).
+The package installation and weight preparation are one-time steps for this
+Mac environment; subsequent runs use the final post-processing command.
+
+This stage uses the archived NSCC measurements and local images. It needs no
+Step1X checkpoint, CUDA allocation or OpenAI API key. Keep the original records
+and their absolute NSCC paths unchanged; image lookup uses the local judging
+bundle. Optional perceptual metrics may require separate model weights, but
+standard statistics, plots and image comparisons run on the Mac CPU.
+
+Use repeat-zero outputs for quality and the three recorded timing repetitions
+for latency. Do not count timing repetitions as independent examples or judge
+the extra 600 timing outputs. Keep main comparisons on all 40 examples and
+component ablations on the frozen 20-example subset. Report speedups using
+recorded NSCC timings, not the duration of Mac post-processing.
+
+### Completed experiment and analysis findings
+
+The final main run contains 200 quality generations and 600 timing generations,
+using seed 42 under generation protocol
+`a2001fe4612dfee6ae489c243b0fb204b1f04ba39f4877bf0f53853fe7f1438c`.
+Manual judging contains one complete pass of 200 scores under evaluation policy
+`095c775e5aae19c2469c5647e717d9209b14a9887ae43ec7410f50657e6af2e2`.
+The original NSCC findings are in `outputs/rq3/evidence/analysis/analysis/report.json`
+and `paired_effects.csv`; additional local plots and discussion use those
+validated results without changing the frozen generation or judging code.
+
+| Main condition (40 examples) | Mean Q | Generator time (s) | Charged total (s) | Mean peak allocated VRAM (GiB) |
+| --- | ---: | ---: | ---: | ---: |
+| A: thinking off, RegionE off | 53.59 | 56.95 | 66.67 | 24.11 |
+| B: thinking on, RegionE off | 51.98 | 56.89 | 72.07 | 24.11 |
+| C: thinking off, RegionE on | 54.06 | 21.79 | 31.50 | 35.07 |
+| D: thinking on, RegionE on | 51.41 | 22.10 | 37.05 | 35.07 |
+
+Times average the within-example median of three NSCC measurements. Charged
+total reconstructs replay plus one thinking/offload pass and excludes model
+loading, warmup and artifact writes. Memory averages each example's maximum
+allocated VRAM over timing repeats; it is not total board memory.
+
+| Paired effect | Mean Q difference | 95% example-bootstrap interval |
+| --- | ---: | --- |
+| Thinking without RegionE: B−A | −1.61 | [−5.94, 2.14] |
+| Thinking with RegionE: D−C | −2.66 | [−7.14, 1.41] |
+| Interaction: (D−C)−(B−A) | −1.04 | [−2.40, 0.00] |
+| Acceleration with thinking: D−B | −0.57 | [−1.56, 0.00] |
+| Acceleration without thinking: C−A | +0.47 | [0.00, 1.41] |
+
+The D−B lower interval bound exceeds −5, meeting the predefined acceptable
+average quality-loss criterion under the recorded manual scores. The
+interaction interval lies within ±5. However, B−A does not establish a positive
+thinking benefit at 28 steps, so do not claim that RegionE preserves a proven
+reasoning benefit or import the RQ1 result. The frozen rule uses the lower
+endpoint of the existing two-sided 95% interval, not a newly computed one-sided
+95% interval. Resampling uses 10,000 draws, seed 42, across paired examples.
+
+Mean paired speedup for D relative to B is **2.59× generator** and **1.95×
+charged total**. The corresponding ratios of aggregate mean times are 2.57×
+and 1.94×; keep the two estimators distinct. RegionE increases mean peak
+allocated VRAM from 24.11 to 35.07 GiB in this deployment.
+
+On the predetermined 20-example subset, B/D/F have identical component-score
+vectors. Removing AVD (F) increases generator time from 21.75s (D) to 34.42s
+without a detected score change. Removing RIKV (E) changes mean Q by −4.17
+relative to D, with interval [−8.85, 0.00], lowers peak allocated memory to
+24.12 GiB and lowers charged total from 36.58s to 35.49s. Its interval reaches
+zero and extends below −5: neither a conclusive nonzero loss nor retention
+under the same margin is established. All C/D/E records log 15 AVD-reuse steps
+and 26 transformer calls, while A/B/F log 56 calls; calls include both CFG
+branches and are not denoising-step counts.
+
+There are 38 tied D/B aggregate ratings among 40 examples. The two losses are
+`position_movement__30` and `geography__6`. Tied scores are not identical
+images, and zero-width observed score intervals do not imply zero population
+variability. Visual inspection also exposes evaluator limitations: for
+`count_change__47`, B/D/F receive Q=83.33 despite a blank charger face where
+the instruction requests six visible interfaces. Preserve the original scores
+and report this limitation; these post-hoc assistant observations are not an
+independent human rating study.
+
+The additional Mac analysis creates 13 PNG/PDF quantitative figures, derived
+CSV tables, seven rule-selected qualitative cases, 160 exact-geometry RGB
+comparisons (MAE/RMSE/PSNR/SSIM), and the LPIPS comparisons when enabled.
+Similarity metrics describe deviation from generated baselines, not semantic
+edit correctness. Case rules are post-hoc and no selected examples replace the
+complete quantitative sample. Detailed methods, conclusions, caveats and
+figures are available at:
+
+- [Results and discussion](outputs/rq3/postprocessing/RESULTS.md)
+- [Offline figure gallery](outputs/rq3/postprocessing/index.html)
+- [Case catalogue](outputs/rq3/postprocessing/qualitative/candidates.md)
+- [Visual observation provenance](reports/rq3_case_observations.json)
+- [Post-processing provenance](outputs/rq3/postprocessing/run_manifest.json)
+
+The completed CPU LPIPS run covers all 160 planned pairs. Mean AlexNet LPIPS
+version 0.1 is 0.04244 for C−A (40), 0.03936 for D−B (40), 0.17371 for E−D (20),
+0.02513 for F−D (20), 0.18052 for E−B (20), and 0.03074 for F−B (20).
+These support the descriptive finding that removing RIKV produces larger
+image changes in the component subset; they do not independently validate
+the instruction-following scores. Mean RGB SSIM is 0.9543 for D−B, 0.8483 for
+E−D, and 0.9715 for F−D. The LPIPS identical-image check returns 0; SSIM passes
+identity, symmetry, constant-image and independent direct-window checks.
+
+### Preserve the experiment record
+
+Keep unchanged copies of all main shards, pilot outputs, thought caches, raw
+judgments, session logs, score files, protocol manifests and runtime metadata.
+The merged records retain original absolute NSCC paths, so the original NSCC
+analyzer still needs its source shard images. The Mac archive and judging
+bundle together support the additional local analysis; neither contains the
+complete set of timing-repeat images or all original pilot artifacts.
+
+Retain a verified durable copy before removing research artifacts from scratch.
+The Linux environment, model cache and prepared dataset can be recreated from
+the recorded pins and do not need to occupy the 50GB HOME allocation. Scratch
+is temporary storage; keep the research archive outside its retention window.
