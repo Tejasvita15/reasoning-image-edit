@@ -1,0 +1,33 @@
+==========================================
+Job ID: 25659954.pbs101
+Node: x1001c4s1b1n0
+Workdir: /home/users/ntu/ngch0136/reasoning-image-edit
+Stage: check_2_1 | seed 42 | thinking [off cached] | cfg [2 6 10]
+Start: Fri Oct  2 23:05:53 +08 2026
+==========================================
+Branch:  @ 
+HF_HOME: /scratch/users/ntu/ngch0136/hf_cache
+/home/users/ntu/ngch0136/.conda/envs/reasoning-image-edit/bin/python
+/var/spool/pbs/mom_priv/jobs/25659954.pbs101.SC: line 113: nvidia-smi: command not found
+nvidia-smi not available (CPU-only job?)
+Torch: 2.11.0+cu128
+CUDA available: False
+
+Pairwise checks
+  guidance effect off cfg2 vs cfg10: median MAD 16.468, 0/90 unchanged
+  guidance effect cached cfg2 vs cfg10: median MAD 12.791, 0/90 unchanged
+
+condition | ok | failed attempts | pipeline s | generate s | think s | reconstructed s | peak VRAM GB | tokens
+rq2_step1x_think-cached_cfg10_steps50 | 90 | 0 | 108.29 | 108.29 | 1.65 | 110.27 | 24.3 | 13
+rq2_step1x_think-cached_cfg2_steps50 | 90 | 0 | 108.34 | 108.34 | 1.65 | 110.28 | 24.3 | 13
+rq2_step1x_think-cached_cfg6_steps50 | 90 | 0 | 108.27 | 108.27 | 1.65 | 110.27 | 24.3 | 13
+rq2_step1x_think-off_cfg10_steps50 | 90 | 0 | 108.32 | 108.32 | - | 108.64 | 24.3 | 0
+rq2_step1x_think-off_cfg2_steps50 | 90 | 0 | 108.22 | 108.22 | - | 108.70 | 24.3 | 0
+rq2_step1x_think-off_cfg6_steps50 | 90 | 0 | 108.35 | 108.35 | - | 108.65 | 24.3 | 0
+
+Offload mode: ['model_cpu_offload']
+RQ2.1 check: PASS
+
+==========================================
+Finished: Fri Oct  2 23:06:44 +08 2026
+==========================================
