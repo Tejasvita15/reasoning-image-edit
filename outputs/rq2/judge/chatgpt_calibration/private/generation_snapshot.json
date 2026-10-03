@@ -1,0 +1,16 @@
+{
+  "experiment": "rq2",
+  "split": "k_dev",
+  "seed": 42,
+  "splits_sha256": "b513673f210e8ac63b6fdfa7bda0bc62323b2dffdb7e4c4e5658234c49a60dc9",
+  "logs": {
+    "logs/rq2/rq2_step1x_think-cached_cfg10_steps50_k_dev_seed42.jsonl": "d0082c77e1d447eb393e25f9e02feb4023e4568a889f14a1d07c81b884f4db5e",
+    "logs/rq2/rq2_step1x_think-cached_cfg2_steps50_k_dev_seed42.jsonl": "c2186c77c1e36947ea56a6700e3d9c997eb95d92a838996081ca2fd6dd654b58",
+    "logs/rq2/rq2_step1x_think-cached_cfg6_steps50_k_dev_seed42.jsonl": "180351b573cfb20e1e898e0f90e125f5c96663ba349a54e4ce433bdf90d53a42",
+    "logs/rq2/rq2_step1x_think-off_cfg10_steps50_k_dev_seed42.jsonl": "04336ea4549f9f712b66e5622537d4f34acb9f7f09ad70d53846fc1cad9b25bf",
+    "logs/rq2/rq2_step1x_think-off_cfg2_steps50_k_dev_seed42.jsonl": "76c201912f05c7c8fc88bae4e93f304347d4c43e51490946645e698eec54140b",
+    "logs/rq2/rq2_step1x_think-off_cfg6_steps50_k_dev_seed42.jsonl": "6f8dfacacf825e6a5baf34ea11a066b0b31e7dbe4317579e8e11c06e73bc0a1b"
+  },
+  "outputs": 540,
+  "protocol_hash": "b48c4353cbeee734bbb0d1d54c767e795dc5f8d52481718ad3f8f1116ead88de"
+}

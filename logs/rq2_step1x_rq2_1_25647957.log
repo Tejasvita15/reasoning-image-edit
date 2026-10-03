@@ -1,8 +1,0 @@
-==========================================
-Job ID: 25647957.pbs101
-Node: x1000c0s2b0n0
-Workdir: /home/users/ntu/ngch0136/reasoning-image-edit
-Stage: rq2_1 | seed 42 | thinking [off cached] | cfg [2 6 10]
-Start: Thu Oct  1 17:16:08 +08 2026
-==========================================
-mkdir: cannot create directory ‘/scratch/ngch0136’: Permission denied
