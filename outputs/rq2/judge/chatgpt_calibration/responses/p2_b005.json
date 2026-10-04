@@ -1,0 +1,23 @@
+{
+  "batch_id": "p2_b005",
+  "results": [
+    {
+      "blind_id": "case_bd4308c921bbdeed",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The road alignment, mountain backdrop, sky and overall composition remain recognizable. However, the roadside foliage, especially the prominent left-hand tree, and the guardrail/support details are noticeably reshaped beyond the requested pavement damage. Instruction: A deep, jagged central fissure and branching cracks are added across the road, clearly depicting earthquake damage. Knowledge: The broken pavement, displaced centerline and uneven crack edges match the supplied expectation of cracking and surface deformation. Quality: The road, fractures, surrounding landscape, lighting and perspective are visually coherent, with no noticeable rendering artifact."
+    },
+    {
+      "blind_id": "case_3ffb3cacfffacb7b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The black zip jacket, orange trim and extended sleeves remain recognizable, but the gray background changes to white and the garment's smooth material rendering is replaced by conspicuous outlines and hatch-like fabric shading. Instruction: The edit still shows the front torso and long visible sleeves from a three-quarter angle. The reference instead shows a strongly foreshortened overhead view with a central neck opening and a broad horizontal shoulder silhouette. The requested top view is therefore not achieved. Quality: Assessed independently as an illustration, the jacket has coherent seams, collar, sleeves, shading and a legible chest logo, without a noticeable structural defect."
+    }
+  ]
+}

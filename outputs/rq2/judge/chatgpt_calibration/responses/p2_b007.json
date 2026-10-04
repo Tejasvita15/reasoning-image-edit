@@ -1,0 +1,23 @@
+{
+  "batch_id": "p2_b007",
+  "results": [
+    {
+      "blind_id": "case_23dbe4f2c15a8141",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The maze walls, animal, gift illustrations and white background remain visually preserved; the principal addition is the red line. Instruction: A red line is drawn in the general direction from the animal toward the gifts, but it is a straight diagonal that crosses several black walls rather than following the maze corridors. It therefore does not mark a traversable route. Knowledge: The line violates the maze's visible barriers. Instruction failure ⇒ knowledge invalid. Quality: Viewed as a diagram, the walls, illustrations and red stroke are clean and legible, without noticeable rendering defects; route validity is evaluated separately."
+    },
+    {
+      "blind_id": "case_4719530488991e2a",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The dark grip surface, colored deck layers, cream wheels and intact rear end remain recognizable. The surrounding ground is noticeably smoothed and its background appearance changes; the board's necessary lift onto restored front wheels is not penalized. Instruction: Front wheel support is added and the board is raised off the ground, but its front deck remains visibly ragged, chipped and incomplete. A fully restored nose and continuous deck surface are still missing, so completion is partial. Quality: Considered alone, the worn skateboard, wheel placement, perspective and ground contact are coherent; plausible physical wear is not treated as a rendering artifact."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p2_b003",
+  "results": [
+    {
+      "blind_id": "case_7d71444f5d822a79",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The grid, existing clue illustrations, their positions and the white background are visually preserved; the substantive changes are confined to the four empty cells. Instruction: All four cells are filled, but none has the correct symbol. In reading order the blanks require mushroom, umbrella, squirrel and tree; the edit inserts squirrel, mushroom, mushroom and mushroom. The resulting rows and columns contain repetitions, so this is not a completed Sudoku. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: Viewed as an illustration, the grid is clean and the individual icons are coherent, with no noticeable rendering artifacts; puzzle validity is assessed separately."
+    },
+    {
+      "blind_id": "case_305af423385cdadf",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The thermometer and cable remain recognizable, but the plain background becomes a snowy setting, frost is added to the device and cable, and the housing angle and printed details change. Instruction: The expected change, using the supplied approximately 3-degree increase, is from 28.7 to about 31.7 degrees Celsius. The edited display still begins with 28 and has an altered final digit, rather than showing the required increase. Knowledge: The supplied temperature-change expectation is not realized. Instruction failure ⇒ knowledge invalid. Quality: The scene and device are broadly coherent, but the final numerical digit has an extraneous bottom segment and the Celsius symbol is malformed."
+    }
+  ]
+}

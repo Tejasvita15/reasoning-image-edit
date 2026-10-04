@@ -1,0 +1,23 @@
+{
+  "batch_id": "p2_b010",
+  "results": [
+    {
+      "blind_id": "case_287757706f934d63",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The colored tiles, existing numbers, arrangement, background and shadows remain visually preserved; the change is localized to the answer position. Instruction: The question mark is replaced by 28, not the correct number 410. Filling the position alone does not complete the requested pattern correctly. Knowledge: For 7 and 3, the supplied rule gives difference 4 and sum 10, concatenated as 410. The edited answer does not follow that rule. Instruction failure ⇒ knowledge invalid. Quality: The graphic is clean and the numbers are readable, apart from a small stray yellow mark beside the new 2."
+    },
+    {
+      "blind_id": "case_9843efbf9b1c3f84",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The hourglass silhouette, position and white background are preserved. The glass-edge highlights have a slightly cooler tint, a small non-target appearance change. Instruction: A substantial quantity of sand remains in the upper bulb and a thin stream is still visible. The image therefore depicts an ongoing cycle, not the completed timing state. Knowledge: The supplied explanation requires the upper part to be empty, which is directly contradicted by the edit. Instruction failure ⇒ knowledge invalid. Quality: Independently of timing correctness, the glass contours, sand piles, narrow neck and reflection are coherent and natural; moderate softness does not obscure the scene."
+    }
+  ]
+}

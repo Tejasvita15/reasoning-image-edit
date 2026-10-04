@@ -1,0 +1,23 @@
+{
+  "batch_id": "p2_b001",
+  "results": [
+    {
+      "blind_id": "case_cc4bbee315bc2bf7",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 2,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The monitor and cuff remain recognizable, but the white background becomes a gray surface, the cuff shape and device proportions change, several labels are rewritten, and the pulse changes from 70 to 98. These are multiple changes beyond the requested blood-pressure values. Instruction: The display changes from 100/68 to a clearly legible 188/88, fully implementing the requested numerical change. Knowledge: Both edited pressure readings exceed the thresholds in the supplied explanation. Quality: The housing and cuff are coherent, but numerous small device labels, the brand lettering and display icons are visibly malformed or illegible; the pressure digits themselves remain readable."
+    },
+    {
+      "blind_id": "case_33e7daa8fa24370c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and green-and-red product theme remain, but the tray geometry and the shapes and lettering of multiple existing cans change noticeably. Instruction: A horizontal can appears on top of the tray, but the original separate can remains standing on the right. The expected result is relocation of that can, not an additional copy, so the request is only partially fulfilled. Quality: The overall product arrangement is understandable, but the upright right-hand can has a visibly warped outline and the label lettering across the cans is distorted."
+    }
+  ]
+}
