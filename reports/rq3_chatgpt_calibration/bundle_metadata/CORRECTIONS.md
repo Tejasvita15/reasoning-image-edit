@@ -4,4 +4,4 @@ The user rejected the supplied shared-conversation description and authorized co
 
 Session identifiers beginning `operator-attested:` are assigned local audit IDs, not recovered ChatGPT URLs or independently verified conversation IDs. Independence and UI settings rely on the user correction. Original timestamps are retained without independently verifying chronology. Retain any available original chat transcripts with this bundle.
 
-Raw responses, scores, rationales, images, prompts, selected outputs and generation identity are unchanged. The evaluation identity and manifest checksum have been recomputed transparently because the export model label was a placeholder. The original Downloads bundle is untouched.
+Raw responses, scores, rationales, images, prompts, selected outputs and generation identity are unchanged. The evaluation identity and manifest checksum have been recomputed transparently because the export model label was a placeholder. The original source bundle is untouched.

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "identical_image_lpips": 0.0,
+  "tolerance": 1e-06,
+  "example_uid": "abstract_reasoning__33",
+  "condition": "C",
+  "metric_identity_sha256": "92a94bb2bd57da1eb98a9432f047e05627fd6591e99e88bff5feeb6cde7fc269"
+}

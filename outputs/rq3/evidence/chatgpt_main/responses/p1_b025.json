@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b025",
+  "results": [
+    {
+      "blind_id": "case_c6c9c09b2ce67389",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Most non-instructed elements are preserved, with only minor incidental differences. Instruction: The result shows limited evidence of \"Remove kidney stones from the CT image\", with major aspects missing or unclear. Quality: Overall structure is coherent, with only minor visual imperfections."
+    },
+    {
+      "blind_id": "case_9409333eaab81f3f",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The requested change \"Change to six forks\" is not successfully realized. Quality: The output is severely degraded, near-empty, or otherwise visually broken."
+    }
+  ]
+}

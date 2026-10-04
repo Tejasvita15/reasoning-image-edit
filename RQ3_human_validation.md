@@ -2,7 +2,7 @@
 
 ## Purpose and materials
 
-This validation measures agreement between two independent human reviewers and the existing ChatGPT judge on the same generated outputs. It also checks whether the RQ3 interpretation changes when human scores replace automated scores. It requires no new generations, API key, NSCC allocation or Conda environment.
+This validation measures agreement between two independent human reviewers and the existing ChatGPT judge on the same generated outputs. It also checks whether the RQ3 interpretation changes under human scoring, while retaining the original judge results. Manual review requires no new generations, API key, NSCC allocation or Conda environment; the completed statistical analysis uses the CPU `ai6132` analysis environment.
 
 The subset is recorded in [data/rq3_human_validation_subset.json](data/rq3_human_validation_subset.json): **30 examples, with 10 from each knowledge type**, selected deterministically using seed 42 and sorted pools from the frozen 40-example RQ3 set. Selection uses metadata, not scores or observed failures. This subset was selected **after generation and analysis, before human scoring**; it must not be described as preregistered before the experiment. The existing [rq3_subset.json](data/rq3_subset.json) contains the separate **20-example component-ablation subset**.
 
@@ -15,15 +15,14 @@ Each reviewer assesses conditions A–D for all 30 examples: **120 outputs per r
 
 Each packet contains its own instructions, anonymized cases, independently ordered outputs, `practice_ratings.csv` and `reviewer_metadata.json`. It can be opened locally in a browser. Case pages contain the frozen per-item judging rubric, with only identifiers and attachment filenames changed for the human packet. Of the 120 main outputs, 64 require knowledge scores and four have a viewpoint reference image. These applicability flags are prefilled in the packets.
 
-On your Mac, open either packet with:
+From the repository root, open either packet in the default browser:
 
 ```bash
-cd /Users/aloysiustan/Development/ai6132_group
-open outputs/rq3/human_validation/reviewer_1/index.html
-open outputs/rq3/human_validation/reviewer_2/index.html
+python3 -c "from pathlib import Path; import webbrowser; webbrowser.open(Path('outputs/rq3/human_validation/reviewer_1/index.html').resolve().as_uri())"
+python3 -c "from pathlib import Path; import webbrowser; webbrowser.open(Path('outputs/rq3/human_validation/reviewer_2/index.html').resolve().as_uri())"
 ```
 
-Packets have already been generated. The reproducible builder is [scripts/prepare_rq3_human_validation.py](scripts/prepare_rq3_human_validation.py); `python3 scripts/prepare_rq3_human_validation.py` recreates them only when the destination is absent. It refuses to overwrite a review folder or change an existing subset. Keep the generated packets and returned ratings backed up: `outputs/` is ignored by Git.
+Packets have already been generated. The reproducible builder is [scripts/prepare_rq3_human_validation.py](scripts/prepare_rq3_human_validation.py); `python3 scripts/prepare_rq3_human_validation.py` recreates them only when the destination is absent. It refuses to overwrite a review folder or change an existing subset. The completed packets, original submissions and analysis are included in this branch. Keep a separate durable backup; caches and unrelated run directories under `outputs/` remain ignored.
 
 ## Coordinator instructions
 
@@ -54,12 +53,31 @@ Use `status=ok` for a scoreable case and provide every applicable score. Use `st
 
 Complete `reviewer_metadata.json`, including your reviewer ID, background, prior exposure, practice completion time, main start/completion times and confirmation of independent rating. Return **`ratings.csv`, `practice_ratings.csv` and `reviewer_metadata.json`**. Keep a copy of your original submission.
 
-## Analysis after both submissions
+## Completed validation and analysis
 
-Human analysis is a subsequent step; the packet does not contain human results. Preserve the original submissions, validate IDs and applicability, and investigate missing/unreadable cases without silently dropping difficult examples. Compute each human's $Q$ using the existing rule: the mean of $25(s-1)$ over applicable dimensions. Do not replace the original ChatGPT scores or adjust the frozen quality margin in response to human disagreement.
+Both submissions are complete: **240 main human ratings** of the same 120 A–D outputs from 30 examples, with **eight practice ratings excluded**. There are no missing or unreadable main outputs. The [Reviewer 1 audit](outputs/rq3/human_validation/validation/reviewer_1_check.md) and [Reviewer 2 audit](outputs/rq3/human_validation/validation/reviewer_2_check.md) preserve the original submissions and document their checks. Reviewer 1's practice timestamp was corrected by the user, with both metadata versions retained. Reviewer 2's uppercase applicability flags and two encoding-damaged optional notes are nonblocking: parsing accepts boolean case and displays invalid bytes as explicit escapes in derived text. Submitted ratings remain unchanged.
 
-Prespecify **quadratically weighted Cohen's $\kappa$** per ordinal dimension for human–human agreement. Compare each human with the judge using Spearman's $\rho$ and an explicitly documented absolute-agreement ICC on $Q$; the proposed ICC is **ICC(A,1), two-way mixed effects, single measurement**, treating the named human and judge as the fixed pair. Freeze and record the implementation before calculating results. Report score differences and agreement failures alongside these statistics; correlation alone does not establish agreement.
+Each human's $Q$ is the mean of $25(s-1)$ over applicable dimensions. The analysis uses quadratically weighted Cohen's $\kappa$, Spearman's $\rho$, and **ICC(A,1), two-way mixed effects, absolute agreement, single measurement**, for the named fixed rater pair. Confidence intervals use 10,000 example-cluster bootstrap replicates (seed 42), retaining all four conditions and both reviewers within each sampled example. The 120 outputs are not 120 independent examples. These high-level measures were specified before joint analysis; the executable implementation was completed after submissions, and a method auditor inspected point estimates before code finalization. This was not preregistered or an implementation completed without access to outcomes. The exact decisions are recorded in the [analysis plan](reports/rq3_human_analysis_plan.json).
 
-Use paired confidence intervals that resample the **30 examples as clusters**, preserving their four conditions and reviewer pairings. The 120 outputs are not 120 independent examples. Report applicability and missingness counts, and inspect human-scored thinking effects, acceleration effects and their interaction on this subset. Keep subset conclusions distinct from the original 40-example estimates. Human–judge disagreement cases may support qualitative discussion after scoring, but cannot be selected retrospectively into the validation sample.
+| Comparison | Result |
+| --- | --- |
+| Human–human ordinal agreement | Quadratic $\kappa$: consistency 0.498, instruction 0.901, visual quality 0.844, knowledge 0.831 |
+| Human–human aggregate agreement | $Q$ ICC(A,1) = 0.899, 95% CI [0.819, 0.943] |
+| Reviewer 1 versus ChatGPT | $\rho=0.042$; ICC(A,1) = 0.027 |
+| Reviewer 2 versus ChatGPT | $\rho=0.133$; ICC(A,1) = 0.134 |
 
-Protocol basis: the Validation row of [6132 Group Project Writeup.md](</Users/aloysiustan/Downloads/6132 Group Project Writeup.md>), the frozen [manual rubric implementation](src/rq3_manual/prompts.py), and [RQ3 findings](RQ3_findings.md). This procedure validates the recorded manual ChatGPT evaluation; it does not reproduce the original benchmark's separate API scoring contexts.
+The human–judge comparisons do **not** establish strong agreement with the recorded judge. Human–human agreement also does not establish objective correctness. On these same 30 examples, the secondary mean of the two human $Q$ scores gives $B-A=7.19$ [0.45, 13.72] and $D-B=-1.15$ [−3.02, 0.31]. Reviewer 2's individual thinking-effect interval includes zero, so the positive thinking estimate is not uniformly established across reviewers. Each human's $D-B$ lower confidence bound exceeds −5, supporting acceptable average acceleration loss under the original margin as a supplementary sensitivity analysis. Preserve the original 40-example judge estimates separately; these results neither replace them nor validate the E/F component ablations. They apply to these two fixed reviewers and the selected examples.
+
+Read the [full results and confidence intervals](outputs/rq3/human_validation/analysis/RESULTS.md), [machine-readable report](outputs/rq3/human_validation/analysis/report.json), [agreement figure](outputs/rq3/human_validation/analysis/figures/agreement_q.pdf), [dimension-agreement figure](outputs/rq3/human_validation/analysis/figures/human_human_kappa.pdf), and [paired-effect figure](outputs/rq3/human_validation/analysis/figures/condition_effects.pdf). Largest-disagreement cases are post-hoc diagnostic selections, not exclusions or estimates of failure prevalence.
+
+The implementation is [src/rq3_human](src/rq3_human/__main__.py). To reproduce the analysis locally from the repository root, use a **new output directory**: the default `outputs/rq3/human_validation/analysis` already contains the completed run and the command refuses to overwrite it.
+
+```bash
+conda activate ai6132
+python -m src.rq3_human \
+  --output-dir "outputs/rq3/human_validation/analysis_rerun_$(date +%Y%m%d_%H%M%S)"
+```
+
+This command checks preserved packet identities and submissions, recomputes statistics and figures locally, and leaves original human ratings, ChatGPT judgments, the five-point margin and generation records unchanged.
+
+Protocol basis: the Validation row of *6132 Group Project Writeup.md* (the project plan), the frozen [manual rubric implementation](src/rq3_manual/prompts.py), and [RQ3 findings](RQ3_findings.md). This procedure validates the recorded manual ChatGPT evaluation; it does not reproduce the original benchmark's separate API scoring contexts.

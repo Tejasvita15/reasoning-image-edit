@@ -4,11 +4,11 @@ Branch: `rq3_implementation`. Entry point: `python -m src.rq3.run`.
 
 **Running on NSCC ASPIRE-2A:** start with [Section 9](#9-nscc-aspire-2a-pbs-workflow).
 It provides the PBS setup, pilot, array, resume and analysis commands for
-`personal-rtan134`, `miniforge3` and `cuda/12.2.2`.
+the configured NSCC project, `miniforge3` and `cuda/12.2.2`.
 
 RQ3 generates its own baselines, caches its own thinking rewrites, logs its own
 outputs, and performs its own paired analysis. It does not consume RQ1/RQ2
-results, selected guidance, UniReason, or 50-step images. The user's revised
+results, selected guidance, UniReason, or 50-step images. The revised
 independent design takes precedence over the writeup's older RQ2 handoff and
 conflicting final split table.
 
@@ -56,8 +56,8 @@ Sources: [Step1X](https://github.com/stepfun-ai/Step1X-Edit),
 
 ## 2. Environment
 
-Run commands from the repository root. An `ai6132` environment was created on
-the current Mac with Python 3.10 and development/analysis packages. Activate it:
+Run local commands from the repository root. The development and analysis
+environment uses Python 3.10. If `ai6132` already exists, activate it:
 
 ```bash
 conda activate ai6132
@@ -65,15 +65,15 @@ python -m src.rq3.run --dry-run
 python -m pytest -q tests
 ```
 
-On another machine, create the portable base environment:
+For a new installation, create the portable base environment:
 
 ```bash
 conda env create -f environment.yml
 conda activate ai6132
 ```
 
-**GPU deployment is a separate Linux/CUDA installation.** The Mac environment
-does not run Step1X–RegionE generation. NSCC setup is automated in Section 9;
+**GPU deployment is a separate Linux/CUDA installation.** The CPU analysis
+environment does not run Step1X–RegionE generation. NSCC setup is automated in Section 9;
 the equivalent manual installation below uses the proposed NSCC stack.
 PyTorch's packaged CUDA 12.1 runtime is separate from the loaded CUDA 12.2.2
 toolkit. Use the same validated wheel/driver for all compared conditions.
@@ -365,8 +365,8 @@ old readiness reports and prevents an unsafe resume.
 `runtime.json` records actual library/CUDA/GPU settings and is checked on resume.
 
 CPU tests cover the experiment plan, split integrity, pairing/replay, resume
-integrity, ablation instrumentation and paired analysis. Development took place
-on an Apple Silicon Mac; the completed NSCC run used an A100-SXM4-40GB. Final
+integrity, ablation instrumentation and paired analysis. Local development used
+CPU PyTorch; the completed NSCC run used an A100-SXM4-40GB. Final
 development checks passed, all 800 planned generations completed, and the
 200 manual judgments were imported and analyzed successfully. Detailed runtime
 settings and original results remain in the verified analysis archive.
@@ -393,8 +393,11 @@ an arbitrary `mem` request. ASPIRE-2A+ has different hardware and allocations.
 See [ASPIRE-2A specifications](https://nsccsg.github.io/systems/aspire2a/system-specifications/)
 and [GPU allocation guidance](https://nsccsg.github.io/quickstart/launch-an-interactive-job/).
 
-All PBS scripts include `#PBS -P personal-rtan134`, `#PBS -q normal`, and
-`#PBS -j oe`. Submit from the repository directory; scripts use `PBS_O_WORKDIR`.
+All PBS scripts include a project directive, `#PBS -q normal`, and `#PBS -j oe`.
+The recorded run used the configured project `personal-rtan134`; collaborators
+must use a project allocated to their own account. The commands below pass
+`-P "$NSCC_PROJECT"` to override the script default. Submit from the repository
+directory; scripts use `PBS_O_WORKDIR`.
 This follows the [NSCC batch-job guide](https://nsccsg.github.io/quickstart/submit-a-batch-job/).
 
 | Stage | Script / mode | Request | Initial walltime proposal |
@@ -451,16 +454,20 @@ these scripts. NSCC documents reservations in the
 Use the project checkout at `$HOME/ai6132_group` on NSCC. Keep the pinned
 implementation and experiment configuration unchanged throughout a run.
 
-On NSCC:
+On NSCC, set `NSCC_PROJECT` to an allocated project shown by `myprojects`.
+The default below reads the project from the checked-in PBS script; set a
+different value before running it when using another account. Repeat this
+setup in each new login shell before submitting the jobs below.
 
 ```bash
 cd "$HOME/ai6132_group"
+export NSCC_PROJECT="${NSCC_PROJECT:-$(awk '/^#PBS -P / {print $3; exit}' jobs/nscc/gpu.pbs)}"
 module avail miniforge3
 module avail cuda/12.2.2
 module show cuda/12.2.2
 myprojects
 myquota
-myquota -p personal-rtan134
+myquota -p "$NSCC_PROJECT"
 qstat -Q
 source jobs/nscc/common.sh
 rq3_paths
@@ -483,8 +490,8 @@ NSCC's existing link to `/scratch/users/<org>/<uid>`. The scripts resolve that
 link and refuse to create a fake scratch directory in HOME. They also reject
 inherited cache/output overrides resolving outside your scratch allocation.
 Unset a conflicting override or point it to scratch before submitting jobs.
-The `personal-rtan134` compute project ID does not establish a project-storage
-allocation; check `myquota -p personal-rtan134` separately.
+A compute project ID does not establish a project-storage
+allocation; check `myquota -p "$NSCC_PROJECT"` separately.
 
 | Artifact | Default location |
 | --- | --- |
@@ -514,7 +521,7 @@ caches use an isolated job temporary directory and are removed on normal exit;
 a hard kill can leave scratch temporary files for later inspection.
 
 Scratch is **temporary, not a backup**: files unused for more than 30 days may
-be removed without notice. Archive completed results promptly to your Mac or
+be removed without notice. Archive completed results promptly to a local workstation or
 approved durable project storage. Scheduler-local storage, when provided, is
 used only for temporary files; resume state stays on shared scratch.
 [NSCC retention policy](https://nsccsg.github.io/policies/data-management-and-retention-policy/)
@@ -534,7 +541,7 @@ Check account usage on the login node, then schedule the recursive size audit:
 
 ```bash
 myquota
-STORAGE_JOB=$(qsub -o "$RQ3_LOG_DIR/" jobs/nscc/storage.pbs)
+STORAGE_JOB=$(qsub -P "$NSCC_PROJECT" -o "$RQ3_LOG_DIR/" jobs/nscc/storage.pbs)
 qstat -f "$STORAGE_JOB"
 # After completion; substitute the actual PBS job ID:
 cat "$RQ3_LOG_DIR/storage_JOB_ID.log"
@@ -629,11 +636,11 @@ scoring also accept `--notify` / `--no-notify`, which override the mode:
 python -m src.rq3.run --dry-run --notify
 
 # Enable a short smoke job through the scheduler; secrets stay in .env.
-qsub -o "$RQ3_LOG_DIR/" -l walltime=02:00:00 \
+qsub -P "$NSCC_PROJECT" -o "$RQ3_LOG_DIR/" -l walltime=02:00:00 \
   -v RQ3_MODE=smoke,TELEGRAM_NOTIFICATIONS=on jobs/nscc/gpu.pbs
 
 # Disable notifications for a submission, including wrapper failure alerts.
-qsub -o "$RQ3_LOG_DIR/" \
+qsub -P "$NSCC_PROJECT" -o "$RQ3_LOG_DIR/" \
   -v RQ3_ACTION=budget,TELEGRAM_NOTIFICATIONS=off jobs/nscc/finish.pbs
 ```
 
@@ -668,22 +675,21 @@ before a usable Telegram response. This does not validate the token/chat or
 prove a firewall block. NSCC documents outbound domain filtering; a reset can
 also come from a proxy, remote endpoint or transient network issue.
 
-Compare from your Mac using its existing `.env`. This explicitly sends one
+Compare from a local workstation using its configured `.env`. This explicitly sends one
 test message, regardless of the `auto` notification threshold:
 
 ```bash
-cd /Users/aloysiustan/Development/ai6132_group
 conda activate ai6132
 python - <<'PY'
 from src.notifications import load_notification_env, TelegramSender
 load_notification_env()
 sender = TelegramSender()
 print({"configured": sender.configured})
-print({"delivered": sender("[ai6132] Mac Telegram delivery test")})
+print({"delivered": sender("[ai6132] Local Telegram delivery test")})
 PY
 ```
 
-If the same bot/chat succeeds from your Mac but repeatedly resets on NSCC,
+If the same bot/chat succeeds from the local workstation but repeatedly resets on NSCC,
 ask `help@nscc.sg` to check HTTPS access to `api.telegram.org:443` from your
 ASPIRE-2A login/compute host and confirm any approved proxy configuration.
 Provide the hostname, UTC time, PBS job ID and exception class, without
@@ -699,11 +705,11 @@ notification CLI flags does not change the scientific protocol or model seeds.
 ### Submit setup and the smoke test
 
 ```bash
-SETUP_JOB=$(qsub -o "$RQ3_LOG_DIR/" jobs/nscc/bootstrap.pbs)
+SETUP_JOB=$(qsub -P "$NSCC_PROJECT" -o "$RQ3_LOG_DIR/" jobs/nscc/bootstrap.pbs)
 printf 'Setup: %s\n' "$SETUP_JOB"
-SMOKE_JOB=$(qsub -o "$RQ3_LOG_DIR/" -W "depend=afterok:$SETUP_JOB" -l walltime=02:00:00 \
+SMOKE_JOB=$(qsub -P "$NSCC_PROJECT" -o "$RQ3_LOG_DIR/" -W "depend=afterok:$SETUP_JOB" -l walltime=02:00:00 \
   -v RQ3_MODE=smoke jobs/nscc/gpu.pbs)
-SMOKE_CHECK_JOB=$(qsub -o "$RQ3_LOG_DIR/" -W "depend=afterok:$SMOKE_JOB" \
+SMOKE_CHECK_JOB=$(qsub -P "$NSCC_PROJECT" -o "$RQ3_LOG_DIR/" -W "depend=afterok:$SMOKE_JOB" \
   -v RQ3_ACTION=smoke_check jobs/nscc/finish.pbs)
 qstat -ans
 ```
@@ -711,15 +717,15 @@ qstat -ans
 Setup creates a **Linux** environment with Python 3.10 and Git from conda-forge
 using Miniforge, pins PyTorch 2.5.1/torchvision 0.20.1 with CUDA 12.1 wheels,
 installs the project requirements and editable pinned checkouts, stages the
-checkpoint and dataset, and checks the frozen IDs. It does not copy the Mac's
-environment. PyTorch
+checkpoint and dataset, and checks the frozen IDs. It creates a fresh
+environment rather than copying an existing local installation. PyTorch
 publishes this wheel combination in its
 [previous-version installation instructions](https://pytorch.org/get-started/previous-versions/).
 
 The requested CUDA 12.2.2 toolkit module does not imply a `cu122` PyTorch wheel.
 The wrapper checks the installed runtime and uses a conservative NVIDIA driver
 floor of 535.54.03. There is no automatic precision, checkpoint or CUDA fallback.
-This stack still requires the real GPU pilot; the Mac's tests used CPU PyTorch.
+This stack still requires the real GPU pilot; local tests used CPU PyTorch.
 
 Environment setup uses a lock and a ready stamp. Matching reruns skip package
 installation; interrupted setup can resume. An incompatible existing environment
@@ -756,8 +762,8 @@ and independent development checks before collecting test results.
 HTTP(S) access on NSCC is filtered, so a blocked GitHub/Hugging Face download
 may need staging from an allowed machine and transfer to NSCC; it is not fixed
 by requesting more GPUs or retrying on a login node. Preserve model cache
-directory structure and exact source revisions. Do not transfer the Mac Conda
-prefix as a substitute for the Linux environment. [NSCC network FAQ](https://help.nscc.sg/aspire2a/faqs/)
+directory structure and exact source revisions. Do not transfer a Conda
+prefix from another platform as a substitute for the Linux environment. [NSCC network FAQ](https://help.nscc.sg/aspire2a/faqs/)
 
 Inspect the smoke logs and `reports/rq3_smoke_components.json`. A passing PBS
 exit code does not replace visual inspection of outputs and RegionE traces.
@@ -768,7 +774,7 @@ If calibration has already finished with `completed: 60, failures: 0`, use those
 outputs. Otherwise, submit the calibration image job once from the login node:
 
 ```bash
-CALIBRATION_JOB=$(qsub -o "$RQ3_LOG_DIR/" -l walltime=04:00:00 \
+CALIBRATION_JOB=$(qsub -P "$NSCC_PROJECT" -o "$RQ3_LOG_DIR/" -l walltime=04:00:00 \
   -v RQ3_MODE=calibration jobs/nscc/gpu.pbs)
 qstat -f "$CALIBRATION_JOB"
 ```
@@ -781,7 +787,7 @@ keep that model and the UI settings fixed across both passes and main judging.
 The model label is operator metadata, not the model's self-reported identity.
 
 ```bash
-qsub -I -q normal -P personal-rtan134 \
+qsub -I -q normal -P "$NSCC_PROJECT" \
   -l select=1:ncpus=2:mem=8gb -l walltime=00:30:00
 cd "$HOME/ai6132_group"
 source jobs/nscc/common.sh
@@ -828,20 +834,20 @@ comparison and always requires exact agreement with the prepared generation inpu
 
 #### Judge the calibration outputs
 
-Use the verified exported bundle at `outputs/rq3/evidence/calibration` on your
-Mac. For a new bundle, initialize response storage and session metadata without
-replacing existing work:
+Use the verified exported bundle at `outputs/rq3/evidence/calibration` in the
+local checkout. For a new bundle, initialize response storage and session
+metadata without replacing existing work:
 
 ```bash
-cd /Users/aloysiustan/Development/ai6132_group
 cd outputs/rq3/evidence/calibration
 mkdir -p responses
 cp -n session_log_template.json session_log.json
-open upload/pass_1/p1_b001
-pbcopy < upload/pass_1/p1_b001/prompt.md
+cat upload/pass_1/p1_b001/prompt.md
 ```
 
-The ZIP is a transport file for you. **Extract it first; upload only one batch's
+Open the batch folder with a file manager and copy the complete `prompt.md`
+text from a text editor or the command output. The ZIP is a transport file.
+**Extract it first; upload only one batch's
 image files and paste that batch's `prompt.md` into ChatGPT.** Do not upload the
 whole ZIP, `private/`, this runbook, generation logs or prior scores: they expose
 condition assignments. Keep image filenames intact. ChatGPT supports image
@@ -880,7 +886,7 @@ Import and calculate repeatability on NSCC (the same commands also work locally
 with the bundle path changed and the project's CPU dependencies installed):
 
 ```bash
-qsub -I -q normal -P personal-rtan134 \
+qsub -I -q normal -P "$NSCC_PROJECT" \
   -l select=1:ncpus=2:mem=8gb -l walltime=00:30:00
 cd "$HOME/ai6132_group"
 source jobs/nscc/common.sh
@@ -968,13 +974,13 @@ distinct archive name before creating the final pilot. Same-protocol retries
 resume with the commands below. Keep pilot timing free of competing GPU jobs.
 
 ```bash
-PILOT1_JOB=$(qsub -o "$RQ3_LOG_DIR/" -l walltime=08:00:00 \
+PILOT1_JOB=$(qsub -P "$NSCC_PROJECT" -o "$RQ3_LOG_DIR/" -l walltime=08:00:00 \
   -v RQ3_MODE=pilot_first,RQ3_TIMING_REPEATS=3 jobs/nscc/gpu.pbs)
-PILOT2_JOB=$(qsub -o "$RQ3_LOG_DIR/" -W "depend=afterok:$PILOT1_JOB" -l walltime=04:00:00 \
+PILOT2_JOB=$(qsub -P "$NSCC_PROJECT" -o "$RQ3_LOG_DIR/" -W "depend=afterok:$PILOT1_JOB" -l walltime=04:00:00 \
   -v RQ3_MODE=pilot_second,RQ3_TIMING_REPEATS=0 jobs/nscc/gpu.pbs)
-VERIFY_JOB=$(qsub -o "$RQ3_LOG_DIR/" -W "depend=afterok:$PILOT2_JOB" \
+VERIFY_JOB=$(qsub -P "$NSCC_PROJECT" -o "$RQ3_LOG_DIR/" -W "depend=afterok:$PILOT2_JOB" \
   -v RQ3_ACTION=validate jobs/nscc/finish.pbs)
-BUDGET_JOB=$(qsub -o "$RQ3_LOG_DIR/" -W "depend=afterok:$PILOT1_JOB" \
+BUDGET_JOB=$(qsub -P "$NSCC_PROJECT" -o "$RQ3_LOG_DIR/" -W "depend=afterok:$PILOT1_JOB" \
   -v RQ3_ACTION=budget,RQ3_TIMING_REPEATS=3 \
   jobs/nscc/finish.pbs)
 qstat -ans
@@ -1003,7 +1009,7 @@ Use the measured budget to adjust `walltime` below. After the validation report
 passes, submit the whole array:
 
 ```bash
-QUALITY_ARRAY=$(qsub -o "$RQ3_LOG_DIR/" -J '0-3%2' -l walltime=12:00:00 \
+QUALITY_ARRAY=$(qsub -P "$NSCC_PROJECT" -o "$RQ3_LOG_DIR/" -J '0-3%2' -l walltime=12:00:00 \
   -v RQ3_MODE=main,RQ3_NUM_SHARDS=4,RQ3_TIMING_REPEATS=0 jobs/nscc/gpu.pbs)
 printf 'Quality array: %s\n' "$QUALITY_ARRAY"
 ```
@@ -1017,10 +1023,10 @@ Once a quiet timing window is arranged, queue timing repetitions and the CPU
 merge. The first 200 outputs and thought caches are reused:
 
 ```bash
-TIMING_ARRAY=$(qsub -o "$RQ3_LOG_DIR/" -J '0-3%1' -W "depend=afterok:$QUALITY_ARRAY" \
+TIMING_ARRAY=$(qsub -P "$NSCC_PROJECT" -o "$RQ3_LOG_DIR/" -J '0-3%1' -W "depend=afterok:$QUALITY_ARRAY" \
   -l walltime=12:00:00 \
   -v RQ3_MODE=main,RQ3_NUM_SHARDS=4,RQ3_TIMING_REPEATS=3 jobs/nscc/gpu.pbs)
-MERGE_JOB=$(qsub -o "$RQ3_LOG_DIR/" -W "depend=afterok:$TIMING_ARRAY" \
+MERGE_JOB=$(qsub -P "$NSCC_PROJECT" -o "$RQ3_LOG_DIR/" -W "depend=afterok:$TIMING_ARRAY" \
   -v RQ3_ACTION=merge,RQ3_NUM_SHARDS=4,RQ3_TIMING_REPEATS=3 jobs/nscc/finish.pbs)
 printf 'Timing: %s\nMerge: %s\n' "$TIMING_ARRAY" "$MERGE_JOB"
 ```
@@ -1062,7 +1068,7 @@ retains history and inspect the completion marker.
 For example, retry just shard 2 after its previous job has ended:
 
 ```bash
-RETRY_JOB=$(qsub -o "$RQ3_LOG_DIR/" -l walltime=12:00:00 \
+RETRY_JOB=$(qsub -P "$NSCC_PROJECT" -o "$RQ3_LOG_DIR/" -l walltime=12:00:00 \
   -v RQ3_MODE=main,RQ3_NUM_SHARDS=4,RQ3_SHARD_INDEX=2,RQ3_TIMING_REPEATS=3 \
   jobs/nscc/gpu.pbs)
 ```
@@ -1101,7 +1107,7 @@ From the **NSCC login node**, request a CPU allocation (no GPU needed):
 
 ```bash
 cd "$HOME/ai6132_group"
-qsub -I -q normal -P personal-rtan134 -l select=1:ncpus=2:mem=8gb -l walltime=00:30:00
+qsub -I -q normal -P "$NSCC_PROJECT" -l select=1:ncpus=2:mem=8gb -l walltime=00:30:00
 ```
 
 Once the allocated shell opens, export using the **exact** calibration model
@@ -1137,24 +1143,22 @@ After export succeeds, `exit` returns to the login node.
 
 There is **one pass**, with batches `p1_b001` through `p1_b100`: two outputs per
 batch for seed 42. Timing repetitions are never judged. The verified bundle
-is at `outputs/rq3/evidence/chatgpt_main` on your Mac. For a new bundle, initialize
+is at `outputs/rq3/evidence/chatgpt_main` in the local checkout. For a new bundle, initialize
 response storage and the session log once; existing files are retained:
 
 ```bash
-cd /Users/aloysiustan/Development/ai6132_group
 cd outputs/rq3/evidence/chatgpt_main
 mkdir -p responses
 cp -n session_log_template.json session_log.json
 ```
 
-Start the first batch:
+From the repository root, display the first batch prompt:
 
 ```bash
-cd /Users/aloysiustan/Development/ai6132_group
-open outputs/rq3/evidence/chatgpt_main/upload/pass_1/p1_b001
-pbcopy < outputs/rq3/evidence/chatgpt_main/upload/pass_1/p1_b001/prompt.md
+cat outputs/rq3/evidence/chatgpt_main/upload/pass_1/p1_b001/prompt.md
 ```
 
+Open the batch folder with a file manager and copy the full prompt text.
 Use the frozen ChatGPT label `GPT-6 Astra Pro` and settings: a fresh temporary
 chat per batch, memory/custom instructions off, tools off. Attach every image
 in that batch folder and paste its complete prompt. Save the unchanged JSON
@@ -1182,7 +1186,7 @@ Once the completed judgments are available in the NSCC bundle, request a CPU all
 
 ```bash
 cd "$HOME/ai6132_group"
-qsub -I -q normal -P personal-rtan134 -l select=1:ncpus=4:mem=16gb -l walltime=02:00:00
+qsub -I -q normal -P "$NSCC_PROJECT" -l select=1:ncpus=4:mem=16gb -l walltime=02:00:00
 ```
 
 Once the allocation opens:
@@ -1227,18 +1231,20 @@ The report explicitly records the manual evaluation policy. Keep original shard
 images available; merged logs reference them. No GPU is needed for judging or
 standard statistical analysis.
 
-### Mac plotting and discussion analysis
+### Local plotting and discussion analysis
 
 The existing analyzer completed on NSCC with exit code 0 at
-`/scratch/users/ntu/rtan134/ai6132/outputs/rq3/nscc/main/merged/analysis_manual.ir9Sqs`.
-The verified Mac analysis archive is `outputs/rq3/evidence/analysis`: 76 inventoried
+`$RQ3_OUTPUT_ROOT/main/merged/analysis_manual.ir9Sqs`.
+The verified local analysis archive is `outputs/rq3/evidence/analysis`: 76 inventoried
 files, all 800 generation records and all 200 scores. The score file matches
 the locally imported main judgments byte for byte. The separate verified
 `outputs/rq3/evidence/chatgpt_main` bundle supplies the source and quality-output
 images. These paths are relative to the repository root. All working evidence
 is kept inside `outputs/rq3/evidence/`, including the completed calibration at
-`outputs/rq3/evidence/calibration/`. The evidence directories are ignored by Git
-so routine source commits stay small; preserve them in a separate durable backup.
+`outputs/rq3/evidence/calibration/`. The completed evidence and analysis outputs
+are included in the branch for collaborator review. Caches, installed dependencies and intermediate transfer
+directories remain ignored. Preserve a separate durable backup of the research
+archive, including the original NSCC artifacts.
 
 | Local artifact | Purpose |
 | --- | --- |
@@ -1249,10 +1255,9 @@ so routine source commits stay small; preserve them in a separate durable backup
 | `outputs/rq3/evidence/chatgpt_main/` | Blinded images, prompts, responses, session records and original private manifest |
 | `outputs/rq3/evidence/calibration/` | Corrected calibration bundle, both rating passes, session records and metadata audit |
 
-Run the additional post-processing on your Mac using the existing CPU environment:
+Run the additional post-processing locally using the CPU analysis environment:
 
 ```bash
-cd /Users/aloysiustan/Development/ai6132_group
 conda activate ai6132
 python -m src.rq3_postprocess \
   --analysis outputs/rq3/evidence/analysis \
@@ -1260,7 +1265,7 @@ python -m src.rq3_postprocess \
   --output-dir outputs/rq3/postprocessing
 ```
 
-For the planned LPIPS comparisons, the completed Mac run uses a separate
+For the planned LPIPS comparisons, the completed local run uses a separate
 repository-local dependency directory with the existing CPU PyTorch 2.7.1.
 The matching torchvision version is 0.22.1. These analysis packages do not
 modify the frozen NSCC environment or generation/evaluation code.
@@ -1287,19 +1292,19 @@ original image resolution. Completed pairs are retained in a validated resume
 log. [LPIPS implementation](https://github.com/richzhang/PerceptualSimilarity),
 [PyTorch version compatibility](https://pytorch.org/get-started/previous-versions/).
 The package installation and weight preparation are one-time steps for this
-Mac environment; subsequent runs use the final post-processing command.
+local environment; subsequent runs use the final post-processing command.
 
 This stage uses the archived NSCC measurements and local images. It needs no
 Step1X checkpoint, CUDA allocation or OpenAI API key. Keep the original records
 and their absolute NSCC paths unchanged; image lookup uses the local judging
 bundle. Optional perceptual metrics may require separate model weights, but
-standard statistics, plots and image comparisons run on the Mac CPU.
+standard statistics, plots and image comparisons run on a local CPU.
 
 Use repeat-zero outputs for quality and the three recorded timing repetitions
 for latency. Do not count timing repetitions as independent examples or judge
 the extra 600 timing outputs. Keep main comparisons on all 40 examples and
 component ablations on the frozen 20-example subset. Report speedups using
-recorded NSCC timings, not the duration of Mac post-processing.
+recorded NSCC timings, not the duration of local post-processing.
 
 ### Completed experiment and analysis findings
 
@@ -1364,7 +1369,7 @@ the instruction requests six visible interfaces. Preserve the original scores
 and report this limitation; these post-hoc assistant observations are not an
 independent human rating study.
 
-The additional Mac analysis creates 13 PNG/PDF quantitative figures, derived
+The additional local analysis creates 13 PNG/PDF quantitative figures, derived
 CSV tables, seven rule-selected qualitative cases, 160 exact-geometry RGB
 comparisons (MAE/RMSE/PSNR/SSIM), and the LPIPS comparisons when enabled.
 Similarity metrics describe deviation from generated baselines, not semantic
@@ -1387,12 +1392,69 @@ the instruction-following scores. Mean RGB SSIM is 0.9543 for D−B, 0.8483 for
 E−D, and 0.9715 for F−D. The LPIPS identical-image check returns 0; SSIM passes
 identity, symmetry, constant-image and independent direct-window checks.
 
+### Completed supplementary human–judge validation
+
+Two reviewers completed **240 main ratings** of the same 120 A–D outputs from
+30 examples (10 per knowledge type). Eight practice ratings were excluded.
+The subset was selected using metadata after the original experiment and
+before human scoring. This is supplementary validation; the original
+40-example judge analysis and 20-example component results above remain
+unchanged. Conditions E/F were not human-rated.
+
+Human–human quadratically weighted $\kappa$ was 0.498 for consistency, 0.901
+for instruction, 0.844 for visual quality and 0.831 for knowledge. Aggregate
+$Q$ ICC(A,1) was 0.899 [0.819, 0.943]. Human–judge agreement was substantially
+lower: Reviewer 1 versus ChatGPT had $\rho=0.042$ and ICC(A,1) = 0.027;
+Reviewer 2 had $\rho=0.133$ and ICC(A,1) = 0.134. This does **not** validate
+the judge as closely agreeing with the human reviewers.
+
+On the same 30 examples, the secondary mean of human scores yields
+$B-A=7.19$ [0.45, 13.72] and $D-B=-1.15$ [−3.02, 0.31]. Reviewer 2's
+individual thinking-effect interval includes zero. Each human's $D-B$ lower
+bound exceeds −5, supporting acceptable average acceleration loss under the
+original margin as a sensitivity analysis. The human mean is not adjudicated
+ground truth, and the subset estimates cannot replace the full 40-example
+results or validate the component ablations.
+
+Intervals use 10,000 bootstrap replicates (seed 42), resampling examples as
+clusters while retaining their four conditions and paired ratings. ICC(A,1)
+uses two-way mixed effects, absolute agreement and single measurements for
+the named fixed rater pair. Inference does not extend to arbitrary reviewers.
+The executable analysis was completed after ratings were available, and a
+method auditor inspected point estimates before code finalization; it was
+not preregistered or implemented without access to outcomes.
+
+Original submissions are preserved. Reviewer 1's metadata typo was corrected
+by the user with both versions retained. Reviewer 2's uppercase boolean flags
+and two encoding-damaged optional notes are documented, nonblocking parsing
+warnings; derived text displays explicit byte escapes without changing
+ratings. No original human or ChatGPT scores were corrected to improve
+agreement.
+
+- [Validation guide and subset](RQ3_human_validation.md)
+- [Completed results and confidence intervals](outputs/rq3/human_validation/analysis/RESULTS.md)
+- [Machine-readable report and provenance](outputs/rq3/human_validation/analysis/report.json)
+- [Human analysis implementation](src/rq3_human/__main__.py)
+- [Aggregate agreement figure](outputs/rq3/human_validation/analysis/figures/agreement_q.pdf)
+- [Dimension agreement figure](outputs/rq3/human_validation/analysis/figures/human_human_kappa.pdf)
+- [Paired condition-effect figure](outputs/rq3/human_validation/analysis/figures/condition_effects.pdf)
+
+Analysis runs on a local CPU with the existing environment. The default
+output directory already contains the completed run; use a fresh directory
+for any reproduction, because the command refuses to overwrite results:
+
+```bash
+conda activate ai6132
+python -m src.rq3_human \
+  --output-dir "outputs/rq3/human_validation/analysis_rerun_$(date +%Y%m%d_%H%M%S)"
+```
+
 ### Preserve the experiment record
 
 Keep unchanged copies of all main shards, pilot outputs, thought caches, raw
 judgments, session logs, score files, protocol manifests and runtime metadata.
 The merged records retain original absolute NSCC paths, so the original NSCC
-analyzer still needs its source shard images. The Mac archive and judging
+analyzer still needs its source shard images. The local archive and judging
 bundle together support the additional local analysis; neither contains the
 complete set of timing-repeat images or all original pilot artifacts.
 

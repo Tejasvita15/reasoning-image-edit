@@ -2,11 +2,11 @@
 
 ## 1. Scope and contribution
 
-RQ3 examines whether regional and temporal acceleration preserve thinking-related gains in **Step1X-Edit-v1p2**, and which acceleration components explain the observed quality–efficiency trade-off. Following the [RQ3 plan](</Users/aloysiustan/Downloads/6132 Group Project Writeup.md>) and §4–6 of [Suggested Positioning](</Users/aloysiustan/Downloads/6132 Suggested Positioning.md>), the principal contribution is a controlled **thinking × acceleration interaction analysis**. The component removals adapt existing RegionE ablations to this reasoning-enabled deployment; they are supporting experiments, not new acceleration algorithms. RQ3 supplies a focused Step1X study alongside the broader Step1X–UniReason comparisons in RQ1–RQ2.
+RQ3 examines whether regional and temporal acceleration preserve thinking-related gains in **Step1X-Edit-v1p2**, and which acceleration components explain the observed quality–efficiency trade-off. Following the RQ3 plan in *6132 Group Project Writeup* and §4–6 of *6132 Suggested Positioning*, the principal contribution is a controlled **thinking × acceleration interaction analysis**. The component removals adapt existing RegionE ablations to this reasoning-enabled deployment; they are supporting experiments, not new acceleration algorithms. RQ3 supplies a focused Step1X study alongside the broader Step1X–UniReason comparisons in RQ1–RQ2. These two planning documents are separate project materials; the completed methods and evidence are linked below.
 
-The completed experiment demonstrates substantial acceleration with limited average loss in the recorded editing scores. It does **not** establish a positive thinking benefit at the tested configuration. Per-example diagnostics further reveal that repeatable judge scores can overlook visible instruction failures. Accordingly, the report can claim average **judged-score retention**, while independent human–judge validation remains necessary to strengthen claims about editing correctness.
+The completed experiment demonstrates substantial acceleration with limited average loss in the recorded editing scores. The original 40-example ChatGPT analysis does **not** establish a positive thinking benefit. Supplementary validation by two humans on 30 matched examples yields more positive thinking estimates, but weak human–judge agreement and reviewer-dependent uncertainty. Both humans support limited average acceleration loss under the original tolerance. Thus, the efficiency result and average score-retention conclusion are more consistent across evaluators than the estimated benefit of thinking; neither score retention nor reviewer agreement establishes complete editing correctness.
 
-The numerical evidence below comes from [RESULTS.md](outputs/rq3/postprocessing/RESULTS.md), the [canonical analysis](outputs/rq3/postprocessing/canonical_report.json), and the completed findings in [RQ3_experiment.md](RQ3_experiment.md#completed-experiment-and-analysis-findings). The supplied planning documents define the intended questions; unfinished validation is identified explicitly below.
+The numerical evidence below comes from [RESULTS.md](outputs/rq3/postprocessing/RESULTS.md), the [canonical analysis](outputs/rq3/postprocessing/canonical_report.json), the [human-validation results](outputs/rq3/human_validation/analysis/RESULTS.md), and the completed findings in [RQ3_experiment.md](RQ3_experiment.md#completed-experiment-and-analysis-findings). The supplied planning documents define the intended questions; original and supplementary analyses are distinguished below.
 
 ## 2. Experimental design and measurement
 
@@ -22,7 +22,7 @@ where $s_{id}\in\{1,\ldots,5\}$ and $\mathcal D_i$ contains applicable instructi
 
 Paired effects are calculated within examples, then averaged. Confidence intervals use 10,000 paired example-bootstrap resamples. Timing estimates average each example's median over three repetitions after warm-up. **Charged total** combines measured replay with the measured cost of one thinking/offload pass for thinking-enabled conditions; it is reconstructed pipeline accounting, excluding model loading, warm-up and artifact writes. Memory reports mean per-example maximum PyTorch allocated VRAM across timing repeats, rather than total device memory.
 
-## 3. RQ3.1: does acceleration preserve thinking-related gains?
+## 3. RQ3.1: original ChatGPT analysis of thinking and acceleration
 
 **Table 1. Main factorial conditions and deployment costs; all rows use the same 40 examples.**
 
@@ -43,7 +43,7 @@ Paired effects are calculated within examples, then averaged. Confidence interva
 | Acceleration effect with thinking, $\Delta Q_1$ | D − B | −0.57 | [−1.56, 0.00] |
 | Acceleration effect without thinking, $\Delta Q_0$ | C − A | +0.47 | [0.00, 1.41] |
 
-**Thinking benefit.** Neither thinking contrast establishes a positive mean effect: both intervals include zero. Thus, the question of preserving an established thinking gain cannot be answered affirmatively under this 28-step configuration. This finding is configuration-specific and cannot establish that thinking is generally ineffective, nor can a gain measured at 50 steps in another RQ substitute for the missing baseline benefit here.
+**Thinking benefit.** Under the original ChatGPT scoring, neither thinking contrast establishes a positive mean effect: both intervals include zero. Thus, these ratings do not establish a positive gain whose preservation can be demonstrated. This finding is configuration- and evaluator-specific; it cannot establish that thinking is generally ineffective. A gain measured at 50 steps in another RQ cannot substitute for the baseline benefit here. Section 5 examines sensitivity to human scoring on matched outputs.
 
 **Interaction versus absolute retention.** The interaction interval has width 2.40 points and lies within the frozen ±5-point tolerance. Acceleration therefore produces a small average change in the measured thinking effect relative to that tolerance. Separately, the lower bound for D − B is −1.56, above the predefined acceptable-loss threshold of −5. The experiment meets its **average score-retention criterion**. This decision uses the lower endpoint of the existing two-sided 95% interval; it does not rely on a nonsignificant test establishing equivalence.
 
@@ -98,19 +98,44 @@ The seven available case panels were selected using disclosed **post-hoc** rules
 
 Calibration produced exact agreement on 20 repeated development-output scores, giving observed MMD = 0; the five-point acceptable-loss margin was fixed before test scoring. However, calibration session metadata was corrected retrospectively under operator attestation without independent transcript verification. Repeatability does not establish correctness, particularly given the counting and movement discrepancies above. The manual UI model lacks a controlled API snapshot and temperature, and the example-bootstrap intervals omit evaluator and generation-seed uncertainty. Three timing repetitions do not constitute a multi-seed robustness study.
 
-**Human–judge validation remains outstanding.** The [review procedure and prepared packets](RQ3_human_validation.md) now provide a [fixed 30-example subset](data/rq3_human_validation_subset.json), selected from metadata after the original analysis and before human scoring. Two independent reviewers should blind-score its A–D outputs (120 per reviewer), using the same applicable rubric dimensions and randomized presentation. Reviewers should not see condition labels, rewrites or judge scores during quality assessment. Report dimension-wise weighted κ for human–human agreement and Spearman ρ plus an explicitly specified absolute-agreement ICC for human–judge comparison, with uncertainty clustered by example. Correlation and agreement address different properties. Preserve the original judge results and report human findings as a separate validation analysis. Source/instruction-only edit-extent annotations and subsequent failure labels would also be supplementary, post-hoc analyses at this stage.
+### Completed human validation
 
-Until that work is completed, the positioning statement should read: **“A Step1X-specific study investigates whether regional and temporal acceleration preserve thinking-related gains. Per-example diagnostics qualify the measured quality–efficiency trade-off and identify limitations requiring independent human–judge validation.”** The current evidence does not support stating that human–judge validation has already confirmed the findings.
+Two reviewers completed **240 ratings** of 120 A–D outputs from a [fixed 30-example subset](data/rq3_human_validation_subset.json), balanced across the three knowledge types. Eight practice ratings were excluded. Selection used metadata after the original analysis and before human scoring. The [review packets](RQ3_human_validation.md) concealed condition labels, rewrites and judge scores and randomized presentation; independence and prior exposure are reviewer-attested. The analysis verifies image identities and compares each human with the existing ChatGPT scores for exactly these outputs. The secondary **human mean** averages the two reviewers' $Q$ values; it is neither an additional independent reviewer nor adjudicated ground truth.
+
+**Table 5. Aggregate-score agreement on 30 examples; 95% example-cluster bootstrap intervals.**
+
+| Rater pair | Spearman $\rho$ [95% CI] | ICC(A,1) [95% CI] | Mean absolute Q difference [95% CI] |
+| --- | --- | --- | --- |
+| Reviewer 1 / Reviewer 2 | 0.898 [0.813, 0.951] | 0.899 [0.819, 0.943] | 7.43 [5.26, 9.69] |
+| Reviewer 1 / ChatGPT | 0.042 [−0.245, 0.318] | 0.027 [−0.186, 0.211] | 23.40 [18.37, 28.84] |
+| Reviewer 2 / ChatGPT | 0.133 [−0.157, 0.397] | 0.134 [−0.074, 0.308] | 24.69 [20.30, 29.48] |
+
+The reviewers agree closely on aggregate $Q$, whereas neither human–judge comparison demonstrates close agreement. Human–human quadratically weighted $\kappa$ is 0.901 [0.790, 0.967] for instruction following, 0.844 [0.733, 0.931] for visual quality and 0.831 [0.671, 0.942] for knowledge; consistency agreement is lower at 0.498 [0.226, 0.719]. Knowledge applies to 64 outputs from 16 examples. Mean ChatGPT-minus-human differences are −2.22 and −4.55 points, with intervals containing zero, despite absolute differences exceeding 23 points. Disagreement therefore cannot be summarized as uniform judge overrating: discrepancies occur in both directions and can cancel in the mean.
+
+**Table 6. Evaluator sensitivity of RQ3.1 on the same 30 examples. Values are paired mean Q differences [95% CI].**
+
+| Contrast | Reviewer 1 | Reviewer 2 | ChatGPT | Human mean (secondary) |
+| --- | --- | --- | --- | --- |
+| $G_0=B-A$ | +8.19 [2.43, 14.03] | +6.18 [−2.22, 14.17] | −1.18 [−6.94, 3.54] | +7.19 [0.45, 13.72] |
+| $G_1=D-C$ | +7.29 [1.39, 13.40] | +6.25 [−2.09, 14.38] | −1.81 [−7.71, 3.06] | +6.77 [−0.03, 13.40] |
+| $I=G_1-G_0$ | −0.90 [−3.89, 2.08] | +0.07 [−1.81, 2.01] | −0.62 [−1.88, 0.00] | −0.42 [−2.67, 1.74] |
+| $\Delta Q_1=D-B$ | −1.46 [−3.96, 0.69] | −0.83 [−2.22, 0.21] | 0.00 [0.00, 0.00] | −1.15 [−3.02, 0.31] |
+
+Both humans estimate positive thinking effects, but Reviewer 2's intervals include zero. The secondary human mean establishes a positive unaccelerated contrast under its interval, while the accelerated contrast remains uncertain. Consequently, the original absence of an established thinking benefit is sensitive to the evaluator. Each human's D − B lower bound remains above −5, and each interaction interval lies within ±5. This supports limited average acceleration loss under human scoring as a **supplementary sensitivity analysis**, without establishing universal preservation of a positive thinking benefit. The subset excludes the two examples with original D/B score losses; its tied ChatGPT D/B scores therefore do not contradict the original 40-example estimate.
+
+All intervals use 10,000 bootstrap resamples of the 30 examples, retaining all conditions and raters within each cluster. ICC(A,1) denotes a two-way mixed-effects, absolute-agreement, single-measurement model for each fixed rater pair. The high-level methods preceded joint analysis, but implementation followed submission and included access to point estimates before finalization; this is not preregistered evidence. The findings concern two named reviewers, one generation seed and A–D only. They do not validate the full 40-example results or E/F component effects. The [analysis plan](reports/rq3_human_analysis_plan.json) and [machine-readable report](outputs/rq3/human_validation/analysis/report.json) retain these decisions and preserve original scores.
+
+The positioning statement can therefore read: **“A Step1X-specific study investigates whether regional and temporal acceleration preserve thinking-related gains. Per-example failure analysis and human–judge validation reveal evaluator-sensitive thinking effects, while supporting limited average acceleration loss under both recorded judge and human scores.”** Human validation supports this qualified interpretation; it does not confirm the judge's scoring validity.
 
 ## 6. Recommended report figures and tables
 
-Use three principal figures and Tables 1 and 3 in the main text. Tables 2 and 4 provide exact effects and supplementary metrics and can move to the appendix if space is limited. Existing assets are linked below; combining panels into the proposed report layouts is a presentation step, not an additional experiment.
+Use four principal figures and Tables 1, 3 and 5 in the main text. Tables 2, 4 and 6 provide exact effects and supplementary metrics and can move to the appendix if space is limited. Human validation is essential to interpreting the thinking result. Existing assets are linked below; combining panels into the proposed report layouts is a presentation step, not an additional experiment.
 
 ### Figure 1 — Interaction and practical trade-off
 
 Combine the [paired-effect forest plot](outputs/rq3/postprocessing/figures/main_effects.pdf) with the [quality–latency plot](outputs/rq3/postprocessing/figures/quality_latency_intervals.pdf). The forest plot answers the interaction and retention questions; the latency panel shows their deployment implications. Retain the zero line, the −5 retention threshold and the ±5 interaction tolerance. Use paired contrasts for inference rather than overlap between marginal condition intervals.
 
-*Proposed caption:* **Thinking × RegionE on 40 matched examples.** Left: paired mean quality effects with 95% example-bootstrap intervals. Right: mean editing score against reconstructed charged-total latency. RegionE accelerates thinking-enabled editing within the predefined average score-loss tolerance, while neither thinking contrast establishes a positive benefit. Results use one generation seed.
+*Proposed caption:* **Thinking × RegionE on 40 matched examples under original ChatGPT scoring.** Left: paired mean quality effects with 95% example-bootstrap intervals. Right: mean editing score against reconstructed charged-total latency. RegionE accelerates thinking-enabled editing within the predefined average score-loss tolerance, while neither thinking contrast establishes a positive benefit under these ratings. Results use one generation seed.
 
 ### Figure 2 — Component contributions to efficiency
 
@@ -124,11 +149,18 @@ Assemble two principal rows from the [fork-count A–D panel](outputs/rq3/postpr
 
 *Proposed caption:* **Post-hoc examples separating interpretation, execution and evaluator limitations.** The fork-count error precedes acceleration. The charger example exhibits additional context disruption without RIKV and a mismatch between high judge scores and the requested edit. Overlays show token selection at step 5, not attention or ground-truth edit masks; difference maps indicate image changes rather than correctness. Cases do not estimate failure prevalence.
 
-Additional appendix material should include [dimension scores](outputs/rq3/postprocessing/figures/score_dimensions.pdf), [memory](outputs/rq3/postprocessing/figures/peak_memory.pdf), and [individual quality changes versus speedup](outputs/rq3/postprocessing/figures/quality_change_vs_speedup.pdf). The [knowledge-type plot](outputs/rq3/postprocessing/figures/knowledge_type_exploratory.pdf) is descriptive only. A human–judge agreement table and scatter plot should be added **only after independent ratings exist**; observed repeatability is not a substitute. All existing figures are browsable in the [local gallery](outputs/rq3/postprocessing/index.html).
+### Figure 4 — Human agreement and sensitivity of the thinking effect
+
+Combine the [aggregate agreement plots](outputs/rq3/human_validation/analysis/figures/agreement_q.pdf) with the [matched condition-effect plot](outputs/rq3/human_validation/analysis/figures/condition_effects.pdf). The former contrasts human–human and human–judge agreement; the latter shows the consequence for RQ3.1 on identical examples. Retain each reviewer separately, label the human mean as secondary, and report exact intervals in Tables 5–6. Place [dimension-wise human agreement](outputs/rq3/human_validation/analysis/figures/human_human_kappa.pdf) in the appendix.
+
+*Proposed caption:* **Supplementary validation on 120 outputs from 30 examples.** Humans agree closely on aggregate quality but weakly with the recorded ChatGPT judge. Human scores yield more positive thinking estimates with reviewer-dependent uncertainty, while average acceleration loss remains within the original five-point tolerance. Intervals resample examples with all conditions and raters retained. The secondary human mean is not an independent rater; the study does not include E/F or all 40 original examples.
+
+Additional appendix material should include [dimension scores](outputs/rq3/postprocessing/figures/score_dimensions.pdf), [memory](outputs/rq3/postprocessing/figures/peak_memory.pdf), and [individual quality changes versus speedup](outputs/rq3/postprocessing/figures/quality_change_vs_speedup.pdf). The [knowledge-type plot](outputs/rq3/postprocessing/figures/knowledge_type_exploratory.pdf) is descriptive only. Figures are browsable in the [original experiment gallery](outputs/rq3/postprocessing/index.html) and [human-validation gallery](outputs/rq3/human_validation/analysis/index.html).
 
 ## 7. Key lessons for the discussion
 
-1. **Interaction and benefit are separate empirical questions.** A small thinking × acceleration interaction can coexist with an unestablished thinking benefit. The four-condition design resolves this distinction without borrowing conclusions from another sampling configuration.
+1. **Interaction and benefit are separate, evaluator-sensitive questions.** A small thinking × acceleration interaction does not establish a positive thinking benefit. Human scores yield more positive thinking estimates than ChatGPT on matched examples, but uncertainty differs between reviewers. The factorial design separates this evaluator dependence from the acceleration effect.
 2. **Useful acceleration is a pipeline and resource trade-off.** The 2.59× generator gain becomes 1.95× under charged-total accounting and requires more allocated GPU memory. Deployment recommendations should report all three quantities.
 3. **Context retention and temporal reuse play different roles.** The component study associates RIKV removal with larger image deviations and uncertain quality loss, while AVD accounts for substantial runtime savings at the available score resolution. These conclusions concern the fixed deployment, not universally optimal component settings.
-4. **Preserving scores or images does not guarantee preserving correctness.** High scores can accompany failed edits, and equal scores can conceal different outputs. Per-example diagnostics and independent human validation are essential to interpreting quality retention as more than evaluator agreement.
+4. **Repeatability is insufficient evidence of evaluator validity.** Exact repeated ChatGPT scores coexist with weak agreement with both humans. Mean bias obscures large output-level discrepancies. Report agreement, absolute errors and representative disagreements alongside aggregate effects; human consensus also remains fallible.
+5. **Average retention is more consistent than the thinking-benefit conclusion.** Both humans and the judge support limited average D/B loss within their respective samples, while disagreeing about the thinking effect. This supports a qualified deployment finding, rather than a claim that RegionE universally preserves reasoning or editing correctness.

@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-10-02T03:06:23.763667+00:00",
+  "status": "verified_ready_for_judging",
+  "transfer_commit": "7bdeb6e770d5eae152d1a805068890923f752ecb",
+  "parts_verified": 6,
+  "zip_sha256": "ed0b55545e71afe33a9d0b34f9c0a4389fafa07a65521f143cb761ae65e1d71b",
+  "zip_bytes": 255141215,
+  "bundle_directory": "/Users/aloysiustan/Downloads/chatgpt_main",
+  "kind": "main",
+  "selected_outputs": 200,
+  "batches": 100,
+  "examples": 40,
+  "conditions": {
+    "A": 40,
+    "B": 40,
+    "C": 40,
+    "D": 40,
+    "E": 20,
+    "F": 20
+  },
+  "generation_protocol_hash": "a2001fe4612dfee6ae489c243b0fb204b1f04ba39f4877bf0f53853fe7f1438c",
+  "evaluation_protocol_hash": "095c775e5aae19c2469c5647e717d9209b14a9887ae43ec7410f50657e6af2e2",
+  "manifest_hash": "a71668393fb6efbf0339e60449d30134a63b0802b7d858835f7ccf877eea2a87",
+  "judge_label": "GPT-6 Astra Pro",
+  "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+  "inventoried_files_verified": 608,
+  "session_entries_initialized": 100
+}

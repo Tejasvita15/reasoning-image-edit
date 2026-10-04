@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b033",
+  "results": [
+    {
+      "blind_id": "case_07d81f5c0d5c1833",
+      "status": "unreadable",
+      "consistency_score": null,
+      "instruction_score": null,
+      "quality_score": null,
+      "knowledge_score": null,
+      "rationale": ""
+    },
+    {
+      "blind_id": "case_b393cd9ebb2e8c7a",
+      "status": "unreadable",
+      "consistency_score": null,
+      "instruction_score": null,
+      "quality_score": null,
+      "knowledge_score": null,
+      "rationale": ""
+    }
+  ]
+}

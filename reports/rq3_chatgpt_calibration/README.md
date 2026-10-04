@@ -17,13 +17,13 @@ recovered ChatGPT URLs. Session independence and settings rely on that correctio
 no transcripts were supplied for independent verification. Timestamps are retained
 as supplied without independently verifying their chronology.
 
-Original Downloads files, all raw responses, scores, images, prompts, assignments
+Original source-bundle files, all raw responses, scores, images, prompts, assignments
 and generation identity remain unchanged. This is a retrospective, explicitly
 audited metadata correction. The corrected full local bundle is at
-`outputs/rq3/manual_calibration/corrected_bundle/`; the Downloads bundle retains
+`outputs/rq3/evidence/calibration/`; the original source bundle retains
 the old metadata and should not be used for the corrected imports.
 
-Files here are small Git-transfer artifacts; no image or model files are included:
+Files here are small calibration audit artifacts; no image or model files are included:
 
 - `repeatability.json`: generated repeatability report for future main export.
 - `judge_first.jsonl`, `judge_second.jsonl`: imported scores with raw responses
@@ -40,6 +40,10 @@ That procedure verifies the original identity, imports both passes again and
 compares the result with this report. Keep the original NSCC bundle until that
 verification succeeds. Do not upload private metadata, scores or these reports
 to a judge chat; they reveal condition assignments.
+
+Documentation was generalized for collaborator use; `SHA256SUMS` reflects only
+those Markdown edits. Scores, response files, manifests and the correction audit
+remain unchanged.
 
 The new generation protocol is
 `a2001fe4612dfee6ae489c243b0fb204b1f04ba39f4877bf0f53853fe7f1438c`.

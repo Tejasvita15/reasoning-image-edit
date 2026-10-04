@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b001",
+  "results": [
+    {
+      "blind_id": "case_88b06c9b2400e054",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The facial appearance, hairstyle, clothing palette, fruit table and background composition are broadly retained. However, multiple non-instructed elements change noticeably: the existing hand on the viewer's right is repositioned from resting on the chair armrest to hanging inward, the armrest's visible shape changes, and the shoes and lower trouser legs shift. These changes are not necessary to remove the extra arm. Instruction: The source has an additional central arm holding a glass. The edit removes that arm and the glass, leaving two anatomically plausible arms and hands, fully achieving the requested body-part correction. Quality: Assessed on the edited image alone, the portrait has coherent anatomy, a plausible crossed-leg pose, consistent lighting and natural clothing and furniture textures. No noticeable duplication, malformed features or other clear artifacts remain; its softness does not obscure the depicted content."
+    },
+    {
+      "blind_id": "case_4059672498de72cd",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The shirt's silhouette, sleeve positions, neckline, hem, chest-logo placement, side tag and white background remain visually consistent. The small inner neck label has slightly altered, softened printed details, constituting one very small non-instructed change. The increased contrast between the dark chest logo and the recolored fabric is not itself an inconsistency. Instruction: The black shirt fabric becomes white throughout the torso, sleeves and collar, while retaining natural pale-gray shading. This precisely fulfills the requested color change. Quality: Assessed on the edited image alone, the shirt has coherent garment construction, natural folds and shading, a legible chest logo and clean boundaries. There are no noticeable distortions, duplicated elements or distracting texture artifacts."
+    }
+  ]
+}

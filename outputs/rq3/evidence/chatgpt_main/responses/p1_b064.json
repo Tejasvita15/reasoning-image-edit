@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b064",
+  "results": [
+    {
+      "blind_id": "case_ba2a219365a32227",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Multiple non-instructed elements change noticeably beyond the target edit. Instruction: The image shows a clear attempt to fulfill \"Correct the unreasonable body part in the image.\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections."
+    },
+    {
+      "blind_id": "case_1f4d4f40bb461e8c",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The image shows a clear attempt to fulfill \"create an industrial-minimalist cushion poster\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections."
+    }
+  ]
+}

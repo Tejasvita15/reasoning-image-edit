@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b012",
+  "results": [
+    {
+      "blind_id": "case_232e2d6f42000521",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The requested edit is accompanied by one noticeable non-target change or broader layout drift. Instruction: The image shows a clear attempt to fulfill \"Place the left cup onto the other cup.\", with the main requested change present but not perfectly exact in every detail. Quality: The image is understandable, but visible artifacts, distortions, or weak text rendering remain."
+    },
+    {
+      "blind_id": "case_0ae515af05b01106",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Multiple non-instructed elements change noticeably beyond the target edit. Instruction: The main idea of \"Adjust the thickness of the thin book to match that of the thick book.\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections."
+    }
+  ]
+}

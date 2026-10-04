@@ -1,0 +1,16 @@
+rater,contrast,n_examples,definition,estimate,ci_low,ci_high,valid_bootstrap_replicates,invalid_bootstrap_replicates
+reviewer_1,G0_B_minus_A,30,"human effect minus judge effect, same 30 examples",9.375,2.222222222222222,17.22222222222222,10000,0
+reviewer_1,G1_D_minus_C,30,"human effect minus judge effect, same 30 examples",9.097222222222223,1.5972222222222223,17.569444444444446,10000,0
+reviewer_1,interaction_D_minus_C_minus_B_plus_A,30,"human effect minus judge effect, same 30 examples",-0.27777777777777785,-3.680555555555556,3.4722222222222223,10000,0
+reviewer_1,thinking_on_acceleration_D_minus_B,30,"human effect minus judge effect, same 30 examples",-1.4583333333333335,-3.9583333333333344,0.6944444444444443,10000,0
+reviewer_1,thinking_off_acceleration_C_minus_A,30,"human effect minus judge effect, same 30 examples",-1.1805555555555558,-3.888888888888889,0.5555555555555552,10000,0
+reviewer_2,G0_B_minus_A,30,"human effect minus judge effect, same 30 examples",7.361111111111112,-1.319444444444444,15.765624999999979,10000,0
+reviewer_2,G1_D_minus_C,30,"human effect minus judge effect, same 30 examples",8.055555555555557,-1.041666666666667,17.15277777777778,10000,0
+reviewer_2,interaction_D_minus_C_minus_B_plus_A,30,"human effect minus judge effect, same 30 examples",0.6944444444444445,-1.666666666666667,3.8906249999999765,10000,0
+reviewer_2,thinking_on_acceleration_D_minus_B,30,"human effect minus judge effect, same 30 examples",-0.8333333333333336,-2.222222222222223,0.20833333333333334,10000,0
+reviewer_2,thinking_off_acceleration_C_minus_A,30,"human effect minus judge effect, same 30 examples",-1.527777777777778,-4.305555555555556,0.0,10000,0
+human_mean,G0_B_minus_A,30,"human effect minus judge effect, same 30 examples",8.368055555555555,0.7291666666666674,16.11111111111111,10000,0
+human_mean,G1_D_minus_C,30,"human effect minus judge effect, same 30 examples",8.57638888888889,0.5555555555555552,16.979166666666668,10000,0
+human_mean,interaction_D_minus_C_minus_B_plus_A,30,"human effect minus judge effect, same 30 examples",0.2083333333333332,-2.5,3.506944444444444,10000,0
+human_mean,thinking_on_acceleration_D_minus_B,30,"human effect minus judge effect, same 30 examples",-1.1458333333333335,-3.020833333333333,0.3125,10000,0
+human_mean,thinking_off_acceleration_C_minus_A,30,"human effect minus judge effect, same 30 examples",-1.354166666666667,-3.9930555555555554,0.13888888888888856,10000,0

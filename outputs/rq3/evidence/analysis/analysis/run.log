@@ -1,0 +1,21 @@
+{"environment_identity": "f5917e30185e34404a9b59d8e2e978b7613f3d1f0036fd9429a2e21472708d98", "prefix": "/scratch/users/ntu/rtan134/ai6132/state/envs/ai6132", "status": "ready"}
+{
+  "outputs": 200,
+  "pass_number": 1,
+  "output": "/scratch/users/ntu/rtan134/ai6132/outputs/rq3/nscc/chatgpt_main/scores.jsonl",
+  "evaluation_protocol_hash": "095c775e5aae19c2469c5647e717d9209b14a9887ae43ec7410f50657e6af2e2",
+  "selection_hash": "4b5a808d2b9cf5b003eecdcd2b44a2798764a75e3a9ed8663047737ae00ac8dc"
+}
+{
+  "report": "/scratch/users/ntu/rtan134/ai6132/outputs/rq3/nscc/main/merged/analysis_manual.ir9Sqs/report.json",
+  "retention": {
+    "equivalence_margin": 5.0,
+    "minimum_meaningful_difference": 0.0,
+    "quality_retained_one_sided_rule": true,
+    "interaction_within_equivalence_margin": true,
+    "unaccelerated_thinking_benefit_established_above_MMD": false,
+    "note": "Nonsignificance is not equivalence. Do not import an RQ1 thinking benefit."
+  }
+}
+Analysis complete: /scratch/users/ntu/rtan134/ai6132/outputs/rq3/nscc/main/merged/analysis_manual.ir9Sqs
+Analysis exit code: 0

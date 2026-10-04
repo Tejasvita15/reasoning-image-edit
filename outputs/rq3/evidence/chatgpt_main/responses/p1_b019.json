@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b019",
+  "results": [
+    {
+      "blind_id": "case_04efe5c1e6ab6ff6",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Multiple non-instructed elements change noticeably beyond the target edit. Instruction: The main idea of \"Based on the given image, draw the front view of the object.\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: The image is understandable, but visible artifacts, distortions, or weak text rendering remain."
+    },
+    {
+      "blind_id": "case_a5f5720c007a1a35",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Most non-instructed elements are preserved, with only minor incidental differences. Instruction: The main idea of \"Change this number to green.\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections."
+    }
+  ]
+}

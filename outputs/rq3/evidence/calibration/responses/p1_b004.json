@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b004",
+  "results": [
+    {
+      "blind_id": "case_94d7d46bd1702515",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Although the broad seated-portrait composition remains, most major non-instructed details are substantially changed: the facial features, waistcoat and shirt, crossed legs and shoes, fruit arrangement, chair structure and background ornamentation. Instruction: The extra central glass-holding arm is removed, addressing the original surplus limb. However, the remaining arm on the viewer's left terminates in an unresolved skin-and-fabric area rather than a clearly natural hand/forearm arrangement, so the body-part correction is incomplete. Quality: The edited image has multiple distracting structural defects: the left wrist merges into a large fabric mass, the lap and knee contain disconnected-looking panels, the lower shoe is block-like, and furniture and floor details are smeared. These go beyond harmless softness."
+    },
+    {
+      "blind_id": "case_fc4e08ea60094eeb",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The grid borders, all eight completed dot panels, their positions and colors, and the background remain visually unchanged. Instruction: The bottom-right cell still contains the question mark; no answer pattern has been drawn. The requested edit is not performed. Knowledge: There is no output dot arrangement implementing the supplied same-color/black and different-color/white rule. Instruction failure ⇒ knowledge invalid. Quality: Assessed as a standalone puzzle graphic, the circles and grid are structurally coherent, the question mark is legible, and the black-and-white rendering is clean. Leaving the question unanswered is an instruction failure, not a rendering defect."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p2_b005",
+  "results": [
+    {
+      "blind_id": "case_0727dedf6358dfb6",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The shirt silhouette, sleeves, collar, hem, chest-logo position, side tab and surrounding background are retained. The small inner neck label has slightly softened or altered printed detail, representing a very small non-instructed change. Greater visibility of the dark chest logo against white fabric is not itself penalized. Instruction: The previously black garment is white across the body, sleeves and collar, while retaining natural gray shading, precisely satisfying the color change. Quality: The edited shirt has a coherent construction, natural folds, clean contours and a legible chest mark, with no noticeable distortions or distracting rendering artifacts."
+    },
+    {
+      "blind_id": "case_c079fc06c10098cf",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The branch, leaf layout, background bokeh and lighting are visually preserved. The modifications remain on the leaf surfaces, within the area intended for damage. Instruction: Irregular brown blemishes are added throughout the foliage, indicating damage. However, the blades remain largely continuous and the markings read predominantly as surface spots rather than eaten-through holes, so the requested pest aftermath is only partially conveyed. Knowledge: The supplied explanation expects holes caused by insects consuming leaf tissue. Brown discoloration without convincing new perforations is a noticeable mismatch with that outcome. Quality: Assessed alone, the leaves, veins, textures and depth of field are natural and structurally coherent, without noticeable image artifacts."
+    }
+  ]
+}

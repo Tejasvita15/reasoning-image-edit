@@ -1,0 +1,17 @@
+pair,first,second,dimension,metric,n_outputs,n_examples,estimate,ci_low,ci_high,valid_bootstrap_replicates,invalid_bootstrap_replicates
+reviewer_1_vs_reviewer_2,reviewer_1,reviewer_2,Q,spearman_rho,120,30,0.8982546534337927,0.8126093751003735,0.9506241093818395,10000,0
+reviewer_1_vs_reviewer_2,reviewer_1,reviewer_2,Q,icc_a1,120,30,0.8992489023814996,0.818769718264546,0.9431893499208008,10000,0
+reviewer_1_vs_reviewer_2,reviewer_1,reviewer_2,Q,mean_difference,120,30,2.3263888888888897,-0.8680555555555554,5.364583333333333,10000,0
+reviewer_1_vs_reviewer_2,reviewer_1,reviewer_2,Q,mean_absolute_difference,120,30,7.430555555555556,5.260416666666667,9.6875,10000,0
+reviewer_1_vs_reviewer_2,reviewer_1,reviewer_2,consistency_score,quadratic_kappa,120,30,0.497575022734162,0.22643472499250414,0.7187631644616382,10000,0
+reviewer_1_vs_reviewer_2,reviewer_1,reviewer_2,instruction_score,quadratic_kappa,120,30,0.901239001616089,0.7896870922989327,0.9667788624131751,10000,0
+reviewer_1_vs_reviewer_2,reviewer_1,reviewer_2,quality_score,quadratic_kappa,120,30,0.8443775100401607,0.7326503376605095,0.9309358125971383,10000,0
+reviewer_1_vs_reviewer_2,reviewer_1,reviewer_2,knowledge_score,quadratic_kappa,64,16,0.8312886545675757,0.6705734722996005,0.942270809544478,10000,0
+reviewer_1_vs_chatgpt,reviewer_1,chatgpt,Q,spearman_rho,120,30,0.04150710792852965,-0.24496880784020636,0.3179648809727994,10000,0
+reviewer_1_vs_chatgpt,reviewer_1,chatgpt,Q,icc_a1,120,30,0.027082651494171897,-0.18580780302493216,0.2110078253597765,10000,0
+reviewer_1_vs_chatgpt,reviewer_1,chatgpt,Q,mean_difference,120,30,-2.2222222222222214,-11.840277777777777,6.961805555555555,10000,0
+reviewer_1_vs_chatgpt,reviewer_1,chatgpt,Q,mean_absolute_difference,120,30,23.402777777777775,18.36762152777778,28.836805555555557,10000,0
+reviewer_2_vs_chatgpt,reviewer_2,chatgpt,Q,spearman_rho,120,30,0.13339994662481444,-0.15693093838177394,0.3966143064310505,10000,0
+reviewer_2_vs_chatgpt,reviewer_2,chatgpt,Q,icc_a1,120,30,0.13367353517678626,-0.07420691220720806,0.30805048043183936,10000,0
+reviewer_2_vs_chatgpt,reviewer_2,chatgpt,Q,mean_difference,120,30,-4.548611111111112,-13.923611111111112,4.722656249999995,10000,0
+reviewer_2_vs_chatgpt,reviewer_2,chatgpt,Q,mean_absolute_difference,120,30,24.6875,20.295138888888893,29.479600694444443,10000,0

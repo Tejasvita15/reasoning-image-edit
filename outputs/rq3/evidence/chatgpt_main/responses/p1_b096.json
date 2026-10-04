@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b096",
+  "results": [
+    {
+      "blind_id": "case_c8c5b63109706423",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 4,
+      "rationale": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The image shows a clear attempt to fulfill \"Rearrange this 15-puzzle to its completed form.\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections."
+    },
+    {
+      "blind_id": "case_05adc91f5e3e3dbe",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Multiple non-instructed elements change noticeably beyond the target edit. Instruction: The main idea of \"Adjust the thickness of the thin book to match that of the thick book.\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections."
+    }
+  ]
+}

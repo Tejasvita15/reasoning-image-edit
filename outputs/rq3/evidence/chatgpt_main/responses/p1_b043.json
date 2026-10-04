@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b043",
+  "results": [
+    {
+      "blind_id": "case_e26a256cf7f57824",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The requested edit is accompanied by one noticeable non-target change or broader layout drift. Instruction: The main idea of \"Match each item on the left with the animal on the right based on its production origin.\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections."
+    },
+    {
+      "blind_id": "case_12c112b5c59e9902",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The requested edit is accompanied by one noticeable non-target change or broader layout drift. Instruction: The image shows a clear attempt to fulfill \"Place the left cup onto the other cup.\", with the main requested change present but not perfectly exact in every detail. Quality: The image is understandable, but visible artifacts, distortions, or weak text rendering remain."
+    }
+  ]
+}

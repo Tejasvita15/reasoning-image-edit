@@ -1,0 +1,31 @@
+{
+  "accelerate": "1.10.1",
+  "attention_backend": "pytorch_sdpa",
+  "compute_capability": [
+    8,
+    0
+  ],
+  "cublas_workspace_config": ":4096:8",
+  "cuda": "12.1",
+  "cudnn": 90100,
+  "deterministic_algorithms": true,
+  "device_name": "NVIDIA A100-SXM4-40GB",
+  "diffusers": "0.37.0.dev0",
+  "driver": "570.124.06",
+  "mkl_num_threads": "4",
+  "offload_mode": "model",
+  "omp_num_threads": "4",
+  "platform": "Linux-4.18.0-553.125.1.el8_10.x86_64-x86_64-with-glibc2.28",
+  "python": "3.10.21",
+  "regione": "0.1.0",
+  "sdpa_flash_enabled": true,
+  "sdpa_math_enabled": true,
+  "sdpa_memory_efficient_enabled": true,
+  "thinking_top_p_backend": "transformers_cpu",
+  "torch": "2.5.1+cu121",
+  "torch_num_interop_threads": 128,
+  "torch_num_threads": 4,
+  "total_vram_bytes": 42406903808,
+  "transformers": "4.55.4",
+  "triton": "3.1.0"
+}

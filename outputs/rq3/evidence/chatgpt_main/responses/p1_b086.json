@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b086",
+  "results": [
+    {
+      "blind_id": "case_4b0eae6fd2dfb3b1",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The image shows a clear attempt to fulfill \"create a wine bottle poster\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections."
+    },
+    {
+      "blind_id": "case_a8cbe70144d7deae",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Most non-instructed elements are preserved, with only minor incidental differences. Instruction: The result shows limited evidence of \"Please draw the correct shape in the '?' box located at the top left corner according t...\", with major aspects missing or unclear. Quality: Overall structure is coherent, with only minor visual imperfections."
+    }
+  ]
+}

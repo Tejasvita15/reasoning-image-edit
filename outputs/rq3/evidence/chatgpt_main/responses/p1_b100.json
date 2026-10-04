@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b100",
+  "results": [
+    {
+      "blind_id": "case_737f95c31b1e6600",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The requested edit is accompanied by one noticeable non-target change or broader layout drift. Instruction: The main idea of \"Color the surrounding hands correctly according to the frog's left and right hand colors.\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections."
+    },
+    {
+      "blind_id": "case_06ea1c97bf5a7cf7",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 4,
+      "rationale": "Consistency: Non-instructed elements are essentially unchanged. Instruction: The edit cleanly fulfills \"Attach the classic emblem of the Red Cross to the cup\". Quality: Overall structure is coherent, with only minor visual imperfections."
+    }
+  ]
+}

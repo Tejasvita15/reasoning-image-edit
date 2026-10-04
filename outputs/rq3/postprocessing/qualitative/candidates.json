@@ -1,0 +1,451 @@
+[
+  {
+    "role": "typical",
+    "status": "selected",
+    "example_uid": "rule-based_reasoning__52",
+    "selection_rule": "Closest to median D-B, then closest to median charged speedup B/D",
+    "eligible_count": 40,
+    "selected_rank": 1,
+    "diversity_policy": "Select first unused UID in ranked pool; reuse rank 1 only if all eligible UIDs already used; UID breaks remaining ties",
+    "rank_1_uid": "rule-based_reasoning__52",
+    "posthoc_diagnostic_selection": true,
+    "category": "rule-based_reasoning",
+    "knowledge_type": "procedural",
+    "instruction": "Move two matchsticks to make the equation in the image valid.",
+    "saved_thought": {
+      "base_seed": 42,
+      "example_uid": "rule-based_reasoning__52",
+      "instruction": "Move two matchsticks to make the equation in the image valid.",
+      "offload_seconds": 3.347122128121555,
+      "peak_vram_bytes": 16919639040,
+      "protocol_hash": "a2001fe4612dfee6ae489c243b0fb204b1f04ba39f4877bf0f53853fe7f1438c",
+      "raw_text": "Move the two matchsticks from the first square to the second square to form the number 12. Then, move one matchstick from the second square to the third square to form the number 2. Finally, move one matchstick from the third square to the fourth square to form the number 2.",
+      "rewrite": "Move the two matchsticks from the first square to the second square to form the number 12. Then, move one matchstick from the second square to the third square to form the number 2. Finally, move one matchstick from the third square to the fourth square to form the number 2.",
+      "seconds": 3.0716569521464407,
+      "seed": 1308515853,
+      "source_sha256": "dd3d4c6ff66330047cd1f2abd8d07726d624899a61d07186355efe5e19b988a6",
+      "token_count": 64,
+      "token_count_includes_eos": true,
+      "top_p_backend": "transformers_cpu"
+    },
+    "Q": {
+      "A": 43.75,
+      "B": 43.75,
+      "C": 43.75,
+      "D": 43.75,
+      "E": 43.75,
+      "F": 43.75
+    },
+    "differences": {
+      "B-A": 0.0,
+      "D-B": 0.0,
+      "E-D": 0.0,
+      "F-D": 0.0
+    },
+    "charged_speedup_B_over_D": 1.995050417928968,
+    "charged_median_seconds": {
+      "A": 64.24821937107481,
+      "B": 70.75008002389222,
+      "C": 29.368537780828774,
+      "D": 35.4628030390013,
+      "E": 34.20861106691882,
+      "F": 43.7605697598774
+    },
+    "judge_rationales_original": {
+      "A": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The main idea of \"Move two matchsticks to make the equation in the image valid.\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections.",
+      "B": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The main idea of \"Move two matchsticks to make the equation in the image valid.\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections.",
+      "C": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The main idea of \"Move two matchsticks to make the equation in the image valid.\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections.",
+      "D": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The main idea of \"Move two matchsticks to make the equation in the image valid.\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections.",
+      "E": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The main idea of \"Move two matchsticks to make the equation in the image valid.\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections.",
+      "F": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The main idea of \"Move two matchsticks to make the equation in the image valid.\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections."
+    },
+    "visual_interpretation": "Selection and captions use saved scores and metadata; no new visual judgement is asserted by this script.",
+    "figures": {
+      "ABCD": "typical__rule-based_reasoning__52__ABCD.png",
+      "BDEF": "typical__rule-based_reasoning__52__BDEF.png",
+      "selected_regions": "typical__rule-based_reasoning__52__selected_regions.png",
+      "differences": "typical__rule-based_reasoning__52__differences.png"
+    }
+  },
+  {
+    "role": "fast_with_small_score_change",
+    "status": "selected",
+    "example_uid": "medicine__24",
+    "selection_rule": "Highest charged speedup B/D among examples with |D-B| <= 5",
+    "eligible_count": 38,
+    "selected_rank": 1,
+    "diversity_policy": "Select first unused UID in ranked pool; reuse rank 1 only if all eligible UIDs already used; UID breaks remaining ties",
+    "rank_1_uid": "medicine__24",
+    "posthoc_diagnostic_selection": true,
+    "category": "medicine",
+    "knowledge_type": "conceptual",
+    "instruction": "Remove kidney stones from the CT image",
+    "saved_thought": {
+      "base_seed": 42,
+      "example_uid": "medicine__24",
+      "instruction": "Remove kidney stones from the CT image",
+      "offload_seconds": 3.7445510199759156,
+      "peak_vram_bytes": 16915045888,
+      "protocol_hash": "a2001fe4612dfee6ae489c243b0fb204b1f04ba39f4877bf0f53853fe7f1438c",
+      "raw_text": "Remove the kidney stones.",
+      "rewrite": "Remove the kidney stones.",
+      "seconds": 0.4827193490928039,
+      "seed": 843784880,
+      "source_sha256": "74bbb84ed3408aa2f41a966e01a82441dcd6d3a19a80c252cb84f5ac7d5e7488",
+      "token_count": 6,
+      "token_count_includes_eos": true,
+      "top_p_backend": "transformers_cpu"
+    },
+    "Q": {
+      "A": 43.75,
+      "B": 43.75,
+      "C": 62.5,
+      "D": 43.75,
+      "E": 43.75,
+      "F": 43.75
+    },
+    "differences": {
+      "B-A": 0.0,
+      "D-B": 0.0,
+      "E-D": 0.0,
+      "F-D": 0.0
+    },
+    "charged_speedup_B_over_D": 2.116707185637774,
+    "charged_median_seconds": {
+      "A": 65.26968112587929,
+      "B": 69.0501013500616,
+      "C": 29.06669109221548,
+      "D": 32.621470659039915,
+      "E": 31.71823913929984,
+      "F": 38.76179170701653
+    },
+    "judge_rationales_original": {
+      "A": "Consistency: Most non-instructed elements are preserved, with only minor incidental differences. Instruction: The result shows limited evidence of \"Remove kidney stones from the CT image\", with major aspects missing or unclear. Quality: Overall structure is coherent, with only minor visual imperfections.",
+      "B": "Consistency: Most non-instructed elements are preserved, with only minor incidental differences. Instruction: The result shows limited evidence of \"Remove kidney stones from the CT image\", with major aspects missing or unclear. Quality: Overall structure is coherent, with only minor visual imperfections.",
+      "C": "Consistency: Most non-instructed elements are preserved, with only minor incidental differences. Instruction: The main idea of \"Remove kidney stones from the CT image\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections.",
+      "D": "Consistency: Most non-instructed elements are preserved, with only minor incidental differences. Instruction: The result shows limited evidence of \"Remove kidney stones from the CT image\", with major aspects missing or unclear. Quality: Overall structure is coherent, with only minor visual imperfections.",
+      "E": "Consistency: Most non-instructed elements are preserved, with only minor incidental differences. Instruction: The result shows limited evidence of \"Remove kidney stones from the CT image\", with major aspects missing or unclear. Quality: Overall structure is coherent, with only minor visual imperfections.",
+      "F": "Consistency: Most non-instructed elements are preserved, with only minor incidental differences. Instruction: The result shows limited evidence of \"Remove kidney stones from the CT image\", with major aspects missing or unclear. Quality: Overall structure is coherent, with only minor visual imperfections."
+    },
+    "visual_interpretation": "Selection and captions use saved scores and metadata; no new visual judgement is asserted by this script.",
+    "figures": {
+      "ABCD": "fast_with_small_score_change__medicine__24__ABCD.png",
+      "BDEF": "fast_with_small_score_change__medicine__24__BDEF.png",
+      "selected_regions": "fast_with_small_score_change__medicine__24__selected_regions.png",
+      "differences": "fast_with_small_score_change__medicine__24__differences.png"
+    }
+  },
+  {
+    "role": "lowest_acceleration_effect",
+    "status": "selected",
+    "example_uid": "position_movement__30",
+    "selection_rule": "Lowest D-B quality difference",
+    "eligible_count": 40,
+    "selected_rank": 1,
+    "diversity_policy": "Select first unused UID in ranked pool; reuse rank 1 only if all eligible UIDs already used; UID breaks remaining ties",
+    "rank_1_uid": "position_movement__30",
+    "posthoc_diagnostic_selection": true,
+    "category": "position_movement",
+    "knowledge_type": "factual",
+    "instruction": "Place the left cup onto the other cup.",
+    "saved_thought": {
+      "base_seed": 42,
+      "example_uid": "position_movement__30",
+      "instruction": "Place the left cup onto the other cup.",
+      "offload_seconds": 3.253479934297502,
+      "peak_vram_bytes": 16915677696,
+      "protocol_hash": "a2001fe4612dfee6ae489c243b0fb204b1f04ba39f4877bf0f53853fe7f1438c",
+      "raw_text": "Place the left cup on top of the right cup. ",
+      "rewrite": "Place the left cup on top of the right cup.",
+      "seconds": 0.6756790867075324,
+      "seed": 538704042,
+      "source_sha256": "abea3f19be951163d53685f1325d6a672f82eea0f43cf0c1135f3dec5f88a64c",
+      "token_count": 13,
+      "token_count_includes_eos": true,
+      "top_p_backend": "transformers_cpu"
+    },
+    "Q": {
+      "A": 58.333333333333336,
+      "B": 58.333333333333336,
+      "C": 58.333333333333336,
+      "D": 41.666666666666664
+    },
+    "differences": {
+      "B-A": 0.0,
+      "D-B": -16.66666666666667
+    },
+    "charged_speedup_B_over_D": 1.9077732256949769,
+    "charged_median_seconds": {
+      "A": 70.08511917409487,
+      "B": 73.6293125001248,
+      "C": 33.237006979994476,
+      "D": 38.59437353897374
+    },
+    "judge_rationales_original": {
+      "A": "Consistency: The requested edit is accompanied by one noticeable non-target change or broader layout drift. Instruction: The image shows a clear attempt to fulfill \"Place the left cup onto the other cup.\", with the main requested change present but not perfectly exact in every detail. Quality: The image is understandable, but visible artifacts, distortions, or weak text rendering remain.",
+      "B": "Consistency: The requested edit is accompanied by one noticeable non-target change or broader layout drift. Instruction: The image shows a clear attempt to fulfill \"Place the left cup onto the other cup.\", with the main requested change present but not perfectly exact in every detail. Quality: The image is understandable, but visible artifacts, distortions, or weak text rendering remain.",
+      "C": "Consistency: The requested edit is accompanied by one noticeable non-target change or broader layout drift. Instruction: The image shows a clear attempt to fulfill \"Place the left cup onto the other cup.\", with the main requested change present but not perfectly exact in every detail. Quality: The image is understandable, but visible artifacts, distortions, or weak text rendering remain.",
+      "D": "Consistency: Multiple non-instructed elements change noticeably beyond the target edit. Instruction: The main idea of \"Place the left cup onto the other cup.\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: The image is understandable, but visible artifacts, distortions, or weak text rendering remain."
+    },
+    "visual_interpretation": "Selection and captions use saved scores and metadata; no new visual judgement is asserted by this script.",
+    "figures": {
+      "ABCD": "lowest_acceleration_effect__position_movement__30__ABCD.png",
+      "selected_regions": "lowest_acceleration_effect__position_movement__30__selected_regions.png",
+      "differences": "lowest_acceleration_effect__position_movement__30__differences.png"
+    }
+  },
+  {
+    "role": "lowest_thinking_effect",
+    "status": "selected",
+    "example_uid": "count_change__48",
+    "selection_rule": "Lowest B-A quality difference",
+    "eligible_count": 40,
+    "selected_rank": 1,
+    "diversity_policy": "Select first unused UID in ranked pool; reuse rank 1 only if all eligible UIDs already used; UID breaks remaining ties",
+    "rank_1_uid": "count_change__48",
+    "posthoc_diagnostic_selection": true,
+    "category": "count_change",
+    "knowledge_type": "factual",
+    "instruction": "Change to six forks",
+    "saved_thought": {
+      "base_seed": 42,
+      "example_uid": "count_change__48",
+      "instruction": "Change to six forks",
+      "offload_seconds": 4.1200670399703085,
+      "peak_vram_bytes": 16971298816,
+      "protocol_hash": "a2001fe4612dfee6ae489c243b0fb204b1f04ba39f4877bf0f53853fe7f1438c",
+      "raw_text": "Remove four forks from the image.",
+      "rewrite": "Remove four forks from the image.",
+      "seconds": 0.6972428720910102,
+      "seed": 196007295,
+      "source_sha256": "3543d297d4a193cf13df3dc3dce55daa1078bc21de86b9d2a8f273bf8f02c289",
+      "token_count": 8,
+      "token_count_includes_eos": true,
+      "top_p_backend": "transformers_cpu"
+    },
+    "Q": {
+      "A": 50.0,
+      "B": 0.0,
+      "C": 50.0,
+      "D": 0.0
+    },
+    "differences": {
+      "B-A": -50.0,
+      "D-B": 0.0
+    },
+    "charged_speedup_B_over_D": 2.016775292383582,
+    "charged_median_seconds": {
+      "A": 64.18274158798158,
+      "B": 68.08696491317824,
+      "C": 29.583771941252053,
+      "D": 33.76031289668754
+    },
+    "judge_rationales_original": {
+      "A": "Consistency: Multiple non-instructed elements change noticeably beyond the target edit. Instruction: The main idea of \"Change to six forks\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections.",
+      "B": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The requested change \"Change to six forks\" is not successfully realized. Quality: The output is severely degraded, near-empty, or otherwise visually broken.",
+      "C": "Consistency: Multiple non-instructed elements change noticeably beyond the target edit. Instruction: The main idea of \"Change to six forks\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections.",
+      "D": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The requested change \"Change to six forks\" is not successfully realized. Quality: The output is severely degraded, near-empty, or otherwise visually broken."
+    },
+    "visual_interpretation": "Selection and captions use saved scores and metadata; no new visual judgement is asserted by this script.",
+    "figures": {
+      "ABCD": "lowest_thinking_effect__count_change__48__ABCD.png",
+      "selected_regions": "lowest_thinking_effect__count_change__48__selected_regions.png",
+      "differences": "lowest_thinking_effect__count_change__48__differences.png"
+    }
+  },
+  {
+    "role": "highest_thinking_effect",
+    "status": "selected",
+    "example_uid": "mathematics__6",
+    "selection_rule": "Highest B-A quality difference",
+    "eligible_count": 40,
+    "selected_rank": 1,
+    "diversity_policy": "Select first unused UID in ranked pool; reuse rank 1 only if all eligible UIDs already used; UID breaks remaining ties",
+    "rank_1_uid": "mathematics__6",
+    "posthoc_diagnostic_selection": true,
+    "category": "mathematics",
+    "knowledge_type": "conceptual",
+    "instruction": "Align the centers of the two circles",
+    "saved_thought": {
+      "base_seed": 42,
+      "example_uid": "mathematics__6",
+      "instruction": "Align the centers of the two circles",
+      "offload_seconds": 3.241366181988269,
+      "peak_vram_bytes": 16922277888,
+      "protocol_hash": "a2001fe4612dfee6ae489c243b0fb204b1f04ba39f4877bf0f53853fe7f1438c",
+      "raw_text": "Move the green circle so that its center aligns with the center of the light blue circle. ",
+      "rewrite": "Move the green circle so that its center aligns with the center of the light blue circle.",
+      "seconds": 1.0209646238945425,
+      "seed": 623057536,
+      "source_sha256": "2e055ccd6cb4541e224e2ed7f0bbc203f5aa4f727c6413ed324c8070e55fc5cc",
+      "token_count": 21,
+      "token_count_includes_eos": true,
+      "top_p_backend": "transformers_cpu"
+    },
+    "Q": {
+      "A": 50.0,
+      "B": 75.0,
+      "C": 50.0,
+      "D": 75.0
+    },
+    "differences": {
+      "B-A": 25.0,
+      "D-B": 0.0
+    },
+    "charged_speedup_B_over_D": 2.0663213930254902,
+    "charged_median_seconds": {
+      "A": 65.81156764400657,
+      "B": 70.195122014964,
+      "C": 29.275661865947768,
+      "D": 33.971057093003765
+    },
+    "judge_rationales_original": {
+      "A": "Consistency: Multiple non-instructed elements change noticeably beyond the target edit. Instruction: The main idea of \"Align the centers of the two circles\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections.",
+      "B": "Consistency: Most non-instructed elements are preserved, with only minor incidental differences. Instruction: The image shows a clear attempt to fulfill \"Align the centers of the two circles\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections.",
+      "C": "Consistency: Multiple non-instructed elements change noticeably beyond the target edit. Instruction: The main idea of \"Align the centers of the two circles\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections.",
+      "D": "Consistency: Most non-instructed elements are preserved, with only minor incidental differences. Instruction: The image shows a clear attempt to fulfill \"Align the centers of the two circles\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections."
+    },
+    "visual_interpretation": "Selection and captions use saved scores and metadata; no new visual judgement is asserted by this script.",
+    "figures": {
+      "ABCD": "highest_thinking_effect__mathematics__6__ABCD.png",
+      "selected_regions": "highest_thinking_effect__mathematics__6__selected_regions.png",
+      "differences": "highest_thinking_effect__mathematics__6__differences.png"
+    }
+  },
+  {
+    "role": "lowest_no_rikv_effect",
+    "status": "selected",
+    "example_uid": "count_change__47",
+    "selection_rule": "Lowest E-D quality difference on the fixed 20-example subset",
+    "eligible_count": 20,
+    "selected_rank": 1,
+    "diversity_policy": "Select first unused UID in ranked pool; reuse rank 1 only if all eligible UIDs already used; UID breaks remaining ties",
+    "rank_1_uid": "count_change__47",
+    "posthoc_diagnostic_selection": true,
+    "category": "count_change",
+    "knowledge_type": "factual",
+    "instruction": "Change to six interfaces",
+    "saved_thought": {
+      "base_seed": 42,
+      "example_uid": "count_change__47",
+      "instruction": "Change to six interfaces",
+      "offload_seconds": 3.26049082307145,
+      "peak_vram_bytes": 17001664512,
+      "protocol_hash": "a2001fe4612dfee6ae489c243b0fb204b1f04ba39f4877bf0f53853fe7f1438c",
+      "raw_text": "Remove two USB ports from the charger.",
+      "rewrite": "Remove two USB ports from the charger.",
+      "seconds": 0.9130010427907109,
+      "seed": 633999984,
+      "source_sha256": "1f3e7a0a0272ceed9edccf0ce9010d00bead591f1385c34b7c85571c103ccce0",
+      "token_count": 9,
+      "token_count_includes_eos": true,
+      "top_p_backend": "transformers_cpu"
+    },
+    "Q": {
+      "A": 66.66666666666667,
+      "B": 83.33333333333333,
+      "C": 66.66666666666667,
+      "D": 83.33333333333333,
+      "E": 50.0,
+      "F": 83.33333333333333
+    },
+    "differences": {
+      "B-A": 16.666666666666657,
+      "D-B": 0.0,
+      "E-D": -33.33333333333333,
+      "F-D": 0.0
+    },
+    "charged_speedup_B_over_D": 1.9379794466633373,
+    "charged_median_seconds": {
+      "A": 66.82472087908536,
+      "B": 71.04205443686806,
+      "C": 31.57267128303647,
+      "D": 36.65779560210649,
+      "E": 35.39667545398697,
+      "F": 54.75475981098134
+    },
+    "judge_rationales_original": {
+      "A": "Consistency: The requested edit is accompanied by one noticeable non-target change or broader layout drift. Instruction: The image shows a clear attempt to fulfill \"Change to six interfaces\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections.",
+      "B": "Consistency: Most non-instructed elements are preserved, with only minor incidental differences. Instruction: The edit cleanly fulfills \"Change to six interfaces\". Quality: Overall structure is coherent, with only minor visual imperfections.",
+      "C": "Consistency: The requested edit is accompanied by one noticeable non-target change or broader layout drift. Instruction: The image shows a clear attempt to fulfill \"Change to six interfaces\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections.",
+      "D": "Consistency: Most non-instructed elements are preserved, with only minor incidental differences. Instruction: The edit cleanly fulfills \"Change to six interfaces\". Quality: Overall structure is coherent, with only minor visual imperfections.",
+      "E": "Consistency: Multiple non-instructed elements change noticeably beyond the target edit. Instruction: The main idea of \"Change to six interfaces\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections.",
+      "F": "Consistency: Most non-instructed elements are preserved, with only minor incidental differences. Instruction: The edit cleanly fulfills \"Change to six interfaces\". Quality: Overall structure is coherent, with only minor visual imperfections."
+    },
+    "visual_interpretation": "Selection and captions use saved scores and metadata; no new visual judgement is asserted by this script.",
+    "figures": {
+      "ABCD": "lowest_no_rikv_effect__count_change__47__ABCD.png",
+      "BDEF": "lowest_no_rikv_effect__count_change__47__BDEF.png",
+      "selected_regions": "lowest_no_rikv_effect__count_change__47__selected_regions.png",
+      "differences": "lowest_no_rikv_effect__count_change__47__differences.png"
+    }
+  },
+  {
+    "role": "no_avd_pixel_variation",
+    "status": "selected",
+    "example_uid": "multi-instruction_execution__56",
+    "selection_rule": "Largest F-vs-D RGB MAE on the fixed subset; descriptive image variation, not inferred quality loss",
+    "eligible_count": 20,
+    "selected_rank": 1,
+    "diversity_policy": "Select first unused UID in ranked pool; reuse rank 1 only if all eligible UIDs already used; UID breaks remaining ties",
+    "rank_1_uid": "multi-instruction_execution__56",
+    "posthoc_diagnostic_selection": true,
+    "category": "multi-instruction_execution",
+    "knowledge_type": "procedural",
+    "instruction": "This poster features a traditional-style painting, suitable for art exhibitions or cultural events. Keep the painting centered and surround it with light clouds and flying cranes. Use a soft blue gradient background with cloud motifs. Add a soft glow to highlight the frame. The top text 'Artistic Charm: Beauty of Tradition' should be in large elegant serif font. Add event info in handwritten style at the bottom left.",
+    "saved_thought": {
+      "base_seed": 42,
+      "example_uid": "multi-instruction_execution__56",
+      "instruction": "This poster features a traditional-style painting, suitable for art exhibitions or cultural events. Keep the painting centered and surround it with light clouds and flying cranes. Use a soft blue gradient background with cloud motifs. Add a soft glow to highlight the frame. The top text 'Artistic Charm: Beauty of Tradition' should be in large elegant serif font. Add event info in handwritten style at the bottom left.",
+      "offload_seconds": 3.248057899530977,
+      "peak_vram_bytes": 17067513856,
+      "protocol_hash": "a2001fe4612dfee6ae489c243b0fb204b1f04ba39f4877bf0f53853fe7f1438c",
+      "raw_text": "Add light clouds and flying cranes around the central painting. Apply a soft blue gradient background with cloud motifs. Enhance the frame with a soft glow effect. Update the top text to \"Artistic Charm: Beauty of Tradition\" in large, elegant serif font. Add event information in handwritten style at the bottom left corner. ",
+      "rewrite": "Add light clouds and flying cranes around the central painting. Apply a soft blue gradient background with cloud motifs. Enhance the frame with a soft glow effect. Update the top text to \"Artistic Charm: Beauty of Tradition\" in large, elegant serif font. Add event information in handwritten style at the bottom left corner.",
+      "seconds": 3.237595323473215,
+      "seed": 1541214853,
+      "source_sha256": "651ffbdc52d85ab2606a19ef8d332abf525e25496416a1bd0130aba6139f303d",
+      "token_count": 67,
+      "token_count_includes_eos": true,
+      "top_p_backend": "transformers_cpu"
+    },
+    "Q": {
+      "A": 50.0,
+      "B": 50.0,
+      "C": 50.0,
+      "D": 50.0,
+      "E": 50.0,
+      "F": 50.0
+    },
+    "differences": {
+      "B-A": 0.0,
+      "D-B": 0.0,
+      "E-D": 0.0,
+      "F-D": 0.0
+    },
+    "charged_speedup_B_over_D": 1.8584603794094614,
+    "charged_median_seconds": {
+      "A": 65.17384103906807,
+      "B": 71.85936147905886,
+      "C": 31.96138281992171,
+      "D": 38.666071268031374,
+      "E": 39.20896076306235,
+      "F": 56.816411287058145
+    },
+    "judge_rationales_original": {
+      "A": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The image shows a clear attempt to fulfill \"create an art-exhibition poster around the painting\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections.",
+      "B": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The image shows a clear attempt to fulfill \"create an art-exhibition poster around the painting\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections.",
+      "C": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The image shows a clear attempt to fulfill \"create an art-exhibition poster around the painting\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections.",
+      "D": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The image shows a clear attempt to fulfill \"create an art-exhibition poster around the painting\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections.",
+      "E": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The image shows a clear attempt to fulfill \"create an art-exhibition poster around the painting\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections.",
+      "F": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The image shows a clear attempt to fulfill \"create an art-exhibition poster around the painting\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections."
+    },
+    "visual_interpretation": "Selection and captions use saved scores and metadata; no new visual judgement is asserted by this script.",
+    "figures": {
+      "ABCD": "no_avd_pixel_variation__multi-instruction_execution__56__ABCD.png",
+      "BDEF": "no_avd_pixel_variation__multi-instruction_execution__56__BDEF.png",
+      "selected_regions": "no_avd_pixel_variation__multi-instruction_execution__56__selected_regions.png",
+      "differences": "no_avd_pixel_variation__multi-instruction_execution__56__differences.png"
+    }
+  }
+]

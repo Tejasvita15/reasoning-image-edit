@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b029",
+  "results": [
+    {
+      "blind_id": "case_ffed0de65bffe92a",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The requested change \"Remove one shoe\" is not successfully realized. Quality: The output is severely degraded, near-empty, or otherwise visually broken."
+    },
+    {
+      "blind_id": "case_fd13773445da0762",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The requested edit is accompanied by one noticeable non-target change or broader layout drift. Instruction: The image shows a clear attempt to fulfill \"In a soccer match, the right side is out of bounds, remove the balls that are out of play.\", with the main requested change present but not perfectly exact in every detail. Quality: The image is understandable, but visible artifacts, distortions, or weak text rendering remain."
+    }
+  ]
+}
