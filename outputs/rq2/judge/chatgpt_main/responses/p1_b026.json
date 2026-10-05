@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b026",
+  "results": [
+    {
+      "blind_id": "case_9901b4a2776dcd92",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The room layout, window and lamp remain, but the carved wall panel and bedding patterns are noticeably altered. A group of balloons is added instead of one regular-air balloon. All float high above the bed rather than lying on the floor, directly contradicting the supplied knowledge. The edited room and balloon surfaces are otherwise natural and coherent."
+    },
+    {
+      "blind_id": "case_4aa7b6767c6630f9",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The shirt silhouette, neck label, side tag and white background remain; only the small chest lettering is subtly distorted beyond recoloring. The garment is successfully changed from black to white. The edited fabric and seams are natural, with a minor defect in the small logo lettering."
+    }
+  ]
+}

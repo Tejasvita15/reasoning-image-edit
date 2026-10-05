@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b154",
+  "results": [
+    {
+      "blind_id": "case_454d3284864fca79",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "A cluster of balloons is added in the room, but they float high beside the window instead of a regular-air balloon lying on the floor, contradicting the explanation. Cushion weave, wall carving and outdoor branches change. Independently, the room and balloons have coherent forms, natural lighting and no conspicuous artifacts."
+    },
+    {
+      "blind_id": "case_1f3c86865d83dd0b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "The separate can remains in front of the right side rather than resting atop the case. The case perspective and can arrangement change, along with label details. Multiple can logos and small lettering are garbled, and several lids have warped or smeared pull-tab structures."
+    }
+  ]
+}

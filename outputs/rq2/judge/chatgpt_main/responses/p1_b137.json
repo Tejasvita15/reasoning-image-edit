@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b137",
+  "results": [
+    {
+      "blind_id": "case_1683b2bc9ceb0514",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The left cup remains clearly smaller, so the requested size match is absent. The right cup is enlarged and moved upward, and both saucers and their shadows change. The edited still life has coherent cup rims, recognizable beans and natural lighting."
+    },
+    {
+      "blind_id": "case_4f2602b1fd3ea675",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The question mark remains instead of the specified 21, while numerous unrelated values, including 99, 45 and 72, become 14. Circles and connections remain aligned, and the diagram is visually clean with legible symbols. Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

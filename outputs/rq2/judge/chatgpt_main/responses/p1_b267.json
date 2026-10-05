@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b267",
+  "results": [
+    {
+      "blind_id": "case_e1cf333a044eb263",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The other eight cells and grid remain intact. The answer is a pentagon containing a large question mark, not the required hexagon with two circles. The line drawing is clean and legible. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_bb0a3a124ae99100",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 2,
+      "rationale": "The sky, horizon and composition are preserved. The sea becomes a glossy dark slick, but its separated thick, cracked-looking pools lack the required rainbow sheen. Reflective lighting is coherent, although the raised boundaries look more like solid crust than a thin film."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b078",
+  "results": [
+    {
+      "blind_id": "case_18d4ff6d3bbd7f9f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The truck turns somewhat toward the side, but the front windshield and grille remain prominently visible rather than the reference's strict side profile. A new rear cab window, extra blue beacon and altered cab proportions change non-viewpoint details. The requested orientation is substantially incomplete. Viewed alone, the truck render has coherent geometry, materials and lighting."
+    },
+    {
+      "blind_id": "case_c9989f12387044d8",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The eight existing cells and outer grid remain unchanged. A rectangular outline is added around the retained question mark, rather than the specified triangle with a blue circle on its bottom edge. Instruction failure \u21d2 knowledge invalid. The edited diagram itself has clean lines and legible symbols without noticeable artifacts."
+    }
+  ]
+}

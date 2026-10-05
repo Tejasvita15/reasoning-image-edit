@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b032",
+  "results": [
+    {
+      "blind_id": "case_212d78e21e0057b0",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "The blue sky, desert foreground and distant horizon are preserved. Broad terraces and a central staircase are added, addressing the stepped-pyramid idea, but the structure retains a tall pointed Egyptian-style summit instead of the characteristic flat summit temple of Kukulkan. That is a clear mismatch with the named knowledge target. The edited masonry, steps and perspective are coherent."
+    },
+    {
+      "blind_id": "case_2fc47d23fe4f734a",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The glass, milk stream and splash retain their original form. The white minimalist setting gains a soft gray base shadow and centered uppercase gray slogan; the terminal period is missing. The milk and glass look natural, though the title crossing the pouring stream slightly weakens separation and legibility."
+    }
+  ]
+}

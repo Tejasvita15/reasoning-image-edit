@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b008",
+  "results": [
+    {
+      "blind_id": "case_767e02d63f4db0e1",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: sky, cloud bands, horizon and framing remain intact outside the requested sea change. Instruction: blue rippled water becomes a broad dark patchy slick with reflective smooth areas, conveying oil contamination. Knowledge: a surface film is present, but the specified rainbow sheen is absent; the patches are gray-brown and blue. Quality: perspective, reflected sky and continuous surface texture are coherent with no obvious artifacts."
+    },
+    {
+      "blind_id": "case_52b121d5e69fc34f",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: leaf positions, branch, veins, shadows and background bokeh remain intact. Instruction: extensive brown ragged damage is added across the leaves, clearly conveying infestation. Knowledge: most marks look like opaque necrotic patches rather than transparent eaten-through holes, so the specified hole formation is incomplete. Quality: the branch and foliage remain coherent, with slightly flat stippled texture in the brown damaged patches."
+    }
+  ]
+}

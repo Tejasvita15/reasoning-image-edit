@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b080",
+  "results": [
+    {
+      "blind_id": "case_c61cd37c4686ac92",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "The question mark remains unanswered. Nearly all existing arc patterns are changed, and the grid gains doubled, missing and displaced borders. No common-parts solution is drawn. Instruction failure \u21d2 knowledge invalid. Broken arcs, erasure-like smears and fragmented grid lines create multiple distracting visual defects."
+    },
+    {
+      "blind_id": "case_ed2917433ec476d9",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "A traditional-looking Chinese boat is added on the river, but it has a red pavilion-like cabin and curved roof rather than the specified black-canopied Wu-peng form. Thus the general boat request is met only partially and its identifying structure conflicts with the explanation. Landscape layout is retained, although foliage textures are reworked. The boat, reflection and river scene are visually coherent."
+    }
+  ]
+}

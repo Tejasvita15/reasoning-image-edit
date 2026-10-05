@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b259",
+  "results": [
+    {
+      "blind_id": "case_e356658c9d095876",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Leaves, branches and background remain intact. The fruit surfaces become smoother and somewhat yellower, but the persimmons remain green-yellow instead of the red mature fruit specified. Their overly smooth highlights slightly reduce natural texture. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_c90d136ee973d8a6",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "The water, fish and reef remain recognizable, but the coral's branch count and arrangement change beyond the requested color change. The organism turns white as instructed and as the explanation requires. A few thin pale fragments beside the upper branches slightly mar otherwise coherent underwater rendering."
+    }
+  ]
+}

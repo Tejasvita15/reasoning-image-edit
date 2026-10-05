@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b049",
+  "results": [
+    {
+      "blind_id": "case_a1f249be51eaa00b",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The spoon bowl and wooden surface remain consistent. The truncated stem is extended into a complete rounded handle with a hanging hole, fulfilling the request. The attachment, ceramic highlights and contact shadow are coherent and natural."
+    },
+    {
+      "blind_id": "case_a895b62af41e1f74",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The blue-and-cream carton and white background remain recognizable, but the wave boundary and cow drawing change beyond projection alone. The edit retains a broad MILK front face and three-quarter view, whereas the reference shows the cow side straight on with the front face hidden. There is little correct viewpoint change. The carton geometry and printed graphics are independently clean and coherent."
+    }
+  ]
+}

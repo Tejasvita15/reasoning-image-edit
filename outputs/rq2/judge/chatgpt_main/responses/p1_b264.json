@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b264",
+  "results": [
+    {
+      "blind_id": "case_af5ed82897138153",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The small bag's weave and printed flower change, and its cords and beads shift. The right bag remains much taller and wider than the left, so the requested size match is not made. Both fabric bags and drawstrings are nevertheless coherent and naturally rendered."
+    },
+    {
+      "blind_id": "case_3ae298ca89c1728c",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "The red lantern, gold ornament and tassel remain recognizable. The edit adds a glowing red-gold background, sparks and petals, but omits willow decorations and replaces the requested top and bottom English copy with central pseudo-calligraphy. The central Chinese-like symbols and small English-like text are garbled, degrading the poster's main message."
+    }
+  ]
+}

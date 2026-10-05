@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b091",
+  "results": [
+    {
+      "blind_id": "case_0a755b5dc74d3264",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the tabletop perspective, table legs and multiple chair shapes/positions change; vase, books and white setting remain. Instruction: the foreground chair still projects well outside the table, with its seat exposed, so the requested tucked-under position is absent. Quality: coherent wooden furniture, plausible upholstery, natural surfaces and clean edges without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_cf4a789423eb4940",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: tray framing, can arrangement, labels and overall stack are substantially changed, including an added upper pack. Instruction: a matching loose can is on top, but another remains outside in front, so this duplicates rather than fully relocates the right can. Quality: many distorted letterforms, smeared labels and fused/ambiguous can boundaries in the upper pack are distracting structural and texture errors."
+    }
+  ]
+}

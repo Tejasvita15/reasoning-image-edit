@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b064",
+  "results": [
+    {
+      "blind_id": "case_389fe3ab3a2289ee",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "The frame and other three symbols remain matched. The bottom-right shape changes to a square divided by a cross plus a separate chevron, rather than the required plain square without interior lines. The correct outer shape is attempted, but both the internal cross and added chevron conflict with the supplied solution. The diagram itself has clear, coherent lines and symbols."
+    },
+    {
+      "blind_id": "case_f1cb4f8488e4888e",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The blue sky, clouds and sunlight remain matched. The flying bird changes its head, feathers and feet but remains a gull-like bird with a projecting yellow beak, rather than the owl required by the instruction and explanation. Instruction failure \u21d2 knowledge invalid. The edited bird has coherent wings, feathers and lighting and appears natural against the sky."
+    }
+  ]
+}

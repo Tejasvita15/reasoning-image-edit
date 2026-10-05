@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b141",
+  "results": [
+    {
+      "blind_id": "case_4fb572af2fd5a52d",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Both milk-filled glasses remain in the same setting with only a small shift of the right glass. Red laser light enters from the left and extends toward the right through both cups. However, a dominant glowing orb between the glasses and strong vertical red streaks obscure the expected simple transmitted beam. This unexplained luminous center is also a conspicuous naturalness flaw despite coherent glass geometry."
+    },
+    {
+      "blind_id": "case_400d98682ffe6a8f",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The braided trunk, leaf arrangement and woven pot are preserved. The poster adds a pale green gradient and halo, floating droplets and leaf silhouettes, and the exact Green Home title at upper left. The plant, decorative elements and legible lettering form a coherent, clean composition."
+    }
+  ]
+}

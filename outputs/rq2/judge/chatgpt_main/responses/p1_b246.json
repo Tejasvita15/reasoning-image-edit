@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b246",
+  "results": [
+    {
+      "blind_id": "case_10ab2ece3729da46",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "The bottle, stopper, acid label and white background remain intact. Brown granular material appears inside the liquid, suggesting a powder addition, but it is not clearly identifiable as an appropriate amount of iron. The solution is brown rather than light green and no bubbles are visible, conflicting with both explained reaction features. The edited bottle remains coherent and the label legible without obvious artifacts."
+    },
+    {
+      "blind_id": "case_cb9055ec85acf7fa",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The blue controller retains its overall shape and control layout, but its small labels, central logo and lower port details change. A gray-blue gradient, soft shadow and bold 'Press Start.' are added with space around the device, yet oversized overlapping lettering dominates the lower composition instead of a restrained bottom caption. The controller is visually coherent, but distorted small markings and the crowded, overlapping title are noticeable flaws."
+    }
+  ]
+}

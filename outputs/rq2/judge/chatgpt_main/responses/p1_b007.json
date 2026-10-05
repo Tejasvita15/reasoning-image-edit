@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b007",
+  "results": [
+    {
+      "blind_id": "case_da940b7d62aed83b",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: all columns disappear, including the five that should remain; only the pale background survives. Instruction: the output contains zero columns rather than five, completely failing the requested result. Quality: the attachment is readable but is an entirely blank pale field with no discernible subject or meaningful scene structure."
+    },
+    {
+      "blind_id": "case_4b50b567dff9137d",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "Consistency: branch, leaf arrangement, veins, backlighting and background bokeh remain visually intact. Instruction: small brown damage spots are added to several leaves, suggesting infestation, but the requested aftermath is only partly realized. Knowledge: the leaves retain solid surfaces and essentially intact margins instead of showing the insect-eaten holes specified in the explanation. Quality: leaves, minor blemishes and background look natural without visible compositing defects."
+    }
+  ]
+}

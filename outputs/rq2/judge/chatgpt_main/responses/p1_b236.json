@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b236",
+  "results": [
+    {
+      "blind_id": "case_e319e14d28a266f2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The four-node square and white background remain, but node 0 is relabeled 3, type and outlines change, and a small central circle is introduced. Added bidirectional edges preserve cycles, including the original perimeter cycle, instead of producing an acyclic graph. Instruction failure ⇒ knowledge invalid. The edited diagram is legible but duplicated node labels and the ambiguous central junction impair semantic clarity."
+    },
+    {
+      "blind_id": "case_1820c1fd653a62d1",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The cream bag, handle, stitched patterns and gold clasp are preserved within the permitted advertising layout changes. Gold 'Elegance Always.' and 'GUCCI' are present on a gray gradient, but the bag remains centered and oversized, the branding overlays it in large letters, and velvet texture and generous white space are absent. The image is coherent and lettering legible, with a faint distracting watermark-like trace across the lower bag."
+    }
+  ]
+}

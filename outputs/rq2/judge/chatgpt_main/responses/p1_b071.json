@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b071",
+  "results": [
+    {
+      "blind_id": "case_22abf4e27b6bbd09",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The clock is extensively redrawn with a dimensional frame, different numeral styling, shadows and an added thin hand. Its prominent hour hand points near ten while the minute hand remains at twelve, instead of showing the required nine o\u2019clock. Instruction failure \u21d2 knowledge invalid. The edited clock itself is clean, legible and structurally coherent, with natural rim and hand shadows."
+    },
+    {
+      "blind_id": "case_48d9f4ae75e9b3a8",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The hourglass outline and white setting remain closely matched, with a small change to its floor reflection. Sand still fills the upper chamber and a stream remains through the neck, so it does not show an ended timing cycle or the empty upper chamber required by the explanation. Instruction failure \u21d2 knowledge invalid. The glass and sand are coherently shaped and naturally shaded."
+    }
+  ]
+}

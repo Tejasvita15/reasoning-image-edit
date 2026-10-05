@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b214",
+  "results": [
+    {
+      "blind_id": "case_d574caa1523319f5",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: gray setting and dark grip tape remain, but the intact deck outline/pose and rear truck placement are altered. Instruction: additional wheels and trucks appear, yet the jagged splintered front end remains unrepaired, leaving the main missing deck section incomplete. Quality: coherent worn skateboard, wheel geometry, material textures and contact shadows without obvious rendering artifacts."
+    },
+    {
+      "blind_id": "case_b0ca83b9153deac5",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the original thin grid becomes thick green framing with graph-paper cells and yellow surround, while several given symbols disappear or change. Instruction: all four original blanks remain unfilled instead of receiving mushroom, umbrella, squirrel and tree. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: the decorative grid is clear, but an isolated brown stem replaces one recognizable icon and stray cropped lines clutter the outer border."
+    }
+  ]
+}

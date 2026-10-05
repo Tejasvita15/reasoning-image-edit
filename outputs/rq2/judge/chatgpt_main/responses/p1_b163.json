@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b163",
+  "results": [
+    {
+      "blind_id": "case_bbd0e0348e7bcb24",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The basketball is clearly placed directly on top of the soccer ball, satisfying the requested relation. The soccer ball itself is shifted and slightly reduced, while the white setting remains consistent. The stacked forms and shadows are coherent, with a small smeared patch in the front black soccer-ball panel."
+    },
+    {
+      "blind_id": "case_eab52c558cd6f2d6",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The unfilled pale-blue regions remain unchanged, so no completion of the Four-Color puzzle is visible. Given colors, boundaries, timer and palette are preserved. The graphic remains clean, with coherent region outlines and legible interface text. Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

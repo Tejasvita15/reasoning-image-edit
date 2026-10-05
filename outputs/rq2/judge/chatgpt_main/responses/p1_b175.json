@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b175",
+  "results": [
+    {
+      "blind_id": "case_74a937996f22297c",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "The question mark remains and 35 is absent; unrelated 11s, rings, bars and extensive smudged linework have been added throughout the formerly plain diagram. These multiple distracting marks also reduce the edited image's visual clarity. Instruction failure \u21d2 knowledge invalid."
+    },
+    {
+      "blind_id": "case_514005462b1924e0",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The graph remains cyclic: both vertical edges have arrowheads at both ends, and the outer clockwise cycle is still present. The upper-left label changes from 0 to 3, the nodes shift, and extra diagonal edges appear. A broken-looking symbol at the diagonal crossing is a clear visual flaw. Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

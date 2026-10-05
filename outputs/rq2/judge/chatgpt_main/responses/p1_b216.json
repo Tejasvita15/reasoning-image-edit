@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b216",
+  "results": [
+    {
+      "blind_id": "case_fbf1cb9c39ac2224",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "The six colored panels and all given numbers remain unchanged. The question mark becomes 28 rather than the required 410 from difference 4 and sum 10, so the central requested answer is wrong. The layout is clear, with a small detached dot beside the replacement 2. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_23beaee06fdbd50e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The yogurt visibly changes color, but to blue instead of the red or pink specified for acidic yogurt. The cups and arrangement remain, while blue patches also alter the berries, mint, spoon and napkin. The coherent food photograph is marred by conspicuous patchy blue coloration across separate surfaces."
+    }
+  ]
+}

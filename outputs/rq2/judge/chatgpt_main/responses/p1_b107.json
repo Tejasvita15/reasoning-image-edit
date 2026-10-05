@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b107",
+  "results": [
+    {
+      "blind_id": "case_1908ef0a6e8cb006",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The U-shaped track and brown setting remain, but wall texture changes substantially and the rail profile/highlights are redrawn. The ball merely shifts upward on the left; no right-side highest position is drawn, so equal-height energy conservation is not depicted. Instruction failure \u21d2 knowledge invalid. The edited rendering itself has coherent metal, spherical form and lighting without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_a7cda30941113be4",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The fabric background, viewpoint and orange face largely persist, but the entire blue left face becomes red. Some missing top/front cube structure is filled, yet a conspicuous upper-right cavity remains and two top stickers are red, so the cube is not completed. The rendering is recognizable and coherent overall, with slight blending of dark plastic inside the cavity."
+    }
+  ]
+}

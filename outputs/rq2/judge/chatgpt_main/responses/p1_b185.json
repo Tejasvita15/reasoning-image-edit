@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b185",
+  "results": [
+    {
+      "blind_id": "case_19db4cf2eac108ac",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the animal, gifts and maze layout are retained, with only slightly altered line thickness. Instruction: a red arrow points toward the gifts, but cuts straight across several black walls instead of following the maze corridors. Knowledge: this is not a traversable solution. Instruction failure ⇒ knowledge invalid. Quality: the illustration is clean and recognizable, but the wall-crossing route creates a clear semantic inconsistency in the maze."
+    },
+    {
+      "blind_id": "case_483e8be7c3b9094b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the board layout and existing symbols remain, but wood-grain patterns and the board's framing/positions shift visibly. Instruction: the bottom-left piece now clearly shows X facing upward, exactly completing the requested move. Knowledge: X forms a full left column, so the depicted selection wins. Quality: the wooden dividers, blocks, painted symbols and shadows are coherent and artifact-free."
+    }
+  ]
+}

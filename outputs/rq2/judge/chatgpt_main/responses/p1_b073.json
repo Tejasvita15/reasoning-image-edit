@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b073",
+  "results": [
+    {
+      "blind_id": "case_f1a6e5311c1f284f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The board frame, timer and palette stay fixed, but several region boundaries are deformed and prefilled colours are changed. Many regions remain uncoloured, so this does not complete the four-colour puzzle. Instruction failure \u21d2 knowledge invalid. Broken, overlapping central outlines are a clear visual flaw."
+    },
+    {
+      "blind_id": "case_adc47396a360548f",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The entire red exterior is changed to black while the shoe silhouette, heel, tan lining, background and reflections retain their layout. This fully meets the recolouring instruction. The resulting glossy black shoe is structurally coherent and free of noticeable artifacts."
+    }
+  ]
+}

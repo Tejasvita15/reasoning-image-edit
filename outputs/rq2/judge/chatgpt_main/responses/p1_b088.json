@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b088",
+  "results": [
+    {
+      "blind_id": "case_2dba36ff869e903a",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The board, wood background and four corner marks remain intact, but the existing center O is replaced by a red X. The top-middle winning space stays empty, and the edit creates no row of three Xs. The graphic remains clean, coherent and legible. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_96781ec45ce1c739",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Buildings, vegetation and canal framing are preserved, but the passengers' seating and poses change, particularly the now fully visible left passenger. The covered boat becomes an open black gondola with raised ends and a distinctive metal prow, correctly matching the instruction and supplied knowledge. Small distorted hull lettering is the main visual imperfection."
+    }
+  ]
+}

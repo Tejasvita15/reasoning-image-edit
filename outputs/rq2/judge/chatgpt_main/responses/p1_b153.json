@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b153",
+  "results": [
+    {
+      "blind_id": "case_c52e175b70ffbfd7",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Both pupils remain broadly oval rather than constricting under strong light. The muzzle proportions, fur pattern detail and whisker paths also change while the general close-up composition remains. The edited cat nevertheless looks anatomically coherent and natural. Instruction failure \u21d2 knowledge invalid."
+    },
+    {
+      "blind_id": "case_94ead11e8a53e782",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The many pale-blue regions remain unfilled, so the puzzle is not completed. Existing yellow regions are instead recolored muted purple, an unintended change to the given clues; boundaries and interface remain stable. The screen is clean and its outlines and text remain legible. Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

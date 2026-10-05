@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b261",
+  "results": [
+    {
+      "blind_id": "case_0a32d476004df5c6",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "The canal buildings, foliage and water setting are retained, but a passenger is added and the left passenger's visible pose and clothing change. The covered boat becomes an open black gondola with raised ends, satisfying the requested Venetian boat and supplied explanation. Passenger hands blend slightly in the crowded seating area."
+    },
+    {
+      "blind_id": "case_1946856af2da3aec",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The people, lawn and grid remain consistent, but the existing top-middle O is overwritten with X. The empty top-left square was needed to complete the center-to-bottom-right diagonal; the new X does not win. The edited card and scene are naturally rendered. Instruction failure ⇒ knowledge invalid."
+    }
+  ]
+}

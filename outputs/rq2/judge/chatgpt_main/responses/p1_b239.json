@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b239",
+  "results": [
+    {
+      "blind_id": "case_81ae9c6bb76b7354",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The clear radial glass plate and white background remain, with only a small change to the lower rim contour. All six apples are removed, leaving an empty plate rather than the requested single apple. The edited plate is structurally coherent with plausible glass highlights and clean reconstruction."
+    },
+    {
+      "blind_id": "case_1336d0b6ae08a14a",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The cream bag, handle, stitched panels and gold clasp remain recognizable and unchanged apart from permitted display sizing and lighting. Gold headline and bottom GUCCI branding are added, but the bag stays centered, fills nearly the whole frame, and sits against glossy dark fabric rather than the requested restrained gray-white velvet with ample space. The image has legible typography and coherent bag structure, but a prominent watermark across the bag and overbright, plastic-looking fabric folds are distracting."
+    }
+  ]
+}

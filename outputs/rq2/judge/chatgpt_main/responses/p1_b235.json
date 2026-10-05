@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b235",
+  "results": [
+    {
+      "blind_id": "case_e0557ed305e40fea",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The two chocolate cookies retain their recognizable contours and drizzle patterns; background, base and illumination changes are permitted. Brown velvet, black slate, upper-left highlights and the legible full quotation at top right achieve the requested display, though the viewpoint still looks down onto the cookies rather than slightly upward. The edited composition has coherent food textures, lighting, fabric folds and typography."
+    },
+    {
+      "blind_id": "case_e4017d47a358e5d8",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The floor, loose stones and framing remain, but the entire existing wall surface is changed from weathered continuous stone to large rectangular masonry blocks. The hole is completely filled, fulfilling the requested completion. The edited blockwork, floor perspective and shading are visually coherent without obvious artifacts."
+    }
+  ]
+}

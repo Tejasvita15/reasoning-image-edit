@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b173",
+  "results": [
+    {
+      "blind_id": "case_b5b3e445df6eabab",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The foliage, branch and background remain consistent, but the fruit is replaced by round, dimpled orange-like fruit rather than ripened red persimmons. The fruit identity and surface structure change beyond maturation. The supplied red-colour outcome is not achieved. Instruction failure \u21d2 knowledge invalid. Viewed alone, the fruit and foliage are naturally rendered and coherent."
+    },
+    {
+      "blind_id": "case_53a51abdbd73714b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The left cup remains substantially smaller than the right, so the requested size match is absent. Both cup/saucer positions shift and the bean arrangements change noticeably, while the white setting remains. The edited crockery, beans and shadows are structurally coherent and visually natural."
+    }
+  ]
+}

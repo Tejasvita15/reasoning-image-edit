@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b146",
+  "results": [
+    {
+      "blind_id": "case_ca4155921b86b11e",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The device, cable and labels remain closely matched with slight surface-texture changes. The display becomes a malformed reading resembling 118.2 rather than increasing 28.7 to approximately 31.7 as specified. Broken leftmost digit segments are a conspicuous display flaw. Instruction failure \u21d2 knowledge invalid."
+    },
+    {
+      "blind_id": "case_117bb4528f88c905",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Both vertical edges become bidirectional, creating explicit two-node cycles instead of an acyclic graph. Node labels 0 and 1 change to duplicated 3 and 2, and the right nodes move leftward. The diagram is legible, but duplicated node identifiers create a clear semantic ambiguity. Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

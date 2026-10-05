@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b103",
+  "results": [
+    {
+      "blind_id": "case_8ae5c2a79e95b22c",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: maze topology, bear and gifts remain, with slight line/illustration contour variation. Instruction: a red arrow points toward the gifts but cuts directly through multiple black walls rather than tracing a maze route. Knowledge: Instruction failure \u21d2 knowledge invalid; the indicated route is not traversable. Quality: clean readable diagram, coherent cartoon figures and an unambiguous arrow without rendering artifacts."
+    },
+    {
+      "blind_id": "case_b23f38977bf2e660",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: sky, clouds and horizon remain aligned, but offshore water/foam texture is noticeably redrawn beyond the changed shoreline. Instruction: the sandy foreground is fully replaced by a pebble beach. Knowledge: rounded stones in varied sizes and coarse sediment visibly satisfy the shingle-beach explanation. Quality: coherent stones, perspective and wave integration with natural lighting and no conspicuous defects."
+    }
+  ]
+}

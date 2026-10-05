@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b195",
+  "results": [
+    {
+      "blind_id": "case_fc934b5f6682bfca",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the cat identity, pose and room remain, but muzzle/fur contours and whisker trajectories visibly change. Instruction: the eyes are redrawn but the near pupil remains broad and round; strong light should visibly constrict both pupils, so most of the required response is missing. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: coherent cat anatomy, natural fur, lighting and eye reflections, with no obvious artifact."
+    },
+    {
+      "blind_id": "case_6132720b5de0d549",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: black fabric, orange stripes and gray backdrop remain, but the sleeves become bent and the chest wordmark changes. Instruction: the result remains a largely frontal jacket with a long visible torso, rather than the overhead view with a broad shoulder span and circular neck opening shown in the reference. Quality: coherent garment geometry and fabric shading; the small chest lettering has a minor malformed character."
+    }
+  ]
+}

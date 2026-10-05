@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b207",
+  "results": [
+    {
+      "blind_id": "case_c1ceec00bbaff3d7",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the thermometer model and coiled probe remain recognizable, but the white studio becomes a snowy outdoor scene and frost/dark lighting alter the device. Instruction: the display remains about 28.7 with a malformed final digit, instead of rising to about 31.7 as the supplied explanation requires. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: coherent device and snowy setting, but the broken digital segment pattern makes the temperature display visibly malformed."
+    },
+    {
+      "blind_id": "case_18fbcb6f80b85840",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: maze topology and gifts remain, but the maze shifts slightly and the animal's face and outline are redrawn. Instruction: a red line points from the animal toward the gifts, yet runs straight through several black walls rather than following the maze corridors. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: clean, legible maze walls, cartoon and colored line without distracting rendering artifacts."
+    }
+  ]
+}

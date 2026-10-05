@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b117",
+  "results": [
+    {
+      "blind_id": "case_37c3108b21365e6a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "The brass scale, right-hand weight group and composition persist, but pedestal texture and wall/table surface details change noticeably. Several weights are added on the left rather than one, producing roughly four instead of the specified two; the beam remains level instead of tilting left. These are two clear conflicts with the supplied explanation. The left weight cluster has visibly fused/irregular shapes and an odd pale patch, although the rest of the scale is coherent."
+    },
+    {
+      "blind_id": "case_456e8bdbba556361",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The shortened near temple is extended into a full-length arm, though its straight thin endpoint is less convincingly finished than the curved opposite earpiece. The lens assembly shifts down and right, and tabletop texture/illumination changes beyond the repair. The glasses remain recognizable and coherent, with a small visible seam or kink at the near-arm extension."
+    }
+  ]
+}

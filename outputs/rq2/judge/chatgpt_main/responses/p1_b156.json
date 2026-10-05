@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b156",
+  "results": [
+    {
+      "blind_id": "case_ac3e02bbf2eca3a4",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "No blank region is filled, leaving the Four-Color puzzle incomplete. Given yellow regions and the yellow palette button are instead changed to burgundy; region boundaries and other interface elements remain stable. The graphic itself is clean with legible text and coherent outlines. Instruction failure \u21d2 knowledge invalid."
+    },
+    {
+      "blind_id": "case_3ace230011186785",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "The display changes from 100/68 to a clear 142/90, satisfying the supplied hypertension thresholds. The unrelated pulse reading changes from 70 to 05, and cuff texture and printed labels also change. The product remains recognizable, but the cuff has conspicuous maze-like texture and small unit lettering is distorted."
+    }
+  ]
+}

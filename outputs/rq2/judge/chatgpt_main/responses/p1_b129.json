@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b129",
+  "results": [
+    {
+      "blind_id": "case_a1b69d424e70b204",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The glass shape, fill level, framing and white surroundings are preserved apart from the liquid color and associated colored reflection. The water becomes vivid magenta, whereas the supplied explanation requires it to remain colorless after phenolphthalein in pure water. Instruction failure \u21d2 knowledge invalid. The edited glass, meniscus, highlights and colored liquid are visually coherent and free of obvious artifacts."
+    },
+    {
+      "blind_id": "case_fd6abcbec89ff8de",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 4,
+      "rationale": "The desert terrain and horizon remain closely matched; a faint block-like texture appears in the otherwise retained blue sky. The pyramid becomes a stepped Maya structure with axial stairs and a flat summit temple, fulfilling the requested architectural change. It strongly resembles Kukulkan, though the summit doorway configuration is simplified. The masonry and perspective are coherent, with the subtle sky texture being the principal visual imperfection."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b218",
+  "results": [
+    {
+      "blind_id": "case_24b93844fb638bb0",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "A red arrow joins the girl to the flowers but cuts across multiple green walls rather than tracing a valid corridor. The maze structure is extensively changed and the girl shifts right; the beige palette and flowers remain recognizable. A ghosted patch in a right-hand wall and distorted overlapping feet reduce the otherwise readable illustration. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_70532aa952585cb2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "An orange ball appears high on the right, but its center is substantially below the original left ball, conflicting with the stated equal-height energy-conservation result. An extra ball is added outside the lower-right track and the track shifts slightly. The brown setting remains; the edited spheres, metal track, shadows and textures are cleanly rendered."
+    }
+  ]
+}

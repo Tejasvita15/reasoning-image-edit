@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b115",
+  "results": [
+    {
+      "blind_id": "case_5513ecf34be5efa3",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The pale surface and framing remain consistent outside the requested bread removal. All three baguettes disappear rather than two, so the removal is attempted but the required remaining loaf is absent. The edited empty surface itself is visually smooth and coherent, without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_af5cf26839d59a3c",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "The branch, leaf arrangement, backlighting and blurred background remain consistent. Numerous irregular brown-edged damaged patches appear across the leaves, conveying infestation, though many read as surface necrotic spots rather than clearly open insect-eaten holes, a small departure from the supplied explanation. Leaf veins, damage textures and lighting remain natural and visually coherent."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b110",
+  "results": [
+    {
+      "blind_id": "case_fe16b11d569dd37f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The hamster is convincingly gray throughout its coat, satisfying the requested recoloring. Its frontal pose, eyes and blue setting remain, but ear contours, whisker arrangement and nearby wood-shaving/bark details change noticeably. The edited animal has coherent anatomy, natural fur and lighting, without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_37ecfaa0555d34d0",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "The two-glass composition and gray tabletop remain closely matched, with a small shift in the left rim. A red beam enters from the left, but crosses the empty upper glass portions rather than both soy-milk volumes; unexplained vertical red beams enter only the left milk, and the liquids acquire large dark inclusions. This does not demonstrate the supplied through-both-cups scattering behavior. The broad flat red ribbon and disconnected vertical columns create conspicuous visual/semantic inconsistencies despite coherent glass shapes."
+    }
+  ]
+}

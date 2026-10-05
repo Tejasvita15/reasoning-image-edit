@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b055",
+  "results": [
+    {
+      "blind_id": "case_6dad152ddd7eaa69",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The cat pose and background remain recognizable, but facial fur markings and whisker paths are noticeably redrawn. The irises turn yellow-green while the pupils remain broad and rounded rather than constricting under strong light, so the required eye response is largely missing. Instruction failure \u21d2 knowledge invalid. The cat is independently natural-looking with coherent eyes, fur and facial anatomy."
+    },
+    {
+      "blind_id": "case_555d26f15868aa92",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The simple squares and white background are replaced by ornate shaded frames, extra symbols and large central numerals. The question mark is still present instead of the required 35, so the numerical pattern is not completed. Instruction failure \u21d2 knowledge invalid. Doubled numeral outlines and irregular sketch-like debris around the frames create noticeable visual artifacts."
+    }
+  ]
+}

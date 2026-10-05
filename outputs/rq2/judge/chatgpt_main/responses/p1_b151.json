@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b151",
+  "results": [
+    {
+      "blind_id": "case_22c870d3ff49fa1f",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "The fruit becomes spherical orange citrus-like fruit with pitted peel instead of ripe red persimmons. Leaf veins also become conspicuously embossed although composition is retained. The image is coherent but the exaggerated leaf texture is slightly artificial. Instruction failure \u21d2 knowledge invalid."
+    },
+    {
+      "blind_id": "case_ca8cdd2d428df21d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "The entire pink tube cluster becomes white, satisfying the requested coral color change and explanation. Water reflections and surrounding reef textures are also visibly altered. The composition remains coherent, though the white tubes have slightly synthetic, repetitive surface ripples."
+    }
+  ]
+}

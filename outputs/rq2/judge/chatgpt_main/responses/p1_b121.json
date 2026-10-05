@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b121",
+  "results": [
+    {
+      "blind_id": "case_be1200b648065a2e",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The rod has been completely removed as requested; the faucet, sleeve, hand pose and dark background remain, with slight smoothing of palm texture. The water still bends strongly rightward instead of returning to vertical flow, ignoring the supplied physical expectation. The edited photograph has coherent hand anatomy, faucet structure and natural lighting without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_a347eaff3b0a7d4a",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The puzzle boundaries, existing colored regions, timer and controls are preserved. Numerous regions remain blue and unfilled, so the requested four-color completion is absent. Instruction failure \u21d2 knowledge invalid. Judged alone, the graphic has coherent region outlines, clean color fills and readable interface text without noticeable artifacts."
+    }
+  ]
+}

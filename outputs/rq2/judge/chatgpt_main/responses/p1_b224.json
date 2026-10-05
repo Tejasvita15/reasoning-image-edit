@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b224",
+  "results": [
+    {
+      "blind_id": "case_651ede11831d1821",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "Red light enters from the left, but two converging rays end in a bright flare between the cups without a visible beam through the right cup. Both contents become dark brown rather than soy milk. The gray setting remains, with a slight alteration to the left glass outline. The glass rendering is coherent, but the converging beam and oversized flare have a conspicuously artificial appearance and fail the stated two-cup penetration."
+    },
+    {
+      "blind_id": "case_74e961b16e37404b",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The river remains a continuous winding channel with no separated crescent lake or cutoff. The surrounding forest, hillside clearing and aerial composition stay consistent, with a slight overall tonal change. The edited landscape is natural and coherent, with convincing banks and water. Instruction failure ⇒ knowledge invalid."
+    }
+  ]
+}

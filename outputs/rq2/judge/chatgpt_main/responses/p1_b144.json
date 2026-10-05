@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b144",
+  "results": [
+    {
+      "blind_id": "case_bad9df644ccc3fef",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The jacket remains in essentially the original oblique front view, rather than the overhead, strongly foreshortened view in the reference. The backdrop becomes white and the three orange shoulder stripes become two. The illustrated jacket itself is clean, with coherent seams, folds, lettering and sleeve construction."
+    },
+    {
+      "blind_id": "case_8933bc9ce111cf04",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "The hands show approximately 10:10 rather than the required 9:00. The clock border and numeral spacing change, and the bottom source inscription disappears. The dial is otherwise crisp and readable, with a small extraneous downward hand stub at the center. Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

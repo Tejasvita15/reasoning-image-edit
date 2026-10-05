@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b061",
+  "results": [
+    {
+      "blind_id": "case_fce7af5035d682a4",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The sparse original position is replaced with a nearly full board, many moved or recolored stones and a new gray border. Although long black rows appear, this is not the required single-stone winning move from the supplied position. Instruction failure \u21d2 knowledge invalid. Judged alone, the board and individually shaded stones are visually coherent without noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_451535e189876daa",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The display changes to an apparent 743/80 with pulse 96; the pulse and surrounding background also change unnecessarily, while the monitor and cuff remain recognizable. The pressure is raised, but the malformed, physiologically impossible systolic reading does not credibly depict hypertension. Its value is far beyond a realistic measurement despite exceeding the supplied threshold. The top-row numeral rendering is a clear semantic flaw in an otherwise coherent product image."
+    }
+  ]
+}

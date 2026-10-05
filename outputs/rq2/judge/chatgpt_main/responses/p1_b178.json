@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b178",
+  "results": [
+    {
+      "blind_id": "case_b125a05940602288",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The clear patterned plate and white background are retained. All six apples are removed, leaving an empty plate instead of the requested single apple, so the number reduction overshoots the target. The empty glass plate has coherent radial ridges, reflections and edges."
+    },
+    {
+      "blind_id": "case_07b31a03384d2ece",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The eight given dot arrays, grid and question mark remain unchanged. No 4×4 answer pattern is drawn in the lower-right cell, so the same-color black/different-color white rule is not applied. The black-and-white diagram is clean and legible. Instruction failure ⇒ knowledge invalid."
+    }
+  ]
+}

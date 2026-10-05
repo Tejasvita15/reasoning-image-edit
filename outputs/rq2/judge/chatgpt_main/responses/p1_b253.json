@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b253",
+  "results": [
+    {
+      "blind_id": "case_4804456e9b59dd1b",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The gold chain, bail and round sapphire retain their identities. The gray-blue gradient, centered layout and bottom text are present, but the pendant remains low, the background lacks velvet texture, the gem lacks star-like sparkle and the title uses a heavy sans-serif rather than fine serif. The image itself is clean with coherent jewelry and legible lettering."
+    },
+    {
+      "blind_id": "case_d8bc7bcfe7884249",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Most given arc patterns change and the outer grid border disappears. The bottom-right question mark remains instead of an answer retaining the common arcs of the final row, so the supplied rule is not applied. Several broken or doubled arc fragments make the diagram visibly irregular. Instruction failure ⇒ knowledge invalid."
+    }
+  ]
+}

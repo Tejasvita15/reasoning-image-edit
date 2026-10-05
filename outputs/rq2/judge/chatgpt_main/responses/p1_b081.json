@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b081",
+  "results": [
+    {
+      "blind_id": "case_c708e056bc9ec04e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Six apples remain, so the requested reduction to one is not performed. Their colours, shapes, stems and orientations are all substantially changed, while the glass platter and white background retain their layout. The edited apples and platter are visually coherent with natural-looking surfaces and no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_4179fe33731b1435",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "A ball is added at the upper right, near the starting ball's height, correctly depicting the intended endpoint in principle. It is slightly larger and its centre is a little higher than the left ball, a minor departure from equal-height energy conservation. The apparatus and background retain their appearance with a small leftward framing shift. The edited scene is structurally coherent and naturally lit."
+    }
+  ]
+}

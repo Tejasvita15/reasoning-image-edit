@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b176",
+  "results": [
+    {
+      "blind_id": "case_e08b1aa78f63c86a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "The golden background remains, but many matchheads reverse direction and several extra sticks alter the original arrangement. The result reads 5 = 6 = 5, which is false and requires more than one match move rather than a valid equation. Matchsticks are recognizable, though a few joined corners look fused. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_6c6dee0630dbc3ad",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The left cup remains much smaller than the right, so the requested size match is absent. The right cup and its bean mound are noticeably enlarged and reshaped, while the two-saucer arrangement and white background remain. Ceramic rims, coffee beans and shadows are visually natural."
+    }
+  ]
+}

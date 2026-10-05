@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b191",
+  "results": [
+    {
+      "blind_id": "case_28e493dabdb66ae5",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: the green/red pack and white background remain, but tray proportions shift and label lettering on many stationary cans and the tray is changed or corrupted. Instruction: the separate right can has been removed from its original position and is visibly lying on top of the boxed cans, satisfying the requested placement. Quality: widespread garbled branding and warped fine label details across the pack create multiple distracting artifacts."
+    },
+    {
+      "blind_id": "case_dda134f3630415f8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: both white cups and saucers remain on the same surface, but the large right cup changes size/position and bean arrangements and shadows change. Instruction: the left cup remains clearly smaller; the size mismatch persists rather than the small cup being enlarged to match. Quality: cup rims, handles, beans and soft shadows are coherent and natural, with no conspicuous structural artifacts."
+    }
+  ]
+}

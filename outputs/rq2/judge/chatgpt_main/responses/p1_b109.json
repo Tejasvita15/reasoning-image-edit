@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b109",
+  "results": [
+    {
+      "blind_id": "case_a172d58a6619c4f5",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "The tube outline, HCl label, liquid level and white composition remain closely consistent, with slightly altered background texture. Recognizable veined marble chips are added inside the tube, but the requested reaction is not visibly expressed: no bubbles rise from the chips, contrary to the supplied explanation. Glass, stone shapes and lighting are visually coherent and artifact-free."
+    },
+    {
+      "blind_id": "case_cafa369c4b349d06",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The clock is redrawn with a dimensional rim, new shadows, altered numerals and no bottom watermark. Hands change, but none clearly establishes the required nine o\u2019clock; several long black spokes point toward 12, 10, 2 and 8. The intended time conversion is poorly implemented. Instruction failure \u21d2 knowledge invalid. The face is legible and polished, but the excessive ambiguous hands are a clear structural/semantic flaw."
+    }
+  ]
+}

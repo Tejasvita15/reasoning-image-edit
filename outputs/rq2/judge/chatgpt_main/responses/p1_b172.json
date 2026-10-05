@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b172",
+  "results": [
+    {
+      "blind_id": "case_05029617749a37fb",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Marble chips are added at the bottom of the same HCl test tube; its label, shape and background remain unchanged. The material addition is correct, but no bubbles appear, so the induced reaction is not shown and conflicts with the explanation. The glass and marble surfaces look coherent and artifact-free."
+    },
+    {
+      "blind_id": "case_f9d465923f8dfee9",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "A green X is added over the already occupied centre O instead of the empty top-middle cell that would complete the top row. Existing marks, board and wood background are preserved. This neither makes a legal move nor achieves a win. Instruction failure \u21d2 knowledge invalid. The overlapping X and O create a clear semantic flaw in an otherwise clean board graphic."
+    }
+  ]
+}

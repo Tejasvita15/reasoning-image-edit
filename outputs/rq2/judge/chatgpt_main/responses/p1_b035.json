@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b035",
+  "results": [
+    {
+      "blind_id": "case_e55e4643a89fb1dd",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The ivory bag, stitched panels, handle and double-G clasp remain consistent, excluding the requested layout and lighting changes. Gold upper-left Elegance, Always text and a lower brand label are added, but the oversized centered bag leaves little white space, and the radiating satin-like background is busier than the requested restrained velvet gradient. The bag is coherent; the faint lower branding has minor legibility issues."
+    },
+    {
+      "blind_id": "case_0166aa0b06316d4e",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Most match heads and several numeral segments are rearranged despite the one-match limit; only the gold background remains stable. The original 5\u22122=5 becomes an invalid arrangement resembling 2=5=5, not a correct equation achieved by one move. Instruction failure \u21d2 knowledge invalid. Individual matches and shadows are clean and the symbols are visually readable."
+    }
+  ]
+}

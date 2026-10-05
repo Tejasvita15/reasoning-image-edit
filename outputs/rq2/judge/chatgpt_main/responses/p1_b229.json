@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b229",
+  "results": [
+    {
+      "blind_id": "case_09ebf41a61d50f72",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Most coral branches remain saturated pink rather than turning white; only the base becomes pale and develops two large eye-like features. That invented face and changed base anatomy are unrelated to depigmentation, while blue water and reef composition remain recognizable. The eye-bearing coral is a major anatomical hallucination. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_91baa22443034cc5",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "A wooden Chinese-style boat is added to the river, but its tall rectangular pavilion cabin differs from the specified low black-canopied Wu-peng boat. Hills, sky, banks and field remain consistent with slight tree-texture variation. The boat has coherent hull geometry, plausible placement and a matching water reflection."
+    }
+  ]
+}

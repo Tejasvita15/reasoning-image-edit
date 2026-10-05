@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b067",
+  "results": [
+    {
+      "blind_id": "case_d812b194d1fc5c46",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The U-shaped track and brown setting remain closely matched, with only a slight track-surface highlight change. The ball shifts a little within the upper-left area, but no ball or highest-point marker appears on the right at the corresponding height. Instruction failure \u21d2 knowledge invalid. The sphere, metal track and lighting are visually coherent and clean."
+    },
+    {
+      "blind_id": "case_0b57f344037952a0",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The red car and original viewing angle remain recognizable, but the grille pattern and wheel details change. A blurred city nightscape, reflections and upper-left silver sans-serif headline follow the main poster idea. The headline omits its period and the brand is rendered as malformed plate lettering instead of smaller bottom-center Ferrari text. That distorted branding is a clear semantic flaw, although the car and city composition remain coherent."
+    }
+  ]
+}

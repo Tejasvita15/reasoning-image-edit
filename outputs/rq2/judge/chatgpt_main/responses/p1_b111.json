@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b111",
+  "results": [
+    {
+      "blind_id": "case_e5a5c4999a066094",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The device pose, brand and main controls remain, but the white background becomes blue-gray with a new shadow, and cuff folds/label details change. The display still reads 123/72, rather than systolic below 90 or diastolic below 60, so no hypotensive conversion occurs. Instruction failure \u21d2 knowledge invalid. The edited product image itself is coherent, with legible main readings and natural casing and fabric."
+    },
+    {
+      "blind_id": "case_74c24e9bb9bf1b53",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Almost all playing pieces disappear and the three-by-three dividers become incomplete, while an O remains near bottom center and an elongated wooden object occupies the right. No X is selected at bottom left and the existing winning column is destroyed. Instruction failure \u21d2 knowledge invalid. Broken divider segments and the ambiguous oversized wood form create multiple distracting structural errors."
+    }
+  ]
+}

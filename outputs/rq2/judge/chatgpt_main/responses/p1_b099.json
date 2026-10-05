@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b099",
+  "results": [
+    {
+      "blind_id": "case_99731b07b0c1e575",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: bowl, berries, spoon, napkin and pink table retain their layout, with a slight mint-leaf contour change. Instruction: the white contents become visibly blue, showing a color change, but not the expected indicator outcome in the supplied yogurt context. Knowledge: blue directly contradicts the explanation requiring red or pink in acidic yogurt. Quality: coherent food surfaces and crockery, smooth color integration and natural lighting."
+    },
+    {
+      "blind_id": "case_184b366b023cbed2",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: tablet and white setting are retained with a slight tablet border/position adjustment. Instruction: the phone is shifted upward but remains roughly half the tablet width and shorter, with no meaningful enlargement toward the requested match. Quality: both devices have coherent bezels, screens and shadows without noticeable artifacts."
+    }
+  ]
+}

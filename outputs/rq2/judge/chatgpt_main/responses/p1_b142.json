@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b142",
+  "results": [
+    {
+      "blind_id": "case_0adc8212524e1461",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Many sticks and match heads move throughout the expression, replacing the original 5 minus 2 equals 5 with disconnected, unreadable symbols rather than one valid move. Stray red fragments and broken numeral construction cause severe semantic degradation. Instruction failure \u21d2 knowledge invalid."
+    },
+    {
+      "blind_id": "case_9c4548e6c528ce89",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "The gull is replaced by a dark eagle-like bird with a projecting hooked yellow beak, not the owl required by the supplied explanation. The blue sky, clouds and sun remain closely matched with minor cloud-texture changes. Feather structure is coherent, although the small clustered talons are slightly indistinct. Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

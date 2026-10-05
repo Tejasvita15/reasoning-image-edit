@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b140",
+  "results": [
+    {
+      "blind_id": "case_c2c0e4de4ba8ae55",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The right bag remains much taller and wider than the left, without the requested reduction to matching size. The small bag shifts rightward and its cord, bead and embroidered motif details change. Both bags remain coherent fabric objects with plausible drawstrings and shadows."
+    },
+    {
+      "blind_id": "case_ce00cdd2fef34d96",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "The central lantern retains its shape and gold decoration, with a small change in tassel detail. Red petals, a warm red-gold glow and sparkles fulfill much of the poster concept, but willow decorations are absent and the requested top headline and bottom slogan are replaced by malformed central lettering. Multiple garbled large symbols and corrupted small script visibly undermine the poster."
+    }
+  ]
+}

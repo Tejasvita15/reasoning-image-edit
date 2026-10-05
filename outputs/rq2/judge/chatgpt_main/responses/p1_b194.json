@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b194",
+  "results": [
+    {
+      "blind_id": "case_45bd241612a03d11",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the black jacket, orange stripes, zipper and logo remain recognizable, but the background becomes white and cuff/hem ribbing and fold details are altered. Instruction: the edit remains an oblique front view with the full torso visible; it fails to show the reference's overhead collar opening and strongly foreshortened body. Quality: the stylized linework, garment structure, zipper and readable logo are coherent and clean."
+    },
+    {
+      "blind_id": "case_a830c86eeee97325",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the mountain silhouettes and valley framing are retained, with a slight change to foreground vegetation detail. Instruction: a bright Milky Way band is added instead of an auroral display associated with increased solar activity. Knowledge: no aurora curtains or luminous auroral arcs appear, contrary to the supplied explanation. Instruction failure ⇒ knowledge invalid. Quality: the star field, Milky Way, dark ridges and foreground lighting form a coherent natural night landscape."
+    }
+  ]
+}

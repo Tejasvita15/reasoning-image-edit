@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b152",
+  "results": [
+    {
+      "blind_id": "case_dcb6a236559c884c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Buildings and streets replace a substantial area of forest left of the highway, correctly depicting urbanization and fewer trees. Right-side roof details and highway vehicles also change. The aerial layout is coherent, but newly added rooftops have conspicuous mottled, eroded-looking textures and some irregular geometry."
+    },
+    {
+      "blind_id": "case_81cc6ed42a435af1",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The sky is brighter and stars are enlarged, but no auroral curtains or bands appear. Foreground vegetation and its illumination also change despite the retained mountain outline. Maze-like texture across the sky is an obvious artifact. Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

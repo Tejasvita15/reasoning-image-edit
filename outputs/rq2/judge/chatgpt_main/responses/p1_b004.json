@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b004",
+  "results": [
+    {
+      "blind_id": "case_b49cce3abdc7223a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: people and lawn remain recognizable, but the existing top-middle and middle-left O tiles become X tiles and several tiles rotate or move. Instruction: an X is added at bottom-middle instead of the empty top-left cell required to complete the original diagonal. A column win is obtained only by changing an existing O, so the requested legal winning placement is poorly implemented. Knowledge: the original board is not solved by a valid single move. Instruction failure \u21d2 knowledge invalid. Quality: lawn, people, tiles and symbols are visually coherent."
+    },
+    {
+      "blind_id": "case_19091ac12c22132b",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: horizon, sky and clouds remain in place, but offshore wave and foam patterns are noticeably redrawn beyond the beach surface. Instruction: sand is replaced by a continuous pebble shoreline, fully matching a shingle beach. Knowledge: rounded stones and coarse mixed sediment are plainly visible. Quality: pebbles have coherent depth and lighting, though the thin foam band has slightly repetitive granular texture."
+    }
+  ]
+}

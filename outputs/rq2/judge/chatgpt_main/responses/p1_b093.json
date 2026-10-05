@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b093",
+  "results": [
+    {
+      "blind_id": "case_795d5ab871e06457",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the soccer ball moves left/down, shrinks and changes its panel orientation; the light plain setting remains. Instruction: the basketball is relocated directly onto the soccer ball with visible contact, matching the requested stack. Quality: coherent spherical forms and shading, with a small irregular dark crease in the soccer ball front panel."
+    },
+    {
+      "blind_id": "case_a3d94c000effe0b1",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: branch, leaf arrangement, veins, lighting and background bokeh remain unchanged outside the requested leaf damage. Instruction: brown lesions appear around leaf margins and across their surfaces, conveying damage, but the leaves remain largely intact rather than visibly eaten. Knowledge: distinct holes expected from insect feeding are missing; discoloration alone only partly matches. Quality: coherent foliage and natural mottled damage without conspicuous rendering artifacts."
+    }
+  ]
+}

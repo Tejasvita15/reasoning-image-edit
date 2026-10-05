@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b248",
+  "results": [
+    {
+      "blind_id": "case_41151b516a252861",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The coffee cup and sheet placement remain, but paper texture becomes more embossed, nearby wood grain changes, and the pen arrangement is altered. The holder is removed from upper left and placed at the paper's lower-right corner as requested. The edited overhead scene is coherent, with slight blending among the clustered pen tips."
+    },
+    {
+      "blind_id": "case_1275254a85662fda",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The people, grass and string grid remain, but all three O tiles are changed to X and several existing tiles rotate. An X is added at bottom middle rather than the empty top-left position that would complete the original diagonal; the apparent wins rely on replacing opponents' marks. Instruction failure ⇒ knowledge invalid. The edited lawn scene has clear symbols, coherent hands and natural materials."
+    }
+  ]
+}

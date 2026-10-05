@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b206",
+  "results": [
+    {
+      "blind_id": "case_670c74e1e5f91c3f",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: sky, horizon and blue sea remain closely preserved, with slight cloud-outline changes; shoreline changes are requested. Instruction: the sandy foreground is replaced with a dense bed of rounded stones and coarse sediment, producing a shingle beach. Knowledge: varied rounded pebbles visibly satisfy the supplied geological expectation. Quality: coherent shore and stone texture, with a slightly abrupt banded transition near the waterline."
+    },
+    {
+      "blind_id": "case_230c47f14cec94b4",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: spoon bowl, position and major wood-grain landmarks remain; fine tabletop grain has slight smoothing. Instruction: the truncated shaft is extended into a full rounded handle with a hanging hole, completing the spoon. Quality: coherent utensil shape, smooth material and natural contact shadow without obvious artifacts."
+    }
+  ]
+}

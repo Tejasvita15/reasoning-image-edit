@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b134",
+  "results": [
+    {
+      "blind_id": "case_4fd4ea08e8adbf20",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The supplied source actually contains a fountain pen, which remains visually preserved. The edit adds a cute bear balloon on the right, colorful \u201cBear Balloon Party\u201d lettering, stars, clouds and candy over a sky-blue gradient. Most requested poster features are present, though the retained large pen dominates instead of the bear being the main focus. The graphic has coherent balloon shapes, readable lettering and clean decorative elements without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_fa6a756efc24887b",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "The river, wooded hill, pasture, trees and sky remain consistent outside the added boat and its reflection. A traditional-looking wooden riverboat is present, but it has a boxy enclosed cabin with a nearly flat roof rather than the supplied black arched-canopy Wu-peng form. The instruction is partly met with one clear boat-type mismatch. The edited landscape and boat have coherent perspective, lighting and water reflection without obvious artifacts."
+    }
+  ]
+}

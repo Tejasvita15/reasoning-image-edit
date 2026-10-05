@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b018",
+  "results": [
+    {
+      "blind_id": "case_de8f30428590d4f8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: blue fabric and wooden legs remain, but the sectional chaise disappears and the cushion configuration becomes a two-back-cushion loveseat with a single seat pad. Instruction: a frontal view is attempted, but the reference requires three back cushions and a projecting right chaise; the changed proportions and missing section are major viewpoint/content errors. Quality: the standalone loveseat has coherent geometry, texture, legs and soft shadows."
+    },
+    {
+      "blind_id": "case_131a497e78fd5165",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: grid and most given animals remain recognizable, but the bottom-right raccoon becomes a malformed orange lion and several existing faces are redrawn. Instruction: blanks are filled, yet the inserted animals are incorrect: the top row duplicates dogs, the third row duplicates dogs, and the bottom row duplicates tigers. Knowledge: rows, columns and subgrids fail the four-symbol uniqueness rule. Instruction failure \u21d2 knowledge invalid. Quality: the bottom-right face is melted and doubled, and the top-left symbol is an ambiguous bear/tiger hybrid."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b062",
+  "results": [
+    {
+      "blind_id": "case_3fec96c499f4da69",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The bowls, raspberries, mint, spoon and setting remain matched, but the thick yogurt is replaced by a thin reflective liquid. Rather than a clear red or pink indicator response in the yogurt, the bowl contains a mostly pale amber liquid with reflected fruit and leaves. Instruction failure \u21d2 knowledge invalid. The edited liquid, fruit and table setting look coherent and naturally lit."
+    },
+    {
+      "blind_id": "case_29efe5554c0e6335",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The surrounding wall texture, floor tiles and loose stones remain visually matched. Masonry now fills the opening, fulfilling the main repair, although a deep jagged recess remains around it instead of a fully continuous wall surface. The recessed brickwork and surrounding rough stone have coherent perspective, shading and texture."
+    }
+  ]
+}

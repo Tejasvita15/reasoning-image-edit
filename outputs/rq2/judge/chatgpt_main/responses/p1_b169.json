@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b169",
+  "results": [
+    {
+      "blind_id": "case_824570f15217cd27",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The larger red vehicle remains substantially larger than the small car, with no meaningful size matching. Wheel and window details, vehicle placement and tabletop grain change. The edited photograph nevertheless shows coherent toy bodies, plausible reflections and natural contact shadows."
+    },
+    {
+      "blind_id": "case_bdc2f914722426da",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The red shoe exterior becomes black throughout, preserving the pointed silhouette, tall heel, beige lining and pale background. A small lining-texture change is visible. The black patent finish, highlights and shoe structure are coherent and clean."
+    }
+  ]
+}

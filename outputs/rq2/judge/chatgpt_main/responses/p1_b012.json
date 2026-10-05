@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b012",
+  "results": [
+    {
+      "blind_id": "case_a3298b1c317b3fea",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the eight supplied hexagon examples retain their contents, but the grid boundary around the bottom-right cell is broken and displaced. Instruction: the question mark remains inside a new rectangle; the expected hexagon with a far-right black dot and upper-right line is absent. Knowledge: neither required pattern element is supplied. Instruction failure \u21d2 knowledge invalid. Quality: diagram symbols are legible, but the disconnected bottom-right frame is a clear layout defect."
+    },
+    {
+      "blind_id": "case_49f64dbc1ecef7de",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: printer color and frontal setting remain, but a large notch is introduced into the top lid, rear paper changes size and position, and a new white output-slot surround appears. Instruction: a visibly printed document is now placed in front of the printer as requested. Quality: printer and page are recognizable, but the document text is visibly garbled and the top paper-slot geometry is awkwardly reconstructed."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b039",
+  "results": [
+    {
+      "blind_id": "case_7af7328bf3cf0300",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The other eight arc patterns and grid are preserved. The question mark is replaced, but the thick complete ring does not retain the common arc segments of the first two cells. The ring itself is clean and coherent."
+    },
+    {
+      "blind_id": "case_10b4b432fa264587",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The red Ferrari remains recognizable, but the wheel spokes and grille structure change. The blurred neon nightscape and low placement follow the brief; the oversized italic serif headline and brand on the license plate miss the requested sans-serif treatment and bottom-center label. The finished car and scene are visually coherent with readable lettering."
+    }
+  ]
+}

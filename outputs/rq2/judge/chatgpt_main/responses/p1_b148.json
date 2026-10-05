@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b148",
+  "results": [
+    {
+      "blind_id": "case_d96fc112ad9ffdb3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "The left forest is replaced by numerous buildings and streets with far fewer trees, exactly showing the supplied urbanization expectation. The main road remains, but right-side roof details and upper-right trees also change noticeably. Several roofs have warped or melted architectural shapes, creating a conspicuous flaw in an otherwise recognizable aerial scene."
+    },
+    {
+      "blind_id": "case_46e0b8f4a7e34dbf",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "The woman retains her face, hands, white blouse and joyful pose, with a slight change in crown points. Rainbow color, balloons, fireworks, confetti and backlighting create the requested celebration, but the headline and tagline are replaced by largely garbled wording. Multiple distorted text lines and overlapping letterforms substantially degrade the poster."
+    }
+  ]
+}

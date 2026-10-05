@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b119",
+  "results": [
+    {
+      "blind_id": "case_456bb362ba34b05a",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The mountain outline and framing remain, but foreground vegetation becomes brighter and visibly redrawn. The sky is brighter and more densely starred, with no recognizable auroral arcs or curtains, so the specified solar-activity phenomenon is absent. Instruction failure \u21d2 knowledge invalid. The edited night landscape itself is coherent and natural, with clean silhouettes and plausible starlight."
+    },
+    {
+      "blind_id": "case_c421850d98410d31",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Both upper-left and lower-right missing-tooth gaps are filled with appropriately sized white teeth, completing the smile. The peach background and lip design remain close, but several pre-existing teeth have noticeably changed spacing and contours. The edited illustration is clean and coherent, with distinct teeth, smooth shading and no visible structural artifacts."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b102",
+  "results": [
+    {
+      "blind_id": "case_b8c6cc1bb409d921",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: small bag, cords, beads and white setting largely remain, with slight small-bag fabric/fold variation. Instruction: the right bag remains much taller and wider than the left, so the size match is absent. Quality: the large bag appears suspended above a separate soft shadow, a clear grounding problem; fabric and cords otherwise remain coherent."
+    },
+    {
+      "blind_id": "case_d1341d925e8241f3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 2,
+      "knowledge_score": 5,
+      "rationale": "Consistency: monitor casing, cuff folds/shape, branding and background are noticeably altered. Instruction: blood pressure changes from 100/68 to a clear 188/88, satisfying the requested elevated values. Knowledge: both readings exceed the supplied systolic/diastolic thresholds. Quality: several device labels and the brand/model are garbled, with distorted small symbols and cuff-label detail, despite recognizable product structure."
+    }
+  ]
+}

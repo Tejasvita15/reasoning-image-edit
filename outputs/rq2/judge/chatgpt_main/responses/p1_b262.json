@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b262",
+  "results": [
+    {
+      "blind_id": "case_64f7abfeb6e99790",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "The forested valley layout remains, but tree-canopy textures throughout are conspicuously redrawn. The river is still one continuous S-shaped channel with no separated crescent lake, contrary to the requested cut-off and explanation. Some foliage looks smeared, though the landscape remains coherent. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_c90ce4b473a554da",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The blue controller remains recognizable, but its small labels, speaker holes and lower ports change. It is placed above center on gray-blue with a shadow and Press Start text below, but oversized extruded lettering replaces the restrained simple treatment and the background shows little gradient or grain. Interlocking letter extrusions and awkwardly merged lower strokes visibly clutter the composition."
+    }
+  ]
+}

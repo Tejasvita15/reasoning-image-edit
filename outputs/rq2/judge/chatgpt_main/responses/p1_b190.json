@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b190",
+  "results": [
+    {
+      "blind_id": "case_e0d81f80f598ed8d",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the shoe silhouette, heel, beige lining, white background and shadow are retained; the lining/edge texture is slightly rougher. Instruction: the red exterior is fully changed to black while retaining the same shoe. Quality: the shoe geometry and reflections are coherent, with a minor grainy, uneven texture on the glossy upper."
+    },
+    {
+      "blind_id": "case_10f50822eaddc122",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: numerous original white stones change color or position, many extra stones appear, and a rectangular rock is added. Instruction: a black line is produced partly by replacing the original right-end white stone, rather than adding one legal winning black stone to the existing position. Knowledge: the wholesale board changes violate the requested single-move win. Instruction failure ⇒ knowledge invalid. Quality: many tiny off-intersection stones, inconsistent piece sizes and an incongruous block create multiple structural and semantic irregularities."
+    }
+  ]
+}

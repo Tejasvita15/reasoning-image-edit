@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b187",
+  "results": [
+    {
+      "blind_id": "case_c150b0be3478e9f6",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: the original two-ball composition is replaced by multiple basketballs and soccer balls in changed positions. Instruction: no basketball is resting on top of the soccer ball; duplication and rearrangement do not accomplish the requested stack. Quality: a disconnected soccer-pattern fragment at right and overlapping, ambiguous extra ball forms create multiple conspicuous structural defects."
+    },
+    {
+      "blind_id": "case_744b9f7609c8dd92",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the plant silhouette, braided trunk and basket are retained, with minor smoothing of the basket weave detail. Instruction: the upper-left 'Green Home' title, light green glowing background, suspended water droplets and green leaf silhouettes are all clearly present. Quality: the plant, woven pot, readable script and decorative droplets form a coherent polished poster without noticeable artifacts."
+    }
+  ]
+}

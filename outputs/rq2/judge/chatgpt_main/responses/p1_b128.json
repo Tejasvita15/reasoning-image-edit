@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b128",
+  "results": [
+    {
+      "blind_id": "case_7c14542bd879a203",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The girl is shifted into the maze entrance and redrawn, and some wall geometry changes, though the green maze and flowers remain recognizable. Red strokes are added, but they cross multiple walls, split into disconnected branches and end left of the flowers rather than tracing a valid route. Instruction failure \u21d2 knowledge invalid. The edited graphic has conspicuous broken, doubled linework and a ghosted green wall segment on the right."
+    },
+    {
+      "blind_id": "case_2a1170a19901ec6b",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "The blue controller remains recognizable, but its small labels, central logo and lower connector details are simplified or distorted. A gray-blue background, shadow and lower black title are added, yet the oversized torn-looking lettering overlaps the device and is neither clean nor restrained; the requested final period is absent. The edited image has multiple distracting warped letter shapes, black fragments and degraded small device symbols."
+    }
+  ]
+}

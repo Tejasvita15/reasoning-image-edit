@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b210",
+  "results": [
+    {
+      "blind_id": "case_77cffdbbb6662aa3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: gray setting and dark deck identity remain, but the deck pose/outline and existing rear wheel placement change. Instruction: a front wheel assembly is added, but the splintered missing deck end remains visibly jagged and incomplete. Quality: recognizable skateboard with coherent lighting, though the front truck blends slightly into the deck underside."
+    },
+    {
+      "blind_id": "case_bc353a0a5db4317d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "Consistency: mountain, sky and road composition remain, but guardrail geometry and roadside foliage details are visibly redrawn. Instruction: branching pavement cracks and several opened central fissures clearly show earthquake damage; substantial surface displacement is only faintly suggested. Knowledge: fractured pavement matches the explanation, with limited visible buckling or deformation. Quality: coherent perspective, natural vegetation and well-integrated crack textures without distracting artifacts."
+    }
+  ]
+}

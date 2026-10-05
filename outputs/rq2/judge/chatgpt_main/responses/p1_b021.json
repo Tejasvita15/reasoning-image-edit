@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b021",
+  "results": [
+    {
+      "blind_id": "case_ba8e2311ad5acea9",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "The coffee cup and wooden table remain recognizable, but the paper is narrowed and a large open case is added across it. The original pen holder stays at upper left, with none moved to the lower-right paper corner. The added case contains several warped, fused and semantically unclear implements."
+    },
+    {
+      "blind_id": "case_2d20b6ddcb38647b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The glass dish and white backdrop remain, but the apples have different skin colors, shapes and orientations beyond a count change. Six apples remain instead of the required single apple. The edited fruit, stems, reflections and glass dish are visually coherent and artifact-free."
+    }
+  ]
+}

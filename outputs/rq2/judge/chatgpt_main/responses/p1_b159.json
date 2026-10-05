@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b159",
+  "results": [
+    {
+      "blind_id": "case_c781f6545fc8be45",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The extra arm is removed and the glass-holding hand now connects to a normal sleeve, leaving two coherent arms. Unrequested leg positioning, fruit placement and furniture details also change. The resulting painted portrait has plausible anatomy, consistent lighting and coherent clothing and furnishings."
+    },
+    {
+      "blind_id": "case_dfa52d7ad5c0e2d4",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Several recognizable veined marble chips are added inside the tube, while its outline, HCl label and background remain consistent. No bubbles are visible, so the requested reaction is incomplete and conflicts with the explanation. The glass and stone shapes are clean, well-integrated and visually coherent."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b204",
+  "results": [
+    {
+      "blind_id": "case_2973002dbc9ce894",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: branch, leaves and blurred garden remain closely preserved, with a slight altered leaf-edge detail beside the lower fruit. Instruction: the persimmons are smoother but still pale yellow-green rather than the expected ripe red, so the maturation change is absent. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: coherent fruit and foliage with natural lighting, surfaces and depth."
+    },
+    {
+      "blind_id": "case_8f8947e3ab976fe2",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: gray sky, distant tree line and curved path remain; foreground flower and foliage texture is noticeably redrawn. Instruction: long strings of rectangular prayer flags are added across the flatland, fulfilling the request. Knowledge: the strings visibly include blue, white, red, green and yellow flags, matching the five-color explanation. Quality: coherent landscape and hanging flags; their distant support attachments are slightly indistinct."
+    }
+  ]
+}

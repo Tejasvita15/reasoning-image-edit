@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b161",
+  "results": [
+    {
+      "blind_id": "case_58d194e406dcc5d2",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The pendant design and blue stone are retained with minor chain-link detail changes. A grey-blue background and bottom caption are added, but the pendant remains low in the frame, the background lacks clear velvet texture, and the second text line is corrupted rather than the required fine-serif sentence. The jewelry is coherent; malformed lettering is an obvious quality defect."
+    },
+    {
+      "blind_id": "case_53bfeb68bedb9ed3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "The crowned person is presented with rainbow colors, clouds, balloons, fireworks, confetti and a back glow. However, the headline is heavily garbled in script instead of the requested sans-serif copy, and the tagline is also corrupted. Eye shapes, hair detail and shirt folds change. The figure remains recognizable, but multiple malformed, overlapping text lines substantially degrade the poster."
+    }
+  ]
+}

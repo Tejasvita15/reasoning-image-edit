@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b157",
+  "results": [
+    {
+      "blind_id": "case_7edd80c886e15854",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Front wheels and a truck are added, but the jagged broken end of the deck remains, so the skateboard is only partly completed. The surrounding ground texture and background brightness noticeably change. The board is recognizable and naturally lit, with a slightly flattened, indistinct front truck connection."
+    },
+    {
+      "blind_id": "case_24d278c339865138",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The two chocolate cookies retain their distinctive shapes and cracks, with minor drizzle-detail shifts. A brown fabric setting, dark slate and upper-right title are added, but the title has missing and corrupted words, the cloth looks glossy rather than velvety, and the view still looks downward. Food and slate are coherent; the visibly garbled title is the main quality flaw."
+    }
+  ]
+}

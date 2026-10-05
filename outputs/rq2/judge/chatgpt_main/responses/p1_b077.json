@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b077",
+  "results": [
+    {
+      "blind_id": "case_199dd15986d112e1",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "The Egyptian pyramid becomes a stepped Maya pyramid with broad central stairs and a summit temple, matching the requested form and the supplied Kukulkan identification. Desert foreground and distant horizon remain in place, but the sky gains an obvious brick-like texture. That unnatural sky texture is a clear visual artifact; the pyramid itself is coherent."
+    },
+    {
+      "blind_id": "case_6358226f040a4b56",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The wooden pushpins are entirely replaced by a close-up of manicured fingers, changing the subject and composition. The request meant six of the pictured nails/pins, so this is a complete misinterpretation. Viewed alone, the fingers, nails, lighting and skin textures appear natural and coherent."
+    }
+  ]
+}

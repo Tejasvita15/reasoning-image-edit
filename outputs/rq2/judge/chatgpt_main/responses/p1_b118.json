@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b118",
+  "results": [
+    {
+      "blind_id": "case_bb796b7a640c92d2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The people, grass and string grid remain recognizable, but top-center and middle-right O tiles become X tiles and existing tiles shift. An X is added at bottom center, while the valid winning move at top left remains absent; the apparent central-column win depends on replacing an opponent mark. Instruction failure \u21d2 knowledge invalid. The edited outdoor scene itself has coherent hands, tiles and lighting without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_320aacf5d7d3e6fc",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "The recognizable blue controller is retained, but its touchpad texture and small button/port details are simplified or lost. A blue-gray background, soft shadow and bold bottom typography are added with ample space, but the wording reads PREST START! rather than Press Start., and overlapping oversized letters undermine the restrained layout. The text has conspicuous ghosted bands, overlaps and malformed strokes, creating multiple distracting graphic defects."
+    }
+  ]
+}

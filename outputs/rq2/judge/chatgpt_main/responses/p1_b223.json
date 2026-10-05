@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b223",
+  "results": [
+    {
+      "blind_id": "case_bd9e1beb7de877cd",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "The frame and three given shapes remain unchanged. A square replaces the lower-right shape, but it contains a central cross rather than being undivided, so the removal-of-internal-lines rule is not completed. The simple diagram remains clean and legible without noticeable visual defects."
+    },
+    {
+      "blind_id": "case_d8cba6757b32026f",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The gull is replaced by an ornate golden crested fantasy bird, not an owl: it lacks an owl's rounded facial disc and characteristic head. The blue sky, clouds and bright upper-right sun remain consistent. The metallic feathered creature is coherently rendered with detailed wings and natural scene lighting. Instruction failure ⇒ knowledge invalid."
+    }
+  ]
+}

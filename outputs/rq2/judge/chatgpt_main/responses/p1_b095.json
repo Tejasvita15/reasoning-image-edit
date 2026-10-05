@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b095",
+  "results": [
+    {
+      "blind_id": "case_5186c61c31518e1e",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: tube outline, HCl label, liquid surface and white background remain unchanged. Instruction: veined white marble chips are added inside the tube as requested, but the induced reaction is not visibly expressed. Knowledge: no bubbles appear around the chips or in the liquid, contrary to the stated acid reaction. Quality: clean glass geometry, coherent stone shapes/textures and legible lettering."
+    },
+    {
+      "blind_id": "case_dab86fc86edcdd2e",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the leaves, branch, stems and background retain their arrangement and appearance. Instruction: fruit becomes orange and acquires strongly dimpled citrus skin, appearing replaced by oranges rather than matured red persimmons. Knowledge: Instruction failure \u21d2 knowledge invalid; the specified red persimmon outcome is absent. Quality: coherent rounded fruit, detailed peels and natural lighting without noticeable rendering defects."
+    }
+  ]
+}

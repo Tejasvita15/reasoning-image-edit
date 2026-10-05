@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b027",
+  "results": [
+    {
+      "blind_id": "case_eb50a60f6571281e",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The two chocolates retain their foil, striped paper cup and nut-coated surface, with background and lighting changes within the requested design. Gold gradient, warm highlights, bokeh and upper-left brown text appear, but the slogan reads mooment and omits the comma, and the gold is much stronger than champagne. The product rendering is coherent, while malformed slogan lettering is a clear visual flaw."
+    },
+    {
+      "blind_id": "case_b58e75cac501d9f0",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "The sky, cloud band, distant horizon and ocean remain consistent outside the altered shore. The sandy foreground becomes a beach of rounded stones and coarse granular sediment, fulfilling the shingle transformation and matching the explanation. Pebbles, surf and lighting are natural and spatially coherent."
+    }
+  ]
+}

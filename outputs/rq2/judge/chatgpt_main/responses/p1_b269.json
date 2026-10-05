@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b269",
+  "results": [
+    {
+      "blind_id": "case_62c2522b71197200",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Mountain silhouettes and foreground positions remain consistent, but the foreground vegetation is noticeably brighter. The sky is brightened with larger stars and contains no auroral ribbons or curtains, so the requested solar-activity effect is absent. A conspicuous wormlike texture covers the sky and vegetation detail is smeared. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_4212b3106b5a1158",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The foreground chair remains out from the table with its seat exposed rather than pushed underneath. The table is resized and reshaped, and the rear chair and tabletop arrangement shift. The furniture is generally coherent, with minor texture blending in the upholstery and dried arrangement."
+    }
+  ]
+}

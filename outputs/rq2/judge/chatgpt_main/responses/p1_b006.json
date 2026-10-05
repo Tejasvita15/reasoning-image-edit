@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b006",
+  "results": [
+    {
+      "blind_id": "case_ed559d59007e4e03",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: lip color, facial background and overall smile remain, but multiple preexisting teeth have noticeably altered widths and contours. Instruction: both dark missing-tooth gaps are filled with aligned white teeth, completing both rows. Quality: the illustration has coherent tooth outlines, gingiva, highlights and clean shading without visible artifacts."
+    },
+    {
+      "blind_id": "case_fe762b01bea06695",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "Consistency: glass placement and gray backdrop remain close, but the glass rims and contours are visibly reshaped. Instruction: red light enters from the left, but the pale soy milk becomes dark brown liquid and the beam is not shown through both cups, so the request is only partly met. Knowledge: two converging light streaks stop in a bright flare between the glasses rather than penetrating both liquids as specified. Quality: glasses and liquid surfaces are coherent, but the converging overbright streaks form a conspicuous unnatural light junction."
+    }
+  ]
+}

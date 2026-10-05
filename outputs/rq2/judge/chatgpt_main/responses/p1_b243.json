@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b243",
+  "results": [
+    {
+      "blind_id": "case_89c966fe37f33207",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The white backdrop remains, but a second smaller adapter with a front port appears and the cable coil and visible connectors change. The original adapter stays at left while the added one sits in front of the coil rather than inside its center, poorly implementing the requested move. Judged alone, the two adapters have coherent geometry, clean edges and plausible product lighting."
+    },
+    {
+      "blind_id": "case_86cc1cb09e6a59d1",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The printer's broad body, buttons and white background remain, but the top lid becomes deeply notched around a repositioned feed sheet and the output slot gains a white housing. A printed document now extends in front as requested. The edited image is spatially coherent, but the document's garbled lettering and oddly configured feed opening are clear visual flaws."
+    }
+  ]
+}

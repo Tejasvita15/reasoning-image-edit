@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b010",
+  "results": [
+    {
+      "blind_id": "case_783fcc87bfd016a7",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: dial numerals remain recognizable, but flat rim becomes a shaded physical frame, dial geometry changes and the bottom imprint disappears. Instruction: hands are altered, but no clear hour hand points to 9; a short hand points near 10 and an extra diagonal hand spans 8 to 2. The required 9:00 display is not achieved. Knowledge: the expected one-hour conversion is absent. Instruction failure \u21d2 knowledge invalid. Quality: legible numerals and coherent rim are offset by an anomalously long diagonal hand/counterweight that makes the clock structure ambiguous."
+    },
+    {
+      "blind_id": "case_ce2e5b990e7837f0",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: ankle, foot pose, cuff, fabric texture and dark background remain visually unchanged. Instruction: the exposed skin hole at the heel is filled with continuous dark sock fabric, completing the sock as requested. Quality: the repaired knit, shading and foot contour appear natural without visible seams or artifacts."
+    }
+  ]
+}

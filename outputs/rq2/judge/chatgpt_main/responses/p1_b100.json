@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b100",
+  "results": [
+    {
+      "blind_id": "case_f73b4a734cc7e793",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: girl shifts right and flower/maze details are redrawn, while the overall green maze remains recognizable. Instruction: a red diagonal stroke is added from near the girl but stops inside the maze, crosses several walls and never reaches the flowers. Knowledge: Instruction failure \u21d2 knowledge invalid; the stroke is not a traversable route. Quality: the thick ragged stroke obscures the maze and has an abrupt irregular endpoint, a clear graphic flaw."
+    },
+    {
+      "blind_id": "case_a1abdfc961e9943d",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the lens/frame assembly moves right/down and changes its outline slightly, while the textured tabletop and lighting remain similar. Instruction: the truncated near temple is extended to a complete rounded curved earpiece, matching the requested repair. Quality: coherent metal arms and lens geometry, plausible reflections and no noticeable artifacts; photographic softness does not obscure the object."
+    }
+  ]
+}

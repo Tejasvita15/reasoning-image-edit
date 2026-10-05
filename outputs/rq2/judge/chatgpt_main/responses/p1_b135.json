@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b135",
+  "results": [
+    {
+      "blind_id": "case_cb541c683cd538ca",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The exposed skin through the heel hole remains, so the sock is not completed. The foot and background are preserved with only slight cuff smoothing. The edited photograph remains natural and coherent."
+    },
+    {
+      "blind_id": "case_0b6b2d516635bd64",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The missing near temple arm is restored with a continuous curved dark earpiece matching the other arm. The glasses also shift visibly downward relative to the table, including the lenses. The completed glasses have coherent construction and a natural photographic appearance."
+    }
+  ]
+}

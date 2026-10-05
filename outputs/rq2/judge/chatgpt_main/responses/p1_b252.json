@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b252",
+  "results": [
+    {
+      "blind_id": "case_ce96b482dc0e4215",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The plant, braided trunk and woven pot retain their forms. A pale green gradient, halo rings, leaf silhouettes and upper-left Green Home script create the requested poster, though the floating spheres resemble bubbles rather than water droplets. The title overlaps the foliage enough to slightly reduce readability."
+    },
+    {
+      "blind_id": "case_871b8ba6e8fcde0e",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The two red toy cars and wood surface remain recognizable, but the small car shifts slightly down and its body proportions change. The large left vehicle remains substantially larger than the small car, so the requested size match is absent. The edited toys have coherent bodies, wheels and reflections."
+    }
+  ]
+}

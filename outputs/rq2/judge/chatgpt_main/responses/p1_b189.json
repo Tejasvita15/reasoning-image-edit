@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b189",
+  "results": [
+    {
+      "blind_id": "case_b0a65665624de5ad",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: node labels and square arrangement persist, but node spacing and label/outline styling are visibly changed. Instruction: extra arrowheads make both vertical edges bidirectional instead of removing the directed cycle. Knowledge: 0↔3 and 1↔2 now form two-node cycles, and the original four-node cycle remains. Instruction failure ⇒ knowledge invalid. Quality: the circles, numerals and arrowheads are clean, readable and geometrically coherent as a graph."
+    },
+    {
+      "blind_id": "case_d94ec647aa434072",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the red car silhouette and viewpoint remain, but wheel-spoke details and grille/hood emblems are altered beyond the requested poster treatment. Instruction: a blurred dark city background and lower-centered car fit the concept, but the title uses ornate distorted lettering rather than sans-serif, and the malformed brand text is on the plate instead of the bottom center. Quality: the car is broadly coherent, while distorted lettering and deformed emblem detail are clear visual flaws."
+    }
+  ]
+}

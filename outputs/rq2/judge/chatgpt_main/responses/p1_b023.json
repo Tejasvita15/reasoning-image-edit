@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b023",
+  "results": [
+    {
+      "blind_id": "case_6923f00fc77af907",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "The cloudy sky, tree line, field and winding path are preserved. Long rows of small prayer flags now span the flatland, fulfilling the addition. Blue, white, red, green and yellow flags are visible, matching the five-color explanation. The landscape and distant flag rows are spatially coherent without clear artifacts."
+    },
+    {
+      "blind_id": "case_a0dc10c6314ed4f6",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The grid and all original dot arrangements are unchanged. The bottom-right question mark remains, with no replacement dot pattern, so the instructed completion is absent. Instruction failure \u21d2 knowledge invalid. The edited diagram itself has clean readable circles, straight borders and an intact question mark."
+    }
+  ]
+}

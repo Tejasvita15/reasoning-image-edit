@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b256",
+  "results": [
+    {
+      "blind_id": "case_4878d5f8837b9817",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The two recognizable chocolate cookies retain their coating and drizzle patterns. Dark velvet, black slate, upper-left light and upper-right copy are added, but the view remains downward, the velvet is burgundy and the copy says enter rather than enters with altered punctuation. The dessert is coherent; the text has a small grammatical flaw."
+    },
+    {
+      "blind_id": "case_337f1c188326a0d3",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The bag's handle, quilting and gold emblem are preserved. Gold copy and GUCCI are added with a halo, but the bag stays centered and fills the frame, the background is black-edged rather than gray-white velvet, and the large lettering is not subtle fine type. A faint watermark crosses the lower bag in an otherwise coherent layout."
+    }
+  ]
+}

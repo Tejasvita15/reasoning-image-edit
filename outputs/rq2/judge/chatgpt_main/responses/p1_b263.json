@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b263",
+  "results": [
+    {
+      "blind_id": "case_047fae38c277f96c",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The printer's lid, controls and rear paper remain recognizable, while the white backdrop becomes a beige tabletop setting. Printed sheets now lie directly in front of the printer as requested. The page text is visibly garbled and a thick curled white edge awkwardly crosses the papers."
+    },
+    {
+      "blind_id": "case_ae9de899419c7c33",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The map boundaries, existing colored regions, timer and palette remain unchanged. Many regions are still pale blue and unfilled, so the four-color puzzle has not been completed. The diagram and interface are visually clean and legible. Instruction failure ⇒ knowledge invalid."
+    }
+  ]
+}

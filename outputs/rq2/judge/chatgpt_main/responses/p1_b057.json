@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b057",
+  "results": [
+    {
+      "blind_id": "case_bdc505bbb8ea47ea",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The controller retains its blue casing, controls and angle, but the small central logo is distorted. The gray-blue background, elevated placement and soft shadow follow the poster brief; the huge duplicated \u201cstart Start!\u201d text omits \u201cPress\u201d and the requested punctuation, compromising the restrained layout. The poster is otherwise coherent, with the malformed controller logo a small quality flaw."
+    },
+    {
+      "blind_id": "case_8e3b1b865a636023",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Marble chips have been placed inside the original tube, while its position, outline and label remain matched apart from slight label-edge texture changes. The added chips fulfill the main action, but no reaction is visible: the liquid lacks the bubbles explicitly expected from marble and hydrochloric acid. The stones, glass and lighting are visually coherent and artifact-free."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b177",
+  "results": [
+    {
+      "blind_id": "case_9f41e4a692a685f2",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Sky, clouds, sun and framing are preserved. The gull becomes an ornate golden crested fantasy bird with a narrow head, not the owl required by the instruction and knowledge explanation. Its metallic feathers, anatomy and lighting are coherent within the fantasy style. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_2fd4f40438fac05d",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The phone is only slightly wider and repositioned; it remains much narrower and shorter than the tablet rather than matching its size. The tablet and white background are retained with a small position shift. Device edges, screens, buttons and shadows are clean and coherent."
+    }
+  ]
+}

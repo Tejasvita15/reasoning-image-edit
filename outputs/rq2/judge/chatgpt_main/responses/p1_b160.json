@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b160",
+  "results": [
+    {
+      "blind_id": "case_c8d035b347538e05",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Gold gradient, bokeh and warm highlights create the requested setting, but two extra smooth balls are added, and the title reads \"worth wortd celebrating\" rather than the exact copy. The original chocolate surface details also change. Product forms are coherent, but the visibly erroneous title damages graphic quality."
+    },
+    {
+      "blind_id": "case_69254d8a4d212978",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The bag retains its shape, quilting and double-G clasp with minor clasp-detail smoothing. A halo and gold text appear, but the bag remains centered and oversized, the background lacks velvet texture, the headline uses script, and GUCCI is large rather than subtle fine lettering. The ad is coherent, with faint residual lettering across the lower bag as a small visual blemish."
+    }
+  ]
+}

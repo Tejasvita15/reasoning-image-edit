@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b116",
+  "results": [
+    {
+      "blind_id": "case_49cfc5ea284e825e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The broad forested valley and viewpoint persist, but canopy texture and foreground shrub/tree shapes change visibly. The watercourse is smoother and wider yet remains connected through its bends; there is no separated crescent-shaped oxbow lake. Instruction failure \u21d2 knowledge invalid. The edited aerial landscape itself has coherent banks, water, vegetation and sunlight without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_ff49e0952ba5e682",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The coat changes fully from golden to gray as requested. Frontal pose, dark eyes and pink nose remain recognizable, but ear contours and whiskers change, along with bark and bedding details. The edited hamster has natural anatomy, fine coherent fur, consistent lighting and no noticeable generation artifacts."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b114",
+  "results": [
+    {
+      "blind_id": "case_c538271ebc20f3e4",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Mountain silhouettes and framing remain, but foreground foliage is visibly redrawn. The sky becomes a bright blue-red nebula with scattered branching points rather than recognizable auroral curtains, so the expected high-latitude solar-activity effect is poorly implemented. Instruction failure \u21d2 knowledge invalid. The landscape is coherent, but the fragmented electrical-looking sky texture is an obvious unnatural visual feature."
+    },
+    {
+      "blind_id": "case_79f0d37c4965cc4f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The aerial composition and broad hills remain, but forest canopy details and foreground vegetation clumps change noticeably. The river is widened and smoothed while remaining a continuous S-shaped channel; no isolated crescent lake or cut-off forms. Instruction failure \u21d2 knowledge invalid. The edited river, banks, forest and sunlight are visually coherent and natural without noticeable artifacts."
+    }
+  ]
+}

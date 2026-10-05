@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b066",
+  "results": [
+    {
+      "blind_id": "case_d99375acdbd6fdaf",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "All three baguettes disappear, leaving the pale background. Removing bread addresses the action, but the requested count of two removals is exceeded: the one loaf that should remain is also lost, a clear non-instructed change. Viewed alone, the empty pale surface is smooth and coherent, without visible remnants or conspicuous artifacts."
+    },
+    {
+      "blind_id": "case_17bb1189c5dfe91d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The extra central arm is removed, leaving two anatomically plausible arms and hands, so the requested correction is achieved. The wine glass also disappears, the face is redrawn and the crossed legs and chair base shift, reducing preservation of unrelated details. The completed portrait has coherent anatomy, clothing, furniture and painterly lighting."
+    }
+  ]
+}

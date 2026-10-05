@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b040",
+  "results": [
+    {
+      "blind_id": "case_250e1b04aa90342b",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The tablet and plain background are preserved apart from a slight tablet position shift. The phone stays much narrower and shorter than the tablet, with no meaningful enlargement toward the requested match. Both devices have coherent outlines, screens and shadows."
+    },
+    {
+      "blind_id": "case_f24204122757658f",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "The grid and existing icons are preserved. All four blanks receive clear icons, but the first row duplicates umbrellas and the third and fourth rows duplicate mushrooms instead of completing the Sudoku; several row and column uniqueness constraints fail. The illustrated objects and grid are clean and structurally coherent."
+    }
+  ]
+}

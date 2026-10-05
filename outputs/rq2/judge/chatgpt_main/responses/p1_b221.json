@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b221",
+  "results": [
+    {
+      "blind_id": "case_a1df4f5c25f664c1",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The grid and eight given symbols remain unchanged. The question mark is replaced by a thick hollow square, not the required triangle with a blue circle on the bottom edge, ignoring the specified solution. The edited graphic is clean, legible and structurally coherent. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_3e15b96ae862fe35",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "The outer border, two upper diamonds and lower-left divided square remain consistent. The lower-right shape becomes square, but retains an internal cross and adds a beveled frame instead of the required plain square without middle lines. The diagram is neatly drawn with coherent, legible geometry; the internal subdivision is the clear logical conflict."
+    }
+  ]
+}

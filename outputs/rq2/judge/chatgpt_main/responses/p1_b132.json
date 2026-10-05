@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b132",
+  "results": [
+    {
+      "blind_id": "case_79b546f9628f8677",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Most matchsticks are reoriented or redrawn, with widespread changes to their red-head positions rather than one local move. The original 5\u22122=5 becomes 6\u22126=5, which is still false and requires multiple stick changes. Instruction failure \u21d2 knowledge invalid. The edited layout is readable, but the minus stick has a head at both ends and several match joints merge unnaturally."
+    },
+    {
+      "blind_id": "case_ff4be69e16300019",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "The paper is narrowed and a large new open stationery case covers its center; the original pen holder remains at the upper left. Thus the requested holder is not moved to the paper\u2019s lower-right corner. The wood setting and cup remain recognizable. The edited case contains multiple melted, tangled and semantically unclear objects with malformed compartments, producing distracting structural artifacts."
+    }
+  ]
+}

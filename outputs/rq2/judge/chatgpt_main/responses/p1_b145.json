@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b145",
+  "results": [
+    {
+      "blind_id": "case_802d9243cecee9e3",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The two cookies preserve their distinctive shapes, cracks and chocolate drizzle. The dark fabric, black slate, upper-left illumination and upper-right caption satisfy much of the design, but the viewpoint still looks downward and the caption misspells gentleness. The food and lighting are coherent; the malformed word is a noticeable typography flaw."
+    },
+    {
+      "blind_id": "case_b5c1a3beab9f176a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The extra central arm is removed and the wine glass is held by the arm connected to the right shoulder, leaving two coherent arms. Unrelated trouser folds, shoe shapes and chair details change visibly, although the sitter and room remain recognizable. The edited portrait has natural anatomy, plausible hands and consistent painterly lighting."
+    }
+  ]
+}

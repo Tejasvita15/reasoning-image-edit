@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b199",
+  "results": [
+    {
+      "blind_id": "case_29c8c82acc09508e",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "Consistency: the brass stand, base, background and four right weights remain recognizable; suspension chains are visibly redrawn. Instruction: weights are added on the correct left pan, but there are now three rather than the expected two, so the requested single addition is only partially followed. Knowledge: the left side has the wrong weight count and the beam stays level instead of tilting left as specified. Quality: coherent metal weights, chains and scale structure with natural lighting."
+    },
+    {
+      "blind_id": "case_bbfd750a14df0f83",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the original twelve symbols and grid arrangement remain visually intact. Instruction: all four blanks are filled, but each receives the wrong symbol: the expected mushroom, umbrella, squirrel and tree are replaced by squirrel and three mushroom groups, repeating symbols within rows and columns. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: clear, coherent cartoon symbols and straight grid; the new third-row mushroom has a small inconsistent cap texture."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b196",
+  "results": [
+    {
+      "blind_id": "case_90bfa024b6610161",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the tabletop, lighting and frame identity remain; the lens/nose-pad assembly shifts slightly downward. Instruction: the truncated near temple is extended into a continuous full-length arm with a rounded hooked tip, completing the glasses as requested. Quality: coherent glasses geometry, smooth metallic arms and natural surface illumination, without obvious artifacts."
+    },
+    {
+      "blind_id": "case_38d06b279be26609",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the hourglass silhouette is retained, but the white background becomes blue and the glass reflections and ground shadow change markedly. Instruction: sand still fills the upper neck and continues falling; the expected completed cycle requires an empty upper chamber, so the requested state is absent. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: coherent glass form, sand piles and lighting with no distracting structural artifacts."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b076",
+  "results": [
+    {
+      "blind_id": "case_1ed6b9f2482405c2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The chairs shift slightly, but their seats still project outside the table, especially the foreground chair, rather than being pushed underneath. Table proportions and leg positions change, as do the tabletop ornaments. The furniture remains coherent and naturally rendered, without noticeable structural artifacts."
+    },
+    {
+      "blind_id": "case_8d91d20c68c6acec",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Strings of small blue, white, red, green and yellow flags now cross the flatland, fulfilling the request and the explanation's five-colour expectation. The sky, horizon and path retain their layout, but the foreground vegetation pattern is noticeably reworked. The flag lines and landscape look coherent and naturally integrated."
+    }
+  ]
+}

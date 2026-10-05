@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b249",
+  "results": [
+    {
+      "blind_id": "case_88d2cdbfd10d959e",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The red fire engine, yellow stripes, white shutters, roof cannon and gray backdrop retain their identity, with a small change in mirror detailing. The view turns somewhat toward the side but remains a strong front three-quarter view, unlike the reference's perpendicular side profile; the front grille and windshield are still prominently visible. The edited vehicle has coherent geometry, wheels and metallic surfaces."
+    },
+    {
+      "blind_id": "case_228bffaa33bbc6ed",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "The river course, fields and sky remain recognizable, but forest textures are redrawn and a second small boat and pale oval artifact appear near the bank. The main boat is Chinese-styled, yet has a tall pavilion cabin instead of the explained low black-canopied Wu-peng form. The required boat type is only partially achieved. Its hull and reflection are readable, but an unsupported pale oval beside it and awkward cabin details are noticeable flaws."
+    }
+  ]
+}

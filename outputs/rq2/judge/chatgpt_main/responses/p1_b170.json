@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b170",
+  "results": [
+    {
+      "blind_id": "case_845ba325c3dda82e",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "A huge irregular black rock is added left of the row rather than a normal playing stone centered on the immediately adjacent intersection; it does not establish a clear five-stone winning line. Existing stones and grid remain, with a slight board-texture change. The rock and board look physically coherent with plausible shading. Instruction failure \u21d2 knowledge invalid."
+    },
+    {
+      "blind_id": "case_a97fcce9dd36b87f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "The question mark remains instead of the required 35, so the equal-ratio pattern is not completed. Large 11s are added inside the first two squares, and interior guide lines are introduced across the figures; surrounding numbers remain recognizable. The diagram is legible, though the faint fragmented interior lines are a minor visual defect. Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

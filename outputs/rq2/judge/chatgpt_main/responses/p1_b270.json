@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b270",
+  "results": [
+    {
+      "blind_id": "case_fe4d8a8a90c99cc4",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The maze and flowers remain consistent, but the girl shifts right over the maze entrance. A red line is added, yet it crosses multiple green walls, branches and ends away from the flowers instead of tracing a valid corridor route. The illustration is readable, but the stray red segment and incoherent branched path are clear visual flaws. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_7699e56583b9f089",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Many original numbers are replaced or supplemented, and large digits fill all three previously empty squares. The requested 35 is absent from the upper-right question-mark position, which instead contains a malformed character. Numerous extraneous numbers and garbled symbols make the diagram structurally incoherent. Instruction failure ⇒ knowledge invalid."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b231",
+  "results": [
+    {
+      "blind_id": "case_df595082a35bd64b",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "All columns disappear instead of leaving five. The original plain white background becomes a pale checker pattern, a noticeable unrelated background change. Viewed alone, the edited image is a clean, regular empty checker texture without structural or rendering artifacts."
+    },
+    {
+      "blind_id": "case_5367078abff15f65",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "The left pan gains two weights, making three rather than the specified two, and the beam remains level instead of tilting left. The right weights, brass stand and beige setting remain consistent with minor background-texture variation. The edited scale, chains, weights and shadows render cleanly, but count and balance behavior both conflict with the explanation."
+    }
+  ]
+}

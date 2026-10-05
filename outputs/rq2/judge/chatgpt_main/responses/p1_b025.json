@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b025",
+  "results": [
+    {
+      "blind_id": "case_48eacbfdb2795789",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "The test-tube outline, HCl label and white background are preserved. Veined marble chips are added inside the bottom of the tube, fulfilling the main addition, but the requested reaction is not visible. No bubbles rise through the liquid, conflicting with the explanation. The glass and individual stones are clean and visually coherent."
+    },
+    {
+      "blind_id": "case_5bc94d9054f86f49",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The blue backdrop, wood shavings, log and hamster pose are preserved, but the ears change shape beyond recoloring. The fur is convincingly changed from golden cream to gray as requested. The edited hamster has natural anatomy, detailed fur and coherent lighting with no visible artifacts."
+    }
+  ]
+}

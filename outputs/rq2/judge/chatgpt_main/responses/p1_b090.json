@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b090",
+  "results": [
+    {
+      "blind_id": "case_9d79c1bda1ff8850",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "The canal buildings and vegetation are preserved, but an extra passenger appears and the original left passenger's pose changes. The covered vessel becomes a recognizable open gondola with a long black hull, raised stern and metal prow, fulfilling the instruction and supplied boat identification. Small hull lettering is distorted, while the boat and water remain coherent."
+    },
+    {
+      "blind_id": "case_48806939d8811b91",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The grid and most given animal faces remain, but the lower-right raccoon is replaced by a lion. Blank cells receive mismatched bear/lion-like faces and a repeated tiger rather than the required tiger, lion, raccoon and dog; the last row repeats both lion and tiger. The colorful animal graphics are clean and coherent. Instruction failure ⇒ knowledge invalid."
+    }
+  ]
+}

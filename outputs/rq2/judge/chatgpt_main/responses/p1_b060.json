@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b060",
+  "results": [
+    {
+      "blind_id": "case_f6513c6249a0247f",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The shirt changes from black to white, fulfilling the requested recoloring while preserving its silhouette, neckline, tag and central Nike mark. The white background is unnecessarily replaced with beige textured fabric. The finished shirt and fabric setting are naturally shaded, with coherent seams and folds."
+    },
+    {
+      "blind_id": "case_05d2539a2a467401",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The glass, milk stream and splash retain their original shapes and placement. A soft gray base shadow and centered uppercase light-gray sans-serif title produce the requested minimalist white poster; the wording is present but the comma after WHITE is omitted. The edited glass, splash and typography are coherent and free of noticeable artifacts."
+    }
+  ]
+}

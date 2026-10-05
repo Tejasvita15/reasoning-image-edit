@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b245",
+  "results": [
+    {
+      "blind_id": "case_5f6040eb1d773172",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The white background and two-bag arrangement remain, but fabric folds, printed figures and drawstring details change. The right bag remains substantially taller and wider than the small bag, so the requested size match is not achieved. The edited right bag floats above its shadow, a clear grounding flaw, while the fabric and cords otherwise look coherent."
+    },
+    {
+      "blind_id": "case_eb4f8b29e6a37daa",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "The tray and rows of cans remain recognizable, but their labels and pull tabs are distorted and the tray framing shifts. A can is added horizontally on top, while the right-hand can remains beside the box, so the requested relocation is only partial. Malformed branding, warped can geometry and inconsistent support of the leaning right can create multiple distracting artifacts."
+    }
+  ]
+}
