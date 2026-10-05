@@ -4,20 +4,20 @@
     {
       "blind_id": "case_6fe00327fc31f9a3",
       "status": "ok",
-      "consistency_score": 1,
-      "instruction_score": 4,
-      "quality_score": 4,
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
       "knowledge_score": null,
-      "rationale": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The image shows a clear attempt to fulfill \"Complete the skateboard\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections."
+      "rationale": "Consistency: The blue grip surface, deck orientation and rear wheel assembly remain recognizable; raising the deck to accommodate added wheels is allowed. The surrounding concrete scuffs and background texture are redrawn beyond that necessary change. Instruction: A front truck/wheel assembly is added and the deck is lifted off the ground, but the front end still has a conspicuous ragged break and exposed torn layers. Completion is therefore only partial. Quality: The skateboard, wheels, worn wood, grip texture and ground shadows are coherent; the remaining physical damage is not a rendering artifact."
     },
     {
       "blind_id": "case_8ba2ae04e76e3c08",
       "status": "ok",
-      "consistency_score": 2,
-      "instruction_score": 3,
-      "quality_score": 4,
-      "knowledge_score": 3,
-      "rationale": "Consistency: Multiple non-instructed elements change noticeably beyond the target edit. Instruction: The main idea of \"Please draw the correct pattern at the question mark according to the pattern.\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections."
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Most of the pre-existing arc arrangements are changed, and the enclosing outer grid border is removed, substantially altering the puzzle beyond the answer cell. Instruction: The question mark remains in the bottom-right cell; no answer pattern is drawn there. Knowledge: The supplied explanation requires retaining the common parts of the two patterns in each row, but no result is provided at the requested location. Instruction failure implies knowledge invalid. Quality: Viewed alone, the arcs, internal grid lines and question mark are clean and recognizable; incorrect puzzle content is assessed separately from graphic rendering."
     }
   ]
 }

@@ -4,20 +4,20 @@
     {
       "blind_id": "case_3936bfeac8877460",
       "status": "ok",
-      "consistency_score": 4,
-      "instruction_score": 4,
-      "quality_score": 4,
-      "knowledge_score": 4,
-      "rationale": "Consistency: Most non-instructed elements are preserved, with only minor incidental differences. Instruction: The image shows a clear attempt to fulfill \"The appearance of the fruit after it matures in the image\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections."
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "Consistency: The branch, leaf shapes and veins, surrounding foliage, framing and fruit locations remain visually consistent. Changes to the fruit itself are assessed under the instructed transformation. Instruction: The green fruit changes to a ripe-looking orange color, but acquires a dimpled citrus-like rind instead of retaining the persimmons appearance and turning red. Knowledge: The supplied explanation calls specifically for red persimmons; both the orange coloration and orange-like surface conflict with that intended outcome. Quality: Assessed alone, the fruit, textured skin, leaves and branch are convincingly rendered with coherent light and depth of field."
     },
     {
       "blind_id": "case_800fe9bdd39fe0ea",
       "status": "ok",
-      "consistency_score": 2,
-      "instruction_score": 4,
-      "quality_score": 4,
-      "knowledge_score": 4,
-      "rationale": "Consistency: Multiple non-instructed elements change noticeably beyond the target edit. Instruction: The image shows a clear attempt to fulfill \"Use a red line to mark the maze path in the image where the animal receives the gift.\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections."
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The maze walls, animal and gift boxes are retained, with a small leftward shift of the overall diagram. Instruction: A red line is added toward the gifts, but it is a straight diagonal crossing multiple black walls, not a route through the maze corridors; it also stops short of the gift boxes. Knowledge: The supplied knowledge-explanation field is empty. The mandatory instruction-failure rule sets the knowledge score to 1. Quality: The maze outlines, cartoon figures and red stroke are clean and legible, without malformed objects or broken rendering; route validity is assessed separately."
     }
   ]
 }

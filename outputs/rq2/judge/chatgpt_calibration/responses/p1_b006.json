@@ -4,20 +4,20 @@
     {
       "blind_id": "case_165fac6ed179ec48",
       "status": "ok",
-      "consistency_score": 1,
-      "instruction_score": 4,
-      "quality_score": 4,
-      "knowledge_score": 4,
-      "rationale": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The image shows a clear attempt to fulfill \"Change the Beijing time in the image to Tokyo time\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections."
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The numbered circular clock remains recognizable, but its flat graphic rim becomes a shaded three-dimensional frame, the numeral styling changes, and the background gains a cast shadow. Instruction: The original eight oclock arrangement is replaced by several hands directed toward 12, 10, 2 and 8; it does not display nine oclock. Knowledge: The supplied explanation explicitly requires nine oclock, which is absent. Instruction failure implies knowledge invalid. Quality: The rim and numerals are well formed, but the multiple similarly prominent opposing hand segments create an ambiguous, implausible timekeeping display."
     },
     {
       "blind_id": "case_e490c9340b3f931b",
       "status": "ok",
       "consistency_score": 2,
-      "instruction_score": 4,
-      "quality_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
       "knowledge_score": null,
-      "rationale": "Consistency: Multiple non-instructed elements change noticeably beyond the target edit. Instruction: The image shows a clear attempt to fulfill \"Based on the given image, draw the top view of the object.\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections."
+      "rationale": "Consistency: The black jacket, orange shoulder stripes, front zipper and chest wordmark are recognizable. However, its shaded material rendering changes to conspicuous ink-like outlines and hatching, and the gray background becomes white. Instruction: The edited jacket retains essentially the original oblique frontal view, showing the long torso and chest. The reference instead looks down through the collar opening and strongly foreshortens the torso; that top-down geometry is missing. Quality: Assessed as a standalone illustration, the collar, sleeves, cuffs, seams and wordmark are clean and structurally coherent."
     }
   ]
 }

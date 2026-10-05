@@ -4,20 +4,20 @@
     {
       "blind_id": "case_7265b4e938c59100",
       "status": "ok",
-      "consistency_score": 2,
-      "instruction_score": 4,
-      "quality_score": 4,
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
       "knowledge_score": null,
-      "rationale": "Consistency: Multiple non-instructed elements change noticeably beyond the target edit. Instruction: The image shows a clear attempt to fulfill \"Complete the stone wall\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections."
+      "rationale": "Consistency: The tiled floor, two loose stones, room framing and outer wall edges are preserved. A broad area of previously intact rough wall outside the hole is replaced by smooth rectangular blocks, changing a clear non-target surface. Instruction: The large opening is fully closed with a continuous masonry surface and no exposed white gap remains. Quality: The block joints, surface shading and floor perspective are coherent; the completed wall has no obvious gaps, ghosting or distorted geometry."
     },
     {
       "blind_id": "case_4bdb9440453dab65",
       "status": "ok",
-      "consistency_score": 2,
-      "instruction_score": 4,
-      "quality_score": 4,
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
       "knowledge_score": null,
-      "rationale": "Consistency: Multiple non-instructed elements change noticeably beyond the target edit. Instruction: The image shows a clear attempt to fulfill \"create a cat promotional poster\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections."
+      "rationale": "Consistency: The central lantern retains its silhouette, red panels, gold decorative ribs, suspension cord and tassel. The new background, foliage, petals and glow are explicitly requested and are not penalized. Instruction: The festive red-gold background, golden foliage, petals, sparkles and centered lantern are present. However, the exact Welcoming Spring Festival headline is missing, and a merged New Year/in Lights message lies across the lantern rather than providing separate top and bottom text. Quality: The lantern and decorations are coherent, but overlapping gold script and gold ornamentation create a conspicuous tangled, difficult-to-read text area."
     }
   ]
 }
