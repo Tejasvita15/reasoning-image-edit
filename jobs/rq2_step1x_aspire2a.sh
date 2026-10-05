@@ -40,15 +40,33 @@
 #        qsub -v STAGE=check_2_1 -l select=1:ncpus=4:mem=16G jobs/rq2_step1x_aspire2a.sh
 #      With the optional points:
 #        qsub -v "STAGE=check_2_1,CFGS=2 4 6 8 10" -l select=1:ncpus=4:mem=16G jobs/rq2_step1x_aspire2a.sh
+#
+#   6. RQ2.2 quality runs: 20 and 28 steps at guidance 6, thinking off/on
+#      (360 images; the 50-step points are the RQ2.1 runs):
+#        qsub -v STAGE=rq2_2 jobs/rq2_step1x_aspire2a.sh
+#
+#   7. RQ2.2 latency, all 6 configurations in one job on one node
+#      (10 K-dev examples, warm-up, median of 3 repeats):
+#        qsub -v STAGE=rq2_2_timing jobs/rq2_step1x_aspire2a.sh
+#
+#   8. Validate the RQ2.2 runs (and the timing run, if present):
+#        qsub -v STAGE=check_2_2 -l select=1:ncpus=4:mem=16G jobs/rq2_step1x_aspire2a.sh
 # =============================================================
 
 set -eo pipefail
 
-STAGE=${STAGE:?set STAGE to smoke, s7, cache, rq2_1 or check_2_1}
+STAGE=${STAGE:?set STAGE to smoke, s7, cache, rq2_1, check_2_1, rq2_2, rq2_2_timing or check_2_2}
 SEED=${SEED:-42}
 THINKING=${THINKING:-"off cached"}
 CFGS=${CFGS:-"2 6 10"}
 TIMING_REPEATS=${TIMING_REPEATS:-1}
+
+# RQ2.2: the guidance selected in RQ2.1 (6 for both thinking modes) and the
+# new step counts. The 50-step points are the RQ2.1 runs.
+CFG_2_2=${CFG_2_2:-6}
+STEPS_2_2=${STEPS_2_2:-"20 28"}
+N_TIMING=${N_TIMING:-10}
+TIMING_REPEATS_2_2=${TIMING_REPEATS_2_2:-3}
 
 # RQ2.1 is fixed at 50 steps, reflection off (configs/rq2/step1x.yaml).
 STEPS=50
@@ -166,7 +184,7 @@ smoke)
     python -m src.rq2.run_rq2 "${COMMON[@]}" \
         --thinking live --true_cfg_scale 6
 
-    python -m src.rq2.check_2_1 \
+    python -m src.rq2.check_rq2 \
         --log_dir "$LOGS" --split k_dev --seed "$SEED" --expected_n 2 \
         --thought_cache "$CACHE" --rep_label rep
     ;;
@@ -241,10 +259,87 @@ rq2_1)
     ;;
 
 check_2_1)
-    python -m src.rq2.check_2_1 \
+    python -m src.rq2.check_rq2 \
         --log_dir logs/rq2 --split k_dev --seed "$SEED" --expected_n 90 \
         --thinking $THINKING --cfgs $CFGS \
         --thought_cache "$KDEV_CACHE"
+    ;;
+
+rq2_2)
+    # RQ2.2 quality runs: new step counts at the RQ2.1-selected guidance
+    # (CFG_2_2, 6 for both thinking modes). The 50-step points are the RQ2.1
+    # runs and are reused. Separate output/log roots keep the RQ2.2 judging
+    # bundle to these runs only. Thinking replays the exact RQ2.1 thoughts.
+    if [ ! -f "$KDEV_CACHE" ]; then
+        echo "Missing $KDEV_CACHE (built in RQ2.1); pull rq2_john first."
+        exit 1
+    fi
+
+    for STEP in $STEPS_2_2; do
+        python -m src.rq2.run_rq2 \
+            --config "$CONFIG" --splits "$SPLITS" --split k_dev --seed "$SEED" \
+            --subquestion 2.2 --num_inference_steps "$STEP" \
+            --thinking off cached --true_cfg_scale "$CFG_2_2" \
+            --thought_cache "$KDEV_CACHE" \
+            --output_dir outputs/rq2_2 --log_dir logs/rq2_2 \
+            --timing_repeats "$TIMING_REPEATS"
+    done
+    ;;
+
+rq2_2_timing)
+    # RQ2.2 latency: every configuration (thinking off/on x STEPS_2_2 and 50
+    # steps, guidance CFG_2_2) timed in this one job on one node, after
+    # warm-up, as the median of TIMING_REPEATS_2_2 repeats, on a fixed
+    # stratified K-dev subset. Thinking is timed on the same node too.
+    OUT=outputs/rq2_2_timing
+    LOGS=logs/rq2_2_timing
+    CACHE=$OUT/thought_cache/k_dev_n${N_TIMING}_seed${SEED}.jsonl
+
+    # All timings must come from one job: never resume a partial run.
+    if [ -e "$LOGS" ]; then
+        echo "$LOGS exists. Timings must come from a single job; remove"
+        echo "$LOGS and $OUT to measure again."
+        exit 1
+    fi
+
+    python -m src.rq2.build_thought_cache \
+        --config "$CONFIG" --splits "$SPLITS" --split k_dev --seed "$SEED" \
+        --n_examples "$N_TIMING" --timing_repeats "$TIMING_REPEATS_2_2" \
+        --out "$CACHE"
+
+    for STEP in $STEPS_2_2 50; do
+        python -m src.rq2.run_rq2 \
+            --config "$CONFIG" --splits "$SPLITS" --split k_dev --seed "$SEED" \
+            --n_examples "$N_TIMING" \
+            --subquestion 2.2 --num_inference_steps "$STEP" \
+            --thinking off cached --true_cfg_scale "$CFG_2_2" \
+            --thought_cache "$CACHE" --timing_repeats "$TIMING_REPEATS_2_2" \
+            --output_dir "$OUT" --log_dir "$LOGS"
+    done
+    ;;
+
+check_2_2)
+    CHECK_STATUS=0
+
+    # STEPS_2_2 is intentionally unquoted (space-separated list).
+    python -m src.rq2.check_rq2 \
+        --log_dir logs/rq2_2 --split k_dev --seed "$SEED" --expected_n 90 \
+        --thinking off cached --cfgs "$CFG_2_2" --steps $STEPS_2_2 \
+        --thought_cache "$KDEV_CACHE" || CHECK_STATUS=1
+
+    # Timing run: same thoughts as RQ2.1, and images identical to the
+    # RQ2.1 (50 steps) and RQ2.2 (other steps) images.
+    if [ -d logs/rq2_2_timing ]; then
+        python -m src.rq2.check_rq2 \
+            --log_dir logs/rq2_2_timing --split k_dev --seed "$SEED" \
+            --expected_n "$N_TIMING" \
+            --thinking off cached --cfgs "$CFG_2_2" --steps $STEPS_2_2 50 \
+            --thought_cache outputs/rq2_2_timing/thought_cache/k_dev_n${N_TIMING}_seed${SEED}.jsonl \
+            --reference_cache "$KDEV_CACHE" \
+            --reference_log_dir logs/rq2 logs/rq2_2 || CHECK_STATUS=1
+    fi
+
+    exit $CHECK_STATUS
     ;;
 
 *)

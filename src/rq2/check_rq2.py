@@ -1,15 +1,20 @@
-# src/rq2/check_2_1.py
+# src/rq2/check_rq2.py
 
 """
-Validate RQ2.1 generation logs before handing outputs to the judge.
+Validate RQ2.1 / RQ2.2 generation logs before handing outputs to the judge.
 
-    python -m src.rq2.check_2_1 --log_dir logs/rq2 \
+    python -m src.rq2.check_rq2 --log_dir logs/rq2 \
+        --thought_cache outputs/rq2/thought_cache/k_dev_seed42.jsonl \
+        --expected_n 90
+
+    # RQ2.2: guidance 6, 20 and 28 steps
+    python -m src.rq2.check_rq2 --log_dir logs/rq2_2 --cfgs 6 --steps 20 28 \
         --thought_cache outputs/rq2/thought_cache/k_dev_seed42.jsonl \
         --expected_n 90
 
 Checks:
-    - completeness: every (thinking, cfg) grid point has expected_n rows
-    - flags: 50 steps, reflection off, one attempt, cfg as named
+    - completeness: every (thinking, cfg, steps) grid point has expected_n rows
+    - flags: steps as named, reflection off, one attempt, cfg as named
     - replay: thinking-off rows used the raw instruction; cached rows used
       the cached rewrite, identical across every cfg value
     - noise: one diffusion seed per example across all conditions
@@ -17,6 +22,8 @@ Checks:
     - labelled repeats (--rep_label) match the main run (S7 tolerance)
     - live-thinking rows reproduce the cached rewrite and image
       (replay equivalence)
+    - optional: rewrites match a reference thought cache, and images match
+      the same (condition, example) in reference log directories
 
 Prints a per-condition summary and exits 1 if any check fails.
 """
@@ -73,7 +80,7 @@ def fmt(value, digits=2):
 def main():
 
     parser = argparse.ArgumentParser(
-        description="Check RQ2.1 logs."
+        description="Check RQ2 generation logs (RQ2.1, RQ2.2)."
     )
 
     parser.add_argument("--log_dir", required=True, type=Path)
@@ -82,10 +89,14 @@ def main():
     parser.add_argument("--experiment_name", default="rq2_step1x")
     parser.add_argument("--thinking", nargs="+", default=["off", "cached"])
     parser.add_argument("--cfgs", nargs="+", type=float, default=[2, 6, 10])
-    parser.add_argument("--steps", type=int, default=50)
+    parser.add_argument("--steps", nargs="+", type=int, default=[50])
     parser.add_argument("--expected_n", type=int, required=True)
     parser.add_argument("--thought_cache", type=Path, default=None)
     parser.add_argument("--rep_label", default=None)
+    parser.add_argument("--reference_cache", type=Path, default=None,
+                        help="Rewrites must equal this cache for shared examples.")
+    parser.add_argument("--reference_log_dir", type=Path, nargs="+", default=[],
+                        help="Images must equal the same condition/example here.")
 
     args = parser.parse_args()
 
@@ -113,11 +124,12 @@ def main():
     # =========================================================
 
     expected = {
-        (thinking, cfg): condition_name(
-            args.experiment_name, thinking, cfg, args.steps
+        (thinking, cfg, steps): condition_name(
+            args.experiment_name, thinking, cfg, steps
         )
         for thinking in args.thinking
         for cfg in args.cfgs
+        for steps in args.steps
     }
 
     for name in expected.values():
@@ -140,7 +152,7 @@ def main():
         where = f"{row['condition']} {row['example_uid']}"
         thinking = row.get("thinking_condition")
 
-        if row["num_inference_steps"] != args.steps:
+        if row["num_inference_steps"] not in args.steps:
             fail(f"{where}: steps {row['num_inference_steps']}")
 
         if row["reflection_enabled"] or row["max_try_cnt"] != 1:
@@ -149,7 +161,7 @@ def main():
         if row["attempt_count"] != 1:
             fail(f"{where}: attempt_count {row['attempt_count']}")
 
-        expected_calls = args.steps * (2 if row["true_cfg_scale"] > 1 else 1)
+        expected_calls = row["num_inference_steps"] * (2 if row["true_cfg_scale"] > 1 else 1)
 
         if row.get("generator_calls") != expected_calls:
             fail(f"{where}: generator_calls {row.get('generator_calls')}")
@@ -231,21 +243,19 @@ def main():
     # Pairwise image checks
     # =========================================================
 
-    def image_of(thinking, cfg, label=None):
+    def image_of(thinking, cfg, steps, label=None):
         name = condition_name(
-            args.experiment_name, thinking, cfg, args.steps, label
+            args.experiment_name, thinking, cfg, steps, label
         )
         return rows.get(name, {})
 
     print("\nPairwise checks")
 
-    for thinking in args.thinking:
-        low = image_of(thinking, min(args.cfgs))
-        high = image_of(thinking, max(args.cfgs))
+    def dial_effect(description, low, high):
         shared = sorted(set(low) & set(high))
 
         if not shared:
-            continue
+            return
 
         mads = [
             mean_abs_diff(low[uid]["output_path"], high[uid]["output_path"])
@@ -254,15 +264,31 @@ def main():
 
         # Sanity only: the dial should change the image.
         print(
-            f"  guidance effect {thinking} cfg{min(args.cfgs):g} vs "
-            f"cfg{max(args.cfgs):g}: median MAD {statistics.median(mads):.3f}, "
+            f"  {description}: median MAD {statistics.median(mads):.3f}, "
             f"{sum(m == 0.0 for m in mads)}/{len(mads)} unchanged"
         )
 
+    for thinking in args.thinking:
+        for steps in args.steps:
+            if len(args.cfgs) > 1:
+                dial_effect(
+                    f"guidance effect {thinking} steps{steps} cfg{min(args.cfgs):g} vs cfg{max(args.cfgs):g}",
+                    image_of(thinking, min(args.cfgs), steps),
+                    image_of(thinking, max(args.cfgs), steps),
+                )
+
+        for cfg in args.cfgs:
+            if len(args.steps) > 1:
+                dial_effect(
+                    f"steps effect {thinking} cfg{cfg:g} steps{min(args.steps)} vs steps{max(args.steps)}",
+                    image_of(thinking, cfg, min(args.steps)),
+                    image_of(thinking, cfg, max(args.steps)),
+                )
+
     if args.rep_label:
-        for (thinking, cfg), name in expected.items():
+        for (thinking, cfg, steps), name in expected.items():
             main_rows = rows.get(name, {})
-            rep_rows = image_of(thinking, cfg, args.rep_label)
+            rep_rows = image_of(thinking, cfg, steps, args.rep_label)
 
             for uid in sorted(set(main_rows) & set(rep_rows)):
                 mad = mean_abs_diff(
@@ -275,9 +301,9 @@ def main():
                 if mad >= MAD_TOLERANCE:
                     fail(f"S7 repeat {name} {uid}: MAD {mad:.4f}")
 
-    for cfg in args.cfgs:
-        live_rows = image_of("live", cfg)
-        cached_rows = image_of("cached", cfg)
+    for cfg, steps in ((c, s) for c in args.cfgs for s in args.steps):
+        live_rows = image_of("live", cfg, steps)
+        cached_rows = image_of("cached", cfg, steps)
 
         for uid in sorted(set(live_rows) & set(cached_rows)):
             live = live_rows[uid]
@@ -303,6 +329,49 @@ def main():
                 fail(f"{uid}: replay image differs from live thinking")
 
     # =========================================================
+    # Reference checks (optional)
+    # =========================================================
+
+    if args.reference_cache:
+        with open(args.reference_cache, "r", encoding="utf-8") as f:
+            reference = {
+                r["example_uid"]: r["rewrite"]
+                for r in map(json.loads, filter(str.strip, f))
+            }
+
+        shared = sorted(set(cache) & set(reference))
+
+        if not shared:
+            fail("no examples shared with the reference cache")
+
+        differing = [uid for uid in shared if cache[uid]["rewrite"] != reference[uid]]
+
+        print(f"  rewrites vs reference cache: {len(shared) - len(differing)}/{len(shared)} identical")
+
+        for uid in differing:
+            fail(f"{uid}: rewrite differs from the reference cache")
+
+    for reference_dir in args.reference_log_dir:
+        reference_rows, _ = load_rows(reference_dir, args.split, args.seed)
+        compared = identical = 0
+
+        for name, by_uid in rows.items():
+            for uid, row in by_uid.items():
+                other = reference_rows.get(name, {}).get(uid)
+
+                if other is None:
+                    continue
+
+                compared += 1
+                mad = mean_abs_diff(row["output_path"], other["output_path"])
+                identical += mad == 0.0
+
+                if mad >= MAD_TOLERANCE:
+                    fail(f"{name} {uid}: image differs from {reference_dir} (MAD {mad:.4f})")
+
+        print(f"  images vs {reference_dir}: {identical}/{compared} pixel-identical")
+
+    # =========================================================
     # Summary
     # =========================================================
 
@@ -325,7 +394,7 @@ def main():
         )
 
     print(f"\nOffload mode: {sorted(map(str, offload_modes))}")
-    print("RQ2.1 check:", "PASS" if not problems else f"FAIL ({len(problems)})")
+    print("RQ2 check:", "PASS" if not problems else f"FAIL ({len(problems)})")
 
     sys.exit(0 if not problems else 1)
 
