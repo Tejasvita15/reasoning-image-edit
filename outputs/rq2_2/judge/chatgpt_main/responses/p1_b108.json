@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b108",
+  "results": [
+    {
+      "blind_id": "case_5d81a0d07c3ff65a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "A group of balloons is added floating high above the bed instead of a single regular-air balloon resting on the floor. This contradicts the supplied physical expectation. The room layout remains recognizable but carved wall-panel details and bedding folds are noticeably altered. The edited room and balloon surfaces are visually coherent with natural lighting and no obvious structural artifacts."
+    },
+    {
+      "blind_id": "case_ea592aaa2f1aca87",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "The sea becomes glossy dark patches, attempting an oil-covered surface, but lacks the requested rainbow sheen and instead resembles polygonal cracked sheets. Sky and horizon remain consistent. The broad perspective and reflections are coherent; the sharply segmented surface texture is a minor naturalness issue."
+    }
+  ]
+}

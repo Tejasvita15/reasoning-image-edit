@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b121",
+  "results": [
+    {
+      "blind_id": "case_8e3a7185697874b8",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "Consistency: the two glass positions and gray setting remain, but conspicuous brown particulate texture is introduced into both drinks. Instruction: left-entering red light is present, yet it crosses above most of the milk and extra vertical beams dominate. Knowledge: the horizontal beam does not visibly penetrate both milk volumes, and unexplained vertical paths conflict with the stated transmitted-beam behavior. Quality: recognizable glasses, but the mottled liquid and broad intersecting luminous streaks look artificial."
+    },
+    {
+      "blind_id": "case_78061758d13bcbe5",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the grid and eight existing shapes are preserved. Instruction: the lower-right question mark is retained inside a new outlined polygon instead of being replaced by a hexagon containing two small circles. Knowledge: Instruction failure \u21d2 knowledge invalid. Quality: the black-and-white diagram has coherent boundaries and clear symbols without distracting artifacts."
+    }
+  ]
+}

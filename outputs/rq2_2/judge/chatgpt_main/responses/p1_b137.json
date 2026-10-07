@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b137",
+  "results": [
+    {
+      "blind_id": "case_4d8fe490dd080184",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the supplied squirrel, tree, umbrella and mushroom icons remain, but the white background becomes beige graph paper and the main grid becomes turquoise. Instruction: all four originally empty cells remain empty; no Sudoku contents are completed. Knowledge: Instruction failure \u21d2 knowledge invalid. Quality: icons are clear, but the dense superimposed grid creates minor visual clutter and uneven doubled lines."
+    },
+    {
+      "blind_id": "case_fb4547222545c682",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the printer body and white background remain recognizable, while a large upper feed recess is introduced and the rear paper changes position and width. Instruction: a printed sheet now lies in front of the printer, satisfying the placement. Quality: the hardware and paper perspective are coherent, but document heading and body text contain obvious malformed characters."
+    }
+  ]
+}

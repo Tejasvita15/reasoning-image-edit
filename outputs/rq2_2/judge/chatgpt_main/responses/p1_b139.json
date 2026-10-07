@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b139",
+  "results": [
+    {
+      "blind_id": "case_cdfcf27865bc3568",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the black wall layout and gift drawings remain, with slight simplification of the bear. Instruction: a red arrow points from the bear toward the gifts but crosses the intervening walls instead of marking a valid maze route. Knowledge: Instruction failure \u21d2 knowledge invalid. Quality: the maze, illustrations and arrow are clean and structurally clear."
+    },
+    {
+      "blind_id": "case_65ed78da3b39f307",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background remains, but the small bag changes contour and position, while rope loops, knots and printed motifs are redrawn. Instruction: the right bag is only slightly reduced and remains far taller and wider than the left bag, missing the requested size match. Quality: both burlap bags have coherent woven texture, drawstrings, beads and natural shadows."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b180",
+  "results": [
+    {
+      "blind_id": "case_1fec8fc4fea9e961",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The blue upholstery, wooden legs and white background are retained, with only a subtle upholstery-texture variation. The sofa remains side-on with overlapping back cushions and a broad side panel, instead of the frontal three-cushion arrangement in the reference, so the viewpoint change fails. The edited sofa has coherent construction and natural fabric texture without visible artifacts."
+    },
+    {
+      "blind_id": "case_9e1871970b6545ba",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "All three baguettes disappear, whereas removing two should leave one. This implements removal but gets the required count wrong. The pale background is retained, but the additional remaining baguette is also removed, a clear non-requested change. Viewed alone, the edited pale surface is smooth and coherent without obvious seams or remnants."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b114",
+  "results": [
+    {
+      "blind_id": "case_34e5a88a4b2e13fd",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "The girl is moved right, maze walls gain an extra top connection, and the flower cluster is redrawn with additional blooms. A red line appears but cuts through several green walls and stops inside the maze instead of reaching the flowers through open corridors. Instruction failure makes knowledge invalid. The girl's feet are distorted and the flowers contain scattered malformed fragments, producing multiple visual flaws."
+    },
+    {
+      "blind_id": "case_fd128456035c56ff",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The flat clock becomes a shaded three-dimensional clock with different numeral styling, rim and background shadow. Its hands point toward 12, 10 and along a diagonal toward 2 and 8, rather than giving the required 9 o'clock. Instruction failure makes knowledge invalid. The face is legible, but the excessive long hand branches make the clock's mechanism visually confused."
+    }
+  ]
+}

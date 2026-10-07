@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b150",
+  "results": [
+    {
+      "blind_id": "case_dedd2c1f75728b91",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Board, other symbols, blank tiles and white background remain, with a small change in wood grain on an existing tile. Instruction: The bottom-left block now presents a clear X face. Knowledge: Three Xs complete the left column, providing the requested win. Quality: Clear symbols, coherent wooden geometry and natural shadows."
+    },
+    {
+      "blind_id": "case_3a99b345b673dbfb",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Background and orange front remain, but the left face changes from blue to red. Instruction: Part of the missing top is filled, yet a large black recess remains and the cube is not complete. Quality: The top has an obvious structural cavity and uneven projecting blocks despite clean colored stickers."
+    }
+  ]
+}

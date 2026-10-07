@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b036",
+  "results": [
+    {
+      "blind_id": "case_27d9b92c531a41b8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "The branching organism is changed from pink to white, fully matching both the instruction and supplied whitening explanation. Its overall arrangement and underwater setting remain recognizable, but branch surface structure and surrounding reef textures change noticeably. The edited white branches, blue water and fish form a coherent underwater image without obvious artifacts."
+    },
+    {
+      "blind_id": "case_1c09a1a6109d4a17",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "The crowned person's pose, white shirt and joyful expression remain recognizable, but facial details and skin texture are altered. Rainbow color, radiance, balloons, confetti and fireworks fulfill much of the poster request; however, the oversized title is partly blocked and malformed, and stray glyphs interrupt the tagline. Distorted lettering and mottled, smeared skin/hand textures are multiple distracting quality defects."
+    }
+  ]
+}

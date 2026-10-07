@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b010",
+  "results": [
+    {
+      "blind_id": "case_5acaf20d3734778d",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the tablet shifts slightly and its bezel/screen proportions change, while the pale surface remains consistent. Instruction: the phone is marginally wider but still markedly narrower and shorter than the tablet; most of the required enlargement is absent. Quality: clean rectangular devices, coherent screens and controls, and natural contact shadows without conspicuous artifacts."
+    },
+    {
+      "blind_id": "case_f6e4b42bb52aeb27",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the floor tiles, two loose stones, framing and light remain, but the intact wall surface has been replaced by conspicuous block masonry. Instruction: the large central opening remains fully open rather than being filled to complete the wall. Quality: viewed alone, the blockwork, rough broken opening and floor perspective form a coherent, naturally shaded stone interior."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b071",
+  "results": [
+    {
+      "blind_id": "case_ad728af957066a68",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the original adapter remains on the left, while the cable coil and connector position change and a second adapter is introduced. Instruction: a new three-prong adapter appears in front of the coil, instead of moving the original two-prong adapter into its center; the required placement is largely missed. Quality: clean white surfaces are undermined by the unusual three aligned plug blades and an awkward partly concealed cable connector."
+    },
+    {
+      "blind_id": "case_011fb25e829f79c3",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the hill contours and broad vegetation layout remain, but forest canopy textures and several foreground bushes are visibly redrawn. Instruction: the river still follows an uninterrupted S-shaped channel, with no cut-off crescent lake. Knowledge: the expected separation of an oxbow lake from the main river does not occur; instruction failure \u21d2 knowledge invalid. Quality: the forest, banks, water reflections and aerial perspective are visually coherent."
+    }
+  ]
+}

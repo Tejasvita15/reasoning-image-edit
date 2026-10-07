@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b161",
+  "results": [
+    {
+      "blind_id": "case_ed9dfcc4ec0ae925",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "The rail, background and left ball remain recognizable, with a small leftward shift of the rail edge. A matching orange ball is added at the right top, approximately matching the original elevation, though its center is slightly higher. This substantially depicts the energy-conserving maximum with a small height discrepancy. The spheres and metal rail have coherent shading and clean contours."
+    },
+    {
+      "blind_id": "case_378d4e7a8153da19",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The map outlines, existing colors, timer and controls are unchanged. No blank region is filled, whereas completion requires coloring the remaining map regions. Instruction failure \u21d2 knowledge invalid. The edited game screenshot is clean, legible and structurally coherent."
+    }
+  ]
+}

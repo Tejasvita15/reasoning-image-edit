@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b041",
+  "results": [
+    {
+      "blind_id": "case_3971d1bf44ae79c4",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the two chocolates, foil folds and striped cup are preserved, with slight changes to nut-surface detail. Instruction: the lower central pair, warm upper-right light and gold backdrop are present, but the title reads 'mooment' and 'wortf', and dense bright bokeh is less restrained than requested. Quality: coherent product shapes and reflections, but visibly misspelled display text is a clear semantic flaw."
+    },
+    {
+      "blind_id": "case_5173f3b035754a52",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: nearly every matchstick has been repositioned or reversed, changing all the numeral structures. Instruction: the original 5-2=5 becomes malformed, disconnected symbols rather than a correct equation obtained by one move. Knowledge: no valid arithmetic result is shown; Instruction failure implies knowledge invalid. Quality: multiple broken and ambiguous numeral/operator shapes undermine the diagram despite coherent match textures."
+    }
+  ]
+}

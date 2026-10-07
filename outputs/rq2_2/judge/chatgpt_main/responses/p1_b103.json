@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b103",
+  "results": [
+    {
+      "blind_id": "case_feeb6d6bf8bea7ae",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The main wrapped and unwrapped chocolates retain recognizable shapes and packaging, but two extra smooth balls are added. The gold background, upper-right light, bokeh and upper-left brown title satisfy the broad poster direction; the title reads 'mooment' and 'wortd' and the composition contains four balls rather than two. Those conspicuous text errors reduce standalone quality despite coherent product lighting."
+    },
+    {
+      "blind_id": "case_17be28eec9cf52c3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "The board is lowered and its outline changed, with an extra truck and wheels placed on top. The requested repair remains incomplete because the front edge is still jagged and splintered. Multiple superfluous wheels and the topside axle make the skateboard structurally implausible, though the concrete background remains recognizable."
+    }
+  ]
+}

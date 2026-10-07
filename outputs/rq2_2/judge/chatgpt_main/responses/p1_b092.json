@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b092",
+  "results": [
+    {
+      "blind_id": "case_b8f3d0f8dd14d746",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "The outer numbers remain, but the first two squares acquire large 11 labels and all squares gain internal guide lines. The rightmost question mark is untouched instead of becoming 35, so the supplied equal-ratio rule is not applied. Instruction failure implies knowledge invalid. Text remains readable, with minor uneven fading of the added guide lines."
+    },
+    {
+      "blind_id": "case_0271294963445b6b",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The clear fluted plate and white setting are broadly retained, but the apple that should remain is also removed. The count changes from six to zero instead of one, missing the requested endpoint. The empty plate is coherent overall, with a slight irregularity in the reconstructed radial grooves."
+    }
+  ]
+}

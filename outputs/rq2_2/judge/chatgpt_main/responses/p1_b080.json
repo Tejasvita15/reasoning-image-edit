@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b080",
+  "results": [
+    {
+      "blind_id": "case_a3443d1d795ebe6f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "The left forest is convincingly replaced by houses and access streets, with fewer trees and more buildings exactly matching urbanization and its explanation. The main road alignment remains, but right-side roof shapes and tree textures are visibly altered. The edited aerial scene has a conspicuous building-scale mismatch across the road and some irregular fused roofs."
+    },
+    {
+      "blind_id": "case_7a8e7a26ce464083",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The round blue stone and gold mount are retained, with a slight change in chain-link form. A centered grey-blue gradient and the requested sentence are added, but the title is bold sans-serif instead of fine serif, the backdrop lacks evident velvet texture, and the pendant remains low rather than upper-central. The final jewelry composition is clean, with legible text and coherent reflective surfaces."
+    }
+  ]
+}

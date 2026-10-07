@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b015",
+  "results": [
+    {
+      "blind_id": "case_5203fe2bf8b89c33",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the paper, wooden tabletop, coffee cup and existing stationery scene remain consistent outside the requested holder placement. Instruction: a holder appears at the lower-right corner, but the original remains at upper left, so the object is duplicated rather than moved. Quality: coherent tabletop perspective and shadows, with a small muddled marking on the new holder's central pen cap."
+    },
+    {
+      "blind_id": "case_c4984899d945689b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the bowls, fruit and composition remain recognizable, but the napkin and spoon acquire broad blue staining and the raspberries pick up blue patches outside the intended liquid change. Instruction: the yogurt surface changes blue rather than the expected red or pink. Knowledge: the supplied acidic-yogurt expectation is contradicted; instruction failure ⇒ knowledge invalid. Quality: coherent food and bowl forms, though the diffuse blue spill/reflection across the napkin looks unnaturally airbrushed."
+    }
+  ]
+}

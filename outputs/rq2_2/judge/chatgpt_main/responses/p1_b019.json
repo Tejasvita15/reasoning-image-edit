@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b019",
+  "results": [
+    {
+      "blind_id": "case_452d67457507dc2b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the board and wood background remain, but the central O becomes an X and an unrequested O is added at bottom middle. Instruction: several Xs are added across the middle row while the actual winning top-middle square remains empty, so this is not the requested single winning move. Knowledge: the altered board also gives O a full bottom row and changes existing play illegally; instruction failure ⇒ knowledge invalid. Quality: the colored symbols, beveled grid and wood texture are visually coherent and clean."
+    },
+    {
+      "blind_id": "case_9f93a8572babf042",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the original adapter remains on the left, an unrelated second adapter is introduced, and the cable's connector details change. Instruction: the original adapter is not moved into the cable loop; the added block sits outside its center. Quality: the white product forms and shadows are coherent, but the right cable connector has an unusually blank, featureless tip."
+    }
+  ]
+}

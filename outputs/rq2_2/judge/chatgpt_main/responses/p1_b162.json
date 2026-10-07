@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b162",
+  "results": [
+    {
+      "blind_id": "case_758e1b4493a55d0d",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "The canal buildings, vegetation and water setting remain stable, but an extra seated passenger appears. The covered vessel becomes an open black gondola with raised ends and a characteristic bow fitting, fulfilling the requested Venetian type and the knowledge expectation. The image is coherent with slight smoothing around passenger details."
+    },
+    {
+      "blind_id": "case_a681976c8819e204",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The white background remains stable, but the tablet is slightly shifted and reshaped. The phone is enlarged somewhat, yet remains much narrower and shorter than the tablet, so the required size match is incomplete. Both devices have coherent rectangular forms, screens and natural shadows without noticeable artifacts."
+    }
+  ]
+}

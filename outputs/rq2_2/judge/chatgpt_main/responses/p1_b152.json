@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b152",
+  "results": [
+    {
+      "blind_id": "case_579764be1c7925aa",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Controller shape, blue color and button layout remain, with the touchpad texture simplified. Instruction: Blue-gray background, shadow and lower bold text are added, but the title reads PREST START without the requested period and grain is not evident. Quality: Controller and background are coherent, but malformed wording and the distorted A descender visibly weaken typography."
+    },
+    {
+      "blind_id": "case_98865c5f43aab27d",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Main road and right-side layout remain, but many right-side roof details are visibly redrawn. Instruction: Left-side forest is replaced by numerous buildings, streets and a circular complex. Knowledge: Trees decrease and buildings increase on the specified side as expected. Quality: Coherent aerial layout with slightly blended building-edge details on the left."
+    }
+  ]
+}

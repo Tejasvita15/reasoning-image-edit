@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b087",
+  "results": [
+    {
+      "blind_id": "case_4b6a72d94fb0492e",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The lenses, nose pads, tabletop grain and lighting remain consistent. The truncated near temple is extended into a complete rounded curved earpiece, fulfilling the repair. Both arms have coherent continuous geometry and natural reflections without visible joins."
+    },
+    {
+      "blind_id": "case_2c2e32299b9e1b52",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The pale background is retained, but the third baguette that should remain is also removed. All three loaves disappear rather than exactly two, so the removal is only partly compliant. Evaluated alone, the resulting empty pale surface is clean and free of obvious fill artifacts."
+    }
+  ]
+}

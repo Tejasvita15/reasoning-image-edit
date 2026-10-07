@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b107",
+  "results": [
+    {
+      "blind_id": "case_325b6a7f48253694",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The left cup remains distinctly smaller than the right, with no meaningful enlargement to match it. The right cup and its bean arrangement are redrawn and shifted, and saucer contours change. Judged alone, both porcelain cups and coffee beans have coherent shapes, highlights and shadows."
+    },
+    {
+      "blind_id": "case_06a39a19118432de",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The display changes from 28.7 to 118.2 rather than the approximately 31.7 required by the supplied three-degree increase. Instruction failure implies knowledge invalid. Blue-and-white casing, buttons, labels and probe remain, with a slight framing shift. The leading display segments are oddly doubled and misaligned, a clear symbol-quality flaw in an otherwise coherent product image."
+    }
+  ]
+}

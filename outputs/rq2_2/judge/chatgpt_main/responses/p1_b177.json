@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b177",
+  "results": [
+    {
+      "blind_id": "case_831f0c473316bf53",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The forested valley and framing remain recognizable, though foliage texture is noticeably smoothed. The river is reshaped into a smoother continuous S bend; no detached crescent lake or cutoff channel appears. Instruction failure \u21d2 knowledge invalid. The edited landscape has coherent banks, reflections and vegetation."
+    },
+    {
+      "blind_id": "case_829390504c01ffb9",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "The bottle, stopper, label and white backdrop remain stable. A substantial copper-brown granular layer appears at the bottom and a thin layer at the surface, partly conveying added powder, but the solution remains yellowish and bubble-free rather than light green with bubbles. Both required reaction signs are missing. The metallic sediment and surface ring look unnaturally uniform, though the bottle remains coherent."
+    }
+  ]
+}

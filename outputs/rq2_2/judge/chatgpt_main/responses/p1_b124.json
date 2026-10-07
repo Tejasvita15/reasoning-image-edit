@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b124",
+  "results": [
+    {
+      "blind_id": "case_9a5bf03dc6a5e92b",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the cream bag, curved handle, chevron stitching and gold double-G clasp are retained, with slightly simplified fine stitching. Instruction: gold slogan and GUCCI text and a halo are added, but the bag remains centered and oversized, the background is dark rather than gray-white velvet, and the slogan uses large script and omits the comma. Quality: coherent product and legible lettering, with a faint residual watermark-like imprint across the lower bag."
+    },
+    {
+      "blind_id": "case_f5bb3b72431b268d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the printer remains recognizable, but its top is redesigned with a deep feed opening and the rear sheet moves and changes proportions. Instruction: a clearly printed page is placed directly in front of the printer as requested. Quality: device and paper geometry are coherent, but the prominent document heading and body contain visibly garbled text."
+    }
+  ]
+}

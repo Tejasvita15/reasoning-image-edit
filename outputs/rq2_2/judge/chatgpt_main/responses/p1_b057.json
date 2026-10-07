@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b057",
+  "results": [
+    {
+      "blind_id": "case_8f77308b32aea8ee",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: red truck identity, roof cannon, yellow stripes, shutters and gray setting are maintained, with slight undercarriage-detail variation. Instruction: the view rotates somewhat toward the side, but a broad windshield/front bumper remains visible and the body is strongly foreshortened compared with the reference's full side profile. Quality: coherent vehicle structure, wheels, metallic surfaces and shadow without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_f7a2f9880c8c4129",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: all existing animal identities and cell locations remain, with a small overall shift in grid alignment. Instruction: all four originally blank cells remain empty; no Sudoku completion is performed. Knowledge: the missing tiger, lion, raccoon and dog entries are absent, so the puzzle remains incomplete. Instruction failure implies knowledge invalid. Quality: clean grid and coherent, recognizable animal icons have no noticeable artifacts."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b013",
+  "results": [
+    {
+      "blind_id": "case_a2ae93207407f338",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the border, two top diamonds and bottom-left divided square remain consistent. Instruction: the bottom-right shape is changed to a divided square accompanied by a chevron, rather than the required plain square. Knowledge: the interior cross remains and an extra symbol appears, contradicting the specified line-free square; instruction failure ⇒ knowledge invalid. Quality: the simple black contours and spacing are clear and coherent without rendering defects."
+    },
+    {
+      "blind_id": "case_a76586c76fa2a369",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background and cut-glass plate are retained, with a small change in the lower rim outline/reflections; exposed plate areas are naturally completed where apples were removed. Instruction: all six apples disappear, leaving none instead of one. Quality: the empty glass plate has coherent radial grooves, continuous edges and natural reflections, with no visible remnants or distortions."
+    }
+  ]
+}

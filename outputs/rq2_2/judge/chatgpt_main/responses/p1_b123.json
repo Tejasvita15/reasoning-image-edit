@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b123",
+  "results": [
+    {
+      "blind_id": "case_099bbb3f461544e9",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the mountain silhouette, trees, streetlights, guardrail and road alignment remain unchanged outside the permitted damage. Instruction: branching fissures and raised broken pavement now cover the road. Knowledge: cracked asphalt, displaced edges and uneven surface match earthquake deformation. Quality: the fissures have coherent depth and integrate naturally with the photographic landscape."
+    },
+    {
+      "blind_id": "case_61e159f96eddd57d",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the wooden background, gold grid and original X and O marks are preserved. Instruction: two X marks are added in the middle-left and middle-right cells while the winning top-middle cell remains empty, so no winning line is created. Knowledge: Instruction failure \u21d2 knowledge invalid. Quality: the board and colored symbols remain structurally clear, with consistent shading and no distracting artifacts."
+    }
+  ]
+}

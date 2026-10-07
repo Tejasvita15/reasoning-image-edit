@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b151",
+  "results": [
+    {
+      "blind_id": "case_6a462f338ecec0cb",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Bottle, stopper, label and white background remain consistent. Instruction: A dense gold-brown particulate layer is added at the bottom, though its color and large quantity are questionable for iron powder. Knowledge: No light-green solution or bubbles appears; the expected reaction is ignored. Quality: Readable label and coherent bottle, with a slightly artificial metallic deposit boundary."
+    },
+    {
+      "blind_id": "case_a8008b03840dd55d",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Map boundaries, other colors and timer remain, but the yellow palette swatch changes to dark red. Instruction: Existing yellow regions merely turn red while all blank regions remain unfilled, so the puzzle is not completed. Knowledge: Instruction failure \u21d2 knowledge invalid. Quality: Clean region boundaries, legible interface and coherent flat colors."
+    }
+  ]
+}

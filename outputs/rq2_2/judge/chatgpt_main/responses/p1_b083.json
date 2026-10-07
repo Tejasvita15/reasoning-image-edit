@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b083",
+  "results": [
+    {
+      "blind_id": "case_b6dbcd4ea5e6e956",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "The woman remains identifiable with her white blouse, crown and hands-under-chin pose, but facial and skin detail are visibly degraded. The poster includes balloons, fireworks, confetti, rainbow colors and backlighting; however the headline is badly garbled, the tagline misspells Join, and cloud texture is weak. Broken overlapping letters, smeared crown edges and mottled face/hand textures produce multiple distracting quality defects."
+    },
+    {
+      "blind_id": "case_b93dd05eced68da3",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Both chocolate cookies retain their forms, drizzle markings and distinctive cracks. Dark brown fabric, a black slate base, upper-left illumination and the full upper-right sentiment are added successfully, but the composition retains a downward view rather than the requested upward camera angle. The cookies and slate have coherent textures and lighting, and the typography is clean."
+    }
+  ]
+}

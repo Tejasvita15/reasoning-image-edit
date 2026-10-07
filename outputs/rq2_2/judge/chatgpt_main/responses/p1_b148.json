@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b148",
+  "results": [
+    {
+      "blind_id": "case_f5d033698d611a2d",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Glass outline, white background and base reflection remain unchanged. Instruction: The upper sand volume grows rather than empties; the hourglass still runs. Knowledge: Upper chamber is not empty; instruction failure \u21d2 knowledge invalid. Quality: Coherent glass, sand and reflections without conspicuous artifacts."
+    },
+    {
+      "blind_id": "case_ff1a6966d1efcbbd",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Desert, sky and distant horizon are preserved, with the small crate near the original base gone. Instruction: A clearly stepped pyramid with two staircases appears, but the summit has an inaccurate pointed roof. Knowledge: The Kukulkan summit temple should be flat-roofed. Quality: Coherent masonry and perspective, with faint blocky texture in the blue sky."
+    }
+  ]
+}

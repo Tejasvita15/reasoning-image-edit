@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b171",
+  "results": [
+    {
+      "blind_id": "case_3b90996378f5bfbc",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The eight given cells remain unchanged. The target hexagon is replaced by a square while the question mark stays, with neither the required rightmost black circle nor upper-right line. The requested pattern solution is absent. Instruction failure \u21d2 knowledge invalid. The edited grid and symbols are otherwise clean and readable."
+    },
+    {
+      "blind_id": "case_417e95e4330e52c9",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "The eight given diagrams and blue grid remain unchanged. A square border is added around the question mark instead of replacing it with the specified triangle and blue circle on the bottom edge. Instruction failure \u21d2 knowledge invalid. The graphic is clean apart from a small stray gray stroke above the final question mark."
+    }
+  ]
+}

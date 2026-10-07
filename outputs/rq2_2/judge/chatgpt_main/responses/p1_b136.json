@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b136",
+  "results": [
+    {
+      "blind_id": "case_a049221a031dd5cd",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the blue sky, sandy foreground, scattered rocks and distant horizon are retained outside the pyramid replacement. Instruction: a terraced Maya-style pyramid with broad central stairways and a summit temple replaces the smooth-sided pyramid. Knowledge: it evokes Kukulkan, but the steep pointed temple roof differs clearly from the expected flat-topped summit structure. Quality: coherent masonry, stair geometry and sunlight integrate naturally into the landscape."
+    },
+    {
+      "blind_id": "case_2cc7fda14aad04c5",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the two glass positions and gray setting remain, with minor rim and base reshaping. Instruction: the cups become dark brown drinks rather than soy milk, and broad red rays converge between them with an extra vertical beam. Knowledge: Instruction failure \u21d2 knowledge invalid; no clear beam penetrates both milk-filled cups. Quality: the glasses are coherent, but the overexposed intersecting triangular light paths look artificial and obscure their surroundings."
+    }
+  ]
+}

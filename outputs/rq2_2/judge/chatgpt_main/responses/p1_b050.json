@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b050",
+  "results": [
+    {
+      "blind_id": "case_b6924ba534377ba8",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: decorations, four-chair layout and white background remain, but the table's footprint and leg placement visibly shift. Instruction: the foreground chair remains pulled out with its seat exposed; no chair is convincingly pushed under the tabletop. Quality: coherent wooden furniture, cushions and tabletop objects have natural geometry without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_fcfd52c84416cc50",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the surrounding leaves, branches, calyxes and background are preserved. Instruction: the green fruits become orange, but their dimpled citrus skins and navel-like marks depict oranges rather than mature versions of the persimmons. Knowledge: the requested red persimmon outcome is replaced by a different fruit appearance; Instruction failure implies knowledge invalid. Quality: considered alone, fruit textures, spherical forms and foliage are visually coherent and artifact-free."
+    }
+  ]
+}

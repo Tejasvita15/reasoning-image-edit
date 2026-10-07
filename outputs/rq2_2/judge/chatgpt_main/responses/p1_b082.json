@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b082",
+  "results": [
+    {
+      "blind_id": "case_4af47ec0417d8be4",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The blue-and-cream carton, cap, cow graphic and white backdrop remain consistent with the source object. Rotation only modestly widens the cow panel: the MILK front and broad roof remain visible instead of the reference's straight side elevation and nearly hidden cap. This is a substantially incomplete viewpoint change, although the edited carton has clean geometry and readable graphics."
+    },
+    {
+      "blind_id": "case_c7d5bfd12a7c0c12",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "The two glass positions, grey setting and basic vessel shapes are preserved. Red beams enter from the left, but run largely above the liquid; extra vertical beams and dark suspended chunks are also added. This only partly depicts the requested soy-milk experiment and fails the explanation's beam through both liquids. The unexplained crossing laser paths and conspicuous chunky liquid make the scene visually unnatural."
+    }
+  ]
+}

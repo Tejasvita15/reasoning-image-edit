@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b113",
+  "results": [
+    {
+      "blind_id": "case_fcfb42574966681e",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The two red toy vehicles and wooden tabletop remain recognizable, but both vehicles shift slightly within the framing. The larger left vehicle remains far larger than the small right car, with no meaningful size equalization. The edited vehicles retain coherent wheels, bodywork, reflections and contact shadows."
+    },
+    {
+      "blind_id": "case_6375c157271240e6",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The glass silhouette, white background and placement remain closely preserved, with a small change in the base reflection. Sand still fills the upper bulb and visibly falls through the neck, whereas completion requires an empty upper chamber. Instruction failure makes knowledge invalid. The falling sand becomes oversized droplet-like blobs and the upper sand surface looks unnaturally smooth and wavy."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b172",
+  "results": [
+    {
+      "blind_id": "case_12055d4986499872",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "The white backdrop and tray concept remain, but can labels are distorted and tray/can geometry shifts. A horizontal can appears on top, yet the original right-hand can remains beside the tray, so the requested relocation becomes duplication. Multiple corrupted labels, warped can contours and awkward contact impair product-image quality."
+    },
+    {
+      "blind_id": "case_df8c2efa02e8ce62",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The white background remains, but the small bag outline, cords and both printed motifs are redrawn. The right bag remains substantially taller and wider than the left, with no meaningful reduction to the requested matching size. The edited bags have coherent fabric, folds, beads and shadows."
+    }
+  ]
+}

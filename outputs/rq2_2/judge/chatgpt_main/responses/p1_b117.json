@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b117",
+  "results": [
+    {
+      "blind_id": "case_575e66a1f7517475",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "The brass scale, black base, right-side weights and beige setting remain closely aligned, with minor chain and metal texture changes. The left pan now contains three weights instead of the required two, and the beam remains level rather than tilting left. The addition is only partially correct and both count and balance behavior conflict with the explanation. The edited scale is otherwise structurally clean with coherent metal surfaces and shadows."
+    },
+    {
+      "blind_id": "case_fceb3010316c1b04",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The ochre background and horizontal layout remain, but many match heads reverse direction and numerous segments change. The source 5-2=5 becomes 6=6=5, requiring multiple added or moved sticks and still expressing a false equality. The single-match correction is not fulfilled; instruction failure makes knowledge invalid. As a standalone image, the matches and symbols are clearly formed with consistent shadows."
+    }
+  ]
+}

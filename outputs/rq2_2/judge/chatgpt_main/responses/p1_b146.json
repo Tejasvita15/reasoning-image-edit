@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b146",
+  "results": [
+    {
+      "blind_id": "case_d2931b11d1f74344",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Device, cuff, controls and labels remain, but the white background changes to blue-gray. Instruction: The display remains 123/72, so no hypotensive values are introduced. Knowledge: Neither value meets the supplied threshold; instruction failure \u21d2 knowledge invalid. Quality: Coherent monitor geometry and clear readable display."
+    },
+    {
+      "blind_id": "case_d47af40ef2df2d22",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Bottle, background and label remain, but the stopper/neck interior turns opaque brown. Instruction: A granular deposit is added at the bottle bottom, although its gold-brown appearance is not convincing iron powder. Knowledge: Neither light-green solution nor bubbles appears, ignoring both expected reaction signs. Quality: Bottle geometry and label are clear, with a minor unnatural blend at the powder-liquid boundary."
+    }
+  ]
+}

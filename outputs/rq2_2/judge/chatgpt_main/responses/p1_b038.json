@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b038",
+  "results": [
+    {
+      "blind_id": "case_af1eb0100c7cb4cf",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The grid and eight existing diagrams are preserved. The question mark becomes a thick house-shaped pentagon without a blue circle, rather than the supplied expected triangle with a circle on its bottom edge. Most required shape attributes are wrong; instruction failure implies knowledge invalid. The diagram itself remains crisp, coherent and artifact-free."
+    },
+    {
+      "blind_id": "case_fc7248509c8ae53d",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The red fire engine, yellow stripes, shutters, roof cannon and gray setting are retained, with small trim-detail changes. The edited truck remains in a frontal three-quarter perspective, unlike the reference's strict side profile with the cab front largely occluded. It therefore fails the requested viewpoint change. The vehicle rendering alone has coherent structure, materials and shadows without noticeable artifacts."
+    }
+  ]
+}

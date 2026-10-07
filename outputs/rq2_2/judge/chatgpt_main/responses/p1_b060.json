@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b060",
+  "results": [
+    {
+      "blind_id": "case_c0919e94da43789d",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The paper, coffee and wood layout remain intact. A holder appears beside the paper's lower-right corner, but the original remains at upper left, so this is duplication rather than a completed move. The added holder's crowded pen ends are slightly malformed, though the tabletop scene remains coherent."
+    },
+    {
+      "blind_id": "case_c091ec2a4bc1be0b",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The shoe is uniformly black with plausible glossy highlights and its tan lining retained. Its silhouette, heel, pose, white background and shadow match the source; edges and reflections remain coherent without visible artifacts."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b021",
+  "results": [
+    {
+      "blind_id": "case_ee6792b620fc7e3e",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The red car retains its distinctive body, badges and viewpoint, with small grille and wheel-detail changes. The night city, reflections and low placement follow the brief, but the headline is script rather than sans serif and the brand is misspelled Farari on the plate rather than placed at bottom center. The malformed brand lettering is a clear visual defect in the otherwise coherent poster."
+    },
+    {
+      "blind_id": "case_d960f1d2f3ccbfcc",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The same white background and receding fluted-column arrangement remain, with minor changes to column contours. Eight columns remain visible, so the requested reduction to five was not performed. The edited rendering itself is clean and coherent, with consistent shading and intact column forms."
+    }
+  ]
+}

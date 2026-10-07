@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b147",
+  "results": [
+    {
+      "blind_id": "case_97d5d1df9969026a",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Most pre-existing numbers are replaced, including 99,45,39 and 36, although circles and connectors remain. Instruction: The question mark is filled with 14 instead of the supplied correct 21. Knowledge: Instruction failure \u21d2 knowledge invalid. Quality: The diagram has clear numerals, clean circles and coherent spacing."
+    },
+    {
+      "blind_id": "case_1bb6874b8cb57bff",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The top-middle O is changed to X and the middle-right O tile rotates; people and grass remain. Instruction: An X is added bottom-middle, while the winning top-left square stays empty. A vertical win is manufactured by changing an existing O, rather than the required single legal move. Knowledge: Instruction failure \u21d2 knowledge invalid. Quality: Tiles, hands, strings and grass remain visually coherent."
+    }
+  ]
+}

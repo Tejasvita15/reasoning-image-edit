@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b059",
+  "results": [
+    {
+      "blind_id": "case_191f56444fe5138e",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 2,
+      "knowledge_score": 5,
+      "rationale": "Consistency: background becomes blue-gray, device perspective/size and cuff construction change, and labels plus pulse are rewritten. Instruction: the reading changes from 100/68 to 100/88, which meets the requested hypertension condition. Knowledge: diastolic 88 exceeds the supplied threshold of 80 even though systolic remains 100. Quality: numerous garbled brand, unit and button labels, plus malformed small display symbols, are distracting despite coherent main object shapes."
+    },
+    {
+      "blind_id": "case_d2e67dbca4dd73a6",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: glass silhouette, white background and base reflection remain visually unchanged. Instruction: the upper chamber still contains a substantial sand pile, so the completed timing cycle is not shown. Knowledge: the required empty upper chamber is absent; Instruction failure implies knowledge invalid. Quality: coherent hourglass outline, but sand forms a thick droplet-like neck and separated falling blobs that look like liquid rather than a fine granular stream."
+    }
+  ]
+}

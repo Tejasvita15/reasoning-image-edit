@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b011",
+  "results": [
+    {
+      "blind_id": "case_2e6937f881d69613",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the glass silhouette, neck, white background and base reflection are preserved outside the sand change. Instruction: the upper sand pile is enlarged rather than emptied, so the timer does not show a finished cycle. Knowledge: sand remains in the upper chamber and appears to be falling; instruction failure ⇒ knowledge invalid. Quality: the hourglass, sand cones, transparent surfaces and reflection look coherent and free of noticeable artifacts."
+    },
+    {
+      "blind_id": "case_28bbac6dc20e0af6",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the foot position, exposed ankle, sock contour, cuff and dark background remain unchanged. Instruction: the heel hole has been filled with matching dark fabric, completing the sock. Quality: the repair blends naturally into the knit texture and shading, with coherent foot anatomy and no visible seam or artifact."
+    }
+  ]
+}

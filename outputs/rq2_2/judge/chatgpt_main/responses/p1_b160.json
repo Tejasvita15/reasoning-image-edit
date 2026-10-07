@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b160",
+  "results": [
+    {
+      "blind_id": "case_6ba0950e848e7ab2",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The floor and loose rocks remain in place, but the intact wall surface is replaced by masonry blocks. Completing the wall should close the opening; the large white hole remains unchanged, so the requested repair is absent. The edited stonework, floor and lighting are visually coherent."
+    },
+    {
+      "blind_id": "case_e6c31de8ac83eb47",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "The lantern silhouette, gold motifs and tassel are preserved with slight softening of their detail. Red-gold glow, petals and sparkles realize a festive poster, but golden willow branches are absent and the headline and slogan are corrupted rather than the requested words. The decorative layout is coherent, but multiple large malformed lettering sequences substantially impair quality."
+    }
+  ]
+}

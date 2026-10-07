@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b077",
+  "results": [
+    {
+      "blind_id": "case_91d878bd074af2ba",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: maze layout, bear and gifts remain in their original positions, with slight line and facial-detail changes. Instruction: a red arrow points from the bear toward the gifts, but crosses several black maze walls instead of following a valid corridor route. Knowledge: the marked line cannot be traversed through the maze; instruction failure \u21d2 knowledge invalid. Quality: the clean arrow, maze lines and cartoon figures are visually coherent and readable."
+    },
+    {
+      "blind_id": "case_21c8c5ab0d30736b",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: spoon bowl and wood-grain arrangement remain, with a small change in background texture contrast. Instruction: the truncated stem now continues into a long tapered handle with a rounded end and hanging hole, completing the spoon. Quality: the spoon and wood surface are coherent, with a minor visible join around the old stem endpoint."
+    }
+  ]
+}

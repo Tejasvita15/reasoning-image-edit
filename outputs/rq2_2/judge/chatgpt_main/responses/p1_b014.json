@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b014",
+  "results": [
+    {
+      "blind_id": "case_f87157e3ad0e3e4d",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the people, grass, ropes and other tiles remain consistent, but the existing top-middle O is overwritten. Instruction: an X appears in that occupied top-middle square rather than the empty top-left winning square; no three-X line results. Knowledge: it neither makes a legal move nor completes the diagonal through center and bottom-right; instruction failure ⇒ knowledge invalid. Quality: the outdoor game scene, hands, tiles and markings remain coherent and natural."
+    },
+    {
+      "blind_id": "case_980b7b8c8e37bb0e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the room layout remains, but the ornate wall panel carving, cushion details and blanket folds are noticeably redrawn. Instruction: five floating balloons are added above the bed instead of one ordinary-air balloon on the floor. Knowledge: the floating cluster contradicts the stated floor-resting expectation; instruction failure ⇒ knowledge invalid. Quality: the balloon forms, ribbons, lighting and bedroom furnishings are visually coherent, without conspicuous structural artifacts."
+    }
+  ]
+}

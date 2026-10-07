@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b133",
+  "results": [
+    {
+      "blind_id": "case_b6a60fd24718a32e",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the pale background remains, but the third baguette that should have stayed is also removed. Instruction: all three baguettes disappear rather than exactly two, so the requested removal is overapplied. Quality: the resulting plain surface has coherent soft texture and no visible cutout seams or remnants."
+    },
+    {
+      "blind_id": "case_bd053af8fa7a4cf9",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the trouser silhouette, waistband, button, belt loops, pleats, pockets, hems and white background remain intact. Instruction: the cream fabric becomes blue across both legs and waistband. Quality: the blue fabric has natural shading and folds with clean edges and no visible artifacts."
+    }
+  ]
+}

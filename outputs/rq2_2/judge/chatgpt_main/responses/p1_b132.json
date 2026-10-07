@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b132",
+  "results": [
+    {
+      "blind_id": "case_e31dcde361a39a23",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the supplied source actually depicts a fountain pen, and its diagonal black barrel, gold trim and nib are retained. Instruction: the edit adds a right-side bear, blue background, clouds, stars and candies, but the bear is not clearly a balloon and the requested title is rendered as garbled words rather than Bear Balloon Party. Quality: the bear and decorative shapes are coherent, but the large malformed title is a conspicuous text defect."
+    },
+    {
+      "blind_id": "case_7758e7a9207491d3",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: lip outline, skin background, illustration style and existing teeth are preserved. Instruction: both the upper-left and lower-right missing teeth are filled with matching white teeth. Quality: the completed rows have coherent contours, gum boundaries and consistent illustrated highlights without visible artifacts."
+    }
+  ]
+}

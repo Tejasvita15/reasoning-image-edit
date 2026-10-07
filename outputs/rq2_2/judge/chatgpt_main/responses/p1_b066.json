@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b066",
+  "results": [
+    {
+      "blind_id": "case_7688ebd05a4dc1b0",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: tube outline, HCl label, liquid surface, framing and white background remain unchanged. Instruction: several white veined marble chips are added inside the tube, but the requested induced reaction is not visibly represented. Knowledge: the expected bubbles from hydrochloric acid reacting with marble are absent, a clear conflict with the explanation. Quality: the glass vessel, chips and label are clean and structurally coherent."
+    },
+    {
+      "blind_id": "case_9c83b29b626811bc",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the same red car, headlight design, wheels and viewing angle are retained, but the blank license plate is changed to text beyond the requested bottom-center brand placement. Instruction: a dark blurred city, reflections and a lower-positioned car are present; however, the headline uses italic decorative lettering instead of sans-serif, and the brand appears misspelled as Ferari on the plate rather than in the bottom center. Quality: the car and night scene are coherent, with a minor mismatch between bright daytime-like body reflections and the dark setting."
+    }
+  ]
+}

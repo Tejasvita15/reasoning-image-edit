@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b101",
+  "results": [
+    {
+      "blind_id": "case_2acb9537b9fce37f",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Many sticks and match-head orientations change rather than a single stick, while the ochre background remains. The resulting broken glyphs do not form a correct equation and constitute severe symbol incoherence. Instruction failure implies knowledge invalid."
+    },
+    {
+      "blind_id": "case_50afffa871bf5f5b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "The organism becomes paler but remains visibly pink rather than the white required by the explanation, so bleaching is incomplete. Its broad silhouette and underwater setting persist, but the orange base and small tube openings are reshaped and surrounding fish details change. The edited scene is coherent overall with a slight hazy texture blend around the base."
+    }
+  ]
+}

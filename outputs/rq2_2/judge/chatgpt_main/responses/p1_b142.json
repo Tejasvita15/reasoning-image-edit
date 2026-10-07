@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b142",
+  "results": [
+    {
+      "blind_id": "case_0191ce22304723a2",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Maze, flowers and background remain, but the girl and watering can shift right onto the maze boundary. Instruction: A short red line starts at the can, crosses walls and stops near the center without reaching the flowers; no valid route is marked. Knowledge: Instruction failure \u21d2 knowledge invalid. Quality: Clear cartoon forms, but the girl overlaps a wall and the dangling red stroke creates an incoherent route."
+    },
+    {
+      "blind_id": "case_425278b6116b154a",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "Consistency: Background, pedestal, chains and right-hand weights remain, with a small change in the top finial shape. Instruction: Weights are added on the left, but there are four instead of the required two. Knowledge: Both the expected two-weight count and downward left tilt are absent; the beam stays level. Quality: Coherent brass objects, chains and natural lighting with no conspicuous artifacts."
+    }
+  ]
+}

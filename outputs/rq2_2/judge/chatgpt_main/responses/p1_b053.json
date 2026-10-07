@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b053",
+  "results": [
+    {
+      "blind_id": "case_434bd3f1b7adacbe",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: four circular nodes and white background remain, but top labels 0/1 become duplicate 3/2 labels and node spacing/shadows change. Instruction: both vertical edges become bidirectional, creating cycles instead of a DAG. Knowledge: reversing one arrow should eliminate the cycle; the displayed two-way edges explicitly retain cycles. Instruction failure implies knowledge invalid. Quality: clear circles and arrows, but duplicated node identifiers create a conspicuous semantic ambiguity."
+    },
+    {
+      "blind_id": "case_c9a8966a3cf6887a",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: forested terrain, lighting and broad composition remain, but canopy texture is visibly reworked across the scene. Instruction: the river is still one continuous winding channel; no cut-off crescent lake appears. Knowledge: the supplied separate oxbow-lake outcome is absent; Instruction failure implies knowledge invalid. Quality: coherent aerial terrain, banks and water reflections appear natural without noticeable artifacts."
+    }
+  ]
+}

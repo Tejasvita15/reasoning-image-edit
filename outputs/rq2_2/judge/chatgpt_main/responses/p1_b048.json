@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b048",
+  "results": [
+    {
+      "blind_id": "case_845b402f859fab76",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the gray printer and white setting remain recognizable, but the top housing develops a large new feed opening and the rear paper position/size changes. Instruction: a visibly printed document is placed directly in front of the printer as requested. Quality: coherent machine and paper perspective, but the document headline and body contain conspicuous pseudo-text/garbled lettering."
+    },
+    {
+      "blind_id": "case_aaeab1669d8a11db",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the foil-wrapped and nut-coated chocolates remain recognizable, but surface details change and two extra small chocolate spheres are introduced. Instruction: gold gradient, upper-right light and top-left brown title are present, but there are four balls rather than two, the title says 'wortd', and the bold yellow backdrop is less champagne-toned and restrained. Quality: the product forms and reflections are coherent, but the prominent misspelled headline is a clear semantic flaw."
+    }
+  ]
+}

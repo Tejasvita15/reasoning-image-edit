@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b111",
+  "results": [
+    {
+      "blind_id": "case_b603363d023505cc",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The leg, sock silhouette, remaining knit and dark background are unchanged. The exposed heel hole is fully closed with matching dark fabric, completing the sock as requested. The repaired area blends naturally with the knit and shading, with no visible structural artifact."
+    },
+    {
+      "blind_id": "case_2963315c4111ad0a",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "The board, existing symbol arrangement and white background are retained, but the board framing shifts slightly left. The bottom-left block now shows a clear X and completes the left column of three Xs, satisfying the winning logic. Its red color differs from the existing blue Xs, a minor compliance mismatch. The wood, blocks and painted symbols remain coherent and clean."
+    }
+  ]
+}

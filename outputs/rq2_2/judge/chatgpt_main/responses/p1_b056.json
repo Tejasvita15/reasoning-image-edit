@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b056",
+  "results": [
+    {
+      "blind_id": "case_6a60cc8e5fc86dd0",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: four circular nodes persist, but the top-left label changes from 0 to 3 and the node layout/typography is redrawn. Instruction: added reverse arrowheads make both vertical connections bidirectional rather than creating a DAG. Knowledge: these two-way connections are directed cycles, contrary to the explanation; Instruction failure implies knowledge invalid. Quality: crisp lines and circles, but duplicate node label 3 creates clear semantic ambiguity."
+    },
+    {
+      "blind_id": "case_aa7efd66eae8fee8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: monitor and cuff retain their placement, but pulse changes from 70 to 88 and cuff texture/label rendering changes. Instruction: the pressure display is changed clearly to 142/90. Knowledge: both values exceed the supplied 130/80 thresholds. Quality: coherent device geometry and readable main digits, with minor corruption in the small unit lettering."
+    }
+  ]
+}

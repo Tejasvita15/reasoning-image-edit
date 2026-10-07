@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b158",
+  "results": [
+    {
+      "blind_id": "case_f02c0025977a6377",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: White studio scene becomes a snowy outdoor setting; device and cable gain frost and lighting changes substantially. Instruction: The display changes from 28.7 to all-eight 88.8-like segments rather than approximately 31.7. Knowledge: The expected three-degree rise is absent; instruction failure \u21d2 knowledge invalid. Quality: Snow and device are coherent, but the all-segment display is a clear semantic defect."
+    },
+    {
+      "blind_id": "case_0244868469a532a9",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Column design, receding layout and white background remain, with a slight overall leftward shift. Instruction: Eight columns remain visible rather than the requested five. Quality: Coherent fluting, capitals, bases and perspective without conspicuous artifacts."
+    }
+  ]
+}

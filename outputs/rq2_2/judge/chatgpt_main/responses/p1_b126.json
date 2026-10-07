@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b126",
+  "results": [
+    {
+      "blind_id": "case_aae70a2a9831703d",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the faucet, open hand, sleeve and dark background remain unchanged. Instruction: the small rod has been removed from the hand. Knowledge: the stream still bends strongly to the right instead of returning to vertical downward flow, a clear conflict with the explanation. Quality: the faucet and hand remain coherent, and the removed region blends naturally without obvious artifacts."
+    },
+    {
+      "blind_id": "case_c70b82cf9d928342",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the outer border, two upper diamonds and lower-left divided square remain intact. Instruction: a square appears at lower right, but it still contains central horizontal and vertical lines and an extra chevron remains beside it. Knowledge: the required undivided square is contradicted by the retained internal cross. Quality: the diagram has clean, identifiable geometric shapes and consistent linework."
+    }
+  ]
+}

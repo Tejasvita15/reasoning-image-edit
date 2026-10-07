@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b064",
+  "results": [
+    {
+      "blind_id": "case_d615ddb4412f64d5",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the main road course and right-side neighborhood layout remain recognizable, but right-side roofs and upper-right tree textures are visibly redrawn and traffic details change. Instruction: numerous houses and access streets replace the forest on the left, clearly showing the requested urbanization. Knowledge: reduced trees and increased buildings match the supplied expectation. Quality: an intelligible aerial layout is present, but left-side houses have an unusually large scale relative to the right neighborhood and several roof/yard edges blend awkwardly."
+    },
+    {
+      "blind_id": "case_dee36d6cfeda1a25",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the blue background, log and bedding layout largely persist, but the ears are reshaped and the hamster's cheek outline and whisker arrangement change beyond fur color. Instruction: the previously tan coat is visibly gray throughout the head and body, fulfilling the requested color change. Quality: the hamster has coherent anatomy, detailed fur and whiskers, natural eyes and believable surrounding wood textures."
+    }
+  ]
+}

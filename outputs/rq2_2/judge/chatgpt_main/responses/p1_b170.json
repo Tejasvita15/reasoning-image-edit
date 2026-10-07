@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b170",
+  "results": [
+    {
+      "blind_id": "case_772577af591607e9",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The glass shape, reflections, water level and white setting remain unchanged. The liquid turns pink, whereas the specified pure-water result should remain colorless; this reverses the expected outcome. Instruction failure \u21d2 knowledge invalid. The pink liquid and transparent glass are smoothly integrated and visually natural."
+    },
+    {
+      "blind_id": "case_bd50c3b689a0f4af",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The fabric backdrop is retained, but the left face changes from blue to red and several surviving top stickers become orange. Some missing cubelets are restored, yet a large top-front cavity remains, so completion is partial. The remaining cavity and irregular raised blocks produce a visibly broken cube structure."
+    }
+  ]
+}

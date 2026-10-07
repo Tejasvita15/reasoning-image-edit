@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b118",
+  "results": [
+    {
+      "blind_id": "case_877d1a426afd83f4",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "The irises become bright cyan-yellow but the pupils remain broad oval shapes rather than visibly constricting into narrow slits. Instruction failure implies knowledge invalid. The cat's face, whiskers and pose persist, while overall fur contrast and background brightness increase noticeably. Eye coloration has a slightly overbright artificial appearance, with otherwise coherent anatomy."
+    },
+    {
+      "blind_id": "case_c3c8c564f336b4f3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The clock does not show nine o'clock: several hands or long extensions point toward 12, 2, 8 and 10 with no clear hour hand at 9. Instruction failure implies knowledge invalid. The rim, numeral styling and dimensional lighting are also substantially changed from the flat source. Extra hand-like spokes create a clear structural ambiguity, though numerals remain legible."
+    }
+  ]
+}

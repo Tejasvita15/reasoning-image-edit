@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b129",
+  "results": [
+    {
+      "blind_id": "case_698b243580a91208",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the blue sky, cloud bands and bright upper-right sun are preserved. Instruction: the gull is replaced by an ornate golden crested mythical bird, with a long hooked profile rather than an owl face. Knowledge: Instruction failure \u21d2 knowledge invalid; the specified owl is absent. Quality: the fantasy bird has coherent wings, layered feathers and metallic shading, without conspicuous structural artifacts."
+    },
+    {
+      "blind_id": "case_f80cd18b241bfabd",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "Consistency: bottle silhouette, stopper, label and white background remain unchanged. Instruction: brown metallic-looking powder is visible at the bottom and neck, indicating addition, though material lodged high in the neck is awkward. Knowledge: the liquid remains pale yellow rather than light green and no clear rising bubbles appear, missing both stated reaction signs. Quality: the glass, label and granular material are visually coherent and naturally shaded."
+    }
+  ]
+}

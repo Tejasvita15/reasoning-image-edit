@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b042",
+  "results": [
+    {
+      "blind_id": "case_3b1153ee7108cb1b",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: floor, loose rocks and outer wall retain their positions and textures, but a broad rectangular area of intact wall around the hole is also replaced. Instruction: the opening is fully closed with stone-like blocks, though their smooth outlined finish does not continue the original rough wall convincingly. Quality: the large flat patch and abruptly terminating grout lines create a clear artificial-looking wall repair."
+    },
+    {
+      "blind_id": "case_e11fe7a2b937b730",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: blue upholstery, wood legs and white background remain, but the chaise extension is removed and the seat/back configuration changes to a two-seat loveseat. Instruction: a front-biased view is attempted, but remains oblique and lacks the reference's three back cushions and right chaise, creating major proportion and occlusion errors. Quality: considered alone, the loveseat has coherent cushions, fabric texture, arms and supporting legs without noticeable artifacts."
+    }
+  ]
+}

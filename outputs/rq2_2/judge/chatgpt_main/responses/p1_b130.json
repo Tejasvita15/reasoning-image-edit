@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b130",
+  "results": [
+    {
+      "blind_id": "case_27e53ef6f88f2aef",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the outer numbers remain, but large unsolicited numerals are inserted into all three previously empty squares. Instruction: the target question mark is still present rather than replaced by 35. Knowledge: Instruction failure \u21d2 knowledge invalid. Quality: the layout is legible overall, but the middle inserted numeral has overlapping malformed strokes resembling a merged 7 and 1."
+    },
+    {
+      "blind_id": "case_6ce21d901a2ba1c6",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the shirt silhouette, sleeves, collar, tag, side loop and white background are preserved; the small chest logo lettering is slightly altered. Instruction: the black fabric is convincingly changed to white throughout. Quality: the white shirt retains natural folds, coherent seams and clean contours, with no distracting artifacts."
+    }
+  ]
+}

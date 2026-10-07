@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b094",
+  "results": [
+    {
+      "blind_id": "case_b1a306590c7e027d",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "The brass stand, right-side weights and beige setting are retained. The left pan gains three weights rather than one, and the beam stays horizontal. Thus the addition is only partial compliance and violates both the explanation's two-weight count and leftward tilt. Evaluated alone, the scale and weights have coherent geometry and natural metal textures."
+    },
+    {
+      "blind_id": "case_565bbe945b15a3a3",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The braided trunk, leaf arrangement and woven basket are preserved. A green gradient halo, floating leaf silhouettes and correctly placed Green Home title create the requested fresh poster; the floating liquid elements look more like hollow soap bubbles than water droplets. The design is otherwise coherent and clean, with readable script and well-integrated plant edges."
+    }
+  ]
+}
