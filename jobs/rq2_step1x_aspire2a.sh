@@ -49,13 +49,17 @@
 #      (10 K-dev examples, warm-up, median of 3 repeats):
 #        qsub -v STAGE=rq2_2_timing jobs/rq2_step1x_aspire2a.sh
 #
-#   8. Validate the RQ2.2 runs (and the timing run, if present):
+#   8. RQ2.2 frozen configuration, run ONCE on K-test (300 images;
+#      thinking on, 28 steps, guidance 6; builds the K-test thought cache):
+#        qsub -v STAGE=rq2_2_ktest jobs/rq2_step1x_aspire2a.sh
+#
+#   9. Validate the RQ2.2 runs (plus the timing and K-test runs, if present):
 #        qsub -v STAGE=check_2_2 -l select=1:ncpus=4:mem=16G jobs/rq2_step1x_aspire2a.sh
 # =============================================================
 
 set -eo pipefail
 
-STAGE=${STAGE:?set STAGE to smoke, s7, cache, rq2_1, check_2_1, rq2_2, rq2_2_timing or check_2_2}
+STAGE=${STAGE:?set STAGE to smoke, s7, cache, rq2_1, check_2_1, rq2_2, rq2_2_timing, rq2_2_ktest or check_2_2}
 SEED=${SEED:-42}
 THINKING=${THINKING:-"off cached"}
 CFGS=${CFGS:-"2 6 10"}
@@ -67,6 +71,11 @@ CFG_2_2=${CFG_2_2:-6}
 STEPS_2_2=${STEPS_2_2:-"20 28"}
 N_TIMING=${N_TIMING:-10}
 TIMING_REPEATS_2_2=${TIMING_REPEATS_2_2:-3}
+
+# RQ2.2 frozen configuration for the single K-test run
+# (outputs/rq2_2/analysis/rq2_2_frozen_config.json): thinking on, 28 steps.
+FROZEN_THINKING_2_2=${FROZEN_THINKING_2_2:-cached}
+FROZEN_STEPS_2_2=${FROZEN_STEPS_2_2:-28}
 
 # RQ2.1 is fixed at 50 steps, reflection off (configs/rq2/step1x.yaml).
 STEPS=50
@@ -318,6 +327,48 @@ rq2_2_timing)
     done
     ;;
 
+rq2_2_ktest)
+    # RQ2.2 frozen configuration, run ONCE on K-test (plan rule: K-test is used
+    # exactly once). The configuration is recorded in
+    # outputs/rq2_2/analysis/rq2_2_frozen_config.json. This stage only resumes
+    # that same configuration and refuses anything else.
+    OUT=outputs/rq2_2_ktest
+    LOGS=logs/rq2_2_ktest
+    KTEST_CACHE=$OUT/thought_cache/k_test_seed${SEED}.jsonl
+    FROZEN_LOG=rq2_step1x_think-${FROZEN_THINKING_2_2}_cfg${CFG_2_2}_steps${FROZEN_STEPS_2_2}_k_test_seed${SEED}.jsonl
+
+    for f in "$LOGS"/*.jsonl; do
+        [ -e "$f" ] || continue
+        if [ "$(basename "$f")" != "$FROZEN_LOG" ]; then
+            echo "$LOGS already holds another configuration ($(basename "$f"))."
+            echo "K-test is used exactly once; refusing to run a different configuration."
+            exit 1
+        fi
+    done
+
+    CACHE_ARGS=()
+
+    if [ "$FROZEN_THINKING_2_2" = "cached" ]; then
+        # K-test thoughts, built once and never regenerated.
+        if [ ! -f "$KTEST_CACHE" ]; then
+            python -m src.rq2.build_thought_cache \
+                --config "$CONFIG" --splits "$SPLITS" --split k_test --seed "$SEED" \
+                --out "$KTEST_CACHE"
+        fi
+
+        CACHE_ARGS=(--thought_cache "$KTEST_CACHE")
+    fi
+
+    python -m src.rq2.run_rq2 \
+        --config "$CONFIG" --splits "$SPLITS" --split k_test --seed "$SEED" \
+        --allow_k_test --subquestion 2.2 \
+        --num_inference_steps "$FROZEN_STEPS_2_2" \
+        --thinking "$FROZEN_THINKING_2_2" --true_cfg_scale "$CFG_2_2" \
+        --output_dir "$OUT" --log_dir "$LOGS" \
+        --timing_repeats "$TIMING_REPEATS" \
+        "${CACHE_ARGS[@]}"
+    ;;
+
 check_2_2)
     CHECK_STATUS=0
 
@@ -337,6 +388,20 @@ check_2_2)
             --thought_cache outputs/rq2_2_timing/thought_cache/k_dev_n${N_TIMING}_seed${SEED}.jsonl \
             --reference_cache "$KDEV_CACHE" \
             --reference_log_dir logs/rq2 logs/rq2_2 || CHECK_STATUS=1
+    fi
+
+    # Frozen-configuration K-test run (300 examples), if present.
+    if [ -d logs/rq2_2_ktest ]; then
+        KTEST_CHECK_ARGS=()
+
+        if [ "$FROZEN_THINKING_2_2" = "cached" ]; then
+            KTEST_CHECK_ARGS=(--thought_cache outputs/rq2_2_ktest/thought_cache/k_test_seed${SEED}.jsonl)
+        fi
+
+        python -m src.rq2.check_rq2 \
+            --log_dir logs/rq2_2_ktest --split k_test --seed "$SEED" --expected_n 300 \
+            --thinking "$FROZEN_THINKING_2_2" --cfgs "$CFG_2_2" --steps "$FROZEN_STEPS_2_2" \
+            "${KTEST_CHECK_ARGS[@]}" || CHECK_STATUS=1
     fi
 
     exit $CHECK_STATUS
