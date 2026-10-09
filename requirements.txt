@@ -21,3 +21,6 @@ einops
 sentencepiece
 megfile
 qwen-vl-utils==0.0.10
+# RQ2 analysis (src/rq2/stats_rq2.py, src/rq2/plots_rq2.py)
+scipy
+matplotlib
