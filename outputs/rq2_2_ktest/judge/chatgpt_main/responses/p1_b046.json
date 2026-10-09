@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b046",
+  "results": [
+    {
+      "blind_id": "case_5f11aee143055ba7",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The can retains its red body, Coca-Cola script, classic marking and condensation within the authorized poster composition. Water splashes, ice, bubbles, blue surroundings and sunlight create the requested refreshment scene, but the slogan reads REFRESH MOMENT, omitting Every. The edited poster has clean readable lettering, coherent can geometry and convincing glossy water and ice effects."
+    },
+    {
+      "blind_id": "case_435d08c406270974",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "The right-side barrier island is removed and replaced by open water, meeting the instruction and the explanation's specified target. The sky, horizon and mainland coastline remain similar, but the foreground forest texture is conspicuously redrawn into maze-like markings. That artificial vegetation texture is a clear quality flaw; the water replacement itself blends smoothly."
+    }
+  ]
+}

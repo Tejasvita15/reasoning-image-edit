@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b128",
+  "results": [
+    {
+      "blind_id": "case_ba70f50a8f0ed2f8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The frame turns slightly toward the opposite front oblique view, still exposing the whole photograph instead of the narrow side profile in the reference. The frame construction becomes thicker and the plant image details change. A curled, torn-looking patch at the lower-right mat and distorted tiny print are noticeable artifacts."
+    },
+    {
+      "blind_id": "case_49d0e781e3a2150a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The hand becomes 4, 8, 8, K, K, so there are no four equal ranks as required by the explanation. Instruction failure \u21d2 knowledge invalid. Card positions and the fan geometry change, and the watermark becomes much more prominent. Blank-faced court cards and malformed lower overlapping corners create clear semantic and structural flaws."
+    }
+  ]
+}

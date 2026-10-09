@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b087",
+  "results": [
+    {
+      "blind_id": "case_3eaa4602146b9f90",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The blue phone design and gray background remain recognizable, but a second phone is introduced. Both backs are still oblique, with slanted top and bottom edges, rather than the single flat straight-on rear view in the reference. The two-phone product rendering itself has coherent cameras, edges and lighting."
+    },
+    {
+      "blind_id": "case_7d6427a7eeea4f24",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "All other circles and the grid remain consistent. The question mark becomes a circle, but it is green and larger than the others instead of the specified blue circle, conflicting with the supplied answer. The clean worksheet has only the minor visual imbalance of the oversized new circle."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b105",
+  "results": [
+    {
+      "blind_id": "case_e9079b23bc86943f",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: black shorts, white drawstring and badge arrangement persist, but the circular brand lettering is altered. Instruction: blue sky, sunlit outdoor court, shadows and upper-right Just Breathe. are present; shorts remain large and centered, the setting lacks clear skate ramps, and yellow is an underline instead of an outline. Quality: clean typography and fabric, with slightly distorted small brand lettering."
+    },
+    {
+      "blind_id": "case_0431e450081f5fb5",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "Consistency: beaker shape, printed markings, placement and grey surroundings persist. Instruction: yellow liquid is introduced, but it fills the entire volume instead of visibly adding oil to retained water. Knowledge: no distinct oil layer floats above clear water, contradicting the expected separation. Quality: coherent glass, readable markings and naturally shaded liquid without obvious artifacts."
+    }
+  ]
+}

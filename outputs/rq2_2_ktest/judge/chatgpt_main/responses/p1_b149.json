@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b149",
+  "results": [
+    {
+      "blind_id": "case_696cb898b4f4479d",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The white background remains, but the upright cup changes size and position. A third cup is added above while the left cup stays on its side, so the requested relocation is largely missing. The top cup also intersects the lower rim with an implausible cutaway/fused contour, a clear structural flaw."
+    },
+    {
+      "blind_id": "case_67b672544aff3878",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The lamp and pale setting are retained with minor contour shifts, but the original single open book is replaced by multiple upright books of different colors and designs. They occupy the requested left side, yet replacing and multiplying the object largely fails moving the original book. The edited desk arrangement is visually coherent and the books stand naturally."
+    }
+  ]
+}

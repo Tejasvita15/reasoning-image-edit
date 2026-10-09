@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b081",
+  "results": [
+    {
+      "blind_id": "case_6f38720a4a961884",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "The paneled architectural background and framing are preserved. The statue remains David with both arms present, with only crack-like marks on one forearm; it does not become the Venus de Milo. Marble form and lighting are coherent, with a small unnatural-looking scratch detail. Instruction failure \u21d2 knowledge invalid."
+    },
+    {
+      "blind_id": "case_95cd93e99eeba4c8",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Test-tube position, surrounding tubes and background remain consistent. A dropper and drops are added, representing dropwise addition, although the reagent is not identifiable. The liquid stays clear yellow with no reddish-brown precipitate, contradicting the stated reaction. Oversized linked droplets that remain distinctly shaped below the liquid surface create a visible fluid-structure flaw."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b006",
+  "results": [
+    {
+      "blind_id": "case_34c2a5baaac5c0aa",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the two upper balls, boundary stripe and dark upper-right object remain, but the grass texture changes clearly across the field. Instruction: the bottom ball is removed, whereas the specified result retains all balls because none is wholly beyond the line; the essential selection is wrong. Knowledge: the supplied expectation that all balls remain is violated. Instruction failure \u21d2 knowledge invalid. Quality: a large smooth dark patch replaces textured turf in the lower right, producing a conspicuous repair artifact."
+    },
+    {
+      "blind_id": "case_6522de37cfd7ec94",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: all four triangular arrangements, blue circles, existing numbers and white background remain visually unchanged. Instruction: the rightmost question mark is still present rather than being replaced by 17, so no required completion occurred. Knowledge: the preceding triangle's 7+3+7 sum is not supplied. Instruction failure \u21d2 knowledge invalid. Quality: the diagram is clean, coherent and legible without distracting artifacts."
+    }
+  ]
+}

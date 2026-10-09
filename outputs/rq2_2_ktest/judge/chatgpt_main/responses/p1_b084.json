@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b084",
+  "results": [
+    {
+      "blind_id": "case_d6b91700da6fa737",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The black-red helmet design and gray setting remain recognizable, with minor stripe-shape variation. It turns toward a symmetric front orientation, but the view remains elevated with much more crown visible and a smaller chin area than the supplied straight-on reference. The rendered visor, shell and reflections are coherent and artifact-free."
+    },
+    {
+      "blind_id": "case_db4425a659890b50",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The missing limbs are restored to a coherent four-legged dog, completing the requested anatomical correction. The face, tail curvature, body proportions and framing also change beyond the local repair. The resulting dog has believable paws, fur, limb joints and grounded contact on the path."
+    }
+  ]
+}

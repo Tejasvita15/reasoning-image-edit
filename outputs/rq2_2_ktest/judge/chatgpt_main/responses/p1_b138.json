@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b138",
+  "results": [
+    {
+      "blind_id": "case_a027ccc4fc78b836",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 4,
+      "rationale": "Cracks and peeling patches are added to the lips, largely depicting dehydration and matching the dry-skin expectation, though the lower lip still looks conspicuously glossy. The mouth opening becomes narrower while the framing remains close. The edited close-up is coherent, with a small patchy scratch-like texture on the surrounding cheek."
+    },
+    {
+      "blind_id": "case_97d2847f614a3e60",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The extra floating steering wheel is removed, leaving one wheel held by the driver and an unobstructed windshield, fully correcting the obvious unreasonable feature. The dashboard controls and lower steering-wheel contours are redrawn, and the hands shift slightly. The edited driving scene has coherent anatomy, perspective and surfaces without noticeable artifacts."
+    }
+  ]
+}

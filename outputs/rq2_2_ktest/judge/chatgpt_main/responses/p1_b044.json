@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b044",
+  "results": [
+    {
+      "blind_id": "case_6d9dc23e205b5347",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "There are now exactly seven distinct capped Coke bottles, fulfilling the requested count. The white background and red-and-black bottle design remain, but the bottles are visibly enlarged as well as rearranged. Their overlapping silhouettes, transparent necks and labels form a coherent product image without a clear structural artifact."
+    },
+    {
+      "blind_id": "case_2bda0373c384fca8",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The pig's face, feet, cream glaze, white background and grounding shadow are preserved. The large missing left and upper shell is restored as a continuous rounded body with the missing ear, completing the broken container. The ceramic surface, highlights and contours are clean and plausible."
+    }
+  ]
+}

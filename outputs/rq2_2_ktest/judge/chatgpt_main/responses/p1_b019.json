@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b019",
+  "results": [
+    {
+      "blind_id": "case_135545b1856d797f",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: batteries, wires, bulb holders and white background remain unchanged. Instruction: the switch lever remains raised/open instead of pressed closed. Knowledge: both bulbs stay unlit despite the supplied expectation that two bulbs light up. Instruction failure \u21d2 knowledge invalid. Quality: the circuit illustration is clean and its components are recognizable without distracting artifacts."
+    },
+    {
+      "blind_id": "case_fbab533901312e88",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the tabletop and broad flower/keyboard arrangement persist, but keyboard lettering and several flower petal shapes visibly change. Instruction: a cross and Christian icon are added on the table. Knowledge: the clearly recognizable cross satisfies the specified Christian symbol expectation. Quality: the objects have plausible contact shadows, but the icon's inscriptions and crucifix figure details are visibly malformed."
+    }
+  ]
+}

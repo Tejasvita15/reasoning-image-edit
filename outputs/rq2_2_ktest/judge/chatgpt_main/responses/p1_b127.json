@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b127",
+  "results": [
+    {
+      "blind_id": "case_4fa1ee0d44bc5819",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The smaller right orange stays smaller, while the larger left cut orange is replaced by a whole fruit. The requested size match is not attempted. The pink background and overall positions remain. The edited fruit and shadows are natural and artifact-free."
+    },
+    {
+      "blind_id": "case_c09fd9ca85d81310",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "The crown is entirely absent, so its ornate form and gemstones are lost. Blue and gold lighting, stars and a halo implement some background requirements, but the central product and requested title are missing. Multiple distorted text strings, including Crowned dinf and a large nonsensical gold word, make the edited poster visibly degraded."
+    }
+  ]
+}

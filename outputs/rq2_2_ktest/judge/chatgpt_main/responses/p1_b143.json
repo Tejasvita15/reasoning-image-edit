@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b143",
+  "results": [
+    {
+      "blind_id": "case_7cf3778e193eeb7f",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The grid and eight existing circle symbols remain unchanged. The question mark becomes an ornate floral tile, not the required rotated circle-and-spoke symbol, ignoring the supplied rotation explanation. Instruction failure \u21d2 knowledge invalid. The inserted ornament has visibly tangled, irregular linework, though the rest of the diagram is clear."
+    },
+    {
+      "blind_id": "case_08efbe5aa5835151",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The existing symbols and frame remain, but the center-cell background changes from white to yellow. No new X is placed in the empty bottom-middle cell, so no winning column is completed. The supplied knowledge field is blank; Instruction failure \u21d2 knowledge invalid. The edited board itself remains clean and legible."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b047",
+  "results": [
+    {
+      "blind_id": "case_fffbf10633062e56",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The left thermos remains clearly shorter than the right and has not been enlarged to match it. Both thermoses have altered metallic reflection patterns, and the left strap's attachment and loop shape also change; the white background is retained. The edited product image itself is clean, with coherent lids, straps, cylindrical bodies and natural shadows."
+    },
+    {
+      "blind_id": "case_ce51184e000bacb6",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The three stools still form the original small, medium and tall progression instead of all matching the smallest. The wall, floor, books and shelf remain consistent, with a small change in the right-side white cable position. The edited scene has coherent wooden stool construction, floor contact and soft lighting without noticeable artifacts."
+    }
+  ]
+}

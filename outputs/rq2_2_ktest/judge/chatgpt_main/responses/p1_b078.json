@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b078",
+  "results": [
+    {
+      "blind_id": "case_4127c173e080bb58",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 2,
+      "knowledge_score": 2,
+      "rationale": "The requested 0-to-3 edge is removed and node 0 is isolated, satisfying the targeted disconnection. However all other edges are removed, a duplicate node 3 appears, and two disconnected polygon-like forms are added; these violate the explanation to keep everything else unchanged. Duplicated numbering and malformed free-floating edge structures degrade diagram coherence."
+    },
+    {
+      "blind_id": "case_65c7df8a7bded169",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Dark background and burner base are retained, with a small change to flame contour outside the requested color change. The flame becomes more orange-red rather than yellow-green, so the barium color expectation is not met. The flame remains smoothly luminous and structurally coherent. Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

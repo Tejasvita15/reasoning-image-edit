@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b031",
+  "results": [
+    {
+      "blind_id": "case_e1c9fa090d02d7ea",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The clock designs, times and pale wall remain recognizable, but the large clock is shifted left/down. The small clock is not enlarged to match it and remains clearly smaller, so the size instruction is not implemented. Both clock faces and numerals are visually coherent and clean."
+    },
+    {
+      "blind_id": "case_ebef5c9560294471",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The grid and given icon identities remain, but the star gains a conspicuous stem. Empty cells are filled almost entirely with yellow peppers, producing repeated symbols throughout rows, columns and boxes rather than a completed Sudoku. Instruction failure \u21d2 knowledge invalid; this uses the rubric coupling because the explanation field is blank. A distorted pepper and stemmed star are visible graphic defects."
+    }
+  ]
+}

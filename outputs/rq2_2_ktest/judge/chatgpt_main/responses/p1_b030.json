@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b030",
+  "results": [
+    {
+      "blind_id": "case_d1c3790239bfe204",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The original large holder and blue background remain, but an additional small holder is introduced. The toothbrush is inserted into this new cup rather than into the existing holder, so the intended relation is only partially satisfied. The still life is coherent overall, with slightly irregular brush bristles."
+    },
+    {
+      "blind_id": "case_d0dd027b6a34e74a",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The lamp retains its orange rounded body, tapered cream shade and metal foot; the setting and lighting changes are requested. It is centered, lit with a warm halo against dark blue, and the exact title appears at upper right with sunglasses on the dark desk. The magazine is closed rather than open, a minor omitted detail. Lighting, surfaces and typography are clean and coherent."
+    }
+  ]
+}

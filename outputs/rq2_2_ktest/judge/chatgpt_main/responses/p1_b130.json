@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b130",
+  "results": [
+    {
+      "blind_id": "case_3ce7484ab06cbb76",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The lace hat hangs slightly right of center on a weathered white wooden door with warm slanting light, an upturned brim and a hanging bow. The caption is correctly placed in the upper left but uses heavier handwriting and omits the terminal period. The hat design is preserved with minor lace-detail simplification. The edited scene has coherent fabric, door texture and shadows."
+    },
+    {
+      "blind_id": "case_f67621342b3a3a80",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The separated deck halves are joined into one continuous outline, but large jagged holes and cracked exposed wood remain across the middle, so the skateboard is only partly completed. Ground marks and wall layout remain, while their surface texture changes conspicuously into squiggly patterns. The edited image has distracting patterned surface artifacts despite recognizable board and wheels."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b023",
+  "results": [
+    {
+      "blind_id": "case_797fae487f9021ae",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "The white setting remains, but a strong washout changes the fruit's appearance. There is no visible cut face or separated fruit; only a faded upper green dome remains. Instruction failure \u21d2 knowledge invalid. Extensive ghosting and disappearance of the fruit's lower structure constitute severe visual degradation."
+    },
+    {
+      "blind_id": "case_c49f3348fb0359fd",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The animals and swatches remain in the same general layout, but multiple animals' eyes and facial details are redrawn. Only three horizontal arrows appear, linking incorrect row partners and leaving the tiger and lion unmatched. Instruction failure \u21d2 knowledge invalid. Viewed alone, the cartoon figures, swatches and arrows are clean and coherent."
+    }
+  ]
+}

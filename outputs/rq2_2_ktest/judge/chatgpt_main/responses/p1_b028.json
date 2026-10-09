@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b028",
+  "results": [
+    {
+      "blind_id": "case_92aab71576545adb",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The scuffed white door and mounting plate remain consistent. The broken exposed knob is completed with a solid rounded metallic grip and coherent lock hardware, fulfilling the repair. Reflections, joins and perspective are natural, without visible artifacts."
+    },
+    {
+      "blind_id": "case_dc91132ead287e64",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The collage layout is retained, but the skier's arms/poles and details of multiple athletes are visibly redrawn. The question mark remains in the target cell and no tennis image is inserted. Instruction failure \u21d2 knowledge invalid. The resulting collage has coherent figures, readable symbols and clean cell boundaries."
+    }
+  ]
+}

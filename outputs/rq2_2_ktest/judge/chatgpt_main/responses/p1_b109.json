@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b109",
+  "results": [
+    {
+      "blind_id": "case_56fbe1b6d454720e",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 4,
+      "rationale": "Consistency: fruit arrangement, tabletop and framing are maintained; seed details change slightly. Instruction: cut flesh becomes yellow-brown and whole apples acquire decay, visibly showing elapsed time. Knowledge: oxidation discoloration is present as expected, though extensive peel decay accompanies relatively pale cut flesh. Quality: recognizable fruit and convincing lighting, but several dark rot patches resemble fabric overlays and peel edges look artificially detached."
+    },
+    {
+      "blind_id": "case_93b96459ef1e6d73",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: wooden table and paper arrangement remain, but paper creases are broadly reconstructed. Instruction: all three loaves are removed, leaving no bread instead of two loaves. Quality: coherent crumpled-paper surface, with a mildly unnatural smoothed central patch."
+    }
+  ]
+}

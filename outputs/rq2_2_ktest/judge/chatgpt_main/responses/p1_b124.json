@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b124",
+  "results": [
+    {
+      "blind_id": "case_b532e3db6e041ac3",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The right book remains thin and does not approach the thickness of the left book. The pair shifts downward, though the covers, colors and white background are retained. The edited books are coherent apart from a small rectangular protrusion behind the thin cover."
+    },
+    {
+      "blind_id": "case_537fd11f54a28cd0",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The light and screen become red, but both slits remain and the fringe pattern lacks the requested broad central maximum with narrow side bands. Most of the single-slit conversion is missing. Instruction failure \u21d2 knowledge invalid. The screen and board layout are retained, while the pedestal shifts right. Diffuse red bands extend in front of the board and obscure spatial structure, creating a clear visual artifact."
+    }
+  ]
+}

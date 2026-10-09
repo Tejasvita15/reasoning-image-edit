@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b129",
+  "results": [
+    {
+      "blind_id": "case_d96c5cde44314eb3",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The same eight-bean arrangement remains, but the beans become washed-out gray rather than rich brown. The white background and lower text attempt the poster, yet the title reads only Crafte above Brewed for soul., uses heavy sans-serif lettering, and the soft grounding shadows largely disappear. Truncated wording and flat faded beans are clear visual flaws."
+    },
+    {
+      "blind_id": "case_5abfdf72406a8f9a",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The feet are smoothed and the long front toes are shortened somewhat, while the legs, floor and placement remain consistent. The repair is incomplete: the rear foot still has only four visible toes with no convincing fifth toe, and the front second toe remains unusually elongated. These anatomical issues also lower the edited image quality despite coherent skin and lighting."
+    }
+  ]
+}

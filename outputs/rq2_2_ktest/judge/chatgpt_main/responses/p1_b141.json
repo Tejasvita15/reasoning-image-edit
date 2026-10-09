@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b141",
+  "results": [
+    {
+      "blind_id": "case_0189b806ff5b76e1",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The bill, feet, head and background remain, but the wing-feather arrangement is visibly redrawn. Only a patch of long outer wing feathers becomes black; the soft down across the body stays white, so most of the requested change is missing. The black patch has slightly abrupt texture transitions, otherwise the duck is coherent."
+    },
+    {
+      "blind_id": "case_6d9af3fd95b5fa0d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The fused continuous arm is replaced by two separate forearms and hands resting on the book, successfully correcting the anatomy. The shirt shape/stripe placement and hair lengths are also noticeably changed, while the background remains similar. The edited person has coherent limbs, natural clothing and no clear artifacts."
+    }
+  ]
+}

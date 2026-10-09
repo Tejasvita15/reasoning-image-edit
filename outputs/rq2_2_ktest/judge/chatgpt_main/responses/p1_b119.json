@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b119",
+  "results": [
+    {
+      "blind_id": "case_c2494fc67e75ad76",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: hedge layout and central statue persist, but stone-path textures are noticeably redrawn. Instruction: a short horizontal red stroke crosses the upper-middle maze rather than connecting top-left to bottom-right through corridors. Knowledge: it passes through multiple hedge walls and never reaches the exit; instruction failure \u21d2 knowledge invalid. Quality: coherent overhead garden map with clear walls, paths and red annotation."
+    },
+    {
+      "blind_id": "case_040b9e785d21dd15",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: labels and most country borders remain, but black exterior changes to pale grey/green and southern Italy is swallowed by green fill. Instruction: requested colors appear, but country regions are not consistently filled and adjacent countries repeatedly share colors. Knowledge: Poland/Czech Republic/Slovakia share red and Austria/Hungary/Italy share blue; instruction failure \u21d2 knowledge invalid. Quality: legible map labels and edges overall, with a faint ghosted southern-Italy outline."
+    }
+  ]
+}

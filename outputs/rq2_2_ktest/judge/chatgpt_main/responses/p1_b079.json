@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b079",
+  "results": [
+    {
+      "blind_id": "case_efe84ced9acd9887",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The phone is raised upright beside the power bank instead of resting on top of it. The bank shifts, background horizon moves, and phone details are redrawn. Its unsupported upright stance and cable beneath it make the product arrangement physically awkward, although surfaces remain recognizable."
+    },
+    {
+      "blind_id": "case_9f0d592688644736",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The left ice cream cap changes from brown to orange and extra palette squares are inserted. The right ice cream is colored in six red/orange/yellow/green/purple/red sections instead of the five blue/orange/light-green/yellow/brown layers specified by its swatches. Paint-like blobs outside the outline degrade the illustration. Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

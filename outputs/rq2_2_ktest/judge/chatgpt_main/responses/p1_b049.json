@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b049",
+  "results": [
+    {
+      "blind_id": "case_b48a358d018e7563",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The hand, sleeve and paint-stained brushes retain their identities and details. The beige paper background, colorful splashes and bold workshop title are present, but the hand remains toward the right rather than bottom left, and the workshop information is garbled instead of clean readable details. The nonsense small text is a clear quality defect; the hand and brush geometry otherwise remain coherent."
+    },
+    {
+      "blind_id": "case_277efa9db625af01",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "A large natural-looking rock arch now opens through to the sea, satisfying the requested coastal formation and the supplied explanation. The sky, beach and people remain in similar positions, but the smaller rocks to the left of the main formation have disappeared. The edited arch has plausible stone texture, substantial supports, waterline weathering and coherent surf and reflections."
+    }
+  ]
+}

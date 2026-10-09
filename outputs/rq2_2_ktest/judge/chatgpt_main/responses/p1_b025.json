@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b025",
+  "results": [
+    {
+      "blind_id": "case_ca2b20bd3accdb26",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "The other eight arrows, grid and checkerboard remain unchanged. The question mark becomes a clear double-headed diagonal arrow; the requested box is filled, but the specified right-pointing arrow is absent. Its diagonal and two-headed form conflicts with the supplied pattern answer. The diagram itself has clean, coherent lines and symbols."
+    },
+    {
+      "blind_id": "case_dc4d32100920a6c7",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "The wooden planks and their knots remain consistent around a newly placed brass compass. A recognizable compass with a radial dial and central needle fulfills the requested navigation invention and matches the supplied explanation. Its casing, shadow and wood textures are coherent and clean."
+    }
+  ]
+}

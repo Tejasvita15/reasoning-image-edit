@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b021",
+  "results": [
+    {
+      "blind_id": "case_19b59830b3c09dc8",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "The glass, bench and laboratory background remain consistent. Two pencils are inserted rather than the requested singular pencil. Their mostly straight shafts show only a weak surface offset, so the expected broken refraction is not convincing. Rendering is otherwise clean, with a slightly malformed wooden/eraser end on the yellow pencil."
+    },
+    {
+      "blind_id": "case_f55c95e34e760c02",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Nearly every grid's fill pattern has been changed, despite the request being to add connections. No connecting lines are present. Instruction failure \u21d2 knowledge invalid. The worksheet is legible and orderly, though several cells have uneven pale-yellow fills."
+    }
+  ]
+}

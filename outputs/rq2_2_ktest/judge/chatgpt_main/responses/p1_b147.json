@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b147",
+  "results": [
+    {
+      "blind_id": "case_c9a4b956eae3ffbc",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "The plate, crumbs, framing and reflections are retained. The bread becomes deeply toasted with dark patches and edges, conveying overcooking, although it is mostly brown rather than strongly charred as the explanation specifies. The toast texture and lighting look natural and artifact-free."
+    },
+    {
+      "blind_id": "case_1f81719b43dee12a",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The dish location, blue surface and framing remain consistent. A visible glossy pool wets the powder, clearly adding the requested water. The material stays white rather than transforming into the explained blue crystals, fundamentally failing the knowledge outcome despite complying with water addition. The wet powder and ceramic dish are visually coherent."
+    }
+  ]
+}

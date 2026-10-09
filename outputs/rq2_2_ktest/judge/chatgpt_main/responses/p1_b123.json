@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b123",
+  "results": [
+    {
+      "blind_id": "case_ce9f15bc873cbf77",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "The cap becomes a broad straw hat, but its flat fedora-like crown and modestly turned brim do not clearly realize the requested sombrero. This is a clear mismatch with the supplied sombrero expectation. The face, hair, clothes and setting remain closely preserved, with a small new blue ring detail. A detached-looking fingertip sits on the left brim, creating an anatomical artifact."
+    },
+    {
+      "blind_id": "case_f38e4824565d811c",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The map remains largely white and uncompleted, while the orange palette square turns gray. Borders, existing green and black regions, and interface layout are retained. A completed four-color puzzle is absent; the knowledge explanation is blank, and the score follows the explicit coupling rule: Instruction failure \u21d2 knowledge invalid. The edited interface itself is clean, with coherent outlines and readable labels."
+    }
+  ]
+}

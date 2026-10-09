@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b004",
+  "results": [
+    {
+      "blind_id": "case_6651d43f301ef2f7",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: slipper style, white fabric and wooden surface persist; wood-grain detail is slightly softened. Instruction: the slippers move closer together but remain entirely side by side, with neither inserted into the other, so the requested nesting is absent. Quality: the two slippers have coherent soles, openings, fabric and contact shadows without visible artifacts."
+    },
+    {
+      "blind_id": "case_2d973b1af21ddf63",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the wooden frame, numbered tile designs and surrounding background remain visually unchanged outside the puzzle modification. Instruction: only a zero tile is added in the upper-left vacancy; the numbers are not rearranged into 1\u201315 order with a final empty space. Knowledge: no explanation is supplied, but adding zero does not complete a 15-puzzle. Instruction failure \u21d2 knowledge invalid. Quality: the wooden grid is coherent and all numbers are clear, with natural material texture."
+    }
+  ]
+}

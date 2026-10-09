@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b096",
+  "results": [
+    {
+      "blind_id": "case_dcfc7bf8aebff1a2",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "The five-card fan becomes seven cards marked 5,6,8,4,4,4,5, rather than a five-card three-plus-pair hand. Card positions, sizes and suits are widely changed. Several suit glyphs are scribbled or malformed and red/black marks conflict, degrading card coherence. Instruction failure \u21d2 knowledge invalid."
+    },
+    {
+      "blind_id": "case_187f55c60a4e7868",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Both red question marks remain instead of being replaced by three upper and six lower dots. Several unrelated domino counts change, including the upper-left and lower-middle tiles, while the blue setting and six-tile arrangement remain recognizable. The edited graphic itself has clean readable symbols and coherent borders. Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

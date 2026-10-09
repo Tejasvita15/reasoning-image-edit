@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b133",
+  "results": [
+    {
+      "blind_id": "case_8fc0f37977439c3e",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The interlocked, implausibly oriented handles are replaced with separate conventional handles, fully correcting the cup problem. Both cup colors, cylindrical bodies and white setting remain, with a slight leftward shift of the gray cup. The edited mugs have coherent rims, handles, shading and clean ceramic surfaces."
+    },
+    {
+      "blind_id": "case_014abc131df640d3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The raised hand is slightly reshaped and moved, but the same incomplete-looking curled-finger structure persists, with only three clear finger knuckles alongside the thumb. The main anatomical repair is poorly realized. Shirt folds, body position and bracelet placement change noticeably. The ambiguous missing-finger anatomy remains a clear quality flaw despite coherent lighting."
+    }
+  ]
+}

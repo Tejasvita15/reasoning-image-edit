@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b090",
+  "results": [
+    {
+      "blind_id": "case_96cc58a24e939106",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The strawberry flesh becomes purple while its seeds, green leaves, stem, outline and white background remain consistent. Recoloring is complete and the fruit retains coherent texture and highlights. Faint repeated background watermarks are a minor visual blemish."
+    },
+    {
+      "blind_id": "case_d17160d0d22deca9",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The dog retains its leaping pose, raised tail, ears and cheerful expression, with slightly altered fur texture. The soft green lawn and blue-yellow handwritten Full of Joy caption match the concept, but the caption is large and uses an exclamation mark rather than a period. The poster is readable and coherent with mildly overprocessed fur edges."
+    }
+  ]
+}

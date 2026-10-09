@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b146",
+  "results": [
+    {
+      "blind_id": "case_eb4b1268f732c8a2",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The two remaining brown and gray rabbits retain their positions and appearance against the white background. Two rabbits are removed, reducing the count from four to two rather than the required three, so the count change is only partially correct. Both visible rabbits have coherent anatomy and natural fur."
+    },
+    {
+      "blind_id": "case_12926c9f36c6209d",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The original ring design, stones and frontal orientation remain intact. A white textured fabric and soft shadow are added, but the title is inside the ring instead of at the bottom, uses a sans-serif face, and misspells MOUNTAINS as MOUNTAIKS. The display concept is present but several specified features fail. The ring and fabric render coherently, while the malformed title is a clear visual-semantic flaw."
+    }
+  ]
+}

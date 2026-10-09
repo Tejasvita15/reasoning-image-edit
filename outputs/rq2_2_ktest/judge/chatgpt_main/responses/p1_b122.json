@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b122",
+  "results": [
+    {
+      "blind_id": "case_7b013e7686ff7ab2",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The left mug now sits upright on the right mug with its right-facing handle preserved, fully matching the stacking request. The valley, sky and ledge are retained; the lower mug shifts slightly left. Cup geometry, contact and photographic lighting are coherent without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_edee877cbbe9571b",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "A clear red equal-armed cross has been attached to the front of the white cup, matching both the request and the supplied emblem expectation. The lid, handle, cup contours, wood surface and gray backdrop remain unchanged. The emblem and ceramic surfaces are clean and naturally integrated."
+    }
+  ]
+}

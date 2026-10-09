@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b082",
+  "results": [
+    {
+      "blind_id": "case_90661a179847b524",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The shirt is fully black while its short sleeves, collar, drape, hanger and gray background remain consistent. The requested recoloring is complete, with natural folds, seams and shading and no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_107c54e59ac25540",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "All eight forks disappear, including the six that should remain, leaving only the white background. The requested six-fork result is absent. Assessed alone, the output is a uniform clean white field without visible artifacts; the absent requested content is reflected in instruction compliance."
+    }
+  ]
+}

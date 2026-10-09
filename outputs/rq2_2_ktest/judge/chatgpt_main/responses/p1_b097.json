@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b097",
+  "results": [
+    {
+      "blind_id": "case_b0802fc4848c1ba1",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The red glazed teapot, label, white background and basic design remain, with a small added base-rim detail. It remains a frontal oblique view with the front label and handle opening visible, unlike the reference overhead circular lid and foreshortened handle; the requested top view fails. The edited teapot is structurally coherent with clean highlights and legible text."
+    },
+    {
+      "blind_id": "case_854d0bf77797bb65",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "A long leftward cast shadow remains and is darkened instead of disappearing as the supplied explanation requires. Sky and distant dunes are introduced and ground details change, although the wooden post remains recognizable. The edited photograph has convincing wood, sand, perspective and shadow edges. Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

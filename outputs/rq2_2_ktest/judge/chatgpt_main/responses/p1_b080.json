@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b080",
+  "results": [
+    {
+      "blind_id": "case_212ab620d6954fb2",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The three-drawer cabinet and knobs are retained with a minor proportional change. A white wall, wood floor and linen curtain create the intended setting, but the title is bold rather than thin and garbles but also into buso; distinct angled sunlight is weak. The furniture and room are coherent, while the malformed text is a noticeable semantic flaw."
+    },
+    {
+      "blind_id": "case_d761fb479656c1c4",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Symbols in all four existing grids are changed. The two empty grids become dense checkerboards of fragmented symbols instead of 3x3 grids with X and O interchanged, so the specified swapping logic is absent. Corrupted symbols and incompatible grid subdivision severely damage the worksheet. Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

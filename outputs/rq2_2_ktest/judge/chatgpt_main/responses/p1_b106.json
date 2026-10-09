@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b106",
+  "results": [
+    {
+      "blind_id": "case_e6c8f26db2c69099",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: yellow fill and pale background persist, with no unrelated elements introduced. Instruction: the ellipse is only slightly taller and narrower; it remains conspicuously wider than high rather than becoming a circle. Knowledge: unequal visible axes contradict eccentricity zero; instruction failure \u21d2 knowledge invalid. Quality: smooth, clean oval silhouette and uniform graphic presentation."
+    },
+    {
+      "blind_id": "case_3ca449bc3e97ad17",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: housing, USB Charger lettering, plug, cables and wood floor remain in place. Instruction: all ten ports disappear, leaving zero interfaces rather than six. Quality: geometry, shadows and materials are coherent, but the labeled charger with a completely blank port panel creates a clear semantic defect."
+    }
+  ]
+}

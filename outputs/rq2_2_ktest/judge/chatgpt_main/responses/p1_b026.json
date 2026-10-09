@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b026",
+  "results": [
+    {
+      "blind_id": "case_6e88ef1984a25c3b",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "The hearts, original six faces, arrows and boxes remain unchanged. Seven smiling faces fill the requested box rather than the required three. This completes the location and object type but violates the halving pattern in the explanation. All icons are clean and readable with coherent borders."
+    },
+    {
+      "blind_id": "case_add36ebce4833636",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The carpet, rack, shoe positions and black heel tabs remain consistent, but the shoe uppers change from pebbled leather to a woven fabric texture. Both shoes are comprehensively recolored brown as requested. Their laces, seams, soles and shadows are visually coherent and artifact-free."
+    }
+  ]
+}

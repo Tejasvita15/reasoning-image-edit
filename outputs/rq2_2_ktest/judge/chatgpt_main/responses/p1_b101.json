@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b101",
+  "results": [
+    {
+      "blind_id": "case_9c44b2496d771b98",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: grid and other clues remain, but the green 2 is erased. Instruction: a red X replaces an exposed clue instead of marking the hidden mines at upper right and central covered cells. Knowledge: exposed numbered cells are safe; instruction failure \u21d2 knowledge invalid. Quality: clean, legible grid and X with coherent edges."
+    },
+    {
+      "blind_id": "case_3f94b393cfc6eca0",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: main scene and paths persist, but family facial/clothing details and lower-right foliage change. Instruction: red stroke starts near the family but cuts across paths and grass and ends at left, never reaching the castle. Knowledge: it does not trace a traversable route; instruction failure \u21d2 knowledge invalid. Quality: coherent illustration with a small merged foliage/foot detail at lower right."
+    }
+  ]
+}

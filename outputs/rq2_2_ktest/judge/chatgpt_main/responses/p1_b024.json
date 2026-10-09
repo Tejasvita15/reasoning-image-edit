@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b024",
+  "results": [
+    {
+      "blind_id": "case_4b8d20ccbacf54fa",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The backdrop and title remain, but the cola bottle is removed although the supplied explanation identifies alcohol as the target. The beer can remains, so the requested removal is reversed. Instruction failure \u21d2 knowledge invalid. The can is structurally coherent, but its small promotional lettering is visibly garbled."
+    },
+    {
+      "blind_id": "case_b7c0cfa2a3389f8d",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The background remains, but the shoe that should have remained is also removed. Both shoes disappear rather than exactly one, so removal is achieved with an incorrect count. The resulting empty gray surface is smooth and visually coherent, without obvious residual shoe fragments."
+    }
+  ]
+}

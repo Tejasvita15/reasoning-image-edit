@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b056",
+  "results": [
+    {
+      "blind_id": "case_595d1d67ac8fa80c",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: facial identity, hair, suit, tie, pose and plain background are preserved. Instruction: the face and neck become visibly flushed red. Knowledge: the redness directly matches the supplied alcohol-flush expectation. Quality: anatomy and clothing are coherent, with a slightly blotchy and overly uniform red skin treatment as the only minor visual issue."
+    },
+    {
+      "blind_id": "case_1e4982ffb3bb190b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the left products and lower sheep remain, but the cow, bee and hen are replaced with different animal illustrations. Instruction: no matching links are drawn; row pairing would connect honey to a chicken, eggs to a sheep and milk to a chicken, so production-origin matching fails. Knowledge: the supplied explanation is blank, but the required coupling applies: Instruction failure \u21d2 knowledge invalid. Quality: all cartoon products and animals are recognizable with coherent outlines and a clean layout."
+    }
+  ]
+}

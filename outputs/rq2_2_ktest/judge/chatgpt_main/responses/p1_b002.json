@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b002",
+  "results": [
+    {
+      "blind_id": "case_18352ab799700354",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: the green background and sandy ground remain broadly arranged alike, but the puppy's muzzle, ears and coat texture change visibly. Instruction: leg positions shift, yet five legs/paws remain instead of the expected four; the anatomical problem is uncorrected. Quality: the extra leg, awkward central rear limb and distorted left paw create distracting anatomical errors despite coherent fur and lighting."
+    },
+    {
+      "blind_id": "case_2a56cef5aec233a7",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the white background and large lavender ring remain, but the green circle is substantially reduced in diameter beyond the requested translation. Instruction: the green ring moves to the large ring's center, achieving alignment. Knowledge: the two centers visibly coincide as specified. Quality: both closed outlines and the plain background are clean and structurally coherent."
+    }
+  ]
+}

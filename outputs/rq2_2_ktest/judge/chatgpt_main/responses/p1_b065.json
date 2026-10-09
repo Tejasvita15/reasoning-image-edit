@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b065",
+  "results": [
+    {
+      "blind_id": "case_d78ac3e7e235ff39",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "Consistency: gloved hand, strip, test container, red lid and cup geometry are retained. Instruction: pale urine becomes a much deeper amber-brown, depicting concentration, though it is lighter and more orange than the requested dark brown. Knowledge: the direction matches the supplied expectation with a small color-depth deviation. Quality: cup reflections, liquid surface, glove folds and depth of field are natural and coherent."
+    },
+    {
+      "blind_id": "case_2ddb354546f23343",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the central arm remains, but black margins are replaced by large additional forearm and torso X-ray panels with branching cracks. Instruction: the original left-side arm bone remains unfractured; the change instead adds unrelated cracked radiographs. Knowledge: the specified left bone fracture is absent. Instruction failure \u21d2 knowledge invalid. Quality: multiple thick branching surface-like cracks across anatomical panels and awkward panel boundaries create distracting structural/semantic artifacts."
+    }
+  ]
+}

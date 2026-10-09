@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b053",
+  "results": [
+    {
+      "blind_id": "case_9a45f2a5758571d3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the smaller left ball is reduced and shifted, and the ring patterns/highlights on both balls change; the white background remains. Instruction: the right ball remains clearly larger and the left ball becomes smaller, so the requested reduction to matching size is not achieved. Quality: both blue balls have coherent circular contours, grooves, reflections and contact shadows."
+    },
+    {
+      "blind_id": "case_d96fc1f993ccab01",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the bottle, label, stopper, brush, sponge and yellow cloth remain, but an extra powder pile and spill alter the surrounding surface. Instruction: a substantial white powder portion is visibly added inside the vinegar bottle, fulfilling the addition. Knowledge: it appears as settled powder without visible small reaction bubbles, conflicting with the specified effervescence. Quality: glass, legible label, powder and cleaning tools remain visually coherent with natural texture and lighting."
+    }
+  ]
+}

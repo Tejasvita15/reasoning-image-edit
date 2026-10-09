@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b120",
+  "results": [
+    {
+      "blind_id": "case_d54b848f4f30ad94",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The right carton remains much shorter than the left, so the requested size match is absent. The left carton becomes narrower, lettering and wave contours shift, and a new ground shadow appears. The edited illustration is clean with coherent edges and shading."
+    },
+    {
+      "blind_id": "case_b71ecb386e475e05",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "The painting still depicts a palm tree over pink water, with no horse or replacement by Galloping Horse. Instruction failure \u21d2 knowledge invalid. The surrounding composition and hand are retained, but the flat paintbrush becomes a pointed black brush. The edited scene is otherwise coherent, with a small smeared dark patch near the horizon."
+    }
+  ]
+}

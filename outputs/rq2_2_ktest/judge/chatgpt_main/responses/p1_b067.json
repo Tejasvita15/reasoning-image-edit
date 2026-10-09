@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b067",
+  "results": [
+    {
+      "blind_id": "case_bf5c87400cb6d047",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: water setting and white swan identity remain, but the body moves left and head/beak orientation changes beyond correcting the abnormal neck. Instruction: the distorted angular neck becomes a continuous anatomically plausible curved neck. Quality: swan anatomy, plumage, water ripples and reflection are natural and coherent."
+    },
+    {
+      "blind_id": "case_6b7d95b036e3a96e",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: books, lamp, papers, coffee, chair and desk remain, but the loose pen moves from left of the book to its right edge. Instruction: the pen holder stays at the upper left and is not placed on the book; the wrong object is moved. Quality: the overhead desk scene has coherent geometry and natural textures without noticeable artifacts."
+    }
+  ]
+}

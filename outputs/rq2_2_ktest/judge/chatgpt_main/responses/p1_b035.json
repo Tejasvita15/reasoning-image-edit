@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b035",
+  "results": [
+    {
+      "blind_id": "case_48ddde7ad4f1a7c5",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The skater's face, hair, clothing, pose and skateboard are retained while the requested blue poster setting is added. Yellow title, skyline, lightning, motion streaks and bottom call-to-action are present, but separate skateboard-part accents are absent. The subtitle overlaps the hair and becomes broken/partly illegible, an obvious typographic flaw; the figure remains coherent."
+    },
+    {
+      "blind_id": "case_052ec6a17aa7195d",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The plain white cup and lid retain their design. The cup is placed below center on pale wood with a blurred warm cafe background and the correct words at the top. However, the title uses a large outlined serif font rather than light dark-brown sans-serif, and the scene reads as an outdoor tabletop rather than light through cafe windows. The cup, shadows, wood and text are clean and coherent."
+    }
+  ]
+}

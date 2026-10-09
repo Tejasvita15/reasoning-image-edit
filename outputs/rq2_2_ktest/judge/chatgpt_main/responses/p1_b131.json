@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b131",
+  "results": [
+    {
+      "blind_id": "case_1819188749c17f68",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The yellow HUMMER bicycle remains recognizable with minor spoke-detail changes. A blue-green background, mountains, motion streaks, bold correct headline and readable slogan are present; the city silhouette is minimal and the slogan sits above rather than beside the bike. The edited poster has coherent bicycle geometry and clean, legible graphic elements."
+    },
+    {
+      "blind_id": "case_8c8f9ee8be81dcf8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The elephant becomes browner and more textured, partially reducing the unnatural bright-red skin, but the large ears and head remain strongly orange-red. The requested correction is incomplete. The framing shifts closer, shadows change, and vegetation is redrawn. The edited painted elephant has coherent anatomy and detailed surfaces without noticeable generation artifacts."
+    }
+  ]
+}

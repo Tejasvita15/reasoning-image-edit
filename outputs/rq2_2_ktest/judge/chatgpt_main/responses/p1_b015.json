@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b015",
+  "results": [
+    {
+      "blind_id": "case_d01c4806b33d4380",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the beige wall and wooden floor remain, but the kitten's muzzle/eye details, chest markings and paw positions change. Instruction: the central third ear and lateral extra ear both remain, so the requested correction to normal two-ear anatomy is absent. Quality: fur and lighting are convincing, but duplicated ears are an obvious anatomical flaw."
+    },
+    {
+      "blind_id": "case_ed68363149e68700",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the warm rocky substrate and blurred background are retained, with a small local rock-texture alteration beside the animal. Instruction: the tadpole is transformed into a recognizable adult frog with developed limbs and no tadpole tail. Knowledge: this matches the supplied tadpole-to-frog maturation explanation. Quality: the frog's eyes, skin and body are coherent, with slight blending of the overlapping toes beneath it."
+    }
+  ]
+}

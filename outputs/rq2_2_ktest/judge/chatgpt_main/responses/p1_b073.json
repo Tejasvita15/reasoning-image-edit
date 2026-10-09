@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b073",
+  "results": [
+    {
+      "blind_id": "case_280e8e23aec0685c",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "The three existing panels remain recognizable, but the outer frame is broken at the bottom and right. The replacement is oversized and filled with crossing and disconnected strokes rather than the mirrored upper-left corner stripes required. Broken lines and misaligned framing visibly degrade the diagram. Instruction failure \u21d2 knowledge invalid."
+    },
+    {
+      "blind_id": "case_e6e887dc832f52f4",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "The plain background and blue palette are retained; the geometric subject is the authorized change. The rectangle becomes overlapping triangular forms and crossing lines, not a square with concurrent angle bisectors. The diagram is structurally confusing, with overlapping polygons and lines lacking clear vertex connections. Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

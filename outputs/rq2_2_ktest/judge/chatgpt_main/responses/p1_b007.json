@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b007",
+  "results": [
+    {
+      "blind_id": "case_bb51875eb2112ef1",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the distinctive damaged central leaf, long upper leaves, branches and green background remain in place outside flower occlusion. Instruction: numerous open blossoms now show the plant blooming. Knowledge: the blossoms are pink as explained, but their rounded layered cups and dense yellow centers do not resemble the expected rhododendron flower form. Quality: petals, depth of field and sunlight are natural and coherent without obvious artifacts."
+    },
+    {
+      "blind_id": "case_10fcc998dbb1273a",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the grid, X marks and bottom-right O remain, but the center O's pink fill becomes yellow. Instruction: no O is added to the empty top-left cell, which would complete the existing center-to-bottom-right diagonal; changing a fill does not produce a win. Knowledge: no explanation is supplied, and no winning row is formed. Instruction failure \u21d2 knowledge invalid. Quality: the simple graphic retains clear symbols, clean edges and a coherent layout."
+    }
+  ]
+}

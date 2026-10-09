@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b132",
+  "results": [
+    {
+      "blind_id": "case_6229afc559facb90",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The empty cells are filled, but rows repeat 3s and 5s, digits 5, 6 and 8 violate a 4x4 Sudoku, and several original clues are changed. The grid remains intact, but the altered clues and inconsistent number styling reduce consistency. A malformed 2-like symbol and doubled-looking 5 are clear quality flaws. The explanation is blank; Instruction failure \u21d2 knowledge invalid under the rubric coupling."
+    },
+    {
+      "blind_id": "case_860ebf640d1aa3d3",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The original rock hand becomes scissors while the other scissors and paper remain, so the original rock player does not achieve an unambiguous win over both opponents. The expected one-gesture solution would replace paper with scissors while retaining rock. Other hand positions are close, with a small bottom-hand shift. The new raised fingers are partly disconnected, a clear structural flaw. The explanation is blank; Instruction failure \u21d2 knowledge invalid by the supplied coupling rule."
+    }
+  ]
+}

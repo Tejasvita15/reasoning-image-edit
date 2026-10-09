@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b116",
+  "results": [
+    {
+      "blind_id": "case_56e3fa7a51958945",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: green background and arched branch remain, but existing birds are redistributed with changed poses and plumage detail. Instruction: exactly six recognizable little birds now perch on the branch. Quality: coherent birds, beaks and feathers overall, with a slightly awkward left-bird foot/branch junction."
+    },
+    {
+      "blind_id": "case_690966602ad6dcae",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: white background and two-tortoise arrangement persist, but the small tortoise shell/head details and large tortoise pose are altered. Instruction: the left tortoise remains substantially larger in shell height and width, without the requested size match. Quality: convincing shell textures, limbs, faces and contact shadows."
+    }
+  ]
+}

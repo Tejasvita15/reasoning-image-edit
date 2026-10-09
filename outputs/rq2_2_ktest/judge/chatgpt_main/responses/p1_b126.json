@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b126",
+  "results": [
+    {
+      "blind_id": "case_6741fb917e6f2a4c",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The lemon halves remain recognizable with a small change in pulp detail. They are placed lower under the requested words, but the text is solid dark green and partly script, the background has little white, and the splash is large and opaque rather than subtle transparent edge strokes. The edited graphic has clean text, coherent fruit and a polished illustrative splash."
+    },
+    {
+      "blind_id": "case_28c4c2536a1e1fcc",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The white pump retains its profile and heel with only a slight highlight shift. Gold floral lines, glitter and a gray-white background are added, but the title is mixed-case script rather than bold uppercase and the slogan omits elegance. The edited poster has a coherent shoe and layout, but a conspicuous block of illegible tiny pseudo-text appears at the bottom."
+    }
+  ]
+}

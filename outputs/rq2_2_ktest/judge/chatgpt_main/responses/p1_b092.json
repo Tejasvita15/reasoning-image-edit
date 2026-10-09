@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b092",
+  "results": [
+    {
+      "blind_id": "case_3d4996914ebd1fd3",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Most animals and silhouettes are removed or redrawn into different hybrid forms. Only three incomplete horizontal connections appear and they do not match the original five animal-shadow pairs. Distorted anatomy and missing subjects severely damage worksheet coherence. Instruction failure \u21d2 knowledge invalid."
+    },
+    {
+      "blind_id": "case_83e2ad10e90268b0",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "All pieces are removed from the board and the loose pile, instead of removing one X. This does eliminate the diagonal X win, but greatly exceeds the requested single removal. The explanation is blank; based on the supplied task, the empty board has no existing X winning line. The wooden empty grid itself is clean and naturally shaded."
+    }
+  ]
+}

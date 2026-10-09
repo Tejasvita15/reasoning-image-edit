@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b052",
+  "results": [
+    {
+      "blind_id": "case_ae87c7209d97b522",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: the tower, its lattice geometry, central placement and reflection are preserved; background additions are requested. Instruction: blue-purple gradient, stars, clouds, birds and the correct title/subtitle appear, but the title is at upper right instead of top center and agency details are gibberish. Quality: multiple lines of garbled agency text visibly degrade an otherwise coherent poster."
+    },
+    {
+      "blind_id": "case_d74bea8448d1cf96",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: walls, floor, shelves and original top-right plant remain unchanged. Instruction: a different, much larger potted plant is added at the left of the second tier while the original plant remains atop the right shelf; the requested same-tier transfer is not implemented. Quality: shelf geometry, lighting and foliage are coherent and natural without noticeable artifacts."
+    }
+  ]
+}

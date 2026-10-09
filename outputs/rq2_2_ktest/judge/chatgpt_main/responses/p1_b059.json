@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b059",
+  "results": [
+    {
+      "blind_id": "case_74d01b47aa0096f6",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the 4x4 grid persists, but white cells become dark brown, black digits turn white and the given second-row 2 changes to 3. Instruction: some blanks receive numbers, but one remains empty, several symbols are malformed, and 5/9 and repeated 3s violate a completed 4x4 Sudoku. Knowledge: the explanation is blank; Instruction failure \u21d2 knowledge invalid. Quality: multiple malformed numerals and inconsistent glyphs materially damage text legibility."
+    },
+    {
+      "blind_id": "case_751fc8bc549e9f73",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: white background and green handle identity remain, but the small scissors are enlarged and their blade/handle proportions change. Instruction: the large green-handled scissors remain much larger, with no meaningful reduction to the small scissors size. Quality: both pairs have coherent metal blades, closed loops, highlights and shadows without obvious artifacts."
+    }
+  ]
+}

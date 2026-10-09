@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b139",
+  "results": [
+    {
+      "blind_id": "case_82a26c67ff341af6",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The broken left end remains splintered and incomplete; only the already sharpened right tip changes, becoming longer with a smaller graphite point. The requested pencil completion is absent. The yellow body, white background and shadow are retained. The edited broken pencil is visually coherent with natural wood and paint texture."
+    },
+    {
+      "blind_id": "case_253ae8c2ef6f11aa",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The rightmost question mark remains instead of being replaced by 32 as specified by the explanation. Instruction failure \u21d2 knowledge invalid. The left triangle base number changes from 4 to 14, while the triangle layout and other numbers remain. The edited diagram itself is clean, with readable numbers and intact outlines."
+    }
+  ]
+}

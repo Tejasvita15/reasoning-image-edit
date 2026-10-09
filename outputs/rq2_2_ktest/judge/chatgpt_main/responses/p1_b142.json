@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b142",
+  "results": [
+    {
+      "blind_id": "case_4feeaf2133072fec",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The sweater and ceiling remain consistent, but the exposed nose has been visibly reshaped. The mask still sits below both nostrils instead of covering the nose as requested and explained. Instruction failure \u21d2 knowledge invalid. The edited photograph is otherwise natural and structurally coherent."
+    },
+    {
+      "blind_id": "case_83bb3af8c59a8385",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The chain and clasps are uniformly silver, fully fulfilling the color change. The necklace arrangement, cream prop and background are retained, with a small alteration to the lower medallion engraving. The linked metal and highlights look coherent without visible artifacts."
+    }
+  ]
+}

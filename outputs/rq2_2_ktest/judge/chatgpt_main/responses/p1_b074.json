@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b074",
+  "results": [
+    {
+      "blind_id": "case_6f0496315050bd9f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "The sail-shaped building remains a Burj Al Arab form rather than becoming the specified Burj Khalifa. Shoreline structures and wave patterns also change, although composition and sky are similar. The coastal image is coherent with slight building-edge softness. Instruction failure \u21d2 knowledge invalid."
+    },
+    {
+      "blind_id": "case_94b062a6194a393c",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Bottle silhouette, label, cap and white background remain consistent outside the requested opening and liquid effects. Internal bubbles and foam appear, but the cap remains sealed and no liquid sprays out. Glass and label are legible, though the orange bubble clusters look somewhat artificial. Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

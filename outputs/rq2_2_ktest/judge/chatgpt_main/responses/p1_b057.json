@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b057",
+  "results": [
+    {
+      "blind_id": "case_327812ca00eff525",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the wooden material and number style persist, but board framing and tile border geometry visibly change. Instruction: the scrambled order remains and two extra 5s replace the blank and 4, rather than arranging 1 through 15 with one empty space. Knowledge: no explanation is supplied; the required rule applies: Instruction failure \u21d2 knowledge invalid. Quality: numerals are legible, but repeated 5s and the anomalous borderless lower-right tile create clear semantic/structural flaws."
+    },
+    {
+      "blind_id": "case_9174bde0fbd8c75a",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: stem, sepals, background blur and flower pose remain, with only slight alteration of inner petal creases. Instruction: red petals become pink throughout, precisely achieving the requested color. Quality: coherent layered petals, natural shading and clean separation from the background show no noticeable artifacts."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b136",
+  "results": [
+    {
+      "blind_id": "case_6736c8aff942329d",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The bell curve remains centered at 2 with the same narrow spread and approximately 0.4 peak, so no variance increase is shown. It also fails the supplied explanation requiring expanded x displacements. Instruction failure \u21d2 knowledge invalid. Axes, labels and white background are retained with a small inset shift of the plot border. The edited chart is clean and legible."
+    },
+    {
+      "blind_id": "case_1ce79737358bcab2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "No supplied road blocks are placed in the grid, leaving the route unbuilt. The truck disappears, the title is corrupted, and a second large burning house with smoke is added over the lower puzzle. The explanation is blank; Instruction failure \u21d2 knowledge invalid by the rubric coupling. Garbled title lettering, heavy overlaps and inconsistent fire graphics create multiple distracting quality flaws."
+    }
+  ]
+}

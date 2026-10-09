@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b058",
+  "results": [
+    {
+      "blind_id": "case_64b7326c3e1230ae",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: two mangoes retain their overlapping arrangement and white background, with a small change to the front stem nub. Instruction: green fruit becomes predominantly golden yellow, depicting ripening. Knowledge: the yellow skin matches the supplied expectation. Quality: mango contours, speckled skin, highlights and contact shadows are coherent and natural."
+    },
+    {
+      "blind_id": "case_74cf675e365c021b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: hand pose and background remain, but glove color shifts from white to olive and extensive peeling/damage is added across palm and fingers. Instruction: the open thumb hole still exposes skin and the glove is further damaged, so completion is not achieved. Quality: the worn glove is recognizable with coherent finger shapes, although some peeling palm textures merge unnaturally."
+    }
+  ]
+}

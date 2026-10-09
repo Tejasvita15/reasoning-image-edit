@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b027",
+  "results": [
+    {
+      "blind_id": "case_a26511d707e97677",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "The hen, white background and wooden ledge remain recognizable, while the straw layout is noticeably redrawn. A chick appears, but all original eggs remain and an extra whole egg is added, rather than an egg visibly hatching. This partially conveys the outcome but conflicts with the expected egg-to-chick transformation. The chick and hen have coherent anatomy, feathers and lighting."
+    },
+    {
+      "blind_id": "case_34622fe899b7eb5f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The white and black/red towers successfully exchange sides. The central monitor becomes narrower and shifts left, and the keyboard and mouse also shift, so multiple nonrequested elements change. The finished desktop arrangement has coherent tower geometry, screen contents, shadows and peripheral shapes."
+    }
+  ]
+}
