@@ -55,11 +55,24 @@
 #
 #   9. Validate the RQ2.2 runs (plus the timing and K-test runs, if present):
 #        qsub -v STAGE=check_2_2 -l select=1:ncpus=4:mem=16G jobs/rq2_step1x_aspire2a.sh
+#
+#  10. RQ2.3 smoke (4 K-small examples, seed 42, every run type and the
+#      EditReward selector; needs the one-time "editreward" conda env):
+#        qsub -v STAGE=rq2_3_smoke jobs/rq2_step1x_aspire2a.sh
+#
+#  11. RQ2.3 feedback vs resampling: K-small (40) x seeds 42 1234 7,
+#      thinking on (cached plan), guidance 6, 28 steps. Builds the missing
+#      K-small thought caches, generates, then runs the EditReward
+#      selector. Resubmitting the same command resumes:
+#        qsub -v STAGE=rq2_3 jobs/rq2_step1x_aspire2a.sh
+#
+#  12. Validate the RQ2.3 runs and selections:
+#        qsub -v STAGE=check_2_3 -l select=1:ncpus=4:mem=16G jobs/rq2_step1x_aspire2a.sh
 # =============================================================
 
 set -eo pipefail
 
-STAGE=${STAGE:?set STAGE to smoke, s7, cache, rq2_1, check_2_1, rq2_2, rq2_2_timing, rq2_2_ktest or check_2_2}
+STAGE=${STAGE:?set STAGE to smoke, s7, cache, rq2_1, check_2_1, rq2_2, rq2_2_timing, rq2_2_ktest, check_2_2, rq2_3_smoke, rq2_3 or check_2_3}
 SEED=${SEED:-42}
 THINKING=${THINKING:-"off cached"}
 CFGS=${CFGS:-"2 6 10"}
@@ -76,6 +89,26 @@ TIMING_REPEATS_2_2=${TIMING_REPEATS_2_2:-3}
 # (outputs/rq2_2/analysis/rq2_2_frozen_config.json): thinking on, 28 steps.
 FROZEN_THINKING_2_2=${FROZEN_THINKING_2_2:-cached}
 FROZEN_STEPS_2_2=${FROZEN_STEPS_2_2:-28}
+
+# RQ2.3: K-small, three seeds, thinking on with the frozen plan (cached), the
+# RQ2.1 guidance and the RQ2.2 frozen step count. Feedback (Step1X reflection,
+# max_try_cnt=2) vs resampling. The EditReward selector runs in its own conda
+# env (it pins transformers 4.57.0; Step1X needs 4.55.0).
+SEEDS_2_3=${SEEDS_2_3:-"42 1234 7"}
+CFG_2_3=${CFG_2_3:-6}
+STEPS_2_3=${STEPS_2_3:-28}
+EDITREWARD_ENV=${EDITREWARD_ENV:-editreward}
+LOG_2_3=rq2_3_step1x_think-cached_cfg${CFG_2_3}_steps${STEPS_2_3}_k_small
+
+# Seed 42 reuses the K-test thoughts (K-small is a subset of K-test, same
+# derived thinking seeds); the other seeds get their own K-small caches.
+cache_2_3() {
+    if [ "$1" = "42" ]; then
+        echo outputs/rq2_2_ktest/thought_cache/k_test_seed42.jsonl
+    else
+        echo "outputs/rq2_3/thought_cache/k_small_seed$1.jsonl"
+    fi
+}
 
 # RQ2.1 is fixed at 50 steps, reflection off (configs/rq2/step1x.yaml).
 STEPS=50
@@ -405,6 +438,70 @@ check_2_2)
     fi
 
     exit $CHECK_STATUS
+    ;;
+
+rq2_3_smoke)
+    # Scratch stage: 4 K-small examples (seed 42) through every RQ2.3 run
+    # type. --force_redraw runs the resampling redraw even when the reflection
+    # accepts candidate 1, so that path is always exercised.
+    OUT=outputs/rq2_3_smoke
+    LOGS=logs/rq2_3_smoke
+
+    rm -rf "$OUT" "$LOGS"
+
+    python -m src.rq2.run_rq2_3 \
+        --config "$CONFIG" --splits "$SPLITS" --seed 42 \
+        --true_cfg_scale "$CFG_2_3" --num_inference_steps "$STEPS_2_3" \
+        --thought_cache "$(cache_2_3 42)" --n_examples 4 \
+        --output_dir "$OUT" --log_dir "$LOGS" --force_redraw
+
+    conda activate "$EDITREWARD_ENV"
+
+    python -m src.rq2.select_2_3 \
+        --gen_log "$LOGS/${LOG_2_3}_seed42.jsonl" --splits "$SPLITS" \
+        --out_dir "$LOGS/selector"
+
+    conda activate reasoning-image-edit
+
+    # Candidate 1 must also equal the seed-42 K-test frozen image.
+    python -m src.rq2.check_rq2_3 \
+        --log_dir "$LOGS" --splits "$SPLITS" --seeds 42 --expected_n 4 \
+        --cfg "$CFG_2_3" --steps "$STEPS_2_3" --selector_dir "$LOGS/selector" \
+        --reference_log_dir logs/rq2_2_ktest --allow_forced_redraw
+    ;;
+
+rq2_3)
+    for S in $SEEDS_2_3; do
+        CACHE=$(cache_2_3 "$S")
+
+        # K-small thoughts, built once per seed and never regenerated.
+        if [ ! -f "$CACHE" ]; then
+            python -m src.rq2.build_thought_cache \
+                --config "$CONFIG" --splits "$SPLITS" --split k_small --seed "$S" \
+                --out "$CACHE"
+        fi
+
+        python -m src.rq2.run_rq2_3 \
+            --config "$CONFIG" --splits "$SPLITS" --seed "$S" \
+            --true_cfg_scale "$CFG_2_3" --num_inference_steps "$STEPS_2_3" \
+            --thought_cache "$CACHE"
+    done
+
+    # Selector, after every generation, in its own environment.
+    conda activate "$EDITREWARD_ENV"
+
+    for S in $SEEDS_2_3; do
+        python -m src.rq2.select_2_3 \
+            --gen_log "logs/rq2_3/${LOG_2_3}_seed${S}.jsonl" --splits "$SPLITS"
+    done
+    ;;
+
+check_2_3)
+    # SEEDS_2_3 is intentionally unquoted (space-separated list).
+    python -m src.rq2.check_rq2_3 \
+        --log_dir logs/rq2_3 --splits "$SPLITS" --seeds $SEEDS_2_3 --expected_n 40 \
+        --cfg "$CFG_2_3" --steps "$STEPS_2_3" --selector_dir logs/rq2_3/selector \
+        --reference_log_dir logs/rq2_2_ktest
     ;;
 
 *)
