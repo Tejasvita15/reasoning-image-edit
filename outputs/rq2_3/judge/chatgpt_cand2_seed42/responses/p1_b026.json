@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b026",
+  "results": [
+    {
+      "blind_id": "case_fdeb43e991e60daa",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The central frog and hand arrangement remain, but the frog's blue hand changes to red, altering the reference color. All outer hands receive color, yet orange, purple and pale blue replace the required red/blue correspondence and similar hand orientations get different colors. The illustration itself retains clean hand silhouettes and coherent flat fills. The explanation is blank; knowledge uses the supplied coupling: Instruction failure \u21d2 knowledge invalid."
+    },
+    {
+      "blind_id": "case_49b2ad26f0452059",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The white pump retains its profile, tan sole, heel shape and curved seams; changed background and arrangement are authorized. The edit supplies gold glitter, gray-white gradient and the requested wording, but Grace is oversized script and the title is mixed case rather than bold uppercase. The shoe and layout are coherent, with a small irregular broken stroke in the decorative Grace lettering."
+    }
+  ]
+}

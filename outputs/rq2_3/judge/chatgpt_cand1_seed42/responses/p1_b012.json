@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b012",
+  "results": [
+    {
+      "blind_id": "case_82109646f6b97a74",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: upright wooden post remains, but a blue sky/horizon and dunes are added and ground pebble/texture details change. Instruction: the long leftward shadow remains strongly visible instead of disappearing as expected by the supplied annotation. Knowledge: the explanation requires no shadow. Instruction failure ⇒ knowledge invalid. Quality: coherent post, ground, horizon and natural cast shadow; detailed textures without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_b7153129d028c029",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: vase, flowers and glass table remain recognizable, but the open book becomes closed and table/vase alignment shifts slightly. Instruction: the book stays on the right side of the vase rather than moving left, so the requested relationship is unchanged. Quality: coherent glass table, vase and closed book with plausible reflections and lighting; no noticeable artifacts."
+    }
+  ]
+}

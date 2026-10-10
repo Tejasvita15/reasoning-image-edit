@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b019",
+  "results": [
+    {
+      "blind_id": "case_b7080793d0a29674",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: turquoise sandal, polish, ankle and rainy setting remain; wet pavement reflections and texture are noticeably redrawn. Instruction: toes are smoothed and reshaped but all seven remain, so the excess digits are not corrected. Quality: seven elongated toes create a major anatomical failure despite otherwise coherent skin and sandal materials."
+    },
+    {
+      "blind_id": "case_ccc87e2aa822e74d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: painting identity and burgundy frame remain, but internal bird/branch details and carved frame ornament are redrawn. Instruction: centered painting, blue gradient, clouds, flying cranes and glow are present; title uses script instead of serif and bottom-left event text is largely nonsensical. Quality: main composition is coherent, but multiple garbled event lines and visible watermark-like text create distracting textual artifacts."
+    }
+  ]
+}

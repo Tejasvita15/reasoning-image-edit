@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b004",
+  "results": [
+    {
+      "blind_id": "case_ad3144c3c84934e4",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: grey background is retained, but the shoe that should remain has also disappeared. Instruction: shoe removal is performed, but both shoes are removed instead of exactly one, leaving an empty surface. Quality: viewed alone, the neutral surface is smooth and coherent with no visible object remnants or generation artifacts."
+    },
+    {
+      "blind_id": "case_af88d363d2e7dc3c",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the five-card fan and its arrangement are replaced with one narrow card and broad blank areas, substantially changing the scene. Instruction: a full house should show three equal ranks plus a pair; the edit instead leaves a single malformed card marked 3 and G. Knowledge: Instruction failure \u21d2 knowledge invalid. Quality: the card has incompatible corner symbols and a large smeared/erased region, producing substantial structural and semantic defects."
+    }
+  ]
+}

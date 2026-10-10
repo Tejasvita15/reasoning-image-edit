@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b006",
+  "results": [
+    {
+      "blind_id": "case_d1686f9cd43cb3e4",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: snow, field and building remain, but fox ears become larger/pointed and face anatomy changes beyond the coat. Instruction: white fur becomes thinner orange-brown fur, a seasonal change with incorrect expected coloration; partial compliance. Quality: coherent anatomy, detailed fur and plausible soft light without noticeable artifacts. Knowledge: the provided explanation calls for gray fur, visibly contradicted by the orange-brown coat."
+    },
+    {
+      "blind_id": "case_2e2767b556c51e9b",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: plain white background and centered isolated form are preserved; surface shading is part of making the required solid. Instruction: flat circular outline becomes a clearly three-dimensional sphere, matching the rotational solid requested. Quality: smooth coherent spherical contour and glossy reflections without noticeable defects. Knowledge: the displayed sphere exactly matches the supplied explanation."
+    }
+  ]
+}

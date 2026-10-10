@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b009",
+  "results": [
+    {
+      "blind_id": "case_005f939bf531243c",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: white background and green handle design remain, but small scissors rotate and shift visibly. Instruction: large scissors retain their dominant size instead of shrinking to match the small pair; non-compliance. Quality: intact paired blades, pivot and handle loops with plausible metallic surfaces and shadows."
+    },
+    {
+      "blind_id": "case_cd2311af8a5b9933",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: black frame and plant theme remain, but plant photograph detail/contrast and printed branding change substantially beyond viewpoint. Instruction: frame becomes more frontal with support visible at left; reference requires a narrow side profile with the picture face hidden, so the viewpoint change fails. Quality: frame structure is coherent, but garbled branding and excessively mottled plant texture are noticeable flaws."
+    }
+  ]
+}

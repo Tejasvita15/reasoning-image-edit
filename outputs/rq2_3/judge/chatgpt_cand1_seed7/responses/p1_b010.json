@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b010",
+  "results": [
+    {
+      "blind_id": "case_5337305b7c82c010",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: white background and some right-column animals remain, but yarn and eggs disappear, milk moves, and numerous cows/chickens/sheep are added across the layout. Instruction: there are no clear product-to-origin matches; the original matching worksheet becomes an unrelated animal collage. Knowledge: the explanation is blank; no requested matching is demonstrated. Instruction failure \u21d2 knowledge invalid. Quality: individual cartoons are readable, but repeated overlapping conceptual categories and unstructured extra animals make the worksheet semantically incoherent."
+    },
+    {
+      "blind_id": "case_f3d482e723e16994",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: landscape, pose, ears and painterly texture persist, but trunk length/curve and tusk shapes change noticeably. Instruction: the conspicuously unnatural bright-red skin remains; adjusting the trunk and tusks does not correct that unreasonable animal attribute. Quality: coherent painted anatomy and landscape, but the uniformly saturated red skin is a clear natural-appearance anomaly."
+    }
+  ]
+}

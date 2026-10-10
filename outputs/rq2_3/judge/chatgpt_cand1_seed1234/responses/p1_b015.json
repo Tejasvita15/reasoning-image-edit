@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b015",
+  "results": [
+    {
+      "blind_id": "case_4f91819f5b554815",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: wooden frame, numbered tile style and background persist, with a small change in tile spacing at the bottom. Instruction: arrangement is unchanged, with the blank upper left and 1–3 following; it is not rearranged into the completed 1–15 order with final blank. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: coherent wood puzzle, straight grid and legible numbering."
+    },
+    {
+      "blind_id": "case_7acaaa4d19bbcacb",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: charger casing, upper cable, printed title and wooden floor persist, but the separate three-pin plug and its cable are removed. Instruction: all ten USB ports disappear, leaving zero instead of six. Quality: clean white molded casing, coherent perspective and floor texture without conspicuous fill artifacts."
+    }
+  ]
+}

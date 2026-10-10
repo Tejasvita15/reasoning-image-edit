@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b017",
+  "results": [
+    {
+      "blind_id": "case_9dd39b3635d7e228",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: grid and all other colored circles remain visually unchanged. Instruction: the question mark is replaced by the correct blue circle, although it is noticeably larger than the pattern's other dots. Knowledge: blue circle exactly matches the supplied expected answer. Quality: clean grid and fills, with a mildly irregular edge on the oversized upper-left circle."
+    },
+    {
+      "blind_id": "case_69ec5e8b53bb25eb",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: gray studio field remains, but the second shoe that should have been retained also disappears. Instruction: both shoes are removed instead of exactly one, leaving the requested single-shoe result absent. Quality: the edited image alone is a smooth coherent empty gray field with no visible seams or residual object fragments."
+    }
+  ]
+}

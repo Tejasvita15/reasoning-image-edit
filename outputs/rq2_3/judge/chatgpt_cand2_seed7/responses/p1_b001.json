@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b001",
+  "results": [
+    {
+      "blind_id": "case_b4804413936235bf",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: grid and green 2 remain, but multiple blue clues become unrelated red letters as well as crosses. Instruction: red crosses replace revealed safe-cell clues while covered mine cells remain unmarked; the mine-marking task is misinterpreted. Knowledge: Instruction failure \u21d2 knowledge invalid. Quality: grid is coherent, but unrelated alphabetic glyphs mixed into the numerical board create a clear semantic flaw."
+    },
+    {
+      "blind_id": "case_0ff91632c2e554a5",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: the recognizable three-drawer cabinet and knobs remain, but its proportions are visibly narrower. Instruction: a left-positioned cabinet, warm wall, wood floor, curtain and angled sunlight are present; the requested complete quotation and thin sans-serif styling are absent, replaced by an incomplete malformed title. Quality: cabinet and room are coherent, but the bottom lettering has multiple warped and overlapping forms that impede reading."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b008",
+  "results": [
+    {
+      "blind_id": "case_f7e818839b93d114",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: turquoise sandal, pink polish, ankle, wet paving, rain and background lights retain the source arrangement and appearance. Instruction: all seven toes remain visible; the unreasonable toe count is not corrected. Quality: seven distinct toes on a single foot create a major anatomical failure despite convincing skin and sandal textures."
+    },
+    {
+      "blind_id": "case_84ce3f661b5fc7a4",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: grid boundaries and covered-cell bevels remain, but nearly all clue numerals are replaced by red letters or crosses and the green 2 becomes a green X. Instruction: red X marks are placed on revealed clue cells while covered candidate cells remain unmarked, rather than marking mines from the clues. Knowledge: the explanation is blank; the visible clue-cell replacements establish instruction failure under the task logic. Instruction failure \u21d2 knowledge invalid. Quality: the grid is geometrically clear, but mixed letters and multicolored crosses destroy the semantic coherence of the Minesweeper display."
+    }
+  ]
+}

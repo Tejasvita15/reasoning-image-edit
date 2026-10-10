@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b022",
+  "results": [
+    {
+      "blind_id": "case_c4bbed1d368d41e6",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The two-cup arrangement becomes three apparent cup openings, changing cup count and geometry. The left cup is still facing forward beside the upright cup rather than placed on it. Soft rendering, a vertical tonal seam and ambiguous intersections reduce image quality."
+    },
+    {
+      "blind_id": "case_8496027578590b1f",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The room, pedestal, viewpoint and most of David remain closely preserved. This is still the male David with both arms, rather than the Venus de Milo; cracks merely damage one arm. The edited arm has conspicuous broken contours and a blurry patch. Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

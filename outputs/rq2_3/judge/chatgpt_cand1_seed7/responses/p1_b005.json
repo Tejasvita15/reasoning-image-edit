@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b005",
+  "results": [
+    {
+      "blind_id": "case_7c2a5cad8b0dec09",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: plain white background and simple black-line style remain intact; the small outline adjustment is within the shape modification target. Instruction: the output is still an unshaded flat circle, with no volumetric cues showing the required solid of revolution. Knowledge: the supplied explanation expects a sphere, which is not visibly demonstrated. Instruction failure \u21d2 knowledge invalid. Quality: a clean, coherent circular outline on a uniform background, with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_bf0890c2ead817dc",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white pump retains its silhouette, heel, tan sole, seams, highlights and placement; added background graphics and typography are instructed. Instruction: gold glitter/floral lines, light gradient, prominent shoe and exact slogan appear, but the headline is mixed-case script instead of bold uppercase and its position is offset toward the upper left. Quality: well-formed shoe, coherent soft shadow, crisp decorative lines and legible text form a clean poster."
+    }
+  ]
+}

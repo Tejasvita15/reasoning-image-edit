@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b005",
+  "results": [
+    {
+      "blind_id": "case_7b985c1f726e2d53",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: allowed background and poster additions are excluded, but cushion proportions become tall and its orderly diamond fabric becomes a distorted brush-like pattern. Instruction: dark gray urban sofa scene and bold upper-left title are present, but title wording is corrupted/incomplete and fabric geometry is poorly preserved; partial compliance. Quality: floating oversized cushion, heavily smeared pattern and malformed headline words are multiple distracting defects."
+    },
+    {
+      "blind_id": "case_18b490d56559ce1d",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: glass, board, microscope and tabletop stay in place; bubble distribution changes slightly. Instruction: a recognizable yellow pencil is inserted through the water surface to the glass bottom as requested. Quality: coherent pencil and glass with convincing lighting, but the waterline transition looks slightly pasted. Knowledge: the explanation expects a visibly broken/refracted pencil; the shaft stays nearly straight across the surface, with only a weak edge shift, a clear conflict with the expected effect."
+    }
+  ]
+}

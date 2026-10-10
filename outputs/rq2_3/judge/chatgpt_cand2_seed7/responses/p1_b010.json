@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b010",
+  "results": [
+    {
+      "blind_id": "case_90de76b01ba50378",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: digit matchsticks and white backdrop remain, but the operator material changes to flat blue graphic strokes rather than matching the wooden sticks. Instruction: two blue double-cross symbols replace the operators while digits remain 14, 6 and 82; there is no valid equation achieved by moving two existing sticks. Knowledge: Instruction failure \u21d2 knowledge invalid. Quality: digits are legible, but the unrecognizable operators create a clear semantic defect in the expression."
+    },
+    {
+      "blind_id": "case_f7a2bc562fb28da5",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: turquoise sandal, pink polish, ankle, wet pavement, rain and background lights remain visually consistent outside the instructed toe region. Instruction: the edit smooths/repositions toes but still shows seven toes, leaving the anatomical excess uncorrected. Quality: the foot has seven long digits and an implausible forefoot structure, a major anatomical failure despite coherent skin, sandal and wet-ground rendering."
+    }
+  ]
+}

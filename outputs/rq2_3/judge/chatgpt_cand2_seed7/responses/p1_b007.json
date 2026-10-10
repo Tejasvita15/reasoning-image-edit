@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b007",
+  "results": [
+    {
+      "blind_id": "case_d327753913ab9375",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: pose and woodland composition remain, but tusks are enlarged and ridged, trunk tip changes, and nearby ground/shadows are repainted. Instruction: the conspicuously unnatural saturated red skin remains; changing tusks and trunk does not correct that central unreasonable feature. Quality: the painted elephant has coherent limbs and scenery, but tightly ribbed tusks are a noticeable unnatural surface artifact."
+    },
+    {
+      "blind_id": "case_e05ba90da0113faa",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: white background and card motif remain, but card spacing/orientation and scale change substantially. Instruction: the edited hand displays a malformed first rank, 5, 6, 8 and 8 rather than a clear triple and pair. Knowledge: the supplied explanation requires three of one rank and two of another; no such hand is shown. Instruction failure \u21d2 knowledge invalid. Quality: malformed rank characters, inconsistent suit symbols and nonsensical pip arrangements create multiple distracting card defects."
+    }
+  ]
+}

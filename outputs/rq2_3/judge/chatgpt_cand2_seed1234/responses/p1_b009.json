@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b009",
+  "results": [
+    {
+      "blind_id": "case_e3e30a39990ec324",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: three drawers, round metal knobs, beveled top/base and gray cabinet identity remain; scene and placement changes are authorized. Instruction: warm wall, oak floor, right curtain, gentle shadows and the complete requested slogan appear, but the slogan is bold italic rather than thin-line and little right-side blank space remains. Quality: legible text and plausible cabinet, textile, flooring and lighting."
+    },
+    {
+      "blind_id": "case_492e4b84efb5e9fa",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: black/red helmet design, dark visor, side vents and gray background remain, excluding viewpoint-related changes. Instruction: frontal symmetry improves, but the visible crown is still much taller and the chin/visor proportions differ markedly from the eye-level reference, indicating an elevated view. Quality: clean continuous shell and visor geometry, coherent reflections and no obvious artifacts."
+    }
+  ]
+}

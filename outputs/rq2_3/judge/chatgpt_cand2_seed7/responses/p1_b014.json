@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b014",
+  "results": [
+    {
+      "blind_id": "case_af4276ce7c4a9401",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: black frame and white setting remain, but the printed botanical scene is substantially redrawn and brand lettering is distorted beyond perspective effects. Instruction: only a modest frontal angle changes; the broad picture face remains visible instead of the narrow edge and triangular support profile in the reference. Quality: frame edges are coherent, but plant foliage is smeared into dark clumps and small brand lettering is malformed."
+    },
+    {
+      "blind_id": "case_6ce2e80bb9b318ca",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: elephant pose and woodland layout remain, but tusk profiles and trunk tip are altered, and ground shadow/vegetation detail changes. Instruction: the unnatural saturated red skin remains unchanged in substance, while tusks and trunk are merely reshaped; the unreasonable animal coloring is not corrected. Quality: as a stylized painting, the elephant, tusks, wrinkles, landscape and shadows are structurally coherent and free from noticeable artifacts."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b011",
+  "results": [
+    {
+      "blind_id": "case_7224eb9678af41d1",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: white wall and clock identities persist, but both clocks shift position and the right clock face/numeral layout is redrawn. Instruction: the left clock remains clearly smaller and does not grow to match the right. Quality: coherent round frames, legible numerals, hands and natural shadows without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_63116a17b7d77518",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: tropical setting and hat style remain, but facial details/smile and shirt pattern and folds visibly change. Instruction: a continuous flower garland is draped naturally around the neck and down the chest. Knowledge: pink, yellow and white blossoms form the multicolored lei specified. Quality: coherent portrait, natural flower placement and detailed fabrics with no distracting artifacts."
+    }
+  ]
+}

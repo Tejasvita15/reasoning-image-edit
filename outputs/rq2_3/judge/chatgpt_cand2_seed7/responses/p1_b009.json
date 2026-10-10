@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b009",
+  "results": [
+    {
+      "blind_id": "case_2b4e3bd4c06c31c9",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: bottle shape, red capsule and label layout remain, but the main label lettering changes from red/black to gold. Instruction: upright bottle, red-black spotlight gradient, restrained composition, bottom reflection and upper-right gold phrase are present; the typography is flowing script rather than the requested serif. Quality: bottle, lighting, reflections and lettering form a coherent polished advertisement without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_842ead7b7cfe4156",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: white cat pose, facial identity and paws remain recognizable, but fur and facial texture are noticeably altered. Instruction: pink-blue gradient, paws, hearts and bright pink Pet Home are present; the cat is reduced rather than slightly enlarged, and the tagline is dark italic text beside its head instead of light-grey minimalist text below. Quality: overall poster and cat anatomy are coherent, with one small malformed partial decorative mark at the bottom."
+    }
+  ]
+}

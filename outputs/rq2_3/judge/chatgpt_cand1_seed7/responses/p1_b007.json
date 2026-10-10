@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b007",
+  "results": [
+    {
+      "blind_id": "case_343cb54544a90ef1",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: black frame, wire stand, botanical picture and white setting remain, but the printed image details and lower-left branding visibly distort. Instruction: the edit retains a broad frontal picture plane with only a modest orientation adjustment; the reference requires a narrow side profile hiding the photograph. Quality: frame geometry is coherent, but the lower-left branding is malformed and foliage has visibly smeared texture."
+    },
+    {
+      "blind_id": "case_7e1fa4a6370aa042",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the defining black-and-white diamond cushion is entirely absent, losing the source object and pattern. Instruction: gray sofa, urban interior and bold top-left wording are supplied, but the required central cushion and fabric close-up are wholly missing. Quality: the sofa, framed city photograph, text block and room geometry are coherent, with clean typography and plausible lighting."
+    }
+  ]
+}

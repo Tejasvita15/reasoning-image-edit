@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b005",
+  "results": [
+    {
+      "blind_id": "case_503c8cd938cd6956",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: vase and flowers remain recognizable, but the book's page contents and orientation change and the table rim/leg geometry subtly shifts. Instruction: the book stays to the vase's right and becomes upright, instead of moving to its left. Quality: the table and flowers are coherent, but the upright book has smeared picture/text details and an awkward unsupported stance."
+    },
+    {
+      "blind_id": "case_96041403985cbc2c",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the large pale outline becomes a much smaller filled purple disk, green circle size changes, and an extra faint ring appears. Instruction: the visible circles remain side by side with distinct centers, so center alignment fails. Quality: round shapes remain recognizable, but the faint overlapping outlines blend ambiguously into the disk. Knowledge: the supplied coincident-center condition is absent. Instruction failure ⇒ knowledge invalid."
+    }
+  ]
+}

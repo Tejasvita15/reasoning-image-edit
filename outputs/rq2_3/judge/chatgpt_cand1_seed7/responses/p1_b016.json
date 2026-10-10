@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b016",
+  "results": [
+    {
+      "blind_id": "case_487939093f6613b6",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: white cat, pink nose, dark eyes, seated pose and curled tail are retained, but fur detail and facial proportions are visibly redrawn. Instruction: pink/blue gradient, bright pink Pet Home title, paws and hearts are present; cat is made smaller rather than slightly enlarged, and the tagline is white handwritten text above the cat rather than light-gray sans-serif below. Quality: readable main typography and coherent cat, but several decorative marks near the tail and right end of the tagline are malformed."
+    },
+    {
+      "blind_id": "case_2dad4bb5bdd45a10",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: white background and retained upper forks preserve the silver material and layout; the top tine tips are now slightly cropped. Instruction: forks are reduced from eight to four rather than the requested six, so count reduction is attempted but inaccurate. Quality: smooth coherent handles and tines; clipping the upper tine tips is a small composition imperfection."
+    }
+  ]
+}

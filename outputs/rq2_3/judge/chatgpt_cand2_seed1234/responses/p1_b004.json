@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b004",
+  "results": [
+    {
+      "blind_id": "case_8c3181005d69e234",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: every fork disappears, including all six that should remain; only the white background is preserved. Instruction: the edited attachment is a visible blank white field with zero forks, not six. Quality assessed alone: the white field is clean and uniform, without visible structural or rendering artifacts."
+    },
+    {
+      "blind_id": "case_46c4e5766b52e0b5",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: both scissors change from silvery metal to gold, and the small scissors' position and blade profile change; the white background and green handles remain. Instruction: the green-handled scissors stay substantially larger than the upper scissors, with no requested size match. Quality: coherent blades, hinge, handle loops and shadows, with no distracting rendering defects."
+    }
+  ]
+}

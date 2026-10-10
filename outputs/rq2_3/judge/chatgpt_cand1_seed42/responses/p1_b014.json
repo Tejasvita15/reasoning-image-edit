@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b014",
+  "results": [
+    {
+      "blind_id": "case_326f4ae2250c7ee0",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: white background and two tortoises remain, but faces/scales are redrawn and the smaller tortoise’s shell outline and position change. Instruction: the left tortoise remains substantially larger than the right with no meaningful reduction to match. Quality: coherent shells, heads, legs and claws, natural textures and contact shadows without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_c099b068297e4104",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: bottle silhouette, red capsule and branded label remain; fine label artwork is slightly altered. Instruction: bottle stands against burgundy-black velvet with spotlight and bottom reflection, and gold upper-right text appears; the text uses a comma after Timeless and a flowing calligraphic style instead of the requested restrained serif wording. Quality: coherent product silhouette, readable principal label/title, polished light and reflection without noticeable artifacts."
+    }
+  ]
+}

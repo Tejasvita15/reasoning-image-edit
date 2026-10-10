@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b008",
+  "results": [
+    {
+      "blind_id": "case_1b3790ef09f1c5f7",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: black shell, paired red crown stripes, red chin design, dark visor and gray background are retained; orientation-dependent visibility/reflections are excluded. Instruction: the helmet turns toward front but remains viewed from above and somewhat obliquely, unlike the symmetrical eye-level reference with a much shallower visible crown. Quality: smooth shell, coherent visor edges and plausible glossy reflections."
+    },
+    {
+      "blind_id": "case_d97761cb600e5801",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: white housing, USB Charger label, plug, cables and wood floor retain their appearance and layout outside the port edit. Instruction: all ten USB ports and labels disappear, leaving zero interfaces rather than six. Quality: a clean solid housing with coherent plug, cables, perspective and shadows, free of distracting artifacts."
+    }
+  ]
+}

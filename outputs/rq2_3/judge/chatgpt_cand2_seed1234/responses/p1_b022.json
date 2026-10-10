@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b022",
+  "results": [
+    {
+      "blind_id": "case_a0727702af36826d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: right animals and milk carton remain, but yarn/honey become two new sheep and eggs become a wool-filled basket. Instruction: no original item is visibly connected or properly paired to its producing animal; replacements do not perform matching. Quality: clean, recognizable cartoon animals and objects with coherent outlines. Knowledge: explanation is blank; supplied failure coupling applies. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_714c6e8bad262f16",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: black frame/easel and plant photograph remain recognizable, but foliage details and small printed branding are altered. Instruction: the edit stays a broad frontal three-quarter view, rather than the reference's narrow edge-on side profile. Quality: clean straight frame geometry and coherent plants; small lower-left lettering is malformed."
+    }
+  ]
+}

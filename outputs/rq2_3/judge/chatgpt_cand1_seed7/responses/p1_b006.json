@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b006",
+  "results": [
+    {
+      "blind_id": "case_31c3279c636d58af",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: beige background, metallic base, orange ball identity and illustration style persist; the base is shifted slightly. Instruction: the hand is removed and the ball is rounded, so release is clear, but the spring remains essentially compressed. Knowledge: the supplied expectation requires spring elongation and a rising ball; coil spacing and ball support height barely change, a clear missing mechanical response. Quality: smooth, coherent ball, continuous spring coils and clean base with consistent shading."
+    },
+    {
+      "blind_id": "case_8b72f20ff92a6958",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: three drawers, round knobs, pale-gray finish, beveled top and base and square legs retain the source cabinet design; repositioning and lighting follow the requested staging. Instruction: cabinet is left of center with wall, wood floor, linen curtain, angled light and correct bottom-right wording, but the text is bold rather than thin-line and the warm golden setting is darker than the requested light fresh palette. Quality: coherent furniture geometry, realistic curtain folds and floor perspective, legible text and natural shadows."
+    }
+  ]
+}

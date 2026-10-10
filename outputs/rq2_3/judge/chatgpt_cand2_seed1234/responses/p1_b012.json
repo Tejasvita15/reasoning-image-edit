@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b012",
+  "results": [
+    {
+      "blind_id": "case_8cebf487f2b58d3c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: seated placement, house and snowy foreground persist, but face shape and pointed ears change, and tail outline/leg pose differ beyond coat color. Instruction: the fluffy white coat becomes shorter and brown, attempting summer fur but missing the specified gray result. Quality: detailed natural fur, coherent limbs and soft background depth. Knowledge: the supplied gray-coat outcome is contradicted by dominant rust-brown coloration."
+    },
+    {
+      "blind_id": "case_6b9ff0b8f427c1a1",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: almost the entire equation layout and most sticks disappear or move, leaving a small central cluster rather than the original row. Instruction: far more than two sticks are changed and no valid readable equation remains. Quality: bent arc-shaped sticks and overlapping unrecognizable symbols produce major structural/semantic failure. Knowledge: explanation is blank; the supplied failure coupling applies. Instruction failure ⇒ knowledge invalid."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b007",
+  "results": [
+    {
+      "blind_id": "case_430b333e2485981c",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: card fan, crop and suit graphics change substantially, with additional card fragments and a bottom-right watermark. Instruction: visible ranks still include 4, 6 and three 8s, without a pair; no full house results. Quality: stray layered card pieces, mixed suit symbols inside diamonds and watermark artifacts create multiple distracting defects. Knowledge: the supplied three-plus-two rank definition is not met. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_4b4ea255f8fc0f5d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the small turtle shifts and changes head/foot pose, and both shells and surface textures are redrawn while the white backdrop remains. Instruction: the left turtle remains clearly larger in shell height, width and head size, so the requested reduction to the small turtle's size is absent. Quality: plausible shell, scaly skin, limbs and grounded shadows with coherent anatomy."
+    }
+  ]
+}

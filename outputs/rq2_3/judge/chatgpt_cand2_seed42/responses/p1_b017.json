@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b017",
+  "results": [
+    {
+      "blind_id": "case_bb249f0145c40a8d",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: turquoise sandal, pink polish, rainy setting and framing remain; wet ground reflections are visibly smoothed and altered. Instruction: seven toes remain, with no correction to the expected five-toed foot; non-compliance. Quality: convincing skin, sandal and rain, but extra toes are a clear anatomical flaw."
+    },
+    {
+      "blind_id": "case_e70caec40a0afea8",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: glass, microscope, board and table layout remain; bubble pattern and glass reflections change noticeably. Instruction: no pencil appears in the water, so the requested insertion is absent. Quality: coherent transparent glass, level water, bubbles and soft laboratory background without noticeable defects. Knowledge: no pencil exists to exhibit the explained refraction. Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

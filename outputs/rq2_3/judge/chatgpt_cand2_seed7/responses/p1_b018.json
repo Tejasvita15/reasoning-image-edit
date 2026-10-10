@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b018",
+  "results": [
+    {
+      "blind_id": "case_c24e907c752f1b99",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: overall axial layout and annotations remain, but the bright vertebral structure is flattened to grey and broad organ textures are smoothed, beyond removing small stones. Instruction: the conspicuous small white particles identified by the explanation are removed. Knowledge: particle removal matches the supplied expectation, but suppressing the large vertebral bone signal as well is a clear conflict with selectively removing stones. Quality: the cross-section remains legible, but the central vertebral region is unnaturally uniform and lacks coherent internal bone detail."
+    },
+    {
+      "blind_id": "case_eaa3d4263fa2b708",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: white backdrop and green handles remain, but the small scissors blade shape/position change and large-scissors contours are redrawn beyond size adjustment. Instruction: the large scissors remain more than twice the small pair length, with no substantive reduction to the target size. Quality: both pairs have coherent blades, handles, highlights and grounding shadows, with no noticeable artifacts."
+    }
+  ]
+}

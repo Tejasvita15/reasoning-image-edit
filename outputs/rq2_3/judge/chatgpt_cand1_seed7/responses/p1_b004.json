@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b004",
+  "results": [
+    {
+      "blind_id": "case_437c89a6a25a0f08",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the two upper balls, line and corner fabric remain in place, but the lowest ball is removed although the explanation requires retaining it, and turf texture is altered. Instruction: one ball is erased, but none should be removed because even the rightmost ball overlaps the boundary. Knowledge: this contradicts the explicit retain-all explanation. Instruction failure \u21d2 knowledge invalid. Quality: a conspicuous smooth dark patch replaces the lower ball area, disrupting the surrounding grass texture."
+    },
+    {
+      "blind_id": "case_58d34d2ec6ac3d95",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: bottle silhouette, red capsule, cream label, main brand text and illustration are retained; the bottle is subtly narrower. Instruction: wine-red/black spotlight background, upright bottle, bottom reflection and upper-right gold wording are present; the decorative script differs from the requested serif type and the first punctuation appears comma-like rather than a period. Quality: coherent product silhouette, clean legible headline, smooth lighting and plausible reflection without noticeable artifacts."
+    }
+  ]
+}

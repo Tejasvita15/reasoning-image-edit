@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b017",
+  "results": [
+    {
+      "blind_id": "case_5f0106be2136ad85",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: the black/white diamond cushion remains identifiable, but its fabric pattern is disrupted by large patchy marks across the lower half. Instruction: dark sofa, cool modern interior, close-up and bold top-left title appear; malformed possessive punctuation and damaged geometric/fabric detail prevent full compliance. Quality: conspicuous smeared/fragmented pattern patches and erroneous title punctuation are distracting defects."
+    },
+    {
+      "blind_id": "case_4aea3dc789d8189d",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "Consistency: layout, frog body and surrounding hand outlines remain, but the frog's originally blue hand turns red. Instruction: all surrounding hands are filled the same light blue rather than assigned red/blue by handedness. Quality: coherent clean cartoon shapes and uniform color fills. Knowledge: explanation is blank; visible handedness key and instruction imply two matching color classes, contradicted by uniform blue hands and an altered key."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b009",
+  "results": [
+    {
+      "blind_id": "case_ead52b79971d3207",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: cup body, lid, handle, reflections, gray background and wooden tabletop remain visually unchanged outside the emblem. Instruction: a red equal-armed cross is added clearly to the cup front as requested. Knowledge: the attached red cross matches the supplied Red Cross expectation. Quality: coherent glazed ceramic form and naturally integrated clean emblem with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_2fe15a245fb3a31a",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: numeral 8 shape, position, size and white background remain visually unchanged outside the requested color. Instruction: the entire orange numeral becomes green, fully satisfying the request. Quality: clean, legible, coherent numeral and even fill; moderate edge softness does not impair meaning."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b013",
+  "results": [
+    {
+      "blind_id": "case_548189c214403dea",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: snowy foreground and blurred building persist, but the fox has a broader/different face, more pointed ears and altered leg posture beyond coat changes. Instruction: white winter fur becomes a shorter darker coat, but it is predominantly orange-brown rather than the expected gray. Knowledge: the supplied explanation specifically says gray fur; the orange-brown result is a clear mismatch. Quality: coherent animal anatomy, fine fur and natural depth of field with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_b7b069b49445810f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: pale wall and two clock designs persist, but both clocks shift horizontally and their numeral layouts/rim geometry are redrawn. Instruction: the left clock remains visibly smaller than the right, with little effective enlargement; the required size match is missing. Quality: both clock faces have legible numerals, coherent circular rims and hands, and plausible wall shadows."
+    }
+  ]
+}

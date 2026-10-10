@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b019",
+  "results": [
+    {
+      "blind_id": "case_d92bd73e77eab535",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 4,
+      "rationale": "Consistency: glass, water level, tabletop, board and laboratory background persist; an unrequested second pencil is added. Instruction: pencils are inserted through the water surface to the glass bottom, but there are two rather than one. Knowledge: slight offset/thickening is visible at the surface, suggesting refraction, though the submerged shafts remain nearly collinear and the expected broken appearance is weak. Quality: coherent glass/reflections and pencil placement; the yellow pencil’s upper end has a small odd exposed-wood/red-cap construction."
+    },
+    {
+      "blind_id": "case_043d845ff0287f3e",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: black helmet, red stripe/vent design, dark visor and gray backdrop remain, with changed reflections attributable to viewpoint. Instruction: helmet becomes front-facing horizontally, but the camera remains elevated, showing a much larger crown and sloped visor edge than the straight-on reference; partial viewpoint match. Quality: smooth coherent helmet surfaces, clean trim and natural gloss without noticeable artifacts."
+    }
+  ]
+}

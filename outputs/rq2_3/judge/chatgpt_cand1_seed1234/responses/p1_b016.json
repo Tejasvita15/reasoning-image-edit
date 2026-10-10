@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b016",
+  "results": [
+    {
+      "blind_id": "case_f258952de6d2f9cd",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: black glass frame, plant picture, white background and wire support remain; small printed dimension text changes. Instruction: the edit becomes more frontal, keeping nearly the whole photograph visible, whereas the side-view reference shows only the thin edge and stand profile. Quality: coherent frame and foliage, with a small patch of malformed dimension lettering."
+    },
+    {
+      "blind_id": "case_24a23bf6647b0e52",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: elephant pose, tusks, trunk, ears and landscape remain, with a slight change in fine skin texture. Instruction: unnatural bright red skin is corrected throughout to plausible gray. Quality: coherent painted elephant anatomy, detailed wrinkles and naturally integrated earthy background."
+    }
+  ]
+}

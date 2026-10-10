@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b006",
+  "results": [
+    {
+      "blind_id": "case_0937f880d2fe7358",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: white background remains, but all six forks that should survive the count change are absent, removing every major object. Instruction: eight forks become zero, not six; non-compliance. Quality: considered alone, the blank white field is uniform and free of visible structural or texture artifacts."
+    },
+    {
+      "blind_id": "case_ced4b80ff8676543",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: recognizable black/white diamonds remain, but the cushion becomes tall and narrow and its fabric pattern is heavily smeared and disrupted. Instruction: a cool dark-gray urban interior and bold top-left title appear, but the cushion is an implausibly huge upright rectangle with corrupted geometry, and stray text-like bars interrupt the title area. Quality: multiple conspicuous smears and broken diamonds across the cushion, awkward object integration and stray marks near the headline degrade the composition."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b002",
+  "results": [
+    {
+      "blind_id": "case_00b0de38f263922e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the upright cup is smaller and shifted left, and the overall spacing/framing changes; the pale background is retained. Instruction: the left cup remains sideways on the surface alongside the upright cup, rather than being placed on top. Quality: both cup rims, smooth ceramic surfaces and grounding shadows are coherent."
+    },
+    {
+      "blind_id": "case_547734a7f4040b4d",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background and card designs remain, but the fan geometry and card positions are visibly altered. Instruction: ranks remain 4, 6, 8, 8, 8; no pair is created, so the requested full house is absent. Quality: clean readable numerals, suits and card edges form a coherent photograph. Knowledge: the supplied three-of-one-rank plus two-of-another requirement is not met. Instruction failure ⇒ knowledge invalid."
+    }
+  ]
+}

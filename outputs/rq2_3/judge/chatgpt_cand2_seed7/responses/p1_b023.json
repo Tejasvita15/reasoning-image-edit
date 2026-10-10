@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b023",
+  "results": [
+    {
+      "blind_id": "case_514e8945c2340782",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: all forks disappear, including the six that should remain; only the white background is preserved. Instruction: the output contains no forks rather than six. Quality: considered alone, the plain white field contains no visible structural or rendering artifacts."
+    },
+    {
+      "blind_id": "case_cdf984b5ce45a9f4",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the frog\u2019s blue hand is changed to red; the surrounding outlines, frog pose and layout remain. Instruction: none of the surrounding hands are colored, so the requested left/right color assignment is absent. Quality: the cartoon and hand outlines remain clean and coherent without noticeable structural artifacts. Knowledge: Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

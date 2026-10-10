@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b002",
+  "results": [
+    {
+      "blind_id": "case_e8791c4ac16f37e1",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: surrounding outlines, white background and frog pose remain, but the frog’s blue hand has been turned red. Instruction: all outer hands gain color, yet they use orange, purple, green, yellow and cyan instead of matching the blue/red handedness key; most required color assignments fail. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: clean coherent cartoon outlines, filled shapes, eyes and shading without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_329a91f18dde4dd5",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: tropical background, hat and smiling identity remain recognizable, but facial features/beard and shirt pattern and contour are visibly altered. Instruction: a continuous flower garland is added around the neck and hangs over the chest, fulfilling the request. Knowledge: pink, white and yellow flowers form the multicolored lei specified by the explanation. Quality: coherent portrait anatomy, plausible drape, flower structure and natural light; no noticeable artifacts."
+    }
+  ]
+}

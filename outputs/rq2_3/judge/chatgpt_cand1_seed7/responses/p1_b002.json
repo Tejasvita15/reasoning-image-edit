@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b002",
+  "results": [
+    {
+      "blind_id": "case_2679c9218bb6704d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white setting remains, but card positions, silhouettes and the visible pip layout are substantially changed beyond rank editing. Instruction: the hand reads 4, 5, 8, 8 and a malformed final rank, rather than a triple and pair. Knowledge: the stated three-of-a-kind plus pair requirement is absent. Instruction failure \u21d2 knowledge invalid. Quality: multiple malformed/inconsistent card symbols, an ambiguous triangular rank and mismatched heart/diamond markings degrade card structure."
+    },
+    {
+      "blind_id": "case_ecd4f70b958bce86",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: black shell, twin red crown stripes, dark visor, red chin panel, side vents and gray background retain their identities; changed visibility and highlights follow the allowed viewpoint change. Instruction: the view moves closer to frontal, but remains elevated and oblique, with a large visible crown and asymmetric sides unlike the straight-on reference. Quality: coherent helmet geometry, smooth shell and visor reflections, and clean trim without noticeable artifacts."
+    }
+  ]
+}

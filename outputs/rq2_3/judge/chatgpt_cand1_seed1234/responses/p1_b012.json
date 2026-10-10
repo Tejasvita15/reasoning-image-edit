@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b012",
+  "results": [
+    {
+      "blind_id": "case_e848b2e18fc7d448",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: crane painting, ornate reddish frame and central placement persist; a small amount of frame ornament detail is softened/altered. Instruction: clouds, flying cranes, blue gradient and frame glow are added, but title is small sans-serif and bottom-left event information is illegible rather than meaningful handwritten details. Quality: attractive coherent framing, but several lines of garbled text, malformed small marks and visible watermarks create multiple distracting defects."
+    },
+    {
+      "blind_id": "case_1732fa062b44e964",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: three-drawer cabinet with matching trim, knobs and legs remains recognizable; its surface becomes slightly rougher. Instruction: cabinet is slightly left on oak flooring beside white wall and linen curtain, but the required sentence is corrupted into fragments such as 'Noty' and 'Not ornly stems' in a heavy font. Quality: furniture and lighting are coherent, but overlapping garbled text and detached word fragments substantially degrade the poster."
+    }
+  ]
+}

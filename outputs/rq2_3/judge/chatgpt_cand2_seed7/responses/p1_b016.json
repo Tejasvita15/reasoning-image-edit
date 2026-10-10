@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b016",
+  "results": [
+    {
+      "blind_id": "case_2e27ed1199d4ced0",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: wooden frame, brown numeral style and most tile textures remain; an extra zero tile replaces the empty square rather than preserving the set of fifteen tiles. Instruction: the sequence stays 0\u201315 with no blank, instead of rearranging 1\u201315 with a final empty slot. Knowledge: Instruction failure \u21d2 knowledge invalid. Quality: wooden construction and glyphs are clear, but a sliding puzzle with every space filled has a noticeable semantic problem."
+    },
+    {
+      "blind_id": "case_c8b8acefa2f8388b",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: white background and simple circular black-outline style remain; shape changes are the instructed region. Instruction: the circle becomes slightly smaller with a grey edge shadow, but still reads as an unshaded flat disc/ring rather than a volumetric sphere. Knowledge: the explanation requires a sphere, which is not convincingly formed. Instruction failure \u21d2 knowledge invalid. Quality: clean circular contour and white field are coherent, with a slight uneven grey halo along the lower-left edge."
+    }
+  ]
+}

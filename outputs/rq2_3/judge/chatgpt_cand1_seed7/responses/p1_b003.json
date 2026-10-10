@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b003",
+  "results": [
+    {
+      "blind_id": "case_ca58a9e72c8c30b0",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: rocky right shore, distant wooded shore and buildings, horizon, sky and foam pattern remain aligned and unchanged outside the allowed water coloration. Instruction: turquoise water becomes visibly red/burgundy throughout the foreground, clearly showing the requested red tide. Knowledge: the water turns red as the supplied explanation specifies. Quality: continuous natural wave and foam textures, coherent shore geometry and plausible lighting without visible artifacts."
+    },
+    {
+      "blind_id": "case_7bf550d33c4983fb",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "Consistency: vertebra, body outline and much upper abdominal anatomy remain, but both lateral renal regions are substantially erased or reshaped. Instruction: the bright small particles disappear, but the removal extends to broad surrounding organ tissue rather than selectively removing stones. Knowledge: the explanation calls for removing a few small white particles; extensive removal of gray tissue conflicts with that localized change. Quality: broad dark empty regions and an isolated smooth oval on the right disrupt the otherwise textured CT anatomy."
+    }
+  ]
+}

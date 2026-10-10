@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b011",
+  "results": [
+    {
+      "blind_id": "case_c425e6cc60be8104",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: upper two balls and line remain, but foreground ball is wrongly removed and turf texture changes broadly. Instruction: one lower ball disappears even though it overlaps the boundary; expected result retains all three as specified by the explanation, so major omission. Quality: recognizable balls and straight boundary, but the lower-right turf has a conspicuous smooth rectangular fill. Knowledge: explanation requires all balls retained. Instruction failure \u21d2 knowledge invalid."
+    },
+    {
+      "blind_id": "case_69442b885d871993",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: black frame and white backdrop remain, but plant photograph is heavily retextured and brand lettering is changed. Instruction: opposite three-quarter/front view still displays the whole photograph; reference requires a narrow side profile, so no correct side view is achieved. Quality: plausible stand and frame overall; garbled small text and an irregular lower-right frame/glass patch are noticeable defects."
+    }
+  ]
+}

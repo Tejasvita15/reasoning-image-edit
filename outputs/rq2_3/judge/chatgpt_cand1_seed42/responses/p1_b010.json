@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b010",
+  "results": [
+    {
+      "blind_id": "case_2e854f86b28711e5",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: three-drawer gray cabinet design, trim and legs persist; knob detailing is slightly changed. Instruction: cabinet is slightly left against warm white wall/oak floor with right curtain and bottom-right text, but the title is bold instead of thin and reads “items, buso” rather than “items, but also”; angled sunlight is weak. Quality: coherent furniture and room lighting, with a clear malformed word in the prominent caption."
+    },
+    {
+      "blind_id": "case_930899a722c4e18b",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: lavender outer circle and white background remain, but the green circle’s diameter is greatly reduced despite no resizing request. Instruction: the green circle moves from right-offset to the visible center of the large circle, fulfilling alignment. Knowledge: concentric placement matches the supplied expectation that centers coincide. Quality: two clean circular outlines with consistent strokes and no noticeable artifacts."
+    }
+  ]
+}

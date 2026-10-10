@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b002",
+  "results": [
+    {
+      "blind_id": "case_20d02d68ae0957ae",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: shell markings, heads and feet of both turtles are redrawn and the right turtle shifts; white backdrop is retained. Instruction: left turtle remains distinctly larger, with no meaningful reduction to the small turtle size; non-compliance. Quality: coherent shells, faces, scales, claws and grounded shadows without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_e3359dd7cf08ee8f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: both clock hand arrangements change and the right clock numerals and placement shift; pale wall and circular white frames remain. Instruction: the left clock is slightly larger but still visibly smaller than the right, missing most of the required size match. Quality: readable numerals, smooth rims, plausible hands and wall shadows; no noticeable artifacts."
+    }
+  ]
+}

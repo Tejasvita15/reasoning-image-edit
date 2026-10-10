@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b013",
+  "results": [
+    {
+      "blind_id": "case_669193bd99177635",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: white background remains, but the right turtle shifts and its head/limb pose changes, while shell and skin details are redrawn. Instruction: left turtle remains substantially taller and wider than the right, so the required size match is not accomplished. Quality: both turtles have coherent shell structure, textured limbs, faces and natural contact shadows without noticeable defects."
+    },
+    {
+      "blind_id": "case_94ab693d46ef0b34",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: three drawers, knobs and cabinet design remain, but the cabinet proportions are noticeably narrower. Instruction: left placement, warm wall, wood floor, linen curtain and angled sunlight are present; the bottom-right text contains storing sitems and ordering order, with malformed final-line characters, and is heavy rather than thin. Quality: cabinet and room appear coherent, but multiple duplicated/garbled words and damaged letterforms visibly degrade the poster."
+    }
+  ]
+}

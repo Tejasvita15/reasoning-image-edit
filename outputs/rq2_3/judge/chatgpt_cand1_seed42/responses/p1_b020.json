@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b020",
+  "results": [
+    {
+      "blind_id": "case_a1a6a4a2b20e6247",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: four products and white background remain, but cow and bee are replaced by sheep/chicken and the original chicken design changes. Instruction: no connecting matches are drawn; only wool is placed opposite a plausible producer, while honey faces chicken, eggs face sheep and milk faces chicken. Most origin matches fail. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: clean recognizable product and animal cartoons with coherent outlines and no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_4daba9c070b9fc6e",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: recognizable white cat pose, pink ears and dark eyes persist, but facial proportions/fur detail are visibly changed. Instruction: pink-blue gradient, paw prints, heart bubbles, bright pink hand-drawn Pet Home and the correct tagline appear; cat is smaller rather than slightly enlarged and the tagline is darker/heavier than requested. Quality: coherent cat portrait, clean legible typography and well-integrated tag/decorations without noticeable artifacts."
+    }
+  ]
+}

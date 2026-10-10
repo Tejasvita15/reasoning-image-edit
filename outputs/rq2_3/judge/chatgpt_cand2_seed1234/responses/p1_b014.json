@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b014",
+  "results": [
+    {
+      "blind_id": "case_4c6af3be3417edc9",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: only the lower-right fork survives; most forks that should remain are removed, while white background and surviving fork style persist. Instruction: the count is reduced from eight to one rather than six, a major omission. Quality: the solitary fork has coherent four tines and a smooth metal handle against a clean field."
+    },
+    {
+      "blind_id": "case_68ef6639234bc283",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: yellow straight matches, white field and the equation arrangement are replaced by dark blue curved symbols on pale blue. Instruction: many sticks disappear or deform, and the result is not a valid equation reached by moving two matches. Quality: bent strokes, stray dots and overlapping unreadable symbols constitute severe semantic/structural errors. Knowledge: blank explanation; supplied failure coupling applies. Instruction failure ⇒ knowledge invalid."
+    }
+  ]
+}
