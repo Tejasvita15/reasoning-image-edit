@@ -1,0 +1,11 @@
+{
+  "experiment": "rq2",
+  "split": "k_small",
+  "seed": 1234,
+  "splits_sha256": "b513673f210e8ac63b6fdfa7bda0bc62323b2dffdb7e4c4e5658234c49a60dc9",
+  "logs": {
+    "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed1234.jsonl": "4774f3a8995f57fdd30b17f537ee6c86fc346e7847e818a9ea580a3f24ec8198"
+  },
+  "outputs": 40,
+  "protocol_hash": "8d0e7066939e11aec95df192edd68d839a0461e90562ea9580ee00d9ce36d3c5"
+}
