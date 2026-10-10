@@ -1,0 +1,23 @@
+==========================================
+Job ID: 25747522.pbs101
+Node: x1001c1s3b0n0
+Workdir: /home/users/ntu/ngch0136/reasoning-image-edit
+Stage: check_2_3 | seed 42 | thinking [off cached] | cfg [2 6 10]
+Start: Sat Oct 10 17:05:12 +08 2026
+==========================================
+Branch:  @ 
+HF_HOME: /scratch/users/ntu/ngch0136/hf_cache
+/home/users/ntu/ngch0136/.conda/envs/reasoning-image-edit/bin/python
+/var/spool/pbs/mom_priv/jobs/25747522.pbs101.SC: line 173: nvidia-smi: command not found
+nvidia-smi not available (CPU-only job?)
+Torch: 2.11.0+cu128
+CUDA available: False
+============================================================
+seed 42: 40 examples | feedback retried 26 ({'restart': 13, 'refine': 13}) | native kept candidate 2 in 17 | median s: feedback run 164.4, plain 65.3
+seed 1234: 40 examples | feedback retried 23 ({'restart': 10, 'refine': 13}) | native kept candidate 2 in 15 | median s: feedback run 163.7, plain 65.3
+seed 7: 40 examples | feedback retried 24 ({'refine': 13, 'restart': 11}) | native kept candidate 2 in 16 | median s: feedback run 163.7, plain 65.4
+ERROR: missing logs/rq2_3/selector/rq2_3_selector_k_small_seed42.jsonl
+ERROR: missing logs/rq2_3/selector/rq2_3_selector_k_small_seed1234.jsonl
+ERROR: missing logs/rq2_3/selector/rq2_3_selector_k_small_seed7.jsonl
+============================================================
+RQ2.3 check: FAIL
