@@ -1,0 +1,15 @@
+{
+  "corrected_at_utc": "2026-10-11T01:54:27.473266+00:00",
+  "file": "session_log_template.json",
+  "original_file_sha256": "fd30a808a81e69e78f39067220498c12574a8a14d0ba07a1beb0a82316a6865a",
+  "reason": "Operator-recorded metadata error, confirmed by the judging operator via the RQ2 owner: all 26 batches were judged with the same model and settings as the frozen policy. The ui_settings text had a trailing full stop.",
+  "changes": {
+    "ui_settings": {
+      "batches": "all 26",
+      "from": [
+        "fresh temporary chat; memory/custom instructions off; tools off."
+      ],
+      "to": "fresh temporary chat; memory/custom instructions off; tools off"
+    }
+  }
+}

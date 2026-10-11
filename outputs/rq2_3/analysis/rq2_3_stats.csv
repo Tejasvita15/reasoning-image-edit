@@ -1,0 +1,26 @@
+rq,family,comparison,metric,n,mean_a,mean_b,mean_diff,ci_low,ci_high,wilcoxon_p,n_nonzero,a_better,ties,b_better,reaches_mmd,latency_diff_s
+2.3,feedback vs resampling,Feedback (selector) vs Resampling (selector),Q,40,53.5938,54.6181,-1.0243,-2.4479,0.2604,0.2168,21,8,19,13,False,32.4907
+2.3,feedback vs resampling,Feedback (selector) vs Resampling (selector),VC,40,3.1167,3.1667,-0.05,-0.1417,0.0333,0.3761,16,6,24,10,,32.4907
+2.3,feedback vs resampling,Feedback (selector) vs Resampling (selector),VQ,40,4.2,4.2833,-0.0833,-0.2167,0.0333,0.1661,11,4,29,7,,32.4907
+2.3,feedback vs resampling,Feedback (selector) vs Resampling (selector),IF,40,2.45,2.4667,-0.0167,-0.0833,0.0417,0.8918,11,5,29,6,,32.4907
+2.3,feedback vs resampling,Feedback (selector) vs Resampling (selector),KP,20,2.5,2.4833,0.0167,0.0,0.05,0.3173,1,1,19,0,,32.4907
+2.3,feedback vs resampling,Feedback (native) vs Resampling (selector),Q,40,53.6111,54.6181,-1.0069,-2.8472,0.8333,0.3604,26,10,14,16,False,31.9566
+2.3,feedback vs resampling,Feedback (native) vs Resampling (selector),VC,40,3.1083,3.1667,-0.0583,-0.1667,0.05,0.2421,15,5,25,10,,31.9566
+2.3,feedback vs resampling,Feedback (native) vs Resampling (selector),VQ,40,4.1667,4.2833,-0.1167,-0.2583,0.0167,0.1165,15,5,25,10,,31.9566
+2.3,feedback vs resampling,Feedback (native) vs Resampling (selector),IF,40,2.4917,2.4667,0.025,-0.05,0.1083,0.4204,11,6,29,5,,31.9566
+2.3,feedback vs resampling,Feedback (native) vs Resampling (selector),KP,20,2.5167,2.4833,0.0333,0.0,0.0833,0.1573,2,2,18,0,,31.9566
+2.3,feedback vs resampling,Resampling (selector) vs First candidate only,Q,40,54.6181,53.9757,0.6424,-0.7118,2.1011,0.6141,20,11,20,9,False,40.3624
+2.3,feedback vs resampling,Resampling (selector) vs First candidate only,VC,40,3.1667,3.175,-0.0083,-0.1167,0.1,0.8749,12,6,28,6,,40.3624
+2.3,feedback vs resampling,Resampling (selector) vs First candidate only,VQ,40,4.2833,4.1667,0.1167,0.0,0.25,0.059,10,8,30,2,,40.3624
+2.3,feedback vs resampling,Resampling (selector) vs First candidate only,IF,40,2.4667,2.4667,-0.0,-0.0583,0.0583,0.7247,8,4,32,4,,40.3624
+2.3,feedback vs resampling,Resampling (selector) vs First candidate only,KP,20,2.4833,2.4833,0.0,-0.05,0.05,0.6547,2,1,18,1,,40.3624
+2.3,feedback vs resampling,Feedback (selector) vs First candidate only,Q,40,53.5938,53.9757,-0.3819,-1.5451,0.7465,0.679,16,7,24,9,False,72.8531
+2.3,feedback vs resampling,Feedback (selector) vs First candidate only,VC,40,3.1167,3.175,-0.0583,-0.1667,0.0583,0.2613,13,4,27,9,,72.8531
+2.3,feedback vs resampling,Feedback (selector) vs First candidate only,VQ,40,4.2,4.1667,0.0333,-0.05,0.1167,0.5519,9,6,31,3,,72.8531
+2.3,feedback vs resampling,Feedback (selector) vs First candidate only,IF,40,2.45,2.4667,-0.0167,-0.075,0.0417,0.5176,8,3,32,5,,72.8531
+2.3,feedback vs resampling,Feedback (selector) vs First candidate only,KP,20,2.5,2.4833,0.0167,0.0,0.05,0.3173,1,1,19,0,,72.8531
+2.3,feedback vs resampling,Feedback (native) vs First candidate only,Q,40,53.6111,53.9757,-0.3646,-1.7014,0.9028,0.7171,19,9,21,10,False,72.319
+2.3,feedback vs resampling,Feedback (native) vs First candidate only,VC,40,3.1083,3.175,-0.0667,-0.175,0.05,0.2229,14,4,26,10,,72.319
+2.3,feedback vs resampling,Feedback (native) vs First candidate only,VQ,40,4.1667,4.1667,-0.0,-0.0917,0.0917,0.8936,11,6,29,5,,72.319
+2.3,feedback vs resampling,Feedback (native) vs First candidate only,IF,40,2.4917,2.4667,0.025,-0.025,0.0917,0.4911,7,4,33,3,,72.319
+2.3,feedback vs resampling,Feedback (native) vs First candidate only,KP,20,2.5167,2.4833,0.0333,0.0,0.0833,0.1797,2,2,18,0,,72.319

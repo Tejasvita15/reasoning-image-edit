@@ -1,0 +1,7 @@
+candidate_2,subset,n,beat_candidate_1,tied,lost_to_candidate_1,mean_Q_gain,selector_kept_better,native_kept_better,n_decided
+feedback,all retries,73,15,30,28,-3.5103,28,26,43
+feedback,feedback retry = refine,39,5,17,17,-5.1282,18,13,22
+feedback,feedback retry = restart,34,10,13,11,-1.6544,10,13,21
+resampling,all retries,73,24,24,25,0.0285,27,,49
+resampling,feedback retry = refine,39,16,13,10,3.312,16,,26
+resampling,feedback retry = restart,34,8,11,15,-3.7377,11,,23
