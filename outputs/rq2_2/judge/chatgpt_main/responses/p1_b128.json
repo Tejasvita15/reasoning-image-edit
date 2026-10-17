@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b128",
+  "results": [
+    {
+      "blind_id": "case_c32ce1f1a06da976",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the glass shape, rim, facets, fill level and white setting remain intact, excluding the intended liquid-color response. Instruction: a reagent-like pink plume appears in the correct cup, but the resulting color is wrong for pure water. Knowledge: the vivid pink liquid directly contradicts the explicit expectation that it remain colorless. Quality: the glass, transparent liquid gradient and colored reflection are visually coherent and clean."
+    },
+    {
+      "blind_id": "case_8c2ae64725df26e6",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the spoon bowl, position and wood-grain background remain unchanged. Instruction: the shortened handle is extended into a complete rounded handle with a hanging hole. Quality: the completed spoon is coherent, but a small horizontal seam is visible where the extension joins the original shaft."
+    }
+  ]
+}

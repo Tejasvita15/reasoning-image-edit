@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b023",
+  "results": [
+    {
+      "blind_id": "case_a5de8e53b501aac6",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The rainy setting, pink nails and turquoise sandal remain recognizable, but the sandal stitching loses definition and changes along the right strap. The foot still has seven toes rather than anatomically normal five; only small contour changes occur. The extra toes are a clear anatomical flaw despite natural skin, light and wet ground."
+    },
+    {
+      "blind_id": "case_2744e4c12a0f3795",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The grid and most clues remain aligned, but the green 2 is replaced by a blue 1. No red X marks are added; a correct edit would mark the mine positions while retaining clues. The edited grid itself has clean, legible numbers and coherent cell borders. The explanation is blank; knowledge uses the supplied coupling: Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

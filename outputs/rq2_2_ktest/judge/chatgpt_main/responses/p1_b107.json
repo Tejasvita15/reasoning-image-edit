@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b107",
+  "results": [
+    {
+      "blind_id": "case_0cb32238e64c483f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: charger arrangement and pale setting persist, but large-charger outline and printed port labels change. Instruction: the right charger remains visibly smaller, with no meaningful size match. Quality: recognizable solid products and natural shadows, but several left-port labels are malformed."
+    },
+    {
+      "blind_id": "case_c81069aff1650418",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: original regular three-by-three picture grid, icon positions and borders are replaced by an irregular layout. Instruction: the edit adds arbitrary numerals and distorted symbols rather than appropriately completing the supplied grid; it also is not a completed nine-by-nine Sudoku. Knowledge: duplicated and nonnumeric entries with inconsistent cells do not satisfy Sudoku logic; instruction failure \u21d2 knowledge invalid. Quality: malformed icons, overlapping glyphs and irregular cell divisions are severe structural and semantic errors."
+    }
+  ]
+}

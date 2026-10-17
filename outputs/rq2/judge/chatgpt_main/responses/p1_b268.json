@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b268",
+  "results": [
+    {
+      "blind_id": "case_69d1bb5fe57d3dc5",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The surrounding wall, floor and loose stones remain intact. New stone blocks close the entire white opening, completing the wall, although the deep broken rim remains and the repair is visibly recessed. The scene is coherent with slightly flat, uniformly pale block textures."
+    },
+    {
+      "blind_id": "case_869d7e3133bffa29",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The hamster's coat is fully changed from golden cream to gray as requested. The bedding, log, blue background and pose remain consistent, but the ears have noticeably different shapes and inner folds. Fur, eyes, whiskers and lighting appear natural and coherent."
+    }
+  ]
+}

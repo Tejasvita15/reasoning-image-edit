@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b085",
+  "results": [
+    {
+      "blind_id": "case_96e67ac2b2f4eeb4",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "The sky, clouds and horizon remain aligned, while offshore water texture is visibly reworked. The sandy foreground becomes a dense beach of rounded pebbles and coarse material, satisfying both the instruction and geological explanation. Pebble scale, shoreline transition and daylight look natural and coherent."
+    },
+    {
+      "blind_id": "case_5a355df7101a61ba",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "The reef setting, fish distribution and branching organism arrangement are preserved outside the requested whitening. The red and dark branches turn white throughout, matching the supplied explanation. The scene is coherent, though the uniformly bright white surfaces show slight flattening of texture and shading."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b156",
+  "results": [
+    {
+      "blind_id": "case_83656a260cb6f7a4",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Black jacket, orange trim and gray background persist, but the shoulder/sleeve stripe count is reduced. Instruction: The jacket remains an upright frontal three-quarter view, unlike the overhead reference with a circular collar opening and foreshortened torso. Quality: Coherent garment form with a minor malformed chest logo."
+    },
+    {
+      "blind_id": "case_9851279f5ce6c2ab",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Lips and skin background remain, but two previously present lower-left teeth become dark gaps and other tooth shapes are redrawn. Instruction: Both original missing positions are filled, yet two new lower gaps prevent a complete set of teeth. Quality: Two dark outlined tooth-shaped gaps create a clear semantic flaw in an otherwise coherent illustration."
+    }
+  ]
+}

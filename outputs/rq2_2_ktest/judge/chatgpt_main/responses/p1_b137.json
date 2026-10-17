@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b137",
+  "results": [
+    {
+      "blind_id": "case_10c936daf5cbe494",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "A rear-facing chair is shown, but it is a different oblique angle and construction from the reference: the asymmetric shell is regularized, the rear has a two-tone panel, and the table remains on the left rather than appearing behind right. The chair design changes noticeably and the side table shifts, though colors and white studio setting remain. The edited furniture rendering is coherent and clean."
+    },
+    {
+      "blind_id": "case_0bb8a49652610f9e",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "No single cola container is cleanly removed; instead the three cans become a fused row with two additional narrow protruding cylinders. Can color, label layout and contours all change severely. The white background remains. Melted can geometry, duplicated overlapping logos and garbled labels are major structural failures."
+    }
+  ]
+}

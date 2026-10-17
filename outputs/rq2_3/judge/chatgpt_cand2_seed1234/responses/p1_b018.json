@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b018",
+  "results": [
+    {
+      "blind_id": "case_55050f038911adc2",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the shoe that should remain is also removed; the pale studio background persists. Instruction: both shoes vanish rather than exactly one, so removal is overapplied. Quality alone: a smooth coherent pale gray field without visible rendering artifacts."
+    },
+    {
+      "blind_id": "case_00fc9851df173a0a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the small turtle's pose and face change and the large turtle's shell/feet are redrawn; the white background remains. Instruction: the large turtle is slightly reduced in spread but still clearly taller and broader than the small one, leaving most of the size adjustment undone. Quality: coherent shell ridges, scaly limbs, faces and soft contact shadows."
+    }
+  ]
+}

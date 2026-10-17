@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b076",
+  "results": [
+    {
+      "blind_id": "case_415372658a27e8bc",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "Bangle shape, engraved flowers, placement and bamboo surface remain consistent. Silver becomes dark brown with reddish crusted corrosion rather than the expected black sulfur tarnish, giving a partial aging effect but a substantial material-reaction mismatch. The textured metal and depth of field are visually coherent and natural."
+    },
+    {
+      "blind_id": "case_f4305aed2d487173",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The grid and outer symbols remain, but the existing center rainbow is replaced by a beveled blank square. None of the three empty cells is completed. The supplied explanation is blank; the instruction-failure coupling determines knowledge. The edited worksheet itself has clean lines and recognizable symbols. Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

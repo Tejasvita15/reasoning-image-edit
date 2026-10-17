@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b061",
+  "results": [
+    {
+      "blind_id": "case_6d8bab9a032fc0b0",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: white tabletop and gray surroundings remain recognizable, but legs change to thick wooden cylinders and tabletop framing shifts upward. Instruction: the prominently sharp tabletop corner remains sharp, so the anti-collision modification is absent. Knowledge: rounded corners specified by the explanation are not shown. Instruction failure \u21d2 knowledge invalid. Quality: the table geometry, wood texture and lighting are coherent and artifact-free."
+    },
+    {
+      "blind_id": "case_9c0eb8578b099f62",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: tabletop and pale background are preserved, but the existing left U-shaped foot loses its bottom connecting bar. Instruction: the missing right-side legs are added as a matching white-and-wood support, completing support under the table, though the left support is altered unnecessarily. Quality: straight legs, joins, wood grain and floor shadows form a visually coherent table."
+    }
+  ]
+}

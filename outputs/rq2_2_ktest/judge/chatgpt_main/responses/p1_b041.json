@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b041",
+  "results": [
+    {
+      "blind_id": "case_1cd1fe0c8beae43d",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The beaker, label, tabletop and framing are preserved, and a convincing iron block is immersed in the solution. The placement is fulfilled, but no visible reaction color change occurs: the liquid remains blue rather than the explanation's pale green. The edited photograph is coherent with clean block boundaries and plausible immersion."
+    },
+    {
+      "blind_id": "case_8feb6dbf47a97e8b",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "The hand, extended arm and white background remain consistent outside the covered area. A clean, textured bandage has been added, but it broadly wraps the elbow and extends toward the upper arm rather than being clearly tied distal to the elbow as the supplied explanation specifies. Its edges and wrapping look visually coherent without distracting artifacts."
+    }
+  ]
+}

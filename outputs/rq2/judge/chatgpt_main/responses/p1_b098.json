@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b098",
+  "results": [
+    {
+      "blind_id": "case_7120301f07b51431",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the tablet shifts slightly right/up and its border/screen proportions change; the plain background remains. Instruction: the phone moves upward and is only marginally wider, still far narrower and shorter than the tablet, so the requested size match is largely missing. Quality: coherent device shapes, clean screens and plausible shadows without noticeable defects."
+    },
+    {
+      "blind_id": "case_dfdd214a98ce0b31",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white grid becomes green-framed rounded tiles, all mushroom symbols disappear and the bottom-row umbrella is removed. Instruction: the original blank cells remain empty, so the Sudoku is not completed. Knowledge: Instruction failure \u21d2 knowledge invalid; no valid solution is supplied. Quality: numerous stray overlapping gridlines cross the illustrations and tile borders, producing a visibly broken graphic layout."
+    }
+  ]
+}

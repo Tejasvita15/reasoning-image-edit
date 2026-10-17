@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b240",
+  "results": [
+    {
+      "blind_id": "case_e8f94dcf82b5dfc2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "The main road alignment and right-side settlement layout remain recognizable, but right-side roofs and forest textures are noticeably remodeled and the scene is brighter. Buildings, streets and landscaped grounds replace much of the left forest, clearly fulfilling urbanization and the explained decrease in trees and increase in buildings. The aerial scene is readable, but the large scale mismatch across the road and warped, simplified roof geometry reduce naturalness."
+    },
+    {
+      "blind_id": "case_5683551e3952e115",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The pale tabletop background is retained, but the third baguette that should remain is also removed. All three baguettes disappear, so removal is performed but the specified quantity of two is not respected. Viewed alone, the edited image is a clean, coherent empty surface without obvious seams or residual object artifacts."
+    }
+  ]
+}

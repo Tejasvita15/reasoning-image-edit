@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b005",
+  "results": [
+    {
+      "blind_id": "case_1c52fd6b07afad40",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the jeans, foot positions, rear foot, floor and wall remain unchanged outside the heel correction. Instruction: the red shoe-like heel attached beneath the bare foot is removed and replaced by a plausible bare heel, accomplishing the requested correction. Quality: the stance and contact shadow are coherent, though the foreground toes have slightly blended contours."
+    },
+    {
+      "blind_id": "case_6a4804b8519830ed",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the runner's face, hair, blue shirt, black shorts and footwear retain their visible identity and arrangement. Instruction: a blue gradient, motion ribbons, stars and light dots create the requested sports atmosphere, but the title is garbled as 'HAL SPEED OPADE', appears across the middle instead of the top, and the bottom white slogan is absent; the runner is not shifted right. Quality: the figure and graphic background are coherent, but the large malformed text is a clear semantic flaw."
+    }
+  ]
+}

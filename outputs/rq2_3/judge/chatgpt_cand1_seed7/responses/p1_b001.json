@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b001",
+  "results": [
+    {
+      "blind_id": "case_149ffcec8242328b",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: grid and remaining circles are unchanged, but the second-row first circle changes from red to blue. Instruction: the question mark is replaced with the correct blue circle, although its diameter is noticeably too large for the pattern. Knowledge: the supplied explanation calls for a blue circle, which is present. Quality: coherent grid and clean colors; the top-left circle has a slightly uneven outline."
+    },
+    {
+      "blind_id": "case_308ffcbc48cc78b0",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: all matchstick numerals and their arrangement disappear, replaced by a largely blank field and a blue plus. Instruction: no valid equation or two-stick movement is depicted; the equation has been erased. Knowledge: Instruction failure \u21d2 knowledge invalid. Quality: the isolated blue plus has clean rounded geometry on a uniform white background, with no visible artifacts."
+    }
+  ]
+}

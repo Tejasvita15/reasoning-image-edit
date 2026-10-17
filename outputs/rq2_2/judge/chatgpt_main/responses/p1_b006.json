@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b006",
+  "results": [
+    {
+      "blind_id": "case_68f8de21fb49aacb",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the neutral background and basketball appearance are preserved, but the soccer ball is shifted left and down and appears smaller. Instruction: the basketball is clearly resting directly on top of the soccer ball, fulfilling the spatial relation. Quality: coherent spherical forms, clean panel seams and plausible contact and floor shading, without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_52c1767be4004206",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "Consistency: the background, pedestal, upright and overall scale design remain, but the pre-existing left weight is resized and shifted backward rather than simply retaining its form beside the addition. Instruction: weights are added to the correct pan, but it now contains three instead of the expected two and the beam stays level. Knowledge: both the incorrect count and absence of leftward tilt contradict the supplied explanation. Quality: the metal weights, chains, bowls and base are structurally coherent, with natural bronze highlights and surface texture."
+    }
+  ]
+}

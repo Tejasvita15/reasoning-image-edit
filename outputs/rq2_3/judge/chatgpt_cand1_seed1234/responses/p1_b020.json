@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b020",
+  "results": [
+    {
+      "blind_id": "case_12ab023c878cdfc0",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: white kitten identity, seated pose and facial layout remain, with slightly coarser altered facial fur texture. Instruction: pink/blue gradient, paw prints, hearts, bubbles and correct pink Pet Home title are present, but the cat is reduced rather than enlarged and tagline is pink above the cat instead of light gray below. Quality: coherent cat and readable poster text, with one malformed paw-print decoration to the cat's upper right."
+    },
+    {
+      "blind_id": "case_305ed58ab240dc9c",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: white studio setting and cup style remain, but the right cup becomes smaller and shifts left despite only left-cup movement being requested. Instruction: the left cup moves closer and leans across the front, yet stays on the surface rather than being placed on top of the other cup. Quality: coherent cup surfaces and lighting overall, with a slightly fused contact region between the two rims."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b143",
+  "results": [
+    {
+      "blind_id": "case_48d266f47d68bd9a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The question mark is retained rather than replaced with 35. The first two squares gain large 11 labels and dashed subdivisions, and the rightmost square disappears. Uneven pale blotches across the white background and the incomplete third diagram are noticeable visual flaws. Instruction failure \u21d2 knowledge invalid."
+    },
+    {
+      "blind_id": "case_ec9dbca3d642b8c4",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "The horizon and cloudy sky are retained with small cloud-detail changes. A dark glossy patch appears on the sea, suggesting an oil slick, but it lacks the rainbow sheen explicitly expected by the explanation. Its thick scalloped rim makes the patch resemble a raised-edged pool rather than a thin floating film, a noticeable naturalness flaw."
+    }
+  ]
+}

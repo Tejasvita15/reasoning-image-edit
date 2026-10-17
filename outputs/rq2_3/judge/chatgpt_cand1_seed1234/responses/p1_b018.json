@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b018",
+  "results": [
+    {
+      "blind_id": "case_dbba38edaa7eeb11",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: post, sandy ground and composition remain, with a small change in the post's surface shading. Instruction: long leftward shadow remains and becomes darker, rather than disappearing as the supplied target requires. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: coherent wooden post, ground texture and directional shadow, without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_667a604ef7925c8f",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: white backdrop remains, but all six forks that should survive the count reduction are also removed. Instruction: the eight-fork source becomes an empty white field rather than six forks. Quality: viewed alone, the blank white field is uniform and artifact-free, with no visible malformed objects or seams."
+    }
+  ]
+}

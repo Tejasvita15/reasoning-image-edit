@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b065",
+  "results": [
+    {
+      "blind_id": "case_be75ff2bd9f75293",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: navy upholstery, cushions, chaise, wooden legs and white background remain, with a slight shift in upholstery texture and cushion contours. Instruction: the edited sofa still presents the same side view; it lacks the reference's frontal row of three back cushions and right-hand projecting chaise. Quality: the furniture structure and fabric rendering are coherent without obvious artifacts."
+    },
+    {
+      "blind_id": "case_4dc8ef50fd453cce",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: surrounding cracked wall, floor tiles, two loose stones and framing are retained outside the repaired wall region. Instruction: solid stone blocks fill the entire opening, completing the wall, though their smooth rectangular appearance differs somewhat from the rough surrounding stone. Quality: the repair is structurally readable, with a small texture-blending issue along its lower edge; the rest of the room is coherent."
+    }
+  ]
+}

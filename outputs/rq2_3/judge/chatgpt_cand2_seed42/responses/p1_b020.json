@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b020",
+  "results": [
+    {
+      "blind_id": "case_d2c6c2811a8f79ba",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: grid and blue clues remain, but green 2 clue is erased. Instruction: red X replaces an already revealed 2 rather than marking hidden mine cells; required mine locations remain unmarked. Quality: coherent grid and crisp readable symbols with no noticeable graphical defects. Knowledge: explanation blank; visible revealed clue cannot be a mine under task logic, and mandatory coupling applies. Instruction failure \u21d2 knowledge invalid."
+    },
+    {
+      "blind_id": "case_3cce757259e11611",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: white background and cup material remain, but upright cup shifts/resizes and gains a side protrusion. Instruction: left cup is still sideways beside the other, not on top or nested onto it; non-compliance. Quality: the upright cup has an ambiguous handle-like nub and the sideways cup is compressed into a flattened oval, two noticeable shape defects."
+    }
+  ]
+}

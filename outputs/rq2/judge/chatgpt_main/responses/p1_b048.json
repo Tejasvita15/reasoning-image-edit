@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b048",
+  "results": [
+    {
+      "blind_id": "case_f60e46c64e41dfaf",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 2,
+      "knowledge_score": 5,
+      "rationale": "The display clearly reads 180/88, meeting the requested hypertension state and supplied thresholds. However, the white cutout setting becomes a blue tabletop scene, lighting and casing shape change, cuff details are replaced, and pulse and labels change. Numerous garbled device labels and symbols degrade the otherwise recognizable product structure."
+    },
+    {
+      "blind_id": "case_ea0eac374050f216",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 2,
+      "rationale": "The bottle silhouette, background and label layout are preserved, but the stopper becomes brown-stained. A large brown granular deposit is added rather than a clearly appropriate amount of iron powder. The liquid lacks the specified light-green change and visible bubbles, violating both reaction outcomes. The bottle is coherent, with a small smeared area along the lower label."
+    }
+  ]
+}

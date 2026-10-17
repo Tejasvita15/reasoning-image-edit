@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b009",
+  "results": [
+    {
+      "blind_id": "case_454cb63fc8d2b182",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the right cup and bean pile shift upward and their contours change; the left saucer and bean arrangement are also redrawn. Instruction: the left cup remains clearly smaller than the right, with no meaningful enlargement to matching size. Quality: both ceramic cups and saucers have coherent shapes, natural shadows and recognizable textured coffee beans."
+    },
+    {
+      "blind_id": "case_6d09fd157268107b",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the pale sky, cloud bands, horizon and framing remain consistent; the sea surface is the instructed area. Instruction: the water becomes glossy and patchy with dark slick-like regions, but lacks the characteristic rainbow sheen. Knowledge: the required rainbow interference patterns are absent, a clear conflict with the explanation. Quality: the reflections and perspective are coherent, though the hard polygonal boundaries make parts of the surface look slightly crusted rather than fluid."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b251",
+  "results": [
+    {
+      "blind_id": "case_6c868042cf99e1d9",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The other eight cells and grid are preserved. The answer adds a full diagonal over the retained question mark, omits the far-right black circle and fails to limit the line to the top-right segment. The overlapping question mark and stroke make the answer visually unresolved. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_567bca8820a75157",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The glass and milk splash are preserved, with the requested upper centered uppercase sans-serif copy and soft bottom shadow added against white. The lettering is darker and heavier than light silver-gray and omits the final period. Its overlap with the pouring stream slightly crowds an otherwise clean composition."
+    }
+  ]
+}

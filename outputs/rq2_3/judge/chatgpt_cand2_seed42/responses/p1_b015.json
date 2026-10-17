@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b015",
+  "results": [
+    {
+      "blind_id": "case_f25778aa522745ea",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: upper two balls and line stay, but the lower ball is removed despite needing retention and turf texture changes broadly. Instruction: overlapping lower ball is removed; all three should remain according to supplied explanation, so the selection is wrong. Quality: coherent remaining balls, but conspicuous flat green patch at lower right disrupts turf texture. Knowledge: all-ball-retention expectation is violated. Instruction failure \u21d2 knowledge invalid."
+    },
+    {
+      "blind_id": "case_8284fdad46032271",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: bottle silhouette, red capsule and main branding remain, but extra Timeless Bottled text is inserted on the product label. Instruction: upright bottle, red-black velvet spotlight and bottom reflection are present, with gold upper-right title; comma replaces the requested first period and ornate italic type departs slightly from restrained serif setting. Quality: coherent bottle and velvet scene; small label lettering is mildly malformed."
+    }
+  ]
+}

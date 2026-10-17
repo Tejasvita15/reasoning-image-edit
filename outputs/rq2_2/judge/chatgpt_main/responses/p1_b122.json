@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b122",
+  "results": [
+    {
+      "blind_id": "case_2d3a372396e370fc",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: nearly every existing arc pattern is redrawn and the outer grid border is removed. Instruction: the question mark remains, with no requested common-part pattern replacing it. Knowledge: Instruction failure \u21d2 knowledge invalid. Quality: smooth recognizable arcs, orderly grid lines and a clean question mark form a coherent diagram."
+    },
+    {
+      "blind_id": "case_a5b3cd4ad6b6d904",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the tablet shifts slightly and its frame and screen proportions change, while the white background remains. Instruction: the phone is only modestly enlarged and remains substantially narrower and shorter than the tablet, failing the requested size match. Quality: both devices have coherent rectangular frames, intact controls and natural screen shading and shadows."
+    }
+  ]
+}

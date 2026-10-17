@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b029",
+  "results": [
+    {
+      "blind_id": "case_d809bbf6c6eae17a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The white backdrop remains, but the cable loop changes shape and its exposed connector changes appearance. The original adapter remains at left while a different, extra adapter appears in front of the loop, not its center. The edited product shapes, prongs and shadows are clean and coherent."
+    },
+    {
+      "blind_id": "case_2c83c6733addd51c",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The lawn, players, string grid and other tiles remain, but the existing top-middle O is overwritten. An X appears there instead of the empty top-left square needed to complete the center-to-bottom-right diagonal; no winning line results. Instruction failure \u21d2 knowledge invalid. The edited people, tiles and grass remain natural and artifact-free."
+    }
+  ]
+}

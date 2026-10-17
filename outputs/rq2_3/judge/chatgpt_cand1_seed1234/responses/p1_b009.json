@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b009",
+  "results": [
+    {
+      "blind_id": "case_9217a18b95a03863",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: black/red helmet design, dark visor, glossy materials and gray backdrop persist; projection changes are authorized. Instruction: yaw shifts toward the front, but the viewpoint remains elevated, exposing much more crown and foreshortening the chin compared with the level frontal reference. Quality: coherent helmet structure, clean seams and natural reflective surfaces."
+    },
+    {
+      "blind_id": "case_b4f6ddc9acc14b56",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: white background and brown/yellow book appearance persist, but the thick book is widened and the thin book moves right and becomes narrower. Instruction: the thin book remains a small fraction of the other's thickness, so the requested match is absent. Quality: coherent book forms overall, with a small irregular protrusion at the large book's right page edge."
+    }
+  ]
+}

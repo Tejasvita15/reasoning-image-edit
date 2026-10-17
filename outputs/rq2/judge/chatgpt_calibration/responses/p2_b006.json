@@ -1,0 +1,23 @@
+{
+  "batch_id": "p2_b006",
+  "results": [
+    {
+      "blind_id": "case_97a0205d33ad7a2a",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The floor tiles, corner, loose stones and overall framing remain. However, a broad rectangular block pattern replaces a substantial intact wall region well beyond the original hole, constituting a clear non-target wall-surface change. Instruction: The entire open hole is filled, leaving a continuous closed wall with no remaining opening, so the requested completion is achieved. Quality: The room and wall geometry are coherent, but the smooth blockwork blends unevenly into the rough surrounding surface, particularly along its lower boundary."
+    },
+    {
+      "blind_id": "case_d6df92ae59a4b635",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The foot position, exposed ankle, dark sock, knit pattern, background and lighting remain visually unchanged in their substantive details. Instruction: The exposed-skin hole near the heel remains clearly visible at the same location. A completed sock should close that opening with matching fabric, which has not happened. Quality: Viewed independently, the foot contour, knit texture, worn opening and shadows are natural and coherent; the existence of a plausible hole is not itself a rendering artifact."
+    }
+  ]
+}

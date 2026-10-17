@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b020",
+  "results": [
+    {
+      "blind_id": "case_bc6d587b99e37d1f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: frog body, face, surrounding hand outlines and layout remain, but both example hand colors change: blue to red and red to yellow. Instruction: all seven surrounding hands remain white; only the frog hands are recolored, so the requested coloring target is entirely missed. Knowledge: the explanation is blank; the task visibly requires transferring the original left/right color coding to surrounding hands, which is not done. Instruction failure \u21d2 knowledge invalid. Quality: coherent cartoon anatomy, clear hand outlines and clean flat colors without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_00407b5c6e6a9d2e",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the numeral 8 retains its outline, two counters, size, placement and white background. Instruction: the orange fill changes fully to green as requested. Quality: clean, readable numeral geometry and uniform green fill on white, with no noticeable artifacts."
+    }
+  ]
+}

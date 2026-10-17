@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b192",
+  "results": [
+    {
+      "blind_id": "case_546ec0df77308926",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the room layout stays recognizable, but the carved wall panel details and bedding/pillow textures are visibly redrawn. Instruction: balloons are added in the room, but a floating cluster replaces the requested single regular-air balloon. Knowledge: none lies on the floor; their elevated floating state ignores the supplied regular-air expectation. Quality: viewed alone, the balloon shapes, ribbons, interior perspective and soft lighting are visually coherent."
+    },
+    {
+      "blind_id": "case_0929b6caa8d4fbbc",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the bowls, raspberries, mint, spoon, napkin and pink tabletop retain their placement and appearance outside the edited contents. Instruction: the white contents become watery and slightly tinted with a small magenta patch, but do not clearly depict the requested indicator color change throughout. Knowledge: the supplied acidic-yogurt expectation is red or pink; most contents remain pale beige/clear rather than the expected result. Quality: the liquid has conspicuously broken, paint-like reflection shapes around the fruit, while the surrounding objects remain coherent."
+    }
+  ]
+}

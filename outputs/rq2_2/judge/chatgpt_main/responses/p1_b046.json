@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b046",
+  "results": [
+    {
+      "blind_id": "case_fd1f6cab075c5bae",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the two-glass arrangement and gray setting remain, with slight glass-rim/proportion changes. Instruction: red rays enter from the left, but the soy milk becomes dark brown and extra rays converge above/between the cups instead of forming a beam through both liquids. Knowledge: the stated penetration through both cups is absent; Instruction failure implies knowledge invalid. Quality: coherent glass bodies are undermined by an oversized unsupported central flare and inconsistent converging ray geometry."
+    },
+    {
+      "blind_id": "case_ebb214de9acc7ffb",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: the tray and can array remain recognizable, but their placement/proportions and many labels are altered. Instruction: a horizontal can is added on top, but the right-hand can remains, so this is duplication rather than the requested relocation. Quality: numerous garbled labels, distorted pull tabs and warped can contours create multiple distracting product-rendering errors."
+    }
+  ]
+}

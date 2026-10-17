@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b033",
+  "results": [
+    {
+      "blind_id": "case_7d1491e92ec5144d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Both red toy vehicles and the wooden surface remain, but their positions and wheel/window details change visibly. The larger car remains much taller and longer than the smaller one; the requested size match is not achieved. The edited toys have coherent bodywork, wheels, reflections and contact shadows without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_1aeea60873ff8c39",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The wooden pushpins and original layout are entirely replaced with six manicured fingernails on cropped hands. This completely misinterprets the hardware count instruction despite showing six of a different meaning of nails. Considered alone, the visible fingers, French-tip polish and soft lighting are coherent and free of obvious artifacts."
+    }
+  ]
+}

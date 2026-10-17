@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b181",
+  "results": [
+    {
+      "blind_id": "case_206dc450a8048e7b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: column positions and proportions shift slightly, and the gray background becomes white. Instruction: eight columns remain instead of the requested five; the count change is absent. Quality: the edited columns have coherent fluting, bases, perspective and shading without visible structural artifacts."
+    },
+    {
+      "blind_id": "case_cc303d285b3b94a8",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the wooden pushpins and their scattered arrangement are entirely replaced by hands. Instruction: six fingernails are shown, but the source metal-pointed pins were the objects to reduce to six; the request is misinterpreted. Quality: the visible fingers, glossy nails, skin texture and lighting are coherent and natural."
+    }
+  ]
+}

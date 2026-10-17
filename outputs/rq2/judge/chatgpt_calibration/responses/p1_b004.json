@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b004",
+  "results": [
+    {
+      "blind_id": "case_e2162b48da00c86c",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The blue-and-cream carton, MILK lettering, cow illustration, cap, folded top and white background are retained; changes in the projected face widths are allowed by the viewpoint instruction. Instruction: The carton turns slightly toward its illustrated side, but remains a three-quarter view with the MILK face prominently visible. The supplied reference shows the cow side almost straight on, with the front face hidden and the cap largely seen from its edge. The required viewpoint and occlusion are therefore substantially incomplete. Quality: Viewed alone, the carton has coherent planar geometry, readable lettering and a consistent stylized illustration."
+    },
+    {
+      "blind_id": "case_dfa94b1d57e4fc0f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 2,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The monitor and cuff remain side by side, but the white cutout background becomes a gray surface, the casing and cuff shapes change, device labels are redrawn, and the pulse changes from 70 to 98. These are multiple non-instructed alterations. Instruction: The pressure display changes from 100/68 to 188/88, providing the requested elevated values. Knowledge: Both displayed pressure values exceed the respective thresholds stated in the supplied explanation, so that annotation is satisfied. Quality: The device silhouette, cuff and numerical display are coherent, but multiple manufacturer, unit and control labels are malformed or unreadable, creating distracting text artifacts."
+    }
+  ]
+}

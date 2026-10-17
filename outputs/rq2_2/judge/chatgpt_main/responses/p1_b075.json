@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b075",
+  "results": [
+    {
+      "blind_id": "case_c7e2ad9a6942a7d4",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the gray ground texture and board's angle/position change, while the dark grip tape and exposed colorful wood remain recognizable. Instruction: a front wheel/truck is added, but the deck's front edge remains jagged and broken instead of being completed. Quality: the deck has an obviously irregular splintered end and a somewhat smeared wheel/truck connection, although the board remains recognizable."
+    },
+    {
+      "blind_id": "case_8073ab1d06b21994",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the table proportions and front legs are altered, and the right chair's back and position change; the vase, books, cake stand and white background persist. Instruction: the foreground chair remains outside the table with its seat exposed, rather than being pushed underneath. Quality: the wooden furniture, upholstery, accessories and overall product composition are coherent and free of clear artifacts."
+    }
+  ]
+}

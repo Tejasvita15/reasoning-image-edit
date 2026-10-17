@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b018",
+  "results": [
+    {
+      "blind_id": "case_3160f3b22c61d63c",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the sky, horizon, distant path and tree line remain, but the foreground crop texture and leaf arrangement are visibly redrawn. Instruction: strings of small prayer flags are added across the flatland. Knowledge: the visible blue, white, red, green and yellow cloth flags match the five-colored expectation. Quality: coherent field perspective and naturally suspended distant flag strings, with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_b2cb8848eedb07b0",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the palm, sleeve, faucet and dark background remain consistent. Instruction: the rod disappears from the hand, but the related flow correction is omitted. Knowledge: the stream still bends toward the lower right rather than returning vertically downward, contrary to the explanation. Quality: the hand and tap are coherent, but the unsupported bent water stream is a clear naturalness defect."
+    }
+  ]
+}

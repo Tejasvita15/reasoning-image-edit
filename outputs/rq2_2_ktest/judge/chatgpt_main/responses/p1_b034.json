@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b034",
+  "results": [
+    {
+      "blind_id": "case_e51795640bf3bc82",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The jeans' seams, pocket outline, pose and background remain consistent. The large torn pocket is filled with matching denim, though a small frayed tear near the central seam remains. This largely completes the repair. Denim weave, stitching and shading are visually natural and continuous."
+    },
+    {
+      "blind_id": "case_431fef5e66bd433c",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The gray background, fork body and reflections remain consistent. The absurd miniature fork still extends from a large tine, so the unreasonable structure has not been corrected. Viewed alone, this fork-within-a-fork is an obvious semantic/structural flaw, while the metal rendering is otherwise coherent."
+    }
+  ]
+}

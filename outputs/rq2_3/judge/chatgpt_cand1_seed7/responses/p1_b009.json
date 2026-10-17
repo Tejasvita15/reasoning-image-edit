@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b009",
+  "results": [
+    {
+      "blind_id": "case_98bcd2afca23bf0e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: book colors and white setting persist, but both books shift downward and the left thick book has changed cover/page-edge geometry. Instruction: the right book stays thin, far below the thickness of the left book, so the requested thickness match is not performed. Quality: both books have coherent covers, parallel page layers and clean silhouettes with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_aacaa572662da07b",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: wood frame, numbered tiles and their ordering largely remain; an unrequested 0 tile replaces the empty space. Instruction: instead of rearranging 1 through 15 into completed order with a final blank, the edit leaves their positions and fills the initial gap with 0. Knowledge: the explanation is blank; the requested 15-puzzle completion is absent. Instruction failure \u21d2 knowledge invalid. Quality: clear wood texture and readable numerals, but filling every slot makes the depicted sliding puzzle structurally nonfunctional."
+    }
+  ]
+}

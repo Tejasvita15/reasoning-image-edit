@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b174",
+  "results": [
+    {
+      "blind_id": "case_84c6805903662bf0",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 2,
+      "rationale": "The leaf arrangement, branch and background bokeh are preserved. Brown circular spots are added over the leaves, suggesting infestation damage but failing to show the eaten-through holes required by the explanation. The spots look somewhat stamped, though leaf structure and lighting remain coherent."
+    },
+    {
+      "blind_id": "case_03e498d99403ecda",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Many supplied numbers change, including 99 to 92 and 28 to 78, and the background turns pale blue. The question mark remains unfilled, instead of the required 21. Instruction failure \u21d2 knowledge invalid. The diagram retains a readable layout, but several numerals have malformed ambiguous strokes."
+    }
+  ]
+}

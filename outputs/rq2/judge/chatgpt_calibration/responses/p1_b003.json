@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b003",
+  "results": [
+    {
+      "blind_id": "case_bf18210cbcee1196",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The hourglass silhouette, narrow neck, position and white backdrop are retained; the glass and base reflection acquire a small bluish highlight change. Sand redistribution is excluded from consistency scoring. Instruction: Sand remains in the upper chamber and appears more abundant, rather than showing an ended timing cycle. Knowledge: The supplied explanation requires the upper chamber to be empty, which is directly contradicted. Instruction failure implies knowledge invalid. Quality: The glass contours, sand piles, thin falling stream and reflection are visually coherent; the depicted running hourglass has no clear rendering defect."
+    },
+    {
+      "blind_id": "case_10ed62958cb51b50",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The 4-by-4 grid and all pre-existing squirrels, trees, umbrellas and mushrooms remain in their original cells. Instruction: All four blanks are filled, but every inserted symbol repeats another symbol in its row: a squirrel in row 1, and mushrooms in rows 2, 3 and 4. The requested correct completion is therefore not achieved. Knowledge: The supplied knowledge-explanation field is empty; no additional domain claim is inferred. The mandatory instruction-failure rule sets the knowledge score to 1. Quality: The icons are recognizable, the grid is straight and the illustration is clean; puzzle correctness is assessed separately from visual rendering."
+    }
+  ]
+}

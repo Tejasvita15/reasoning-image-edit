@@ -1,0 +1,5 @@
+arm,n_examples,mean_Q,Q_ci95_low,Q_ci95_high,visual_consistency,visual_quality,instruction_following,knowledge_plausibility,Q_factual,Q_conceptual,Q_procedural,Q_seed42,Q_seed1234,Q_seed7,mean_candidates,mean_generator_calls,latency_thinking_s,latency_generation_s,latency_selector_s,latency_total_s,kept_candidate_2
+First candidate only,40,53.9757,46.6836,61.3889,3.175,4.1667,2.4667,2.4833,50.1984,64.1026,47.9167,53.1771,59.0104,49.7396,1.0,56.0,2.012,65.5644,0.0,67.5764,0
+Resampling (selector),40,54.6181,47.3264,62.1007,3.1667,4.2833,2.4667,2.4833,48.2143,65.0641,51.0684,54.1667,60.2604,49.4271,1.6083,90.0667,2.012,105.3924,0.5344,107.9388,41
+Feedback (selector),40,53.5938,46.3889,61.059,3.1167,4.2,2.45,2.5,48.4127,63.9423,48.8248,52.6562,58.4896,49.6354,1.6083,90.0667,2.012,137.8834,0.5341,140.4295,35
+Feedback (native),40,53.6111,46.4583,60.8681,3.1083,4.1667,2.4917,2.5167,48.8095,63.9423,48.4509,52.7083,58.0208,50.1042,1.6083,90.0667,2.012,137.8834,0.0,139.8954,48

@@ -60,6 +60,7 @@ diffusers/
 # OS
 .DS_Store
 Thumbs.db
+.env
 
 # Standalone RQ3 dependencies and local experiment artifacts
 external

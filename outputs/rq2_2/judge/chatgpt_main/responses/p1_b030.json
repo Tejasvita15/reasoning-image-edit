@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b030",
+  "results": [
+    {
+      "blind_id": "case_50a239e2cbf0fc98",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The pale tabletop is retained, but the third baguette that should remain is also removed. All three loaves disappear instead of exactly two, so the removal instruction is only partly satisfied. The resulting empty surface is smoothly coherent, with no obvious residual outlines or inpainting artifacts."
+    },
+    {
+      "blind_id": "case_f0d7c698441f374c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The extra central arm and hand holding the glass are removed, leaving two anatomically plausible arms and fully correcting the abnormal body part. The seated identity and setting remain recognizable, but the remaining right hand's pose, waistcoat details and furniture contours change noticeably beyond the repair. The edited portrait has coherent anatomy, clothing folds and painterly textures without conspicuous artifacts."
+    }
+  ]
+}

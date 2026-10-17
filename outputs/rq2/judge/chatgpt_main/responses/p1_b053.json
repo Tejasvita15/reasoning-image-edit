@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b053",
+  "results": [
+    {
+      "blind_id": "case_22da5c2eb2168ed6",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "A printed page is clearly placed on the surface in front of the printer, satisfying the requested location. The white background becomes a beige tabletop scene and the output area gains another printed sheet and an unexplained white roller-like bar. Garbled headings, fragmented printed imagery and the awkward bar across the paper create several distracting artifacts."
+    },
+    {
+      "blind_id": "case_58cf53eb6cfd23e4",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Most of the eight given arc configurations change and the outer grid border disappears. The question mark remains, with no answer retaining the common segments of the original bottom-row patterns. Instruction failure \u21d2 knowledge invalid. Independently, the resulting lines, circles and question mark are clean and visually coherent."
+    }
+  ]
+}

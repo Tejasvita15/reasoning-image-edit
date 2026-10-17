@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b168",
+  "results": [
+    {
+      "blind_id": "case_261e53fdd902624c",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The trousers are uniformly blue, retaining their silhouette, pleats, pockets and white background. The button is slightly darker. The edited garment has coherent seams, natural shading and clean edges without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_50119aaf3c8f499f",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The carton rotates only slightly and still prominently shows the MILK front panel, whereas the reference is a straight side view showing only the cow panel. The blue-and-cream design and background remain, but the cow illustration is noticeably redrawn. The edited carton itself has coherent geometry, legible lettering and clean stylized surfaces."
+    }
+  ]
+}

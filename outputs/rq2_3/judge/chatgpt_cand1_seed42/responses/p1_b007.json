@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b007",
+  "results": [
+    {
+      "blind_id": "case_85655ff8d136e411",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: two white clocks and wall remain, but both clocks shift position and their face lettering/hand details change. Instruction: left clock remains visibly smaller than the right and is not meaningfully enlarged to match; requested sizing fails. Quality: coherent round clock forms, readable numerals, plausible hands and shadows, no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_e701356b11a2fd56",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white pump silhouette, toe, heel, seam, sole and position remain visually unchanged; surrounding poster additions are requested. Instruction: gold glitter/floral lines, soft gray-white background and title are present, but the headline is script rather than bold uppercase and the slogan omits “elegance”; partial compliance. Quality: attractive coherent shoe and poster, but the lower slogan reads incompletely and the added tiny footer is garbled."
+    }
+  ]
+}

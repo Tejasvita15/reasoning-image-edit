@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b179",
+  "results": [
+    {
+      "blind_id": "case_0c7177a5de882693",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The pupils remain broad rounded ovals rather than constricting under strong light. Instruction failure \u21d2 knowledge invalid. Outside the eyes, the muzzle shape, whisker arrangement and fur contrast also change noticeably. The edited photograph itself is sharp and coherent with natural fur and lighting."
+    },
+    {
+      "blind_id": "case_2c0b01da7ead37d3",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The jacket is drawn cleanly but remains in an oblique frontal view with the full chest and long torso visible; it does not match the overhead collar-and-shoulders view in the reference. Black fabric, orange stripes and branding are retained, but the background changes from gray to white. The illustration has crisp contours and coherent fabric shading."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b006",
+  "results": [
+    {
+      "blind_id": "case_a70775cdba33e68f",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: nearly all original digits and their positions disappear or change, far beyond two moved sticks; white background remains. Instruction: the clear 14−6=82 becomes disconnected strokes and curved reversed-2-like marks, not a valid equation made by two moves. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: the symbols are fundamentally garbled and curved match forms lack coherent equation structure."
+    },
+    {
+      "blind_id": "case_800decbaccee9602",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: museum architecture, lighting and framing remain visually unchanged outside the statue. Instruction: the male statue remains, with cracks added to an intact arm; it is not changed to the requested goddess. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: coherent statue and interior, with one rough, slightly smeared shoulder damage patch."
+    }
+  ]
+}

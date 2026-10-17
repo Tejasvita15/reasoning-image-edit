@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b019",
+  "results": [
+    {
+      "blind_id": "case_5254e6d427dceba6",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: original board arrangement and other symbols remain, but wood grain, board framing and several tile contours visibly change. Instruction: the bottom-left piece is turned to show a clear blue X, exactly selecting the winning face. Knowledge: the left column now contains three X marks, correctly giving X a win. Quality: wood, painted symbols, compartments and shadows are coherent and natural."
+    },
+    {
+      "blind_id": "case_a77e06aa101f03e9",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: maze topology is extensively replaced, the girl moves, a second girl appears and the watering can is enlarged into an unrelated object. Instruction: no continuous red route through the original maze connects the girl to the flowers; broad orange strokes and scattered red marks do not solve it. Knowledge: the marks cross walls and fail to show a valid path. Instruction failure \u21d2 knowledge invalid. Quality: duplicated figures, transparent body overlap, malformed objects and smeared strokes create severe structural failures."
+    }
+  ]
+}

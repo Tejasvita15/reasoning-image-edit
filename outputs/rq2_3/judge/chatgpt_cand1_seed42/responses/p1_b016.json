@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b016",
+  "results": [
+    {
+      "blind_id": "case_8c81ab24538b9f36",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: pale background remains, but the five-card fan becomes a differently arranged larger pile with changed card boundaries and styling. Instruction: visible ranks 5,6,8,4,4,4,5 appear across seven cards with malformed suits, rather than a five-card full house. Knowledge: fails supplied three-of-one-rank plus two-of-another requirement. Instruction failure ⇒ knowledge invalid. Quality: multiple garbled suit marks, inconsistent rank/suit colors and overlapping phantom card edges cause severe semantic failures."
+    },
+    {
+      "blind_id": "case_1f0c4bdeaadfd6c8",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: orange ball, gray spring/base and cream illustration style persist; the base is noticeably shifted upward. Instruction: pressing hand is removed, ball is freed and spring visibly extends, fulfilling the release. Knowledge: taller spring and raised ball match the supplied causal expectation. Quality: coherent spring coils and ball/base shapes, smooth illustrated shading and no noticeable artifacts."
+    }
+  ]
+}

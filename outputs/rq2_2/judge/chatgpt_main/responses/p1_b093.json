@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b093",
+  "results": [
+    {
+      "blind_id": "case_1e388a12280c447e",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "The wooden grid, other marks and blank blocks remain consistent, with a slight board-position shift. The bottom-left block is turned to a clear X, completing the left-column win; its red color differs from the existing blue X pieces, a minor execution mismatch. The game logic succeeds and the wooden blocks and painted symbols look coherent."
+    },
+    {
+      "blind_id": "case_c24a703eb54de1ad",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The ankle, dark sock, surface and lighting remain unchanged. The exposed-skin hole at the heel is still present, so the sock is not completed or repaired. The edited photograph is otherwise natural, with coherent anatomy and fabric texture."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b075",
+  "results": [
+    {
+      "blind_id": "case_8d7b719700a676df",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Tree decorations and gift arrangement largely remain, but the top star disappears. The warm gradient, glowing flecks, centered lower tree and gold handwritten headline fulfill the design, with an exclamation mark instead of the requested period. The poster is coherent and legible, with a slightly awkward bare treetop beneath the text."
+    },
+    {
+      "blind_id": "case_94be54d833250602",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 2,
+      "rationale": "Leaves, branches, background and remaining closed husk retain their positions. Two husks open, but they contain numerous small beige kernels rather than glossy brown nuts, so the opening is only partially correct and conflicts with the supplied biological expectation. The opened shells are clearly shaped, with slightly repetitive kernel texture."
+    }
+  ]
+}

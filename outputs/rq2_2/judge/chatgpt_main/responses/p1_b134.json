@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b134",
+  "results": [
+    {
+      "blind_id": "case_6d9784aebc300b70",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the monitor and cuff remain recognizable, but date/time text is replaced by gibberish and several unit labels and small display symbols are altered. Instruction: the new reading is about 118/78, which does not depict hypotension. Knowledge: Instruction failure \u21d2 knowledge invalid; neither value is below the supplied thresholds. Quality: major digits are readable, but numerous garbled labels and malformed display characters noticeably degrade the product image."
+    },
+    {
+      "blind_id": "case_0f46c6c58d110f7c",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: people, hands, grass, string grid and other tiles remain preserved outside the attempted mark change. Instruction: the upper-middle O is changed to X instead of adding X in the empty upper-left winning position; the resulting board has no three-X line. Knowledge: Instruction failure \u21d2 knowledge invalid. Quality: tiles, hands and grass remain naturally rendered with clear symbols and coherent geometry."
+    }
+  ]
+}

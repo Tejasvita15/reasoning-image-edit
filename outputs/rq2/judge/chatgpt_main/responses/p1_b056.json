@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b056",
+  "results": [
+    {
+      "blind_id": "case_61a00bebb181ca8c",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "The brass scale, base and setting remain closely matched, with small right-pan alignment changes. The left pan now has three weights rather than the specified two, and the beam stays level instead of tilting left. The added weights look solid and naturally lit, with coherent chains and metal surfaces."
+    },
+    {
+      "blind_id": "case_a0457c0616519d10",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The original 5 \u2212 2 = 5 becomes 6 \u2212 6 = 5 through numerous match changes and reversed match heads, rather than one moved stick. The resulting equation is still false. Instruction failure \u21d2 knowledge invalid. The edited match arrangement itself is clean, recognizable and visually coherent."
+    }
+  ]
+}

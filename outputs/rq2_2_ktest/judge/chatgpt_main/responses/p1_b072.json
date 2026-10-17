@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b072",
+  "results": [
+    {
+      "blind_id": "case_e44cc5876e4b9485",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Grass is substantially replaced by broad sand and dry distant ground, correctly expressing desertification. Sky, horizon and foreground debris remain recognizable, though fence wires are redrawn. Sand is coherent but somewhat smooth and repetitive."
+    },
+    {
+      "blind_id": "case_574e24ad5e9f4cbc",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Characters and circle positions are retained with mild softening. Horizontal lines match each figure to the wrong back view, so none of the required correspondences is solved. Uneven endpoints and stray curved marks weaken the otherwise legible worksheet. Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

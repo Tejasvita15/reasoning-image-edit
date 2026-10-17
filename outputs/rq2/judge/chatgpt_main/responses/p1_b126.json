@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b126",
+  "results": [
+    {
+      "blind_id": "case_a5b556be826ef638",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The pale background remains, but all three baguettes disappear, including the one that should have been retained. Removal is performed, yet the quantity is wrong: removing two from the source should leave one. Judged alone, the edited image is a coherent empty pale surface without object distortions, seams or other noticeable artifacts."
+    },
+    {
+      "blind_id": "case_3b601d3aac24d8db",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The basketball is placed directly above and touching the soccer ball, accurately making the requested stack. The white setting remains, but the soccer ball is shifted left and lower, reduced somewhat and shown with a different panel orientation. The edited balls have coherent rounded shapes, surface textures, contact and soft shading without noticeable artifacts."
+    }
+  ]
+}

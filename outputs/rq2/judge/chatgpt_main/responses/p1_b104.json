@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b104",
+  "results": [
+    {
+      "blind_id": "case_9aa9aa1dd2bca96b",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: patterned fabric, cube orientation and existing blue/orange faces remain, with slight edge alignment variation. Instruction: the missing top/front cubies are filled, producing a complete four-by-four cube with white top and orange front. Quality: coherent grid geometry, rounded plastic edges and consistent lighting; softness does not obscure structure."
+    },
+    {
+      "blind_id": "case_09b8c823db99633d",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the eight existing hexagon patterns remain, with slight border misalignment at the lower-right cell. Instruction: the question mark remains and its hexagon is replaced by a square; no correct dot/line pattern is drawn. Knowledge: Instruction failure \u21d2 knowledge invalid; the required rightmost dot and upper-right line are absent. Quality: the bottom-right square and doubled/misaligned frame produce a clear layout inconsistency in an otherwise readable diagram."
+    }
+  ]
+}

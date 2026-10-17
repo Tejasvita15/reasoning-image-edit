@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b266",
+  "results": [
+    {
+      "blind_id": "case_16bdd5118cd4c086",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "The person's identity, joyful expression, hair, hand pose and blouse remain recognizable; a small stray turquoise mark appears on the crown. Rainbow color, balloons, confetti, clouds, fireworks and backlight create the requested celebration, but the required title and tagline are replaced by garbled brush lettering. Multiple unreadable text blocks and overlaps severely weaken the poster layout."
+    },
+    {
+      "blind_id": "case_6b943009d7b4c771",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The bowl, raspberries, mint, spoon and pink tabletop remain intact. The contents become glossy and watery with only localized reddish reflections around the fruit, instead of the red or pink indicator result specified for the yogurt. The edited food scene itself is coherent and naturally lit. Instruction failure ⇒ knowledge invalid."
+    }
+  ]
+}

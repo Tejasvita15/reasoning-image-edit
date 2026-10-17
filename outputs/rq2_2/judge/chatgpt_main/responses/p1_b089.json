@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b089",
+  "results": [
+    {
+      "blind_id": "case_2e3717fd05641ff2",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The trouser silhouette, pleats, belt loops, button and white backdrop remain consistent. The cream fabric is changed throughout to blue as requested. The result has clean edges, natural folds and coherent garment structure."
+    },
+    {
+      "blind_id": "case_49d930c8fb432b32",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 4,
+      "rationale": "The overcast sky, distant tree line and path layout remain, but foreground plant texture is noticeably reworked. Long strings of colored cloth flags are added across the flatland, satisfying the main request; five distinct traditional colors are less consistently clear, especially green. The landscape and hanging lines are coherent, with slightly blended distant flag details."
+    }
+  ]
+}

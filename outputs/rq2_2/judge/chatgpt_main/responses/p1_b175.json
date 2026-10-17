@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b175",
+  "results": [
+    {
+      "blind_id": "case_70385265e0ebd41b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The white setting remains, but a second adapter is introduced and the cable coil and connector placement change. The original adapter stays at left while a different socketed block sits in front of the coil rather than centered inside it, so the requested relocation is poorly implemented. The added block has an odd mixture of outlet-like holes and prongs, creating a clear semantic device flaw."
+    },
+    {
+      "blind_id": "case_dea72cc26b3fbd04",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The glass geometry, liquid level and white setting remain stable; the faint pink cast is consistent with the new liquid color. The liquid becomes strong pink instead of remaining colorless as the supplied pure-water explanation requires. Instruction failure \u21d2 knowledge invalid. Glass reflections, liquid boundary and shading remain visually coherent."
+    }
+  ]
+}

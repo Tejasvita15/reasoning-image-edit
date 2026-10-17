@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b079",
+  "results": [
+    {
+      "blind_id": "case_45b736649877cff0",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The gold board, wood and other marks are preserved, but the existing center O is replaced. The added center X does not form a winning line; the required top-middle move is absent, so instruction and game logic fail. The rendered marks and board remain clean and coherent."
+    },
+    {
+      "blind_id": "case_860ba8170e8373e3",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The lantern shape, panel motifs and tassel remain recognizable in the requested poster transformation. Red petals, warm glow and sparkles are present, but golden willow decorations and the bottom slogan are absent; the central headline has malformed Spring lettering and is not at the top. The garbled headline is a conspicuous quality flaw despite the coherent festive composition."
+    }
+  ]
+}

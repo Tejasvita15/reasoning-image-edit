@@ -1,0 +1,1576 @@
+{
+  "schema_version": 1,
+  "kind": "calibration",
+  "generation_protocol_hash": "b48c4353cbeee734bbb0d1d54c767e795dc5f8d52481718ad3f8f1116ead88de",
+  "generation_snapshot": {
+    "experiment": "rq2",
+    "split": "k_dev",
+    "seed": 42,
+    "splits_sha256": "b513673f210e8ac63b6fdfa7bda0bc62323b2dffdb7e4c4e5658234c49a60dc9",
+    "logs": {
+      "logs/rq2/rq2_step1x_think-cached_cfg10_steps50_k_dev_seed42.jsonl": "d0082c77e1d447eb393e25f9e02feb4023e4568a889f14a1d07c81b884f4db5e",
+      "logs/rq2/rq2_step1x_think-cached_cfg2_steps50_k_dev_seed42.jsonl": "c2186c77c1e36947ea56a6700e3d9c997eb95d92a838996081ca2fd6dd654b58",
+      "logs/rq2/rq2_step1x_think-cached_cfg6_steps50_k_dev_seed42.jsonl": "180351b573cfb20e1e898e0f90e125f5c96663ba349a54e4ce433bdf90d53a42",
+      "logs/rq2/rq2_step1x_think-off_cfg10_steps50_k_dev_seed42.jsonl": "04336ea4549f9f712b66e5622537d4f34acb9f7f09ad70d53846fc1cad9b25bf",
+      "logs/rq2/rq2_step1x_think-off_cfg2_steps50_k_dev_seed42.jsonl": "76c201912f05c7c8fc88bae4e93f304347d4c43e51490946645e698eec54140b",
+      "logs/rq2/rq2_step1x_think-off_cfg6_steps50_k_dev_seed42.jsonl": "6f8dfacacf825e6a5baf34ea11a066b0b31e7dbe4317579e8e11c06e73bc0a1b"
+    },
+    "outputs": 540,
+    "protocol_hash": "b48c4353cbeee734bbb0d1d54c767e795dc5f8d52481718ad3f8f1116ead88de"
+  },
+  "evaluation_protocol": {
+    "interface": "chatgpt_manual",
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "prompt_version": "kris-chatgpt-ui-v2",
+    "prompt_renderer_sha256": "e74cc8b0dbe5b622e8cd95fea91d2cc991d7bd2813d9404872fb3397f01c5259",
+    "aggregate": "mean_applicable_normalized",
+    "score_range": [
+      0,
+      100
+    ],
+    "component_range": [
+      1,
+      5
+    ],
+    "component_type": "integer",
+    "reference_source": "hf_dataset_generation_source",
+    "ground_truth_source": "hf_dataset_gt_image",
+    "annotation_text_source": "hf_dataset_generation_instruction",
+    "official_reference_comparison": "diagnostic_only; no resizing or tolerance-based substitution",
+    "official_text_comparison": "diagnostic_only; the HF text used for generation is judged",
+    "official_revision": "cf1475253a13f5e5666826c10d8967e38917468a",
+    "official_prompt_sha256": "91d8df0de247b7d1a4288d3c6bee5955863d838988453e418ec14c5a0e396420",
+    "rubric_sha256": {
+      "prompt_consist": "d4eed281e816dd4ec94bb79777bf2ffd14cd2258a86f95d3524f44161d860c14",
+      "prompt_quality": "e4dd2bffe1e0db4489faeab14dbfd9df9779dbbfb10f4f26f899a55a3b225cac",
+      "prompt_instruction_following": "7230580658d5411849859a3dabb3cd143881ac7e1a1343c6b34f21091a6dddf3",
+      "prompt_dual_evaluation": "521866619f71b5268d097d7ec0e8f64b1d5e99770359f51936f75a00b3950564",
+      "prompt_abnormal_instruction_following": "d76d20816f6b2429850d8a33a91277ba86c03eec5398d76cca6eb26a282b3614",
+      "prompt_view_instruction_following": "ec2d29e6f3c93eabcfdbf77920a29d4e2a233011ee98eb5b81e7874895bdd8f2"
+    },
+    "adapter_files_sha256": {
+      "src/rq2_manual/__init__.py": "60ddbcc94d5e044559ae434d300bf7ef634f9fdf996a5d7ce03eefd435a37e53",
+      "src/rq2_manual/__main__.py": "fc3a546b1c86f78a567b8143384e7c2b98091f0df4797eda74aa40e6a16848d6",
+      "src/rq2_manual/common.py": "96f8f08b748474cfb5be7e4c5f1eb7362bcbc8eab1c8b2ec3a3f71d4480f7615",
+      "src/rq2_manual/export.py": "83d89aaff8e93b742bf2030ba6652201a4a66cb06d99a88f34e135e8bb28bc26",
+      "src/rq2_manual/prompts.py": "e74cc8b0dbe5b622e8cd95fea91d2cc991d7bd2813d9404872fb3397f01c5259",
+      "src/rq2_manual/references.py": "b60f1514cd9908046ce1e59f367f639825ddeaf07e3a448d66811268c8f607a2",
+      "src/rq2_manual/results.py": "d2d8d182ec0b4b5d5ee353f1fea21e357acab62350dff086a27f3e011cabe3ff",
+      "src/dataset.py": "83c5d4a55ef95ea830e52ad5289a1565c43b1cd0a1b725f2df3483f655bfcbf2",
+      "src/taxonomy.py": "ddd551fd10bbe8698e4ce71c7cee65b7cd6ea80ad1a554d4f52cd44944722977",
+      "src/rq2/common.py": "9f2f8c31b96eb2b83ee667d5e30489388dafd280de4ec04757c05db88f25b91d"
+    },
+    "session_policy": "fresh chat per batch; no earlier scores, memory, custom instructions or tools",
+    "model_snapshot": null,
+    "temperature": null,
+    "limitation": "Operator-recorded ChatGPT UI model/settings; API snapshot and sampling settings are not controlled.",
+    "batch_size": 2
+  },
+  "evaluation_protocol_hash": "04d422b5b1cc7040204bd39f4598667baf958ed4028355e2edea0b231c1ca162",
+  "selection_hash": "1699844f36439f1c2eb48062f8456c8c8e25e7cdfcf6ac621a3759c42972816b",
+  "seeds": [
+    42
+  ],
+  "items": [
+    {
+      "item_key": "item_0001",
+      "row": {
+        "example_uid": "rule-based_reasoning__4",
+        "condition": "rq2_step1x_think-cached_cfg10_steps50",
+        "base_seed": 42,
+        "split": "k_dev",
+        "category": "rule-based_reasoning",
+        "knowledge_type": "procedural",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 10.0,
+        "num_inference_steps": 50,
+        "instruction": "Use a red line to mark the maze path in the image where the animal receives the gift.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2/rq2_step1x_think-cached_cfg10_steps50/k_dev/seed_42/rule-based_reasoning__4.png",
+        "output_sha256": "4bdc028cd6720c8a7825cf48aed44d0f52a31578eb2673b110d0dcfb8ad0b77e",
+        "generation_log": "logs/rq2/rq2_step1x_think-cached_cfg10_steps50_k_dev_seed42.jsonl",
+        "generation_row_sha256": "27a949187ba5cfc24332da254456efa6b03e0179acb14103e90b0bfb546a24bf",
+        "generation_protocol_hash": "b48c4353cbeee734bbb0d1d54c767e795dc5f8d52481718ad3f8f1116ead88de",
+        "source_sha256": "a804f1b6f43c0391897dbb737a3c6e3dd236f1a6f3f3f96569f279d8b7ef1fa2"
+      },
+      "official_family": "knowledge",
+      "knowledge_required": true,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "a804f1b6f43c0391897dbb737a3c6e3dd236f1a6f3f3f96569f279d8b7ef1fa2",
+          "rgb_sha256": "c6b05f4f2d6cd0d005ee5d4f70d976a196f679ab6096f44226891be6f86f9416",
+          "size": [
+            1288,
+            1090
+          ],
+          "official_file_sha256": "1fabdcb9ec856e9ab368775faa3adc823d263268aca1e5a8bc90dcf45adab65f",
+          "official_rgb_sha256": "b3173bcc409290d09f837398a03e6cdb7fdef3c6df3995b0e7e8a5f51b29a868",
+          "official_size": [
+            1288,
+            1090
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.3873663266662868,
+          "official_max_abs_difference": 69
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0002",
+      "row": {
+        "example_uid": "medicine__10",
+        "condition": "rq2_step1x_think-off_cfg10_steps50",
+        "base_seed": 42,
+        "split": "k_dev",
+        "category": "medicine",
+        "knowledge_type": "conceptual",
+        "thinking_condition": "off",
+        "true_cfg_scale": 10.0,
+        "num_inference_steps": 50,
+        "instruction": "Change to hypertension values",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2/rq2_step1x_think-off_cfg10_steps50/k_dev/seed_42/medicine__10.png",
+        "output_sha256": "9d4ed80fa602db6c8b759261704802e95805a137925d265fd4a6e3a6a94f78ee",
+        "generation_log": "logs/rq2/rq2_step1x_think-off_cfg10_steps50_k_dev_seed42.jsonl",
+        "generation_row_sha256": "392f588cf36f3e34e5acfd350a23b7c57d1d1fea054c8c8280af28224b3e11b3",
+        "generation_protocol_hash": "b48c4353cbeee734bbb0d1d54c767e795dc5f8d52481718ad3f8f1116ead88de",
+        "source_sha256": "9e5233a0fd71fa118845feda7e7a8ad53c76771b31135699bde2aeb247d58170"
+      },
+      "official_family": "knowledge",
+      "knowledge_required": true,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "9e5233a0fd71fa118845feda7e7a8ad53c76771b31135699bde2aeb247d58170",
+          "rgb_sha256": "ea371669ae1f1cee3003320d1e84812a1c127edbe2e9e2840f8b4a9f4e492903",
+          "size": [
+            800,
+            800
+          ],
+          "official_file_sha256": "5367ac05c8cc9d9385730903c46ea3648854fbc6116aaa447b874369d0fe5b11",
+          "official_rgb_sha256": "bc742549c44fafbcbfa390f6c2b8c9485e2e0d725fccb6d07982ffd17402a235",
+          "official_size": [
+            800,
+            800
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.7780197916666667,
+          "official_max_abs_difference": 31
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0003",
+      "row": {
+        "example_uid": "chemistry__4",
+        "condition": "rq2_step1x_think-off_cfg6_steps50",
+        "base_seed": 42,
+        "split": "k_dev",
+        "category": "chemistry",
+        "knowledge_type": "conceptual",
+        "thinking_condition": "off",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 50,
+        "instruction": "Color changes of red cabbage pH indicator when dropped into a glass of water",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2/rq2_step1x_think-off_cfg6_steps50/k_dev/seed_42/chemistry__4.png",
+        "output_sha256": "1402e663bec9d84e82611f9d237b1aa616e8e534f246128678d1ed98a4b61f05",
+        "generation_log": "logs/rq2/rq2_step1x_think-off_cfg6_steps50_k_dev_seed42.jsonl",
+        "generation_row_sha256": "6c09edfb7217c2dbdd2ab4d6e82d15314d22f65bee7771f8d8c7107c7b518c70",
+        "generation_protocol_hash": "b48c4353cbeee734bbb0d1d54c767e795dc5f8d52481718ad3f8f1116ead88de",
+        "source_sha256": "ab7fbc897f51565e910391c9f60ac6dbec23e8003f4b51c5faf17cd9c2056325"
+      },
+      "official_family": "knowledge",
+      "knowledge_required": true,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "ab7fbc897f51565e910391c9f60ac6dbec23e8003f4b51c5faf17cd9c2056325",
+          "rgb_sha256": "2887512964c287b60d293f9905b7a350f333412f7a5a79f175cfceefc8027fa9",
+          "size": [
+            1920,
+            1278
+          ],
+          "official_file_sha256": "7934ad4e8afb48dcde9debc17780b09b97ed3e63c935f11d759847303f8761c1",
+          "official_rgb_sha256": "0b5b5c8ebf8685737f276ace188f5d075e905e5c727a87b82fb21782951d7853",
+          "official_size": [
+            1920,
+            1278
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.6023058489827856,
+          "official_max_abs_difference": 15
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": false,
+        "official_explanation_equal": true,
+        "official_instruction": "Color changes of red cabbage pH indicator when dropped into the cup"
+      }
+    },
+    {
+      "item_key": "item_0004",
+      "row": {
+        "example_uid": "viewpoint_change__29",
+        "condition": "rq2_step1x_think-cached_cfg2_steps50",
+        "base_seed": 42,
+        "split": "k_dev",
+        "category": "viewpoint_change",
+        "knowledge_type": "factual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 2.0,
+        "num_inference_steps": 50,
+        "instruction": "Based on the given image, draw the side view of the object.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2/rq2_step1x_think-cached_cfg2_steps50/k_dev/seed_42/viewpoint_change__29.png",
+        "output_sha256": "c00e0aad948f35d6b9471bfff6308e39ff6ed7692d08c66e80c9a6dbe94044f6",
+        "generation_log": "logs/rq2/rq2_step1x_think-cached_cfg2_steps50_k_dev_seed42.jsonl",
+        "generation_row_sha256": "56f80ca6ddd584e37983bc370594789db2a10c2eff8b263c4eb985f433da2006",
+        "generation_protocol_hash": "b48c4353cbeee734bbb0d1d54c767e795dc5f8d52481718ad3f8f1116ead88de",
+        "source_sha256": "cfabb996b5853ab86201ec0ffdcb0a9d9fd22cc4aa40fc5f07ef8047ef3ad36e"
+      },
+      "official_family": "view",
+      "knowledge_required": false,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "cfabb996b5853ab86201ec0ffdcb0a9d9fd22cc4aa40fc5f07ef8047ef3ad36e",
+          "rgb_sha256": "16510cb8fd0a5027d430e0df2e4cc5694341d3fbc865ea1dcf69f83372a0493e",
+          "size": [
+            645,
+            944
+          ],
+          "official_file_sha256": "181d0eefe38110848fdfd02e585863075bcbff9d5d6403ad5e86efe9507009b2",
+          "official_rgb_sha256": "dd7519b3d1e47d4eedffe7a5dd92ed835be4736b988ee290fd52bc124ecc6abf",
+          "official_size": [
+            645,
+            944
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.7346866377611352,
+          "official_max_abs_difference": 49
+        },
+        "ground_truth": {
+          "prepared_file_sha256": "0becaed01167823cc4e310556be28b4834e676770502513c0de68577d784fbcd",
+          "rgb_sha256": "7a9bc26525415f88d20c835bf7ca8bb50b8f6c94ba1ec389ef8cb5a7bd55926f",
+          "size": [
+            520,
+            936
+          ],
+          "official_file_sha256": "981d4b82505ac6b3e8f062d404dff042081f2e268aeaa0e7e495e01c376ef508",
+          "official_rgb_sha256": "2f03f7e8c7b1fe299ee63a48ba7ddf15f34586af932145bec77a5b4e53b938a3",
+          "official_size": [
+            520,
+            936
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.6611350810870041,
+          "official_max_abs_difference": 40
+        }
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      },
+      "ground_truth_sha256": "0becaed01167823cc4e310556be28b4834e676770502513c0de68577d784fbcd"
+    },
+    {
+      "item_key": "item_0005",
+      "row": {
+        "example_uid": "size_adjustment__40",
+        "condition": "rq2_step1x_think-off_cfg6_steps50",
+        "base_seed": 42,
+        "split": "k_dev",
+        "category": "size_adjustment",
+        "knowledge_type": "factual",
+        "thinking_condition": "off",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 50,
+        "instruction": "Adjust the large bag to the size of the small bag.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2/rq2_step1x_think-off_cfg6_steps50/k_dev/seed_42/size_adjustment__40.png",
+        "output_sha256": "87794100102ba3545e2bd0d80be2c312e437fc17eff98906b30c59b06da5b942",
+        "generation_log": "logs/rq2/rq2_step1x_think-off_cfg6_steps50_k_dev_seed42.jsonl",
+        "generation_row_sha256": "60f2bec13762af5f843795b6959b33c08db16e3acb29b4c004829fef5faaaefd",
+        "generation_protocol_hash": "b48c4353cbeee734bbb0d1d54c767e795dc5f8d52481718ad3f8f1116ead88de",
+        "source_sha256": "94c39f688047940a08dc99734b93ed51f64bc323a802719abd7b9d1f9d65bb77"
+      },
+      "official_family": "common",
+      "knowledge_required": false,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "94c39f688047940a08dc99734b93ed51f64bc323a802719abd7b9d1f9d65bb77",
+          "rgb_sha256": "a414519902b45862ab3155a492494af5971daebfed69636c701d3534f73b9815",
+          "size": [
+            699,
+            509
+          ],
+          "official_file_sha256": "b0d7511f1f8608f48668e9bc0006568991bd80c53b102a3480e6a932dde1815b",
+          "official_rgb_sha256": "626c0fa2b367b81d3ba0560152cd76a8ac6a90fdc5653a88f625a9bcfe4bd5b6",
+          "official_size": [
+            699,
+            509
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.5683139820849881,
+          "official_max_abs_difference": 15
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0006",
+      "row": {
+        "example_uid": "multi-instruction_execution__66",
+        "condition": "rq2_step1x_think-cached_cfg2_steps50",
+        "base_seed": 42,
+        "split": "k_dev",
+        "category": "multi-instruction_execution",
+        "knowledge_type": "procedural",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 2.0,
+        "num_inference_steps": 50,
+        "instruction": "Design a festive promotional poster based on the provided red lantern image. Place the lantern at the center with golden willow decorations and scattered red petals to create a vibrant holiday feel. Use a red-to-gold gradient background with soft glow and sparkling effects to convey warmth and celebration. Add a bold golden headline 'Welcoming Spring Festival' at the top center, and a short festive slogan like 'Celebrate the New Year in Lights' in modern calligraphy at the bottom. A mix of traditional and modern styles, ideal for Chinese New Year events or online campaigns.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2/rq2_step1x_think-cached_cfg2_steps50/k_dev/seed_42/multi-instruction_execution__66.png",
+        "output_sha256": "9bcedc0dac80326c676a1f48fb3909511a82389949804effe80db68a70a48209",
+        "generation_log": "logs/rq2/rq2_step1x_think-cached_cfg2_steps50_k_dev_seed42.jsonl",
+        "generation_row_sha256": "cc5dced49a646acd8cf3b3c80323e12eb00565c06fa946e869bd7d668506d3a2",
+        "generation_protocol_hash": "b48c4353cbeee734bbb0d1d54c767e795dc5f8d52481718ad3f8f1116ead88de",
+        "source_sha256": "1cff449531e1fb152d787ddf06293d9c8753fbff11cecc02f1a7a3134090a697"
+      },
+      "official_family": "common",
+      "knowledge_required": false,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "1cff449531e1fb152d787ddf06293d9c8753fbff11cecc02f1a7a3134090a697",
+          "rgb_sha256": "67d4c30468f1ab1aa830c32ac8a68cca43966fc8e0ad33435a0c8d43882faebe",
+          "size": [
+            1152,
+            1152
+          ],
+          "official_file_sha256": "26536992565c37ed04394856ead5e22df1d2dd54845261cd47057e531fc783a3",
+          "official_rgb_sha256": "f62bb758d60e2922681cd06776a8f683ed1f39019f5b84b4f4e3ccf23cb39e13",
+          "official_size": [
+            1152,
+            1152
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 1.130532095952289,
+          "official_max_abs_difference": 90
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0007",
+      "row": {
+        "example_uid": "position_movement__26",
+        "condition": "rq2_step1x_think-cached_cfg10_steps50",
+        "base_seed": 42,
+        "split": "k_dev",
+        "category": "position_movement",
+        "knowledge_type": "factual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 10.0,
+        "num_inference_steps": 50,
+        "instruction": "Place the right Coke on top of the box of Coke on the left.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2/rq2_step1x_think-cached_cfg10_steps50/k_dev/seed_42/position_movement__26.png",
+        "output_sha256": "52e038b1d5ad91111f40d9e05e43447e13939f2148dc9786ab80f2cc8f8ba030",
+        "generation_log": "logs/rq2/rq2_step1x_think-cached_cfg10_steps50_k_dev_seed42.jsonl",
+        "generation_row_sha256": "c1e71c274413ce5cb3f5b6583e059c20cd0ab23798a23710d415fb41ee645fc1",
+        "generation_protocol_hash": "b48c4353cbeee734bbb0d1d54c767e795dc5f8d52481718ad3f8f1116ead88de",
+        "source_sha256": "7c926c6114ac9b050e105c1fb7bb40cdd8ff7859a09a5ca728fb51ab4f6845fc"
+      },
+      "official_family": "common",
+      "knowledge_required": false,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "7c926c6114ac9b050e105c1fb7bb40cdd8ff7859a09a5ca728fb51ab4f6845fc",
+          "rgb_sha256": "3cd6c1d60743285105c36f6e5208dc2776f55cb789908723d6d8da8c2cea64c6",
+          "size": [
+            1500,
+            1500
+          ],
+          "official_file_sha256": "f83ab3911ff3524f65de91dad3632a2f48329621b968464ed73f182b948c27a1",
+          "official_rgb_sha256": "c94c80fe559f3fe48a66f2f2588ce5e41a27af36c5f9c30a8fab099242f612cc",
+          "official_size": [
+            1500,
+            1500
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.5274371851851852,
+          "official_max_abs_difference": 42
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0008",
+      "row": {
+        "example_uid": "geography__26",
+        "condition": "rq2_step1x_think-off_cfg2_steps50",
+        "base_seed": 42,
+        "split": "k_dev",
+        "category": "geography",
+        "knowledge_type": "conceptual",
+        "thinking_condition": "off",
+        "true_cfg_scale": 2.0,
+        "num_inference_steps": 50,
+        "instruction": "Adjust to the temperature after descending 1000 meters in altitude",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2/rq2_step1x_think-off_cfg2_steps50/k_dev/seed_42/geography__26.png",
+        "output_sha256": "e319d51e7b093e9f48d0dc80ac2dd5a265fde3e6fb0fc856e28d323c327be042",
+        "generation_log": "logs/rq2/rq2_step1x_think-off_cfg2_steps50_k_dev_seed42.jsonl",
+        "generation_row_sha256": "48c5a02d643bf06ca098ff4191f4320c00e8fd17372787f51949c02933f49b16",
+        "generation_protocol_hash": "b48c4353cbeee734bbb0d1d54c767e795dc5f8d52481718ad3f8f1116ead88de",
+        "source_sha256": "ee9ac7a72e94289524550ab2719f9785b76bff2aeb18dc046ca597fcd5df2516"
+      },
+      "official_family": "knowledge",
+      "knowledge_required": true,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "ee9ac7a72e94289524550ab2719f9785b76bff2aeb18dc046ca597fcd5df2516",
+          "rgb_sha256": "5c647cda5d81091f940073f65eab2d9849d3d79eef56eb297b72b5fd86f8125e",
+          "size": [
+            1000,
+            1000
+          ],
+          "official_file_sha256": "1c12503354b16d165f406ba10a0ef9154d3d839d54d4d1d50fc0b448d52d5f23",
+          "official_rgb_sha256": "f9708b2b40008bd394c3e0635413cccc49e7b9a95fa58ba8eb13dc55ef0af947",
+          "official_size": [
+            1000,
+            1000
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.327551,
+          "official_max_abs_difference": 25
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0009",
+      "row": {
+        "example_uid": "abstract_reasoning__53",
+        "condition": "rq2_step1x_think-off_cfg6_steps50",
+        "base_seed": 42,
+        "split": "k_dev",
+        "category": "abstract_reasoning",
+        "knowledge_type": "procedural",
+        "thinking_condition": "off",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 50,
+        "instruction": "Please fill in the correct number at the question mark in the bottom right corner according to the pattern.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2/rq2_step1x_think-off_cfg6_steps50/k_dev/seed_42/abstract_reasoning__53.png",
+        "output_sha256": "c09598505ba3ef83e71c79f4a309a51d19604543ef3446d95dfde0a0a749386f",
+        "generation_log": "logs/rq2/rq2_step1x_think-off_cfg6_steps50_k_dev_seed42.jsonl",
+        "generation_row_sha256": "edd7dbbe409f110a9485017e913cbac6d5bf3459e3b7379f787f6c1ee71f9907",
+        "generation_protocol_hash": "b48c4353cbeee734bbb0d1d54c767e795dc5f8d52481718ad3f8f1116ead88de",
+        "source_sha256": "e9250852f57c1d60e1a636780e485236bd7ca6bb0dec61ffcbe32045d3bc8833"
+      },
+      "official_family": "knowledge",
+      "knowledge_required": true,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "e9250852f57c1d60e1a636780e485236bd7ca6bb0dec61ffcbe32045d3bc8833",
+          "rgb_sha256": "c9996bdc3c6a06fe77e8c0986de2fe7c80fc04f44ba01aad5f6f789f89b1f3fd",
+          "size": [
+            1300,
+            866
+          ],
+          "official_file_sha256": "c39c809e836e5b6f75f25f5312a855e88ad11e83e93db1ccd30d2eafed941867",
+          "official_rgb_sha256": "3fcc8e5a365de57c921d7400edc08ade1a51405f19652e9bc84486e3b73e2ba5",
+          "official_size": [
+            1300,
+            866
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.9962847160537692,
+          "official_max_abs_difference": 61
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0010",
+      "row": {
+        "example_uid": "part_completion__38",
+        "condition": "rq2_step1x_think-off_cfg2_steps50",
+        "base_seed": 42,
+        "split": "k_dev",
+        "category": "part_completion",
+        "knowledge_type": "factual",
+        "thinking_condition": "off",
+        "true_cfg_scale": 2.0,
+        "num_inference_steps": 50,
+        "instruction": "Complete the socks",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2/rq2_step1x_think-off_cfg2_steps50/k_dev/seed_42/part_completion__38.png",
+        "output_sha256": "1292260a8ad891587f562445f97901634e6541324a50ae27dc882571fd5ab8e4",
+        "generation_log": "logs/rq2/rq2_step1x_think-off_cfg2_steps50_k_dev_seed42.jsonl",
+        "generation_row_sha256": "5a01cfc173c53e37a93bcf52395d790315686e3c86f9a0fde98c79d2b1dbb54b",
+        "generation_protocol_hash": "b48c4353cbeee734bbb0d1d54c767e795dc5f8d52481718ad3f8f1116ead88de",
+        "source_sha256": "6109301dd6588dcae7ef6c2f9cc49639a6edac7c62d724880c1859994152d4cb"
+      },
+      "official_family": "common",
+      "knowledge_required": false,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "6109301dd6588dcae7ef6c2f9cc49639a6edac7c62d724880c1859994152d4cb",
+          "rgb_sha256": "aa2e999401be9200b78f7944a250be6412f733e244722059bd9499606db0adb9",
+          "size": [
+            659,
+            399
+          ],
+          "official_file_sha256": "1449674fc525f955212e2c1239480d61999f7c565dffcdd9d5af4e98362c349b",
+          "official_rgb_sha256": "619976e0ce9a0889fec6ed6aeb6d6b1a310e504eead99818befc5c7295eb8272",
+          "official_size": [
+            659,
+            399
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.846297585136336,
+          "official_max_abs_difference": 15
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0011",
+      "row": {
+        "example_uid": "geography__55",
+        "condition": "rq2_step1x_think-cached_cfg6_steps50",
+        "base_seed": 42,
+        "split": "k_dev",
+        "category": "geography",
+        "knowledge_type": "conceptual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 50,
+        "instruction": "Modify to show road changes after an earthquake",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2/rq2_step1x_think-cached_cfg6_steps50/k_dev/seed_42/geography__55.png",
+        "output_sha256": "ac6f8fb52df100a5704b27facf2874e002a08ae295d5e9502af7755758874949",
+        "generation_log": "logs/rq2/rq2_step1x_think-cached_cfg6_steps50_k_dev_seed42.jsonl",
+        "generation_row_sha256": "a23eb6a18a707162e22d624b52388da87fdc242773088a93fadb432db2eb65f1",
+        "generation_protocol_hash": "b48c4353cbeee734bbb0d1d54c767e795dc5f8d52481718ad3f8f1116ead88de",
+        "source_sha256": "5a84ea18fde6e3edf498ec5e5ac5e2f6807d751a9e8e6b6e0afaba2ad06c0acf"
+      },
+      "official_family": "knowledge",
+      "knowledge_required": true,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "5a84ea18fde6e3edf498ec5e5ac5e2f6807d751a9e8e6b6e0afaba2ad06c0acf",
+          "rgb_sha256": "8f97892c844df8c9815d0a54d4cb8dfdb493357442910228085624998868313f",
+          "size": [
+            1200,
+            786
+          ],
+          "official_file_sha256": "23add9699d0c0b9f3df9378826df5f00d7ce1bff6f9b4fe93fda7cd250c55fbb",
+          "official_rgb_sha256": "a653cf27066044c5f17e8b8634ae7fc5be58f9e78b9c3ddbb1860e2b6cf62350",
+          "official_size": [
+            1200,
+            786
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 2.503109273395533,
+          "official_max_abs_difference": 83
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0012",
+      "row": {
+        "example_uid": "biology__28",
+        "condition": "rq2_step1x_think-cached_cfg2_steps50",
+        "base_seed": 42,
+        "split": "k_dev",
+        "category": "biology",
+        "knowledge_type": "conceptual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 2.0,
+        "num_inference_steps": 50,
+        "instruction": "The appearance of the fruit after it matures in the image",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2/rq2_step1x_think-cached_cfg2_steps50/k_dev/seed_42/biology__28.png",
+        "output_sha256": "96053acb5aeda32e0ce675589d3ff249b9e3faa69e50b34c72fcc30792ac2596",
+        "generation_log": "logs/rq2/rq2_step1x_think-cached_cfg2_steps50_k_dev_seed42.jsonl",
+        "generation_row_sha256": "7afdc5c4ca09991fe2a3e936cf042cd88484c2526b154b90377d4ad95332493a",
+        "generation_protocol_hash": "b48c4353cbeee734bbb0d1d54c767e795dc5f8d52481718ad3f8f1116ead88de",
+        "source_sha256": "723dfe214fa382c89d8cf7ac7839f45b4949e039de701a61e4858f9bf408d077"
+      },
+      "official_family": "knowledge",
+      "knowledge_required": true,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "723dfe214fa382c89d8cf7ac7839f45b4949e039de701a61e4858f9bf408d077",
+          "rgb_sha256": "e9f331d4a04a337e9c0aa0b9016bbf5fcb0d14bce3b7a463c980f19560e78bef",
+          "size": [
+            600,
+            450
+          ],
+          "official_file_sha256": "74345efe7a14fc8793e9dac915fa1e39e5c13ca44a07b24e973aea469bf4769b",
+          "official_rgb_sha256": "ce387ce7415124363b23b9cb81a913be83f5ea749cb2177e37526510d4eecfaf",
+          "official_size": [
+            600,
+            450
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 3.0180135802469135,
+          "official_max_abs_difference": 71
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0013",
+      "row": {
+        "example_uid": "rule-based_reasoning__46",
+        "condition": "rq2_step1x_think-cached_cfg2_steps50",
+        "base_seed": 42,
+        "split": "k_dev",
+        "category": "rule-based_reasoning",
+        "knowledge_type": "procedural",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 2.0,
+        "num_inference_steps": 50,
+        "instruction": "In the boxes, draw the appropriate content to complete this four-grid Sudoku.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2/rq2_step1x_think-cached_cfg2_steps50/k_dev/seed_42/rule-based_reasoning__46.png",
+        "output_sha256": "80e501f378de080eda370a8325a3ef117cc1768db1b0793fe3942d554d4f6e0b",
+        "generation_log": "logs/rq2/rq2_step1x_think-cached_cfg2_steps50_k_dev_seed42.jsonl",
+        "generation_row_sha256": "7de022874709fcd8642687e03280a8197d05cb50d725f404884884887eb6b3c5",
+        "generation_protocol_hash": "b48c4353cbeee734bbb0d1d54c767e795dc5f8d52481718ad3f8f1116ead88de",
+        "source_sha256": "694c3e9e8a8b4b48133ee9e897b51937988eac1ed0c3a7ba344feff9cf440215"
+      },
+      "official_family": "knowledge",
+      "knowledge_required": true,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "694c3e9e8a8b4b48133ee9e897b51937988eac1ed0c3a7ba344feff9cf440215",
+          "rgb_sha256": "26f4b59b5d2e207d27cc03a6b805a7622c28284c99f5b425541f989424fd58b5",
+          "size": [
+            810,
+            798
+          ],
+          "official_file_sha256": "7bd1a6e0689040b0b95c198e8b211cd7823783d53038a7d742ccd980c4deed11",
+          "official_rgb_sha256": "75acc1ded55b6518162e5919d6c4c0d5255f821edb78d5b380729a35ac7e6fb3",
+          "official_size": [
+            810,
+            798
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.8077472487803872,
+          "official_max_abs_difference": 45
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0014",
+      "row": {
+        "example_uid": "part_completion__21",
+        "condition": "rq2_step1x_think-cached_cfg6_steps50",
+        "base_seed": 42,
+        "split": "k_dev",
+        "category": "part_completion",
+        "knowledge_type": "factual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 50,
+        "instruction": "Complete the stone wall",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2/rq2_step1x_think-cached_cfg6_steps50/k_dev/seed_42/part_completion__21.png",
+        "output_sha256": "01883624e371c61b0326e8cfb66c178423066c67dc25cd76b699d9ec0f7397f8",
+        "generation_log": "logs/rq2/rq2_step1x_think-cached_cfg6_steps50_k_dev_seed42.jsonl",
+        "generation_row_sha256": "c8e76295786bcf5c48a5ba56e4b6cbffc607324dcf0b4d70526d352617d8490f",
+        "generation_protocol_hash": "b48c4353cbeee734bbb0d1d54c767e795dc5f8d52481718ad3f8f1116ead88de",
+        "source_sha256": "369f6c10102750202333df395f9d32b56dff4df099b3e74901f24222e120ea62"
+      },
+      "official_family": "common",
+      "knowledge_required": false,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "369f6c10102750202333df395f9d32b56dff4df099b3e74901f24222e120ea62",
+          "rgb_sha256": "2bd4307c83f718f3019f68132ba511da3a025569b7cdde87e29d77dc04487330",
+          "size": [
+            734,
+            588
+          ],
+          "official_file_sha256": "fbe6c00b6f726c8274b5273992e5da679c7566a8f5b54e976e09ae4aa1bb90f5",
+          "official_rgb_sha256": "e519b6e630b1a89190c73b1937207608e26c9ce355f9f52453a4067cc6b787de",
+          "official_size": [
+            734,
+            588
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 1.534916464315063,
+          "official_max_abs_difference": 18
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0015",
+      "row": {
+        "example_uid": "practical_knowledge__14",
+        "condition": "rq2_step1x_think-off_cfg10_steps50",
+        "base_seed": 42,
+        "split": "k_dev",
+        "category": "practical_knowledge",
+        "knowledge_type": "conceptual",
+        "thinking_condition": "off",
+        "true_cfg_scale": 10.0,
+        "num_inference_steps": 50,
+        "instruction": "Change to the state after one timing cycle ends",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2/rq2_step1x_think-off_cfg10_steps50/k_dev/seed_42/practical_knowledge__14.png",
+        "output_sha256": "bc8f92d4aa9e6257bfaf50fc81750492bd56880ca31397c23dfba23b2d0f55cc",
+        "generation_log": "logs/rq2/rq2_step1x_think-off_cfg10_steps50_k_dev_seed42.jsonl",
+        "generation_row_sha256": "cb7f7ead84e696f7218d26d47d5485e847d4f136b61084d570a24c7e6cfa583b",
+        "generation_protocol_hash": "b48c4353cbeee734bbb0d1d54c767e795dc5f8d52481718ad3f8f1116ead88de",
+        "source_sha256": "6b7c49de82e91fab4dd6f0b1b34923726bf5685560b5cf38649d31fa5ae4153f"
+      },
+      "official_family": "knowledge",
+      "knowledge_required": true,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "6b7c49de82e91fab4dd6f0b1b34923726bf5685560b5cf38649d31fa5ae4153f",
+          "rgb_sha256": "c9f91cae46932eae5b049ddbcbd986adb8f34e157535c0432db01145c11a6eb4",
+          "size": [
+            416,
+            612
+          ],
+          "official_file_sha256": "a050e3f6b7ae50eb8625b70bc5815eec439952c166c28c6156d891f23f97c142",
+          "official_rgb_sha256": "f3a79119c75f8d0e18324c5b31ed505aabf52f3707ffc46498174d0459834bc2",
+          "official_size": [
+            416,
+            612
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.10609262401541814,
+          "official_max_abs_difference": 10
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0016",
+      "row": {
+        "example_uid": "viewpoint_change__22",
+        "condition": "rq2_step1x_think-off_cfg10_steps50",
+        "base_seed": 42,
+        "split": "k_dev",
+        "category": "viewpoint_change",
+        "knowledge_type": "factual",
+        "thinking_condition": "off",
+        "true_cfg_scale": 10.0,
+        "num_inference_steps": 50,
+        "instruction": "Based on the given image, draw the top view of the object.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2/rq2_step1x_think-off_cfg10_steps50/k_dev/seed_42/viewpoint_change__22.png",
+        "output_sha256": "fde79c8af454bf6f1e8a3766ed132dbce5256839192087bce20d0beda9b4a0d5",
+        "generation_log": "logs/rq2/rq2_step1x_think-off_cfg10_steps50_k_dev_seed42.jsonl",
+        "generation_row_sha256": "843860827a4baf0cc42e90a981102e5ea58dc7b73de3c714b09d4911bcc70175",
+        "generation_protocol_hash": "b48c4353cbeee734bbb0d1d54c767e795dc5f8d52481718ad3f8f1116ead88de",
+        "source_sha256": "4b3d35bd06e7f7a2894df21e4f14a3a2c6c67d5615b270041c1b56d84bbfc27d"
+      },
+      "official_family": "view",
+      "knowledge_required": false,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "4b3d35bd06e7f7a2894df21e4f14a3a2c6c67d5615b270041c1b56d84bbfc27d",
+          "rgb_sha256": "8bf9a652f7f7b4dba354da33ace4e19269746cf90f93456d834a70f7e9d5dd29",
+          "size": [
+            1191,
+            848
+          ],
+          "official_file_sha256": "b6a7c41077e5080a175436dd7dc319c9ccd4187cac6ce6a4453403544c853313",
+          "official_rgb_sha256": "a41cdb6dea8f850117a1ccebbbfb447c41753b3d32bf02c06ca39cf865a69936",
+          "official_size": [
+            1191,
+            848
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.2511614229361722,
+          "official_max_abs_difference": 61
+        },
+        "ground_truth": {
+          "prepared_file_sha256": "1e46aedca7e47f9adb268eb73a8993ae7614d66e81f19752630239bce4ab6ec0",
+          "rgb_sha256": "5fb57fd4319f2826fed721b3ed3cde6c44138c42301e9820f909c5a6cf0cde45",
+          "size": [
+            1313,
+            549
+          ],
+          "official_file_sha256": "edf4fd96616d0ca3552b0f453fd3eddcf863b9ef6e21b334156a1adde4869ce6",
+          "official_rgb_sha256": "f3e45dfef3c5a69a4b78c957ebd9a588ed9059ac299027655416b0bff3a66782",
+          "official_size": [
+            1313,
+            549
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.4322858935746454,
+          "official_max_abs_difference": 52
+        }
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      },
+      "ground_truth_sha256": "1e46aedca7e47f9adb268eb73a8993ae7614d66e81f19752630239bce4ab6ec0"
+    },
+    {
+      "item_key": "item_0017",
+      "row": {
+        "example_uid": "abstract_reasoning__74",
+        "condition": "rq2_step1x_think-off_cfg10_steps50",
+        "base_seed": 42,
+        "split": "k_dev",
+        "category": "abstract_reasoning",
+        "knowledge_type": "procedural",
+        "thinking_condition": "off",
+        "true_cfg_scale": 10.0,
+        "num_inference_steps": 50,
+        "instruction": "Please draw the correct pattern at the question mark according to the pattern.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2/rq2_step1x_think-off_cfg10_steps50/k_dev/seed_42/abstract_reasoning__74.png",
+        "output_sha256": "c67495577d03e2a919fd1f0becbf1468c17cc5e87e804da4e830bfe68d8f9c05",
+        "generation_log": "logs/rq2/rq2_step1x_think-off_cfg10_steps50_k_dev_seed42.jsonl",
+        "generation_row_sha256": "cc86ffdb3798e2b09ff43b32e5bcb49a36bbed4b9f8411c8ee4efb9acdd317e0",
+        "generation_protocol_hash": "b48c4353cbeee734bbb0d1d54c767e795dc5f8d52481718ad3f8f1116ead88de",
+        "source_sha256": "c38b34895bda4687a68252a51f82a112b2aa4d11e19d65abec0504189298bfd8"
+      },
+      "official_family": "knowledge",
+      "knowledge_required": true,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "c38b34895bda4687a68252a51f82a112b2aa4d11e19d65abec0504189298bfd8",
+          "rgb_sha256": "2a432a2720c30157dac55ed6c214ac5e5b08ee4750d15f9c61de75eef9b215a3",
+          "size": [
+            545,
+            538
+          ],
+          "official_file_sha256": "15a47be539cbcfbacf46f74bd9aadf7469c7bcc49d5facbb5b4b21a32ce31343",
+          "official_rgb_sha256": "7d17f707320950552dc2417071ed8f43cb944f4ce468786b0856107646790c34",
+          "official_size": [
+            545,
+            538
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.5682514238941373,
+          "official_max_abs_difference": 24
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0018",
+      "row": {
+        "example_uid": "size_adjustment__40",
+        "condition": "rq2_step1x_think-off_cfg10_steps50",
+        "base_seed": 42,
+        "split": "k_dev",
+        "category": "size_adjustment",
+        "knowledge_type": "factual",
+        "thinking_condition": "off",
+        "true_cfg_scale": 10.0,
+        "num_inference_steps": 50,
+        "instruction": "Adjust the large bag to the size of the small bag.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2/rq2_step1x_think-off_cfg10_steps50/k_dev/seed_42/size_adjustment__40.png",
+        "output_sha256": "2dadd877751c5425c2447a00f92812568dc9359c39cfcd9f19d0c31e29633046",
+        "generation_log": "logs/rq2/rq2_step1x_think-off_cfg10_steps50_k_dev_seed42.jsonl",
+        "generation_row_sha256": "401c503bf64803d021f63ddc614dc582a7249f0bfa6c1c3cff8d55b9783b68e1",
+        "generation_protocol_hash": "b48c4353cbeee734bbb0d1d54c767e795dc5f8d52481718ad3f8f1116ead88de",
+        "source_sha256": "94c39f688047940a08dc99734b93ed51f64bc323a802719abd7b9d1f9d65bb77"
+      },
+      "official_family": "common",
+      "knowledge_required": false,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "94c39f688047940a08dc99734b93ed51f64bc323a802719abd7b9d1f9d65bb77",
+          "rgb_sha256": "a414519902b45862ab3155a492494af5971daebfed69636c701d3534f73b9815",
+          "size": [
+            699,
+            509
+          ],
+          "official_file_sha256": "b0d7511f1f8608f48668e9bc0006568991bd80c53b102a3480e6a932dde1815b",
+          "official_rgb_sha256": "626c0fa2b367b81d3ba0560152cd76a8ac6a90fdc5653a88f625a9bcfe4bd5b6",
+          "official_size": [
+            699,
+            509
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.5683139820849881,
+          "official_max_abs_difference": 15
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0019",
+      "row": {
+        "example_uid": "practical_knowledge__4",
+        "condition": "rq2_step1x_think-off_cfg6_steps50",
+        "base_seed": 42,
+        "split": "k_dev",
+        "category": "practical_knowledge",
+        "knowledge_type": "conceptual",
+        "thinking_condition": "off",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 50,
+        "instruction": "Change the Beijing time in the image to Tokyo time",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2/rq2_step1x_think-off_cfg6_steps50/k_dev/seed_42/practical_knowledge__4.png",
+        "output_sha256": "ba831dcaf0bbadba151ea5b98c9515df454ae5f92d07ff7e9dcee1bad8068614",
+        "generation_log": "logs/rq2/rq2_step1x_think-off_cfg6_steps50_k_dev_seed42.jsonl",
+        "generation_row_sha256": "e808118d738e9deb060e8b72176cd26f87497a1917995a038d76d0f884bcc7a7",
+        "generation_protocol_hash": "b48c4353cbeee734bbb0d1d54c767e795dc5f8d52481718ad3f8f1116ead88de",
+        "source_sha256": "515427421a278511d7de5deb39f0bd8c05380c0e5e0660c82ecbc17030804164"
+      },
+      "official_family": "knowledge",
+      "knowledge_required": true,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "515427421a278511d7de5deb39f0bd8c05380c0e5e0660c82ecbc17030804164",
+          "rgb_sha256": "10a3c8addee4b5c4ab70341f81abff39aab85672fc9afa986e7f009f8ed5a164",
+          "size": [
+            1024,
+            987
+          ],
+          "official_file_sha256": "9cb7e71bad10cf97cdf9aa3eedc6eb72c499f8b51fe816b7769691c8e06ddd92",
+          "official_rgb_sha256": "5204c0be693da6041d9ef77505139e90a4bed8a1a47d6c9bec28312c6c9e6966",
+          "official_size": [
+            1024,
+            987
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.24091378018405943,
+          "official_max_abs_difference": 24
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0020",
+      "row": {
+        "example_uid": "part_completion__23",
+        "condition": "rq2_step1x_think-off_cfg6_steps50",
+        "base_seed": 42,
+        "split": "k_dev",
+        "category": "part_completion",
+        "knowledge_type": "factual",
+        "thinking_condition": "off",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 50,
+        "instruction": "Complete the skateboard",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2/rq2_step1x_think-off_cfg6_steps50/k_dev/seed_42/part_completion__23.png",
+        "output_sha256": "10867de08311ff0134021f6dbdcc091f1a660b32a2459ad36c3283fb3e4d0256",
+        "generation_log": "logs/rq2/rq2_step1x_think-off_cfg6_steps50_k_dev_seed42.jsonl",
+        "generation_row_sha256": "dc307b7823c20a40a13025596ed786a702ad16c8b5dacea4770ff5b115478ffc",
+        "generation_protocol_hash": "b48c4353cbeee734bbb0d1d54c767e795dc5f8d52481718ad3f8f1116ead88de",
+        "source_sha256": "936d0b498fe67d89eb75082b9dac92f6055564e92fd43ca1339a9fc79877f719"
+      },
+      "official_family": "common",
+      "knowledge_required": false,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "936d0b498fe67d89eb75082b9dac92f6055564e92fd43ca1339a9fc79877f719",
+          "rgb_sha256": "06109e7e022ad8956f8a510e52cce3389a97e33129db78af1280352887a47e98",
+          "size": [
+            500,
+            309
+          ],
+          "official_file_sha256": "7f2b5208c6e63afa6ded3ba495522a71a9b9e5c368e5fc5bcb20140718dd2987",
+          "official_rgb_sha256": "b70146a7dbc4966b3584e9543d7cf32ea7ab4dfbebf3debe7cdbb90d4cf5b69c",
+          "official_size": [
+            500,
+            309
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 1.04866882416397,
+          "official_max_abs_difference": 28
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    }
+  ],
+  "batches": [
+    {
+      "pass": 1,
+      "batch_id": "p1_b001",
+      "prompt_path": "upload/pass_1/p1_b001/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_6d75cfe7bb6aef3d",
+          "item_key": "item_0010",
+          "source_file": "upload/pass_1/p1_b001/case_6d75cfe7bb6aef3d_source.png",
+          "edited_file": "upload/pass_1/p1_b001/case_6d75cfe7bb6aef3d_edited.png"
+        },
+        {
+          "blind_id": "case_549f3260fad59e98",
+          "item_key": "item_0008",
+          "source_file": "upload/pass_1/p1_b001/case_549f3260fad59e98_source.png",
+          "edited_file": "upload/pass_1/p1_b001/case_549f3260fad59e98_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 1,
+      "batch_id": "p1_b002",
+      "prompt_path": "upload/pass_1/p1_b002/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_98ade02737cc6bd6",
+          "item_key": "item_0003",
+          "source_file": "upload/pass_1/p1_b002/case_98ade02737cc6bd6_source.png",
+          "edited_file": "upload/pass_1/p1_b002/case_98ade02737cc6bd6_edited.png"
+        },
+        {
+          "blind_id": "case_d3a7b3fd74f463e3",
+          "item_key": "item_0011",
+          "source_file": "upload/pass_1/p1_b002/case_d3a7b3fd74f463e3_source.png",
+          "edited_file": "upload/pass_1/p1_b002/case_d3a7b3fd74f463e3_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 1,
+      "batch_id": "p1_b003",
+      "prompt_path": "upload/pass_1/p1_b003/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_bf18210cbcee1196",
+          "item_key": "item_0015",
+          "source_file": "upload/pass_1/p1_b003/case_bf18210cbcee1196_source.png",
+          "edited_file": "upload/pass_1/p1_b003/case_bf18210cbcee1196_edited.png"
+        },
+        {
+          "blind_id": "case_10ed62958cb51b50",
+          "item_key": "item_0013",
+          "source_file": "upload/pass_1/p1_b003/case_10ed62958cb51b50_source.png",
+          "edited_file": "upload/pass_1/p1_b003/case_10ed62958cb51b50_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 1,
+      "batch_id": "p1_b004",
+      "prompt_path": "upload/pass_1/p1_b004/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_e2162b48da00c86c",
+          "item_key": "item_0004",
+          "source_file": "upload/pass_1/p1_b004/case_e2162b48da00c86c_source.png",
+          "edited_file": "upload/pass_1/p1_b004/case_e2162b48da00c86c_edited.png",
+          "ground_truth_file": "upload/pass_1/p1_b004/case_e2162b48da00c86c_reference.png"
+        },
+        {
+          "blind_id": "case_dfa94b1d57e4fc0f",
+          "item_key": "item_0002",
+          "source_file": "upload/pass_1/p1_b004/case_dfa94b1d57e4fc0f_source.png",
+          "edited_file": "upload/pass_1/p1_b004/case_dfa94b1d57e4fc0f_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 1,
+      "batch_id": "p1_b005",
+      "prompt_path": "upload/pass_1/p1_b005/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_7265b4e938c59100",
+          "item_key": "item_0014",
+          "source_file": "upload/pass_1/p1_b005/case_7265b4e938c59100_source.png",
+          "edited_file": "upload/pass_1/p1_b005/case_7265b4e938c59100_edited.png"
+        },
+        {
+          "blind_id": "case_4bdb9440453dab65",
+          "item_key": "item_0006",
+          "source_file": "upload/pass_1/p1_b005/case_4bdb9440453dab65_source.png",
+          "edited_file": "upload/pass_1/p1_b005/case_4bdb9440453dab65_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 1,
+      "batch_id": "p1_b006",
+      "prompt_path": "upload/pass_1/p1_b006/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_165fac6ed179ec48",
+          "item_key": "item_0019",
+          "source_file": "upload/pass_1/p1_b006/case_165fac6ed179ec48_source.png",
+          "edited_file": "upload/pass_1/p1_b006/case_165fac6ed179ec48_edited.png"
+        },
+        {
+          "blind_id": "case_e490c9340b3f931b",
+          "item_key": "item_0016",
+          "source_file": "upload/pass_1/p1_b006/case_e490c9340b3f931b_source.png",
+          "edited_file": "upload/pass_1/p1_b006/case_e490c9340b3f931b_edited.png",
+          "ground_truth_file": "upload/pass_1/p1_b006/case_e490c9340b3f931b_reference.png"
+        }
+      ]
+    },
+    {
+      "pass": 1,
+      "batch_id": "p1_b007",
+      "prompt_path": "upload/pass_1/p1_b007/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_93b16933d7c0c3da",
+          "item_key": "item_0009",
+          "source_file": "upload/pass_1/p1_b007/case_93b16933d7c0c3da_source.png",
+          "edited_file": "upload/pass_1/p1_b007/case_93b16933d7c0c3da_edited.png"
+        },
+        {
+          "blind_id": "case_414a6086199fc005",
+          "item_key": "item_0018",
+          "source_file": "upload/pass_1/p1_b007/case_414a6086199fc005_source.png",
+          "edited_file": "upload/pass_1/p1_b007/case_414a6086199fc005_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 1,
+      "batch_id": "p1_b008",
+      "prompt_path": "upload/pass_1/p1_b008/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_3936bfeac8877460",
+          "item_key": "item_0012",
+          "source_file": "upload/pass_1/p1_b008/case_3936bfeac8877460_source.png",
+          "edited_file": "upload/pass_1/p1_b008/case_3936bfeac8877460_edited.png"
+        },
+        {
+          "blind_id": "case_800fe9bdd39fe0ea",
+          "item_key": "item_0001",
+          "source_file": "upload/pass_1/p1_b008/case_800fe9bdd39fe0ea_source.png",
+          "edited_file": "upload/pass_1/p1_b008/case_800fe9bdd39fe0ea_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 1,
+      "batch_id": "p1_b009",
+      "prompt_path": "upload/pass_1/p1_b009/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_6fe00327fc31f9a3",
+          "item_key": "item_0020",
+          "source_file": "upload/pass_1/p1_b009/case_6fe00327fc31f9a3_source.png",
+          "edited_file": "upload/pass_1/p1_b009/case_6fe00327fc31f9a3_edited.png"
+        },
+        {
+          "blind_id": "case_8ba2ae04e76e3c08",
+          "item_key": "item_0017",
+          "source_file": "upload/pass_1/p1_b009/case_8ba2ae04e76e3c08_source.png",
+          "edited_file": "upload/pass_1/p1_b009/case_8ba2ae04e76e3c08_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 1,
+      "batch_id": "p1_b010",
+      "prompt_path": "upload/pass_1/p1_b010/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_c7e062316769f74e",
+          "item_key": "item_0005",
+          "source_file": "upload/pass_1/p1_b010/case_c7e062316769f74e_source.png",
+          "edited_file": "upload/pass_1/p1_b010/case_c7e062316769f74e_edited.png"
+        },
+        {
+          "blind_id": "case_f60bcb5db44d2fed",
+          "item_key": "item_0007",
+          "source_file": "upload/pass_1/p1_b010/case_f60bcb5db44d2fed_source.png",
+          "edited_file": "upload/pass_1/p1_b010/case_f60bcb5db44d2fed_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 2,
+      "batch_id": "p2_b001",
+      "prompt_path": "upload/pass_2/p2_b001/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_cc4bbee315bc2bf7",
+          "item_key": "item_0002",
+          "source_file": "upload/pass_2/p2_b001/case_cc4bbee315bc2bf7_source.png",
+          "edited_file": "upload/pass_2/p2_b001/case_cc4bbee315bc2bf7_edited.png"
+        },
+        {
+          "blind_id": "case_33e7daa8fa24370c",
+          "item_key": "item_0007",
+          "source_file": "upload/pass_2/p2_b001/case_33e7daa8fa24370c_source.png",
+          "edited_file": "upload/pass_2/p2_b001/case_33e7daa8fa24370c_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 2,
+      "batch_id": "p2_b002",
+      "prompt_path": "upload/pass_2/p2_b002/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_52ae262f5d9c7cf0",
+          "item_key": "item_0005",
+          "source_file": "upload/pass_2/p2_b002/case_52ae262f5d9c7cf0_source.png",
+          "edited_file": "upload/pass_2/p2_b002/case_52ae262f5d9c7cf0_edited.png"
+        },
+        {
+          "blind_id": "case_1e015f0bcb0bc7e9",
+          "item_key": "item_0019",
+          "source_file": "upload/pass_2/p2_b002/case_1e015f0bcb0bc7e9_source.png",
+          "edited_file": "upload/pass_2/p2_b002/case_1e015f0bcb0bc7e9_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 2,
+      "batch_id": "p2_b003",
+      "prompt_path": "upload/pass_2/p2_b003/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_7d71444f5d822a79",
+          "item_key": "item_0013",
+          "source_file": "upload/pass_2/p2_b003/case_7d71444f5d822a79_source.png",
+          "edited_file": "upload/pass_2/p2_b003/case_7d71444f5d822a79_edited.png"
+        },
+        {
+          "blind_id": "case_305af423385cdadf",
+          "item_key": "item_0008",
+          "source_file": "upload/pass_2/p2_b003/case_305af423385cdadf_source.png",
+          "edited_file": "upload/pass_2/p2_b003/case_305af423385cdadf_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 2,
+      "batch_id": "p2_b004",
+      "prompt_path": "upload/pass_2/p2_b004/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_e481849b3e2417c1",
+          "item_key": "item_0017",
+          "source_file": "upload/pass_2/p2_b004/case_e481849b3e2417c1_source.png",
+          "edited_file": "upload/pass_2/p2_b004/case_e481849b3e2417c1_edited.png"
+        },
+        {
+          "blind_id": "case_fad11d6fbdcb91a3",
+          "item_key": "item_0003",
+          "source_file": "upload/pass_2/p2_b004/case_fad11d6fbdcb91a3_source.png",
+          "edited_file": "upload/pass_2/p2_b004/case_fad11d6fbdcb91a3_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 2,
+      "batch_id": "p2_b005",
+      "prompt_path": "upload/pass_2/p2_b005/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_bd4308c921bbdeed",
+          "item_key": "item_0011",
+          "source_file": "upload/pass_2/p2_b005/case_bd4308c921bbdeed_source.png",
+          "edited_file": "upload/pass_2/p2_b005/case_bd4308c921bbdeed_edited.png"
+        },
+        {
+          "blind_id": "case_3ffb3cacfffacb7b",
+          "item_key": "item_0016",
+          "source_file": "upload/pass_2/p2_b005/case_3ffb3cacfffacb7b_source.png",
+          "edited_file": "upload/pass_2/p2_b005/case_3ffb3cacfffacb7b_edited.png",
+          "ground_truth_file": "upload/pass_2/p2_b005/case_3ffb3cacfffacb7b_reference.png"
+        }
+      ]
+    },
+    {
+      "pass": 2,
+      "batch_id": "p2_b006",
+      "prompt_path": "upload/pass_2/p2_b006/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_97a0205d33ad7a2a",
+          "item_key": "item_0014",
+          "source_file": "upload/pass_2/p2_b006/case_97a0205d33ad7a2a_source.png",
+          "edited_file": "upload/pass_2/p2_b006/case_97a0205d33ad7a2a_edited.png"
+        },
+        {
+          "blind_id": "case_d6df92ae59a4b635",
+          "item_key": "item_0010",
+          "source_file": "upload/pass_2/p2_b006/case_d6df92ae59a4b635_source.png",
+          "edited_file": "upload/pass_2/p2_b006/case_d6df92ae59a4b635_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 2,
+      "batch_id": "p2_b007",
+      "prompt_path": "upload/pass_2/p2_b007/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_23dbe4f2c15a8141",
+          "item_key": "item_0001",
+          "source_file": "upload/pass_2/p2_b007/case_23dbe4f2c15a8141_source.png",
+          "edited_file": "upload/pass_2/p2_b007/case_23dbe4f2c15a8141_edited.png"
+        },
+        {
+          "blind_id": "case_4719530488991e2a",
+          "item_key": "item_0020",
+          "source_file": "upload/pass_2/p2_b007/case_4719530488991e2a_source.png",
+          "edited_file": "upload/pass_2/p2_b007/case_4719530488991e2a_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 2,
+      "batch_id": "p2_b008",
+      "prompt_path": "upload/pass_2/p2_b008/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_9fbb95aa797c2cfa",
+          "item_key": "item_0012",
+          "source_file": "upload/pass_2/p2_b008/case_9fbb95aa797c2cfa_source.png",
+          "edited_file": "upload/pass_2/p2_b008/case_9fbb95aa797c2cfa_edited.png"
+        },
+        {
+          "blind_id": "case_4fde7a65277005db",
+          "item_key": "item_0004",
+          "source_file": "upload/pass_2/p2_b008/case_4fde7a65277005db_source.png",
+          "edited_file": "upload/pass_2/p2_b008/case_4fde7a65277005db_edited.png",
+          "ground_truth_file": "upload/pass_2/p2_b008/case_4fde7a65277005db_reference.png"
+        }
+      ]
+    },
+    {
+      "pass": 2,
+      "batch_id": "p2_b009",
+      "prompt_path": "upload/pass_2/p2_b009/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_b1118b721a2044c7",
+          "item_key": "item_0006",
+          "source_file": "upload/pass_2/p2_b009/case_b1118b721a2044c7_source.png",
+          "edited_file": "upload/pass_2/p2_b009/case_b1118b721a2044c7_edited.png"
+        },
+        {
+          "blind_id": "case_87116e2a1db8b75f",
+          "item_key": "item_0018",
+          "source_file": "upload/pass_2/p2_b009/case_87116e2a1db8b75f_source.png",
+          "edited_file": "upload/pass_2/p2_b009/case_87116e2a1db8b75f_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 2,
+      "batch_id": "p2_b010",
+      "prompt_path": "upload/pass_2/p2_b010/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_287757706f934d63",
+          "item_key": "item_0009",
+          "source_file": "upload/pass_2/p2_b010/case_287757706f934d63_source.png",
+          "edited_file": "upload/pass_2/p2_b010/case_287757706f934d63_edited.png"
+        },
+        {
+          "blind_id": "case_9843efbf9b1c3f84",
+          "item_key": "item_0015",
+          "source_file": "upload/pass_2/p2_b010/case_9843efbf9b1c3f84_source.png",
+          "edited_file": "upload/pass_2/p2_b010/case_9843efbf9b1c3f84_edited.png"
+        }
+      ]
+    }
+  ],
+  "files": {
+    "upload/pass_1/p1_b001/case_6d75cfe7bb6aef3d_source.png": "6109301dd6588dcae7ef6c2f9cc49639a6edac7c62d724880c1859994152d4cb",
+    "upload/pass_1/p1_b001/case_6d75cfe7bb6aef3d_edited.png": "1292260a8ad891587f562445f97901634e6541324a50ae27dc882571fd5ab8e4",
+    "upload/pass_1/p1_b001/case_549f3260fad59e98_source.png": "ee9ac7a72e94289524550ab2719f9785b76bff2aeb18dc046ca597fcd5df2516",
+    "upload/pass_1/p1_b001/case_549f3260fad59e98_edited.png": "e319d51e7b093e9f48d0dc80ac2dd5a265fde3e6fb0fc856e28d323c327be042",
+    "upload/pass_1/p1_b001/prompt.md": "1e4526a42dff882ca9465329e53ad8f01f2fc838770a7a7a8f7a8c7b8dba8783",
+    "upload/pass_1/p1_b001/response_template.json": "2482a13b39e9305f47b51397ee7f5ebe744a635e4965cd74cba69efa88623660",
+    "upload/pass_1/p1_b002/case_98ade02737cc6bd6_source.png": "ab7fbc897f51565e910391c9f60ac6dbec23e8003f4b51c5faf17cd9c2056325",
+    "upload/pass_1/p1_b002/case_98ade02737cc6bd6_edited.png": "1402e663bec9d84e82611f9d237b1aa616e8e534f246128678d1ed98a4b61f05",
+    "upload/pass_1/p1_b002/case_d3a7b3fd74f463e3_source.png": "5a84ea18fde6e3edf498ec5e5ac5e2f6807d751a9e8e6b6e0afaba2ad06c0acf",
+    "upload/pass_1/p1_b002/case_d3a7b3fd74f463e3_edited.png": "ac6f8fb52df100a5704b27facf2874e002a08ae295d5e9502af7755758874949",
+    "upload/pass_1/p1_b002/prompt.md": "1e7790e0c5a571748cd284afa655dd953e13a6a571e75f31369dd5436c619753",
+    "upload/pass_1/p1_b002/response_template.json": "b659fccb4a0c62b890711dd18e388edede1ec8fd407e44b56b51d8a47d326a89",
+    "upload/pass_1/p1_b003/case_bf18210cbcee1196_source.png": "6b7c49de82e91fab4dd6f0b1b34923726bf5685560b5cf38649d31fa5ae4153f",
+    "upload/pass_1/p1_b003/case_bf18210cbcee1196_edited.png": "bc8f92d4aa9e6257bfaf50fc81750492bd56880ca31397c23dfba23b2d0f55cc",
+    "upload/pass_1/p1_b003/case_10ed62958cb51b50_source.png": "694c3e9e8a8b4b48133ee9e897b51937988eac1ed0c3a7ba344feff9cf440215",
+    "upload/pass_1/p1_b003/case_10ed62958cb51b50_edited.png": "80e501f378de080eda370a8325a3ef117cc1768db1b0793fe3942d554d4f6e0b",
+    "upload/pass_1/p1_b003/prompt.md": "e93014a55e8fa4846843147f4b40bd9487fd55b2d0baccdc5afc7e506ad6d3ee",
+    "upload/pass_1/p1_b003/response_template.json": "30e30ebb7f1adb954b1ef9680952adaa79754382eb0b3a276e0da5e32bccc1c2",
+    "upload/pass_1/p1_b004/case_e2162b48da00c86c_source.png": "cfabb996b5853ab86201ec0ffdcb0a9d9fd22cc4aa40fc5f07ef8047ef3ad36e",
+    "upload/pass_1/p1_b004/case_e2162b48da00c86c_edited.png": "c00e0aad948f35d6b9471bfff6308e39ff6ed7692d08c66e80c9a6dbe94044f6",
+    "upload/pass_1/p1_b004/case_e2162b48da00c86c_reference.png": "0becaed01167823cc4e310556be28b4834e676770502513c0de68577d784fbcd",
+    "upload/pass_1/p1_b004/case_dfa94b1d57e4fc0f_source.png": "9e5233a0fd71fa118845feda7e7a8ad53c76771b31135699bde2aeb247d58170",
+    "upload/pass_1/p1_b004/case_dfa94b1d57e4fc0f_edited.png": "9d4ed80fa602db6c8b759261704802e95805a137925d265fd4a6e3a6a94f78ee",
+    "upload/pass_1/p1_b004/prompt.md": "e7c1a23f15fab87004b8252e4c124e9bb54cf46a28576cef697881bdac6ba01b",
+    "upload/pass_1/p1_b004/response_template.json": "283dc992785dbe4f37da12ad43f64dedd42ad9884dece0e082708f7363ba6e76",
+    "upload/pass_1/p1_b005/case_7265b4e938c59100_source.png": "369f6c10102750202333df395f9d32b56dff4df099b3e74901f24222e120ea62",
+    "upload/pass_1/p1_b005/case_7265b4e938c59100_edited.png": "01883624e371c61b0326e8cfb66c178423066c67dc25cd76b699d9ec0f7397f8",
+    "upload/pass_1/p1_b005/case_4bdb9440453dab65_source.png": "1cff449531e1fb152d787ddf06293d9c8753fbff11cecc02f1a7a3134090a697",
+    "upload/pass_1/p1_b005/case_4bdb9440453dab65_edited.png": "9bcedc0dac80326c676a1f48fb3909511a82389949804effe80db68a70a48209",
+    "upload/pass_1/p1_b005/prompt.md": "6444a1275d6842a8e2bc249ec4387e8624055f998ac0b9fc4fa3dfd2c6d36e59",
+    "upload/pass_1/p1_b005/response_template.json": "f409f05dfc41ec2e580c923dfa4dd02bfd15cdb4f6c92a1331b33f7d19dda2c3",
+    "upload/pass_1/p1_b006/case_165fac6ed179ec48_source.png": "515427421a278511d7de5deb39f0bd8c05380c0e5e0660c82ecbc17030804164",
+    "upload/pass_1/p1_b006/case_165fac6ed179ec48_edited.png": "ba831dcaf0bbadba151ea5b98c9515df454ae5f92d07ff7e9dcee1bad8068614",
+    "upload/pass_1/p1_b006/case_e490c9340b3f931b_source.png": "4b3d35bd06e7f7a2894df21e4f14a3a2c6c67d5615b270041c1b56d84bbfc27d",
+    "upload/pass_1/p1_b006/case_e490c9340b3f931b_edited.png": "fde79c8af454bf6f1e8a3766ed132dbce5256839192087bce20d0beda9b4a0d5",
+    "upload/pass_1/p1_b006/case_e490c9340b3f931b_reference.png": "1e46aedca7e47f9adb268eb73a8993ae7614d66e81f19752630239bce4ab6ec0",
+    "upload/pass_1/p1_b006/prompt.md": "9ad9643cd4ef2d85af858872d0f9a12d0a94bcde2d34c3ef4150c23331e98adf",
+    "upload/pass_1/p1_b006/response_template.json": "25b05d5a28c547553c0177880da59e2fcd9dfc7d138d463484f06f8a489b1af8",
+    "upload/pass_1/p1_b007/case_93b16933d7c0c3da_source.png": "e9250852f57c1d60e1a636780e485236bd7ca6bb0dec61ffcbe32045d3bc8833",
+    "upload/pass_1/p1_b007/case_93b16933d7c0c3da_edited.png": "c09598505ba3ef83e71c79f4a309a51d19604543ef3446d95dfde0a0a749386f",
+    "upload/pass_1/p1_b007/case_414a6086199fc005_source.png": "94c39f688047940a08dc99734b93ed51f64bc323a802719abd7b9d1f9d65bb77",
+    "upload/pass_1/p1_b007/case_414a6086199fc005_edited.png": "2dadd877751c5425c2447a00f92812568dc9359c39cfcd9f19d0c31e29633046",
+    "upload/pass_1/p1_b007/prompt.md": "cd8ca5d01d4375c870273ac4c1ba165ecf6a9c1f0a4240768a8f12128a8b5475",
+    "upload/pass_1/p1_b007/response_template.json": "a00fce9616f188b968160ff47b38aaf29dd4e8ce9715ff96f5443bc364c7323e",
+    "upload/pass_1/p1_b008/case_3936bfeac8877460_source.png": "723dfe214fa382c89d8cf7ac7839f45b4949e039de701a61e4858f9bf408d077",
+    "upload/pass_1/p1_b008/case_3936bfeac8877460_edited.png": "96053acb5aeda32e0ce675589d3ff249b9e3faa69e50b34c72fcc30792ac2596",
+    "upload/pass_1/p1_b008/case_800fe9bdd39fe0ea_source.png": "a804f1b6f43c0391897dbb737a3c6e3dd236f1a6f3f3f96569f279d8b7ef1fa2",
+    "upload/pass_1/p1_b008/case_800fe9bdd39fe0ea_edited.png": "4bdc028cd6720c8a7825cf48aed44d0f52a31578eb2673b110d0dcfb8ad0b77e",
+    "upload/pass_1/p1_b008/prompt.md": "02eafa60f05dd49769ef8cc0a7e7cc2ece873bcfd8fb45e0530b311b25caaca6",
+    "upload/pass_1/p1_b008/response_template.json": "7e057c0e2af6630a45fffa80e01135c2ea61511a6e467833e8e9ec0a58c86ffe",
+    "upload/pass_1/p1_b009/case_6fe00327fc31f9a3_source.png": "936d0b498fe67d89eb75082b9dac92f6055564e92fd43ca1339a9fc79877f719",
+    "upload/pass_1/p1_b009/case_6fe00327fc31f9a3_edited.png": "10867de08311ff0134021f6dbdcc091f1a660b32a2459ad36c3283fb3e4d0256",
+    "upload/pass_1/p1_b009/case_8ba2ae04e76e3c08_source.png": "c38b34895bda4687a68252a51f82a112b2aa4d11e19d65abec0504189298bfd8",
+    "upload/pass_1/p1_b009/case_8ba2ae04e76e3c08_edited.png": "c67495577d03e2a919fd1f0becbf1468c17cc5e87e804da4e830bfe68d8f9c05",
+    "upload/pass_1/p1_b009/prompt.md": "c152b6a64ae52c58c26c18a1c8242393125e5159af437820f388b5e4bc5a2d17",
+    "upload/pass_1/p1_b009/response_template.json": "13145e3728b34b7be725df448c3fec8d3046f75e5f29593c7e73c798935bd95e",
+    "upload/pass_1/p1_b010/case_c7e062316769f74e_source.png": "94c39f688047940a08dc99734b93ed51f64bc323a802719abd7b9d1f9d65bb77",
+    "upload/pass_1/p1_b010/case_c7e062316769f74e_edited.png": "87794100102ba3545e2bd0d80be2c312e437fc17eff98906b30c59b06da5b942",
+    "upload/pass_1/p1_b010/case_f60bcb5db44d2fed_source.png": "7c926c6114ac9b050e105c1fb7bb40cdd8ff7859a09a5ca728fb51ab4f6845fc",
+    "upload/pass_1/p1_b010/case_f60bcb5db44d2fed_edited.png": "52e038b1d5ad91111f40d9e05e43447e13939f2148dc9786ab80f2cc8f8ba030",
+    "upload/pass_1/p1_b010/prompt.md": "399f291bc7f28f0fc037b81739127f8eaaa505e11cb88e0ed711abdf0a63977c",
+    "upload/pass_1/p1_b010/response_template.json": "c23b9030c4e4fd9209e5391ee8855b4c569c2dbb5080392f75d9645e624e41a1",
+    "upload/pass_2/p2_b001/case_cc4bbee315bc2bf7_source.png": "9e5233a0fd71fa118845feda7e7a8ad53c76771b31135699bde2aeb247d58170",
+    "upload/pass_2/p2_b001/case_cc4bbee315bc2bf7_edited.png": "9d4ed80fa602db6c8b759261704802e95805a137925d265fd4a6e3a6a94f78ee",
+    "upload/pass_2/p2_b001/case_33e7daa8fa24370c_source.png": "7c926c6114ac9b050e105c1fb7bb40cdd8ff7859a09a5ca728fb51ab4f6845fc",
+    "upload/pass_2/p2_b001/case_33e7daa8fa24370c_edited.png": "52e038b1d5ad91111f40d9e05e43447e13939f2148dc9786ab80f2cc8f8ba030",
+    "upload/pass_2/p2_b001/prompt.md": "05e35e6647b9558d470ce9b0e2421130d0db2936ba182ac4d34afd6c0441d8d3",
+    "upload/pass_2/p2_b001/response_template.json": "c9fce936eed5606a7e7abc45d7bed744efae35eee278fa96f9e47caa42f010bc",
+    "upload/pass_2/p2_b002/case_52ae262f5d9c7cf0_source.png": "94c39f688047940a08dc99734b93ed51f64bc323a802719abd7b9d1f9d65bb77",
+    "upload/pass_2/p2_b002/case_52ae262f5d9c7cf0_edited.png": "87794100102ba3545e2bd0d80be2c312e437fc17eff98906b30c59b06da5b942",
+    "upload/pass_2/p2_b002/case_1e015f0bcb0bc7e9_source.png": "515427421a278511d7de5deb39f0bd8c05380c0e5e0660c82ecbc17030804164",
+    "upload/pass_2/p2_b002/case_1e015f0bcb0bc7e9_edited.png": "ba831dcaf0bbadba151ea5b98c9515df454ae5f92d07ff7e9dcee1bad8068614",
+    "upload/pass_2/p2_b002/prompt.md": "654101590507b4ed68b7ca15e03ee3fb865819543965b852cfad954b3b9fcd5e",
+    "upload/pass_2/p2_b002/response_template.json": "a7bfbad8a258aa323128246509821dd9de3f5c273d3c0bc473eedeca6cde3079",
+    "upload/pass_2/p2_b003/case_7d71444f5d822a79_source.png": "694c3e9e8a8b4b48133ee9e897b51937988eac1ed0c3a7ba344feff9cf440215",
+    "upload/pass_2/p2_b003/case_7d71444f5d822a79_edited.png": "80e501f378de080eda370a8325a3ef117cc1768db1b0793fe3942d554d4f6e0b",
+    "upload/pass_2/p2_b003/case_305af423385cdadf_source.png": "ee9ac7a72e94289524550ab2719f9785b76bff2aeb18dc046ca597fcd5df2516",
+    "upload/pass_2/p2_b003/case_305af423385cdadf_edited.png": "e319d51e7b093e9f48d0dc80ac2dd5a265fde3e6fb0fc856e28d323c327be042",
+    "upload/pass_2/p2_b003/prompt.md": "4e39f22b98e41d8fea3cd1a21cfb1818e0c941a5954eebf3888224c2a0a71edc",
+    "upload/pass_2/p2_b003/response_template.json": "8c39716a26539a17a0b1ee46b7c3f293cc264f3c1984861818238a25b43162c3",
+    "upload/pass_2/p2_b004/case_e481849b3e2417c1_source.png": "c38b34895bda4687a68252a51f82a112b2aa4d11e19d65abec0504189298bfd8",
+    "upload/pass_2/p2_b004/case_e481849b3e2417c1_edited.png": "c67495577d03e2a919fd1f0becbf1468c17cc5e87e804da4e830bfe68d8f9c05",
+    "upload/pass_2/p2_b004/case_fad11d6fbdcb91a3_source.png": "ab7fbc897f51565e910391c9f60ac6dbec23e8003f4b51c5faf17cd9c2056325",
+    "upload/pass_2/p2_b004/case_fad11d6fbdcb91a3_edited.png": "1402e663bec9d84e82611f9d237b1aa616e8e534f246128678d1ed98a4b61f05",
+    "upload/pass_2/p2_b004/prompt.md": "7f8300dfacf39f6db16b8e7fc61fc95f33231d2a7afe4a0115d532330ccb6d6b",
+    "upload/pass_2/p2_b004/response_template.json": "521db0f45bd31057339379a9fe54a58993b5b521bc9cca66310d39726d103068",
+    "upload/pass_2/p2_b005/case_bd4308c921bbdeed_source.png": "5a84ea18fde6e3edf498ec5e5ac5e2f6807d751a9e8e6b6e0afaba2ad06c0acf",
+    "upload/pass_2/p2_b005/case_bd4308c921bbdeed_edited.png": "ac6f8fb52df100a5704b27facf2874e002a08ae295d5e9502af7755758874949",
+    "upload/pass_2/p2_b005/case_3ffb3cacfffacb7b_source.png": "4b3d35bd06e7f7a2894df21e4f14a3a2c6c67d5615b270041c1b56d84bbfc27d",
+    "upload/pass_2/p2_b005/case_3ffb3cacfffacb7b_edited.png": "fde79c8af454bf6f1e8a3766ed132dbce5256839192087bce20d0beda9b4a0d5",
+    "upload/pass_2/p2_b005/case_3ffb3cacfffacb7b_reference.png": "1e46aedca7e47f9adb268eb73a8993ae7614d66e81f19752630239bce4ab6ec0",
+    "upload/pass_2/p2_b005/prompt.md": "48d1641a566c5b99484c7a0a5b94abd31593cf984ac51512fba0d24b16ef0fca",
+    "upload/pass_2/p2_b005/response_template.json": "6639b99439b12f964701c5946a699e13a088cc4093260d3630699d05c0179e9e",
+    "upload/pass_2/p2_b006/case_97a0205d33ad7a2a_source.png": "369f6c10102750202333df395f9d32b56dff4df099b3e74901f24222e120ea62",
+    "upload/pass_2/p2_b006/case_97a0205d33ad7a2a_edited.png": "01883624e371c61b0326e8cfb66c178423066c67dc25cd76b699d9ec0f7397f8",
+    "upload/pass_2/p2_b006/case_d6df92ae59a4b635_source.png": "6109301dd6588dcae7ef6c2f9cc49639a6edac7c62d724880c1859994152d4cb",
+    "upload/pass_2/p2_b006/case_d6df92ae59a4b635_edited.png": "1292260a8ad891587f562445f97901634e6541324a50ae27dc882571fd5ab8e4",
+    "upload/pass_2/p2_b006/prompt.md": "1edf1766d6a1600f4a9cba3504bc85ffb2b25b1c13d35c70189baa2ed7e058ba",
+    "upload/pass_2/p2_b006/response_template.json": "56091c9869e4ad2398584db36f512b51d870efd8a7796b24cc596320c3683a1f",
+    "upload/pass_2/p2_b007/case_23dbe4f2c15a8141_source.png": "a804f1b6f43c0391897dbb737a3c6e3dd236f1a6f3f3f96569f279d8b7ef1fa2",
+    "upload/pass_2/p2_b007/case_23dbe4f2c15a8141_edited.png": "4bdc028cd6720c8a7825cf48aed44d0f52a31578eb2673b110d0dcfb8ad0b77e",
+    "upload/pass_2/p2_b007/case_4719530488991e2a_source.png": "936d0b498fe67d89eb75082b9dac92f6055564e92fd43ca1339a9fc79877f719",
+    "upload/pass_2/p2_b007/case_4719530488991e2a_edited.png": "10867de08311ff0134021f6dbdcc091f1a660b32a2459ad36c3283fb3e4d0256",
+    "upload/pass_2/p2_b007/prompt.md": "36d92dc5f6466c7b59f31ab1578ba7cb7b179b2d7bc8601407cfbd8b440e133a",
+    "upload/pass_2/p2_b007/response_template.json": "7aed610a3cd2c1a2fe5a9bb6cc08822a208567ee7e3eec9f6210ff3c2a35049d",
+    "upload/pass_2/p2_b008/case_9fbb95aa797c2cfa_source.png": "723dfe214fa382c89d8cf7ac7839f45b4949e039de701a61e4858f9bf408d077",
+    "upload/pass_2/p2_b008/case_9fbb95aa797c2cfa_edited.png": "96053acb5aeda32e0ce675589d3ff249b9e3faa69e50b34c72fcc30792ac2596",
+    "upload/pass_2/p2_b008/case_4fde7a65277005db_source.png": "cfabb996b5853ab86201ec0ffdcb0a9d9fd22cc4aa40fc5f07ef8047ef3ad36e",
+    "upload/pass_2/p2_b008/case_4fde7a65277005db_edited.png": "c00e0aad948f35d6b9471bfff6308e39ff6ed7692d08c66e80c9a6dbe94044f6",
+    "upload/pass_2/p2_b008/case_4fde7a65277005db_reference.png": "0becaed01167823cc4e310556be28b4834e676770502513c0de68577d784fbcd",
+    "upload/pass_2/p2_b008/prompt.md": "b7d8c32508a912d931fde895ed6e36164870216840c51078b806f10ce26a3dc6",
+    "upload/pass_2/p2_b008/response_template.json": "eb2e227eb60ea4c55acef6ff918ccd7177d44f9eb61f7cfed9510eee8d96dcfc",
+    "upload/pass_2/p2_b009/case_b1118b721a2044c7_source.png": "1cff449531e1fb152d787ddf06293d9c8753fbff11cecc02f1a7a3134090a697",
+    "upload/pass_2/p2_b009/case_b1118b721a2044c7_edited.png": "9bcedc0dac80326c676a1f48fb3909511a82389949804effe80db68a70a48209",
+    "upload/pass_2/p2_b009/case_87116e2a1db8b75f_source.png": "94c39f688047940a08dc99734b93ed51f64bc323a802719abd7b9d1f9d65bb77",
+    "upload/pass_2/p2_b009/case_87116e2a1db8b75f_edited.png": "2dadd877751c5425c2447a00f92812568dc9359c39cfcd9f19d0c31e29633046",
+    "upload/pass_2/p2_b009/prompt.md": "1e53b4478f6c3ec8c3d91d559bf30722643bfd13514228d563a46e9c4dc79a21",
+    "upload/pass_2/p2_b009/response_template.json": "c477a4614c14db3526e3386ab2724efce00f57797016691f79639f3169dc2491",
+    "upload/pass_2/p2_b010/case_287757706f934d63_source.png": "e9250852f57c1d60e1a636780e485236bd7ca6bb0dec61ffcbe32045d3bc8833",
+    "upload/pass_2/p2_b010/case_287757706f934d63_edited.png": "c09598505ba3ef83e71c79f4a309a51d19604543ef3446d95dfde0a0a749386f",
+    "upload/pass_2/p2_b010/case_9843efbf9b1c3f84_source.png": "6b7c49de82e91fab4dd6f0b1b34923726bf5685560b5cf38649d31fa5ae4153f",
+    "upload/pass_2/p2_b010/case_9843efbf9b1c3f84_edited.png": "bc8f92d4aa9e6257bfaf50fc81750492bd56880ca31397c23dfba23b2d0f55cc",
+    "upload/pass_2/p2_b010/prompt.md": "84ec4ad6b5030e129f5f73a9228092d84cbb93102bd54cad165a2e100b7da8e4",
+    "upload/pass_2/p2_b010/response_template.json": "f1bd98384638878b3b0cd3283a1fb2927ea55ca54cc4f784340d37a4630de365"
+  },
+  "prepared_data_provenance": {
+    "dataset": "Liang0223/KRIS_Bench",
+    "split": "k_dev",
+    "splits_sha256": "b513673f210e8ac63b6fdfa7bda0bc62323b2dffdb7e4c4e5658234c49a60dc9",
+    "dataset_fingerprint": "47d77054e28e2e7a",
+    "implementation_sha256": {
+      "src/dataset.py": "83c5d4a55ef95ea830e52ad5289a1565c43b1cd0a1b725f2df3483f655bfcbf2",
+      "src/taxonomy.py": "ddd551fd10bbe8698e4ce71c7cee65b7cd6ea80ad1a554d4f52cd44944722977",
+      "src/rq2/common.py": "9f2f8c31b96eb2b83ee667d5e30489388dafd280de4ec04757c05db88f25b91d"
+    }
+  },
+  "manifest_hash": "4e6220cebf40173679b8c316ee2f62ed5b2d295c550414f31e87c1e3992bb26d"
+}

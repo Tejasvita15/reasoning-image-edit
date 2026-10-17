@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b124",
+  "results": [
+    {
+      "blind_id": "case_76953aced05b01ce",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The top-left node changes from 0 to 3 and the node positions and circle geometry shift. Several diagonal and bidirectional connections are added, leaving directed cycles, including the two-way connection between 1 and 2; the result is not acyclic. Instruction failure \u21d2 knowledge invalid. The diagram is legible but its duplicated node label 3 makes node identity semantically ambiguous."
+    },
+    {
+      "blind_id": "case_f2ac1fdf12e7fd51",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The grid and eight existing arc patterns remain unchanged. The question mark becomes a thick complete ring, whereas the shared portions of the last row require partial thin arcs, including the lower-right outer arc and lower inner semicircle. The intended pattern is therefore poorly implemented. Instruction failure \u21d2 knowledge invalid. The edited puzzle itself has clean lines, a smooth ring and a coherent grid without visible artifacts."
+    }
+  ]
+}

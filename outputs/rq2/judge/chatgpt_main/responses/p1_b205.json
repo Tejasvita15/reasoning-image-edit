@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b205",
+  "results": [
+    {
+      "blind_id": "case_17bd27e433feeb08",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the eight existing hexagons, dots and strokes remain intact. Instruction: a long diagonal is added across the last hexagon, but the question mark remains and the required far-right black dot is missing; the expected short upper-right stroke is also not correctly bounded. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: clean grid and shapes elsewhere, but the diagonal crossing the red question mark is a conspicuous visual collision."
+    },
+    {
+      "blind_id": "case_7f56a100906bd627",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the recognizable cylindrical milk glass is retained; splash, composition, background and shadow changes fall within the requested redesign. Instruction: the exact uppercase title and central splash are present with a gray shadow, but the lower background becomes a broad gray tabletop rather than pure white, and the title is dark gray and heavy instead of light silver-gray. Quality: legible typography, coherent glass and milk splash, and natural shading produce a clean polished composition."
+    }
+  ]
+}

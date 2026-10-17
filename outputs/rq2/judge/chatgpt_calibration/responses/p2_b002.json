@@ -1,0 +1,23 @@
+{
+  "batch_id": "p2_b002",
+  "results": [
+    {
+      "blind_id": "case_52ae262f5d9c7cf0",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The two burlap bags, beige palette and white background remain, but the small bag's outline and positioning change, and the drawstrings, bead positions and tassel shapes are altered beyond the requested resizing of the large bag. Instruction: The right bag remains substantially taller and wider than the left bag. The expected equal-sized pair is not produced. Quality: Assessed alone, the bags have coherent gathered openings, continuous cords, plausible fabric texture and clean silhouettes, without a clear rendering defect."
+    },
+    {
+      "blind_id": "case_1e015f0bcb0bc7e9",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The circular black-and-white clock and numeral order remain, but the flat graphic becomes a shaded three-dimensional clock, with changed rim, numeral styling and background shadows. Instruction: The source indicates 8 o'clock; the edit has a prominent short pointer toward 10 and additional long pointers, rather than the required 9 o'clock arrangement. Knowledge: The supplied explanation explicitly requires 9 o'clock, which is not shown. Instruction failure ⇒ knowledge invalid. Quality: Numerals and the housing are clean, but an additional long hand-like extension toward 8 makes the pointer arrangement visually ambiguous."
+    }
+  ]
+}

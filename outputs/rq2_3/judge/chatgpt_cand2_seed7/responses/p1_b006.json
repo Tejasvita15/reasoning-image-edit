@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b006",
+  "results": [
+    {
+      "blind_id": "case_e7603c9fe251f098",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: grid and covered-cell positions stay fixed, but many clue values and colors change, including the green 2 becoming X. Instruction: no red X marks the covered mine cells; red replacement numbers and a green X on an opened cell do not accomplish mine marking. Knowledge: Instruction failure \u21d2 knowledge invalid. Quality: glyphs and grid are cleanly rendered, but an impossible 9 clue creates a clear semantic defect in the board."
+    },
+    {
+      "blind_id": "case_ab3d65a1a9441608",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the recognizable crane painting and carved frame remain, but painted birds/tree details are redrawn and frame carving details change. Instruction: centered painting, blue background, flying cranes, glow and correct title appear; the title is script rather than serif, cloud motifs are weak, and bottom-left event information is illegible scribble. Quality: framing and main title are coherent, but malformed bottom-left lettering and smeared fine details in the art create noticeable artifacts."
+    }
+  ]
+}

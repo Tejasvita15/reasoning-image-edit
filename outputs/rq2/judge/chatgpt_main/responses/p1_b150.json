@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b150",
+  "results": [
+    {
+      "blind_id": "case_b5674ac0910c6756",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The balls are duplicated and rearranged into a group, with no basketball resting on a soccer ball. The original soccer ball moves leftward and additional balls alter the composition. A detached black-and-white fragment beside the rear soccer ball creates a clear visual artifact, although the complete balls retain recognizable forms."
+    },
+    {
+      "blind_id": "case_53b29ad675222c05",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The housing, cable and printed labels remain closely matched with slight texture changes. The reading becomes an irregular 118.2-like display rather than approximately 31.7, which the supplied three-degree increase requires. Malformed leftmost segments visibly disrupt the otherwise coherent product image. Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b047",
+  "results": [
+    {
+      "blind_id": "case_dad1f23bb8e1c6c0",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The wrapped and unwrapped chocolates retain their shapes, foil and cup details. The golden gradient, warm upper-right light and low-centered pair follow the concept, but the headline reads wortf instead of worth and omits the comma; the abundant bokeh and saturated gold also weaken the restrained champagne treatment. The malformed headline is a clear semantic flaw in an otherwise coherent product scene."
+    },
+    {
+      "blind_id": "case_40890480d36971d8",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The glass outline, white setting and reflection remain consistent. Sand still occupies the upper bulb and continues falling, rather than showing the empty upper chamber required after completion. Instruction failure \u21d2 knowledge invalid. The falling sand appears as separated elongated droplets and the upper sand surface is unnaturally smooth and wavy."
+    }
+  ]
+}

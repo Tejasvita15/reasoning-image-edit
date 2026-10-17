@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b165",
+  "results": [
+    {
+      "blind_id": "case_427149e73e261b5f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The shirt is convincingly changed from black to white. Its silhouette and chest logo remain recognizable, but the plain white background becomes beige woven fabric and the shirt crease pattern also changes. The edited product photo has natural fabric shading, coherent seams and a clean logo."
+    },
+    {
+      "blind_id": "case_90958a19951387f6",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "A red arrow points from the animal toward the gifts, but runs straight through multiple maze walls instead of tracing a valid corridor route. Maze structure and gift drawings remain consistent, with only a small change to the animal face. The drawing itself has clean, coherent lines and shapes. Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

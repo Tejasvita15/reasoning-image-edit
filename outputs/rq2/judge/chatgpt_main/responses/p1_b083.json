@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b083",
+  "results": [
+    {
+      "blind_id": "case_d120720acce2aa6b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "A cluster of six floating balloons is added rather than one ordinary-air balloon lying on the floor. Balloons are present in the room, but their buoyant placement directly contradicts the supplied explanation. The carved wall panel and bedding/cushion details also change noticeably. The room and balloons are coherent overall, with a small unexplained blue spot on the upper-left balloon."
+    },
+    {
+      "blind_id": "case_eb49c4da25013d83",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "All four originally empty squares remain empty, so the Sudoku has not been completed and no valid solution is supplied. Instruction failure \u21d2 knowledge invalid. Existing animal symbols and their positions are preserved, with only a slight grid framing shift. The edited grid and animal illustrations are clean and coherent."
+    }
+  ]
+}

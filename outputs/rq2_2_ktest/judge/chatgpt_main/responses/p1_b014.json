@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b014",
+  "results": [
+    {
+      "blind_id": "case_a4d896eced7411a7",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the lipstick's red bullet, embossed emblem, silver tube and black base retain their original design. Instruction: the centered product, dark mirror, black curtain and gold serif 'ONE SWIPE FOCUS' are present, but the title sits at middle-left rather than the lower-left corner and the final period is omitted. Quality: product edges, metallic highlights, curtain folds and reflection are coherent and polished."
+    },
+    {
+      "blind_id": "case_e2b44321d3dde845",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the grid, headings, other nutrient rows and sodium entry remain, but the Energy row label is replaced by the nonsensical '00kq'. Instruction: the energy value remains 2505kJ rather than zero, so the requested change fails. Knowledge: protein 27.0g, fat 50.2g, carbohydrate 16.5g and their nonzero NRVs all persist. Instruction failure \u21d2 knowledge invalid. Quality: the table remains clear, but the malformed row label is a conspicuous semantic text error."
+    }
+  ]
+}

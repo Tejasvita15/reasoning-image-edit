@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b011",
+  "results": [
+    {
+      "blind_id": "case_2a4f547274bc8d51",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: architectural niche, curved cornices, wall panels, viewpoint and lighting remain visually consistent; statue replacement is explicitly requested. Instruction: the figure gains drapery and a classical feminine appearance, but retains both complete arms and lacks the defining Venus de Milo form. Knowledge: the explanation explicitly names Venus de Milo; the intact arms contradict that target. Instruction failure \u21d2 knowledge invalid. Quality: marble figure, drapery, anatomy and architectural perspective are coherent without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_80f7d6524608ed3e",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: bottle and label identity remain, but the bottle is visibly more slender relative to its height. Instruction: upright lowered bottle, red-black spotlight background, reflection and upper-right gold wording are present; typography is script and punctuation includes a comma/extra mark rather than the requested exact serif phrase. Quality: lighting, bottle and reflection are coherent, with a small stray mark next to the title."
+    }
+  ]
+}

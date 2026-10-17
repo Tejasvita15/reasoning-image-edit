@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b166",
+  "results": [
+    {
+      "blind_id": "case_5ab22d7cca153dfc",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The exposed heel hole remains open, so the sock is not completed or repaired. Foot pose, sock knit, ankle and background remain visually consistent. Independently, this is a natural, coherent photograph of a worn sock without evident generation artifacts."
+    },
+    {
+      "blind_id": "case_1b25040f31657aad",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Two new X marks appear in the middle-left and middle-right cells, leaving the winning top-middle cell empty and producing no three-in-a-row. Existing marks, board and wooden background are preserved. The symbols and grid are clean and visually coherent. Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b114",
+  "results": [
+    {
+      "blind_id": "case_34ce94cb33192d79",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: blue hexagons and layout persist, but the existing 4 and 8 are both changed to 6. Instruction: the bottom-left question mark is correctly replaced by a 6. Knowledge: 6-to-12 satisfies the supplied doubling explanation, but the altered 6-to-6 pair now breaks that same rule. Quality: crisp, legible numerals and coherent hexagonal geometry."
+    },
+    {
+      "blind_id": "case_09952b445b102822",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: pose, box and grey background persist, but facial identity details and shirt folds are redrawn. Instruction: the raised hand has a more plausible four-folded-finger plus thumb configuration, addressing the anomalous extra fold, though the box-supporting hand remains somewhat merged. Quality: coherent overall anatomy and materials, with a small indistinct finger junction beneath the box."
+    }
+  ]
+}

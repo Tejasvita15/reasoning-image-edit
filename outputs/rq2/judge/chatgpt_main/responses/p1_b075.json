@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b075",
+  "results": [
+    {
+      "blind_id": "case_cab45b87a052915b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The separate right can is moved onto the top of the pack and removed from its old position, fulfilling the requested placement. The tray is enlarged/repositioned and the cans' labels and tab shapes change. Distorted lettering across the cans is a clear quality flaw, although the stack and horizontal can remain structurally coherent."
+    },
+    {
+      "blind_id": "case_4cd4619032bacc19",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The sock, ankle, surface and lighting remain unchanged. The exposed-skin hole near the heel is still present, so the sock has not been completed or repaired. The edited photograph itself is natural and coherent; the real-looking hole is not a generation artifact."
+    }
+  ]
+}

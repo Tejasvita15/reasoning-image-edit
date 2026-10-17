@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b153",
+  "results": [
+    {
+      "blind_id": "case_f11a94355b3b28b1",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Shoe silhouette, tan lining, heel position, highlights and white background remain consistent. Instruction: The red exterior becomes black across toe, upper and heel. Quality: Glossy reflections, edges and shoe structure are coherent."
+    },
+    {
+      "blind_id": "case_47dded4754b5e425",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Blue controller and button layout remain recognizable, with slightly simplified touchpad detail. Instruction: Controller is above center on a blue-gray gradient with shadow and ample space, but the text only says Start., omitting Press, and grain is not evident. Quality: Legible bold typography and coherent controller shape, lighting and layout."
+    }
+  ]
+}

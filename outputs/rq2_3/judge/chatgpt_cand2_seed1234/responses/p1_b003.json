@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b003",
+  "results": [
+    {
+      "blind_id": "case_f34deecfc956805c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the pale outer circle and white field remain, but two additional green rings are introduced and their sizes differ. Instruction: a central green circle now roughly shares the outer circle's center, but extra off-center circles make the requested two-circle arrangement incomplete. Quality: smooth, continuous and cleanly intersecting outlines form a coherent diagram. Knowledge: the supplied coincident-center condition is met by the middle ring but contradicted by the two off-center green rings."
+    },
+    {
+      "blind_id": "case_51631b1880c02156",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the large book becomes wider and shifts right; both covers gain altered edges and the books shift downward. Instruction: the right book remains very thin while the left is thick, so matching thickness is not accomplished. Quality: recognizable books and page textures, but doubled, protruding cover shapes at upper-left edges create noticeable structural artifacts."
+    }
+  ]
+}

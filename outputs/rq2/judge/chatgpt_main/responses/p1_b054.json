@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b054",
+  "results": [
+    {
+      "blind_id": "case_1e79920bedcb2f7b",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The wooden grid and four corner marks remain intact, but the existing central O is removed. An X replaces that occupied center instead of filling the top-middle winning cell, and no three-X line is completed. Instruction failure \u21d2 knowledge invalid. The finished board and colored marks are clean and coherent."
+    },
+    {
+      "blind_id": "case_3133a8bdaf850909",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The red truck, roof cannon, compartments, wheels and gray setting preserve the source design. The view rotates somewhat toward the side, but a broad windshield and front bumper still face the viewer; the reference requires a true profile with aligned side wheels and no broad front face. This leaves major perspective and occlusion errors for the requested view. Independently, the truck remains a coherent clean rendering."
+    }
+  ]
+}

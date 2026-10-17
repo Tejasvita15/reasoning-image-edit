@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b021",
+  "results": [
+    {
+      "blind_id": "case_b6bb100cedd49a4d",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white pump's pointed toe, slim heel and tan-edged profile are retained, with authorized poster surroundings. Instruction: gold sparkles/florals, gradient backdrop, prominent shoe and slogan appear, but the main title is black mixed-case script/italic rather than bold gold uppercase with shadow. Quality: clean legible lettering, coherent shoe silhouette and decorative composition."
+    },
+    {
+      "blind_id": "case_78e41b8e08b4bdf8",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: yarn becomes a sheep, honey becomes an empty basket, eggs become a rooster and the hen becomes a basket of milk/eggs; original cow, right sheep and bee remain. Instruction: no matching connections or correct item-animal pairing is supplied; original items are replaced. Quality: clean recognizable cartoon objects with coherent outlines. Knowledge: explanation is blank; supplied instruction-failure coupling applies. Instruction failure ⇒ knowledge invalid."
+    }
+  ]
+}

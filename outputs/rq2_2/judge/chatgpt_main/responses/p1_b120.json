@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b120",
+  "results": [
+    {
+      "blind_id": "case_3649a566943e7e9c",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "A holder appears beside the lower-right paper corner, but the full upper-left holder is still present and the added holder has only a few pens, so the move is incomplete. Paper and coffee remain in place; a small wood-grain detail near the top changes. The nested pale ring and merged pen ends inside the new holder are a clear structural artifact."
+    },
+    {
+      "blind_id": "case_600db8fd91640774",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The target cell gains a five-sided outline containing a large question mark, rather than the required hexagon with two small circles. Instruction failure implies knowledge invalid. All other shapes, internal marks and grid positions remain consistent. The diagram itself has clean continuous outlines and a legible question mark without distracting rendering flaws."
+    }
+  ]
+}

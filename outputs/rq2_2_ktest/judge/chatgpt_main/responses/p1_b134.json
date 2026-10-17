@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b134",
+  "results": [
+    {
+      "blind_id": "case_110fbbb799ee20cd",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "The phosphorus pile is visibly ignited with large orange flames, fulfilling the ignition request. However, the explanation expects faint flame and white smoke; the towering fire and lack of a clear white smoke plume create two serious knowledge mismatches. The tabletop and framing remain, with small changes in peripheral powder scatter. Flame, glowing material and illumination are visually coherent."
+    },
+    {
+      "blind_id": "case_959ca28183940642",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "A complete white cap now closes the previously open bottle neck. The transparent bottle, water, tabletop, tiles and framing remain consistent outside the cap region. The cap fits naturally and the edited photograph has coherent plastic, reflections and lighting without noticeable artifacts."
+    }
+  ]
+}

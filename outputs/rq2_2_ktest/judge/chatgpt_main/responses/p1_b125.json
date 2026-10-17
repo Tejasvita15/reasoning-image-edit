@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b125",
+  "results": [
+    {
+      "blind_id": "case_9c159131b1c37e3b",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "The white coat becomes shorter brown-orange fur with gray accents, attempting a summer coat but not the gray fur specified by the explanation. The building, snow and seated placement are retained, while the face and ears change noticeably toward a different fox appearance. The edited animal has coherent anatomy and detailed natural fur."
+    },
+    {
+      "blind_id": "case_90e3e0e1d7326582",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The bottle is retained against a wine-red and black velvet setting with spotlight and reflection, but the requested restrained gradient becomes prominent drapery and the slogan reads Timeless, Bottled. in large script rather than the exact serif text. The bottle identity and main label remain, with small label-detail changes. The edited advertisement is coherent, polished and free of noticeable artifacts."
+    }
+  ]
+}

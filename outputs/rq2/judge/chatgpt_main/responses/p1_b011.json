@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b011",
+  "results": [
+    {
+      "blind_id": "case_aaed68687bb5b677",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: red truck, roof equipment, compartment arrangement, wheels and gray setting remain recognizable; the front emblem is slightly reshaped. Instruction: the output retains the front three-quarter view with a broad windshield and grille, whereas the reference requires a perpendicular side profile with the long side compartments exposed. Quality: truck geometry, chrome, tires and lighting are coherent with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_5a4ba701772ef2a9",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: pale backdrop remains, but the remaining bread contours, crust texture and positions change markedly. Instruction: three baguettes become two, removing only one instead of two; one baguette should remain. Quality: the rear loaf has an implausibly pinched, bent silhouette and the crust is visibly smeared, while the foreground loaf remains recognizable."
+    }
+  ]
+}

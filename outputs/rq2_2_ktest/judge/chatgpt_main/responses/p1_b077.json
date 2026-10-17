@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b077",
+  "results": [
+    {
+      "blind_id": "case_8e09f146922faf1f",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Fern background and dog coat identity are retained with a small facial alteration. Both forelegs are lifted while hind legs remain down; this is not a lifted hind-leg marking posture. The pose has awkward weight balance despite coherent fur and background. Instruction failure \u21d2 knowledge invalid."
+    },
+    {
+      "blind_id": "case_860a3beb76bce360",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Basketball seams and orange pebbled material are largely preserved with a small seam-shape change. The black background and soft base shadow are present, but the title covers the ball instead of sitting at the bottom and reads No excuses, Just bacw., omitting bounce and corrupting back. The malformed headline is a clear semantic defect in an otherwise coherent product composition."
+    }
+  ]
+}

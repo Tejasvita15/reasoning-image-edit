@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b118",
+  "results": [
+    {
+      "blind_id": "case_84872b8366cf163f",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: fruit panels and row colors persist; border alignment shifts slightly. Instruction: the top-right question mark becomes a bunch of bananas rather than three oranges. Knowledge: both fruit type and count fail the supplied one-two-three orange pattern; instruction failure \u21d2 knowledge invalid. Quality: clean, coherent fruit photographs and regular panel layout."
+    },
+    {
+      "blind_id": "case_5642eafc5c8c2724",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: eight existing symbols and outer frame persist, with a slight frame-position change. Instruction: an empty outlined diamond replaces the bottom-right placeholder instead of a four-pointed star surrounded by dots. Knowledge: neither the required star nor four surrounding black dots is supplied; instruction failure \u21d2 knowledge invalid. Quality: legible black shapes with coherent borders and no distracting artifacts."
+    }
+  ]
+}

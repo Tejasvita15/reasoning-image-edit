@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b200",
+  "results": [
+    {
+      "blind_id": "case_2c390efa14286f9e",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the horizon, sky and composition remain, with a slight change to the thin cloud texture. Instruction: a smooth dark patch appears on the sea, conveying a slick, but it lacks the expected rainbow sheen and reads as a thick isolated puddle. Knowledge: the oil-like surface is present but the required iridescent pattern is absent. Quality: the patch's raised-looking outlined edge and unnaturally flat surface create a clear integration flaw; the surrounding seascape is coherent."
+    },
+    {
+      "blind_id": "case_dee4411ac5777b0a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: white setting and recognizable balls remain, but the soccer ball moves left/down, becomes smaller and has altered panel orientation. Instruction: the basketball is moved directly onto the top of the soccer ball with visible contact, fulfilling the requested placement. Quality: clean spherical forms, coherent seams, lighting and ground shadow, with no distracting artifacts."
+    }
+  ]
+}

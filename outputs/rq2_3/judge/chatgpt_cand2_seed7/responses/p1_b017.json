@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b017",
+  "results": [
+    {
+      "blind_id": "case_a70e5eb889a980ad",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: white cups and neutral backdrop remain, but the right cup moves right and becomes smaller, while the left cup shape is redrawn. Instruction: the left cup still lies on the surface beside the upright cup rather than on top of it; the requested stacking does not occur. Quality: cup rims, hollow interiors, glossy walls and contact shadows are coherent without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_c34830ae37834ba9",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: frog body, surrounding outlines and worksheet layout remain; both existing colored frog hands are changed to yellow without authorization. Instruction: all eight surrounding hands remain uncolored while the reference hands are recolored, so the requested target is entirely missed. Knowledge: Instruction failure \u21d2 knowledge invalid. Quality: the cartoon frog and hand outlines remain clean, coherent and artifact-free as a worksheet illustration."
+    }
+  ]
+}

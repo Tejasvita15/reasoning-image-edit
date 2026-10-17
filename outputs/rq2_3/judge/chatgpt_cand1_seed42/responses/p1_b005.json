@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b005",
+  "results": [
+    {
+      "blind_id": "case_5a3ceb8c04a7863b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: white background and burgundy covers remain, but both books shift down and the thick book’s proportions change. Instruction: the right book remains very thin beside the thick left book; no meaningful thickness matching occurs. Quality: recognizable clean book shapes and page blocks, with one small protruding cover-like sliver at the thin book’s upper-left edge."
+    },
+    {
+      "blind_id": "case_dfaf3c596f07e72e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: elephant pose and landscape composition persist, but tusk contours/lengths, ear outlines and ground shadow are altered beyond color correction. Instruction: saturated red skin is darkened toward brown, but the head and ears remain strongly orange-red, so correction of the conspicuous unnatural coloration is incomplete. Quality: coherent elephant anatomy, detailed wrinkled skin, tusks and consistent painterly landscape with no noticeable artifacts."
+    }
+  ]
+}

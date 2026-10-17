@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b006",
+  "results": [
+    {
+      "blind_id": "case_7057a71398e2e3c3",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: upright wood post and composition remain; the surrounding pebble and dirt texture changes visibly. Instruction: a long leftward cast shadow remains, instead of disappearing as specified by the supplied expectation. Quality: realistic wood grain, ground texture and coherent directional shadow. Knowledge: the explanation explicitly requires no shadow, contradicted by the prominent cast shadow. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_8da0b930910e8043",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the left book is much taller and shifted, its perspective exposes a new right page edge, and the right book shifts down. Instruction: the thin book remains thin while the thick book is enlarged; the requested thickness match is absent. Quality: coherent covers and layered page blocks on a clean white background without distracting artifacts."
+    }
+  ]
+}

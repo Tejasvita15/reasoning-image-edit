@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b183",
+  "results": [
+    {
+      "blind_id": "case_f54355e28ce02ef7",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the flat yellow-green field, distant tree line, paths and overcast sky remain intact outside the added flags. Instruction: multiple strings of rectangular prayer flags now span the flatland as requested. Knowledge: blue, white, red, green and yellow flags satisfy the supplied five-color expectation. Quality: the receding flag lines, cloth shapes, field and hazy distance form a coherent scene without conspicuous artifacts."
+    },
+    {
+      "blind_id": "case_c8b0b4beae5d3c17",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the original lantern silhouette, gold motifs and tassel are preserved, apart from a small extra gold squiggle on its right side. Instruction: the red-gold glow, petals, sparkles and golden foliage are present, but one central slogan replaces the specified top 'Welcoming Spring Festival' headline and separate bottom line. Quality: the poster and main lettering are coherent; the small stray gold marks beside 'Year' are a minor artifact."
+    }
+  ]
+}

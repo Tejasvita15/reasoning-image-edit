@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b059",
+  "results": [
+    {
+      "blind_id": "case_56e845c0729aa4df",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Both missing teeth are filled, leaving complete upper and lower rows as requested. The lips and background remain closely matched, but several existing teeth are also reshaped, especially the lower front teeth and upper side teeth. The finished illustration has clean tooth boundaries, coherent gums and consistent shading."
+    },
+    {
+      "blind_id": "case_f6d481db3d89886a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The three baguettes become two, so only one has been removed instead of two. The remaining loaves also change their contours, crust patterns and placement, while the pale background remains matched. The edited bread has noticeably flattened, irregular silhouettes, particularly the narrow waist of the rear loaf, although its surface texture and shadows remain recognizable."
+    }
+  ]
+}

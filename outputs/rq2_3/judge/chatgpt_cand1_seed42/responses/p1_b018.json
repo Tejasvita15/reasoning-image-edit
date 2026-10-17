@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b018",
+  "results": [
+    {
+      "blind_id": "case_69c4f1b4bfa866ba",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: museum niche, wall panels, lighting and framing remain visually unchanged; statue modifications are permitted. Instruction: the male David remains with both arms attached; only crack-like marks appear on the lowered forearm, not the requested armless goddess transformation. Knowledge: this is not the supplied Venus de Milo target. Instruction failure ⇒ knowledge invalid. Quality: coherent marble statue and architectural setting; surface fissures read as plausible stone detail without structural artifacts."
+    },
+    {
+      "blind_id": "case_74860e52e07c9490",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: CT body outline, vertebra, organ contours, grayscale layout and corner annotations remain visually unchanged outside the targeted bright foci. Instruction: the small central and right-side white particles visible in the source are removed, matching the requested edit. Knowledge: removal of those small white particles directly follows the supplied explanation. Quality: coherent grayscale scan structures and smooth local integration without obvious holes or artifacts."
+    }
+  ]
+}

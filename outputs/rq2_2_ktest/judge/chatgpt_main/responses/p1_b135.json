@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b135",
+  "results": [
+    {
+      "blind_id": "case_21b6030cc6a238b1",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The seat and hips stay at essentially the same height and the feet retain the raised-heel posture, so the chair is not lowered as requested or as the explanation expects. Instruction failure \u21d2 knowledge invalid. The chair is redesigned with a simpler seat and mechanism, while the person, table and room remain closely matched. The edited photograph is structurally coherent and clean."
+    },
+    {
+      "blind_id": "case_c90c80ad9065fbb2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": 3,
+      "rationale": "The left fist becomes an open-hand-like symbol, attempting paper to match the right paper hand, but it has only three upright fingers plus a thumb and a rectangular folded-paper palm. Its color changes from pink to cream and the right hand shifts and rescales. The explanation is blank; the partial tie assessment rests on the game logic explicitly implied by the task. The malformed hand has multiple distracting anatomical and shape errors."
+    }
+  ]
+}

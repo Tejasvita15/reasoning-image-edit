@@ -1,0 +1,23 @@
+{
+  "batch_id": "p2_b004",
+  "results": [
+    {
+      "blind_id": "case_e481849b3e2417c1",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The 3-by-3 organization remains, but most of the supplied arc patterns are replaced with different arc arrangements and the outer grid border disappears. These major clue changes were not requested. Instruction: The question mark remains in the bottom-right cell instead of being replaced by the appropriate pattern. Knowledge: The supplied rule requires retaining the common parts of the first two patterns in the row; no answer implementing that intersection is supplied. Instruction failure ⇒ knowledge invalid. Quality: Considered alone, the line drawing has clean, coherent arcs, clear dividers and a legible question mark, with no noticeable rendering defect."
+    },
+    {
+      "blind_id": "case_fad11d6fbdcb91a3",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The bowls, berries, mint, spoon and pink slatted background are largely retained. The napkin's front-left folds and edge are visibly reshaped, beyond the instructed change to the contents. Instruction: The opaque white contents become a translucent beige-brown liquid with a small reddish-pink area near the berries. This depicts a change in the contents but only partially conveys the intended indicator-color outcome. Knowledge: The supplied explanation specifically expects acidic yogurt to become red or pink; the contents remain predominantly beige rather than showing that overall color change. Quality: Assessed alone, the bowl, fruit, liquid reflections and surrounding objects are coherent and naturally rendered."
+    }
+  ]
+}

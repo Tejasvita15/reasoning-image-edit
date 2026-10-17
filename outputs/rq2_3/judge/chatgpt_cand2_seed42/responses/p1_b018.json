@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b018",
+  "results": [
+    {
+      "blind_id": "case_31150956f26ff356",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: authorized room/poster changes excluded; cushion becomes taller and diamond fabric develops broad smeared patches, losing original textile geometry. Instruction: gray urban room, prominent cushion and bold upper-left wording appear, but fabric close-up is corrupted and industrial restraint is weakened by oversized floating presentation; partial compliance. Quality: conspicuous smeared cushion/artwork texture and awkward unsupported cushion scale are multiple distracting flaws."
+    },
+    {
+      "blind_id": "case_21ed11b25235719d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: frog body, outlines and arrangement stay; both original frog hand colors are changed. Instruction: surrounding hands receive assorted orange, cyan, green, purple and yellow instead of matching the original red/blue left-right key; instruction is misinterpreted. Quality: clean readable cartoon shapes, even fills and intact outlines without noticeable artifacts. Knowledge: explanation is blank; the original key visibly establishes red/blue and mandatory coupling applies. Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

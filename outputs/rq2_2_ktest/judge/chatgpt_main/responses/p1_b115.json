@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b115",
+  "results": [
+    {
+      "blind_id": "case_e332fddce4742ecb",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: white wall and black rack remain recognizable, but a pair of shoes disappears and the remaining shoes lose original detail. Instruction: the surviving pair stays at the far left, while the far right is empty. Quality: coherent wall-mounted rack and shoes, with slightly smeared laces and collar texture."
+    },
+    {
+      "blind_id": "case_3a477539e445d123",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: mountain silhouette, clouds, meadow and fence posts remain in place, but tree textures outside the slide are broadly redrawn. Instruction: a large descending debris mass and dust cloud now clearly depict a landslide. Knowledge: expanded exposed rock/earth and debris at the slope foot match the explanation. Quality: landscape and dust are coherent, but central debris forms have conspicuous sheet-like angular ridges and a hard boundary."
+    }
+  ]
+}

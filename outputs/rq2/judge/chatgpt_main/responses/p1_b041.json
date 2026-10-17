@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b041",
+  "results": [
+    {
+      "blind_id": "case_d8ea78cd5363583a",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "The base, background, right-hand weights and scale design remain consistent. Several weights are added on the left instead of one, and the beam stays level; the explanation requires two left weights and a leftward tilt. The brass objects, chains and shadows are coherent without conspicuous artifacts."
+    },
+    {
+      "blind_id": "case_79c3a8b7bba83bd2",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The floor and loose stones remain unchanged, but a broad area of intact wall around the hole is replaced. The opening is filled, although the large regular block pattern differs from the surrounding wall. The smooth rectangular patch and dark grid seams create a conspicuous, poorly integrated surface transition."
+    }
+  ]
+}

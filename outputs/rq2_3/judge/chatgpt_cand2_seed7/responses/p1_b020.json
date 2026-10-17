@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b020",
+  "results": [
+    {
+      "blind_id": "case_643caeaabc06438c",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: white background persists, but every fork disappears, including the six that should remain. Instruction: the edited image contains zero forks rather than six, so the requested count is not achieved. Quality: assessed alone, the blank white field is uniform and free from noticeable structural or generation artifacts."
+    },
+    {
+      "blind_id": "case_110304ca0cd85d87",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: right-side animals and honey persist, but yarn, eggs and milk are replaced by a cow and roosters, with additional bees filling the center. Instruction: placing a bee near honey suggests one origin association, but most original products are removed and no complete set of correct matches is shown. Knowledge: Instruction failure \u21d2 knowledge invalid. Quality: most cartoons are clean, but the lower central bee has bird-like beak/feet and a malformed hybrid body, a clear semantic defect."
+    }
+  ]
+}

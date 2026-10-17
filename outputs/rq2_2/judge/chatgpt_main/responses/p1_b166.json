@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b166",
+  "results": [
+    {
+      "blind_id": "case_1454a74b1f8b58d4",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "The cat pose, whiskers and background layout remain fixed, but global contrast and brightness increase. The irises brighten while both pupils remain broad oval shapes instead of visibly constricting into narrow slits as strong light requires. Instruction failure \u21d2 knowledge invalid. The cat is structurally natural, with slightly overbright eye highlights."
+    },
+    {
+      "blind_id": "case_013f87e917f2800e",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The red fire truck, cannon, yellow trim and gray setting are retained, with minor simplification of small cab fittings. The view rotates somewhat toward the side, but a substantial front face remains visible and the body is foreshortened, unlike the supplied full side-profile reference. The rendered truck has coherent wheels, panels and shadows."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b021",
+  "results": [
+    {
+      "blind_id": "case_ed3a471b37ece4f8",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: most matches and all blue heads disappear, leaving only a central glyph; white backdrop alone remains. Instruction: full equation becomes a single ambiguous 9/2-like glyph rather than a valid equation through two moves; non-compliance. Quality: recognizable sticks but ambiguous malformed numeral is a clear semantic flaw. Knowledge: explanation blank; mandatory coupling applies. Instruction failure \u21d2 knowledge invalid."
+    },
+    {
+      "blind_id": "case_b2c8fa5d7a95d860",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: pale wall and white clock frames remain, but hand times change on both clocks and right clock position shifts. Instruction: left clock stays visibly smaller than right, with no meaningful enlargement to the required matching size. Quality: clean readable numerals, coherent circular rims and plausible shadows without noticeable defects."
+    }
+  ]
+}

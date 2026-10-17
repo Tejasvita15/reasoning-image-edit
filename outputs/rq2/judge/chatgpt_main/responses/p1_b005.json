@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b005",
+  "results": [
+    {
+      "blind_id": "case_a11acaab7bc04ab9",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: pointed silhouette, tall heel, beige lining, highlight shapes and white backdrop remain intact. Instruction: the red exterior is completely recolored black, including toe, rear upper and heel, exactly as requested. Quality: glossy reflections, curved sole and heel structure are coherent and natural, without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_36357f935072df47",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: white background and general receding arrangement remain, but column positions, base proportions and capital contours visibly change. Instruction: eight columns remain visible rather than the requested five, so the count change is absent. Quality: the eight fluted columns are coherent, with consistent shading and a clean background; moderate softness does not obscure their structure."
+    }
+  ]
+}

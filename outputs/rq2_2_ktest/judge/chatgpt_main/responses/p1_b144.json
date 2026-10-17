@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b144",
+  "results": [
+    {
+      "blind_id": "case_78fbf3aea07e3839",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "The trees, houses, snowy field and framing are preserved while the sun disappears and the sky turns dark with aurora. This conveys Arctic winter polar night and matches the explanation that the sun stays below the horizon. The landscape is coherent, though strong directional tree shadows look slightly incongruous with the diffuse night lighting."
+    },
+    {
+      "blind_id": "case_318d3607ff04063f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The dog is moved and given a different walking pose, and the bridge framing and clothing details change noticeably. Both hands remain empty and no leash connects to the collar, so the required correction and explained hand-to-neck connection are absent. Instruction failure \u21d2 knowledge invalid. The resulting walking scene is visually natural and coherent."
+    }
+  ]
+}

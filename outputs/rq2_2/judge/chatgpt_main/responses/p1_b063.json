@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b063",
+  "results": [
+    {
+      "blind_id": "case_f32331d77496c1fe",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: red body, yellow stripes, roof cannon, shutters, wheels and gray studio background remain, with a small change to the front badge and bumper detail. Instruction: the truck turns somewhat toward its side but retains a broad visible front and strongly foreshortened side, unlike the full side profile reference; the requested viewpoint is largely incomplete. Quality: the truck geometry, metal surfaces, wheels and ground shadow are coherent."
+    },
+    {
+      "blind_id": "case_a8fbc70ad05c5682",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the numeral shapes and positions are redrawn and the bottom watermark disappears, beyond the allowed clock-hand change. Instruction: extra diagonal hands appear, including a long pointer toward 2 and a short one toward 10; the expected hour hand at 9 and minute hand at 12 are not shown. Knowledge: this is not the specified 9 o'clock result; instruction failure \u21d2 knowledge invalid. Quality: crisp dial and legible numbers are undermined by multiple conflicting hands that make the clock structurally ambiguous."
+    }
+  ]
+}

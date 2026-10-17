@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b003",
+  "results": [
+    {
+      "blind_id": "case_ed3edbbeed287388",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: most maze walls, outer boundary and figure position are changed. Instruction: red segments are added, but they cross walls, stop in the upper maze and extend off the right edge rather than forming a continuous corridor route to the bottom-right exit. Knowledge: no explanation is supplied; the visible route nonetheless fails basic maze connectivity. Instruction failure \u21d2 knowledge invalid. Quality: fragmented walls, a stray black dot/block and disconnected red geometry make the diagram structurally confused."
+    },
+    {
+      "blind_id": "case_de1af9372a02899b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the three-by-three arrangement and clothing categories persist, but shirt contours and shoe/lace details visibly change along with frame spacing. Instruction: the question mark is replaced by pants in the correct cell, but they are black rather than the required white. Knowledge: the pants satisfy the row category but violate the white-column color rule. Quality: garments, footwear and grid are recognizable and coherent with no conspicuous generation artifacts."
+    }
+  ]
+}

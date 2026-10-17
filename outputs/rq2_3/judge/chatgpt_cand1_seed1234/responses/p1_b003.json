@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b003",
+  "results": [
+    {
+      "blind_id": "case_b7d3cbfc2f296894",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: card arrangement and framing are changed, with extra overlapping card edges and altered shadows. Instruction: the visible ranks remain 4, 6, 8, 8, 8 rather than a triple plus pair; an additional malformed strip does not form a full house. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: multiple card-edge duplications, smeared red printing on the left, and malformed symbols undermine coherence."
+    },
+    {
+      "blind_id": "case_58709089f7375290",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: both circle sizes change and the lavender outline becomes green, although only repositioning was requested. Instruction: two equal green circles overlap side by side, with visibly separate centers instead of concentric placement. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: clean coherent circular outlines on a plain white field, without noticeable artifacts."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b023",
+  "results": [
+    {
+      "blind_id": "case_240fc8275495aac0",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: both shoe forms and the background are heavily blurred; the laces, seams, leather highlights and clear silhouettes are lost rather than preserved. Instruction: two shoe-shaped forms remain, instead of one shoe being removed, so the requested removal is not achieved. Quality: extreme blur erases object boundaries and all material detail, creating substantial semantic ambiguity and degrading the entire image."
+    },
+    {
+      "blind_id": "case_c596cc186e4af5ec",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the upright post and sandy setting remain, but the post is shorter with altered wood details, and numerous ground stones/textures change beyond the requested shadow edit. Instruction: the long leftward shadow becomes darker and cleaner instead of disappearing; the expected shadow-free result is absent. Quality: the edited image alone has a coherent wooden post, textured sandy surface and plausible directional lighting without conspicuous artifacts. Knowledge: the supplied explanation explicitly expects no shadow, whereas a long cast shadow remains. Instruction failure ⇒ knowledge invalid."
+    }
+  ]
+}

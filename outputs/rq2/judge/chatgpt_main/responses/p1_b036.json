@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b036",
+  "results": [
+    {
+      "blind_id": "case_bba01e9c5d3b6ff5",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The grid remains, but black/white dot values change in several existing cells, including the top-middle and bottom-left. The bottom-right question mark is still present, so no requested solution is drawn. Instruction failure \u21d2 knowledge invalid. The edited circles and borders themselves remain clean and readable."
+    },
+    {
+      "blind_id": "case_527adb3b9506407d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The black-and-white clock remains recognizable, but its rim gains depth, numerals shift and the bottom source text disappears. The hands are changed but do not show 9:00: one points near 10 and an additional long diagonal crosses toward 2. Instruction failure \u21d2 knowledge invalid. The excess crossing hand structure makes the edited time display ambiguous despite clean numerals."
+    }
+  ]
+}

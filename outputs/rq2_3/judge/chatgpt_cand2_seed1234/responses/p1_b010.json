@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b010",
+  "results": [
+    {
+      "blind_id": "case_2d98ff8708419fa2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the upright cup shifts right, the sideways cup enlarges, and reflections change; the neutral backdrop remains. Instruction: the left cup is still beside the other on the surface, not atop it. Quality: smooth coherent cups, but a faint curved ghost line below the sideways cup is a small artifact."
+    },
+    {
+      "blind_id": "case_c436b0b3efacc246",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: background building and seated arrangement remain, but ears become sharply pointed and facial shape/leg anatomy change beyond fur; ground texture also changes. Instruction: the white coat changes to a shorter dark coat, but it is predominantly reddish brown rather than the specified gray summer appearance. Quality: coherent fox anatomy, detailed fur and natural depth of field. Knowledge: the supplied gray-fur expectation conflicts with the red-brown coat, though seasonal coat change is represented."
+    }
+  ]
+}

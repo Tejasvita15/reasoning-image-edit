@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b021",
+  "results": [
+    {
+      "blind_id": "case_cd9281f385ef2d2a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the 7 loses its circle and the frame and tile grain are altered. Instruction: the original sequence remains with an added 0, rather than 1\u201315 followed by an empty space. Quality: the missing circle and inconsistent tile borders disrupt the otherwise coherent wooden grid. Knowledge: Instruction failure \u21d2 knowledge invalid."
+    },
+    {
+      "blind_id": "case_0c3aba5126d55e3f",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: extensive abdominal texture, bowel detail, tissue boundaries and corner annotations are lost or changed. Instruction: the small bright particles have been removed. Quality: conspicuously smooth organ regions and blurred, simplified internal boundaries reduce CT plausibility. Knowledge: the targeted particles are removed, but broad removal of surrounding anatomy conflicts with the selective removal implied by the task."
+    }
+  ]
+}

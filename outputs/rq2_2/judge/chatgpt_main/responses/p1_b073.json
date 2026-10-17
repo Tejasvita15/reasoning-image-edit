@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b073",
+  "results": [
+    {
+      "blind_id": "case_c49aa2bd31d50723",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: the same woman, white blouse, hand pose and crown remain recognizable, but her facial detail and hair contour are altered and crown tips change. Instruction: rainbow colors, balloons, fireworks and radiant backlighting create a festive poster around the centered figure, but the requested title and tagline are replaced by garbled words. Quality: malformed large lettering, illegible smaller text and rough compositing around hair and lower body create multiple distracting artifacts."
+    },
+    {
+      "blind_id": "case_abbea5637d4492b9",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: most of the eight given arc patterns are changed and the outer frame disappears. Instruction: the question mark remains in the bottom-right cell, so no answer pattern is drawn. Knowledge: the required common-parts intersection is not supplied; instruction failure \u21d2 knowledge invalid. Quality: the arcs, dividing lines and question mark are clean and visually readable despite the puzzle not being solved."
+    }
+  ]
+}

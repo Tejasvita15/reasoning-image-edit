@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b162",
+  "results": [
+    {
+      "blind_id": "case_a33964b6ef618c86",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "The central lantern is retained amid a glowing red-gold background, petals, sparkles and golden foliage. Its tassel and cap details are noticeably altered. The required English headline and slogan are replaced by distorted Chinese-style lettering and stray text. Multiple corrupted text areas undermine an otherwise coherent festive composition."
+    },
+    {
+      "blind_id": "case_119367fc74205912",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The target circle still contains a question mark instead of a number, so the supplied answer is not inserted. The white background turns gray, and circle outlines and connecting arrows gain conspicuous doubled colored edges. These red/cyan halos visibly degrade an otherwise recognizable diagram. Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

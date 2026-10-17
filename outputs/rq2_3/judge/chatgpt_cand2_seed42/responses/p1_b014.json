@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b014",
+  "results": [
+    {
+      "blind_id": "case_63fe59111f36c85d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: left products and sheep remain, but cow is replaced, hen becomes another cow and bee becomes a hen. Instruction: no matching lines appear and row associations are wrong; expected wool\u2013sheep, honey\u2013bee, eggs\u2013hen and milk\u2013cow matches are absent. Quality: clean recognizable cartoon products and animals without noticeable structural defects. Knowledge: blank explanation; supplied coupling applies. Instruction failure \u21d2 knowledge invalid."
+    },
+    {
+      "blind_id": "case_9ff9166a9b3c087e",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: white background, black line style and centered circular extent remain; added meridians are authorized form depiction. Instruction: circle becomes a wireframe-like sphere, clearly conveying the requested rotational solid, though irregular construction strokes weaken precision. Quality: recognizable sphere with slightly messy overlapping contour/meridian lines. Knowledge: spherical form matches the supplied expectation exactly; stroke polish is excluded from knowledge."
+    }
+  ]
+}

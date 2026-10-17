@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b098",
+  "results": [
+    {
+      "blind_id": "case_92162f950037016a",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Disconnected and crossing arrows are added instead of an unambiguous directional-block route from the upper-left giraffe to the lower-right fruit. A large extra tree appears in the middle, while the original grid, captions and small target tree remain. Overlapping arrows and tree create a visibly confused worksheet layout. Instruction failure \u21d2 knowledge invalid."
+    },
+    {
+      "blind_id": "case_de1301940b2e9363",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The same three-cushion sofa design and tapered reddish legs remain recognizable within the instructed lighter beige treatment and room placement. A pale wall, wood floor, green plant and books support the restrained minimalist poster, and the requested sentence is complete in clear sans-serif text. Lighting, furniture structure, fabric and layout are coherent."
+    }
+  ]
+}

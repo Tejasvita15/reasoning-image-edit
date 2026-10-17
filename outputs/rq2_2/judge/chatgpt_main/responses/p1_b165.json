@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b165",
+  "results": [
+    {
+      "blind_id": "case_91789ad056f25002",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The supplied source actually shows a black-and-gold fountain pen, which remains intact in the poster. The edit adds a bear at the right, clouds, stars, candy and blue background, but the bear reads as a toy rather than a balloon and the title reads Bear Balloor Party. The large unrelated pen and misspelled heading weaken semantic coherence despite clean decorative rendering."
+    },
+    {
+      "blind_id": "case_7d0f1cedf701e5f7",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The bedding, blue background and birch log remain stable, but the hamster head silhouette and ear shape are visibly refined. Its tan coat becomes gray throughout, fulfilling the color instruction. Fur, eyes, whiskers and lighting look natural and coherent."
+    }
+  ]
+}

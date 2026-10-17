@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b003",
+  "results": [
+    {
+      "blind_id": "case_d6729f53667d0681",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: white background remains, but the small scissors shift and their blade profile changes; large-scissors handle contours and surface details also change beyond scaling. Instruction: the green-handled scissors remain roughly twice the length of the small pair; the required size match is absent. Quality: both scissors have coherent blades, handles, metallic surfaces and contact shadows without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_9d4103863b64da39",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: white setting remains, but the smaller turtle becomes smaller and shifts, while shell and facial textures are redrawn on both animals. Instruction: the left turtle is still substantially larger in shell height and body width; the intended reduction to the smaller turtle size is not achieved. Quality: shells, faces, scaly limbs and grounding shadows appear coherent and natural, with no noticeable generation defects."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b022",
+  "results": [
+    {
+      "blind_id": "case_919c96114b6c5930",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Both red toy cars and the wooden surface remain, but the larger car's wheel and window detailing and the smaller car's position and windshield change visibly. The large vehicle remains substantially larger than the small car, so the requested size match is absent. The edited toys have coherent shapes, reflections and grounding shadows without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_83fabce22c28ca10",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "The three boxes persist, but numerous original numbers are changed and many extra numbers and interior markings appear. The rightmost question mark is not replaced with the required 35; the supplied equal-ratio rule is not fulfilled. Instruction failure implies knowledge invalid. Distorted, overlapping numerals and stray diagonal strokes create multiple distracting visual defects."
+    }
+  ]
+}

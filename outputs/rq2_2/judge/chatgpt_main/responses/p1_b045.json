@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b045",
+  "results": [
+    {
+      "blind_id": "case_296cdb6044944213",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: blue backdrop, log, bedding and facial placement are maintained, but the hamster's ear contours and fur/whisker pattern are visibly reshaped beyond recoloring. Instruction: the cream coat is changed convincingly to gray while the pink nose and dark eyes remain natural. Quality: coherent animal anatomy, fine fur and whiskers, and plausible lighting show no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_eabe30d2bc1dbb58",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: shirt silhouette, collar, tag, folds and white background remain, with a slight change to the small chest-logo rendering. Instruction: the black fabric is fully recolored white with fold shading retained. Quality: the shirt has clean edges, coherent seams and natural cloth shading without visible artifacts."
+    }
+  ]
+}

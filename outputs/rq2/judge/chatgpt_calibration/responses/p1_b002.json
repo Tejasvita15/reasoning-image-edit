@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b002",
+  "results": [
+    {
+      "blind_id": "case_98ade02737cc6bd6",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The raspberries, mint, bowls, spoon, napkin and pink tabletop stay in their original arrangement. Beyond a color change, the thick opaque contents become a thin, reflective liquid, changing the material appearance. Instruction: The bowl contents change, but remain predominantly pale beige/clear rather than visibly red or pink. Knowledge: Judged against the supplied yogurt explanation, the required red/pink indicator response is largely absent; red reflections beneath the berries do not show a convincing overall response. Instruction failure implies knowledge invalid. Quality: Viewed alone, the bowls, fruit, liquid reflections and depth of field are coherent and free of clear rendering defects."
+    },
+    {
+      "blind_id": "case_d3a7b3fd74f463e3",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The road alignment, roadside guardrail, lamp posts and overall composition are retained. The distant hilltop contour and hillside vegetation are visibly redrawn, constituting a non-target background change. Instruction: A deep longitudinal split and branching pavement fractures now extend along the road, clearly depicting earthquake damage. Knowledge: The cracked surface, broken centerline and displaced pavement edges match the supplied expectation of cracking and surface deformation. Quality: The fractures have coherent perspective, dark recessed gaps and credible asphalt edges; the surrounding landscape remains visually natural."
+    }
+  ]
+}

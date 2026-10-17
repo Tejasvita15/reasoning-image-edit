@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b167",
+  "results": [
+    {
+      "blind_id": "case_d67ab4afdeeee460",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 2,
+      "rationale": "The branch, leaf arrangement and blurred background remain unchanged. Extensive brown mottling suggests damage, but leaf blades and edges remain largely intact rather than displaying insect-eaten holes specified by the explanation. The lesions have a slightly repetitive surface pattern; otherwise the photograph is coherent."
+    },
+    {
+      "blind_id": "case_9af7d195de324299",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The colored panels, supplied numbers and layout remain unchanged. The question mark is replaced by 28, so the fill operation is done but the answer is wrong: the provided difference-and-sum rule requires 410 from 7 and 3. The incorrect answer contradicts the stated rule. The edited digits and panel graphic are clean and legible."
+    }
+  ]
+}

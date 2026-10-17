@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b062",
+  "results": [
+    {
+      "blind_id": "case_0be756a3babcdeee",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the spoon bowl and wooden grain layout are retained, with a slight change to background texture contrast. Instruction: a long rounded handle with a hanging hole now extends the truncated stem, completing the spoon. Quality: forms and shadows are coherent, though the abrupt widened collar at the handle join is a small imperfection."
+    },
+    {
+      "blind_id": "case_35cfdfb87efccb23",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the puzzle boundaries, timer and blue interface stay in place, but the already yellow regions and yellow palette swatch change to brown. Instruction: the many pale unfilled regions remain unfilled; recoloring existing regions does not complete the puzzle. Knowledge: no completed four-color assignment is shown; instruction failure \u21d2 knowledge invalid. Quality: borders are clean, interface text is legible, and flat color regions are coherent without visible artifacts."
+    }
+  ]
+}

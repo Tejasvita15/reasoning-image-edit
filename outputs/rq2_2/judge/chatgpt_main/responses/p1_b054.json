@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b054",
+  "results": [
+    {
+      "blind_id": "case_665602ff5a815dbf",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: round blue stone, gold bezel and bail retain their design, with minor chain-link shape changes. Instruction: a centered necklace, gray-blue fabric and bottom caption appear, but the caption says 'yed' instead of 'yet', uses sans-serif rather than fine serif, the pendant remains low, and no star-like brilliance is added. Quality: coherent jewelry and background, with a clear misspelling in the prominent caption."
+    },
+    {
+      "blind_id": "case_cb4f5698d714056a",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: white setting and both ball identities remain, but the soccer ball is visibly reduced and shifted left. Instruction: the basketball is moved directly onto the soccer ball with clear contact, satisfying the requested stacking. Quality: both spherical forms, surface seams and contact/ground shadows are coherent without noticeable artifacts."
+    }
+  ]
+}

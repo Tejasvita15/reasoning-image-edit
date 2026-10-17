@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b003",
+  "results": [
+    {
+      "blind_id": "case_262367fd505f298c",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: wooden frame, numbered tile styling and background persist; a small dark gap appears along the upper inner border. Instruction: the blank is filled with a new 0 tile while 1–15 stay in their original locations; no requested rearrangement into completed order occurs. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: clear numerals, coherent wooden squares, grain and frame without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_ef9eae26b1bd995f",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the gray surface remains, but the second shoe that should remain has also disappeared. Instruction: both shoes are removed, whereas exactly one should remain; removal is only partially compliant. Quality: the edited image alone is a coherent empty softly lit gray surface, with smooth tonal transitions and no visible artifacts."
+    }
+  ]
+}

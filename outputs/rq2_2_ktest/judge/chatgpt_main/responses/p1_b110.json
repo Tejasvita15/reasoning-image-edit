@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b110",
+  "results": [
+    {
+      "blind_id": "case_608ce3514a231e8f",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: grey setting and shell position persist, but the shell pattern is redrawn. Instruction: head and all visible limbs remain extended, with only slight pose adjustments instead of a protective withdrawal. Knowledge: the required retraction into the shell is absent; instruction failure \u21d2 knowledge invalid. Quality: coherent tortoise anatomy, shell texture and natural grounding shadow."
+    },
+    {
+      "blind_id": "case_13e35c0da95aa6ff",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: puppy identity, collar, lying pose and blurred garden persist, but the wooden platform gains extensive water puddles. Instruction: no tongue extension or panting is shown; the mouth stays closed. Knowledge: the supplied tongue-based cooling behavior is absent; instruction failure \u21d2 knowledge invalid. Quality: natural puppy anatomy, fur and convincing reflective wet wood."
+    }
+  ]
+}

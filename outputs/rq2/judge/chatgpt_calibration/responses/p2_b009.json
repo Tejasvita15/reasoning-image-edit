@@ -1,0 +1,23 @@
+{
+  "batch_id": "p2_b009",
+  "results": [
+    {
+      "blind_id": "case_b1118b721a2044c7",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The central lantern's silhouette, suspension cord, red panels and gold ornamentation remain closely preserved. The fine tassel strands are slightly simplified; the new background, petals, foliage and lettering are instructed changes and are excluded from this check. Instruction: The red-gold glow, gold leafy decorations, red petals and centered lantern are present. However, the required Welcoming Spring Festival headline is absent, and the text is combined over the lantern rather than separated into a top headline and bottom slogan. Quality: The lantern and festive setting are coherent, but overlapping gold letter strokes and underlying ornamentation noticeably impair the central text's legibility."
+    },
+    {
+      "blind_id": "case_87116e2a1db8b75f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The beige burlap material and white product background remain, but the non-target small bag's fabric pattern and outline are altered, and several cord, bead and tassel positions differ from the source. Instruction: The bag on the right is still much taller and wider than the one on the left. There is no successful adjustment to a matching size. Quality: Independently of the requested resizing, both bags have convincing fabric weave, gathered openings, cords, beads and grounded shadows, with no noticeable structural or rendering artifact."
+    }
+  ]
+}

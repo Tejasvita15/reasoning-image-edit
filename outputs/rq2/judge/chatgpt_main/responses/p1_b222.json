@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b222",
+  "results": [
+    {
+      "blind_id": "case_23c59cb93cc17c34",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The glass shape, fill level, reflections, white background and shadow remain consistent. The water turns pink, directly contradicting the supplied expectation that phenolphthalein in pure water remains colorless. The colored-liquid photograph is clean with coherent glass refraction and no visible artifacts. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_3b44eeea74af0ca4",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The missing upper cube sections are filled, producing an intact four-by-four cube with a continuous pale top and orange front. Existing side colors, viewpoint and patterned fabric background remain consistent. The restored grids, edges and shading form a coherent cube without noticeable artifacts."
+    }
+  ]
+}

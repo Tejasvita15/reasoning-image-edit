@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b092",
+  "results": [
+    {
+      "blind_id": "case_ef9ef71facdcde41",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "Consistency: the left ball shifts left, the rail outline moves and the background texture changes. Instruction: a second orange ball marks the right-hand maximum, almost level with the starting ball, but slightly higher and larger. Knowledge: the nearly matched heights express energy conservation with a small height discrepancy. Quality: smooth coherent rail and spheres, plausible lighting and clean textures."
+    },
+    {
+      "blind_id": "case_0a6eaa73ec3206cc",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the central road alignment persists, but right-side roof details and forest texture are visibly redrawn. Instruction: buildings and developed lots now occupy the formerly wooded left side, fully showing urbanization. Knowledge: the increase in buildings and reduction in trees match the explanation. Quality: the left buildings have a conspicuously larger apparent scale than the right neighborhood, and some road/building boundaries are distorted."
+    }
+  ]
+}

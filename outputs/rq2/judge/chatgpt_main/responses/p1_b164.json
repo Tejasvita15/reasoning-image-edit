@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b164",
+  "results": [
+    {
+      "blind_id": "case_7c56c6cc1ff82d57",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The right bag remains much taller and wider than the left, so the requested size match is not achieved. Fabric patterns and printed figures change, and cords and beads shift. Both bags are recognizable, but conspicuous maze-like weave texture makes their surfaces look artificial."
+    },
+    {
+      "blind_id": "case_14a646773c4e3aa0",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "A Chinese-style wooden boat is added on the river, but its pavilion-like roof differs from the specified rounded black Wu-peng canopy. A second boat also appears, and hillside foliage is visibly retextured. Water contact and reflection are coherent; the overly etched vegetation is a minor naturalness issue."
+    }
+  ]
+}

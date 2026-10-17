@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b173",
+  "results": [
+    {
+      "blind_id": "case_0ed4187777302bb9",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The plant foliage, braided trunk and woven basket remain intact. The green halo background and floating droplets are added with an upper-left script title, but it reads Green Hoope rather than Green Home and separate leaf silhouettes are absent. The title is malformed and overlaps leaves, while the basket appears ungrounded against the backdrop."
+    },
+    {
+      "blind_id": "case_b5fc5a3972b372ca",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The controller retains its blue shell and control layout with a small simplification of the central logo. It is placed above center over a gray-blue gradient and shadow with the exact bold black Press Start. wording below; the background lacks the requested visible grain. The controller, lettering and restrained layout are coherent and clean."
+    }
+  ]
+}

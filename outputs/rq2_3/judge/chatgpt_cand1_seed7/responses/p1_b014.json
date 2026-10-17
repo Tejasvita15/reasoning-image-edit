@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b014",
+  "results": [
+    {
+      "blind_id": "case_da3520619dbca7a6",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: grid layout remains, but all cell backgrounds become dark red, numeral color/style changes, and several given numbers are altered. Instruction: the blank cells remain blank while givens such as top-row 3 and lower-row 1 are changed, so the Sudoku is not completed. Knowledge: the explanation is blank; absent filling and corrupted givens establish failure of the stated puzzle task. Instruction failure \u21d2 knowledge invalid. Quality: legible digits and straight grid, but repeated 2s in a column and 3s in a column create a clearly invalid Sudoku diagram."
+    },
+    {
+      "blind_id": "case_8a215b939930ebf9",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: glass table, supports, vase, flowers and pale background remain aligned; the book changes from open flat pages to a curled form with different page content. Instruction: the book stays on the right of the vase rather than moving to the left, so the side change is absent. Quality: table and flowers are coherent, but the curled book has an awkward nested page structure that reads as a distorted roll rather than a natural open book."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b013",
+  "results": [
+    {
+      "blind_id": "case_3ede24471e0f4de2",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: black jacket, orange stripes, logo and gray background remain, but the sleeve pose changes beyond a simple camera rotation. Instruction: the jacket is still shown upright from the front at a slight angle; the reference instead looks straight down through the neck opening with the torso strongly foreshortened. No correct top view is achieved. Quality: zipper, cloth folds, cuffs and collar are coherent and clean."
+    },
+    {
+      "blind_id": "case_e62751e5bf302b49",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: all given numbers, colored tiles, spacing and shadows remain intact. Instruction: the question mark is replaced with a legible 11, so the target is filled but the required answer is wrong. Knowledge: 7 minus 3 is 4 and their sum is 10, requiring 410; 11 contradicts the supplied rule. Quality: digits and tile layout are clear and visually coherent, without noticeable artifacts."
+    }
+  ]
+}

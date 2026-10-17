@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b043",
+  "results": [
+    {
+      "blind_id": "case_9f99bc10454eb2b4",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: canal architecture, lanterns and vegetation are preserved, but the occupants' poses and clothing details change. Instruction: the covered boat is replaced by an open black gondola with raised ends and a distinctive bow fitting. Knowledge: its narrow hull and ornate upturned prow match the supplied gondola expectation. Quality: coherent water contact and reflection, with slightly blended small occupant/hand detail."
+    },
+    {
+      "blind_id": "case_6237b347e29e9c30",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: lips and background retain the composition, but existing tooth contours are broadly redrawn and two previously white lower-left teeth become dark shapes. Instruction: the original upper and lower gaps are filled, yet two new dark tooth-sized gaps mean the teeth are not completely restored. Quality: the otherwise coherent illustrated mouth contains two conspicuous dark outlined tooth forms that create semantic ambiguity."
+    }
+  ]
+}

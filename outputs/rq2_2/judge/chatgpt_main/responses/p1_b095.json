@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b095",
+  "results": [
+    {
+      "blind_id": "case_2adfdcb58a8657fc",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The carton keeps its blue-and-cream design, cap and cow illustration. The cow side becomes somewhat wider, but the front MILK panel and cap top remain prominent; the reference instead shows a straight cow-panel side elevation. The rotation is substantially incomplete, while the final carton is cleanly rendered with coherent edges and graphics."
+    },
+    {
+      "blind_id": "case_ca5e6d6a275f13a8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Blue upholstery, wooden legs and the white background persist, but the chaise extension disappears and the three-seat form becomes a two-seat loveseat. The view turns toward the front yet remains oblique and does not reproduce the reference's full three-seat chaise arrangement. Mottled, smeared texture on the right arm and cushion edge is a noticeable quality defect."
+    }
+  ]
+}

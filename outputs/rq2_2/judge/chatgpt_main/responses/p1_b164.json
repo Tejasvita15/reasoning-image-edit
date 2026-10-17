@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b164",
+  "results": [
+    {
+      "blind_id": "case_10e0af0a5a494869",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The vase, books, centerpiece and white background remain recognizable, but the table proportions and leg positions change. The chairs are slightly repositioned but their seats remain largely outside the tabletop, especially the foreground chair; the requested push underneath is poorly achieved. The edited furniture remains clean and structurally plausible."
+    },
+    {
+      "blind_id": "case_193a5c78a4b773ff",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The room and portrait identity are recognizable, but facial rendering, leg pose, chair base and fruit-table placement change beyond the arm repair. The extra arm is removed and the glass-holding hand connects naturally to the remaining left arm, fully correcting the obvious three-arm defect. The resulting anatomy, clothing and furniture are coherent."
+    }
+  ]
+}

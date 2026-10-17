@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b040",
+  "results": [
+    {
+      "blind_id": "case_9ed30bbd12f0f63c",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "The branches, wall, wood table and lighting remain consistent. The plain rounded vase becomes a blue-and-white porcelain vessel with floral motifs, fulfilling the Chinese-style request and the exact explanation. Pattern wrapping, ceramic contours and shadows are clean and natural."
+    },
+    {
+      "blind_id": "case_4a138d9f7939a6c5",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The teapot's red-gray glaze, handle, spout and lid are retained. A ceramic tray and pale paper-like background are added, but the teapot remains centered with little surrounding blank space and the smoke is large and dark rather than a faint wisp. The scene is coherent overall, though the smoke's looping outlined form looks slightly artificial."
+    }
+  ]
+}

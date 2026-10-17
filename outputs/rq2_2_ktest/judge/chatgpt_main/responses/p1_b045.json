@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b045",
+  "results": [
+    {
+      "blind_id": "case_4478b6aa9ed17d01",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "The full matchstick equation and its horizontal layout have been replaced by a small cluster of ambiguous symbols, with most sticks absent. This is not a valid equation formed by moving two sticks. The supplied knowledge explanation is blank; the knowledge score follows the explicit coupling rule: Instruction failure \u21d2 knowledge invalid. The edited image has severely malformed, overlapping symbol structures with no coherent readable equation."
+    },
+    {
+      "blind_id": "case_67117ef93070caed",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The yellow sponge roll, cream filling, gold base and black background remain recognizable, but much of the right wrapping paper is removed beyond a viewpoint change. The front face becomes slightly more exposed, yet the long right side remains strongly visible; the reference requires a straight-on end view with a horizontal base front. The edited cake itself has coherent sponge and cream textures, clean contours and plausible lighting."
+    }
+  ]
+}

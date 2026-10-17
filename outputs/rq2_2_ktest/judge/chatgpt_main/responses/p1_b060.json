@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b060",
+  "results": [
+    {
+      "blind_id": "case_0984dad6440174c3",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the cat retains its white fur, facial identity, ear angle and seated orientation, with a small change to muzzle detail; poster additions are requested. Instruction: pink-blue gradient, bright pink Pet Home, hearts, paw prints and exact tagline appear, but the cat is reduced rather than enlarged and the oversized tag hides its lower body; the tagline is dark gray. Quality: text and layout are coherent, with a slight cutout halo along the cat outline."
+    },
+    {
+      "blind_id": "case_46ff848b5e8e6856",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the shape, placement, proportions and white background of the numeral 8 are unchanged. Instruction: the entire orange numeral becomes green as requested. Quality: the glyph is clearly legible with smooth coherent loops and no noticeable artifacts."
+    }
+  ]
+}

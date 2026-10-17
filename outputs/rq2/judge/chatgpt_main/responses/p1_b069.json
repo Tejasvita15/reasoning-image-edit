@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b069",
+  "results": [
+    {
+      "blind_id": "case_a71e9eea21efeaa5",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "A front wheel assembly is added and the board is raised, but the splintered, incomplete front of the deck remains, so the skateboard is only partly completed. The existing grip-surface and exposed decorative pattern are also redrawn, while the gray ground and setting remain matched. Judged alone, the worn board, wheels and contact shadows form a plausible, coherent object."
+    },
+    {
+      "blind_id": "case_82205e523faa15b7",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "The original adapter stays on the left while a second smaller adapter appears in front of the cable loop instead of moving the original into its center. The cable and connectors change and the white background becomes a checker pattern. The edit has multiple distracting flaws, including smeared cable connections, a malformed top around the added adapter prongs and ghosted checker texture over the objects."
+    }
+  ]
+}

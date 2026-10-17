@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b079",
+  "results": [
+    {
+      "blind_id": "case_a0b4044b8e558571",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The reading remains approximately 28.7 rather than increasing to about 31.7 as specified by the explanation. Snow, frost and an outdoor background are added, and the casing labels change. Instruction failure \u21d2 knowledge invalid. The snowy scene is rendered coherently, but the malformed final digit and unit symbol visibly damage the display's semantic clarity."
+    },
+    {
+      "blind_id": "case_fa1778c0430f2fe7",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "The bottom-left block is turned to display an X, completing the left column of three X marks and satisfying the requested win. Other pieces and symbols are retained, although the overall board is slightly shifted/reframed. The selected X is red but still clearly an X, so the game logic holds. Wood, blocks and printed symbols look coherent and artifact-free."
+    }
+  ]
+}

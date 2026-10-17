@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b012",
+  "results": [
+    {
+      "blind_id": "case_1ad4ec883dc0ced4",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: wood frame, grain and brown numeral style remain with minor softened edge detail. Instruction: empty top-left square is filled by a duplicate 3, while original order persists; expected 1\u201315 ordering with a final empty square is absent. Quality: coherent wooden tiles but duplicate numeral and no empty square make a clear puzzle-structure flaw. Knowledge: explanation is blank; supplied coupling applies. Instruction failure \u21d2 knowledge invalid."
+    },
+    {
+      "blind_id": "case_36518b45492a9167",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: white background and eight-fork arrangement persist, but surface shading changes to vertical banding and image crop cuts off handle ends. Instruction: eight forks remain instead of the requested six; no count change. Quality: recognizable clean fork silhouettes and tines, with minor unnatural banding on metallic surfaces."
+    }
+  ]
+}

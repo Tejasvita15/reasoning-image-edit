@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b003",
+  "results": [
+    {
+      "blind_id": "case_9d4b6c980df777e4",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: numbered tiles, colors, arrangement and shadows remain intact. Instruction: only the question-mark shape changes; no number is filled in. The expected 410 is absent. Knowledge: the difference-and-sum result is not provided. Instruction failure \u21d2 knowledge invalid. Quality: the colored puzzle is coherent with clearly legible numerals and clean tile boundaries."
+    },
+    {
+      "blind_id": "case_686d6591e79c3f06",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: monitor, cuff, buttons and auxiliary readings retain their layout, but the white background becomes visibly gray. Instruction: the display remains 123/72 rather than hypotensive values. Knowledge: neither systolic below 90 nor diastolic below 60 is shown. Instruction failure \u21d2 knowledge invalid. Quality: device structure, display text, cuff texture and lighting remain natural and coherent."
+    }
+  ]
+}

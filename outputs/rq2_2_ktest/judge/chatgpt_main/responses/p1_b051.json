@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b051",
+  "results": [
+    {
+      "blind_id": "case_c023a33b96de6ca1",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: other numbers and purple diagram style remain, but the diagram outlines are vertically expanded and shifted. Instruction: the question mark is replaced by 112 rather than the required 45, so number filling is only partially correct. Knowledge: 112 contradicts the stated sum rule; 45+12+23+34=114. Quality: the three diagrams and all numerals are clear and coherent without visible artifacts."
+    },
+    {
+      "blind_id": "case_5d18dcbea8a6092d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the pineapple retains its brown rind and green crown, but background brightness and fine rind/crown shapes change noticeably beyond viewpoint. Instruction: the output remains an upright side view with the full elongated fruit visible; the reference requires a compact top view with crown occluding the body. Quality: the isolated pineapple has coherent rind, leaves, and clean contours without noticeable generation flaws."
+    }
+  ]
+}

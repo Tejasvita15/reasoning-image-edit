@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b031",
+  "results": [
+    {
+      "blind_id": "case_55161d4ea9fa751d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The black jacket and orange branding remain recognizable, but the gray background becomes white and the shoulder stripe count/design changes. The edit is a drawing of essentially the original oblique frontal view, not the overhead view in the reference with a central neck opening and strongly foreshortened torso. The drawing itself has coherent seams, folds and clean outlines."
+    },
+    {
+      "blind_id": "case_e8ee14eac4c93e59",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The grid and all eight original dot arrays remain intact. The question mark is replaced by one large black disc rather than a four-by-four array following the same-color comparison rule. Most required structure and individual dot decisions are missing; instruction failure implies knowledge invalid. The edited black-and-white diagram is clean and visually well formed on its own."
+    }
+  ]
+}

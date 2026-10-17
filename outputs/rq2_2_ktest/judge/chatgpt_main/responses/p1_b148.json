@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b148",
+  "results": [
+    {
+      "blind_id": "case_b320fffefd14397a",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The board, backdrop and bread arrangement are retained, with a small local change to the crust texture. There are still five discernible slices rather than six, so the requested count change is absent. The bread and wood surfaces look natural and structurally coherent."
+    },
+    {
+      "blind_id": "case_48b9db0cb9a78fcf",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "The coastline, rocks, sky and white foam arrangement remain consistent. The turquoise foreground water becomes visibly red across the tidal current, fulfilling the instruction and the supplied expectation that the water turns red. Waves, foam and shore boundaries remain coherent and free of noticeable artifacts."
+    }
+  ]
+}

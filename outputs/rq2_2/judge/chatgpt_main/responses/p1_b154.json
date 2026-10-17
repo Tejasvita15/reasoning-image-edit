@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b154",
+  "results": [
+    {
+      "blind_id": "case_3148c7981c5e4833",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Mountain silhouettes persist, but foreground vegetation is noticeably brighter. Instruction: The sky gains brighter stars and pale haze, with no recognizable aurora bands or curtains. Knowledge: Required aurora is absent; instruction failure \u21d2 knowledge invalid. Quality: Landscape is coherent, but dense wormlike sky texture creates a conspicuous artifact."
+    },
+    {
+      "blind_id": "case_119ebec1e6bb455c",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Riverbanks, trees, fields and sky remain with a small change in distant fence detail. Instruction: A Chinese-style boat is added to the river, but it has a rigid pavilion cabin rather than the requested Jiangnan black canopy. Knowledge: Its architectural roof differs clearly from the expected rounded Wu-peng canopy. Quality: Coherent hull, cabin, water contact and reflection."
+    }
+  ]
+}

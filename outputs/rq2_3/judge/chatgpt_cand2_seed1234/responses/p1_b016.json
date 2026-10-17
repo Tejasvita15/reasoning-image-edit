@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b016",
+  "results": [
+    {
+      "blind_id": "case_f71371bd534ddb5b",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: black frame, easel, plant photograph and white background persist, but photo content/crop and small branding details change. Instruction: a broad front face remains visible with a slight angle, whereas the reference is an edge-on profile with the triangular stand exposed. Quality: coherent frame and foliage, with slightly garbled small print."
+    },
+    {
+      "blind_id": "case_bd5f1565cd81aac9",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "Consistency: frog, original blue/red hands, eight surrounding outlines, dashed marks and white background remain in place. Instruction: all surrounding hands are filled red; coloring is performed but the blue-handed orientation is not distinguished. Quality: clean readable hand silhouettes and coherent cartoon colors. Knowledge: explanation is blank; task and visible frog imply matching handedness, yet both mirror orientations are red, creating several mismatches."
+    }
+  ]
+}

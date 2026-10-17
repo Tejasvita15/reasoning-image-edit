@@ -1,0 +1,7 @@
+thinking,true_cfg_scale,n,mean_Q,visual_consistency,visual_quality,instruction_following,knowledge_plausibility,n_knowledge
+off,2,90,50.25,3.26,3.99,2.38,1.76,49
+off,6,90,53.87,3.24,4.21,2.57,1.9,49
+off,10,90,54.21,3.13,4.27,2.66,1.96,49
+on,2,90,53.84,3.38,4.03,2.7,1.78,49
+on,6,90,58.56,3.44,4.26,2.93,2.02,49
+on,10,90,56.53,3.36,4.08,2.88,2.02,49

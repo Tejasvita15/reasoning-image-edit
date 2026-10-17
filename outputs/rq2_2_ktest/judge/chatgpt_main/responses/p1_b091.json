@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b091",
+  "results": [
+    {
+      "blind_id": "case_3e99e3661c826e38",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Bottle, stopper, label and background remain consistent. The clear liquid turns visibly pink, matching the requested indicator color and supplied alkaline-liquid explanation. Glass edges and text are coherent, though the pink fill appears slightly opaque and uniform."
+    },
+    {
+      "blind_id": "case_f80d4c328353c6a4",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "The Eiffel Tower is replaced by a clearly recognizable Statue of Liberty with crown, raised torch, tablet and pedestal, satisfying the requested identity and explanation. Surrounding rooftops and sky largely remain, with minor local building-detail drift. Statue geometry, folds and warm lighting are coherent and well integrated."
+    }
+  ]
+}

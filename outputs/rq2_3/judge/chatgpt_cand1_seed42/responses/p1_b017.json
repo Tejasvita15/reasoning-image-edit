@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b017",
+  "results": [
+    {
+      "blind_id": "case_12fa10a77c152c60",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: turquoise sandal, pink nails, rainy ground and framing persist; slight sandal sole contour change is visible. Instruction: all seven toes remain, so the conspicuous extra-toe anatomy is not corrected. Quality: despite convincing skin, polish and rain texture, seven toes and finger-like elongated proportions are a major anatomical failure."
+    },
+    {
+      "blind_id": "case_27e7637b1a1132db",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: gray-white setting remains, but the upright cup shifts/changes scale and an extra cup is added. Instruction: the original left cup still lies on its side; a third cup is placed partly over the right cup instead of moving the left one. Quality: intersecting cup walls, ambiguous support and fused overlap between upper and right cups create multiple distracting structural errors."
+    }
+  ]
+}

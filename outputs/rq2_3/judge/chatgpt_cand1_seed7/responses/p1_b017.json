@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b017",
+  "results": [
+    {
+      "blind_id": "case_a5b9020c85891ead",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: ornate dark frame and crane/pine composition are retained, but fine painting details and calligraphy are visibly altered. Instruction: centered frame, blue clouds, flying cranes, glow and correct headline wording are present; headline is script rather than serif, and bottom-left event information is garbled rather than usable handwritten details. Quality: prominent illegible bottom text, residual watermarks and distorted small decorative details degrade the otherwise coherent poster."
+    },
+    {
+      "blind_id": "case_904ecb0a1bd28e96",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 4,
+      "rationale": "Consistency: glass shape, water level, bubbles, tabletop and blurred classroom equipment remain aligned and unchanged outside the pencil insertion. Instruction: a yellow pencil is visibly inserted through the glass opening into the water, with its tip near the bottom. Knowledge: a small offset/thickness change appears at the waterline, but the submerged shaft remains almost collinear, making the expected apparent break weak. Quality: coherent glass and pencil with realistic transparency; the slight irregular join at the waterline is a minor imperfection."
+    }
+  ]
+}

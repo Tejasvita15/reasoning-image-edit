@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b032",
+  "results": [
+    {
+      "blind_id": "case_625b787e4fc37af9",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Most match orientations and heads change, the first 5 becomes 6, the 2 becomes 5 and the minus becomes an open bracket-like symbol. This is not a one-match move yielding a correct equation; instruction failure implies knowledge invalid. No knowledge explanation is supplied, but the visible result also fails basic equation syntax. Individual matches look coherent, while the malformed operator is a clear semantic flaw."
+    },
+    {
+      "blind_id": "case_351f6b6392241ff2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The tablet's position, dimensions and bezel proportions change, alongside the phone's placement. The phone remains substantially narrower and shorter than the tablet, so the intended size match is largely absent despite slight resizing. The edited devices themselves have clean rectangular structures, plausible screens and coherent shadows."
+    }
+  ]
+}

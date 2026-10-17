@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b025",
+  "results": [
+    {
+      "blind_id": "case_e1e5b2a37dc53aac",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The wooden pushpins and their arrangement are completely replaced by cropped manicured fingers, retaining only a pale background. Although six fingernails are visible, this misinterprets the requested count change to the pictured hardware. Judged alone, the close-up has coherent visible finger anatomy, polished nail surfaces and natural soft shadows."
+    },
+    {
+      "blind_id": "case_d355f582f4e9a2d2",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "The two chocolate-covered cookies retain their recognizable shapes, cracks and drizzle pattern while the requested setting changes. Velvet, slate, warm upper-left light and an upper-right title are added, but the title is heavily garbled and the viewpoint remains looking down rather than slightly upward. Cookie and fabric rendering are coherent, but the many malformed words are distracting visual and semantic defects."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b007",
+  "results": [
+    {
+      "blind_id": "case_944333372f07b9ce",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: green scissors and white background are retained; the small scissors rotate and their blade profile changes noticeably. Instruction: large green scissors remain much larger; expected reduction to small-scissors size is absent. Quality: coherent metal blades, pivot, handle loops and soft shadows; no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_f768784835fb99fc",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the shoe that should remain is also removed, eliminating the major protected subject; gray backdrop remains. Instruction: both shoes disappear, whereas exactly one should remain; removal is substantially over-applied. Quality: edited image alone is a smooth coherent gray background without visible artifacts or damaged structures."
+    }
+  ]
+}

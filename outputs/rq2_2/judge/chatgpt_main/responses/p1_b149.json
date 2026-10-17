@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b149",
+  "results": [
+    {
+      "blind_id": "case_5f7b539744e2ab08",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: White background and bag identities remain, but the small bag shifts and its shape/cord arrangement changes. Instruction: The right bag is barely reduced and stays much taller and wider than the small bag, missing the requested size match. Quality: Coherent burlap texture, cords, beads and shadows."
+    },
+    {
+      "blind_id": "case_a48dfcc131d2bd11",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Mountain, trees, guardrail and lamp posts remain in place; the small distant roadside sign is subtly simplified. Instruction: Branching cracks, uplifted slabs and damaged road edges show earthquake effects clearly. Knowledge: Both pavement cracking and surface deformation are present. Quality: Fractured asphalt has coherent depth and perspective in a natural landscape."
+    }
+  ]
+}

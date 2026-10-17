@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b113",
+  "results": [
+    {
+      "blind_id": "case_93787ffc376f46fb",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "The blue sky, sun and cloud layout remain closely matched, with minor cloud-texture changes. The gull becomes a brown hooked-beak bird with a narrow eagle-like head, not the required owl with its characteristic facial disc; the main identity requirement fails. Instruction failure \u21d2 knowledge invalid. Wings and feathers are coherent, with slight blending in the clustered feet."
+    },
+    {
+      "blind_id": "case_18055278289507c4",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Large 0, 3 and 8 numerals are added inside all three formerly empty squares, altering multiple unrelated elements. The question mark remains, rather than being replaced by 35 as required by the equal-ratio pattern. Instruction failure \u21d2 knowledge invalid. The graphic is legible and orderly, with minor rough fragmented edges on the printed numerals and outlines."
+    }
+  ]
+}

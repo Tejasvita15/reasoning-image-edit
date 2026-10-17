@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b011",
+  "results": [
+    {
+      "blind_id": "case_49ed2ef5f8302ab1",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: snowy foreground and blurred building remain, but fox ears become taller/pointed and facial proportions change beyond seasonal fur. Instruction: the white coat becomes shorter and darker, indicating seasonal change, but the result is predominantly orange-brown rather than the expected gray summer coat. Knowledge: one clear mismatch with the supplied gray-fur explanation. Quality: natural coherent fox anatomy, detailed fur, plausible snow contact and background depth without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_80da8ade599d9924",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: all other colored circles, grid lines and white cells remain visually unchanged. Instruction: the question mark is replaced in the correct cell, but with an oversized green circle instead of the required blue circle, failing the central pattern answer. Knowledge: supplied explanation explicitly requires blue. Instruction failure ⇒ knowledge invalid. Quality: coherent grid and clean colored circular marks; no noticeable artifacts."
+    }
+  ]
+}

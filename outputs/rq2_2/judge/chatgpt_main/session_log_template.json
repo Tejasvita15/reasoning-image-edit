@@ -1,0 +1,1082 @@
+{
+  "p1_b001": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:50:52.860221+00:00",
+    "conversation_url_or_id": "/root/judge_001"
+  },
+  "p1_b002": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:51:16.290586+00:00",
+    "conversation_url_or_id": "/root/judge_002"
+  },
+  "p1_b003": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:51:41.908887+00:00",
+    "conversation_url_or_id": "/root/judge_003"
+  },
+  "p1_b004": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:52:04.813935+00:00",
+    "conversation_url_or_id": "/root/judge_004"
+  },
+  "p1_b005": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:52:26.284367+00:00",
+    "conversation_url_or_id": "/root/judge_005"
+  },
+  "p1_b006": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:52:59.197434+00:00",
+    "conversation_url_or_id": "/root/judge_006"
+  },
+  "p1_b007": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:53:25.823396+00:00",
+    "conversation_url_or_id": "/root/judge_007"
+  },
+  "p1_b008": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:53:49.719452+00:00",
+    "conversation_url_or_id": "/root/judge_008"
+  },
+  "p1_b009": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:54:13.336099+00:00",
+    "conversation_url_or_id": "/root/judge_009"
+  },
+  "p1_b010": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:54:35.946748+00:00",
+    "conversation_url_or_id": "/root/judge_010"
+  },
+  "p1_b011": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:55:11.197584+00:00",
+    "conversation_url_or_id": "/root/judge_011"
+  },
+  "p1_b012": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:55:37.354890+00:00",
+    "conversation_url_or_id": "/root/judge_012"
+  },
+  "p1_b013": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:56:05.354093+00:00",
+    "conversation_url_or_id": "/root/judge_013"
+  },
+  "p1_b014": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:56:34.659508+00:00",
+    "conversation_url_or_id": "/root/judge_014"
+  },
+  "p1_b015": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:57:03.244161+00:00",
+    "conversation_url_or_id": "/root/judge_015"
+  },
+  "p1_b016": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:57:42.741133+00:00",
+    "conversation_url_or_id": "/root/judge_016"
+  },
+  "p1_b017": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:58:13.929543+00:00",
+    "conversation_url_or_id": "/root/judge_017"
+  },
+  "p1_b018": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:58:40.783161+00:00",
+    "conversation_url_or_id": "/root/judge_018"
+  },
+  "p1_b019": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:59:07.972705+00:00",
+    "conversation_url_or_id": "/root/judge_019"
+  },
+  "p1_b020": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:59:41.759878+00:00",
+    "conversation_url_or_id": "/root/judge_020"
+  },
+  "p1_b021": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:01:47.419827+00:00",
+    "conversation_url_or_id": "/root/judge_021"
+  },
+  "p1_b022": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:02:08.531204+00:00",
+    "conversation_url_or_id": "/root/judge_022"
+  },
+  "p1_b023": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:02:31.300329+00:00",
+    "conversation_url_or_id": "/root/judge_023"
+  },
+  "p1_b024": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:02:57.519477+00:00",
+    "conversation_url_or_id": "/root/judge_024"
+  },
+  "p1_b025": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:03:20.072686+00:00",
+    "conversation_url_or_id": "/root/judge_025"
+  },
+  "p1_b026": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:03:55.801156+00:00",
+    "conversation_url_or_id": "/root/judge_026"
+  },
+  "p1_b027": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:04:21.243758+00:00",
+    "conversation_url_or_id": "/root/judge_027"
+  },
+  "p1_b028": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:04:44.605539+00:00",
+    "conversation_url_or_id": "/root/judge_028"
+  },
+  "p1_b029": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:05:08.014728+00:00",
+    "conversation_url_or_id": "/root/judge_029"
+  },
+  "p1_b030": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:05:31.223985+00:00",
+    "conversation_url_or_id": "/root/judge_030"
+  },
+  "p1_b031": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:06:17.846942+00:00",
+    "conversation_url_or_id": "/root/judge_031"
+  },
+  "p1_b032": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:06:51.433319+00:00",
+    "conversation_url_or_id": "/root/judge_032"
+  },
+  "p1_b033": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:07:13.392076+00:00",
+    "conversation_url_or_id": "/root/judge_033"
+  },
+  "p1_b034": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:07:36.528168+00:00",
+    "conversation_url_or_id": "/root/judge_034"
+  },
+  "p1_b035": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:08:02.386157+00:00",
+    "conversation_url_or_id": "/root/judge_035"
+  },
+  "p1_b036": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:08:49.181367+00:00",
+    "conversation_url_or_id": "/root/judge_036"
+  },
+  "p1_b037": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:09:16.011392+00:00",
+    "conversation_url_or_id": "/root/judge_037"
+  },
+  "p1_b038": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:09:43.871169+00:00",
+    "conversation_url_or_id": "/root/judge_038"
+  },
+  "p1_b039": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:10:13.397695+00:00",
+    "conversation_url_or_id": "/root/judge_039"
+  },
+  "p1_b040": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:10:42.279176+00:00",
+    "conversation_url_or_id": "/root/judge_040"
+  },
+  "p1_b041": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:12:55.985293+00:00",
+    "conversation_url_or_id": "/root/judge_041"
+  },
+  "p1_b042": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:13:22.301171+00:00",
+    "conversation_url_or_id": "/root/judge_042"
+  },
+  "p1_b043": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:13:44.030843+00:00",
+    "conversation_url_or_id": "/root/judge_043"
+  },
+  "p1_b044": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:14:10.572804+00:00",
+    "conversation_url_or_id": "/root/judge_044"
+  },
+  "p1_b045": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:14:33.294476+00:00",
+    "conversation_url_or_id": "/root/judge_045"
+  },
+  "p1_b046": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:15:10.992769+00:00",
+    "conversation_url_or_id": "/root/judge_046"
+  },
+  "p1_b047": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:15:44.248486+00:00",
+    "conversation_url_or_id": "/root/judge_047"
+  },
+  "p1_b048": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:16:12.029286+00:00",
+    "conversation_url_or_id": "/root/judge_048"
+  },
+  "p1_b049": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:16:37.883542+00:00",
+    "conversation_url_or_id": "/root/judge_049"
+  },
+  "p1_b050": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:17:06.184412+00:00",
+    "conversation_url_or_id": "/root/judge_050"
+  },
+  "p1_b051": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:17:52.075568+00:00",
+    "conversation_url_or_id": "/root/judge_051"
+  },
+  "p1_b052": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:18:26.845326+00:00",
+    "conversation_url_or_id": "/root/judge_052"
+  },
+  "p1_b053": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:18:54.347436+00:00",
+    "conversation_url_or_id": "/root/judge_053"
+  },
+  "p1_b054": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:19:23.627452+00:00",
+    "conversation_url_or_id": "/root/judge_054"
+  },
+  "p1_b055": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:19:48.586842+00:00",
+    "conversation_url_or_id": "/root/judge_055"
+  },
+  "p1_b056": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:20:32.598314+00:00",
+    "conversation_url_or_id": "/root/judge_056"
+  },
+  "p1_b057": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:21:02.496471+00:00",
+    "conversation_url_or_id": "/root/judge_057"
+  },
+  "p1_b058": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:21:35.266229+00:00",
+    "conversation_url_or_id": "/root/judge_058"
+  },
+  "p1_b059": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:22:09.837134+00:00",
+    "conversation_url_or_id": "/root/judge_059"
+  },
+  "p1_b060": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:24:01.243398+00:00",
+    "conversation_url_or_id": "/root/judge_060"
+  },
+  "p1_b061": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:51:17.036227+00:00",
+    "conversation_url_or_id": "/root/judge_061"
+  },
+  "p1_b062": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:51:36.727953+00:00",
+    "conversation_url_or_id": "/root/judge_062"
+  },
+  "p1_b063": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:51:58.035131+00:00",
+    "conversation_url_or_id": "/root/judge_063"
+  },
+  "p1_b064": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:52:38.438002+00:00",
+    "conversation_url_or_id": "/root/judge_064"
+  },
+  "p1_b065": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:53:05.222689+00:00",
+    "conversation_url_or_id": "/root/judge_065"
+  },
+  "p1_b066": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:53:46.894790+00:00",
+    "conversation_url_or_id": "/root/judge_066"
+  },
+  "p1_b067": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:54:09.659221+00:00",
+    "conversation_url_or_id": "/root/judge_067"
+  },
+  "p1_b068": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:54:42.635620+00:00",
+    "conversation_url_or_id": "/root/judge_068"
+  },
+  "p1_b069": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:55:36.819392+00:00",
+    "conversation_url_or_id": "/root/judge_069"
+  },
+  "p1_b070": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:56:02.650433+00:00",
+    "conversation_url_or_id": "/root/judge_070"
+  },
+  "p1_b071": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:59:50.121725+00:00",
+    "conversation_url_or_id": "/root/judge_071"
+  },
+  "p1_b072": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:00:51.111885+00:00",
+    "conversation_url_or_id": "/root/judge_072"
+  },
+  "p1_b073": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:01:51.835162+00:00",
+    "conversation_url_or_id": "/root/judge_073"
+  },
+  "p1_b074": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:02:33.110950+00:00",
+    "conversation_url_or_id": "/root/judge_074"
+  },
+  "p1_b075": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:03:08.962645+00:00",
+    "conversation_url_or_id": "/root/judge_075"
+  },
+  "p1_b076": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:04:20.689040+00:00",
+    "conversation_url_or_id": "/root/judge_076"
+  },
+  "p1_b077": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:05:19.378962+00:00",
+    "conversation_url_or_id": "/root/judge_077"
+  },
+  "p1_b078": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:06:17.481395+00:00",
+    "conversation_url_or_id": "/root/judge_078"
+  },
+  "p1_b079": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:08:20.867826+00:00",
+    "conversation_url_or_id": "/root/judge_079"
+  },
+  "p1_b080": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:08:52.557005+00:00",
+    "conversation_url_or_id": "/root/judge_080"
+  },
+  "p1_b081": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:09:40.216164+00:00",
+    "conversation_url_or_id": "/root/judge_081"
+  },
+  "p1_b082": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:10:12.171563+00:00",
+    "conversation_url_or_id": "/root/judge_082"
+  },
+  "p1_b083": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:10:54.667826+00:00",
+    "conversation_url_or_id": "/root/judge_083"
+  },
+  "p1_b084": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:11:33.362345+00:00",
+    "conversation_url_or_id": "/root/judge_084"
+  },
+  "p1_b085": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:12:03.800382+00:00",
+    "conversation_url_or_id": "/root/judge_085"
+  },
+  "p1_b086": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:12:59.111032+00:00",
+    "conversation_url_or_id": "/root/judge_086"
+  },
+  "p1_b087": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:13:45.877078+00:00",
+    "conversation_url_or_id": "/root/judge_087"
+  },
+  "p1_b088": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:14:21.349213+00:00",
+    "conversation_url_or_id": "/root/judge_088"
+  },
+  "p1_b089": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:14:47.802509+00:00",
+    "conversation_url_or_id": "/root/judge_089"
+  },
+  "p1_b090": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:15:34.241886+00:00",
+    "conversation_url_or_id": "/root/judge_090"
+  },
+  "p1_b091": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:16:53.428390+00:00",
+    "conversation_url_or_id": "/root/judge_091"
+  },
+  "p1_b092": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:17:33.007716+00:00",
+    "conversation_url_or_id": "/root/judge_092"
+  },
+  "p1_b093": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:18:14.718951+00:00",
+    "conversation_url_or_id": "/root/judge_093"
+  },
+  "p1_b094": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:19:21.587374+00:00",
+    "conversation_url_or_id": "/root/judge_094"
+  },
+  "p1_b095": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:19:58.870601+00:00",
+    "conversation_url_or_id": "/root/judge_095"
+  },
+  "p1_b096": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:22:02.684867+00:00",
+    "conversation_url_or_id": "/root/judge_096"
+  },
+  "p1_b097": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:23:24.151256+00:00",
+    "conversation_url_or_id": "/root/judge_097"
+  },
+  "p1_b098": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:25:33.565633+00:00",
+    "conversation_url_or_id": "/root/judge_098"
+  },
+  "p1_b099": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:25:55.145786+00:00",
+    "conversation_url_or_id": "/root/judge_099"
+  },
+  "p1_b100": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:26:16.275183+00:00",
+    "conversation_url_or_id": "/root/judge_100"
+  },
+  "p1_b101": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:24:29.317475+00:00",
+    "conversation_url_or_id": "/root/judge_101"
+  },
+  "p1_b102": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:24:54.058161+00:00",
+    "conversation_url_or_id": "/root/judge_102"
+  },
+  "p1_b103": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:25:21.906551+00:00",
+    "conversation_url_or_id": "/root/judge_103"
+  },
+  "p1_b104": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:25:44.860356+00:00",
+    "conversation_url_or_id": "/root/judge_104"
+  },
+  "p1_b105": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:26:13.337545+00:00",
+    "conversation_url_or_id": "/root/judge_105"
+  },
+  "p1_b106": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:26:49.275987+00:00",
+    "conversation_url_or_id": "/root/judge_106"
+  },
+  "p1_b107": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:27:13.931412+00:00",
+    "conversation_url_or_id": "/root/judge_107"
+  },
+  "p1_b108": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:27:41.528389+00:00",
+    "conversation_url_or_id": "/root/judge_108"
+  },
+  "p1_b109": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:28:05.507011+00:00",
+    "conversation_url_or_id": "/root/judge_109"
+  },
+  "p1_b110": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:28:33.415075+00:00",
+    "conversation_url_or_id": "/root/judge_110"
+  },
+  "p1_b111": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:26:58.030564+00:00",
+    "conversation_url_or_id": "/root/judge_111"
+  },
+  "p1_b112": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:27:25.472318+00:00",
+    "conversation_url_or_id": "/root/judge_112"
+  },
+  "p1_b113": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:27:55.303860+00:00",
+    "conversation_url_or_id": "/root/judge_113"
+  },
+  "p1_b114": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:28:40.584981+00:00",
+    "conversation_url_or_id": "/root/judge_114"
+  },
+  "p1_b115": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:29:08.021104+00:00",
+    "conversation_url_or_id": "/root/judge_115"
+  },
+  "p1_b116": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:30:11.255220+00:00",
+    "conversation_url_or_id": "/root/judge_116"
+  },
+  "p1_b117": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:30:56.007034+00:00",
+    "conversation_url_or_id": "/root/judge_117"
+  },
+  "p1_b118": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:29:07.757893+00:00",
+    "conversation_url_or_id": "/root/judge_118"
+  },
+  "p1_b119": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:29:39.221765+00:00",
+    "conversation_url_or_id": "/root/judge_119"
+  },
+  "p1_b120": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:30:03.865357+00:00",
+    "conversation_url_or_id": "/root/judge_120"
+  },
+  "p1_b121": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:51:30.610188+00:00",
+    "conversation_url_or_id": "/root/judge_121"
+  },
+  "p1_b122": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:51:58.466142+00:00",
+    "conversation_url_or_id": "/root/judge_122"
+  },
+  "p1_b123": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:52:22.743105+00:00",
+    "conversation_url_or_id": "/root/judge_123"
+  },
+  "p1_b124": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:52:50.205653+00:00",
+    "conversation_url_or_id": "/root/judge_124"
+  },
+  "p1_b125": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:53:08.035761+00:00",
+    "conversation_url_or_id": "/root/judge_125"
+  },
+  "p1_b126": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:53:41.814062+00:00",
+    "conversation_url_or_id": "/root/judge_126"
+  },
+  "p1_b127": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:54:09.659109+00:00",
+    "conversation_url_or_id": "/root/judge_127"
+  },
+  "p1_b128": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:54:35.567929+00:00",
+    "conversation_url_or_id": "/root/judge_128"
+  },
+  "p1_b129": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:55:02.699288+00:00",
+    "conversation_url_or_id": "/root/judge_129"
+  },
+  "p1_b130": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:55:22.217656+00:00",
+    "conversation_url_or_id": "/root/judge_130"
+  },
+  "p1_b131": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:56:09.040859+00:00",
+    "conversation_url_or_id": "/root/judge_131"
+  },
+  "p1_b132": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:56:31.525522+00:00",
+    "conversation_url_or_id": "/root/judge_132"
+  },
+  "p1_b133": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:56:56.612524+00:00",
+    "conversation_url_or_id": "/root/judge_133"
+  },
+  "p1_b134": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:57:22.945920+00:00",
+    "conversation_url_or_id": "/root/judge_134"
+  },
+  "p1_b135": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:57:47.113971+00:00",
+    "conversation_url_or_id": "/root/judge_135"
+  },
+  "p1_b136": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:58:33.571750+00:00",
+    "conversation_url_or_id": "/root/judge_136"
+  },
+  "p1_b137": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:59:03.686262+00:00",
+    "conversation_url_or_id": "/root/judge_137"
+  },
+  "p1_b138": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T13:59:28.849228+00:00",
+    "conversation_url_or_id": "/root/judge_138"
+  },
+  "p1_b139": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:00:00.477258+00:00",
+    "conversation_url_or_id": "/root/judge_139"
+  },
+  "p1_b140": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:00:31.683918+00:00",
+    "conversation_url_or_id": "/root/judge_140"
+  },
+  "p1_b141": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:02:36.432463+00:00",
+    "conversation_url_or_id": "/root/judge_141"
+  },
+  "p1_b142": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:03:08.525351+00:00",
+    "conversation_url_or_id": "/root/judge_142"
+  },
+  "p1_b143": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:03:44.356565+00:00",
+    "conversation_url_or_id": "/root/judge_143"
+  },
+  "p1_b144": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:04:19.873460+00:00",
+    "conversation_url_or_id": "/root/judge_144"
+  },
+  "p1_b145": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:04:48.487930+00:00",
+    "conversation_url_or_id": "/root/judge_145"
+  },
+  "p1_b146": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:05:22.195925+00:00",
+    "conversation_url_or_id": "/root/judge_146"
+  },
+  "p1_b147": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:05:58.855889+00:00",
+    "conversation_url_or_id": "/root/judge_147"
+  },
+  "p1_b148": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:06:30.560420+00:00",
+    "conversation_url_or_id": "/root/judge_148"
+  },
+  "p1_b149": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:07:03.654902+00:00",
+    "conversation_url_or_id": "/root/judge_149"
+  },
+  "p1_b150": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:07:36.194143+00:00",
+    "conversation_url_or_id": "/root/judge_150"
+  },
+  "p1_b151": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:08:16.410719+00:00",
+    "conversation_url_or_id": "/root/judge_151"
+  },
+  "p1_b152": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:09:01.694869+00:00",
+    "conversation_url_or_id": "/root/judge_152"
+  },
+  "p1_b153": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:09:37.806245+00:00",
+    "conversation_url_or_id": "/root/judge_153"
+  },
+  "p1_b154": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:10:15.457946+00:00",
+    "conversation_url_or_id": "/root/judge_154"
+  },
+  "p1_b155": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:10:55.631095+00:00",
+    "conversation_url_or_id": "/root/judge_155"
+  },
+  "p1_b156": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:12:32.633895+00:00",
+    "conversation_url_or_id": "/root/judge_156"
+  },
+  "p1_b157": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:13:26.004572+00:00",
+    "conversation_url_or_id": "/root/judge_157"
+  },
+  "p1_b158": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:14:27.240913+00:00",
+    "conversation_url_or_id": "/root/judge_158"
+  },
+  "p1_b159": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:16:58.744139+00:00",
+    "conversation_url_or_id": "/root/judge_159"
+  },
+  "p1_b160": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:17:38.148440+00:00",
+    "conversation_url_or_id": "/root/judge_160"
+  },
+  "p1_b161": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:18:14.280315+00:00",
+    "conversation_url_or_id": "/root/judge_161"
+  },
+  "p1_b162": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:18:47.604297+00:00",
+    "conversation_url_or_id": "/root/judge_162"
+  },
+  "p1_b163": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:19:18.682317+00:00",
+    "conversation_url_or_id": "/root/judge_163"
+  },
+  "p1_b164": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:19:45.341917+00:00",
+    "conversation_url_or_id": "/root/judge_164"
+  },
+  "p1_b165": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:20:18.073807+00:00",
+    "conversation_url_or_id": "/root/judge_165"
+  },
+  "p1_b166": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:21:13.863621+00:00",
+    "conversation_url_or_id": "/root/judge_166"
+  },
+  "p1_b167": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:21:44.520051+00:00",
+    "conversation_url_or_id": "/root/judge_167"
+  },
+  "p1_b168": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:22:31.525667+00:00",
+    "conversation_url_or_id": "/root/judge_168"
+  },
+  "p1_b169": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:23:01.822551+00:00",
+    "conversation_url_or_id": "/root/judge_169"
+  },
+  "p1_b170": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:23:59.773120+00:00",
+    "conversation_url_or_id": "/root/judge_170"
+  },
+  "p1_b171": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:25:07.621131+00:00",
+    "conversation_url_or_id": "/root/judge_171"
+  },
+  "p1_b172": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:25:46.348248+00:00",
+    "conversation_url_or_id": "/root/judge_172"
+  },
+  "p1_b173": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:26:20.985736+00:00",
+    "conversation_url_or_id": "/root/judge_173"
+  },
+  "p1_b174": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:27:00.779097+00:00",
+    "conversation_url_or_id": "/root/judge_174"
+  },
+  "p1_b175": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:27:49.652139+00:00",
+    "conversation_url_or_id": "/root/judge_175"
+  },
+  "p1_b176": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:28:57.998562+00:00",
+    "conversation_url_or_id": "/root/judge_176"
+  },
+  "p1_b177": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:29:39.801704+00:00",
+    "conversation_url_or_id": "/root/judge_177"
+  },
+  "p1_b178": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:30:23.889805+00:00",
+    "conversation_url_or_id": "/root/judge_178"
+  },
+  "p1_b179": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:33:11.054477+00:00",
+    "conversation_url_or_id": "/root/judge_179"
+  },
+  "p1_b180": {
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "judged_at": "2026-10-07T14:33:10.973042+00:00",
+    "conversation_url_or_id": "/root/judge_180"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b247",
+  "results": [
+    {
+      "blind_id": "case_2b1ce74929b7efb2",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The round sapphire, gold bezel and bail remain, while chain-link shapes change slightly beyond the permitted repositioning and lighting. A centered pendant and gray-blue fabric backdrop are provided, but the pendant sits low, lacks star-like sparkle, and the bottom text uses sans-serif lettering with 'yed' instead of 'yet'. The jewelry remains coherent, but the malformed word is a clear semantic flaw."
+    },
+    {
+      "blind_id": "case_9ba9f6707ce318b8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "The room layout, window, curtains and furniture remain, but the wall carving, cushion weave and blanket folds are noticeably remodeled. Several balloons are added aloft instead of one ordinary-air balloon on the floor. The addition addresses the object but misses its requested state; floating upward contradicts the supplied floor-resting expectation. The scene is otherwise coherent, with a small irregularity in the tangled balloon ties."
+    }
+  ]
+}

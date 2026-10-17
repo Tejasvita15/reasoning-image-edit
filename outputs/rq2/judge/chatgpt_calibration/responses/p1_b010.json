@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b010",
+  "results": [
+    {
+      "blind_id": "case_c7e062316769f74e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and two-bag composition remain, but the left pouch is shifted and reshaped, its folded opening changes, and the cords, beads and fringe positions differ. These changes are outside the requested resizing of the right pouch. Instruction: The right pouch still rises far above the left and remains considerably wider; the target size match is not achieved. Quality: The sacks have plausible seams, woven texture, gathered fabric and cord attachments, and the bead and fringe details remain naturally rendered."
+    },
+    {
+      "blind_id": "case_f60bcb5db44d2fed",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The tray of green-and-red cans and white background remain recognizable, but the tray geometry, can spacing and printed label details are altered. Instruction: A horizontal can appears on top of the tray, but a separate can is still present on the right; the edit adds a can rather than relocating the original right-hand can completely. Quality: Several labels, especially on the horizontal can, contain distorted lettering, and the separate right-hand can has a visibly warped rim and body. These multiple text and shape defects are distracting."
+    }
+  ]
+}

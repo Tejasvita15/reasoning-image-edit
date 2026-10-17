@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b069",
+  "results": [
+    {
+      "blind_id": "case_7390ab86bf042b20",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the thermometer and cable remain recognizable, but the white studio backdrop becomes a snowy forest, lighting darkens and frost covers the device. Instruction: the original 28.7 display becomes all-lit 88.8-like digits rather than approximately 31.7 degrees. Knowledge: the required roughly three-degree increase is absent; instruction failure \u21d2 knowledge invalid. Quality: the device and snowy surroundings are coherent, but the all-segment display creates a clear semantic problem as a temperature reading."
+    },
+    {
+      "blind_id": "case_5353533a1d5bba9b",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the hillside, trees, guardrail, streetlights and viewpoint are retained, with only slight foliage texture changes outside the road. Instruction: a deep jagged central fissure and branching cracks replace the intact asphalt, clearly showing earthquake road damage. Knowledge: fractured pavement and displaced edges match the stated expected deformation. Quality: cracks follow the road perspective, their shadows and broken edges are believable, and the landscape is coherent."
+    }
+  ]
+}

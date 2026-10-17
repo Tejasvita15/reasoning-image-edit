@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b085",
+  "results": [
+    {
+      "blind_id": "case_fbea7b36701e8ef7",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "The framed crane painting is retained with slight internal-detail variation. Blue clouds, flying cranes, frame glow and the correct main headline appear, but the headline is cursive rather than serif and event information is garbled. Malformed birds and unreadable bottom lettering create multiple distracting defects."
+    },
+    {
+      "blind_id": "case_9084fa98ba8b19d9",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": 2,
+      "rationale": "Existing patterns remain recognizable, but the original grid geometry shifts. The added lower-right square includes the required descending diagonal, yet also an ascending diagonal, extra internal border strokes and a protruding line, violating the XOR result. The isolated misaligned panel and overlapping stray strokes visibly degrade the diagram."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b188",
+  "results": [
+    {
+      "blind_id": "case_ef6cb6b69c8f9a9d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: blue upholstery, brown legs and white background remain, but the chaise is removed and the cushion structure is changed to a compact two-cushion loveseat. Instruction: the sofa turns toward the viewer, yet remains oblique and lacks the reference's three-seat frontage and projecting right chaise; major proportions and structure are wrong. Quality: the edited loveseat is coherent, though the right arm/back upholstery has a small patch of inconsistent coarse texture."
+    },
+    {
+      "blind_id": "case_f918cf264513529b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: several outer wooden pins remain, but central pins are obscured/replaced by added fingers, and other pins are moved or lose metal points. Instruction: the image introduces human fingernails instead of producing exactly six source-type pins. Quality: numerous overlapping, fused and ghosted finger segments create severe anatomical failure, with ambiguous hand structure and blended pin/finger boundaries."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b008",
+  "results": [
+    {
+      "blind_id": "case_1eb1623657b21258",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the smaller bag's weave and folds are redrawn, its cords and tassels shift, and the embroidery changes slightly; the white background remains. Instruction: the right bag remains much taller and wider than the left, so the requested size match is not achieved. Quality: both fabric bags, cords, beads and embroidery are coherent and naturally shaded, with no noticeable structural artifacts."
+    },
+    {
+      "blind_id": "case_c3d12a257640f3d3",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the broad forest layout, distant hills and lighting remain recognizable, but foreground tree crowns and vegetation textures are noticeably altered beyond the river modification. Instruction: the river remains one connected winding channel; no cut-off crescent lake appears. Knowledge: separation from the main channel is absent; instruction failure ⇒ knowledge invalid. Quality: coherent landscape perspective, natural canopy texture and cleanly integrated riverbanks and reflections."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b001",
+  "results": [
+    {
+      "blind_id": "case_d8318e60da7e795d",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: abdominal outline, vertebra, organs and labels remain visually unchanged outside the removed white foci. Instruction: the conspicuous small white particles centrally and in the right-side kidney region disappear, matching removal. Knowledge: removal of those white particles matches the supplied explanation. Quality: coherent CT anatomy and texture, with no conspicuous fill artifacts."
+    },
+    {
+      "blind_id": "case_19109c078b1ca588",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: layout, frog body and surrounding outlines remain, but the frog's blue hand changes to red without authorization. Instruction: all eight surrounding hands remain white; the expected red/blue coloring is absent. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: clean coherent cartoon outlines and fills, without noticeable structural artifacts."
+    }
+  ]
+}

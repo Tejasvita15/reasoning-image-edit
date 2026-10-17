@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b123",
+  "results": [
+    {
+      "blind_id": "case_9a6bf88a30bfd695",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "The blue sky, desert foreground and distant skyline are retained, with only slight changes to small foreground stone textures. The pyramid is now a stepped Maya-style structure with a broad central staircase and summit temple, satisfying the instruction. Its silhouette evokes Kukulkan, though the summit temple openings are a minor architectural mismatch. The masonry, perspective and sunlit surfaces are coherent without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_af267d7af4ba2855",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The original wrapped and exposed chocolates remain recognizable, but their surface details change and an additional pair of smooth chocolate balls appears. Gold lighting, bokeh and a lower central product arrangement are present, but the composition contains four balls and the title says \u201cmoment word celebrating\u201d instead of \u201cmoment worth celebrating.\u201d The edited graphic has an obvious wording defect and an angular, cutout-looking reflection beneath the products, despite coherent lighting and foil texture."
+    }
+  ]
+}

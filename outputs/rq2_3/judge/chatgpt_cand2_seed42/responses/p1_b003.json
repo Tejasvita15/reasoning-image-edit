@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b003",
+  "results": [
+    {
+      "blind_id": "case_a7021271f4310833",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: white background and match colors persist, but numerous untouched sticks disappear or shift beyond two permitted moves. Instruction: 14\u22126=82 becomes an invalid 22=H2-like arrangement, with no subtraction operator and many changes; non-compliance. Quality: matches are recognizable, but the H-like digit and missing operator create clear semantic defects. Knowledge: supplied explanation is blank; required coupling applies: Instruction failure \u21d2 knowledge invalid."
+    },
+    {
+      "blind_id": "case_cb6efabfa193ee75",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: building, snow and field are retained, but ears become pointed and larger and facial anatomy changes beyond fur. Instruction: a thinner brown coat replaces white fur, addressing a seasonal change but not the expected gray summer coat. Quality: natural fur, coherent fox anatomy, grounding and depth of field without noticeable defects. Knowledge: supplied explanation expects gray fur; the strongly orange-brown coat conflicts with that expectation."
+    }
+  ]
+}

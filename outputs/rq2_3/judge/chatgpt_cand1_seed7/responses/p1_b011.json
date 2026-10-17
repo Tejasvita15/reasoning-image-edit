@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b011",
+  "results": [
+    {
+      "blind_id": "case_29f695fe6110464c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: white background and two turtle identities persist, but shell markings, head details and leg poses are visibly redrawn, including on the untargeted small turtle. Instruction: the left turtle remains much larger in shell height and width than the right; the requested reduction to equal size is not achieved. Quality: coherent turtle anatomy, detailed shells and scales and plausible contact shadows with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_8d8d745e891390e6",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: man, hat and tropical background remain recognizable, but facial features are subtly redrawn and the exposed shirt pattern changes noticeably. Instruction: a full multicolored flower garland is added around the neck and drapes down the chest as requested. Knowledge: pink, white and yellow flowers form the multicolored lei specified by the explanation. Quality: natural portrait anatomy, coherent petals and leaves, and plausible garland placement and lighting."
+    }
+  ]
+}

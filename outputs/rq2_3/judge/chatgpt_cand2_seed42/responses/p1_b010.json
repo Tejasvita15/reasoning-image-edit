@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b010",
+  "results": [
+    {
+      "blind_id": "case_0bf8841aa7806337",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: three drawers, gray finish, round knobs and molding are retained; cabinet proportions are slightly narrowed. Instruction: warm wall, wood floor, right curtain and angled sunlight appear, but cabinet stays centered, title is bold rather than thin and omits also; partial compliance. Quality: coherent cabinet, curtain, floor perspective, lighting and fully legible text without noticeable defects."
+    },
+    {
+      "blind_id": "case_c3b8561aa5664638",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: gray three-drawer cabinet, knobs and trim remain with a slight narrowing of proportions. Instruction: cabinet sits slightly left on wood flooring beside a linen curtain, but angled sunlight is weak and bold bottom-right text is truncated to Not only storing items, buso; partial compliance. Quality: plausible furniture and room surfaces, but malformed incomplete caption is a clear semantic flaw."
+    }
+  ]
+}

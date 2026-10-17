@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b037",
+  "results": [
+    {
+      "blind_id": "case_9e321043af174fcf",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "The white background and centered circular extent remain consistent. The flat circle becomes a shaded three-dimensional sphere, precisely matching the requested rotational solid and the explanation. Smooth shading and a coherent round contour give a clean, convincing volume."
+    },
+    {
+      "blind_id": "case_a250257da9c02dc4",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The gray surface and lower-right light patch remain consistent. All seven coins are removed instead of adding one to reach eight, so the count instruction is completely misinterpreted. The resulting empty surface is visually smooth and coherent without residual coin artifacts."
+    }
+  ]
+}

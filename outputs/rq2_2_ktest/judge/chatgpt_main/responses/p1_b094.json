@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b094",
+  "results": [
+    {
+      "blind_id": "case_c851c36ee8462c75",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "A single vertical segment joins the apex to the base midpoint, correctly showing the sole symmetry axis and matching the explanation. The triangle and white layout remain in place, with a slight increase in outline weight. The resulting diagram is clean and coherent."
+    },
+    {
+      "blind_id": "case_144b85f949dcbf1d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The missing right side is restored to a complete circular plate, satisfying the request. The existing inner surface and highlight are substantially redrawn, and decorative marks shift, though the wooden setting remains. The edited plate has a smooth coherent rim, plausible shading and no conspicuous artifacts."
+    }
+  ]
+}

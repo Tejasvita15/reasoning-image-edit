@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b133",
+  "results": [
+    {
+      "blind_id": "case_a14ced8989e06d19",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The white product backdrop becomes a snowy outdoor scene, while the device, cable surfaces and lighting are extensively altered with frost. The display changes from 28.7 to 88.8 rather than approximately 31.7, failing the supplied three-degree increase. Instruction failure \u21d2 knowledge invalid. Independently, the winter product scene has coherent device structure, readable digits and plausible frost, precipitation and lighting."
+    },
+    {
+      "blind_id": "case_24d7e8d1dcb761ca",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "The yogurt bowl, raspberries, mint, spoon, napkin and pink table are preserved. A blue mottled substance appears on the yogurt, showing an indicator-like color addition but the wrong result: the supplied acidic-yogurt explanation requires red or pink. This is one clear chemical-color conflict. The edited food image remains coherent, with a slightly flat, powdery-looking blue surface texture as a minor visual flaw."
+    }
+  ]
+}

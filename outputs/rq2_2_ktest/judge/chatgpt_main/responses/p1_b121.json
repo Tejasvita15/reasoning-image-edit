@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b121",
+  "results": [
+    {
+      "blind_id": "case_98e0ff21c51af644",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "A plate of recognizable nuts and kernels has been added in front of the squirrel, meeting the food request and the supplied nut-based knowledge expectation. The trees, path, tail and face remain closely matched, but its forelegs are changed from standing to holding food. The scene is coherent with a small area of blended finger/food texture."
+    },
+    {
+      "blind_id": "case_614424525b63971e",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The glacier walls, floating chunks, water and sky remain visually unchanged. There is no discernible reduction or melting of the ice, whereas the explanation expects partial melting after warming. Instruction failure \u21d2 knowledge invalid. The edited icy landscape has coherent reflections, surfaces and lighting without noticeable artifacts."
+    }
+  ]
+}

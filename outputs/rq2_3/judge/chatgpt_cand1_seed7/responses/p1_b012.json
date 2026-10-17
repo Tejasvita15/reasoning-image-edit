@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b012",
+  "results": [
+    {
+      "blind_id": "case_e36bc2ab5ebbf38c",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: white cup material and neutral setting remain, but the untargeted upright cup shifts left and changes proportions. Instruction: the left cup moves in front of and leans against the other cup, still touching the tabletop; it is not placed onto the top of the other cup. Quality: smooth cup surfaces and believable shading, with a slightly ambiguous contact/overlap between the two vessels."
+    },
+    {
+      "blind_id": "case_1befb016e5c17aea",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: stake shape, wood grain, stones and ground layout remain, but the overall ground color changes from warm tan to a cooler gray-tan. Instruction: the long diagonal shadow is retained and darkened rather than removed for the requested noon condition. Knowledge: the supplied explanation explicitly requires no shadow, directly contradicted by the prominent cast shadow. Instruction failure \u21d2 knowledge invalid. Quality: detailed natural wood and gravel, coherent perspective and a clean continuous shadow without visible artifacts."
+    }
+  ]
+}

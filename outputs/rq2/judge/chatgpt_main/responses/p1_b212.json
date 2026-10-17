@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b212",
+  "results": [
+    {
+      "blind_id": "case_30e1eca64b9a5460",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the eight existing shape panels and grid remain unchanged. Instruction: an incomplete angular outline is drawn around the retained question mark; the required closed hexagon with two small circles is missing. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: the bottom-right outline breaks and fades at its lower edges, a clear drawing defect amid otherwise coherent shapes."
+    },
+    {
+      "blind_id": "case_42ed74bbf7625f1a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: two white cups on saucers remain, but coffee-bean arrangements and the large cup/saucer contours and position change. Instruction: the left cup remains substantially smaller than the right, with no meaningful enlargement to the requested matching size. Quality: coherent ceramic forms, recognizable beans and natural highlights and shadows without obvious artifacts."
+    }
+  ]
+}

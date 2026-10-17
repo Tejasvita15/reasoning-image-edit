@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b020",
+  "results": [
+    {
+      "blind_id": "case_e61a26e571afa14a",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: a dark framed board overlays the original wooden grid, and most stone colors, numbers and placements change. Instruction: instead of adding one black stone immediately left of the original four-stone row, the edit replaces the game with many new stones and a different arrangement. Knowledge: this does not represent the required legal single-stone winning move; instruction failure ⇒ knowledge invalid. Quality: the new board frame and glossy stones are structurally coherent and cleanly rendered."
+    },
+    {
+      "blind_id": "case_d1b0e1e122181aea",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the desert foreground, distant skyline, blue sky and illumination remain consistent outside the pyramid replacement. Instruction: broad stepped terraces and central stairways are added, conveying a Maya-style pyramid, but the pointed cap lacks the expected flat-topped summit temple. Knowledge: the structure does not accurately match the specified Kukulkan Pyramid because of that conspicuous summit mismatch. Quality: the stone terraces, stairways and shadows are coherent and naturally integrated into the scene."
+    }
+  ]
+}

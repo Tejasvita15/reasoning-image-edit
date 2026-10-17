@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b230",
+  "results": [
+    {
+      "blind_id": "case_ddb63494f3bf5ce1",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "The eyes become bright yellow-green, but both pupils remain broad ovals instead of visibly constricting in strong light. Facial identity, pose and whiskers remain, while overall contrast and exposure noticeably increase. The cat photograph is coherent apart from harsh, overbright eye reflections. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_c8533b93529e9838",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The two original chocolate cookies retain their shapes and drizzle. A dark velvet setting, slate base and upper-left light are added, but the velvet is burgundy, the view still looks downward, and the upper-right title is clipped and misspelled, including 'Bitternesh' and 'th gentleness' with missing words. The food and slate look natural, but the corrupted title is a clear visual defect."
+    }
+  ]
+}

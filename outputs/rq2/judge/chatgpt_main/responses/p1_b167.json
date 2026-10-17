@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b167",
+  "results": [
+    {
+      "blind_id": "case_a0cd19f3676a8289",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The extra torso arm is removed, leaving a coherent two-armed seated man. The wineglass also disappears, and fruit, hand and furniture details change beyond the anatomical correction. The finished painted portrait is visually coherent with plausible anatomy and lighting."
+    },
+    {
+      "blind_id": "case_d1d73da6dc3cad84",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The shirt is fully white while its silhouette and side loop remain recognizable. The front folds change and the small Nike lettering is distorted. The white fabric looks natural overall, with the malformed small logo the main visible defect."
+    }
+  ]
+}

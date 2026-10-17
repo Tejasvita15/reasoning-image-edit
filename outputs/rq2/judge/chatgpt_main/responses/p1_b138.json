@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b138",
+  "results": [
+    {
+      "blind_id": "case_7faf221688851a22",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The red car retains its body, headlights and badges, but the front wheel spokes visibly change. The car is placed below center against a blurred dark city with neon streaks and the correct upper-left slogan; Ferrari is oversized at bottom right instead of small and centered. Bright daytime foliage reflections in the windshield conflict visibly with the nocturnal setting."
+    },
+    {
+      "blind_id": "case_45a6db67e592e515",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "A red stroke is present, but it cuts across several maze walls and stops above the flowers instead of tracing a navigable route. The maze layout, girl position and flower arrangement all change substantially. Fragmented floating flower parts, distorted shoes and the incoherent maze marking create multiple visible flaws. Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

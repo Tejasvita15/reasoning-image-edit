@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b013",
+  "results": [
+    {
+      "blind_id": "case_c0712cedf02c61a5",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: white background, green handles and metal appearance remain; the small scissors are visibly repositioned/lengthened. Instruction: the large scissors remain over twice the small scissors' length, so no target size match occurs. Quality: clean blade contours, hinge and closed handle loops with plausible metallic shading."
+    },
+    {
+      "blind_id": "case_6022b3c99fd1fad5",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the cushion's black/white diamond identity persists, but the specific pattern layout shifts, including the central diamond placement. Instruction: close-up cushion, dark gray sofa, cool minimal setting and bold top-left slogan are present; 'Aesthetic' has a malformed or missing letter. Quality: convincing textile and cushion shape, with a small title lettering defect."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b112",
+  "results": [
+    {
+      "blind_id": "case_a99d9a9f703660bf",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "The bottom-left block now presents an X, completing three X symbols down the left column and correctly establishing the win. Its red color differs from the existing blue X pieces, a minor implementation mismatch. Other symbols and cells remain in place, but wood-grain patterns, board proportions and block outlines change noticeably. The edited wooden game is structurally coherent, naturally lit and free of noticeable artifacts."
+    },
+    {
+      "blind_id": "case_6b2ef7b5f73e8483",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The truncated near temple is extended into a complete long arm with a curved rounded earpiece, satisfying the repair. The beige surface, rimless design and illumination remain similar, but the lens/frame assembly shifts visibly downward. The completed glasses have plausible connected arms, coherent reflections and natural tabletop shading; softness does not obscure their structure."
+    }
+  ]
+}

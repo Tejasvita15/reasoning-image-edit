@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b209",
+  "results": [
+    {
+      "blind_id": "case_b7f8f120f2606f3d",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: most original stone positions are replaced and a large black slab covers the board, destroying the original game layout. Instruction: rather than adding one winning stone to the left end of the existing four-black row, the edit replaces the position with many stones on a slab. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: the edited arrangement has coherent rounded stones, textured slab and lighting without visible rendering defects."
+    },
+    {
+      "blind_id": "case_7419d7097fcc6ca0",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: gray ground and dark grip tape remain, but the deck pose/shape and original wheel arrangement change markedly. Instruction: wheels are added, yet the broken jagged front deck remains unrepaired, so the skateboard is not completed. Quality: multiple ghosted extra wheels and ambiguous axle attachments create distracting structural errors."
+    }
+  ]
+}

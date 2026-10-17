@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b001",
+  "results": [
+    {
+      "blind_id": "case_6d75cfe7bb6aef3d",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The foot position, exposed ankle, dark sock shape, knitted texture and plain background remain visually unchanged. Instruction: Completing the sock would close the exposed-skin hole near the heel; that same hole remains, with no visible repair. Quality: Assessed alone, the foot, fabric, opening and contact shadow are natural and coherent; the worn hole is not itself a rendering artifact."
+    },
+    {
+      "blind_id": "case_549f3260fad59e98",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The plain white setting becomes a snowy background and surface, and frost is added across the thermometer and cable; these are multiple non-instructed changes. Instruction: The display still reads approximately 28.7 degrees Celsius rather than an increased temperature. Knowledge: The supplied explanation calls for an increase of approximately 3 degrees, hence about 31.7 degrees Celsius; that increase is absent. Instruction failure implies knowledge invalid. Quality: The thermometer, coiled cable and snow form a coherent image, but the bottom of the final display digit has a small malformed segment."
+    }
+  ]
+}

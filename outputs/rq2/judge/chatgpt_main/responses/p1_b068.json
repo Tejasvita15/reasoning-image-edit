@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b068",
+  "results": [
+    {
+      "blind_id": "case_53d994c9e4e39ec0",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "The canal, buildings, plants and distant setting remain matched. The covered boat becomes a recognizable black gondola with raised ends and a comb-like bow ornament, satisfying both the vehicle replacement and supplied cultural explanation. The passenger group changes, including an additional clearly visible bearded passenger. The boat floats coherently, but hull lettering is garbled and some passenger hand details are malformed."
+    },
+    {
+      "blind_id": "case_29820911ee10e34e",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "The sky, horizon and offshore waves remain matched while the sandy shore becomes coarse gravel and stones. This substantially realizes a shingle beach and the coarse-sediment expectation, although many foreground stones are angular rather than smoothly rounded. The shore texture, waterline and lighting appear natural and visually coherent."
+    }
+  ]
+}

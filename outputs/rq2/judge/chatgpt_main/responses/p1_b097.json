@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b097",
+  "results": [
+    {
+      "blind_id": "case_1015017dedee9ec7",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 4,
+      "rationale": "Consistency: sky, horizon and distant road remain, but the field vegetation changes to a conspicuously outlined texture. Instruction: long strings of small prayer flags are added across the flatland as requested. Knowledge: several traditional colors are visible at the left, though the long central run is predominantly pale rather than clearly five-colored. Quality: recognizable landscape and flag strings, with a noticeable wormlike/repetitive texture across the grass."
+    },
+    {
+      "blind_id": "case_973d313b023cc7ff",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the supplied source actually shows a diagonal black-and-gold pen, which is retained in the same orientation and appearance; background replacement is requested. Instruction: a right-positioned bear balloon, colorful Bear Balloon Party title, stars, candies and blue/cloud background are present, but the bear is cropped at the bottom and is newly added rather than derived from a source bear. Quality: clear lettering, coherent glossy bear and clean decorative shapes."
+    }
+  ]
+}

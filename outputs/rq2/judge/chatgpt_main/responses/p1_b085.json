@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b085",
+  "results": [
+    {
+      "blind_id": "case_5b032c0ae7aaf6f3",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The liquid becomes pink while the glass, water level, white background and lighting are preserved. The supplied explanation requires pure water with phenolphthalein to remain colourless, so the depicted colour outcome is wrong. Instruction failure \u21d2 knowledge invalid. The pink liquid and glass are cleanly rendered with coherent reflections and no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_7f0a8e43cfe92551",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Eight columns remain rather than the requested five. The background changes from plain white to blue-grey, directional floor shadows are added, and the columns shift slightly. Their fluted forms and receding arrangement remain coherent; the edited render has natural lighting and no noticeable structural artifacts."
+    }
+  ]
+}

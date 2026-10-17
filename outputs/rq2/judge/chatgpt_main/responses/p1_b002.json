@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b002",
+  "results": [
+    {
+      "blind_id": "case_ad4fbbd7ac0d01d3",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: all eight given cells and grid remain visually intact. Instruction: the question mark remains and a small irregular outlined symbol appears beside it; the requested triangle with a blue circle is absent. Knowledge: neither the triangle nor bottom-edge circle is supplied. Instruction failure \u21d2 knowledge invalid. Quality: the unexplained malformed outline beside the question mark is a clear semantic/shape defect; the remaining diagram is clean."
+    },
+    {
+      "blind_id": "case_b19e5f87969e688a",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: blue upholstery, cushions, white background and wooden legs remain consistent, with a small change in the chaise cushion contour. Instruction: the sofa still faces left in essentially the same side view; it does not show the three frontal cushions and right-side chaise seen in the reference. Quality: sofa geometry, woven texture and lighting are coherent and artifact-free."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b004",
+  "results": [
+    {
+      "blind_id": "case_439da03f18a01454",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested change in nail quantity, the pale surface and framing remain consistent. Instruction: the eight wooden pushpins disappear entirely, leaving zero rather than the requested six. Quality: viewed alone, the pale surface is continuous with gentle shading and small natural specks, without visible object distortions or seams."
+    },
+    {
+      "blind_id": "case_6caf4377389f42ed",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the waistband, button, belt loops, pleats, pockets, fly, leg outlines and white background retain their original arrangement. Instruction: the cream trousers are recolored blue throughout, as requested. Quality: smooth coherent fabric, well-defined seams and natural fold shading, without visible artifacts."
+    }
+  ]
+}

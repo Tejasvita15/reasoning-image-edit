@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b034",
+  "results": [
+    {
+      "blind_id": "case_f5b9e728d352cd72",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The round blue stone and gold setting remain, but the chain links change shape. A centered pendant, blue-gray gradient and lower slogan appear; the pendant sits lower than requested, velvet texture is weak, and bold sans-serif text replaces fine serif with yea instead of yet. The jewelry is coherent, but the slogan has a noticeable semantic error."
+    },
+    {
+      "blind_id": "case_ff234416a9a33557",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The log, shavings, blue background and hamster pose remain, but the ear shapes change beyond recoloring. The coat is successfully changed to gray. The edited animal has natural fur, coherent facial anatomy and consistent lighting without visible artifacts."
+    }
+  ]
+}

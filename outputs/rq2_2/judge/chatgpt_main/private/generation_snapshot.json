@@ -1,0 +1,14 @@
+{
+  "experiment": "rq2",
+  "split": "k_dev",
+  "seed": 42,
+  "splits_sha256": "b513673f210e8ac63b6fdfa7bda0bc62323b2dffdb7e4c4e5658234c49a60dc9",
+  "logs": {
+    "logs/rq2_2/rq2_step1x_think-cached_cfg6_steps20_k_dev_seed42.jsonl": "fa8e958b54a34bd3502f5c00eb1feaac7bd1903bddc5973fbaa2dd82fafd8cbb",
+    "logs/rq2_2/rq2_step1x_think-cached_cfg6_steps28_k_dev_seed42.jsonl": "a7cca1b8a4302a2a6d475b2b9a54e7bc7ef74dabedf2abf0289289e5c3a37d51",
+    "logs/rq2_2/rq2_step1x_think-off_cfg6_steps20_k_dev_seed42.jsonl": "9282ab196c0b0b679021fda5b926f7f04ee1a374c1631d5bbceab4d576f75c68",
+    "logs/rq2_2/rq2_step1x_think-off_cfg6_steps28_k_dev_seed42.jsonl": "5fd1839d98782e1efc69a5768a7820edd50056e871ce30752fe2c495a57b94c5"
+  },
+  "outputs": 360,
+  "protocol_hash": "2c30e14c089d254fd843bbd386cdf35f4a608aea5b767650cacacabf0ba8c229"
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b024",
+  "results": [
+    {
+      "blind_id": "case_1f11fd124cb31a8b",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The patterned surface, viewpoint and blue/orange cube faces are preserved, with a small change to existing tile contours. The missing upper pieces are restored, producing a complete four-by-four cube with continuous faces. The finished cube has coherent grids, perspective and shading without visible artifacts."
+    },
+    {
+      "blind_id": "case_d722a42fcaa88cd9",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The hamster becomes convincingly gray while retaining its pose and setting, fully meeting the recoloring request. However, its ear shapes and facial/fur structure are noticeably redrawn, and nearby bedding details change. The resulting animal has natural fur, eyes, whiskers and anatomy, with a coherent background and no conspicuous artifacts."
+    }
+  ]
+}

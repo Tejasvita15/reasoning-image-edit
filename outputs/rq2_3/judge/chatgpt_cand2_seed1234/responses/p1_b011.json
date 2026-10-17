@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b011",
+  "results": [
+    {
+      "blind_id": "case_8ef93fc485579ce0",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: turquoise sandal and pink nails remain, but falling rain streaks largely disappear and the sandal sole/ground reflections change. Instruction: seven visible toes remain instead of a corrected five-toe foot; reshaping does not fix the extra digits. Quality: detailed skin and footwear, but duplicated toes create a clear anatomical defect."
+    },
+    {
+      "blind_id": "case_9d134a3bae58fe0b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: nail color, turquoise footwear and wet background persist, while rain streaks disappear and the sole/strap shape changes. Instruction: the edited foot still has seven toenails/toes, so the unreasonable extra digits are not corrected. Quality: coherent texture and lighting, but the excess toes remain an obvious anatomical artifact."
+    }
+  ]
+}

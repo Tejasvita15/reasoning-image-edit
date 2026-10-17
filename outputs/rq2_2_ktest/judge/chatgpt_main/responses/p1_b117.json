@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b117",
+  "results": [
+    {
+      "blind_id": "case_f70511029a62851e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: colors and white backdrop persist, but the red block moves and gains ghosted extra studs. Instruction: the blue eight-stud block remains much larger than the red block rather than shrinking to match it. Quality: blue block is coherent, but overlapping partial red studs create an obvious malformed top surface."
+    },
+    {
+      "blind_id": "case_92877bb2300bbe21",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: three overlapping tissues, embossed borders, fold contours, grey background and shadows remain unchanged apart from color. Instruction: all three white tissues become pink throughout. Quality: natural paper texture, clean edges and plausible soft shadows without noticeable artifacts."
+    }
+  ]
+}

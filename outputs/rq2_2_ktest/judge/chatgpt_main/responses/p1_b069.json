@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b069",
+  "results": [
+    {
+      "blind_id": "case_3ece28f8d8968bd5",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: b and the labels remain, but vector a is deleted. Instruction: no new arrow from the endpoint of b to the endpoint of a appears; subtracting is misinterpreted as removing a. Knowledge: the supplied directed-segment expectation is absent. Instruction failure \u21d2 knowledge invalid. Quality: the isolated a label and angle label without a second ray are clear semantic defects in the diagram."
+    },
+    {
+      "blind_id": "case_6099c4017b161ad3",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: wooden frame, all other cells, symbols, lighting and background are preserved. Instruction: exactly one X at bottom left becomes O, but this produces no row, column or diagonal of three Os; the center X needed changing to complete the middle column. Knowledge: the supplied explanation is blank; the visible board nevertheless clearly fails the instruction-defined winning relation. Quality: the wooden grid, pivots and painted symbols are coherent, legible and naturally rendered."
+    }
+  ]
+}

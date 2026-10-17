@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b013",
+  "results": [
+    {
+      "blind_id": "case_c6bd65187fc37628",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: grid, raised cells and blue 1 clues persist, but the green 2 clue is erased. Instruction: one red X replaces that revealed clue instead of marking mines in covered cells; required mine locations remain unmarked. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: crisp orderly grid and coherent legible markings with clean edges."
+    },
+    {
+      "blind_id": "case_236531488b907f27",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: white background and both scissors' materials and orientation remain, with a small shift in the silver pair's contour/placement. Instruction: green-handled scissors remain over twice the small pair's length, with no meaningful requested shrinkage. Quality: coherent blades, pivots, finger loops and shadows without visible structural artifacts."
+    }
+  ]
+}

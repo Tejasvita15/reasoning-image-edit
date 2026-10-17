@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b094",
+  "results": [
+    {
+      "blind_id": "case_f7001f4261b445a8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: the same woman, crown, pose and white blouse remain recognizable, but face, hands and clothing acquire extensive corrupted textures. Instruction: rainbow colors, clouds, balloons, confetti, fireworks, rays and tagline are present, but the title is overlapping, partly hidden and repeats a Summer fragment instead of cleanly giving the requested wording. Quality: severe multicolored fragmentation across the face and arms, malformed facial detail and broken typography degrade the poster."
+    },
+    {
+      "blind_id": "case_bac2f37f7509f976",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the blue underwater setting persists, but tube numbers/shapes, base rock and nearby fish change. Instruction: coral tips are somewhat paler, yet most of the organism remains pink and dark rather than white, leaving the main change largely absent. Knowledge: Instruction failure \u21d2 knowledge invalid; the supplied white-coral expectation is unmet. Quality: largely coherent underwater forms, with a small unnatural blending of tubes at their base."
+    }
+  ]
+}

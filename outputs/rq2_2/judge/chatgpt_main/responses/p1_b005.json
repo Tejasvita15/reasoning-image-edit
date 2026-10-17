@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b005",
+  "results": [
+    {
+      "blind_id": "case_4d55901563b683ca",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: all eight dot panels, grid lines and their black/white dot arrangements remain unchanged. Instruction: the bottom-right question mark remains; no answer pattern was drawn. Knowledge: no positionwise same-color comparison result is supplied; instruction failure ⇒ knowledge invalid. Quality: the black-and-white grid, circles and question mark are visually clean and coherent."
+    },
+    {
+      "blind_id": "case_c75b73e87849a1fb",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested splash, typography, composition and shadow changes, the cylindrical glass and milk remain recognizable, with a small alteration to the glass base reflections. Instruction: the exact uppercase title, white background, central milk splash and gray bottom shadow are present; the title and broad shadow are darker than the requested light silver-gray restraint. Quality: legible typography and coherent glass geometry, with a slightly thick, sheet-like splash that looks less fluid than natural milk."
+    }
+  ]
+}

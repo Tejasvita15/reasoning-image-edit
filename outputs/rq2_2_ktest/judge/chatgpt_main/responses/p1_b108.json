@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b108",
+  "results": [
+    {
+      "blind_id": "case_51c4d1cdc1af933f",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background and yellow/blue match appearance remain. Instruction: twelve outer matches vanish and only one central square remains, instead of four moved matches yielding three squares. Knowledge: the visible one-square result and loss of matches violate the puzzle constraint; instruction failure \u21d2 knowledge invalid. Quality: recognizable clean square, with a minor odd doubled blue-head treatment at the bottom edge."
+    },
+    {
+      "blind_id": "case_6f32d88efc2ba85d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: street composition, buildings and crowd layout persist, but many faces/clothing details and shop-sign details are altered. Instruction: multicolored paper flower decorations are clearly added overhead across the sky. Knowledge: they are individual flower cutouts rather than the specified papel picado banners, a clear cultural-form mismatch. Quality: festive scene is coherent overall, but crowd faces and some distant flower forms are visibly smeared."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b052",
+  "results": [
+    {
+      "blind_id": "case_523ddb3278963da1",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "Consistency: people, grass and rope grid remain, but the top-middle O is changed to X and existing center/right tiles are rotated or shifted. Instruction: a new bottom-middle X forms a central column only because an opponent's O was also replaced; the legal winning addition should be top-left for the existing diagonal. Knowledge: changing an occupied opponent square and adding another mark violate the one-move game logic. Quality: the physical tiles, readable symbols and outdoor scene are coherent without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_38c1fd6d3b124da3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: device and cuff layout remain, but the pulse changes from 70 to 05 and cuff surface/printed labels are altered. Instruction: pressure values become a clear 142/90. Knowledge: 142 exceeds the supplied systolic threshold of 130 and 90 exceeds the diastolic threshold of 80. Quality: readable pressure digits and coherent housing, but the pulse reading 05 is semantically anomalous and small unit text is malformed."
+    }
+  ]
+}

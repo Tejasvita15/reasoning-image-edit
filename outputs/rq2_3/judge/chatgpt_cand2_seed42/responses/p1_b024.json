@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b024",
+  "results": [
+    {
+      "blind_id": "case_0768ec52144524a2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Both turtles have different shell patterns, facial details and foot poses, while the plain white background remains. The left turtle remains substantially larger in shell width and height than the right; the requested size match is absent. The edited animals have coherent limbs and shells with natural surface detail and shadows."
+    },
+    {
+      "blind_id": "case_7364976b0b816af2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The grid layout and original clues remain, but all cell backgrounds change from white to blue and numeral styling changes to white sans-serif. Empty cells are filled, yet rows repeat numbers and include 5, 7 and 9 rather than a valid 1\u20134 Sudoku solution; most required correctness is missing. The edited table has clean borders and legible centered digits without visual corruption. The explanation is blank; knowledge uses the supplied coupling: Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

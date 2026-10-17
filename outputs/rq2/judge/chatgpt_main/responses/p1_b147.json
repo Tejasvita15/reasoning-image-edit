@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b147",
+  "results": [
+    {
+      "blind_id": "case_a85f25b75cb9984d",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The truck retains its red body, cannon, white shutters and yellow trim, with a small alteration of the front plate lettering. The view rotates somewhat toward the side, but the broad windshield and grille remain visible, unlike the strict side profile in the reference. Vehicle geometry, wheels and shadows remain coherent."
+    },
+    {
+      "blind_id": "case_6c86d1fa3eaa1643",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The shirt is changed fully from black to white while retaining its silhouette, seams, collar label and side tag. The small chest logo changes slightly in its letter shapes. The white fabric has plausible folds and shading, and the product image is clean and coherent."
+    }
+  ]
+}

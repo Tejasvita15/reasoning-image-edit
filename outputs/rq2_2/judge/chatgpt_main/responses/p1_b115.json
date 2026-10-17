@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b115",
+  "results": [
+    {
+      "blind_id": "case_1eceab9caf2011fa",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "The U-shaped rail and brown setting remain recognizable, though the rail and original ball shift slightly left. A matching orange ball is drawn at the upper right at nearly the initial ball's height, with only a small upward mismatch. This largely depicts equal-height recovery under energy conservation. The balls, metal curvature, texture and lighting are coherent."
+    },
+    {
+      "blind_id": "case_71a03e225cd4fd1a",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The mountain outlines and vegetation arrangement remain, but the foreground is noticeably brightened. The sky is lighter with enhanced stars, without recognizable auroral curtains or arcs, so the requested solar-activity effect is largely absent. Instruction failure makes knowledge invalid. The sky also has conspicuous squiggly texture artifacts across its otherwise coherent star field."
+    }
+  ]
+}

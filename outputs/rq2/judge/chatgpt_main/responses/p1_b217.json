@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b217",
+  "results": [
+    {
+      "blind_id": "case_cbd925d7d3808487",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "The white grid becomes beige with doubled lines, existing mushrooms are replaced, umbrellas deform and arbitrary labels appear. The missing cells contain unrelated gray shapes or the wrong symbol, not the required mushroom, umbrella, squirrel and tree. Garbled labels, broken umbrella handles and ambiguous gray objects impair quality. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_5d55fd7ba90fe7ad",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Six wooden heads remain, satisfying the requested count in outline, but five lack their metal points and no longer read as complete nails. The white background and remaining head positions are retained; several surviving pins lose their defining shafts unnecessarily. The isolated wooden forms render cleanly, though the inconsistent missing-point anatomy is conspicuous."
+    }
+  ]
+}

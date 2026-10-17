@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b012",
+  "results": [
+    {
+      "blind_id": "case_edde849439b83f9f",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the apple's red/yellow coloration, stem and characteristic highlights are retained, with a slight contour change beyond repositioning. Instruction: a central apple, green vines, dew-covered leaves and cream-green gradient deliver the requested poster, but the second handwritten line overlaps/garbles 'mind and', preventing exact slogan compliance. Quality: fruit and foliage are coherent, but the overlapping text is a conspicuous typographic artifact."
+    },
+    {
+      "blind_id": "case_f035e6568a2285f0",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the plate, folded white tissue and white setting remain, but the fork is rotated diagonally and moved. Instruction: the knife disappears entirely instead of being placed on the tissue; only the fork remains, so the requested relocation fails. Quality: the remaining fork, plate, cloth folds and soft shadows look natural and coherent."
+    }
+  ]
+}

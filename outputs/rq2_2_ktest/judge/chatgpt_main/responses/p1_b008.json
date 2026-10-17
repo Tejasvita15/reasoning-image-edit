@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b008",
+  "results": [
+    {
+      "blind_id": "case_7361c449140727ef",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: wooden face, numbered markers, hands, black pedestal and gray setting persist, but the open C-shaped support becomes a complete surrounding ring. Instruction: the face widens somewhat, yet it remains elliptical with a thick visible right edge; the reference has a round frontal face and an open support, so the attempted front view has substantial orientation and occlusion errors. Quality: the clock rendering has coherent surfaces, readable numbers and convincing lighting."
+    },
+    {
+      "blind_id": "case_e12fb5ac435a627a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white setting and metallic material persist, but the rectangular handle and original compact silhouette are replaced by a curved double-ended utensil. Instruction: recognizable conventional tines appear on one end, but the other end still has a fork-like slotted plate instead of a normal handle, so the unreasonable utensil is only poorly corrected. Quality: metal reflections are plausible, but the two conflicting ends form a conspicuously anomalous fork structure."
+    }
+  ]
+}

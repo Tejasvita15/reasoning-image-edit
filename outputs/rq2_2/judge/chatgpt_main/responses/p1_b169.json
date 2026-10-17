@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b169",
+  "results": [
+    {
+      "blind_id": "case_4f7ec90966ae8325",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The eight existing puzzle cells and grid are preserved. The final cell gains an irregular dimensional polygon around a larger question mark, rather than a flat hexagon with two small circles. Most of the correct solution is missing. Instruction failure \u21d2 knowledge invalid. The inserted shape has confused doubled edges and inconsistent dimensional geometry."
+    },
+    {
+      "blind_id": "case_510683dbd53e4eca",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The glass, pouring stream and splash remain unchanged. The edit adds the requested uppercase wording at top center and a soft gray ground shadow, retaining the minimal white composition; however, the font is darker gray than requested and lacks the final period. The image is coherent, with a small layout issue where the title overlaps the pouring stream."
+    }
+  ]
+}

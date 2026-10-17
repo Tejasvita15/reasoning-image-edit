@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b008",
+  "results": [
+    {
+      "blind_id": "case_58830064eb2554c5",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: charger casing, cable, plug and wooden floor layout remain, but all interfaces that should remain are removed. Instruction: ten USB ports become zero rather than six; non-compliance. Quality: casing and plug are coherent, but a device labeled USB Charger with a completely blank output panel presents a clear semantic inconsistency."
+    },
+    {
+      "blind_id": "case_677d222809c5e77c",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: shoreline, sky, rocks and overall water composition persist; slight changes in distant tree/building detail are the only minor non-requested difference. Instruction: the blue-green foreground water becomes visibly red while foam remains white, clearly depicting the requested red tide. Knowledge: red water directly matches the supplied explanation. Quality: coherent coastal scene, natural foam/wave detail and integrated coloration without noticeable artifacts."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b197",
+  "results": [
+    {
+      "blind_id": "case_c5de9ab80a8c1c4f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: white backdrop and green/red product scheme remain, but tray position/geometry and many can labels and pull tabs change visibly. Instruction: the separate right can is removed from its old position and stands on the cans in the left tray, satisfying the requested relocation. Quality: repeated malformed label lettering and distorted pull tabs are distracting despite the coherent overall product arrangement."
+    },
+    {
+      "blind_id": "case_fd49115edb8caeea",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: jacket colors, backdrop and zipper design persist, but the sleeve pose and orange stripe layout change beyond a viewpoint transformation. Instruction: the jacket rotates toward a frontal oblique view and still exposes its full torso; it does not show the overhead shoulder-and-neck projection in the reference. Quality: a coherent jacket rendering with natural folds, smooth shading and no obvious structural artifacts."
+    }
+  ]
+}

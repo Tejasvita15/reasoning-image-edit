@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b012",
+  "results": [
+    {
+      "blind_id": "case_593d9681bebe97db",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the faucet, sleeve, palm position and dark backdrop retain their original appearance. Instruction: the rod is removed, but the associated curved water trajectory is left unchanged. Knowledge: the explanation requires vertical downward flow, whereas the stream still bends markedly rightward. Quality: coherent hand and faucet shapes, but the unsupported strongly curving stream is a clear physical-naturalness flaw."
+    },
+    {
+      "blind_id": "case_a5319bff49f5208d",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the sky, cloud shapes, horizon and offshore waves remain consistent outside the coastline transformation. Instruction: the sandy foreground becomes a beach of rounded pebbles with a band of coarse sediment at the waterline. Knowledge: visible rounded stones and coarse material match the supplied expectation. Quality: the pebbles and sea are coherent and detailed, with a slightly overly smooth, banded transition in the surf at the shore."
+    }
+  ]
+}

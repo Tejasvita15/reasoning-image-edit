@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b029",
+  "results": [
+    {
+      "blind_id": "case_36e3c8eea6cbbb35",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The shoe silhouette, heel, viewpoint and pale background are preserved, with a small change to the tan lining texture. The red exterior is fully changed to glossy black, accurately following the instruction. The edited shoe has coherent edges, realistic patent-leather reflections and natural grounding shadows."
+    },
+    {
+      "blind_id": "case_15c5103627308cdb",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "The river valley, sky and banks remain recognizable, but extra distant boats are introduced and tree textures change visibly. A Chinese-style boat is added in the river, but it has a rigid pavilion cabin rather than the expected rounded black Wu-peng canopy. The regional boat concept is only partly matched. Several distant boats appear to sit on grass, a noticeable spatial-coherence defect in the otherwise plausible landscape."
+    }
+  ]
+}

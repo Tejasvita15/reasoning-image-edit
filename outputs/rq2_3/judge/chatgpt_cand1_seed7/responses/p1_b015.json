@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b015",
+  "results": [
+    {
+      "blind_id": "case_4b68f5ae2913ed68",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: cup body, handle, lid, highlights, wooden surface and gray background retain their appearance and placement. Instruction: a centered red cross emblem is attached visibly to the cup front as requested. Knowledge: the familiar upright red cross on the white cup matches the explanation. Quality: clean ceramic geometry and reflections, clear emblem edges and coherent tabletop lighting without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_fa7cd3c72b31436e",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: lavender outer circle and white field remain, but a second green circle is added, changing the number of objects. Instruction: the green circle is duplicated into two side-by-side overlapping circles rather than moved to share the outer circle center. Knowledge: neither green center coincides with the outer center required by the explanation. Instruction failure \u21d2 knowledge invalid. Quality: smooth continuous circular outlines and a clean white background make a coherent geometric diagram."
+    }
+  ]
+}

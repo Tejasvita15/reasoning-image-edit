@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b061",
+  "results": [
+    {
+      "blind_id": "case_8a9f4205e1d644ac",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the table is shortened and its front legs and right-side chair shift, while tabletop accessories and the white background remain recognizable. Instruction: the foreground chair remains pulled out, with its seat outside the tabletop; the expected tucked-under position is absent. Quality: the furniture, wood textures, upholstery and white product background are coherent without clear artifacts."
+    },
+    {
+      "blind_id": "case_d24fdd027d030072",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: all column bodies, capitals and bases disappear, losing the major retained scene elements. Instruction: the eight visible columns become zero rather than the requested five. Quality: the edited image is an empty pale field with no identifiable subject or meaningful visual structure."
+    }
+  ]
+}

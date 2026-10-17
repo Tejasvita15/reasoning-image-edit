@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b108",
+  "results": [
+    {
+      "blind_id": "case_e2b008dc3d9ca43a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The extra hanging left hand is removed and the arm is redirected toward the glass, but its bent bare segment and overlapping tan sleeve still form an anatomically awkward connection. Facial details, leg pose, fruit/table positions and chair carving change beyond the correction. The portrait has coherent painterly lighting, but the arm connection is a conspicuous structural flaw."
+    },
+    {
+      "blind_id": "case_74e246ae195ce49c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The holder moves from the upper left to the lower-right paper corner and is removed from its old location, satisfying the instruction. Cup, framing and wood layout remain, but the paper texture becomes noticeably stronger and the pens and their arrangement change. The overhead scene is coherent, with minor blending among the clustered pen ends."
+    }
+  ]
+}

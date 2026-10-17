@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b008",
+  "results": [
+    {
+      "blind_id": "case_b7fbcfe3bc9d24f4",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: snowy ground, blurred building and seated placement remain, but the fox's face and ear shape change beyond coat color/thickness. Instruction: white winter fur becomes shorter colored fur, addressing summer change, but it is predominantly russet brown rather than the expected gray. Knowledge: the brown coat clearly conflicts with the supplied gray-fur expectation. Quality: coherent animal anatomy and finely resolved fur, naturally integrated with the scene."
+    },
+    {
+      "blind_id": "case_cb2772529bdecf93",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: vase, flowers, glass table and pale setting remain, with only a small shift in table rim alignment. Instruction: book disappears from the right but is not placed on the left or anywhere else; relocation is largely missing. Quality: coherent transparent table geometry, reflections and vase without a visible removal scar."
+    }
+  ]
+}

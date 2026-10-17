@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b265",
+  "results": [
+    {
+      "blind_id": "case_afc1670c0cac3289",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The supplied shapes and grid are preserved. The target becomes a large question mark inside a square, rather than the required hexagon containing two small circles; the pattern remains unanswered. The edited diagram has clear lines and readable symbols. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_5ecd4b69b5f48f54",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The patterned cloth and cube placement remain, but the left face changes from blue to red. Some missing blocks are filled, yet a large upper-right cavity remains and several top stickers turn orange rather than forming a completed uniform face. The unresolved hollow and uneven top structure visibly disrupt the cube."
+    }
+  ]
+}

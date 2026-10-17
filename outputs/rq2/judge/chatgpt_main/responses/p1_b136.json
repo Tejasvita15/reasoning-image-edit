@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b136",
+  "results": [
+    {
+      "blind_id": "case_82fd3724941eda86",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "The stand, right weights and backdrop remain closely matched, with slight surface-texture changes. Four weights now occupy the left pan instead of the required two, although weight has been added on the correct side. The beam remains level, also conflicting with the specified leftward tilt. The image itself is structurally coherent with natural metal shading."
+    },
+    {
+      "blind_id": "case_9925bc6dd55d6d35",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "A boat is added on the river, but its upright rectangular cabin and ornamental roof do not reproduce the expected rounded black Wu-peng canopy. The wooded hillside and grass acquire conspicuous outlined, painted textures while the water is smoothed. The boat has a coherent reflection, but the heavily outlined vegetation is a noticeable visual flaw."
+    }
+  ]
+}

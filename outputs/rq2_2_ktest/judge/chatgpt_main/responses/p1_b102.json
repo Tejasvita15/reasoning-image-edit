@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b102",
+  "results": [
+    {
+      "blind_id": "case_1a30c6f466724ed0",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: emitter, arrows and slit geometry persist, but the entire black background becomes striped. Instruction: the screen shows a duplicate slit silhouette instead of alternating interference fringes; stripes are largely outside it. Knowledge: expected detection-screen bright/dark fringes are absent; instruction failure \u21d2 knowledge invalid. Quality: diagram elements are recognizable, but noisy duplicated slit imagery and the overpowering stripe field impair semantic coherence."
+    },
+    {
+      "blind_id": "case_c9ded42b45e85474",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: hand contour, fingers, nails, pose and white background remain unchanged. Instruction: numerous irregular white patches are added across the hand and fingers as requested. Knowledge: the visible patchy depigmentation matches the supplied expectation. Quality: intact anatomy and clean contours, with patches slightly flat and paint-like in texture."
+    }
+  ]
+}

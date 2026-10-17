@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b099",
+  "results": [
+    {
+      "blind_id": "case_acb18b5558b32509",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "The river bend, fields, trees and sky remain closely aligned, with minor foliage texture drift. A Chinese-looking wooden boat is added, but its tall rectangular cabin and shallow roof do not clearly depict the specified black curved Wu-peng canopy. The vessel and reflection are coherent, with a slightly hard composited waterline."
+    },
+    {
+      "blind_id": "case_2697c2efaefa930f",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "The sky, horizon and distant blue sea are retained, with slight wave-texture variation. The sandy foreground becomes a continuous shingle shore with clearly rounded multicolored pebbles and coarser sediment, fulfilling both the instruction and explanation. Stone sizes, shoreline layering and lighting are visually coherent."
+    }
+  ]
+}

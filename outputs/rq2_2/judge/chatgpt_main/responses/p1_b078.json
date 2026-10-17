@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b078",
+  "results": [
+    {
+      "blind_id": "case_efdb5fd41e73c24c",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the eight supplied shapes, blue grid and white background remain visually unchanged. Instruction: the question mark is replaced with a thick house-shaped pentagon, rather than the specified triangle and blue circle on its bottom edge. Knowledge: both required geometric components are wrong or absent; instruction failure \u21d2 knowledge invalid. Quality: the shapes and grid are crisp, closed and visually coherent."
+    },
+    {
+      "blind_id": "case_4d72d0c1e2e41721",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the monitor, cuff, buttons and labels remain, but the white background changes to pale blue with a new cast shadow. Instruction: the reading remains 123/72, so no hypotensive values are introduced. Knowledge: neither systolic below 90 nor diastolic below 60 is shown; instruction failure \u21d2 knowledge invalid. Quality: the device geometry, cuff texture, readable display and lighting are coherent."
+    }
+  ]
+}

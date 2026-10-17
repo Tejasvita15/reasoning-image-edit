@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b015",
+  "results": [
+    {
+      "blind_id": "case_6f1555d307dd1577",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: neutral surface and white material remain, but the upright cup is reshaped/tilted and the moved cup is enlarged with a distorted body. Instruction: the left cup shifts in front of the other cup and appears to intersect it near ground level rather than rest on top; the stacking relation is poorly implemented. Quality: merged cup walls, distorted rims and ambiguous interpenetrating geometry cause multiple structural errors."
+    },
+    {
+      "blind_id": "case_33999c87928394bb",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: architectural niche, panel layout, viewpoint and lighting remain consistent; changes to the statue are within the requested replacement. Instruction: drapery and cracks on an arm are added, but the statue still retains both arms and its David-like stance rather than becoming the armless Venus de Milo. Knowledge: the named target is not represented. Instruction failure \u21d2 knowledge invalid. Quality: the marble and drapery are coherent, with a small awkward fracture-like seam along the left arm."
+    }
+  ]
+}

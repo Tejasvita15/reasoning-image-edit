@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b096",
+  "results": [
+    {
+      "blind_id": "case_5ab8809d7a0431da",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: cup placement and gray setting remain, with a slight change to the left rim. Instruction: the liquids become beige and frothy, and a thick red straw-like object descends from above into the left cup; no red laser enters horizontally from the left or crosses both cups. Knowledge: Instruction failure \u21d2 knowledge invalid; the expected penetrating beam is absent. Quality: coherent glasses and liquid, with a minor unexplained red glow between cups."
+    },
+    {
+      "blind_id": "case_8339141b97e87feb",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: shirt silhouette, sleeves, folds, neck label and small side loop remain; the chest logo lettering is slightly altered. Instruction: the black fabric is fully changed to white, with the same garment retained. Quality: plausible fabric shading and clean outline, with a small malformed letter detail in the chest logo."
+    }
+  ]
+}

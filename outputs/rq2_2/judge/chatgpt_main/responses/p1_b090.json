@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b090",
+  "results": [
+    {
+      "blind_id": "case_0fc4a8b720b57bb2",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The eight example cells and grid remain consistent. The answer cell loses its hexagon and still contains a question mark; no rightmost dot or upper-right line is supplied, directly failing the stated pattern. Instruction failure implies knowledge invalid. The resulting diagram is cleanly drawn and readable despite its missing answer."
+    },
+    {
+      "blind_id": "case_f90332cc4daef632",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The four-node layout remains, but original node labels 0 and 1 are replaced by duplicated 3 and 2. Both vertical connections become bidirectional, introducing two-node cycles rather than removing all cycles. Instruction failure implies knowledge invalid. The arrows and circles are clean, but duplicate node identifiers create a clear semantic flaw in the diagram."
+    }
+  ]
+}

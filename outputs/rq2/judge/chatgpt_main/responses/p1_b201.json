@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b201",
+  "results": [
+    {
+      "blind_id": "case_d244903e0878efc3",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: blue sky, desert composition and distant skyline remain, but foreground sand and stone details are noticeably redrawn. Instruction: the smooth-sided pyramid becomes a terraced Maya-like pyramid with central stairways; its pointed summit is a remaining architectural mismatch. Knowledge: the steps and stairs evoke Kukulkan, but the pointed cap replaces the expected flat-topped temple structure. Quality: coherent stone architecture, perspective, textures and sunlit setting without obvious artifacts."
+    },
+    {
+      "blind_id": "case_62852673e63fc80f",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: lip shape, peach background and illustration style remain; several existing teeth are reshaped and repositioned beyond filling the gaps. Instruction: both the upper-left and lower-right missing teeth are filled with coherent white teeth, completing the smile. Quality: clean illustrated anatomy, smooth outlines, highlights and shading with no visible generation defects."
+    }
+  ]
+}

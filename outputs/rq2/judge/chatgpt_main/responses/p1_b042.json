@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b042",
+  "results": [
+    {
+      "blind_id": "case_7a8cee3a20b88ec4",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The lips and background remain recognizable, but existing teeth in both rows are reshaped and rearranged. The original gaps receive teeth, yet a new large lower-left gap remains, so the dentition is not completed. The resulting mouth illustration has coherent outlines and shading without rendering artifacts."
+    },
+    {
+      "blind_id": "case_d31303dce295a8f6",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The paper, coffee and wooden tabletop stay consistent, while the relocated holder has a noticeably different assortment of pens. A holder appears at the lower-right corner, but the original remains at upper left, making this an addition rather than a completed move. The objects and their shadows are visually coherent."
+    }
+  ]
+}

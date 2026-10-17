@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b203",
+  "results": [
+    {
+      "blind_id": "case_0f2a010051a4a09d",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: red fire-engine identity, cannon, shutters and gray studio remain; some rear wheel and undercarriage details are visibly redesigned. Instruction: more of the side is exposed, but the front grille and windshield remain prominent in a three-quarter view; the reference requires a true lateral profile with the front largely occluded. Quality: coherent vehicle geometry, wheels, metal surfaces and shadows without conspicuous artifacts."
+    },
+    {
+      "blind_id": "case_2eb90ebd43ea2cb5",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: red toy identities and wood setting remain; the small car is slightly shifted and its body/window details change. Instruction: the large left toy remains much larger than the right car with essentially the original size disparity, so the requested size match is absent. Quality: natural toy-car shapes, metallic trim, reflections and tabletop shadows with no obvious artifacts."
+    }
+  ]
+}

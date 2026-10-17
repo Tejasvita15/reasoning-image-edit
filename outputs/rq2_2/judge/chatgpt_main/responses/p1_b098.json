@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b098",
+  "results": [
+    {
+      "blind_id": "case_82d983cf7f0e57ae",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The blue-and-cream carton, cap and cow graphic remain recognizable, with minor redrawing of the cow and lower lines. The view rotates only slightly and still prominently exposes the MILK front panel, unlike the reference's straight side elevation and edge-on roof seam. The edited illustration has clean, coherent surfaces and edges."
+    },
+    {
+      "blind_id": "case_79f951d26a5144e4",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "The mountain silhouettes and foreground vegetation are retained with slight foliage changes. The sky gains a bright textured Milky Way band rather than the required auroral curtains, so the solar-activity instruction is largely missed and knowledge is 1. The image is coherent overall, though the central galactic band looks conspicuously overbright and painted."
+    }
+  ]
+}

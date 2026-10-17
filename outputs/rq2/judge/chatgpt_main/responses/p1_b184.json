@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b184",
+  "results": [
+    {
+      "blind_id": "case_0c2580ed356cdb44",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the platter and white setting remain, but apple shapes, surface colors, highlights and stem orientations are extensively changed beyond a count edit. Instruction: six apples still occupy the plate, so the requested single apple is absent. Quality: the edited fruit, stems, glass facets and lighting are structurally coherent and visually natural."
+    },
+    {
+      "blind_id": "case_520edad482cc588b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: the same crowned person, white shirt and pose remain recognizable, but the eyes and mouth details are distorted and hand and clothing textures are smeared beyond the requested lighting treatment. Instruction: rainbow colors, balloons, fireworks and radiance create the requested party concept, but both text lines are largely wrong or garbled and the light overlays obscure the face. Quality: garbled headline/tagline characters, distorted eyes and smeared facial/hand details create multiple distracting defects."
+    }
+  ]
+}

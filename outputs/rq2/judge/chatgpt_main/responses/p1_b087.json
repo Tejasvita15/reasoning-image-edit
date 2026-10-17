@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b087",
+  "results": [
+    {
+      "blind_id": "case_ef1cca0bd2bb986b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The target circle still contains a question mark instead of the specified 21. Several given numbers change, including 99 to 92 and 28 to 78, and the white background becomes pale blue. Circles, arrows and numerals are otherwise clean and legible. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_49ddad297d556fc9",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Mountain, trees, lamps, guardrail and road alignment are retained. The pavement now has branching fissures, displaced slab edges and broken shoulders, fully showing earthquake damage and matching the expected cracked, deformed surface. Crack depth, perspective and textures are visually coherent."
+    }
+  ]
+}

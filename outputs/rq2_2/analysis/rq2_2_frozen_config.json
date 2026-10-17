@@ -1,0 +1,23 @@
+{
+  "rule": "highest mean Q on K-dev (guidance 6, thinking off/on x 20/28/50 steps)",
+  "rule_agreed_before_k_test": true,
+  "frozen_configuration": {
+    "thinking": "on",
+    "thinking_condition": "cached",
+    "num_inference_steps": 28,
+    "true_cfg_scale": 6,
+    "reflection": "off"
+  },
+  "k_dev_mean_Q": {
+    "thinking-on_steps28": 59.49,
+    "thinking-on_steps50": 58.56,
+    "thinking-on_steps20": 57.18,
+    "thinking-off_steps28": 55.9,
+    "thinking-off_steps20": 53.98,
+    "thinking-off_steps50": 53.87
+  },
+  "margin_over_runner_up": 0.93,
+  "mmd": 19.062500000000004,
+  "note": "The margin over the runner-up is below the MMD and its paired bootstrap 95% CI includes 0, so the selected configuration is not claimed to be significantly better; K-test reports this K-dev-selected configuration on held-out data.",
+  "decided_at_utc": "2026-10-08T08:43:07.504009+00:00"
+}

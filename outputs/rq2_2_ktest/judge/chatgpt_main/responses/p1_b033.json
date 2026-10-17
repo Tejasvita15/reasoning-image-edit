@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b033",
+  "results": [
+    {
+      "blind_id": "case_f91ec206aedd46c1",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 4,
+      "rationale": "The beaker, brown bottle, title and laboratory setting remain consistent. The pink solution becomes nearly colorless with a small bubbly patch, supporting the requested after-minutes result, although dry ice is not distinctly shown. The liquid retains a faint cloudy gray-green appearance rather than complete clarity, a small deviation from the explanation. A flat opaque-looking band in the liquid is a minor rendering flaw."
+    },
+    {
+      "blind_id": "case_605addf017279633",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "The wood grain, plank layout and warm blurred background remain consistent. A single spiky durian is placed naturally on the tabletop, exactly identifying the requested King of Fruits and matching the explanation. Its rind, stem, contact shadow and lighting are coherent and detailed."
+    }
+  ]
+}

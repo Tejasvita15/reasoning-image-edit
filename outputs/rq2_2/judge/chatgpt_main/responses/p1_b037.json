@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b037",
+  "results": [
+    {
+      "blind_id": "case_c702a54f6c9fbaf8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The cat's pose and setting remain recognizable, but fur markings, whisker paths and facial proportions shift. Both pupils remain broad and rounded rather than visibly constricting into narrow slits under strong light. The required response is absent; instruction failure implies knowledge invalid. The edited close-up itself has coherent eyes, fur and lighting without conspicuous artifacts."
+    },
+    {
+      "blind_id": "case_13b269e43e00452a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "The man's identity, suit and room remain recognizable, but his legs, furniture and remaining hand pose are substantially changed. The extra arm is not convincingly repaired: a bare curved limb merges into a separate sleeved forearm holding the glass, leaving an anatomically impossible junction. Thus the repair is poorly implemented, and that prominent structural failure severely degrades the edited portrait."
+    }
+  ]
+}

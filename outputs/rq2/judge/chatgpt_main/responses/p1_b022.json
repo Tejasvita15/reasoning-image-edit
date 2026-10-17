@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b022",
+  "results": [
+    {
+      "blind_id": "case_d6e91dff0198abd9",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The table and red vehicle identities remain, but the small car is visibly shifted downward. The large vehicle remains substantially larger than the small car, so the requested size match is absent. Both edited toys retain coherent bodywork, wheels and natural lighting."
+    },
+    {
+      "blind_id": "case_e40101a0a6eed520",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The white background and cable coil remain in place, allowing for occlusion by the added adapter. Instead of moving the original adapter into the loop center, the image keeps it at left and adds another at the loop edge. The two adapters and cable have clean geometry and coherent product lighting."
+    }
+  ]
+}

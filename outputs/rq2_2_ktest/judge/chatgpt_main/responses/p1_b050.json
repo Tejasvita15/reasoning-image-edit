@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b050",
+  "results": [
+    {
+      "blind_id": "case_c199657f49da5801",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "A pair of chopsticks is placed on the wooden table beside the food, satisfying the instruction and the explanation's specific utensil expectation; two white bowls are also added. The original dish and garnishes remain recognizable, but the plate and food have been reduced in scale. The edited tabletop scene has coherent ceramic shapes, straight chopsticks, natural food texture and consistent lighting."
+    },
+    {
+      "blind_id": "case_95aab61d6734fe2a",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The blue background, pole and red-white-blue flag identity remain, but the star arrangement is visibly simplified rather than preserved through a viewpoint change. The pole stays on the left and the cloth extends right, whereas the rear-view reference has the pole on the right and cloth extending left; the required reversal is absent. Fabric shading and contours are coherent, but the visibly incomplete star field is a clear semantic defect in the flag design."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b234",
+  "results": [
+    {
+      "blind_id": "case_d8f0d945fbf1c053",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The plant's leaf arrangement, braided trunk and woven basket remain intact within the permitted poster redesign. Green gradients, halos, floating droplets and leaf silhouettes are added, but the title reads 'Green Hoope' rather than 'Green Home'. The foliage and basket look coherent; malformed title lettering and its crowded overlap with foliage are noticeable design flaws."
+    },
+    {
+      "blind_id": "case_b50abf79bd111067",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The trousers are fully blue as requested, with their cut, pleats, belt loops, hems and white background preserved; the button has become slightly darker. The edited garment has natural fabric shading, clean contours and coherent seams without noticeable artifacts."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b122",
+  "results": [
+    {
+      "blind_id": "case_9c1b701bc25035d4",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "A large dark slab and an extensively replaced array of black and white pieces overwrite the original board position. This is not a single added black stone completing the existing row, so the requested move is misinterpreted. Instruction failure \u21d2 knowledge invalid. As an image alone, the stone slab, rounded pieces, highlights and shadows are coherent and artifact-free."
+    },
+    {
+      "blind_id": "case_9d5b74e50cb31b08",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The monitor, cuff, labels and buttons are retained, but the white backdrop becomes gray with a cast shadow. The display still reads 123/72 rather than a systolic value below 90 or diastolic below 60, so no hypotensive modification was made. Instruction failure \u21d2 knowledge invalid. The product image is structurally coherent with readable digits, natural shading and clean edges."
+    }
+  ]
+}

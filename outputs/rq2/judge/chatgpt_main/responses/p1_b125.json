@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b125",
+  "results": [
+    {
+      "blind_id": "case_cd63875c6b12ab7e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The white background and two burlap bags remain, but the small bag shifts and its gathered top, cords and printed figure change, as do the larger bag\u2019s surface details. The right bag is still substantially taller and wider, so it has not been resized to match the small bag. The edited product photograph has coherent stitching, fabric texture, drawstrings and shadows without obvious artifacts."
+    },
+    {
+      "blind_id": "case_96207c482c806bf1",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The woman\u2019s identity, hand pose, white blouse and crown remain recognizable, but the facial features and smile are visibly redrawn. A rainbow background, balloons, fireworks, confetti and backlight produce the requested festive poster. However, the crown obscures the title\u2019s middle letters, the tagline starts \u201cJin\u201d rather than \u201cJoin,\u201d and the cloud is a flat icon rather than soft texture. The edited poster has clear text-rendering and overlapping-layout defects despite coherent anatomy and colorful graphics."
+    }
+  ]
+}

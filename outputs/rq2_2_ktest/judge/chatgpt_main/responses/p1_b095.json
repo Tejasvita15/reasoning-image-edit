@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b095",
+  "results": [
+    {
+      "blind_id": "case_53166b3357b89a2b",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 4,
+      "rationale": "More water covers the shore beneath a full moon, conveying the requested high tide, though the changed viewpoint makes the precise tidal rise ambiguous. The close sand view is replaced by a horizon composition and dark lighting. Waves and foam are coherent, with a slightly artificial oversized moon/reflection presentation."
+    },
+    {
+      "blind_id": "case_37343a89d0fcd06e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "A black disk covers the solar disk, but a separate bright white crescent overlaps its upper right, so the requested total eclipse is poorly represented. The black background becomes gray and the surrounding glow changes. The detached crescent creates a clear semantic/structural flaw despite smooth edges. Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

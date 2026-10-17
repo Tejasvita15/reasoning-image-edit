@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b112",
+  "results": [
+    {
+      "blind_id": "case_59dcfc38c45c947f",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "The clouds, horizon and distant sea retain their arrangement with slight ripple-texture variation. The beach is thoroughly replaced by rounded pebbles of varied sizes and coarse sediment, matching the requested shingle coastline and explanation. The stones, surf and lighting form a coherent natural beach image."
+    },
+    {
+      "blind_id": "case_12f80d1bd1d1fa05",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The existing black and white pieces and board grid retain their positions, with minor board texture drift. A huge irregular black rock is added left of the top row, spanning several intersections instead of placing a normal stone immediately beside the four aligned pieces. It does not clearly form a legal five-stone line, so instruction failure makes knowledge invalid. The oversized rock is a conspicuous scale and semantic anomaly among the game pieces."
+    }
+  ]
+}

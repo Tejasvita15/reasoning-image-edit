@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b032",
+  "results": [
+    {
+      "blind_id": "case_21fe98e767ff90aa",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The plain white background is retained. All six plates disappear, leaving zero rather than the requested two; removal is attempted but the required count is absent. The edited blank field itself is clean and uniform, without visible artifacts."
+    },
+    {
+      "blind_id": "case_d791f47dd7231176",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The maze walls, orange border, title and endpoint arrows remain consistent. A straight red line joins entrance to exit but cuts through several vertical walls instead of tracing a corridor route. Instruction failure \u21d2 knowledge invalid; the explanation is blank and the explicit coupling rule applies. The graphic is crisp and legible, with clean linework."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b076",
+  "results": [
+    {
+      "blind_id": "case_653f7215a16b70e2",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: field, path, distant tree line and overcast sky remain, with a slight change in foreground vegetation texture. Instruction: several strings of rectangular prayer flags now span the flatland. Knowledge: blue, white, red, green and yellow flags supply the five-color expectation. Quality: the flags recede coherently in perspective, with plausible hanging cloth and a natural landscape."
+    },
+    {
+      "blind_id": "case_19a867036ca04c04",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: riverbanks, fields, sky and horizon remain in place, but the left hillside tree textures are visibly redrawn. Instruction: a Chinese-style covered wooden boat is added on the river, but its large rigid pavilion with red lattice sides does not closely match the requested Jiangnan Wu-peng craft. Knowledge: the dark roof gives part of the expected appearance, but the enclosure lacks the characteristic low arched black canopy. Quality: the boat, curved hull, water contact and reflection are coherent."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b001",
+  "results": [
+    {
+      "blind_id": "case_e90e3e55540a9583",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: grid and covered cells remain, but the green 2 becomes a blue 1 and a new blue 1 appears below-left. Instruction: no red X is present, so mine marking is absent. Quality: coherent straight grid and legible numerals without distracting artifacts. Knowledge: the explanation is blank; the supplied coupling applies. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_b80a7bcd2b52bce5",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: board layout and surrounding numbers remain; the green 2 is erased beneath the mark. Instruction: one red X covers an already revealed clue instead of any covered mine position; required mine marking is misinterpreted. Quality: clean grid, legible numerals and a crisp X are structurally coherent. Knowledge: blank explanation; the supplied coupling applies. Instruction failure ⇒ knowledge invalid."
+    }
+  ]
+}

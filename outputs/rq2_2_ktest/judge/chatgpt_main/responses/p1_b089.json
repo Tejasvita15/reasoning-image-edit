@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b089",
+  "results": [
+    {
+      "blind_id": "case_dd13d2c2895bb6de",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Shoe silhouette, gray panels, orange lace accents and sole remain consistent. A blue-orange gradient, dynamic light trails and upper-right Light Start headline realize the sports poster, with only the requested period and explicit geometric accents absent. Shoe textures, typography and flowing graphics are clean and coherent."
+    },
+    {
+      "blind_id": "case_f7c2706887a08e47",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Compass case, scale, labels and compass rose remain consistent. The needle rotates only modestly clockwise, leaving red in the upper-right and blue in the lower-left instead of swapping their positions by reversal. The compass rendering remains clean with legible markings and coherent metallic shading. Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

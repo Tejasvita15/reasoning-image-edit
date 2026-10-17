@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b058",
+  "results": [
+    {
+      "blind_id": "case_0ce3caa36907826b",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The eight existing shapes and grid remain visually unchanged. The lower-right cell receives a box around an enlarged question mark, rather than the required hexagon containing two small circles, so the puzzle is not solved. Instruction failure \u21d2 knowledge invalid. The edited diagram itself has clean, recognizable symbols and an orderly grid."
+    },
+    {
+      "blind_id": "case_11a24d557c2d0b74",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "The mountain silhouettes and foreground vegetation remain matched, with the changes confined to the requested sky region. A bright, textured Milky Way-like band replaces the quiet star field, but there are no auroral curtains or arcs to depict the specified solar-activity effect. Instruction failure \u21d2 knowledge invalid. The landscape is coherent; some bright star clusters appear slightly clumped and painterly."
+    }
+  ]
+}

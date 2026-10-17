@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b027",
+  "results": [
+    {
+      "blind_id": "case_473c03f2155a3033",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The shirt silhouette, folds, labels and white background remain closely matched, with a slight alteration to the chest logo's lettering. The black fabric is consistently recolored white as requested. The garment's seams, texture and shading look natural with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_0374744d18b0ea36",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The four-node layout remains recognizable, but node 0 is changed to 3 and node positions and typography shift. Instead of removing cycles by reversing an edge, both vertical connections become bidirectional, creating two-node cycles. This fails the directed-acyclic requirement; instruction failure implies knowledge invalid. The graphic is cleanly drawn but duplicate node labels introduce a clear semantic defect."
+    }
+  ]
+}

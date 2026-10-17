@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b023",
+  "results": [
+    {
+      "blind_id": "case_609e21c3fd665004",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "The test-tube outline, HCl label and white background are preserved. White veined marble chips are added inside the tube, but no bubbles indicate the requested reaction, so the instruction is only partly realized and the expected acid-carbonate effervescence is missing. The glass and stones are coherently rendered with natural textures and no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_9a5ca58d7e3a84b2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The two cups and saucers remain recognizable, but their placement, the right cup's bean arrangement and the background shading change. The left cup remains clearly smaller than the right, so no meaningful size match was achieved. Viewed alone, the cups, beans and shadows form a clean, plausible photograph."
+    }
+  ]
+}

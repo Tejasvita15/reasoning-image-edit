@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b070",
+  "results": [
+    {
+      "blind_id": "case_2eb7fdebc6a67124",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the U-shaped metal track, brown backdrop and floor remain, with a slight change in metal surface highlights. Instruction: the ball shifts only a little rightward near the left upright; no ball is drawn at the highest point on the right. Knowledge: the required equal-height position on the right is missing; instruction failure \u21d2 knowledge invalid. Quality: the sphere, metal curve, lighting and textures form a clean coherent scene."
+    },
+    {
+      "blind_id": "case_5526097b3744adf4",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: the carton shifts and its can arrangement and labels are redrawn, and an additional horizontal can appears. Instruction: an upright can is added on top of the box, but a separate can remains on the right, so the requested move is only partially achieved. Quality: several labels are garbled, the horizontal can is visibly warped, and can tops and outlines show multiple structural distortions."
+    }
+  ]
+}

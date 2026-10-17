@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b215",
+  "results": [
+    {
+      "blind_id": "case_0d10c11a1ef7f953",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "The yellow background remains, but numerous match heads reverse direction and several numeral/operator segments change. The result reads like 6 followed by a malformed operator and 5=5, not a correct equation achieved with one move. The match rendering is clean apart from the ambiguous operator. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_ac2c07a81d499b9e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The original upper and lower gaps are filled, but two previously present lower-left teeth become dark empty silhouettes, leaving the teeth incomplete. Lips and background remain recognizable, while many unaffected tooth shapes and highlights change. The two dark tooth-shaped regions visibly disrupt an otherwise clean illustration."
+    }
+  ]
+}

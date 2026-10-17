@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b242",
+  "results": [
+    {
+      "blind_id": "case_7da55be761897c55",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The rod is fully removed from the open palm; hand pose, sleeve and faucet remain, with a slight lightening of the dark backdrop. The explicit removal is fulfilled, but the water continues curving right instead of falling vertically as the supplied explanation requires. The edited photograph retains coherent anatomy and natural surfaces without conspicuous artifacts."
+    },
+    {
+      "blind_id": "case_c21b84ff8f63a6fc",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "A second adapter appears in front of the cable while the original remains at left; the white backdrop becomes a checkerboard and cable-end details change. The original adapter is not moved into the cable's center, so the requested positioning is poorly implemented. Checkerboard texture bleeds through the plugs and objects, with ghosted cable segments and distorted connectors creating multiple distracting artifacts."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b104",
+  "results": [
+    {
+      "blind_id": "case_c9e167c54e7a9cd8",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "The bottom-right outline is replaced by an empty upright square, exactly matching the supplied rule of removing internal lines. The two diamonds, divided lower-left square, outer border and background remain consistent. All diagram shapes are clear and coherent without meaningful artifacts."
+    },
+    {
+      "blind_id": "case_f05df37805f6cb7e",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "The bottom-left tile now clearly displays X, completing the left column of three Xs and correctly producing the requested win. Other tile symbols, blank cells, wood tray and white setting remain, with only a small overall framing shift. The blocks, printed symbols, wood grain and shadows are structurally coherent."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b228",
+  "results": [
+    {
+      "blind_id": "case_9592a390653eff1a",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The large central opening remains entirely unfilled, so the wall is not completed. Instead the intact wall surface changes from rough continuous stone to outlined masonry blocks; the floor and loose rocks stay consistent. The edited stonework and hole have coherent depth, texture and lighting without obvious artifacts."
+    },
+    {
+      "blind_id": "case_2fcfac9ba04d0821",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "The display reads 818 over 78 rather than systolic below 90 or diastolic below 60, so it does not depict the specified hypotensive values. The date/time becomes garbled text, unit labels distort and the monitor shifts slightly while the cuff and buttons remain recognizable. The impossible reading and multiple corrupted labels are distracting semantic defects. Instruction failure ⇒ knowledge invalid."
+    }
+  ]
+}

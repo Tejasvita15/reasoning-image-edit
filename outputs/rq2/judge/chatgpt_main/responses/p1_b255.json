@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b255",
+  "results": [
+    {
+      "blind_id": "case_5802efd621b85d87",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The people, grass, strings and other cards remain intact, but the occupied top-middle O is replaced with X. An X was needed in the empty top-left cell to complete the existing diagonal; this replacement creates no winning line. The photographed board and lettering remain natural and coherent. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_2d3df276ff28bbbd",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "A second adapter appears in front of the cable while the original remains left, and the visible right cable connector changes shape. The adapter should have been moved into the loop center; the new one instead sits at its lower-left edge. Both adapters and the coiled cable are cleanly rendered."
+    }
+  ]
+}

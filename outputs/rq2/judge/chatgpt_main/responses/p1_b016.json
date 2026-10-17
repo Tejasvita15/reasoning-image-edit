@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b016",
+  "results": [
+    {
+      "blind_id": "case_61e74da7c390fce6",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: four circular numbered nodes and their layout are replaced by a square with diagonals and unrelated labels. Instruction: no directed arrows remain, so the image is not a directed acyclic graph. Knowledge: reversing an arrow to break the cycle was required; replacing the graph with an undirected crossed square ignores that expectation. Instruction failure \u21d2 knowledge invalid. Quality: the lines are mostly clean, but the disconnected lower-right corner and ambiguous center label create diagram defects."
+    },
+    {
+      "blind_id": "case_1e7d4a1a2dcf5c94",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: cream leather, handle, gold double-G hardware and stitching design remain, with slightly altered lower flap stitching. Instruction: gold serif slogan and bottom-center GUCCI are added over gray fabric, but the bag remains centered, little white space remains, the background resembles shiny satin rather than velvet, and GUCCI is large rather than subtle fine lettering; the slogan comma is missing. Quality: bag and main lettering are coherent, but faint watermark-like lettering crosses the lower bag and the floor reflection is awkwardly truncated."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b037",
+  "results": [
+    {
+      "blind_id": "case_d48fadfb9bdb9c28",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 2,
+      "rationale": "The bottle outline, label and background remain, but the stopper neck becomes dark brown. Dark particulate material is added at the bottom, partly fulfilling the powder addition, with implausible matching material in the stopper. The solution remains yellowish without bubbles, missing both knowledge expectations. The image is readable, with a minor glitter-like particulate texture issue."
+    },
+    {
+      "blind_id": "case_4ef6ca2ae5de314b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The table, vase and books remain, but the white background becomes gray and extra chairs appear. The original foreground chair is still pulled out; adding chairs does not accomplish pushing it under the table. The added front-right chair has awkward, disconnected-looking lower crossbars, a noticeable structural flaw."
+    }
+  ]
+}

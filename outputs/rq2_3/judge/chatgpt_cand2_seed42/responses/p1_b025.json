@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b025",
+  "results": [
+    {
+      "blind_id": "case_c8faa198ede6b891",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The red capsule, dark bottle and REGAL/ARDITI label identity are retained, with a small change to fine label details. The edit adds the requested red-black spotlight and reflection with no extra objects, but the bottle is not slightly below center and the headline uses script with a comma after Timeless rather than the specified serif text and period. The edited poster has a coherent bottle, readable headline and smooth lighting and reflection."
+    },
+    {
+      "blind_id": "case_e9a254c501eb0ed6",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Both shoes and their shadows disappear, so the major non-target shoe is also lost. Removal occurs but overshoots the requested one-shoe deletion; one shoe should remain. The resulting pale surface is smooth and visually coherent, with no residual shoe edges or obvious fill artifacts."
+    }
+  ]
+}

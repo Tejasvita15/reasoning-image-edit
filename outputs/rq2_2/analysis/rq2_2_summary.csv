@@ -1,0 +1,7 @@
+thinking,steps,n,latency_total_s,mean_Q,visual_consistency,visual_quality,instruction_following,knowledge_plausibility,generator_calls
+off,20,90,50.17,53.98,3.36,4.24,2.5,1.82,40
+off,28,90,65.82,55.9,3.44,4.26,2.61,1.92,56
+off,50,90,109.42,53.87,3.24,4.21,2.57,1.9,100
+on,20,90,51.62,57.18,3.64,4.01,2.79,2,40
+on,28,90,67.42,59.49,3.69,4.26,2.82,1.96,56
+on,50,90,110.87,58.56,3.44,4.26,2.93,2.02,100

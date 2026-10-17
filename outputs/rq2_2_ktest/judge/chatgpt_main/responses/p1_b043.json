@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b043",
+  "results": [
+    {
+      "blind_id": "case_d64a22115b36ce25",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The honeycomb slabs and wooden dipper retain their recognizable shapes and arrangement within the authorized poster redesign. The gold gradient, centered products, petals, droplets, glow and correct bold title are present, but the bottom description is garbled and cannot communicate health benefits; most droplets also sit on the surface. The product rendering is coherent, while the nonsense footer is a clear semantic text artifact."
+    },
+    {
+      "blind_id": "case_24c1582ba51ce63e",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "The original five animal-front and tail pairs, colored circles and dot layout are largely replaced by three sparse rows with rotated or distorted fragments. Two horizontal arrows appear, but they do not connect the original animals to their corresponding tails, leaving most required matching absent. Instruction failure \u21d2 knowledge invalid. The edited worksheet has distracting malformed animal fragments, empty circles and incomplete row structure."
+    }
+  ]
+}

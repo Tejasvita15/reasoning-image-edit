@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b131",
+  "results": [
+    {
+      "blind_id": "case_94dbacfe7388c6a3",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The maze topology, animal and gifts are retained with a slight leftward layout shift. A straight red double-headed arrow connects their general locations but crosses several walls instead of tracing the maze corridors, so the path is poorly implemented. Instruction failure \u21d2 knowledge invalid. The edited illustration has coherent outlines, recognizable figures and a cleanly rendered arrow without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_28b43f5269e283c4",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The purple patterned surface, viewpoint and cube\u2019s blue and orange sides remain consistent. One missing upper-front piece is restored, but a conspicuous dark cavity remains beside it, so the cube is only partly completed. Judged alone, the cube has a clear structural gap and uneven upper tile arrangement, though its lighting and plastic surfaces remain coherent."
+    }
+  ]
+}

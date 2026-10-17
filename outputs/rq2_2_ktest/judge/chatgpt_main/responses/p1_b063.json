@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b063",
+  "results": [
+    {
+      "blind_id": "case_98d54e63da5ecdb1",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: circular bangle, two hanging charms, placement and white background remain unchanged. Instruction: gold metal becomes silver throughout, including charms and loops. Quality: coherent metallic reflections, connected loops and clean jewelry contours show no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_84a0adb7171dcf76",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: mango contour, leaf veins, stem, speckles and white background are preserved. Instruction: yellow-orange skin becomes green throughout. Quality: fruit texture, leaf structure, lighting and shadows are natural and coherent."
+    }
+  ]
+}

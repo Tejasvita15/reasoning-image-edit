@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b004",
+  "results": [
+    {
+      "blind_id": "case_53d34bee3a5e12c2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: plug, housing silhouette and cable remain; wood texture and port types/labels change beyond changing the count. Instruction: ten USB sockets become four elongated slots and two round marks, not six recognizable USB interfaces; major omission. Quality: coherent overall charger and plug, but misshapen port interiors and ambiguous tiny labels are noticeable defects."
+    },
+    {
+      "blind_id": "case_79051ccf9dde3d6f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the open book becomes closed, while vase and table contours shift slightly; pale setting and flower colors remain. Instruction: book remains right of vase instead of moving to the opposite left side; non-compliance. Quality: coherent closed book, glass tabletop, reflections and flowers with no noticeable artifacts."
+    }
+  ]
+}

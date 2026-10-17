@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b100",
+  "results": [
+    {
+      "blind_id": "case_08119ecd160f5f08",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The wooden background, gold grid and four corner symbols remain aligned, but the existing central O is removed. A red X replaces that occupied cell rather than filling the top-middle empty cell; no line of three Xs is completed. Instruction failure therefore makes knowledge invalid. The edited board itself has clean, coherent grid geometry and legible symbols."
+    },
+    {
+      "blind_id": "case_1225f495fe62c9e4",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "The mountain outlines and foreground plants remain closely preserved, with slight vegetation texture changes. A bright Milky Way-like dust and star band replaces the subdued sky, but no auroral ribbons appear. This misses the specified solar-activity phenomenon; instruction failure makes knowledge invalid. The landscape is coherent, with a slightly artificial glowing central sky texture."
+    }
+  ]
+}

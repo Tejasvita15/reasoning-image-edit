@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b020",
+  "results": [
+    {
+      "blind_id": "case_e0538c9092d15e05",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the grid, pens, lemons and existing watermelons remain in place, with a small texture change on the lower-left lemon. Instruction: one watermelon is added to the correct middle-right box, but the question mark is retained over it. Knowledge: the single watermelon correctly follows the row category and column quantity rule. Quality: the graphic is coherent and the objects and overlaid question mark are clearly rendered."
+    },
+    {
+      "blind_id": "case_e4bd6da6b8a3adac",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the blue cube, leaf and white background persist, but the caterpillar is relocated from the bottom corner to the top. Instruction: two curved black segments are drawn, but neither connects the original caterpillar location to the leaf or represents complete shortest routes. Knowledge: the marks do not show the specified diagonal ascent and continuation toward the leaf. Instruction failure \u21d2 knowledge invalid. Quality: the cube and characters are coherent, but the disconnected freehand markings create a visibly incomplete diagram."
+    }
+  ]
+}

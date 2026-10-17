@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b112",
+  "results": [
+    {
+      "blind_id": "case_d276f01124e5f9fe",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: upper A-B-C and D/F branches remain, but E and G are also deleted and the B-E edge is left dangling. Instruction: removal of the entire E/G/H subtree fails to leave G without siblings because G itself is gone. Knowledge: H alone should be removed; instruction failure \u21d2 knowledge invalid. Quality: readable nodes but an obvious dangling branch makes the diagram structurally incomplete."
+    },
+    {
+      "blind_id": "case_42337563484632c5",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "Consistency: supplied picture clues remain in their cells, but thick subgrid boundaries are lost. Instruction: every blank is populated, yet repeated butterflies and suns across rows prevent a correct solution. Knowledge: multiple duplicates violate the one-of-each row/column logic of the supplied picture grid. Quality: clear grid and mostly legible icons, with several distorted butterfly/animal symbols and inconsistent sun designs."
+    }
+  ]
+}

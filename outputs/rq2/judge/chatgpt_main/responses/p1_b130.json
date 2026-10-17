@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b130",
+  "results": [
+    {
+      "blind_id": "case_4dcb01fdb6fdfa5f",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "The canal buildings, vegetation and viewpoint are retained. The formerly partly hidden left passenger is redrawn in a different visible pose. The covered boat becomes an open black gondola with long curved ends and an ornamental bow, correctly matching both the instruction and supplied Venetian-boat explanation. Boat and water integration are coherent, with slightly blended passenger-hand detail as a minor visual imperfection."
+    },
+    {
+      "blind_id": "case_75395e154e3a7e66",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "The branch, leaf arrangement, backlighting and blurred green background are preserved. Numerous brown circular lesions are added across the leaves, suggesting damage, but they mostly read as filled spots rather than the open eaten-through holes required by the explanation. This partially depicts infestation while missing its specified effect. The edited foliage has coherent veins, lighting and naturally integrated discoloration without noticeable rendering artifacts."
+    }
+  ]
+}

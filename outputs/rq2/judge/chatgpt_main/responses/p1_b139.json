@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b139",
+  "results": [
+    {
+      "blind_id": "case_08afa50e0e1cf244",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The round blue stone and gold setting remain recognizable, but the chain links change shape and construction. The centered pendant, grey-blue fabric backdrop and exact caption are present; the caption uses bold script instead of fine serif, the fabric looks satin-like, and the requested star-like highlight is absent. The composition is coherent, with slight flattening of the chain texture."
+    },
+    {
+      "blind_id": "case_df99e86b8d1102ed",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "The other eight shapes and grid remain visually unchanged. The target cell contains a larger question mark inside a square, rather than the required hexagon with two circles. The diagram stays legible, with a small roughness in the new square border. Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

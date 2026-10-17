@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b011",
+  "results": [
+    {
+      "blind_id": "case_6ae506d0fcc55957",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the girl, house and grid remain, but the original ordered arrow guide above is largely removed/replaced. Instruction: numerous arrows and blocks are added down one column, with conflicting directions and no route across to the house; the prescribed directional sequence is not implemented. Knowledge: no explanation is supplied, but the disconnected route cannot take the person home. Instruction failure \u21d2 knowledge invalid. Quality: malformed arrowheads, stray blocks and gray smears create multiple distracting diagram artifacts."
+    },
+    {
+      "blind_id": "case_c1178ce5fdf6bb89",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: cap colors and white background persist, but bottle positions, embossed lettering and the right bottle's proportions visibly change. Instruction: the left bottle remains shorter and narrower than the right with little enlargement, so most of the requested size match is missing. Quality: bottle silhouettes, liquid levels, caps and reflections remain coherent and natural."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+# Step1X RQ2 base config (RQ2.1, reused by RQ2.2).
+#
+# src/rq2/run_rq2.py sets true_cfg_scale, num_inference_steps and
+# enable_thinking_mode per grid point from its required CLI arguments.
+# The generation values below are placeholders for config validation.
+
+experiment_name: rq2_step1x
+
+model:
+  model_id: stepfun-ai/Step1X-Edit-v1p2
+  dtype: bfloat16
+  # S5: model-level offloading (diffusers enable_model_cpu_offload),
+  # identical for every RQ2 condition.
+  cpu_offload: true
+
+generation:
+  num_inference_steps: 50
+  true_cfg_scale: 6.0
+  enable_thinking_mode: false
+  enable_reflection_mode: false
+  max_try_cnt: 1
+
+output_dir: outputs/rq2
+log_file: logs/rq2/rq2_step1x.jsonl

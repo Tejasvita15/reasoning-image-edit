@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b047",
+  "results": [
+    {
+      "blind_id": "case_b79756393bea766e",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the open wooden grid is replaced by a smaller stone-framed board, with numerous stones added and existing colors/positions changed. Instruction: black rows appear, but the requested single winning stone is replaced by a wholesale new game configuration. Knowledge: a win from one legal addition to the original position is not depicted; Instruction failure implies knowledge invalid. Quality: several white pieces have anomalous dark upper halves and blurred boundaries, although the board remains recognizable."
+    },
+    {
+      "blind_id": "case_78831b4e15ea5542",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the room layout persists, but carved wall-panel detail and bedding/pillow textures are noticeably redrawn. Instruction: balloons are added in the room, but a floating cluster of five replaces the requested single regular-air balloon. Knowledge: none lies on the floor as the supplied explanation requires, fundamentally contradicting that behavior. Quality: the room and balloon bodies are coherent, with minor blending/tangling of ribbons beneath the cluster."
+    }
+  ]
+}

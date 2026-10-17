@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b074",
+  "results": [
+    {
+      "blind_id": "case_af4d073a1ba2616c",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: the lantern silhouette, tassel and original gold ornament remain, but large additional glyphs obscure and alter its surface design. Instruction: the centered lantern, red-gold glow, sparkles and petals establish the festive poster, but golden willow decorations and the exact top headline are absent, with garbled text placed over the lantern instead. Quality: the lantern and background are coherent, but both the large decorative characters and small slogan are malformed and illegible."
+    },
+    {
+      "blind_id": "case_08448d287941d46e",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: branch, leaf positions and outlines, backlighting and blurred green background remain unchanged outside the instructed leaf damage. Instruction: many brown damaged patches appear on the leaves, suggesting infestation, but clearly open eaten-through holes are not evident. Knowledge: the provided explanation specifically expects holes; the visible surface spotting only partly reflects that outcome. Quality: leaf veins, mottled patches, branch and bokeh are natural and coherent."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b017",
+  "results": [
+    {
+      "blind_id": "case_7c82a8f1698b1e88",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: spoon bowl, upper stem, position and wood-grain background remain intact. Instruction: the cut-off stem is extended into a complete rounded handle with a hanging hole, fulfilling the requested repair. Quality: the handle has coherent material, smooth contour and a plausible cast shadow; its stepped grip transition is structurally plausible."
+    },
+    {
+      "blind_id": "case_1ad5d6448c187a34",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: blue-and-cream carton, cap and white background remain, but the cow illustration and splash contours are noticeably redrawn. Instruction: the cow side becomes more visible, yet a broad MILK front panel remains; the reference shows the side face square-on with no front lettering visible. The viewpoint change is substantially incomplete. Quality: carton planes, cap, lettering and illustration are clean and coherent."
+    }
+  ]
+}

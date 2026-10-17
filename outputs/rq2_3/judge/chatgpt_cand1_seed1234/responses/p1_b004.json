@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b004",
+  "results": [
+    {
+      "blind_id": "case_3174d1009ac2e0d7",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the number 8 retains its silhouette, placement, white holes and background. Instruction: its orange fill changes completely to green as requested. Quality: legible, coherent numeral with smooth contours and no noticeable structural artifacts."
+    },
+    {
+      "blind_id": "case_ac4d8e658a971ef9",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: right-hand animals and milk remain, but yarn, honey and eggs are replaced with a sheep, basket and rooster. Instruction: no connecting matches are drawn; replacing products does not associate each original item with its animal. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: individually coherent cartoon animals and objects, clean spacing and fills, and legible milk lettering."
+    }
+  ]
+}

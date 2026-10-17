@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b001",
+  "results": [
+    {
+      "blind_id": "case_afe5fb16955b1b72",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: grid layout persists, but white cells become dark, digits become white, and the given row-2 column-2 numeral changes from 2 to 3. Instruction: numbers were added, but one cell remains blank, several digits are malformed, and 5/9 and repeated 3s do not complete a 4x4 Sudoku correctly; major omission. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: grid is coherent but multiple malformed or ambiguous numerals distract."
+    },
+    {
+      "blind_id": "case_731982f7f3f86d68",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: the central crane painting and carved frame are recognizable, but painting detail is visibly redrawn, including tree foliage and crane shapes. Instruction: blue gradient, surrounding clouds/cranes and frame glow are added, but the headline uses script rather than serif and bottom-left event information is garbled instead of usable handwritten information; partial compliance. Quality: coherent poster layout and readable headline, but multiple lines of corrupted bottom text and malformed calligraphy cause structural degradation."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b105",
+  "results": [
+    {
+      "blind_id": "case_2016b4643ea2f0ea",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Balloons are added to the room, but a floating cluster replaces the requested regular-air balloon; none rests on the floor, fundamentally contradicting the supplied knowledge. The room layout survives, but carved wall ornament, pillows, bedding and window branches change noticeably. The warm lighting is coherent, with slight merging of the clustered balloons."
+    },
+    {
+      "blind_id": "case_6f02c101c1d071c2",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The central red lantern retains its recognizable form and gold ornament, with minor tassel detail changes. Gold willow, red petals, glow and a red-gold background provide the requested festive design, but the headline omits Festival and sits across the center; the slogan also omits New and is not at the bottom. The graphic is polished apart from cramped overlapping central typography."
+    }
+  ]
+}

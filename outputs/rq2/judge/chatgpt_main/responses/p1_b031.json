@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b031",
+  "results": [
+    {
+      "blind_id": "case_ed85c651f54d1c47",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "The foil-wrapped and nut-coated chocolates remain recognizable, but two extra small brown balls are added. The gold gradient, bokeh and upper-left brown title implement the design concept, while the requested sentence is extensively garbled and the restrained two-ball composition is lost. Malformed lettering and smeared chocolate texture create multiple distracting flaws."
+    },
+    {
+      "blind_id": "case_e23598718710f518",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "The supplied source is a fountain pen, retained with its black body and gold trim while the requested poster background changes. A bear at right, blue sky, stars, clouds and candy are present, but the required Bear Balloon Party title is garbled. Distorted lettering and claw-like fused bear paw details reduce visual quality."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b001",
+  "results": [
+    {
+      "blind_id": "case_5d08b25542b8f51b",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the blue sky, wispy cloud formations and bright upper-right sun remain unchanged outside the replaced bird. Instruction: the gull becomes a dark eagle-like raptor with a projecting yellow beak, not the required owl. Knowledge: the explanation requires an owl; instruction failure ⇒ knowledge invalid. Quality: coherent feather layering, spread wings, talons and natural illumination, without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_15d3c533009d4f95",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the grid and eight existing arc patterns retain their positions and shapes. Instruction: the question mark becomes a thick complete ring, whereas the shared parts of the two bottom-row patterns should be a lower inner semicircle and lower-right outer quarter arc. Most of the required pattern is incorrect. Knowledge: the full ring does not implement intersection of the arcs; instruction failure ⇒ knowledge invalid. Quality: the diagram and new ring have clean, coherent contours and no distracting rendering artifacts."
+    }
+  ]
+}

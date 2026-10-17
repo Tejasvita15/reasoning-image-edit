@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b086",
+  "results": [
+    {
+      "blind_id": "case_45642703b247e5ef",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The trousers are uniformly blue while retaining the button, waistband, belt loops, pleats, silhouette and white background. This precisely fulfills the color change. Fabric shading and seams remain natural and clean."
+    },
+    {
+      "blind_id": "case_92334bb69a0802e6",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The blue sky, clouds, sun and overall framing are preserved. The gull is replaced by a gold, crested fantasy bird with a long narrow head rather than an owl, so the wisdom-bird identification is wrong. The stylized creature has coherent feathering, wings and lighting. Instruction failure ⇒ knowledge invalid."
+    }
+  ]
+}

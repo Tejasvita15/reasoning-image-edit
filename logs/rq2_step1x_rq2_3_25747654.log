@@ -1,0 +1,221 @@
+==========================================
+Job ID: 25747654.pbs101
+Node: x1000c2s0b0n1
+Workdir: /home/users/ntu/ngch0136/reasoning-image-edit
+Stage: rq2_3 | seed 42 | thinking [off cached] | cfg [2 6 10]
+Start: Sat Oct 10 17:21:24 +08 2026
+==========================================
+Branch:  @ 
+HF_HOME: /scratch/users/ntu/ngch0136/hf_cache
+/home/users/ntu/ngch0136/.conda/envs/reasoning-image-edit/bin/python
+Sat Oct 10 17:21:26 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.124.06             Driver Version: 570.124.06     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-40GB          On  |   00000000:41:00.0 Off |                    0 |
+| N/A   41C    P0             54W /  400W |       1MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Torch: 2.11.0+cu128
+CUDA available: True
+GPU: NVIDIA A100-SXM4-40GB
+GPU memory: 39.49 GB
+============================================================
+RQ2.3 | split k_small | seed 42 | examples 40
+  rq2_3_step1x_think-cached_cfg6_steps28 -> logs/rq2_3/rq2_3_step1x_think-cached_cfg6_steps28_k_small_seed42.jsonl
+  thought cache outputs/rq2_2_ktest/thought_cache/k_test_seed42.jsonl
+Pending examples: 0
+============================================================
+Nothing to do; every example is complete.
+============================================================
+RQ2.3 | split k_small | seed 1234 | examples 40
+  rq2_3_step1x_think-cached_cfg6_steps28 -> logs/rq2_3/rq2_3_step1x_think-cached_cfg6_steps28_k_small_seed1234.jsonl
+  thought cache outputs/rq2_3/thought_cache/k_small_seed1234.jsonl
+Pending examples: 0
+============================================================
+Nothing to do; every example is complete.
+============================================================
+RQ2.3 | split k_small | seed 7 | examples 40
+  rq2_3_step1x_think-cached_cfg6_steps28 -> logs/rq2_3/rq2_3_step1x_think-cached_cfg6_steps28_k_small_seed7.jsonl
+  thought cache outputs/rq2_3/thought_cache/k_small_seed7.jsonl
+Pending examples: 0
+============================================================
+Nothing to do; every example is complete.
+Flash Attention is not installed. Falling to SDPA.
+============================================================
+RQ2.3 selector | logs/rq2_3/rq2_3_step1x_think-cached_cfg6_steps28_k_small_seed42.jsonl -> logs/rq2_3/selector/rq2_3_selector_k_small_seed42.jsonl
+Examples: 40 | pending 40
+============================================================
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 1295.04it/s]
+config_path: /home/users/ntu/ngch0136/EditReward/EditReward/config/EditReward-MiMo-VL-7B-SFT-2508.yaml
+
+The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:12,  4.30s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:06<00:05,  2.93s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:08<00:02,  2.83s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:09<00:00,  1.85s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:09<00:00,  2.34s/it]
+Some weights of Qwen2_5_VLRewardModelBT_MultiHead were not initialized from the model checkpoint at XiaomiMiMo/MiMo-VL-7B-SFT-2508 and are newly initialized: ['rm_heads.head_0.0.bias', 'rm_heads.head_0.0.weight', 'rm_heads.head_0.3.bias', 'rm_heads.head_0.3.weight', 'rm_heads.head_0.5.bias', 'rm_heads.head_0.5.weight', 'rm_heads.head_1.0.bias', 'rm_heads.head_1.0.weight', 'rm_heads.head_1.3.bias', 'rm_heads.head_1.3.weight', 'rm_heads.head_1.5.bias', 'rm_heads.head_1.5.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[1/40] abstract_reasoning__33 | cand1 1.049 | picks feedback cand1, resample cand1
+[2/40] anomaly_correction__25 | cand1 0.787 | picks feedback cand1, resample cand1
+[3/40] anomaly_correction__74 | cand1 0.159 | feedback_cand2 0.305 | resample_cand2 0.211 | picks feedback feedback_cand2, resample resample_cand2
+[4/40] biology__49 | cand1 0.933 | feedback_cand2 0.840 | resample_cand2 0.788 | picks feedback cand1, resample cand1
+[5/40] color_change__49 | cand1 2.115 | picks feedback cand1, resample cand1
+[6/40] count_change__16 | cand1 -0.695 | feedback_cand2 -0.565 | resample_cand2 -0.581 | picks feedback feedback_cand2, resample resample_cand2
+[7/40] count_change__47 | cand1 -0.889 | feedback_cand2 -0.297 | resample_cand2 -0.937 | picks feedback feedback_cand2, resample cand1
+[8/40] count_change__48 | cand1 0.166 | feedback_cand2 0.339 | resample_cand2 0.295 | picks feedback feedback_cand2, resample resample_cand2
+[9/40] geography__6 | cand1 0.096 | picks feedback cand1, resample cand1
+[10/40] geography__40 | cand1 1.758 | picks feedback cand1, resample cand1
+[11/40] humanities__10 | cand1 1.704 | picks feedback cand1, resample cand1
+[12/40] humanities__45 | cand1 -0.626 | feedback_cand2 -0.622 | resample_cand2 -0.630 | picks feedback feedback_cand2, resample cand1
+[13/40] humanities__73 | cand1 1.493 | picks feedback cand1, resample cand1
+[14/40] mathematics__6 | cand1 1.180 | picks feedback cand1, resample cand1
+[15/40] mathematics__10 | cand1 1.526 | feedback_cand2 0.876 | resample_cand2 1.151 | picks feedback cand1, resample cand1
+[16/40] medicine__24 | cand1 -0.097 | picks feedback cand1, resample cand1
+[17/40] multi-instruction_execution__8 | cand1 1.299 | feedback_cand2 1.245 | resample_cand2 1.174 | picks feedback cand1, resample cand1
+[18/40] multi-instruction_execution__10 | cand1 1.233 | feedback_cand2 0.802 | resample_cand2 1.341 | picks feedback cand1, resample resample_cand2
+[19/40] multi-instruction_execution__37 | cand1 1.278 | feedback_cand2 1.203 | resample_cand2 1.302 | picks feedback cand1, resample resample_cand2
+[20/40] multi-instruction_execution__56 | cand1 1.120 | picks feedback cand1, resample cand1
+[21/40] multi-instruction_execution__58 | cand1 1.261 | picks feedback cand1, resample cand1
+[22/40] multi-instruction_execution__61 | cand1 1.153 | feedback_cand2 1.152 | resample_cand2 1.210 | picks feedback cand1, resample resample_cand2
+[23/40] physics__11 | cand1 1.558 | feedback_cand2 -0.730 | resample_cand2 1.875 | picks feedback cand1, resample resample_cand2
+[24/40] physics__53 | cand1 2.013 | picks feedback cand1, resample cand1
+[25/40] position_movement__30 | cand1 0.479 | feedback_cand2 0.060 | resample_cand2 -0.607 | picks feedback cand1, resample cand1
+[26/40] position_movement__45 | cand1 0.027 | feedback_cand2 0.348 | resample_cand2 0.010 | picks feedback feedback_cand2, resample cand1
+[27/40] practical_knowledge__28 | cand1 1.207 | feedback_cand2 1.353 | resample_cand2 1.011 | picks feedback feedback_cand2, resample cand1
+[28/40] practical_knowledge__29 | cand1 -0.410 | picks feedback cand1, resample cand1
+[29/40] rule-based_reasoning__43 | cand1 -0.951 | feedback_cand2 -0.596 | resample_cand2 -0.402 | picks feedback feedback_cand2, resample resample_cand2
+[30/40] rule-based_reasoning__52 | cand1 -0.935 | feedback_cand2 -1.071 | resample_cand2 -0.788 | picks feedback cand1, resample resample_cand2
+[31/40] rule-based_reasoning__67 | cand1 0.085 | feedback_cand2 0.255 | resample_cand2 0.170 | picks feedback feedback_cand2, resample resample_cand2
+[32/40] rule-based_reasoning__68 | cand1 -0.247 | feedback_cand2 -0.189 | resample_cand2 -0.252 | picks feedback feedback_cand2, resample cand1
+[33/40] rule-based_reasoning__71 | cand1 1.415 | feedback_cand2 1.460 | resample_cand2 1.821 | picks feedback feedback_cand2, resample resample_cand2
+[34/40] rule-based_reasoning__75 | cand1 1.151 | feedback_cand2 -0.843 | resample_cand2 1.014 | picks feedback cand1, resample cand1
+[35/40] size_adjustment__5 | cand1 -0.227 | feedback_cand2 -0.447 | resample_cand2 -0.457 | picks feedback cand1, resample cand1
+[36/40] size_adjustment__27 | cand1 0.045 | feedback_cand2 -0.034 | resample_cand2 0.136 | picks feedback cand1, resample resample_cand2
+[37/40] size_adjustment__33 | cand1 0.301 | feedback_cand2 0.235 | resample_cand2 0.062 | picks feedback cand1, resample cand1
+[38/40] size_adjustment__38 | cand1 -0.398 | feedback_cand2 0.461 | resample_cand2 -0.414 | picks feedback feedback_cand2, resample cand1
+[39/40] viewpoint_change__11 | cand1 0.930 | picks feedback cand1, resample cand1
+[40/40] viewpoint_change__43 | cand1 0.940 | feedback_cand2 1.111 | resample_cand2 0.970 | picks feedback feedback_cand2, resample resample_cand2
+Wrote logs/rq2_3/selector/rq2_3_selector_k_small_seed42.jsonl
+Flash Attention is not installed. Falling to SDPA.
+============================================================
+RQ2.3 selector | logs/rq2_3/rq2_3_step1x_think-cached_cfg6_steps28_k_small_seed1234.jsonl -> logs/rq2_3/selector/rq2_3_selector_k_small_seed1234.jsonl
+Examples: 40 | pending 40
+============================================================
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 2622.67it/s]
+config_path: /home/users/ntu/ngch0136/EditReward/EditReward/config/EditReward-MiMo-VL-7B-SFT-2508.yaml
+
+The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:00,  3.51it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00,  3.64it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:00<00:00,  3.55it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00,  4.70it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00,  4.21it/s]
+Some weights of Qwen2_5_VLRewardModelBT_MultiHead were not initialized from the model checkpoint at XiaomiMiMo/MiMo-VL-7B-SFT-2508 and are newly initialized: ['rm_heads.head_0.0.bias', 'rm_heads.head_0.0.weight', 'rm_heads.head_0.3.bias', 'rm_heads.head_0.3.weight', 'rm_heads.head_0.5.bias', 'rm_heads.head_0.5.weight', 'rm_heads.head_1.0.bias', 'rm_heads.head_1.0.weight', 'rm_heads.head_1.3.bias', 'rm_heads.head_1.3.weight', 'rm_heads.head_1.5.bias', 'rm_heads.head_1.5.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[1/40] abstract_reasoning__33 | cand1 1.018 | picks feedback cand1, resample cand1
+[2/40] anomaly_correction__25 | cand1 1.321 | picks feedback cand1, resample cand1
+[3/40] anomaly_correction__74 | cand1 0.302 | feedback_cand2 0.170 | resample_cand2 0.123 | picks feedback cand1, resample cand1
+[4/40] biology__49 | cand1 0.944 | feedback_cand2 0.234 | resample_cand2 0.650 | picks feedback cand1, resample cand1
+[5/40] color_change__49 | cand1 2.113 | picks feedback cand1, resample cand1
+[6/40] count_change__16 | cand1 -0.599 | feedback_cand2 -0.597 | resample_cand2 -0.968 | picks feedback feedback_cand2, resample cand1
+[7/40] count_change__47 | cand1 -1.031 | feedback_cand2 -0.899 | resample_cand2 -1.143 | picks feedback feedback_cand2, resample cand1
+[8/40] count_change__48 | cand1 0.246 | feedback_cand2 -0.138 | resample_cand2 0.359 | picks feedback cand1, resample resample_cand2
+[9/40] geography__6 | cand1 -0.092 | feedback_cand2 -0.176 | resample_cand2 -0.221 | picks feedback cand1, resample cand1
+[10/40] geography__40 | cand1 1.482 | picks feedback cand1, resample cand1
+[11/40] humanities__10 | cand1 1.703 | picks feedback cand1, resample cand1
+[12/40] humanities__45 | cand1 -0.628 | feedback_cand2 -0.712 | resample_cand2 -0.521 | picks feedback cand1, resample resample_cand2
+[13/40] humanities__73 | cand1 1.546 | picks feedback cand1, resample cand1
+[14/40] mathematics__6 | cand1 0.369 | feedback_cand2 -0.353 | resample_cand2 -0.604 | picks feedback cand1, resample cand1
+[15/40] mathematics__10 | cand1 1.460 | picks feedback cand1, resample cand1
+[16/40] medicine__24 | cand1 0.261 | picks feedback cand1, resample cand1
+[17/40] multi-instruction_execution__8 | cand1 1.484 | feedback_cand2 1.435 | resample_cand2 1.328 | picks feedback cand1, resample cand1
+[18/40] multi-instruction_execution__10 | cand1 0.951 | feedback_cand2 0.713 | resample_cand2 1.289 | picks feedback cand1, resample resample_cand2
+[19/40] multi-instruction_execution__37 | cand1 1.385 | picks feedback cand1, resample cand1
+[20/40] multi-instruction_execution__56 | cand1 1.159 | picks feedback cand1, resample cand1
+[21/40] multi-instruction_execution__58 | cand1 1.263 | picks feedback cand1, resample cand1
+[22/40] multi-instruction_execution__61 | cand1 1.238 | feedback_cand2 1.153 | resample_cand2 1.238 | picks feedback cand1, resample resample_cand2
+[23/40] physics__11 | cand1 1.860 | picks feedback cand1, resample cand1
+[24/40] physics__53 | cand1 2.048 | picks feedback cand1, resample cand1
+[25/40] position_movement__30 | cand1 -0.239 | feedback_cand2 0.135 | resample_cand2 -0.441 | picks feedback feedback_cand2, resample cand1
+[26/40] position_movement__45 | cand1 -0.087 | feedback_cand2 0.264 | resample_cand2 0.142 | picks feedback feedback_cand2, resample resample_cand2
+[27/40] practical_knowledge__28 | cand1 1.525 | picks feedback cand1, resample cand1
+[28/40] practical_knowledge__29 | cand1 -0.509 | feedback_cand2 -0.606 | resample_cand2 -0.458 | picks feedback cand1, resample resample_cand2
+[29/40] rule-based_reasoning__43 | cand1 -0.369 | picks feedback cand1, resample cand1
+[30/40] rule-based_reasoning__52 | cand1 -0.908 | feedback_cand2 -0.951 | resample_cand2 -0.952 | picks feedback cand1, resample cand1
+[31/40] rule-based_reasoning__67 | cand1 -0.061 | feedback_cand2 0.465 | resample_cand2 0.781 | picks feedback feedback_cand2, resample resample_cand2
+[32/40] rule-based_reasoning__68 | cand1 -0.295 | feedback_cand2 0.082 | resample_cand2 -0.471 | picks feedback feedback_cand2, resample cand1
+[33/40] rule-based_reasoning__71 | cand1 1.422 | picks feedback cand1, resample cand1
+[34/40] rule-based_reasoning__75 | cand1 1.056 | feedback_cand2 -0.784 | resample_cand2 1.114 | picks feedback cand1, resample resample_cand2
+[35/40] size_adjustment__5 | cand1 -0.170 | picks feedback cand1, resample cand1
+[36/40] size_adjustment__27 | cand1 0.169 | feedback_cand2 -0.494 | resample_cand2 0.242 | picks feedback cand1, resample resample_cand2
+[37/40] size_adjustment__33 | cand1 0.064 | feedback_cand2 0.153 | resample_cand2 0.123 | picks feedback feedback_cand2, resample resample_cand2
+[38/40] size_adjustment__38 | cand1 -0.519 | feedback_cand2 -0.124 | resample_cand2 -0.089 | picks feedback feedback_cand2, resample resample_cand2
+[39/40] viewpoint_change__11 | cand1 0.429 | feedback_cand2 1.338 | resample_cand2 0.506 | picks feedback feedback_cand2, resample resample_cand2
+[40/40] viewpoint_change__43 | cand1 0.483 | feedback_cand2 0.805 | resample_cand2 0.609 | picks feedback feedback_cand2, resample resample_cand2
+Wrote logs/rq2_3/selector/rq2_3_selector_k_small_seed1234.jsonl
+Flash Attention is not installed. Falling to SDPA.
+============================================================
+RQ2.3 selector | logs/rq2_3/rq2_3_step1x_think-cached_cfg6_steps28_k_small_seed7.jsonl -> logs/rq2_3/selector/rq2_3_selector_k_small_seed7.jsonl
+Examples: 40 | pending 40
+============================================================
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 2411.56it/s]
+config_path: /home/users/ntu/ngch0136/EditReward/EditReward/config/EditReward-MiMo-VL-7B-SFT-2508.yaml
+
+The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:00,  3.69it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00,  3.71it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:00<00:00,  3.74it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00,  4.92it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00,  4.40it/s]
+Some weights of Qwen2_5_VLRewardModelBT_MultiHead were not initialized from the model checkpoint at XiaomiMiMo/MiMo-VL-7B-SFT-2508 and are newly initialized: ['rm_heads.head_0.0.bias', 'rm_heads.head_0.0.weight', 'rm_heads.head_0.3.bias', 'rm_heads.head_0.3.weight', 'rm_heads.head_0.5.bias', 'rm_heads.head_0.5.weight', 'rm_heads.head_1.0.bias', 'rm_heads.head_1.0.weight', 'rm_heads.head_1.3.bias', 'rm_heads.head_1.3.weight', 'rm_heads.head_1.5.bias', 'rm_heads.head_1.5.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[1/40] abstract_reasoning__33 | cand1 0.769 | picks feedback cand1, resample cand1
+[2/40] anomaly_correction__25 | cand1 -0.401 | feedback_cand2 -0.525 | resample_cand2 -0.537 | picks feedback cand1, resample cand1
+[3/40] anomaly_correction__74 | cand1 0.048 | feedback_cand2 0.278 | resample_cand2 0.432 | picks feedback feedback_cand2, resample resample_cand2
+[4/40] biology__49 | cand1 0.798 | picks feedback cand1, resample cand1
+[5/40] color_change__49 | cand1 2.147 | picks feedback cand1, resample cand1
+[6/40] count_change__16 | cand1 -0.629 | feedback_cand2 -1.018 | resample_cand2 -0.604 | picks feedback cand1, resample resample_cand2
+[7/40] count_change__47 | cand1 -0.148 | picks feedback cand1, resample cand1
+[8/40] count_change__48 | cand1 0.049 | feedback_cand2 0.228 | resample_cand2 0.175 | picks feedback feedback_cand2, resample resample_cand2
+[9/40] geography__6 | cand1 -0.200 | picks feedback cand1, resample cand1
+[10/40] geography__40 | cand1 1.633 | picks feedback cand1, resample cand1
+[11/40] humanities__10 | cand1 1.712 | picks feedback cand1, resample cand1
+[12/40] humanities__45 | cand1 -0.224 | feedback_cand2 0.126 | resample_cand2 0.004 | picks feedback feedback_cand2, resample resample_cand2
+[13/40] humanities__73 | cand1 1.586 | picks feedback cand1, resample cand1
+[14/40] mathematics__6 | cand1 0.422 | picks feedback cand1, resample cand1
+[15/40] mathematics__10 | cand1 -0.170 | feedback_cand2 -0.355 | resample_cand2 -0.081 | picks feedback cand1, resample resample_cand2
+[16/40] medicine__24 | cand1 -0.105 | feedback_cand2 -0.467 | resample_cand2 -0.565 | picks feedback cand1, resample cand1
+[17/40] multi-instruction_execution__8 | cand1 0.516 | picks feedback cand1, resample cand1
+[18/40] multi-instruction_execution__10 | cand1 1.345 | feedback_cand2 0.641 | resample_cand2 1.185 | picks feedback cand1, resample cand1
+[19/40] multi-instruction_execution__37 | cand1 1.322 | feedback_cand2 1.325 | resample_cand2 1.313 | picks feedback feedback_cand2, resample cand1
+[20/40] multi-instruction_execution__56 | cand1 1.231 | feedback_cand2 1.210 | resample_cand2 1.258 | picks feedback cand1, resample resample_cand2
+[21/40] multi-instruction_execution__58 | cand1 1.306 | feedback_cand2 1.329 | resample_cand2 1.366 | picks feedback feedback_cand2, resample resample_cand2
+[22/40] multi-instruction_execution__61 | cand1 1.246 | feedback_cand2 1.221 | resample_cand2 1.292 | picks feedback cand1, resample resample_cand2
+[23/40] physics__11 | cand1 1.911 | picks feedback cand1, resample cand1
+[24/40] physics__53 | cand1 2.006 | picks feedback cand1, resample cand1
+[25/40] position_movement__30 | cand1 0.612 | feedback_cand2 -0.793 | resample_cand2 -0.566 | picks feedback cand1, resample cand1
+[26/40] position_movement__45 | cand1 -0.111 | feedback_cand2 0.433 | resample_cand2 0.281 | picks feedback feedback_cand2, resample resample_cand2
+[27/40] practical_knowledge__28 | cand1 1.044 | picks feedback cand1, resample cand1
+[28/40] practical_knowledge__29 | cand1 -0.615 | feedback_cand2 -1.389 | resample_cand2 -0.335 | picks feedback cand1, resample resample_cand2
+[29/40] rule-based_reasoning__43 | cand1 -0.885 | picks feedback cand1, resample cand1
+[30/40] rule-based_reasoning__52 | cand1 -1.021 | feedback_cand2 -0.336 | resample_cand2 -0.280 | picks feedback feedback_cand2, resample resample_cand2
+[31/40] rule-based_reasoning__67 | cand1 -0.461 | feedback_cand2 -0.059 | resample_cand2 -0.218 | picks feedback feedback_cand2, resample resample_cand2
+[32/40] rule-based_reasoning__68 | cand1 -0.403 | feedback_cand2 -0.172 | resample_cand2 -0.520 | picks feedback feedback_cand2, resample cand1
+[33/40] rule-based_reasoning__71 | cand1 1.763 | feedback_cand2 1.884 | resample_cand2 1.659 | picks feedback feedback_cand2, resample cand1
+[34/40] rule-based_reasoning__75 | cand1 -0.083 | feedback_cand2 -0.022 | resample_cand2 -0.271 | picks feedback feedback_cand2, resample cand1
+[35/40] size_adjustment__5 | cand1 -0.116 | picks feedback cand1, resample cand1
+[36/40] size_adjustment__27 | cand1 0.084 | feedback_cand2 0.037 | resample_cand2 0.258 | picks feedback cand1, resample resample_cand2
+[37/40] size_adjustment__33 | cand1 0.220 | feedback_cand2 0.125 | resample_cand2 0.145 | picks feedback cand1, resample cand1
+[38/40] size_adjustment__38 | cand1 -0.220 | feedback_cand2 -0.251 | resample_cand2 -0.043 | picks feedback cand1, resample resample_cand2
+[39/40] viewpoint_change__11 | cand1 0.063 | picks feedback cand1, resample cand1
+[40/40] viewpoint_change__43 | cand1 0.278 | feedback_cand2 1.239 | resample_cand2 0.501 | picks feedback feedback_cand2, resample resample_cand2
+Wrote logs/rq2_3/selector/rq2_3_selector_k_small_seed7.jsonl
+
+==========================================
+Finished: Sat Oct 10 17:33:48 +08 2026
+==========================================

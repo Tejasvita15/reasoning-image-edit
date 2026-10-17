@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b100",
+  "results": [
+    {
+      "blind_id": "case_0804b84306909aa3",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The centered yellow Classic bag retains its branding and main potato artwork, with minor packaging-detail simplification. The yellow-orange background, airborne chips, top-right handwritten slogan and bold lower-left caption fulfill the core brief; the caption gains an exclamation mark. Several flying chip shapes blend into bright flame-like streaks and the lower lettering has visibly distorted strokes."
+    },
+    {
+      "blind_id": "case_7762bbdcb5e710cd",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The left phone remains distinctly shorter and narrower than the right, with no meaningful enlargement to the requested size. Both phone positions and hand shapes shift, and background details are redrawn. The edited image alone has coherent phone geometry, plausible hands and clean lighting without conspicuous artifacts."
+    }
+  ]
+}

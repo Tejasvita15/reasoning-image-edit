@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b010",
+  "results": [
+    {
+      "blind_id": "case_77c6fac4966feb33",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: package identities and wooden setting remain recognizable, but the small eraser is reduced and shifted, and background wood/objects change. Instruction: the left eraser remains substantially taller and wider than the right, while the right is also shrunk; the requested size match is not achieved. Quality: both packages retain coherent shapes, readable product lettering and natural shadows."
+    },
+    {
+      "blind_id": "case_f47ea96fe425cc46",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background, intact left chopstick and upper brown portions remain unchanged. Instruction: the missing lower handle of the right chopstick is completed to approximately the proper length, but it is brown instead of matching the cream handle of its partner. Quality: both sticks have clean continuous geometry, plausible texture and subtle shadows without conspicuous artifacts."
+    }
+  ]
+}

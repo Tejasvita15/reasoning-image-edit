@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b155",
+  "results": [
+    {
+      "blind_id": "case_1ae539db5f6157c3",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The surface remains ordinary blue rippling water without an oily sheen or rainbow patterns. The horizon and composition remain stable, with only subtle smoothing of the sky cloud detail outside the requested water change. The edited seascape looks natural and artifact-free. Instruction failure \u21d2 knowledge invalid."
+    },
+    {
+      "blind_id": "case_0d031d4f455b4a87",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The prominent front chair remains pulled out; additional chairs appear instead of the requested chair being pushed beneath the table. Table dimensions and leg positions also change, while tabletop accessories remain recognizable. Overlapping chair frames at the back-left create visibly confused, partially fused furniture structure."
+    }
+  ]
+}

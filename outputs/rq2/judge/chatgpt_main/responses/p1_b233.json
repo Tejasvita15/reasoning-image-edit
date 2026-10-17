@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b233",
+  "results": [
+    {
+      "blind_id": "case_987b25c24d1b8b79",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "The circle-and-arrow layout remains, but multiple given numbers change (99 to 92, 39 to 34, 28 to 78) and the background becomes gray. The target still contains '?', rather than the required 21. Instruction failure ⇒ knowledge invalid. The edited diagram is orderly and legible apart from one malformed lower-row numeral."
+    },
+    {
+      "blind_id": "case_09081f17b8464a8e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The printer body, buttons and white background remain recognizable, but the rear sheet is shorter and the output slot acquires a large white folded rim. A visibly printed document extends in front of the printer as requested. The edited image has coherent lighting and perspective, but the folded output-slot structure and distorted document lettering are noticeable flaws."
+    }
+  ]
+}

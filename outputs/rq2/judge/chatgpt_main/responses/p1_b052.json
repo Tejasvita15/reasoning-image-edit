@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b052",
+  "results": [
+    {
+      "blind_id": "case_e94771367a897dab",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The controller shape, blue shell and button arrangement are retained, with a small loss of definition in its central logo. The gray-blue background, shadow and upper placement fit the concept, but the oversized serif Press start text lacks the specified capitalization and period and competes strongly with the product. The tightly overlapping lines of type create a minor layout imperfection; the controller remains coherent."
+    },
+    {
+      "blind_id": "case_ff168d5643f60c7d",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 2,
+      "rationale": "The bottle, background and main label remain consistent apart from a small brown mark at the stopper base. A thick brown deposit is added, only partially representing an appropriate amount of iron powder. Neither the explained light-green solution nor bubbles appear. The lower label has a small smeared patch, while the bottle geometry remains coherent."
+    }
+  ]
+}

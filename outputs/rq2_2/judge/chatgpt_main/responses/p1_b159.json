@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b159",
+  "results": [
+    {
+      "blind_id": "case_6464c12e65d2c386",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 2,
+      "rationale": "The leaf cluster, twig and bokeh remain fixed. Numerous brown lesions convey damage, but they are opaque spots rather than eaten-through holes required by the knowledge. The repeated circular lesions look slightly stamped, while the photograph remains coherent."
+    },
+    {
+      "blind_id": "case_7ff1e704e1e0880b",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "The crown, pose and joyful face remain recognizable, but facial detail is softened and distorted. Rainbow colors, clouds, balloons and fireworks create the requested celebration, yet the title and tagline are substantially garbled. Blurred facial features, crowded overlapping type and nonsense text visibly impair poster quality."
+    }
+  ]
+}

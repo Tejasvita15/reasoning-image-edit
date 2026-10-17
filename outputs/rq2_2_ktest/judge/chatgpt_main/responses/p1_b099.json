@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b099",
+  "results": [
+    {
+      "blind_id": "case_c774bf5a49f06a5a",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "The question mark is replaced by a clear red 30, but the supplied pattern requires 25 because 45 divided by 9 times 5 equals 25. Thus number insertion is achieved but the answer conflicts with the explanation. The grid is vertically expanded and number positions shift; all other values remain. The edited table is clean and legible."
+    },
+    {
+      "blind_id": "case_27700bac3af6b527",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "A copper-colored piece appears inside the held flask, but the liquid stays yellow/brown instead of turning blue as the explanation specifies. The person, hands, flask label, apple and notebook remain consistent. The image is coherent overall, with a slightly flattened, painted-looking metallic piece in the flask."
+    }
+  ]
+}

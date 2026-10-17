@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b001",
+  "results": [
+    {
+      "blind_id": "case_b4978c4af747a35b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: palm background and hat design persist, but the eyes, beard contour and shirt pattern/shoulder outline visibly change. Instruction: a full flower garland now hangs around the neck as requested. Knowledge: the pink, yellow and white flowers form the specified multicolored lei. Quality: the portrait, flower layering, lighting and anatomy look coherent without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_8c14d716267a893c",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the turquoise flip-flop, pink polish, rain and wet pavement retain their arrangement; the sole edge is subtly reshaped. Instruction: the expected five-toed foot is not produced; seven toes remain, so the unreasonable anatomy is uncorrected. Quality: lighting and materials are coherent, but the clearly extra toes are a conspicuous anatomical flaw."
+    }
+  ]
+}

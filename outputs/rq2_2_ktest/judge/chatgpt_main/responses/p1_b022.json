@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b022",
+  "results": [
+    {
+      "blind_id": "case_c0eeca4aa0133c1c",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Cube colors and the white reflective setting remain, but the large cube is noticeably repositioned. The small cube remains visibly shorter and smaller, with no substantial enlargement to match the large cube. Both cubes retain clean edges, coherent stickers and natural reflections."
+    },
+    {
+      "blind_id": "case_5c1238b8a1f1df95",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "The grid and apple remain, but the worm has been stretched across the grid and the block bank is extensively altered. No directional-block path is built. Instruction failure \u21d2 knowledge invalid; the supplied explanation is blank, so this follows the explicit coupling rule. Several lower arrows become malformed symbols, and the excessively elongated worm creates another structural defect."
+    }
+  ]
+}

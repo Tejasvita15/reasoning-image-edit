@@ -1,0 +1,2570 @@
+{
+  "schema_version": 1,
+  "kind": "main",
+  "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+  "generation_snapshot": {
+    "experiment": "rq2",
+    "split": "k_small",
+    "seed": 7,
+    "splits_sha256": "b513673f210e8ac63b6fdfa7bda0bc62323b2dffdb7e4c4e5658234c49a60dc9",
+    "logs": {
+      "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl": "e2bd01017978aa123a4e105c4c2325ab812be0da069966d2745e20890de908f5"
+    },
+    "outputs": 40,
+    "protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511"
+  },
+  "evaluation_protocol": {
+    "interface": "chatgpt_manual",
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
+    "prompt_version": "kris-chatgpt-ui-v2",
+    "prompt_renderer_sha256": "e74cc8b0dbe5b622e8cd95fea91d2cc991d7bd2813d9404872fb3397f01c5259",
+    "aggregate": "mean_applicable_normalized",
+    "score_range": [
+      0,
+      100
+    ],
+    "component_range": [
+      1,
+      5
+    ],
+    "component_type": "integer",
+    "reference_source": "hf_dataset_generation_source",
+    "ground_truth_source": "hf_dataset_gt_image",
+    "annotation_text_source": "hf_dataset_generation_instruction",
+    "official_reference_comparison": "diagnostic_only; no resizing or tolerance-based substitution",
+    "official_text_comparison": "diagnostic_only; the HF text used for generation is judged",
+    "official_revision": "cf1475253a13f5e5666826c10d8967e38917468a",
+    "official_prompt_sha256": "91d8df0de247b7d1a4288d3c6bee5955863d838988453e418ec14c5a0e396420",
+    "rubric_sha256": {
+      "prompt_consist": "d4eed281e816dd4ec94bb79777bf2ffd14cd2258a86f95d3524f44161d860c14",
+      "prompt_quality": "e4dd2bffe1e0db4489faeab14dbfd9df9779dbbfb10f4f26f899a55a3b225cac",
+      "prompt_instruction_following": "7230580658d5411849859a3dabb3cd143881ac7e1a1343c6b34f21091a6dddf3",
+      "prompt_dual_evaluation": "521866619f71b5268d097d7ec0e8f64b1d5e99770359f51936f75a00b3950564",
+      "prompt_abnormal_instruction_following": "d76d20816f6b2429850d8a33a91277ba86c03eec5398d76cca6eb26a282b3614",
+      "prompt_view_instruction_following": "ec2d29e6f3c93eabcfdbf77920a29d4e2a233011ee98eb5b81e7874895bdd8f2"
+    },
+    "adapter_files_sha256": {
+      "src/rq2_manual/__init__.py": "60ddbcc94d5e044559ae434d300bf7ef634f9fdf996a5d7ce03eefd435a37e53",
+      "src/rq2_manual/__main__.py": "fc3a546b1c86f78a567b8143384e7c2b98091f0df4797eda74aa40e6a16848d6",
+      "src/rq2_manual/common.py": "96f8f08b748474cfb5be7e4c5f1eb7362bcbc8eab1c8b2ec3a3f71d4480f7615",
+      "src/rq2_manual/export.py": "83d89aaff8e93b742bf2030ba6652201a4a66cb06d99a88f34e135e8bb28bc26",
+      "src/rq2_manual/prompts.py": "e74cc8b0dbe5b622e8cd95fea91d2cc991d7bd2813d9404872fb3397f01c5259",
+      "src/rq2_manual/references.py": "b60f1514cd9908046ce1e59f367f639825ddeaf07e3a448d66811268c8f607a2",
+      "src/rq2_manual/results.py": "d2d8d182ec0b4b5d5ee353f1fea21e357acab62350dff086a27f3e011cabe3ff",
+      "src/dataset.py": "83c5d4a55ef95ea830e52ad5289a1565c43b1cd0a1b725f2df3483f655bfcbf2",
+      "src/taxonomy.py": "ddd551fd10bbe8698e4ce71c7cee65b7cd6ea80ad1a554d4f52cd44944722977",
+      "src/rq2/common.py": "9f2f8c31b96eb2b83ee667d5e30489388dafd280de4ec04757c05db88f25b91d"
+    },
+    "session_policy": "fresh chat per batch; no earlier scores, memory, custom instructions or tools",
+    "model_snapshot": null,
+    "temperature": null,
+    "limitation": "Operator-recorded ChatGPT UI model/settings; API snapshot and sampling settings are not controlled.",
+    "batch_size": 2
+  },
+  "evaluation_protocol_hash": "04d422b5b1cc7040204bd39f4598667baf958ed4028355e2edea0b231c1ca162",
+  "selection_hash": "6fb1265fba29c7e9c87f9cd28c5e31d09d8a7d11bd136dc3d5290dc1c006603c",
+  "seeds": [
+    7
+  ],
+  "items": [
+    {
+      "item_key": "item_0001",
+      "row": {
+        "example_uid": "abstract_reasoning__33",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "abstract_reasoning",
+        "knowledge_type": "procedural",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Please draw the correct shape in the '?' box located at the top left corner according to the pattern.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/abstract_reasoning__33.png",
+        "output_sha256": "f656b21aa44481378c3daad4026dddf419e25b252090f2987815cbb467426110",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "6df18dab1ef1eac67a80392b6cea778a28123da2c04934f04da8c98cd7422f7d",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "f62406cdbe3d45a2f4c625fdb6c7fb0cf79150e7104ec9ef3df57ad3c59a4c5c"
+      },
+      "official_family": "knowledge",
+      "knowledge_required": true,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "f62406cdbe3d45a2f4c625fdb6c7fb0cf79150e7104ec9ef3df57ad3c59a4c5c",
+          "rgb_sha256": "c880fcfd2124753cde87ed7c562db41db5a3899026183b157bafe337a66ab20e",
+          "size": [
+            693,
+            696
+          ],
+          "official_file_sha256": "87612caf48ba4b79e1cebb19ca16cccaa1812cf84c03db5eaf562b52284d69f2",
+          "official_rgb_sha256": "51f1c9c70ce429792dfc2352e7f3e7b0b955639decddca475a2049287553059c",
+          "official_size": [
+            693,
+            696
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.6044510512901318,
+          "official_max_abs_difference": 35
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0002",
+      "row": {
+        "example_uid": "anomaly_correction__25",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "anomaly_correction",
+        "knowledge_type": "factual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Correct the unreasonable parts of the animal in the image",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/anomaly_correction__25.png",
+        "output_sha256": "a3b21bafa634880e686548b4414d196ceb9580543a48cd1d104033bca891002d",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "fa0d34621ca3a71e7dbadaadcd72d911e7d81abc4b166dcca43d2ec553c048b1",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "5ae0b5ea4a62cf553af9d279ab5740d3047cbd9418adae1230e7d8d927d2b4b3"
+      },
+      "official_family": "common",
+      "knowledge_required": false,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "5ae0b5ea4a62cf553af9d279ab5740d3047cbd9418adae1230e7d8d927d2b4b3",
+          "rgb_sha256": "f2faea2ed1c75cfb4302ad0a6a33a2e5805c63703ea558f578f45f96cfec6a69",
+          "size": [
+            1024,
+            1536
+          ],
+          "official_file_sha256": "94e280269473c7b91c4072403f489548bd8f1e8d659f14b072cec6b9d3879830",
+          "official_rgb_sha256": "68b90f5a905d82b7db07c71e799be216fb318efab846bcc49226bd0199dd329f",
+          "official_size": [
+            1024,
+            1536
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 2.7879545423719616,
+          "official_max_abs_difference": 43
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0003",
+      "row": {
+        "example_uid": "anomaly_correction__74",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "anomaly_correction",
+        "knowledge_type": "factual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Correct the unreasonable body part in the image.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/anomaly_correction__74.png",
+        "output_sha256": "d79740011f551d95821ab4258961e0e237400848b7af7d2c7647092e3f9553b3",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "b23b2ab2cc67ed06bb2f745de8c24b747548b8bde75759b70ba9d0c3794e9b00",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "f31cca8d9ba2fc5a540cc7809c05fdd1cd75a02d00aaf434054bcfdcd4623344"
+      },
+      "official_family": "common",
+      "knowledge_required": false,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "f31cca8d9ba2fc5a540cc7809c05fdd1cd75a02d00aaf434054bcfdcd4623344",
+          "rgb_sha256": "ab216173bf4e184dc1561079ff761a3667129337486be0a152d6a91fa1792261",
+          "size": [
+            1024,
+            1536
+          ],
+          "official_file_sha256": "702f8708a41cf6db19475782b62df88fa616c991954ba003414875256e6c3b7f",
+          "official_rgb_sha256": "21746ae942ffacd2c63bdca86671459e9d32325bf7b169c9f884c582f6851ac3",
+          "official_size": [
+            1024,
+            1536
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 1.5087216695149739,
+          "official_max_abs_difference": 49
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0004",
+      "row": {
+        "example_uid": "biology__49",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "biology",
+        "knowledge_type": "conceptual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Changes in Animal Fur After Entering Summer in the Image",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/biology__49.png",
+        "output_sha256": "4b4df80a8cf5d93ee4d289bc20386ba644f0127cb7e1d4c327f21a9198251f15",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "83407f96e3cd1221cbf16d98256f3445929698bc9ef92ac74f3d85c6dcb4debd",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "b8ae76aa500bde7832713c75debef364cab928c312b290d2569a321c8a309153"
+      },
+      "official_family": "knowledge",
+      "knowledge_required": true,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "b8ae76aa500bde7832713c75debef364cab928c312b290d2569a321c8a309153",
+          "rgb_sha256": "3e86f1a9fb126165153dc6bd196dce2a2645abc21c1ea641a8df21e9652108d0",
+          "size": [
+            1400,
+            788
+          ],
+          "official_file_sha256": "27e783f4b9fce08223702d7c09ff593a318dbda66158feefe7cb8e266590f1a9",
+          "official_rgb_sha256": "98c091e5de44dc592aa0656eec37b3bb43adba1374ea76760f8da4858f6692ce",
+          "official_size": [
+            1400,
+            788
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.44810792845056807,
+          "official_max_abs_difference": 19
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0005",
+      "row": {
+        "example_uid": "color_change__49",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "color_change",
+        "knowledge_type": "factual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Change this number to green.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/color_change__49.png",
+        "output_sha256": "94d2a658105378692bd4f78beb612d48251c86f6fecc6bac79127802a102cee1",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "924febee7b21c2f0ed7d8925625e73f5103dc154f39264861cccbddb417e23fc",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "56d628dba7a21e1179bbc8414702799c565b5cb23cee2ed78608ea63539bb222"
+      },
+      "official_family": "common",
+      "knowledge_required": false,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "56d628dba7a21e1179bbc8414702799c565b5cb23cee2ed78608ea63539bb222",
+          "rgb_sha256": "6df930dc7351720c737bf5b646bd6757c195d410339b0a6e0c0e9b983c9937b1",
+          "size": [
+            474,
+            741
+          ],
+          "official_file_sha256": "a09e82a19889a4bcb507c199a0486c8d66148437cd542daecd7d0329a900b4b8",
+          "official_rgb_sha256": "418ae7ae4455e690fa8cfc843ca4e823e0e8e5289c01ca3ac24cee615c29df74",
+          "official_size": [
+            474,
+            741
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.48924648524915015,
+          "official_max_abs_difference": 30
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0006",
+      "row": {
+        "example_uid": "count_change__16",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "count_change",
+        "knowledge_type": "factual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Remove one shoe",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/count_change__16.png",
+        "output_sha256": "a6492774c01a0cf29611707f02246b4aa98432bd61772ecb0099a72a2b6b435c",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "3eb1ffac2f980dce6f2bcbd34cab2fc57d60738bd5cb2fa1a5792e96047a76d1",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "e5d641ab03417b4af32b4abf0ee1b8faca910b31bf4e819688f38aec41c0571e"
+      },
+      "official_family": "common",
+      "knowledge_required": false,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "e5d641ab03417b4af32b4abf0ee1b8faca910b31bf4e819688f38aec41c0571e",
+          "rgb_sha256": "d9850ac973cc113e61d83b732edf10fcf85de338c28432e4a8d2842821e142ce",
+          "size": [
+            800,
+            534
+          ],
+          "official_file_sha256": "b8242f80606a76228839b6f8774bf503de62ae603d1369aaf5610b1ad43753ec",
+          "official_rgb_sha256": "eb5f5fbe89f13c9865f0aaa9f37c9a705ee4a3bc3c4c422275673e4fa3145348",
+          "official_size": [
+            800,
+            534
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 1.0016479400749063,
+          "official_max_abs_difference": 26
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0007",
+      "row": {
+        "example_uid": "count_change__47",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "count_change",
+        "knowledge_type": "factual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Change to six interfaces",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/count_change__47.png",
+        "output_sha256": "5dc5a4f0c948a1143b81436044a279d6783d72e105159d5e1c6cfc45d0ae6db0",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "fcfd701251ddcb0ffe891de6c58736ccf24c76ac63df3eb7281a54cf9a8d91f1",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "9d34b3e3c76b82e313d9920ff13b6aaa422426002094d140354dc2522b219290"
+      },
+      "official_family": "common",
+      "knowledge_required": false,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "9d34b3e3c76b82e313d9920ff13b6aaa422426002094d140354dc2522b219290",
+          "rgb_sha256": "a66f9825dd7ac96eaaa3864cba214cb9ad138d17a314e8e39c0a463010a89846",
+          "size": [
+            800,
+            800
+          ],
+          "official_file_sha256": "17bb8e4a124f572eae672e320820b4bfefac9b7196f9d8a707251d6b232e811e",
+          "official_rgb_sha256": "570740166ff235259698c5620dfc4e5c23af5b3bb70b944510b83dbfc337a71c",
+          "official_size": [
+            800,
+            800
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 1.4951067708333334,
+          "official_max_abs_difference": 62
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0008",
+      "row": {
+        "example_uid": "count_change__48",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "count_change",
+        "knowledge_type": "factual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Change to six forks",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/count_change__48.png",
+        "output_sha256": "39b76a80703be55ab4547b1ec015fb8015e3eea9f02c2f60c6497039ce658edd",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "37826aeeee776d8ccbd3abf2fbbcde2ea054f76b7d45e418dd72295b38677a3e",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "e5cb7ed26bb7106a4a0037096d52cb4aa7ee203764bdb5668a6b9032d7baefd2"
+      },
+      "official_family": "common",
+      "knowledge_required": false,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "e5cb7ed26bb7106a4a0037096d52cb4aa7ee203764bdb5668a6b9032d7baefd2",
+          "rgb_sha256": "d8f35ceddd686075972cd7d35cbafce8328db491528b1436dbae83313aedb5f5",
+          "size": [
+            739,
+            1500
+          ],
+          "official_file_sha256": "92030971cfc1d1fc205c5f64c98359da351738ac228a0eb7812cf40066edbfe4",
+          "official_rgb_sha256": "630c8d5d506855625d4bec7bcdc37cf03236683016af896971de01aef67edd6a",
+          "official_size": [
+            739,
+            1500
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.14464441437377837,
+          "official_max_abs_difference": 9
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0009",
+      "row": {
+        "example_uid": "geography__40",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "geography",
+        "knowledge_type": "conceptual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Modify to show the occurrence of a red tide.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/geography__40.png",
+        "output_sha256": "3da90776ac91464ea466c8b2f998c3a1636a4c3ae659d94f498c95be64606fac",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "c740d510cde99e779e8813976e21384b29bbc9f6320de9a34a9b9248263a475b",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "c36863f5a490102ae52fe885cc6666c31fa5d00cebdb63ba0e44642a8d52000f"
+      },
+      "official_family": "knowledge",
+      "knowledge_required": true,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "c36863f5a490102ae52fe885cc6666c31fa5d00cebdb63ba0e44642a8d52000f",
+          "rgb_sha256": "b782824bb5cb38cf5ff2717348b42a692c73d98a5b41ae4387b62b1241cf16df",
+          "size": [
+            1280,
+            720
+          ],
+          "official_file_sha256": "d14663a18009d1f4d0bb963ca8c24c6c634701b8073abaeeebf9bda640eb57dd",
+          "official_rgb_sha256": "1d7e1f35cd91c9b3d63dc503fbf688d8cefb69cae5f0089a4dadccc3f76367fa",
+          "official_size": [
+            1280,
+            720
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 1.9291952401620371,
+          "official_max_abs_difference": 23
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0010",
+      "row": {
+        "example_uid": "geography__6",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "geography",
+        "knowledge_type": "conceptual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Change to the shadow at noon during the winter solstice in a certain place on the Tropic of Capricorn.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/geography__6.png",
+        "output_sha256": "a4d5bd41b3310ab3e8824efee290c95fe4557495802aca7320d4fdd65c9bdc38",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "517b74856ae86ff7513bcbc9a0da6c5167fdbd5c21b1553204542ae050f62d92",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "850cdde4657cd98616ac9f5b3693ce7fb60d179ebdc249f65ad8146cdfee6d5c"
+      },
+      "official_family": "knowledge",
+      "knowledge_required": true,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "850cdde4657cd98616ac9f5b3693ce7fb60d179ebdc249f65ad8146cdfee6d5c",
+          "rgb_sha256": "1959eaacc470315e6b340a2eb912579452c92a8583970c1ba352911d58991a59",
+          "size": [
+            1024,
+            1024
+          ],
+          "official_file_sha256": "53939bc8e42580164e27905df55f47bb16c1235569dee03f492380d9e2716d05",
+          "official_rgb_sha256": "bd3553670f6bee4f46c05f8623832e80b8e6050544d870cd14117581239191b0",
+          "official_size": [
+            1024,
+            1024
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 3.1268943150838218,
+          "official_max_abs_difference": 51
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0011",
+      "row": {
+        "example_uid": "humanities__10",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "humanities",
+        "knowledge_type": "conceptual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Attach the classic emblem of the Red Cross to the cup",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/humanities__10.png",
+        "output_sha256": "ffc14b59f368f16ffcf0a241765242eecd1b87902316e6c0061cf5ceb70c6045",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "7a7783e0ce06530006c17ee8adb6cec35cd88cfc57cb6118fb24fcb5e2f695b3",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "13098cc6cc93c31009580f2af6041e252d9804549551f8f4c3d8c8514b31fc26"
+      },
+      "official_family": "knowledge",
+      "knowledge_required": true,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "13098cc6cc93c31009580f2af6041e252d9804549551f8f4c3d8c8514b31fc26",
+          "rgb_sha256": "8c68ccbaeb3945a1abf76819c43b4f35ee296b06827a91e9ffc2516d73835d07",
+          "size": [
+            800,
+            800
+          ],
+          "official_file_sha256": "2f13f85173a5545eb11fc09cb25e4a877cc5aebc3b787e39f85f3c8911247034",
+          "official_rgb_sha256": "972141d310583f02b25f94cbdf10616ee6ef1cefae8633d27ff779727c970e03",
+          "official_size": [
+            800,
+            800
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.3243197916666667,
+          "official_max_abs_difference": 23
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0012",
+      "row": {
+        "example_uid": "humanities__45",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "humanities",
+        "knowledge_type": "conceptual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Change this statue to the Greek mythology statue of the Goddess with Broken Arm",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/humanities__45.png",
+        "output_sha256": "8027adfbb29a415267fdd07ca053dc4ca463e22ebcc00440168b7c055676f6d2",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "7eaedebd9dd778ef14525744003d4903ad7e189d40a9ac793f5758fa1cd35776",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "2e1e031327f4531428a89b26a17b3b6d46880b80e1557f44d416da514eedc426"
+      },
+      "official_family": "knowledge",
+      "knowledge_required": true,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "2e1e031327f4531428a89b26a17b3b6d46880b80e1557f44d416da514eedc426",
+          "rgb_sha256": "bee0b7e8dbf933a4d3ceee349c3c999441e1d6eae49acb406ec52f5f1496651c",
+          "size": [
+            450,
+            600
+          ],
+          "official_file_sha256": "a595d80c32cee2dad097c00490eb01c689c2cf96148d6a8776e9e459bef96bc6",
+          "official_rgb_sha256": "f7896f1afa26812aa5b08b84a6e9ae9b4c8744e65cb9a4bc632d0eb8852526ae",
+          "official_size": [
+            450,
+            600
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.6408641975308642,
+          "official_max_abs_difference": 21
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0013",
+      "row": {
+        "example_uid": "humanities__73",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "humanities",
+        "knowledge_type": "conceptual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Place the Hawaiian welcome ceremony flower garland around the neck",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/humanities__73.png",
+        "output_sha256": "bf9b6a5352963f5d432f29a5a25f727b03d48602dfbba5d3b873fdcc1cc580a1",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "e30b87d6c7abe2d9314aa99c6760cf87f2bf98b1eab7ba7ff726a52fdfa132d7",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "c4e7c8ecc027fe0d558b2c275fde23c69e93361ff385e0b581c25432ae18f15b"
+      },
+      "official_family": "knowledge",
+      "knowledge_required": true,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "c4e7c8ecc027fe0d558b2c275fde23c69e93361ff385e0b581c25432ae18f15b",
+          "rgb_sha256": "d48da7715fe975075e313dfc857cbdd50f8db12a94cf89dc09b78e6a46fa0508",
+          "size": [
+            1500,
+            1500
+          ],
+          "official_file_sha256": "a4634e6ac25aca81b5a2be4d7020c52f55eafc630e0c02e052bba29205396bd0",
+          "official_rgb_sha256": "0e07ae627cb18ccea1f3052a65aee5e1121f1b75b1d447f3415232d0c32c2e9b",
+          "official_size": [
+            1500,
+            1500
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 1.515250074074074,
+          "official_max_abs_difference": 27
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0014",
+      "row": {
+        "example_uid": "mathematics__10",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "mathematics",
+        "knowledge_type": "conceptual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Modify the shape in the image to form the object that is created when it is rotated around its axis of symmetry.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/mathematics__10.png",
+        "output_sha256": "b5796b02ea38a7e6e4bd5532daa4cb67016b73854594a69dfa17cb9a84fefde7",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "e6fa97c0a28d136fd085aee04acb2189d17e9a0ffbf3f7f73549cb1a9f7396fc",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "b8b91d1c5821cb9969686f1946ade057e5c0c9228ee04340743f44cafa63ab9a"
+      },
+      "official_family": "knowledge",
+      "knowledge_required": true,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "b8b91d1c5821cb9969686f1946ade057e5c0c9228ee04340743f44cafa63ab9a",
+          "rgb_sha256": "742a09cfaf687ce782cfbbeefa90b8622430babd057416a1ff4a61c0254037cd",
+          "size": [
+            320,
+            319
+          ],
+          "official_file_sha256": "fbdafddc28601f14836e46a2ed36eed7e52c4de4882d949d02633b40ac454152",
+          "official_rgb_sha256": "216fae5a94338c8be5d436123a8981609048032e1ec56c8e77cf7e02d05743bd",
+          "official_size": [
+            320,
+            319
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.35320336990595613,
+          "official_max_abs_difference": 26
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0015",
+      "row": {
+        "example_uid": "mathematics__6",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "mathematics",
+        "knowledge_type": "conceptual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Align the centers of the two circles",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/mathematics__6.png",
+        "output_sha256": "a0e76e425a6af5dbfd0c21bfe4abcb60912fd3f3083bfb298b7ff48ef5ca03cc",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "fcef2eaafa56faa99ed206d862c7bb82b26decc4c17f6ce1bb418efcf376d64a",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "85c0c29db3e9042b526adfa95d2b470731074ba6a6bb2b2a01e427f08086988d"
+      },
+      "official_family": "knowledge",
+      "knowledge_required": true,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "85c0c29db3e9042b526adfa95d2b470731074ba6a6bb2b2a01e427f08086988d",
+          "rgb_sha256": "a3d673602acb6220c97621383276be50a454cc94ad8f24b14205d5129009ec06",
+          "size": [
+            600,
+            529
+          ],
+          "official_file_sha256": "3492690004563dbc451e8cc667f8b5088c8c93e3655e3f0583871e58d42aff75",
+          "official_rgb_sha256": "41613ef5a180ced9bffcede85380ad28c084df8cb29777e6bcb2b37eed6b79c2",
+          "official_size": [
+            600,
+            529
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.4633826927116152,
+          "official_max_abs_difference": 49
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0016",
+      "row": {
+        "example_uid": "medicine__24",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "medicine",
+        "knowledge_type": "conceptual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Remove kidney stones from the CT image",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/medicine__24.png",
+        "output_sha256": "07ec4680905061a35cf04fe0fe84f079350228d8b1d72225707ee10e86f774be",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "681bf6453b46ebb5346a68cbcc5ee6d31b6c8dd651c31de3f2434a4ea6a0e536",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "de25b3d2e9c150d2758ac9398cf2cd6efce1e4be8d98976de9b56982ad8f9d7d"
+      },
+      "official_family": "knowledge",
+      "knowledge_required": true,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "de25b3d2e9c150d2758ac9398cf2cd6efce1e4be8d98976de9b56982ad8f9d7d",
+          "rgb_sha256": "2c2a4d30230867f4bb3b54b2a263b1734e717e2f6e706e20ee437c0befdce328",
+          "size": [
+            406,
+            303
+          ],
+          "official_file_sha256": "f8152a13bf08bbb0a36d87e2710f55912676dcccbb7c9a713d3642997808813d",
+          "official_rgb_sha256": "b1ae0a4a91c76cd57cc84d4f5c96b4895cc6a5949a0722c099411cb1126598ca",
+          "official_size": [
+            406,
+            303
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 1.1076021395242972,
+          "official_max_abs_difference": 24
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0017",
+      "row": {
+        "example_uid": "multi-instruction_execution__10",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "multi-instruction_execution",
+        "knowledge_type": "procedural",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Use the object in the picture as the main visual focus, placing it slightly to the left of the frame. The background should be at the junction of a warm white wall and light oak flooring. The right side should have a blank space where a small portion of linen curtain and the soft sunlight casting angled shadows are visible. The overall atmosphere should be tranquil, refreshing, and convey a strong sense of lifestyle. The color scheme of the image should primarily consist of light grey, natural wood, and natural white. The title should be placed in the bottom right corner using a thin-line sans-serif font. The text should read: \"Not only storing items, but also preserving order and peace of mind.\"",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/multi-instruction_execution__10.png",
+        "output_sha256": "3861951d7cab6c3bd690ca239cc802cfa3b96dd7abdf9239c583f919084738dc",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "f2a3a3670a486791ae54c8bce4287c34096a79ed4051a275e9aa5a1c5d18109d",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "a79ccb4421cef4e3bb49aa00a8665c9d6d345ef1e8b14e6d9a399ef96964b597"
+      },
+      "official_family": "common",
+      "knowledge_required": false,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "a79ccb4421cef4e3bb49aa00a8665c9d6d345ef1e8b14e6d9a399ef96964b597",
+          "rgb_sha256": "0800c3c63bdda442b34fbd8f0546e5cbb0ad396a38a3d4cd9d39a520414feff8",
+          "size": [
+            723,
+            975
+          ],
+          "official_file_sha256": "0a7ab952e8dc3f9bf22c840653cd6a6738f05dda6d9fac0900c186824603631d",
+          "official_rgb_sha256": "89b05de8260617d5ee4cb76ec782becaccf4413d24f011210968d00091708d15",
+          "official_size": [
+            723,
+            975
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.17443841543426605,
+          "official_max_abs_difference": 8
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0018",
+      "row": {
+        "example_uid": "multi-instruction_execution__37",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "multi-instruction_execution",
+        "knowledge_type": "procedural",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Use the object in the image as the main visual, positioning the wine bottle vertically slightly below the center of the frame. The background should feature a deep wine-red to black velvet gradient, creating a soft spotlight effect. Bottle details should be highlighted clearly, with a subtle reflection at the bottom. Do not add other objects; maintain a pure and restrained composition. In the upper right corner, elegantly typeset the text \"Timeless. Bottled.\" in serif English font, using a low-saturation gold color. The overall style should be high-end, serene, and classic.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/multi-instruction_execution__37.png",
+        "output_sha256": "53b66a5272436f3b108650f401e43e46f2756c6561c1e622a107e0e2bbc7de06",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "3342577b781a51c7bab0c8d0eab27c96711f5032be2aac45ddbb44a71cb44eb3",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "b40aa59dacb74f7844b281e2ff8c8222df604b9c77b4d549d1f89a9e38d2f508"
+      },
+      "official_family": "common",
+      "knowledge_required": false,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "b40aa59dacb74f7844b281e2ff8c8222df604b9c77b4d549d1f89a9e38d2f508",
+          "rgb_sha256": "ec4d8288a578f48b9b46c97d08ca67ac321d3a352d7c4a14c70350d976ae0da4",
+          "size": [
+            806,
+            1127
+          ],
+          "official_file_sha256": "bb03e4fe35ae4518b70f7acc1596eb9750d4af4544514af3f854e38d1c2c4629",
+          "official_rgb_sha256": "caba2a12a424280ca1fcd4a6582fcca9a119e436deee8ed8b90e55faa2e8f990",
+          "official_size": [
+            806,
+            1127
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.11959549166521717,
+          "official_max_abs_difference": 14
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0019",
+      "row": {
+        "example_uid": "multi-instruction_execution__56",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "multi-instruction_execution",
+        "knowledge_type": "procedural",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "This poster features a traditional-style painting, suitable for art exhibitions or cultural events. Keep the painting centered and surround it with light clouds and flying cranes. Use a soft blue gradient background with cloud motifs. Add a soft glow to highlight the frame. The top text 'Artistic Charm: Beauty of Tradition' should be in large elegant serif font. Add event info in handwritten style at the bottom left.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/multi-instruction_execution__56.png",
+        "output_sha256": "000ea137d6d3da345c0a6fae414284cb9554bf921a5f38da96591003c7708d79",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "39c9e6626e2b38ca337fb9bd2a60c4b3c28a8cc1b0c3021c6b385e44938d1722",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "c837bd64a7617be02ed26fcaea72c5effb2e1464f7d1c751a1efc4a8e9fe1f41"
+      },
+      "official_family": "common",
+      "knowledge_required": false,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "c837bd64a7617be02ed26fcaea72c5effb2e1464f7d1c751a1efc4a8e9fe1f41",
+          "rgb_sha256": "79b0742f65fce330829b0ccf5283059941cc94194144fc2c431edb21aaf28131",
+          "size": [
+            1634,
+            2000
+          ],
+          "official_file_sha256": "071e254be8d030bc3ace16ded52b4d220b059dbf84b1b3b52b1ade5e32e2f863",
+          "official_rgb_sha256": "807cc6f87828f82476e3ed67c214c4de5dc1c5dfdf8a044458db425f7ea5d89c",
+          "official_size": [
+            1634,
+            2000
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.5985334557323542,
+          "official_max_abs_difference": 24
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0020",
+      "row": {
+        "example_uid": "multi-instruction_execution__58",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "multi-instruction_execution",
+        "knowledge_type": "procedural",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Design a cute and heartwarming promotional poster with the cat as the main subject. Place the cat in the center, enlarged slightly to become the visual focus. Use a soft pink and blue gradient background to contrast with the white fur, creating a cozy and peaceful mood. Decorate with floating paw prints, heart-shaped bubbles, and other playful elements. Add a hand-drawn-style title 'Pet Home' in bright pink above the cat. Include a middle-sized tagline below: 'Add warmth to your life' in a minimalist sans-serif font in light gray. Ideal for pet store promotions, grand openings, or pet-themed social media marketing.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/multi-instruction_execution__58.png",
+        "output_sha256": "87587c556534627ddada385e17b13dd509e0c0c310696b61e7b8c0fb6eab78de",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "01715b959eb9de441358379424f377ca8716ef436861a9e36c33672f91f6472f",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "fddea49bee9f1c6cf143675b2b230f5ec60c6db08cb0b3e308c2aaa4edb10db2"
+      },
+      "official_family": "common",
+      "knowledge_required": false,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "fddea49bee9f1c6cf143675b2b230f5ec60c6db08cb0b3e308c2aaa4edb10db2",
+          "rgb_sha256": "a7deb57d03661ae16bde18e7d1890a1e50236a58db18242fcce9f4055e4d8834",
+          "size": [
+            1100,
+            1095
+          ],
+          "official_file_sha256": "3419d864d9ba7e24eeb3042dac291d87bf666f2f9d6ec345445456fb87a82188",
+          "official_rgb_sha256": "5c16d0d8a15d82a48c9aaa0ea061b4497ed0cdd0b20b0ff42c951e3680552ae1",
+          "official_size": [
+            1100,
+            1095
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.18607527328075274,
+          "official_max_abs_difference": 28
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0021",
+      "row": {
+        "example_uid": "multi-instruction_execution__61",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "multi-instruction_execution",
+        "knowledge_type": "procedural",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Create a stylish shoe advertisement poster centered on the given high heels. Place the heels prominently to showcase their sleek white texture and elegant curves. Add floating gold glitter, fine ink lines, or floral patterns around them to convey a sense of modern luxury. Use a light gray-to-white gradient background with soft lighting for a high-end, fresh look. Add the title 'Grace in Every Step' in bold gold uppercase font at the top center with slight shadow. Include the slogan 'Walk in elegance, step with confidence' below in clean sans-serif font. Ideal for high-end shoe promotions or boutique window displays.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/multi-instruction_execution__61.png",
+        "output_sha256": "d11a0b5a8a6b0ed93e9905c5f9cb61a29e7e177830b6f97dad6dba408880200a",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "ca1b06a604a46a1a3e832515c961023299947f8adbb4c69f1f549ea7c1e1e9f7",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "b1a5561915160a88d1edc5c54abfbfae6972825ddb45c821e811c02faf8fb41f"
+      },
+      "official_family": "common",
+      "knowledge_required": false,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "b1a5561915160a88d1edc5c54abfbfae6972825ddb45c821e811c02faf8fb41f",
+          "rgb_sha256": "21474b60e73161ae2dd2890ff9ad0b881610f6992affca0b3fc374a43570fc72",
+          "size": [
+            474,
+            474
+          ],
+          "official_file_sha256": "d5d82b02ce1a8b1b7931a20c4040dfb3c3f4673a63a61129e782cad02768d1db",
+          "official_rgb_sha256": "eab1c5387fdd6058efd3dc549fea3da27aafcffd7fcd2589cd2f2dae9235a7ce",
+          "official_size": [
+            474,
+            474
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.08341938317102554,
+          "official_max_abs_difference": 11
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0022",
+      "row": {
+        "example_uid": "multi-instruction_execution__8",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "multi-instruction_execution",
+        "knowledge_type": "procedural",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Use a black and white diamond pattern cushion as the main visual, highlighting the geometric structure and fabric texture with close-ups, placed in a modern urban style interior scene, such as a dark gray sofa background. The overall tone is cool and rational. The poster style is industrial minimalism, with the text layout aligned to the top left corner. The main title should be in bold sans-serif font, with the text content like \"Between Black and White Lies the Aesthetic of Life's Order.\"",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/multi-instruction_execution__8.png",
+        "output_sha256": "878633b8f62aea776f808ee576020fdfa158d07b2f3cb89970a82dfe1bc8133b",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "115819c754e8ee7155631c648c4f85a4eb88bb1ccde688ce58fb48895bf4d370",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "fa4ce2c896532ebc3ecc4cc4030353d665cef2b25142a3d5e8fcf03ecc9d7ebd"
+      },
+      "official_family": "common",
+      "knowledge_required": false,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "fa4ce2c896532ebc3ecc4cc4030353d665cef2b25142a3d5e8fcf03ecc9d7ebd",
+          "rgb_sha256": "7ebdd903c5c7946b9f49de6159b31f7d2bb770f2f4de31f7b5deecf49c4d86c7",
+          "size": [
+            959,
+            983
+          ],
+          "official_file_sha256": "940a295d9468d2a5a5f45067eac1d6f4b72480a53bf64aa02534f85057dc77df",
+          "official_rgb_sha256": "d2b60a017e1665aaed07c6f0f09e87a013990a3af7b3055cde68bc8d4828af6f",
+          "official_size": [
+            959,
+            983
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 1.3175460054149601,
+          "official_max_abs_difference": 20
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0023",
+      "row": {
+        "example_uid": "physics__11",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "physics",
+        "knowledge_type": "conceptual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Insert a pencil into a glass of water",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/physics__11.png",
+        "output_sha256": "059a2bef592fb133caa2043f218038ee91f1bf466c93401361d4a343e5d015b0",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "cbf8421532778e7fa803e6f19312d7a8d775f0eaf757dca232c9f94c09a83a1e",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "c7bc51953c06b5ec7b5fe0ed4430cdcfcb7651fc91f2261dd0abe451fcccc6c1"
+      },
+      "official_family": "knowledge",
+      "knowledge_required": true,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "c7bc51953c06b5ec7b5fe0ed4430cdcfcb7651fc91f2261dd0abe451fcccc6c1",
+          "rgb_sha256": "091bb45cefafd819bea081dd51c7c9a7675d097ae77c3ab4cd25854c5e2b522b",
+          "size": [
+            1024,
+            1536
+          ],
+          "official_file_sha256": "32ece9e093433c0eb37f75222ad6bce7567407bdd02f0fdbf83ab86a6cc1c4f6",
+          "official_rgb_sha256": "e9aa957375ed084a9ce9523baa1f2464f5f5535da71f68d9daf86eeef4e66a84",
+          "official_size": [
+            1024,
+            1536
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 1.412576887342665,
+          "official_max_abs_difference": 29
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0024",
+      "row": {
+        "example_uid": "physics__53",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "physics",
+        "knowledge_type": "conceptual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Release the hand pressing on the ball",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/physics__53.png",
+        "output_sha256": "beb80bb0130894b1f0d3bd1d6e713d1f37823ecc4b3cbf15482622f685324561",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "3eb0f3ab1dc10d526ac97a12b6bc06f28d89fe0e5278ba9c88fd652d870a5e7b",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "f81307d5bf849752d19ec73bb7d40fe39fe97d664e49180dfc9bd18e4b0a05bf"
+      },
+      "official_family": "knowledge",
+      "knowledge_required": true,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "f81307d5bf849752d19ec73bb7d40fe39fe97d664e49180dfc9bd18e4b0a05bf",
+          "rgb_sha256": "93fb1bd1d3d6620eef79455f53cb9fc763c4685e4293b6f13dd1cbddc5d46101",
+          "size": [
+            1024,
+            1024
+          ],
+          "official_file_sha256": "037337ba42f4024d03f707278a0cb23ff44dcfafed52042a7ed884d8f081b34f",
+          "official_rgb_sha256": "0a48b32bd5a1c1ae233e17c966d70140b4b0b6c29b6472b1783446c00bc60372",
+          "official_size": [
+            1024,
+            1024
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 1.677502950032552,
+          "official_max_abs_difference": 53
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0025",
+      "row": {
+        "example_uid": "position_movement__30",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "position_movement",
+        "knowledge_type": "factual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Place the left cup onto the other cup.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/position_movement__30.png",
+        "output_sha256": "76e070e620a40003d5d846325ece7ae74ae49bca9869b62e0cedff100d1fde11",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "b562d76bbd38df2f8a5fe55841b1a415058294c5c942459def686390eb773d3a",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "7f64e7c90a8d026eaa2489afcc846bdac0eace0af2c7ea793cb5042a36e63e05"
+      },
+      "official_family": "common",
+      "knowledge_required": false,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "7f64e7c90a8d026eaa2489afcc846bdac0eace0af2c7ea793cb5042a36e63e05",
+          "rgb_sha256": "1f54d5513565626c390c108baff2af6c03f7bf302ff0391a45ad003c3821072e",
+          "size": [
+            659,
+            420
+          ],
+          "official_file_sha256": "681690bfd559e50d7b8c0dd20da48a2a2c1167aba2aca8326ce5700104ee4f7f",
+          "official_rgb_sha256": "5d3562d76c9826abd25d1b082d885957b0af98a50ee98b9084083069065dc230",
+          "official_size": [
+            659,
+            420
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.15643471349085916,
+          "official_max_abs_difference": 11
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0026",
+      "row": {
+        "example_uid": "position_movement__45",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "position_movement",
+        "knowledge_type": "factual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Move the book to the other side of the vase",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/position_movement__45.png",
+        "output_sha256": "5b170128ccda2d00fbb36bd7afb5530991dc1408e21ae506616018e75bfd5b88",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "184df0adf04ad409dfa3cfdb094433a1153fff0d0fc35e660226fa67ee11e5a1",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "80a51e6345002061b34fee4ae5d13b043d29caf908ee8a957cfe79a5bcc9066c"
+      },
+      "official_family": "common",
+      "knowledge_required": false,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "80a51e6345002061b34fee4ae5d13b043d29caf908ee8a957cfe79a5bcc9066c",
+          "rgb_sha256": "479ee5141f3cca269c9cfac2629b3a807be8fb7337193002d1bdb460e0a73ff4",
+          "size": [
+            1600,
+            1600
+          ],
+          "official_file_sha256": "8dbdf3163dc819c977c9e19c14529bef270446135e4f6570293ac30f98812ca4",
+          "official_rgb_sha256": "6bd3452d80d6fef14c7cf9b47daedc329cf25d441f2bdd8b98c327d36610981a",
+          "official_size": [
+            1600,
+            1600
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.3362915364583333,
+          "official_max_abs_difference": 15
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0027",
+      "row": {
+        "example_uid": "practical_knowledge__28",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "practical_knowledge",
+        "knowledge_type": "conceptual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "In a soccer match, the right side is out of bounds, remove the balls that are out of play.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/practical_knowledge__28.png",
+        "output_sha256": "24e4f24eb6e3f8adf4926a4de551bda161193ea03cd7a65016be605ab28814e4",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "a5af3c6359c4731b399d6ac5c72315ee1fbf96aa5731783fe4ff8aa3571bf661",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "82b3fab4c2e61dfb44cca9a758274530e47760f1dceca20f6b77ffd41ac97bb2"
+      },
+      "official_family": "knowledge",
+      "knowledge_required": true,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "82b3fab4c2e61dfb44cca9a758274530e47760f1dceca20f6b77ffd41ac97bb2",
+          "rgb_sha256": "1b91605d188343273b081dfefe39f8db3e3b41487bc9cbf78c57fda24e64f730",
+          "size": [
+            686,
+            386
+          ],
+          "official_file_sha256": "d841aee92045ceb8f7551184d852bf4b47fee6d17cda03101329a817f6ee48ce",
+          "official_rgb_sha256": "2d4c809aeea46d15929d0e6dff7838086e39041ca3bc04abb5ba5527ca746df5",
+          "official_size": [
+            686,
+            386
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 1.1815775162766808,
+          "official_max_abs_difference": 26
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0028",
+      "row": {
+        "example_uid": "practical_knowledge__29",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "practical_knowledge",
+        "knowledge_type": "conceptual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Change to a Full House hand",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/practical_knowledge__29.png",
+        "output_sha256": "5885259ef955170818a084d54e5d8ac0ba6ef2c1e147640ac2fd337ac842a2e0",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "1ca2531d8e270c93266e8fa1d7738b1355333bb62c1244275fe92602bd1694c7",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "b3a8d29cc34c41a2011cf1fcdde8a3d6c72ed87afb5e8ffc6578da4621b10be8"
+      },
+      "official_family": "knowledge",
+      "knowledge_required": true,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "b3a8d29cc34c41a2011cf1fcdde8a3d6c72ed87afb5e8ffc6578da4621b10be8",
+          "rgb_sha256": "9a87d5d49bb9443cae819e766ad39c4a7d9f1169be280268d5a1b7b03c7b8636",
+          "size": [
+            800,
+            600
+          ],
+          "official_file_sha256": "953b04694e403477a963b1c4dc3e52e3a3077c50319f8e30eca4918c3b5c10df",
+          "official_rgb_sha256": "de4f62a5354fc561b202d302296371ce854ca105b607268d995b6533e0b23bc4",
+          "official_size": [
+            800,
+            600
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.7800243055555556,
+          "official_max_abs_difference": 41
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0029",
+      "row": {
+        "example_uid": "rule-based_reasoning__43",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "rule-based_reasoning",
+        "knowledge_type": "procedural",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Fill in the appropriate numbers in the boxes to complete this 4x4 Sudoku.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/rule-based_reasoning__43.png",
+        "output_sha256": "ed5ca07eebf357f6db4dd181a46065333158c7ba194f6d120623ec709f0d6d85",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "5cbb220c5af21d8f958f18797766056aec933da8ff2e1a7be326553bdc784782",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "38d7bbaa621c02a640d00b8b0854df06519cd35538ab745f47f9fbdebd6991e6"
+      },
+      "official_family": "knowledge",
+      "knowledge_required": true,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "38d7bbaa621c02a640d00b8b0854df06519cd35538ab745f47f9fbdebd6991e6",
+          "rgb_sha256": "0a29fa7067ffb4290b8def0b331078bd0ce55e92b518153a7ac0d6d5d980364d",
+          "size": [
+            180,
+            180
+          ],
+          "official_file_sha256": "41cc8ace4c38c1b0d0b217628ad25d6cb3a58c736e1f70f13253ff5892852096",
+          "official_rgb_sha256": "d6459512ce1062c8cfe4b47dbc74a8f034315662260386f3ad2e7da577c55577",
+          "official_size": [
+            180,
+            180
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 1.0679835390946502,
+          "official_max_abs_difference": 32
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0030",
+      "row": {
+        "example_uid": "rule-based_reasoning__52",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "rule-based_reasoning",
+        "knowledge_type": "procedural",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Move two matchsticks to make the equation in the image valid.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/rule-based_reasoning__52.png",
+        "output_sha256": "97e2498943c3e644924816d1fd18cc131a40a48b93581883057b48f907b8aa1d",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "33679d2d9650a4a9189cf51dbe497681951064558cceb0610a43a3bb77b5489c",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "dab7cb17309eb1f502fe2de969749b89077530140281225403f1446058260baf"
+      },
+      "official_family": "knowledge",
+      "knowledge_required": true,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "dab7cb17309eb1f502fe2de969749b89077530140281225403f1446058260baf",
+          "rgb_sha256": "7e32c5e194fa1bdd27f5890650258b695ff2a718cc07c451f6ef9f44a1eb966f",
+          "size": [
+            1289,
+            316
+          ],
+          "official_file_sha256": "434eae8e2a7ca5f4619edd33c0cf3a8e49bd646d1564fb2f48164af7d79060d2",
+          "official_rgb_sha256": "d0af3ad2fbf25a1ce8518cbcec5ce9e83d640dfc7b5423e76fe4574bada153f1",
+          "official_size": [
+            1289,
+            316
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.5573793834883287,
+          "official_max_abs_difference": 53
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0031",
+      "row": {
+        "example_uid": "rule-based_reasoning__67",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "rule-based_reasoning",
+        "knowledge_type": "procedural",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Color the surrounding hands correctly according to the frog's left and right hand colors.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/rule-based_reasoning__67.png",
+        "output_sha256": "dbbc67f0aa16c02b3c1c31202cb86fd213eb07fd01fa88048857f95055905659",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "55c22ad831af0ffab93dbc4f4591642bfb1f8c9cd88d316675ca8b99f980d38c",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "e746434b6e1b8de29443d97a6ef228720eda211d459d8b335e2546842751867b"
+      },
+      "official_family": "knowledge",
+      "knowledge_required": true,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "e746434b6e1b8de29443d97a6ef228720eda211d459d8b335e2546842751867b",
+          "rgb_sha256": "625342881b83be2dc59f3d2fbe0ee136d4ac3db705a887bd739fc7b210b6c5fe",
+          "size": [
+            595,
+            696
+          ],
+          "official_file_sha256": "ff726737e733238114bbc11530802ffeab652cbc0ff14c06353affbdc1f2ca54",
+          "official_rgb_sha256": "c13bbf876efbc81d13706133927bb82a7bd05f3f084c5e6fb490bd0e0a42a3e2",
+          "official_size": [
+            595,
+            696
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.3404246756173734,
+          "official_max_abs_difference": 19
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0032",
+      "row": {
+        "example_uid": "rule-based_reasoning__68",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "rule-based_reasoning",
+        "knowledge_type": "procedural",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Match each item on the left with the animal on the right based on its production origin.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/rule-based_reasoning__68.png",
+        "output_sha256": "7c09c34fac9d5f0ccc1ce3b20550ecec216d731a17877973b79bc98b37c169b6",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "6a2cbdbd686a1afd968e14eb80749cab98bc91268315f94ec9d974be79d0eac1",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "c6f1f02f5d35f98066b791c45e97bee36982796f641e0452d234c37ea852e942"
+      },
+      "official_family": "knowledge",
+      "knowledge_required": true,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "c6f1f02f5d35f98066b791c45e97bee36982796f641e0452d234c37ea852e942",
+          "rgb_sha256": "8a667f0f5af7c3d29c5cc1e2427cb03450b3585e9c55469b33e9ef6e3964b1ad",
+          "size": [
+            736,
+            776
+          ],
+          "official_file_sha256": "299c37d5735f1716f0bd4fac9013433f2b5a2ca15307124bd50527d61f1d6ef0",
+          "official_rgb_sha256": "57ee334eeab534dc318b0f325b90e7760aa6d07816a5079ecefe2eb4792e77ca",
+          "official_size": [
+            736,
+            776
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.32694839757956073,
+          "official_max_abs_difference": 20
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0033",
+      "row": {
+        "example_uid": "rule-based_reasoning__71",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "rule-based_reasoning",
+        "knowledge_type": "procedural",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Rearrange this 15-puzzle to its completed form.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/rule-based_reasoning__71.png",
+        "output_sha256": "59da6362e8c1f3b72211d62edf6cc99b6128c7130420a270090fa018167e5d99",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "a9d057e2236fdf3f8158f9d6d78cf8c4210f2491b103265247502b9b20794030",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "2dd8e8881da6aa7bdc685263a673749e9ee6b72e546143e32a3d469c4dd9613f"
+      },
+      "official_family": "knowledge",
+      "knowledge_required": true,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "2dd8e8881da6aa7bdc685263a673749e9ee6b72e546143e32a3d469c4dd9613f",
+          "rgb_sha256": "b4c54934b72ce9ed22ed8c53a70fc3fe3344816798b8fd7cb6dac0a93e3318e4",
+          "size": [
+            500,
+            500
+          ],
+          "official_file_sha256": "03e37a6b51b932def3ff55c14ef19de9ed1ef8bdc7a7f10d06429a6283562a46",
+          "official_rgb_sha256": "ffb2af6e8fd3f3e1a0cfff125434ad3ddc851bc4a2166809dfadf70f3ca31ba4",
+          "official_size": [
+            500,
+            500
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 2.0347253333333333,
+          "official_max_abs_difference": 23
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0034",
+      "row": {
+        "example_uid": "rule-based_reasoning__75",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "rule-based_reasoning",
+        "knowledge_type": "procedural",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "This is a Minesweeper game. Use red 'X's to mark the positions of mines based on the clues in the image.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/rule-based_reasoning__75.png",
+        "output_sha256": "43a2a01fbb8e0534c81d407875d342e680ca74261e923e1cde5a6a09329ccafd",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "97fe47050f87dfe3e12080711b5eecb31106e3a3da8a7bbf283ea18f21bf642b",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "ac2dde2e3329e43cb3ba0b0babe0438a58687468c98d4ccca16c7acd71deea36"
+      },
+      "official_family": "knowledge",
+      "knowledge_required": true,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "ac2dde2e3329e43cb3ba0b0babe0438a58687468c98d4ccca16c7acd71deea36",
+          "rgb_sha256": "60cfe72a0d4ef2b41f41ada9c19229367117b6326f7aa90a05aff887a58dd293",
+          "size": [
+            569,
+            579
+          ],
+          "official_file_sha256": "c197aaf67cc973a267cdd4c03060b37a5224bd94c3a1771eae4d3b64ab77a665",
+          "official_rgb_sha256": "eefa999c11ab5306ec9e7129f360cedb581f725b4e29326ba6a59387ab6c1769",
+          "official_size": [
+            569,
+            579
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.5610900154094741,
+          "official_max_abs_difference": 55
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0035",
+      "row": {
+        "example_uid": "size_adjustment__27",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "size_adjustment",
+        "knowledge_type": "factual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Adjust the large scissors to the size of small scissors",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/size_adjustment__27.png",
+        "output_sha256": "b403aed66b7cc7bb9e77e04ba9d0df923aaefaf92e647fbf954dad7ac8e898b6",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "c2c8f0ea342716b80d66962359b171ef6f079dfd6508f4e8cb9fdf7c71fea6f7",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "cd36fe7e395ab4bcd1162fab5c14937cb6fa0818ead7944e694967fd94afaf99"
+      },
+      "official_family": "common",
+      "knowledge_required": false,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "cd36fe7e395ab4bcd1162fab5c14937cb6fa0818ead7944e694967fd94afaf99",
+          "rgb_sha256": "44a3f11270f1fefaa9803878cf11c1cdf1ccac85dee98b484b88f78c984bfa0a",
+          "size": [
+            750,
+            493
+          ],
+          "official_file_sha256": "85b63b0bfc45d07f6384f8b9bdde39c48384712f1d152b3f2601b18c28a342e7",
+          "official_rgb_sha256": "6a3e5b1070d796acb6d6d6f01041072afb8940e41c8515718184ac490e078d11",
+          "official_size": [
+            750,
+            493
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.7101546089700248,
+          "official_max_abs_difference": 42
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0036",
+      "row": {
+        "example_uid": "size_adjustment__33",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "size_adjustment",
+        "knowledge_type": "factual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Adjust the size of the large turtle to match that of the small turtle.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/size_adjustment__33.png",
+        "output_sha256": "825c7ca6d64c13916121a21c03c91d897d43667c71e1f8e07a7552316cb06408",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "3fc3cafad4b43bc14e864c1e0212e57d75bb2a71f303aff2214d95e600fcdd31",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "4cb5cef2c5df660673f6dd3e09058d83941e00a2db3d16d5135480213906871d"
+      },
+      "official_family": "common",
+      "knowledge_required": false,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "4cb5cef2c5df660673f6dd3e09058d83941e00a2db3d16d5135480213906871d",
+          "rgb_sha256": "97d7d5dc91f1f16cbb4cde87d606c2711b71368324c303b8096b7e22d1dc3bb1",
+          "size": [
+            860,
+            539
+          ],
+          "official_file_sha256": "53e649c9eb0da000d23f19985a9a154cb6b2e5cbb43def9fca7197c641aa1411",
+          "official_rgb_sha256": "4660b0c20512044e1a8dd4c9b960316f33b6ba4158a526582a1775c2da556f9f",
+          "official_size": [
+            860,
+            539
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 1.0413592498310107,
+          "official_max_abs_difference": 30
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0037",
+      "row": {
+        "example_uid": "size_adjustment__38",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "size_adjustment",
+        "knowledge_type": "factual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Adjust the thickness of the thin book to match that of the thick book.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/size_adjustment__38.png",
+        "output_sha256": "6f452fda41ee8e1aa48139b935190478ccfae55c9be1672ebaa7f47ff928d00b",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "3fead36a19370522543e33c601aab231adf3de6ddb0fc2aa2ba6c712d4a6e7c2",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "562f7feb36e2b47799de4c40de3c9c5a2495fb0896074c2af33ab3fb04cd6e58"
+      },
+      "official_family": "common",
+      "knowledge_required": false,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "562f7feb36e2b47799de4c40de3c9c5a2495fb0896074c2af33ab3fb04cd6e58",
+          "rgb_sha256": "88836ac531146449b3d3bcb75ea51833854c5fc1ae8e1fec216cf9679cd619a4",
+          "size": [
+            1035,
+            584
+          ],
+          "official_file_sha256": "208e445c5916b48da1d8b6bfd65938f5bd1d2ba176fe01a2a783b2c6e1920e32",
+          "official_rgb_sha256": "d1bd1bc45871d3ea96988b3d4ade4d0f7b55730ef1b8bda8a04187c8a5d41e0b",
+          "official_size": [
+            1035,
+            584
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.21649681247656233,
+          "official_max_abs_difference": 13
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0038",
+      "row": {
+        "example_uid": "size_adjustment__5",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "size_adjustment",
+        "knowledge_type": "factual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Adjust the small clock to the size of the large clock.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/size_adjustment__5.png",
+        "output_sha256": "6c782852083f0b3cdb94e5ad318871d6884359c5703c20ead094e32601957146",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "030b6d25f50eda6367ea0c0f051e66710dc87f43a919217a83cc6936da5010e8",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "f461713b58a88540d22a742f93c96d88b0ee8c0dac542e2256fa16a5377bcadf"
+      },
+      "official_family": "common",
+      "knowledge_required": false,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "f461713b58a88540d22a742f93c96d88b0ee8c0dac542e2256fa16a5377bcadf",
+          "rgb_sha256": "5dbba3dc23cc070174508430a3cccdb2e0e82275a1a3f768d999ec6f174bed90",
+          "size": [
+            686,
+            330
+          ],
+          "official_file_sha256": "05889183c5b7fba10ed81a9695b4738b6f53b58fa951fb5db2c5ecaa181d1de9",
+          "official_rgb_sha256": "5794652e41f67c09a132581fc8d8446e2a07bb29adc1514bcf87cd3c7eb1dd8a",
+          "official_size": [
+            686,
+            330
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 1.4107164943899637,
+          "official_max_abs_difference": 35
+        },
+        "ground_truth": null
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      }
+    },
+    {
+      "item_key": "item_0039",
+      "row": {
+        "example_uid": "viewpoint_change__11",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "viewpoint_change",
+        "knowledge_type": "factual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Based on the given image, draw the front view of the object.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/viewpoint_change__11.png",
+        "output_sha256": "52d90895b4c520c5d6cf5647fc680a23c51a9dd74943519164d30145022ec334",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "fe49c7c6c2e71da68ce5cda805a62e637e0aeb8ec2a8d113fa0804bab9e15242",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "1f228d08adeba46de4a47f0227cea49c18ecdfc2354f905da1a17b15ce484222"
+      },
+      "official_family": "view",
+      "knowledge_required": false,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "1f228d08adeba46de4a47f0227cea49c18ecdfc2354f905da1a17b15ce484222",
+          "rgb_sha256": "d9964e5bc9c1fc33e706524dc741889c1008dc2a9a99449f669c854e1ca00435",
+          "size": [
+            823,
+            798
+          ],
+          "official_file_sha256": "0a304ef892b4c105dbb006da6e600366de84e2b6066c2a08e3b5f9f4f19f5189",
+          "official_rgb_sha256": "a58549431e67dfaed62eadf9931a582092a089c39d3f33890cf3648192b3f269",
+          "official_size": [
+            823,
+            798
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.5835721340613583,
+          "official_max_abs_difference": 74
+        },
+        "ground_truth": {
+          "prepared_file_sha256": "ba27daf5cfeeaf01b56fa9e26dfebacd2ec6809a54971389e171c69f32e40dc4",
+          "rgb_sha256": "71581e3ef112fab47c5b9beba62d8908c0e313868bc2e81dcdfbcbac8bc8d9b2",
+          "size": [
+            719,
+            772
+          ],
+          "official_file_sha256": "bb2a9cb9f2b095dbed5cbddb798a0a2af19a555eb7d27962e68fa892ee6f8fd5",
+          "official_rgb_sha256": "85692f809c55ff5dc5127f27c9f9fdb95daeea40cab1efc43dbb06ada1b65cad",
+          "official_size": [
+            719,
+            772
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.49159322221181306,
+          "official_max_abs_difference": 55
+        }
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      },
+      "ground_truth_sha256": "ba27daf5cfeeaf01b56fa9e26dfebacd2ec6809a54971389e171c69f32e40dc4"
+    },
+    {
+      "item_key": "item_0040",
+      "row": {
+        "example_uid": "viewpoint_change__43",
+        "condition": "rq2_3_step1x_think-cached_cfg6_steps28_cand1",
+        "base_seed": 7,
+        "split": "k_small",
+        "category": "viewpoint_change",
+        "knowledge_type": "factual",
+        "thinking_condition": "cached",
+        "true_cfg_scale": 6.0,
+        "num_inference_steps": 28,
+        "instruction": "Based on the given image, draw the side view of the object.",
+        "output_path": "/Users/johnng/reasoning-image-edit/outputs/rq2_3/cand1/k_small/seed_7/viewpoint_change__43.png",
+        "output_sha256": "bfed1fc62954c711d5e03bdaa7997bf1bd628dcb81b51e0efa65f97d5061bc1b",
+        "generation_log": "logs/rq2_3/judge/cand1/rq2_3_step1x_think-cached_cfg6_steps28_cand1_k_small_seed7.jsonl",
+        "generation_row_sha256": "7d60b62d0e5c7443fa5f9cc29525b521233530432dc4869b1e63496a7ebc5783",
+        "generation_protocol_hash": "4210730883ac10529a989f529d3ce34039e8a752c27056ec8838ea69eadb3511",
+        "source_sha256": "627a2d7b86fbe8ce04b93573e9120f4757eda107b745980a02ebbe8b36e899b5"
+      },
+      "official_family": "view",
+      "knowledge_required": false,
+      "reference_provenance": {
+        "source": {
+          "prepared_file_sha256": "627a2d7b86fbe8ce04b93573e9120f4757eda107b745980a02ebbe8b36e899b5",
+          "rgb_sha256": "0d3fc78cbcfbde291db18ba811a55cb2498650722f92b14d15c4444e82d98c28",
+          "size": [
+            735,
+            919
+          ],
+          "official_file_sha256": "d7651abf1aa25d12784a0bd65a62dfc339b394c1d30062cd40403db3944b7005",
+          "official_rgb_sha256": "b4d3798fb8885950316278c31fa1fafdfb35fec63e6ba981ed3c6b2ca866417a",
+          "official_size": [
+            735,
+            919
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 1.1975893150150885,
+          "official_max_abs_difference": 21
+        },
+        "ground_truth": {
+          "prepared_file_sha256": "ff8e8e1a4697dea187c07bb6da3484b96d744364eae0321136998b765d68626a",
+          "rgb_sha256": "1d90405b4f9ed4ac7819fd6a7fcd3aac290c0e8cab2413d9a1896232d2fadf36",
+          "size": [
+            735,
+            919
+          ],
+          "official_file_sha256": "61def435be2661452e2f5808d02956f975e881a81e43fa3ba2838dd21d683214",
+          "official_rgb_sha256": "889e74d6845f0d815f87b216291ecee411fe72584ddc6962d3c9be32fc18b0c9",
+          "official_size": [
+            735,
+            919
+          ],
+          "official_pixels_equal": false,
+          "official_mae": 0.10101041504741179,
+          "official_max_abs_difference": 22
+        }
+      },
+      "text_provenance": {
+        "official_instruction_equal": true,
+        "official_explanation_equal": true
+      },
+      "ground_truth_sha256": "ff8e8e1a4697dea187c07bb6da3484b96d744364eae0321136998b765d68626a"
+    }
+  ],
+  "batches": [
+    {
+      "pass": 1,
+      "batch_id": "p1_b001",
+      "prompt_path": "upload/pass_1/p1_b001/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_149ffcec8242328b",
+          "item_key": "item_0001",
+          "source_file": "upload/pass_1/p1_b001/case_149ffcec8242328b_source.png",
+          "edited_file": "upload/pass_1/p1_b001/case_149ffcec8242328b_edited.png"
+        },
+        {
+          "blind_id": "case_308ffcbc48cc78b0",
+          "item_key": "item_0030",
+          "source_file": "upload/pass_1/p1_b001/case_308ffcbc48cc78b0_source.png",
+          "edited_file": "upload/pass_1/p1_b001/case_308ffcbc48cc78b0_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 1,
+      "batch_id": "p1_b002",
+      "prompt_path": "upload/pass_1/p1_b002/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_2679c9218bb6704d",
+          "item_key": "item_0028",
+          "source_file": "upload/pass_1/p1_b002/case_2679c9218bb6704d_source.png",
+          "edited_file": "upload/pass_1/p1_b002/case_2679c9218bb6704d_edited.png"
+        },
+        {
+          "blind_id": "case_ecd4f70b958bce86",
+          "item_key": "item_0039",
+          "source_file": "upload/pass_1/p1_b002/case_ecd4f70b958bce86_source.png",
+          "edited_file": "upload/pass_1/p1_b002/case_ecd4f70b958bce86_edited.png",
+          "ground_truth_file": "upload/pass_1/p1_b002/case_ecd4f70b958bce86_reference.png"
+        }
+      ]
+    },
+    {
+      "pass": 1,
+      "batch_id": "p1_b003",
+      "prompt_path": "upload/pass_1/p1_b003/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_ca58a9e72c8c30b0",
+          "item_key": "item_0009",
+          "source_file": "upload/pass_1/p1_b003/case_ca58a9e72c8c30b0_source.png",
+          "edited_file": "upload/pass_1/p1_b003/case_ca58a9e72c8c30b0_edited.png"
+        },
+        {
+          "blind_id": "case_7bf550d33c4983fb",
+          "item_key": "item_0016",
+          "source_file": "upload/pass_1/p1_b003/case_7bf550d33c4983fb_source.png",
+          "edited_file": "upload/pass_1/p1_b003/case_7bf550d33c4983fb_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 1,
+      "batch_id": "p1_b004",
+      "prompt_path": "upload/pass_1/p1_b004/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_437c89a6a25a0f08",
+          "item_key": "item_0027",
+          "source_file": "upload/pass_1/p1_b004/case_437c89a6a25a0f08_source.png",
+          "edited_file": "upload/pass_1/p1_b004/case_437c89a6a25a0f08_edited.png"
+        },
+        {
+          "blind_id": "case_58d34d2ec6ac3d95",
+          "item_key": "item_0018",
+          "source_file": "upload/pass_1/p1_b004/case_58d34d2ec6ac3d95_source.png",
+          "edited_file": "upload/pass_1/p1_b004/case_58d34d2ec6ac3d95_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 1,
+      "batch_id": "p1_b005",
+      "prompt_path": "upload/pass_1/p1_b005/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_7c2a5cad8b0dec09",
+          "item_key": "item_0014",
+          "source_file": "upload/pass_1/p1_b005/case_7c2a5cad8b0dec09_source.png",
+          "edited_file": "upload/pass_1/p1_b005/case_7c2a5cad8b0dec09_edited.png"
+        },
+        {
+          "blind_id": "case_bf0890c2ead817dc",
+          "item_key": "item_0021",
+          "source_file": "upload/pass_1/p1_b005/case_bf0890c2ead817dc_source.png",
+          "edited_file": "upload/pass_1/p1_b005/case_bf0890c2ead817dc_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 1,
+      "batch_id": "p1_b006",
+      "prompt_path": "upload/pass_1/p1_b006/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_31c3279c636d58af",
+          "item_key": "item_0024",
+          "source_file": "upload/pass_1/p1_b006/case_31c3279c636d58af_source.png",
+          "edited_file": "upload/pass_1/p1_b006/case_31c3279c636d58af_edited.png"
+        },
+        {
+          "blind_id": "case_8b72f20ff92a6958",
+          "item_key": "item_0017",
+          "source_file": "upload/pass_1/p1_b006/case_8b72f20ff92a6958_source.png",
+          "edited_file": "upload/pass_1/p1_b006/case_8b72f20ff92a6958_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 1,
+      "batch_id": "p1_b007",
+      "prompt_path": "upload/pass_1/p1_b007/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_343cb54544a90ef1",
+          "item_key": "item_0040",
+          "source_file": "upload/pass_1/p1_b007/case_343cb54544a90ef1_source.png",
+          "edited_file": "upload/pass_1/p1_b007/case_343cb54544a90ef1_edited.png",
+          "ground_truth_file": "upload/pass_1/p1_b007/case_343cb54544a90ef1_reference.png"
+        },
+        {
+          "blind_id": "case_7e1fa4a6370aa042",
+          "item_key": "item_0022",
+          "source_file": "upload/pass_1/p1_b007/case_7e1fa4a6370aa042_source.png",
+          "edited_file": "upload/pass_1/p1_b007/case_7e1fa4a6370aa042_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 1,
+      "batch_id": "p1_b008",
+      "prompt_path": "upload/pass_1/p1_b008/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_f7e818839b93d114",
+          "item_key": "item_0003",
+          "source_file": "upload/pass_1/p1_b008/case_f7e818839b93d114_source.png",
+          "edited_file": "upload/pass_1/p1_b008/case_f7e818839b93d114_edited.png"
+        },
+        {
+          "blind_id": "case_84ce3f661b5fc7a4",
+          "item_key": "item_0034",
+          "source_file": "upload/pass_1/p1_b008/case_84ce3f661b5fc7a4_source.png",
+          "edited_file": "upload/pass_1/p1_b008/case_84ce3f661b5fc7a4_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 1,
+      "batch_id": "p1_b009",
+      "prompt_path": "upload/pass_1/p1_b009/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_98bcd2afca23bf0e",
+          "item_key": "item_0037",
+          "source_file": "upload/pass_1/p1_b009/case_98bcd2afca23bf0e_source.png",
+          "edited_file": "upload/pass_1/p1_b009/case_98bcd2afca23bf0e_edited.png"
+        },
+        {
+          "blind_id": "case_aacaa572662da07b",
+          "item_key": "item_0033",
+          "source_file": "upload/pass_1/p1_b009/case_aacaa572662da07b_source.png",
+          "edited_file": "upload/pass_1/p1_b009/case_aacaa572662da07b_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 1,
+      "batch_id": "p1_b010",
+      "prompt_path": "upload/pass_1/p1_b010/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_5337305b7c82c010",
+          "item_key": "item_0032",
+          "source_file": "upload/pass_1/p1_b010/case_5337305b7c82c010_source.png",
+          "edited_file": "upload/pass_1/p1_b010/case_5337305b7c82c010_edited.png"
+        },
+        {
+          "blind_id": "case_f3d482e723e16994",
+          "item_key": "item_0002",
+          "source_file": "upload/pass_1/p1_b010/case_f3d482e723e16994_source.png",
+          "edited_file": "upload/pass_1/p1_b010/case_f3d482e723e16994_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 1,
+      "batch_id": "p1_b011",
+      "prompt_path": "upload/pass_1/p1_b011/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_29f695fe6110464c",
+          "item_key": "item_0036",
+          "source_file": "upload/pass_1/p1_b011/case_29f695fe6110464c_source.png",
+          "edited_file": "upload/pass_1/p1_b011/case_29f695fe6110464c_edited.png"
+        },
+        {
+          "blind_id": "case_8d8d745e891390e6",
+          "item_key": "item_0013",
+          "source_file": "upload/pass_1/p1_b011/case_8d8d745e891390e6_source.png",
+          "edited_file": "upload/pass_1/p1_b011/case_8d8d745e891390e6_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 1,
+      "batch_id": "p1_b012",
+      "prompt_path": "upload/pass_1/p1_b012/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_e36bc2ab5ebbf38c",
+          "item_key": "item_0025",
+          "source_file": "upload/pass_1/p1_b012/case_e36bc2ab5ebbf38c_source.png",
+          "edited_file": "upload/pass_1/p1_b012/case_e36bc2ab5ebbf38c_edited.png"
+        },
+        {
+          "blind_id": "case_1befb016e5c17aea",
+          "item_key": "item_0010",
+          "source_file": "upload/pass_1/p1_b012/case_1befb016e5c17aea_source.png",
+          "edited_file": "upload/pass_1/p1_b012/case_1befb016e5c17aea_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 1,
+      "batch_id": "p1_b013",
+      "prompt_path": "upload/pass_1/p1_b013/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_548189c214403dea",
+          "item_key": "item_0004",
+          "source_file": "upload/pass_1/p1_b013/case_548189c214403dea_source.png",
+          "edited_file": "upload/pass_1/p1_b013/case_548189c214403dea_edited.png"
+        },
+        {
+          "blind_id": "case_b7b069b49445810f",
+          "item_key": "item_0038",
+          "source_file": "upload/pass_1/p1_b013/case_b7b069b49445810f_source.png",
+          "edited_file": "upload/pass_1/p1_b013/case_b7b069b49445810f_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 1,
+      "batch_id": "p1_b014",
+      "prompt_path": "upload/pass_1/p1_b014/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_da3520619dbca7a6",
+          "item_key": "item_0029",
+          "source_file": "upload/pass_1/p1_b014/case_da3520619dbca7a6_source.png",
+          "edited_file": "upload/pass_1/p1_b014/case_da3520619dbca7a6_edited.png"
+        },
+        {
+          "blind_id": "case_8a215b939930ebf9",
+          "item_key": "item_0026",
+          "source_file": "upload/pass_1/p1_b014/case_8a215b939930ebf9_source.png",
+          "edited_file": "upload/pass_1/p1_b014/case_8a215b939930ebf9_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 1,
+      "batch_id": "p1_b015",
+      "prompt_path": "upload/pass_1/p1_b015/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_4b68f5ae2913ed68",
+          "item_key": "item_0011",
+          "source_file": "upload/pass_1/p1_b015/case_4b68f5ae2913ed68_source.png",
+          "edited_file": "upload/pass_1/p1_b015/case_4b68f5ae2913ed68_edited.png"
+        },
+        {
+          "blind_id": "case_fa7cd3c72b31436e",
+          "item_key": "item_0015",
+          "source_file": "upload/pass_1/p1_b015/case_fa7cd3c72b31436e_source.png",
+          "edited_file": "upload/pass_1/p1_b015/case_fa7cd3c72b31436e_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 1,
+      "batch_id": "p1_b016",
+      "prompt_path": "upload/pass_1/p1_b016/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_487939093f6613b6",
+          "item_key": "item_0020",
+          "source_file": "upload/pass_1/p1_b016/case_487939093f6613b6_source.png",
+          "edited_file": "upload/pass_1/p1_b016/case_487939093f6613b6_edited.png"
+        },
+        {
+          "blind_id": "case_2dad4bb5bdd45a10",
+          "item_key": "item_0008",
+          "source_file": "upload/pass_1/p1_b016/case_2dad4bb5bdd45a10_source.png",
+          "edited_file": "upload/pass_1/p1_b016/case_2dad4bb5bdd45a10_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 1,
+      "batch_id": "p1_b017",
+      "prompt_path": "upload/pass_1/p1_b017/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_a5b9020c85891ead",
+          "item_key": "item_0019",
+          "source_file": "upload/pass_1/p1_b017/case_a5b9020c85891ead_source.png",
+          "edited_file": "upload/pass_1/p1_b017/case_a5b9020c85891ead_edited.png"
+        },
+        {
+          "blind_id": "case_904ecb0a1bd28e96",
+          "item_key": "item_0023",
+          "source_file": "upload/pass_1/p1_b017/case_904ecb0a1bd28e96_source.png",
+          "edited_file": "upload/pass_1/p1_b017/case_904ecb0a1bd28e96_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 1,
+      "batch_id": "p1_b018",
+      "prompt_path": "upload/pass_1/p1_b018/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_853d0a0de5509e83",
+          "item_key": "item_0012",
+          "source_file": "upload/pass_1/p1_b018/case_853d0a0de5509e83_source.png",
+          "edited_file": "upload/pass_1/p1_b018/case_853d0a0de5509e83_edited.png"
+        },
+        {
+          "blind_id": "case_cee28144be3244ac",
+          "item_key": "item_0035",
+          "source_file": "upload/pass_1/p1_b018/case_cee28144be3244ac_source.png",
+          "edited_file": "upload/pass_1/p1_b018/case_cee28144be3244ac_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 1,
+      "batch_id": "p1_b019",
+      "prompt_path": "upload/pass_1/p1_b019/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_0a2ec51c4162f153",
+          "item_key": "item_0007",
+          "source_file": "upload/pass_1/p1_b019/case_0a2ec51c4162f153_source.png",
+          "edited_file": "upload/pass_1/p1_b019/case_0a2ec51c4162f153_edited.png"
+        },
+        {
+          "blind_id": "case_7fca5adc8eec975b",
+          "item_key": "item_0006",
+          "source_file": "upload/pass_1/p1_b019/case_7fca5adc8eec975b_source.png",
+          "edited_file": "upload/pass_1/p1_b019/case_7fca5adc8eec975b_edited.png"
+        }
+      ]
+    },
+    {
+      "pass": 1,
+      "batch_id": "p1_b020",
+      "prompt_path": "upload/pass_1/p1_b020/prompt.md",
+      "items": [
+        {
+          "blind_id": "case_bc6d587b99e37d1f",
+          "item_key": "item_0031",
+          "source_file": "upload/pass_1/p1_b020/case_bc6d587b99e37d1f_source.png",
+          "edited_file": "upload/pass_1/p1_b020/case_bc6d587b99e37d1f_edited.png"
+        },
+        {
+          "blind_id": "case_00407b5c6e6a9d2e",
+          "item_key": "item_0005",
+          "source_file": "upload/pass_1/p1_b020/case_00407b5c6e6a9d2e_source.png",
+          "edited_file": "upload/pass_1/p1_b020/case_00407b5c6e6a9d2e_edited.png"
+        }
+      ]
+    }
+  ],
+  "files": {
+    "upload/pass_1/p1_b001/case_149ffcec8242328b_source.png": "f62406cdbe3d45a2f4c625fdb6c7fb0cf79150e7104ec9ef3df57ad3c59a4c5c",
+    "upload/pass_1/p1_b001/case_149ffcec8242328b_edited.png": "f656b21aa44481378c3daad4026dddf419e25b252090f2987815cbb467426110",
+    "upload/pass_1/p1_b001/case_308ffcbc48cc78b0_source.png": "dab7cb17309eb1f502fe2de969749b89077530140281225403f1446058260baf",
+    "upload/pass_1/p1_b001/case_308ffcbc48cc78b0_edited.png": "97e2498943c3e644924816d1fd18cc131a40a48b93581883057b48f907b8aa1d",
+    "upload/pass_1/p1_b001/prompt.md": "2a96d78de0433a7521a29a2bc4c57eaaf05c287098e99012f68f8f742bdc7a05",
+    "upload/pass_1/p1_b001/response_template.json": "07babdaa048d2ce8d528716477d63c5d94b9a7bc412b4ec845de4eb12844bfee",
+    "upload/pass_1/p1_b002/case_2679c9218bb6704d_source.png": "b3a8d29cc34c41a2011cf1fcdde8a3d6c72ed87afb5e8ffc6578da4621b10be8",
+    "upload/pass_1/p1_b002/case_2679c9218bb6704d_edited.png": "5885259ef955170818a084d54e5d8ac0ba6ef2c1e147640ac2fd337ac842a2e0",
+    "upload/pass_1/p1_b002/case_ecd4f70b958bce86_source.png": "1f228d08adeba46de4a47f0227cea49c18ecdfc2354f905da1a17b15ce484222",
+    "upload/pass_1/p1_b002/case_ecd4f70b958bce86_edited.png": "52d90895b4c520c5d6cf5647fc680a23c51a9dd74943519164d30145022ec334",
+    "upload/pass_1/p1_b002/case_ecd4f70b958bce86_reference.png": "ba27daf5cfeeaf01b56fa9e26dfebacd2ec6809a54971389e171c69f32e40dc4",
+    "upload/pass_1/p1_b002/prompt.md": "e36f9ea1ebbf45e8585820eed1c9085ca70fc48a239a2a35feee6b3dd93e9f98",
+    "upload/pass_1/p1_b002/response_template.json": "ef481e677614fa42033bb4056696f5a7a2f4171b5bb71fe533c21a2dac226d83",
+    "upload/pass_1/p1_b003/case_ca58a9e72c8c30b0_source.png": "c36863f5a490102ae52fe885cc6666c31fa5d00cebdb63ba0e44642a8d52000f",
+    "upload/pass_1/p1_b003/case_ca58a9e72c8c30b0_edited.png": "3da90776ac91464ea466c8b2f998c3a1636a4c3ae659d94f498c95be64606fac",
+    "upload/pass_1/p1_b003/case_7bf550d33c4983fb_source.png": "de25b3d2e9c150d2758ac9398cf2cd6efce1e4be8d98976de9b56982ad8f9d7d",
+    "upload/pass_1/p1_b003/case_7bf550d33c4983fb_edited.png": "07ec4680905061a35cf04fe0fe84f079350228d8b1d72225707ee10e86f774be",
+    "upload/pass_1/p1_b003/prompt.md": "b40a015a36dda5128e48dbbd6cd3916c26d901f19289ef172d7d73f685df1500",
+    "upload/pass_1/p1_b003/response_template.json": "7d0e3e3d1aa635353ed5576569822ff1108c9297d5e81c1add555c219213256c",
+    "upload/pass_1/p1_b004/case_437c89a6a25a0f08_source.png": "82b3fab4c2e61dfb44cca9a758274530e47760f1dceca20f6b77ffd41ac97bb2",
+    "upload/pass_1/p1_b004/case_437c89a6a25a0f08_edited.png": "24e4f24eb6e3f8adf4926a4de551bda161193ea03cd7a65016be605ab28814e4",
+    "upload/pass_1/p1_b004/case_58d34d2ec6ac3d95_source.png": "b40aa59dacb74f7844b281e2ff8c8222df604b9c77b4d549d1f89a9e38d2f508",
+    "upload/pass_1/p1_b004/case_58d34d2ec6ac3d95_edited.png": "53b66a5272436f3b108650f401e43e46f2756c6561c1e622a107e0e2bbc7de06",
+    "upload/pass_1/p1_b004/prompt.md": "1cece637ed5c5618276e63610ed637e5da98e8d0d45b7210076dc94bd9044be3",
+    "upload/pass_1/p1_b004/response_template.json": "30a0f56fa515f4b0ee3d5ef58c6cfd918b2d20b21b7dfb7c4def10ce8fb10260",
+    "upload/pass_1/p1_b005/case_7c2a5cad8b0dec09_source.png": "b8b91d1c5821cb9969686f1946ade057e5c0c9228ee04340743f44cafa63ab9a",
+    "upload/pass_1/p1_b005/case_7c2a5cad8b0dec09_edited.png": "b5796b02ea38a7e6e4bd5532daa4cb67016b73854594a69dfa17cb9a84fefde7",
+    "upload/pass_1/p1_b005/case_bf0890c2ead817dc_source.png": "b1a5561915160a88d1edc5c54abfbfae6972825ddb45c821e811c02faf8fb41f",
+    "upload/pass_1/p1_b005/case_bf0890c2ead817dc_edited.png": "d11a0b5a8a6b0ed93e9905c5f9cb61a29e7e177830b6f97dad6dba408880200a",
+    "upload/pass_1/p1_b005/prompt.md": "b81ec94d3d40c41dc9dcb16cba14cbd2634f799ca63d32177e3abf5454ef568f",
+    "upload/pass_1/p1_b005/response_template.json": "df184915cc4bf63ad94f78c5b59e4df5ed196222d6687d8c4bef31551f78b0cf",
+    "upload/pass_1/p1_b006/case_31c3279c636d58af_source.png": "f81307d5bf849752d19ec73bb7d40fe39fe97d664e49180dfc9bd18e4b0a05bf",
+    "upload/pass_1/p1_b006/case_31c3279c636d58af_edited.png": "beb80bb0130894b1f0d3bd1d6e713d1f37823ecc4b3cbf15482622f685324561",
+    "upload/pass_1/p1_b006/case_8b72f20ff92a6958_source.png": "a79ccb4421cef4e3bb49aa00a8665c9d6d345ef1e8b14e6d9a399ef96964b597",
+    "upload/pass_1/p1_b006/case_8b72f20ff92a6958_edited.png": "3861951d7cab6c3bd690ca239cc802cfa3b96dd7abdf9239c583f919084738dc",
+    "upload/pass_1/p1_b006/prompt.md": "848caa88bf3037488b1dd385a7cfd59aadf60af4a632fc8c98370eef5ff1ee48",
+    "upload/pass_1/p1_b006/response_template.json": "75c02bacb4f34dfbfa1bd2a3449dd444a377baaf4ea1165bd60eeb965dd6dcef",
+    "upload/pass_1/p1_b007/case_343cb54544a90ef1_source.png": "627a2d7b86fbe8ce04b93573e9120f4757eda107b745980a02ebbe8b36e899b5",
+    "upload/pass_1/p1_b007/case_343cb54544a90ef1_edited.png": "bfed1fc62954c711d5e03bdaa7997bf1bd628dcb81b51e0efa65f97d5061bc1b",
+    "upload/pass_1/p1_b007/case_343cb54544a90ef1_reference.png": "ff8e8e1a4697dea187c07bb6da3484b96d744364eae0321136998b765d68626a",
+    "upload/pass_1/p1_b007/case_7e1fa4a6370aa042_source.png": "fa4ce2c896532ebc3ecc4cc4030353d665cef2b25142a3d5e8fcf03ecc9d7ebd",
+    "upload/pass_1/p1_b007/case_7e1fa4a6370aa042_edited.png": "878633b8f62aea776f808ee576020fdfa158d07b2f3cb89970a82dfe1bc8133b",
+    "upload/pass_1/p1_b007/prompt.md": "ed961ffadf722995b25754b8738139331b27fa29f97dffe67ef7e6aa04dd0706",
+    "upload/pass_1/p1_b007/response_template.json": "e26d8a197bad33b676191a0cebe07f073126f3c92cd35ea3dee590acd1ad01e3",
+    "upload/pass_1/p1_b008/case_f7e818839b93d114_source.png": "f31cca8d9ba2fc5a540cc7809c05fdd1cd75a02d00aaf434054bcfdcd4623344",
+    "upload/pass_1/p1_b008/case_f7e818839b93d114_edited.png": "d79740011f551d95821ab4258961e0e237400848b7af7d2c7647092e3f9553b3",
+    "upload/pass_1/p1_b008/case_84ce3f661b5fc7a4_source.png": "ac2dde2e3329e43cb3ba0b0babe0438a58687468c98d4ccca16c7acd71deea36",
+    "upload/pass_1/p1_b008/case_84ce3f661b5fc7a4_edited.png": "43a2a01fbb8e0534c81d407875d342e680ca74261e923e1cde5a6a09329ccafd",
+    "upload/pass_1/p1_b008/prompt.md": "c79f954d33fd328193eb003489ec134415e3c6d5213e9bac013155e0547dda81",
+    "upload/pass_1/p1_b008/response_template.json": "3b907c0cd3ca8d3aecae0f5f1581675e747dfbdc6dfabbb49fecc54d97dd27df",
+    "upload/pass_1/p1_b009/case_98bcd2afca23bf0e_source.png": "562f7feb36e2b47799de4c40de3c9c5a2495fb0896074c2af33ab3fb04cd6e58",
+    "upload/pass_1/p1_b009/case_98bcd2afca23bf0e_edited.png": "6f452fda41ee8e1aa48139b935190478ccfae55c9be1672ebaa7f47ff928d00b",
+    "upload/pass_1/p1_b009/case_aacaa572662da07b_source.png": "2dd8e8881da6aa7bdc685263a673749e9ee6b72e546143e32a3d469c4dd9613f",
+    "upload/pass_1/p1_b009/case_aacaa572662da07b_edited.png": "59da6362e8c1f3b72211d62edf6cc99b6128c7130420a270090fa018167e5d99",
+    "upload/pass_1/p1_b009/prompt.md": "4a85235535bc3b1e907b055b7e5d340e0d6bd007fee5501f59c9a62b4e087456",
+    "upload/pass_1/p1_b009/response_template.json": "5c35c8bb23020791222f926ef3f353e6051fe60d3a374d1670bf797610d4eafa",
+    "upload/pass_1/p1_b010/case_5337305b7c82c010_source.png": "c6f1f02f5d35f98066b791c45e97bee36982796f641e0452d234c37ea852e942",
+    "upload/pass_1/p1_b010/case_5337305b7c82c010_edited.png": "7c09c34fac9d5f0ccc1ce3b20550ecec216d731a17877973b79bc98b37c169b6",
+    "upload/pass_1/p1_b010/case_f3d482e723e16994_source.png": "5ae0b5ea4a62cf553af9d279ab5740d3047cbd9418adae1230e7d8d927d2b4b3",
+    "upload/pass_1/p1_b010/case_f3d482e723e16994_edited.png": "a3b21bafa634880e686548b4414d196ceb9580543a48cd1d104033bca891002d",
+    "upload/pass_1/p1_b010/prompt.md": "b697453b363516951d9dc1b8d143fba9b97521007fc4065eb586c78cc18bb3dd",
+    "upload/pass_1/p1_b010/response_template.json": "62d4c5e99ce7f8e037f3634430667745a25df801bf7d01bfefc74a6f4ac8f41b",
+    "upload/pass_1/p1_b011/case_29f695fe6110464c_source.png": "4cb5cef2c5df660673f6dd3e09058d83941e00a2db3d16d5135480213906871d",
+    "upload/pass_1/p1_b011/case_29f695fe6110464c_edited.png": "825c7ca6d64c13916121a21c03c91d897d43667c71e1f8e07a7552316cb06408",
+    "upload/pass_1/p1_b011/case_8d8d745e891390e6_source.png": "c4e7c8ecc027fe0d558b2c275fde23c69e93361ff385e0b581c25432ae18f15b",
+    "upload/pass_1/p1_b011/case_8d8d745e891390e6_edited.png": "bf9b6a5352963f5d432f29a5a25f727b03d48602dfbba5d3b873fdcc1cc580a1",
+    "upload/pass_1/p1_b011/prompt.md": "5b7a9ba1f91c47e86d4f139cf401401484b013e2146881602f519077c725ffa9",
+    "upload/pass_1/p1_b011/response_template.json": "d789aa904a663a8a34f6a899e3f932e0a7d2a7021d1fdaae241552140eab04be",
+    "upload/pass_1/p1_b012/case_e36bc2ab5ebbf38c_source.png": "7f64e7c90a8d026eaa2489afcc846bdac0eace0af2c7ea793cb5042a36e63e05",
+    "upload/pass_1/p1_b012/case_e36bc2ab5ebbf38c_edited.png": "76e070e620a40003d5d846325ece7ae74ae49bca9869b62e0cedff100d1fde11",
+    "upload/pass_1/p1_b012/case_1befb016e5c17aea_source.png": "850cdde4657cd98616ac9f5b3693ce7fb60d179ebdc249f65ad8146cdfee6d5c",
+    "upload/pass_1/p1_b012/case_1befb016e5c17aea_edited.png": "a4d5bd41b3310ab3e8824efee290c95fe4557495802aca7320d4fdd65c9bdc38",
+    "upload/pass_1/p1_b012/prompt.md": "65deb3bfb438c86b2bf8ba037a86d2bae7f477f0f7a1a46fb1ce05bf6f8b94c3",
+    "upload/pass_1/p1_b012/response_template.json": "0e81f1577dcb408741660921319d20cff5880f37e7c7122a62cb7f4657c38f37",
+    "upload/pass_1/p1_b013/case_548189c214403dea_source.png": "b8ae76aa500bde7832713c75debef364cab928c312b290d2569a321c8a309153",
+    "upload/pass_1/p1_b013/case_548189c214403dea_edited.png": "4b4df80a8cf5d93ee4d289bc20386ba644f0127cb7e1d4c327f21a9198251f15",
+    "upload/pass_1/p1_b013/case_b7b069b49445810f_source.png": "f461713b58a88540d22a742f93c96d88b0ee8c0dac542e2256fa16a5377bcadf",
+    "upload/pass_1/p1_b013/case_b7b069b49445810f_edited.png": "6c782852083f0b3cdb94e5ad318871d6884359c5703c20ead094e32601957146",
+    "upload/pass_1/p1_b013/prompt.md": "16259025c4aa7aa62715498bc40d27f66f35da98ad5038354bcc60d8734a979f",
+    "upload/pass_1/p1_b013/response_template.json": "780cf3f949cd25d39e93b5f93872b98f74037f696d4a8c38117cb1f505312c68",
+    "upload/pass_1/p1_b014/case_da3520619dbca7a6_source.png": "38d7bbaa621c02a640d00b8b0854df06519cd35538ab745f47f9fbdebd6991e6",
+    "upload/pass_1/p1_b014/case_da3520619dbca7a6_edited.png": "ed5ca07eebf357f6db4dd181a46065333158c7ba194f6d120623ec709f0d6d85",
+    "upload/pass_1/p1_b014/case_8a215b939930ebf9_source.png": "80a51e6345002061b34fee4ae5d13b043d29caf908ee8a957cfe79a5bcc9066c",
+    "upload/pass_1/p1_b014/case_8a215b939930ebf9_edited.png": "5b170128ccda2d00fbb36bd7afb5530991dc1408e21ae506616018e75bfd5b88",
+    "upload/pass_1/p1_b014/prompt.md": "0bf87e4278e358236dd26f6fbc2c7d2de1cfbd3dbca13977ab31843bdef2db51",
+    "upload/pass_1/p1_b014/response_template.json": "63dd96fa4d554fa7a6b2c0ac1c8fbbb097a5dd715ce673c496ac4bb0f04b3816",
+    "upload/pass_1/p1_b015/case_4b68f5ae2913ed68_source.png": "13098cc6cc93c31009580f2af6041e252d9804549551f8f4c3d8c8514b31fc26",
+    "upload/pass_1/p1_b015/case_4b68f5ae2913ed68_edited.png": "ffc14b59f368f16ffcf0a241765242eecd1b87902316e6c0061cf5ceb70c6045",
+    "upload/pass_1/p1_b015/case_fa7cd3c72b31436e_source.png": "85c0c29db3e9042b526adfa95d2b470731074ba6a6bb2b2a01e427f08086988d",
+    "upload/pass_1/p1_b015/case_fa7cd3c72b31436e_edited.png": "a0e76e425a6af5dbfd0c21bfe4abcb60912fd3f3083bfb298b7ff48ef5ca03cc",
+    "upload/pass_1/p1_b015/prompt.md": "8368e8a64b0420bcd233e80f98380c454e5d7ccf2cf969d1039d163ad844edda",
+    "upload/pass_1/p1_b015/response_template.json": "a270f7d1672c5ea371c2e1edf6f32654c2d84009732662a4cd7df44546ed1ed5",
+    "upload/pass_1/p1_b016/case_487939093f6613b6_source.png": "fddea49bee9f1c6cf143675b2b230f5ec60c6db08cb0b3e308c2aaa4edb10db2",
+    "upload/pass_1/p1_b016/case_487939093f6613b6_edited.png": "87587c556534627ddada385e17b13dd509e0c0c310696b61e7b8c0fb6eab78de",
+    "upload/pass_1/p1_b016/case_2dad4bb5bdd45a10_source.png": "e5cb7ed26bb7106a4a0037096d52cb4aa7ee203764bdb5668a6b9032d7baefd2",
+    "upload/pass_1/p1_b016/case_2dad4bb5bdd45a10_edited.png": "39b76a80703be55ab4547b1ec015fb8015e3eea9f02c2f60c6497039ce658edd",
+    "upload/pass_1/p1_b016/prompt.md": "ceb36789485fe12d93321928647608ec130ccbd3648ca270c9ebb923d170b8b8",
+    "upload/pass_1/p1_b016/response_template.json": "0500a8cce04c44fb1fe7b135f61184e6d449a627f203dea63335b453c1d53df7",
+    "upload/pass_1/p1_b017/case_a5b9020c85891ead_source.png": "c837bd64a7617be02ed26fcaea72c5effb2e1464f7d1c751a1efc4a8e9fe1f41",
+    "upload/pass_1/p1_b017/case_a5b9020c85891ead_edited.png": "000ea137d6d3da345c0a6fae414284cb9554bf921a5f38da96591003c7708d79",
+    "upload/pass_1/p1_b017/case_904ecb0a1bd28e96_source.png": "c7bc51953c06b5ec7b5fe0ed4430cdcfcb7651fc91f2261dd0abe451fcccc6c1",
+    "upload/pass_1/p1_b017/case_904ecb0a1bd28e96_edited.png": "059a2bef592fb133caa2043f218038ee91f1bf466c93401361d4a343e5d015b0",
+    "upload/pass_1/p1_b017/prompt.md": "7c26cb35537bc5b8f1a146562d78cd0fafe8956fd69e51f521297071852701b1",
+    "upload/pass_1/p1_b017/response_template.json": "c6079c933b479b64404cfde4c948bb85219ba80bf65daace1d4c62e276adf76c",
+    "upload/pass_1/p1_b018/case_853d0a0de5509e83_source.png": "2e1e031327f4531428a89b26a17b3b6d46880b80e1557f44d416da514eedc426",
+    "upload/pass_1/p1_b018/case_853d0a0de5509e83_edited.png": "8027adfbb29a415267fdd07ca053dc4ca463e22ebcc00440168b7c055676f6d2",
+    "upload/pass_1/p1_b018/case_cee28144be3244ac_source.png": "cd36fe7e395ab4bcd1162fab5c14937cb6fa0818ead7944e694967fd94afaf99",
+    "upload/pass_1/p1_b018/case_cee28144be3244ac_edited.png": "b403aed66b7cc7bb9e77e04ba9d0df923aaefaf92e647fbf954dad7ac8e898b6",
+    "upload/pass_1/p1_b018/prompt.md": "ca52c07b71703c8dc4b7eef383d1e3f3e18bd3c739470f636e7afa1f063a20dc",
+    "upload/pass_1/p1_b018/response_template.json": "0c813a13fcf153351aa1e57652c6386b90019d0c364a3073532f7b6f99486834",
+    "upload/pass_1/p1_b019/case_0a2ec51c4162f153_source.png": "9d34b3e3c76b82e313d9920ff13b6aaa422426002094d140354dc2522b219290",
+    "upload/pass_1/p1_b019/case_0a2ec51c4162f153_edited.png": "5dc5a4f0c948a1143b81436044a279d6783d72e105159d5e1c6cfc45d0ae6db0",
+    "upload/pass_1/p1_b019/case_7fca5adc8eec975b_source.png": "e5d641ab03417b4af32b4abf0ee1b8faca910b31bf4e819688f38aec41c0571e",
+    "upload/pass_1/p1_b019/case_7fca5adc8eec975b_edited.png": "a6492774c01a0cf29611707f02246b4aa98432bd61772ecb0099a72a2b6b435c",
+    "upload/pass_1/p1_b019/prompt.md": "92762b35fb1eef9648f04ae1d936af101871f0d938397bc30532c2a295a1c2f9",
+    "upload/pass_1/p1_b019/response_template.json": "afb3a981ab17f7d1afd4ce236239b6f2a3a1cb3f5182511b3915d7435cfd0ba2",
+    "upload/pass_1/p1_b020/case_bc6d587b99e37d1f_source.png": "e746434b6e1b8de29443d97a6ef228720eda211d459d8b335e2546842751867b",
+    "upload/pass_1/p1_b020/case_bc6d587b99e37d1f_edited.png": "dbbc67f0aa16c02b3c1c31202cb86fd213eb07fd01fa88048857f95055905659",
+    "upload/pass_1/p1_b020/case_00407b5c6e6a9d2e_source.png": "56d628dba7a21e1179bbc8414702799c565b5cb23cee2ed78608ea63539bb222",
+    "upload/pass_1/p1_b020/case_00407b5c6e6a9d2e_edited.png": "94d2a658105378692bd4f78beb612d48251c86f6fecc6bac79127802a102cee1",
+    "upload/pass_1/p1_b020/prompt.md": "6e8c23fcca946075a3d7c7a29027662bb14b45d5a68581b642985d97e5b174f2",
+    "upload/pass_1/p1_b020/response_template.json": "17dabb519ce4874dab5509c0fe1127ce96d209d617c52ddd96391f38c42c6321"
+  },
+  "prepared_data_provenance": {
+    "dataset": "Liang0223/KRIS_Bench",
+    "split": "k_small",
+    "splits_sha256": "b513673f210e8ac63b6fdfa7bda0bc62323b2dffdb7e4c4e5658234c49a60dc9",
+    "dataset_fingerprint": "cff1807692e19b57",
+    "implementation_sha256": {
+      "src/dataset.py": "83c5d4a55ef95ea830e52ad5289a1565c43b1cd0a1b725f2df3483f655bfcbf2",
+      "src/taxonomy.py": "ddd551fd10bbe8698e4ce71c7cee65b7cd6ea80ad1a554d4f52cd44944722977",
+      "src/rq2/common.py": "9f2f8c31b96eb2b83ee667d5e30489388dafd280de4ec04757c05db88f25b91d"
+    }
+  },
+  "calibration_report": {
+    "bundle_manifest_hash": "4e6220cebf40173679b8c316ee2f62ed5b2d295c550414f31e87c1e3992bb26d",
+    "candidate_minimum_meaningful_difference": 19.062500000000004,
+    "evaluation_protocol": {
+      "adapter_files_sha256": {
+        "src/dataset.py": "83c5d4a55ef95ea830e52ad5289a1565c43b1cd0a1b725f2df3483f655bfcbf2",
+        "src/rq2/common.py": "9f2f8c31b96eb2b83ee667d5e30489388dafd280de4ec04757c05db88f25b91d",
+        "src/rq2_manual/__init__.py": "60ddbcc94d5e044559ae434d300bf7ef634f9fdf996a5d7ce03eefd435a37e53",
+        "src/rq2_manual/__main__.py": "fc3a546b1c86f78a567b8143384e7c2b98091f0df4797eda74aa40e6a16848d6",
+        "src/rq2_manual/common.py": "96f8f08b748474cfb5be7e4c5f1eb7362bcbc8eab1c8b2ec3a3f71d4480f7615",
+        "src/rq2_manual/export.py": "83d89aaff8e93b742bf2030ba6652201a4a66cb06d99a88f34e135e8bb28bc26",
+        "src/rq2_manual/prompts.py": "e74cc8b0dbe5b622e8cd95fea91d2cc991d7bd2813d9404872fb3397f01c5259",
+        "src/rq2_manual/references.py": "b60f1514cd9908046ce1e59f367f639825ddeaf07e3a448d66811268c8f607a2",
+        "src/rq2_manual/results.py": "d2d8d182ec0b4b5d5ee353f1fea21e357acab62350dff086a27f3e011cabe3ff",
+        "src/taxonomy.py": "ddd551fd10bbe8698e4ce71c7cee65b7cd6ea80ad1a554d4f52cd44944722977"
+      },
+      "aggregate": "mean_applicable_normalized",
+      "annotation_text_source": "hf_dataset_generation_instruction",
+      "batch_size": 2,
+      "component_range": [
+        1,
+        5
+      ],
+      "component_type": "integer",
+      "ground_truth_source": "hf_dataset_gt_image",
+      "interface": "chatgpt_manual",
+      "judge_label": "GPT-6 Astra Pro",
+      "limitation": "Operator-recorded ChatGPT UI model/settings; API snapshot and sampling settings are not controlled.",
+      "model_snapshot": null,
+      "official_prompt_sha256": "91d8df0de247b7d1a4288d3c6bee5955863d838988453e418ec14c5a0e396420",
+      "official_reference_comparison": "diagnostic_only; no resizing or tolerance-based substitution",
+      "official_revision": "cf1475253a13f5e5666826c10d8967e38917468a",
+      "official_text_comparison": "diagnostic_only; the HF text used for generation is judged",
+      "prompt_renderer_sha256": "e74cc8b0dbe5b622e8cd95fea91d2cc991d7bd2813d9404872fb3397f01c5259",
+      "prompt_version": "kris-chatgpt-ui-v2",
+      "reference_source": "hf_dataset_generation_source",
+      "rubric_sha256": {
+        "prompt_abnormal_instruction_following": "d76d20816f6b2429850d8a33a91277ba86c03eec5398d76cca6eb26a282b3614",
+        "prompt_consist": "d4eed281e816dd4ec94bb79777bf2ffd14cd2258a86f95d3524f44161d860c14",
+        "prompt_dual_evaluation": "521866619f71b5268d097d7ec0e8f64b1d5e99770359f51936f75a00b3950564",
+        "prompt_instruction_following": "7230580658d5411849859a3dabb3cd143881ac7e1a1343c6b34f21091a6dddf3",
+        "prompt_quality": "e4dd2bffe1e0db4489faeab14dbfd9df9779dbbfb10f4f26f899a55a3b225cac",
+        "prompt_view_instruction_following": "ec2d29e6f3c93eabcfdbf77920a29d4e2a233011ee98eb5b81e7874895bdd8f2"
+      },
+      "score_range": [
+        0,
+        100
+      ],
+      "session_policy": "fresh chat per batch; no earlier scores, memory, custom instructions or tools",
+      "temperature": null,
+      "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off"
+    },
+    "evaluation_protocol_hash": "04d422b5b1cc7040204bd39f4598667baf958ed4028355e2edea0b231c1ca162",
+    "first_scores_sha256": "e06e27451cb5689425c5a0dd8cfe736ef7e29a7807ac856b8e298ef2ea1d49d7",
+    "generation_protocol_hash": "b48c4353cbeee734bbb0d1d54c767e795dc5f8d52481718ad3f8f1116ead88de",
+    "judge_interface": "chatgpt_manual",
+    "judge_model": "GPT-6 Astra Pro",
+    "mean_absolute_difference": 5.3125,
+    "method": "percentile95_absolute_rescore_Q_difference",
+    "note": "Manual ChatGPT UI repeatability; choose and freeze delta >= this MMD before test scoring. UI labels do not identify immutable API model snapshots.",
+    "outputs": 20,
+    "second_scores_sha256": "e78a1e8e791cbe3a5cf6a1462d6e2997ce32414bdb3ffe7f646d7290784d97eb",
+    "selection_hash": "1699844f36439f1c2eb48062f8456c8c8e25e7cdfcf6ac621a3759c42972816b"
+  },
+  "manifest_hash": "c3adbfa270b509f6bc1a81e6edf54dfdbf9927f7d8985fc79e899c9b2632eb06"
+}

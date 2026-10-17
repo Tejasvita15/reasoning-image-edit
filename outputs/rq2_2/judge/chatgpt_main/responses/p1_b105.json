@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b105",
+  "results": [
+    {
+      "blind_id": "case_068d431e9801330e",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The cream bag retains its handle, stitching, gold interlocking emblem and product identity. Gold serif headline and bottom GUCCI text are present, but the headline omits the comma, the background is dark shiny drapery rather than gray-white velvet, and the oversized central bag leaves little whitespace. The advertisement is coherent with a faint residual watermark across the lower bag."
+    },
+    {
+      "blind_id": "case_c5f724b259941afa",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The edit removes all columns instead of leaving five, so the count instruction is not fulfilled. The plain pale background is retained and column changes are within the instructed subject. Judged alone, the blank image is smooth and artifact-free, although it contains no columns."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b179",
+  "results": [
+    {
+      "blind_id": "case_27e24c23a5cbd50a",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "The larger red toy remains substantially taller and longer than the smaller car, so the required reduction is absent. The small car shifts and its front detailing changes, while the wood surface and blurred background remain consistent. The toys are coherent, with slightly distorted fine bumper and windshield details."
+    },
+    {
+      "blind_id": "case_524b9b585bb06dc5",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The hamster's golden fur is replaced by gray throughout as requested. The log, bedding, background and frontal pose are retained, but the ears' contours and folds change noticeably. Fur, whiskers, eyes and lighting are natural with no clear artifacts."
+    }
+  ]
+}

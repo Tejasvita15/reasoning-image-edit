@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b131",
+  "results": [
+    {
+      "blind_id": "case_4ba5faf20683e8bc",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the maze walls, bear and gifts retain their layout; the bear drawing shifts slightly. Instruction: a red double-headed arrow links the general endpoints but cuts straight through multiple black walls instead of tracing the maze corridors. Knowledge: Instruction failure \u21d2 knowledge invalid. Quality: the maze, cartoon elements and red arrow are cleanly rendered and identifiable."
+    },
+    {
+      "blind_id": "case_e05bbc8afa6efb92",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the canal architecture, vegetation and water setting remain, but an additional passenger appears in the boat. Instruction: the covered vessel becomes an open black gondola with high curved ends. Knowledge: its long slender hull and distinctive raised bow match the specified Venetian gondola. Quality: the boat and scene are coherent, with slight blending in the clustered passenger hands."
+    }
+  ]
+}

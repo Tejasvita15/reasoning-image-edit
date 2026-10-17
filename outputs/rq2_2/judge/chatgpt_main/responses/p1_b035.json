@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b035",
+  "results": [
+    {
+      "blind_id": "case_8649ebff4b74c10a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The glass plate and white background remain, but all apples change shape, surface texture, stem orientation and coloring. Six apples still occupy the plate, so the requested reduction to one is not performed. The edited fruit and glass dish are structurally coherent, with natural highlights and no conspicuous artifacts."
+    },
+    {
+      "blind_id": "case_cdb2ebcfa678201f",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The wrapped and unwrapped chocolates retain their identities, arrangement and characteristic surfaces, with slight foil-detail changes. The gold background, bokeh, low central placement and upper-left brown title broadly follow the brief, but the title reads mooment and wortf, and the dense bright bokeh is less restrained than requested. Those two malformed words are clear visual defects; the chocolates and reflections otherwise look coherent."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b016",
+  "results": [
+    {
+      "blind_id": "case_018708223a29da91",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: white background and silver fork design persist, but original forks are resized and spacing changes substantially beyond count removal. Instruction: eight forks become nine, with four above and five below, instead of six; opposite count change. Quality: coherent separate fork silhouettes, four tines each and smooth metallic surfaces; no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_eebf2542f07c6b42",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: white background and brown covers remain, but left thick book enlarges and right book shrinks/moves. Instruction: thin book remains very thin while the thick book grows; expected right-book thickness match is absent. Quality: recognizable books and page textures; slight warped overhang on the large book top cover is a minor defect."
+    }
+  ]
+}

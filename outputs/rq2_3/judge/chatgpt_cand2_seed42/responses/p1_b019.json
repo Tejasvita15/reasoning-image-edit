@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b019",
+  "results": [
+    {
+      "blind_id": "case_c474d7974734feab",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: curved museum wall panels, lighting, framing and pedestal are retained; statue changes are the permitted subject. Instruction: male David remains with a damaged arm patch, not the female armless Venus de Milo specified by the explanation; complete misinterpretation. Quality: coherent museum and statue overall, but forearm has an irregular melted/chipped patch. Knowledge: male statue with retained arms fails the named Venus de Milo expectation. Instruction failure \u21d2 knowledge invalid."
+    },
+    {
+      "blind_id": "case_6a8834b4061970f3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: products and white layout remain, but all right-side animal illustrations are replaced, losing cow and bee and adding three chickens. Instruction: rows now associate wool with sheep and eggs with chicken, but honey and milk also face chickens; two essential production matches fail. Quality: coherent clean cartoon animals and product icons, without noticeable artifacts. Knowledge: explanation blank; pairing logic comes from task/visible content, and required coupling applies. Instruction failure \u21d2 knowledge invalid."
+    }
+  ]
+}

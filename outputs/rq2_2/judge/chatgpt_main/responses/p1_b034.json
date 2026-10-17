@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b034",
+  "results": [
+    {
+      "blind_id": "case_788554864f4e0019",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The lips, peach background and existing tooth arrangement are preserved, with a slight alteration to surrounding tooth contours. Both conspicuous gaps are filled with appropriately sized white teeth, completing the smile as requested. The illustration has coherent gum lines, tooth shapes and smooth shading without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_ea86e9c0173a9146",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The patterned background, viewpoint and existing blue/orange faces remain closely matched, with only slight changes to tile outlines. The missing upper pieces are filled to form a complete four-by-four cube, accurately performing the repair. The resulting cube has coherent perspective and clean, continuous grids without structural artifacts."
+    }
+  ]
+}

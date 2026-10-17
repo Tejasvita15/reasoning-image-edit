@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b017",
+  "results": [
+    {
+      "blind_id": "case_88b0a3816ce96043",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the purple tee, ball size/location, grass and blurred trees remain unchanged outside the color edit. Instruction: the white golf ball becomes black while retaining its dimpled form, exactly achieving the requested recoloring. Quality: the sphere, dimples and highlights are natural and coherent."
+    },
+    {
+      "blind_id": "case_ac749117df6c3986",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the curved plant stem, foreground leaf and green background retain their visible arrangement outside insect occlusion. Instruction: the caterpillar becomes a fully winged adult butterfly on the stem. Knowledge: this satisfies the supplied butterfly transformation expectation. Quality: wings and patterned body are clear and coherent, with a slight irregularity in the fine antenna/leg contours."
+    }
+  ]
+}

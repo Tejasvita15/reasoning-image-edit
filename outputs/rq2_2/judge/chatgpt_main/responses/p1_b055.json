@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b055",
+  "results": [
+    {
+      "blind_id": "case_d857e2121aba1c8e",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white backdrop and original left adapter remain, but the cable coil is reshaped and one connector is obscured by a new object. Instruction: a second, differently designed adapter is added in front of the coil while the original stays left; it is not the requested relocation into the cable's center. Quality: clean product forms and lighting, with slightly simplified/ambiguous small port details on the new adapter."
+    },
+    {
+      "blind_id": "case_640d2bbbb6684753",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: tabletop grain and glasses design remain, but the intact frame and upper arm are shifted downward in the image. Instruction: the shortened lower temple is extended into a continuous full-length arm with a curved ear tip matching the other side. Quality: coherent connected arms, lenses and reflections, with no noticeable artifacts despite the soft photographic detail."
+    }
+  ]
+}

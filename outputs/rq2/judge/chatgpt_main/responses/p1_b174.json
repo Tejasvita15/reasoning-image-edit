@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b174",
+  "results": [
+    {
+      "blind_id": "case_0ad829d2cf6c8196",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The supplied image actually contains a pen, which remains consistent in shape, trim and diagonal orientation. A glossy bear figure on the right, stars, candy, white clouds and a blue gradient are added, and Bear Balloon Party is correctly set in bold colourful type at the top. The bear reads somewhat like an inflated toy rather than a clearly tethered balloon, a minor shortfall. The poster is clean, legible and coherent."
+    },
+    {
+      "blind_id": "case_e287a046c9e33a36",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "The two chocolate-coated cookies retain their distinctive shapes, drizzle and leaning stack. The edit supplies dark slate, a brown fabric setting and upper-right text, but the camera still looks downward, and the title omits that, distorts enters/is and changes punctuation. This partially meets the display brief. The food and lighting are coherent, while visibly corrupted lettering is a clear quality flaw."
+    }
+  ]
+}

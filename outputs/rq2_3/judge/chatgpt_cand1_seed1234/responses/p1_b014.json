@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b014",
+  "results": [
+    {
+      "blind_id": "case_3b1f9680d4386fb7",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: white setting remains, but shell/face details and foreleg poses are redrawn on both turtles, including the small one. Instruction: the left turtle remains much larger than the right and is not reduced to match. Quality: coherent shells, heads and scaled limbs with natural contact shadows and no conspicuous artifacts."
+    },
+    {
+      "blind_id": "case_a8aa74b7090dbf4a",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: square black/white diamond cushion identity persists, but the arrangement and scale of diamonds on its face visibly change. Instruction: prominent close-up cushion on a charcoal sofa, cool minimal interior and bold top-left title are present; the odd double-quote apostrophe in Life’s is a small text defect. Quality: coherent fabric and sofa perspective, with a minor typographic punctuation artifact."
+    }
+  ]
+}

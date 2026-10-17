@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b103",
+  "results": [
+    {
+      "blind_id": "case_5a1c905fd345ddf3",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: bowl contour, tabletop and powder arrangement are preserved outside the permitted ignition effects. Instruction: orange glowing areas and bright flying sparks visibly ignite the grey mixture. Knowledge: intense yellow-white emission matches the thermite explanation. Quality: coherent bowl and granular material; some outer sparks have slightly flat polygonal shapes."
+    },
+    {
+      "blind_id": "case_7445fc9e416e818c",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the eight existing faces and square frames remain unchanged. Instruction: the question mark is replaced with a face, but it smiles and uses a round border instead of continuing the sad square-face pattern. Knowledge: the supplied expectation calls for a crying face with right eye filled; the right eye is filled, but the smile directly conflicts. Quality: clean, readable black symbols and regular layout without visible artifacts."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b001",
+  "results": [
+    {
+      "blind_id": "case_995383a83e8562fc",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the table and vase shift slightly and the book page content/orientation changes; flowers and pale backdrop remain recognizable. Instruction: the book is reversed but remains right of the vase, whereas it should move to the left; no compliance. Quality: coherent glass table, flowers, book, perspective and reflections; no noticeable generation defect."
+    },
+    {
+      "blind_id": "case_ed117bbe42107cb3",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: two separated books become one large central book, changing object count, layout and width. Instruction: a thick book is visible, but the thin right book is not separately thickened to match the retained left book; major omission. Quality: book edges and page texture are coherent; the pale bulging form along the left spine is a minor shape imperfection."
+    }
+  ]
+}

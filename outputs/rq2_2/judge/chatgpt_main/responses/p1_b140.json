@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b140",
+  "results": [
+    {
+      "blind_id": "case_4e02d7e496c49443",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: new 11 numerals and guide lines fill the first two squares, and the rightmost square border is damaged; surrounding numbers remain. Instruction: the question mark is untouched and 35 is not supplied. Knowledge: Instruction failure \u21d2 knowledge invalid. Quality: the numerals remain legible, but the broken, faded right square and stray diagonal marks are conspicuous diagram artifacts."
+    },
+    {
+      "blind_id": "case_14a9a13b42de10c8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white setting remains, but the soccer ball becomes smaller, shifts left and has a changed panel orientation; the basketball seam pattern also changes. Instruction: the basketball is now directly above and touching the soccer ball as requested. Quality: both spheres are coherent, with natural surfaces, clear panel lines and convincing contact shading."
+    }
+  ]
+}

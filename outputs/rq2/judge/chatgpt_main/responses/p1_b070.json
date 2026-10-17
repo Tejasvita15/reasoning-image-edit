@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b070",
+  "results": [
+    {
+      "blind_id": "case_0a2ed81af746fd32",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "The red Ferrari remains in the same general angle, but wheel spokes and grille details are altered. The dark blurred urban backdrop and lower-centered car follow the main poster concept. The headline becomes oversized malformed metallic lettering rather than the specified clean sans-serif phrase, and the distorted Ferrari branding sits at bottom right and on the plate instead of bottom center. Multiple garbled text areas substantially degrade the poster quality."
+    },
+    {
+      "blind_id": "case_61e9da428cfd9b10",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "The main road and upper-right woodland remain matched, although some roof geometry in the right-hand settlement changes. The left woodland is replaced with many buildings and fewer trees, clearly satisfying both urbanization and the supplied explanation. The aerial layout is recognizable, but several new pale buildings have smeared, irregular roof boundaries and the lower-left road/building joins are awkward."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b202",
+  "results": [
+    {
+      "blind_id": "case_95845f223263f9b3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: underwater setting and pink branches persist, but a large humanlike face is added at the base and nearby reef/fish details change. Instruction: the coral remains pink and dark rather than turning white; adding a pale face completely misinterprets the requested biological change. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: the disembodied face fused into the reef creates a major anatomical and semantic failure despite the recognizable underwater background."
+    },
+    {
+      "blind_id": "case_8dcd07fdd90580ed",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: black/orange jacket identity remains, but the background turns white and an additional large sketched jacket appears behind it. Instruction: the main jacket stays in a similar frontal oblique view with full torso visible, instead of the overhead neck-and-shoulder view in the reference. Quality: the central garment is coherent, but overlapping unfinished duplicate outlines create conspicuous ghosting and ambiguous extra garment contours."
+    }
+  ]
+}

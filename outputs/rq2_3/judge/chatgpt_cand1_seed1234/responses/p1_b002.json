@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b002",
+  "results": [
+    {
+      "blind_id": "case_a035ac8f19ffc9f9",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: shoreline, rocks, trees and sky persist, but the foreground's dense white foam pattern is substantially erased beyond the water recoloring. Instruction: broad red water clearly depicts the requested red tide. Knowledge: red coloration directly matches the supplied expectation. Quality: coherent coastal perspective and waves, with slightly smooth, blended texture over the foreground red patch."
+    },
+    {
+      "blind_id": "case_5f63b627f6b56b60",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: white square background and centered circular extent remain; shading and outline transformation belong to the requested solid. Instruction: the flat circle becomes a shaded sphere. Knowledge: the depicted spherical volume matches the supplied rotation outcome. Quality: round silhouette and shading convey volume, though a faint horizontal shading seam crosses its middle."
+    }
+  ]
+}

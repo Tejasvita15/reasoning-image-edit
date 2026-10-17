@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b004",
+  "results": [
+    {
+      "blind_id": "case_c32ad2e7a660062d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: boundary stripe and two upper balls remain, but the lower ball is wrongly removed and the surrounding turf texture visibly changes. Instruction: only the lower-right ball disappears; its edge still overlaps the line in the source, so no ball should have been removed. Knowledge: the supplied explanation says retain all balls, which is violated. Instruction failure ⇒ knowledge invalid. Quality: remaining balls and stripe are coherent, but a conspicuous smooth dark patch replaces textured grass at lower right."
+    },
+    {
+      "blind_id": "case_36877b85b2dd1598",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: white background persists, but nearly all major numeral and operator structures disappear or are reorganized. Instruction: the original 14 − 6 = 82 is replaced by a small cluster of disconnected/doubled sticks; there is no valid equation and far more than two sticks are affected. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: garbled symbols, doubled vertical sticks and disconnected diagonals produce a major semantic structural failure."
+    }
+  ]
+}

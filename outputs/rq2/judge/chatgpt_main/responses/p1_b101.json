@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b101",
+  "results": [
+    {
+      "blind_id": "case_3945bd59fe2a8202",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: field, distant path, trees and overcast sky remain in place, with slight foreground vegetation texture variation. Instruction: several strings of rectangular prayer flags now span the flatland. Knowledge: blue, white, red, green and yellow flags are clearly represented, matching the five-color expectation. Quality: coherent suspended strings, plausible distance scaling and natural landscape texture."
+    },
+    {
+      "blind_id": "case_94522b0d12170abb",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: monitor and cuff remain, but the white surrounding background is replaced by a blue-gray surface and shadow. Instruction: displayed values still read 100/68 with pulse 70, so hypertension values were not introduced. Knowledge: Instruction failure \u21d2 knowledge invalid; neither supplied threshold is exceeded. Quality: the device and cuff sit inside a conspicuous rectangular cutout with striped background remnants, disrupting natural integration."
+    }
+  ]
+}

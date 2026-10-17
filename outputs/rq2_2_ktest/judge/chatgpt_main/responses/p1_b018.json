@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b018",
+  "results": [
+    {
+      "blind_id": "case_1e8abc3b70fde270",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the pizza's round crust and pepperoni arrangement are retained, with minor topping-texture changes. Instruction: the centered pizza, orange-yellow radiant background, floating herbs/chilies and exact bold top title are present; cheese appears as blocks rather than strings and steam/heat distortion is weak. Quality: the poster is coherent, its title is legible and the food/graphic elements have clean recognizable forms."
+    },
+    {
+      "blind_id": "case_2e4d0ccaade12894",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "Consistency: the map outline and region divisions persist, but the black borders become white throughout. Instruction: all regions receive the four requested colors, but the four-color game is only partially fulfilled because several adjoining regions share a color. Knowledge: no explanation is supplied; visible violations include the adjacent red regions at left, adjacent yellow central regions, and the two blue bottom regions. Quality: the map has clean boundaries, even fills and no distracting artifacts."
+    }
+  ]
+}

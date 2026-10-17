@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b109",
+  "results": [
+    {
+      "blind_id": "case_748eea5d111c71cd",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "A small front wheel or support appears, but the jagged broken nose remains unrepaired. The intact deck changes curvature, texture and position, and the ground shadow changes noticeably. The resulting board has a malformed metal-like lump on its top and an awkward front-wheel connection, producing clear structural artifacts."
+    },
+    {
+      "blind_id": "case_ea58aaa43c56d43c",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "A sparse holder is added at the lower-right paper corner while the original full holder remains at upper left, so the requested move is incomplete. Paper and coffee retain their positions, with a slight change in upper wood-grain details. The new holder contains an odd nested circular form and fused pen connection, a clear local structural flaw."
+    }
+  ]
+}

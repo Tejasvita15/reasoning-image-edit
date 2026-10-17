@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b068",
+  "results": [
+    {
+      "blind_id": "case_974f06065958c521",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: black pot, side tab, handle and white background remain, with a small change in pot contour. Instruction: lid moves over the pot but sits obliquely and leaves the left opening exposed instead of fitting the rim. Quality: an unexplained looping rim behind the lid and doubled knob/reflection structure are noticeable artifacts."
+    },
+    {
+      "blind_id": "case_8398b57676b2e357",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background remains, but line a changes slope/extent and the a/b/O labels disappear into malformed central marks. Instruction: only one diagonal line remains, so line b is not perpendicular to a at O. Knowledge: no right-angle intersection is shown. Instruction failure \u21d2 knowledge invalid. Quality: malformed central symbols and missing identifiable labels produce a structurally degraded diagram."
+    }
+  ]
+}

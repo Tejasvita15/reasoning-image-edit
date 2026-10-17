@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b254",
+  "results": [
+    {
+      "blind_id": "case_8ad498311b0f0b9a",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The eight supplied patterns and grid are unchanged. The question mark is replaced by a thick closed ring, rather than the common lower arc portions required by the row rule. The ring and diagram are cleanly drawn, but the answer does not implement the pattern. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_ed0466f5d1166ad3",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "The colored panels and all given numbers remain intact. The target question mark becomes a clear yellow 11, but the supplied difference-and-sum rule requires 410. Typography and panel structure are visually coherent. Instruction failure ⇒ knowledge invalid."
+    }
+  ]
+}

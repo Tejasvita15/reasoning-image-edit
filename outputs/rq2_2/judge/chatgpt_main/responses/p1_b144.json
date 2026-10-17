@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b144",
+  "results": [
+    {
+      "blind_id": "case_f40925d4697601c0",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Blue sky, desert foreground and distant horizon remain, with a small crate near the old base removed. Instruction: The pyramid becomes a stepped Maya-style structure with central staircases, but its pointed temple roof is inaccurate. Knowledge: Kukulkan has a flat-topped summit temple rather than this pointed cap. Quality: Stone terraces, lighting and perspective are visually coherent."
+    },
+    {
+      "blind_id": "case_1d67cb1ba46a675b",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Sky, clouds, horizon and composition remain unchanged outside the requested sea-surface edit. Instruction: A dark smooth slick appears on the sea, but covers only a limited patch. Knowledge: The patch lacks the expected rainbow sheen. Quality: The sharply outlined, uniformly smooth patch looks like a raised cutout against the surrounding rippled water."
+    }
+  ]
+}

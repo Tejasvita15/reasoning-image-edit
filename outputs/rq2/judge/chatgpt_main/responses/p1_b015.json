@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b015",
+  "results": [
+    {
+      "blind_id": "case_7134fab1f21e653b",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: paper, coffee cup and wooden tabletop stay in place, with a small change to the paper surface texture. Instruction: a holder appears at the lower-right paper corner, but the original holder remains at upper-left; duplication only partially fulfills moving the existing holder. Quality: both holders, pens, paper and lighting are structurally coherent and natural."
+    },
+    {
+      "blind_id": "case_0744b4debd9b2b1b",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: gray pavement remains, but the intact deck outline and pose change substantially. Instruction: wheels and trucks are added beneath the board, yet the broken splintered nose remains; the damaged skateboard has not been properly completed. Quality: the ragged layered nose and uneven deck edge are clear structural defects, while wheels and ground shadows remain recognizable."
+    }
+  ]
+}

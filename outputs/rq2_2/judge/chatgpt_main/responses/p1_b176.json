@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b176",
+  "results": [
+    {
+      "blind_id": "case_a70af412b22db3b6",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "The shoe profile, heel, tan lining, white backdrop and ground shadow remain unchanged. All red exterior surfaces become black while preserving glossy highlights, fully satisfying the color change. The shoe edges, reflections and material appearance are coherent and natural."
+    },
+    {
+      "blind_id": "case_8373f893f8d9926f",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "The other eight cells and grid remain unchanged. A long diagonal is added through the retained question mark, but the required far-right black circle is absent and the line extends beyond the expected upper-right segment. Instruction failure \u21d2 knowledge invalid. The otherwise clean diagram has an awkward overlapping line and question mark in its final cell."
+    }
+  ]
+}
