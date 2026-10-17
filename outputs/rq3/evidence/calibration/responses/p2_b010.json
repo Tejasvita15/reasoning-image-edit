@@ -1,0 +1,23 @@
+{
+  "batch_id": "p2_b010",
+  "results": [
+    {
+      "blind_id": "case_1ee16fce6e60192a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The facial appearance, clothing palette, fruit table and broad room composition remain recognizable. The other resting hand is repositioned, the lower legs and shoes change pose, and the chair pedestal and armrest are reshaped, constituting multiple noticeable non-instructed changes. Instruction: The hand hanging beside the fruit is removed and the glass-holding arm is retained, leaving two hands. However, the green sleeve ends at a white cuff and bent exposed segment that joins a separate tan sleeve, so the remaining arm is not anatomically resolved. The main correction is only partially achieved. Quality: Assessed alone, the face, glass, furniture and crossed-leg pose are coherent, but the anomalous green-cuff-to-tan-sleeve connection is a clear structural flaw rather than a normal fabric fold."
+    },
+    {
+      "blind_id": "case_533febfcddfb7620",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The twig, leaf arrangement, veins, framing, lighting and background bokeh retain their original positions and appearance; the visible changes are confined to the requested leaf damage. Instruction: Numerous brown lesions appear on the leaves, giving them a damaged appearance. The expected pest-infested leaves should show eaten-through holes, but the blades remain largely continuous and the new markings read as surface spots rather than clear perforations, so the requested result is only partially realized. Knowledge: The edit suggests deterioration but does not clearly demonstrate the supplied mechanism of insects eating holes through the leaves, supporting partial rather than complete knowledge use. Quality: Assessed alone, the leaf structures, lesion textures, branch and backlighting are coherent and natural, with no noticeable rendering artifacts."
+    }
+  ]
+}

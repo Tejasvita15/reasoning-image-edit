@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b002",
+  "results": [
+    {
+      "blind_id": "case_d7d90febf27501aa",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The requested change \"Change to six forks\" is not successfully realized. Quality: The output is severely degraded, near-empty, or otherwise visually broken."
+    },
+    {
+      "blind_id": "case_dbfb19a8d4ccf365",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The requested change \"Remove one shoe\" is not successfully realized. Quality: The output is severely degraded, near-empty, or otherwise visually broken."
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "schema_version": 1,
+  "purpose": "RQ3 independent human-judge validation",
+  "parent_split": "k_small",
+  "source_splits_sha256": "b513673f210e8ac63b6fdfa7bda0bc62323b2dffdb7e4c4e5658234c49a60dc9",
+  "source_bundle_manifest_hash": "a71668393fb6efbf0339e60449d30134a63b0802b7d858835f7ccf877eea2a87",
+  "generation_protocol_hash": "a2001fe4612dfee6ae489c243b0fb204b1f04ba39f4877bf0f53853fe7f1438c",
+  "evaluation_protocol_hash": "095c775e5aae19c2469c5647e717d9209b14a9887ae43ec7410f50657e6af2e2",
+  "sampling_seed": 42,
+  "sampling_method": "random.Random(42).sample 10 from sorted UID pools, factual then conceptual then procedural; sort final UIDs",
+  "selection_basis": "Frozen parent IDs and knowledge_type metadata only; no scores, images or failure labels used for selection",
+  "selection_timing": "Supplementary subset selected after generation and judge analysis, before human ratings; not preregistered before the experiment",
+  "per_knowledge_type": {
+    "factual": 10,
+    "conceptual": 10,
+    "procedural": 10
+  },
+  "conditions": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "base_seed": 42,
+  "repeat": 0,
+  "example_count": 30,
+  "outputs_per_reviewer": 120,
+  "example_uids": [
+    "abstract_reasoning__33",
+    "anomaly_correction__25",
+    "anomaly_correction__74",
+    "biology__49",
+    "color_change__49",
+    "count_change__16",
+    "count_change__47",
+    "count_change__48",
+    "geography__40",
+    "humanities__45",
+    "mathematics__10",
+    "mathematics__6",
+    "medicine__24",
+    "multi-instruction_execution__37",
+    "multi-instruction_execution__56",
+    "multi-instruction_execution__58",
+    "multi-instruction_execution__8",
+    "physics__11",
+    "physics__53",
+    "practical_knowledge__28",
+    "practical_knowledge__29",
+    "rule-based_reasoning__43",
+    "rule-based_reasoning__52",
+    "rule-based_reasoning__68",
+    "rule-based_reasoning__71",
+    "rule-based_reasoning__75",
+    "size_adjustment__33",
+    "size_adjustment__38",
+    "size_adjustment__5",
+    "viewpoint_change__43"
+  ],
+  "examples": [
+    {
+      "example_uid": "abstract_reasoning__33",
+      "knowledge_type": "procedural",
+      "category": "abstract_reasoning",
+      "knowledge_required": true
+    },
+    {
+      "example_uid": "anomaly_correction__25",
+      "knowledge_type": "factual",
+      "category": "anomaly_correction",
+      "knowledge_required": false
+    },
+    {
+      "example_uid": "anomaly_correction__74",
+      "knowledge_type": "factual",
+      "category": "anomaly_correction",
+      "knowledge_required": false
+    },
+    {
+      "example_uid": "biology__49",
+      "knowledge_type": "conceptual",
+      "category": "biology",
+      "knowledge_required": true
+    },
+    {
+      "example_uid": "color_change__49",
+      "knowledge_type": "factual",
+      "category": "color_change",
+      "knowledge_required": false
+    },
+    {
+      "example_uid": "count_change__16",
+      "knowledge_type": "factual",
+      "category": "count_change",
+      "knowledge_required": false
+    },
+    {
+      "example_uid": "count_change__47",
+      "knowledge_type": "factual",
+      "category": "count_change",
+      "knowledge_required": false
+    },
+    {
+      "example_uid": "count_change__48",
+      "knowledge_type": "factual",
+      "category": "count_change",
+      "knowledge_required": false
+    },
+    {
+      "example_uid": "geography__40",
+      "knowledge_type": "conceptual",
+      "category": "geography",
+      "knowledge_required": true
+    },
+    {
+      "example_uid": "humanities__45",
+      "knowledge_type": "conceptual",
+      "category": "humanities",
+      "knowledge_required": true
+    },
+    {
+      "example_uid": "mathematics__10",
+      "knowledge_type": "conceptual",
+      "category": "mathematics",
+      "knowledge_required": true
+    },
+    {
+      "example_uid": "mathematics__6",
+      "knowledge_type": "conceptual",
+      "category": "mathematics",
+      "knowledge_required": true
+    },
+    {
+      "example_uid": "medicine__24",
+      "knowledge_type": "conceptual",
+      "category": "medicine",
+      "knowledge_required": true
+    },
+    {
+      "example_uid": "multi-instruction_execution__37",
+      "knowledge_type": "procedural",
+      "category": "multi-instruction_execution",
+      "knowledge_required": false
+    },
+    {
+      "example_uid": "multi-instruction_execution__56",
+      "knowledge_type": "procedural",
+      "category": "multi-instruction_execution",
+      "knowledge_required": false
+    },
+    {
+      "example_uid": "multi-instruction_execution__58",
+      "knowledge_type": "procedural",
+      "category": "multi-instruction_execution",
+      "knowledge_required": false
+    },
+    {
+      "example_uid": "multi-instruction_execution__8",
+      "knowledge_type": "procedural",
+      "category": "multi-instruction_execution",
+      "knowledge_required": false
+    },
+    {
+      "example_uid": "physics__11",
+      "knowledge_type": "conceptual",
+      "category": "physics",
+      "knowledge_required": true
+    },
+    {
+      "example_uid": "physics__53",
+      "knowledge_type": "conceptual",
+      "category": "physics",
+      "knowledge_required": true
+    },
+    {
+      "example_uid": "practical_knowledge__28",
+      "knowledge_type": "conceptual",
+      "category": "practical_knowledge",
+      "knowledge_required": true
+    },
+    {
+      "example_uid": "practical_knowledge__29",
+      "knowledge_type": "conceptual",
+      "category": "practical_knowledge",
+      "knowledge_required": true
+    },
+    {
+      "example_uid": "rule-based_reasoning__43",
+      "knowledge_type": "procedural",
+      "category": "rule-based_reasoning",
+      "knowledge_required": true
+    },
+    {
+      "example_uid": "rule-based_reasoning__52",
+      "knowledge_type": "procedural",
+      "category": "rule-based_reasoning",
+      "knowledge_required": true
+    },
+    {
+      "example_uid": "rule-based_reasoning__68",
+      "knowledge_type": "procedural",
+      "category": "rule-based_reasoning",
+      "knowledge_required": true
+    },
+    {
+      "example_uid": "rule-based_reasoning__71",
+      "knowledge_type": "procedural",
+      "category": "rule-based_reasoning",
+      "knowledge_required": true
+    },
+    {
+      "example_uid": "rule-based_reasoning__75",
+      "knowledge_type": "procedural",
+      "category": "rule-based_reasoning",
+      "knowledge_required": true
+    },
+    {
+      "example_uid": "size_adjustment__33",
+      "knowledge_type": "factual",
+      "category": "size_adjustment",
+      "knowledge_required": false
+    },
+    {
+      "example_uid": "size_adjustment__38",
+      "knowledge_type": "factual",
+      "category": "size_adjustment",
+      "knowledge_required": false
+    },
+    {
+      "example_uid": "size_adjustment__5",
+      "knowledge_type": "factual",
+      "category": "size_adjustment",
+      "knowledge_required": false
+    },
+    {
+      "example_uid": "viewpoint_change__43",
+      "knowledge_type": "factual",
+      "category": "viewpoint_change",
+      "knowledge_required": false
+    }
+  ]
+}

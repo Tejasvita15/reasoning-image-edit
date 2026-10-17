@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b014",
+  "results": [
+    {
+      "blind_id": "case_53e376c173784075",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Multiple non-instructed elements change noticeably beyond the target edit. Instruction: The image shows a clear attempt to fulfill \"Correct the unreasonable parts of the animal in the image\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections."
+    },
+    {
+      "blind_id": "case_34c3e5e3c3b1ad35",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Most non-instructed elements are preserved, with only minor incidental differences. Instruction: The result shows limited evidence of \"Please draw the correct shape in the '?' box located at the top left corner according t...\", with major aspects missing or unclear. Quality: Overall structure is coherent, with only minor visual imperfections."
+    }
+  ]
+}

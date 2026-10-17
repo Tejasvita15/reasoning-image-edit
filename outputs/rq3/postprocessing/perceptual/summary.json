@@ -1,0 +1,57 @@
+{
+  "metric_identity_sha256": "92a94bb2bd57da1eb98a9432f047e05627fd6591e99e88bff5feeb6cde7fc269",
+  "pair_count": 160,
+  "metric_validation": {
+    "passed": true,
+    "identical_image_lpips": 0.0,
+    "tolerance": 1e-06,
+    "example_uid": "abstract_reasoning__33",
+    "condition": "C",
+    "metric_identity_sha256": "92a94bb2bd57da1eb98a9432f047e05627fd6591e99e88bff5feeb6cde7fc269"
+  },
+  "comparisons": {
+    "C-A": {
+      "n": 40,
+      "mean": 0.0424380904994905,
+      "median": 0.025256861001253128,
+      "minimum": 0.000764806754887104,
+      "maximum": 0.1935933530330658
+    },
+    "D-B": {
+      "n": 40,
+      "mean": 0.03935699034773279,
+      "median": 0.020003036595880985,
+      "minimum": 0.0012254227185621858,
+      "maximum": 0.19434887170791626
+    },
+    "E-D": {
+      "n": 20,
+      "mean": 0.17371262188535183,
+      "median": 0.1490904688835144,
+      "minimum": 0.005135070998221636,
+      "maximum": 0.4605295956134796
+    },
+    "F-D": {
+      "n": 20,
+      "mean": 0.025134419939422514,
+      "median": 0.011911410838365555,
+      "minimum": 0.0004157161747571081,
+      "maximum": 0.09307334572076797
+    },
+    "E-B": {
+      "n": 20,
+      "mean": 0.18051641690544784,
+      "median": 0.16177072376012802,
+      "minimum": 0.00612760242074728,
+      "maximum": 0.4445990025997162
+    },
+    "F-B": {
+      "n": 20,
+      "mean": 0.030744319933000953,
+      "median": 0.020478726364672184,
+      "minimum": 0.0017677415162324905,
+      "maximum": 0.12533581256866455
+    }
+  },
+  "interpretation": "Supplementary generated-image differences; lower LPIPS alone does not establish better editing or correctness."
+}

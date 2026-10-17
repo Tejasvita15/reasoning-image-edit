@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-10-02T04:19:48.569847+00:00",
+  "generation_protocol_hash": "a2001fe4612dfee6ae489c243b0fb204b1f04ba39f4877bf0f53853fe7f1438c",
+  "evaluation_protocol_hash": "095c775e5aae19c2469c5647e717d9209b14a9887ae43ec7410f50657e6af2e2",
+  "bundle_manifest_hash": "a71668393fb6efbf0339e60449d30134a63b0802b7d858835f7ccf877eea2a87",
+  "analysis_transfer_sha256": "8406897aaea24ac229db6c9ff58f1203644e35b72f27b04819f8c78694d603e5",
+  "generation_records_sha256": "6e9171f993fed0df7581f56d1035e252b2ad00480ebe65dbb39deaa0016b7f7f",
+  "scores_sha256": "1ea18bd10192f779ae5ded09c53a7010cab368f6fe63c19a95bb4b569e92af61",
+  "postprocessor_sha256": {
+    "__init__.py": "d60ec1443863b57160eda7a218de54861d756545b4abf88544bf86b403282761",
+    "__main__.py": "23e00c38c991a9c1a7848b9b6a3f0e3446a696ee255876d5c491795f74ce3c57",
+    "common.py": "5192ce6d0ff854afd8dd212f50b0330d209cb953144febd4ce3c16c682d5c14a",
+    "discussion.py": "cbbe3dd9f1d43da8cbaddaae1e51f8947a0f085502926b2d20eb57303e68b7d2",
+    "perceptual.py": "6ad7fc09d7ced5641105808a7b4b92ca29225a92a45c91456461d33428335c7b",
+    "qualitative.py": "bf0bae69579d16cea993eeb76df351b347596240a9d75ee3242235c01b1c0cfb",
+    "quantitative.py": "7fb3aa020619a60c918589fa454425972a038013bc6269e9806b122555fea787"
+  },
+  "python": "3.10.21",
+  "packages": {
+    "numpy": "2.2.5",
+    "scipy": "1.15.3",
+    "matplotlib": "3.10.9",
+    "pillow": "12.3.0"
+  },
+  "record_policy": "Original records/manifests/NSCC paths unchanged; separate local image-path lookup.",
+  "resampling_policy": "Paired example-level bootstrap; 40 main/20 ablation; seed42; 10000 draws. Timing repeats are not independent examples.",
+  "image_metric_policy": "Supplementary saved-image diagnostics, not substitutes for editing quality scores.",
+  "discussion_updated_at": "2026-10-04T09:07:48.610763+00:00",
+  "lpips_identity_sha256": "92a94bb2bd57da1eb98a9432f047e05627fd6591e99e88bff5feeb6cde7fc269",
+  "visual_observations_sha256": "a4860f91f67775c7796cdb213a44456e110ba75db90294ae7df527c0ff72edd4",
+  "visual_observations_source": "reports/rq3_case_observations.json",
+  "human_validation_reference": {
+    "report_source": "/Users/aloysiustan/Development/ai6132_group/outputs/rq3/human_validation/analysis/report.json",
+    "report_sha256": "e848e3a9339c8fd428f1054fcdcee8096c90b3ad3abbc9a4e504fa3bc304b47c",
+    "scope": "Separate 30-example A-D supplement; original 40-example and 20-example estimates unchanged",
+    "generation_protocol_hash": "a2001fe4612dfee6ae489c243b0fb204b1f04ba39f4877bf0f53853fe7f1438c",
+    "evaluation_protocol_hash": "095c775e5aae19c2469c5647e717d9209b14a9887ae43ec7410f50657e6af2e2",
+    "judge_scores_sha256": "1ea18bd10192f779ae5ded09c53a7010cab368f6fe63c19a95bb4b569e92af61"
+  },
+  "discussion_updates": [
+    {
+      "updated_at": "2026-10-04T09:07:48.610763+00:00",
+      "scope": "Discussion only: RESULTS.md and index.html rerendered from the existing summary; no figures, image metrics, score tables or canonical analysis were regenerated.",
+      "discussion_source": "src/rq3_postprocess/discussion.py",
+      "discussion_source_sha256": "5be2d30a75ba00fdaddc561da0a640c8784dbca3906b4dca08c8210fa2422708",
+      "summary_sha256": "8c0779888d6810cbd39ed1c26a2a01a36609041c5da876d20ac82ad8152f1288",
+      "human_validation_report_source": "outputs/rq3/human_validation/analysis/report.json",
+      "human_validation_report_sha256": "e848e3a9339c8fd428f1054fcdcee8096c90b3ad3abbc9a4e504fa3bc304b47c",
+      "original_judge_scores_sha256": "1ea18bd10192f779ae5ded09c53a7010cab368f6fe63c19a95bb4b569e92af61",
+      "generated_files_sha256": {
+        "RESULTS.md": "def32371cae6fd1fe64a6e215df1205ccbdb260b39a62be8826bc186494b0a32",
+        "index.html": "f8b4bd189f0017465937dada41127f2ca5bf60cb3a441287604a365b82fa8ba1"
+      },
+      "unchanged_other_postprocessing_files": 80
+    }
+  ],
+  "documentation_updates": [
+    {
+      "updated_at": "2026-10-04T09:24:03.606465+00:00",
+      "reason": "Use platform-neutral wording in the report and renderer for branch sharing; no numerical results regenerated.",
+      "source": "src/rq3_postprocess/discussion.py",
+      "source_sha256": "a69b59c08436188cc83742c88ace4409daf913570a62c5afee0425ae12da1644",
+      "files": {
+        "RESULTS.md": "020804d9e6359cac9f250bf26dd1977b5c32dea0ca03ba2753868ff194c3e63f"
+      }
+    }
+  ]
+}

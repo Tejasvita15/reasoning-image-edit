@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b006",
+  "results": [
+    {
+      "blind_id": "case_ca840b25adbc3e24",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The bearded face, green-and-tan clothing palette, glass and general setting are retained. The lower-leg pose, shoe locations, chair pedestal and base, and fruit arrangement nevertheless change noticeably, independently of the arm correction. Instruction: The original extra hanging hand is removed. However, the glass-holding limb still has an unnatural junction: a green sleeve and white cuff connect through a bent skin-colored segment to the tan segment below the raised hand, rather than resolving into one anatomically convincing arm. The correction is partial. Quality: The face, glass and most fabric textures are coherent, but the abnormal forearm/sleeve connection is a clear structural artifact. General softness is not itself penalized."
+    },
+    {
+      "blind_id": "case_bd5b18cc317efe27",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The overall leaf cluster and framing remain recognizable, and the damaged leaf margins are allowed changes. However, the supporting branch's shape and bark detail are altered, and multiple background highlights are reshaped or displaced; these are separate noticeable non-instructed changes. Instruction: The leaves now show irregular missing sections, notched margins and small pale openings together with damaged tissue, clearly depicting the requested pest aftermath. Knowledge: The visible perforations and missing tissue agree with the supplied explanation that insects eat holes in the leaves. Quality: Evaluated independently, the branch and foliage have plausible backlighting, veins and damaged edges. One small rectangular tonal patch in the background immediately beneath the narrow lower-center leaf interrupts the otherwise natural defocus; moderate softness itself is not penalized."
+    }
+  ]
+}

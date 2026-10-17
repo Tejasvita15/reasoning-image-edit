@@ -1,0 +1,948 @@
+{
+  "agreements": [
+    {
+      "pair": "reviewer_1_vs_reviewer_2",
+      "first": "reviewer_1",
+      "second": "reviewer_2",
+      "dimension": "Q",
+      "metric": "spearman_rho",
+      "n_outputs": 120,
+      "n_examples": 30,
+      "estimate": 0.8982546534337927,
+      "ci_low": 0.8126093751003735,
+      "ci_high": 0.9506241093818395,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "pair": "reviewer_1_vs_reviewer_2",
+      "first": "reviewer_1",
+      "second": "reviewer_2",
+      "dimension": "Q",
+      "metric": "icc_a1",
+      "n_outputs": 120,
+      "n_examples": 30,
+      "estimate": 0.8992489023814996,
+      "ci_low": 0.818769718264546,
+      "ci_high": 0.9431893499208008,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "pair": "reviewer_1_vs_reviewer_2",
+      "first": "reviewer_1",
+      "second": "reviewer_2",
+      "dimension": "Q",
+      "metric": "mean_difference",
+      "n_outputs": 120,
+      "n_examples": 30,
+      "estimate": 2.3263888888888897,
+      "ci_low": -0.8680555555555554,
+      "ci_high": 5.364583333333333,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "pair": "reviewer_1_vs_reviewer_2",
+      "first": "reviewer_1",
+      "second": "reviewer_2",
+      "dimension": "Q",
+      "metric": "mean_absolute_difference",
+      "n_outputs": 120,
+      "n_examples": 30,
+      "estimate": 7.430555555555556,
+      "ci_low": 5.260416666666667,
+      "ci_high": 9.6875,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "pair": "reviewer_1_vs_reviewer_2",
+      "first": "reviewer_1",
+      "second": "reviewer_2",
+      "dimension": "consistency_score",
+      "metric": "quadratic_kappa",
+      "n_outputs": 120,
+      "n_examples": 30,
+      "estimate": 0.497575022734162,
+      "ci_low": 0.22643472499250414,
+      "ci_high": 0.7187631644616382,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "pair": "reviewer_1_vs_reviewer_2",
+      "first": "reviewer_1",
+      "second": "reviewer_2",
+      "dimension": "instruction_score",
+      "metric": "quadratic_kappa",
+      "n_outputs": 120,
+      "n_examples": 30,
+      "estimate": 0.901239001616089,
+      "ci_low": 0.7896870922989327,
+      "ci_high": 0.9667788624131751,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "pair": "reviewer_1_vs_reviewer_2",
+      "first": "reviewer_1",
+      "second": "reviewer_2",
+      "dimension": "quality_score",
+      "metric": "quadratic_kappa",
+      "n_outputs": 120,
+      "n_examples": 30,
+      "estimate": 0.8443775100401607,
+      "ci_low": 0.7326503376605095,
+      "ci_high": 0.9309358125971383,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "pair": "reviewer_1_vs_reviewer_2",
+      "first": "reviewer_1",
+      "second": "reviewer_2",
+      "dimension": "knowledge_score",
+      "metric": "quadratic_kappa",
+      "n_outputs": 64,
+      "n_examples": 16,
+      "estimate": 0.8312886545675757,
+      "ci_low": 0.6705734722996005,
+      "ci_high": 0.942270809544478,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "pair": "reviewer_1_vs_chatgpt",
+      "first": "reviewer_1",
+      "second": "chatgpt",
+      "dimension": "Q",
+      "metric": "spearman_rho",
+      "n_outputs": 120,
+      "n_examples": 30,
+      "estimate": 0.04150710792852965,
+      "ci_low": -0.24496880784020636,
+      "ci_high": 0.3179648809727994,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "pair": "reviewer_1_vs_chatgpt",
+      "first": "reviewer_1",
+      "second": "chatgpt",
+      "dimension": "Q",
+      "metric": "icc_a1",
+      "n_outputs": 120,
+      "n_examples": 30,
+      "estimate": 0.027082651494171897,
+      "ci_low": -0.18580780302493216,
+      "ci_high": 0.2110078253597765,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "pair": "reviewer_1_vs_chatgpt",
+      "first": "reviewer_1",
+      "second": "chatgpt",
+      "dimension": "Q",
+      "metric": "mean_difference",
+      "n_outputs": 120,
+      "n_examples": 30,
+      "estimate": -2.2222222222222214,
+      "ci_low": -11.840277777777777,
+      "ci_high": 6.961805555555555,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "pair": "reviewer_1_vs_chatgpt",
+      "first": "reviewer_1",
+      "second": "chatgpt",
+      "dimension": "Q",
+      "metric": "mean_absolute_difference",
+      "n_outputs": 120,
+      "n_examples": 30,
+      "estimate": 23.402777777777775,
+      "ci_low": 18.36762152777778,
+      "ci_high": 28.836805555555557,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "pair": "reviewer_2_vs_chatgpt",
+      "first": "reviewer_2",
+      "second": "chatgpt",
+      "dimension": "Q",
+      "metric": "spearman_rho",
+      "n_outputs": 120,
+      "n_examples": 30,
+      "estimate": 0.13339994662481444,
+      "ci_low": -0.15693093838177394,
+      "ci_high": 0.3966143064310505,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "pair": "reviewer_2_vs_chatgpt",
+      "first": "reviewer_2",
+      "second": "chatgpt",
+      "dimension": "Q",
+      "metric": "icc_a1",
+      "n_outputs": 120,
+      "n_examples": 30,
+      "estimate": 0.13367353517678626,
+      "ci_low": -0.07420691220720806,
+      "ci_high": 0.30805048043183936,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "pair": "reviewer_2_vs_chatgpt",
+      "first": "reviewer_2",
+      "second": "chatgpt",
+      "dimension": "Q",
+      "metric": "mean_difference",
+      "n_outputs": 120,
+      "n_examples": 30,
+      "estimate": -4.548611111111112,
+      "ci_low": -13.923611111111112,
+      "ci_high": 4.722656249999995,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "pair": "reviewer_2_vs_chatgpt",
+      "first": "reviewer_2",
+      "second": "chatgpt",
+      "dimension": "Q",
+      "metric": "mean_absolute_difference",
+      "n_outputs": 120,
+      "n_examples": 30,
+      "estimate": 24.6875,
+      "ci_low": 20.295138888888893,
+      "ci_high": 29.479600694444443,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    }
+  ],
+  "conditions": [
+    {
+      "rater": "reviewer_1",
+      "condition": "A",
+      "n_examples": 30,
+      "estimate": 49.37500000000001,
+      "ci_low": 40.97048611111111,
+      "ci_high": 57.986111111111114,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "reviewer_1",
+      "condition": "B",
+      "n_examples": 30,
+      "estimate": 57.56944444444445,
+      "ci_low": 49.513888888888886,
+      "ci_high": 65.97222222222221,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "reviewer_1",
+      "condition": "C",
+      "n_examples": 30,
+      "estimate": 48.81944444444445,
+      "ci_low": 40.277777777777786,
+      "ci_high": 57.708333333333336,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "reviewer_1",
+      "condition": "D",
+      "n_examples": 30,
+      "estimate": 56.111111111111114,
+      "ci_low": 48.333333333333336,
+      "ci_high": 64.09722222222223,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "reviewer_2",
+      "condition": "A",
+      "n_examples": 30,
+      "estimate": 52.6388888888889,
+      "ci_low": 43.611111111111114,
+      "ci_high": 61.66666666666667,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "reviewer_2",
+      "condition": "B",
+      "n_examples": 30,
+      "estimate": 58.81944444444446,
+      "ci_low": 49.236111111111114,
+      "ci_high": 68.19444444444444,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "reviewer_2",
+      "condition": "C",
+      "n_examples": 30,
+      "estimate": 51.73611111111112,
+      "ci_low": 42.91666666666667,
+      "ci_high": 60.62500000000001,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "reviewer_2",
+      "condition": "D",
+      "n_examples": 30,
+      "estimate": 57.98611111111112,
+      "ci_low": 48.472222222222236,
+      "ci_high": 67.36111111111111,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "chatgpt",
+      "condition": "A",
+      "n_examples": 30,
+      "estimate": 51.18055555555556,
+      "ci_low": 45.76388888888889,
+      "ci_high": 55.7638888888889,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "chatgpt",
+      "condition": "B",
+      "n_examples": 30,
+      "estimate": 50.00000000000001,
+      "ci_low": 42.43055555555556,
+      "ci_high": 56.80555555555556,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "chatgpt",
+      "condition": "C",
+      "n_examples": 30,
+      "estimate": 51.80555555555556,
+      "ci_low": 46.31944444444445,
+      "ci_high": 56.458333333333336,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "chatgpt",
+      "condition": "D",
+      "n_examples": 30,
+      "estimate": 50.00000000000001,
+      "ci_low": 42.43055555555556,
+      "ci_high": 56.80555555555556,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "human_mean",
+      "condition": "A",
+      "n_examples": 30,
+      "estimate": 51.00694444444444,
+      "ci_low": 42.4296875,
+      "ci_high": 59.79166666666666,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "human_mean",
+      "condition": "B",
+      "n_examples": 30,
+      "estimate": 58.19444444444445,
+      "ci_low": 49.6875,
+      "ci_high": 66.77083333333334,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "human_mean",
+      "condition": "C",
+      "n_examples": 30,
+      "estimate": 50.27777777777778,
+      "ci_low": 41.77083333333334,
+      "ci_high": 59.027777777777786,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "human_mean",
+      "condition": "D",
+      "n_examples": 30,
+      "estimate": 57.0486111111111,
+      "ci_low": 48.715277777777786,
+      "ci_high": 65.48611111111111,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    }
+  ],
+  "effects": [
+    {
+      "rater": "reviewer_1",
+      "contrast": "G0_B_minus_A",
+      "n_examples": 30,
+      "estimate": 8.194444444444445,
+      "ci_low": 2.4305555555555554,
+      "ci_high": 14.029513888888866,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "reviewer_1",
+      "contrast": "G1_D_minus_C",
+      "n_examples": 30,
+      "estimate": 7.291666666666668,
+      "ci_low": 1.3888888888888886,
+      "ci_high": 13.402777777777777,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "reviewer_1",
+      "contrast": "interaction_D_minus_C_minus_B_plus_A",
+      "n_examples": 30,
+      "estimate": -0.9027777777777779,
+      "ci_low": -3.888888888888889,
+      "ci_high": 2.0833333333333335,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "reviewer_1",
+      "contrast": "thinking_on_acceleration_D_minus_B",
+      "n_examples": 30,
+      "estimate": -1.4583333333333335,
+      "ci_low": -3.9583333333333344,
+      "ci_high": 0.6944444444444443,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "reviewer_1",
+      "contrast": "thinking_off_acceleration_C_minus_A",
+      "n_examples": 30,
+      "estimate": -0.5555555555555557,
+      "ci_low": -2.0833333333333335,
+      "ci_high": 0.5555555555555552,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "reviewer_2",
+      "contrast": "G0_B_minus_A",
+      "n_examples": 30,
+      "estimate": 6.180555555555555,
+      "ci_low": -2.2222222222222228,
+      "ci_high": 14.166666666666666,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "reviewer_2",
+      "contrast": "G1_D_minus_C",
+      "n_examples": 30,
+      "estimate": 6.25,
+      "ci_low": -2.0850694444444438,
+      "ci_high": 14.375,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "reviewer_2",
+      "contrast": "interaction_D_minus_C_minus_B_plus_A",
+      "n_examples": 30,
+      "estimate": 0.06944444444444452,
+      "ci_low": -1.8055555555555545,
+      "ci_high": 2.013888888888889,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "reviewer_2",
+      "contrast": "thinking_on_acceleration_D_minus_B",
+      "n_examples": 30,
+      "estimate": -0.8333333333333336,
+      "ci_low": -2.222222222222223,
+      "ci_high": 0.20833333333333334,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "reviewer_2",
+      "contrast": "thinking_off_acceleration_C_minus_A",
+      "n_examples": 30,
+      "estimate": -0.9027777777777779,
+      "ci_low": -2.4305555555555562,
+      "ci_high": 0.0,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "chatgpt",
+      "contrast": "G0_B_minus_A",
+      "n_examples": 30,
+      "estimate": -1.180555555555556,
+      "ci_low": -6.944444444444445,
+      "ci_high": 3.5416666666666656,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "chatgpt",
+      "contrast": "G1_D_minus_C",
+      "n_examples": 30,
+      "estimate": -1.805555555555556,
+      "ci_low": -7.708333333333334,
+      "ci_high": 3.0555555555555554,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "chatgpt",
+      "contrast": "interaction_D_minus_C_minus_B_plus_A",
+      "n_examples": 30,
+      "estimate": -0.625,
+      "ci_low": -1.875,
+      "ci_high": 0.0,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "chatgpt",
+      "contrast": "thinking_on_acceleration_D_minus_B",
+      "n_examples": 30,
+      "estimate": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "chatgpt",
+      "contrast": "thinking_off_acceleration_C_minus_A",
+      "n_examples": 30,
+      "estimate": 0.625,
+      "ci_low": 0.0,
+      "ci_high": 1.875,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "human_mean",
+      "contrast": "G0_B_minus_A",
+      "n_examples": 30,
+      "estimate": 7.187500000000001,
+      "ci_low": 0.45138888888888856,
+      "ci_high": 13.715277777777777,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "human_mean",
+      "contrast": "G1_D_minus_C",
+      "n_examples": 30,
+      "estimate": 6.770833333333333,
+      "ci_low": -0.034722222222223334,
+      "ci_high": 13.403645833333321,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "human_mean",
+      "contrast": "interaction_D_minus_C_minus_B_plus_A",
+      "n_examples": 30,
+      "estimate": -0.4166666666666668,
+      "ci_low": -2.673611111111111,
+      "ci_high": 1.7361111111111112,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "human_mean",
+      "contrast": "thinking_on_acceleration_D_minus_B",
+      "n_examples": 30,
+      "estimate": -1.1458333333333335,
+      "ci_low": -3.020833333333333,
+      "ci_high": 0.3125,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "human_mean",
+      "contrast": "thinking_off_acceleration_C_minus_A",
+      "n_examples": 30,
+      "estimate": -0.7291666666666669,
+      "ci_low": -2.0486111111111116,
+      "ci_high": 0.13888888888888856,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    }
+  ],
+  "effect_differences": [
+    {
+      "rater": "reviewer_1",
+      "contrast": "G0_B_minus_A",
+      "n_examples": 30,
+      "definition": "human effect minus judge effect, same 30 examples",
+      "estimate": 9.375,
+      "ci_low": 2.222222222222222,
+      "ci_high": 17.22222222222222,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "reviewer_1",
+      "contrast": "G1_D_minus_C",
+      "n_examples": 30,
+      "definition": "human effect minus judge effect, same 30 examples",
+      "estimate": 9.097222222222223,
+      "ci_low": 1.5972222222222223,
+      "ci_high": 17.569444444444446,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "reviewer_1",
+      "contrast": "interaction_D_minus_C_minus_B_plus_A",
+      "n_examples": 30,
+      "definition": "human effect minus judge effect, same 30 examples",
+      "estimate": -0.27777777777777785,
+      "ci_low": -3.680555555555556,
+      "ci_high": 3.4722222222222223,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "reviewer_1",
+      "contrast": "thinking_on_acceleration_D_minus_B",
+      "n_examples": 30,
+      "definition": "human effect minus judge effect, same 30 examples",
+      "estimate": -1.4583333333333335,
+      "ci_low": -3.9583333333333344,
+      "ci_high": 0.6944444444444443,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "reviewer_1",
+      "contrast": "thinking_off_acceleration_C_minus_A",
+      "n_examples": 30,
+      "definition": "human effect minus judge effect, same 30 examples",
+      "estimate": -1.1805555555555558,
+      "ci_low": -3.888888888888889,
+      "ci_high": 0.5555555555555552,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "reviewer_2",
+      "contrast": "G0_B_minus_A",
+      "n_examples": 30,
+      "definition": "human effect minus judge effect, same 30 examples",
+      "estimate": 7.361111111111112,
+      "ci_low": -1.319444444444444,
+      "ci_high": 15.765624999999979,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "reviewer_2",
+      "contrast": "G1_D_minus_C",
+      "n_examples": 30,
+      "definition": "human effect minus judge effect, same 30 examples",
+      "estimate": 8.055555555555557,
+      "ci_low": -1.041666666666667,
+      "ci_high": 17.15277777777778,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "reviewer_2",
+      "contrast": "interaction_D_minus_C_minus_B_plus_A",
+      "n_examples": 30,
+      "definition": "human effect minus judge effect, same 30 examples",
+      "estimate": 0.6944444444444445,
+      "ci_low": -1.666666666666667,
+      "ci_high": 3.8906249999999765,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "reviewer_2",
+      "contrast": "thinking_on_acceleration_D_minus_B",
+      "n_examples": 30,
+      "definition": "human effect minus judge effect, same 30 examples",
+      "estimate": -0.8333333333333336,
+      "ci_low": -2.222222222222223,
+      "ci_high": 0.20833333333333334,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "reviewer_2",
+      "contrast": "thinking_off_acceleration_C_minus_A",
+      "n_examples": 30,
+      "definition": "human effect minus judge effect, same 30 examples",
+      "estimate": -1.527777777777778,
+      "ci_low": -4.305555555555556,
+      "ci_high": 0.0,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "human_mean",
+      "contrast": "G0_B_minus_A",
+      "n_examples": 30,
+      "definition": "human effect minus judge effect, same 30 examples",
+      "estimate": 8.368055555555555,
+      "ci_low": 0.7291666666666674,
+      "ci_high": 16.11111111111111,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "human_mean",
+      "contrast": "G1_D_minus_C",
+      "n_examples": 30,
+      "definition": "human effect minus judge effect, same 30 examples",
+      "estimate": 8.57638888888889,
+      "ci_low": 0.5555555555555552,
+      "ci_high": 16.979166666666668,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "human_mean",
+      "contrast": "interaction_D_minus_C_minus_B_plus_A",
+      "n_examples": 30,
+      "definition": "human effect minus judge effect, same 30 examples",
+      "estimate": 0.2083333333333332,
+      "ci_low": -2.5,
+      "ci_high": 3.506944444444444,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "human_mean",
+      "contrast": "thinking_on_acceleration_D_minus_B",
+      "n_examples": 30,
+      "definition": "human effect minus judge effect, same 30 examples",
+      "estimate": -1.1458333333333335,
+      "ci_low": -3.020833333333333,
+      "ci_high": 0.3125,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "rater": "human_mean",
+      "contrast": "thinking_off_acceleration_C_minus_A",
+      "n_examples": 30,
+      "definition": "human effect minus judge effect, same 30 examples",
+      "estimate": -1.354166666666667,
+      "ci_low": -3.9930555555555554,
+      "ci_high": 0.13888888888888856,
+      "valid_bootstrap_replicates": 10000,
+      "invalid_bootstrap_replicates": 0
+    }
+  ],
+  "same_margin_sensitivity": {
+    "reviewer_1": {
+      "unaccelerated_thinking_lower_bound_above_zero": true,
+      "D_minus_B_lower_bound_above_minus_5": true,
+      "interaction_interval_within_plus_minus_5": true
+    },
+    "reviewer_2": {
+      "unaccelerated_thinking_lower_bound_above_zero": false,
+      "D_minus_B_lower_bound_above_minus_5": true,
+      "interaction_interval_within_plus_minus_5": true
+    },
+    "chatgpt": {
+      "unaccelerated_thinking_lower_bound_above_zero": false,
+      "D_minus_B_lower_bound_above_minus_5": true,
+      "interaction_interval_within_plus_minus_5": true
+    },
+    "human_mean": {
+      "unaccelerated_thinking_lower_bound_above_zero": true,
+      "D_minus_B_lower_bound_above_minus_5": true,
+      "interaction_interval_within_plus_minus_5": true
+    }
+  },
+  "schema_version": 1,
+  "plan": {
+    "schema_version": 1,
+    "scope": "Supplementary human validation of fixed 30-example A-D subset; 120 matched outputs, two named human reviewers, seed42",
+    "method_origin": "Quadratic weighted kappa, Spearman correlation, absolute-agreement ICC(A,1), and example-cluster bootstrap were specified in RQ3_human_validation.md before the joint analysis. Implementation was completed after submissions; a method auditor inspected point estimates before code finalization. No claim of preregistration or outcome-blind implementation is made.",
+    "selection": "10 per knowledge type from frozen40; metadata-only selection after original experiment and before human scoring; no selection based on human scores",
+    "score": "Per output, mean of 25*(integer score-1) over applicable dimensions; use frozen knowledge applicability and instruction<=2 implies knowledge=1 rule",
+    "human_human_primary": "Quadratically weighted Cohen kappa per 1-5 ordinal dimension; fixed support [1,2,3,4,5]",
+    "human_judge_primary": "For each named human versus existing ChatGPT ratings, Spearman rho and ICC(A,1) on Q; same 120 outputs",
+    "icc_model": "Two-way mixed effects, absolute agreement, single measurement; two named fixed raters per comparison; n=number of output targets (120), not 30",
+    "icc_formula": "(MS_subject-MS_error)/(MS_subject+(k-1)*MS_error+k*(MS_rater-MS_error)/n); k=2",
+    "bootstrap_unit": "Example UID: draw 30 examples with replacement, retaining all four conditions and all raters within each selected example; exclude non-applicable dimensions within each resample",
+    "bootstrap_resamples": 10000,
+    "bootstrap_seed": 42,
+    "confidence": 0.95,
+    "interval": "2.5th and 97.5th percentiles of finite bootstrap statistics; report valid and invalid draw counts, never replace undefined statistics with zero or one",
+    "contrasts": [
+      "B-A",
+      "D-C",
+      "(D-C)-(B-A)",
+      "D-B",
+      "C-A"
+    ],
+    "quality_margin": 5,
+    "margin_interpretation": "Reuse the original five-point tolerance as a supplementary sensitivity criterion on the 30-example human subset; retain the original 40-example judge results separately",
+    "secondary_descriptive": [
+      "Human-human Q correlations and ICC",
+      "Mean signed second-minus-first Q difference and mean absolute difference",
+      "Condition means and paired effects for each human and matched original judge",
+      "Equal-weight mean of the two human Q scores, explicitly secondary, not adjudicated ground truth",
+      "Human-effect minus judge-effect paired differences on the same examples",
+      "Post-hoc largest human-judge disagreement cases; do not remove them or change original scores"
+    ],
+    "missingness": "Require complete scoreable submissions for this analysis; stop for explicit missing-data review if any item is unreadable rather than silently dropping it",
+    "encoding": "Preserve original files. Accept case-only TRUE/FALSE changes in spreadsheet flags. Invalid UTF-8 is allowed only in optional ambiguity notes and rendered as explicit byte escapes in derived text; reject invalid bytes in IDs, scores or rationales.",
+    "exclusions": "Four practice outputs per reviewer excluded; no E/F human ratings, no extra seeds, no claims about all40 effects or arbitrary future raters",
+    "references": {
+      "icc": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4913118/",
+      "quadratic_kappa": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.cohen_kappa_score.html",
+      "spearman": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.spearmanr.html"
+    }
+  },
+  "submission_checks": {
+    "reviewer_1": {
+      "summary": {
+        "main": {
+          "rows": 120,
+          "knowledge_applicable": 64,
+          "boolean_case_normalizations": 0,
+          "encoding_warning_rows": 0,
+          "status": "passed"
+        },
+        "practice": {
+          "rows": 4,
+          "knowledge_applicable": 2,
+          "boolean_case_normalizations": 0,
+          "encoding_warning_rows": 0,
+          "status": "passed"
+        }
+      },
+      "warnings": [],
+      "metadata": {
+        "reviewer_id": "reviewer_1",
+        "prior_exposure": "no prior exposure to the study",
+        "background": "computer science graduate and no study-specific expertise",
+        "practice_started_at": "2026-10-04T14:00:00+08:00",
+        "practice_completed_at": "2026-10-04T15:07:56+08:00",
+        "started_at": "2026-10-04T15:08:11+08:00",
+        "completed_at": "2026-10-04T16:30:10+08:00",
+        "independent_rating_confirmed": true
+      },
+      "immutable_packet_files_checked": 379,
+      "file_sha256": {
+        "ratings.csv": "fe1fd8af77e3a3f071021b1c9c1a9eb2ae034ee3f87fd6c089ddc816cef5f3eb",
+        "practice_ratings.csv": "7c94978de5039c5b65f9a5322258b175f3ccb96084d3da94f7ad8f0576b8498f",
+        "reviewer_metadata.json": "884e862ac0aa883229716f242142387ccfd93eb883a27bf952b74489c60fa28c"
+      },
+      "snapshot": "/Users/aloysiustan/Development/ai6132_group/outputs/rq3/human_validation/submissions/reviewer_1/13732134c4d23ca1",
+      "independence": "operator/reviewer attested, not independently verified"
+    },
+    "reviewer_2": {
+      "summary": {
+        "main": {
+          "rows": 120,
+          "knowledge_applicable": 64,
+          "boolean_case_normalizations": 120,
+          "encoding_warning_rows": 2,
+          "status": "passed"
+        },
+        "practice": {
+          "rows": 4,
+          "knowledge_applicable": 2,
+          "boolean_case_normalizations": 0,
+          "encoding_warning_rows": 0,
+          "status": "passed"
+        }
+      },
+      "warnings": [
+        {
+          "file": "ratings.csv",
+          "kind": "escaped_invalid_UTF8_note",
+          "line": 61,
+          "blind_id": "review_eb4578acd3e10763",
+          "field": "ambiguity_note",
+          "invalid_bytes_hex": [
+            "e2"
+          ]
+        },
+        {
+          "file": "ratings.csv",
+          "kind": "escaped_invalid_UTF8_note",
+          "line": 100,
+          "blind_id": "review_3286304f47ee0db0",
+          "field": "ambiguity_note",
+          "invalid_bytes_hex": [
+            "e2"
+          ]
+        }
+      ],
+      "metadata": {
+        "reviewer_id": "reviewer_2",
+        "prior_exposure": "No prior exposure to the study, image pairs, model outputs, or previous reviewer scores.",
+        "background": "Digital design graduate",
+        "practice_completed_at": "2026-10-04T07:07:41Z",
+        "started_at": "2026-10-04T07:15:19Z",
+        "completed_at": "2026-10-04T08:33:44Z",
+        "independent_rating_confirmed": true
+      },
+      "immutable_packet_files_checked": 379,
+      "file_sha256": {
+        "ratings.csv": "4b9bf2415251b0c8e2a700d43eb4c121f1f58832ff6875e634e1b17b2130cd8b",
+        "practice_ratings.csv": "ef6838fa76247d2e54caf9671c61966c55ccb9c48bdfdc0d6cf7ba2a80db1a21",
+        "reviewer_metadata.json": "02c7b22bcb245f5fb079144bf9ced745fd2e2c3f4cf1c5e19622edad24af5527"
+      },
+      "snapshot": "/Users/aloysiustan/Development/ai6132_group/outputs/rq3/human_validation/submissions/reviewer_2/e38760299d7f2079",
+      "independence": "operator/reviewer attested, not independently verified"
+    }
+  },
+  "counts": {
+    "examples": 30,
+    "outputs": 120,
+    "human_main_ratings": 240,
+    "practice_excluded": 8,
+    "knowledge_outputs": 64,
+    "knowledge_examples": 16
+  },
+  "provenance": {
+    "created_at": "2026-10-04T08:59:07.687881+00:00",
+    "generation_protocol_hash": "a2001fe4612dfee6ae489c243b0fb204b1f04ba39f4877bf0f53853fe7f1438c",
+    "evaluation_protocol_hash": "095c775e5aae19c2469c5647e717d9209b14a9887ae43ec7410f50657e6af2e2",
+    "judge_scores_sha256": "1ea18bd10192f779ae5ded09c53a7010cab368f6fe63c19a95bb4b569e92af61",
+    "subset_hash": "03bd84b6f49fb162202e8b2212fa7b04c1a805956bb9c8dbd028799ce5b4c13a",
+    "mapping_sha256": "2eb1b5ecae1056083aa7e9b8d7c4c24d784bdc3c4ac15c8893e5cde9c7656824",
+    "analysis_plan_sha256": "069eefee2340caf333be5e7a20301e7570e6876ea91d4aa0cae85da7eeaf0b1c",
+    "implementation_sha256": {
+      "__init__.py": "8fec8b9a7d9b40f7d60c1b53e8a49e1514679a9965d0203b7a6be69790d78b60",
+      "__main__.py": "979873a7c735433e3055f94d3ccfc244fdeca6fe78853ee4802411d2b11f101f",
+      "metrics.py": "cac21eedf3842b78cd7b617be3f3bacf5549e7d9d5090c655926d519022fbdd0",
+      "presentation.py": "4002d2da3b9db357ffa358b2b00bc618ef6e250435a43559f933b310e6ff4905"
+    },
+    "python": "3.10.21",
+    "packages": {
+      "numpy": "2.2.5",
+      "scipy": "1.15.3",
+      "matplotlib": "3.10.9"
+    }
+  }
+}

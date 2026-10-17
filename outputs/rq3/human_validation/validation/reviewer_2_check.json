@@ -1,0 +1,176 @@
+{
+  "reviewer_id": "reviewer_2",
+  "status": "passed_with_warnings",
+  "ready_for_joint_analysis": true,
+  "summary": {
+    "main": {
+      "rows": 120,
+      "expected_rows": 120,
+      "unique_ids": 120,
+      "statuses": {
+        "ok": 120
+      },
+      "knowledge_required": 64,
+      "viewpoint_references": 4,
+      "confidence": {
+        "3": 114,
+        "2": 6
+      },
+      "ambiguity_notes": 8,
+      "score_distributions": {
+        "consistency_score": {
+          "1": 14,
+          "2": 21,
+          "3": 25,
+          "4": 12,
+          "5": 48
+        },
+        "instruction_score": {
+          "2": 12,
+          "1": 54,
+          "3": 20,
+          "5": 23,
+          "4": 11
+        },
+        "quality_score": {
+          "1": 8,
+          "5": 69,
+          "2": 12,
+          "3": 13,
+          "4": 18
+        },
+        "knowledge_score": {
+          "1": 36,
+          "": 56,
+          "4": 3,
+          "2": 4,
+          "5": 14,
+          "3": 7
+        }
+      },
+      "exact_duplicate_rationale_groups": 0
+    },
+    "practice": {
+      "rows": 4,
+      "expected_rows": 4,
+      "unique_ids": 4,
+      "statuses": {
+        "ok": 4
+      },
+      "knowledge_required": 2,
+      "viewpoint_references": 0,
+      "confidence": {
+        "3": 4
+      },
+      "ambiguity_notes": 0,
+      "score_distributions": {
+        "consistency_score": {
+          "3": 1,
+          "5": 2,
+          "2": 1
+        },
+        "instruction_score": {
+          "5": 2,
+          "1": 1,
+          "4": 1
+        },
+        "quality_score": {
+          "4": 2,
+          "5": 2
+        },
+        "knowledge_score": {
+          "": 2,
+          "1": 1,
+          "2": 1
+        }
+      },
+      "exact_duplicate_rationale_groups": 0
+    }
+  },
+  "structural_errors": [],
+  "follow_up_items": [],
+  "metadata": {
+    "reviewer_id": "reviewer_2",
+    "prior_exposure": "No prior exposure to the study, image pairs, model outputs, or previous reviewer scores.",
+    "background": "Digital design graduate",
+    "practice_completed_at": "2026-10-04T07:07:41Z",
+    "started_at": "2026-10-04T07:15:19Z",
+    "completed_at": "2026-10-04T08:33:44Z",
+    "independent_rating_confirmed": true
+  },
+  "chronology": {
+    "practice_before_main_start": true,
+    "main_start_before_end": true,
+    "practice_before_end": true,
+    "recorded_main_duration_seconds": 4705.0,
+    "time_after_practice_seconds": 5163.0
+  },
+  "metadata_singapore_times": {
+    "practice_completed_at": "2026-10-04T15:07:41+08:00",
+    "started_at": "2026-10-04T15:15:19+08:00",
+    "completed_at": "2026-10-04T16:33:44+08:00"
+  },
+  "frozen_packet_files_checked": 381,
+  "changed_frozen_files": [],
+  "submitted_file_sha256": {
+    "ratings.csv": "4b9bf2415251b0c8e2a700d43eb4c121f1f58832ff6875e634e1b17b2130cd8b",
+    "practice_ratings.csv": "ef6838fa76247d2e54caf9671c61966c55ccb9c48bdfdc0d6cf7ba2a80db1a21",
+    "reviewer_metadata.json": "02c7b22bcb245f5fb079144bf9ced745fd2e2c3f4cf1c5e19622edad24af5527"
+  },
+  "submission_fingerprint": "7c86de2ec00dc002cb499379018aabcd3839720626cb63ecfdd680125bd3325f",
+  "submission_archive": "outputs/rq3/human_validation/submissions/reviewer_2/7c86de2ec00dc002",
+  "checked_at": "2026-10-04T08:53:26.863435+00:00",
+  "method_scope": "Submission validation only; no comparison with other reviewers or original judge; not proof of independent authorship or substantive correctness",
+  "duplicate_rationales": {
+    "main": [],
+    "practice": []
+  },
+  "rationale_review": {
+    "scope": "Read all 120 main and four practice rationales for internal rubric consistency; no new ratings or complete visual correctness reassessment",
+    "definite_score_rationale_contradictions": [],
+    "notes": [
+      "All applicable dimensions addressed; no verbatim duplicate rationales",
+      "Several ambiguity notes explicitly disclose assumed 15-puzzle goal conventions, a boundary-instruction/knowledge-note conflict, and use of supplied CT hints",
+      "High visual-quality ratings can coexist with poor instruction compliance under separate rubric dimensions"
+    ]
+  },
+  "parsing_normalization": {
+    "knowledge_required_case_normalized_rows": 120,
+    "knowledge_required_rule": "Accept only true/false case-insensitively; original CSV bytes retained",
+    "csv_text_decoding": "UTF-8-sig with errors=backslashreplace; only two invalid punctuation bytes in ambiguity_note escaped for derived parsing",
+    "invalid_utf8_bytes": [
+      {
+        "byte_offset_zero_based": 24738,
+        "hex": "e2",
+        "byte_context_hex": "2074696c65732031e24169313520696e207265",
+        "phase": "main",
+        "presentation_order": 60,
+        "blind_id": "review_eb4578acd3e10763",
+        "field": "ambiguity_note",
+        "derived_text": "This score uses the common completed 15-puzzle convention with tiles 1\\xe2Ai15 in reading order and the blank at the bottom right."
+      },
+      {
+        "byte_offset_zero_based": 40077,
+        "hex": "e2",
+        "byte_context_hex": "7465206861732031e24169313520696e207265",
+        "phase": "main",
+        "presentation_order": 99,
+        "blind_id": "review_3286304f47ee0db0",
+        "field": "ambiguity_note",
+        "derived_text": "The standard 15-puzzle goal state has 1\\xe2Ai15 in reading order followed by the blank; no different goal state is specified."
+      }
+    ],
+    "derived_csv": "outputs/rq3/human_validation/validation/reviewer_2_ratings_utf8.csv",
+    "derived_csv_sha256": "678c0015ce368458128b38f42aab6e65d94af21b8809e9aaf9d65dc50e66ea1c",
+    "derived_csv_note": "Original CRLF newlines retained; no scores, IDs or semantic text inferred or corrected; uppercase flags retained in derived CSV and normalized at parse only"
+  },
+  "warnings": [
+    "Main ratings.csv is not valid UTF-8: two invalid 0xE2 bytes occur in ambiguity_note fields at presentation orders 60 and 99. Derived UTF-8 text uses literal backslash byte escapes; numeric scores and identities are unaffected.",
+    "120 main knowledge_required values were normalized from uppercase TRUE/FALSE at parse time only."
+  ],
+  "current_working_file_sha256": {
+    "ratings.csv": "4b9bf2415251b0c8e2a700d43eb4c121f1f58832ff6875e634e1b17b2130cd8b",
+    "practice_ratings.csv": "ef6838fa76247d2e54caf9671c61966c55ccb9c48bdfdc0d6cf7ba2a80db1a21",
+    "reviewer_metadata.json": "02c7b22bcb245f5fb079144bf9ced745fd2e2c3f4cf1c5e19622edad24af5527"
+  }
+}

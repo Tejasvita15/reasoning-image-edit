@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "scope": "Supplementary human validation of fixed 30-example A-D subset; 120 matched outputs, two named human reviewers, seed42",
+  "method_origin": "Quadratic weighted kappa, Spearman correlation, absolute-agreement ICC(A,1), and example-cluster bootstrap were specified in RQ3_human_validation.md before the joint analysis. Implementation was completed after submissions; a method auditor inspected point estimates before code finalization. No claim of preregistration or outcome-blind implementation is made.",
+  "selection": "10 per knowledge type from frozen40; metadata-only selection after original experiment and before human scoring; no selection based on human scores",
+  "score": "Per output, mean of 25*(integer score-1) over applicable dimensions; use frozen knowledge applicability and instruction<=2 implies knowledge=1 rule",
+  "human_human_primary": "Quadratically weighted Cohen kappa per 1-5 ordinal dimension; fixed support [1,2,3,4,5]",
+  "human_judge_primary": "For each named human versus existing ChatGPT ratings, Spearman rho and ICC(A,1) on Q; same 120 outputs",
+  "icc_model": "Two-way mixed effects, absolute agreement, single measurement; two named fixed raters per comparison; n=number of output targets (120), not 30",
+  "icc_formula": "(MS_subject-MS_error)/(MS_subject+(k-1)*MS_error+k*(MS_rater-MS_error)/n); k=2",
+  "bootstrap_unit": "Example UID: draw 30 examples with replacement, retaining all four conditions and all raters within each selected example; exclude non-applicable dimensions within each resample",
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 42,
+  "confidence": 0.95,
+  "interval": "2.5th and 97.5th percentiles of finite bootstrap statistics; report valid and invalid draw counts, never replace undefined statistics with zero or one",
+  "contrasts": [
+    "B-A",
+    "D-C",
+    "(D-C)-(B-A)",
+    "D-B",
+    "C-A"
+  ],
+  "quality_margin": 5,
+  "margin_interpretation": "Reuse the original five-point tolerance as a supplementary sensitivity criterion on the 30-example human subset; retain the original 40-example judge results separately",
+  "secondary_descriptive": [
+    "Human-human Q correlations and ICC",
+    "Mean signed second-minus-first Q difference and mean absolute difference",
+    "Condition means and paired effects for each human and matched original judge",
+    "Equal-weight mean of the two human Q scores, explicitly secondary, not adjudicated ground truth",
+    "Human-effect minus judge-effect paired differences on the same examples",
+    "Post-hoc largest human-judge disagreement cases; do not remove them or change original scores"
+  ],
+  "missingness": "Require complete scoreable submissions for this analysis; stop for explicit missing-data review if any item is unreadable rather than silently dropping it",
+  "encoding": "Preserve original files. Accept case-only TRUE/FALSE changes in spreadsheet flags. Invalid UTF-8 is allowed only in optional ambiguity notes and rendered as explicit byte escapes in derived text; reject invalid bytes in IDs, scores or rationales.",
+  "exclusions": "Four practice outputs per reviewer excluded; no E/F human ratings, no extra seeds, no claims about all40 effects or arbitrary future raters",
+  "references": {
+    "icc": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4913118/",
+    "quadratic_kappa": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.cohen_kappa_score.html",
+    "spearman": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.spearmanr.html"
+  }
+}

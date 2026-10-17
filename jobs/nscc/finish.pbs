@@ -1,0 +1,68 @@
+#!/bin/bash
+#PBS -N rq3_finish
+#PBS -q normal
+#PBS -P personal-rtan134
+#PBS -l select=1:ncpus=4:mem=16gb
+#PBS -l walltime=02:00:00
+#PBS -j oe
+
+# CPU-only validation, merge, budget estimate, or analysis. Scoring API calls
+# remain separate: this script never sends paid scoring requests.
+set -euo pipefail
+umask 027
+cd "${RQ3_WORKDIR:-${PBS_O_WORKDIR:?Submit from the repository root}}"
+source jobs/notifications.sh
+ai6132_notifications_begin "RQ3 ${RQ3_ACTION:-merge}" 7200
+trap 'rq3_code=$?; trap - EXIT; ai6132_notifications_finish "$rq3_code"; exit "$rq3_code"' EXIT
+trap 'exit 143' TERM
+trap 'exit 130' INT
+ai6132_notify_event started
+source jobs/nscc/common.sh
+rq3_paths
+mkdir -p reports
+exec > >(tee -a "$RQ3_LOG_DIR/finish_${PBS_JOBID:-manual}.log") 2>&1
+rq3_activate
+export HF_HUB_OFFLINE=1 HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1
+export OMP_NUM_THREADS=${RQ3_CPU_THREADS:-4}
+RQ3_ACTION=${RQ3_ACTION:-merge}
+RQ3_RUN_ROOT=${RQ3_RUN_ROOT:-$RQ3_OUTPUT_ROOT/main}
+AI6132_NOTIFY_OUTPUT=$RQ3_RUN_ROOT
+rq3_assert_scratch_path "$RQ3_RUN_ROOT"
+RQ3_NUM_SHARDS=${RQ3_NUM_SHARDS:-4}
+RQ3_TIMING_REPEATS=${RQ3_TIMING_REPEATS:-0}
+IFS=: read -r -a rq3_seeds <<< "${RQ3_SEEDS:-42}"
+case "$RQ3_ACTION" in
+    smoke_check)
+        python -m src.rq3.verify components --run "$RQ3_OUTPUT_ROOT/smoke" --output reports/rq3_smoke_components.json
+        ;;
+    validate)
+        python -m src.rq3.verify determinism --first "$RQ3_OUTPUT_ROOT/pilot_first" \
+            --second "$RQ3_OUTPUT_ROOT/pilot_second" --tolerance "${RQ3_MAE_TOLERANCE:-0}" \
+            --output reports/rq3_determinism.json
+        python -m src.rq3.verify components --run "$RQ3_OUTPUT_ROOT/pilot_first" --output reports/rq3_components.json
+        ;;
+    budget)
+        python -m src.rq3.budget --config "$RQ3_CONFIG" \
+            --pilot "${RQ3_PILOT_LOG:-$RQ3_OUTPUT_ROOT/pilot_first/generations.jsonl}" \
+            --num-shards "$RQ3_NUM_SHARDS" --timing-repeats "$RQ3_TIMING_REPEATS" \
+            --seeds "${rq3_seeds[@]}" --output reports/rq3_nscc_budget.json
+        ;;
+    merge)
+        rq3_shards=()
+        for ((rq3_index=0; rq3_index<RQ3_NUM_SHARDS; rq3_index++)); do
+            rq3_shards+=("$RQ3_RUN_ROOT/shard_$rq3_index")
+        done
+        python -m src.rq3.merge --config "$RQ3_CONFIG" --shards "${rq3_shards[@]}" \
+            --num-shards "$RQ3_NUM_SHARDS" --seeds "${rq3_seeds[@]}" \
+            --timing-repeats "$RQ3_TIMING_REPEATS" --output "$RQ3_RUN_ROOT/merged"
+        ;;
+    analyze)
+        rq3_analysis_args=()
+        [[ ${RQ3_SIMILARITY:-0} != 1 ]] || rq3_analysis_args+=(--similarity)
+        python -m src.rq3.analyze --config "$RQ3_CONFIG" \
+            --scores "${RQ3_SCORES:-$RQ3_RUN_ROOT/merged/scores.jsonl}" \
+            --generations "$RQ3_RUN_ROOT/merged/generations.jsonl" \
+            --seeds "${rq3_seeds[@]}" --output-dir "$RQ3_RUN_ROOT/merged/analysis" "${rq3_analysis_args[@]}"
+        ;;
+    *) echo 'RQ3_ACTION must be smoke_check, validate, budget, merge, or analyze' >&2; exit 2 ;;
+esac

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p2_b004",
+  "results": [
+    {
+      "blind_id": "case_c3fa14ad9c6f3489",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The branch, leaf arrangement, outlines, backlighting and background highlights remain visually consistent. The visible modifications concern the leaves' damaged surfaces only. Instruction: The edit adds numerous irregular brown marks to the foliage, but largely preserves continuous leaf tissue. It conveys damage without clearly showing the eaten-through perforations needed for the specified pest aftermath, so compliance is partial. Knowledge: The supplied explanation predicts holes created by insects eating the leaves. Surface-like brown lesions do not clearly realize that tissue-removal effect. Quality: The standalone image remains natural and coherent, with believable veins, leaf texture, illumination and depth of field and no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_e996caedfca0bf4f",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The eight established dot panels and main grid are retained. The answer cell's previously clean white background now contains conspicuous colored speckles and vertical streaks around the new circle, a clear unintended background change. Instruction: The question mark is replaced in the correct cell, but with a single large black disk rather than the required 4-by-4 dot pattern; most of the requested answer structure is absent. Knowledge: An undivided disk does not apply the supplied equality rule at the corresponding dot positions. Instruction failure ⇒ knowledge invalid. Quality: The grid and pre-existing circles remain readable, but the speckled, line-contaminated lower-right patch is a clear rendering flaw, independently of the answer's correctness."
+    }
+  ]
+}

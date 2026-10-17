@@ -1,0 +1,11 @@
+cohort,condition,baseline,metric,estimator,n_examples,mean,ci_low,ci_high,ratio_of_means
+main40,D,B,diffusion_seconds,mean_within_example_baseline_over_condition,40,2.5884571293517338,2.5319619459437734,2.6376025060168358,2.574531880109299
+main40,D,B,charged_total_seconds,mean_within_example_baseline_over_condition,40,1.9540320120489738,1.9203086525899902,1.9849946461788364,1.9449388730471187
+main40,C,A,diffusion_seconds,mean_within_example_baseline_over_condition,40,2.621145117581677,2.5794226582441278,2.66076416986379,2.613338082106563
+main40,C,A,charged_total_seconds,mean_within_example_baseline_over_condition,40,2.123029008337769,2.089699392489045,2.154296041614797,2.116124524805345
+ablation20,D,B,diffusion_seconds,mean_within_example_baseline_over_condition,20,2.6117951558469255,2.5543457730374133,2.670480542496631,2.604302233460735
+ablation20,D,B,charged_total_seconds,mean_within_example_baseline_over_condition,20,1.9677971965241903,1.932397933283188,2.0019813275627727,1.9628324722091586
+ablation20,E,B,diffusion_seconds,mean_within_example_baseline_over_condition,20,2.7612008416009055,2.697732389700698,2.825019167568523,2.752528093642141
+ablation20,E,B,charged_total_seconds,mean_within_example_baseline_over_condition,20,2.0304330859036503,1.9874075394797515,2.0710353151655143,2.023601422170166
+ablation20,F,B,diffusion_seconds,mean_within_example_baseline_over_condition,20,1.6867868407492925,1.5745113102767152,1.804271757423658,1.6459846592497682
+ablation20,F,B,charged_total_seconds,mean_within_example_baseline_over_condition,20,1.4751328510282178,1.4069370310629794,1.5453836044241296,1.4575261903562156

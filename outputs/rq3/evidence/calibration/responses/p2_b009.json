@@ -1,0 +1,23 @@
+{
+  "batch_id": "p2_b009",
+  "results": [
+    {
+      "blind_id": "case_7f5898a6e08e9207",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The silhouette, collar, sleeves, hem, side tag, logo location and white background remain consistent. However, the chest emblem is visibly redrawn with heavier lettering and a longer, sharper swoosh, rather than merely gaining contrast against lighter fabric; the tiny neck-label details are also softened. The logo is one clear non-instructed alteration. Instruction: The torso, sleeves and collar change from black to white while retaining pale-gray fabric shading, precisely fulfilling the requested recoloring. Quality: Assessed alone, the garment has natural folds, coherent seams and proportions, a legible logo and clean boundaries without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_f9ade691b8654002",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Facial appearance, hairstyle, the clothing palette, fruit arrangement and broad background composition are retained. The existing hand on the viewer's right changes pose, the chair armrest changes visible shape, and the lower trouser legs and shoes shift, producing multiple noticeable non-instructed changes. Instruction: The central extra arm and its glass are removed; the remaining two arms and hands connect plausibly to the seated figure, fully addressing the requested anatomical correction. Quality: Assessed alone, the face, hands, crossed legs, lighting and scene structure are coherent. One small texture defect remains where the lower tie curls into and blends awkwardly with the waistcoat opening; moderate softness elsewhere does not cause semantic loss."
+    }
+  ]
+}

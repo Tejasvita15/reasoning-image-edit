@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "kind": "retrospective_operator_metadata_correction",
+  "corrected_at": "2026-09-30T10:41:18.969734+00:00",
+  "authorization": {
+    "user_message": "no it is not. make the corrections and proceed",
+    "context": "User rejected the shared-conversation description reported from session_log.json and authorized correction and processing.",
+    "interpretation": "Separate fresh chats using the frozen UI settings; recorded model label GPT-6 Astra Pro. This is an operator correction, not independently verified platform metadata."
+  },
+  "original_manifest_hash": "dd6a12eece8e328bbe05e30ad09384e4c316f9e03968aa4e3de5363e7bb038e6",
+  "original_evaluation_protocol_hash": "c916554c105a08554c934c29ecfaaae638d93219ff5771571c5e45e7ec9b2c10",
+  "corrected_evaluation_protocol_hash": "095c775e5aae19c2469c5647e717d9209b14a9887ae43ec7410f50657e6af2e2",
+  "generation_protocol_hash_unchanged": "c984fa84c1c8bb0294c20f6fd337e5cc7f4aede868a64452081172970847ef52",
+  "selection_hash_unchanged": "3c17a0d7aec3afb683775059692639e3dc3df8c1277fa0aff56529394c3d744b",
+  "model_label_change": {
+    "before": "REPLACE_WITH_YOUR_SELECTED_CHATGPT_MODEL_LABEL",
+    "after": "GPT-6 Astra Pro",
+    "basis": "All 20 original operator session entries use this label."
+  },
+  "session_id_meaning": "Locally assigned audit identifiers for the user-attested separate sessions. These are not actual ChatGPT conversation URLs or platform IDs. Uniqueness of these bookkeeping IDs does not itself establish session independence.",
+  "limitations": [
+    "Session independence and UI settings rely on the user correction; no platform conversation IDs or transcripts were supplied for independent verification.",
+    "Original judged_at timestamps are retained as supplied, without verifying chronology.",
+    "This metadata correction occurred after scoring. No ratings, rationales, model responses, batch assignments, prompts, images, or generation settings were changed."
+  ],
+  "session_changes": [
+    {
+      "batch_id": "p1_b001",
+      "fields": {
+        "ui_settings": {
+          "before": "Existing ChatGPT conversation; prior messages and memory/custom-instruction context present; tools used for local archive extraction, image inspection, and JSON validation/packaging. Batches reviewed sequentially in this shared context, not separate fresh temporary chats. Source and edited images visible in the same conversation.",
+          "after": "fresh temporary chat; memory/custom instructions off; tools off"
+        },
+        "conversation_url_or_id": {
+          "before": "unavailable (current ChatGPT conversation; actual URL/ID is not exposed to the assistant)",
+          "after": "operator-attested:dd6a12eece8e:p1_b001"
+        }
+      }
+    },
+    {
+      "batch_id": "p1_b002",
+      "fields": {
+        "ui_settings": {
+          "before": "Existing ChatGPT conversation; prior messages and memory/custom-instruction context present; tools used for local archive extraction, image inspection, and JSON validation/packaging. Batches reviewed sequentially in this shared context, not separate fresh temporary chats. Source and edited images visible in the same conversation.",
+          "after": "fresh temporary chat; memory/custom instructions off; tools off"
+        },
+        "conversation_url_or_id": {
+          "before": "unavailable (current ChatGPT conversation; actual URL/ID is not exposed to the assistant)",
+          "after": "operator-attested:dd6a12eece8e:p1_b002"
+        }
+      }
+    },
+    {
+      "batch_id": "p1_b003",
+      "fields": {
+        "ui_settings": {
+          "before": "Existing ChatGPT conversation; prior messages and memory/custom-instruction context present; tools used for local archive extraction, image inspection, and JSON validation/packaging. Batches reviewed sequentially in this shared context, not separate fresh temporary chats. Source and edited images visible in the same conversation.",
+          "after": "fresh temporary chat; memory/custom instructions off; tools off"
+        },
+        "conversation_url_or_id": {
+          "before": "unavailable (current ChatGPT conversation; actual URL/ID is not exposed to the assistant)",
+          "after": "operator-attested:dd6a12eece8e:p1_b003"
+        }
+      }
+    },
+    {
+      "batch_id": "p1_b004",
+      "fields": {
+        "ui_settings": {
+          "before": "Existing ChatGPT conversation; prior messages and memory/custom-instruction context present; tools used for local archive extraction, image inspection, and JSON validation/packaging. Batches reviewed sequentially in this shared context, not separate fresh temporary chats. Source and edited images visible in the same conversation.",
+          "after": "fresh temporary chat; memory/custom instructions off; tools off"
+        },
+        "conversation_url_or_id": {
+          "before": "unavailable (current ChatGPT conversation; actual URL/ID is not exposed to the assistant)",
+          "after": "operator-attested:dd6a12eece8e:p1_b004"
+        }
+      }
+    },
+    {
+      "batch_id": "p1_b005",
+      "fields": {
+        "ui_settings": {
+          "before": "Existing ChatGPT conversation; prior messages and memory/custom-instruction context present; tools used for local archive extraction, image inspection, and JSON validation/packaging. Batches reviewed sequentially in this shared context, not separate fresh temporary chats. Source and edited images visible in the same conversation.",
+          "after": "fresh temporary chat; memory/custom instructions off; tools off"
+        },
+        "conversation_url_or_id": {
+          "before": "unavailable (current ChatGPT conversation; actual URL/ID is not exposed to the assistant)",
+          "after": "operator-attested:dd6a12eece8e:p1_b005"
+        }
+      }
+    },
+    {
+      "batch_id": "p1_b006",
+      "fields": {
+        "ui_settings": {
+          "before": "Existing ChatGPT conversation; prior messages and memory/custom-instruction context present; tools used for local archive extraction, image inspection, and JSON validation/packaging. Batches reviewed sequentially in this shared context, not separate fresh temporary chats. Source and edited images visible in the same conversation.",
+          "after": "fresh temporary chat; memory/custom instructions off; tools off"
+        },
+        "conversation_url_or_id": {
+          "before": "unavailable (current ChatGPT conversation; actual URL/ID is not exposed to the assistant)",
+          "after": "operator-attested:dd6a12eece8e:p1_b006"
+        }
+      }
+    },
+    {
+      "batch_id": "p1_b007",
+      "fields": {
+        "ui_settings": {
+          "before": "Existing ChatGPT conversation; prior messages and memory/custom-instruction context present; tools used for local archive extraction, image inspection, and JSON validation/packaging. Batches reviewed sequentially in this shared context, not separate fresh temporary chats. Source and edited images visible in the same conversation.",
+          "after": "fresh temporary chat; memory/custom instructions off; tools off"
+        },
+        "conversation_url_or_id": {
+          "before": "unavailable (current ChatGPT conversation; actual URL/ID is not exposed to the assistant)",
+          "after": "operator-attested:dd6a12eece8e:p1_b007"
+        }
+      }
+    },
+    {
+      "batch_id": "p1_b008",
+      "fields": {
+        "ui_settings": {
+          "before": "Existing ChatGPT conversation; prior messages and memory/custom-instruction context present; tools used for local archive extraction, image inspection, and JSON validation/packaging. Batches reviewed sequentially in this shared context, not separate fresh temporary chats. Source and edited images visible in the same conversation.",
+          "after": "fresh temporary chat; memory/custom instructions off; tools off"
+        },
+        "conversation_url_or_id": {
+          "before": "unavailable (current ChatGPT conversation; actual URL/ID is not exposed to the assistant)",
+          "after": "operator-attested:dd6a12eece8e:p1_b008"
+        }
+      }
+    },
+    {
+      "batch_id": "p1_b009",
+      "fields": {
+        "ui_settings": {
+          "before": "Existing ChatGPT conversation; prior messages and memory/custom-instruction context present; tools used for local archive extraction, image inspection, and JSON validation/packaging. Batches reviewed sequentially in this shared context, not separate fresh temporary chats. Source and edited images visible in the same conversation.",
+          "after": "fresh temporary chat; memory/custom instructions off; tools off"
+        },
+        "conversation_url_or_id": {
+          "before": "unavailable (current ChatGPT conversation; actual URL/ID is not exposed to the assistant)",
+          "after": "operator-attested:dd6a12eece8e:p1_b009"
+        }
+      }
+    },
+    {
+      "batch_id": "p1_b010",
+      "fields": {
+        "ui_settings": {
+          "before": "Existing ChatGPT conversation; prior messages and memory/custom-instruction context present; tools used for local archive extraction, image inspection, and JSON validation/packaging. Batches reviewed sequentially in this shared context, not separate fresh temporary chats. Source and edited images visible in the same conversation.",
+          "after": "fresh temporary chat; memory/custom instructions off; tools off"
+        },
+        "conversation_url_or_id": {
+          "before": "unavailable (current ChatGPT conversation; actual URL/ID is not exposed to the assistant)",
+          "after": "operator-attested:dd6a12eece8e:p1_b010"
+        }
+      }
+    },
+    {
+      "batch_id": "p2_b001",
+      "fields": {
+        "ui_settings": {
+          "before": "Existing ChatGPT conversation; prior messages and memory/custom-instruction context present; tools used for local archive extraction, image inspection, and JSON validation/packaging. Batches reviewed sequentially in this shared context, not separate fresh temporary chats. Source and edited images visible in the same conversation.",
+          "after": "fresh temporary chat; memory/custom instructions off; tools off"
+        },
+        "conversation_url_or_id": {
+          "before": "unavailable (current ChatGPT conversation; actual URL/ID is not exposed to the assistant)",
+          "after": "operator-attested:dd6a12eece8e:p2_b001"
+        }
+      }
+    },
+    {
+      "batch_id": "p2_b002",
+      "fields": {
+        "ui_settings": {
+          "before": "Existing ChatGPT conversation; prior messages and memory/custom-instruction context present; tools used for local archive extraction, image inspection, and JSON validation/packaging. Batches reviewed sequentially in this shared context, not separate fresh temporary chats. Source and edited images visible in the same conversation.",
+          "after": "fresh temporary chat; memory/custom instructions off; tools off"
+        },
+        "conversation_url_or_id": {
+          "before": "unavailable (current ChatGPT conversation; actual URL/ID is not exposed to the assistant)",
+          "after": "operator-attested:dd6a12eece8e:p2_b002"
+        }
+      }
+    },
+    {
+      "batch_id": "p2_b003",
+      "fields": {
+        "ui_settings": {
+          "before": "Existing ChatGPT conversation; prior messages and memory/custom-instruction context present; tools used for local archive extraction, image inspection, and JSON validation/packaging. Batches reviewed sequentially in this shared context, not separate fresh temporary chats. Source and edited images visible in the same conversation.",
+          "after": "fresh temporary chat; memory/custom instructions off; tools off"
+        },
+        "conversation_url_or_id": {
+          "before": "unavailable (current ChatGPT conversation; actual URL/ID is not exposed to the assistant)",
+          "after": "operator-attested:dd6a12eece8e:p2_b003"
+        }
+      }
+    },
+    {
+      "batch_id": "p2_b004",
+      "fields": {
+        "ui_settings": {
+          "before": "Existing ChatGPT conversation; prior messages and memory/custom-instruction context present; tools used for local archive extraction, image inspection, and JSON validation/packaging. Batches reviewed sequentially in this shared context, not separate fresh temporary chats. Source and edited images visible in the same conversation.",
+          "after": "fresh temporary chat; memory/custom instructions off; tools off"
+        },
+        "conversation_url_or_id": {
+          "before": "unavailable (current ChatGPT conversation; actual URL/ID is not exposed to the assistant)",
+          "after": "operator-attested:dd6a12eece8e:p2_b004"
+        }
+      }
+    },
+    {
+      "batch_id": "p2_b005",
+      "fields": {
+        "ui_settings": {
+          "before": "Existing ChatGPT conversation; prior messages and memory/custom-instruction context present; tools used for local archive extraction, image inspection, and JSON validation/packaging. Batches reviewed sequentially in this shared context, not separate fresh temporary chats. Source and edited images visible in the same conversation.",
+          "after": "fresh temporary chat; memory/custom instructions off; tools off"
+        },
+        "conversation_url_or_id": {
+          "before": "unavailable (current ChatGPT conversation; actual URL/ID is not exposed to the assistant)",
+          "after": "operator-attested:dd6a12eece8e:p2_b005"
+        }
+      }
+    },
+    {
+      "batch_id": "p2_b006",
+      "fields": {
+        "ui_settings": {
+          "before": "Existing ChatGPT conversation; prior messages and memory/custom-instruction context present; tools used for local archive extraction, image inspection, and JSON validation/packaging. Batches reviewed sequentially in this shared context, not separate fresh temporary chats. Source and edited images visible in the same conversation.",
+          "after": "fresh temporary chat; memory/custom instructions off; tools off"
+        },
+        "conversation_url_or_id": {
+          "before": "unavailable (current ChatGPT conversation; actual URL/ID is not exposed to the assistant)",
+          "after": "operator-attested:dd6a12eece8e:p2_b006"
+        }
+      }
+    },
+    {
+      "batch_id": "p2_b007",
+      "fields": {
+        "ui_settings": {
+          "before": "Existing ChatGPT conversation; prior messages and memory/custom-instruction context present; tools used for local archive extraction, image inspection, and JSON validation/packaging. Batches reviewed sequentially in this shared context, not separate fresh temporary chats. Source and edited images visible in the same conversation.",
+          "after": "fresh temporary chat; memory/custom instructions off; tools off"
+        },
+        "conversation_url_or_id": {
+          "before": "unavailable (current ChatGPT conversation; actual URL/ID is not exposed to the assistant)",
+          "after": "operator-attested:dd6a12eece8e:p2_b007"
+        }
+      }
+    },
+    {
+      "batch_id": "p2_b008",
+      "fields": {
+        "ui_settings": {
+          "before": "Existing ChatGPT conversation; prior messages and memory/custom-instruction context present; tools used for local archive extraction, image inspection, and JSON validation/packaging. Batches reviewed sequentially in this shared context, not separate fresh temporary chats. Source and edited images visible in the same conversation.",
+          "after": "fresh temporary chat; memory/custom instructions off; tools off"
+        },
+        "conversation_url_or_id": {
+          "before": "unavailable (current ChatGPT conversation; actual URL/ID is not exposed to the assistant)",
+          "after": "operator-attested:dd6a12eece8e:p2_b008"
+        }
+      }
+    },
+    {
+      "batch_id": "p2_b009",
+      "fields": {
+        "ui_settings": {
+          "before": "Existing ChatGPT conversation; prior messages and memory/custom-instruction context present; tools used for local archive extraction, image inspection, and JSON validation/packaging. Batches reviewed sequentially in this shared context, not separate fresh temporary chats. Source and edited images visible in the same conversation.",
+          "after": "fresh temporary chat; memory/custom instructions off; tools off"
+        },
+        "conversation_url_or_id": {
+          "before": "unavailable (current ChatGPT conversation; actual URL/ID is not exposed to the assistant)",
+          "after": "operator-attested:dd6a12eece8e:p2_b009"
+        }
+      }
+    },
+    {
+      "batch_id": "p2_b010",
+      "fields": {
+        "ui_settings": {
+          "before": "Existing ChatGPT conversation; prior messages and memory/custom-instruction context present; tools used for local archive extraction, image inspection, and JSON validation/packaging. Batches reviewed sequentially in this shared context, not separate fresh temporary chats. Source and edited images visible in the same conversation.",
+          "after": "fresh temporary chat; memory/custom instructions off; tools off"
+        },
+        "conversation_url_or_id": {
+          "before": "unavailable (current ChatGPT conversation; actual URL/ID is not exposed to the assistant)",
+          "after": "operator-attested:dd6a12eece8e:p2_b010"
+        }
+      }
+    }
+  ],
+  "raw_response_sha256_unchanged": {
+    "p1_b001.json": "1e5a15f1ff399579f5805c5eb25e8a9fc58255699519eef9ecac0cfaaa58f611",
+    "p1_b002.json": "713e10795b72b374dcd983d2fdddeb8c533d3f87ef2d312d6cf9dcc54aaa5654",
+    "p1_b003.json": "e5449e51f14ecfdc9386f7665d180e548e62c1289a009e27734266576fa2ba9e",
+    "p1_b004.json": "d6048211b340ff543c35204b568666ff9ab0b3509c0b00174dcd469a62254487",
+    "p1_b005.json": "e1ea9be55cabeb508d0a0ae2ebc4191f0cab26d0c90fd55d2972dcd9c5504503",
+    "p1_b006.json": "385a8cc4ec42d823d9b1e772ffbb06f4b7cca74d3aef6816f250fa52f72c0923",
+    "p1_b007.json": "972d99d2658405fc07bee576d48566a613f40b64246011b2a82ca5848851b5b3",
+    "p1_b008.json": "d0abda132764fbf16e6f05b7433bf53a08a3a6fd54dcac619ea8de9569949504",
+    "p1_b009.json": "d27eb4b453c4c3d76ef0f02c161b58be0ba19fb7af6e4675c9e656bb430e3d2f",
+    "p1_b010.json": "a1664d104d2f13a8da58e5ff360a83288747d58199e3294236a4c962df2fe927",
+    "p2_b001.json": "58487ede633d8a32e596fad14f0ae57b78c4981c59cd0e2cace30ca8ee594c62",
+    "p2_b002.json": "07d2dbd4fdbe2cc8c8ca272e63563590a9ffbcb352c05c3b5e724aada840c5e5",
+    "p2_b003.json": "317af3b85d53d3029bec6e3fe35a9139fc67d51f7bcb15fee22e30346bfd6cb4",
+    "p2_b004.json": "20a9b84de04f81759b53ff996f5cd2462b606106a00e4b58530a511cd701b195",
+    "p2_b005.json": "1fd3e6a14ef41d7ce0ed51cff5abe0e0fb5e9b421bd0ceefb97d3b663c81a170",
+    "p2_b006.json": "e4130b1c989cad2462b710cb7b98018858408a625d93b3cde46b4f571eef08ce",
+    "p2_b007.json": "fc02d05c311768940f2425e43065b3d9403d0ccce2d0153322d8e81e6396ea84",
+    "p2_b008.json": "c1773f66f3528d00560685674367b86f14d303a5861b7f143a9ac28f055db362",
+    "p2_b009.json": "5105a25d0d1594fe5c4e830346f36784322c70edae77cf7a3f93fe78f9dc53d7",
+    "p2_b010.json": "ecb515848aa41e585cd721ceff81b7ed210823730e5401205ee6dae7e1ed7a42"
+  },
+  "original_metadata_files_sha256": {
+    "private/metadata_correction/original_manifest.json": "f8e4f4522b9bcbb0bc02c6f368d9f5bbdc6b0633e2866007b5513c4a00212205",
+    "private/metadata_correction/original_session_log.json": "eca7c207670c2043d46713c70221c04c46c618aa56d654aa61ed889564bd6e7a",
+    "private/metadata_correction/original_session_log_template.json": "ea3a70edc6956aa7f5a61877868ab74c6ba59527126a5c773f557a34d006b0c7"
+  },
+  "corrected_session_log_sha256": "0938e4602ef490db2012ac5f69fd1ccb24ce5b9f484809e3895c50770399f662",
+  "corrected_session_log_template_sha256": "77ea1bef65ed8a33a152eedc6516818565d3a0aa0deb9feb3857510a55faef66"
+}
