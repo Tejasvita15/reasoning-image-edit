@@ -1,0 +1,34 @@
+#!/bin/bash
+#PBS -N rq2_cache
+#PBS -P personal-kirubhah
+#PBS -q gdev
+#PBS -l select=1:ngpus=1:ncpus=8:mem=64G
+#PBS -l walltime=02:00:00
+#PBS -j oe
+
+# RQ2.1 step 1: build the K-dev thought cache (all 90 examples).
+# Submit from the repo folder:  qsub jobs/rq2_unireason_cache.pbs
+
+set -eo pipefail
+cd "${PBS_O_WORKDIR:?run this with qsub}"
+
+module purge
+module load python/3.10.9
+module load cuda/12.8.1
+source ~/venvs/unireason/bin/activate
+
+export HF_HOME=/scratch/users/ntu/kirubhah/hf_cache
+export HUGGINGFACE_HUB_CACHE=$HF_HOME/hub
+export HF_HUB_OFFLINE=1
+export CUBLAS_WORKSPACE_CONFIG=:4096:8
+export PYTHONHASHSEED=0
+
+mkdir -p outputs/rq2_unireason/thought_cache
+
+python -m src.rq2.build_thought_cache \
+    --config configs/rq2/unireason.yaml --splits data/splits.json \
+    --split k_dev --seed 42 \
+    --out outputs/rq2_unireason/thought_cache/k_dev_seed42.jsonl \
+    --backend unireason
+
+echo "Thought cache finished"

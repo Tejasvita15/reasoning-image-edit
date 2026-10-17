@@ -1,0 +1,54 @@
+#!/bin/bash
+#PBS -N rq2_22_smoke
+#PBS -P personal-kirubhah
+#PBS -q normal
+#PBS -l select=1:ngpus=1:ncpus=8:mem=64G
+#PBS -l walltime=01:00:00
+#PBS -j oe
+
+# RQ2.2 smoke test: 2 K-dev examples, guidance 4, steps 20 and 28,
+# thinking off and cached. Uses the smoke-test thought cache and writes
+# to its own folders (outputs/rq2_unireason_2_smoke, logs/rq2_unireason_2_smoke).
+# Submit from the repo folder:  qsub jobs/rq2_unireason_22_smoke.pbs
+
+set -eo pipefail
+cd "${PBS_O_WORKDIR:?run this with qsub}"
+
+module purge
+module load python/3.10.9
+module load cuda/12.8.1
+source ~/venvs/unireason/bin/activate
+
+export HF_HOME=/scratch/users/ntu/kirubhah/hf_cache
+export HUGGINGFACE_HUB_CACHE=$HF_HOME/hub
+export HF_HUB_OFFLINE=1
+export CUBLAS_WORKSPACE_CONFIG=:4096:8
+export PYTHONHASHSEED=0
+
+CACHE=outputs/rq2_unireason_smoke/thought_cache/k_dev_n2_seed42.jsonl
+OUT=outputs/rq2_unireason_2_smoke
+LOGS=logs/rq2_unireason_2_smoke
+
+if [ ! -f "$CACHE" ]; then
+    echo "Missing $CACHE: the RQ2.1 smoke test must finish first"
+    exit 1
+fi
+
+rm -rf "$OUT" "$LOGS"
+
+for STEP in 20 28; do
+    python -m src.rq2.run_rq2 \
+        --config configs/rq2/unireason.yaml --splits data/splits.json \
+        --split k_dev --seed 42 --n_examples 2 --subquestion 2.2 \
+        --num_inference_steps "$STEP" --thinking off cached \
+        --true_cfg_scale 4 --thought_cache "$CACHE" \
+        --output_dir "$OUT" --log_dir "$LOGS"
+done
+
+python -m src.rq2.check_rq2 \
+    --log_dir "$LOGS" --split k_dev --seed 42 \
+    --experiment_name rq2_unireason \
+    --thinking off cached --cfgs 4 --steps 20 28 --expected_n 2 \
+    --thought_cache "$CACHE" --thinking_is_appended
+
+echo "RQ2.2 smoke test finished"

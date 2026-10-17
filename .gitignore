@@ -37,3 +37,7 @@ diffusers/
 .DS_Store
 Thumbs.db
 .env
+
+!outputs/
+outputs/*
+!outputs/rq2_unireason/

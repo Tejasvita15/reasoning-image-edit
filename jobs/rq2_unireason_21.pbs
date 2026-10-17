@@ -1,0 +1,48 @@
+#!/bin/bash
+#PBS -N rq2_21
+#PBS -P personal-kirubhah
+#PBS -q gdev
+#PBS -l select=1:ngpus=1:ncpus=8:mem=64G
+#PBS -l walltime=02:00:00
+#PBS -j oe
+
+# RQ2.1 step 2: one grid point on all 90 K-dev examples.
+# Submit one job per setting, for example:
+#   qsub -N rq2_21_off_2 -v THINKING=off,CFG=2 jobs/rq2_unireason_21.pbs
+#   qsub -N rq2_21_cached_2 -v THINKING=cached,CFG=2 -W depend=afterok:<cache_job_id> jobs/rq2_unireason_21.pbs
+# THINKING is off or cached. CFG is 2, 4 or 6.
+
+set -eo pipefail
+cd "${PBS_O_WORKDIR:?run this with qsub}"
+
+: "${THINKING:?set THINKING with qsub -v THINKING=off or cached}"
+: "${CFG:?set CFG with qsub -v CFG=2, 4 or 6}"
+
+module purge
+module load python/3.10.9
+module load cuda/12.8.1
+source ~/venvs/unireason/bin/activate
+
+export HF_HOME=/scratch/users/ntu/kirubhah/hf_cache
+export HUGGINGFACE_HUB_CACHE=$HF_HOME/hub
+export HF_HUB_OFFLINE=1
+export CUBLAS_WORKSPACE_CONFIG=:4096:8
+export PYTHONHASHSEED=0
+
+CACHE=outputs/rq2_unireason/thought_cache/k_dev_seed42.jsonl
+CACHE_ARGS=()
+if [ "$THINKING" = "cached" ]; then
+    if [ ! -f "$CACHE" ]; then
+        echo "Missing $CACHE: run the cache job first"
+        exit 1
+    fi
+    CACHE_ARGS=(--thought_cache "$CACHE")
+fi
+
+python -m src.rq2.run_rq2 \
+    --config configs/rq2/unireason.yaml --splits data/splits.json \
+    --split k_dev --seed 42 --subquestion 2.1 --num_inference_steps 50 \
+    --thinking "$THINKING" --true_cfg_scale "$CFG" \
+    "${CACHE_ARGS[@]}"
+
+echo "Finished $THINKING cfg$CFG"

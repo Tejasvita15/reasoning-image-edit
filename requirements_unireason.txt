@@ -1,0 +1,36 @@
+# Requirements for the UniReason (BAGEL-7B) conda environment.
+#
+# Install into a fresh Python 3.10 env:
+#   conda create -n UniReason python=3.10 -y
+#   conda activate UniReason
+#   pip install -r requirements_unireason.txt
+#   pip install flash_attn==2.5.8 --no-build-isolation
+#
+# Source: UniReason/UniReason/requirements.txt
+# (https://github.com/AlenjandroWang/UniReason)
+#
+# NOTE: transformers==4.49.0 here vs 4.55.0 in requirements.txt (Step1X).
+# Keep them in separate conda environments — do not merge.
+
+decord==0.6.0
+einops==0.8.1
+huggingface_hub==0.29.1
+matplotlib==3.7.0
+numpy==1.24.4
+opencv-python-headless
+pyarrow==11.0.0
+PyYAML==6.0.2
+Requests==2.32.3
+safetensors==0.4.5
+scipy==1.10.1
+sentencepiece==0.1.99
+torch==2.5.1
+torchvision==0.20.1
+transformers==4.49.0
+accelerate>=0.34.0
+bitsandbytes
+ninja
+setuptools
+triton ; sys_platform != 'win32'
+wheel
+xlsxwriter

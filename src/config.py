@@ -37,60 +37,61 @@ def load_config(config_path: str) -> Dict[str, Any]:
 
 def validate_config(config: Dict[str, Any]) -> None:
     """
-    Validate the minimum fields required for the
-    RQ1 Step1X image-editing experiments.
+    Validate the minimum fields required for a
+    reasoning-image-edit experiment configuration.
+
+    Step1X (default) and UniReason (model.backend: unireason)
+    share the top-level layout but have different required fields.
+    The shared fields are validated here; backend-specific checks
+    are delegated to _validate_step1x or _validate_unireason.
     """
 
     # ---------------------------------------------------------
-    # Top-level fields
+    # Top-level fields (all backends)
     # ---------------------------------------------------------
 
-    required_top_level = [
+    for key in (
         "experiment_name",
         "model",
         "generation",
         "output_dir",
         "log_file",
-    ]
-
-    for key in required_top_level:
+    ):
         if key not in config:
             raise ValueError(
                 f"Missing required config field: {key}"
             )
 
+    backend = config["model"].get("backend", "step1x")
+
+    if backend == "unireason":
+        _validate_unireason_config(config)
+    else:
+        _validate_step1x_config(config)
+
+
+def _validate_step1x_config(config: Dict[str, Any]) -> None:
+    """Validation rules specific to Step1X configs."""
+
     # ---------------------------------------------------------
     # Model configuration
     # ---------------------------------------------------------
 
-    required_model_fields = [
-        "model_id",
-        "dtype",
-        "cpu_offload",
-    ]
-
-    for key in required_model_fields:
+    for key in ("model_id", "dtype", "cpu_offload"):
         if key not in config["model"]:
             raise ValueError(
                 f"Missing model config field: {key}"
             )
 
-    valid_dtypes = {
-        "bfloat16",
-        "float16",
-        "float32",
-    }
-
-    if config["model"]["dtype"] not in valid_dtypes:
+    if config["model"]["dtype"] not in {
+        "bfloat16", "float16", "float32"
+    }:
         raise ValueError(
             "model.dtype must be one of: "
             "bfloat16, float16, float32"
         )
 
-    if not isinstance(
-        config["model"]["cpu_offload"],
-        bool,
-    ):
+    if not isinstance(config["model"]["cpu_offload"], bool):
         raise ValueError(
             "model.cpu_offload must be true or false"
         )
@@ -99,114 +100,115 @@ def validate_config(config: Dict[str, Any]) -> None:
     # Generation configuration
     # ---------------------------------------------------------
 
-    required_generation_fields = [
+    for key in (
         "num_inference_steps",
         "true_cfg_scale",
         "enable_thinking_mode",
         "enable_reflection_mode",
         "max_try_cnt",
-    ]
-
-    for key in required_generation_fields:
+    ):
         if key not in config["generation"]:
             raise ValueError(
                 f"Missing generation config field: {key}"
             )
 
-    num_steps = config["generation"][
-        "num_inference_steps"
-    ]
+    num_steps = config["generation"]["num_inference_steps"]
+    cfg_scale = config["generation"]["true_cfg_scale"]
+    thinking_enabled = config["generation"]["enable_thinking_mode"]
+    reflection_enabled = config["generation"]["enable_reflection_mode"]
+    max_try_cnt = config["generation"]["max_try_cnt"]
 
-    cfg_scale = config["generation"][
-        "true_cfg_scale"
-    ]
-
-    thinking_enabled = config["generation"][
-        "enable_thinking_mode"
-    ]
-
-    reflection_enabled = config["generation"][
-        "enable_reflection_mode"
-    ]
-
-    max_try_cnt = config["generation"][
-        "max_try_cnt"
-    ]
-
-    if not isinstance(num_steps, int):
+    if not isinstance(num_steps, int) or num_steps <= 0:
         raise ValueError(
-            "num_inference_steps must be an integer"
+            "num_inference_steps must be a positive integer"
         )
 
-    if num_steps <= 0:
+    if not isinstance(cfg_scale, (int, float)) or cfg_scale < 0:
         raise ValueError(
-            "num_inference_steps must be > 0"
+            "true_cfg_scale must be a non-negative number"
         )
 
-    if not isinstance(
-        cfg_scale,
-        (int, float),
-    ):
-        raise ValueError(
-            "true_cfg_scale must be numeric"
-        )
-
-    if cfg_scale < 0:
-        raise ValueError(
-            "true_cfg_scale must be >= 0"
-        )
-
-    if not isinstance(
-        thinking_enabled,
-        bool,
-    ):
+    if not isinstance(thinking_enabled, bool):
         raise ValueError(
             "enable_thinking_mode must be true or false"
         )
 
-    if not isinstance(
-        reflection_enabled,
-        bool,
-    ):
+    if not isinstance(reflection_enabled, bool):
         raise ValueError(
             "enable_reflection_mode must be true or false"
         )
 
-    if not isinstance(max_try_cnt, int):
+    if not isinstance(max_try_cnt, int) or max_try_cnt < 1:
         raise ValueError(
-            "max_try_cnt must be an integer"
+            "max_try_cnt must be an integer >= 1"
         )
 
-    if max_try_cnt < 1:
-        raise ValueError(
-            "max_try_cnt must be >= 1"
-        )
-
-    # ---------------------------------------------------------
-    # RQ1 consistency checks
-    # ---------------------------------------------------------
-
-    # Direct/Base and Thinking-only experiments should
-    # generate one attempt only.
-    if (
-        not reflection_enabled
-        and max_try_cnt != 1
-    ):
+    if not reflection_enabled and max_try_cnt != 1:
         raise ValueError(
             "When reflection is disabled, "
             "max_try_cnt must be 1 for RQ1."
         )
 
-    # Correction experiment uses one possible retry:
-    # initial generation + one correction = 2 attempts.
-    if (
-        reflection_enabled
-        and max_try_cnt != 2
-    ):
+    if reflection_enabled and max_try_cnt != 2:
         raise ValueError(
             "For the RQ1 correction condition, "
             "reflection is enabled and max_try_cnt "
             "must be 2."
+        )
+
+
+def _validate_unireason_config(config: Dict[str, Any]) -> None:
+    """Validation rules specific to UniReason (BAGEL) configs."""
+
+    # ---------------------------------------------------------
+    # Model configuration
+    # ---------------------------------------------------------
+
+    for key in ("model_id", "model_path"):
+        if key not in config["model"]:
+            raise ValueError(
+                f"Missing model config field: {key}"
+            )
+
+    # ---------------------------------------------------------
+    # Generation configuration
+    # ---------------------------------------------------------
+
+    for key in (
+        "num_inference_steps",
+        "true_cfg_scale",
+        "enable_thinking_mode",
+    ):
+        if key not in config["generation"]:
+            raise ValueError(
+                f"Missing generation config field: {key}"
+            )
+
+    num_steps = config["generation"]["num_inference_steps"]
+    cfg_text = config["generation"]["true_cfg_scale"]
+    thinking = config["generation"]["enable_thinking_mode"]
+
+    if not isinstance(num_steps, int) or num_steps <= 0:
+        raise ValueError(
+            "num_inference_steps must be a positive integer"
+        )
+
+    if not isinstance(cfg_text, (int, float)) or cfg_text < 0:
+        raise ValueError(
+            "true_cfg_scale must be a non-negative number"
+        )
+
+    if not isinstance(thinking, bool):
+        raise ValueError(
+            "enable_thinking_mode must be true or false"
+        )
+
+    cfg_img = config["generation"].get("cfg_img_scale")
+    if cfg_img is not None and (
+        not isinstance(cfg_img, (int, float)) or cfg_img < 0
+    ):
+        raise ValueError(
+            "cfg_img_scale must be a non-negative number"
         )
 
 
@@ -243,33 +245,46 @@ def print_config_summary(
         config["model"]["cpu_offload"],
     )
 
+    backend = config["model"].get("backend", "step1x")
+
+    print(
+        "Backend:",
+        backend,
+    )
+
     print(
         "Steps:",
         config["generation"]["num_inference_steps"],
     )
 
     print(
-        "CFG:",
+        "CFG text:",
         config["generation"]["true_cfg_scale"],
     )
+
+    if backend == "unireason":
+        print(
+            "CFG img:",
+            config["generation"].get("cfg_img_scale", 1.5),
+        )
+    else:
+        print(
+            "Reflection:",
+            config["generation"].get(
+                "enable_reflection_mode"
+            ),
+        )
+
+        print(
+            "Max attempts:",
+            config["generation"].get("max_try_cnt"),
+        )
 
     print(
         "Thinking:",
         config["generation"][
             "enable_thinking_mode"
         ],
-    )
-
-    print(
-        "Reflection:",
-        config["generation"][
-            "enable_reflection_mode"
-        ],
-    )
-
-    print(
-        "Max attempts:",
-        config["generation"]["max_try_cnt"],
     )
 
     if seed is not None:

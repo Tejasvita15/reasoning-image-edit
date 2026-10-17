@@ -418,11 +418,16 @@ def main():
         make_run_key,
     )
     from src.seeding import get_rq1_stage_seeds
-    from src.step1x_runner import Step1XRunner
 
     base_config = load_config(args.config)
 
-    if base_config["generation"]["enable_reflection_mode"]:
+    _backend = base_config["model"].get("backend", "step1x")
+    _is_unireason = _backend == "unireason"
+
+    if (
+        not _is_unireason
+        and base_config["generation"]["enable_reflection_mode"]
+    ):
         raise SystemExit(
             "RQ2.1/2.2 run with reflection off; use a config with "
             "enable_reflection_mode: false."
@@ -525,8 +530,14 @@ def main():
     # Model (loaded once for the whole grid)
     # =========================================================
 
-    runner = Step1XRunner(base_config)
-    fix_text_encoder_offload(runner.pipe)
+    if _is_unireason:
+        from src.unireason_runner import UniReasonRunner
+        runner = UniReasonRunner(base_config)
+    else:
+        from src.step1x_runner import Step1XRunner
+        runner = Step1XRunner(base_config)
+        fix_text_encoder_offload(runner.pipe)
+
     env = collect_env()
 
     # Warm-up: one unlogged call so the first timed row isn't inflated.
@@ -535,9 +546,15 @@ def main():
 
     runner.config = conditions[first_key]
 
+    _warmup_instruction = (
+        first_example["instruction"]
+        if _is_unireason
+        else prompt_for(first_key[0], first_example)
+    )
+
     runner.run(
         images=get_decoded_source_images(examples[0]),
-        instruction=prompt_for(first_key[0], first_example),
+        instruction=_warmup_instruction,
         example_uid=first_example["example_uid"],
         base_seed=args.seed,
     )
@@ -583,7 +600,13 @@ def main():
                 else None
             )
 
-            prompt = prompt_for(thinking, example)
+            # UniReason: instruction is always the original text; the
+            # think_output is passed separately as cached_thought.
+            # Step1X:    cached rewrite replaces the instruction prompt.
+            if _is_unireason:
+                prompt = example["instruction"]
+            else:
+                prompt = prompt_for(thinking, example)
 
             stage_seeds = get_rq1_stage_seeds(
                 base_seed=args.seed,
@@ -611,11 +634,16 @@ def main():
                 # Generate
                 # ---------------------------------------------
 
+                _run_kwargs = {}
+                if _is_unireason and cached_thought is not None:
+                    _run_kwargs["cached_thought"] = cached_thought["rewrite"]
+
                 result = runner.run(
                     images=images,
                     instruction=prompt,
                     example_uid=uid,
                     base_seed=args.seed,
+                    **_run_kwargs,
                 )
 
                 # ---------------------------------------------
@@ -660,6 +688,7 @@ def main():
                             instruction=prompt,
                             example_uid=uid,
                             base_seed=args.seed,
+                            **_run_kwargs,
                         )["latency_pipeline_sec"]
                     )
 
