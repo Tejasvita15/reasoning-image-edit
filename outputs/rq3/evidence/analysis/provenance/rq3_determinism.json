@@ -1,0 +1,903 @@
+{
+  "comparisons": [
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "anomaly_correction__60",
+        "A",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "anomaly_correction__60",
+        "B",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "anomaly_correction__60",
+        "C",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "anomaly_correction__60",
+        "D",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "anomaly_correction__60",
+        "E",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "anomaly_correction__60",
+        "F",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "biology__13",
+        "A",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "biology__13",
+        "B",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "biology__13",
+        "C",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "biology__13",
+        "D",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "biology__13",
+        "E",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "biology__13",
+        "F",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "abstract_reasoning__22",
+        "A",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "abstract_reasoning__22",
+        "B",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "abstract_reasoning__22",
+        "C",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "abstract_reasoning__22",
+        "D",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "abstract_reasoning__22",
+        "E",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "abstract_reasoning__22",
+        "F",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "color_change__18",
+        "A",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "color_change__18",
+        "B",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "color_change__18",
+        "C",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "color_change__18",
+        "D",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "color_change__18",
+        "E",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "color_change__18",
+        "F",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "biology__28",
+        "A",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "biology__28",
+        "B",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "biology__28",
+        "C",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "biology__28",
+        "D",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "biology__28",
+        "E",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "biology__28",
+        "F",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "abstract_reasoning__3",
+        "A",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "abstract_reasoning__3",
+        "B",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "abstract_reasoning__3",
+        "C",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "abstract_reasoning__3",
+        "D",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "abstract_reasoning__3",
+        "E",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "abstract_reasoning__3",
+        "F",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "color_change__27",
+        "A",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "color_change__27",
+        "B",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "color_change__27",
+        "C",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "color_change__27",
+        "D",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "color_change__27",
+        "E",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "color_change__27",
+        "F",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "biology__38",
+        "A",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "biology__38",
+        "B",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "biology__38",
+        "C",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "biology__38",
+        "D",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "biology__38",
+        "E",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "biology__38",
+        "F",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "abstract_reasoning__30",
+        "A",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "abstract_reasoning__30",
+        "B",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "abstract_reasoning__30",
+        "C",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "abstract_reasoning__30",
+        "D",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "abstract_reasoning__30",
+        "E",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "abstract_reasoning__30",
+        "F",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "color_change__29",
+        "A",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "color_change__29",
+        "B",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "color_change__29",
+        "C",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "color_change__29",
+        "D",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "color_change__29",
+        "E",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    },
+    {
+      "initial_noise_equal": true,
+      "key": [
+        "color_change__29",
+        "F",
+        42,
+        0
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "passed": true,
+      "rewrite_equal": true,
+      "source_equal": true,
+      "thought_equal": true
+    }
+  ],
+  "coverage_passed": true,
+  "kind": "determinism",
+  "missing_cells": [],
+  "n_examples": 10,
+  "paired_controls": [
+    {
+      "base_seed": 42,
+      "example_uid": "anomaly_correction__60",
+      "passed": true
+    },
+    {
+      "base_seed": 42,
+      "example_uid": "biology__13",
+      "passed": true
+    },
+    {
+      "base_seed": 42,
+      "example_uid": "abstract_reasoning__22",
+      "passed": true
+    },
+    {
+      "base_seed": 42,
+      "example_uid": "color_change__18",
+      "passed": true
+    },
+    {
+      "base_seed": 42,
+      "example_uid": "biology__28",
+      "passed": true
+    },
+    {
+      "base_seed": 42,
+      "example_uid": "abstract_reasoning__3",
+      "passed": true
+    },
+    {
+      "base_seed": 42,
+      "example_uid": "color_change__27",
+      "passed": true
+    },
+    {
+      "base_seed": 42,
+      "example_uid": "biology__38",
+      "passed": true
+    },
+    {
+      "base_seed": 42,
+      "example_uid": "abstract_reasoning__30",
+      "passed": true
+    },
+    {
+      "base_seed": 42,
+      "example_uid": "color_change__29",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "protocol_hash": "a2001fe4612dfee6ae489c243b0fb204b1f04ba39f4877bf0f53853fe7f1438c",
+  "tolerance": 0.0
+}

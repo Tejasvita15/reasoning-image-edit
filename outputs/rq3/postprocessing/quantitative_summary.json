@@ -1,0 +1,2730 @@
+{
+  "primary_effect_source": "Unchanged canonical NSCC report.json",
+  "supplementary_interval_method": "Percentile bootstrap across examples after within-example timing medians",
+  "bootstrap_resamples": 10000,
+  "confidence": 0.95,
+  "bootstrap_seed": 42,
+  "condition_summaries": [
+    {
+      "cohort": "main40",
+      "condition": "A",
+      "metric": "Q",
+      "n_examples": 40,
+      "mean": 53.59375,
+      "ci_low": 48.802083333333336,
+      "ci_high": 57.91666666666667
+    },
+    {
+      "cohort": "main40",
+      "condition": "A",
+      "metric": "diffusion_seconds",
+      "n_examples": 40,
+      "mean": 56.948067723755955,
+      "ci_low": 56.66426078408731,
+      "ci_high": 57.24081064974583
+    },
+    {
+      "cohort": "main40",
+      "condition": "A",
+      "metric": "charged_total_seconds",
+      "n_examples": 40,
+      "mean": 66.66593733649643,
+      "ci_low": 66.12411551804973,
+      "ci_high": 67.24512767285837
+    },
+    {
+      "cohort": "main40",
+      "condition": "A",
+      "metric": "measured_replay_seconds",
+      "n_examples": 40,
+      "mean": 66.66593733649643,
+      "ci_low": 66.12411551804973,
+      "ci_high": 67.24512767285837
+    },
+    {
+      "cohort": "main40",
+      "condition": "A",
+      "metric": "peak_vram_bytes",
+      "n_examples": 40,
+      "mean": 25889427059.2,
+      "ci_low": 25886738984.0,
+      "ci_high": 25892217427.84
+    },
+    {
+      "cohort": "main40",
+      "condition": "B",
+      "metric": "Q",
+      "n_examples": 40,
+      "mean": 51.97916666666667,
+      "ci_low": 45.9375,
+      "ci_high": 57.55208333333333
+    },
+    {
+      "cohort": "main40",
+      "condition": "B",
+      "metric": "diffusion_seconds",
+      "n_examples": 40,
+      "mean": 56.88817443328735,
+      "ci_low": 56.60231066446126,
+      "ci_high": 57.18091834980791
+    },
+    {
+      "cohort": "main40",
+      "condition": "B",
+      "metric": "charged_total_seconds",
+      "n_examples": 40,
+      "mean": 72.06942792840127,
+      "ci_low": 71.15952439996603,
+      "ci_high": 73.07422290783376
+    },
+    {
+      "cohort": "main40",
+      "condition": "B",
+      "metric": "measured_replay_seconds",
+      "n_examples": 40,
+      "mean": 66.65469588313427,
+      "ci_low": 66.07223734930812,
+      "ci_high": 67.27159047854576
+    },
+    {
+      "cohort": "main40",
+      "condition": "B",
+      "metric": "peak_vram_bytes",
+      "n_examples": 40,
+      "mean": 25889127040.0,
+      "ci_low": 25886661955.2,
+      "ci_high": 25891742296.96
+    },
+    {
+      "cohort": "main40",
+      "condition": "C",
+      "metric": "Q",
+      "n_examples": 40,
+      "mean": 54.0625,
+      "ci_low": 49.21875000000001,
+      "ci_high": 58.333333333333336
+    },
+    {
+      "cohort": "main40",
+      "condition": "C",
+      "metric": "diffusion_seconds",
+      "n_examples": 40,
+      "mean": 21.791312847609515,
+      "ci_low": 21.4039323576224,
+      "ci_high": 22.188754056719848
+    },
+    {
+      "cohort": "main40",
+      "condition": "C",
+      "metric": "charged_total_seconds",
+      "n_examples": 40,
+      "mean": 31.50378749219817,
+      "ci_low": 30.85575713597085,
+      "ci_high": 32.192333950461475
+    },
+    {
+      "cohort": "main40",
+      "condition": "C",
+      "metric": "measured_replay_seconds",
+      "n_examples": 40,
+      "mean": 31.50378749219817,
+      "ci_low": 30.85575713597085,
+      "ci_high": 32.192333950461475
+    },
+    {
+      "cohort": "main40",
+      "condition": "C",
+      "metric": "peak_vram_bytes",
+      "n_examples": 40,
+      "mean": 37661136908.8,
+      "ci_low": 37629712050.56,
+      "ci_high": 37692366614.72
+    },
+    {
+      "cohort": "main40",
+      "condition": "D",
+      "metric": "Q",
+      "n_examples": 40,
+      "mean": 51.40625,
+      "ci_low": 45.36458333333333,
+      "ci_high": 56.980468749999986
+    },
+    {
+      "cohort": "main40",
+      "condition": "D",
+      "metric": "diffusion_seconds",
+      "n_examples": 40,
+      "mean": 22.09651194176404,
+      "ci_low": 21.59509132160085,
+      "ci_high": 22.694537111448373
+    },
+    {
+      "cohort": "main40",
+      "condition": "D",
+      "metric": "charged_total_seconds",
+      "n_examples": 40,
+      "mean": 37.0548550019419,
+      "ci_low": 36.058880979271414,
+      "ci_high": 38.1537655205965
+    },
+    {
+      "cohort": "main40",
+      "condition": "D",
+      "metric": "measured_replay_seconds",
+      "n_examples": 40,
+      "mean": 31.721910697239217,
+      "ci_low": 30.984200560417374,
+      "ci_high": 32.59237627347771
+    },
+    {
+      "cohort": "main40",
+      "condition": "D",
+      "metric": "peak_vram_bytes",
+      "n_examples": 40,
+      "mean": 37660535923.2,
+      "ci_low": 37629489921.92,
+      "ci_high": 37691773291.520004
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "B",
+      "metric": "Q",
+      "n_examples": 20,
+      "mean": 53.125,
+      "ci_low": 45.520833333333336,
+      "ci_high": 59.47916666666667
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "B",
+      "metric": "diffusion_seconds",
+      "n_examples": 20,
+      "mean": 56.655821991094854,
+      "ci_low": 56.30152381862033,
+      "ci_high": 57.010171759696966
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "B",
+      "metric": "charged_total_seconds",
+      "n_examples": 20,
+      "mean": 71.80945274634287,
+      "ci_low": 70.5324396310719,
+      "ci_high": 73.29157556270191
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "B",
+      "metric": "measured_replay_seconds",
+      "n_examples": 20,
+      "mean": 66.57204885464162,
+      "ci_low": 65.76724390465635,
+      "ci_high": 67.44209410506446
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "B",
+      "metric": "peak_vram_bytes",
+      "n_examples": 20,
+      "mean": 25887092556.8,
+      "ci_low": 25884058663.04,
+      "ci_high": 25890194579.84
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "D",
+      "metric": "Q",
+      "n_examples": 20,
+      "mean": 53.125,
+      "ci_low": 45.520833333333336,
+      "ci_high": 59.47916666666667
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "D",
+      "metric": "diffusion_seconds",
+      "n_examples": 20,
+      "mean": 21.75470314588165,
+      "ci_low": 21.200617099119842,
+      "ci_high": 22.310263423782597
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "D",
+      "metric": "charged_total_seconds",
+      "n_examples": 20,
+      "mean": 36.58460605429136,
+      "ci_low": 35.47887767792112,
+      "ci_high": 37.83908806255625
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "D",
+      "metric": "measured_replay_seconds",
+      "n_examples": 20,
+      "mean": 31.323799255833727,
+      "ci_low": 30.592067431037282,
+      "ci_high": 32.09078827180274
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "D",
+      "metric": "peak_vram_bytes",
+      "n_examples": 20,
+      "mean": 37636803916.8,
+      "ci_low": 37593704893.44,
+      "ci_high": 37678337240.96
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "E",
+      "metric": "Q",
+      "n_examples": 20,
+      "mean": 48.95833333333333,
+      "ci_low": 42.395833333333336,
+      "ci_high": 54.0625
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "E",
+      "metric": "diffusion_seconds",
+      "n_examples": 20,
+      "mean": 20.583194817142793,
+      "ci_low": 20.03076115543401,
+      "ci_high": 21.13143129387565
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "E",
+      "metric": "charged_total_seconds",
+      "n_examples": 20,
+      "mean": 35.48596673218999,
+      "ci_low": 34.306682406495966,
+      "ci_high": 36.81060441789566
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "E",
+      "metric": "measured_replay_seconds",
+      "n_examples": 20,
+      "mean": 30.3138458182686,
+      "ci_low": 29.467569673438266,
+      "ci_high": 31.22686355551923
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "E",
+      "metric": "peak_vram_bytes",
+      "n_examples": 20,
+      "mean": 25896154598.4,
+      "ci_low": 25893104839.04,
+      "ci_high": 25899269648.0
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "F",
+      "metric": "Q",
+      "n_examples": 20,
+      "mean": 53.125,
+      "ci_low": 45.520833333333336,
+      "ci_high": 59.47916666666667
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "F",
+      "metric": "diffusion_seconds",
+      "n_examples": 20,
+      "mean": 34.42062577722827,
+      "ci_low": 32.004965654173425,
+      "ci_high": 36.82340295626782
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "F",
+      "metric": "charged_total_seconds",
+      "n_examples": 20,
+      "mean": 49.26803595123929,
+      "ci_low": 46.689020438025615,
+      "ci_high": 51.88440966155904
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "F",
+      "metric": "measured_replay_seconds",
+      "n_examples": 20,
+      "mean": 44.12444629368256,
+      "ci_low": 41.71977910277404,
+      "ci_high": 46.532055657414745
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "F",
+      "metric": "peak_vram_bytes",
+      "n_examples": 20,
+      "mean": 37636803916.8,
+      "ci_low": 37593704893.44,
+      "ci_high": 37678337240.96
+    }
+  ],
+  "speedups": [
+    {
+      "cohort": "main40",
+      "condition": "D",
+      "baseline": "B",
+      "metric": "diffusion_seconds",
+      "estimator": "mean_within_example_baseline_over_condition",
+      "n_examples": 40,
+      "mean": 2.5884571293517338,
+      "ci_low": 2.5319619459437734,
+      "ci_high": 2.6376025060168358,
+      "ratio_of_means": 2.574531880109299
+    },
+    {
+      "cohort": "main40",
+      "condition": "D",
+      "baseline": "B",
+      "metric": "charged_total_seconds",
+      "estimator": "mean_within_example_baseline_over_condition",
+      "n_examples": 40,
+      "mean": 1.9540320120489738,
+      "ci_low": 1.9203086525899902,
+      "ci_high": 1.9849946461788364,
+      "ratio_of_means": 1.9449388730471187
+    },
+    {
+      "cohort": "main40",
+      "condition": "C",
+      "baseline": "A",
+      "metric": "diffusion_seconds",
+      "estimator": "mean_within_example_baseline_over_condition",
+      "n_examples": 40,
+      "mean": 2.621145117581677,
+      "ci_low": 2.5794226582441278,
+      "ci_high": 2.66076416986379,
+      "ratio_of_means": 2.613338082106563
+    },
+    {
+      "cohort": "main40",
+      "condition": "C",
+      "baseline": "A",
+      "metric": "charged_total_seconds",
+      "estimator": "mean_within_example_baseline_over_condition",
+      "n_examples": 40,
+      "mean": 2.123029008337769,
+      "ci_low": 2.089699392489045,
+      "ci_high": 2.154296041614797,
+      "ratio_of_means": 2.116124524805345
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "D",
+      "baseline": "B",
+      "metric": "diffusion_seconds",
+      "estimator": "mean_within_example_baseline_over_condition",
+      "n_examples": 20,
+      "mean": 2.6117951558469255,
+      "ci_low": 2.5543457730374133,
+      "ci_high": 2.670480542496631,
+      "ratio_of_means": 2.604302233460735
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "D",
+      "baseline": "B",
+      "metric": "charged_total_seconds",
+      "estimator": "mean_within_example_baseline_over_condition",
+      "n_examples": 20,
+      "mean": 1.9677971965241903,
+      "ci_low": 1.932397933283188,
+      "ci_high": 2.0019813275627727,
+      "ratio_of_means": 1.9628324722091586
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "E",
+      "baseline": "B",
+      "metric": "diffusion_seconds",
+      "estimator": "mean_within_example_baseline_over_condition",
+      "n_examples": 20,
+      "mean": 2.7612008416009055,
+      "ci_low": 2.697732389700698,
+      "ci_high": 2.825019167568523,
+      "ratio_of_means": 2.752528093642141
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "E",
+      "baseline": "B",
+      "metric": "charged_total_seconds",
+      "estimator": "mean_within_example_baseline_over_condition",
+      "n_examples": 20,
+      "mean": 2.0304330859036503,
+      "ci_low": 1.9874075394797515,
+      "ci_high": 2.0710353151655143,
+      "ratio_of_means": 2.023601422170166
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "F",
+      "baseline": "B",
+      "metric": "diffusion_seconds",
+      "estimator": "mean_within_example_baseline_over_condition",
+      "n_examples": 20,
+      "mean": 1.6867868407492925,
+      "ci_low": 1.5745113102767152,
+      "ci_high": 1.804271757423658,
+      "ratio_of_means": 1.6459846592497682
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "F",
+      "baseline": "B",
+      "metric": "charged_total_seconds",
+      "estimator": "mean_within_example_baseline_over_condition",
+      "n_examples": 20,
+      "mean": 1.4751328510282178,
+      "ci_low": 1.4069370310629794,
+      "ci_high": 1.5453836044241296,
+      "ratio_of_means": 1.4575261903562156
+    }
+  ],
+  "rating_ties": [
+    {
+      "cohort": "main40",
+      "contrast": "B_minus_A",
+      "metric": "Q",
+      "n_examples": 40,
+      "ties": 22,
+      "tie_fraction": 0.55,
+      "higher": 9,
+      "lower": 9
+    },
+    {
+      "cohort": "main40",
+      "contrast": "B_minus_A",
+      "metric": "consistency_score",
+      "n_examples": 40,
+      "ties": 27,
+      "tie_fraction": 0.675,
+      "higher": 6,
+      "lower": 7
+    },
+    {
+      "cohort": "main40",
+      "contrast": "B_minus_A",
+      "metric": "instruction_score",
+      "n_examples": 40,
+      "ties": 30,
+      "tie_fraction": 0.75,
+      "higher": 6,
+      "lower": 4
+    },
+    {
+      "cohort": "main40",
+      "contrast": "B_minus_A",
+      "metric": "quality_score",
+      "n_examples": 40,
+      "ties": 36,
+      "tie_fraction": 0.9,
+      "higher": 1,
+      "lower": 3
+    },
+    {
+      "cohort": "main40",
+      "contrast": "B_minus_A",
+      "metric": "knowledge_score",
+      "n_examples": 20,
+      "ties": 13,
+      "tie_fraction": 0.65,
+      "higher": 4,
+      "lower": 3
+    },
+    {
+      "cohort": "main40",
+      "contrast": "B_minus_A",
+      "metric": "all_applicable_components",
+      "n_examples": 40,
+      "ties": 21,
+      "tie_fraction": 0.525,
+      "higher": null,
+      "lower": null
+    },
+    {
+      "cohort": "main40",
+      "contrast": "D_minus_C",
+      "metric": "Q",
+      "n_examples": 40,
+      "ties": 20,
+      "tie_fraction": 0.5,
+      "higher": 9,
+      "lower": 11
+    },
+    {
+      "cohort": "main40",
+      "contrast": "D_minus_C",
+      "metric": "consistency_score",
+      "n_examples": 40,
+      "ties": 25,
+      "tie_fraction": 0.625,
+      "higher": 6,
+      "lower": 9
+    },
+    {
+      "cohort": "main40",
+      "contrast": "D_minus_C",
+      "metric": "instruction_score",
+      "n_examples": 40,
+      "ties": 28,
+      "tie_fraction": 0.7,
+      "higher": 6,
+      "lower": 6
+    },
+    {
+      "cohort": "main40",
+      "contrast": "D_minus_C",
+      "metric": "quality_score",
+      "n_examples": 40,
+      "ties": 36,
+      "tie_fraction": 0.9,
+      "higher": 1,
+      "lower": 3
+    },
+    {
+      "cohort": "main40",
+      "contrast": "D_minus_C",
+      "metric": "knowledge_score",
+      "n_examples": 20,
+      "ties": 12,
+      "tie_fraction": 0.6,
+      "higher": 4,
+      "lower": 4
+    },
+    {
+      "cohort": "main40",
+      "contrast": "D_minus_C",
+      "metric": "all_applicable_components",
+      "n_examples": 40,
+      "ties": 19,
+      "tie_fraction": 0.475,
+      "higher": null,
+      "lower": null
+    },
+    {
+      "cohort": "main40",
+      "contrast": "D_minus_B",
+      "metric": "Q",
+      "n_examples": 40,
+      "ties": 38,
+      "tie_fraction": 0.95,
+      "higher": 0,
+      "lower": 2
+    },
+    {
+      "cohort": "main40",
+      "contrast": "D_minus_B",
+      "metric": "consistency_score",
+      "n_examples": 40,
+      "ties": 38,
+      "tie_fraction": 0.95,
+      "higher": 0,
+      "lower": 2
+    },
+    {
+      "cohort": "main40",
+      "contrast": "D_minus_B",
+      "metric": "instruction_score",
+      "n_examples": 40,
+      "ties": 39,
+      "tie_fraction": 0.975,
+      "higher": 0,
+      "lower": 1
+    },
+    {
+      "cohort": "main40",
+      "contrast": "D_minus_B",
+      "metric": "quality_score",
+      "n_examples": 40,
+      "ties": 40,
+      "tie_fraction": 1.0,
+      "higher": 0,
+      "lower": 0
+    },
+    {
+      "cohort": "main40",
+      "contrast": "D_minus_B",
+      "metric": "knowledge_score",
+      "n_examples": 20,
+      "ties": 20,
+      "tie_fraction": 1.0,
+      "higher": 0,
+      "lower": 0
+    },
+    {
+      "cohort": "main40",
+      "contrast": "D_minus_B",
+      "metric": "all_applicable_components",
+      "n_examples": 40,
+      "ties": 38,
+      "tie_fraction": 0.95,
+      "higher": null,
+      "lower": null
+    },
+    {
+      "cohort": "main40",
+      "contrast": "C_minus_A",
+      "metric": "Q",
+      "n_examples": 40,
+      "ties": 39,
+      "tie_fraction": 0.975,
+      "higher": 1,
+      "lower": 0
+    },
+    {
+      "cohort": "main40",
+      "contrast": "C_minus_A",
+      "metric": "consistency_score",
+      "n_examples": 40,
+      "ties": 40,
+      "tie_fraction": 1.0,
+      "higher": 0,
+      "lower": 0
+    },
+    {
+      "cohort": "main40",
+      "contrast": "C_minus_A",
+      "metric": "instruction_score",
+      "n_examples": 40,
+      "ties": 39,
+      "tie_fraction": 0.975,
+      "higher": 1,
+      "lower": 0
+    },
+    {
+      "cohort": "main40",
+      "contrast": "C_minus_A",
+      "metric": "quality_score",
+      "n_examples": 40,
+      "ties": 40,
+      "tie_fraction": 1.0,
+      "higher": 0,
+      "lower": 0
+    },
+    {
+      "cohort": "main40",
+      "contrast": "C_minus_A",
+      "metric": "knowledge_score",
+      "n_examples": 20,
+      "ties": 19,
+      "tie_fraction": 0.95,
+      "higher": 1,
+      "lower": 0
+    },
+    {
+      "cohort": "main40",
+      "contrast": "C_minus_A",
+      "metric": "all_applicable_components",
+      "n_examples": 40,
+      "ties": 39,
+      "tie_fraction": 0.975,
+      "higher": null,
+      "lower": null
+    },
+    {
+      "cohort": "ablation20",
+      "contrast": "D_minus_B",
+      "metric": "Q",
+      "n_examples": 20,
+      "ties": 20,
+      "tie_fraction": 1.0,
+      "higher": 0,
+      "lower": 0
+    },
+    {
+      "cohort": "ablation20",
+      "contrast": "D_minus_B",
+      "metric": "consistency_score",
+      "n_examples": 20,
+      "ties": 20,
+      "tie_fraction": 1.0,
+      "higher": 0,
+      "lower": 0
+    },
+    {
+      "cohort": "ablation20",
+      "contrast": "D_minus_B",
+      "metric": "instruction_score",
+      "n_examples": 20,
+      "ties": 20,
+      "tie_fraction": 1.0,
+      "higher": 0,
+      "lower": 0
+    },
+    {
+      "cohort": "ablation20",
+      "contrast": "D_minus_B",
+      "metric": "quality_score",
+      "n_examples": 20,
+      "ties": 20,
+      "tie_fraction": 1.0,
+      "higher": 0,
+      "lower": 0
+    },
+    {
+      "cohort": "ablation20",
+      "contrast": "D_minus_B",
+      "metric": "knowledge_score",
+      "n_examples": 11,
+      "ties": 11,
+      "tie_fraction": 1.0,
+      "higher": 0,
+      "lower": 0
+    },
+    {
+      "cohort": "ablation20",
+      "contrast": "D_minus_B",
+      "metric": "all_applicable_components",
+      "n_examples": 20,
+      "ties": 20,
+      "tie_fraction": 1.0,
+      "higher": null,
+      "lower": null
+    },
+    {
+      "cohort": "ablation20",
+      "contrast": "E_minus_D",
+      "metric": "Q",
+      "n_examples": 20,
+      "ties": 12,
+      "tie_fraction": 0.6,
+      "higher": 1,
+      "lower": 7
+    },
+    {
+      "cohort": "ablation20",
+      "contrast": "E_minus_D",
+      "metric": "consistency_score",
+      "n_examples": 20,
+      "ties": 12,
+      "tie_fraction": 0.6,
+      "higher": 1,
+      "lower": 7
+    },
+    {
+      "cohort": "ablation20",
+      "contrast": "E_minus_D",
+      "metric": "instruction_score",
+      "n_examples": 20,
+      "ties": 17,
+      "tie_fraction": 0.85,
+      "higher": 1,
+      "lower": 2
+    },
+    {
+      "cohort": "ablation20",
+      "contrast": "E_minus_D",
+      "metric": "quality_score",
+      "n_examples": 20,
+      "ties": 20,
+      "tie_fraction": 1.0,
+      "higher": 0,
+      "lower": 0
+    },
+    {
+      "cohort": "ablation20",
+      "contrast": "E_minus_D",
+      "metric": "knowledge_score",
+      "n_examples": 11,
+      "ties": 10,
+      "tie_fraction": 0.9090909090909091,
+      "higher": 0,
+      "lower": 1
+    },
+    {
+      "cohort": "ablation20",
+      "contrast": "E_minus_D",
+      "metric": "all_applicable_components",
+      "n_examples": 20,
+      "ties": 12,
+      "tie_fraction": 0.6,
+      "higher": null,
+      "lower": null
+    },
+    {
+      "cohort": "ablation20",
+      "contrast": "F_minus_D",
+      "metric": "Q",
+      "n_examples": 20,
+      "ties": 20,
+      "tie_fraction": 1.0,
+      "higher": 0,
+      "lower": 0
+    },
+    {
+      "cohort": "ablation20",
+      "contrast": "F_minus_D",
+      "metric": "consistency_score",
+      "n_examples": 20,
+      "ties": 20,
+      "tie_fraction": 1.0,
+      "higher": 0,
+      "lower": 0
+    },
+    {
+      "cohort": "ablation20",
+      "contrast": "F_minus_D",
+      "metric": "instruction_score",
+      "n_examples": 20,
+      "ties": 20,
+      "tie_fraction": 1.0,
+      "higher": 0,
+      "lower": 0
+    },
+    {
+      "cohort": "ablation20",
+      "contrast": "F_minus_D",
+      "metric": "quality_score",
+      "n_examples": 20,
+      "ties": 20,
+      "tie_fraction": 1.0,
+      "higher": 0,
+      "lower": 0
+    },
+    {
+      "cohort": "ablation20",
+      "contrast": "F_minus_D",
+      "metric": "knowledge_score",
+      "n_examples": 11,
+      "ties": 11,
+      "tie_fraction": 1.0,
+      "higher": 0,
+      "lower": 0
+    },
+    {
+      "cohort": "ablation20",
+      "contrast": "F_minus_D",
+      "metric": "all_applicable_components",
+      "n_examples": 20,
+      "ties": 20,
+      "tie_fraction": 1.0,
+      "higher": null,
+      "lower": null
+    },
+    {
+      "cohort": "ablation20",
+      "contrast": "E_minus_B",
+      "metric": "Q",
+      "n_examples": 20,
+      "ties": 12,
+      "tie_fraction": 0.6,
+      "higher": 1,
+      "lower": 7
+    },
+    {
+      "cohort": "ablation20",
+      "contrast": "E_minus_B",
+      "metric": "consistency_score",
+      "n_examples": 20,
+      "ties": 12,
+      "tie_fraction": 0.6,
+      "higher": 1,
+      "lower": 7
+    },
+    {
+      "cohort": "ablation20",
+      "contrast": "E_minus_B",
+      "metric": "instruction_score",
+      "n_examples": 20,
+      "ties": 17,
+      "tie_fraction": 0.85,
+      "higher": 1,
+      "lower": 2
+    },
+    {
+      "cohort": "ablation20",
+      "contrast": "E_minus_B",
+      "metric": "quality_score",
+      "n_examples": 20,
+      "ties": 20,
+      "tie_fraction": 1.0,
+      "higher": 0,
+      "lower": 0
+    },
+    {
+      "cohort": "ablation20",
+      "contrast": "E_minus_B",
+      "metric": "knowledge_score",
+      "n_examples": 11,
+      "ties": 10,
+      "tie_fraction": 0.9090909090909091,
+      "higher": 0,
+      "lower": 1
+    },
+    {
+      "cohort": "ablation20",
+      "contrast": "E_minus_B",
+      "metric": "all_applicable_components",
+      "n_examples": 20,
+      "ties": 12,
+      "tie_fraction": 0.6,
+      "higher": null,
+      "lower": null
+    },
+    {
+      "cohort": "ablation20",
+      "contrast": "F_minus_B",
+      "metric": "Q",
+      "n_examples": 20,
+      "ties": 20,
+      "tie_fraction": 1.0,
+      "higher": 0,
+      "lower": 0
+    },
+    {
+      "cohort": "ablation20",
+      "contrast": "F_minus_B",
+      "metric": "consistency_score",
+      "n_examples": 20,
+      "ties": 20,
+      "tie_fraction": 1.0,
+      "higher": 0,
+      "lower": 0
+    },
+    {
+      "cohort": "ablation20",
+      "contrast": "F_minus_B",
+      "metric": "instruction_score",
+      "n_examples": 20,
+      "ties": 20,
+      "tie_fraction": 1.0,
+      "higher": 0,
+      "lower": 0
+    },
+    {
+      "cohort": "ablation20",
+      "contrast": "F_minus_B",
+      "metric": "quality_score",
+      "n_examples": 20,
+      "ties": 20,
+      "tie_fraction": 1.0,
+      "higher": 0,
+      "lower": 0
+    },
+    {
+      "cohort": "ablation20",
+      "contrast": "F_minus_B",
+      "metric": "knowledge_score",
+      "n_examples": 11,
+      "ties": 11,
+      "tie_fraction": 1.0,
+      "higher": 0,
+      "lower": 0
+    },
+    {
+      "cohort": "ablation20",
+      "contrast": "F_minus_B",
+      "metric": "all_applicable_components",
+      "n_examples": 20,
+      "ties": 20,
+      "tie_fraction": 1.0,
+      "higher": null,
+      "lower": null
+    }
+  ],
+  "component_means": [
+    {
+      "cohort": "main40",
+      "condition": "A",
+      "metric": "consistency_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 40,
+      "mean": 37.5,
+      "ci_low": 28.125,
+      "ci_high": 47.5
+    },
+    {
+      "cohort": "main40",
+      "condition": "A",
+      "metric": "instruction_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 40,
+      "mean": 56.25,
+      "ci_low": 49.375,
+      "ci_high": 62.5
+    },
+    {
+      "cohort": "main40",
+      "condition": "A",
+      "metric": "quality_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 40,
+      "mean": 70.625,
+      "ci_low": 65.625,
+      "ci_high": 74.375
+    },
+    {
+      "cohort": "main40",
+      "condition": "A",
+      "metric": "knowledge_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 20,
+      "mean": 47.5,
+      "ci_low": 37.5,
+      "ci_high": 56.25
+    },
+    {
+      "cohort": "main40",
+      "condition": "B",
+      "metric": "consistency_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 40,
+      "mean": 36.875,
+      "ci_low": 27.5,
+      "ci_high": 46.25
+    },
+    {
+      "cohort": "main40",
+      "condition": "B",
+      "metric": "instruction_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 40,
+      "mean": 56.25,
+      "ci_low": 48.75,
+      "ci_high": 63.125
+    },
+    {
+      "cohort": "main40",
+      "condition": "B",
+      "metric": "quality_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 40,
+      "mean": 67.5,
+      "ci_low": 61.25,
+      "ci_high": 72.5
+    },
+    {
+      "cohort": "main40",
+      "condition": "B",
+      "metric": "knowledge_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 20,
+      "mean": 45.0,
+      "ci_low": 32.5,
+      "ci_high": 56.25
+    },
+    {
+      "cohort": "main40",
+      "condition": "C",
+      "metric": "consistency_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 40,
+      "mean": 37.5,
+      "ci_low": 28.125,
+      "ci_high": 47.5
+    },
+    {
+      "cohort": "main40",
+      "condition": "C",
+      "metric": "instruction_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 40,
+      "mean": 56.875,
+      "ci_low": 50.625,
+      "ci_high": 63.125
+    },
+    {
+      "cohort": "main40",
+      "condition": "C",
+      "metric": "quality_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 40,
+      "mean": 70.625,
+      "ci_low": 65.625,
+      "ci_high": 74.375
+    },
+    {
+      "cohort": "main40",
+      "condition": "C",
+      "metric": "knowledge_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 20,
+      "mean": 50.0,
+      "ci_low": 41.25,
+      "ci_high": 57.5
+    },
+    {
+      "cohort": "main40",
+      "condition": "D",
+      "metric": "consistency_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 40,
+      "mean": 35.625,
+      "ci_low": 26.25,
+      "ci_high": 45.0
+    },
+    {
+      "cohort": "main40",
+      "condition": "D",
+      "metric": "instruction_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 40,
+      "mean": 55.625,
+      "ci_low": 48.125,
+      "ci_high": 62.5
+    },
+    {
+      "cohort": "main40",
+      "condition": "D",
+      "metric": "quality_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 40,
+      "mean": 67.5,
+      "ci_low": 61.25,
+      "ci_high": 72.5
+    },
+    {
+      "cohort": "main40",
+      "condition": "D",
+      "metric": "knowledge_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 20,
+      "mean": 45.0,
+      "ci_low": 32.5,
+      "ci_high": 56.25
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "B",
+      "metric": "consistency_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 20,
+      "mean": 37.5,
+      "ci_low": 25.0,
+      "ci_high": 50.0
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "B",
+      "metric": "instruction_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 20,
+      "mean": 55.0,
+      "ci_low": 45.0,
+      "ci_high": 63.75
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "B",
+      "metric": "quality_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 20,
+      "mean": 71.25,
+      "ci_low": 63.75,
+      "ci_high": 75.0
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "B",
+      "metric": "knowledge_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 11,
+      "mean": 45.45454545454545,
+      "ci_low": 31.761363636364138,
+      "ci_high": 56.874999999999176
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "D",
+      "metric": "consistency_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 20,
+      "mean": 37.5,
+      "ci_low": 25.0,
+      "ci_high": 50.0
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "D",
+      "metric": "instruction_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 20,
+      "mean": 55.0,
+      "ci_low": 45.0,
+      "ci_high": 63.75
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "D",
+      "metric": "quality_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 20,
+      "mean": 71.25,
+      "ci_low": 63.75,
+      "ci_high": 75.0
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "D",
+      "metric": "knowledge_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 11,
+      "mean": 45.45454545454545,
+      "ci_low": 31.761363636364138,
+      "ci_high": 56.874999999999176
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "E",
+      "metric": "consistency_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 20,
+      "mean": 26.25,
+      "ci_low": 16.25,
+      "ci_high": 37.5
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "E",
+      "metric": "instruction_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 20,
+      "mean": 52.5,
+      "ci_low": 43.75,
+      "ci_high": 60.0
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "E",
+      "metric": "quality_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 20,
+      "mean": 71.25,
+      "ci_low": 63.75,
+      "ci_high": 75.0
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "E",
+      "metric": "knowledge_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 11,
+      "mean": 43.18181818181818,
+      "ci_low": 29.545454545454547,
+      "ci_high": 54.54545454545455
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "F",
+      "metric": "consistency_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 20,
+      "mean": 37.5,
+      "ci_low": 25.0,
+      "ci_high": 50.0
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "F",
+      "metric": "instruction_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 20,
+      "mean": 55.0,
+      "ci_low": 45.0,
+      "ci_high": 63.75
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "F",
+      "metric": "quality_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 20,
+      "mean": 71.25,
+      "ci_low": 63.75,
+      "ci_high": 75.0
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "F",
+      "metric": "knowledge_score",
+      "normalization": "25*(raw_score-1)",
+      "n_examples": 11,
+      "mean": 45.45454545454545,
+      "ci_low": 31.761363636364138,
+      "ci_high": 56.874999999999176
+    }
+  ],
+  "resource_summaries": [
+    {
+      "cohort": "main40",
+      "condition": "A",
+      "metric": "thinking_seconds",
+      "n_examples": 40,
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0
+    },
+    {
+      "cohort": "main40",
+      "condition": "A",
+      "metric": "thinking_offload_seconds",
+      "n_examples": 40,
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0
+    },
+    {
+      "cohort": "main40",
+      "condition": "A",
+      "metric": "diffusion_seconds",
+      "n_examples": 40,
+      "mean": 56.948067723755955,
+      "ci_low": 56.66426078408731,
+      "ci_high": 57.24081064974583
+    },
+    {
+      "cohort": "main40",
+      "condition": "A",
+      "metric": "offload_seconds",
+      "n_examples": 40,
+      "mean": 8.770889453220297,
+      "ci_low": 8.393588507088717,
+      "ci_high": 9.182415412262344
+    },
+    {
+      "cohort": "main40",
+      "condition": "A",
+      "metric": "measured_replay_seconds",
+      "n_examples": 40,
+      "mean": 66.66593733649643,
+      "ci_low": 66.12411551804973,
+      "ci_high": 67.24512767285837
+    },
+    {
+      "cohort": "main40",
+      "condition": "A",
+      "metric": "charged_total_seconds",
+      "n_examples": 40,
+      "mean": 66.66593733649643,
+      "ci_low": 66.12411551804973,
+      "ci_high": 67.24512767285837
+    },
+    {
+      "cohort": "main40",
+      "condition": "A",
+      "metric": "peak_vram_bytes",
+      "n_examples": 40,
+      "mean": 25889427059.2,
+      "ci_low": 25886738984.0,
+      "ci_high": 25892217427.84
+    },
+    {
+      "cohort": "main40",
+      "condition": "B",
+      "metric": "thinking_seconds",
+      "n_examples": 40,
+      "mean": 1.5456811947893585,
+      "ci_low": 1.2003653226431197,
+      "ci_high": 1.946440230570515
+    },
+    {
+      "cohort": "main40",
+      "condition": "B",
+      "metric": "thinking_offload_seconds",
+      "n_examples": 40,
+      "mean": 3.685747521635494,
+      "ci_low": 3.5162504470176645,
+      "ci_high": 3.872438651965567
+    },
+    {
+      "cohort": "main40",
+      "condition": "B",
+      "metric": "diffusion_seconds",
+      "n_examples": 40,
+      "mean": 56.88817443328735,
+      "ci_low": 56.60231066446126,
+      "ci_high": 57.18091834980791
+    },
+    {
+      "cohort": "main40",
+      "condition": "B",
+      "metric": "offload_seconds",
+      "n_examples": 40,
+      "mean": 8.735069164878222,
+      "ci_low": 8.372698785972824,
+      "ci_high": 9.13053295222242
+    },
+    {
+      "cohort": "main40",
+      "condition": "B",
+      "metric": "measured_replay_seconds",
+      "n_examples": 40,
+      "mean": 66.65469588313427,
+      "ci_low": 66.07223734930812,
+      "ci_high": 67.27159047854576
+    },
+    {
+      "cohort": "main40",
+      "condition": "B",
+      "metric": "charged_total_seconds",
+      "n_examples": 40,
+      "mean": 72.06942792840127,
+      "ci_low": 71.15952439996603,
+      "ci_high": 73.07422290783376
+    },
+    {
+      "cohort": "main40",
+      "condition": "B",
+      "metric": "peak_vram_bytes",
+      "n_examples": 40,
+      "mean": 25889127040.0,
+      "ci_low": 25886661955.2,
+      "ci_high": 25891742296.96
+    },
+    {
+      "cohort": "main40",
+      "condition": "C",
+      "metric": "thinking_seconds",
+      "n_examples": 40,
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0
+    },
+    {
+      "cohort": "main40",
+      "condition": "C",
+      "metric": "thinking_offload_seconds",
+      "n_examples": 40,
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0
+    },
+    {
+      "cohort": "main40",
+      "condition": "C",
+      "metric": "diffusion_seconds",
+      "n_examples": 40,
+      "mean": 21.791312847609515,
+      "ci_low": 21.4039323576224,
+      "ci_high": 22.188754056719848
+    },
+    {
+      "cohort": "main40",
+      "condition": "C",
+      "metric": "offload_seconds",
+      "n_examples": 40,
+      "mean": 8.722468267590738,
+      "ci_low": 8.36467619550327,
+      "ci_high": 9.115162218047262
+    },
+    {
+      "cohort": "main40",
+      "condition": "C",
+      "metric": "measured_replay_seconds",
+      "n_examples": 40,
+      "mean": 31.50378749219817,
+      "ci_low": 30.85575713597085,
+      "ci_high": 32.192333950461475
+    },
+    {
+      "cohort": "main40",
+      "condition": "C",
+      "metric": "charged_total_seconds",
+      "n_examples": 40,
+      "mean": 31.50378749219817,
+      "ci_low": 30.85575713597085,
+      "ci_high": 32.192333950461475
+    },
+    {
+      "cohort": "main40",
+      "condition": "C",
+      "metric": "peak_vram_bytes",
+      "n_examples": 40,
+      "mean": 37661136908.8,
+      "ci_low": 37629712050.56,
+      "ci_high": 37692366614.72
+    },
+    {
+      "cohort": "main40",
+      "condition": "D",
+      "metric": "thinking_seconds",
+      "n_examples": 40,
+      "mean": 1.5456811947893585,
+      "ci_low": 1.2003653226431197,
+      "ci_high": 1.946440230570515
+    },
+    {
+      "cohort": "main40",
+      "condition": "D",
+      "metric": "thinking_offload_seconds",
+      "n_examples": 40,
+      "mean": 3.685747521635494,
+      "ci_low": 3.5162504470176645,
+      "ci_high": 3.872438651965567
+    },
+    {
+      "cohort": "main40",
+      "condition": "D",
+      "metric": "diffusion_seconds",
+      "n_examples": 40,
+      "mean": 22.09651194176404,
+      "ci_low": 21.59509132160085,
+      "ci_high": 22.694537111448373
+    },
+    {
+      "cohort": "main40",
+      "condition": "D",
+      "metric": "offload_seconds",
+      "n_examples": 40,
+      "mean": 8.653100712387822,
+      "ci_low": 8.330228714059121,
+      "ci_high": 9.00772345631325
+    },
+    {
+      "cohort": "main40",
+      "condition": "D",
+      "metric": "measured_replay_seconds",
+      "n_examples": 40,
+      "mean": 31.721910697239217,
+      "ci_low": 30.984200560417374,
+      "ci_high": 32.59237627347771
+    },
+    {
+      "cohort": "main40",
+      "condition": "D",
+      "metric": "charged_total_seconds",
+      "n_examples": 40,
+      "mean": 37.0548550019419,
+      "ci_low": 36.058880979271414,
+      "ci_high": 38.1537655205965
+    },
+    {
+      "cohort": "main40",
+      "condition": "D",
+      "metric": "peak_vram_bytes",
+      "n_examples": 40,
+      "mean": 37660535923.2,
+      "ci_low": 37629489921.92,
+      "ci_high": 37691773291.520004
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "B",
+      "metric": "thinking_seconds",
+      "n_examples": 20,
+      "mean": 1.353002627880778,
+      "ci_low": 0.9681579020729988,
+      "ci_high": 1.815718275373947
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "B",
+      "metric": "thinking_offload_seconds",
+      "n_examples": 20,
+      "mean": 3.728132049058331,
+      "ci_low": 3.472851345757372,
+      "ci_high": 4.027569916118082
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "B",
+      "metric": "diffusion_seconds",
+      "n_examples": 20,
+      "mean": 56.655821991094854,
+      "ci_low": 56.30152381862033,
+      "ci_high": 57.010171759696966
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "B",
+      "metric": "offload_seconds",
+      "n_examples": 20,
+      "mean": 8.810520482982975,
+      "ci_low": 8.284374378396752,
+      "ci_high": 9.406804817018275
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "B",
+      "metric": "measured_replay_seconds",
+      "n_examples": 20,
+      "mean": 66.57204885464162,
+      "ci_low": 65.76724390465635,
+      "ci_high": 67.44209410506446
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "B",
+      "metric": "charged_total_seconds",
+      "n_examples": 20,
+      "mean": 71.80945274634287,
+      "ci_low": 70.5324396310719,
+      "ci_high": 73.29157556270191
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "B",
+      "metric": "peak_vram_bytes",
+      "n_examples": 20,
+      "mean": 25887092556.8,
+      "ci_low": 25884058663.04,
+      "ci_high": 25890194579.84
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "D",
+      "metric": "thinking_seconds",
+      "n_examples": 20,
+      "mean": 1.353002627880778,
+      "ci_low": 0.9681579020729988,
+      "ci_high": 1.815718275373947
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "D",
+      "metric": "thinking_offload_seconds",
+      "n_examples": 20,
+      "mean": 3.728132049058331,
+      "ci_low": 3.472851345757372,
+      "ci_high": 4.027569916118082
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "D",
+      "metric": "diffusion_seconds",
+      "n_examples": 20,
+      "mean": 21.75470314588165,
+      "ci_low": 21.200617099119842,
+      "ci_high": 22.310263423782597
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "D",
+      "metric": "offload_seconds",
+      "n_examples": 20,
+      "mean": 8.674077756679617,
+      "ci_low": 8.2248181850338,
+      "ci_high": 9.180177741058868
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "D",
+      "metric": "measured_replay_seconds",
+      "n_examples": 20,
+      "mean": 31.323799255833727,
+      "ci_low": 30.592067431037282,
+      "ci_high": 32.09078827180274
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "D",
+      "metric": "charged_total_seconds",
+      "n_examples": 20,
+      "mean": 36.58460605429136,
+      "ci_low": 35.47887767792112,
+      "ci_high": 37.83908806255625
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "D",
+      "metric": "peak_vram_bytes",
+      "n_examples": 20,
+      "mean": 37636803916.8,
+      "ci_low": 37593704893.44,
+      "ci_high": 37678337240.96
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "E",
+      "metric": "thinking_seconds",
+      "n_examples": 20,
+      "mean": 1.353002627880778,
+      "ci_low": 0.9681579020729988,
+      "ci_high": 1.815718275373947
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "E",
+      "metric": "thinking_offload_seconds",
+      "n_examples": 20,
+      "mean": 3.728132049058331,
+      "ci_low": 3.472851345757372,
+      "ci_high": 4.027569916118082
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "E",
+      "metric": "diffusion_seconds",
+      "n_examples": 20,
+      "mean": 20.583194817142793,
+      "ci_low": 20.03076115543401,
+      "ci_high": 21.13143129387565
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "E",
+      "metric": "offload_seconds",
+      "n_examples": 20,
+      "mean": 8.676167503651232,
+      "ci_low": 8.23012717499616,
+      "ci_high": 9.195748558292543
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "E",
+      "metric": "measured_replay_seconds",
+      "n_examples": 20,
+      "mean": 30.3138458182686,
+      "ci_low": 29.467569673438266,
+      "ci_high": 31.22686355551923
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "E",
+      "metric": "charged_total_seconds",
+      "n_examples": 20,
+      "mean": 35.48596673218999,
+      "ci_low": 34.306682406495966,
+      "ci_high": 36.81060441789566
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "E",
+      "metric": "peak_vram_bytes",
+      "n_examples": 20,
+      "mean": 25896154598.4,
+      "ci_low": 25893104839.04,
+      "ci_high": 25899269648.0
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "F",
+      "metric": "thinking_seconds",
+      "n_examples": 20,
+      "mean": 1.353002627880778,
+      "ci_low": 0.9681579020729988,
+      "ci_high": 1.815718275373947
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "F",
+      "metric": "thinking_offload_seconds",
+      "n_examples": 20,
+      "mean": 3.728132049058331,
+      "ci_low": 3.472851345757372,
+      "ci_high": 4.027569916118082
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "F",
+      "metric": "diffusion_seconds",
+      "n_examples": 20,
+      "mean": 34.42062577722827,
+      "ci_low": 32.004965654173425,
+      "ci_high": 36.82340295626782
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "F",
+      "metric": "offload_seconds",
+      "n_examples": 20,
+      "mean": 8.717890587716829,
+      "ci_low": 8.235433266033068,
+      "ci_high": 9.251225575819843
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "F",
+      "metric": "measured_replay_seconds",
+      "n_examples": 20,
+      "mean": 44.12444629368256,
+      "ci_low": 41.71977910277404,
+      "ci_high": 46.532055657414745
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "F",
+      "metric": "charged_total_seconds",
+      "n_examples": 20,
+      "mean": 49.26803595123929,
+      "ci_low": 46.689020438025615,
+      "ci_high": 51.88440966155904
+    },
+    {
+      "cohort": "ablation20",
+      "condition": "F",
+      "metric": "peak_vram_bytes",
+      "n_examples": 20,
+      "mean": 37636803916.8,
+      "ci_low": 37593704893.44,
+      "ci_high": 37678337240.96
+    }
+  ],
+  "exploratory_groups": [
+    {
+      "grouping": "knowledge_type",
+      "group": "conceptual",
+      "metric": "B_minus_A",
+      "n_examples": 13,
+      "mean": 0.4807692307692308,
+      "minimum": -18.75,
+      "maximum": 25.0
+    },
+    {
+      "grouping": "knowledge_type",
+      "group": "conceptual",
+      "metric": "D_minus_C",
+      "n_examples": 13,
+      "mean": -1.4423076923076923,
+      "minimum": -25.0,
+      "maximum": 25.0
+    },
+    {
+      "grouping": "knowledge_type",
+      "group": "conceptual",
+      "metric": "D_minus_B",
+      "n_examples": 13,
+      "mean": -0.4807692307692308,
+      "minimum": -6.25,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "knowledge_type",
+      "group": "conceptual",
+      "metric": "interaction",
+      "n_examples": 13,
+      "mean": -1.9230769230769231,
+      "minimum": -18.75,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "knowledge_type",
+      "group": "conceptual",
+      "metric": "charged_speedup_B_over_D",
+      "n_examples": 13,
+      "mean": 1.9940129102180026,
+      "minimum": 1.8288628230663462,
+      "maximum": 2.116707185637774
+    },
+    {
+      "grouping": "knowledge_type",
+      "group": "factual",
+      "metric": "B_minus_A",
+      "n_examples": 14,
+      "mean": -3.571428571428572,
+      "minimum": -50.0,
+      "maximum": 16.666666666666657
+    },
+    {
+      "grouping": "knowledge_type",
+      "group": "factual",
+      "metric": "D_minus_C",
+      "n_examples": 14,
+      "mean": -4.761904761904764,
+      "minimum": -50.0,
+      "maximum": 16.666666666666657
+    },
+    {
+      "grouping": "knowledge_type",
+      "group": "factual",
+      "metric": "D_minus_B",
+      "n_examples": 14,
+      "mean": -1.190476190476191,
+      "minimum": -16.66666666666667,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "knowledge_type",
+      "group": "factual",
+      "metric": "interaction",
+      "n_examples": 14,
+      "mean": -1.190476190476191,
+      "minimum": -16.66666666666667,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "knowledge_type",
+      "group": "factual",
+      "metric": "charged_speedup_B_over_D",
+      "n_examples": 14,
+      "mean": 1.9513987434629005,
+      "minimum": 1.573001105568795,
+      "maximum": 2.064526545330079
+    },
+    {
+      "grouping": "knowledge_type",
+      "group": "procedural",
+      "metric": "B_minus_A",
+      "n_examples": 13,
+      "mean": -1.6025641025641026,
+      "minimum": -43.75,
+      "maximum": 12.5
+    },
+    {
+      "grouping": "knowledge_type",
+      "group": "procedural",
+      "metric": "D_minus_C",
+      "n_examples": 13,
+      "mean": -1.6025641025641026,
+      "minimum": -43.75,
+      "maximum": 12.5
+    },
+    {
+      "grouping": "knowledge_type",
+      "group": "procedural",
+      "metric": "D_minus_B",
+      "n_examples": 13,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "knowledge_type",
+      "group": "procedural",
+      "metric": "interaction",
+      "n_examples": 13,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "knowledge_type",
+      "group": "procedural",
+      "metric": "charged_speedup_B_over_D",
+      "n_examples": 13,
+      "mean": 1.9168869415880243,
+      "minimum": 1.8254448113292299,
+      "maximum": 2.051852796985496
+    },
+    {
+      "grouping": "category",
+      "group": "abstract_reasoning",
+      "metric": "B_minus_A",
+      "n_examples": 1,
+      "mean": 6.25,
+      "minimum": 6.25,
+      "maximum": 6.25
+    },
+    {
+      "grouping": "category",
+      "group": "abstract_reasoning",
+      "metric": "D_minus_C",
+      "n_examples": 1,
+      "mean": 6.25,
+      "minimum": 6.25,
+      "maximum": 6.25
+    },
+    {
+      "grouping": "category",
+      "group": "abstract_reasoning",
+      "metric": "D_minus_B",
+      "n_examples": 1,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "abstract_reasoning",
+      "metric": "interaction",
+      "n_examples": 1,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "abstract_reasoning",
+      "metric": "charged_speedup_B_over_D",
+      "n_examples": 1,
+      "mean": 2.017583218085202,
+      "minimum": 2.017583218085202,
+      "maximum": 2.017583218085202
+    },
+    {
+      "grouping": "category",
+      "group": "anomaly_correction",
+      "metric": "B_minus_A",
+      "n_examples": 2,
+      "mean": 0.0,
+      "minimum": -8.333333333333336,
+      "maximum": 8.333333333333336
+    },
+    {
+      "grouping": "category",
+      "group": "anomaly_correction",
+      "metric": "D_minus_C",
+      "n_examples": 2,
+      "mean": 0.0,
+      "minimum": -8.333333333333336,
+      "maximum": 8.333333333333336
+    },
+    {
+      "grouping": "category",
+      "group": "anomaly_correction",
+      "metric": "D_minus_B",
+      "n_examples": 2,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "anomaly_correction",
+      "metric": "interaction",
+      "n_examples": 2,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "anomaly_correction",
+      "metric": "charged_speedup_B_over_D",
+      "n_examples": 2,
+      "mean": 1.984054717030542,
+      "minimum": 1.911839423988156,
+      "maximum": 2.056270010072928
+    },
+    {
+      "grouping": "category",
+      "group": "biology",
+      "metric": "B_minus_A",
+      "n_examples": 1,
+      "mean": 12.5,
+      "minimum": 12.5,
+      "maximum": 12.5
+    },
+    {
+      "grouping": "category",
+      "group": "biology",
+      "metric": "D_minus_C",
+      "n_examples": 1,
+      "mean": 12.5,
+      "minimum": 12.5,
+      "maximum": 12.5
+    },
+    {
+      "grouping": "category",
+      "group": "biology",
+      "metric": "D_minus_B",
+      "n_examples": 1,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "biology",
+      "metric": "interaction",
+      "n_examples": 1,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "biology",
+      "metric": "charged_speedup_B_over_D",
+      "n_examples": 1,
+      "mean": 2.018965664515516,
+      "minimum": 2.018965664515516,
+      "maximum": 2.018965664515516
+    },
+    {
+      "grouping": "category",
+      "group": "color_change",
+      "metric": "B_minus_A",
+      "n_examples": 1,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "color_change",
+      "metric": "D_minus_C",
+      "n_examples": 1,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "color_change",
+      "metric": "D_minus_B",
+      "n_examples": 1,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "color_change",
+      "metric": "interaction",
+      "n_examples": 1,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "color_change",
+      "metric": "charged_speedup_B_over_D",
+      "n_examples": 1,
+      "mean": 1.8487697663470248,
+      "minimum": 1.8487697663470248,
+      "maximum": 1.8487697663470248
+    },
+    {
+      "grouping": "category",
+      "group": "count_change",
+      "metric": "B_minus_A",
+      "n_examples": 3,
+      "mean": -11.111111111111114,
+      "minimum": -50.0,
+      "maximum": 16.666666666666657
+    },
+    {
+      "grouping": "category",
+      "group": "count_change",
+      "metric": "D_minus_C",
+      "n_examples": 3,
+      "mean": -11.111111111111114,
+      "minimum": -50.0,
+      "maximum": 16.666666666666657
+    },
+    {
+      "grouping": "category",
+      "group": "count_change",
+      "metric": "D_minus_B",
+      "n_examples": 3,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "count_change",
+      "metric": "interaction",
+      "n_examples": 3,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "count_change",
+      "metric": "charged_speedup_B_over_D",
+      "n_examples": 3,
+      "mean": 1.989229480239351,
+      "minimum": 1.9379794466633373,
+      "maximum": 2.016775292383582
+    },
+    {
+      "grouping": "category",
+      "group": "geography",
+      "metric": "B_minus_A",
+      "n_examples": 2,
+      "mean": -12.5,
+      "minimum": -18.75,
+      "maximum": -6.25
+    },
+    {
+      "grouping": "category",
+      "group": "geography",
+      "metric": "D_minus_C",
+      "n_examples": 2,
+      "mean": -15.625,
+      "minimum": -25.0,
+      "maximum": -6.25
+    },
+    {
+      "grouping": "category",
+      "group": "geography",
+      "metric": "D_minus_B",
+      "n_examples": 2,
+      "mean": -3.125,
+      "minimum": -6.25,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "geography",
+      "metric": "interaction",
+      "n_examples": 2,
+      "mean": -3.125,
+      "minimum": -6.25,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "geography",
+      "metric": "charged_speedup_B_over_D",
+      "n_examples": 2,
+      "mean": 1.8712622110738455,
+      "minimum": 1.8288628230663462,
+      "maximum": 1.9136615990813448
+    },
+    {
+      "grouping": "category",
+      "group": "humanities",
+      "metric": "B_minus_A",
+      "n_examples": 3,
+      "mean": -6.25,
+      "minimum": -18.75,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "humanities",
+      "metric": "D_minus_C",
+      "n_examples": 3,
+      "mean": -6.25,
+      "minimum": -18.75,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "humanities",
+      "metric": "D_minus_B",
+      "n_examples": 3,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "humanities",
+      "metric": "interaction",
+      "n_examples": 3,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "humanities",
+      "metric": "charged_speedup_B_over_D",
+      "n_examples": 3,
+      "mean": 1.9986678272192624,
+      "minimum": 1.8766974445841584,
+      "maximum": 2.098543487702605
+    },
+    {
+      "grouping": "category",
+      "group": "mathematics",
+      "metric": "B_minus_A",
+      "n_examples": 2,
+      "mean": 12.5,
+      "minimum": 0.0,
+      "maximum": 25.0
+    },
+    {
+      "grouping": "category",
+      "group": "mathematics",
+      "metric": "D_minus_C",
+      "n_examples": 2,
+      "mean": 12.5,
+      "minimum": 0.0,
+      "maximum": 25.0
+    },
+    {
+      "grouping": "category",
+      "group": "mathematics",
+      "metric": "D_minus_B",
+      "n_examples": 2,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "mathematics",
+      "metric": "interaction",
+      "n_examples": 2,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "mathematics",
+      "metric": "charged_speedup_B_over_D",
+      "n_examples": 2,
+      "mean": 2.016306208394603,
+      "minimum": 1.966291023763716,
+      "maximum": 2.0663213930254902
+    },
+    {
+      "grouping": "category",
+      "group": "medicine",
+      "metric": "B_minus_A",
+      "n_examples": 1,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "medicine",
+      "metric": "D_minus_C",
+      "n_examples": 1,
+      "mean": -18.75,
+      "minimum": -18.75,
+      "maximum": -18.75
+    },
+    {
+      "grouping": "category",
+      "group": "medicine",
+      "metric": "D_minus_B",
+      "n_examples": 1,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "medicine",
+      "metric": "interaction",
+      "n_examples": 1,
+      "mean": -18.75,
+      "minimum": -18.75,
+      "maximum": -18.75
+    },
+    {
+      "grouping": "category",
+      "group": "medicine",
+      "metric": "charged_speedup_B_over_D",
+      "n_examples": 1,
+      "mean": 2.116707185637774,
+      "minimum": 2.116707185637774,
+      "maximum": 2.116707185637774
+    },
+    {
+      "grouping": "category",
+      "group": "multi-instruction_execution",
+      "metric": "B_minus_A",
+      "n_examples": 6,
+      "mean": -1.3888888888888893,
+      "minimum": -8.333333333333336,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "multi-instruction_execution",
+      "metric": "D_minus_C",
+      "n_examples": 6,
+      "mean": -1.3888888888888893,
+      "minimum": -8.333333333333336,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "multi-instruction_execution",
+      "metric": "D_minus_B",
+      "n_examples": 6,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "multi-instruction_execution",
+      "metric": "interaction",
+      "n_examples": 6,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "multi-instruction_execution",
+      "metric": "charged_speedup_B_over_D",
+      "n_examples": 6,
+      "mean": 1.84309112740722,
+      "minimum": 1.8254448113292299,
+      "maximum": 1.8584603794094614
+    },
+    {
+      "grouping": "category",
+      "group": "physics",
+      "metric": "B_minus_A",
+      "n_examples": 2,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "physics",
+      "metric": "D_minus_C",
+      "n_examples": 2,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "physics",
+      "metric": "D_minus_B",
+      "n_examples": 2,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "physics",
+      "metric": "interaction",
+      "n_examples": 2,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "physics",
+      "metric": "charged_speedup_B_over_D",
+      "n_examples": 2,
+      "mean": 2.0173837128738445,
+      "minimum": 2.0097916945596936,
+      "maximum": 2.0249757311879955
+    },
+    {
+      "grouping": "category",
+      "group": "position_movement",
+      "metric": "B_minus_A",
+      "n_examples": 2,
+      "mean": -4.166666666666664,
+      "minimum": -8.333333333333329,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "position_movement",
+      "metric": "D_minus_C",
+      "n_examples": 2,
+      "mean": -12.5,
+      "minimum": -16.66666666666667,
+      "maximum": -8.333333333333329
+    },
+    {
+      "grouping": "category",
+      "group": "position_movement",
+      "metric": "D_minus_B",
+      "n_examples": 2,
+      "mean": -8.333333333333336,
+      "minimum": -16.66666666666667,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "position_movement",
+      "metric": "interaction",
+      "n_examples": 2,
+      "mean": -8.333333333333336,
+      "minimum": -16.66666666666667,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "position_movement",
+      "metric": "charged_speedup_B_over_D",
+      "n_examples": 2,
+      "mean": 1.9852524124966076,
+      "minimum": 1.9077732256949769,
+      "maximum": 2.0627315992982385
+    },
+    {
+      "grouping": "category",
+      "group": "practical_knowledge",
+      "metric": "B_minus_A",
+      "n_examples": 2,
+      "mean": 6.25,
+      "minimum": 0.0,
+      "maximum": 12.5
+    },
+    {
+      "grouping": "category",
+      "group": "practical_knowledge",
+      "metric": "D_minus_C",
+      "n_examples": 2,
+      "mean": 6.25,
+      "minimum": 0.0,
+      "maximum": 12.5
+    },
+    {
+      "grouping": "category",
+      "group": "practical_knowledge",
+      "metric": "D_minus_B",
+      "n_examples": 2,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "practical_knowledge",
+      "metric": "interaction",
+      "n_examples": 2,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "practical_knowledge",
+      "metric": "charged_speedup_B_over_D",
+      "n_examples": 2,
+      "mean": 1.990293618169184,
+      "minimum": 1.9354176988470964,
+      "maximum": 2.0451695374912715
+    },
+    {
+      "grouping": "category",
+      "group": "rule-based_reasoning",
+      "metric": "B_minus_A",
+      "n_examples": 6,
+      "mean": -3.125,
+      "minimum": -43.75,
+      "maximum": 12.5
+    },
+    {
+      "grouping": "category",
+      "group": "rule-based_reasoning",
+      "metric": "D_minus_C",
+      "n_examples": 6,
+      "mean": -3.125,
+      "minimum": -43.75,
+      "maximum": 12.5
+    },
+    {
+      "grouping": "category",
+      "group": "rule-based_reasoning",
+      "metric": "D_minus_B",
+      "n_examples": 6,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "rule-based_reasoning",
+      "metric": "interaction",
+      "n_examples": 6,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "rule-based_reasoning",
+      "metric": "charged_speedup_B_over_D",
+      "n_examples": 6,
+      "mean": 1.9739000430192994,
+      "minimum": 1.8519207649033733,
+      "maximum": 2.051852796985496
+    },
+    {
+      "grouping": "category",
+      "group": "size_adjustment",
+      "metric": "B_minus_A",
+      "n_examples": 4,
+      "mean": -2.083333333333334,
+      "minimum": -8.333333333333336,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "size_adjustment",
+      "metric": "D_minus_C",
+      "n_examples": 4,
+      "mean": -2.083333333333334,
+      "minimum": -8.333333333333336,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "size_adjustment",
+      "metric": "D_minus_B",
+      "n_examples": 4,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "size_adjustment",
+      "metric": "interaction",
+      "n_examples": 4,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "size_adjustment",
+      "metric": "charged_speedup_B_over_D",
+      "n_examples": 4,
+      "mean": 1.9909307277858441,
+      "minimum": 1.9185855652313726,
+      "maximum": 2.064526545330079
+    },
+    {
+      "grouping": "category",
+      "group": "viewpoint_change",
+      "metric": "B_minus_A",
+      "n_examples": 2,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "viewpoint_change",
+      "metric": "D_minus_C",
+      "n_examples": 2,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "viewpoint_change",
+      "metric": "D_minus_B",
+      "n_examples": 2,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "viewpoint_change",
+      "metric": "interaction",
+      "n_examples": 2,
+      "mean": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "grouping": "category",
+      "group": "viewpoint_change",
+      "metric": "charged_speedup_B_over_D",
+      "n_examples": 2,
+      "mean": 1.8003935156089264,
+      "minimum": 1.573001105568795,
+      "maximum": 2.027785925649058
+    }
+  ],
+  "main_examples": 40,
+  "ablation_examples": 20,
+  "region_step_records": 2800,
+  "region_step_summary_rows": 1008,
+  "notes": [
+    "Timing uses measured NSCC records; local plotting times are not inference performance.",
+    "Charged total is reconstructed and excludes initialization, model loading and saving.",
+    "Intervals describe example variability at one generation seed, not seed robustness or judge uncertainty.",
+    "Equal ratings and zero-width empirical intervals do not establish pixel identity or zero population variability.",
+    "Main quality and ablation quality use 40 and 20 paired examples respectively, not 800 independent observations.",
+    "Subgroups are descriptive and were explored after observing the main results."
+  ]
+}

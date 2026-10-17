@@ -1,0 +1,3409 @@
+{
+  "quantitative": {
+    "primary_effect_source": "Unchanged canonical NSCC report.json",
+    "supplementary_interval_method": "Percentile bootstrap across examples after within-example timing medians",
+    "bootstrap_resamples": 10000,
+    "confidence": 0.95,
+    "bootstrap_seed": 42,
+    "condition_summaries": [
+      {
+        "cohort": "main40",
+        "condition": "A",
+        "metric": "Q",
+        "n_examples": 40,
+        "mean": 53.59375,
+        "ci_low": 48.802083333333336,
+        "ci_high": 57.91666666666667
+      },
+      {
+        "cohort": "main40",
+        "condition": "A",
+        "metric": "diffusion_seconds",
+        "n_examples": 40,
+        "mean": 56.948067723755955,
+        "ci_low": 56.66426078408731,
+        "ci_high": 57.24081064974583
+      },
+      {
+        "cohort": "main40",
+        "condition": "A",
+        "metric": "charged_total_seconds",
+        "n_examples": 40,
+        "mean": 66.66593733649643,
+        "ci_low": 66.12411551804973,
+        "ci_high": 67.24512767285837
+      },
+      {
+        "cohort": "main40",
+        "condition": "A",
+        "metric": "measured_replay_seconds",
+        "n_examples": 40,
+        "mean": 66.66593733649643,
+        "ci_low": 66.12411551804973,
+        "ci_high": 67.24512767285837
+      },
+      {
+        "cohort": "main40",
+        "condition": "A",
+        "metric": "peak_vram_bytes",
+        "n_examples": 40,
+        "mean": 25889427059.2,
+        "ci_low": 25886738984.0,
+        "ci_high": 25892217427.84
+      },
+      {
+        "cohort": "main40",
+        "condition": "B",
+        "metric": "Q",
+        "n_examples": 40,
+        "mean": 51.97916666666667,
+        "ci_low": 45.9375,
+        "ci_high": 57.55208333333333
+      },
+      {
+        "cohort": "main40",
+        "condition": "B",
+        "metric": "diffusion_seconds",
+        "n_examples": 40,
+        "mean": 56.88817443328735,
+        "ci_low": 56.60231066446126,
+        "ci_high": 57.18091834980791
+      },
+      {
+        "cohort": "main40",
+        "condition": "B",
+        "metric": "charged_total_seconds",
+        "n_examples": 40,
+        "mean": 72.06942792840127,
+        "ci_low": 71.15952439996603,
+        "ci_high": 73.07422290783376
+      },
+      {
+        "cohort": "main40",
+        "condition": "B",
+        "metric": "measured_replay_seconds",
+        "n_examples": 40,
+        "mean": 66.65469588313427,
+        "ci_low": 66.07223734930812,
+        "ci_high": 67.27159047854576
+      },
+      {
+        "cohort": "main40",
+        "condition": "B",
+        "metric": "peak_vram_bytes",
+        "n_examples": 40,
+        "mean": 25889127040.0,
+        "ci_low": 25886661955.2,
+        "ci_high": 25891742296.96
+      },
+      {
+        "cohort": "main40",
+        "condition": "C",
+        "metric": "Q",
+        "n_examples": 40,
+        "mean": 54.0625,
+        "ci_low": 49.21875000000001,
+        "ci_high": 58.333333333333336
+      },
+      {
+        "cohort": "main40",
+        "condition": "C",
+        "metric": "diffusion_seconds",
+        "n_examples": 40,
+        "mean": 21.791312847609515,
+        "ci_low": 21.4039323576224,
+        "ci_high": 22.188754056719848
+      },
+      {
+        "cohort": "main40",
+        "condition": "C",
+        "metric": "charged_total_seconds",
+        "n_examples": 40,
+        "mean": 31.50378749219817,
+        "ci_low": 30.85575713597085,
+        "ci_high": 32.192333950461475
+      },
+      {
+        "cohort": "main40",
+        "condition": "C",
+        "metric": "measured_replay_seconds",
+        "n_examples": 40,
+        "mean": 31.50378749219817,
+        "ci_low": 30.85575713597085,
+        "ci_high": 32.192333950461475
+      },
+      {
+        "cohort": "main40",
+        "condition": "C",
+        "metric": "peak_vram_bytes",
+        "n_examples": 40,
+        "mean": 37661136908.8,
+        "ci_low": 37629712050.56,
+        "ci_high": 37692366614.72
+      },
+      {
+        "cohort": "main40",
+        "condition": "D",
+        "metric": "Q",
+        "n_examples": 40,
+        "mean": 51.40625,
+        "ci_low": 45.36458333333333,
+        "ci_high": 56.980468749999986
+      },
+      {
+        "cohort": "main40",
+        "condition": "D",
+        "metric": "diffusion_seconds",
+        "n_examples": 40,
+        "mean": 22.09651194176404,
+        "ci_low": 21.59509132160085,
+        "ci_high": 22.694537111448373
+      },
+      {
+        "cohort": "main40",
+        "condition": "D",
+        "metric": "charged_total_seconds",
+        "n_examples": 40,
+        "mean": 37.0548550019419,
+        "ci_low": 36.058880979271414,
+        "ci_high": 38.1537655205965
+      },
+      {
+        "cohort": "main40",
+        "condition": "D",
+        "metric": "measured_replay_seconds",
+        "n_examples": 40,
+        "mean": 31.721910697239217,
+        "ci_low": 30.984200560417374,
+        "ci_high": 32.59237627347771
+      },
+      {
+        "cohort": "main40",
+        "condition": "D",
+        "metric": "peak_vram_bytes",
+        "n_examples": 40,
+        "mean": 37660535923.2,
+        "ci_low": 37629489921.92,
+        "ci_high": 37691773291.520004
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "B",
+        "metric": "Q",
+        "n_examples": 20,
+        "mean": 53.125,
+        "ci_low": 45.520833333333336,
+        "ci_high": 59.47916666666667
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "B",
+        "metric": "diffusion_seconds",
+        "n_examples": 20,
+        "mean": 56.655821991094854,
+        "ci_low": 56.30152381862033,
+        "ci_high": 57.010171759696966
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "B",
+        "metric": "charged_total_seconds",
+        "n_examples": 20,
+        "mean": 71.80945274634287,
+        "ci_low": 70.5324396310719,
+        "ci_high": 73.29157556270191
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "B",
+        "metric": "measured_replay_seconds",
+        "n_examples": 20,
+        "mean": 66.57204885464162,
+        "ci_low": 65.76724390465635,
+        "ci_high": 67.44209410506446
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "B",
+        "metric": "peak_vram_bytes",
+        "n_examples": 20,
+        "mean": 25887092556.8,
+        "ci_low": 25884058663.04,
+        "ci_high": 25890194579.84
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "D",
+        "metric": "Q",
+        "n_examples": 20,
+        "mean": 53.125,
+        "ci_low": 45.520833333333336,
+        "ci_high": 59.47916666666667
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "D",
+        "metric": "diffusion_seconds",
+        "n_examples": 20,
+        "mean": 21.75470314588165,
+        "ci_low": 21.200617099119842,
+        "ci_high": 22.310263423782597
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "D",
+        "metric": "charged_total_seconds",
+        "n_examples": 20,
+        "mean": 36.58460605429136,
+        "ci_low": 35.47887767792112,
+        "ci_high": 37.83908806255625
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "D",
+        "metric": "measured_replay_seconds",
+        "n_examples": 20,
+        "mean": 31.323799255833727,
+        "ci_low": 30.592067431037282,
+        "ci_high": 32.09078827180274
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "D",
+        "metric": "peak_vram_bytes",
+        "n_examples": 20,
+        "mean": 37636803916.8,
+        "ci_low": 37593704893.44,
+        "ci_high": 37678337240.96
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "E",
+        "metric": "Q",
+        "n_examples": 20,
+        "mean": 48.95833333333333,
+        "ci_low": 42.395833333333336,
+        "ci_high": 54.0625
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "E",
+        "metric": "diffusion_seconds",
+        "n_examples": 20,
+        "mean": 20.583194817142793,
+        "ci_low": 20.03076115543401,
+        "ci_high": 21.13143129387565
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "E",
+        "metric": "charged_total_seconds",
+        "n_examples": 20,
+        "mean": 35.48596673218999,
+        "ci_low": 34.306682406495966,
+        "ci_high": 36.81060441789566
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "E",
+        "metric": "measured_replay_seconds",
+        "n_examples": 20,
+        "mean": 30.3138458182686,
+        "ci_low": 29.467569673438266,
+        "ci_high": 31.22686355551923
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "E",
+        "metric": "peak_vram_bytes",
+        "n_examples": 20,
+        "mean": 25896154598.4,
+        "ci_low": 25893104839.04,
+        "ci_high": 25899269648.0
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "F",
+        "metric": "Q",
+        "n_examples": 20,
+        "mean": 53.125,
+        "ci_low": 45.520833333333336,
+        "ci_high": 59.47916666666667
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "F",
+        "metric": "diffusion_seconds",
+        "n_examples": 20,
+        "mean": 34.42062577722827,
+        "ci_low": 32.004965654173425,
+        "ci_high": 36.82340295626782
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "F",
+        "metric": "charged_total_seconds",
+        "n_examples": 20,
+        "mean": 49.26803595123929,
+        "ci_low": 46.689020438025615,
+        "ci_high": 51.88440966155904
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "F",
+        "metric": "measured_replay_seconds",
+        "n_examples": 20,
+        "mean": 44.12444629368256,
+        "ci_low": 41.71977910277404,
+        "ci_high": 46.532055657414745
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "F",
+        "metric": "peak_vram_bytes",
+        "n_examples": 20,
+        "mean": 37636803916.8,
+        "ci_low": 37593704893.44,
+        "ci_high": 37678337240.96
+      }
+    ],
+    "speedups": [
+      {
+        "cohort": "main40",
+        "condition": "D",
+        "baseline": "B",
+        "metric": "diffusion_seconds",
+        "estimator": "mean_within_example_baseline_over_condition",
+        "n_examples": 40,
+        "mean": 2.5884571293517338,
+        "ci_low": 2.5319619459437734,
+        "ci_high": 2.6376025060168358,
+        "ratio_of_means": 2.574531880109299
+      },
+      {
+        "cohort": "main40",
+        "condition": "D",
+        "baseline": "B",
+        "metric": "charged_total_seconds",
+        "estimator": "mean_within_example_baseline_over_condition",
+        "n_examples": 40,
+        "mean": 1.9540320120489738,
+        "ci_low": 1.9203086525899902,
+        "ci_high": 1.9849946461788364,
+        "ratio_of_means": 1.9449388730471187
+      },
+      {
+        "cohort": "main40",
+        "condition": "C",
+        "baseline": "A",
+        "metric": "diffusion_seconds",
+        "estimator": "mean_within_example_baseline_over_condition",
+        "n_examples": 40,
+        "mean": 2.621145117581677,
+        "ci_low": 2.5794226582441278,
+        "ci_high": 2.66076416986379,
+        "ratio_of_means": 2.613338082106563
+      },
+      {
+        "cohort": "main40",
+        "condition": "C",
+        "baseline": "A",
+        "metric": "charged_total_seconds",
+        "estimator": "mean_within_example_baseline_over_condition",
+        "n_examples": 40,
+        "mean": 2.123029008337769,
+        "ci_low": 2.089699392489045,
+        "ci_high": 2.154296041614797,
+        "ratio_of_means": 2.116124524805345
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "D",
+        "baseline": "B",
+        "metric": "diffusion_seconds",
+        "estimator": "mean_within_example_baseline_over_condition",
+        "n_examples": 20,
+        "mean": 2.6117951558469255,
+        "ci_low": 2.5543457730374133,
+        "ci_high": 2.670480542496631,
+        "ratio_of_means": 2.604302233460735
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "D",
+        "baseline": "B",
+        "metric": "charged_total_seconds",
+        "estimator": "mean_within_example_baseline_over_condition",
+        "n_examples": 20,
+        "mean": 1.9677971965241903,
+        "ci_low": 1.932397933283188,
+        "ci_high": 2.0019813275627727,
+        "ratio_of_means": 1.9628324722091586
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "E",
+        "baseline": "B",
+        "metric": "diffusion_seconds",
+        "estimator": "mean_within_example_baseline_over_condition",
+        "n_examples": 20,
+        "mean": 2.7612008416009055,
+        "ci_low": 2.697732389700698,
+        "ci_high": 2.825019167568523,
+        "ratio_of_means": 2.752528093642141
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "E",
+        "baseline": "B",
+        "metric": "charged_total_seconds",
+        "estimator": "mean_within_example_baseline_over_condition",
+        "n_examples": 20,
+        "mean": 2.0304330859036503,
+        "ci_low": 1.9874075394797515,
+        "ci_high": 2.0710353151655143,
+        "ratio_of_means": 2.023601422170166
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "F",
+        "baseline": "B",
+        "metric": "diffusion_seconds",
+        "estimator": "mean_within_example_baseline_over_condition",
+        "n_examples": 20,
+        "mean": 1.6867868407492925,
+        "ci_low": 1.5745113102767152,
+        "ci_high": 1.804271757423658,
+        "ratio_of_means": 1.6459846592497682
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "F",
+        "baseline": "B",
+        "metric": "charged_total_seconds",
+        "estimator": "mean_within_example_baseline_over_condition",
+        "n_examples": 20,
+        "mean": 1.4751328510282178,
+        "ci_low": 1.4069370310629794,
+        "ci_high": 1.5453836044241296,
+        "ratio_of_means": 1.4575261903562156
+      }
+    ],
+    "rating_ties": [
+      {
+        "cohort": "main40",
+        "contrast": "B_minus_A",
+        "metric": "Q",
+        "n_examples": 40,
+        "ties": 22,
+        "tie_fraction": 0.55,
+        "higher": 9,
+        "lower": 9
+      },
+      {
+        "cohort": "main40",
+        "contrast": "B_minus_A",
+        "metric": "consistency_score",
+        "n_examples": 40,
+        "ties": 27,
+        "tie_fraction": 0.675,
+        "higher": 6,
+        "lower": 7
+      },
+      {
+        "cohort": "main40",
+        "contrast": "B_minus_A",
+        "metric": "instruction_score",
+        "n_examples": 40,
+        "ties": 30,
+        "tie_fraction": 0.75,
+        "higher": 6,
+        "lower": 4
+      },
+      {
+        "cohort": "main40",
+        "contrast": "B_minus_A",
+        "metric": "quality_score",
+        "n_examples": 40,
+        "ties": 36,
+        "tie_fraction": 0.9,
+        "higher": 1,
+        "lower": 3
+      },
+      {
+        "cohort": "main40",
+        "contrast": "B_minus_A",
+        "metric": "knowledge_score",
+        "n_examples": 20,
+        "ties": 13,
+        "tie_fraction": 0.65,
+        "higher": 4,
+        "lower": 3
+      },
+      {
+        "cohort": "main40",
+        "contrast": "B_minus_A",
+        "metric": "all_applicable_components",
+        "n_examples": 40,
+        "ties": 21,
+        "tie_fraction": 0.525,
+        "higher": null,
+        "lower": null
+      },
+      {
+        "cohort": "main40",
+        "contrast": "D_minus_C",
+        "metric": "Q",
+        "n_examples": 40,
+        "ties": 20,
+        "tie_fraction": 0.5,
+        "higher": 9,
+        "lower": 11
+      },
+      {
+        "cohort": "main40",
+        "contrast": "D_minus_C",
+        "metric": "consistency_score",
+        "n_examples": 40,
+        "ties": 25,
+        "tie_fraction": 0.625,
+        "higher": 6,
+        "lower": 9
+      },
+      {
+        "cohort": "main40",
+        "contrast": "D_minus_C",
+        "metric": "instruction_score",
+        "n_examples": 40,
+        "ties": 28,
+        "tie_fraction": 0.7,
+        "higher": 6,
+        "lower": 6
+      },
+      {
+        "cohort": "main40",
+        "contrast": "D_minus_C",
+        "metric": "quality_score",
+        "n_examples": 40,
+        "ties": 36,
+        "tie_fraction": 0.9,
+        "higher": 1,
+        "lower": 3
+      },
+      {
+        "cohort": "main40",
+        "contrast": "D_minus_C",
+        "metric": "knowledge_score",
+        "n_examples": 20,
+        "ties": 12,
+        "tie_fraction": 0.6,
+        "higher": 4,
+        "lower": 4
+      },
+      {
+        "cohort": "main40",
+        "contrast": "D_minus_C",
+        "metric": "all_applicable_components",
+        "n_examples": 40,
+        "ties": 19,
+        "tie_fraction": 0.475,
+        "higher": null,
+        "lower": null
+      },
+      {
+        "cohort": "main40",
+        "contrast": "D_minus_B",
+        "metric": "Q",
+        "n_examples": 40,
+        "ties": 38,
+        "tie_fraction": 0.95,
+        "higher": 0,
+        "lower": 2
+      },
+      {
+        "cohort": "main40",
+        "contrast": "D_minus_B",
+        "metric": "consistency_score",
+        "n_examples": 40,
+        "ties": 38,
+        "tie_fraction": 0.95,
+        "higher": 0,
+        "lower": 2
+      },
+      {
+        "cohort": "main40",
+        "contrast": "D_minus_B",
+        "metric": "instruction_score",
+        "n_examples": 40,
+        "ties": 39,
+        "tie_fraction": 0.975,
+        "higher": 0,
+        "lower": 1
+      },
+      {
+        "cohort": "main40",
+        "contrast": "D_minus_B",
+        "metric": "quality_score",
+        "n_examples": 40,
+        "ties": 40,
+        "tie_fraction": 1.0,
+        "higher": 0,
+        "lower": 0
+      },
+      {
+        "cohort": "main40",
+        "contrast": "D_minus_B",
+        "metric": "knowledge_score",
+        "n_examples": 20,
+        "ties": 20,
+        "tie_fraction": 1.0,
+        "higher": 0,
+        "lower": 0
+      },
+      {
+        "cohort": "main40",
+        "contrast": "D_minus_B",
+        "metric": "all_applicable_components",
+        "n_examples": 40,
+        "ties": 38,
+        "tie_fraction": 0.95,
+        "higher": null,
+        "lower": null
+      },
+      {
+        "cohort": "main40",
+        "contrast": "C_minus_A",
+        "metric": "Q",
+        "n_examples": 40,
+        "ties": 39,
+        "tie_fraction": 0.975,
+        "higher": 1,
+        "lower": 0
+      },
+      {
+        "cohort": "main40",
+        "contrast": "C_minus_A",
+        "metric": "consistency_score",
+        "n_examples": 40,
+        "ties": 40,
+        "tie_fraction": 1.0,
+        "higher": 0,
+        "lower": 0
+      },
+      {
+        "cohort": "main40",
+        "contrast": "C_minus_A",
+        "metric": "instruction_score",
+        "n_examples": 40,
+        "ties": 39,
+        "tie_fraction": 0.975,
+        "higher": 1,
+        "lower": 0
+      },
+      {
+        "cohort": "main40",
+        "contrast": "C_minus_A",
+        "metric": "quality_score",
+        "n_examples": 40,
+        "ties": 40,
+        "tie_fraction": 1.0,
+        "higher": 0,
+        "lower": 0
+      },
+      {
+        "cohort": "main40",
+        "contrast": "C_minus_A",
+        "metric": "knowledge_score",
+        "n_examples": 20,
+        "ties": 19,
+        "tie_fraction": 0.95,
+        "higher": 1,
+        "lower": 0
+      },
+      {
+        "cohort": "main40",
+        "contrast": "C_minus_A",
+        "metric": "all_applicable_components",
+        "n_examples": 40,
+        "ties": 39,
+        "tie_fraction": 0.975,
+        "higher": null,
+        "lower": null
+      },
+      {
+        "cohort": "ablation20",
+        "contrast": "D_minus_B",
+        "metric": "Q",
+        "n_examples": 20,
+        "ties": 20,
+        "tie_fraction": 1.0,
+        "higher": 0,
+        "lower": 0
+      },
+      {
+        "cohort": "ablation20",
+        "contrast": "D_minus_B",
+        "metric": "consistency_score",
+        "n_examples": 20,
+        "ties": 20,
+        "tie_fraction": 1.0,
+        "higher": 0,
+        "lower": 0
+      },
+      {
+        "cohort": "ablation20",
+        "contrast": "D_minus_B",
+        "metric": "instruction_score",
+        "n_examples": 20,
+        "ties": 20,
+        "tie_fraction": 1.0,
+        "higher": 0,
+        "lower": 0
+      },
+      {
+        "cohort": "ablation20",
+        "contrast": "D_minus_B",
+        "metric": "quality_score",
+        "n_examples": 20,
+        "ties": 20,
+        "tie_fraction": 1.0,
+        "higher": 0,
+        "lower": 0
+      },
+      {
+        "cohort": "ablation20",
+        "contrast": "D_minus_B",
+        "metric": "knowledge_score",
+        "n_examples": 11,
+        "ties": 11,
+        "tie_fraction": 1.0,
+        "higher": 0,
+        "lower": 0
+      },
+      {
+        "cohort": "ablation20",
+        "contrast": "D_minus_B",
+        "metric": "all_applicable_components",
+        "n_examples": 20,
+        "ties": 20,
+        "tie_fraction": 1.0,
+        "higher": null,
+        "lower": null
+      },
+      {
+        "cohort": "ablation20",
+        "contrast": "E_minus_D",
+        "metric": "Q",
+        "n_examples": 20,
+        "ties": 12,
+        "tie_fraction": 0.6,
+        "higher": 1,
+        "lower": 7
+      },
+      {
+        "cohort": "ablation20",
+        "contrast": "E_minus_D",
+        "metric": "consistency_score",
+        "n_examples": 20,
+        "ties": 12,
+        "tie_fraction": 0.6,
+        "higher": 1,
+        "lower": 7
+      },
+      {
+        "cohort": "ablation20",
+        "contrast": "E_minus_D",
+        "metric": "instruction_score",
+        "n_examples": 20,
+        "ties": 17,
+        "tie_fraction": 0.85,
+        "higher": 1,
+        "lower": 2
+      },
+      {
+        "cohort": "ablation20",
+        "contrast": "E_minus_D",
+        "metric": "quality_score",
+        "n_examples": 20,
+        "ties": 20,
+        "tie_fraction": 1.0,
+        "higher": 0,
+        "lower": 0
+      },
+      {
+        "cohort": "ablation20",
+        "contrast": "E_minus_D",
+        "metric": "knowledge_score",
+        "n_examples": 11,
+        "ties": 10,
+        "tie_fraction": 0.9090909090909091,
+        "higher": 0,
+        "lower": 1
+      },
+      {
+        "cohort": "ablation20",
+        "contrast": "E_minus_D",
+        "metric": "all_applicable_components",
+        "n_examples": 20,
+        "ties": 12,
+        "tie_fraction": 0.6,
+        "higher": null,
+        "lower": null
+      },
+      {
+        "cohort": "ablation20",
+        "contrast": "F_minus_D",
+        "metric": "Q",
+        "n_examples": 20,
+        "ties": 20,
+        "tie_fraction": 1.0,
+        "higher": 0,
+        "lower": 0
+      },
+      {
+        "cohort": "ablation20",
+        "contrast": "F_minus_D",
+        "metric": "consistency_score",
+        "n_examples": 20,
+        "ties": 20,
+        "tie_fraction": 1.0,
+        "higher": 0,
+        "lower": 0
+      },
+      {
+        "cohort": "ablation20",
+        "contrast": "F_minus_D",
+        "metric": "instruction_score",
+        "n_examples": 20,
+        "ties": 20,
+        "tie_fraction": 1.0,
+        "higher": 0,
+        "lower": 0
+      },
+      {
+        "cohort": "ablation20",
+        "contrast": "F_minus_D",
+        "metric": "quality_score",
+        "n_examples": 20,
+        "ties": 20,
+        "tie_fraction": 1.0,
+        "higher": 0,
+        "lower": 0
+      },
+      {
+        "cohort": "ablation20",
+        "contrast": "F_minus_D",
+        "metric": "knowledge_score",
+        "n_examples": 11,
+        "ties": 11,
+        "tie_fraction": 1.0,
+        "higher": 0,
+        "lower": 0
+      },
+      {
+        "cohort": "ablation20",
+        "contrast": "F_minus_D",
+        "metric": "all_applicable_components",
+        "n_examples": 20,
+        "ties": 20,
+        "tie_fraction": 1.0,
+        "higher": null,
+        "lower": null
+      },
+      {
+        "cohort": "ablation20",
+        "contrast": "E_minus_B",
+        "metric": "Q",
+        "n_examples": 20,
+        "ties": 12,
+        "tie_fraction": 0.6,
+        "higher": 1,
+        "lower": 7
+      },
+      {
+        "cohort": "ablation20",
+        "contrast": "E_minus_B",
+        "metric": "consistency_score",
+        "n_examples": 20,
+        "ties": 12,
+        "tie_fraction": 0.6,
+        "higher": 1,
+        "lower": 7
+      },
+      {
+        "cohort": "ablation20",
+        "contrast": "E_minus_B",
+        "metric": "instruction_score",
+        "n_examples": 20,
+        "ties": 17,
+        "tie_fraction": 0.85,
+        "higher": 1,
+        "lower": 2
+      },
+      {
+        "cohort": "ablation20",
+        "contrast": "E_minus_B",
+        "metric": "quality_score",
+        "n_examples": 20,
+        "ties": 20,
+        "tie_fraction": 1.0,
+        "higher": 0,
+        "lower": 0
+      },
+      {
+        "cohort": "ablation20",
+        "contrast": "E_minus_B",
+        "metric": "knowledge_score",
+        "n_examples": 11,
+        "ties": 10,
+        "tie_fraction": 0.9090909090909091,
+        "higher": 0,
+        "lower": 1
+      },
+      {
+        "cohort": "ablation20",
+        "contrast": "E_minus_B",
+        "metric": "all_applicable_components",
+        "n_examples": 20,
+        "ties": 12,
+        "tie_fraction": 0.6,
+        "higher": null,
+        "lower": null
+      },
+      {
+        "cohort": "ablation20",
+        "contrast": "F_minus_B",
+        "metric": "Q",
+        "n_examples": 20,
+        "ties": 20,
+        "tie_fraction": 1.0,
+        "higher": 0,
+        "lower": 0
+      },
+      {
+        "cohort": "ablation20",
+        "contrast": "F_minus_B",
+        "metric": "consistency_score",
+        "n_examples": 20,
+        "ties": 20,
+        "tie_fraction": 1.0,
+        "higher": 0,
+        "lower": 0
+      },
+      {
+        "cohort": "ablation20",
+        "contrast": "F_minus_B",
+        "metric": "instruction_score",
+        "n_examples": 20,
+        "ties": 20,
+        "tie_fraction": 1.0,
+        "higher": 0,
+        "lower": 0
+      },
+      {
+        "cohort": "ablation20",
+        "contrast": "F_minus_B",
+        "metric": "quality_score",
+        "n_examples": 20,
+        "ties": 20,
+        "tie_fraction": 1.0,
+        "higher": 0,
+        "lower": 0
+      },
+      {
+        "cohort": "ablation20",
+        "contrast": "F_minus_B",
+        "metric": "knowledge_score",
+        "n_examples": 11,
+        "ties": 11,
+        "tie_fraction": 1.0,
+        "higher": 0,
+        "lower": 0
+      },
+      {
+        "cohort": "ablation20",
+        "contrast": "F_minus_B",
+        "metric": "all_applicable_components",
+        "n_examples": 20,
+        "ties": 20,
+        "tie_fraction": 1.0,
+        "higher": null,
+        "lower": null
+      }
+    ],
+    "component_means": [
+      {
+        "cohort": "main40",
+        "condition": "A",
+        "metric": "consistency_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 40,
+        "mean": 37.5,
+        "ci_low": 28.125,
+        "ci_high": 47.5
+      },
+      {
+        "cohort": "main40",
+        "condition": "A",
+        "metric": "instruction_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 40,
+        "mean": 56.25,
+        "ci_low": 49.375,
+        "ci_high": 62.5
+      },
+      {
+        "cohort": "main40",
+        "condition": "A",
+        "metric": "quality_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 40,
+        "mean": 70.625,
+        "ci_low": 65.625,
+        "ci_high": 74.375
+      },
+      {
+        "cohort": "main40",
+        "condition": "A",
+        "metric": "knowledge_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 20,
+        "mean": 47.5,
+        "ci_low": 37.5,
+        "ci_high": 56.25
+      },
+      {
+        "cohort": "main40",
+        "condition": "B",
+        "metric": "consistency_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 40,
+        "mean": 36.875,
+        "ci_low": 27.5,
+        "ci_high": 46.25
+      },
+      {
+        "cohort": "main40",
+        "condition": "B",
+        "metric": "instruction_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 40,
+        "mean": 56.25,
+        "ci_low": 48.75,
+        "ci_high": 63.125
+      },
+      {
+        "cohort": "main40",
+        "condition": "B",
+        "metric": "quality_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 40,
+        "mean": 67.5,
+        "ci_low": 61.25,
+        "ci_high": 72.5
+      },
+      {
+        "cohort": "main40",
+        "condition": "B",
+        "metric": "knowledge_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 20,
+        "mean": 45.0,
+        "ci_low": 32.5,
+        "ci_high": 56.25
+      },
+      {
+        "cohort": "main40",
+        "condition": "C",
+        "metric": "consistency_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 40,
+        "mean": 37.5,
+        "ci_low": 28.125,
+        "ci_high": 47.5
+      },
+      {
+        "cohort": "main40",
+        "condition": "C",
+        "metric": "instruction_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 40,
+        "mean": 56.875,
+        "ci_low": 50.625,
+        "ci_high": 63.125
+      },
+      {
+        "cohort": "main40",
+        "condition": "C",
+        "metric": "quality_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 40,
+        "mean": 70.625,
+        "ci_low": 65.625,
+        "ci_high": 74.375
+      },
+      {
+        "cohort": "main40",
+        "condition": "C",
+        "metric": "knowledge_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 20,
+        "mean": 50.0,
+        "ci_low": 41.25,
+        "ci_high": 57.5
+      },
+      {
+        "cohort": "main40",
+        "condition": "D",
+        "metric": "consistency_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 40,
+        "mean": 35.625,
+        "ci_low": 26.25,
+        "ci_high": 45.0
+      },
+      {
+        "cohort": "main40",
+        "condition": "D",
+        "metric": "instruction_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 40,
+        "mean": 55.625,
+        "ci_low": 48.125,
+        "ci_high": 62.5
+      },
+      {
+        "cohort": "main40",
+        "condition": "D",
+        "metric": "quality_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 40,
+        "mean": 67.5,
+        "ci_low": 61.25,
+        "ci_high": 72.5
+      },
+      {
+        "cohort": "main40",
+        "condition": "D",
+        "metric": "knowledge_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 20,
+        "mean": 45.0,
+        "ci_low": 32.5,
+        "ci_high": 56.25
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "B",
+        "metric": "consistency_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 20,
+        "mean": 37.5,
+        "ci_low": 25.0,
+        "ci_high": 50.0
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "B",
+        "metric": "instruction_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 20,
+        "mean": 55.0,
+        "ci_low": 45.0,
+        "ci_high": 63.75
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "B",
+        "metric": "quality_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 20,
+        "mean": 71.25,
+        "ci_low": 63.75,
+        "ci_high": 75.0
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "B",
+        "metric": "knowledge_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 11,
+        "mean": 45.45454545454545,
+        "ci_low": 31.761363636364138,
+        "ci_high": 56.874999999999176
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "D",
+        "metric": "consistency_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 20,
+        "mean": 37.5,
+        "ci_low": 25.0,
+        "ci_high": 50.0
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "D",
+        "metric": "instruction_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 20,
+        "mean": 55.0,
+        "ci_low": 45.0,
+        "ci_high": 63.75
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "D",
+        "metric": "quality_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 20,
+        "mean": 71.25,
+        "ci_low": 63.75,
+        "ci_high": 75.0
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "D",
+        "metric": "knowledge_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 11,
+        "mean": 45.45454545454545,
+        "ci_low": 31.761363636364138,
+        "ci_high": 56.874999999999176
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "E",
+        "metric": "consistency_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 20,
+        "mean": 26.25,
+        "ci_low": 16.25,
+        "ci_high": 37.5
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "E",
+        "metric": "instruction_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 20,
+        "mean": 52.5,
+        "ci_low": 43.75,
+        "ci_high": 60.0
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "E",
+        "metric": "quality_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 20,
+        "mean": 71.25,
+        "ci_low": 63.75,
+        "ci_high": 75.0
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "E",
+        "metric": "knowledge_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 11,
+        "mean": 43.18181818181818,
+        "ci_low": 29.545454545454547,
+        "ci_high": 54.54545454545455
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "F",
+        "metric": "consistency_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 20,
+        "mean": 37.5,
+        "ci_low": 25.0,
+        "ci_high": 50.0
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "F",
+        "metric": "instruction_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 20,
+        "mean": 55.0,
+        "ci_low": 45.0,
+        "ci_high": 63.75
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "F",
+        "metric": "quality_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 20,
+        "mean": 71.25,
+        "ci_low": 63.75,
+        "ci_high": 75.0
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "F",
+        "metric": "knowledge_score",
+        "normalization": "25*(raw_score-1)",
+        "n_examples": 11,
+        "mean": 45.45454545454545,
+        "ci_low": 31.761363636364138,
+        "ci_high": 56.874999999999176
+      }
+    ],
+    "resource_summaries": [
+      {
+        "cohort": "main40",
+        "condition": "A",
+        "metric": "thinking_seconds",
+        "n_examples": 40,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      {
+        "cohort": "main40",
+        "condition": "A",
+        "metric": "thinking_offload_seconds",
+        "n_examples": 40,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      {
+        "cohort": "main40",
+        "condition": "A",
+        "metric": "diffusion_seconds",
+        "n_examples": 40,
+        "mean": 56.948067723755955,
+        "ci_low": 56.66426078408731,
+        "ci_high": 57.24081064974583
+      },
+      {
+        "cohort": "main40",
+        "condition": "A",
+        "metric": "offload_seconds",
+        "n_examples": 40,
+        "mean": 8.770889453220297,
+        "ci_low": 8.393588507088717,
+        "ci_high": 9.182415412262344
+      },
+      {
+        "cohort": "main40",
+        "condition": "A",
+        "metric": "measured_replay_seconds",
+        "n_examples": 40,
+        "mean": 66.66593733649643,
+        "ci_low": 66.12411551804973,
+        "ci_high": 67.24512767285837
+      },
+      {
+        "cohort": "main40",
+        "condition": "A",
+        "metric": "charged_total_seconds",
+        "n_examples": 40,
+        "mean": 66.66593733649643,
+        "ci_low": 66.12411551804973,
+        "ci_high": 67.24512767285837
+      },
+      {
+        "cohort": "main40",
+        "condition": "A",
+        "metric": "peak_vram_bytes",
+        "n_examples": 40,
+        "mean": 25889427059.2,
+        "ci_low": 25886738984.0,
+        "ci_high": 25892217427.84
+      },
+      {
+        "cohort": "main40",
+        "condition": "B",
+        "metric": "thinking_seconds",
+        "n_examples": 40,
+        "mean": 1.5456811947893585,
+        "ci_low": 1.2003653226431197,
+        "ci_high": 1.946440230570515
+      },
+      {
+        "cohort": "main40",
+        "condition": "B",
+        "metric": "thinking_offload_seconds",
+        "n_examples": 40,
+        "mean": 3.685747521635494,
+        "ci_low": 3.5162504470176645,
+        "ci_high": 3.872438651965567
+      },
+      {
+        "cohort": "main40",
+        "condition": "B",
+        "metric": "diffusion_seconds",
+        "n_examples": 40,
+        "mean": 56.88817443328735,
+        "ci_low": 56.60231066446126,
+        "ci_high": 57.18091834980791
+      },
+      {
+        "cohort": "main40",
+        "condition": "B",
+        "metric": "offload_seconds",
+        "n_examples": 40,
+        "mean": 8.735069164878222,
+        "ci_low": 8.372698785972824,
+        "ci_high": 9.13053295222242
+      },
+      {
+        "cohort": "main40",
+        "condition": "B",
+        "metric": "measured_replay_seconds",
+        "n_examples": 40,
+        "mean": 66.65469588313427,
+        "ci_low": 66.07223734930812,
+        "ci_high": 67.27159047854576
+      },
+      {
+        "cohort": "main40",
+        "condition": "B",
+        "metric": "charged_total_seconds",
+        "n_examples": 40,
+        "mean": 72.06942792840127,
+        "ci_low": 71.15952439996603,
+        "ci_high": 73.07422290783376
+      },
+      {
+        "cohort": "main40",
+        "condition": "B",
+        "metric": "peak_vram_bytes",
+        "n_examples": 40,
+        "mean": 25889127040.0,
+        "ci_low": 25886661955.2,
+        "ci_high": 25891742296.96
+      },
+      {
+        "cohort": "main40",
+        "condition": "C",
+        "metric": "thinking_seconds",
+        "n_examples": 40,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      {
+        "cohort": "main40",
+        "condition": "C",
+        "metric": "thinking_offload_seconds",
+        "n_examples": 40,
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      {
+        "cohort": "main40",
+        "condition": "C",
+        "metric": "diffusion_seconds",
+        "n_examples": 40,
+        "mean": 21.791312847609515,
+        "ci_low": 21.4039323576224,
+        "ci_high": 22.188754056719848
+      },
+      {
+        "cohort": "main40",
+        "condition": "C",
+        "metric": "offload_seconds",
+        "n_examples": 40,
+        "mean": 8.722468267590738,
+        "ci_low": 8.36467619550327,
+        "ci_high": 9.115162218047262
+      },
+      {
+        "cohort": "main40",
+        "condition": "C",
+        "metric": "measured_replay_seconds",
+        "n_examples": 40,
+        "mean": 31.50378749219817,
+        "ci_low": 30.85575713597085,
+        "ci_high": 32.192333950461475
+      },
+      {
+        "cohort": "main40",
+        "condition": "C",
+        "metric": "charged_total_seconds",
+        "n_examples": 40,
+        "mean": 31.50378749219817,
+        "ci_low": 30.85575713597085,
+        "ci_high": 32.192333950461475
+      },
+      {
+        "cohort": "main40",
+        "condition": "C",
+        "metric": "peak_vram_bytes",
+        "n_examples": 40,
+        "mean": 37661136908.8,
+        "ci_low": 37629712050.56,
+        "ci_high": 37692366614.72
+      },
+      {
+        "cohort": "main40",
+        "condition": "D",
+        "metric": "thinking_seconds",
+        "n_examples": 40,
+        "mean": 1.5456811947893585,
+        "ci_low": 1.2003653226431197,
+        "ci_high": 1.946440230570515
+      },
+      {
+        "cohort": "main40",
+        "condition": "D",
+        "metric": "thinking_offload_seconds",
+        "n_examples": 40,
+        "mean": 3.685747521635494,
+        "ci_low": 3.5162504470176645,
+        "ci_high": 3.872438651965567
+      },
+      {
+        "cohort": "main40",
+        "condition": "D",
+        "metric": "diffusion_seconds",
+        "n_examples": 40,
+        "mean": 22.09651194176404,
+        "ci_low": 21.59509132160085,
+        "ci_high": 22.694537111448373
+      },
+      {
+        "cohort": "main40",
+        "condition": "D",
+        "metric": "offload_seconds",
+        "n_examples": 40,
+        "mean": 8.653100712387822,
+        "ci_low": 8.330228714059121,
+        "ci_high": 9.00772345631325
+      },
+      {
+        "cohort": "main40",
+        "condition": "D",
+        "metric": "measured_replay_seconds",
+        "n_examples": 40,
+        "mean": 31.721910697239217,
+        "ci_low": 30.984200560417374,
+        "ci_high": 32.59237627347771
+      },
+      {
+        "cohort": "main40",
+        "condition": "D",
+        "metric": "charged_total_seconds",
+        "n_examples": 40,
+        "mean": 37.0548550019419,
+        "ci_low": 36.058880979271414,
+        "ci_high": 38.1537655205965
+      },
+      {
+        "cohort": "main40",
+        "condition": "D",
+        "metric": "peak_vram_bytes",
+        "n_examples": 40,
+        "mean": 37660535923.2,
+        "ci_low": 37629489921.92,
+        "ci_high": 37691773291.520004
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "B",
+        "metric": "thinking_seconds",
+        "n_examples": 20,
+        "mean": 1.353002627880778,
+        "ci_low": 0.9681579020729988,
+        "ci_high": 1.815718275373947
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "B",
+        "metric": "thinking_offload_seconds",
+        "n_examples": 20,
+        "mean": 3.728132049058331,
+        "ci_low": 3.472851345757372,
+        "ci_high": 4.027569916118082
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "B",
+        "metric": "diffusion_seconds",
+        "n_examples": 20,
+        "mean": 56.655821991094854,
+        "ci_low": 56.30152381862033,
+        "ci_high": 57.010171759696966
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "B",
+        "metric": "offload_seconds",
+        "n_examples": 20,
+        "mean": 8.810520482982975,
+        "ci_low": 8.284374378396752,
+        "ci_high": 9.406804817018275
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "B",
+        "metric": "measured_replay_seconds",
+        "n_examples": 20,
+        "mean": 66.57204885464162,
+        "ci_low": 65.76724390465635,
+        "ci_high": 67.44209410506446
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "B",
+        "metric": "charged_total_seconds",
+        "n_examples": 20,
+        "mean": 71.80945274634287,
+        "ci_low": 70.5324396310719,
+        "ci_high": 73.29157556270191
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "B",
+        "metric": "peak_vram_bytes",
+        "n_examples": 20,
+        "mean": 25887092556.8,
+        "ci_low": 25884058663.04,
+        "ci_high": 25890194579.84
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "D",
+        "metric": "thinking_seconds",
+        "n_examples": 20,
+        "mean": 1.353002627880778,
+        "ci_low": 0.9681579020729988,
+        "ci_high": 1.815718275373947
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "D",
+        "metric": "thinking_offload_seconds",
+        "n_examples": 20,
+        "mean": 3.728132049058331,
+        "ci_low": 3.472851345757372,
+        "ci_high": 4.027569916118082
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "D",
+        "metric": "diffusion_seconds",
+        "n_examples": 20,
+        "mean": 21.75470314588165,
+        "ci_low": 21.200617099119842,
+        "ci_high": 22.310263423782597
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "D",
+        "metric": "offload_seconds",
+        "n_examples": 20,
+        "mean": 8.674077756679617,
+        "ci_low": 8.2248181850338,
+        "ci_high": 9.180177741058868
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "D",
+        "metric": "measured_replay_seconds",
+        "n_examples": 20,
+        "mean": 31.323799255833727,
+        "ci_low": 30.592067431037282,
+        "ci_high": 32.09078827180274
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "D",
+        "metric": "charged_total_seconds",
+        "n_examples": 20,
+        "mean": 36.58460605429136,
+        "ci_low": 35.47887767792112,
+        "ci_high": 37.83908806255625
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "D",
+        "metric": "peak_vram_bytes",
+        "n_examples": 20,
+        "mean": 37636803916.8,
+        "ci_low": 37593704893.44,
+        "ci_high": 37678337240.96
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "E",
+        "metric": "thinking_seconds",
+        "n_examples": 20,
+        "mean": 1.353002627880778,
+        "ci_low": 0.9681579020729988,
+        "ci_high": 1.815718275373947
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "E",
+        "metric": "thinking_offload_seconds",
+        "n_examples": 20,
+        "mean": 3.728132049058331,
+        "ci_low": 3.472851345757372,
+        "ci_high": 4.027569916118082
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "E",
+        "metric": "diffusion_seconds",
+        "n_examples": 20,
+        "mean": 20.583194817142793,
+        "ci_low": 20.03076115543401,
+        "ci_high": 21.13143129387565
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "E",
+        "metric": "offload_seconds",
+        "n_examples": 20,
+        "mean": 8.676167503651232,
+        "ci_low": 8.23012717499616,
+        "ci_high": 9.195748558292543
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "E",
+        "metric": "measured_replay_seconds",
+        "n_examples": 20,
+        "mean": 30.3138458182686,
+        "ci_low": 29.467569673438266,
+        "ci_high": 31.22686355551923
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "E",
+        "metric": "charged_total_seconds",
+        "n_examples": 20,
+        "mean": 35.48596673218999,
+        "ci_low": 34.306682406495966,
+        "ci_high": 36.81060441789566
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "E",
+        "metric": "peak_vram_bytes",
+        "n_examples": 20,
+        "mean": 25896154598.4,
+        "ci_low": 25893104839.04,
+        "ci_high": 25899269648.0
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "F",
+        "metric": "thinking_seconds",
+        "n_examples": 20,
+        "mean": 1.353002627880778,
+        "ci_low": 0.9681579020729988,
+        "ci_high": 1.815718275373947
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "F",
+        "metric": "thinking_offload_seconds",
+        "n_examples": 20,
+        "mean": 3.728132049058331,
+        "ci_low": 3.472851345757372,
+        "ci_high": 4.027569916118082
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "F",
+        "metric": "diffusion_seconds",
+        "n_examples": 20,
+        "mean": 34.42062577722827,
+        "ci_low": 32.004965654173425,
+        "ci_high": 36.82340295626782
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "F",
+        "metric": "offload_seconds",
+        "n_examples": 20,
+        "mean": 8.717890587716829,
+        "ci_low": 8.235433266033068,
+        "ci_high": 9.251225575819843
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "F",
+        "metric": "measured_replay_seconds",
+        "n_examples": 20,
+        "mean": 44.12444629368256,
+        "ci_low": 41.71977910277404,
+        "ci_high": 46.532055657414745
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "F",
+        "metric": "charged_total_seconds",
+        "n_examples": 20,
+        "mean": 49.26803595123929,
+        "ci_low": 46.689020438025615,
+        "ci_high": 51.88440966155904
+      },
+      {
+        "cohort": "ablation20",
+        "condition": "F",
+        "metric": "peak_vram_bytes",
+        "n_examples": 20,
+        "mean": 37636803916.8,
+        "ci_low": 37593704893.44,
+        "ci_high": 37678337240.96
+      }
+    ],
+    "exploratory_groups": [
+      {
+        "grouping": "knowledge_type",
+        "group": "conceptual",
+        "metric": "B_minus_A",
+        "n_examples": 13,
+        "mean": 0.4807692307692308,
+        "minimum": -18.75,
+        "maximum": 25.0
+      },
+      {
+        "grouping": "knowledge_type",
+        "group": "conceptual",
+        "metric": "D_minus_C",
+        "n_examples": 13,
+        "mean": -1.4423076923076923,
+        "minimum": -25.0,
+        "maximum": 25.0
+      },
+      {
+        "grouping": "knowledge_type",
+        "group": "conceptual",
+        "metric": "D_minus_B",
+        "n_examples": 13,
+        "mean": -0.4807692307692308,
+        "minimum": -6.25,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "knowledge_type",
+        "group": "conceptual",
+        "metric": "interaction",
+        "n_examples": 13,
+        "mean": -1.9230769230769231,
+        "minimum": -18.75,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "knowledge_type",
+        "group": "conceptual",
+        "metric": "charged_speedup_B_over_D",
+        "n_examples": 13,
+        "mean": 1.9940129102180026,
+        "minimum": 1.8288628230663462,
+        "maximum": 2.116707185637774
+      },
+      {
+        "grouping": "knowledge_type",
+        "group": "factual",
+        "metric": "B_minus_A",
+        "n_examples": 14,
+        "mean": -3.571428571428572,
+        "minimum": -50.0,
+        "maximum": 16.666666666666657
+      },
+      {
+        "grouping": "knowledge_type",
+        "group": "factual",
+        "metric": "D_minus_C",
+        "n_examples": 14,
+        "mean": -4.761904761904764,
+        "minimum": -50.0,
+        "maximum": 16.666666666666657
+      },
+      {
+        "grouping": "knowledge_type",
+        "group": "factual",
+        "metric": "D_minus_B",
+        "n_examples": 14,
+        "mean": -1.190476190476191,
+        "minimum": -16.66666666666667,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "knowledge_type",
+        "group": "factual",
+        "metric": "interaction",
+        "n_examples": 14,
+        "mean": -1.190476190476191,
+        "minimum": -16.66666666666667,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "knowledge_type",
+        "group": "factual",
+        "metric": "charged_speedup_B_over_D",
+        "n_examples": 14,
+        "mean": 1.9513987434629005,
+        "minimum": 1.573001105568795,
+        "maximum": 2.064526545330079
+      },
+      {
+        "grouping": "knowledge_type",
+        "group": "procedural",
+        "metric": "B_minus_A",
+        "n_examples": 13,
+        "mean": -1.6025641025641026,
+        "minimum": -43.75,
+        "maximum": 12.5
+      },
+      {
+        "grouping": "knowledge_type",
+        "group": "procedural",
+        "metric": "D_minus_C",
+        "n_examples": 13,
+        "mean": -1.6025641025641026,
+        "minimum": -43.75,
+        "maximum": 12.5
+      },
+      {
+        "grouping": "knowledge_type",
+        "group": "procedural",
+        "metric": "D_minus_B",
+        "n_examples": 13,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "knowledge_type",
+        "group": "procedural",
+        "metric": "interaction",
+        "n_examples": 13,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "knowledge_type",
+        "group": "procedural",
+        "metric": "charged_speedup_B_over_D",
+        "n_examples": 13,
+        "mean": 1.9168869415880243,
+        "minimum": 1.8254448113292299,
+        "maximum": 2.051852796985496
+      },
+      {
+        "grouping": "category",
+        "group": "abstract_reasoning",
+        "metric": "B_minus_A",
+        "n_examples": 1,
+        "mean": 6.25,
+        "minimum": 6.25,
+        "maximum": 6.25
+      },
+      {
+        "grouping": "category",
+        "group": "abstract_reasoning",
+        "metric": "D_minus_C",
+        "n_examples": 1,
+        "mean": 6.25,
+        "minimum": 6.25,
+        "maximum": 6.25
+      },
+      {
+        "grouping": "category",
+        "group": "abstract_reasoning",
+        "metric": "D_minus_B",
+        "n_examples": 1,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "abstract_reasoning",
+        "metric": "interaction",
+        "n_examples": 1,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "abstract_reasoning",
+        "metric": "charged_speedup_B_over_D",
+        "n_examples": 1,
+        "mean": 2.017583218085202,
+        "minimum": 2.017583218085202,
+        "maximum": 2.017583218085202
+      },
+      {
+        "grouping": "category",
+        "group": "anomaly_correction",
+        "metric": "B_minus_A",
+        "n_examples": 2,
+        "mean": 0.0,
+        "minimum": -8.333333333333336,
+        "maximum": 8.333333333333336
+      },
+      {
+        "grouping": "category",
+        "group": "anomaly_correction",
+        "metric": "D_minus_C",
+        "n_examples": 2,
+        "mean": 0.0,
+        "minimum": -8.333333333333336,
+        "maximum": 8.333333333333336
+      },
+      {
+        "grouping": "category",
+        "group": "anomaly_correction",
+        "metric": "D_minus_B",
+        "n_examples": 2,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "anomaly_correction",
+        "metric": "interaction",
+        "n_examples": 2,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "anomaly_correction",
+        "metric": "charged_speedup_B_over_D",
+        "n_examples": 2,
+        "mean": 1.984054717030542,
+        "minimum": 1.911839423988156,
+        "maximum": 2.056270010072928
+      },
+      {
+        "grouping": "category",
+        "group": "biology",
+        "metric": "B_minus_A",
+        "n_examples": 1,
+        "mean": 12.5,
+        "minimum": 12.5,
+        "maximum": 12.5
+      },
+      {
+        "grouping": "category",
+        "group": "biology",
+        "metric": "D_minus_C",
+        "n_examples": 1,
+        "mean": 12.5,
+        "minimum": 12.5,
+        "maximum": 12.5
+      },
+      {
+        "grouping": "category",
+        "group": "biology",
+        "metric": "D_minus_B",
+        "n_examples": 1,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "biology",
+        "metric": "interaction",
+        "n_examples": 1,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "biology",
+        "metric": "charged_speedup_B_over_D",
+        "n_examples": 1,
+        "mean": 2.018965664515516,
+        "minimum": 2.018965664515516,
+        "maximum": 2.018965664515516
+      },
+      {
+        "grouping": "category",
+        "group": "color_change",
+        "metric": "B_minus_A",
+        "n_examples": 1,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "color_change",
+        "metric": "D_minus_C",
+        "n_examples": 1,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "color_change",
+        "metric": "D_minus_B",
+        "n_examples": 1,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "color_change",
+        "metric": "interaction",
+        "n_examples": 1,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "color_change",
+        "metric": "charged_speedup_B_over_D",
+        "n_examples": 1,
+        "mean": 1.8487697663470248,
+        "minimum": 1.8487697663470248,
+        "maximum": 1.8487697663470248
+      },
+      {
+        "grouping": "category",
+        "group": "count_change",
+        "metric": "B_minus_A",
+        "n_examples": 3,
+        "mean": -11.111111111111114,
+        "minimum": -50.0,
+        "maximum": 16.666666666666657
+      },
+      {
+        "grouping": "category",
+        "group": "count_change",
+        "metric": "D_minus_C",
+        "n_examples": 3,
+        "mean": -11.111111111111114,
+        "minimum": -50.0,
+        "maximum": 16.666666666666657
+      },
+      {
+        "grouping": "category",
+        "group": "count_change",
+        "metric": "D_minus_B",
+        "n_examples": 3,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "count_change",
+        "metric": "interaction",
+        "n_examples": 3,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "count_change",
+        "metric": "charged_speedup_B_over_D",
+        "n_examples": 3,
+        "mean": 1.989229480239351,
+        "minimum": 1.9379794466633373,
+        "maximum": 2.016775292383582
+      },
+      {
+        "grouping": "category",
+        "group": "geography",
+        "metric": "B_minus_A",
+        "n_examples": 2,
+        "mean": -12.5,
+        "minimum": -18.75,
+        "maximum": -6.25
+      },
+      {
+        "grouping": "category",
+        "group": "geography",
+        "metric": "D_minus_C",
+        "n_examples": 2,
+        "mean": -15.625,
+        "minimum": -25.0,
+        "maximum": -6.25
+      },
+      {
+        "grouping": "category",
+        "group": "geography",
+        "metric": "D_minus_B",
+        "n_examples": 2,
+        "mean": -3.125,
+        "minimum": -6.25,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "geography",
+        "metric": "interaction",
+        "n_examples": 2,
+        "mean": -3.125,
+        "minimum": -6.25,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "geography",
+        "metric": "charged_speedup_B_over_D",
+        "n_examples": 2,
+        "mean": 1.8712622110738455,
+        "minimum": 1.8288628230663462,
+        "maximum": 1.9136615990813448
+      },
+      {
+        "grouping": "category",
+        "group": "humanities",
+        "metric": "B_minus_A",
+        "n_examples": 3,
+        "mean": -6.25,
+        "minimum": -18.75,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "humanities",
+        "metric": "D_minus_C",
+        "n_examples": 3,
+        "mean": -6.25,
+        "minimum": -18.75,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "humanities",
+        "metric": "D_minus_B",
+        "n_examples": 3,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "humanities",
+        "metric": "interaction",
+        "n_examples": 3,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "humanities",
+        "metric": "charged_speedup_B_over_D",
+        "n_examples": 3,
+        "mean": 1.9986678272192624,
+        "minimum": 1.8766974445841584,
+        "maximum": 2.098543487702605
+      },
+      {
+        "grouping": "category",
+        "group": "mathematics",
+        "metric": "B_minus_A",
+        "n_examples": 2,
+        "mean": 12.5,
+        "minimum": 0.0,
+        "maximum": 25.0
+      },
+      {
+        "grouping": "category",
+        "group": "mathematics",
+        "metric": "D_minus_C",
+        "n_examples": 2,
+        "mean": 12.5,
+        "minimum": 0.0,
+        "maximum": 25.0
+      },
+      {
+        "grouping": "category",
+        "group": "mathematics",
+        "metric": "D_minus_B",
+        "n_examples": 2,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "mathematics",
+        "metric": "interaction",
+        "n_examples": 2,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "mathematics",
+        "metric": "charged_speedup_B_over_D",
+        "n_examples": 2,
+        "mean": 2.016306208394603,
+        "minimum": 1.966291023763716,
+        "maximum": 2.0663213930254902
+      },
+      {
+        "grouping": "category",
+        "group": "medicine",
+        "metric": "B_minus_A",
+        "n_examples": 1,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "medicine",
+        "metric": "D_minus_C",
+        "n_examples": 1,
+        "mean": -18.75,
+        "minimum": -18.75,
+        "maximum": -18.75
+      },
+      {
+        "grouping": "category",
+        "group": "medicine",
+        "metric": "D_minus_B",
+        "n_examples": 1,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "medicine",
+        "metric": "interaction",
+        "n_examples": 1,
+        "mean": -18.75,
+        "minimum": -18.75,
+        "maximum": -18.75
+      },
+      {
+        "grouping": "category",
+        "group": "medicine",
+        "metric": "charged_speedup_B_over_D",
+        "n_examples": 1,
+        "mean": 2.116707185637774,
+        "minimum": 2.116707185637774,
+        "maximum": 2.116707185637774
+      },
+      {
+        "grouping": "category",
+        "group": "multi-instruction_execution",
+        "metric": "B_minus_A",
+        "n_examples": 6,
+        "mean": -1.3888888888888893,
+        "minimum": -8.333333333333336,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "multi-instruction_execution",
+        "metric": "D_minus_C",
+        "n_examples": 6,
+        "mean": -1.3888888888888893,
+        "minimum": -8.333333333333336,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "multi-instruction_execution",
+        "metric": "D_minus_B",
+        "n_examples": 6,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "multi-instruction_execution",
+        "metric": "interaction",
+        "n_examples": 6,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "multi-instruction_execution",
+        "metric": "charged_speedup_B_over_D",
+        "n_examples": 6,
+        "mean": 1.84309112740722,
+        "minimum": 1.8254448113292299,
+        "maximum": 1.8584603794094614
+      },
+      {
+        "grouping": "category",
+        "group": "physics",
+        "metric": "B_minus_A",
+        "n_examples": 2,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "physics",
+        "metric": "D_minus_C",
+        "n_examples": 2,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "physics",
+        "metric": "D_minus_B",
+        "n_examples": 2,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "physics",
+        "metric": "interaction",
+        "n_examples": 2,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "physics",
+        "metric": "charged_speedup_B_over_D",
+        "n_examples": 2,
+        "mean": 2.0173837128738445,
+        "minimum": 2.0097916945596936,
+        "maximum": 2.0249757311879955
+      },
+      {
+        "grouping": "category",
+        "group": "position_movement",
+        "metric": "B_minus_A",
+        "n_examples": 2,
+        "mean": -4.166666666666664,
+        "minimum": -8.333333333333329,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "position_movement",
+        "metric": "D_minus_C",
+        "n_examples": 2,
+        "mean": -12.5,
+        "minimum": -16.66666666666667,
+        "maximum": -8.333333333333329
+      },
+      {
+        "grouping": "category",
+        "group": "position_movement",
+        "metric": "D_minus_B",
+        "n_examples": 2,
+        "mean": -8.333333333333336,
+        "minimum": -16.66666666666667,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "position_movement",
+        "metric": "interaction",
+        "n_examples": 2,
+        "mean": -8.333333333333336,
+        "minimum": -16.66666666666667,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "position_movement",
+        "metric": "charged_speedup_B_over_D",
+        "n_examples": 2,
+        "mean": 1.9852524124966076,
+        "minimum": 1.9077732256949769,
+        "maximum": 2.0627315992982385
+      },
+      {
+        "grouping": "category",
+        "group": "practical_knowledge",
+        "metric": "B_minus_A",
+        "n_examples": 2,
+        "mean": 6.25,
+        "minimum": 0.0,
+        "maximum": 12.5
+      },
+      {
+        "grouping": "category",
+        "group": "practical_knowledge",
+        "metric": "D_minus_C",
+        "n_examples": 2,
+        "mean": 6.25,
+        "minimum": 0.0,
+        "maximum": 12.5
+      },
+      {
+        "grouping": "category",
+        "group": "practical_knowledge",
+        "metric": "D_minus_B",
+        "n_examples": 2,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "practical_knowledge",
+        "metric": "interaction",
+        "n_examples": 2,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "practical_knowledge",
+        "metric": "charged_speedup_B_over_D",
+        "n_examples": 2,
+        "mean": 1.990293618169184,
+        "minimum": 1.9354176988470964,
+        "maximum": 2.0451695374912715
+      },
+      {
+        "grouping": "category",
+        "group": "rule-based_reasoning",
+        "metric": "B_minus_A",
+        "n_examples": 6,
+        "mean": -3.125,
+        "minimum": -43.75,
+        "maximum": 12.5
+      },
+      {
+        "grouping": "category",
+        "group": "rule-based_reasoning",
+        "metric": "D_minus_C",
+        "n_examples": 6,
+        "mean": -3.125,
+        "minimum": -43.75,
+        "maximum": 12.5
+      },
+      {
+        "grouping": "category",
+        "group": "rule-based_reasoning",
+        "metric": "D_minus_B",
+        "n_examples": 6,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "rule-based_reasoning",
+        "metric": "interaction",
+        "n_examples": 6,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "rule-based_reasoning",
+        "metric": "charged_speedup_B_over_D",
+        "n_examples": 6,
+        "mean": 1.9739000430192994,
+        "minimum": 1.8519207649033733,
+        "maximum": 2.051852796985496
+      },
+      {
+        "grouping": "category",
+        "group": "size_adjustment",
+        "metric": "B_minus_A",
+        "n_examples": 4,
+        "mean": -2.083333333333334,
+        "minimum": -8.333333333333336,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "size_adjustment",
+        "metric": "D_minus_C",
+        "n_examples": 4,
+        "mean": -2.083333333333334,
+        "minimum": -8.333333333333336,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "size_adjustment",
+        "metric": "D_minus_B",
+        "n_examples": 4,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "size_adjustment",
+        "metric": "interaction",
+        "n_examples": 4,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "size_adjustment",
+        "metric": "charged_speedup_B_over_D",
+        "n_examples": 4,
+        "mean": 1.9909307277858441,
+        "minimum": 1.9185855652313726,
+        "maximum": 2.064526545330079
+      },
+      {
+        "grouping": "category",
+        "group": "viewpoint_change",
+        "metric": "B_minus_A",
+        "n_examples": 2,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "viewpoint_change",
+        "metric": "D_minus_C",
+        "n_examples": 2,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "viewpoint_change",
+        "metric": "D_minus_B",
+        "n_examples": 2,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "viewpoint_change",
+        "metric": "interaction",
+        "n_examples": 2,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      {
+        "grouping": "category",
+        "group": "viewpoint_change",
+        "metric": "charged_speedup_B_over_D",
+        "n_examples": 2,
+        "mean": 1.8003935156089264,
+        "minimum": 1.573001105568795,
+        "maximum": 2.027785925649058
+      }
+    ],
+    "main_examples": 40,
+    "ablation_examples": 20,
+    "region_step_records": 2800,
+    "region_step_summary_rows": 1008,
+    "notes": [
+      "Timing uses measured NSCC records; local plotting times are not inference performance.",
+      "Charged total is reconstructed and excludes initialization, model loading and saving.",
+      "Intervals describe example variability at one generation seed, not seed robustness or judge uncertainty.",
+      "Equal ratings and zero-width empirical intervals do not establish pixel identity or zero population variability.",
+      "Main quality and ablation quality use 40 and 20 paired examples respectively, not 800 independent observations.",
+      "Subgroups are descriptive and were explored after observing the main results."
+    ]
+  },
+  "qualitative": {
+    "metrics_summary": {
+      "C-A": {
+        "n": 40,
+        "identical_images": 0,
+        "mae_rgb_0_255": {
+          "n_finite": 40,
+          "mean": 3.36187104920729,
+          "median": 2.3102453111686714
+        },
+        "rmse_rgb_0_255": {
+          "n_finite": 40,
+          "mean": 7.805600316871636,
+          "median": 6.243204905478576
+        },
+        "psnr_db": {
+          "n_finite": 40,
+          "mean": 32.63743124726939,
+          "median": 32.223820720836954
+        },
+        "ssim_rgb": {
+          "n_finite": 40,
+          "mean": 0.954397261715658,
+          "median": 0.9727429505311951
+        }
+      },
+      "D-B": {
+        "n": 40,
+        "identical_images": 0,
+        "mae_rgb_0_255": {
+          "n_finite": 40,
+          "mean": 3.4312869600327724,
+          "median": 2.3357850900870867
+        },
+        "rmse_rgb_0_255": {
+          "n_finite": 40,
+          "mean": 7.770065291966046,
+          "median": 5.388984948826071
+        },
+        "psnr_db": {
+          "n_finite": 40,
+          "mean": 33.43345089773403,
+          "median": 33.50262360617131
+        },
+        "ssim_rgb": {
+          "n_finite": 40,
+          "mean": 0.954264800354456,
+          "median": 0.9695659724377248
+        }
+      },
+      "E-D": {
+        "n": 20,
+        "identical_images": 0,
+        "mae_rgb_0_255": {
+          "n_finite": 20,
+          "mean": 8.8521862137167,
+          "median": 8.294677403937445
+        },
+        "rmse_rgb_0_255": {
+          "n_finite": 20,
+          "mean": 17.878990487691667,
+          "median": 19.87704908583736
+        },
+        "psnr_db": {
+          "n_finite": 20,
+          "mean": 24.45320805210524,
+          "median": 22.16381493569839
+        },
+        "ssim_rgb": {
+          "n_finite": 20,
+          "mean": 0.8482596548163484,
+          "median": 0.8893503862701435
+        }
+      },
+      "F-D": {
+        "n": 20,
+        "identical_images": 0,
+        "mae_rgb_0_255": {
+          "n_finite": 20,
+          "mean": 2.239376665994647,
+          "median": 1.3604652591969453
+        },
+        "rmse_rgb_0_255": {
+          "n_finite": 20,
+          "mean": 5.369971167922243,
+          "median": 3.5811634665533782
+        },
+        "psnr_db": {
+          "n_finite": 20,
+          "mean": 36.94235921954545,
+          "median": 37.051018283571636
+        },
+        "ssim_rgb": {
+          "n_finite": 20,
+          "mean": 0.97145175680742,
+          "median": 0.9825649967905303
+        }
+      },
+      "E-B": {
+        "n": 20,
+        "identical_images": 0,
+        "mae_rgb_0_255": {
+          "n_finite": 20,
+          "mean": 9.180817770032553,
+          "median": 9.278591128285726
+        },
+        "rmse_rgb_0_255": {
+          "n_finite": 20,
+          "mean": 18.207558861614633,
+          "median": 20.18338186316486
+        },
+        "psnr_db": {
+          "n_finite": 20,
+          "mean": 24.38248238055467,
+          "median": 22.034150066487438
+        },
+        "ssim_rgb": {
+          "n_finite": 20,
+          "mean": 0.8433538753258667,
+          "median": 0.8812505966207367
+        }
+      },
+      "F-B": {
+        "n": 20,
+        "identical_images": 0,
+        "mae_rgb_0_255": {
+          "n_finite": 20,
+          "mean": 2.62910308643762,
+          "median": 2.4492019457129297
+        },
+        "rmse_rgb_0_255": {
+          "n_finite": 20,
+          "mean": 5.9845434075767105,
+          "median": 5.438300025534867
+        },
+        "psnr_db": {
+          "n_finite": 20,
+          "mean": 34.66621226852257,
+          "median": 33.42426862871105
+        },
+        "ssim_rgb": {
+          "n_finite": 20,
+          "mean": 0.9659708165864865,
+          "median": 0.9731996918203908
+        }
+      }
+    },
+    "metric_validation": {
+      "passed": true,
+      "identical_ssim_error": 0.0,
+      "symmetry_error": 0.0,
+      "constant_known_answer_error": 9.43689570931383e-15,
+      "direct_window_error": 1.942890293094024e-16,
+      "ssim_policy": {
+        "implementation": "local_numpy_scipy",
+        "window": 11,
+        "sigma": 1.5,
+        "K1": 0.01,
+        "K2": 0.03,
+        "data_range": 255,
+        "covariance": "population",
+        "channels": "arithmetic mean of separate R, G, B SSIM",
+        "boundary": "exclude five-pixel border; only complete 11x11 windows",
+        "reference": "https://scikit-image.org/docs/stable/api/skimage.metrics.html#skimage.metrics.structural_similarity"
+      }
+    },
+    "diagnostic_pair_count": 160,
+    "candidates": [
+      {
+        "role": "typical",
+        "status": "selected",
+        "example_uid": "rule-based_reasoning__52",
+        "selection_rule": "Closest to median D-B, then closest to median charged speedup B/D",
+        "eligible_count": 40,
+        "selected_rank": 1,
+        "diversity_policy": "Select first unused UID in ranked pool; reuse rank 1 only if all eligible UIDs already used; UID breaks remaining ties",
+        "rank_1_uid": "rule-based_reasoning__52",
+        "posthoc_diagnostic_selection": true,
+        "category": "rule-based_reasoning",
+        "knowledge_type": "procedural",
+        "instruction": "Move two matchsticks to make the equation in the image valid.",
+        "saved_thought": {
+          "base_seed": 42,
+          "example_uid": "rule-based_reasoning__52",
+          "instruction": "Move two matchsticks to make the equation in the image valid.",
+          "offload_seconds": 3.347122128121555,
+          "peak_vram_bytes": 16919639040,
+          "protocol_hash": "a2001fe4612dfee6ae489c243b0fb204b1f04ba39f4877bf0f53853fe7f1438c",
+          "raw_text": "Move the two matchsticks from the first square to the second square to form the number 12. Then, move one matchstick from the second square to the third square to form the number 2. Finally, move one matchstick from the third square to the fourth square to form the number 2.",
+          "rewrite": "Move the two matchsticks from the first square to the second square to form the number 12. Then, move one matchstick from the second square to the third square to form the number 2. Finally, move one matchstick from the third square to the fourth square to form the number 2.",
+          "seconds": 3.0716569521464407,
+          "seed": 1308515853,
+          "source_sha256": "dd3d4c6ff66330047cd1f2abd8d07726d624899a61d07186355efe5e19b988a6",
+          "token_count": 64,
+          "token_count_includes_eos": true,
+          "top_p_backend": "transformers_cpu"
+        },
+        "Q": {
+          "A": 43.75,
+          "B": 43.75,
+          "C": 43.75,
+          "D": 43.75,
+          "E": 43.75,
+          "F": 43.75
+        },
+        "differences": {
+          "B-A": 0.0,
+          "D-B": 0.0,
+          "E-D": 0.0,
+          "F-D": 0.0
+        },
+        "charged_speedup_B_over_D": 1.995050417928968,
+        "charged_median_seconds": {
+          "A": 64.24821937107481,
+          "B": 70.75008002389222,
+          "C": 29.368537780828774,
+          "D": 35.4628030390013,
+          "E": 34.20861106691882,
+          "F": 43.7605697598774
+        },
+        "judge_rationales_original": {
+          "A": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The main idea of \"Move two matchsticks to make the equation in the image valid.\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections.",
+          "B": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The main idea of \"Move two matchsticks to make the equation in the image valid.\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections.",
+          "C": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The main idea of \"Move two matchsticks to make the equation in the image valid.\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections.",
+          "D": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The main idea of \"Move two matchsticks to make the equation in the image valid.\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections.",
+          "E": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The main idea of \"Move two matchsticks to make the equation in the image valid.\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections.",
+          "F": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The main idea of \"Move two matchsticks to make the equation in the image valid.\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections."
+        },
+        "visual_interpretation": "Selection and captions use saved scores and metadata; no new visual judgement is asserted by this script.",
+        "figures": {
+          "ABCD": "typical__rule-based_reasoning__52__ABCD.png",
+          "BDEF": "typical__rule-based_reasoning__52__BDEF.png",
+          "selected_regions": "typical__rule-based_reasoning__52__selected_regions.png",
+          "differences": "typical__rule-based_reasoning__52__differences.png"
+        }
+      },
+      {
+        "role": "fast_with_small_score_change",
+        "status": "selected",
+        "example_uid": "medicine__24",
+        "selection_rule": "Highest charged speedup B/D among examples with |D-B| <= 5",
+        "eligible_count": 38,
+        "selected_rank": 1,
+        "diversity_policy": "Select first unused UID in ranked pool; reuse rank 1 only if all eligible UIDs already used; UID breaks remaining ties",
+        "rank_1_uid": "medicine__24",
+        "posthoc_diagnostic_selection": true,
+        "category": "medicine",
+        "knowledge_type": "conceptual",
+        "instruction": "Remove kidney stones from the CT image",
+        "saved_thought": {
+          "base_seed": 42,
+          "example_uid": "medicine__24",
+          "instruction": "Remove kidney stones from the CT image",
+          "offload_seconds": 3.7445510199759156,
+          "peak_vram_bytes": 16915045888,
+          "protocol_hash": "a2001fe4612dfee6ae489c243b0fb204b1f04ba39f4877bf0f53853fe7f1438c",
+          "raw_text": "Remove the kidney stones.",
+          "rewrite": "Remove the kidney stones.",
+          "seconds": 0.4827193490928039,
+          "seed": 843784880,
+          "source_sha256": "74bbb84ed3408aa2f41a966e01a82441dcd6d3a19a80c252cb84f5ac7d5e7488",
+          "token_count": 6,
+          "token_count_includes_eos": true,
+          "top_p_backend": "transformers_cpu"
+        },
+        "Q": {
+          "A": 43.75,
+          "B": 43.75,
+          "C": 62.5,
+          "D": 43.75,
+          "E": 43.75,
+          "F": 43.75
+        },
+        "differences": {
+          "B-A": 0.0,
+          "D-B": 0.0,
+          "E-D": 0.0,
+          "F-D": 0.0
+        },
+        "charged_speedup_B_over_D": 2.116707185637774,
+        "charged_median_seconds": {
+          "A": 65.26968112587929,
+          "B": 69.0501013500616,
+          "C": 29.06669109221548,
+          "D": 32.621470659039915,
+          "E": 31.71823913929984,
+          "F": 38.76179170701653
+        },
+        "judge_rationales_original": {
+          "A": "Consistency: Most non-instructed elements are preserved, with only minor incidental differences. Instruction: The result shows limited evidence of \"Remove kidney stones from the CT image\", with major aspects missing or unclear. Quality: Overall structure is coherent, with only minor visual imperfections.",
+          "B": "Consistency: Most non-instructed elements are preserved, with only minor incidental differences. Instruction: The result shows limited evidence of \"Remove kidney stones from the CT image\", with major aspects missing or unclear. Quality: Overall structure is coherent, with only minor visual imperfections.",
+          "C": "Consistency: Most non-instructed elements are preserved, with only minor incidental differences. Instruction: The main idea of \"Remove kidney stones from the CT image\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections.",
+          "D": "Consistency: Most non-instructed elements are preserved, with only minor incidental differences. Instruction: The result shows limited evidence of \"Remove kidney stones from the CT image\", with major aspects missing or unclear. Quality: Overall structure is coherent, with only minor visual imperfections.",
+          "E": "Consistency: Most non-instructed elements are preserved, with only minor incidental differences. Instruction: The result shows limited evidence of \"Remove kidney stones from the CT image\", with major aspects missing or unclear. Quality: Overall structure is coherent, with only minor visual imperfections.",
+          "F": "Consistency: Most non-instructed elements are preserved, with only minor incidental differences. Instruction: The result shows limited evidence of \"Remove kidney stones from the CT image\", with major aspects missing or unclear. Quality: Overall structure is coherent, with only minor visual imperfections."
+        },
+        "visual_interpretation": "Selection and captions use saved scores and metadata; no new visual judgement is asserted by this script.",
+        "figures": {
+          "ABCD": "fast_with_small_score_change__medicine__24__ABCD.png",
+          "BDEF": "fast_with_small_score_change__medicine__24__BDEF.png",
+          "selected_regions": "fast_with_small_score_change__medicine__24__selected_regions.png",
+          "differences": "fast_with_small_score_change__medicine__24__differences.png"
+        }
+      },
+      {
+        "role": "lowest_acceleration_effect",
+        "status": "selected",
+        "example_uid": "position_movement__30",
+        "selection_rule": "Lowest D-B quality difference",
+        "eligible_count": 40,
+        "selected_rank": 1,
+        "diversity_policy": "Select first unused UID in ranked pool; reuse rank 1 only if all eligible UIDs already used; UID breaks remaining ties",
+        "rank_1_uid": "position_movement__30",
+        "posthoc_diagnostic_selection": true,
+        "category": "position_movement",
+        "knowledge_type": "factual",
+        "instruction": "Place the left cup onto the other cup.",
+        "saved_thought": {
+          "base_seed": 42,
+          "example_uid": "position_movement__30",
+          "instruction": "Place the left cup onto the other cup.",
+          "offload_seconds": 3.253479934297502,
+          "peak_vram_bytes": 16915677696,
+          "protocol_hash": "a2001fe4612dfee6ae489c243b0fb204b1f04ba39f4877bf0f53853fe7f1438c",
+          "raw_text": "Place the left cup on top of the right cup. ",
+          "rewrite": "Place the left cup on top of the right cup.",
+          "seconds": 0.6756790867075324,
+          "seed": 538704042,
+          "source_sha256": "abea3f19be951163d53685f1325d6a672f82eea0f43cf0c1135f3dec5f88a64c",
+          "token_count": 13,
+          "token_count_includes_eos": true,
+          "top_p_backend": "transformers_cpu"
+        },
+        "Q": {
+          "A": 58.333333333333336,
+          "B": 58.333333333333336,
+          "C": 58.333333333333336,
+          "D": 41.666666666666664
+        },
+        "differences": {
+          "B-A": 0.0,
+          "D-B": -16.66666666666667
+        },
+        "charged_speedup_B_over_D": 1.9077732256949769,
+        "charged_median_seconds": {
+          "A": 70.08511917409487,
+          "B": 73.6293125001248,
+          "C": 33.237006979994476,
+          "D": 38.59437353897374
+        },
+        "judge_rationales_original": {
+          "A": "Consistency: The requested edit is accompanied by one noticeable non-target change or broader layout drift. Instruction: The image shows a clear attempt to fulfill \"Place the left cup onto the other cup.\", with the main requested change present but not perfectly exact in every detail. Quality: The image is understandable, but visible artifacts, distortions, or weak text rendering remain.",
+          "B": "Consistency: The requested edit is accompanied by one noticeable non-target change or broader layout drift. Instruction: The image shows a clear attempt to fulfill \"Place the left cup onto the other cup.\", with the main requested change present but not perfectly exact in every detail. Quality: The image is understandable, but visible artifacts, distortions, or weak text rendering remain.",
+          "C": "Consistency: The requested edit is accompanied by one noticeable non-target change or broader layout drift. Instruction: The image shows a clear attempt to fulfill \"Place the left cup onto the other cup.\", with the main requested change present but not perfectly exact in every detail. Quality: The image is understandable, but visible artifacts, distortions, or weak text rendering remain.",
+          "D": "Consistency: Multiple non-instructed elements change noticeably beyond the target edit. Instruction: The main idea of \"Place the left cup onto the other cup.\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: The image is understandable, but visible artifacts, distortions, or weak text rendering remain."
+        },
+        "visual_interpretation": "Selection and captions use saved scores and metadata; no new visual judgement is asserted by this script.",
+        "figures": {
+          "ABCD": "lowest_acceleration_effect__position_movement__30__ABCD.png",
+          "selected_regions": "lowest_acceleration_effect__position_movement__30__selected_regions.png",
+          "differences": "lowest_acceleration_effect__position_movement__30__differences.png"
+        }
+      },
+      {
+        "role": "lowest_thinking_effect",
+        "status": "selected",
+        "example_uid": "count_change__48",
+        "selection_rule": "Lowest B-A quality difference",
+        "eligible_count": 40,
+        "selected_rank": 1,
+        "diversity_policy": "Select first unused UID in ranked pool; reuse rank 1 only if all eligible UIDs already used; UID breaks remaining ties",
+        "rank_1_uid": "count_change__48",
+        "posthoc_diagnostic_selection": true,
+        "category": "count_change",
+        "knowledge_type": "factual",
+        "instruction": "Change to six forks",
+        "saved_thought": {
+          "base_seed": 42,
+          "example_uid": "count_change__48",
+          "instruction": "Change to six forks",
+          "offload_seconds": 4.1200670399703085,
+          "peak_vram_bytes": 16971298816,
+          "protocol_hash": "a2001fe4612dfee6ae489c243b0fb204b1f04ba39f4877bf0f53853fe7f1438c",
+          "raw_text": "Remove four forks from the image.",
+          "rewrite": "Remove four forks from the image.",
+          "seconds": 0.6972428720910102,
+          "seed": 196007295,
+          "source_sha256": "3543d297d4a193cf13df3dc3dce55daa1078bc21de86b9d2a8f273bf8f02c289",
+          "token_count": 8,
+          "token_count_includes_eos": true,
+          "top_p_backend": "transformers_cpu"
+        },
+        "Q": {
+          "A": 50.0,
+          "B": 0.0,
+          "C": 50.0,
+          "D": 0.0
+        },
+        "differences": {
+          "B-A": -50.0,
+          "D-B": 0.0
+        },
+        "charged_speedup_B_over_D": 2.016775292383582,
+        "charged_median_seconds": {
+          "A": 64.18274158798158,
+          "B": 68.08696491317824,
+          "C": 29.583771941252053,
+          "D": 33.76031289668754
+        },
+        "judge_rationales_original": {
+          "A": "Consistency: Multiple non-instructed elements change noticeably beyond the target edit. Instruction: The main idea of \"Change to six forks\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections.",
+          "B": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The requested change \"Change to six forks\" is not successfully realized. Quality: The output is severely degraded, near-empty, or otherwise visually broken.",
+          "C": "Consistency: Multiple non-instructed elements change noticeably beyond the target edit. Instruction: The main idea of \"Change to six forks\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections.",
+          "D": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The requested change \"Change to six forks\" is not successfully realized. Quality: The output is severely degraded, near-empty, or otherwise visually broken."
+        },
+        "visual_interpretation": "Selection and captions use saved scores and metadata; no new visual judgement is asserted by this script.",
+        "figures": {
+          "ABCD": "lowest_thinking_effect__count_change__48__ABCD.png",
+          "selected_regions": "lowest_thinking_effect__count_change__48__selected_regions.png",
+          "differences": "lowest_thinking_effect__count_change__48__differences.png"
+        }
+      },
+      {
+        "role": "highest_thinking_effect",
+        "status": "selected",
+        "example_uid": "mathematics__6",
+        "selection_rule": "Highest B-A quality difference",
+        "eligible_count": 40,
+        "selected_rank": 1,
+        "diversity_policy": "Select first unused UID in ranked pool; reuse rank 1 only if all eligible UIDs already used; UID breaks remaining ties",
+        "rank_1_uid": "mathematics__6",
+        "posthoc_diagnostic_selection": true,
+        "category": "mathematics",
+        "knowledge_type": "conceptual",
+        "instruction": "Align the centers of the two circles",
+        "saved_thought": {
+          "base_seed": 42,
+          "example_uid": "mathematics__6",
+          "instruction": "Align the centers of the two circles",
+          "offload_seconds": 3.241366181988269,
+          "peak_vram_bytes": 16922277888,
+          "protocol_hash": "a2001fe4612dfee6ae489c243b0fb204b1f04ba39f4877bf0f53853fe7f1438c",
+          "raw_text": "Move the green circle so that its center aligns with the center of the light blue circle. ",
+          "rewrite": "Move the green circle so that its center aligns with the center of the light blue circle.",
+          "seconds": 1.0209646238945425,
+          "seed": 623057536,
+          "source_sha256": "2e055ccd6cb4541e224e2ed7f0bbc203f5aa4f727c6413ed324c8070e55fc5cc",
+          "token_count": 21,
+          "token_count_includes_eos": true,
+          "top_p_backend": "transformers_cpu"
+        },
+        "Q": {
+          "A": 50.0,
+          "B": 75.0,
+          "C": 50.0,
+          "D": 75.0
+        },
+        "differences": {
+          "B-A": 25.0,
+          "D-B": 0.0
+        },
+        "charged_speedup_B_over_D": 2.0663213930254902,
+        "charged_median_seconds": {
+          "A": 65.81156764400657,
+          "B": 70.195122014964,
+          "C": 29.275661865947768,
+          "D": 33.971057093003765
+        },
+        "judge_rationales_original": {
+          "A": "Consistency: Multiple non-instructed elements change noticeably beyond the target edit. Instruction: The main idea of \"Align the centers of the two circles\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections.",
+          "B": "Consistency: Most non-instructed elements are preserved, with only minor incidental differences. Instruction: The image shows a clear attempt to fulfill \"Align the centers of the two circles\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections.",
+          "C": "Consistency: Multiple non-instructed elements change noticeably beyond the target edit. Instruction: The main idea of \"Align the centers of the two circles\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections.",
+          "D": "Consistency: Most non-instructed elements are preserved, with only minor incidental differences. Instruction: The image shows a clear attempt to fulfill \"Align the centers of the two circles\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections."
+        },
+        "visual_interpretation": "Selection and captions use saved scores and metadata; no new visual judgement is asserted by this script.",
+        "figures": {
+          "ABCD": "highest_thinking_effect__mathematics__6__ABCD.png",
+          "selected_regions": "highest_thinking_effect__mathematics__6__selected_regions.png",
+          "differences": "highest_thinking_effect__mathematics__6__differences.png"
+        }
+      },
+      {
+        "role": "lowest_no_rikv_effect",
+        "status": "selected",
+        "example_uid": "count_change__47",
+        "selection_rule": "Lowest E-D quality difference on the fixed 20-example subset",
+        "eligible_count": 20,
+        "selected_rank": 1,
+        "diversity_policy": "Select first unused UID in ranked pool; reuse rank 1 only if all eligible UIDs already used; UID breaks remaining ties",
+        "rank_1_uid": "count_change__47",
+        "posthoc_diagnostic_selection": true,
+        "category": "count_change",
+        "knowledge_type": "factual",
+        "instruction": "Change to six interfaces",
+        "saved_thought": {
+          "base_seed": 42,
+          "example_uid": "count_change__47",
+          "instruction": "Change to six interfaces",
+          "offload_seconds": 3.26049082307145,
+          "peak_vram_bytes": 17001664512,
+          "protocol_hash": "a2001fe4612dfee6ae489c243b0fb204b1f04ba39f4877bf0f53853fe7f1438c",
+          "raw_text": "Remove two USB ports from the charger.",
+          "rewrite": "Remove two USB ports from the charger.",
+          "seconds": 0.9130010427907109,
+          "seed": 633999984,
+          "source_sha256": "1f3e7a0a0272ceed9edccf0ce9010d00bead591f1385c34b7c85571c103ccce0",
+          "token_count": 9,
+          "token_count_includes_eos": true,
+          "top_p_backend": "transformers_cpu"
+        },
+        "Q": {
+          "A": 66.66666666666667,
+          "B": 83.33333333333333,
+          "C": 66.66666666666667,
+          "D": 83.33333333333333,
+          "E": 50.0,
+          "F": 83.33333333333333
+        },
+        "differences": {
+          "B-A": 16.666666666666657,
+          "D-B": 0.0,
+          "E-D": -33.33333333333333,
+          "F-D": 0.0
+        },
+        "charged_speedup_B_over_D": 1.9379794466633373,
+        "charged_median_seconds": {
+          "A": 66.82472087908536,
+          "B": 71.04205443686806,
+          "C": 31.57267128303647,
+          "D": 36.65779560210649,
+          "E": 35.39667545398697,
+          "F": 54.75475981098134
+        },
+        "judge_rationales_original": {
+          "A": "Consistency: The requested edit is accompanied by one noticeable non-target change or broader layout drift. Instruction: The image shows a clear attempt to fulfill \"Change to six interfaces\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections.",
+          "B": "Consistency: Most non-instructed elements are preserved, with only minor incidental differences. Instruction: The edit cleanly fulfills \"Change to six interfaces\". Quality: Overall structure is coherent, with only minor visual imperfections.",
+          "C": "Consistency: The requested edit is accompanied by one noticeable non-target change or broader layout drift. Instruction: The image shows a clear attempt to fulfill \"Change to six interfaces\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections.",
+          "D": "Consistency: Most non-instructed elements are preserved, with only minor incidental differences. Instruction: The edit cleanly fulfills \"Change to six interfaces\". Quality: Overall structure is coherent, with only minor visual imperfections.",
+          "E": "Consistency: Multiple non-instructed elements change noticeably beyond the target edit. Instruction: The main idea of \"Change to six interfaces\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections.",
+          "F": "Consistency: Most non-instructed elements are preserved, with only minor incidental differences. Instruction: The edit cleanly fulfills \"Change to six interfaces\". Quality: Overall structure is coherent, with only minor visual imperfections."
+        },
+        "visual_interpretation": "Selection and captions use saved scores and metadata; no new visual judgement is asserted by this script.",
+        "figures": {
+          "ABCD": "lowest_no_rikv_effect__count_change__47__ABCD.png",
+          "BDEF": "lowest_no_rikv_effect__count_change__47__BDEF.png",
+          "selected_regions": "lowest_no_rikv_effect__count_change__47__selected_regions.png",
+          "differences": "lowest_no_rikv_effect__count_change__47__differences.png"
+        }
+      },
+      {
+        "role": "no_avd_pixel_variation",
+        "status": "selected",
+        "example_uid": "multi-instruction_execution__56",
+        "selection_rule": "Largest F-vs-D RGB MAE on the fixed subset; descriptive image variation, not inferred quality loss",
+        "eligible_count": 20,
+        "selected_rank": 1,
+        "diversity_policy": "Select first unused UID in ranked pool; reuse rank 1 only if all eligible UIDs already used; UID breaks remaining ties",
+        "rank_1_uid": "multi-instruction_execution__56",
+        "posthoc_diagnostic_selection": true,
+        "category": "multi-instruction_execution",
+        "knowledge_type": "procedural",
+        "instruction": "This poster features a traditional-style painting, suitable for art exhibitions or cultural events. Keep the painting centered and surround it with light clouds and flying cranes. Use a soft blue gradient background with cloud motifs. Add a soft glow to highlight the frame. The top text 'Artistic Charm: Beauty of Tradition' should be in large elegant serif font. Add event info in handwritten style at the bottom left.",
+        "saved_thought": {
+          "base_seed": 42,
+          "example_uid": "multi-instruction_execution__56",
+          "instruction": "This poster features a traditional-style painting, suitable for art exhibitions or cultural events. Keep the painting centered and surround it with light clouds and flying cranes. Use a soft blue gradient background with cloud motifs. Add a soft glow to highlight the frame. The top text 'Artistic Charm: Beauty of Tradition' should be in large elegant serif font. Add event info in handwritten style at the bottom left.",
+          "offload_seconds": 3.248057899530977,
+          "peak_vram_bytes": 17067513856,
+          "protocol_hash": "a2001fe4612dfee6ae489c243b0fb204b1f04ba39f4877bf0f53853fe7f1438c",
+          "raw_text": "Add light clouds and flying cranes around the central painting. Apply a soft blue gradient background with cloud motifs. Enhance the frame with a soft glow effect. Update the top text to \"Artistic Charm: Beauty of Tradition\" in large, elegant serif font. Add event information in handwritten style at the bottom left corner. ",
+          "rewrite": "Add light clouds and flying cranes around the central painting. Apply a soft blue gradient background with cloud motifs. Enhance the frame with a soft glow effect. Update the top text to \"Artistic Charm: Beauty of Tradition\" in large, elegant serif font. Add event information in handwritten style at the bottom left corner.",
+          "seconds": 3.237595323473215,
+          "seed": 1541214853,
+          "source_sha256": "651ffbdc52d85ab2606a19ef8d332abf525e25496416a1bd0130aba6139f303d",
+          "token_count": 67,
+          "token_count_includes_eos": true,
+          "top_p_backend": "transformers_cpu"
+        },
+        "Q": {
+          "A": 50.0,
+          "B": 50.0,
+          "C": 50.0,
+          "D": 50.0,
+          "E": 50.0,
+          "F": 50.0
+        },
+        "differences": {
+          "B-A": 0.0,
+          "D-B": 0.0,
+          "E-D": 0.0,
+          "F-D": 0.0
+        },
+        "charged_speedup_B_over_D": 1.8584603794094614,
+        "charged_median_seconds": {
+          "A": 65.17384103906807,
+          "B": 71.85936147905886,
+          "C": 31.96138281992171,
+          "D": 38.666071268031374,
+          "E": 39.20896076306235,
+          "F": 56.816411287058145
+        },
+        "judge_rationales_original": {
+          "A": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The image shows a clear attempt to fulfill \"create an art-exhibition poster around the painting\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections.",
+          "B": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The image shows a clear attempt to fulfill \"create an art-exhibition poster around the painting\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections.",
+          "C": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The image shows a clear attempt to fulfill \"create an art-exhibition poster around the painting\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections.",
+          "D": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The image shows a clear attempt to fulfill \"create an art-exhibition poster around the painting\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections.",
+          "E": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The image shows a clear attempt to fulfill \"create an art-exhibition poster around the painting\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections.",
+          "F": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The image shows a clear attempt to fulfill \"create an art-exhibition poster around the painting\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections."
+        },
+        "visual_interpretation": "Selection and captions use saved scores and metadata; no new visual judgement is asserted by this script.",
+        "figures": {
+          "ABCD": "no_avd_pixel_variation__multi-instruction_execution__56__ABCD.png",
+          "BDEF": "no_avd_pixel_variation__multi-instruction_execution__56__BDEF.png",
+          "selected_regions": "no_avd_pixel_variation__multi-instruction_execution__56__selected_regions.png",
+          "differences": "no_avd_pixel_variation__multi-instruction_execution__56__differences.png"
+        }
+      }
+    ],
+    "lpips": "handled separately by the optional perceptual stage"
+  },
+  "lpips": {
+    "metric_identity_sha256": "92a94bb2bd57da1eb98a9432f047e05627fd6591e99e88bff5feeb6cde7fc269",
+    "pair_count": 160,
+    "metric_validation": {
+      "passed": true,
+      "identical_image_lpips": 0.0,
+      "tolerance": 1e-06,
+      "example_uid": "abstract_reasoning__33",
+      "condition": "C",
+      "metric_identity_sha256": "92a94bb2bd57da1eb98a9432f047e05627fd6591e99e88bff5feeb6cde7fc269"
+    },
+    "comparisons": {
+      "C-A": {
+        "n": 40,
+        "mean": 0.0424380904994905,
+        "median": 0.025256861001253128,
+        "minimum": 0.000764806754887104,
+        "maximum": 0.1935933530330658
+      },
+      "D-B": {
+        "n": 40,
+        "mean": 0.03935699034773279,
+        "median": 0.020003036595880985,
+        "minimum": 0.0012254227185621858,
+        "maximum": 0.19434887170791626
+      },
+      "E-D": {
+        "n": 20,
+        "mean": 0.17371262188535183,
+        "median": 0.1490904688835144,
+        "minimum": 0.005135070998221636,
+        "maximum": 0.4605295956134796
+      },
+      "F-D": {
+        "n": 20,
+        "mean": 0.025134419939422514,
+        "median": 0.011911410838365555,
+        "minimum": 0.0004157161747571081,
+        "maximum": 0.09307334572076797
+      },
+      "E-B": {
+        "n": 20,
+        "mean": 0.18051641690544784,
+        "median": 0.16177072376012802,
+        "minimum": 0.00612760242074728,
+        "maximum": 0.4445990025997162
+      },
+      "F-B": {
+        "n": 20,
+        "mean": 0.030744319933000953,
+        "median": 0.020478726364672184,
+        "minimum": 0.0017677415162324905,
+        "maximum": 0.12533581256866455
+      }
+    },
+    "interpretation": "Supplementary generated-image differences; lower LPIPS alone does not establish better editing or correctness."
+  }
+}

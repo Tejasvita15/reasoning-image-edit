@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-09-30T10:43:35.159044+00:00",
+  "stage": "after development calibration; before main test evaluation",
+  "calibration_report_sha256": "fb9da42f0e514dc818985e0cf91c97bdd8d839140e9ef61d74218eb7eceff600",
+  "metadata_correction_audit_sha256": "b8885d07ff14e50041e8809ba2f00e11d0025e908659504c625d5bd34ace751e",
+  "calibration_bundle_manifest_hash": "07fd206c704ab6543c6427d87f63328815dbe60d5b4ea61f7675283d8d92c92e",
+  "calibration_generation_protocol_hash": "c984fa84c1c8bb0294c20f6fd337e5cc7f4aede868a64452081172970847ef52",
+  "final_generation_protocol_hash": "a2001fe4612dfee6ae489c243b0fb204b1f04ba39f4877bf0f53853fe7f1438c",
+  "evaluation_protocol_hash": "095c775e5aae19c2469c5647e717d9209b14a9887ae43ec7410f50657e6af2e2",
+  "judge_label": "GPT-6 Astra Pro",
+  "outputs": 20,
+  "passes": 2,
+  "ratings": 40,
+  "observed_mean_absolute_difference": 0.0,
+  "observed_p95_absolute_difference": 0.0,
+  "minimum_meaningful_difference": 0.0,
+  "equivalence_margin": 5.0,
+  "margin_basis": "Chosen pre-test acceptable quality loss of 5 points on the 0-100 Q scale. This is an operational tolerance, not estimated from zero rescore differences; 5% of the full Q scale. No main-test scores were used to choose it.",
+  "interpretation": "All 20 calibration outputs have identical Q and component scores across the two submitted passes. Observed zero spread on this small sample does not establish zero judge variability or generalize to other sessions/models.",
+  "provenance_limitations": [
+    "Session independence and UI settings rely on the user correction; no platform conversation IDs or transcripts were supplied for independent verification.",
+    "Original judged_at timestamps are retained as supplied, without verifying chronology.",
+    "This metadata correction occurred after scoring. No ratings, rationales, model responses, batch assignments, prompts, images, or generation settings were changed."
+  ],
+  "next_stage": "Run two final independent development pilots under the final generation protocol, then validate determinism/components and estimate production walltime. Archived calibration is reusable; old smoke/calibration generations retain their original protocol hash."
+}

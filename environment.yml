@@ -1,0 +1,14 @@
+name: ai6132
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pyyaml
+  - numpy
+  - scipy
+  - pillow
+  - matplotlib
+  - pytest
+# Portable development/analysis environment. Install requirements-rq3.txt
+# and CUDA PyTorch separately on the Linux GPU host; see RQ3_experiment.md.

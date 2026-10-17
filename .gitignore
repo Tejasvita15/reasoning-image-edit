@@ -10,8 +10,32 @@ __pycache__/
 .vscode/
 .idea/
 
-# Outputs
-outputs/
+# Outputs: share only the completed RQ3 evidence and reports.
+# New runs, model caches, transfer copies and analysis dependencies stay local.
+outputs/*
+!outputs/rq3/
+outputs/rq3/*
+!outputs/rq3/README.md
+!outputs/rq3/index.html
+!outputs/rq3/evidence/
+!outputs/rq3/postprocessing/
+!outputs/rq3/human_validation/
+outputs/rq3/evidence/*
+!outputs/rq3/evidence/README.md
+!outputs/rq3/evidence/COPY_VERIFICATION.json
+!outputs/rq3/evidence/analysis/
+!outputs/rq3/evidence/calibration/
+!outputs/rq3/evidence/chatgpt_main/
+!outputs/rq3/evidence/transfer_checksums/
+outputs/rq3/postprocessing/.matplotlib/
+outputs/rq3/human_validation/*
+!outputs/rq3/human_validation/README.md
+!outputs/rq3/human_validation/analysis/
+!outputs/rq3/human_validation/reviewer_1/
+!outputs/rq3/human_validation/reviewer_2/
+!outputs/rq3/human_validation/private/
+!outputs/rq3/human_validation/submissions/
+!outputs/rq3/human_validation/validation/
 logs/
 
 # Model / checkpoint files
@@ -36,3 +60,15 @@ diffusers/
 # OS
 .DS_Store
 Thumbs.db
+
+# Standalone RQ3 dependencies and local experiment artifacts
+external
+.conda/
+*.egg-info/
+.pytest_cache/
+.env
+.env.*
+!.env.example
+.nscc/
+*.o[0-9]*
+*.e[0-9]*

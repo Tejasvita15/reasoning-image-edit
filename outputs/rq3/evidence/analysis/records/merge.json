@@ -1,0 +1,43 @@
+{
+  "artifact_policy": "References original absolute paths; retain every source shard directory",
+  "completed_generations": 800,
+  "example_count": 40,
+  "generations_sha256": "6e9171f993fed0df7581f56d1035e252b2ad00480ebe65dbb39deaa0016b7f7f",
+  "num_shards": 4,
+  "protocol_hash": "a2001fe4612dfee6ae489c243b0fb204b1f04ba39f4877bf0f53853fe7f1438c",
+  "schema_version": 1,
+  "seeds": [
+    42
+  ],
+  "shards": [
+    {
+      "completed_generations": 200,
+      "directory": "/scratch/users/ntu/rtan134/ai6132/outputs/rq3/nscc/main/shard_0",
+      "generations_sha256": "21826708c1656e2c90c2ca357dc55f6a9d58e986bb782def0ca6f5d49e1df593",
+      "resolved_failure_records": 0,
+      "shard_index": 0
+    },
+    {
+      "completed_generations": 200,
+      "directory": "/scratch/users/ntu/rtan134/ai6132/outputs/rq3/nscc/main/shard_1",
+      "generations_sha256": "841ee70d7079c64833bfd3a44aa7bbb0f6c8d9fd09a2741e53fff0c3dfd354f0",
+      "resolved_failure_records": 0,
+      "shard_index": 1
+    },
+    {
+      "completed_generations": 192,
+      "directory": "/scratch/users/ntu/rtan134/ai6132/outputs/rq3/nscc/main/shard_2",
+      "generations_sha256": "1de9d86a555adabe3d6cfdec846b1087d1ecf51b6f6840503037414fc28d88c3",
+      "resolved_failure_records": 0,
+      "shard_index": 2
+    },
+    {
+      "completed_generations": 208,
+      "directory": "/scratch/users/ntu/rtan134/ai6132/outputs/rq3/nscc/main/shard_3",
+      "generations_sha256": "9958afb8fcc99401fecad9bf44d43cfa041415fb6fde581d31e11118a9aea3c0",
+      "resolved_failure_records": 0,
+      "shard_index": 3
+    }
+  ],
+  "timing_repeats": 3
+}

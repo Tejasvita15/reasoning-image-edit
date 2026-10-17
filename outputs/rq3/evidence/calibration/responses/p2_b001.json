@@ -1,0 +1,23 @@
+{
+  "batch_id": "p2_b001",
+  "results": [
+    {
+      "blind_id": "case_5a8fbac51e07e68e",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The branch geometry, leaf layout and outlines, surrounding bokeh, framing and backlighting remain consistent. The changes are confined to the leaves' damage appearance. Instruction: Widespread brown patches visibly damage the foliage, but the marks predominantly resemble surface lesions rather than clear holes through the leaf blades. The requested pest aftermath is therefore only partially represented. Knowledge: The annotation specifically predicts holes left by insects consuming the leaves. Discolored but largely continuous tissue does not clearly show that effect, constituting a noticeable mismatch. Quality: The image itself has plausible leaf shapes and veins, natural illumination and coherent surface textures, without noticeable visual artifacts."
+    },
+    {
+      "blind_id": "case_79ec40e0e4286b62",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The supporting branch, leaf positions, shadows, background highlights and framing are preserved; no clear alteration outside the allowed leaf damage is visible. Instruction: Scattered brown spots and patches have been added to the green foliage. These communicate damage, but do not convincingly create the open, eaten-through holes expected for the requested aftermath. Knowledge: The supplied explanation describes leaf tissue being consumed to form holes. Predominantly surface-like brown spotting on intact blades is a noticeable conflict with that expected result. Quality: Evaluated alone, the edited photograph has coherent foliage, believable veins and backlighting, natural depth of field and no noticeable structural or rendering flaws."
+    }
+  ]
+}

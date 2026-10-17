@@ -1,0 +1,137 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>review_8aafd244d5e4efae</title><style>body{font:17px/1.5 system-ui,sans-serif;max-width:1200px;margin:30px auto;padding:0 20px}
+.images{display:flex;gap:18px;flex-wrap:wrap}figure{margin:0;flex:1;min-width:240px}
+img{width:100%;height:380px;object-fit:contain;background:#eee}pre{white-space:pre-wrap;
+font:15px/1.5 system-ui,sans-serif}details{border:1px solid #ccc;padding:12px;margin:14px 0}
+table{border-collapse:collapse}th,td{border:1px solid #ccc;padding:6px 12px}
+a{color:#174ea6}.notice{background:#eef4fb;padding:14px}nav{margin:18px 0} </style><body><nav><a href="../index.html">Index</a> · <a href="review_147635e13c94f103.html">Previous</a> · <a href="review_75f721a4d5499b2f.html">Next</a></nav><h1>Main item 36: review_8aafd244d5e4efae</h1><p><strong>Original instruction:</strong> Based on the given image, draw the side view of the object.</p><p>Click images for full resolution. Image A/B in the rubric denotes source/edited, not generation conditions.</p><div class="images"><figure><figcaption>Source</figcaption><a href="../images/review_8aafd244d5e4efae_source.png"><img src="../images/review_8aafd244d5e4efae_source.png" alt="Source"></a></figure><figure><figcaption>Edited</figcaption><a href="../images/review_8aafd244d5e4efae_edited.png"><img src="../images/review_8aafd244d5e4efae_edited.png" alt="Edited"></a></figure><figure><figcaption>Reference (instruction only)</figcaption><a href="../images/review_8aafd244d5e4efae_ground_truth.png"><img src="../images/review_8aafd244d5e4efae_ground_truth.png" alt="Reference (instruction only)"></a></figure></div><p class="notice">Knowledge score: not applicable; leave its CSV field blank. Enter ratings in ratings.csv, row 36.</p><p>The following archived scoring rubric is unchanged except anonymous attachment names. Use the CSV instead of its example JSON output formats.</p><pre>
+Source attachment: &quot;review_8aafd244d5e4efae_source.png&quot;
+Edited attachment: &quot;review_8aafd244d5e4efae_edited.png&quot;
+
+</pre><details open><summary>Visual consistency</summary><pre>
+For this rubric, Image A is &quot;review_8aafd244d5e4efae_source.png&quot; and Image B is &quot;review_8aafd244d5e4efae_edited.png&quot;. Use the original editing instruction inside the rubric.
+
+
+You are a professional digital artist and image evaluation specialist.
+
+You will be given:
+1. **Image A**: the original image.
+2. **Image B**: an edited version of Image A.
+3. **Editing Instruction**: a directive describing the intended modification to Image A to produce Image B.
+
+Your Objective:
+Your task is to **evaluate the visual consistency between the original and edited images, focusing exclusively on elements that are NOT specified for change in the instruction**. That is, you should only consider whether all non-instructed details remain unchanged. Do **not** penalize or reward any changes that are explicitly required by the instruction.
+
+## Evaluation Scale (1 to 5):
+You will assign a **consistency_score** according to the following rules:
+- **5 Perfect Consistency**: All non-instruction elements are completely unchanged and visually identical.
+- **4 Minor Inconsistency**: Only one very small, non-instruction detail is different (e.g., a tiny accessory, a subtle shadow, or a minor background artifact).
+- **3 Noticeable Inconsistency**: One clear non-instruction element is changed (e.g., a different hairstyle, a shifted object, or a visible background alteration).
+- **2 Significant Inconsistency**: Two or more non-instruction elements have been noticeably altered.
+- **1 Severe Inconsistency**: Most or all major non-instruction details are different (e.g., changed identity, gender, or overall scene layout).
+
+## Guidance:
+- First, **identify all elements that the instruction explicitly allows or requires to be changed**. Exclude these from your consistency check.
+- For all other elements (e.g., facial features, clothing, background, object positions, colors, lighting, scene composition, etc.), **compare Image B to Image A** and check if they remain visually identical.
+- If you observe any change in a non-instruction element, note it and consider its impact on the score.
+- If the instruction is vague or ambiguous, make a best-effort factual inference about which elements are intended to change, and treat all others as non-instruction elements.
+
+## Note:
+- **Do not penalize changes that are required by the instruction.**
+- **Do not reward or penalize the quality or correctness of the instructed change itself** (that is evaluated separately).
+- If the edited image introduces new artifacts, objects, or changes to non-instruction elements, this should lower the consistency score.
+
+## Input
+**Image A**
+**Image B**
+**Editing Instruction**: Based on the given image, draw the side view of the object.
+## Output Format
+First, clearly explain your comparison process: list each major non-instruction element and state whether it is consistent (unchanged) or inconsistent (changed), with brief reasoning.
+Then, provide your evaluation in the following JSON format:
+{
+&quot;reasoning&quot;: **Compared to original image**, [list of non-instruction elements that changed or remained the same] **in the edited image**. 
+&quot;consistency_score&quot;: X
+}
+
+
+</pre></details><details open><summary>Instruction compliance</summary><pre>
+For this rubric, Image A is &quot;review_8aafd244d5e4efae_source.png&quot; and Image B is &quot;review_8aafd244d5e4efae_edited.png&quot;. The ground-truth reference is &quot;review_8aafd244d5e4efae_ground_truth.png&quot;; use it only for this instruction metric.
+
+
+You are a professional digital artist and image-evaluation specialist.
+
+## Inputs
+1. **Original Image**
+2. **Edited Image**
+3. **Ground-Truth Image**
+4. **Editing Instruction**: Based on the given image, draw the side view of the object.
+
+## Objective
+Assess whether the edited image alters the **viewpoint / perspective** of the scene exactly as specified, using the ground-truth image as reference. Pay close attention to object orientation, perspective lines, occlusion, and spatial relationships.
+
+## A. Viewpoint-Change Score (1-5)
+For each aspect below, mark ✔ (correct) or ✘ (incorrect).
+
+- **5-Perfect**: Viewpoint change matches the instruction **and** the ground truth in every detail.
+- **4-Minor Issues**: Core viewpoint change is correct; only subtle perspective inaccuracies remain.
+- **3-Partial**: Viewpoint change is present, but notable perspective errors or missing details exist.
+- **2-Major Problems**: Attempted viewpoint change contains significant errors in perspective, proportion, or occlusion.
+- **1-Failure**: Little or no correct viewpoint change, or change is in the wrong direction.
+
+## Output Format
+First, explain how the viewpoint differs from the original and whether it aligns with the ground truth.  
+Then output in JSON:
+
+{
+  &quot;instruction_score&quot;: X,
+  &quot;reasoning&quot;: &quot;1. Detect Viewpoint Change 2. Expected Visual Caption 3. Viewpoint-Change Match 4. Decision&quot;
+}
+
+
+</pre></details><details open><summary>Visual quality</summary><pre>
+For this rubric only, Image A means the EDITED attachment &quot;review_8aafd244d5e4efae_edited.png&quot;. Assess that image alone. Do not use the source, editing instruction, knowledge explanation, ground truth, or another item&#x27;s images to judge visual quality.
+
+
+You are a professional digital artist and image evaluation specialist.
+
+You will be given:
+- **Image A**: a single AI-generated image.
+
+## Objective:
+Your task is to **evaluate the perceptual quality** of the image, focusing on:
+- **Structural and semantic coherence**
+- **Natural appearance**
+- **Absence of generation artifacts**
+
+You must **not penalize low resolution or moderate softness** unless it introduces semantic ambiguity or visually degrading effects.
+
+## Evaluation Scale (1 to 5):
+You will assign a **quality_score** with the following rule:
+
+- **5 Excellent Quality**: All aspects are visually coherent, natural, and free from noticeable artifacts. Structure, layout, and textures are accurate and consistent.
+- **4 Minor Issues**: One small imperfection (e.g., slight texture blending, minor lighting inconsistency).
+- **3 Noticeable Artifacts**: One or two clear visual flaws or semantic problems (e.g., extra fingers, minor duplication, slight distortion).
+- **2 Structural Degradation**: Multiple distracting errors (e.g., melted hands, warped shapes, unreadable text).
+- **1 Severe Errors**: Major structural failures or hallucinations (e.g., broken anatomy, garbled symbols).
+
+## Guidance:
+Check the following visual aspects and mark them as ✔ (satisfactory) or ✘ (problematic):
+- Structural coherence (e.g., correct anatomy, object shapes, legible text)
+- Naturalness (lighting, perspective, shadow logic)
+- Artifact-free (no duplication, ghosting, watermarks)
+- Texture fidelity (clothing, hair, surfaces not melted or corrupted)
+- Optional: Sharpness (only penalize if blur causes semantic loss)
+✔ The more checks, the higher the score.
+
+Example
+  &quot;reasoning&quot;: &quot;Structural coherence: ✔, Natural appearance: ✔, Artifacts: ✔, Texture fidelity: ✘ (fabric partially deformed).&quot;,
+  &quot;quality_score&quot;: 4
+
+## Output Format:
+After evaluation, provide your score and concise reasoning using the following JSON format:
+{{
+&quot;reasoning&quot;: XXX,
+&quot;quality_score&quot;: X,
+}}
+
+
+</pre></details><nav><a href="../index.html">Index</a> · <a href="review_147635e13c94f103.html">Previous</a> · <a href="review_75f721a4d5499b2f.html">Next</a></nav></body></html>

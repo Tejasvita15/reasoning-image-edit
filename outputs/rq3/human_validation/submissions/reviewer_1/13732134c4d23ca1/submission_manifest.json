@@ -1,0 +1,10 @@
+{
+  "submitted_file_sha256": {
+    "ratings.csv": "fe1fd8af77e3a3f071021b1c9c1a9eb2ae034ee3f87fd6c089ddc816cef5f3eb",
+    "practice_ratings.csv": "7c94978de5039c5b65f9a5322258b175f3ccb96084d3da94f7ad8f0576b8498f",
+    "reviewer_metadata.json": "884e862ac0aa883229716f242142387ccfd93eb883a27bf952b74489c60fa28c"
+  },
+  "submission_fingerprint": "13732134c4d23ca159ea7fcb0695eea787e3de8a131e8b832e7057e0b5526860",
+  "captured_at": "2026-10-04T08:46:01.620964+00:00",
+  "note": "Metadata completion-time typo corrected by user; ratings unchanged"
+}

@@ -1,0 +1,17 @@
+# Shared proposal: coordinate and commit before any test scoring.
+official_repository: https://github.com/mercurystraw/Kris_Bench
+official_revision: cf1475253a13f5e5666826c10d8967e38917468a
+official_checkout: external/Kris_Bench
+model: gpt-4o-2024-08-06
+temperature: 0
+max_tokens: 1000
+prompt_file: utils/prompts.py
+# Templates are loaded unchanged from the clean, pinned checkout.
+# The official repository emits component scores and has NO aggregate function.
+# This proposed subset Q is mean(25*(component-1)) over applicable dimensions;
+# it is NOT the published full-benchmark/category-weighted overall score.
+aggregate: mean_applicable_normalized
+aggregate_confirmed: false
+aggregate_source: https://arxiv.org/html/2505.16707v1
+score_range: [0, 100]
+minimum_meaningful_difference_method: percentile95_absolute_rescore_Q_difference

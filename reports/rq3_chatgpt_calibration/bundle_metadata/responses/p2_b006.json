@@ -1,0 +1,23 @@
+{
+  "batch_id": "p2_b006",
+  "results": [
+    {
+      "blind_id": "case_8b8afb41878b3cfe",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The eight existing dot panels, their positions and fills, and the surrounding grid are preserved. Only the bottom-right answer content changes. Instruction: The question mark is replaced with a solid black disk, but the required 4-by-4 array of black and white dots is not drawn. The correct region is edited while most of the requested completion is missing. Knowledge: The supplied rule operates separately at corresponding dot positions; one large disk cannot encode those results. Instruction failure ⇒ knowledge invalid. Quality: The graphic itself has clean contours, solid fills and intact dividers, with no noticeable geometric or rendering defects."
+    },
+    {
+      "blind_id": "case_123c130ebbb74833",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The overall leaf cluster and framing remain recognizable, and eaten leaf margins are allowed changes. However, the supporting twig's contour and texture change, and the background highlights are noticeably reshaped or displaced. These are multiple non-instructed alterations. Instruction: The leaves now show small openings, irregular missing edge sections and damaged tissue, clearly depicting the requested infestation aftermath. Knowledge: The visible holes and missing tissue agree with the explanation that insect feeding consumes parts of the leaves. Quality: The foliage, veins and lighting are generally natural, but a small rectangular tonal patch is visible in the background immediately beside and below the narrow lower-center leaf. This is a minor localized blending artifact, not a penalty for general softness."
+    }
+  ]
+}

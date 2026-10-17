@@ -1,0 +1,20 @@
+{
+  "status": "verified",
+  "directory": "/Users/aloysiustan/Downloads/rq3_analysis",
+  "files_verified": 76,
+  "archive_bytes": 61979060,
+  "archive_sha256": "3f3d83a32b51f73cde58a18ec40a32745bbcd0f12d1307dee11c1643ccf9d6dc",
+  "chunks": 2,
+  "generation_records": 800,
+  "scores": 200,
+  "generation_protocol_hash": "a2001fe4612dfee6ae489c243b0fb204b1f04ba39f4877bf0f53853fe7f1438c",
+  "evaluation_protocol_hash": "095c775e5aae19c2469c5647e717d9209b14a9887ae43ec7410f50657e6af2e2",
+  "condition_counts": {
+    "A": 40,
+    "B": 40,
+    "C": 40,
+    "D": 40,
+    "E": 20,
+    "F": 20
+  }
+}

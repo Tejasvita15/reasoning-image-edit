@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b002",
+  "results": [
+    {
+      "blind_id": "case_934245e700a57cc7",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The bearded subject, green coat, glass, fruit table and dark decorative setting remain recognizable. However, the leg pose and shoe positions change substantially, the chair pedestal and base are reshaped, and the existing hand on the viewer's right is moved inward. These are multiple noticeable changes outside the extra-arm correction. Instruction: One of the three original hands is removed, so the intended correction is attempted. A successful edit should leave two naturally connected arms; instead, the green sleeve and white cuff meet an awkward tan sleeve-like segment leading to the glass-holding hand. The anatomical correction is therefore only partial. Quality: The edited portrait has coherent facial features and generally plausible lighting, but the glass-holding arm has a visibly confused sleeve, cuff and forearm connection. This is a clear structural flaw rather than merely moderate image softness."
+    },
+    {
+      "blind_id": "case_4427276fe5bc2db7",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The face, clothing colors, glass and main background objects are broadly preserved. Non-instructed changes include a substantially different lower-leg and shoe arrangement, a reshaped chair pedestal and base, and shifted fruit and tabletop details. Instruction: The extra hanging hand is removed, leaving two visible hands. However, the green sleeve ends in a white cuff and a skin-colored junction that merges into the tan segment beneath the raised hand, rather than forming a natural continuous arm. Removing the extra hand addresses the main idea, but the requested anatomical correction remains incomplete. Quality: The face, glass, fabrics and surrounding objects are readable, with coherent lighting. The malformed connection between the cuff, forearm and tan fabric is a conspicuous anatomical and clothing-structure artifact."
+    }
+  ]
+}

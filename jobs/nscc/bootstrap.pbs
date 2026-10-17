@@ -1,0 +1,25 @@
+#!/bin/bash
+#PBS -N rq3_setup
+#PBS -q normal
+#PBS -P personal-rtan134
+#PBS -l select=1:ncpus=4:mem=32gb
+#PBS -l walltime=04:00:00
+#PBS -j oe
+
+set -euo pipefail
+umask 027
+cd "${RQ3_WORKDIR:-${PBS_O_WORKDIR:?Submit from the repository root}}"
+source jobs/notifications.sh
+ai6132_notifications_begin 'RQ3 setup' 14400
+trap 'rq3_code=$?; trap - EXIT; ai6132_notifications_finish "$rq3_code"; exit "$rq3_code"' EXIT
+trap 'exit 143' TERM
+trap 'exit 130' INT
+source jobs/nscc/common.sh
+rq3_paths
+AI6132_NOTIFY_OUTPUT=$RQ3_STATE_DIR/logs
+exec > >(tee -a "$RQ3_LOG_DIR/setup_${PBS_JOBID:-manual}.log") 2>&1
+rq3_load_modules
+ai6132_notify_event started
+printf 'RQ3 setup started: %s\n' "$(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+bash jobs/nscc/bootstrap.sh --prepare
+printf 'RQ3 setup completed: %s\n' "$(date -u '+%Y-%m-%dT%H:%M:%SZ')"

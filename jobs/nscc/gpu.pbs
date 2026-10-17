@@ -1,0 +1,115 @@
+#!/bin/bash
+#PBS -N rq3_gpu
+#PBS -q normal
+#PBS -P personal-rtan134
+#PBS -l select=1:ngpus=1
+#PBS -l walltime=12:00:00
+#PBS -j oe
+
+# One process / one allocated GPU. Use qsub -J '0-3%2' for independent
+# example shards; each shard retains every paired condition for its examples.
+set -euo pipefail
+umask 027
+cd "${RQ3_WORKDIR:-${PBS_O_WORKDIR:?Submit from the repository root}}"
+source jobs/notifications.sh
+ai6132_notifications_begin "RQ3 GPU ${RQ3_MODE:-main}" 43200
+rq3_child=''
+RQ3_COMPILE_DIR=''
+rq3_finish() {
+    local code=$?
+    trap - EXIT
+    [[ -z $RQ3_COMPILE_DIR ]] || rm -rf -- "$RQ3_COMPILE_DIR" || true
+    printf 'Exit code %s at %s; rerun the same shard to resume completed outputs.\n' "$code" "$(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+    if [[ -n ${RQ3_RUN_DIR:-} && -n ${RQ3_ATTEMPT:-} && -d $RQ3_RUN_DIR/attempts ]]; then
+        printf '%s\n' "$code" > "$RQ3_RUN_DIR/attempts/$RQ3_ATTEMPT.exitcode" || true
+    fi
+    ai6132_notifications_finish "$code"
+    exit "$code"
+}
+rq3_terminate() {
+    if [[ -n $rq3_child ]]; then
+        kill -TERM "$rq3_child" 2>/dev/null || true
+        wait "$rq3_child" 2>/dev/null || true
+    fi
+    exit "$1"
+}
+trap rq3_finish EXIT
+trap 'rq3_terminate 143' TERM
+trap 'rq3_terminate 130' INT
+source jobs/nscc/common.sh
+rq3_paths
+
+RQ3_MODE=${RQ3_MODE:-main}
+RQ3_NUM_SHARDS=${RQ3_NUM_SHARDS:-4}
+rq3_explicit_shard=${RQ3_SHARD_INDEX+x}
+RQ3_SHARD_INDEX=${PBS_ARRAY_INDEX:-${RQ3_SHARD_INDEX:-0}}
+RQ3_TIMING_REPEATS=${RQ3_TIMING_REPEATS:-0}
+RQ3_SEEDS=${RQ3_SEEDS:-42}
+case "$RQ3_MODE" in
+    smoke|calibration|pilot_first|pilot_second)
+        [[ -z ${PBS_ARRAY_INDEX:-} ]] || { echo 'Pilot modes must not be array jobs' >&2; exit 2; }
+        RQ3_RUN_DIR=${RQ3_RUN_DIR:-$RQ3_OUTPUT_ROOT/$RQ3_MODE}
+        ;;
+    main)
+        [[ $RQ3_NUM_SHARDS =~ ^[0-9]+$ ]] && (( RQ3_NUM_SHARDS >= 2 && RQ3_NUM_SHARDS <= 40 )) || {
+            echo 'PBS main runs use 2..40 shards; keep four shards and use -J 0-3%1 for one worker.' >&2; exit 2;
+        }
+        if [[ -z ${PBS_ARRAY_INDEX:-} && -z $rq3_explicit_shard ]]; then
+            echo 'Main mode requires an array, or RQ3_SHARD_INDEX for a deliberate single-shard retry.' >&2
+            exit 2
+        fi
+        RQ3_RUN_DIR=${RQ3_RUN_DIR:-$RQ3_OUTPUT_ROOT/main}
+        RQ3_RUN_DIR="$RQ3_RUN_DIR/shard_$RQ3_SHARD_INDEX"
+        ;;
+    *) echo 'RQ3_MODE must be smoke, calibration, pilot_first, pilot_second, or main' >&2; exit 2 ;;
+esac
+rq3_assert_scratch_path "$RQ3_RUN_DIR"
+AI6132_NOTIFY_OUTPUT=$RQ3_RUN_DIR
+mkdir -p "$RQ3_RUN_DIR"
+RQ3_ATTEMPT=${PBS_JOBID:-manual_$(date -u '+%Y%m%dT%H%M%SZ')}
+exec > >(tee -a "$RQ3_LOG_DIR/${RQ3_MODE}_${RQ3_ATTEMPT}.log") 2>&1
+printf 'Starting %s at %s on %s\n' "$RQ3_MODE" "$(date -u '+%Y-%m-%dT%H:%M:%SZ')" "$(hostname)"
+
+# A setup job owns environment changes and downloads. GPU jobs run offline.
+rq3_activate
+rq3_quota_report
+rq3_check_driver
+rq3_check_prepared
+export HF_HUB_OFFLINE=1 HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1
+export CUBLAS_WORKSPACE_CONFIG=:4096:8 TOKENIZERS_PARALLELISM=false PYTHONUNBUFFERED=1
+export OMP_NUM_THREADS=${RQ3_CPU_THREADS:-4} MKL_NUM_THREADS=${RQ3_CPU_THREADS:-4}
+export RQ3_RUN_DIR RQ3_MODE RQ3_NUM_SHARDS RQ3_SHARD_INDEX RQ3_TIMING_REPEATS RQ3_SEEDS RQ3_ATTEMPT
+# Each job owns disposable compilation caches, never part of resume state.
+RQ3_COMPILE_DIR=$(mktemp -d "$TMPDIR/rq3-compile.XXXXXXXX")
+export TRITON_CACHE_DIR="$RQ3_COMPILE_DIR/triton"
+export TORCHINDUCTOR_CACHE_DIR="$RQ3_COMPILE_DIR/inductor"
+export TORCH_EXTENSIONS_DIR="$RQ3_COMPILE_DIR/extensions"
+export CUDA_CACHE_PATH="$RQ3_COMPILE_DIR/cuda"
+mkdir -p "$TRITON_CACHE_DIR" "$RQ3_RUN_DIR/attempts"
+nvidia-smi
+module list 2>&1
+python - <<'PY'
+import json, os, platform, time
+from pathlib import Path
+names = ('PBS_JOBID', 'PBS_QUEUE', 'PBS_ARRAY_INDEX', 'CUDA_VISIBLE_DEVICES',
+         'RQ3_MODE', 'RQ3_NUM_SHARDS', 'RQ3_SHARD_INDEX', 'RQ3_TIMING_REPEATS', 'RQ3_SEEDS')
+path = Path(os.environ['RQ3_RUN_DIR']) / 'attempts' / (os.environ['RQ3_ATTEMPT'] + '.json')
+path.write_text(json.dumps({'started_utc_epoch': time.time(), 'host': platform.node(),
+                            'scheduler': {name: os.environ.get(name) for name in names}}, indent=2) + '\n')
+PY
+
+IFS=: read -r -a rq3_seed_args <<< "$RQ3_SEEDS"
+rq3_args=(--config "$RQ3_CONFIG" --output "$RQ3_RUN_DIR" --resume
+          --prepared-data "$RQ3_PREPARED_DATA" --timing-repeats "$RQ3_TIMING_REPEATS"
+          --seeds "${rq3_seed_args[@]}")
+if [[ $RQ3_MODE == main ]]; then
+    rq3_args+=(--phase all --num-shards "$RQ3_NUM_SHARDS" --shard-index "$RQ3_SHARD_INDEX")
+else
+    rq3_limit=10
+    [[ $RQ3_MODE != smoke ]] || rq3_limit=3
+    rq3_args+=(--phase pilot --limit "$rq3_limit")
+fi
+
+python -m src.rq3.run "${rq3_args[@]}" &
+rq3_child=$!
+wait "$rq3_child"

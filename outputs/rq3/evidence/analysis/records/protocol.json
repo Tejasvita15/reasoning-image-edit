@@ -1,0 +1,111 @@
+{
+  "data": {
+    "dataset_id": "Liang0223/KRIS_Bench",
+    "revision": "0748003488a5d39a81d2f40290a86d787824b92d",
+    "split": "train",
+    "splits_path": "data/splits.json",
+    "splits_sha256": "b513673f210e8ac63b6fdfa7bda0bc62323b2dffdb7e4c4e5658234c49a60dc9",
+    "subset_path": "data/rq3_subset.json",
+    "subset_sha256": "a01412109baf36aa2c29dd1e54ea0cc040e86ef5d06af3302dd7a1e201b68843"
+  },
+  "experiment_name": "rq3_step1x_regione",
+  "generation": {
+    "enable_reflection_mode": false,
+    "guidance_scale": 6.0,
+    "max_try_cnt": 1,
+    "negative_prompt": "",
+    "num_inference_steps": 28,
+    "true_cfg_scale": 6.0
+  },
+  "implementation_files_sha256": {
+    "environment.yml": "d97e5362cfdc28cf517e9dfa5575c4baa08934f0bf211b95a19e6c4e4562e93a",
+    "requirements-rq3.txt": "1d29929e55f6732b4348d80e388113f2f9467e52f0e3dc00e4190fd470200218",
+    "src/dataset.py": "83c5d4a55ef95ea830e52ad5289a1565c43b1cd0a1b725f2df3483f655bfcbf2",
+    "src/rq3/__init__.py": "edcd3b33441c885b34663da1b80877d8be666d4df61365f5834349a364c98190",
+    "src/rq3/analyze.py": "f658b1df6d29cc88941d765307c308467fff33b31208ad5f27b5e1f68482d548",
+    "src/rq3/backend.py": "5ca50a5eefcfe58de89502c9ff94adc8a6ad49f3aee010a753036d682581ce2c",
+    "src/rq3/budget.py": "ab26c662b60ff38776f72fecfbd52eda57503698687ae8bce99996ee73924837",
+    "src/rq3/evaluate.py": "6edc46bd84d7d590ac454f4ba60135413adf262236a0dba9dc618c1db60837d0",
+    "src/rq3/merge.py": "d49806a233a5b364b8c0a33bed6f9891db3808b6cab5d0ce6d03cf37ff3069c0",
+    "src/rq3/prepare.py": "5a6ec0b4d7e8b7a6411d74b9c625a766b492daf7e316d74296bb28936bbda058",
+    "src/rq3/protocol.py": "5ecf8b92c8f83cd93557a829d607caaa1ceb173abf7deea47382ae7c23d36499",
+    "src/rq3/regione.py": "7a7751becadd8aa86e33de4f161e5e9ad71f470872dbf7389e91bbb5411d3971",
+    "src/rq3/run.py": "3f25665d92383d7a483113355b6e4d33e20edac314b183fe5254466bed29f9c1",
+    "src/rq3/verify.py": "d3f8e49aa25be5b76b4c8294e70b047b6dda18edaaba157eed60cfdc7efebb2e",
+    "src/taxonomy.py": "ddd551fd10bbe8698e4ce71c7cee65b7cd6ea80ad1a554d4f52cd44944722977"
+  },
+  "judge": {
+    "config_path": "configs/judge_config.yaml"
+  },
+  "model": {
+    "dtype": "bfloat16",
+    "model_id": "stepfun-ai/Step1X-Edit-v1p2",
+    "offload_mode": "model",
+    "revision": "ca85b97fd19f2235dc0d6fd3633d1319f169e149"
+  },
+  "output_dir": "outputs/rq3",
+  "preprocessing": {
+    "color_mode": "RGB",
+    "exif_transpose": true,
+    "mode": "step1x_native",
+    "size_level": 1024
+  },
+  "protocol_hash": "a2001fe4612dfee6ae489c243b0fb204b1f04ba39f4877bf0f53853fe7f1438c",
+  "regione": {
+    "no_avd_cache_threshold": -1.0,
+    "no_rikv_mode": "no_contextual_injection",
+    "params": {
+      "cache_threshold": 0.02,
+      "erosion_dilation": true,
+      "num_inference_steps": 28,
+      "post_step": 2,
+      "refresh_step": "16",
+      "threshold": 0.88,
+      "warmup_step": 6
+    }
+  },
+  "schema_version": 1,
+  "seeds": {
+    "additional": [
+      1234,
+      7
+    ],
+    "default": 42,
+    "derivation": "sha256_first8_mod_2^31_minus1",
+    "stages": [
+      "thinking",
+      "diffusion_0"
+    ]
+  },
+  "source": {
+    "diffusers_path": "external/diffusers",
+    "diffusers_revision": "f5f1c98fa00cb4d0479af1b1b1c17d724345963a",
+    "regione_path": "external/RegionE",
+    "regione_revision": "df66d2e60710f66ce801e8b7c151d22c3239d114",
+    "step1x_revision": "4cca05dfcd6c32dc810d0b4db84c2bf0682a5aeb"
+  },
+  "statistics": {
+    "bootstrap_resamples": 10000,
+    "bootstrap_seed": 42,
+    "confidence": 0.95,
+    "equivalence_margin": 5.0,
+    "minimum_meaningful_difference": 0.0
+  },
+  "thinking": {
+    "max_new_tokens": 128,
+    "temperature": 0.7,
+    "top_p": 0.9
+  },
+  "timing": {
+    "repeats": 3,
+    "synchronize_cuda": true,
+    "warmup_generations": 1
+  },
+  "validation": {
+    "components_report": "reports/rq3_components.json",
+    "determinism_examples": 10,
+    "determinism_report": "reports/rq3_determinism.json",
+    "deterministic_algorithms": true,
+    "image_mae_tolerance": 1.0
+  }
+}
