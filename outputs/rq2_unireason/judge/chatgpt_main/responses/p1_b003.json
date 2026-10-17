@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b003",
+  "results": [
+    {
+      "blind_id": "case_b3f05312381fabae",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the blue sky, cloud arrangement, horizon, distant vessel and offshore water remain visually consistent; the changed foreground and immediate surf belong to the instructed coastline transformation. Instruction: sandy foreground becomes a beach covered with rounded stones, fulfilling the requested shingle beach. Knowledge: visible rounded pebbles of varied sizes and coarse sediment match the supplied explanation. Quality: coherent horizon, surf and daylight; a small area of pebbles toward the middle-left has blended, somewhat ridged surface texture, while the overall beach remains readable and natural."
+    },
+    {
+      "blind_id": "case_9fb798c0c222575f",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: both glass shapes, rims, bases, positions, milk levels and the gray setting remain consistent; the red illumination is part of the attempted instructed lighting change. Instruction: the left glass and adjacent background acquire broad red illumination, but no distinct laser enters from the left or continues toward the second cup; the requested laser is poorly implemented despite both cups retaining milk. Knowledge: the explanation calls for a beam penetrating both cups, whereas no beam is visible through either and the right cup is unlit. Instruction failure ⇒ knowledge invalid. Quality: judged alone, the two glasses have coherent rims and bases, smooth liquid surfaces, convincing transparency and a plausible broad red light; no noticeable structural or texture artifacts."
+    }
+  ]
+}

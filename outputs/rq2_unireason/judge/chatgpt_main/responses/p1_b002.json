@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b002",
+  "results": [
+    {
+      "blind_id": "case_029ad4457927cccc",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the bearded identity and overall seated composition remain recognizable, but the trousers become a short garment with exposed legs, the legs and shoes change pose, and furniture and backdrop details are redrawn beyond the needed anatomical correction. Instruction: the visible change primarily exposes and repositions the legs; a corrected person should have only two arms, yet both side arms and the additional central glass-holding arm remain. The unreasonable extra limb is not corrected. Quality: structural coherence is problematic because three hands/arms belong to the seated man; lighting, painted surfaces, face, and furniture otherwise appear coherent, making this one clear anatomical flaw."
+    },
+    {
+      "blind_id": "case_8046f065ed290691",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the blue sky, cloud band, horizon and ocean composition are retained, but the visible near-water wave and foam configuration is clearly altered beyond replacing beach material. Instruction: sand becomes a gray foreground with rounded stones on the right and a regular grid of small rectangular paving blocks on the left. A complete shingle beach should have loose coarse stones throughout; only approximately half the foreground achieves that change. Knowledge: the supplied explanation requires rounded pebbles and coarse sediments; the right side matches, while the orderly rectangular paving on the left is one clear conflict with that expectation. Quality: the image has an abrupt vertical seam between two incompatible foreground textures and a conspicuously flat horizontal junction with the surf; these distracting joins disrupt natural shore geometry despite readable sky, water, and individual stones."
+    }
+  ]
+}

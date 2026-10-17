@@ -1,0 +1,23 @@
+{
+  "batch_id": "p2_b008",
+  "results": [
+    {
+      "blind_id": "case_1903a24a8bca1146",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white face, black rim and overall dial layout remain recognizable, but the clock framing/scale changes, 8 disappears, and 5 becomes a second 6; these are not required time changes. Instruction: the hour hand remains aimed toward 8 and the minute hand toward 12, instead of changing to 9:00, so the requested time conversion is absent. Knowledge: the supplied explanation requires 9 o’clock, which is not shown. Instruction failure ⇒ knowledge invalid. Quality: the edited dial has a missing numeral, duplicated 6 and distorted watermark text along its lower edge; these are multiple visible semantic/text errors despite otherwise coherent clock geometry."
+    },
+    {
+      "blind_id": "case_ea5b0e0900d11bc3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the two foreground fruits retain their broad upper-left/lower-right arrangement, but the surrounding leaves are redrawn with different outlines and veins, the branch course changes, and background foliage and fruit visibility change. Instruction: the pale green persimmons become large yellow, apple-shaped fruits with slender upright stems rather than retaining persimmon identity and ripening to red; color change attempts maturation but most of the requested outcome is wrong. Knowledge: the explanation explicitly requires red persimmons, whereas the output is yellow. Instruction failure ⇒ knowledge invalid. Quality: considered alone, the edited image has coherent rounded fruit, clean stems and leaf contours, detailed veins, consistent lighting and a natural blurred background, with no noticeable rendering artifacts."
+    }
+  ]
+}

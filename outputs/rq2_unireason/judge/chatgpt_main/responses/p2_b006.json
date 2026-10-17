@@ -1,0 +1,23 @@
+{
+  "batch_id": "p2_b006",
+  "results": [
+    {
+      "blind_id": "case_82468e4bb9c5a697",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the hand, checked sleeve and dark background remain recognizable in the same arrangement, but both the overhead faucet and the water stream have disappeared, beyond removal of the small rod. Instruction: the small dark rod formerly held above the palm is entirely absent, satisfying the specified removal. Knowledge: the explanation requires a vertical downward water stream after removal; there is no water stream or faucet at all, so that expected physical outcome is absent. Quality: viewed alone, the open hand has coherent anatomy, natural illumination and skin texture against a clean dark background; softness does not obscure its meaning and no clear artifact is visible."
+    },
+    {
+      "blind_id": "case_3ccff2bc56a792bc",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the broad river, wooded left hillside, green right pasture and blue sky retain their layout, but the exposed right riverbank has changed contours and texture, and the distant mountain silhouette has changed visibly. Instruction: no boat has been added anywhere on the river or its banks; the expected Jiangnan boat is wholly missing. Knowledge: the required black-canopied Wu-peng boat is absent. Instruction failure ⇒ knowledge invalid. Quality: the edited landscape alone is coherent and natural, with plausible trees, banks, water reflections, cloud shapes and daylight; no noticeable generation defect is apparent."
+    }
+  ]
+}

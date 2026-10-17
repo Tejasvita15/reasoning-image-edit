@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b004",
+  "results": [
+    {
+      "blind_id": "case_10bc276e15bc333a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, framing, illumination and text changes, the round blue stone and gold pendant identity remain recognizable, but the chain is markedly thinner relative to the pendant and the gemstone has a substantially different, coarse facet pattern. Instruction: The edit introduces a centered suspended necklace, grey-blue gradient and bottom serif text, matching the intended minimalist advertisement in part; however the requested quotation is replaced by nonsensical words, the stone has no clear star-like brilliance, and the background has little visible velvet texture. These omissions warrant partial compliance. Quality, edited image alone: The pendant and background are coherent, but the caption is garbled and both upper chain strands dissolve into faint disconnected-looking traces, producing multiple distracting defects."
+    },
+    {
+      "blind_id": "case_b8e0f2a7b12e35ca",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background, four-node square arrangement and simple outlined-node style remain, excluding instructed arrow changes; however three node labels change, from upper-right 1 to 2, lower-right 2 to 3, and lower-left 3 to 0. Instruction: Additional arrowheads make the left and bottom edges bidirectional instead of reversing an edge to remove the cycle. A successful edit would have directed edges without any directed cycle, so the defining requested change is poorly implemented. Knowledge: The supplied explanation requires no cycles; the original clockwise cycle still exists and the bidirectional edges introduce two-node cycles. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: Structural coherence ✔, natural diagram layout ✔, artifact-free ✔, surface/line fidelity ✔; numerals and arrowheads are readable and the diagram has no distracting visual corruption. The graph-theory failure is assessed separately from perceptual quality."
+    }
+  ]
+}

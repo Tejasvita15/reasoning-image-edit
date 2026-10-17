@@ -1,0 +1,23 @@
+{
+  "batch_id": "p2_b009",
+  "results": [
+    {
+      "blind_id": "case_a24195bd5581d8f7",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the grid and top-row arc arrangements remain recognizable, but the second-row right inner arc has been closed, and extra inner arc segments close the bottom-left and bottom-middle circles; these are multiple uninstructed changes. Instruction: the question mark is removed but its cell is entirely blank, instead of containing the common inner lower-left and outer lower-right arc portions of the preceding two patterns. No answer is drawn. Knowledge: the supplied intersection rule is not implemented. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: the grid and circular symbols are clear and the white background is clean; slight contour wobble and uneven stroke thickness are a minor drawing imperfection."
+    },
+    {
+      "blind_id": "case_47d1d321fbc437c7",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding requested layout, background and illumination changes, the round gold bezel and tapered bail remain recognizable, but the open oval-link chain becomes a much finer twisted-looking chain and the sapphire facet structure changes substantially. Instruction: the pendant is centered above lower text on a grey-blue gradient with gold and blue coloring, but the displayed serif text is garbled rather than the requested sentence, the stone lacks clear star-like brilliance, and the background has little discernible velvet texture; the main advertising composition is present with required aspects missing. Quality, edited image alone: the centered jewelry and soft gradient are coherent, but the large two-line caption is semantically garbled and the upper chain fades into fragmented, poorly defined strands."
+    }
+  ]
+}

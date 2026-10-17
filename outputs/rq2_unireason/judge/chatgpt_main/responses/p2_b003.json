@@ -1,0 +1,23 @@
+{
+  "batch_id": "p2_b003",
+  "results": [
+    {
+      "blind_id": "case_081d58f83dad5117",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: the seated bearded identity, green jacket, waistcoat, glass, fruit table and woodland setting remain recognizable, but trousers become a short skirt with bare legs, the shoes and leg pose change, and the chair, background carving and facial details are noticeably redrawn. Instruction: the edit exposes and repositions the legs, yet retains both resting arms plus the separate central glass-holding arm. A corrected person should have two anatomically connected arms; the conspicuous third arm remains, so the requested correction fails. Quality assessed alone: structural coherence ✘ because the man has three arms, a major anatomical failure; naturalness otherwise broadly coherent, texture fidelity ✔ for the painterly surfaces, artifact-free ✘ for the impossible extra limb."
+    },
+    {
+      "blind_id": "case_9dcc7c2d506e6770",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: the joyful open mouth, hands beneath the chin, white blouse and curly hair remain recognizable; however, facial proportions and teeth, curl patterns, blouse folds and the tall pointed crown shape are visibly altered beyond the allowed centering and background design. Instruction: the photo becomes a centered festive poster with balloons, confetti, fireworks and radiant beams. The expected poster would include the exact headline and tagline on a rainbow gradient with soft clouds. Festive elements are present, but both text lines are substantially garbled, the background has hard horizontal color bands, and the clouds are flat icons; this is partial compliance. Quality assessed alone: structural coherence ✘ and artifact-free ✘ because multiple large headline words and the tagline are malformed, with torn overlapping white shapes through the central letters. Naturalness ✔ for a graphic poster; texture fidelity broadly coherent, but the conspicuous typography errors give structural degradation."
+    }
+  ]
+}

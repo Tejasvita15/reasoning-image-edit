@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b005",
+  "results": [
+    {
+      "blind_id": "case_0807639d5330e75e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the broad two-fruit composition remains, but surrounding leaves have changed shapes and vein patterns, the branch geometry differs, and background foliage is reconfigured. Instruction: green persimmons become larger yellow apple-like fruit with narrow upright stalks; mature red persimmons were expected, so the required maturation is poorly implemented. Knowledge: yellow fruit does not match the supplied red-persimmon expectation. Instruction failure ⇒ knowledge invalid. Quality, judged independently: coherent rounded fruit, detailed leaf veins, plausible soft lighting and surface texture, with no clear generation artifact."
+    },
+    {
+      "blind_id": "case_c9713a7c35df4372",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the grid and upper-row patterns remain recognizable, but the bottom-left inner arc is closed into a circle, the bottom-middle gains an upper-right inner arc, and the middle-right inner lower gap is closed. These are multiple changes outside the requested answer cell. Instruction: the question mark is removed and its cell left empty; the required common arcs are not drawn. The source bottom row requires the shared inner lower-right and outer lower-right quarter-arcs. Knowledge: the blank answer does not retain those common parts as the explanation requires. Instruction failure ⇒ knowledge invalid. Quality, judged independently: the monochrome grid and circular strokes are legible and structurally coherent, with no conspicuous artifact; an empty cell itself is not a rendering flaw."
+    }
+  ]
+}

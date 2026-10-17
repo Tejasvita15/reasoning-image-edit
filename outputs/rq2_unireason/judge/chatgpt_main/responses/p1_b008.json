@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b008",
+  "results": [
+    {
+      "blind_id": "case_5ede8e7357ac6340",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Face proportions, jacket folds and silhouette, chair/table details, and background painted figures are visibly redrawn; the seated pose, fruit, glass and overall composition remain recognizable. Instruction: The image becomes more stylized, but both resting hands and the central glass-holding hand remain. A correct edit should leave a plausible two-armed person; the third hand/arm is not corrected, so the requested change is absent. Quality: Structural coherence ✘ because three visible hands attach to a single person; naturalness ✔ within the painted style, texture fidelity ✔, and otherwise clean surfaces without conspicuous ghosting. This is one clear anatomical flaw."
+    },
+    {
+      "blind_id": "case_36391f6e68226b1e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The four-by-four grid and most original symbol positions remain, but the given squirrel at row 2 column 3 becomes a tree; original squirrels, mushroom forms and tree contours are also redrawn. Instruction: Trees are added at r1c3 and r2c2, mushrooms at r3c4, while r4c4 remains empty. Completion requires mushrooms, umbrella, squirrel and tree respectively in those four original blanks; most requested content is therefore incorrect or missing. Knowledge: The supplied explanation is blank; the task itself implies Sudoku row/column uniqueness. Repeated trees and mushrooms violate it, and a blank remains. Instruction failure ⇒ knowledge invalid. Quality assessed independently: Structural coherence ✔ for straight grid lines and recognizable, cleanly formed symbols; naturalness ✔ for consistent flat illustration; artifact-free ✔ and texture fidelity ✔, with no visible rendering defects."
+    }
+  ]
+}

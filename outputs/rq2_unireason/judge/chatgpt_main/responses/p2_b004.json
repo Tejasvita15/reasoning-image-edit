@@ -1,0 +1,23 @@
+{
+  "batch_id": "p2_b004",
+  "results": [
+    {
+      "blind_id": "case_de6fb0ddcc6c69c0",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background, four circular nodes, square arrangement and shadows remain, but three node labels change (upper right 1 to 2, lower right 2 to 3, lower left 3 to 0); these are outside the requested arrow changes. Instruction: the left and bottom edges gain opposing arrowheads while the clockwise cycle remains. A correct edit would reverse an edge to eliminate all directed cycles; this edit instead retains that cycle and creates bidirectional cycles, so it does not achieve a DAG. Knowledge: the visible cycles contradict the supplied no-cycles explanation. Instruction failure ⇒ knowledge invalid. Quality, judged from the edited diagram alone: the circles, lines and background are coherent, but two distinct nodes both labeled 0 create a clear identifier ambiguity, and the outlines/arrowheads show visibly rough contours."
+    },
+    {
+      "blind_id": "case_6ba01adbcdbd8054",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the wooden board, grid, star points, existing black and white stones, red corner marks and stone highlights retain their arrangement and appearance. Instruction: no added black stone is visible; the upper row still has only four consecutive black stones with an empty intersection immediately to their left and a white stone at the right end. The expected winning edit would add a black stone at that left intersection to complete five. Knowledge: the supplied explanation is blank; the missing addition establishes the mandatory failure coupling. Instruction failure ⇒ knowledge invalid. Quality, judged from the edited image alone: the regular grid, round stones, coherent highlights and shadows, and continuous wood texture are natural and free of noticeable artifacts."
+    }
+  ]
+}

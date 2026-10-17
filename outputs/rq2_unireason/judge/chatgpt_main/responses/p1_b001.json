@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b001",
+  "results": [
+    {
+      "blind_id": "case_0ff679964e25d7fe",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The river bend, wooded left hill and right pasture retain their layout, but tree shapes and foliage, bank contours/textures, fence details and cloud streaks have visibly changed beyond the added boat. Instruction: A narrow Chinese-style covered boat has been added on the river; the expected Jiangnan boat is only partially realized because its raised, pointed pavilion roof differs from the specified boat type. Knowledge: The explanation requires a black-canopied Wu-peng boat; the visible pale, swept-up roof is a clear mismatch to that black canopy. Quality: Landscape and boat structures are coherent, with plausible placement and ripples; the boat reflection has a slightly overly hard, angular silhouette, a minor naturalness issue."
+    },
+    {
+      "blind_id": "case_ee0fc3052736515f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested centering, festive background, lighting and typography, the person retains the open-mouth expression and hands-under-chin pose, but facial proportions, curl patterns, hand details and shirt folds have noticeably changed. Instruction: The edit supplies a centered crowned person, balloons, fireworks, confetti and rays. A complete result would include the exact title and tagline over a rainbow gradient with soft clouds; the large title and tagline are substantially garbled, the rainbow uses hard horizontal bands, and the clouds are flat silhouettes, so compliance is partial. Quality: The poster composition and human figure are recognizable, but multiple large text lines contain malformed, overlapping or nonsensical lettering, including broken white shapes through the headline; these distracting semantic and structural errors dominate the image."
+    }
+  ]
+}

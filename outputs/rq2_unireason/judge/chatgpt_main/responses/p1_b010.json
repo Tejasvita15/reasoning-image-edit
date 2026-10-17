@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b010",
+  "results": [
+    {
+      "blind_id": "case_f3fe73d9528a0b10",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the hand, cuff, dark background and composition remain recognizable and closely preserved, but the entire faucet has also been removed, a clear non-requested object change; the water behavior is excluded from consistency as the expected consequence. Instruction: the small rod formerly held over the palm is completely absent, satisfying removal. Knowledge: the explanation requires a vertical downward water stream, but all water is absent, so the expected physical outcome is entirely missing. Quality: the edited image alone shows a coherent naturally lit cupped hand, plausible skin and cloth textures, and a clean dark background; softness does not prevent interpretation and no clear artifact is visible."
+    },
+    {
+      "blind_id": "case_0044528d071838f4",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested repositioning, background, shadow and typography, the blue controller retains its overall identity but its separate directional buttons become a connected cross, the right circle symbol becomes another square, and the central logo changes into a ring. Instruction: the controller is emphasized above center on a grainy gray-blue gradient with a soft shadow and generous space; bold black bottom-centered lettering is added, but it reads \"Pesss txet.\" rather than the required \"Press Start.\", leaving a central requested aspect wrong. Quality: the poster has coherent lighting, clean layout and convincing shell shading, but nonsensical headline text and malformed controller-button symbols are two clear semantic/structural flaws."
+    }
+  ]
+}
