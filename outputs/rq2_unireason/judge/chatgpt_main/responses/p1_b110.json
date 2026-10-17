@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b110",
+  "results": [
+    {
+      "blind_id": "case_6bedaec53cbdfd48",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, placement, shadow and typography, the blue controller remains recognizable, but its directional pad changes to a connected cross, the face-button symbols change (including a second square instead of the circle), and the center logo becomes a ring. Instruction: The edit adds a grainy gray-blue gradient, a centered controller above mid-frame, a soft shadow and bold black lower text, as expected for the requested restrained advertisement. However, the text reads \"Pesss txet.\" instead of \"Press Start.\", so a central requirement is incorrect: partial compliance. Quality: Structural coherence is problematic: the caption is nonsensical and several button markings are malformed. The layout, blue shell texture and floating shadow are otherwise coherent, but the multiple symbol/text errors are distracting."
+    },
+    {
+      "blind_id": "case_e1c49adec150946b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the intended sky phenomenon, the valley outline and foreground placement persist, but the previously dark mountain surfaces acquire conspicuous mottled texture and the foreground vegetation becomes brighter, coarser and color-fringed. Instruction: A broad blue-white band of dense short streaks and repeated brilliant spots replaces the plain starry sky. The expected outcome is an intensified high-latitude aurora over the valley; the added band reads as scratchy falling particles with isolated bursts rather than recognizable luminous auroral curtains, so the main change is poorly implemented. Knowledge: The supplied explanation requires aurora phenomena; the observed particle-like streaks and repeated white bursts do not convincingly depict that phenomenon. Instruction failure ⇒ knowledge invalid. Quality: The valley silhouette is structurally coherent, but the sky has distracting repetitive scratch-like marks and blown-out blobs, while foreground foliage shows corrupted coarse color texture; these are multiple substantial visual artifacts."
+    }
+  ]
+}

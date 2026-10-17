@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b065",
+  "results": [
+    {
+      "blind_id": "case_5e3d7c3c37289e60",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the sky, cloud formation, horizon and offshore waves retain their appearance and arrangement; the tiny dark vessel on the left horizon is no longer apparent. Changes to the beach and immediate waterline are allowed. Instruction: the sandy foreground becomes a continuous coarse stone beach, fully matching the requested shingle coastline. Knowledge: numerous rounded pebbles mixed with coarser stones visibly satisfy the supplied sediment explanation. Quality: the scene has coherent perspective, lighting and shoreline structure, with slight local texture blending between some foreground stones."
+    },
+    {
+      "blind_id": "case_b0186e8d42e541db",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white gridded page becomes predominantly black, grid lines disappear, and all existing interior symbol pairs disappear; a gray square also replaces the lower-left cell background. Instruction: the question mark is replaced by a large filled circle above a small dot. The required result is a hexagon enclosing two small circles, so the target area is edited but the essential shape and containment are missing. Knowledge: the supplied hexagon-with-two-circles expectation is not met. Instruction failure ⇒ knowledge invalid. Quality: the standalone diagram has recognizable outer shapes, but visibly ragged/broken thin outlines and the abrupt gray rectangular patch create clear graphic-coherence flaws."
+    }
+  ]
+}

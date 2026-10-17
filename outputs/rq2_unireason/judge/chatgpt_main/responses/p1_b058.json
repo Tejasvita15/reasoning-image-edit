@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b058",
+  "results": [
+    {
+      "blind_id": "case_82483c983c57697e",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested apple-count change, the white background and glass-plate setting remain, but the plate has a clearly different radial flute pattern and rim geometry. Instruction: six apples become exactly one recognizable red apple on the plate, precisely meeting the requested count. Quality: structure, lighting, shadows and textures are coherent; the glossy apple and glass plate have no noticeable generation defects."
+    },
+    {
+      "blind_id": "case_0e431cb3f16dba47",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: the seated bearded identity and general room composition remain recognizable, but long trousers and socks become exposed legs with a short skirt-like garment, and chair, table and background details are redrawn. Instruction: the edit changes the legs and clothing, yet retains both resting hands plus a third hand holding the glass at the chest. A successful correction would remove or anatomically integrate this extra limb; the unreasonable three-handed anatomy is uncorrected. Quality: textures and lighting are coherent, but the central glass-holding hand has no plausible arm connection while two other arms rest at the sides, a major anatomical structural failure."
+    }
+  ]
+}

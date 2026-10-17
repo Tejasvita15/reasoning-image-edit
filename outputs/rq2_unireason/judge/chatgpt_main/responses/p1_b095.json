@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b095",
+  "results": [
+    {
+      "blind_id": "case_308c987e77d52ff4",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Existing green Xs, red Os, golden grid and their positions remain consistent, but the surrounding wood grain is visibly darker and more strongly patterned. Instruction: A green X has been added to the top-middle empty cell, precisely completing the top row. Knowledge: The supplied explanation is blank; task-implied tic-tac-toe logic supplies the basis: three Xs across the top row constitute a win. Quality: Coherent grid, clearly formed symbols, consistent shadows and wood surfaces; no noticeable structural artifacts."
+    },
+    {
+      "blind_id": "case_2527bdf3dd1ddf7e",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: All three square outlines, surrounding numbers, white background and visible scan marks are preserved. Instruction: No answer was inserted; the rightmost upper-right symbol is still a question mark. The expected edit replaces it with 35, so the requested change is absent. Knowledge: The explanation requires 35 because 6/5 equals 42/35; the missing answer fails that expectation. Instruction failure ⇒ knowledge invalid. Quality: The worksheet has coherent square outlines and clearly legible numerals and question mark, with no distracting distortion or semantic loss."
+    }
+  ]
+}

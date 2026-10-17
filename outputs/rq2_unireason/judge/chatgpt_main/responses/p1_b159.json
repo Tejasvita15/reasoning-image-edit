@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b159",
+  "results": [
+    {
+      "blind_id": "case_60397da3a6255781",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding requested background, layout, lighting and text changes, the round gold bezel and tapered bail remain recognizable, but the original oval-link chain becomes a much finer twisted-looking chain and the sapphire facet pattern is substantially redesigned. Instruction: the white product shot becomes a centered pendant poster on a grey-blue gradient with lower serif text; the expected result requires upper-center placement, velvet texture, star-like brilliance and the exact quotation. The palette and general layout match, but the pendant sits around mid-height, velvet and star sparkle are weak, and the quotation is replaced by nonsense text, giving partial compliance. Quality: structure and gradient are coherent, but the prominent nonsensical lettering is a clear semantic flaw and the upper chain fades into indistinct broken traces."
+    },
+    {
+      "blind_id": "case_ce9d5d72900795da",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested fur recoloring, the eyes, pink nose, ears, pose, whiskers, blue backdrop, bark and bedding retain their shapes and positions. Instruction: the warm golden coat becomes paler and more desaturated, with grey visible across the face and lower body; the expected result is a gray hamster. Considerable beige/tan remains across the crown, cheeks and back, so the color change is only partial. Quality: anatomy, eyes, wood and lighting are coherent and natural, with no duplication or structural defects; fine pink/green chromatic speckling in the fur is a minor texture imperfection."
+    }
+  ]
+}

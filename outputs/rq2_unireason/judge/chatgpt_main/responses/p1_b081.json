@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b081",
+  "results": [
+    {
+      "blind_id": "case_3abdf6f97a41b85a",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the blue sky, distant right skyline, sandy foreground, mound and scattered stones retain their layout; fine foreground sand/stone texture is slightly altered. Instruction: the smooth pyramid now has tiered terraces and a central staircase, addressing the stepped Maya idea, but it retains a tall pointed summit rather than a flat summit with a temple, so the conversion is incomplete. Knowledge: the supplied explanation specifies Kukulkan at Chichen Itza; the pointed apex and absence of its summit temple are a clear architectural mismatch. Quality: coherent masonry, straight stairs and believable directional shadows; surfaces and surrounding landscape show no noticeable generation defects."
+    },
+    {
+      "blind_id": "case_539e00f23ad9304c",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the pale top, orange front, blue side, black separators and overall viewing angle are retained, excluding the required missing-piece repair; the cloth background pattern below and to the right of the cube is visibly redrawn. Instruction: the source has a conspicuous cavity and incomplete upper layers; the edit fills these into a complete aligned four-by-four cube with uniform visible face colors, fully meeting the request. Quality: coherent cube geometry and tile grids, natural highlights and shadows, and intact cloth texture without noticeable artifacts."
+    }
+  ]
+}

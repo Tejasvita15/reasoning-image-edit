@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b069",
+  "results": [
+    {
+      "blind_id": "case_a0aede92f3376e85",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding pest damage, the background foliage and bokeh are substantially rearranged, the upright leaves have different shapes and overlap, and the branch junction is rebuilt. Instruction: the leaves acquire black branching, thornlike marks rather than clearly eaten holes; the expected result is perforated leaves, so most of the requested infestation outcome is missing. Knowledge: the explanation specifically expects holes eaten by insects, which these dark veinlike structures do not show. Instruction failure ⇒ knowledge invalid. Quality: leaf outlines and backlighting are coherent, but the thick black spines across several leaves and tangled central junction create clear unnatural structural artifacts; the background blur itself is acceptable."
+    },
+    {
+      "blind_id": "case_98661ae6545e4732",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: excluding all sea-surface changes, the horizon and broad composition remain aligned, but the sky cloud bands are visibly redrawn, especially at the upper right. Instruction: the textured sea becomes a smooth dark glossy surface with small ripples; a recognizable oil slick should display an oily sheen, and this conveys slickness only partially because it remains predominantly uniform blue. Knowledge: the supplied explanation expects rainbow patterns on the oil sheen; their absence is one clear mismatch despite the smooth surface suggesting a film. Quality: structural coherence ✔, naturalness ✔, artifact-free ✔, texture fidelity ✔; the level horizon, receding fine ripples, localized circular disturbance and smooth reflections form a coherent image without noticeable defects."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b077",
+  "results": [
+    {
+      "blind_id": "case_783ecb39f8a538c5",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "Consistency: the white background, bottle silhouette, stopper and framing remain similar, but the nitric-acid label is clearly replaced by different lettering. Instruction: dark granular material appears in the bottle shoulder, suggesting added powder, but it sits as a dense layer above the visible liquid rather than clearly being mixed into the solution; this only partially depicts the requested addition. Knowledge: the supplied explanation expects light-green liquid and bubbles; the liquid remains pale yellow and no distinct reaction bubbles are visible, missing both expected effects. Quality: the bottle and lighting are coherent, but the chemically meaningless label lettering is a clear semantic flaw."
+    },
+    {
+      "blind_id": "case_e4ac720d2e7eff33",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: excluding the requested whitening, the branching arrangement, surrounding fish, blue water, reef and orange base remain in their original positions, but the organism's rough porous surface is visibly smoothed and loses fine texture. Instruction: the formerly red principal tubular organism is now white throughout its branches, fulfilling the requested albinism depiction. Knowledge: the supplied explanation specifically expects the coral to turn white, which is clearly shown. Quality: the underwater scene and branch structure are coherent, but the nearly clipped white branch faces with flattened texture look conspicuously painted and poorly integrated with the surrounding underwater lighting."
+    }
+  ]
+}

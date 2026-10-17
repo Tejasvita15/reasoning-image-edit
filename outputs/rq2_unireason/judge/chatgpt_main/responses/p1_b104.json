@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b104",
+  "results": [
+    {
+      "blind_id": "case_1c49cd1b561c20bb",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the grid geometry and framing, existing tile symbols and locations, and both players' hand positions are extensively changed. Instruction: instead of adding X in the original empty top-left cell to complete the center-to-bottom-right diagonal, the edit rearranges the board and shows only two X tiles alongside A and q-like marks; no winning X line is created. Knowledge: the supplied explanation is blank; the winning-cell expectation follows the task and visible original diagonal. Instruction failure ⇒ knowledge invalid. Quality: grass, hands and wooden tiles are recognizable, but the incomplete, irregular grid and mixed letter-like game symbols create clear structural and semantic flaws."
+    },
+    {
+      "blind_id": "case_2667fa4a9213988b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white setting remains, but the soccer ball moves lower and left and its panel orientation changes; the basketball also has a substantially different highlight and surface appearance beyond its requested relocation. Instruction: the basketball moves from beside the soccer ball to directly above it, with their surfaces touching, precisely achieving the requested stack. Quality: both balls remain recognizable round forms with coherent lighting and a ground shadow; a small angular, folded-looking panel region at their contact slightly disrupts the soccer ball surface."
+    }
+  ]
+}

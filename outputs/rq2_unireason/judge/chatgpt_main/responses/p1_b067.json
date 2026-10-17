@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b067",
+  "results": [
+    {
+      "blind_id": "case_25ba22e67e1dec90",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The frontal hamster pose, eyes, pink nose, log placement and overall layout remain recognizable, but the formerly smooth blue background is conspicuously mottled, bedding shapes are altered and glossy, and bark texture and scene contrast are substantially changed beyond the allowed fur recoloring. Instruction: The golden fur becomes gray throughout; the expected gray hamster is present, so the requested color change is fully achieved. Quality: Anatomy and composition are coherent, but the fur has conspicuously streaked, smeared texture and the bedding looks melted and plastic; these are noticeable surface artifacts."
+    },
+    {
+      "blind_id": "case_691db7dd7b7b2a1d",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The blue circles, existing numbers, connecting arrows, white background and relative arrangement remain visually unchanged. Instruction: No answer is inserted; the edited target still visibly contains a question mark. The expected result is a numerical replacement in that circle, so the edit fails the request. Knowledge: The supplied explanation calls for 21, but no number is supplied at all. Instruction failure ⇒ knowledge invalid. Quality: The diagram alone has coherent circles and arrows, legible handwritten characters and clean fills without noticeable artifacts."
+    }
+  ]
+}

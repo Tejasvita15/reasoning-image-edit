@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b166",
+  "results": [
+    {
+      "blind_id": "case_9aa47484837e2bed",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The wooden tabletop and red toy setting remain, but the small right car is replaced by a Beetle-shaped car with different roof, windows and body; its position and the background surface details also change. Instruction: The larger left vehicle becomes smaller, but remains substantially larger than the right vehicle, which itself has been replaced. A successful edit would resize the existing large toy to match the existing small car; most of this size-match requirement is unmet. Quality: Structural coherence, lighting, shadows and toy surfaces are satisfactory; both cars are recognizable and coherent without clear generation artifacts."
+    },
+    {
+      "blind_id": "case_71a868eb5ede637d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "Consistency: The central column, horizontal beam and general composition remain, but the right weights change shape and surface highlights, and the black base acquires different texture and marks. Instruction: Additional weight-like material appears on the left, but it forms an unusual elevated platform and stacked structure instead of a straightforward added weight beside the original. The requested addition is only partially realized. Knowledge: The explanation requires two left weights and a leftward downward tilt. The beam and pans remain level, and the left load becomes an anomalous platform assembly rather than two ordinary weights, violating the specified load-and-tilt outcome. Quality: Lighting and metallic textures are coherent, but the left load has an implausible thin supporting stem with an intermediate tray, plus conspicuous dark cuts through the upper weight; these are clear structural artifacts."
+    }
+  ]
+}

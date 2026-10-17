@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b076",
+  "results": [
+    {
+      "blind_id": "case_d8c3feed7db448d5",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the grid and seven other given arc patterns remain recognizable, but the middle-right pattern is replaced by a question mark, an unrequested clear change. Instruction: the original bottom-right question mark is replaced by two complete concentric circles; the correct answer should retain only the shared arcs of the bottom-left and bottom-middle patterns, so most required geometry is wrong. Knowledge: their shared parts are the inner lower semicircle and outer lower-right quarter, not two complete rings. Instruction failure ⇒ knowledge invalid. Quality: assessed alone, the diagram has coherent clean lines, legible symbols, plain white fill, and no noticeable structural or rendering artifacts."
+    },
+    {
+      "blind_id": "case_fb6fb8fee0d7f461",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: framing, stone positions, and red corner markers remain, but several existing stones change color, including the third black stone in the top row and multiple stones below; the board also acquires a markedly rougher texture. Instruction: no additional stone appears, and the existing four-black horizontal run is broken. The required addition would be a black stone immediately left of that original run to make five consecutive black stones; the result does not accomplish this. Knowledge: the supplied explanation is blank; the visible board and Gomoku win requirement imply five aligned black stones, which are absent. Instruction failure ⇒ knowledge invalid. Quality: stones retain coherent round shapes, highlights, and shadows, with a readable grid; the board surface has a mildly distracting gritty, mottled texture."
+    }
+  ]
+}

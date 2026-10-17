@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b043",
+  "results": [
+    {
+      "blind_id": "case_c56121a900c752fb",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested repositioning, background and lighting, the cream color, arched handle and double-G hardware remain recognizable, but the quilted panels become deeply inflated and the bag changes from a frontal shape to a more angled shape with a visible right side. Instruction: the product is reduced and moved right into a spacious gray studio setting with gold serif copy; the expected exact “Elegance, Always.” is replaced by nonsensical words, and the bottom-center GUCCI caption is absent (a misspelled mark is placed on the bag instead). The background is darker than gray-white and placement is substantially rightward, so the advertising concept is only partially fulfilled. Quality: structure, material highlights and ground shadow are coherent, but the large nonsensical headline and malformed bag lettering are clear semantic/text flaws."
+    },
+    {
+      "blind_id": "case_321e00555948910f",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: excluding the requested beach surface and corresponding shoreline transition, the blue sky, level horizon and turquoise offshore sea remain similar, but the white cloud formation is noticeably rearranged and thickened. Instruction: the sandy foreground becomes a shore densely covered with stones; the expected shingle beach is present throughout the visible land, fully satisfying the change. Knowledge: the supplied explanation calls for rounded pebbles and coarse sediments; numerous rounded gray, brown and cream pebbles, with smaller coarse fragments near the water, directly match that expectation. Quality: satisfactory structure, natural perspective and sunlight, coherent wave contact and detailed stone textures; no clear duplication, malformed objects or distracting artifacts."
+    }
+  ]
+}

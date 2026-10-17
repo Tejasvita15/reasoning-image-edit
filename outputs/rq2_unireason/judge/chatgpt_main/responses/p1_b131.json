@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b131",
+  "results": [
+    {
+      "blind_id": "case_8ed1afc132863803",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: glass position, overall silhouette, water level and white background remain consistent, but the glass facet highlights and refraction contours are visibly redrawn, particularly along the lower sides and base. Instruction: the liquid stays clear and colorless, the correct visible result after adding the reagent to pure water; no color change is required. Knowledge: the retained colorless liquid matches the supplied explanation exactly. Quality: coherent glass geometry, smooth transparent surfaces and plausible highlights and contact shadow; no noticeable structural artifacts."
+    },
+    {
+      "blind_id": "case_68b60b197530d536",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the grid, eight existing outer shapes and their paired inner symbols remain in the same arrangement; a slight roughening of the existing linework is the small non-requested difference. Instruction: a broken, partly curved outline is added in the lower-right cell while the question mark remains. The expected completed hexagon with two small central circles is missing, so most required content is poorly implemented. Knowledge: the supplied explanation requires a hexagon containing two circles, which the added open shape lacks. Instruction failure ⇒ knowledge invalid. Quality: the grid and existing symbols are legible, but the lower-right outline is malformed and open, with the question mark overlapping its upper edge, creating a clear structural flaw."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b123",
+  "results": [
+    {
+      "blind_id": "case_0179fdc247115530",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Almost all internal black maze walls have disappeared, the border proportions and scene framing change, and the bear and presents are repositioned; only their general designs survive. Instruction: A red line now connects the bear and presents, but the expected result is a route through the existing maze corridors. Removing the maze and drawing a self-crossing line leaves the central path-solving requirement poorly implemented. Knowledge: The supplied explanation is blank; the mandatory coupling determines this score. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: Structural coherence ✔, clean cartoon anatomy and gift shapes ✔, smooth lines and flat fills ✔, artifact-free rendering ✔; the simple illustration has no noticeable rendering defects."
+    },
+    {
+      "blind_id": "case_b661d4ccd4bfa8fd",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The blue controller remains recognizable, but the four separate directional buttons become a joined cross, the center PlayStation logo becomes a ring, and face-button colors and markings change. These are multiple alterations beyond the authorized presentation changes. Instruction: The image adds a gray-blue textured gradient, an elevated centered controller, a soft shadow, and bold black centered Press Start. text in the lower portion. The intended restrained advertisement is largely achieved, though the prominent coarse speckling is stronger than the requested mild grain. Quality, edited image alone: Coherent controller shape, balanced layout, readable headline, lighting and surface shading ✔; minor artifact ✘ in the uneven doubled outline of the right circular face-button symbol."
+    }
+  ]
+}

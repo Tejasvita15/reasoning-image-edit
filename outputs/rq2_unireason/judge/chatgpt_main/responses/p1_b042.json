@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b042",
+  "results": [
+    {
+      "blind_id": "case_167c018d313ff6f5",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the wooded hills, distant clearing, lighting and aerial composition remain recognizable, but the small yellow-flowering tree on the central grassy bank is visibly reduced and reshaped beyond the requested channel change. Instruction: the upper bend is widened and its grassy interior flooded; a successful edit would show a cut-off crescent lake beside a continuing river. The visible water remains one continuous winding channel, so the essential separation is missing. Knowledge: the supplied explanation requires a crescent-shaped lake separated from the main channel, which is absent. Instruction failure ⇒ knowledge invalid. Quality: coherent forest, terrain and lighting, with a small area of overly smooth blending along the central water-bank transition."
+    },
+    {
+      "blind_id": "case_7163407f07e76b7a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the white background and centered glass tube setup remain, but the tube is narrower with a slightly higher rounded bottom, and the HCl lettering is smaller and higher; these are two non-requested alterations. Instruction: pale stone chips now fill the lower tube and bubbles rise through the liquid, matching the requested addition of marble chips to induce a reaction. Knowledge: bubbles are visible above and around the chips in the HCl, matching the supplied explanation of gas production. Quality: ✔ coherent glass outline and legible label; ✔ consistent illumination and transparent liquid; ✔ plausible stone textures and bubbles, with no noticeable structural or generation artifacts."
+    }
+  ]
+}

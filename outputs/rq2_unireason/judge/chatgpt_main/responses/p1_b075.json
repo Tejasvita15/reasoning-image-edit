@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b075",
+  "results": [
+    {
+      "blind_id": "case_34619ab93b9a6667",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: excluding the requested beam and its red illumination, cup positions, shapes and milk levels remain similar, but the neutral background becomes darker and mottled and the glass reflections become stronger rectangular highlights. Instruction: a red beam has been added entering from the left and crossing both cups of pale soy milk, fulfilling the requested scene. Knowledge: the supplied explanation expects penetration through both cups; the diagonal beam does so, but an unexplained vertical branch descends from a bright point inside the first cup, a clear departure from the expected simple transmitted beam. Quality: coherent glass silhouettes, liquid surfaces, reflections and ground shadows; clean textures and no noticeable structural or rendering artifacts."
+    },
+    {
+      "blind_id": "case_713860463a916068",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the gold grid, orange wood palette and all existing mark locations are retained, but wood-grain patterns inside the cells change visibly, especially bottom-center, and the existing bottom-left O has a changed, more angular lower contour. Instruction: the formerly empty top-middle cell now contains a green X, completing the existing top-left and top-right Xs into a winning row exactly as requested. Knowledge: the supplied explanation is blank; using the game logic explicitly implied by the instruction and visible board, three Xs across the top constitute a win. Quality: the grid and symbols are clear and coherent, with consistent stylized lighting and wood texture and no noticeable artifacts."
+    }
+  ]
+}

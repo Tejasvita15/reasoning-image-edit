@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b175",
+  "results": [
+    {
+      "blind_id": "case_12e90207a3a0b093",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the intended resizing, the small car has changed hood, windshield and bumper details, and the wooden surface grain/reflections have changed; the red vehicles and blurred setting remain recognizable. Instruction: The large left vehicle is somewhat reduced in relative width, but remains much taller and larger than the small car. A successful edit would make their overall sizes approximately match, so most of the requested adjustment is missing. The source shows a large Beetle-style car, not a truck; the larger vehicle is the identifiable intended target. Quality: Structure, lighting, shadows and surface textures are coherent, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_93cf5b7b8f868cd8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The white background and upright glass tube composition remain, but the tube is narrower and the HCl label is smaller and shifted upward. These are outside the requested addition. Instruction: White rounded solids have been added at the bottom; the expected result is marble chips in the acid inducing a reaction. Smooth nearly spherical pieces only partially match chips, and no clear bubbling reaction is visible. Knowledge: The supplied explanation predicts bubbles from reaction with hydrochloric acid. The added solids sit in otherwise clear liquid without visible rising gas bubbles, a clear conflict with that expectation. Quality: The glass outline, legible label, rounded solids, lighting and textures are visually coherent and free of noticeable artifacts."
+    }
+  ]
+}

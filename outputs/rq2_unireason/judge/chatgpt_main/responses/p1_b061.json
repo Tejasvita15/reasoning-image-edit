@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b061",
+  "results": [
+    {
+      "blind_id": "case_9aca2cb2a47d273c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and white product colors remain, but the cable is greatly enlarged and rewound into more loops, its two separated connector ends are replaced by one central visible tip, and the adapter perspective and proportions change beyond repositioning. Instruction: The adapter moves from beside the coil to the middle of its opening; the expected adapter centered inside the cable is fully achieved. Quality: Surfaces, lighting and rounded adapter shape are coherent, but cable topology is unclear and the lone connector appears attached directly to the adapter front without a believable cable run, creating a visible structural problem."
+    },
+    {
+      "blind_id": "case_6cb88d58567f134a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding requested background, layout and shadow changes, the controller retains its blue shell, black touchpad and two sticks, but separate directional buttons become a joined cross, the circle button becomes another square, and the central logo changes. Instruction: The controller is placed above center with a gray-blue gradient and soft floating shadow, and bold black text appears centered below. The expected headline is exactly Press Start.; the visible Pesss txot. is incorrect, and the strong embossed texture is much heavier than mild grain, so compliance is partial. Quality: The controller silhouette, sticks, shadow and overall layout are coherent, but the nonsensical headline and malformed/duplicated controller symbols are two clear semantic defects."
+    }
+  ]
+}

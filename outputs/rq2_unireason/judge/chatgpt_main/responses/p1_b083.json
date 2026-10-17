@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b083",
+  "results": [
+    {
+      "blind_id": "case_052cf2fc7c47a028",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding maturation, the branch, leaf arrangement, background fruit and overall composition are replaced; the fruit also loses its persimmon calyx and gains apple-like stems. Instruction: the green persimmons become yellow apple-like fruit rather than recognizable mature persimmons, so the requested maturation is misinterpreted. Knowledge: the supplied explanation requires red persimmons, but both fruits are yellow. Instruction failure ⇒ knowledge invalid. Quality: coherent rounded fruit, detailed leaf veins, natural shading and intact stems; no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_7917a8481d5ab74b",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the tabletop, background, right-hand small red car and general arrangement remain consistent, but the left vehicle changes from a Beetle-shaped toy to a different compact-car model with a black roof and different windows and body. Instruction: expected the original large vehicle reduced to the small car’s size; instead its identity is replaced and it remains substantially larger than the right car, so the requested size match is absent. Quality: both toy cars have coherent bodies, wheels, reflective trim and plausible tabletop contact shadows, without noticeable artifacts."
+    }
+  ]
+}

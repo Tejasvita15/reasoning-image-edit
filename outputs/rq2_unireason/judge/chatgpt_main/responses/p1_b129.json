@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b129",
+  "results": [
+    {
+      "blind_id": "case_fba5dbfa6a5a9d9f",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the lenses, nose pads, frame position, beige diagonal tabletop grain and lighting remain visually unchanged. Instruction: no visible completion occurs; the near temple retains the same short, blunt-cut end. A completed arm should extend to a finished curved earpiece, so the requested repair is absent. Quality: tabletop texture and lighting are coherent, but the conspicuously truncated near temple is a clear structural flaw."
+    },
+    {
+      "blind_id": "case_e538907cecce62f5",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: both cup positions, milk levels and gray setting are preserved; the glass reflections and base contours are visibly redrawn with stronger bright outlines. Requested red illumination is excluded. Instruction: red light is added as a horizontal bar at the left cup rim and a vertical line down that cup; the expected laser should enter from the left side. Its direction is wrong and the right cup has no beam, making this a major omission. Knowledge: the supplied explanation requires penetration of both cups; only a vertical line in the left cup is shown. Instruction failure ⇒ knowledge invalid. Quality: the cups, milk surfaces and shadows are coherent, but the outlined red rim bar and abrupt vertical light segment form an unnatural, disconnected light structure."
+    }
+  ]
+}

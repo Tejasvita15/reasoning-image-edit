@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b115",
+  "results": [
+    {
+      "blind_id": "case_9fc7835b746cdda8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the required rotation, navy woven upholstery, brown tapered legs and white background remain consistent, but the original three back cushions become two and the continuous chaise is replaced by a separate ottoman in front of a normal seat. Instruction: a clear frontal view is achieved with the extension on the correct viewer-right side; however, the reference has three seats and a continuous long right chaise, so the changed cushion divisions and disconnected extension are notable missing structural details. Quality: assessed alone, the sofa and ottoman have coherent contours, convincing fabric, clean edges and natural shading without noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_5683e6d13510e570",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: glass outline, rim, fluted sides, water level, highlights, background and cast shadow remain visually unchanged; liquid coloration is excluded as the requested attribute. Instruction: the water stays predominantly clear but pink-red coloration appears at the base and lower inner edge. The expected result is entirely colorless water, so this only partially matches the requested outcome. Knowledge: the supplied explanation explicitly says no color change; the localized pink coloration is one clear contradiction despite the otherwise colorless liquid. Quality: the edited glass has coherent transparent structure, clean reflections, smooth background and convincing shadows; the localized tint is visually integrated without visible rendering defects."
+    }
+  ]
+}

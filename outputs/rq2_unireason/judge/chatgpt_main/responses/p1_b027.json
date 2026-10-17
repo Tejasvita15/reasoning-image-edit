@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b027",
+  "results": [
+    {
+      "blind_id": "case_b8fbca6399d25854",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, front-facing trouser silhouette, waistband, pockets, belt loops, button and hems remain consistent; the fly seam has a slightly different curved termination. The instructed fabric color is excluded. Instruction: The cream fabric becomes blue throughout both legs and waistband; the expected blue pants are fully achieved. Quality: Structure, lighting, clean edges and fabric folds are coherent, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_05887419eecd0ce6",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested setting, positioning and reflections, the red Ferrari identity and general body design persist, but the wheel-spoke design and viewing proportions change noticeably, and the blank plate is replaced with lettering. Instruction: The car is placed in a dark blurred urban night scene with restrained neon streaks and a gray sans-serif headline at upper left. A correct result would read “Unleash the Drive.” and place smaller “Ferrari” lettering at bottom center. The headline instead reads “Unleash the Dice”, and the brand is malformed on the plate rather than supplied at bottom center, so compliance is partial. Quality: Car anatomy, road perspective, night lighting and glossy textures are coherent; the malformed plate word is a clear text artifact. No major structural degradation is visible."
+    }
+  ]
+}

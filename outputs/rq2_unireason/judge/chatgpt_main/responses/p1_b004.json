@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b004",
+  "results": [
+    {
+      "blind_id": "case_acd3c75965f67637",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: excluding the requested sea transformation, the cloud bands and sky brightness have visibly changed; the open horizon and broad composition remain. Instruction: blue water becomes a dark glossy slick across the sea, satisfying the core change, but the characteristic colored sheen is missing. Knowledge: the explanation requires rainbow patterns; the mostly black, gray and blue reflections show a sheen without those colors, a clear mismatch. Quality: coherent horizon, lighting and wave perspective, with a small naturalness issue in the overly outlined, bloblike foreground reflections; no major structural artifacts."
+    },
+    {
+      "blind_id": "case_f02cdb53daf26e23",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the grid and symbol categories remain, but numerous unrequested elements change: strokes thicken, squares and triangles resize, the top-right square opens at its right edge, and the middle-right small square moves into contact with the circle. Instruction: the question mark is replaced by only a base and left sloping side; the required complete triangle and blue circle are absent, a major omission. Knowledge: Instruction failure ⇒ knowledge invalid. The supplied explanation calls for a triangle with a circle on its bottom edge, neither completed here. Quality assessed alone: clean, legible geometric linework, coherent grid, uniform white background and blue fills, with no visible rendering artifacts; the open angle itself is a cleanly drawn shape."
+    }
+  ]
+}

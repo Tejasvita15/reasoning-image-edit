@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b094",
+  "results": [
+    {
+      "blind_id": "case_8823c79ce7bf76a4",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the casing, cuff, buttons, labels, date/time, pulse reading, lighting and white background remain visually unchanged. Instruction: the display still reads 123/72; the expected change is a hypotensive pressure reading, so no requested modification is present. Knowledge: neither systolic 123 nor diastolic 72 meets the supplied thresholds of below 90 or below 60. Instruction failure ⇒ knowledge invalid. Quality: ✔ coherent monitor geometry and readable LCD text, ✔ natural lighting and fabric texture, ✔ no noticeable visual artifacts."
+    },
+    {
+      "blind_id": "case_c84f970ddfe48fde",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: most maze walls and junctions are removed or rearranged, the framing changes, and the bear and presents are redrawn with different facial details and gift patterns. These changes are outside the requested red marking. Instruction: two separated red strokes appear in the middle and lower maze, but neither forms a continuous route from the bear to the gifts; the essential path is missing. Knowledge: the supplied explanation is blank; the visible task implies a traversable connected route, which these disconnected strokes do not show. Instruction failure ⇒ knowledge invalid. Quality assessed alone: ✔ clear cartoon bear and presents, ✔ clean black maze lines and red strokes, ✔ coherent flat colors and no conspicuous rendering artifacts."
+    }
+  ]
+}

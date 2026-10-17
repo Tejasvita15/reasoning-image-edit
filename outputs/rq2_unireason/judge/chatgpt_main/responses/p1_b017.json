@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b017",
+  "results": [
+    {
+      "blind_id": "case_499a6092f8f0b627",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The red fire-engine identity, cannon, blue beacons and gray setting remain, excluding the requested camera change; however, a second rear axle has been added and the front wheel hub design has changed. Instruction: The view becomes more lateral, but still shows a substantial front face and receding side rather than the reference\u2019s flat, left-facing side profile; orientation and axle proportions also disagree. Quality: The edited truck alone has coherent bodywork, wheels, equipment, materials and ground shadows, without a noticeable generation defect."
+    },
+    {
+      "blind_id": "case_0c164f68f5c55f25",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The right red compact toy and wood setting remain recognizable, but the left Beetle has become a different compact-car model, and conspicuous pale circular reflections have appeared on the tabletop. Instruction: The source contains two cars, not a truck. Interpreting the larger left car as the target, the relative size gap is reduced, but the object is replaced instead of faithfully resized and remains visibly larger than the right car. Quality: The two toy cars have coherent bodies, wheels and glazing; the pale circular tabletop highlights look unnaturally detached from the otherwise plausible reflections."
+    }
+  ]
+}

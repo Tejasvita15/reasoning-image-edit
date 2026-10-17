@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b119",
+  "results": [
+    {
+      "blind_id": "case_fdaa70efc152c5ca",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The tabletop layout remains recognizable, but its surface becomes markedly grainier and the upper lens/front-frame assembly is replaced by a broad curved dark segment; these are outside completing the temples. Instruction: The shortened lower temple is extended leftward, but a spurious vertical bar joins the two free ends into a closed outline. Completed glasses should have two separate, naturally curved temple tips attached to an intact front frame, so the repair is substantially incorrect. Quality: Structure is problematic: the connected temple ends form an implausible loop, the upper lens assembly is absent or malformed, and the lower arm has a conspicuous join/notch. Table texture and photographic lighting remain recognizable, but the object has multiple distracting structural errors."
+    },
+    {
+      "blind_id": "case_ffa7029034da6418",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: White background, dark blue woven upholstery, chaise identity and brown tapered legs are retained. Excluding the requested viewpoint change, the cushion/backrest design is visibly altered into broad merged-looking sections, rather than preserving the original distinct padded arrangement. Instruction: The output slightly changes the angle and broadens the silhouette, but still shows the long exterior side panel with the chaise projecting left. The reference requires a frontal view with three back cushions and exposed seats across the width, and the chaise projecting forward on the right. Orientation, occlusion and spatial arrangement therefore fail the requested front view. Quality: Fabric, lighting, clean background and legs are plausible, but the seating/back-cushion geometry is visibly awkward: a tall central cushion wedges into the seat area and the broad right cushion disappears behind an oversized panel. These are noticeable structural flaws."
+    }
+  ]
+}

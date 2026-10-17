@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b038",
+  "results": [
+    {
+      "blind_id": "case_526551f1e593a686",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 2,
+      "knowledge_score": 5,
+      "rationale": "Consistency: excluding the requested left-side development, the main highway, right-hand roofs and streets, upper woodland and overall aerial composition remain visually unchanged. Instruction: a large area of left-hand forest has become rows of buildings and developed streets; this clearly depicts the requested urbanization. Knowledge: the supplied expectation is met directly, with fewer trees and more buildings on the left. Quality: the aerial layout and right-hand structures are coherent, but the left-hand buildings are broadly smeared into indistinct repeated roof shapes, with blurred road edges and an abrupt sharp-to-blurred boundary; multiple distracting texture and structural defects remain."
+    },
+    {
+      "blind_id": "case_f057271f313bf43b",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the existing black and white stones, red corner marker, grid arrangement and star points remain in place, but the smooth wooden board surface has visibly changed to a mottled, speckled texture. Instruction: no black stone has been added; the upper horizontal run still contains only four black stones, blocked by white on the right and open on the left. The expected extra black stone completing five in a row is absent. Knowledge: the supplied explanation is blank; the visible failure to add the requested winning stone triggers the mandatory rule: Instruction failure ⇒ knowledge invalid. Quality: stones are round and distinct, grid lines and lighting are coherent, and no pieces are fused; the board has a minor unnatural noisy texture."
+    }
+  ]
+}

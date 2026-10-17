@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b173",
+  "results": [
+    {
+      "blind_id": "case_0c3811b70f741d3c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The fabric background pattern and texture change, and the original four-by-four cube is replaced by a three-by-three structure; these are beyond completing its missing pieces. Instruction: The missing upper section becomes a whole, uniformly colored cube. A correct completion would fill the original four-by-four cube while retaining its grid. The replacement three-by-three cube conveys completion but fails the main object-specific requirement. Quality: Structural coherence, natural lighting and perspective, clean edges, and surface texture are satisfactory; no noticeable artifact appears in the edited cube or fabric."
+    },
+    {
+      "blind_id": "case_5995bf59eaaf4a7b",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The gray sky, horizon, distant tree line, and crossing paths retain their layout, but the foreground vegetation texture and individual leaf/flower arrangements visibly change. Instruction: The edited scene remains an empty flowering field without added prayer flags. The expected result is prayer flags installed across the flatland; the requested addition is absent. Knowledge: The explanation requires five-colored prayer flags, and none are visible. Instruction failure ⇒ knowledge invalid. Quality: The edited landscape has coherent vegetation, paths, perspective and overcast lighting, with no noticeable generation artifacts; softness in the distant scenery does not impede recognition."
+    }
+  ]
+}

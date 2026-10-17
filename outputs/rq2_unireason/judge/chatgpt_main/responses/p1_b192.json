@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b192",
+  "results": [
+    {
+      "blind_id": "case_9d73a5cbf663340a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the upper-left divided diamond and lower-left divided square retain their identities, but the upper-right diamond becomes much lighter, thinner and rounder, and the shapes shift within the enlarged frame, changing the spacing. Instruction: the bottom-right rounded arrow-like outline becomes an angular arrow-like outline with stray diagonal strokes; the expected replacement is a plain square without interior lines, so the requested shape is absent. Knowledge: this contradicts the supplied plain-square explanation. Instruction failure ⇒ knowledge invalid. Quality: the diagram is readable, but the bottom-right outline has a conspicuous projecting kink and disconnected/slanting interior strokes, creating a visibly malformed geometric figure."
+    },
+    {
+      "blind_id": "case_4cc712c2ea903e5c",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: all six colored panel groups, their positions, gradients, shadows and non-target numerals remain visually unchanged. Instruction: the bottom-right question mark remains a question mark; it should have been replaced by 410, so no required change is present. Knowledge: the supplied difference-then-sum rule gives 7−3=4 and 7+3=10, yielding 410, which is missing. Instruction failure ⇒ knowledge invalid. Quality: the edited puzzle has coherent rectangular panels, legible numerals and question mark, consistent shading, and no noticeable generation artifacts; moderate softness does not impede reading."
+    }
+  ]
+}

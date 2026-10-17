@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b188",
+  "results": [
+    {
+      "blind_id": "case_a5ae8c58bac79963",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the main road and broad right-side layout remain, but the right-side roofs are visibly reshaped and the retained trees have altered colors and pointed textures. Instruction: much of the left forest is replaced by a large brown ridged expanse; expected urbanization would add recognizable buildings on that side. Tree removal is evident, but the required urban development is poorly implemented. Knowledge: the explanation requires fewer trees and more buildings; only the former is clear. Instruction failure ⇒ knowledge invalid. Quality: ✘ structural coherence and texture fidelity—the brown plane has unnatural repeated grooves and an abrupt cut boundary, while many right-side roofs appear melted and jagged; the overall aerial perspective remains recognizable."
+    },
+    {
+      "blind_id": "case_28a79bfff44278ce",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: the table, white background and other chairs retain their broad positions, but the books and floral arrangement acquire distorted edges, and the other chair backs and wood surfaces visibly change texture. Instruction: the foreground chair shifts left and rotates, with its entire cushion still exposed in front of the table. Expected is a chair slid inward with its seat beneath the tabletop; this is not achieved. Quality: ✘ artifact-free and texture fidelity—colored edge noise affects the flowers, books and furniture, with visibly crumpled book edges and warped wood details. The overall furniture arrangement remains interpretable, but multiple distracting artifacts impair it."
+    }
+  ]
+}

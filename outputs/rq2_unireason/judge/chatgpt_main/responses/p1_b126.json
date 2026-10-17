@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b126",
+  "results": [
+    {
+      "blind_id": "case_9fec36c69b1e47f4",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Beyond a permitted single-match move, most numeral and equals-sign components disappear or change arrangement; the composition and background framing also change. Instruction: The original reads 5 − 2 = 5; the edit shows a square-like 0, a dash, a 7-like shape and two solid red bars. A correct edit should relocate exactly one match and leave a true equation; neither requirement is met. Knowledge: The supplied explanation is blank; the visible result is not a valid equation, and the mandatory coupling applies: Instruction failure ⇒ knowledge invalid. Quality: The yellow surface and remaining wooden matches have coherent shading, but incomplete symbol construction and two thick rectangular bars make the diagram structurally incoherent."
+    },
+    {
+      "blind_id": "case_fdb2db1a3bec507c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested completion, the existing deck is visibly flattened/reoriented and the concrete surface markings and framing change; the dark grip texture, colorful damaged patch and general gray setting are retained. Instruction: A front truck, wheels and a leftward deck extension are added. A completed skateboard should have a continuous finished deck with a coherent rounded end and supporting wheel assemblies. The added components attempt this, but the broken jagged patch remains at an awkward junction and the extension runs out of frame, leaving completion partial. Quality: Grip, wheels, lighting and concrete textures look plausible, but the thin left extension meets the raised main deck as an awkward overlapping joint with jagged colored fragments, a clear structural flaw."
+    }
+  ]
+}

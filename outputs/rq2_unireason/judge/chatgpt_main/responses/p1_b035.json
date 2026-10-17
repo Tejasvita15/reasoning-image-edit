@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b035",
+  "results": [
+    {
+      "blind_id": "case_9f85e8ad64032b6d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The mountain silhouettes and overall composition remain, but the hillside texture is visibly reworked and the foreground plants become broader, brighter, and differently shaped. Sky changes are excluded. Instruction: The starry sky becomes a bright blue sweeping light display, addressing intensified high-latitude activity, but the sharply outlined nested spiral arcs only partially resemble an aurora. Knowledge: The supplied explanation expects auroral phenomena; luminous sky bands meet that idea, but the rigid concentric light-trail geometry is a clear departure from natural auroral structure. Quality: The landscape layout is coherent, but the hard white spiral edges look unnaturally graphic against the photographic scene and foreground vegetation has visibly smeared, painterly texture."
+    },
+    {
+      "blind_id": "case_c73bfd6c4266c4b8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The green maze layout, girl position, flowers, and cream background composition are retained, but the girl has visibly redrawn facial features and hair details, and the watering can changes shape and spout proportions. Instruction: No red route is added anywhere in the maze; the expected continuous red path from the girl to the flowers is entirely absent. Knowledge: The supplied explanation is blank; this score follows the mandatory coupling, not absent explanatory text. Instruction failure ⇒ knowledge invalid. Quality: Structural coherence ✔, consistent flat illustration style ✔, clean maze corners and coherent girl/flower shapes ✔, and no noticeable generation artifacts or corrupted textures ✔."
+    }
+  ]
+}

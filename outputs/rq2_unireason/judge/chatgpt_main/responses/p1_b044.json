@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b044",
+  "results": [
+    {
+      "blind_id": "case_95f03267a7e3d369",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 4,
+      "rationale": "Consistency: the white background, centered glass tube, curved bottom and HCl label remain, with a small change in label lettering/alignment. Instruction: many smooth white and colored spherical marbles and bubbles were added; the requested result is irregular marble chips in the acid reacting. Addition and reaction are present, but spherical toy-like marbles misrepresent chips, giving partial compliance. Knowledge: the explanation expects bubbles from reaction with hydrochloric acid; a strong bubble column supplies that effect, although some bubbles continue above the liquid surface as if still suspended in liquid. Quality: coherent glass, legible label and shaded spheres; the dense central bubble texture has slight jagged/crystalline blending."
+    },
+    {
+      "blind_id": "case_9c308af353d78c9a",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: excluding the requested organism color change, its tubular geometry, attachment position, surrounding reef, fish, blue water and overhead surface lighting remain visually consistent. Instruction: the red organism becomes much paler pink/cream; a fully fulfilled edit would turn it white. Considerable pink remains across the large tubes, so the change is partial. Knowledge: the supplied explanation explicitly expects white coral; the retained salmon-pink coloration is a clear mismatch despite substantial lightening. Quality: coherent underwater forms, natural illumination and detailed reef/organism textures, with no noticeable generation artifacts."
+    }
+  ]
+}

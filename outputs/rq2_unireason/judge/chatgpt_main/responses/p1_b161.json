@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b161",
+  "results": [
+    {
+      "blind_id": "case_3daaa898e44a62c5",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the moved foreground chair, the white backdrop and overall dining arrangement remain, but the dark dried flowers are noticeably simplified, the books are redrawn, and the table front apron becomes a deeper panel. Instruction: the foreground chair moves left and rotates, but its cushion remains visibly outside the tabletop footprint; the expected result is that chair tucked beneath the table, so the requested placement is poorly implemented. Quality: structural coherence, natural perspective and lighting, artifact absence, and wood/upholstery textures are satisfactory; the edited dining set is visually coherent."
+    },
+    {
+      "blind_id": "case_f5d9f61b024f418f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the four-by-four grid and several original icons remain recognizable, but existing clues are altered: row 2 column 3 changes from squirrel to tree, row 2 column 4 from mushrooms to a bare branch, and row 3 column 1 gains mushrooms under the umbrella. Instruction: blank cells receive trees or mushrooms, while the bottom-right cell stays empty. A correct completion requires mushrooms at r1c3, umbrella at r2c2, squirrel at r3c4, and tree at r4c4; these changes are missing or incorrect, so completion is poorly implemented. Knowledge: the supplied explanation is blank; the visible repeated trees and missing symbol violate the Sudoku logic implied by the task. Instruction failure ⇒ knowledge invalid. Quality: grid and most silhouettes are clear, but the umbrella-mushroom hybrid, detached brown fragments beneath the lower umbrella, and incomplete branch symbol produce multiple distracting structural and semantic defects."
+    }
+  ]
+}

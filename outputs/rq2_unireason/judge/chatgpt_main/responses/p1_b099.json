@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b099",
+  "results": [
+    {
+      "blind_id": "case_b57122e00ef65d15",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the six colored panels and upper numbers remain recognizable and similarly arranged, but the uninstructed bottom-left 19 becomes 14, bottom-middle 48 becomes 49, and the slashed zero in 810 loses its slash. Instruction: the question mark is replaced by 19; the expected replacement is 410, so the requested correct answer is poorly implemented. Knowledge: the supplied difference-and-sum rule gives 7−3=4 and 7+3=10, concatenated as 410, which is absent. Instruction failure ⇒ knowledge invalid. Quality: the edited graphic has coherent rectangular panels, clear legible digits, consistent gradients and shadows, and no noticeable structural artifacts."
+    },
+    {
+      "blind_id": "case_97feab1dafcbd477",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white devices, dark screens and pale background persist, but the tablet shifts right and changes proportions, while the phone moves farther right and down, creating a much larger gap. Instruction: the phone becomes smaller relative to the tablet rather than being enlarged to match it; the expected tablet-sized phone is absent and the size adjustment runs opposite to the request. Quality: the edited image alone shows coherent device bodies, screens, buttons and camera dots, with plausible surface shading and contact shadows and no distracting generation artifacts."
+    }
+  ]
+}

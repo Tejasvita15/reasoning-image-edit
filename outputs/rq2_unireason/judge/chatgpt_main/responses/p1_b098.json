@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b098",
+  "results": [
+    {
+      "blind_id": "case_99d6d38d7de084b0",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the two upper diamonds, lower-left divided square, white background and enclosing frame retain their content and arrangement; the frame margins shift slightly. Instruction: the lower-right outlined arrow-like shape remains instead of becoming an empty square, so the requested replacement is absent. Knowledge: the supplied explanation requires a square without internal lines; the retained rounded pointed shape fails that expectation. Instruction failure ⇒ knowledge invalid. Quality: coherent outlines, clear geometric forms and clean background; no noticeable structural or rendering artifacts."
+    },
+    {
+      "blind_id": "case_3f5881152b9005ca",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the gray three-by-three grid, white background and eight existing arc patterns retain their shapes and locations. Instruction: the question mark is erased, but its cell is left empty; the required common arc segments have not been drawn. Knowledge: the explanation requires retaining the shared parts of the first two patterns in the row, including visible lower arc portions, whereas the result contains none. Instruction failure ⇒ knowledge invalid. Quality: the edited diagram has coherent separated arcs, orderly grid lines and a clean blank cell, without noticeable rendering artifacts."
+    }
+  ]
+}

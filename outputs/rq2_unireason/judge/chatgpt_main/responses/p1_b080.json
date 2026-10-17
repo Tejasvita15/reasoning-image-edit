@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b080",
+  "results": [
+    {
+      "blind_id": "case_f1764689a5cf3dc8",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested splash, layout, background, shadow and typography changes, the glass has changed from visibly transparent rim/base and slender rounded sides to an opaque-looking, more tapered cup with a flat silver band; this is one clear object alteration. Instruction: The edit adds a central splash, upper uppercase sans-serif headline and bottom shadow. The expected clean white minimalist poster is only partially achieved: the background is visibly textured, the shadow is dark, the headline is dark rather than light silver-gray, and its second line is garbled instead of CLEAN TO THE END. Quality: Structure and surface rendering are generally coherent, but the visibly malformed headline and solid, sculptural-looking milk stream/splash are two noticeable flaws; the cup and ground shadow remain readable."
+    },
+    {
+      "blind_id": "case_51ce444d6d887e5c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Excluding the pyramid replacement, the broad horizon and foreground arrangement remain recognizable, but both the formerly smooth blue sky and sandy ground are noticeably altered by mottled color/noisy texture and changed tonality. Instruction: The smooth-sided pyramid becomes tiered with broad central stairways. A Maya stepped pyramid is partly represented, but the retained pointed pyramidal summit instead of a summit temple leaves the intended architectural transformation incomplete. Knowledge: The explanation specifies Kukulkan at Chichen Itza; the terraces and stairways support that expectation, but the pointed cap and absent rectangular summit temple clearly conflict with that structure. Quality: The building is readable with coherent main stairs and lighting, but pervasive colored speckling on the sky/ground and irregular, distorted terrace details are noticeable artifacts."
+    }
+  ]
+}

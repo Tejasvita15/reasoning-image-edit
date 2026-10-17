@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b107",
+  "results": [
+    {
+      "blind_id": "case_a6b1a59f968b71b4",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the original staggered chain, diagonal arrows, circle arrangement and nearly all fixed numbers are replaced by two horizontal rows with leftward arrows and different symbols; only the blue/white palette remains. Instruction: instead of filling the original question-mark circle with 21, the edit redraws the puzzle and leaves two question marks, so the requested change is absent. Knowledge: the supplied subtraction rule requires 21, which is not supplied in the target circle. Instruction failure ⇒ knowledge invalid. Quality: circles and background are clean, but numerous numeral-like inscriptions are malformed or ambiguous (including letter-like LN and CV forms), producing multiple distracting semantic errors."
+    },
+    {
+      "blind_id": "case_6de0ad3a2bf7d97c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white monitor, branding and three-button scheme remain recognizable, but the navy cuff disappears, housing/button geometry shifts, pulse digits change and several fixed labels become garbled. Instruction: the original 123/72 pressure display changes to a lone 2 above a malformed digit/letter-like lower reading; a coherent hypotensive pressure reading is expected, so the numerical change is poorly implemented. Knowledge: although 2 alone is below the supplied systolic threshold of 90, the corrupted display does not establish a coherent intended pressure result. Instruction failure ⇒ knowledge invalid. Quality: casing, lighting and buttons are coherent, but the main lower reading and several small unit labels are distorted and the pulse digits malformed, creating multiple distracting text/display defects."
+    }
+  ]
+}

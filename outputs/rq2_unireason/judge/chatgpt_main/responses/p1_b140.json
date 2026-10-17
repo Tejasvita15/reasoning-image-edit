@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b140",
+  "results": [
+    {
+      "blind_id": "case_9d156ac9f26c19a7",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the silhouette, heel, sole, glossy reflection shapes, white background and floor shadow remain aligned; the tan opening has a slightly altered upper rim contour. Instruction: the red exterior has become black across the toe, sides, back and heel, exactly the expected recoloring of the same shoe. Quality: structure and patent-leather reflections are coherent; a thin cyan fringe along the sole/arch is a minor edge artifact."
+    },
+    {
+      "blind_id": "case_e2b017373181e033",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested basketball relocation and resulting shadows, the soccer ball has moved toward the center and its black-and-white panel orientation has changed noticeably; the basketball seam arrangement also differs. The plain background is preserved. Instruction: the basketball has moved from beside the soccer ball to directly above it with visible contact, precisely fulfilling the requested stack. Quality: both balls have coherent round forms, clean seams and panel edges, believable shading and contact, with no noticeable generation artifacts."
+    }
+  ]
+}

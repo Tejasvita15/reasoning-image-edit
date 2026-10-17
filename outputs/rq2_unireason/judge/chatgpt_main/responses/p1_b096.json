@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b096",
+  "results": [
+    {
+      "blind_id": "case_334ace07bffe493b",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the four labeled circular nodes retain their square arrangement, white background, and other three edges; the node shadows are slightly stronger, especially below node 3. Instruction: a downward arrowhead was added on the left edge, but the upward arrowhead remains. A correct edit would reverse an edge and eliminate all directed cycles; the original 0→1→2→3→0 cycle still exists, so the essential change fails. Knowledge: the bidirectional left edge also creates a two-node cycle, contrary to the supplied no-cycle explanation. Instruction failure ⇒ knowledge invalid. Quality: the diagram itself has coherent circles, readable numerals, clean connections and arrowheads, and no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_62538fa910e4f63d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: beyond the permitted holder relocation, the coffee cup disappears, the paper moves upward and acquires a large repeating pattern, and the holder contents change noticeably. Instruction: the holder is removed from the upper left and placed overlapping the lower-right corner of the paper, precisely the requested destination. Quality: the holder and rectangular sheet remain recognizable, but conspicuous repeated wavy/grid smearing across the paper and distorted wood texture create visible surface artifacts; the overall layout and object boundaries remain coherent."
+    }
+  ]
+}

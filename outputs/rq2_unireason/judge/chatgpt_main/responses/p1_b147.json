@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b147",
+  "results": [
+    {
+      "blind_id": "case_48c7a9b3bc244c15",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested composition, splash, background, shadow and title changes, the cylindrical milk glass is retained but its thick rounded transparent base is visibly reshaped into a flatter, sharply outlined base. Instruction: a centered splash, minimalist pale layout, top uppercase sans-serif title and bottom shadow are added; a perfect result would also have the exact supplied wording in light silver-gray on pure white. The second line instead reads garbled text resembling CLEAN O TE TH END, the lettering is dark gray, and the backdrop and strong cast shadow are grayer than requested, giving partial compliance. Quality: object structure and smooth glass/liquid textures are coherent, but malformed title wording and a milk stream that terminates in an unsupported tapered tip are two visible semantic flaws."
+    },
+    {
+      "blind_id": "case_280fcd2eb9c62a2d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the white backdrop and all other cell occupancies and symbol colors are preserved, but the board framing/proportions and wood-grain patterns on multiple untouched tiles and frame surfaces visibly change. Instruction: the ambiguous tilted bottom-left X/O block becomes a flat blue X tile in the correct cell; the expected bottom-left X is fully realized. Knowledge: the supplied explanation is blank, so this score uses logic explicitly implied by the task and visible board: the new X joins the upper-left and middle-left X marks to complete three Xs in the left column and win. Quality: coherent wooden tray and tile geometry, legible symbols, natural perspective and shadows, and clean wood textures without conspicuous artifacts."
+    }
+  ]
+}

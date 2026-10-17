@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b137",
+  "results": [
+    {
+      "blind_id": "case_a1c5fd6229321fde",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding replacement of the bird, the cloud formations are substantially redrawn and the upper-right sun gains pronounced rays and flare; the blue-sky composition remains. Instruction: the gull becomes a long-necked bird with a large hooked beak, rather than the expected owl with a recognizable facial disk; the requested replacement is misinterpreted. Knowledge: the supplied explanation explicitly requires an owl, which is absent. Instruction failure ⇒ knowledge invalid. Quality: wing and feather structure and sky lighting are coherent, but the dangling feet are tangled and malformed, a clear anatomical flaw."
+    },
+    {
+      "blind_id": "case_f489e8b2908f034e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the wooden tabletop and upper-right coffee cup retain their positions, but the paper extends substantially upward and has a much coarser texture; the holder contents also change in number and arrangement beyond a simple move. Instruction: the holder disappears from the upper left and is placed over the lower-right corner of the paper, fulfilling the requested relocation. Quality: the overhead desk, cup, paper and holder have coherent shapes and lighting; a small area of rough, blended texture on the silver tool in the holder slightly reduces fidelity."
+    }
+  ]
+}

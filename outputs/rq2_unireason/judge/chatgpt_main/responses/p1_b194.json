@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b194",
+  "results": [
+    {
+      "blind_id": "case_9a706772a06a9216",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white setting and two-bag arrangement remain, but the small bag has a different gathered mouth, rope/bead positions and weave; both printed figures and fabric folds are redrawn. These are multiple non-requested changes. Instruction: The right bag remains much taller and wider than the left; a successful edit would shrink it to the left bag’s size. The requested size match is absent. Quality: Structure ✔, naturalness ✔, artifact-free ✔, texture ✔; the burlap, cords, beads and soft grounding shadows are coherent."
+    },
+    {
+      "blind_id": "case_e89a88686ea89b3c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The foot orientation, dark sock and exposed ankle remain, but knit texture is noticeably coarser throughout the sock, a pronounced toe seam appears, and the background gains visible mottled texture. Instruction: The exposed-skin hole at the heel is replaced by continuous dark fabric; an intact sock is the expected completion, and the visible hole is fully repaired. Quality: Structure ✔, naturalness ✔, artifact-free ✔, texture ✔; the foot and knitted covering have coherent contours and lighting, with no distracting artifacts."
+    }
+  ]
+}

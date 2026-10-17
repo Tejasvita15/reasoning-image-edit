@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b113",
+  "results": [
+    {
+      "blind_id": "case_684a26cb99f74d27",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and 4x4 grid remain, but existing animal drawings are visibly redrawn: lion manes become narrow ovals and several faces, ears and proportions change. Instruction: All four blanks are filled, but the expected completion is tiger at row 1 column 1, lion at row 1 column 3, raccoon at row 3 column 1 and dog at row 4 column 3. The edit instead adds dog, tiger, raccoon and a hybrid dog/feline respectively; most required entries are incorrect. Knowledge: The supplied explanation is blank; Sudoku logic implied by the task requires four distinct animals per row, column and 2x2 block, whereas the top row repeats dogs and the bottom entry is not a clear valid symbol. Instruction failure ⇒ knowledge invalid. Quality: Clean grid and recognizable cartoon faces overall, but the bottom-row hybrid has mismatched ears and blended animal features, a clear semantic artifact."
+    },
+    {
+      "blind_id": "case_27f01b07bce7b20d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white setting and two ball identities persist, but the soccer ball shifts left and downward, grows and has a different panel orientation; the basketball also has a stronger glossy highlight and altered seam orientation beyond its requested relocation. Instruction: The basketball moves from beside the soccer ball to directly above it, visibly touching its top, fully matching the requested stacked arrangement. Quality: Both spherical shapes, panel and seam details, lighting and floor shadow are coherent; the stacked contact is visually legible and there are no noticeable structural or generation artifacts. Moderate softness does not obscure the scene."
+    }
+  ]
+}

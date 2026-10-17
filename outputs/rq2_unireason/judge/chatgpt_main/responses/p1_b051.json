@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b051",
+  "results": [
+    {
+      "blind_id": "case_66aca5bb704310c9",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: White background, dark blue upholstery and brown legs remain, but the rounded padded back/arm forms become large flat rectangular panels and the woven fabric becomes conspicuously speckled. Requested viewpoint changes are excluded. Instruction: The edit remains a side profile with the chaise projecting left and a large side panel hiding the seats; it does not show the reference front view with three adjacent back cushions and the chaise extending toward the viewer at right. Quality: The illustration has clean outlines and coherent color, but the stepped overlapping back/arm panels have an implausible structural relationship, obscuring the seating structure."
+    },
+    {
+      "blind_id": "case_6cdd86cf0e196533",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The braided-trunk plant and woven basket remain recognizable, but the canopy is substantially redesigned with different leaf shapes and arrangement, the braid changes, and the basket weave and proportions differ. Poster placement and background changes are requested and excluded. Instruction: A centered plant, floating droplets, green leaf silhouettes, pale green gradient and luminous halo create the requested fresh promotional poster; the upper-left title reads GREN HOME rather than Green Home, a minor but explicit textual error. Quality: The plant, basket, lighting and decorative droplets are visually coherent with good surface detail, but the prominent GREN HOME heading contains a clear word error."
+    }
+  ]
+}

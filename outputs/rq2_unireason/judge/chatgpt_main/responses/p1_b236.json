@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b236",
+  "results": [
+    {
+      "blind_id": "case_f18b126e0b516ef5",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the mountain ridge, fields, trees, sky and roadside lamps retain their appearance and layout; pavement and adjacent road-edge damage are the requested changes. Instruction: smooth pavement becomes fractured, buckled and displaced, fully depicting the requested post-earthquake road. Knowledge: open cracks, raised slabs and collapsed shoulders directly match the supplied expectation of cracked pavement and surface deformation. Quality: satisfactory structure, perspective, lighting and surface texture, with coherent irregular debris and no clear generation artifacts."
+    },
+    {
+      "blind_id": "case_c26106a0662644e6",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the hand, blue cuff and dark background remain recognizable and similarly arranged, but the entire overhead faucet is also removed, a clear unrequested object deletion. Instruction: the small rod held above the palm is completely absent, fulfilling its removal. Knowledge: the curved water stream disappears altogether; the explanation requires a normal vertically downward stream, which is entirely missing. Quality: the edited hand and sleeve are structurally coherent with natural shading and a continuous dark background; moderate softness does not create semantic ambiguity, and no clear artifacts are visible."
+    }
+  ]
+}

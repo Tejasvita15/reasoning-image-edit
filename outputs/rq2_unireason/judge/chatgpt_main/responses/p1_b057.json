@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b057",
+  "results": [
+    {
+      "blind_id": "case_f18358c11a9e485c",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white backdrop, shoe position, tall heel, pointed back and reflection layout remain consistent; the toe contour is slightly flatter, a small shape change beyond recoloring. Instruction: The red exterior becomes black throughout the toe, side, back and heel. The expected black version of this shoe is present, so the requested color change is fully achieved. Quality: Structure, glossy surface texture, lighting and ground shadow are coherent; no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_06a1b359dbb15b88",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding removal of the extra apples and revealing the plate, the remaining apple has a different rounder shape, smoother skin and straighter stem, and the visible plate grooves and rim proportions are changed. The white background remains consistent. Instruction: Six apples become exactly one centrally placed apple, matching the requested single-apple result completely. Quality: The apple, stem and glass plate have coherent forms, natural highlights and convincing surface detail, with no noticeable generation artifacts."
+    }
+  ]
+}

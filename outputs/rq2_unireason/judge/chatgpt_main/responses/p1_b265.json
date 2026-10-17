@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b265",
+  "results": [
+    {
+      "blind_id": "case_2b44cdfd2fee6618",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The river bend, sky and broad pasture layout remain, but tree silhouettes and foliage, the eroded right bank and field details are noticeably redrawn. The added boat and its wake/reflection are excluded. Instruction: A narrow covered wooden boat now floats on the river; the expected Jiangnan water-town boat is partly realized, but its raised angular pavilion-like roof does not closely match a Wu-peng canopy. Knowledge: The supplied explanation requires a black-canopied Wu-peng boat; the visible light gray roof with upturned ends conflicts with that defining canopy, although the narrow dark hull is plausible. Quality: Structure and water integration are coherent, with a plausible wake and reflection; some bank and foliage texture blends into slightly artificial smooth clumps, a minor texture issue."
+    },
+    {
+      "blind_id": "case_2ac5e1ea73d39f08",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Requested background, layout, lighting, branches, petals and lettering are excluded. The central red lantern remains recognizable, but its gold ornament design and lower ring attachment are visibly redrawn, changing the retained source object. Instruction: The edit adds a centered lantern, golden branches, red petals, red/gold glow and sparkles, as expected for the poster. However, the headline does not say Welcoming Spring Festival and the bottom calligraphy is not a legible festive slogan; the branches also have broad leaves rather than characteristic willow foliage. These leave substantial requested aspects incomplete. Quality: The lantern, petals, lighting and composition are coherent, but the large headline, central script and lower lettering contain distracting malformed or nonsensical text, creating multiple semantic defects."
+    }
+  ]
+}

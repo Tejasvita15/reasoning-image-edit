@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b199",
+  "results": [
+    {
+      "blind_id": "case_f38bee0da83e2109",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Red paint, yellow stripes, blue beacons and roof cannon remain, but body compartments and wheel/chassis details are substantially redesigned, chrome trim is lost, and an unrequested white measurement bar is added. Viewpoint changes themselves are excluded. Instruction: The truck becomes more lateral, but faces right rather than the reference left-facing profile, still exposes a broad front face, and has markedly compressed body proportions and missing compartment detail; the attempted side view has major errors. Quality: The flat side and oblique cab front have inconsistent perspective, and the wheels appear suspended against the background without a convincing ground contact or shadow; colors and overall truck identity remain clear."
+    },
+    {
+      "blind_id": "case_6922f84fa44de837",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The mountain-road setting remains recognizable, but the sky/cloud pattern, trees and streetlight positions change, and large side walls and collapsed structural panels are introduced beyond the requested road changes. Instruction: A huge pile of collapsed panels and scattered debris replaces the distant road view; the expected result is cracked, deformed pavement. Most visible asphalt stays smooth and its markings largely straight, so the requested road deformation is poorly implemented. Knowledge: The supplied explanation requires cracked pavement and surface deformation, which the dominant structural wreckage does not demonstrate convincingly. Instruction failure ⇒ knowledge invalid. Quality: Road and landscape are legible, but the central wreckage consists of unnaturally thin, intersecting folded slabs, with garbled markings on a prominent upper panel; these are noticeable structural and text flaws."
+    }
+  ]
+}

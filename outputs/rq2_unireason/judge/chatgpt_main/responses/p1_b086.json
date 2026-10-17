@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b086",
+  "results": [
+    {
+      "blind_id": "case_69d4304a53601668",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: excluding road damage and deformation, the left trees are replaced by a conspicuous upright tree and the distant mountain/field details and framing shift; poles also change positions. Instruction: the smooth road becomes fractured, displaced and strewn with rubble, fully depicting earthquake road damage. Knowledge: visible transverse pavement fractures and uneven broken surfaces satisfy the supplied expectation of cracking and deformation. Quality: perspective and lighting are coherent, but several roadside slabs resemble thin floating or folded panels and the foliage has conspicuously smeared, patterned texture."
+    },
+    {
+      "blind_id": "case_4dfe4457ceb7faa2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the grid shifts, the left middle O disappears, the right middle O becomes X, and both people change poses and held tiles; multiple non-requested details change. Instruction: a correct single move would add X at top left to complete the existing center-to-bottom-right diagonal. Instead the edit leaves top left empty, adds X at top right and bottom left, and replaces the right-middle O with X to manufacture a right-column win; the required move is poorly implemented. Knowledge: the supplied explanation is blank; the visible board and task imply a win by one legal placement, which this does not show. Instruction failure ⇒ knowledge invalid. Quality: the edited photograph has coherent hands, tiles, grass, string grid and lighting, with clear symbols and no noticeable visual artifacts."
+    }
+  ]
+}

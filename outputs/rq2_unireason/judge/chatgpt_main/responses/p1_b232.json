@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b232",
+  "results": [
+    {
+      "blind_id": "case_651ce4597382a581",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the removal and necessary revealed surface, the remaining baguette has a different smoother crust, scoring pattern and shape/placement; the surrounding surface also has a conspicuous pale outlined patch. Instruction: three baguettes become one, exactly the expected count after removing two, so the requested removal is complete. Quality: structure and shadow are coherent, but the large irregular pale background patch has a visible edge and the bread surface looks unnaturally uniform and patterned; these are noticeable visual flaws."
+    },
+    {
+      "blind_id": "case_58358d1b24d22c24",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the creature replacement is excluded; the blue sky and upper-right sunlight remain, but the cloud/background texture is visibly reworked, especially the lower wispy cloud band. Instruction: the gull is replaced by a long-necked white swan with an orange bill; the expected result is an owl, so the specified identity is completely misinterpreted. Knowledge: the supplied explanation explicitly requires an owl, which the swan does not match. Instruction failure ⇒ knowledge invalid. Quality: body, neck, head, lighting and feather textures are generally coherent; the right wing has an awkward narrow protruding feather and slightly blunt, uneven trailing edge, a small anatomical imperfection."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b209",
+  "results": [
+    {
+      "blind_id": "case_3fa3ea0a56fb5e4b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The small red car is replaced by a miniature Beetle, its position and spacing change, and the tabletop/background appearance changes; the larger red Beetle identity remains recognizable. Instruction: The source contains a large toy Beetle rather than a truck. Interpreting that larger vehicle as the target, it should become the size of the existing small car. Instead, the large vehicle remains large and the small car becomes a smaller copy of it, so the requested size adjustment is not followed. Quality: Structural coherence ✔, naturalness ✔, artifact-free ✔, texture fidelity ✔; both toy cars have coherent wheels, bodies, reflections and plausible contact shadows."
+    },
+    {
+      "blind_id": "case_6b3517be1a39fa2a",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The tabletop, legs, other three chairs, vase, flowers, books, pedestal dish and white background remain consistent. Beyond the allowed movement, the foreground chair becomes noticeably narrower/smaller, changing its proportions. Instruction: The foreground chair shifts left and slightly upward and its footprint shrinks. A successful edit would tuck its seat beneath the tabletop; the edited seat remains almost entirely outside the table, so the required placement is poorly implemented. Quality: Structural coherence ✔, naturalness ✔, artifact-free ✔, texture fidelity ✔; the furniture has coherent wooden frames and upholstery, with clean silhouettes and plausible occlusion."
+    }
+  ]
+}

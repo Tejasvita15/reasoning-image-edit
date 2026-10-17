@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b172",
+  "results": [
+    {
+      "blind_id": "case_1cab07dbda98c8fa",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, festive overlays, centering and lighting, the open-mouth pose, crown and white blouse remain recognizable, but facial features and hair strands are visibly redrawn and the blouse folds and hand details change. Instruction: The plain portrait becomes a centered festive poster; the expected rainbow clouds, balloons, confetti, radiant backdrop and starburst fireworks are present. However, the required title and tagline are replaced by nonsensical lettering, so compliance is partial. Quality: Structure and texture are problematic: several prominent lines of garbled text, irregular finger contours and harsh mottled skin/hair rendering distract from an otherwise coherent poster layout."
+    },
+    {
+      "blind_id": "case_fe9778bf977b92b7",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding relocation of the loose right can and its necessary occlusion, the white background remains, but most of the product arrangement changes: the many-row tray becomes a shallow two-row arrangement, the box perspective and proportions change, and labels and can-top details are redrawn. Instruction: The separate right can is removed from its former location and placed upright on the tops of the boxed cans, matching the requested placement on the left Coke box. Quality: Overall can and tray geometry is coherent, with clear separation and intact surfaces, but label lettering is visibly malformed, especially ZERO SUGAR on the upper can and Lime on a front can; these are noticeable semantic artifacts."
+    }
+  ]
+}

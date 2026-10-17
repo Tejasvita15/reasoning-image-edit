@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b049",
+  "results": [
+    {
+      "blind_id": "case_07e2095c68802617",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The hole outline, wall cracks, floor layout and two loose stones retain their positions, but the existing wall surface and floor textures are visibly altered into much harsher, high-contrast patterns. Instruction: The visible change is surface texturing; a completed wall should close the central opening with stone. The large white hole remains fully open, so the requested completion is absent. Quality: Structure and perspective are coherent, but the wall has conspicuous crunchy, fragmented texture artifacts; floor texture is also harsh. This is a clear surface-quality flaw rather than ordinary softness."
+    },
+    {
+      "blind_id": "case_82e218e29abe65ef",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The spoon bowl, its placement and lighting, the wooden background grain and knot, and the shadows remain visually unchanged outside the requested handle area. Instruction: There is no meaningful handle extension; the edited spoon retains the same short shaft with a flat cutoff. A completed handle should continue to a finished end, so the requested change is absent. Quality: The edited image has coherent spoon contours, natural ceramic highlights and shadows, and convincing wood texture, with no noticeable generation artifacts; the short flat-ended object is clearly rendered."
+    }
+  ]
+}

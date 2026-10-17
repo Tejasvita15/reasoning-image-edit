@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b176",
+  "results": [
+    {
+      "blind_id": "case_56b840bc25a47785",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray fluted column style and plain background remain, but surviving columns have altered proportions and shading, and the row spacing changes markedly to leave a large first gap; the background also becomes brighter. Instruction: Eight columns become six. A correct edit would show exactly five; reducing the count addresses the request but leaves one excess column, so compliance is partial. Quality: Structural coherence \u2714, natural rendering \u2714, artifact-free \u2714, surface fidelity \u2714; the six columns have clean capitals, shafts and bases with coherent shading."
+    },
+    {
+      "blind_id": "case_c47fdf3249d2d266",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and general clear dish setting remain, but the dish rim and radial grooves are noticeably redesigned, and the remaining apple has a rounder outline, smoother skin and different stem/highlights than the source central apple. Instruction: Six apples become one central red apple. Exactly one apple on the dish is the expected result, and the count change is fully achieved. Quality: Structure \u2714, lighting \u2714 and texture \u2714; the apple and dish read clearly, with a minor artifact cluster of stray dark and pale marks below the lower dish edge (artifact-free \u2718)."
+    }
+  ]
+}

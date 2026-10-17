@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b047",
+  "results": [
+    {
+      "blind_id": "case_19afe2a68b64ea22",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Both glass shapes, rims, positions, fill levels and tabletop composition remain intact; excluding the requested red illumination, the neutral scene lighting is visibly cooler and more contrasty, particularly around the right glass. Instruction: The change adds a broad vertical red wash over the left cup and floor. The expected result is two soy-milk cups with a red laser entering from the left; the milk remains, but no identifiable narrow left-entering laser is depicted, so the key change is poorly implemented. Knowledge: The supplied explanation requires a beam penetrating both cups; no beam crosses either cup or reaches the right one. Instruction failure ⇒ knowledge invalid. Quality: ✔ Coherent glass and liquid structure, ✔ smooth natural-looking illumination, ✔ clean surfaces and reflections, ✔ no visible generation artifacts."
+    },
+    {
+      "blind_id": "case_1e6c2412b588f0d5",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested placement, background, neon reflections and styling, the red car retains its body silhouette, grille, hood vent, mirror and wheel arrangement. The near headlamp internal geometry is noticeably redrawn into exaggerated bright outlines. Instruction: The white backdrop becomes a blurred dark urban night setting with cyan/red light and a dark gradient; the car sits below center. The expected upper-left silver-gray slogan and smaller bottom-center Ferrari branding are positioned, but the slogan visibly reads \"Unleaash the Drive\" and the bottom brand lettering is malformed rather than Ferrari; the large bright headline also weakens the requested minimal typography. These make compliance partial. Quality: ✔ Recognizable coherent car and atmospheric background; ✔ intentional background blur and glossy surfaces. ✘ Two clear typography flaws: the doubled vowel in the headline and garbled bottom word. These visible semantic artifacts reduce quality."
+    }
+  ]
+}

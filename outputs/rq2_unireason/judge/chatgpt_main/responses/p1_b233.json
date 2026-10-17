@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b233",
+  "results": [
+    {
+      "blind_id": "case_03f5a76626a5db39",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the pointed toe, stiletto heel, shoe position, reflection shapes and white background remain intact; the tan inner lining is slightly warmer/brighter. Instruction: the red exterior has become black across the toe, back and heel, precisely fulfilling the requested recoloring. Quality: coherent shoe structure, perspective and shadows, with a small surface-fidelity issue from slightly rough, mottled glossy highlights."
+    },
+    {
+      "blind_id": "case_c976665d70415d8d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: monitor placement, white housing and orange power button remain recognizable, but display icons and pulse digits, printed labels, memory-button lettering and cuff lettering are noticeably altered. Instruction: the principal pressure readings remain 123/72; the expected edit would lower the pressure to hypotensive values, so the requested change is absent. Knowledge: neither 123 systolic nor 72 diastolic meets the supplied less-than-90 or less-than-60 criteria. Instruction failure ⇒ knowledge invalid. Quality: housing and cuff are structurally coherent, but numerous garbled unit labels, button lettering and fragmented display symbols produce multiple distracting errors."
+    }
+  ]
+}

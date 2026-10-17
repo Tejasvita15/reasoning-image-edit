@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b012",
+  "results": [
+    {
+      "blind_id": "case_f63e58d577e1f922",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: river course, hills and pasture layout remain recognizable, but woodland foliage has been reshaped into rounded clumps, field trees and banks have changed contours, and cloud streaks differ. Instruction: a narrow traditional-looking covered boat is added on the river; the core addition is present, although its flat pavilion-like roof is an imperfect match for the requested regional boat. Knowledge: the explanation calls for a black-canopied Wu-peng boat; the dark hull and cover fit partly, but the cover is a flat open-sided roof rather than the characteristic rounded canopy, a clear mismatch. Quality: coherent landscape, boat placement and reflection, with a small amount of unnatural blending in the foliage textures."
+    },
+    {
+      "blind_id": "case_55b85786872ffae1",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the original nine-cell grid and eight supplied examples are replaced by four large unboxed hexagons, with changed circle and line positions throughout. Instruction: instead of completing the bottom-right cell with a far-right black circle and an upper-right diagonal line, the edit reconstructs the puzzle and adds a red arrow-like mark; the requested completion is absent. Knowledge: the supplied right-circle/top-right-line rule is not realized. Instruction failure ⇒ knowledge invalid. Quality, assessed alone: the four hexagons, black dots, line segments and red directional symbol have coherent shapes, clear contrast and clean white spacing, with no noticeable structural or rendering artifacts."
+    }
+  ]
+}

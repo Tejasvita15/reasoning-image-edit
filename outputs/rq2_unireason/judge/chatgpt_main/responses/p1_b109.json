@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b109",
+  "results": [
+    {
+      "blind_id": "case_846034c48d9dae71",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The fan of tubular branches, reef slope and blue-water composition remain recognizable, but branch surface relief is substantially smoothed and banded, the reef texture is remodeled, and fish silhouettes and water-surface details change. Instruction: The red organism becomes much paler, approaching cream, but pronounced pink bands and dark gray branches remain; an entirely white organism was expected, so the change is partial. Knowledge: The supplied explanation specifically expects white coral; retained pink and dark coloration clearly conflicts with that outcome. Quality: The underwater layout and branch silhouettes are coherent, but the foreground reef has conspicuously melted, glossy textures and the large branches have unnatural smooth ridges; these exceed ordinary softness."
+    },
+    {
+      "blind_id": "case_be40f86f06caac7a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The six colored panels and broad arrangement remain, but many protected numerals change: 28 loses its 8, 214 has a malformed leading glyph, 19 and 48 become different or garbled strings, and the lower-right 7 and 3 are distorted or replaced. Instruction: The question mark is replaced with an unreadable cluster rather than the required 410; the requested correct answer is absent. Knowledge: The explanation requires concatenating 7 minus 3 = 4 with 7 plus 3 = 10, yielding 410, which is not shown. Instruction failure ⇒ knowledge invalid. Quality: Panel geometry and colors are coherent, but numerous malformed and overlapping glyphs, particularly in the lower row, produce multiple distracting text errors."
+    }
+  ]
+}

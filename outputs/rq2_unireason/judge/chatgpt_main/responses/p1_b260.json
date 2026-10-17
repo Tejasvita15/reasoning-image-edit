@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b260",
+  "results": [
+    {
+      "blind_id": "case_521450d1c249020b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, placement, shadow and typography, the blue controller retains its general identity and control layout, but the right circle button becomes a second pink square, the center logo changes, and the grip shape and viewing angle change. Instruction: The edit adds a grainy gray-blue gradient, soft ground shadow and bold black bottom-centered type, with the controller above center and generous space. A fully compliant poster would read \"Press Start.\"; the visible text instead reads \"Peess Tott.\", so the requested slogan is incorrect despite the main composition being present (partial compliance). Quality: Structure and surface rendering are coherent, with plausible lighting and clean edges, but the nonsensical headline and duplicated square control symbols are clear semantic flaws."
+    },
+    {
+      "blind_id": "case_1e8d57cf0fc68194",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested white recoloring, the crew-neck T-shirt, centered Nike embroidery, short sleeves, side tag and white background remain recognizable in matching positions. However, the fabric folds are substantially redrawn, including the right torso crease, and the neck label markings and inner neckline details change. Instruction: The black garment is now white across its body, sleeves, collar and tonal embroidery, exactly matching the expected white version of this clothing; full compliance. Quality: Structural coherence ✔, natural lighting and fabric folds ✔, artifact-free appearance ✔, texture fidelity ✔. The faint white-on-white edges remain readable and the garment is visually coherent without noticeable defects."
+    }
+  ]
+}

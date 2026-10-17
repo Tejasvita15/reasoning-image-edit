@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b101",
+  "results": [
+    {
+      "blind_id": "case_9faa4e3e24bb69a6",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white surface and general pin arrangement remain, but the wood grain and contours of several retained pins change, and the background develops visible blocky patches; requested count changes are excluded. Instruction: Eight wooden pushpins become nine, with an extra pin at the bottom. The expected result is exactly six pins, so the count instruction is not fulfilled. Quality: Structural coherence and lighting are mostly satisfactory, but the bottom pin has a visibly stubby, blunt metal projection and the white surface has conspicuous block artifacts; wood texture remains recognizable."
+    },
+    {
+      "blind_id": "case_1a12fa07ad1b4126",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "Consistency: The orange sphere, metallic material and brown setting remain recognizable, but the open U track becomes a nearly closed teardrop-shaped loop, the sphere is substantially larger relative to the frame, and background texture is smoothed. Instruction: The sphere moves from the upper left to the upper right. A correct result would mark its right-side maximum at the original elevation; the displayed sphere is near that level but slightly higher in proportional framing, a minor positional error. Knowledge: The supplied energy-conservation explanation requires equal starting and final heights. The right sphere is approximately at the original height but modestly above it, a small deviation. Quality, assessed alone: Structural coherence ✔, natural lighting and metal perspective ✔, artifact-free surfaces ✔, and sphere/metal texture fidelity ✔; the loop and resting sphere are cleanly rendered."
+    }
+  ]
+}

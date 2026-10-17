@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b182",
+  "results": [
+    {
+      "blind_id": "case_c605e05bea85f535",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the black rim, white face, numeral arrangement, dot markers and background remain intact; the small bottom attribution lettering is slightly distorted. Instruction: the hands still show 8:00, with the hour hand toward 8 and minute hand at 12; the expected change was to 9:00, so the requested conversion is absent. Knowledge: the supplied explanation explicitly requires 9 o’clock, contradicted by the unchanged hands. Instruction failure ⇒ knowledge invalid. Quality: the clock structure, readable numerals and clean black-and-white surfaces are coherent; the tiny attribution/watermark along the bottom is a minor visual blemish."
+    },
+    {
+      "blind_id": "case_a98f00e89c6d1570",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the rim, white background and dot layout remain consistent, but the 9 has become an open, malformed glyph and the 6 has moved upward; these are outside the requested time conversion. Instruction: a label reading “Tokoy” has been added, but the hands remain at 8:00 instead of the expected 9:00. The city-label attempt leaves the central time change missing. Knowledge: the supplied explanation requires the clock to point to 9 o’clock, which it does not. Instruction failure ⇒ knowledge invalid. Quality: the circular face and hands are coherent, but the malformed 9 and misspelled city label are clear semantic/typographic defects; surfaces remain clean."
+    }
+  ]
+}

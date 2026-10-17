@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b024",
+  "results": [
+    {
+      "blind_id": "case_fc13c13b5187f35e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested viewpoint change, the cream carton becomes white, the four blue lines beneath the cow disappear, and the painted surface/shading becomes flat outlined artwork; the blue/cream design concept, cap and cow remain recognizable. Instruction: the image still shows broad MILK and cow faces in a three-quarter view, with the cap front-facing, rather than the single straight-on cow side and edge-on top seam in the reference; little correct side-view change is achieved. Quality: the edited illustration alone has coherent carton geometry, clean lettering and cow contours, and intact cap texture without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_58a1073df025045f",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding relocation of the holder and its associated shadows, most major surrounding details change: the coffee cup disappears, the sheet becomes taller and moves upward, and the wood grain/plank pattern is replaced; the holder and pens also appear larger. Instruction: the holder moves from the upper-left to overlap the lower-right paper corner, leaving its old location empty, precisely fulfilling the requested position. Quality: assessed alone, the sheet, wood tabletop, holder and individual pens form a coherent overhead scene with plausible shadows, clean boundaries and no noticeable generation artifacts."
+    }
+  ]
+}

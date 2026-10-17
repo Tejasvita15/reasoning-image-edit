@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b125",
+  "results": [
+    {
+      "blind_id": "case_451aae022d6d5f6d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested poster layout, background, decorations and text, the red lobed lantern and gold floral motifs remain recognizable, but its upper suspension cord disappears and the separate red loop/gold tassel collar becomes a different gold handle-like fitting. Instruction: 1. The white background becomes a glowing red/gold poster with willow branches, petals, sparkles and lettering. 2. The expected poster has the central supplied lantern, the exact golden headline Welcoming Spring Festival, and a meaningful festive calligraphic slogan below. 3. The central lantern and decorative treatment match, but the headline is replaced with nonsensical Chinese-like text and the lower lettering is garbled rather than the requested slogan. 4. This is partial compliance. Quality: structural coherence ✘ and artifact-free ✘ because multiple prominent text regions are garbled; naturalness ✔ and texture fidelity ✔ for the coherent illuminated lantern, foliage and petals. The lettering errors substantially degrade a promotional poster."
+    },
+    {
+      "blind_id": "case_619e9e51ce4f4979",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background, front-facing placement, long straight legs, pockets, belt loops and hem arrangement remain consistent. Beyond color, the visible waistband button is removed, the fly/waist closure is redrawn, and the fabric surface becomes smoother with stronger simplified creases. Instruction: 1. The cream trousers become blue across the waistband and both legs. 2. The expected result is the same pants colored blue. 3. The requested object is fully recolored to an unambiguous blue without missed cream regions. 4. The color change fully complies. Quality: structural coherence ✔, naturalness ✔, artifact-free ✔, texture fidelity ✔; the isolated trousers have continuous seams, plausible folds, clean contours and coherent shading, with no noticeable standalone visual defect."
+    }
+  ]
+}

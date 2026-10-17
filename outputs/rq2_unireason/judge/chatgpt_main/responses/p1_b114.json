@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b114",
+  "results": [
+    {
+      "blind_id": "case_1f461b963a89da78",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the mountain silhouettes, valley composition and foreground shrubs remain recognizable in the same positions; excluding the requested atmospheric glow, the original fine star field is visibly replaced by enlarged, dense streaks and bright clusters. Instruction: the edit adds a brilliant blue-white band of sparkling points; the expected change is recognizable auroral curtains or diffuse luminous arcs. The band suggests heightened sky activity but mostly resembles exaggerated stars rather than aurora, a major omission. Knowledge: the supplied explanation requires aurora, which is not convincingly depicted. Instruction failure ⇒ knowledge invalid. Quality: terrain structure and vegetation are coherent, but the sky has conspicuous repeated scratch-like sparkles and blown-out clustered light patches, making it visibly unnatural."
+    },
+    {
+      "blind_id": "case_d3b3577ab828b26d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: horizon, blue sky and broad cloud placement remain, and the changed shore and its water boundary are excluded. However, the offshore sea is visibly retextured into dense bright speckles and the clouds acquire a conspicuous stippled texture, altering two non-requested elements. Instruction: the sandy foreground becomes a beach densely covered in smooth rounded stones, precisely supplying the requested shingle coastline. Knowledge: rounded pebbles of varied sizes and coarse material cover the shore, matching the supplied explanation. Quality: the stones have coherent rounded shapes, perspective and shadows, but the sea and clouds exhibit distracting grainy patterned texture, and the smooth water-to-pebble boundary looks abruptly blended."
+    }
+  ]
+}

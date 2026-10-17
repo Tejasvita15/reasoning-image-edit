@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b001",
+  "results": [
+    {
+      "blind_id": "case_298c4282d2f14288",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "Consistency: the white background and stoppered-bottle concept remain, but the bottle is shifted upward/right and reshaped, and the formerly legible nitric-acid label is extensively altered. These are outside the requested contents change. Instruction: dense reddish-brown granules now fill/coats much of the bottle and settle at its base; the expected edit is an appropriate quantity of iron powder added to the existing solution. Powder addition is attempted, but its excessive coverage and rusty appearance make the amount/material depiction incomplete. Knowledge: the supplied explanation requires light-green liquid and generated bubbles; neither is clearly shown, and opaque brown granules instead dominate, giving two substantial mismatches. Quality, edited image alone: the bottle silhouette and white background are coherent, but the label lettering is malformed and the granular texture blends unnaturally across the label and contents."
+    },
+    {
+      "blind_id": "case_8fed98bd231b5236",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding repair of the broken end, most major details change: the board is upright instead of lying diagonally, its surface/graphics change, and the original concrete scene becomes a wall-and-pavement scene with a wooden support. Instruction: a rounded full deck replaces the broken deck, but the expected result is completion of the original skateboard; the lower truck has no clear complete pair of wheels, and this is substantially a replacement rather than a completed repair. Most required completion is poorly implemented. Quality, edited image alone: wall, paving, lighting and deck outline are coherent, but the wheel-less, irregular lower truck is a clear structural flaw and the trucks appear attached to the textured grip face, creating a second semantic problem."
+    }
+  ]
+}

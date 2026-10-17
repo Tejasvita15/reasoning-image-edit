@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b145",
+  "results": [
+    {
+      "blind_id": "case_6691e3e97d95dcf0",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the sky, wooded left slope, pasture and river composition remain recognizable, but foliage detail, river ripples and the eroded right shoreline are visibly altered. Instruction: a small open boat has been added on the riverside pasture; the expected Jiangnan boat is only partly realized because it lacks the characteristic canopy. Knowledge: the supplied explanation specifically requires a black-canopied Wu-peng boat, whereas this is an uncovered hull, ignoring that defining feature. Quality: landscape structure and lighting are coherent, but the tiny boat appears suspended above the grass without convincing ground contact or a corresponding shadow, a clear integration flaw."
+    },
+    {
+      "blind_id": "case_333c56529461a794",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background and several perimeter wooden pushpins retain their general arrangement, but the two central wooden handles become simple disks with double-ended shafts, and an extra diagonal shaft appears at the upper-left handle; these are changes beyond adjusting the count. Instruction: the source has eight wooden pushpins; the edit shows seven full wooden handles plus two central disk-headed objects, rather than exactly six nails. Most of the requested count correction is missing. Quality: multiple structural errors are distracting: both central pins have shafts emerging from opposite sides of flattened wooden disks, the upper-left handle has an additional shaft from its side, and several metal tips are hooked or blunt. Wood texture and the white surface remain otherwise plausible."
+    }
+  ]
+}

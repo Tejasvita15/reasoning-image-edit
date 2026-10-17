@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b218",
+  "results": [
+    {
+      "blind_id": "case_2c4b89d0bd0fd715",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested new poster background and decorations, the supplied black-and-gold pen remains recognizable, but moves lower/right and its clip ornamentation and nib details visibly change. The source contains a pen, not the stated bear balloon. Instruction: the edit adds a bear balloon, blue background, white clouds, stars and candy-like swirls. A compliant poster would have the balloon slightly right and the exact colorful top title Bear Balloon Party; here the balloon is left and the large title is garbled, so the main poster idea is only partially fulfilled. Quality: structure and glossy pen surfaces are coherent, the flat cartoon styling is internally plausible, and there is no obvious ghosting; the large nonsensical title is a clear semantic flaw."
+    },
+    {
+      "blind_id": "case_e390005c61dce7a4",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding requested placement, background and lighting, the round blue stone and gold circular setting remain recognizable, but the chain is much thinner relative to the pendant and the tapered bail is visibly elongated. Instruction: the edit suspends the pendant centrally against a textured grey-blue gradient and adds a light lower text area. A compliant result would include star-like sapphire brilliance and the exact fine-serif sentence; the gem has bright facets without a distinct star-like sparkle, and the caption contains multiple malformed words, leaving the requested result incomplete. Quality: the jewelry silhouette, gold highlights and background are coherent, with no obvious duplication; the serif caption is visibly garbled and overlapping in its second line, a clear text artifact."
+    }
+  ]
+}

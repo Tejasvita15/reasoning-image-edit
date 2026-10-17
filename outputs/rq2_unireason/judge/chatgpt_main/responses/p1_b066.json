@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b066",
+  "results": [
+    {
+      "blind_id": "case_90716e27f9f280e1",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: the bearded identity, green jacket, glass and general seated setting remain recognizable, but long trousers become shorts, crossed legs become parallel bare legs, and fruit arrangement, chair details and background artwork change noticeably. Instruction: the visible change concentrates on the legs; a correct edit should remove the anatomically impossible third arm. Both resting hands and the separate central glass-holding arm remain, so the unreasonable body part is not corrected. Quality: structural coherence ✘ because the man has three arms, a major anatomical failure; lighting and material textures ✔, with clear fabric, skin and wood."
+    },
+    {
+      "blind_id": "case_c872f4b8daf30297",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "Consistency: white background and top-row X/O/X arrangement remain, but the middle-left X disappears, center O becomes a red bar, bottom-middle and bottom-right blanks acquire O marks, and board perspective and lower dividers change. Instruction: the ambiguous bottom-left block becomes a clear X; the expected result is an X there completing the existing left-column X line. The requested symbol and location are correct, but removal of the middle-left X prevents the required win, yielding partial compliance. Knowledge: the supplied explanation is blank; using game logic explicit in the task, a win needs three aligned X marks. There is no winning X line, and the center red bar is not a valid X/O mark, giving multiple logical violations. Quality: textures and illumination ✔; structural/semantic coherence ✘ because the lower row lacks its left internal divider and the center carries a lone red bar among game symbols; these are two clear flaws."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b251",
+  "results": [
+    {
+      "blind_id": "case_09f3835ceb6a5226",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding both temple arms, the tabletop, diagonal grain, lighting and glasses placement remain consistent, but the front frame/nose-pad assembly is visibly redrawn with darker, more defined pad fittings. Instruction: a rounded extension has been added to the truncated lower arm; a complete result would have a continuous arm joined smoothly to its existing shaft. The extension addresses the request but leaves a conspicuous notch/gap at the join, so completion is partial. Quality: texture and lighting are satisfactory, but structural coherence and artifact freedom are problematic at the visibly broken-looking lower-arm joint."
+    },
+    {
+      "blind_id": "case_d7a3296ad900376f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "Consistency: excluding fruit maturation, the leafy branch setting is retained, but the framing is tighter and leaf contours, veins and surface texture have noticeably changed. Instruction: the two prominent pale-green fruits become orange-red and rounder; the expected mature appearance is largely present, although several partially visible fruits remain green. Knowledge: the supplied explanation says persimmons should turn red. The prominent fruits now have reddish-orange ripe coloration, matching the stated maturation logic, with a minor omission in the still-green background fruits. Quality: structural coherence, natural lighting and perspective, artifact freedom and surface textures are satisfactory; fruits, calyxes, branch and leaves form a coherent scene without noticeable defects."
+    }
+  ]
+}

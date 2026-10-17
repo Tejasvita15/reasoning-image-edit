@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b246",
+  "results": [
+    {
+      "blind_id": "case_7e33fd79813cb0ed",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested staging, lighting, palette and viewpoint changes, the two coated cookies retain their shapes and leaning arrangement, but their surface detailing changes noticeably: cracks disappear and caramel drizzle paths are redrawn. Instruction: the white setting becomes dark velvet with a matte slate base, centered cookies and upper-left highlights, matching much of the expected dessert display. However, the required sentence is replaced by garbled script across the top, and the view still looks down onto the cookies rather than slightly upward; partial compliance. Quality: cookie shapes, slate and velvet are coherent with plausible illumination and textures, but the prominent malformed, unreadable lettering is a clear visual flaw."
+    },
+    {
+      "blind_id": "case_9c15a7a8bf76013d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding the requested channel modification, the broad forested valley and overhead viewpoint persist, but foliage throughout changes from photographic tree crowns to multicolored smeared shapes, and foreground vegetation/clearing boundaries are substantially rearranged. Instruction: the meandering river becomes a widened bulbous water body with a long downstream extension. A successful edit would show a cut-off curved meander separated from a continuing main river; neither a distinct crescent lake nor a separate main channel is visible, so the essential change is poorly implemented. Knowledge: the explanation requires a crescent-shaped lake separated from the main channel; the visible connected, swollen channel does not establish that separation. Instruction failure ⇒ knowledge invalid. Quality: the overall valley and water outline remain readable, with coherent overhead lighting, but pervasive melted, mosaic-like foliage is a conspicuous texture defect."
+    }
+  ]
+}

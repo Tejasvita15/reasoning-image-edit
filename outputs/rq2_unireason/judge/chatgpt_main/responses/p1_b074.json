@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b074",
+  "results": [
+    {
+      "blind_id": "case_0203324045b042fd",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the open-sea composition and horizon are retained, but the sky cloud streaks and their arrangement visibly change; sea-surface changes are excluded. Instruction: blue rippled water becomes a broad dark glossy floating slick with irregular patches, fulfilling the main transformation, though the expected iridescent sheen is missing. Knowledge: the supplied explanation calls for rainbow patterns; the slick is predominantly black and blue without clear rainbow interference colors, a noticeable mismatch. Quality: coherent horizon, lighting, surface perspective and oily texture, with no clear structural or generation artifacts."
+    },
+    {
+      "blind_id": "case_0cfdff4fe72ebd6c",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: the lens assembly moves from the right to the left, additional large dark lens-like loops appear on both sides, and the tabletop texture and lighting change extensively. Instruction: instead of extending the truncated lower temple into a complete matching arm, the image reconfigures the glasses into disconnected or wrongly connected lens-like structures; the requested repair is not achieved. Quality: major structural failure in the glasses, including extra oval frames in incompatible positions and incoherent transparent connections; strong blocky mottling also degrades the tabletop."
+    }
+  ]
+}

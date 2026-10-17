@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b269",
+  "results": [
+    {
+      "blind_id": "case_24541977ff350bbb",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested poster background, decoration, title and repositioning, the source pen retains its black-and-gold identity but its long gold clip becomes a triangular emblem and its nib and barrel detailing are substantially redrawn. Instruction: The edit adds a colorful Bear Balloon Party title, blue background, clouds, stars, candy and a cheerful bear head to the right. A fully compliant poster would feature the specified bear balloon slightly right of center; the supplied source actually shows a fountain pen, and the result remains dominated by that pen with an attached bear head rather than a clear balloon. The main poster idea is present but its central balloon requirement is incomplete. Quality: Structure ✔, naturalness within the illustration style ✔, artifact-free ✔, textures ✔; lettering is readable and the outlined shapes, ribbon and highlights form a coherent playful poster."
+    },
+    {
+      "blind_id": "case_381cd1a41e9d7508",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested staging, lighting and camera changes, both chocolate cookies remain recognizable, but the prominent upper-cookie crack disappears and the surface drizzle patterns and lower-cookie contours are noticeably changed. Instruction: The edit replaces white surroundings with brown draped fabric and a matte black slate base, keeping two centrally stacked chocolates under soft upper-left illumination. The intended result also requires a slightly upward view and the exact quotation at top right; the image looks down onto the slate and the quotation is garbled and spread across the top. These omissions make compliance partial. Quality: Object structure ✔, lighting ✔, chocolate/fabric/slate textures ✔; artifact-free ✘ because the conspicuous heading contains malformed, nonsensical lettering, a clear semantic flaw."
+    }
+  ]
+}

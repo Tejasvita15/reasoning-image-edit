@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b149",
+  "results": [
+    {
+      "blind_id": "case_c78a1906dc0af57d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Black fabric, orange branding, zipper and gray background remain, but the three sleeve stripes become two and the pronounced torso folds are replaced by a smooth, differently seamed front, beyond the permitted viewpoint change. Instruction: The oblique source becomes a straight frontal view with the entire torso visible; the reference instead looks down through the neck opening with a strongly foreshortened torso. This is the wrong viewing direction. Quality: The edited garment alone has coherent seams, zipper, pockets and collar, clean boundaries and smooth believable fabric shading without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_89eb5422cbeaa207",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The wooden setting and red toy theme remain, but the left Beetle body is replaced with the small car design, and the original right car is repositioned and its front trim reshaped. Instruction: The source actually contains a large Beetle rather than a truck. Interpreting the intended target as the large left vehicle, the edit produces two similarly sized cars but replaces that vehicle with another model instead of resizing it; the essential object-preserving change is poorly implemented. Quality: Both toys have coherent bodies, windows and wheels with plausible tabletop shadows; the right car has mildly wobbly, uneven front chrome trim."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b078",
+  "results": [
+    {
+      "blind_id": "case_24569b69a0f62527",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The grid, white background and nearly all eight existing figures disappear into black; only a lower-left gray patch and empty diamond remain. Instruction: The question-mark position receives a pale spoked wheel, rather than the required hexagon with two small central circles, so the requested shape is not supplied. Knowledge: The wheel contradicts the supplied hexagon/two-circle explanation. Instruction failure ⇒ knowledge invalid. Quality: The visible diamond has uneven jagged edges and the wheel has irregular spokes merging into a bulky center; the large black field and gray panel otherwise have clean flat fills."
+    },
+    {
+      "blind_id": "case_aae039fc7c4aadd0",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The monitor remains white with orange and gray buttons on a white background, but its body and screen proportions change, the cuff becomes less exposed, the pulse changes from 76 to 06, and multiple unit labels become garbled. Instruction: The original 123/72 reading becomes an isolated 2 above a malformed lower reading resembling 73E; a coherent hypotensive blood-pressure pair is not established, making the requested numerical modification poorly implemented. Knowledge: The explanation requires systolic below 90 or diastolic below 60; although the isolated 2 is numerically below 90, the malformed display does not communicate a plausible blood-pressure measurement. Instruction failure ⇒ knowledge invalid. Quality: Device shading and button structure are coherent, but several unit labels and large LCD characters are malformed, with an implausible 06 pulse display, producing multiple distracting semantic errors."
+    }
+  ]
+}

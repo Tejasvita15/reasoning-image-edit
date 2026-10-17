@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b210",
+  "results": [
+    {
+      "blind_id": "case_a4ad7aacb9912e93",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the spoon bowl, position, warm tabletop and major wood knots remain recognizable, but the tabletop grain and surface texture are visibly redrawn across the background. Instruction: a long rounded handle now extends from the formerly cut-off shaft, fulfilling the main request; the horizontal seam and offset edge at the junction keep it from appearing fully continuous. Quality: lighting, wood texture and overall spoon shape are coherent, but the conspicuous joint makes the handle look like two fitted pieces rather than one smooth utensil."
+    },
+    {
+      "blind_id": "case_2c863936cd150d5a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the broad two-fruit composition is retained, but leaf shapes and veins, branch geometry and the surrounding foliage/background are noticeably altered beyond fruit maturation. Instruction: the greenish round fruits become larger bright-yellow, indented apple-shaped fruits with narrow upright stems; a successful edit would show the original persimmons ripened, preserving their identity. This is predominantly replacement rather than the requested maturation. Knowledge: the supplied explanation requires red persimmons, whereas the result remains yellow and apple-like. Instruction failure ⇒ knowledge invalid. Quality: structural coherence, natural lighting and shading, clean edges, fruit skins and leaf textures are satisfactory, with no noticeable generation artifact in the edited image alone."
+    }
+  ]
+}

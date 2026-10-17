@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b013",
+  "results": [
+    {
+      "blind_id": "case_4deddedd465c7eff",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested shoe recoloring, the pointed toe, curved arch, tall heel, seams, placement and large glossy reflections are preserved; the floor shadow is slightly darker and more diffuse. Instruction: The red upper and heel become black; the expected same black high-heeled shoe is present, fully fulfilling the color change. Quality: Structure, perspective and glossy texture are coherent, but a slight yellow/blue fringe along the shoe silhouette is a small visible artifact."
+    },
+    {
+      "blind_id": "case_23e55d4c4069cc8a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Apart from the permitted adapter relocation, the cable has moved down and left, its loop and free-end arrangement have changed, and the connector shapes differ; the white background also has more gray shading. Instruction: The large two-prong charging adapter disappears. A correct edit would place that adapter inside the cable loop, but the loop center is empty, so the requested positioning is not performed. Quality: The cable loop and lighting are plausible, but the lower-left connector has an ambiguous housing with faint stray tab-like protrusions, a clear local structural artifact."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b224",
+  "results": [
+    {
+      "blind_id": "case_86e2a01d9869c996",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the hand, checked sleeve and dark setting remain recognizable, but the faucet and entire water stream have also been removed, two clear non-requested changes. Instruction: the small rod formerly held over the palm is absent, fully satisfying the explicit removal. Knowledge: instead of the stated expected vertical downward stream, no water remains at all, ignoring the supplied physical outcome. Quality: the hand and sleeve are coherent and naturally lit; a small angular tonal seam in the lower-right dark background is a minor blending imperfection."
+    },
+    {
+      "blind_id": "case_1e09ec6eb2571b94",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested camera rotation, navy woven upholstery, white background and tapered brown legs persist, but the three back cushions become two and the seat segmentation/chaise construction changes noticeably. Instruction: a frontal view is achieved with the extension on the viewer-right, as in the reference; however, the reference has three aligned back cushions and separate seats, whereas the edit leaves the left section without a back cushion and places a separate-looking ottoman-like cushion in front of the right seat. These are notable missing structural details in an otherwise present viewpoint change. Quality: fabric, lighting and legs are coherent, but the conspicuously uncovered left backrest and awkwardly stacked right seat/extension create clear structural irregularities."
+    }
+  ]
+}

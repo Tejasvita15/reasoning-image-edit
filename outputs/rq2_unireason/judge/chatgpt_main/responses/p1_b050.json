@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b050",
+  "results": [
+    {
+      "blind_id": "case_a31e684d4d6daae9",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested splash, white setting, title, palette and composition, the clear glass remains recognizable, but its base and reflective rim have been visibly redrawn. Instruction: the edit adds a centered uppercase gray title and retains the central milk splash on white; the expected exact slogan and soft bottom shadow are not achieved. The second line reads garbled text rather than CLEAN TO THE END, and no convincing ground shadow anchors the glass, so compliance is partial. Quality: structure and milk/glass surfaces are coherent, but the visibly malformed slogan is a clear semantic artifact; the stream also intersects the lettering."
+    },
+    {
+      "blind_id": "case_030b246d8461b491",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the grid and most symbol locations remain, but the existing squirrel at row 2 column 3 is replaced with a tree, and existing squirrels, mushrooms and umbrellas have noticeably redrawn outlines and details. Instruction: two empty cells acquire symbols while row 2 column 2 and row 4 column 4 remain empty. A correct completion would add mushroom, umbrella, squirrel and tree respectively at r1c3, r2c2, r3c4 and r4c4; instead the new r1c3 tree and r3c4 mushrooms repeat symbols in their rows. Most required completion is missing or incorrect. Knowledge: the supplied explanation is blank; the visible repeated symbols and unfilled cells fail the Sudoku logic explicitly implied by the task. Instruction failure ⇒ knowledge invalid. Quality: structural coherence ✔, clean cartoon shapes and grid ✔, artifact-free rendering ✔, consistent flat colors and outlines ✔; judged alone, no noticeable rendering defects."
+    }
+  ]
+}

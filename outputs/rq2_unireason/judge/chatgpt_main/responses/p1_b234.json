@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b234",
+  "results": [
+    {
+      "blind_id": "case_9491bef6938fc0ab",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Room layout, chair, window, curtains, lamp and bed positions remain consistent, but the carved wall-panel motif and blanket folds/knit details are noticeably redrawn. Instruction: A pink inflated balloon has been added beside the window; a regular-air balloon should be placed in the room with floor support. The balloon addition fulfills the main idea, but its unsupported elevated position does not convey regular air, so compliance is partial. Knowledge: The explanation explicitly requires the balloon to lie on the floor; it instead floats high above the bed, contradicting the fundamental expected behavior. Quality: Viewed alone, the room and balloon have coherent shapes, natural lighting and credible materials, without noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_e9365160875fe032",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The circle layout, colors and existing numerical values are preserved, but numeral handwriting and circle/connector stroke shapes and thicknesses are visibly redrawn. Instruction: The target still contains a question mark; no number was filled in, so the requested edit is absent. Knowledge: Instruction failure ⇒ knowledge invalid. The supplied explanation says 21, although its stated subtraction rule applied to the visible adjacent values gives 36 minus 21 = 15; the retained question mark satisfies neither. Quality: The edited diagram has clean circles, legible numerals and question mark, coherent connectors and an even white background, with no noticeable structural artifacts."
+    }
+  ]
+}

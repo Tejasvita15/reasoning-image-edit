@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b118",
+  "results": [
+    {
+      "blind_id": "case_23ef55bc93b5ab09",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the requested indicator-filled glass, the rear bowl raspberries and spoon raspberry are replaced by purple cabbage-like forms, and the napkin and framing change; the pink table and central berry/mint garnish remain recognizable. Instruction: The white yogurt bowl becomes a clear glass containing purple indicator-colored water, matching the literal requested visible outcome. Knowledge: The supplied explanation expects acidic yogurt to turn red or pink; yogurt is instead removed and the liquid is purple, ignoring that explanation. Quality: The glass, reflections and garnish are coherent, but the rear cabbage and spoon object have conspicuously artificial black-and-neon-purple, maze-like textures."
+    },
+    {
+      "blind_id": "case_9af62a864916d991",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, overall trouser silhouette, waistband, loops, pockets, pleats and hems are preserved; the fly flap has a slightly altered rounded lower contour. Instruction: The cream trousers are fully recolored blue, including waistband and legs, precisely fulfilling the requested color change. Quality: The garment has coherent seams, folds, button and leg shapes, clean edges and consistent shading without noticeable artifacts."
+    }
+  ]
+}

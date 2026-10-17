@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b016",
+  "results": [
+    {
+      "blind_id": "case_cad19f34824b185b",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The wide lawn scene is replaced by a close view; the board layout, visible marks, people’s arm poses and framing change substantially, and the wooden grid anchors disappear. Instruction: An X is shown beneath the right hand near the center, whereas the source requires an additional X in the top-left cell to complete the diagonal with center and bottom-right Xs. No winning diagonal is depicted; the requested move is not followed. Knowledge: The supplied explanation is blank; the visible source and task imply the top-left winning move. Instruction failure ⇒ knowledge invalid. Quality: Grass and wooden tiles are coherent, but the right hand has awkward blended finger contours around the X, and the lower horizontal grid segment terminates at the vertical line, giving the board an incomplete structure."
+    },
+    {
+      "blind_id": "case_bf5d58eb323f00b0",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and left/right arrangement remain, but both bags have noticeably different mouth folds and body contours, the cords and tassels are reshaped and repositioned, and the printed figures and fabric texture change. Instruction: The right bag remains substantially taller and wider than the left; the expected result is a right bag reduced to match the small left bag. The size-matching change is absent. Quality: Both bags have coherent seams, gathered mouths, woven texture, cords, beads and tassels, with clean silhouettes and plausible grounding shadows; no noticeable artifacts."
+    }
+  ]
+}

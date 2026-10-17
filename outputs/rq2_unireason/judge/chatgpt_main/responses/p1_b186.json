@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b186",
+  "results": [
+    {
+      "blind_id": "case_dc32c704930b1f85",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: beyond the allowed bottom-left change, the middle-left X disappears, bottom-middle gains an O, and board perspective, framing, block shapes and wood grain change throughout. Instruction: the tilted bottom-left piece becomes a flat blue X as expected, but X does not win because the middle-left X is removed; the requested outcome is only partially achieved. Knowledge: the supplied explanation is blank; using the game logic explicitly implied by the task, three Xs should complete the left column. Instead that column is interrupted and the central O column wins, a clear conflict with the intended winning move. Quality: coherent wooden grid, legible symbols, natural grain, lighting and shadows, with no noticeable visual artifacts."
+    },
+    {
+      "blind_id": "case_e5b0e48a302239c1",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the seated bearded man, green coat, waistcoat, glass, fruit table and ornate setting remain recognizable, but facial details, chair construction, background ornament and fruit/table arrangement visibly change. Instruction: the portrait is redrawn, yet both outer arms and the additional central glass-holding hand/forearm remain. The expected correction is anatomically plausible two-arm anatomy; the unreasonable extra limb is not corrected. Quality: lighting, fabric and furniture are coherent, but the visible third hand and forearm emerging in front of the torso are a clear anatomical artifact."
+    }
+  ]
+}

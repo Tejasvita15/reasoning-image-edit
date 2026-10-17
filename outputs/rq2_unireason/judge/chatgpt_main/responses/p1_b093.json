@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b093",
+  "results": [
+    {
+      "blind_id": "case_edd896e9f41dbe88",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested poster layout, background and decorations, the red lantern remains recognizable, but its gold floral motifs have been redrawn into simpler loops and its body proportions, cap and tassel shape differ noticeably. Instruction: The plain image becomes a centered lantern poster with a red/gold glow, sparkles and scattered red petals, as expected; however, the headline and bottom slogan are garbled rather than the requested readable wording, and the branches have red leaves rather than golden willow decorations. This is partial compliance. Quality: Structural coherence is problematic because multiple prominent lines of text contain nonsensical, broken and melted lettering. The lantern, branches, lighting and surface textures are otherwise coherent, but the typography creates multiple distracting errors."
+    },
+    {
+      "blind_id": "case_b5992da47c15eb2e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The central scale and neutral setting remain recognizable, but the four right-pan weights become one large weight, the base is reshaped, and background and metal textures change. These are multiple non-requested alterations. Instruction: The left weight becomes a broad low cylinder with a narrow tall stem; a distinct additional weight alongside the original is not established. The expected result is the existing left weight plus another weight, so this is a major omission rather than a clear addition. Knowledge: The explanation requires two left weights and a leftward downward tilt. Neither is shown clearly: the beam and pans remain level. Instruction failure ⇒ knowledge invalid. Quality: Structural coherence, natural appearance, artifact absence and texture fidelity are satisfactory; the scale, chains, cylindrical weights and pedestal have coherent forms, with consistent lighting and no conspicuous visual defects."
+    }
+  ]
+}

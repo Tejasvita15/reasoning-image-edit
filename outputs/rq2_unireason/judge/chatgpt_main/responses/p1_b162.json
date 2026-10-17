@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b162",
+  "results": [
+    {
+      "blind_id": "case_5ddcf256f6eb3a9f",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: sky, cloud arrangement, horizon and blue offshore sea remain recognizable, but the nearshore wave/foam pattern is substantially changed beyond replacing the beach material. Instruction: sand has become a continuous pebble beach, matching the requested shingle coastline. Knowledge: visible rounded stones and coarse sediment match the supplied explanation. Quality: coherent horizon, light and surf, but the left foreground stones show conspicuous repeated rippled/stamped texture and blending that weakens natural surface detail."
+    },
+    {
+      "blind_id": "case_c25a94e5f6612d4d",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: most major non-requested details change: the leaves are rearranged into a more open radial cluster with different silhouettes and overlaps, the branch position/shape changes, and background bokeh is repositioned. Instruction: several irregular dark holes and ragged brown-edged damaged patches appear on the upper-left and lower-right leaves, clearly depicting pest infestation. Knowledge: these missing patches of leaf tissue match the explanation that insects eat holes in leaves; remaining intact leaves do not contradict infestation. Quality: coherent leaf veins, branch structure, translucent backlighting and blurred foliage, with no noticeable generation artifacts."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b062",
+  "results": [
+    {
+      "blind_id": "case_921e0305df21813e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The peach background and illustrated mouth are retained, but the lip contours and highlights shift upward and the existing teeth change outlines and spacing beyond the two missing teeth. Instruction: Both dark gaps, one upper-left and one lower-right, are filled with appropriately sized white teeth; the expected complete rows are present, fully satisfying the request. Quality: Structure, lighting, clean outlines and glossy textures are coherent within the illustration style, with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_ffd3428ce8d997a8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The monitor, white background, angle and cuff position remain, but numerous labels and the MEM button lettering are distorted, and cuff texture and folds change. Instruction: The large readings remain 123 systolic and 72 diastolic; the expected edit would visibly lower at least one pressure to the specified hypotensive range. No requested pressure change is made. Knowledge: The supplied explanation requires systolic below 90 or diastolic below 60; neither displayed value qualifies. Instruction failure ⇒ knowledge invalid. Quality: The device shape and main numerical display are coherent, but multiple garbled labels, corrupted button lettering and warped cuff printing are distracting structural/text artifacts."
+    }
+  ]
+}

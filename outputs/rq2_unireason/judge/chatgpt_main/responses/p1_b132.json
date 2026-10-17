@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b132",
+  "results": [
+    {
+      "blind_id": "case_97f44bcb779a5624",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white backdrop and white charger/cable identities remain, but the cable is greatly enlarged and repositioned, its right Lightning tip becomes a USB-C-like tip, and the adapter changes perspective and proportions beyond its requested relocation. Instruction: The adapter moves from beside the coil into its central opening; the expected centered adapter is clearly present, fulfilling the positional request. Quality: Structure, lighting, smooth surfaces and cable contours are coherent, with no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_fad871ec2e302a72",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The eight existing circle/line patterns, grid and hexagons retain their content, but the framing is changed so the left border and portions of the leftmost hexagons are cropped. Instruction: The bottom-right cell still contains a red question mark instead of a completed pattern. The expected black circle on the far right and line in the upper-right corner are both absent, so the requested drawing was not performed. Knowledge: The supplied explanation requires that rightmost circle and upper-right line; neither appears. Instruction failure ⇒ knowledge invalid. Quality: The diagram remains readable with coherent symbols and clean white areas, but clipping along the left edge is a small framing defect."
+    }
+  ]
+}

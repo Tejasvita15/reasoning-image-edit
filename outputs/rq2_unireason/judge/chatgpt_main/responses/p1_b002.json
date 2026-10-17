@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b002",
+  "results": [
+    {
+      "blind_id": "case_31545962a7077493",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: tube position, rounded outline, HCl label, liquid surface and white background are retained; the upper glass has slightly altered streaky reflections. Instruction: white stones and rising bubbles are added inside the original tube as expected, although the stones look like smooth rounded pellets rather than chipped marble, a minor shape mismatch. Knowledge: bubbles visibly rise above the submerged stones, matching the supplied hydrochloric-acid reaction explanation. Quality: coherent glass geometry, legible label and shaded stones; some bubbles have slightly cloudy, clumped contours, a minor texture flaw."
+    },
+    {
+      "blind_id": "case_ffda60460243eed8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding eye changes and stronger illumination, the face occupies less of the frame, the visible body/back pattern and focus change, and several whisker paths change; the general cat pose and background arrangement remain recognizable. Instruction: the eyes change from pale blue to vivid green and the face is strongly illuminated, but both pupils remain broad dark ovals rather than showing the expected constriction, so the central requested response is poorly implemented. Knowledge: the supplied explanation requires constricted pupils, which are absent. Instruction failure ⇒ knowledge invalid. Quality: facial anatomy remains coherent, but blown-out white facial fur with crushed dark texture and unnaturally luminous green irises produce clear naturalness and texture flaws."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b041",
+  "results": [
+    {
+      "blind_id": "case_fe2ce50f888c4baf",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested apple reduction, the glass plate has a different radial groove pattern and is reframed lower with substantially more white space above; the white background remains. Instruction: six apples become exactly one red apple on the plate, matching the requested result completely. Quality: structure, lighting, surface texture and artifact checks are satisfactory; the single glossy apple and transparent plate have coherent shapes and reflections."
+    },
+    {
+      "blind_id": "case_82eb021586cd6fe3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the maze wall layout is retained, but the girl’s face, hair and body proportions and the flowers’ shapes have been redrawn; the formerly flat cream background also has a subtle gradient. Instruction: a short red line appears in a lower corridor. A complete result would connect the girl’s entrance to the flowers through the maze; this isolated segment reaches neither endpoint and omits most of the route. Knowledge: the supplied explanation is blank; the visible incomplete route cannot guide the girl to the flowers. Instruction failure ⇒ knowledge invalid. Quality: structure, naturalness for a flat illustration, clean edges and artifact checks are satisfactory; the girl, flowers and maze are legible and coherent."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b028",
+  "results": [
+    {
+      "blind_id": "case_68c90227e093c166",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested viewpoint change, the navy woven upholstery, wooden legs and white background remain, but the three back cushions become two broad cushions and the continuous chaise seat becomes a separate rectangular ottoman-like cushion. Instruction: The side view becomes a frontal view with the extension correctly on the viewer\u2019s right, but the reference has three seating divisions and a continuous right chaise; those conspicuous structural details are missing. Quality: The furniture has coherent shapes, fabric and lighting, with one small pale dangling artifact beneath the left seat base."
+    },
+    {
+      "blind_id": "case_7596d12586bdd51d",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested basketball movement and resulting contact shadow, the orange basketball styling and neutral background remain consistent; the soccer ball is visibly repositioned and rotated, changing its panel arrangement. Instruction: The basketball moves from beside the soccer ball to directly above it, with its bottom touching the soccer ball\u2019s top, precisely realizing the requested placement. Quality: Both balls have coherent round silhouettes, clean seams and panels, plausible surface shading and contact shadows, with no noticeable generation artifacts."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b225",
+  "results": [
+    {
+      "blind_id": "case_6c3340ece2f2168e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white backdrop and two recognizable ball types remain, but the soccer ball shifts from the right to the center and its black-and-white panel orientation changes noticeably; these changes were not requested. Instruction: the basketball moves from beside the soccer ball to directly above it, resting on its top, which fulfills the requested stacking. Quality: spherical shapes and surface textures are coherent, but a conspicuous flattened brown collar at the contact point looks like an extra support or deformed basketball surface; lighting and the rest of the image are otherwise coherent."
+    },
+    {
+      "blind_id": "case_05f9cfead88083f6",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: red paint, yellow stripes, blue beacons, roof cannon and gray background remain. Excluding viewpoint-dependent changes, the truck body is substantially redesigned: the two narrow shutters and ribbed equipment body become a single broad shutter and smooth panel, and the exposed undercarriage components become a broad plain silver skirt. Instruction: the view changes to a right-facing three-quarter view with the front windshield and grille still visible. The reference requires a left-facing full side profile; orientation and front-surface occlusion are incorrect, so the requested viewpoint fails. Quality: the edited truck has coherent wheels, cab, cannon, lighting and clean surfaces, with a small unnatural-looking rear wheel-to-chassis connection beneath the silver skirt."
+    }
+  ]
+}

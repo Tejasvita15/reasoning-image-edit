@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b089",
+  "results": [
+    {
+      "blind_id": "case_f3dd43dbd97be494",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and golden wood material remain, but nearly all retained objects have different locations, orientations and shapes, and most metal shafts disappear; these exceed the requested count change. Instruction: The scattered set becomes five wooden heads, only one with a visible metal point. The expected result is exactly six intact nails/pins, so the count reduction is attempted but the required number and complete objects are missing. Quality: Lighting and wood texture are plausible, but four sideways heads lack the expected projecting metal shafts, creating a clear repeated structural/semantic flaw."
+    },
+    {
+      "blind_id": "case_3d8c68b9fa0fbde3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The hole silhouette, floor perspective and two small rocks remain in place. Outside the intended repair, the existing wall acquires conspicuously harsh, embossed texture and the floor texture/contrast also changes. Instruction: A row of upright gray blocks is added along the base, while the large central opening remains completely unfilled. A completed stone wall should close that opening; most of the requested repair is missing. Quality: The scene has coherent perspective, but the wall texture is unnaturally jagged and embossed, and the added blocks have flat, uniformly speckled faces with weak depth integration, producing two noticeable visual flaws."
+    }
+  ]
+}

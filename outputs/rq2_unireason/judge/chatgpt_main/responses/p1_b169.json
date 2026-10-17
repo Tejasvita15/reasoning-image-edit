@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b169",
+  "results": [
+    {
+      "blind_id": "case_ee04cee84434909d",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the dark background, sleeve and cupped hand remain substantially consistent, but the entire overhead faucet has disappeared, an unrequested major object removal. Instruction: the small rod formerly held above the palm is now absent, fully satisfying the requested removal. Knowledge: the bent stream has vanished rather than becoming a vertical downward stream; this entirely fails the supplied expected water-flow outcome. Quality: the edited image alone has a coherent hand and sleeve, natural lighting and continuous background; its softness does not obscure the subject and no clear artifact is visible."
+    },
+    {
+      "blind_id": "case_61df8f793ff39185",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the printer body, buttons, rear blank sheet and white setting remain recognizable, but the output tray is extended into a large dark frame, the printer surface has acquired conspicuous rippled texture, and a new partial gray object appears at bottom right. Instruction: the formerly blank front sheet now bears dense printed lines and is positioned directly in front of the printer, matching the requested printed document placement. Quality: overall printer and paper geometry are coherent, but pervasive wormlike texture on the printer casing and excessively repetitive illegible print create noticeable visual artifacts."
+    }
+  ]
+}

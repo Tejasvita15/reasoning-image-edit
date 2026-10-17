@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b249",
+  "results": [
+    {
+      "blind_id": "case_e3dbf3d3a071ed31",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The bed and blanket folds, chair and cushions, carved wall panel, lamp, curtains, window, tray, and rug retain their visible arrangement and appearance; the added balloon is excluded. Instruction: A salmon-colored inflated balloon has been added near the window. A regular-air balloon should rest on the floor; this one hangs aloft with its string trailing down, so the balloon addition is present but the specified air behavior is incorrect. Knowledge: The supplied explanation explicitly requires lying on the floor; the unsupported floating balloon contradicts this fundamental expectation. Quality: The edited image alone has coherent furniture, natural lighting and fabric textures, and a cleanly shaped balloon with plausible highlights; no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_448ce099ba303c49",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The peach background, coral lips, highlights, gums, mouth outline, and surrounding existing teeth retain their appearance and positions. Instruction: The upper-left and lower-right tooth gaps are both filled with white teeth matching the neighboring row shapes and shading, completing the visible teeth as requested. Quality: The illustration has coherent tooth and lip contours, consistent highlights and shading, and clean surfaces without noticeable artifacts."
+    }
+  ]
+}

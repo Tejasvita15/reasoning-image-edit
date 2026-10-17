@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b254",
+  "results": [
+    {
+      "blind_id": "case_972100e4e3501056",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The two loose stones and room layout remain recognizable, but the existing wall surface is extensively changed into coarse, squiggly texture and the floor texture and shading are also altered. Instruction: The central white opening becomes larger and loses its deep broken edge; a completed wall should fill the opening with continuous stone. No completion occurs, so this is non-compliance. Quality: Structural coherence and texture fidelity are problematic: the large blank white region has a flat irregular boundary, the wall is covered in distracting wormlike texture, and the floor has smeared, harsh surface detail. Lighting and overall room perspective remain interpretable."
+    },
+    {
+      "blind_id": "case_bca13ee09e0b3025",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The flat field, distant walkway and horizon positions remain, but foreground vegetation is noticeably redrawn and the distant tree silhouettes and cloud shading also change. Instruction: A short suspended row of rectangular colored flags has been added over the field; the expected change is Tibetan-style prayer flags on the flatland, and the visible addition fulfills that request. Knowledge: The supplied explanation calls for five-colored flags; blue, white, red, green and pale yellow cloth are visible, satisfying that expectation. Quality: Structural coherence, natural lighting and perspective, absence of noticeable artifacts, and vegetation/cloth texture are satisfactory; the flags hang with plausible folds on a thin supported line."
+    }
+  ]
+}

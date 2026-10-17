@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b256",
+  "results": [
+    {
+      "blind_id": "case_f1ff20348e9e69f8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background remains, but the tray perspective and proportions, arrangement/number of visible cans, and multiple can labels visibly change beyond the requested relocation. Instruction: The separate right can disappears from its original position and stands on the cans in the left box, fulfilling the requested placement. Quality: The tray and upright cans are recognizable, but several can logos and ZERO SUGAR labels are warped or garbled, with distracting label distortions across the front row."
+    },
+    {
+      "blind_id": "case_4b2ca5dc2c0e91f1",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The three squares and most numbers remain recognizable, but the lower-left 6 of the right figure is replaced by unrelated text and conspicuous scratchy marks affect numbers and borders. Instruction: Instead of replacing the rightmost question mark with the correct number, the question mark remains and unrelated text appears below the square; the requested change is absent. Knowledge: The supplied explanation requires 35 (6/5 = 42/35), which is not present. Instruction failure ⇒ knowledge invalid. Quality: The diagram remains readable overall, but the nonsensical two-line text beneath the right square and scratchy, broken contours form noticeable visual/semantic flaws."
+    }
+  ]
+}

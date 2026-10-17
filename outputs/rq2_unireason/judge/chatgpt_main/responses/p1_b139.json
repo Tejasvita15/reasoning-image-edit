@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b139",
+  "results": [
+    {
+      "blind_id": "case_d3d25b0f3236c3fe",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The same woman, open-mouth smile, hands-under-chin pose, white shirt and gold crown remain recognizable; however facial proportions, curl structure and shirt texture/folds visibly change beyond the allowed centering and background redesign. Instruction: A centered festive poster adds balloons, confetti, fireworks and radiant rays. The expected exact headline and tagline are substantially garbled, while the rainbow background has hard geometric bands and the clouds are flat icons rather than soft textures; the main idea is only partially fulfilled. Quality: The figure and decorations are recognizable, but several large malformed words and overlapping/distorted letter shapes create distracting semantic and typographic errors; skin and hair also have visibly harsh processed texture."
+    },
+    {
+      "blind_id": "case_3c62497c58e9637c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "Consistency: The brass upright, base, right pan and its four weights retain their positions and recognizable forms. An unrequested second tray appears above the left pan, and the original left weight changes its neck and shoulder shape. Instruction: One additional weight is visibly added to the left side, satisfying the central request, but it occupies a newly introduced upper tray and the balance mechanism remains level. Knowledge: The supplied explanation expects two left weights and a leftward downward tilt. There are two left weights, but neither the beam nor the pan heights tilt left; the extra suspended tray also departs from the expected simple loading of the original pan, giving major physical implausibility. Quality: Brass surfaces, background, lighting and most chains are coherent; the nested upper tray intersecting the left suspension creates a clear structural/semantic oddity."
+    }
+  ]
+}

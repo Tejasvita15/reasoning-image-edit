@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b133",
+  "results": [
+    {
+      "blind_id": "case_e5317a596cb4daee",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the blue-sky setting remains, but the cloud formations are redrawn and the upper-right sun gains a much sharper starburst. The requested creature replacement is excluded. Instruction: the gull becomes a gold human-headed, horned winged figure; the expected replacement is an owl, so the request is misinterpreted. Knowledge: the supplied explanation explicitly requires an owl, which is absent. Instruction failure ⇒ knowledge invalid. Quality: the gold fantasy sculpture has coherent wings, face, metallic shading and ribbed surfaces, with no clear structural or rendering artifacts."
+    },
+    {
+      "blind_id": "case_9f32231766f99a29",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the table, other three chairs, vase and dish retain their positions, but the foreground chair changes its backrest and leg design beyond relocation, and the books and floral textures become visibly distorted and color-fringed. Instruction: the foreground chair shifts left and rotates; a successful edit would tuck its seat beneath the tabletop. Its seat remains fully exposed outside the table, so the essential requested placement is missing. Quality: the furniture arrangement remains recognizable, but conspicuous colored edge noise in the flowers and warped, smeared book edges are clear visual flaws."
+    }
+  ]
+}

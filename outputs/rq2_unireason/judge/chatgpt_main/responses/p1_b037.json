@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b037",
+  "results": [
+    {
+      "blind_id": "case_a897817e33ce23ee",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The left 5 and yellow surface remain recognizable, but most other equation elements are removed or rebuilt: the central 2 disappears, the equals sign loses its paired bars, and the right 5 becomes a boxlike shape with an extra red T. Instruction: Instead of moving a single match to produce a true equation, many sticks disappear or change and no readable valid equation remains; non-compliance. Knowledge: The supplied explanation is blank; the visible result fails the task-implied arithmetic requirement, and the mandatory coupling applies: Instruction failure ⇒ knowledge invalid. Quality: The sticks and yellow surface have coherent shading, but the disconnected horizontal marks, malformed right-hand symbol with a faint vertical side, and extraneous red T create multiple distracting structural/semantic errors."
+    },
+    {
+      "blind_id": "case_36d7c2609976dd4e",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding temple-arm modifications, the lenses, frame placement, table grain and lighting remain consistent; the lower visible nose pad changes from a translucent pad to a conspicuous opaque gray disk. Instruction: A long bent extension joins the two arm ends into one continuous rectangular loop. The expected result is two complete separate temple arms with wearable curved tips; connecting them together poorly implements the requested completion, a major omission. Quality: Table texture, lenses and lighting are coherent, but the single broad loop is an obvious glasses-structure anomaly and its lower connection has a visible notch/seam."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b252",
+  "results": [
+    {
+      "blind_id": "case_0bad054f4127adcc",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the vertical grid dividers disappear, the first two top-row plus symbols are removed or replaced by dashes, circle-row small squares change shape/position, and an extra interior dot appears in the middle triangle; most non-target diagram elements change. Instruction: the question mark is replaced by a triangle with a blue dot, but the dot is inside the triangle rather than on its bottom edge, so the requested solution is only partially correct. Knowledge: the supplied explanation explicitly requires the blue circle on the bottom edge; the central circle is one clear conflict. Quality: the edited diagram alone has coherent geometric forms, clear strokes, clean flat colors and no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_b72ecbc1c378b545",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the four-by-four grid and given animal identities remain, but several existing lions become narrower/smaller and animal facial details and positions change. Instruction: three blank cells receive animals and the upper-left cell remains empty. A correct completion is rows tiger/raccoon/lion/dog, dog/lion/raccoon/tiger, raccoon/dog/tiger/lion, lion/tiger/dog/raccoon. The added tiger at row 1 column 3, dog at row 3 column 1 and tiger at row 4 column 3 are all incorrect, leaving most requirements poorly implemented. Knowledge: the explanation is blank; ordinary Sudoku uniqueness is explicitly implied by the task and visibly violated by duplicate dogs in row 3 and tigers in row 4. Instruction failure ⇒ knowledge invalid. Quality: grid and animal faces are clear and coherent, with one small awkward looped ear shape on the dog in row 3 column 1."
+    }
+  ]
+}

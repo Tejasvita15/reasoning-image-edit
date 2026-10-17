@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b231",
+  "results": [
+    {
+      "blind_id": "case_6c8cfca6f61bef06",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The eight completed hexagons retain their dot and line positions, the grid remains intact, and the white background is preserved; the outer left margin is slightly cropped. Instruction: The lower-right cell still contains a red question mark, with no answer drawn. It should contain a black circle at the far right and a line at the upper-right corner, so the requested completion is absent. Knowledge: The supplied expectation is not depicted. Instruction failure ⇒ knowledge invalid. Quality: Clean, coherent diagram with readable symbols, intact geometric shapes and no distracting artifacts."
+    },
+    {
+      "blind_id": "case_643fd6d04987a306",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The blue milk carton, cap, cow motif and white background remain recognizable, excluding the requested rotation. However, the horizontal strokes beneath the cow disappear, the cow-side cream surface becomes white, and strong black contour outlines replace the original softly rendered edges. Instruction: The cow side rotates toward the viewer, but a substantial MILK face and broad top seam remain visible. The reference requires a straight-on side elevation with the adjacent face hidden and the seam edge-on; this is only a partial viewpoint change. Quality: The edited carton is a coherent clean illustration, with straight edges, legible MILK lettering, orderly graphics and consistent stylized shading; no noticeable generation artifacts."
+    }
+  ]
+}

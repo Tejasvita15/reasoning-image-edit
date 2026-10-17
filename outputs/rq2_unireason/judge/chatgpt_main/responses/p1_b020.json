@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b020",
+  "results": [
+    {
+      "blind_id": "case_f562ce60cefbc5c1",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: sky, wooded hillside, pasture, trees and river composition remain aligned, but the exposed shoreline and grassy bank contours are visibly reworked. Instruction: the river remains empty; the expected added Jiangnan boat is absent, so the requested change is not made. Knowledge: no black-canopied Wu-peng boat appears. Instruction failure ⇒ knowledge invalid. Quality: coherent landscape structure, natural illumination and reflections, and convincing vegetation and water textures; no noticeable generation flaw."
+    },
+    {
+      "blind_id": "case_e5963e6b83231b87",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the canal, buildings, lanterns, air conditioners and background tree retain their arrangement, but both passengers and the standing boatman have been removed without being requested. Instruction: the covered boat becomes a long open black boat with raised ends and red seats, satisfying the requested traditional Venetian replacement. Knowledge: its narrow black hull, curved high ends and seating identify a gondola as specified. Quality: architecture and boat are coherent, but the large, flat triangular reflection beneath the hull looks like an opaque geometric patch rather than naturally rippled water; surrounding lighting and textures are otherwise plausible."
+    }
+  ]
+}

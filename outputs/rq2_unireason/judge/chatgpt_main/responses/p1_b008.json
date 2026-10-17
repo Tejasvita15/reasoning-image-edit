@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b008",
+  "results": [
+    {
+      "blind_id": "case_c7fe60dadf58bd7d",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background, both saucers and large right cup remain visually consistent; the beans in the left cup have changed conspicuously in size, number and arrangement beyond the requested cup resizing. Instruction: the left cup remains much smaller than the right, with a changed bean filling; a correct edit would enlarge the left cup to match the right cup. The requested size match is absent. Quality: structural coherence, natural lighting/shadows, artifact absence and ceramic/bean textures are satisfactory; both vessels and their contents are coherent."
+    },
+    {
+      "blind_id": "case_eb0527fed7c8567c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested background, decorations, layout and lighting changes, the same person, white shirt and hands-under-chin pose remain recognizable, but facial features are visibly reshaped and skin, hair and clothing textures are substantially altered. Instruction: the edit adds a centered figure, rainbow bands, clouds, balloons, confetti, fireworks and radiating light, broadly matching the expected festive poster. However the title reads JOYULMONTS, CELBERRATE SUMMER! rather than the required wording, and the smaller text above it is garbled instead of the specified tagline below; the crown is mostly hidden. This is partial compliance. Quality: poster layout, balloon shapes and decorative lighting are coherent, but prominently malformed text and conspicuously rippled, painted-looking skin texture are clear visual flaws; the hands and facial expression remain interpretable."
+    }
+  ]
+}

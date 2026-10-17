@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b242",
+  "results": [
+    {
+      "blind_id": "case_ebc4ebc37ae0ace8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and wooden grid concept remain, but the middle-left X is removed, bottom-middle blank becomes O, bottom-right blank becomes X, and wood grain and framing change. Instruction: The bottom-left stone now shows a face-up X, as expected, but removing the middle-left X prevents the required X win; this is partial compliance. Knowledge: The supplied explanation is blank; using the tic-tac-toe logic explicitly implied by the task, X should complete the left column. Instead that column is interrupted and O completes the middle column, contradicting the requested winning outcome. Quality: The edited board alone has coherent square stones, crisp readable symbols, natural wood surfaces and consistent lighting without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_c75dff723b5be054",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The bed, chair, pillows, blankets, wall carving, lamp, window, curtains and rug retain their visible arrangement and appearance; only the balloon and its local shading are added. Instruction: A pale pink inflated balloon is added beside the right curtain at floor level, fulfilling the requested placement of an air-filled balloon in the room. Knowledge: The explanation requires a balloon on the floor; its lower end rests on the floor rather than floating above it, matching that expectation. Quality: Room geometry, fabric texture, balloon contour and soft illumination are coherent, with no noticeable distortion or compositing artifacts."
+    }
+  ]
+}

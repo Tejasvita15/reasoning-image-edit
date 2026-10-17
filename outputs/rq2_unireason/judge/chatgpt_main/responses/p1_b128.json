@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b128",
+  "results": [
+    {
+      "blind_id": "case_35ecec77c86a7f65",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding river-course changes, the forest canopy and hillside vegetation are extensively reshaped, and a conspicuous pale winding strip appears across the upper-right hillside; the general aerial forest setting remains. Instruction: the narrow meander becomes a broad connected water body surrounding a foreground island. A correct cutoff would leave a distinct crescent lake disconnected from the main river; no such separated lake is visible, so most of the requested formation is missing. Knowledge: the supplied explanation requires separation from the main channel, whereas the visible water remains joined. Instruction failure ⇒ knowledge invalid. Quality: water and banks have coherent outlines and lighting, but the canopy has conspicuously lumpy, smeared vegetation textures, giving the landscape an artificial appearance."
+    },
+    {
+      "blind_id": "case_8b072b1afb10401e",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the leg, dark background, foot orientation and overall sock silhouette remain consistent. Beyond the required hole repair, the sock surface has noticeably changed to a coarser, more pronounced knit with altered folds near the toe. Instruction: the exposed-skin hole at the heel is filled with continuous dark fabric, producing the complete sock requested without a remaining opening. Quality: the foot and sock are structurally coherent, the knit and cuff appear natural, and the lighting, contact shadow and fabric boundaries have no noticeable generation artifacts."
+    }
+  ]
+}

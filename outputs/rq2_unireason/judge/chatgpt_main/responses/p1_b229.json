@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b229",
+  "results": [
+    {
+      "blind_id": "case_83e832fa6c447ba5",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the original nine-cell grid and eight established hexagon examples are replaced by four large hexagons in two tall boxes; circle locations and line arrangements are extensively changed. Instruction: the bottom-right question mark remains instead of being replaced by the required hexagon content with a far-right black circle and upper-right line. This completely misses the requested completion. Knowledge: the specified circle and line configuration is absent. Instruction failure ⇒ knowledge invalid. Quality: assessed alone, the diagram has coherent hexagons, clean black circles and strokes, a legible red question mark, and an uncluttered white background without noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_3ee71f9c323d0ac7",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the thermometer retains its blue-and-white design and labels, but its perspective and casing proportions change noticeably, as do the cable loop arrangement and positions of the controls. Instruction: the original 28.7°C display is changed to a malformed roughly 784-like readout without a clear decimal, rather than the expected 31.7°C. Changing the readout attempts the task but does not implement the required temperature. Knowledge: the supplied approximately 3°C increase requires 28.7 + 3 = 31.7°C, which is not shown. Instruction failure ⇒ knowledge invalid. Quality: the housing, cable, lighting and printed labels are coherent and clean, but the unusual incomplete rightmost numeral and missing decimal make the digital reading semantically defective."
+    }
+  ]
+}

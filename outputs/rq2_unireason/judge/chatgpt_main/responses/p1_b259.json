@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b259",
+  "results": [
+    {
+      "blind_id": "case_970caff1e8d84cb9",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background and monitor/cuff arrangement remain, but the objects are enlarged and repositioned, cuff texture changes, and printed labels, icons and pulse readout are corrupted beyond the requested pressure changes. Instruction: 100/68 is replaced by apparent four-digit readings 1680/1068; the expected result is legible, realistic hypertensive pressure values. Raised digits suggest the intent, but malformed readings make the core change poorly implemented. Knowledge: these are not credible blood-pressure readings under the supplied hypertension explanation. Instruction failure ⇒ knowledge invalid. Quality: monitor and cuff remain recognizable with coherent shading, but multiple garbled labels and malformed digital rows, including the bottom letter-like readout, are distracting semantic artifacts."
+    },
+    {
+      "blind_id": "case_e1d16f22adf18b4c",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: excluding the added solids and reaction, the tube outline, HCl lettering, liquid surface, framing and white background remain visually unchanged. Instruction: numerous white round solids and a rising bubble plume are added inside the original tube. The expected edit is marble chips reacting in the liquid; the reaction is shown, but the solids are predominantly smooth spheres resembling balls rather than irregular chips, so compliance is partial. Knowledge: the supplied explanation expects bubbles from reaction with hydrochloric acid, and a conspicuous plume rises from the submerged solids toward the surface, matching that outcome. Quality: the tube and text are coherent and lighting is plausible, but the bubble plume has conspicuous tangled angular outlines and several packed solids blend together unnaturally."
+    }
+  ]
+}

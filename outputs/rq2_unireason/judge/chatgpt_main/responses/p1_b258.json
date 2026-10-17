@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b258",
+  "results": [
+    {
+      "blind_id": "case_15070a74e6680aa1",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "Consistency: the metal track is substantially reshaped from a symmetric U into a curved left arm ending near the right arm; the ball is also noticeably enlarged relative to the track, and background texture changes. Brown setting and metallic material remain recognizable. Instruction: the ball moves to the upper right, depicting the requested right-side maximum, although its center is slightly higher in the composition than the original starting center. Knowledge: the supplied conservation-of-energy explanation calls for equal height; the right-side ball is approximately at the starting height, with a small upward discrepancy. Quality: satisfactory coherent curved metal structure, smooth orange sphere, consistent illumination and clean surface textures; no evident rendering artifacts."
+    },
+    {
+      "blind_id": "case_8008a926375e5c55",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the smiling mouth, coral lips and cream background remain, but the upper lip contour and shading are visibly redrawn, and existing teeth and gumline are shifted and reshaped beyond the two gaps. Instruction: a matching white upper tooth fills the left-of-center gap and a lower tooth fills the right-of-center gap, completing both rows as requested. Quality: satisfactory coherent illustrated mouth and individually bounded teeth, clean highlights, smooth shading and consistent cartoon surfaces, without noticeable artifacts."
+    }
+  ]
+}

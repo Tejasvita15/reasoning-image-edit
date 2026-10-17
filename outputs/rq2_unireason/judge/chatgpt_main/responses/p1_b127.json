@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b127",
+  "results": [
+    {
+      "blind_id": "case_066e0a270e76a1a1",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the three squares and most numbers retain their arrangement, but the lower-left 6 of the rightmost figure is lost beneath extraneous text, and widespread dark speckling changes the previously cleaner paper and numeral surroundings. Instruction: the question mark remains instead of being replaced by 35; the requested change is absent. Knowledge: 42/35 equals 6/5, as required by the supplied equal-ratio explanation, but no 35 appears. Instruction failure ⇒ knowledge invalid. Quality: the diagram and most numerals are legible, but the garbled two-line text beneath the right square and scattered dirty-looking marks are distracting artifacts."
+    },
+    {
+      "blind_id": "case_9506338f91d0ea41",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the leaf cluster and rightward branch remain recognizable, but the background foliage and bokeh pattern change substantially, and the unaffected leaves have altered outlines and much stronger, thicker vein rendering. Instruction: a ragged brown infestation-like mass appears across the central and lower-left leaves; an ideal result would show the leaves themselves visibly eaten. The edit conveys infestation but most green blades remain intact, making the requested aftermath only partial. Knowledge: the supplied explanation expects insect-eaten holes; the brown ragged material suggests damage, but clear missing sections through the green leaf blades are largely absent, a noticeable mismatch. Quality: lighting and the overall botanical arrangement are coherent, but the central dark mass has ambiguous fused structure and the background has conspicuously smeared, swirling foliage textures."
+    }
+  ]
+}

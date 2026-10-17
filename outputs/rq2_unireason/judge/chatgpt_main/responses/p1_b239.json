@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b239",
+  "results": [
+    {
+      "blind_id": "case_434885bc1d5ad091",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The dark background and cupped-hand composition remain, but the entire faucet has disappeared and the hand skin/creases and cuff texture are noticeably reworked; removing the rod does not require those changes. Instruction: The short dark rod previously held above the palm is completely absent, matching the requested removal. Knowledge: The supplied explanation requires the water to resume vertical downward flow; no water stream remains at all, so the expected physical outcome is missing. Quality: The hand and cuff have coherent overall shapes and lighting, but the conspicuously smeared, high-contrast skin texture is a small naturalness defect; no major structural break is visible."
+    },
+    {
+      "blind_id": "case_8704d831b277026e",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Glass position, silhouette, water level, white background and cast shadow are preserved. The glass surface/refraction detail has visibly changed, with simplified lower side fluting and altered base highlights, a clear non-requested alteration. Instruction: The liquid remains transparent and colorless; the expected depiction of this water after adding the reagent is therefore present, with no extraneous colored liquid. Knowledge: The supplied explanation explicitly predicts no color change, and the edited water remains colorless throughout. Quality: Structural coherence, lighting, transparency, reflections and smooth glass texture are satisfactory; the isolated edited image shows no noticeable duplication, warped structure or other generation artifact."
+    }
+  ]
+}

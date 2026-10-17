@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b052",
+  "results": [
+    {
+      "blind_id": "case_2c447c3b0aad2f00",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the four circular nodes, square arrangement, white background and shadows remain, but three unrelated node labels change: top-right 1 to 2, bottom-right 2 to 3, and bottom-left 3 to 0. Arrow changes are excluded from consistency. Instruction: the left and bottom edges gain opposing arrowheads rather than losing the cycle; a correct edit would reverse an edge to produce no directed cycles. The original clockwise cycle remains and two bidirectional edges add two-node cycles, so the requested DAG is not achieved. Knowledge: this contradicts the supplied no-cycles requirement. Instruction failure ⇒ knowledge invalid. Quality: circles, connectors and digits are legible, and the diagram has a coherent flat presentation, but duplicate 0 labels on distinct nodes create a clear semantic ambiguity; no major texture or rendering failure is visible."
+    },
+    {
+      "blind_id": "case_338cbbbc8c1825ed",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the square arrangement, four white circles, shadows, background and upper labels 0 and 1 remain, but the two lower node labels change from 3 and 2 to 0 and 5. Arrow direction changes are excluded from consistency. Instruction: an additional downward arrowhead appears on the left edge, leaving its upward arrowhead and the other clockwise directions intact. A correct DAG would have no directed cycle; this still has the full clockwise cycle and a two-node cycle on the left, so the requested change is not accomplished. Knowledge: retaining those cycles directly violates the supplied explanation. Instruction failure ⇒ knowledge invalid. Quality: the node shapes, readable digits and connected lines form a clean diagram, but the repeated 0 identifier on two separate nodes is a clear semantic flaw; background and surface rendering are otherwise coherent."
+    }
+  ]
+}

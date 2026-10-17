@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b187",
+  "results": [
+    {
+      "blind_id": "case_2237a6019a40b48d",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested shoe recoloring, the pointed toe, tall narrow heel, arch, opening, placement, white backdrop and floor shadow remain visually unchanged. Instruction: 1. The red shoe becomes black with gray highlights. 2. The expected result is the same shoe in black. 3. The correct object and its colored exterior are recolored throughout. 4. Perfect compliance. Quality: Structure and lighting are coherent, with no duplication; slight mottling and rough color edging on the glossy surface are a small texture imperfection."
+    },
+    {
+      "blind_id": "case_2ca25dc9d2b182ea",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, layout, lighting and added copy, the cream handbag identity, handle and gold double-G hardware remain recognizable, but the front quilting becomes substantially puffier with altered stitch paths and the bag changes from a frontal view to an angled view showing its right side. Instruction: 1. The bag is reduced and moved right onto a gray illuminated background with gold text. 2. Expected is a slightly right-of-center product, gray-white velvet gradient and halo, exact upper-left Elegance, Always. copy, and bottom-centered GUCCI. 3. Product focus, negative space, soft lighting and halo are present, but the headline is garbled, the bag is too far right, GUCCI is centered beneath the bag rather than the frame, and velvet texture is not apparent. 4. Partial compliance. Quality: Bag structure, material and shadows are coherent, but the large upper-left pseudo-words contain visibly malformed and overlapping letterforms, a clear typographic artifact."
+    }
+  ]
+}

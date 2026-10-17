@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b124",
+  "results": [
+    {
+      "blind_id": "case_72c34c906ed318ca",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white surface and wooden/metal materials remain, but nearly all retained objects are repositioned or reoriented and their handle structures change; excluding the requested count reduction, the original arrangement is lost. Instruction: Nine intact wooden pushpins become two intact pushpins, one loose wooden handle, one disk with a shaft, and three detached metal pieces. A faithful result would show six intact examples of the source nails. Six metal shafts are visible, but most requested complete objects are absent or disassembled, a major omission. Quality: Structural coherence \u2718: detached double-pointed metal slivers, a handle without a shaft, and an incomplete disk-shaped handle create multiple conspicuous object-structure problems. Lighting and surface texture are otherwise plausible."
+    },
+    {
+      "blind_id": "case_24ea10e8b9e880da",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The frontal hamster, black eyes, pink nose, right-hand log and blue backdrop retain their general positions, but fur becomes strongly streaked and tousled, bedding shapes are substantially remodeled, and the blue background acquires conspicuous mottling. These are multiple non-color changes. Instruction: The golden coat is changed throughout to gray, with the same hamster subject and naturally pink nose and dark eyes retained; the expected gray hamster is fully present. Quality: Structure and lighting \u2714; texture fidelity \u2718: the bedding has conspicuously smooth, melted-looking curls and the coat has thick smeared streaks. These are two visible texture flaws, while the animal anatomy and scene remain readable."
+    }
+  ]
+}

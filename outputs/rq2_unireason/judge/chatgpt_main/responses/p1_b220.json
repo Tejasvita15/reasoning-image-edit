@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b220",
+  "results": [
+    {
+      "blind_id": "case_190700eb341b4bc0",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The transparent upright glass, white backdrop and centered composition remain, but the floor reflection is much stronger and more angular. Sand redistribution is excluded. Instruction: Sand has disappeared from the upper chamber and accumulated in a larger lower mound, matching the completed timing cycle. Knowledge: The supplied expectation is an empty upper chamber, which is clearly satisfied. Quality: Glass and sand are coherent with plausible illumination; the lower reflection has a small unnaturally angular silhouette."
+    },
+    {
+      "blind_id": "case_51e4cdc0c0d524af",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 2,
+      "rationale": "Consistency: The desert foreground, distant right skyline, blue sky and viewpoint are preserved; a small change in foreground surface coloration adds cyan and bright speckles. Pyramid changes are excluded. Instruction: The formerly plain slopes acquire terraces and a broad central stairway, conveying the requested stepped pyramid, but the steep pointed cap remains instead of a Maya summit temple, so the transformation is partial. Knowledge: The supplied expectation is Kukulkan at Chichen Itza; the pointed summit without its temple and strongly steep-sided overall proportions are substantial architectural mismatches. Quality: The building has coherent stairs, terraces, perspective and shadows; minor colored speckling in the ground detracts from natural surface texture."
+    }
+  ]
+}
