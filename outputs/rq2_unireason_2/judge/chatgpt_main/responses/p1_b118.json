@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b118",
+  "results": [
+    {
+      "blind_id": "case_6ede779211a4c3cc",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, trouser design, pockets, belt loops, fly and hems remain recognizable, but the garment silhouette is slightly shifted and shortened within the frame; the non-color geometry is not identical. Instruction: The cream fabric changes throughout to a clear blue, exactly the expected color change on the same pants; full compliance. Quality: Structure ✔, natural shading ✔, artifact-free ✔, fabric fidelity ✔; seams, folds and the button form a coherent clean product image."
+    },
+    {
+      "blind_id": "case_51c103031f5d402c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Excluding fruit maturation, the branch and broad green leaves retain the general setting, but the framing is tighter, leaf contours and vein details change, and the calyx behind the lower-right fruit is reshaped. Instruction: The two prominent pale green fruits become larger orange to reddish-orange fruits, showing the expected mature appearance, although their dominant hue remains orange rather than the supplied red target; minor color shortfall. Knowledge: The explanation explicitly expects the persimmon to turn red. Ripening color is shown, with red concentrated in lower shading, but predominantly orange surfaces give one clear mismatch to that stated expectation. Quality: Structure ✔ and lighting ✔; the leaves and branch are coherent, but the extremely smooth, uniformly rounded fruit surfaces look slightly artificial (texture fidelity ✘)."
+    }
+  ]
+}

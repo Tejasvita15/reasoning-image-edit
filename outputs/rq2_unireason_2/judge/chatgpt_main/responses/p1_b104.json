@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b104",
+  "results": [
+    {
+      "blind_id": "case_5ef60f3f944f7ae3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Excluding required river and bank changes, the overall wooded valley and distant light remain recognizable, but forest canopy textures are extensively changed into coarse clustered shapes and the upper-right clearing changes outline. Instruction: The river is widened and a small detached crescent pool appears beside it. A completed cutoff should leave a former meander isolated beside a bypassing channel; the crescent supplies the main idea, but it is a tiny inserted pool while the large winding channel remains, so the cutoff relationship is incomplete. Knowledge: The supplied explanation calls for a separated crescent lake, and separation is visible; however, the little crescent does not correspond in scale or alignment to an abandoned bend of the adjoining broad river, making the depicted formation noticeably implausible. Quality: Overall terrain and lighting are coherent, but conspicuously blocky, mottled foliage and unnaturally smooth, sharply bounded water pools create two clear visual flaws."
+    },
+    {
+      "blind_id": "case_3f963805e328a57a",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The hamster pose, black eyes, pink nose, ear shapes, blue backdrop, log placement and major bedding arrangement remain aligned. Excluding the requested fur color change, the fur surface has a noticeably coarser, stippled texture instead of the original fine soft strands. Instruction: The coat becomes somewhat paler and less saturated, particularly around the muzzle, but its head, cheeks and body remain visibly cream and golden tan. The expected result is a gray-coated hamster; most of that color change is missing. Quality: Anatomy, eyes, whiskers, log structure, bedding and lighting are coherent. Slight multicolored grain and texture blending in the fur are a minor surface imperfection."
+    }
+  ]
+}

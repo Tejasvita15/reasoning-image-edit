@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b164",
+  "results": [
+    {
+      "blind_id": "case_dd3bebfb3cab6618",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the dark background, sleeve and palm-up hand remain recognizable, but the entire faucet and water stream have also been removed, beyond the requested rod removal. Instruction: the small rod previously held above the palm is absent; this fulfills the requested removal. Knowledge: the explanation requires a normal vertical downward water stream after removal, but there is no water stream at all, so the expected physical outcome is absent. Quality: the isolated hand and sleeve are structurally readable with coherent lighting; slightly smeared, overemphasized skin texture is a minor imperfection."
+    },
+    {
+      "blind_id": "case_8b1a585edcd5e4c7",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: all eight supplied dot arrangements and their positions remain intact, but the previously clean graphic linework is visibly roughened throughout. Instruction: the bottom-right question mark remains and no dot shape has been drawn. The required completed box would contain four rows of black/white dots: black-white-black-white, black-white-white-white, black-white-black-black, white-black-white-black. No required replacement is made. Knowledge: the supplied equal-colors-to-black rule is not expressed because the answer box is still a question mark. Instruction failure ⇒ knowledge invalid. Quality: the grid, circular symbols and question mark are legible and coherent; rough, uneven outlines are a minor graphic imperfection."
+    }
+  ]
+}

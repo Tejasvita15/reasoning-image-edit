@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b027",
+  "results": [
+    {
+      "blind_id": "case_ab652adab84041e3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the repaired hole, foot orientation and framing are preserved, but the sock is markedly darker with harsher knit texture, and the background/surface becomes darker, more teal and visibly mottled. Instruction: The exposed skin hole at the heel has been replaced by continuous dark fabric; a completed sock should have no opening there, and this is fully achieved. Quality: Structure and foot anatomy are coherent, lighting is plausible, and there is no duplication; minor blotchy fabric texture around the heel reduces naturalness."
+    },
+    {
+      "blind_id": "case_6d9ffd546bb02a36",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested poster layout, background and decorations, the hands-under-chin pose, white blouse and tall crown remain recognizable, but facial proportions and hair texture are noticeably redrawn, and blouse folds/buttons differ. Instruction: The edit centers the joyful crowned person, adds confetti, balloons, rainbow colors, clouds and radiant rays. A correct poster would also reproduce the specified title and tagline legibly and include fireworks; both text blocks are garbled instead of matching the requested wording, and striped rockets provide only a partial fireworks motif. This is partial compliance. Quality: Poster layout and decorative shapes are coherent, but several large lines of nonsensical lettering are distracting semantic failures; the face, hair and arms also have harsh, smeared texture. Multiple visible errors warrant structural degradation."
+    }
+  ]
+}

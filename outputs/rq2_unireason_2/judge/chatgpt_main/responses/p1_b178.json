@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b178",
+  "results": [
+    {
+      "blind_id": "case_146b3c3556988335",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested reduction in count, the wooden pushpins have been dismantled/replaced by detached metal rods and two wooden handles, and the surviving objects are entirely rearranged; only the white setting remains similar. Instruction: 1. Detect Difference: Eight wooden pushpins become five separate pointed metal pieces and two detached handles. 2. Expected Visual Caption: Six complete nails/pushpins of the supplied kind. 3. Instruction Match: Neither six objects of the requested kind nor six complete pushpins are present. 4. Decision: The requested count change is completely misinterpreted. Quality: Structure ✘: the metal objects have odd headless, double-pointed shapes; texture ✘: conspicuous blocky patches appear across the lower white background. Lighting and soft shadows ✔, with recognizable wooden surfaces."
+    },
+    {
+      "blind_id": "case_f74e8fe468dbe8a2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding moving the basketball onto the soccer ball and the necessary contact shadow, the soccer ball has also moved toward the center, enlarged in the composition, and changed its visible black-and-white panel arrangement. The plain white setting and ball identities remain consistent. Instruction: 1. Detect Difference: The basketball moves from the upper left to a centered stack above the soccer ball. 2. Expected Visual Caption: A basketball resting directly on the soccer ball. 3. Instruction Match: The correct ball is above and visibly touching the soccer ball at its top. 4. Decision: Perfect compliance. Quality: Structure ✔: both balls are coherent round objects with clear seams and panels. Naturalness ✔: contact and floor shadows support the balanced stack. Artifact-free ✔ and texture fidelity ✔; no noticeable deformation or distracting artifacts."
+    }
+  ]
+}

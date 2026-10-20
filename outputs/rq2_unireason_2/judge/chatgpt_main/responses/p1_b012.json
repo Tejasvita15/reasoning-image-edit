@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b012",
+  "results": [
+    {
+      "blind_id": "case_84ab2ff7d481c39f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the white background and nine-cell wooden-board arrangement remain, but the board perspective and wood grain change noticeably; the upper-left and middle-left X marks become plus signs, and previously blank bottom-middle and bottom-right blocks acquire A and minus marks. Instruction: the tilted bottom-left block becomes a face-up X, which is the correct selection, but the resulting left column does not show three X marks, so the requested win is only partially achieved. Knowledge: the supplied explanation is blank; using the tic-tac-toe logic explicitly implied by the task, a bottom-left X should complete the existing left-column X line. Replacing the other two X marks with plus signs creates one clear conflict with that winning outcome. Quality assessed alone: coherent solid wooden blocks, clean legible markings, plausible perspective and shadows, and intact wood textures show no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_d77b5f105ad4d178",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding the requested sand-state change, the hourglass silhouette, narrow glass neck, upright placement, white background, and faint base reflection remain visually consistent. Instruction: the lower sand mound changes slightly, but a substantial wedge of sand remains in the upper bulb and a thin stream still extends toward the lower mound. The expected completed-cycle state has an empty upper bulb; that essential change is absent. Knowledge: the explanation explicitly requires the upper part to be empty, contradicted by the visible upper sand. Instruction failure ⇒ knowledge invalid. Quality assessed alone: the glass vessel is structurally coherent, sand surfaces and transparent contours remain readable, and lighting and the floor reflection are plausible; softness does not cause semantic loss."
+    }
+  ]
+}

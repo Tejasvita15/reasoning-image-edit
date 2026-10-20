@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b154",
+  "results": [
+    {
+      "blind_id": "case_3cb08959203da83f",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested splash, framing, palette, title and shadow changes, the clear milk-filled tumbler remains recognizable, but its body is more tapered and its thick base has been visibly reshaped. Instruction: The edit adds a centered uppercase heading and soft bottom shadow around the prominent milk splash. The expected clean white minimalist advertisement is largely present, but the second line is garbled rather than CLEAN TO THE END, and the lettering is dark gray rather than light silver-gray; therefore compliance is partial. Quality: Structure and milk/glass textures are coherent, and the grounding shadow is plausible. Artifact-free text fails: the second headline line contains malformed, overlapping letters, a clear semantic flaw."
+    },
+    {
+      "blind_id": "case_7804d0097236ec81",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The fluted gray columns, square capitals and descending perspective remain recognizable. Excluding the requested number change, the group is noticeably repositioned and compressed toward the right, while the pale gray background becomes white. Instruction: The source has eight columns and the edit has six distinct columns. The expected result has exactly five; the reduction addresses the requested operation but leaves one extra column, so compliance is partial. Quality: Structural coherence ✔, natural perspective and shading ✔, artifact-free ✔, surface fidelity ✔. The six column shafts, capitals and bases are coherent and cleanly separated, with no noticeable visual defects."
+    }
+  ]
+}

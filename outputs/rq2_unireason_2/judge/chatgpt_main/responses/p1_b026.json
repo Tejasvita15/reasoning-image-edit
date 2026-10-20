@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b026",
+  "results": [
+    {
+      "blind_id": "case_503c475abe07486e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the peach shaded background becomes nearly uniform pale cream, the lip outline is narrower and its highlights change, and existing teeth shift in shape and spacing; these exceed the requested missing-tooth repair. Instruction: two empty sockets are filled with matching white teeth, producing complete upper and lower rows as requested. Quality: satisfactory dental and lip structure, coherent illustrated lighting and smooth textures, with no conspicuous artifacts; moderate softness does not obscure the anatomy."
+    },
+    {
+      "blind_id": "case_6351fa9e64073038",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: tube position, upper glass edges, HCl lettering and liquid level remain aligned; the white background loses its slight gray texture, a small non-requested change. Instruction: a pile of pale stone chips is added inside the bottom of the existing tube, with visible small bubbles around the chips, fulfilling the requested addition and reaction. Knowledge: the supplied explanation predicts bubbles from marble reacting with hydrochloric acid; the new bubbles surrounding the submerged chips depict that cause and effect plausibly. Quality: tube shape, label and perspective are coherent; one minor texture issue is the soft merging of several lowest chips with the surrounding bubbly glass region."
+    }
+  ]
+}

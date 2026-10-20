@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b158",
+  "results": [
+    {
+      "blind_id": "case_ef552137976eb4ce",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The map layout, existing colored regions, blue grid surround, timer reading 10:320 and bottom controls remain in place; some boundary contours have small local irregularities. Instruction: The edit leaves the same numerous pale unfilled regions. A completed puzzle would fill all regions with four colors while separating edge-adjacent regions by color; no substantive completion is visible, so the instruction is not followed. Knowledge: The supplied explanation is blank; the score follows mandatory instruction-failure coupling, with the visible unfilled map also failing the task-implied completion requirement. Instruction failure ⇒ knowledge invalid. Quality: ✔ Coherent map boundaries and interface, legible timer, clean flat fills and consistent graphic appearance; no noticeable structural artifacts."
+    },
+    {
+      "blind_id": "case_bb0596bdaefe2078",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The spoon bowl, upper stem, placement and overall wood-board composition remain recognizable and aligned, but the background wood grain has visibly altered fine markings across the board. Instruction: A long pale extension now runs from the original cut end to a rounded lower tip. The expected result is a continuous completed spoon handle; the length and termination are supplied, but the conspicuous stepped join makes the completion slightly incorrect. Quality: ✔ Natural wood texture and generally coherent spoon bowl and lighting; ✘ the handle has a clear horizontal seam and abrupt width step that makes it look assembled from two mismatched pieces, a noticeable structural flaw."
+    }
+  ]
+}

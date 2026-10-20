@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b004",
+  "results": [
+    {
+      "blind_id": "case_53a750880103443b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The side-on foot pose, dark background and ground remain recognizable, but the sock is visibly more saturated blue and the exposed ankle skin/hair and cuff contour are redrawn. Instruction: The edited sock still has the conspicuous exposed-skin hole at the lower heel; completing the sock should close that gap with fabric. The requested repair is absent, so compliance is 1. Quality, edited image alone: ✔ coherent foot and sock anatomy, ✔ natural lighting and contact shadow, ✔ credible knitted fabric and skin, ✔ no conspicuous generation artifacts; the hole itself is visually plausible wear."
+    },
+    {
+      "blind_id": "case_5de5b40965386e5f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding the requested boat replacement, the canal and general waterfront layout persist, but all three boat occupants disappear and architectural details in the roofs, windows and canal wall are visibly altered. Instruction: The covered boat becomes an open, long black vessel with curved raised ends and red seating. The expected replacement is a traditional Venetian gondola, and that change is clearly present: 5. Knowledge: The supplied explanation says \"Change to gondola.\" The visible narrow black hull, upturned ends and decorated prow identify a gondola and match that expectation: 5. Quality, edited image alone: ✔ coherent overall canal perspective and recognizable boat; ✘ irregular, smeared roof/window details and an awkwardly elongated, blade-like raised stern create noticeable local distortions. The image remains legible overall: 3."
+    }
+  ]
+}

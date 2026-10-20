@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b099",
+  "results": [
+    {
+      "blind_id": "case_fb678d201f6bde67",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the carton identity, blue upper section, MILK label and cow motif remain, but the cream body becomes white, the three droplet marks and lower cow-panel strokes disappear, and prominent black outlines replace the shaded rendering. These are not required by rotation. Instruction: a slight rotation toward the cow panel is visible, but a broad MILK face and the cap top remain exposed; the reference requires a straight-on cow-panel side view with the other face occluded and the cap seen edgewise. The requested viewpoint is substantially incomplete. Quality: judged alone, the outlined carton has clean edges, legible lettering, coherent surfaces and an orderly cow drawing without noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_3c41627f7a9d8b4f",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: although orange-ball and metal-track materials remain recognizable, the continuous U track is replaced by an overhead arch and a disconnected lower hook, with changed framing, background shading and ball-to-track scale. Most major non-requested scene geometry changes. Instruction: the ball appears at upper right, but rests on an invented overhead track rather than marking the highest reachable position on the original right branch; this does not reliably depict the requested endpoint of the supplied motion. Knowledge: the explanation requires return to the starting height by energy conservation, whereas the original continuous route is lost and the depicted endpoint is unsupported by that setup. Instruction failure ⇒ knowledge invalid. Quality: the ball and metal textures are convincing, but the track has a conspicuous discontinuity between its left ends and an awkward upper-right junction, making the apparatus structurally confusing."
+    }
+  ]
+}

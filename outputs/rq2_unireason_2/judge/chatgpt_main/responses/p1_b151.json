@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b151",
+  "results": [
+    {
+      "blind_id": "case_3598539c8cb678fa",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the spoon bowl has moved from the upper left to the lower left and rotated horizontally, with a changed bowl outline; the wood grain retains its broad arrangement but its fine texture is visibly altered. Instruction: a long handle has been added; the expected result is the existing spoon with a complete handle. The extension addresses the main idea, but it runs out of the right image boundary without a visible finished end, so completion is only partial. Quality, assessed alone: structural coherence ✔, natural lighting and shadows ✔, artifact-free ✔, texture fidelity ✔; the long spoon and wood surface are coherent, and the edge crop itself is not a generation defect."
+    },
+    {
+      "blind_id": "case_2e83f9a0e2270f04",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the four circular nodes, legible 0–3 labels, and continuous square arrangement of connecting lines have disappeared, leaving scattered thin marks on white. Instruction: the image changes from a legible directed cycle to disconnected strokes and garbled symbols; the expected edit is a recognizable directed graph with an arrow reversed to eliminate its cycle. No usable graph or identifiable edge reversal remains, so the instruction is not fulfilled. Knowledge: the supplied explanation requires a graph without cycles obtained by reversing an arrow; the fragments do not establish nodes or directed connections, and the mandatory instruction-failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality, assessed alone: structural coherence ✘ and artifact-free ✘, with broken line fragments and illegible symbols preventing a meaningful diagram; the white background is clean but does not resolve the severe structural failure."
+    }
+  ]
+}

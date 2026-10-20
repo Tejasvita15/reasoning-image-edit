@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b073",
+  "results": [
+    {
+      "blind_id": "case_fa12c8811aba7b85",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and four-by-four grid remain, but several fixed clues change: the second-row squirrel becomes a tree, its mushrooms become a bare branch, the third-row umbrella becomes partly capless mushrooms, and the bottom-row umbrella disappears; retained icons are also redrawn. Instruction: Only the top-row blank receives a symbol, incorrectly a second tree; the other three original blanks remain empty. A completion should add mushrooms, umbrella, squirrel and tree respectively to the four blanks while preserving clues. The puzzle is not completed. Knowledge: The supplied explanation is blank; visible repeated trees and missing symbols violate the Sudoku logic implied by the task, and the mandatory instruction-failure coupling determines the score. Instruction failure ⇒ knowledge invalid. Quality: The grid and most cartoon silhouettes are clear, with coherent flat colors, but the partly capless mushroom group and isolated incomplete tree branch are two noticeable structural flaws."
+    },
+    {
+      "blind_id": "case_29ab03e4432b8922",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The mustard background and left-hand 5 remain recognizable, but most of the remaining equation is removed or rearranged, spacing changes substantially, background folds change, and red rectangular shapes appear at right. These changes extend far beyond relocating one match. Instruction: The original 5 minus 2 equals 5 becomes a 5, a separated horizontal match and an incomplete right-hand symbol, with no equals sign. A valid single-match solution is 5 minus 2 equals 3, moving the last 5 upper-left vertical match to its upper-right position. The edited image provides no correct equation or identifiable single-match move. Knowledge: No knowledge explanation was supplied; arithmetic and match conservation follow from the task, but mandatory instruction-failure coupling sets this score. Instruction failure ⇒ knowledge invalid. Quality: Individual wooden matches and their red heads are generally coherent, but the right-hand glyph is malformed and two large red rectangular artifacts interrupt the otherwise consistent matchstick imagery."
+    }
+  ]
+}

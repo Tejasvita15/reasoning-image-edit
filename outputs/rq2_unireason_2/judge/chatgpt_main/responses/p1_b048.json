@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b048",
+  "results": [
+    {
+      "blind_id": "case_fbe8a1cb84b4a316",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The source has a complete 5−2=5 arrangement; most matchsticks and recognizable digits disappear, the remaining sticks are rearranged, and the background framing changes, far beyond one permitted move. Instruction: Instead of one relocated match yielding a true equation, the edit presents scattered horizontal and vertical fragments with no readable equation; the requested operation is not fulfilled. Knowledge: The supplied explanation is blank; the visible result fails the task’s implied arithmetic logic, and the mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: The edited image has coherent ochre paper and some wooden sticks, but abruptly squared vertical ends, two solid red rectangular bars, and malformed, disconnected symbol structures create multiple distracting structural errors."
+    },
+    {
+      "blind_id": "case_4c020558641b7b54",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, centered short-sleeved silhouette, crew neck, chest logo and small side tab remain recognizable. Beyond the allowed color change, the neck label’s printing/color details change and the fabric folds and lower hem contour are visibly altered. Instruction: The black garment becomes white across torso, sleeves, collar and tonal embroidery, exactly fulfilling the requested recoloring. Quality: The edited shirt has coherent seams, collar, sleeves and hem, plausible pale shadows and fabric folds, and clean edges without conspicuous generation artifacts."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b022",
+  "results": [
+    {
+      "blind_id": "case_b33eecc71d23641b",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The grid and white background remain, but most supplied symbols change: yellow trees become trunk/mushroom hybrids, existing squirrels and umbrellas are replaced or removed, and several originally occupied cells become empty. Instruction: The expected additions are mushrooms at row 1 column 3, an umbrella at row 2 column 2, a squirrel at row 3 column 4, and a tree at row 4 column 4. Only the squirrel is correctly added; the first two cells remain blank and the last contains an umbrella, so most required completion is missing. Knowledge: The supplied explanation is blank; the visible Sudoku task implies one of each symbol per row and column, which the incomplete, repeated-symbol result violates. Instruction failure ⇒ knowledge invalid. Quality: The edited image alone has multiple conspicuous malformed symbols, including bare trunks growing out of mushroom caps and detached curled marks; the grid is legible but these repeated structural defects are distracting."
+    },
+    {
+      "blind_id": "case_4ad6dc326d724d12",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: All eight existing dot matrices retain their black/white arrangements, positions, white backgrounds and three-by-three layout; the linework has a small contour irregularity, especially along circle edges and grid borders. Instruction: The lower-right cell still contains a question mark, with no answer matrix drawn. A correct result would replace it with four dot rows BBWW, BWWW, BWBB, and WBWB (B black, W white; the third row is black-white-black-black). No requested completion is present. Knowledge: The supplied same-color-to-black rule requires that answer from the two bottom-row matrices, but no such comparison result is displayed. Instruction failure ⇒ knowledge invalid. Quality: The edited graphic remains clear, readable and structurally coherent, with only slightly uneven circular outlines and border strokes; no substantial distortion or ambiguous symbols."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b028",
+  "results": [
+    {
+      "blind_id": "case_b9398e84e79f841c",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, front view, waistband, button, belt loops, pockets and two-leg design remain recognizable, but the garment geometry changes visibly: its outline shifts left, the hems end higher, and the fly is reshaped. The requested color change is excluded. Instruction: 1. Cream fabric becomes saturated blue. 2. Expected: the pants colored blue throughout. 3. Both legs and waistband are fully blue. 4. Perfect compliance. Quality: Structure ✔, natural lighting and folds ✔, artifact-free edges ✔, fabric texture ✔; the edited product image is coherent without noticeable defects."
+    },
+    {
+      "blind_id": "case_1e8dd0ac4277f756",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Beyond permitted pest damage, the leaf cluster is substantially recomposed: leaf count, sizes, orientations and cropping change, the prominent horizontal woody branch disappears, and the backlit bokeh scene becomes a darker close-up. Most major non-instruction details differ. Instruction: 1. A different-looking close-up cluster has numerous irregular holes and scars. 2. Expected: the original leaves showing pest damage. 3. Damage is clearly present, but the original cluster is replaced/reconfigured rather than faithfully modified. 4. Partial compliance. Knowledge: 1. Holes and browned damaged margins appear. 2. The supplied explanation expects holes from insect feeding. 3. Irregular missing leaf tissue with background visible through it matches that biological outcome. 4. Fully plausible. Quality: Leaf and stem structure ✔, natural perspective and illumination ✔, absence of obvious artifacts ✔, coherent veins and damaged textures ✔."
+    }
+  ]
+}

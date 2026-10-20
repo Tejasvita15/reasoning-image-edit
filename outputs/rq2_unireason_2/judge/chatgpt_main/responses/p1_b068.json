@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b068",
+  "results": [
+    {
+      "blind_id": "case_0ba0d8c96a25b96c",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding requested background, layout, lighting and gemstone sparkle changes, the circular gold bezel and tapered bail remain recognizable, but the chain has become substantially finer relative to the pendant. Instruction: the white product photograph becomes a centered gold-and-blue pendant advertisement on a grey-blue gradient with lower text space. The requested result needs velvet texture, upper-central suspension and the exact fine-serif quotation. Those broad layout and palette requirements are attempted, but the quotation is garbled and the backdrop looks smooth rather than velvety, giving partial compliance. Quality: structure and texture are problematic: the conspicuously corrupted lettering is unreadable, and the two chain ends terminate abruptly in open space. The pendant itself has coherent metal shading and a recognizable faceted stone."
+    },
+    {
+      "blind_id": "case_8ef0b6c5dedde611",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding removal of two loaves and their shadows, the remaining baguette has been resized and repositioned toward the center, its scoring and rear crust texture have changed substantially, and the background has a stronger cyan tint. Instruction: three baguettes become one, exactly the requested two-baguette removal; the expected single remaining baguette is present. Quality: structural coherence, natural lighting and absence of duplicate objects are satisfactory. Texture fidelity has a minor issue: the rear half of the loaf becomes unusually smooth and waxy compared with its detailed front crust, but the overall bread shape and contact shadow remain coherent."
+    }
+  ]
+}

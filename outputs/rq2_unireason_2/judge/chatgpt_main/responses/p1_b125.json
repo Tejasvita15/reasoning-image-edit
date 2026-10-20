@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b125",
+  "results": [
+    {
+      "blind_id": "case_6921571af0bb9ce3",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding rod removal and the expected stream response, the cupped hand, checked sleeve and dark background remain broadly consistent, but the entire overhead faucet has disappeared, a clear unrelated object removal. Instruction: The small rod held beside the stream is absent; the expected rod-free hand is achieved completely. Knowledge: The supplied explanation expects water to resume a vertical downward flow; instead all visible water is removed, so the required physical outcome is entirely absent. Quality: The edited image alone has coherent hand anatomy, natural skin and sleeve textures, consistent lighting and a clean background; softness does not obscure its content."
+    },
+    {
+      "blind_id": "case_435952d63657aa10",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the eyes, the cat retains its pose, nose, muzzle and overall whisker arrangement, but the background is noticeably brighter and whiter, and fur across the face has changed to a harsher, more contrasty texture. Instruction: Both pupils have expanded to nearly fill the eyes. The expected strong-light response is visibly smaller pupils, so the change is opposite to the requested response. Knowledge: The supplied explanation explicitly requires pupil constriction, whereas both pupils dilate. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the cat has coherent facial anatomy and eye reflections, detailed fur, continuous whiskers and plausible photographic lighting, without a noticeable structural or rendering artifact."
+    }
+  ]
+}

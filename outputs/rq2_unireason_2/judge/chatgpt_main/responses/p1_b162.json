@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b162",
+  "results": [
+    {
+      "blind_id": "case_dac4484b71eb4c3f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The eight existing arc arrangements remain recognizable, but their strokes become noticeably heavier and the grid becomes uneven with shifted horizontal divisions. Instruction: The question mark is removed and the answer cell is left entirely blank; the expected overlapping parts of the two bottom-row patterns are not drawn. Knowledge: The supplied row-intersection rule requires the shared inner and outer lower-right arcs, not an empty cell. Instruction failure ⇒ knowledge invalid. Quality: The diagram is legible and clean on white, with coherent arc shapes, but the grid lines have slight waviness and uneven joins."
+    },
+    {
+      "blind_id": "case_66256ef0e4530238",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The blue-and-white thermometer, three buttons and coiled cable remain, but the casing proportions and perspective, cable loops, button placement, model label and printed range are noticeably altered. Instruction: The source reads 28.7°C; the edit retains a large 28 with malformed trailing symbols instead of showing the expected 31.7°C after the specified increase. Knowledge: The supplied explanation requires approximately +3°C, which is not displayed. Instruction failure ⇒ knowledge invalid. Quality: The casing and cable are recognizable, but the LCD has malformed temperature/unit symbols and dark smearing around the digits; MAX becomes MAM and the printed range contains garbled characters, producing multiple distracting semantic defects."
+    }
+  ]
+}

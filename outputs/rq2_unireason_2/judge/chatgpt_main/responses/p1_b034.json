@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b034",
+  "results": [
+    {
+      "blind_id": "case_e937b173a1ebadc9",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The distant hills, upper-right clearing and aerial composition remain recognizable, but forest foliage throughout has become chunky and patterned, and the foreground grassy bank and tree groups have changed visibly beyond the required channel edit. Instruction: The narrow meandering river becomes a broad bulbous water body connected to the foreground channel. A successful edit would show a cut-off crescent lake alongside a separate main river; neither the separation nor crescent shape is achieved, so most of the defining change is missing. Knowledge: The supplied explanation requires a crescent-shaped lake separated from the main channel, whereas the visible water remains connected. Instruction failure ⇒ knowledge invalid. Quality: Structure and lighting are readable, but the forest has conspicuously clumped, tessellated foliage textures across much of the frame, reducing naturalness; water and banks remain coherent."
+    },
+    {
+      "blind_id": "case_fb123149a59e2ff3",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The mountain silhouettes, valley composition and foreground vegetation remain essentially aligned, but the existing star field is replaced by far denser points and large bright clusters, a clear alteration beyond adding auroral light. Instruction: The edit adds a diagonal sequence of bright star-like knots and dense sparkling points. The expected change is auroral bands or curtains in the high-latitude sky; these are absent, so the requested phenomenon is misinterpreted. Knowledge: The supplied explanation calls for aurora phenomena, but the result shows clustered stellar-looking lights instead. Instruction failure ⇒ knowledge invalid. Quality: The terrain and foreground plants are structurally coherent, but conspicuously repeated luminous knots and the dense speckled sky look artificial rather than like a natural night-sky photograph."
+    }
+  ]
+}

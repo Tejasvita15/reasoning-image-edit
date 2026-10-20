@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b040",
+  "results": [
+    {
+      "blind_id": "case_6f47bbe2b76ddfd3",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the three square outlines, all given numbers, their relative positions, and the white scanned background remain visually unchanged. Instruction: the upper-right question mark remains; the expected change was to replace it with 35, so no requested completion is present. Knowledge: the supplied equal-ratio rule requires 6/5 = 42/35, but no answer is supplied. Instruction failure ⇒ knowledge invalid. Quality: the diagram has coherent square geometry and clearly legible numerals and question mark; the slight scan texture does not impair readability, and no distracting structural artifacts are visible."
+    },
+    {
+      "blind_id": "case_b31ed3b85c0362e7",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background and upright rear sheet remain, but the printer front is substantially redesigned: the three central buttons and silver lower fascia disappear, and the output tray becomes a broad plain black extension. These are multiple changes outside the requested document placement. Instruction: a visibly printed sheet now extends down in front of the printer, replacing the blank foreground paper; this matches the expected printed document in front. Quality: the printer and curved sheet have coherent silhouettes, plausible shading and perspective, but the document contains visibly malformed dense text and distorted heading glyphs, a noticeable semantic artifact. The surfaces and background otherwise remain coherent."
+    }
+  ]
+}

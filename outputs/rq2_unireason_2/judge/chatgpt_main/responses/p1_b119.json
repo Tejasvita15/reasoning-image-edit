@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b119",
+  "results": [
+    {
+      "blind_id": "case_5b8fb1737bd6908e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The O and X occupancy pattern and two seated players remain recognizable, but the left arm now reaches down to the central X, the grass texture is extensively changed, and the grid and tiles have shifted proportions and positions. Instruction: The visible change is a hand touching the existing central X; the expected edit adds an X in the empty upper-left cell to complete the upper-left–center–lower-right diagonal. That cell remains empty and no winning X is added, so the request is unfulfilled. Knowledge: The supplied explanation is blank; the winning diagonal follows directly from the task and visible board. The mandatory failure coupling determines this score. Instruction failure ⇒ knowledge invalid. Quality: Board lines and symbols are legible, but the grass has conspicuously smeared, looping texture and the fingers meeting the central tile look fused and awkward."
+    },
+    {
+      "blind_id": "case_b0121b4505062046",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, placement, shadow and lettering changes, the blue controller retains its main controls, but its angle and grip proportions change, the central PlayStation mark becomes a different tiny emblem, and the lower-right X symbol is distorted. Instruction: A blue controller is now centered slightly above the frame center over a gray-blue gradient, with a soft shadow, open space and bold black bottom-centered “Press Start.” text. This closely matches the expected advertisement; the conspicuous coarse speckling exceeds the requested mild grain and restrained background. Quality: The composition, large text, controller silhouette and shadow are coherent, but the lower-right button symbol is visibly tangled and the central emblem is malformed; the remaining surfaces and controls are clear."
+    }
+  ]
+}

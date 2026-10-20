@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b163",
+  "results": [
+    {
+      "blind_id": "case_4f068e582aae838a",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the cloudy sky, distant treeline, horizontal walkways and overall framing remain aligned, but the foreground vegetation has noticeably different leaf and flower textures and clumps. Instruction: the visible change is reworked vegetation; a compliant result would add prayer flags across the flatland, but no flags appear, so the requested addition is absent. Knowledge: the explanation requires five-colored prayer flags, and none are visible. Instruction failure ⇒ knowledge invalid. Quality: ✔ coherent landscape structure, natural overcast illumination, plausible plant textures and perspective; no conspicuous artifacts in the edited image alone."
+    },
+    {
+      "blind_id": "case_100946aaefa087fd",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested reframing, background and decorations, the joyful open-mouth pose, hands beneath the chin, white shirt and gold crown remain recognizable, but facial contours and teeth, individual hair curls, and shirt folds/buttons are visibly reworked. Instruction: a rainbow poster now centers the crowned person with balloons, confetti, a firework-like burst, cloud shapes and radiant white rays. The expected large sans-serif title and smaller tagline are positioned correctly, but their words are replaced by nonsensical strings rather than either requested sentence; this is partial compliance. Quality: ✔ coherent festive layout and recognizable anatomy; ✘ prominent nonsensical headline/tagline text and locally smeared, uneven clothing texture are clear flaws."
+    }
+  ]
+}

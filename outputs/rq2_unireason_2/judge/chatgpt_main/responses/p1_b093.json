@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b093",
+  "results": [
+    {
+      "blind_id": "case_86f2e142d876af6d",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the ankle, foot pose, dark surface and gray-green background remain aligned, but the sock fabric outside the hole is visibly re-rendered with smoother knit and altered toe creases. Instruction: the exposed-skin hole at the heel has been replaced by continuous dark fabric; a complete intact sock is the expected result, and the repair fully achieves it. Quality: satisfactory foot structure, natural lighting and contact shadow, continuous fabric texture and no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_ef5f6d142f400449",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the entire black maze has disappeared, the bear is redrawn in a different pose without its pink patches or carried parcel, and the gifts are enlarged and relocated. Instruction: red arrows have appeared, but the expected result is a red route through the existing maze from animal to gifts; removing the maze and drawing branching arrows in blank space completely misinterprets that task. Quality: the bear and gift shapes are readable and flat colors are clean, but the branching arrow network has an ambiguous looping junction and conflicting directions, creating a clear diagrammatic semantic flaw. Knowledge: the supplied explanation is blank; the mandatory instruction-failure coupling is the scoring basis. Instruction failure ⇒ knowledge invalid."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b064",
+  "results": [
+    {
+      "blind_id": "case_5e11f9a7a38d2664",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: white background and blue carton identity remain, but the rendering changes from shaded solid surfaces to thin outlines, cream panels become white, and the printed droplets, underline and side strokes disappear; these are not required viewpoint changes. Instruction: the edit retains a three-quarter view with a broad lettered front and narrow cow side; the reference instead shows the cow side straight on with a centered triangular gable and only an edge of the cap. There is little correct side-view change. Quality: the carton is recognizable and cleanly colored, but the MLLK lettering is malformed and a stray vertical seam cuts through the cow graphic, giving two clear visual flaws."
+    },
+    {
+      "blind_id": "case_a1ffbee22b1ef7c1",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the circular blue stone, gold bezel and tapered bail remain recognizable; background, scale and lighting changes are requested. The original prominent oval-link chain is replaced by a very fine chain, a clear unrequested design change. Instruction: the pendant is suspended centrally against a grey-blue gradient with open space and a bottom serif caption, but the caption is garbled rather than the supplied sentence, the pendant sits around mid-height rather than upper center, and no distinct star-like brilliance is visible. This partially realizes the layout. Quality: pendant structure, gold highlights and background are coherent, but the conspicuously nonsensical caption is a clear semantic text artifact."
+    }
+  ]
+}

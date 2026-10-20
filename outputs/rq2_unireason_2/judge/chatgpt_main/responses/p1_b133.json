@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b133",
+  "results": [
+    {
+      "blind_id": "case_e4521c7c794e8fdd",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pale background and overall lighting remain similar, but the baguette that should remain is also removed, a clear additional object change. Instruction: 1. All three baguettes disappear. 2. Removing two should leave one baguette. 3. Removal is performed but the number is incorrect. 4. This is partial compliance. Quality: Structure ✔, naturalness ✔, artifact-free ✔, texture ✔; the edited image alone is a coherent empty pale surface without visible bread fragments or distracting defects."
+    },
+    {
+      "blind_id": "case_6ff97ad62af76b5e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The large red Beetle retains its recognizable styling and the wooden setting remains, but the small black-roofed car is replaced by another Beetle, the vehicles are separated and repositioned, and the tabletop reflections change. Instruction: 1. Two differently sized Beetles now stand apart; the original small car is gone. 2. The large vehicle should be reduced to match the existing small car. 3. The left vehicle remains substantially larger, and replacing the small vehicle does not accomplish the requested resizing. 4. Most of the required change is missing. The source contains a large toy car rather than the stated truck; the larger vehicle is the evident intended target. Quality: Structure ✔, naturalness ✔, artifact-free ✔, texture ✔; both toy cars have coherent wheels, bodies and windows, with plausible tabletop shadows and reflections."
+    }
+  ]
+}

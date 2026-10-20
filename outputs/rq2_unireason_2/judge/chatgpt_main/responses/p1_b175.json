@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b175",
+  "results": [
+    {
+      "blind_id": "case_cb1b7f20557c9cbc",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Outside the requested bottom-right box, most puzzle contents change: the two top-row dots disappear, the middle-left box gains a second dot, and several lines and dots move or vanish; hexagon proportions and grid spacing also change. Instruction: The bottom-right hexagon is removed and a large red question mark remains instead of a completed shape; the expected hexagon has a far-right black dot and an upper-right line. No requested solution is drawn. Knowledge: The supplied dot-and-line expectation is absent. Instruction failure ⇒ knowledge invalid. Quality: The diagram is readable, but visibly uneven and distorted hexagon geometry, including the narrow middle-right hexagon and top-left hexagon meeting the cell border, creates noticeable structural flaws; the strokes and background are otherwise clean."
+    },
+    {
+      "blind_id": "case_7d6490290a5eaf5d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The blue-and-cream carton, cap, white background, and broad packaging theme remain. Excluding viewpoint-dependent visibility and shading, the MILK lettering becomes smaller and shifts to one side, while the cow outline extends conspicuously across the adjacent broad face; these alter multiple packaging details. Instruction: The view changes to another oblique angle with the cow side narrow on the left and the broad lettered face dominant. The reference requires a straight-on cow side, symmetric triangular gable, and cap partially visible at the left; perspective, face visibility, and occlusion differ substantially. Quality: The carton geometry and lighting are coherent and surfaces clean, but the leading letter of the milk label is visibly malformed where the long cow-outline stroke joins it, creating a noticeable graphic/text defect."
+    }
+  ]
+}

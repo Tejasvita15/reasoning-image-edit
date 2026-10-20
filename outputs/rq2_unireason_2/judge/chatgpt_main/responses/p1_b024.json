@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b024",
+  "results": [
+    {
+      "blind_id": "case_cb3a2c8a68ed2497",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, front-facing trousers, belt loops, pockets and leg creases remain recognizable, but the fly seam now has a rounded bottom, the button has a different metallic appearance, and the silhouette and hem placement shift. These exceed recoloring. Instruction: The cream fabric changes throughout to blue; the expected blue trousers are fully present, so compliance is complete. Quality: Structural coherence ✔, natural shading ✔, artifact-free ✔, fabric texture ✔; waistband, pleats and hems form a clean, coherent product image."
+    },
+    {
+      "blind_id": "case_dc9aa1ac43fb645a",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pointed toe, tall narrow heel, rear panel, tan opening and major gloss reflections retain their shapes and positions. The surrounding backdrop and floor-shadow appearance change visibly, becoming brighter with a more localized shadow. Instruction: The red exterior becomes black across the toe, arch, rear panel and heel; the expected black high-heeled shoe is fully achieved. Quality: Structural coherence ✔, natural glossy reflections and perspective ✔, artifact-free ✔, surface texture ✔; the shoe reads clearly as a coherent patent-leather product photograph."
+    }
+  ]
+}

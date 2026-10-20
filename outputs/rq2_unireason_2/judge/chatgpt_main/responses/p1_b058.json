@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b058",
+  "results": [
+    {
+      "blind_id": "case_b569f796fa6a6d95",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Black jacket identity, orange chest branding, zipper, pockets and gray background remain, but the glossy wrinkled fabric is replaced by flat smooth shading and the shoulder/sleeve stripe pattern loses a stripe; these are not required by a viewpoint change. Instruction: The oblique source becomes a frontal, flattened jacket with a full-length torso. The reference requires an overhead view with a prominent neck opening and strongly foreshortened torso; the edited viewpoint is wrong. Instruction failure ⇒ knowledge invalid. Quality: Judged alone, the clean garment illustration has coherent seams, zipper, collar and pockets, readable branding, and no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_9536f5dfe35d0502",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The ivory top-handle bag and gold clasp remain recognizable, excluding the requested placement, lighting and background changes. However, the clasp loses its clearly articulated interlocking G shapes and the detailed quilting/stitching is substantially simplified and obscured. Instruction: The bag is smaller and slightly right of center on a softly illuminated fabric backdrop, with gold serif text at upper left. The expected gray-white understated advertisement is instead dark gray; the requested Elegance, Always. copy is replaced by nonsense lettering, and bottom-center GUCCI is absent. These are major omissions. Instruction failure ⇒ knowledge invalid. Quality: The bag and fabric have heavy, visually degrading blur that erases leather, stitching and hardware definition; the headline is garbled. These multiple flaws undermine an otherwise recognizable product-ad layout."
+    }
+  ]
+}

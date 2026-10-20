@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b036",
+  "results": [
+    {
+      "blind_id": "case_93bec072e2156697",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The two saucers and right cup retain their overall positions and shapes, but the left cup moves downward and its bean arrangement is replaced with many smaller beans; the background also becomes brighter white. Cup resizing itself is excluded. Instruction: 1. The small cup becomes narrower rather than larger. 2. It should match the large right cup in size. 3. It remains conspicuously smaller, so the requested size adjustment is not achieved. 4. Non-compliance. Quality: Structure ✔, naturalness ✔, artifacts ✔, texture fidelity ✔; the ceramic rims, handles, coffee beans and soft shadows form a coherent tabletop photograph."
+    },
+    {
+      "blind_id": "case_bc78bed597502614",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding requested arm completion, the glasses are reoriented from a front on the right to a front across the top, the lenses and frame geometry are extensively changed, and the tabletop texture and illumination are altered. Most major non-requested details differ. Instruction: 1. The original straight arms are replaced by short curled structures with additional thin inner branches. 2. The existing glasses should have complete, continuous wearable temple arms. 3. Arms are present but the looped left end and doubled branches do not plausibly complete the original arms. 4. Major omission. Quality: Structure ✘ and artifacts ✘: the left temple forms an implausible closed loop, additional thin arms branch inward, and the front-frame/lens configuration is malformed. Naturalness ✘ because these connections are mechanically incoherent; tabletop texture remains recognizable."
+    }
+  ]
+}

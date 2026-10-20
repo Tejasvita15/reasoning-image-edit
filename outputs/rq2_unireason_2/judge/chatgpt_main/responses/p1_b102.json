@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b102",
+  "results": [
+    {
+      "blind_id": "case_f99ff10b8dd23b3d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested placement, background, illumination and typography, the left wrapped/right bare chocolate arrangement and striped paper cup remain recognizable, but foil crease geometry and the bare chocolate nut distribution and contour have noticeably changed. Instruction: The white background becomes a gold gradient with bokeh and warm highlights, and the pair sits below center. A compliant result would also have the exact requested sentence at top left in deep brown metallic type; the placement and color are present but the lettering instead reads garbled words, so compliance is partial. Quality: Structure/text ✘ because the large headline is nonsensical with malformed terminal glyphs; texture fidelity ✘ because the chocolate coating and protrusions appear melted and metallic. Lighting and overall product layout ✔; these are multiple distracting flaws."
+    },
+    {
+      "blind_id": "case_d42398ab865199c5",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white monitor housing, orange power button and two dark buttons remain recognizable, but the cuff changes from navy with a printed size label to pale gray, the date/time disappears into stray segments, and the pulse display and its label are altered. These are outside the requested pressure-value change. Instruction: The original clear 123/72 pressure readings are replaced by a roughly 133-like systolic display and incomplete smeared diastolic segments. A successful edit would show legible hypotensive pressure values; the malformed digits do not reliably establish the requested change, a major omission. Knowledge: The supplied explanation requires systolic below 90 or diastolic below 60; the displayed upper reading is not below 90 and the lower reading is not a coherent number establishing below 60. Instruction failure ⇒ knowledge invalid. Quality: Structure/text ✘ and artifact-free ✘ because several LCD digits are broken or smeared and small display labels are distorted; the housing, buttons, perspective and background remain coherent ✔."
+    }
+  ]
+}

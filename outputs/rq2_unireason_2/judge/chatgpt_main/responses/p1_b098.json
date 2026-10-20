@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b098",
+  "results": [
+    {
+      "blind_id": "case_3614293fdc41e701",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested placement, background, shadow and typography, the blue controller identity and control layout remain recognizable, but its perspective/body proportions are changed, the directional buttons become rounded, and the center logo and face-button symbols change. Instruction: The white scene becomes a grainy gray-blue poster with the controller above center, a soft shadow, generous space and exact bold black bottom-centered “Press Start.” text. This matches the expected composition, although the background is somewhat darker and the grain more pronounced than the requested light, mild treatment. Quality: Structure and lighting are generally coherent and the headline is clean; the face-button symbols have visibly malformed/doubled strokes, especially the cross and triangle, creating a clear localized semantic flaw."
+    },
+    {
+      "blind_id": "case_b27d84478532c269",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested splash presentation, layout, white background, shadow and title, the transparent cylindrical milk glass remains recognizable, but its bottom changes from the rounded layered base to a broader, flatter clear band. Instruction: The edit adds a centered uppercase sans-serif title, generous white space and a gray grounding shadow around a prominent central milk splash, as expected. The wording is present, but the headline is dark gray rather than light silver-gray, a minor styling mismatch. Quality: The glass, droplets and splash are coherent with detailed surfaces, and text is legible. The pouring stream visibly tapers to an unsupported pointed end within the frame behind the headline, giving the liquid a clear unnatural structural termination."
+    }
+  ]
+}

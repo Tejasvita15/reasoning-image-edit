@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b037",
+  "results": [
+    {
+      "blind_id": "case_f99201d5ad87499d",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The original nine-cell grid becomes four large cells; the existing dots, line positions, and hexagon arrangements are extensively changed. Instruction: The bottom-right cell still contains a red question mark and extra angular outlines, rather than the requested completed shape with a rightmost black circle and upper-right line. The requested solution is absent. Knowledge: Neither specified feature is supplied in the answer cell. Instruction failure ⇒ knowledge invalid. Quality: The diagram has disconnected cell borders, overlapping doubled polygon edges, and stray line segments, producing multiple structural errors despite readable basic symbols."
+    },
+    {
+      "blind_id": "case_65b63a2f100675a2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The main road and broad right-side settlement layout remain recognizable, but the unaffected right-hand roofs become warped and brightly outlined, and the retained forest has substantially altered color and texture. Instruction: Much of the lower-left forest is replaced by a large rectangular grid of tiny mottled blocks. This locates development on the requested side, but the replacement reads as a flat texture rather than convincingly depicted buildings, so urbanization is only partially conveyed. Knowledge: Trees are clearly reduced as the explanation requires, but the increase in actual buildings is poorly established by the indistinct flat grid, a clear deficiency in the expected outcome. Quality: Numerous right-hand roofs are melted and irregular, while the enormous flat rectangular patch has an abrupt boundary and incompatible scale and texture; these are multiple distracting structural problems."
+    }
+  ]
+}

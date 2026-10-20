@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b062",
+  "results": [
+    {
+      "blind_id": "case_f1b7a08407326fd4",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the maze walls and animal have disappeared entirely; the large gift also loses its blue fill, so major non-requested content is changed. Instruction: a red looping line has been added near the gifts, but the expected line should trace the existing maze from animal to gifts; neither maze nor animal remains, and no valid maze route is marked. This is a major omission. Knowledge: the supplied explanation is blank; the score follows the mandatory coupling. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: the gift shapes and decorative bows are coherent, with clean white surroundings, but the red contour has a small protruding stub at its lower-left junction."
+    },
+    {
+      "blind_id": "case_6ed7c03adc79b6d6",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background and receding row of fluted gray columns remain, but the shading becomes noticeably darker and the column spacing and relative proportions change, with several capitals now nearly touching. Instruction: the source has eight columns and the edited image still has eight clearly distinguishable shafts and capitals; the expected five-column row is absent, so the requested count change is not followed. Quality, edited image alone: structural coherence, perspective, shading and surface fidelity are satisfactory; the repeated column forms remain clear and intact without noticeable generation artifacts."
+    }
+  ]
+}

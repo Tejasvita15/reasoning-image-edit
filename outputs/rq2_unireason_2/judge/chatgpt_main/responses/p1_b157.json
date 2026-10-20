@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b157",
+  "results": [
+    {
+      "blind_id": "case_eb26e5a2c8971db2",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding the permitted replacement of sand and the immediate shoreline, the horizon, distant vessel, blue sky and cloud arrangement remain recognizable and aligned, but the open-water ripple and wave texture is visibly altered. Instruction: Sand has become a dense gray pebble beach; the expected shingle-covered coastline is fully present. Knowledge: The supplied explanation calls for rounded pebbles and coarse sediments, and the foreground visibly contains rounded stones of varying sizes, including wet stones beside the surf. Quality: Structure and seaside perspective are coherent, with natural sky and water; minor texture blending and repetitive ridging among the foreground stones slightly reduce surface fidelity."
+    },
+    {
+      "blind_id": "case_c2cb866f723f6c08",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested size adjustment, the large left vehicle changes identity from a rounded Beetle-like car to a small-car design with a black roof panel and hood stripe. The tabletop reflections also change, including a conspicuous pale oval beneath the left vehicle; the red right-hand car and general wooden setting remain recognizable. Instruction: The source contains a large toy car rather than the stated truck. Taking the large left vehicle as the intended target, the expected result is that same vehicle reduced to the small right car’s size. Instead its design is replaced, and the left vehicle still appears appreciably taller and larger, so the specified resize is poorly implemented. Quality: Both toy cars have coherent bodies, wheels and glazing with plausible lighting; a small isolated pale tabletop reflection beneath the left car looks unnatural. No knowledge metric applies."
+    }
+  ]
+}

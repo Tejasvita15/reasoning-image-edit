@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b025",
+  "results": [
+    {
+      "blind_id": "case_be64d6a8b789a4ba",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the chair, bed position, lamp, curtains, window and warm lighting remain aligned, but the carved wall-panel motif and the woven pillow/blanket details are visibly redrawn. Instruction: a pale inflated balloon has been added at the right edge of the room, resting on the floor, fulfilling the requested addition. Knowledge: its floor contact rather than unsupported floating matches the supplied regular-air explanation. Quality: coherent room geometry, natural fabric and floor textures, and a smoothly shaded balloon with believable contact; no noticeable structural artifacts."
+    },
+    {
+      "blind_id": "case_aed130137573e311",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white monitor and gray cuff remain recognizable, but their framing, scale and relative placement change; brand/side labels, screen icons and the pulse readout are also altered beyond the requested blood-pressure values. Instruction: the original 100/68 readings are replaced by malformed multi-character segment strings, including an E-like character in the upper line, rather than clearly legible hypertension measurements. A successful edit would show readable elevated systolic or diastolic values, so the requested change is poorly implemented. Knowledge: the required greater-than-130 systolic or greater-than-80 diastolic condition cannot be established from these corrupted readouts. Instruction failure ⇒ knowledge invalid. Quality: the cuff and casing retain plausible texture, but numerous garbled labels, broken numeral segments and overlapping display marks create multiple distracting semantic errors."
+    }
+  ]
+}

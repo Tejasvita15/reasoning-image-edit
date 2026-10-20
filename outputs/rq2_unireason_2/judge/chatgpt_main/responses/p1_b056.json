@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b056",
+  "results": [
+    {
+      "blind_id": "case_b08acf8eea9ab25b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The paper keeps its rectangular placement, but the coffee cup disappears, the paper loses its visible grain, and the tabletop becomes more contrasty with altered grain texture. The requested holder relocation is excluded. Instruction: The holder moves from the upper left to overlap the lower right paper corner, with its recognizable assortment of pens; this matches the expected placement completely. Quality: Object structure and overhead perspective are coherent, with no duplicate objects; a small issue is the smeared, streaky wood texture, especially at the right edge."
+    },
+    {
+      "blind_id": "case_3d3d442e3f0152a8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The eight existing arc arrangements and their cell positions remain recognizable, but the gray grid becomes heavy black and the existing arc strokes become thicker and darker. Instruction: The question mark is erased and its cell left empty. A correct edit should draw the common arcs of the two preceding bottom-row patterns there; no answer pattern is drawn, so the requested completion is absent. Knowledge: The supplied intersection rule requires an inner lower semicircle plus an outer lower-right quarter arc, both shared by the bottom-row inputs. The empty cell supplies neither. Instruction failure ⇒ knowledge invalid. Quality: Structural coherence, clean layout, artifact absence, and flat line texture are satisfactory; the grid and arcs are clearly readable with no noticeable rendering defect."
+    }
+  ]
+}

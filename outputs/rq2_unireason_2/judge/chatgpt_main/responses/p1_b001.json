@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b001",
+  "results": [
+    {
+      "blind_id": "case_90f168f79789ef14",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The maze walls and animal disappear completely, and the tall gift loses its blue fill; most major non-requested content is changed. Instruction: Two red strokes are added beside the gifts. The expected result is a red route through the existing maze connecting the animal to the gifts; these strokes trace no maze route and have no animal endpoint, so most of the requested change is missing. Knowledge: The supplied explanation is blank; this score follows the mandatory coupling rather than absent explanatory text. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: ✔ The gift boxes, bows and red strokes have clean, coherent outlines; ✔ flat colors and the white background are natural for a simple illustration; ✔ no visible ghosting, corruption or malformed shapes."
+    },
+    {
+      "blind_id": "case_5c39409d1bbdbb96",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding the requested beach surface and its water boundary, the sky, cloud arrangement, distant vessel and horizon remain recognizable in the same positions. The sea surface is visibly reworked, with different ripple and foam patterns beyond the immediate shoreline, constituting one clear non-requested element change. Instruction: Fine sand is replaced by a broad bed of rounded stones extending to the water. This matches the expected shingle coastline fully. Knowledge: The supplied explanation calls for rounded pebbles and coarse sediments; the smooth, varied-size gray and brown stones visibly fulfill that expectation. Quality, edited image alone: ✔ Stones have coherent shapes, perspective and directional shading; ✔ sky and sea remain readable and natural. ✘ The nearly horizontal stone-to-water junction has a slightly abrupt, blended edge, a minor integration imperfection."
+    }
+  ]
+}

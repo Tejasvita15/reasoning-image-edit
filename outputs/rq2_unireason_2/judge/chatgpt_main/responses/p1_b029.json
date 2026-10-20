@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b029",
+  "results": [
+    {
+      "blind_id": "case_aef7d466eadee333",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the white background and grid arrangement remain, but the top-middle red O becomes a red X, and the board perspective, block proportions and wood grain noticeably change beyond the requested corner. Instruction: the tilted bottom-left piece becomes a flat blue X, correctly completing the left column of three X marks; the specified selection is fully made. Knowledge: the supplied explanation is blank; task-implied tic-tac-toe logic supports the winning left column, but changing an existing opponent O into another X is a clear conflict with a legal single placement. Quality: coherent wooden construction, readable symbols, plausible shadows and intact grain; no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_434edf9a461d90bd",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the border, two diamonds and divided lower-left square retain their identities, but their layout changes, most visibly the upper-right diamond shifting left within the frame. Instruction: the lower-right rounded arrow-like outline remains instead of becoming the required plain square; the requested shape replacement is absent. Knowledge: the supplied explanation explicitly requires a square without an internal line, whereas the result still has a protruding rounded right end. Instruction failure ⇒ knowledge invalid. Quality: the standalone diagram has legible closed outlines, coherent flat geometry and a clean background; modest line roughness does not impair the shapes."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b067",
+  "results": [
+    {
+      "blind_id": "case_3e59a58c030628ec",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The eight existing example symbols disappear, the three-by-three grid becomes an uneven five-column upper grid and open lower panel, and stroke weights change; nearly all protected structure is altered. Instruction: A triangle and two dots replace the question-mark region only broadly, with no preserved bottom-right box. The expected triangle with one blue circle on its bottom edge is absent: one dot is inside and another detached below. This is a major omission. Knowledge: Neither dot lies on the bottom edge as the supplied explanation requires. Instruction failure ⇒ knowledge invalid. Quality: The blue lines and shapes are readable and clean, but the lower enclosure has a conspicuous missing left boundary and the irregular compartment structure makes the diagram visibly awkward."
+    },
+    {
+      "blind_id": "case_032df4f29603781e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The same person, open-mouth expression, hands-under-chin pose and white shirt remain recognizable; centering, background and light changes are authorized. However, facial proportions and creases are visibly redrawn, hair locks become more outlined and regular, and shirt and skin textures change substantially. Instruction: Confetti, balloons, fireworks, rainbow color, clouds and radiant backlighting are added around the centered crowned figure. The expected exact title and tagline are not delivered: the headline contains garbled words such as MOMNTE HSTISS and the tagline is also corrupted; much of the title uses script instead of the requested modern sans-serif. The main poster concept is present but required typography is wrong. Quality: Festive layout, recognizable figure and balloons are coherent, but several large text lines and the tagline are malformed and unreadable as meaningful phrases, creating multiple distracting semantic defects."
+    }
+  ]
+}

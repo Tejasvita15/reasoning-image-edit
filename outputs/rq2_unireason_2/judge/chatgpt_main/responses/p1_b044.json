@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b044",
+  "results": [
+    {
+      "blind_id": "case_c89565ae5fc9ccd8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and two drawstring-bag identities remain, but the unrequested small bag is reduced and repositioned, and both bags have noticeably coarser, higher-contrast fabric and altered printed details. Instruction: Both bags shrink within the frame; the expected result is a right-hand bag matching the small bag in size. The right-hand bag remains substantially taller and wider than the left, so the requested size match is largely unfulfilled. Quality: Structure, cords, beads and shadows are coherent; slight blotchy, over-sharpened fabric texture is the main imperfection."
+    },
+    {
+      "blind_id": "case_dff4fe5c787edbc2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, base, lighting, viewpoint and arrangement changes, the chocolate-coated product category remains, but a third cookie is added and the original fine parallel drizzle and surface details are visibly redesigned. Instruction: The edit supplies brown velvet, black slate, warm upper-left lighting and a central stack. A correct result would show exactly two cookies and the specified legible quotation at the top right from a slightly upward view. There are three cookies, a visibly downward view of the slate, and garbled text spanning the upper edge; this is partial compliance. Quality: Cookie shapes, chocolate sheen, velvet and slate are coherent and naturally lit, but the large malformed, partly clipped headline is a clear visual flaw; no comparable structural failure affects the food."
+    }
+  ]
+}

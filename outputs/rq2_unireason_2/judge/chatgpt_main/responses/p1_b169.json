@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b169",
+  "results": [
+    {
+      "blind_id": "case_c74fe5a4d25dfc6f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested adapter relocation, the white background and two-prong adapter design remain recognizable, but the cable has moved from the right into the foreground, its oval coil is reshaped, and its connectors and lower portion disappear. Instruction: The adapter moves toward the image center; a correct edit would place it within the center of the cable loop. Here it stands mostly above and behind an incomplete cable arc, so the requested spatial relationship is poorly implemented. Quality: The adapter shape, surfaces and lighting are coherent, but the cable abruptly terminates along a horizontal white cutoff inside the image, an obvious structural artifact."
+    },
+    {
+      "blind_id": "case_32bfb12ff285bf82",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The black rim, numerals, minute dots, white background and bottom watermark retain their layout, but a clear soft dark shadow has been added around the inner rim. Instruction: No meaningful hand-position change is visible: the minute hand still points to 12 and the hour hand to 8. The expected Tokyo-time edit should show 9:00; retaining 8:00 does not fulfill it. Knowledge: The supplied explanation explicitly requires 9 o’clock, whereas the edited clock reads 8 o’clock. Instruction failure ⇒ knowledge invalid. Quality: Clock geometry, numerals, hand structure and shading are coherent; the small visible stock-image watermark along the bottom is a minor artifact."
+    }
+  ]
+}

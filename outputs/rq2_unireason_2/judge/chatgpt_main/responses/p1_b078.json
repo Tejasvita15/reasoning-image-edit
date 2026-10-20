@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b078",
+  "results": [
+    {
+      "blind_id": "case_d40c209cedd9dd96",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The window, curtains, chair and general bedroom arrangement remain recognizable, but the bedding folds and pillows are altered, the wall carving is redesigned and the bedside lamp is no longer visible. Instruction: Two red balloons appear, one suspended on a string and one resting on the bed; the expected addition is a regular-air balloon in the room. Balloon addition is achieved, but the floating balloon and extra balloon prevent precise compliance. Knowledge: The supplied explanation requires the balloon to lie on the floor; neither does, and the suspended balloon suggests buoyancy contrary to regular air. Quality: Coherent room geometry, lighting and balloon shapes; minor texture blending in the bedding reduces natural surface detail."
+    },
+    {
+      "blind_id": "case_4becb8c0d054bca1",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The blue-and-white thermometer concept and white background remain, but the coiled probe disappears, the red indicator becomes green, casing proportions and placement change, and fixed labels change, including C601 to C801. Instruction: The original 28.7 Celsius display becomes malformed digits resembling 25.7, rather than the expected approximately 31.7 Celsius after the specified descent. The required temperature adjustment is poorly implemented. Knowledge: The supplied explanation calls for an approximately 3 Celsius increase; the visible display does not show that result. Instruction failure ⇒ knowledge invalid. Quality: The casing and buttons are coherent, but the display has broken and ghosted digit segments, malformed unit symbols, and corrupted small labels, producing multiple distracting semantic errors."
+    }
+  ]
+}

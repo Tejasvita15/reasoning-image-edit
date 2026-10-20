@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b092",
+  "results": [
+    {
+      "blind_id": "case_0882fb9885a4f8c8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pose, eyes, nose, bedding layout and log placement remain, excluding the requested fur recoloring. However, the blue background gains conspicuous mottled texture and the bedding and bark acquire altered, harsh surface detail. Instruction: The golden coat becomes gray across the head and body, matching the expected gray hamster; the correct animal is recolored completely. Quality: Anatomy, lighting and scene structure are coherent, but conspicuous multicolored streaking in the fur and gritty background texture impair naturalness; these are visible texture artifacts rather than mere softness."
+    },
+    {
+      "blind_id": "case_9170a1e24325cd71",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The river course, sky, hills, field and main trees retain their arrangement. Excluding the added boat, foliage detail has visibly changed and the exposed right riverbank has become more jagged and rocky. Instruction: A small open boat is added in the right-hand field beside the river valley. The expected result is a recognizable Jiangnan water-town boat by the river; a boat is present, but its distinctive covered form is absent, so compliance is partial. Knowledge: The supplied explanation requires a black-canopied Wu-peng boat. The visible boat has a dark hull but an uncovered interior, clearly conflicting with the required canopy. Quality: Structure, perspective and lighting are generally coherent, without duplication; some foliage and bank textures blend into coarse patches, a minor texture imperfection."
+    }
+  ]
+}

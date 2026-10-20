@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b115",
+  "results": [
+    {
+      "blind_id": "case_2fb6dd2e51e35c23",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: The seated bearded man, green coat, crossed legs, fruit table and dark painted background retain their arrangement, but the right resting hand changes pose, the chair and table bases change shape, and background foliage and clothing folds are redrawn. Instruction: The source has three arms/hands, including a central hand holding a glass; a correct edit would leave anatomically coherent two-arm anatomy. The edited person still has both resting arms plus the central glass-holding arm, so the requested correction is absent. Quality, edited image alone: Lighting and painterly textures are coherent, but the conspicuous third arm emerging in front of the torso is a major anatomical failure; structural coherence is problematic despite otherwise plausible furnishings."
+    },
+    {
+      "blind_id": "case_174a244e955ea3a5",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The gold nine-cell grid, wooden background, green X marks in both upper corners, and red O marks in the center and both lower corners remain visually unchanged. Instruction: No new X appears. A correct edit would add an X in the empty top-middle cell to complete the top row; that cell remains empty, so the instruction is not followed. Knowledge: The supplied explanation is blank; the winning top-middle placement follows the task and visible board. The mandatory failure coupling determines the score. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: Structural coherence, lighting and shadows, clean symbol shapes, and wood and gold textures are satisfactory; no noticeable generation artifacts or semantic ambiguity."
+    }
+  ]
+}

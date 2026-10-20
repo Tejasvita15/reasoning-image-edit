@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b052",
+  "results": [
+    {
+      "blind_id": "case_d58befa6c098abbb",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The frontal pose, eye positions, blue backdrop, right-hand log and bedding arrangement remain recognizable, but the fur texture and facial detailing are substantially redrawn, and the blue background and wood/bedding textures acquire conspicuous patterned distortion. These exceed the permitted color change. Instruction: 1. The golden coat becomes dark gray with silver highlights. 2. The hamster should have gray fur. 3. The correct animal is recolored gray throughout its visible coat. 4. The requested color change is complete. Quality: Structural coherence is satisfactory overall, but naturalness, artifact freedom and texture fidelity are problematic: repetitive embossed marks cover the blue background, fur has exaggerated streaks, and wood and shavings have smeared, crunchy textures."
+    },
+    {
+      "blind_id": "case_0a58b907530c6ae8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and white product colors remain, but the cable changes from a loose double loop to a many-turn coil with a different connector arrangement, while the adapter changes proportions and loses its clearly defined pair of upright pins. Instruction: 1. The adapter moves above the coil and the cable is extensively rearranged. 2. The adapter should occupy the center of the cable loop. 3. The central opening remains empty; the adapter is outside it at the top. 4. Repositioning occurs but the specified central placement is poorly implemented. Quality: Structural coherence, naturalness and artifact freedom are problematic: the adapter fades into near-transparent white with indistinct pins, and thin vertical cable-like pieces terminate ambiguously between it and the coil. The main coil and right connector retain recognizable surface detail."
+    }
+  ]
+}

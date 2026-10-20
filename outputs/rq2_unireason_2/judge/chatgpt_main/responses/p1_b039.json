@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b039",
+  "results": [
+    {
+      "blind_id": "case_85e6ee14ec97e155",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: White background, blue woven upholstery and tapered brown legs remain; excluding viewpoint-dependent visibility, the back construction changes from a row of rounded cushions to two broad rigid rectangular sections with a narrow raised central section. Instruction: The side view becomes a rear-facing view with large back panels; the required front view should expose three back cushions, seat cushions and a right-hand projecting chaise as in the reference. The change is in the wrong direction. Quality: Assessed alone, the rear-facing furniture rendering has clean edges, coherent panel geometry and legs, uniform woven fabric and no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_3208eab62605c6f0",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The foot orientation, dark sock and exposed hairy ankle remain recognizable, but the ankle/cuff contour and crop change, knit texture is visibly redrawn across the sock, and the backdrop becomes more strongly teal. These extend beyond closing the heel hole. Instruction: The exposed skin hole at the lower heel is replaced by continuous dark knitted material; a completed sock should have no opening there, and the edit fully closes it. Quality: The foot and sock have a coherent silhouette, continuous plausible fabric, natural contact with the dark surface and no distracting artifacts; softness does not obscure their meaning."
+    }
+  ]
+}

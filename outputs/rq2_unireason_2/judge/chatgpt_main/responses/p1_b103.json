@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b103",
+  "results": [
+    {
+      "blind_id": "case_669d623a326506fd",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested shoe recoloring, the pointed toe, high heel, curved arch, seam and gloss-reflection shapes remain recognizable and aligned, but the pale gray background/floor shading is visibly whitened and the soft floor shadow reduced. Instruction: the red shoe exterior becomes black throughout; the expected same shoe in black is fully present. Quality: structure ✔, natural lighting and patent-leather reflections ✔, artifact-free ✔, texture ✔; the shoe has a coherent silhouette and clean heel and sole."
+    },
+    {
+      "blind_id": "case_6509f3f847b6db68",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the eight supplied dot arrays retain their positions and black/white arrangements, and the grid remains intact; a small global raster-texture change roughens their outlines and speckles the white surface. Instruction: the bottom-right question mark remains instead of being replaced by a dot array, so the requested completion is absent. Knowledge: the supplied equal-color rule would give bottom-right rows black-white-black-white, black-white-white-white, black-white-black-black, white-black-white-black; no such array is drawn. Instruction failure ⇒ knowledge invalid. Quality: structure ✔ and diagram readability ✔; artifact/texture ✘ for slight noisy, ragged circle and grid edges, without ambiguity in the existing symbols."
+    }
+  ]
+}

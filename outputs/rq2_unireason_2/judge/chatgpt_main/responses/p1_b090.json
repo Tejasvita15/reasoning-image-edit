@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b090",
+  "results": [
+    {
+      "blind_id": "case_64e38b2d8a617da1",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The facial pose, nose, mouth and whisker arrangement remain recognizable, but non-eye fur and body textures are strongly altered and the whole scene has much harsher contrast, clipped highlights and darker shadows. Instruction: The eyes change from pale blue to vivid turquoise, while the pupils remain broad and appear larger rather than becoming narrow; the expected strong-light eye response is absent. Knowledge: The supplied explanation requires pupil constriction, which is not shown. Instruction failure ⇒ knowledge invalid. Quality: Anatomy and composition are coherent, but large blown-out fur areas lose natural texture and the intensely saturated eyes look unnatural; these are two clear visual flaws."
+    },
+    {
+      "blind_id": "case_4145a2d21e600c6c",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Most major non-requested details change: the coffee cup disappears, the paper becomes larger and moves upward, the wood grain and coloration change throughout, and the holder contents are substantially rearranged. Instruction: A filled circular pen holder has moved from the upper-left area to overlap the paper’s lower-right corner, matching the requested destination; its noticeably changed contents and scale prevent an exact relocation of the original object. Quality: The paper and tabletop have coherent geometry and lighting, but several implements have malformed ragged silver shafts and ambiguous merged ends within the holder, creating a clear object-structure flaw."
+    }
+  ]
+}

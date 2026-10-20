@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b065",
+  "results": [
+    {
+      "blind_id": "case_e87c0d38d41ebbc6",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the mountain silhouettes and foreground plant positions remain recognizable, but the star field is replaced by vastly denser, brighter stars and foreground vegetation and slopes acquire noticeably stronger contrast and texture. These are not required auroral changes. Instruction: the edit adds a curved row of brilliant star-like blobs and dense points; the expected change is auroral light in the high-latitude sky. No auroral curtains or diffuse bands appear, so the requested phenomenon is misinterpreted. Knowledge: the supplied explanation explicitly requires aurora, which is absent. Instruction failure ⇒ knowledge invalid. Quality: landscape structure is coherent, but the repeated oversized white starbursts and densely speckled sky look artificial and visibly patterned."
+    },
+    {
+      "blind_id": "case_000afa375648ff33",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the room composition, principal wall cracks and two floor stones remain, but both the surrounding wall surface and the floor texture become substantially harsher and more contrasty. Instruction: the central white opening becomes wider and rounder while losing its dimensional broken edges. A completed wall should fill the opening with continuous stone; the large blank hole remains, so completion is not achieved. Quality: the floor perspective, stones and surrounding wall are coherent, but the central feature is an unmodulated white patch with a soft, depthless boundary, producing a conspicuous pasted-out appearance."
+    }
+  ]
+}

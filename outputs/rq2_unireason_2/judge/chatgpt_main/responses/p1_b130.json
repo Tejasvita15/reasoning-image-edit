@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b130",
+  "results": [
+    {
+      "blind_id": "case_0ca16d5c73467f4a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested color change, the white backdrop, centered shirt, collar, chest logo and side tab are retained. However, fabric folds are substantially smoothed/rearranged, especially across the torso and sleeves, and the hem/side outline changes; the neck-label details also differ. Instruction: 1. The black shirt becomes white throughout. 2. The expected result is this shirt in white. 3. The correct garment and color are present, including white collar, sleeves and embroidery. 4. Full compliance. Quality: Structure ✔, natural lighting/shading ✔, artifact-free ✔, fabric texture ✔; the shirt has coherent seams, folds and silhouette with no noticeable visual defects."
+    },
+    {
+      "blind_id": "case_7246a923c868e595",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the added handle and its shadow, the spoon bowl position and major wood-grain landmarks remain aligned. The tabletop texture is noticeably rougher and more strongly outlined, and the bowl surface gains visible mottled texture. Instruction: 1. A long rounded handle extends downward from the former cutoff. 2. A complete continuous spoon handle is expected. 3. The correct spoon is extended to a finished rounded end, but the narrower extension leaves an abrupt ledge and seam at the join. 4. The core edit is complete with a minor integration defect. Quality: Structure ✘ at the stepped, sleeve-like handle joint, which makes the spoon appear assembled from mismatched sections; natural lighting/shadows ✔, otherwise artifact-free ✔, surface textures ✔. This is one clear structural flaw."
+    }
+  ]
+}

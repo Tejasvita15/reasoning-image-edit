@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b144",
+  "results": [
+    {
+      "blind_id": "case_1282db6c9ae0cf95",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The six colored panels, white upper digits, five existing yellow answers, shadows and arrangement remain visually consistent; the requested answer region is excluded. Instruction: No answer has been inserted: the bottom-right question mark remains. The expected edit is 410 replacing that mark, so the instruction is not followed. Knowledge: The supplied difference-then-sum rule gives 7−3=4 and 7+3=10, hence 410; that result is absent. Instruction failure ⇒ knowledge invalid. Quality: The edited puzzle has coherent rectangular panels, legible digits and symbols, consistent shading, and no noticeable structural artifacts; modest softness does not obscure content."
+    },
+    {
+      "blind_id": "case_8f86bd62a4ef19a6",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The lawn, string grid, wooden corner supports, existing playing tiles, people and overhead composition are replaced by a close-up of two hands holding one X tile against a dark background. Most major non-requested scene elements are lost. Instruction: An X tile is visible, but no X is added to the board and no winning line is shown. The expected placement is the top-left empty square, completing the diagonal through the center and bottom-right X tiles; the requested change is entirely missing. Knowledge: The supplied explanation is blank; the winning diagonal follows from the task and visible source board, while the mandatory failure coupling determines this score. Instruction failure ⇒ knowledge invalid. Quality: The standalone edited image has coherent hands and fingers, a clean legible X on a plausible wooden tile, natural lighting and an unobtrusive dark background, without noticeable artifacts."
+    }
+  ]
+}

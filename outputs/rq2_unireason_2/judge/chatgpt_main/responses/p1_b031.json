@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b031",
+  "results": [
+    {
+      "blind_id": "case_4afcd459c75770b1",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: shoe silhouette, pointed toe, tall heel, position and glossy reflection pattern are preserved; excluding the requested shoe recoloring, the background/floor lighting changes visibly from pale gray with a broad soft shadow to brighter white with a tighter shadow. Instruction: the red shoe becomes black throughout; the expected same high-heeled shoe in black is fully realized. Quality: structural coherence ✔, natural glossy reflections and contact shadow ✔, artifact-free ✔, surface texture ✔; no noticeable structural defect."
+    },
+    {
+      "blind_id": "case_301c115fd8b0be43",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: overall field, horizon and curving distant path remain in place, but foreground vegetation is extensively reshaped into larger stylized leaves and the sky/tree-line textures are visibly altered, beyond the requested flag addition. Instruction: multiple strings of rectangular printed prayer flags now span the flatland; the expected Tibetan-monastery-style prayer flags are clearly added, fulfilling the request. Knowledge: the supplied explanation requires five-colored prayer flags; the added strings visibly include blue, white, red, green and yellow, fully matching that expectation. Quality: layout and perspective ✔, but texture fidelity ✘ because foreground foliage has conspicuous fused, painterly shapes; artifact-free ✘ because several overlapping lower flag edges and their supporting lines blend ambiguously. These are noticeable localized flaws rather than a collapse of the scene."
+    }
+  ]
+}

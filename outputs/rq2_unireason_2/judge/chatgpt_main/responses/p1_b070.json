@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b070",
+  "results": [
+    {
+      "blind_id": "case_8a8537bd393cd968",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The gold grid, green corner Xs, red Os and their occupied cells remain recognizable and in the same arrangement, but the wooden background grain is visibly changed, particularly outside the board. Instruction: A green X has been added in the empty top-middle cell, exactly completing the requested winning row. Knowledge: The supplied explanation is blank; using the game logic explicitly implied by the task, the three top-row Xs form a win. Quality: The edited image has coherent square cells, clear X/O symbols, consistent shading and wood surfaces, without noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_178a3feafbfff5d9",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The outer 5s remain recognizable, but the background changes from mustard yellow to muted olive, match heads and shaft proportions change, and spacing among the central sticks is altered beyond a single moved stick. Instruction: The original 5 - 2 = 5 becomes a broken central arrangement: the 2 loses its top and bottom horizontals, its middle is displaced, and an equals stroke is relocated below the minus. A valid equation made by relocating exactly one stick was required; this is neither one relocation nor a legible correct equation. Knowledge: The supplied explanation is blank; the score follows the mandatory instruction-failure coupling. Instruction failure ⇒ knowledge invalid. Quality: The central numeral is fragmented into disconnected bent shapes and the operator layout is malformed, producing multiple distracting structural and semantic errors despite recognizable outer digits."
+    }
+  ]
+}

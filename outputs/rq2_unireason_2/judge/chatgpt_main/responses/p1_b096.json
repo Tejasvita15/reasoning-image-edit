@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b096",
+  "results": [
+    {
+      "blind_id": "case_b307bfd9de36fcb3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the beige setting, brass scale and dark base remain recognizable, but the four right-pan weights become one, the original left weight changes shape and size, and the base and pan geometry change. Instruction: the observed left pan still contains only one weight, now smaller; the expected added second weight is absent, so the requested addition is not performed. Knowledge: the explanation requires two left weights and a leftward downward tilt; neither appears and the beam remains level. Instruction failure ⇒ knowledge invalid. Quality: the edited image alone has coherent metal shapes, convincing brass texture, connected chains, clean edges and natural lighting, without noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_2ec8789b6421978c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested viewpoint change, red paint, yellow trim and gray setting persist, but the body is greatly shortened and simplified, the compartment arrangement and bumper change, roof equipment becomes disconnected, and a white line with garbled labeling is added below. Instruction: the three-quarter truck becomes a near-profile view, but faces right rather than the left-facing reference; its shortened body, single shutter and altered roof assembly fail the reference proportions and spatial relationships. This is an attempted side view with major errors. Quality: the roof cannon visibly floats apart from its hose assembly, the underside consists of awkwardly joined simplified blocks, and the white annotation below has unreadable text. These are multiple distracting structural and semantic artifacts despite recognizable wheels, cab and body."
+    }
+  ]
+}

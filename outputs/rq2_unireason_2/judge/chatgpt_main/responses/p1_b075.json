@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b075",
+  "results": [
+    {
+      "blind_id": "case_a69ef1f03caa3a0b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The cream handbag, black-edged handle and double-G hardware remain recognizable, but the quilting becomes much puffier and the lower fastening tab changes its outline and proportions; requested background, lighting and layout changes are excluded. Instruction: The plain product image becomes a gray textured advertisement with a halo and gold serif headline. The expected result has a slightly right-offset bag, small exact headline and fine GUCCI lettering at the frame bottom. The bag is centered, the headline is oversized and omits the final period, and GUCCI is printed on the bag instead of at the bottom of the frame, so compliance is partial. Quality: Coherent bag structure, readable lettering and smooth lighting; a small ragged seam patch beside the clasp interrupts otherwise clean leather rendering."
+    },
+    {
+      "blind_id": "case_60bd59d7171bd83f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The table, white background and general arrangement persist, but non-target chair cushions and leg geometry change and the vase arrangement and tabletop objects acquire altered outlines and textures. Instruction: The foreground chair is shifted left and turned to face the viewer, with its entire seat still exposed outside the table. A successful edit would slide that chair inward with the seat beneath the tabletop; this spatial change is not achieved. Quality: The furniture remains recognizable, but the foreground chair has awkward back-support/seat connections and the flowers and small tabletop objects show conspicuous mottled, distorted detail. Lighting and the plain background remain coherent."
+    }
+  ]
+}

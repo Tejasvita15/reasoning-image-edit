@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b077",
+  "results": [
+    {
+      "blind_id": "case_eaea033b47fbe1df",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Excluding the permitted sea-surface transformation, the empty composition and level horizon remain, but the sky cloud texture is visibly redrawn with more broken, distinct streaks. Instruction: The rippled blue sea becomes a much smoother, dark glossy surface with broad pale reflections; an oil slick should read as an oily film, and the sheen suggests this only partially without recognizable iridescent slick patterns. Knowledge: The explanation specifically requires rainbow patterns; the largely blue and pale pink reflective surface lacks those multicolored patterns, a clear mismatch. Quality: The edited image alone has coherent sea and sky structure, continuous reflections and plausible perspective, with no noticeable malformed objects or distracting artifacts."
+    },
+    {
+      "blind_id": "case_a9f615b260689f3f",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The original staggered network of outlined circles, diagonal arrows and readable numbers is replaced throughout by large filled ovals in two aligned rows, horizontal connectors and different mostly illegible marks. Instruction: Instead of replacing the question mark with a correct number, the whole diagram is rewritten and no identifiable answer is placed in the original target circle; this is non-compliance. Knowledge: Instruction failure ⇒ knowledge invalid. The supplied explanation says 21, although the visible source subtraction chain would require 15 (36 minus 21, then 28 minus 15 equals 13); the edited diagram provides neither a recognizable correct target nor a preserved chain. Quality: The edited image alone contains pervasive garbled numerical symbols and uneven, rough oval shapes; the diagram has major semantic failure because most entries cannot be reliably read."
+    }
+  ]
+}

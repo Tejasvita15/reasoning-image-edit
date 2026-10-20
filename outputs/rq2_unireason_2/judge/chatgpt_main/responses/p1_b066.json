@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b066",
+  "results": [
+    {
+      "blind_id": "case_780b1a877dba57f2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The three outlined squares and most surrounding numbers remain recognizable in the same arrangement, but the lower-left 6 of the rightmost square is corrupted into extraneous symbols/text, with additional dark speckling around several unchanged numerals. Instruction: The upper-right question mark remains; the expected replacement is 35, so the requested answer has not been supplied. Knowledge: The supplied equal-ratio rule requires 6/5 = 42/35; the visible question mark and corrupted lower number do not implement it. Instruction failure ⇒ knowledge invalid. Quality: Square outlines and most numerals are readable, but the garbled two-line text beneath the rightmost square and numerous dirty numeral-edge artifacts create multiple distracting defects."
+    },
+    {
+      "blind_id": "case_55e71b9bec95edf7",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The gold three-by-three board and existing green X/red O arrangement are retained, but the bright wood grain and lighting become a darker smooth orange surface, and new red bars occupy the middle-left, middle-right, and bottom-middle cells. Instruction: A green X is added in the previously empty top-middle cell, exactly completing the top row of three X marks as required. Knowledge: The supplied explanation is blank; using the win logic explicitly implied by the task and visible board, the added top-middle X completes a valid horizontal winning line. Quality: The edited board has coherent rounded gold cells, clean recognizable colored marks, consistent shadows and an even orange surface; moderate softness does not obscure any symbols or introduce meaningful artifacts."
+    }
+  ]
+}

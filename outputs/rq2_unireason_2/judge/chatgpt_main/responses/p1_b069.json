@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b069",
+  "results": [
+    {
+      "blind_id": "case_6119142ad830cc1b",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the removal of two loaves, the surviving loaf is substantially repositioned and rotated, its scoring pattern and shape change, and the background becomes a stronger blue gradient; most remaining scene details differ. Instruction: three baguettes become exactly one, matching the requested removal of two completely. Quality: the isolated baguette has coherent crust, scoring, outline and contact shadow; the smooth background is natural and no noticeable artifacts are visible."
+    },
+    {
+      "blind_id": "case_46fe77781a2d6a31",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the yogurt bowl, raspberries, mint, spoon, napkin and pink table disappear, replaced by a glass against a gray studio background; essentially the entire source scene changes. Instruction: a glass of clear water and a partly immersed purple-to-blue indicator strip appear. The expected change is red cabbage indicator dropped into water with its resulting color visible; the strip conveys the general indicator/color idea, but does not clearly depict the specified dropped indicator or a change in the water, giving partial compliance. Knowledge: the supplied explanation specifically expects acidic yogurt to turn the indicator red or pink. Yogurt is absent and the immersed indicator is blue, ignoring that supplied outcome; this score follows the explanation despite its mismatch with the water instruction. Quality: glass shape, surface texture and lighting are coherent, but the strip has little convincing refractive displacement at the waterline, a minor optical imperfection."
+    }
+  ]
+}

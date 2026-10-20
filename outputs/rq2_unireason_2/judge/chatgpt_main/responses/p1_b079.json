@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b079",
+  "results": [
+    {
+      "blind_id": "case_88a9a329f988fd58",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the aerial forest setting and distant clearing remain recognizable, but canopy texture is changed throughout into coarse faceted patches and vegetation colors and detail are noticeably altered beyond the river edit. Instruction: the winding channel becomes a wide upper pool connected to the lower river; a successful edit would show a cut-off curved lake beside a separate main channel. Water geometry changes, but the defining separation and crescent lake are missing, a major omission. Knowledge: the supplied explanation requires a crescent-shaped lake separated from the main channel; the visible continuous pool and channel do not satisfy it. Instruction failure ⇒ knowledge invalid. Quality: coherent aerial layout, banks and reflections, but pervasive mosaic-like foliage gives the forest a conspicuous artificial texture."
+    },
+    {
+      "blind_id": "case_a9a51722eb0f498e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background, blue grid and original symbols remain recognizable, but horizontal dividers and lower-row shapes move upward, and the middle-right small square now touches the large circle instead of remaining separated. Instruction: the question mark remains in the bottom-right box, with no replacement triangle or blue circle; the requested completion is absent. Knowledge: the supplied answer calls for a triangle with a blue circle on the bottom edge, neither of which is added to the target cell. Instruction failure ⇒ knowledge invalid. Quality: the diagram remains clear, with recognizable geometric symbols and a legible question mark; minor unevenness and mottling along blue strokes keep the linework from being fully clean."
+    }
+  ]
+}

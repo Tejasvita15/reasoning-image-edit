@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b107",
+  "results": [
+    {
+      "blind_id": "case_4069e4586f8b40b5",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding removal of the extra apples, the clear plate changes apparent angle, rim shape and framing, occupying much less of the image; the remaining apple also has a different rounder shape, stem and surface coloration. The plain white setting is preserved. Instruction: 1. Six apples become one upright red apple. 2. The expected image contains exactly one apple. 3. The requested count is fully achieved. 4. Perfect compliance. Quality: Structural coherence ✔, natural lighting and contact shadow ✔, artifact-free ✔, texture fidelity ✔; the apple, stem and glass plate are clean and coherent."
+    },
+    {
+      "blind_id": "case_80dd9d542263b0b3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested phone-size change, the tablet is enlarged and shifted, and the gap between the devices increases noticeably. The white background, white bezels, dark screens and circular buttons remain recognizable. Instruction: 1. The phone is smaller relative to the tablet, and the tablet occupies more of the frame. 2. The phone should be enlarged to match the tablet size. 3. It remains far shorter and narrower, changing in the opposite direction. 4. Non-compliance. Quality: Structural coherence ✔, natural perspective and shadows ✔, artifact-free ✔, texture fidelity ✔; both devices have coherent rectangular screens, bezels and controls without distracting distortions."
+    }
+  ]
+}

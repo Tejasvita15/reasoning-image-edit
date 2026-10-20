@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b127",
+  "results": [
+    {
+      "blind_id": "case_0a21bc78bce2e8a8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 2,
+      "rationale": "Consistency: The two glass positions, outlines and milk levels remain recognizable, but glass reflections are substantially redrawn, particularly the right upper glass and bases, and the neutral background/table shadows become darker and broader beyond the added red illumination. Instruction: A red ray is newly shown entering from the left, with both cups retaining creamy soy-milk contents; these explicit requested elements are present. Knowledge: The explanation expects penetration through both cups. Instead the ray branches sharply downward at a bright point inside the first cup, and the diagonal arrow stops near the left edge of the second rather than showing a beam through it; these are multiple substantial conflicts with the supplied expectation. Quality: Glass structure, liquid surfaces and textures are coherent and clean; the intensely blown-out junction and diffuse red halo create a small lighting imperfection."
+    },
+    {
+      "blind_id": "case_c06fbceeaffaa3c8",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested change in count, the original wooden pushpins lose their assembled construction, their retained wooden parts change shape, and the scattered upper-frame composition is replaced by a compact central arrangement; most major object details and positions change, though the white surface remains. Instruction: The source has assembled wooden pushpins; the edit shows four separate wooden pieces and four detached metal shafts. The expected result is six complete nails/pushpins. Neither six complete objects nor six metal nails are present, so the instruction is misinterpreted. Quality: The white surface, soft shadows and wood grain are plausible, but the metal pieces have unusual double-pointed, split-looking profiles and several wooden parts are abruptly shortened, producing two clear object-structure problems."
+    }
+  ]
+}

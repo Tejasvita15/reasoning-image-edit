@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b063",
+  "results": [
+    {
+      "blind_id": "case_b31626c16a66ee51",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The broad branching arrangement and underwater composition remain recognizable, but the coral surface becomes smoother and banded, fish silhouettes and positions change, and reef textures are visibly reworked; these exceed the requested color change. Instruction: The red organism becomes much paler, but pink bands and dark gray branches remain. A fully compliant result would show the organism white, so the change is partial. Knowledge: The supplied explanation specifically requires white coral; the persistent pink and dark sections clearly conflict with that expectation despite substantial lightening. Quality: The composition and lighting are coherent, but the coral has conspicuously waxy, rippled surfaces and the foreground reef has smeared, blended forms."
+    },
+    {
+      "blind_id": "case_e59112be2cccb024",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white backdrop, two burlap bags, floral motifs and yellow beads remain, but the unrequested left bag changes shape, fabric folds and apparent size, and its cords and tassels are rearranged. Instruction: Both bags are reframed and retextured, while the right bag remains substantially taller and wider than the left. The expected result is a right bag matching the small bag in size; that essential size match is absent. Quality: Bag shapes, woven fabric, printed motifs and lighting are coherent; a minor flaw is the tangled, partly fused appearance of the white tassel strands."
+    }
+  ]
+}

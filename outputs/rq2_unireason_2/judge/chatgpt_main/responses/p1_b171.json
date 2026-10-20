@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b171",
+  "results": [
+    {
+      "blind_id": "case_265194ff50910113",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding requested reframing, background replacement and lighting, the red body and three-quarter orientation remain recognizable, but the blank white license plate becomes a black lettered plate and the side vent and wheel details change noticeably. Instruction: 1. The car is reduced and set against a blurred dark city with light streaks and added lettering. 2. Expected is the original car slightly below center, restrained neon reflections and dark gray gradient, exact upper-left text \"Unleash the Drive.\" and a small bottom-center Ferrari label. 3. Placement, atmosphere and sans-serif headline styling broadly match, but the headline reads \"Unleash the the Frice\" and the brand-like lettering is on the plate rather than bottom center. 4. These make compliance partial. Quality: Structure and lighting are coherent, with plausible car contours and road contact; text is problematic, with a repeated word/nonsensical headline and malformed brand lettering. These are noticeable semantic artifacts; vehicle surface textures are otherwise satisfactory."
+    },
+    {
+      "blind_id": "case_4ad022f333186a5b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Excluding requested organism color changes, the main tube arrangement and underwater composition remain recognizable, but the fish distribution changes and the seabed rocks/coral textures and forms are substantially redrawn; the surface ripples also change. Instruction: 1. The red/pink tubes become pale cream-pink with white bands while dark tubes remain. 2. Expected is the same organism turned white. 3. Substantial lightening addresses the request, but obvious pink coloration and dark tube surfaces persist. 4. Compliance is partial. Knowledge: 1. The organism becomes paler, not uniformly white. 2. The supplied explanation explicitly expects the coral to turn white. 3. Persistent pink bands and dark portions clearly conflict with that expectation. 4. This is a noticeable knowledge mismatch. Quality: Overall structure and underwater illumination are satisfactory, but the foreground reef has smeared, melted-looking surface details and the principal tubes have conspicuous smooth banding that weakens natural texture fidelity. These are noticeable artifacts without loss of overall scene legibility."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b126",
+  "results": [
+    {
+      "blind_id": "case_12575ce178bb8999",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The tube outline, placement, HCl lettering and white background are retained, but the glass interior, including above the liquid, has noticeably darker gray shading. Added solids and reaction bubbles are excluded from consistency. Instruction: White rounded solids and rising bubbles have been added; the expected edit is irregular marble chips in the existing acid. The solids are smooth ball-like pellets rather than chips, so the requested addition is only partially accurate. Knowledge: The supplied explanation predicts bubbles from marble reacting with hydrochloric acid; bubbles visibly rise through the liquid above the added solids, satisfying that chemical expectation. Quality: Structure, lighting, glass contours, legible lettering and smooth solid surfaces are coherent, with no noticeable generation defects."
+    },
+    {
+      "blind_id": "case_1c50228b2abd5976",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Region boundaries and existing orange, green, yellow and purple fills retain their arrangement, as does the timer value. However, the surrounding square grid becomes vertical bands and the toolbar changes, including loss of the crossed white control; these are non-requested changes. Instruction: The puzzle has been redrawn at a larger framing but its many pale unfilled regions remain unfilled. A completed puzzle would color those regions while respecting adjacency; the requested completion is absent. Knowledge: The explanation is blank; the score follows the mandatory instruction-failure coupling rather than absent explanatory text. Instruction failure ⇒ knowledge invalid. Quality: The region map has coherent boundaries, flat fills and legible timer text; the small right toolbar symbols are slightly malformed, a minor local imperfection."
+    }
+  ]
+}

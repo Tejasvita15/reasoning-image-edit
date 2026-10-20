@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b134",
+  "results": [
+    {
+      "blind_id": "case_aaa90f4aea9951af",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, lighting, placement and typography, the wrapped-left/unwrapped-right product arrangement is retained, but the gold foil folds, paper-cup stripe geometry and chocolate nut pattern are visibly redrawn. Instruction: The white background becomes a warm gold gradient with upper-right illumination and blurred golden lights, and two chocolates occupy the lower center. The expected exact upper-left title is attempted in metallic dark brown, but multiple words, including the final word, are malformed; the main design is present with an important text requirement incomplete. Quality: Object structure, surface textures and lighting are coherent (✔), but the prominently garbled headline is a clear semantic flaw (✘)."
+    },
+    {
+      "blind_id": "case_2d7eb1606f318b2c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The eight existing patterns and grid should remain unchanged. Most arc arrangements remain recognizable, but the middle-right pattern is corrupted by a bold curved symbol and plus-like mark, and the grid borders and cell proportions shift visibly. Instruction: The bottom-right question mark is replaced by two complete concentric circles. The expected replacement should retain only the arc portions common to the first two patterns in that row, not complete circles. Thus the location is filled but the principal requirement of the correct pattern is poorly implemented. Knowledge: The supplied intersection rule requires the shared inner lower semicircle and outer lower-right quarter arc; complete rings add nonshared sections and do not express that rule. Instruction failure ⇒ knowledge invalid. Quality: The grid and most circular strokes are clear (✔), but the middle-right cell has an incoherent fused curve and heavy cross-like mark (✘), a conspicuous structural flaw."
+    }
+  ]
+}

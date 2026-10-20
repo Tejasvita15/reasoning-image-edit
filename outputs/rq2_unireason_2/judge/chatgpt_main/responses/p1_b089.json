@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b089",
+  "results": [
+    {
+      "blind_id": "case_f007a5ceb3c38a82",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the beige background and coral illustrated mouth remain recognizable, but the lips are visibly shortened vertically and several existing teeth and their spacing are reshaped beyond filling the gaps. Instruction: two dark gaps have been replaced with white teeth; the expected complete upper and lower rows are present, fully satisfying the request. Quality: structural coherence, naturalness within the illustration style, artifact absence and surface textures are satisfactory; smooth tooth contours and coherent lip highlights show no noticeable defect."
+    },
+    {
+      "blind_id": "case_c59dca9160e8679f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: canal-side buildings, lanterns and vegetation retain their identities, but the framing and scale change noticeably; the standing boatman and partly visible rear occupant disappear, and extra occupied boats are introduced. Instruction: the covered vessel becomes an open black boat with raised ends, with additional similar vessels; the expected traditional Venetian gondolas are clearly depicted, meeting the requested vehicle transformation. Knowledge: the explanation specifies gondolas, and the long narrow black hulls, raised prow and open passenger seating visibly match that expectation. Quality: architecture, water, perspective and overall boat structure are coherent; a minor imperfection is the overly flat, pale deck surfacing and simplified joins against the foreground black hull."
+    }
+  ]
+}

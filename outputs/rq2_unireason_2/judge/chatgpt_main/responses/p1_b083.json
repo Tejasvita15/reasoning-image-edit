@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b083",
+  "results": [
+    {
+      "blind_id": "case_b99eb8f1e6929208",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the valley outline and framing remain recognizable, but foreground shrubs and grasses have altered forms and textures, and the left mountainside gains noticeably different visible tree texture. The requested sky change is excluded. Instruction: the starry sky gains three bright blue-white concentric curved trails; the expected result is intensified auroral light across the sky. These thin, regular arcs with bright endpoints poorly implement auroral curtains or diffuse bands, so most of the requested phenomenon is missing. Knowledge: the supplied explanation requires aurora phenomena; the visible trails do not convincingly depict them. Instruction failure ⇒ knowledge invalid. Quality: the landscape layout and luminous arcs are coherent, with clean glow transitions; a small imperfection is the smeared, crunchy texture in the foreground foliage."
+    },
+    {
+      "blind_id": "case_a6d1bc082e70ccf0",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the wrapped left ball and exposed right ball retain their identities and relative arrangement, but the foil crease pattern, paper-cup stripe pattern, and distribution of nut pieces are noticeably changed. Requested repositioning, lighting and background are excluded. Instruction: the pair is now lower-center against a gold gradient with warm highlights and blurred golden bokeh, and dark metallic-looking type occupies the top left. The expected exact title is Every bite, a moment worth celebrating.; the actual lettering is largely nonsensical, so a required aspect is wrong despite the successful main layout. Quality: chocolate shapes, shadows, foil and bokeh are coherent, but the large headline contains clearly garbled words, a conspicuous semantic artifact."
+    }
+  ]
+}

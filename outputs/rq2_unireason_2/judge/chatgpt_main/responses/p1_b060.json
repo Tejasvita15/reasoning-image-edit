@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b060",
+  "results": [
+    {
+      "blind_id": "case_27c1e013bb0fc424",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The blue sea, reef slope, fish and branching organism retain their broad positions, excluding the requested whitening. However, reef detail becomes visibly swirled, surface-water texture changes, and branch ridges and tips are smoothed and reshaped. Instruction: The pink and dark main branches become white throughout, matching the expected depigmented organism. Knowledge: The supplied explanation requires the coral to turn white, and the visible main organism does so. Quality: Structure and underwater lighting remain readable, but the branches look waxy and flattened in bright areas and the reef has conspicuously smeared, rippling texture."
+    },
+    {
+      "blind_id": "case_0e339e37658b72c3",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: All three square outlines, surrounding numbers, their placement and the white background remain visually unchanged outside the requested question-mark location. Instruction: No requested substitution occurs; the rightmost upper-right entry is still a question mark instead of 35. Knowledge: The supplied equal-ratio rule requires 35, since 6/5 equals 42/35, but no answer is supplied. Instruction failure ⇒ knowledge invalid. Quality: The diagram has coherent square geometry, clearly legible numerals and punctuation, and clean separation of its elements without distracting generation artifacts."
+    }
+  ]
+}

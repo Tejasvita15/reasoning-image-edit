@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b147",
+  "results": [
+    {
+      "blind_id": "case_9d5a2f6ebfc832b5",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested poster layout, decorations, lighting and background, the lantern remains red with gold ribs, but its body becomes narrower, its floral line motifs are redrawn, and its red thread tassel becomes a thick gold tassel with a different cap. Instruction: 1. A decorated red poster, centered lantern, golden willow branches, red petals, sparkles and text have been added. 2. The expected poster has the specified readable golden headline and a festive calligraphic slogan on a red-to-gold gradient. 3. The decorative composition matches, but the headline and bottom slogans are garbled and the background stays predominantly dark red rather than clearly grading to gold. 4. These are substantial incomplete requirements: partial compliance. Quality, edited image alone: Structure/text ✘: several conspicuous rows of malformed, unreadable lettering impair the poster. Lighting ✔, coherent lantern and foliage shapes ✔, surface textures ✔; the multiple text failures warrant 2."
+    },
+    {
+      "blind_id": "case_d33ed009558d7ac2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The neutral setting and central brass scale remain recognizable, but the four right-pan weights have been replaced by one large weight, the black base has a different stepped shape, and the original left weight is reshaped into a low wide cylinder with a tall narrow handle. These exceed the permitted addition and resulting tilt. Instruction: 1. The left weight changes shape and the right cluster disappears, while the beam stays level. 2. The expected edit preserves the existing weights and adds a second weight on the left. 3. No clearly separate additional left weight is visible; a reshaped replacement does not demonstrate the requested addition. 4. Major omission, score 2. Knowledge: The supplied explanation expects two left weights and downward tilt to the left; neither is clearly shown. Instruction failure ⇒ knowledge invalid. The score of 1 follows the mandatory coupling. Quality, edited image alone: Structural coherence ✔, natural lighting and perspective ✔, artifact-free ✔, brass and base textures ✔; weights, chains and pans are cleanly formed with no noticeable perceptual defects."
+    }
+  ]
+}

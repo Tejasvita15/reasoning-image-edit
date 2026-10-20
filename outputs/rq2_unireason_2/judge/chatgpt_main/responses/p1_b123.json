@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b123",
+  "results": [
+    {
+      "blind_id": "case_6e07f734eaaaa173",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding the requested beach material and shoreline transformation, the horizon, blue sky, cloud arrangement and distant vessel remain recognizable in place, but the offshore wave and foam pattern is visibly altered. Instruction: Sand has become a broad pebble-covered shore; the expected shingle beach is fully present. Knowledge: The supplied expectation of rounded pebbles and coarse sediments is met by the varied smooth stones covering the beach. Quality: Structure, stone textures and daylight are coherent; the unusually straight, abrupt boundary between stones and water is a small integration imperfection."
+    },
+    {
+      "blind_id": "case_9386fbf6554982ef",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The lawn, string grid, existing O and X positions, and two seated players are replaced by a close-up of hands holding one X tile against a dark background. Instruction: The visible change is a new close-up, not a mark on the board; the expected move is an X in the empty upper-left cell, completing the diagonal through the center and lower-right Xs. No board or winning placement is shown. Knowledge: The explanation is blank; the winning-cell reasoning follows the task and visible source board. The score follows the mandatory coupling: Instruction failure ⇒ knowledge invalid. Quality: The edited image alone has coherent hands and tile geometry, a clear X, natural lighting and skin texture, and no noticeable artifacts."
+    }
+  ]
+}

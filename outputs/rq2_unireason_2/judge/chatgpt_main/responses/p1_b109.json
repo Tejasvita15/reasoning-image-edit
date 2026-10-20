@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b109",
+  "results": [
+    {
+      "blind_id": "case_263a28e0409bc4a9",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the two chocolate-coated cookies retain their general identity and leaning arrangement; background, base, lighting, framing and viewing angle are requested changes and excluded. The recognizable surface detailing changes noticeably: the upper cookie’s crack and drizzle paths are redrawn. Instruction: the white setting becomes brown velvet and matte slate with two central dark cookies, warm upper-left highlights and upper-right lettering. The expected result includes the exact supplied quotation and a slightly upward view; the quotation is instead garbled and the visible slate/top surfaces still suggest looking downward. These are incomplete required aspects. Quality: coherent cookie shapes, chocolate sheen, velvet folds and slate texture; the prominent nonsensical headline is a clear semantic/text artifact, while the photographic scene is otherwise convincing."
+    },
+    {
+      "blind_id": "case_6106760b2e49ad11",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white four-by-four grid remains, but most fixed clues change or disappear: the top-row tree becomes an umbrella/mushroom hybrid, the second-row squirrel disappears, the third-row umbrella becomes a squirrel, and the bottom-row squirrel and umbrella become other symbols. Instruction: some empty cells receive drawings, but other cells are erased or overlaid. A completed puzzle should preserve the given clues and fill r1c3 with mushrooms, r2c2 with an umbrella, r3c4 with a squirrel and r4c4 with a tree. Instead r1c3 contains a tree, r2c2 remains blank, r4c4 contains an umbrella, and additional blanks/hybrids remain; most required completion is incorrect. Knowledge: the supplied explanation is blank; the visible puzzle and task imply consistent distinct symbols per Sudoku row and column, which the blanks, duplicates and hybrids violate. The score follows the mandatory coupling: Instruction failure ⇒ knowledge invalid. Quality: grid lines are coherent, but multiple symbols merge into tree/mushroom or tree/squirrel hybrids, the upper umbrella is ghosted, and the right-hand squirrel has fractured outlines, producing distracting structural errors."
+    }
+  ]
+}

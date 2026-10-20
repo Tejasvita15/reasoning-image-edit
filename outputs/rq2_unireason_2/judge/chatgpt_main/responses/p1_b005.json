@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b005",
+  "results": [
+    {
+      "blind_id": "case_e474e5b4e7fdeb20",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested can movement and resulting occlusion, the package has been rebuilt: far fewer cans, a different tray shape and viewpoint, and missing tray branding; only the white backdrop and broad product colors remain consistent. Instruction: the separate right can is removed from its former position and now stands on the cans in the left box, fulfilling the requested placement. Quality: object shapes, white background and metallic surfaces are coherent, but conspicuously malformed ZERO SUGAR lettering on the elevated can and distorted lettering on the lower cans create a clear text artifact."
+    },
+    {
+      "blind_id": "case_a3f75aa8ab54739f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background and two-device arrangement persist, but the left tablet is replaced by a narrow phone-shaped device with a camera and earpiece, and the right device gains different camera/earpiece and button details; spacing also increases. Instruction: the right phone becomes taller and wider. A full edit would enlarge it to the original tablet size while retaining that tablet as reference; it reaches approximately the original tablet height but remains substantially narrower, so the size adjustment is partial. Quality: rectangular screens, device contours, shadows and metallic edges are coherent; slight rough doubled edging along the left device is a minor imperfection."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b131",
+  "results": [
+    {
+      "blind_id": "case_abb27d64f0dec968",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 2,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Excluding the requested road damage, the mountain and farmland backdrop have disappeared, the broad leafy roadside vegetation has become uniform thin trees, the sky is darker, and the lamp arrangement has changed; most major surroundings are different. Instruction: The smooth road has become cracked, buckled and covered in displaced pavement, clearly showing the requested earthquake aftermath. Knowledge: Cracks and surface deformation satisfy the supplied explanation, but the extensive thin pavement sheets curled into tall overlapping ridges present a clear physical plausibility problem. Quality: Perspective and lighting broadly agree, but numerous ribbonlike interwoven slabs, malformed rubble intersections, stray floating strokes in the sky and fragmented parallel center markings create multiple distracting structural artifacts."
+    },
+    {
+      "blind_id": "case_546b4b529022c750",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Beyond the permitted lower-right replacement, the white grid is replaced by a black field without visible dividers, existing inner diamonds and filled polygons become hollow circles, the middle-right circle loses its contents, and the lower-left tile becomes gray with numeral-like marks. Most non-target details change. Instruction: The question mark is replaced at the correct location by a polygon containing two small circles, but the outer figure visibly has five sides rather than the required six, so the solution is partial. Knowledge: The supplied explanation explicitly requires a hexagon with two central circles; the two circles are present but the pentagonal boundary conflicts with that rule. Quality: Most outlined shapes are recognizable and separated cleanly, but the lower-left gray rectangular patch and ambiguous stacked numeral-like marks are conspicuous visual/semantic defects in the otherwise black-and-white diagram."
+    }
+  ]
+}

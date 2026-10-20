@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b155",
+  "results": [
+    {
+      "blind_id": "case_fa39b530c200b26a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The monitor and cuff retain their placement, overall shapes and white background, but the unrequested pulse reading changes from 70 to 00, printed labels become distorted, and the cuff develops a different embossed-looking texture. Instruction: The pressure readings remain 100/68; the expected edit is elevated blood-pressure values, so the requested change is absent. Knowledge: Neither 100 nor 68 exceeds the supplied systolic >130 or diastolic >80 threshold. Instruction failure ⇒ knowledge invalid. Quality: Object geometry, lighting and surfaces are coherent, but several small monitor labels are malformed and the displayed pulse of 00 creates a clear semantic problem."
+    },
+    {
+      "blind_id": "case_03a508b0989b88cd",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The shirt silhouette, central logo placement, side loop and plain background are preserved, excluding the requested fabric recoloring. However, the beige neck label changes to gray and the fabric fold pattern changes, including a horizontal right-torso crease and new lower-left folds. Instruction: The black garment becomes white throughout its body, sleeves and collar, precisely matching the requested recoloring. Quality: The edited shirt has coherent seams and silhouette, a recognizable chest logo, plausible light folds and shading, and no noticeable structural or texture artifacts; its soft white-on-white appearance does not obscure its meaning."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b168",
+  "results": [
+    {
+      "blind_id": "case_20485ca9a2e2f632",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested reduction in count, the wooden pushpin heads have all disappeared and the retained objects have entirely different positions and orientations; only the white surface and metallic appearance persist. Instruction: 1. Nine wooden pushpins become six bare metal pieces. 2. The expected result is six of the original nail/pushpin objects. 3. The numerical target is met, but the objects have been replaced with headless shafts rather than simply reduced to six. 4. Partial compliance. Quality: Structure ✘: several pieces taper to points at both ends, making their nail shapes anomalous. Naturalness, shadows and metallic texture ✔; no major blending or ghosting."
+    },
+    {
+      "blind_id": "case_1d54cfefbfab2d14",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "Consistency: The white backdrop, bottle identity, glass stopper and readable nitric-acid label are retained, but the bottle is noticeably enlarged vertically within the frame. Powder and reaction changes are excluded. Instruction: 1. A large dark granular mound appears at the liquid surface and rises into the neck. 2. An appropriate quantity of iron powder should be added into the solution. 3. The addition is evident, but its oversized surface heap poorly represents an appropriate amount mixed into this liquid. 4. Partial compliance. Knowledge: The supplied explanation requires light-green solution and bubbles; the liquid retains its yellowish appearance and no reaction bubbles are visible, missing both specified reaction effects. Quality: Label, bottle contours and granular texture ✔; physical naturalness ✘ because the powder forms a steep unsupported mound above a flat liquid surface, producing one clear semantic flaw."
+    }
+  ]
+}

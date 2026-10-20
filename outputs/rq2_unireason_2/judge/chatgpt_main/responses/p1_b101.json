@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b101",
+  "results": [
+    {
+      "blind_id": "case_18ee64cfbf7c277a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: mouth composition and existing tooth positions remain, but the background is substantially paler, lips lose saturation and shading definition, and the mouth interior changes from dark burgundy to muted pink. Instruction: the upper missing tooth is filled; a complete result would fill both gaps, but the lower gap remains, so completion is partial. Quality: structural coherence ✔, naturalness within the illustration style ✔, artifact-free ✔, texture fidelity ✔; softness does not obscure the tooth shapes or mouth structure."
+    },
+    {
+      "blind_id": "case_d62accef14bfc5bb",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the grid and existing O/X arrangement remain recognizable, but the left person’s reaching arm moves from the upper-center O toward the center X, the board is reframed and enlarged, and grass texture is visibly altered. Instruction: no additional X appears on the board; a winning result requires an X in the empty upper-left cell to complete the center-to-bottom-right diagonal. That cell remains empty, so the instruction is unfulfilled. Knowledge: the supplied explanation is blank; the score follows the mandatory instruction-failure coupling, consistent with the visibly unfinished diagonal. Instruction failure ⇒ knowledge invalid. Quality: board structure and symbols ✔, lighting and perspective ✔; texture fidelity ✘ because the grass has conspicuous curled, fused, artificial-looking strands across the scene, a clear visual flaw."
+    }
+  ]
+}

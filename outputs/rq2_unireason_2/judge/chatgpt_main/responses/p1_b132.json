@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b132",
+  "results": [
+    {
+      "blind_id": "case_18d7cbb23918de1e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The green maze retains its wall layout and the girl and flowers retain their locations, but the beige background becomes much paler, and the girl’s face, body proportions and watering can are visibly redrawn. Instruction: A short red downward arrow is added between two lower-left internal walls; the expected continuous red route from the girl through the maze to the flowers is almost entirely absent. Knowledge: The supplied explanation is blank; scoring follows the mandatory failure coupling. Instruction failure ⇒ knowledge invalid. Quality: Judging the edited illustration alone, the girl, flowers, maze walls and arrow are coherent and clean, with consistent flat illustration styling and no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_707ab4846f8f8462",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Beyond the permitted viewpoint change, most truck details change: the white compartment shutters and yellow striping disappear, an extra rear wheel/axle appears, the roof cannon loses its connected assembly, and a large black window-like rear structure replaces the original equipment body. The red coloring and gray backdrop remain. Instruction: The edit does turn the truck into a left-facing side profile, matching the reference’s viewing direction, but its three-wheel side arrangement, rear cabin-like shape and displaced roof equipment have major proportion and spatial-relationship errors against the reference’s two-axle fire engine. Quality: The edited image has multiple distracting structural problems, including a second cabin-like mass over the rear wheels, disconnected-looking rooftop fittings, and an elongated rail awkwardly spanning the body. The gray background and basic surface colors are coherent, but vehicle structure is degraded."
+    }
+  ]
+}

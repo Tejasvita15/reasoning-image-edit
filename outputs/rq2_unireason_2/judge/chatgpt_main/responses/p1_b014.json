@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b014",
+  "results": [
+    {
+      "blind_id": "case_e9b52ab2c508d373",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and recognizable two-prong white adapter remain, excluding its requested repositioning. However, the cable coil has moved left and become more upright, and the previously visible USB-C end is no longer visible. Instruction: 1. The adapter moves behind the cable coil. 2. The requested result would place the adapter in the middle of the cable loop. 3. It is roughly centered horizontally, but most of its upper body and the prongs remain above the loop; the loop surrounds only its lower portion. 4. This is partial compliance. Quality: Structural coherence ✔, natural lighting and soft shadows ✔, artifact-free ✔, and smooth plastic/cable textures ✔; the edited product arrangement is visually coherent."
+    },
+    {
+      "blind_id": "case_c0a7cf35d3073c42",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background is preserved, excluding the requested removal of extra apples. The transparent glass platter with a distinct oval rim is changed to a pale radial plate with a fading edge, and the remaining apple has a different elongated shape, dotted surface, and pronounced green stem depression. Instruction: 1. Six apples become one upright apple. 2. The expected result contains exactly one apple. 3. Exactly one recognizable apple remains, satisfying the requested count. 4. Compliance is complete. Quality: Apple structure ✔ and glossy surface texture ✔; plate structure/artifact-free ✘ because its radial ridges fade into the background without a coherent outer rim and end in several isolated dark marks. The apple lighting is plausible, but the plate has a noticeable structural flaw."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b023",
+  "results": [
+    {
+      "blind_id": "case_45bdbabb6866027a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The four-circle arrangement and white background remain, but node labels 1, 2, 3 change to 2, 6, 0, and two unsolicited garbled edge annotations appear. Arrow changes are excluded from consistency. Instruction: Instead of reversing one edge to break the cycle, the edit retains the clockwise cycle and adds reverse arrowheads on the left and bottom edges; it is not a DAG. Knowledge: The supplied explanation requires no cycles, whereas both the four-node cycle and two-way edges remain. Instruction failure ⇒ knowledge invalid. Quality: Circle shapes and connections are recognizable, but both edge annotations are unreadable nonsense, creating multiple distracting semantic defects."
+    },
+    {
+      "blind_id": "case_045f356ac7595f40",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The frame, two diamonds and divided bottom-left square are retained, but their outlines are noticeably heavier and the upper shapes shift left within the frame, especially the right diamond. The requested bottom-right replacement is excluded. Instruction: The bottom-right outlined pointed shape remains instead of becoming an empty square, so the required replacement is absent. Knowledge: The explanation explicitly requires a square without an interior line; the retained pointed shape violates that expectation. Instruction failure ⇒ knowledge invalid. Quality: The edited diagram alone has coherent closed shapes, clear straight dividers, an orderly frame and clean white background; no distracting structural or texture artifacts are visible."
+    }
+  ]
+}

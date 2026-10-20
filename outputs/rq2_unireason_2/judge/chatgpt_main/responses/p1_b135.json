@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b135",
+  "results": [
+    {
+      "blind_id": "case_62ddfb59db4de2de",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the authorized poster background, graphics, title and layout, the braided trunk and woven basket remain recognizable and closely preserved, but the plant foliage is visibly reorganized, especially the missing upper-left spray and changed top leaves. Instruction: 1. The white backdrop becomes a pale-green gradient with a luminous halo, floating droplets, decorative green leaves and a top-left Green Home title. 2. The expected result is a fresh plant-centered promotional poster with these elements. 3. All requested elements are present, with an organic display font and warm green palette. 4. Perfect compliance. Quality: structure ✔, naturalness within a stylized poster ✔, artifact-free ✔, texture fidelity ✔; the title is legible, basket and plant coherent, and the decorative droplets and leaves cleanly integrated."
+    },
+    {
+      "blind_id": "case_20c7f855e8b5132e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: the man retains his recognizable face, beard, green jacket and seated setting, but non-correction details change noticeably: the fruit arrangement and foliage on the table, background painting details, and chair geometry are altered. Instruction: 1. The legs are reshaped and a pale sock appears, but both resting hands and the central glass-holding hand remain. 2. A successful correction would give the man two anatomically connected arms and coherent legs. 3. The conspicuous third arm is not corrected, and the rear trouser leg now ends without a visible foot. 4. Non-compliance. Quality: structure ✘ and naturalness ✘ because the figure has three hands/arms and a footless hanging trouser leg; artifact-free ✘ due to the disconnected limb appearance. Clothing and background textures are otherwise coherent, but the major anatomical failures dominate."
+    }
+  ]
+}

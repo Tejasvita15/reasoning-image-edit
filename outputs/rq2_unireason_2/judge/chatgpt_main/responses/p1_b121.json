@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b121",
+  "results": [
+    {
+      "blind_id": "case_49cf1155c71a041f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: excluding the required whitening, the overall tube arrangement and blue-water composition remain recognizable, but seabed rock textures are noticeably smeared and fish/background surface details have changed. Instruction: the red and dark main tubular organism becomes white throughout, matching the expected depigmented organism; the requested color transformation is complete. Knowledge: the supplied explanation specifically expects white coral, and the main organism is visibly white, satisfying that expectation. Quality: structure and underwater perspective are coherent, but excessively bright nearly featureless tube faces and conspicuously rippled/smeared seabed texture are two visible flaws."
+    },
+    {
+      "blind_id": "case_151ecd49332f33fb",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the pink table, napkin, main raspberries and mint remain broadly positioned as before, but the rear bowl berries and spoon berry become purple cabbage-like forms, and the main serving gains a separate glass. Instruction: white yogurt is replaced by a glass of purple liquid; the intended indicator-color demonstration is present, but it replaces the source food/container arrangement instead of showing its color changing. The instruction mentions water although the source shows yogurt, so compliance is partial. Knowledge: the explanation expects acidic yogurt to turn red or pink; the strongly purple liquid does not show that expected response, a clear conflict. Quality: glass perspective, leaves and highlights are generally coherent, but the black-and-neon-purple food forms in the rear bowl and on the spoon have unnatural, distorted textures."
+    }
+  ]
+}

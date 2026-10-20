@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b137",
+  "results": [
+    {
+      "blind_id": "case_6099d70f8465140e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested rotation, the navy upholstery, brown tapered legs and white background remain, but the original sectional structure changes: three back cushions become two, one arm disappears, and the projecting chaise becomes a flat lateral extension. Instruction: a frontal orientation is present, but the reference requires three seats, two arms and a forward-projecting chaise on the viewer’s right; these major spatial and structural features are missing. Quality: assessed alone, the asymmetric sofa has coherent upholstery, clean cushion seams, plausible wooden supports and uniform lighting, without noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_8235c4e9b19e33c6",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the green backlit leaf cluster and right-entering twig remain recognizable, but leaf shapes, overlap and spacing change noticeably, and the background foliage and bokeh are rearranged. Instruction: large black many-legged forms and dark branching lines appear on the leaves; expected infestation damage would include eaten holes, yet the leaf surfaces and outlines remain largely intact. Most of the required damage is absent. Knowledge: the supplied explanation specifically expects holes from insect feeding, which are not depicted. Instruction failure ⇒ knowledge invalid. Quality: multiple black forms have incoherent bodies and appendages that blend into veins and the central twig, producing distracting structural ambiguity despite otherwise clear leaf texture and lighting."
+    }
+  ]
+}

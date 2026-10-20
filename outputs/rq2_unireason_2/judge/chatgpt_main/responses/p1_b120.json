@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b120",
+  "results": [
+    {
+      "blind_id": "case_97dbf5c42c3e5d8b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested repositioning, background, lighting and typography, the cream handbag, arch handle and gold double-G motif remain recognizable, but its silhouette is narrower, its stitched quilting loses definition and the emblem geometry is blurred and altered. Instruction: 1. The bag is reduced and moved right into a gray fabric scene with a halo and gold upper-left text. 2. The expected advertisement has a gray-white velvet gradient, exact \"Elegance, Always.\" copy and fine gold \"GUCCI\" at bottom center. 3. Rightward placement, space, fabric and halo are present, but the copy instead reads \"Eevedtinge Gulliclle,\" the bottom brand is absent and the background is quite dark. 4. These omissions make compliance partial. Quality: Structural coherence ✘ and texture fidelity ✘: strong defocus obscures stitching, hardware and fabric; the crisp headline consists of nonsensical words. Naturalness is weakened by the broad glowing outline around the bag. These are multiple distracting defects, beyond moderate softness."
+    },
+    {
+      "blind_id": "case_fab582627f22b37c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested basketball movement and necessary contact shadow, the white studio background and orange/black-and-white ball identities remain, but the soccer ball shifts from the right to the center and its black panel arrangement and shapes change noticeably. Instruction: 1. The formerly separate basketball now sits directly above and touches the soccer ball. 2. A fully compliant edit should stack the basketball on the soccer ball. 3. The correct ball is placed on top with a clear contact point. 4. The requested relationship is fully realized. Quality: Natural lighting and shadows ✔, no duplication or ghosting ✔, recognizable spherical objects ✔. Structural/panel coherence ✘: several black soccer-ball panels are irregular rounded quadrilaterals rather than coherent pentagonal panels, a visible geometric flaw. Moderate softness alone is not penalized."
+    }
+  ]
+}

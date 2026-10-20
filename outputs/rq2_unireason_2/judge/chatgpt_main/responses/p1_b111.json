@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b111",
+  "results": [
+    {
+      "blind_id": "case_e045c9364eef3614",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding completion of the handle, the spoon bowl is moved from the upper left to the lower left, rotated and widened; the wood retains its general grain landmarks but its fine texture and lighting become markedly darker and more contrasty. Instruction: 1. The short truncated handle becomes a long continuous shaft with a finished rounded end. 2. A completed spoon should have an intact handle joined to its bowl. 3. That requested completion is visibly present. 4. Perfect compliance for the specified handle change. Quality: Structure ✔, naturalness ✔, artifact-free ✔, texture fidelity ✔; the complete ceramic-looking spoon has coherent contours, shading and contact shadow on a legible wooden surface."
+    },
+    {
+      "blind_id": "case_8ff3b0a6660fd7ed",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested poster layout, background, decorations and text, the red lantern remains recognizable but its gold floral panel motifs are replaced by simpler stem-like designs, its silhouette is narrowed, and its tassel and suspension hardware change. Instruction: 1. A central lantern, gold foliage, red petals, sparkles and upper/lower typography have been added on a dark red background. 2. The requested poster should have a red-to-gold gradient, the exact golden headline Welcoming Spring Festival and a meaningful festive calligraphic slogan. 3. The decorative composition is present, but the headline and bottom lettering are garbled and the background has little gold gradient. 4. Partial compliance. Quality: Structure ✘ and artifact-free ✘ because both headline rows and the lower slogan/subline contain extensively nonsensical or malformed lettering; naturalness ✔ and texture fidelity ✔ for the shaded lantern, leaves and petals. Multiple prominent text failures distract from an otherwise coherent poster."
+    }
+  ]
+}
