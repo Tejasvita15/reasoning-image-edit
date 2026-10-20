@@ -8,7 +8,7 @@
       "instruction_score": 5,
       "quality_score": 5,
       "knowledge_score": null,
-      "rationale": "Consistency: Excluding the requested reduction in apple count, the white background and clear dish concept remain, but the dish is reframed smaller with changed groove geometry, and the remaining apple has a different elongated shape, bright radial green stem recess and dotted skin texture. Instruction: Six apples become exactly one clearly identifiable apple on the dish; the expected single-apple result is fully achieved. Quality: Structural coherence ✔, natural lighting and contact shadow ✔, artifact-free ✔, texture fidelity ✔; the glossy apple and transparent fluted plate are cleanly rendered with coherent edges and reflections."
+      "rationale": "Consistency: Excluding the requested removal of extra apples, the white background and clear glass plate remain, but the plate occupies a smaller portion of the frame and its groove pattern has visibly changed; the remaining apple also has a different surface pattern. Instruction: Six apples become exactly one upright red apple on the plate, precisely satisfying the requested count. Quality: Structure, lighting, surface texture and contact shadow are coherent; the glossy apple and glass plate have no noticeable generation defects."
     },
     {
       "blind_id": "case_706431b26392b04b",
@@ -17,7 +17,7 @@
       "instruction_score": null,
       "quality_score": null,
       "knowledge_score": null,
-      "rationale": "The edited attachment is present and directly inspected, but severe blur and a diffuse green cast obscure its digital display. The source clearly reads 123/72; the edited systolic and diastolic digits cannot be identified reliably enough to determine whether either satisfies the supplied less-than-90/less-than-60 criterion. Because this required detail prevents reliable instruction and knowledge grading, the entire item is unreadable and all scores are null."
+      "rationale": "The source monitor clearly displays 123/72, but the supplied edited attachment is severely blurred across the monitor and cuff. Its large systolic and diastolic digits cannot be read confidently enough to establish the resulting pressure values against the supplied less-than-90 or less-than-60 criterion. This prevents reliable instruction and knowledge grading, so the whole item is marked unreadable with all four scores null."
     }
   ]
 }
