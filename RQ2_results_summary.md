@@ -18,6 +18,7 @@ All three sub-questions are complete: generation, judging, statistics and figure
    - With the same number of candidates, feedback scores −1.0 Q [−2.5, +0.3] relative to resampling and is 32 s slower.
    - Neither kind of second attempt measurably improves on the first image.
    - When Step1X "refines" by editing its own first output, the result is usually worse.
+   - Feedback does not help more when the first edit is weak (extra 2). Its second candidate trails resampling's by about 3.5 Q at every level of first-edit quality.
 
 None of the differences in RQ2 reaches the MMD. The judge's own re-scoring spread is about 19 Q, so the effects above are measurable trends, not decisive wins.
 
@@ -208,11 +209,34 @@ Second attempts happened in 73 of 120 runs (61%): 39 refine and 34 restart.
 - **Both selection methods pick the judge's preferred image only about 55–65% of the time.**
 - **Budget is matched, latency is not.** The two strategies match in number of candidates and generator calls, but feedback always pays for reflection, so they cannot match in latency. The latency gap is reported instead.
 
+### Extra 2: does correction help more when the first edit is weak?
+
+**Question:** self-correction should matter most when the first edit is bad. Is feedback's advantage over a plain retry bigger when the first image scores low?
+
+**Method:** existing RQ2.3 judge scores, no new runs or judging. It uses the 73 runs with a second candidate, over 34 examples; the 47 runs where the reflection accepted the first image are left out.
+- **Gains:** for each run, feedback gain = Q(feedback 2nd) − Q(first) and resampling gain = Q(resampling 2nd) − Q(first). These are raw second-candidate scores, not the selector's pick.
+- **Summary:** Spearman ρ against first-image Q, and mean gain per tercile of first-image Q. The 95% bootstrap CIs resample whole examples (all seeds together). Every tercile has at least 10 runs.
+- **Regression to the mean:** low first scores tend to rise on any retry, so a falling gain alone proves nothing. Feedback gain − resampling gain cancels this, because both start from the same first image.
+
+| | Mean gain [95% CI] | Spearman ρ vs Q(first) [95% CI] | Q(first) 0–33 (n=27) | 38–50 (n=28) | 56–100 (n=18) |
+|---|---|---|---|---|---|
+| Feedback gain | −3.51 [−6.11, −0.83] | −0.54 [−0.69, −0.34] | +2.4 | −1.6 | −15.3 |
+| Resampling gain | +0.03 [−2.73, +2.87] | −0.37 [−0.58, −0.13] | +5.1 | +1.1 | −9.3 |
+| **Feedback − resampling** | **−3.54 [−6.60, −0.79]** | **−0.13 [−0.36, +0.12]** | −2.7 | −2.8 | −6.0 |
+
+**What it means:**
+- **Both gains fall as the first image gets better.** That's mostly regression to the mean.
+- **The difference stays flat:** ρ is close to 0 and its CI includes 0, so feedback's critique does not add more value on weak first edits.
+- **Feedback's raw second candidate is about 3.5 Q worse than resampling's** across the board. Each tercile's CI includes 0, and all are far below the MMD.
+- **Why the headline gap is smaller (−1.0):** EditReward often kept the first image instead of a worse feedback retry.
+
 **Files**
 - `outputs/rq2_3/analysis/rq2_3_summary.md` / `.csv`: strategy means, latency breakdown, by knowledge type and by seed
 - `outputs/rq2_3/analysis/rq2_3_stats.md` / `.csv`: paired comparisons, including the components
 - `outputs/rq2_3/analysis/rq2_3_second_candidate.csv`: did candidate 2 beat candidate 1
 - `outputs/rq2_3/analysis/rq2_3_per_example.csv`: every example and seed (each candidate's Q, EditReward scores, picks, latency)
 - `outputs/rq2_3/analysis/figures/rq2_3_paired_differences.png`: paired Q differences with extra latency
+- `outputs/rq2_3/analysis/extra2_correction_gain.md` / `.csv`: extra 2 tables
+- `outputs/rq2_3/analysis/figures/extra2_correction_gain.png`: extra 2 figure (gains, and their difference, against first-image tercile)
 - Judge scores: `outputs/rq2_3/judge/chatgpt_{cand1,cand2}_seed{42,1234,7}/scores_main.jsonl`
 - Images: `outputs/rq2_3/{cand1,feedback_cand2,resample_cand2}/`. Generation logs: `logs/rq2_3/`. Selector logs: `logs/rq2_3/selector/`
