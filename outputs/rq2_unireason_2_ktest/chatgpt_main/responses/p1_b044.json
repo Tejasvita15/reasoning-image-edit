@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b044",
+  "results": [
+    {
+      "blind_id": "case_e2db802812d40f58",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Excluding the requested vase transformation, the branches are rearranged into denser clusters with different stems and buds, and the tabletop grain and wall texture change; the broad setting and leftward light remain. Instruction: The rounded rustic vessel becomes a narrow-necked glazed vase with Chinese-style calligraphic and ornamental decoration, fully realizing the requested style change. Knowledge: The explanation specifically expects blue-and-white porcelain; the visible decoration is black on a pale greenish glaze, a clear color/material-appearance mismatch. Quality: The vase silhouette, surface shading, perspective and support are coherent; some branch buds merge into lumpy clusters, a minor texture imperfection."
+    },
+    {
+      "blind_id": "case_530085361d4820bc",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The white background remains, but the original low, wide triangle is substantially redrawn as a taller, differently proportioned outline with disconnected lower corners; this changes the non-requested geometric figure. Instruction: A central vertical line is added through the apex, as expected, but several additional diagonal chevrons are drawn that are not symmetry axes, so the requested axis annotation is only partially correct. Knowledge: The supplied explanation calls for a vertical central line, which is present; the extra diagonal axis-like strokes conflict with the single reflection axis of this non-equilateral isosceles triangle. Quality: Lines are clear against white, but overlapping chevrons and side edges that terminate above the horizontal base produce a visibly incoherent geometric diagram."
+    }
+  ]
+}

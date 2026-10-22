@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b140",
+  "results": [
+    {
+      "blind_id": "case_6f86d2b3b44edf9c",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 2,
+      "rationale": "Consistency: the pedestal, dark background, board and screen geometry, and arrow layout remain consistent; the lamp socket changes from cyan to red, beyond changing the emitted light. Instruction: yellow light and fringes become red and one fringe becomes broad, but the board still visibly has two slits. A correct edit would show a single slit and a broad central maximum with narrower side fringes; this is partial compliance. Knowledge: the supplied explanation requires one slit and a broad center with narrow sides. Two slits remain, and the broad red maximum sits at the left edge of the pattern with narrow fringes only to its right, rather than forming its center; these are multiple serious conflicts. Quality: apparatus shapes and perspective are coherent, with clean surfaces; the large red oval has a slightly muddy, abrupt blend into the screen, a minor rendering issue."
+    },
+    {
+      "blind_id": "case_2b9ae377cc1a5d49",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the gray, blue and green chair designs, upholstery, relative positions, pale studio background, floor and shadows remain visually unchanged. Instruction: the edit still contains three complete chairs, just as the source does; the expected two-chair scene is absent, so the requested count change is not followed. Quality: all three chairs have coherent circular backs, seats and tubular frames, natural perspective and soft shadows, and consistent fabric texture without noticeable artifacts."
+    }
+  ]
+}

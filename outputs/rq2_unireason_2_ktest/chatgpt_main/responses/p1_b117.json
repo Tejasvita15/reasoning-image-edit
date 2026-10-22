@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b117",
+  "results": [
+    {
+      "blind_id": "case_730821c6e91da34a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested foot corrections, the two-leg pose and beige floor setting remain, but the shin hair/skin detail and floor texture have noticeably changed. Instruction: The toes are reshaped and their nails reduced; a successful correction would give the feet natural toe proportions and joints. The foreground toes remain conspicuously elongated and fingerlike, especially the second toe, so the anatomical correction is poorly implemented. Quality: Structure is problematic in the elongated foreground toes, and the toes have conspicuously smooth, waxy skin compared with the textured ankles. Lighting, contact shadows and overall layout are coherent; no duplicated limbs are visible."
+    },
+    {
+      "blind_id": "case_513d9230bc5bf70b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The diagonal foam boundary and exposed beach layout remain recognizable, but daylight and golden sand are changed to dark blue nighttime lighting, and a bright moon disk is added over the water; these are separate from changing the tide. Instruction: The visible changes are recoloring and the moon addition. The expected change is a higher waterline covering more beach. The foam edge retains essentially the same position and extensive sand remains exposed, so the requested tidal change is absent. Knowledge: The supplied explanation requires high tide, yet there is no visible increase in water coverage. Instruction failure ⇒ knowledge invalid. Quality: Foam, sand and wave structures are coherent, but the sharply bounded moon appears to float immediately above the surf inside a downward-looking beach view, a clear spatial/compositing flaw; the surrounding night lighting is otherwise consistent."
+    }
+  ]
+}

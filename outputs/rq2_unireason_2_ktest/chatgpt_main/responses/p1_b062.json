@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b062",
+  "results": [
+    {
+      "blind_id": "case_75e3ed22d4868022",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the rear-pocket close-up is replaced by a front view with a waistband, fly, belt loops and white shirt; pocket placement, seams and framing all change. Instruction: the visible change replaces the view of the garment rather than completing its torn rear pocket. A completed result would repair the missing denim in the existing pants; instead several frayed openings remain on a different view, so the request is misinterpreted. Quality, judged on the edited image alone: coherent garment structure, natural denim weave, folds and lighting, with no clear generation defect; the frayed areas read as distressed clothing."
+    },
+    {
+      "blind_id": "case_d07c2459a346af09",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the general garden-maze arrangement remains recognizable, but the stone paving and foliage are extensively redrawn, the central statue changes shape, and corridor/wall proportions shift. Instruction: several red strokes are added. The expected result is a continuous red route through open corridors from the upper-left corner to the lower-right corner. Instead a long lower horizontal stroke crosses hedges, a separate diagonal sits at the upper right, and disconnected marks fail to connect the requested endpoints; most of the route requirement is missing. Knowledge: the supplied explanation is blank; the score follows the mandatory instruction-failure coupling, supported by the visible disconnected, wall-crossing route. Instruction failure ⇒ knowledge invalid. Quality, judged on the edited image alone: the garden illustration is recognizable with coherent overall perspective, but detached red segments and the abruptly branching/cross-wall route form clear diagrammatic coherence flaws."
+    }
+  ]
+}

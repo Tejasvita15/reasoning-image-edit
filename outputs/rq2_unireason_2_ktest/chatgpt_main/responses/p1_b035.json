@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b035",
+  "results": [
+    {
+      "blind_id": "case_1156207bab7f11cc",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: all six node outlines have become pale, labels 2, 4 and 5 are obscured, and several unrelated arrows have faded; most major non-requested graphic elements changed. Instruction: the 0-to-3 arrowhead is faded but its long black shaft remains, rather than removing the connection; most of the required removal is missing. Knowledge: the explanation specifically requires removing 0-to-3 while retaining everything else, which is not achieved. Instruction failure ⇒ knowledge invalid. Quality: multiple ghostlike circles and arrows, obscured labels, and speckled outlines make the diagram structurally degraded, although 0, 1 and 3 remain legible."
+    },
+    {
+      "blind_id": "case_1cc37383b82bb334",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: existing clue symbols, their cells, the white background and grid layout remain; grid strokes show a small increase in waviness. Instruction: many empty cells receive symbols, but several remain empty and row 3 contains six identical flowers; rows 1 and 6 also repeat symbols. A completed Sudoku requires a fully filled valid arrangement, so the requested completion is poorly implemented. The instruction calls this 4x4, but the supplied grid visibly has six rows and six columns. Knowledge: the supplied explanation is blank; the visible repetitions conflict with Sudoku logic implied by the task, and the mandatory instruction-failure coupling determines this score. Instruction failure ⇒ knowledge invalid. Quality: the grid and most icons are legible and coherent, but the top-row third symbol has a distorted speckled center and the fifth-row fourth symbol is visibly tangled and malformed."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b094",
+  "results": [
+    {
+      "blind_id": "case_e4959f6a38205ad6",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The leaf veins and outline, stem, fruit silhouette, white background and placement remain consistent, but the mango skin texture is visibly exaggerated into much stronger dark pores and coarse highlights beyond recoloring. Instruction: The yellow mango becomes green across its entire surface; a green version of the same fruit is exactly the requested change, so compliance is complete. Quality: Structure and shadow logic are coherent and there is no duplication; texture fidelity has a small issue in the harsh, crunchy pore contrast on the skin."
+    },
+    {
+      "blind_id": "case_87632084202a3ca6",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The glass table and vase remain recognizable, but the flower arrangement changes, the open book becomes a closed book with a different picture, and the pale backdrop and illumination become noticeably darker blue with stronger shadows. Instruction: The book remains on the right of the vase, as in the source, instead of moving to its left; closing it does not fulfill the requested positional change. Instruction failure ⇒ knowledge invalid. Quality: Structural coherence, naturalness, artifact absence and texture fidelity are satisfactory: the glass rim and supports, ribbed vase, flowers and closed book are coherent, with plausible reflections and contact shadows."
+    }
+  ]
+}

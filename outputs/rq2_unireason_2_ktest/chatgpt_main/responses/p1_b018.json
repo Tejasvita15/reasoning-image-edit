@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b018",
+  "results": [
+    {
+      "blind_id": "case_b11949bfb66a393a",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the plain gray background, teal phone identity, rounded body and three-lens camera layout remain; excluding the requested rotation, the back finish is noticeably brighter cyan. Instruction: the source already shows an oblique back; the edit turns it toward a fuller rear view, but retains a conspicuous right edge and sloping top and bottom, whereas the reference shows a straight-on rear with level edges. The requested viewpoint is only partially matched. Quality: the edited phone has coherent contours, clean camera components, plausible metallic highlights and a smooth background without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_cf22935ec57c5240",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white studio setting and blue ribbed ball identities persist, but the unrequested left ball is enlarged and shifted upward/right, and its ribbing and highlight texture visibly change. Instruction: the originally larger right ball is reduced, but to a tiny fraction of the left ball rather than its matching size; the degree of resizing is substantially wrong. Instruction failure ⇒ knowledge invalid. Quality: assessed alone, the two balls have coherent rounded silhouettes, continuous molded rings, plausible glossy reflections and grounding shadows, with no clear generation artifacts."
+    }
+  ]
+}

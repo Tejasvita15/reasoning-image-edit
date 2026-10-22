@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b137",
+  "results": [
+    {
+      "blind_id": "case_a8f0d6f3545080b1",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the pale wooden frame and white surrounding background remain recognizable, but the board changes from four rows to five and the tile faces lose their circular outlines and original numeral styling; these are not necessary tile rearrangements. Instruction: the original 1–15 tiles and empty cell become a full five-by-four grid of repeated single digits, including zeros. A completed puzzle requires the original fifteen tiles in ascending row order with the empty cell at bottom right, so this does not perform the requested rearrangement. Knowledge: the supplied explanation is blank; the mandatory instruction-failure coupling determines this score. Instruction failure ⇒ knowledge invalid. Quality: wooden surfaces, framing and tile boundaries are coherent and the digits are readable, but extensive repeated numerals and zeros make the numbered sliding-puzzle content semantically incoherent."
+    },
+    {
+      "blind_id": "case_cc0f6e7a8d7fe10c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the red can, white script branding, condensation and silver rims persist, but its body becomes noticeably broader relative to its height and the original CLASSIC/SINCE 1886 and 375 ml markings disappear. The requested background, composition and added headline are excluded from this assessment. Instruction: a prominent central can now sits amid energetic water splashes, scattered ice, droplets and radiant blue summer lighting, matching the desired promotional composition. However, the required Refresh Every Moment slogan is replaced by garbled red text reading approximately FREFVERF ERY / EYERY COWNT, and the requested red-and-white slogan lettering is absent. The main concept is present with a major required text aspect incorrect. Quality: the can, ice transparency, splash shapes and dramatic lighting are visually coherent; the conspicuously nonsensical large headline is a clear semantic text artifact."
+    }
+  ]
+}

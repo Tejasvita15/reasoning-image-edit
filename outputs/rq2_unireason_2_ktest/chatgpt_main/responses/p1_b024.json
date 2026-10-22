@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b024",
+  "results": [
+    {
+      "blind_id": "case_5372bf562d9f1abe",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The worn white leather, olive palm patches and cuff stitching remain recognizable, but the single centered glove becomes two smaller, offset gloves, with substantially longer exposed wrists and a cropped left thumb; these are multiple unrequested composition changes. Instruction: The edit duplicates the glove while retaining visible skin through the open thumb in both copies. A completed glove should cover that missing thumb section, so the requested repair is absent. Quality: Structure, leather texture and lighting are coherent; the wrists fade into white with a slightly artificial soft cutout transition, a minor finishing issue."
+    },
+    {
+      "blind_id": "case_3a1e8a38333479e5",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Yellow shafts, gray interiors, pale soles and the neutral background remain, but the front boot shifts rightward, increasing separation, and the shaft/ankle contours and creases noticeably change. These are multiple changes unrelated to fixing the unreasonable open toes. Instruction: The edit changes spacing and boot contours while both toes remain open. Corrected rain boots should have closed protective toe caps, so the central unreasonable feature is not corrected. Quality: Lighting, surfaces and overall boot structures are coherent, but the open sandal-like fronts on otherwise tall rubber boots create a clear semantic design incongruity; no major texture corruption is visible."
+    }
+  ]
+}

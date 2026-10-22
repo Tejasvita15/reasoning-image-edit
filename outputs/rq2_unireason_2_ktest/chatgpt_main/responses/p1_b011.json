@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b011",
+  "results": [
+    {
+      "blind_id": "case_372d747fb3c188e4",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white backdrop remains, but the card fan, card positions and overlap have changed substantially, and extra card faces/indices appear beyond the requested rank change. Instruction: Instead of converting the 4 or 6 into a matching pair beside three eights, the edit retains both 4 and 6 and introduces multiple additional 8 markings; no coherent five-card full house is depicted. Knowledge: The supplied three-of-one-rank plus two-of-another requirement is not met. Instruction failure ⇒ knowledge invalid. Quality: Card outlines are recognizable, but repeated clipped 8 indices, duplicated spade markings and conflicting heart/spade/diamond symbols on the front card create multiple distracting semantic and structural errors."
+    },
+    {
+      "blind_id": "case_59eb822bc6f7e330",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The centered bread, white plate, surrounding dark surface and broad lower reflection remain recognizable and similarly arranged; the crumbs scattered around the plate are visibly changed and more numerous. Bread browning and edge charring are excluded from consistency. Instruction: The pale bread becomes deeply browned with a blackened perimeter, clearly fulfilling the request to appear overcooked. Knowledge: Visible black char matches the supplied expectation that the toast should appear charred. Quality: The plate perspective, shadow and overall slice outline are coherent, but the bread surface has conspicuously smooth, swollen, almost melted ridges instead of a convincing porous crumb texture; this is a clear visual flaw."
+    }
+  ]
+}

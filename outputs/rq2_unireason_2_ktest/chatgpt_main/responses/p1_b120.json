@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b120",
+  "results": [
+    {
+      "blind_id": "case_9cf98ead1c04b746",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding chair additions and their necessary arrangement, the window frames, wall panels, carpet, table position and tabletop objects remain recognizable and in corresponding locations; the tabletop wood grain is visibly redrawn into more pronounced wavy bands. Instruction: The four-chair source becomes eight chairs: three along each long side and one at each end. The expected result is exactly six; increasing the count addresses the request but misses its defining quantity, giving partial compliance. Quality: Structural coherence ✔, natural perspective and lighting ✔, artifact-free appearance ✔, texture fidelity ✔. The furniture and room read coherently with no clear distracting structural defect."
+    },
+    {
+      "blind_id": "case_ef24a6799efe87f7",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested composition, background, floating chips and added slogans, the yellow Classic bag and red-white logo remain identifiable, but its printed potato/chip illustration is redrawn, its bottom Potato Chips label becomes garbled, and its folds and logo details change. Instruction: The edit adds a centered bag, bright yellow-to-orange background, airborne chips and upper-right handwritten Let’s Snack! text. The expected lower-left bold caption is Enjoy a Moment, That’s Living; its first word is malformed. Chips float across and beside the lower bag, which remains visibly sealed, rather than clearly bursting out below it. These make the result partial compliance. Quality: Lighting and surface texture ✔; structural/text coherence ✘ because the large bottom slogan has malformed lettering and the small package footer is garbled. The bag and floating chips otherwise have coherent forms and convincing textures."
+    }
+  ]
+}

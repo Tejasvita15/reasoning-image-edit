@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b097",
+  "results": [
+    {
+      "blind_id": "case_0f93c2ce8f345f3b",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The curved back, open gap, seat outline, four legs, viewing angle and plain white background remain visually consistent; the blue finish and reduced grain contrast are part of the requested recoloring. Instruction: The natural wood chair becomes blue across its back, seat, supports and legs. The expected result is this same chair in blue, which the edit fully supplies. Quality: Structure, perspective, lighting and surface finish are coherent, with clean boundaries and no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_4d1e9918fddef1e0",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The general car interior is retained, but the exterior buildings become a different blurred landscape, the mirror framing shifts, and more of the passenger seat is visible; these exceed the requested pendant change. Instruction: The pendant remains hanging almost vertically beneath its attachment despite changes in its apparent size and highlights. The expected result is a pendant deflected as the car accelerates; no clear acceleration-induced tilt appears, so the instruction is unfulfilled. Knowledge: The supplied explanation requires a rear-right tilt, whereas the cord and pendant remain nearly straight down. Instruction failure ⇒ knowledge invalid. Quality: The edited image alone has coherent mirror, cord, pendant and cabin geometry, plausible metallic reflections and depth of field, and no noticeable generation artifacts."
+    }
+  ]
+}

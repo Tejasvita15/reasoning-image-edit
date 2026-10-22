@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b149",
+  "results": [
+    {
+      "blind_id": "case_941e2cc629924628",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the gray backdrop, thumbs-up pose, tan polo and central box are retained, but the facial features and expression are redrawn, shirt collar/folds change, and box edges and position change. These are not identifiable corrections of unreasonable anatomy. Instruction: observed changes chiefly slim and smooth the man and redraw his face; the expected result would correct a visible anatomical or physical abnormality. The source already shows two plausible arms, a thumbs-up hand and a hand supporting the box, and no clear abnormality is specifically corrected, so the requested correction is not demonstrated. Instruction failure ⇒ knowledge invalid. Knowledge is not applicable for this item. Quality: structural coherence ✔, natural lighting/perspective ✔, artifact-free ✔, texture fidelity ✔; the edited man, hands, shirt and box are coherent, with no clear generation defect."
+    },
+    {
+      "blind_id": "case_58e0ae66cae3a9dc",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: fruit silhouette, seed arrangement, green leafy crown, upright stem and framing remain closely preserved, excluding the requested fruit recoloring. The faint repeated background watermarks are removed, a clear non-requested background alteration. Instruction: the red fruit body changes throughout to deep purple; a purple strawberry is exactly the expected result, and the intended object and color are correctly modified. Quality: structural coherence ✔, natural lighting and highlight placement ✔, artifact-free ✔, texture fidelity ✔; the single fruit has coherent seed pits, leaves and stem, clean edges and an even background."
+    }
+  ]
+}

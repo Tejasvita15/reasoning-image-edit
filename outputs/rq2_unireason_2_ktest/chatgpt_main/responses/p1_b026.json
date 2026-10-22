@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b026",
+  "results": [
+    {
+      "blind_id": "case_b22b622cbf452fa2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested relocation of the left cup, the other cup has also moved to the center, the landscape has broad smeared patches, and pale cup-base remnants appear on the ledge; the general countryside and ledge remain recognizable. Instruction: The side-by-side cups become a stack. The expected result is the original left, right-handled cup above the original right, left-handled cup. Instead the right-handled cup is below a left-handled cup, so stacking is achieved but the requested order is reversed. Quality: Structure and artifact checks fail: the upper handle ends in an open hook, the cups have an awkward intersecting rim, and two conspicuous ghost bases remain on the ledge. Ceramic shading is otherwise plausible."
+    },
+    {
+      "blind_id": "case_4dc6242177a567ae",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The bridge, sunset lighting, clothing colors, and overall person-and-dog arrangement remain recognizable, but the dog's head and chest contours change and the person's leg pose and shoe positions are visibly altered. Instruction: The image changes those shapes and poses but adds no leash; both hands remain empty. The expected correction is a hand holding a leash attached to the dog's collar, which is entirely absent. Knowledge: The supplied explanation specifically requires that hand-to-neck connection; none is shown. Instruction failure ⇒ knowledge invalid. Quality: Structural coherence, natural lighting and perspective, artifact absence, and texture fidelity are satisfactory; the dog, clothing, hands, shoes, and bridge read coherently without a noticeable visual defect."
+    }
+  ]
+}

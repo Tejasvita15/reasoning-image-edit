@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b073",
+  "results": [
+    {
+      "blind_id": "case_de316a04333e84f6",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and ten character identities remain recognizable, but both columns are moved inward, the character sizes and vertical spacing change, and the yellow connection rings are moved and duplicated. Instruction: Red lines are added, whereas the expected result is five unambiguous front-to-corresponding-back connections. The top cap boy is connected to the bow girl, the bow girl to the flower girl, and the bottom vest boy to the cap boy; additional lines terminate in empty space or cross figures. Most required matches are incorrectly implemented. Knowledge: These connections fail the supplied front/back identity-matching explanation. Instruction failure ⇒ knowledge invalid. Quality: The cartoon figures and colors are recognizable, but multiple dangling lines, redundant rings, and strokes crossing figures make the diagram structurally confusing."
+    },
+    {
+      "blind_id": "case_7c64812bd15bd1af",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "Consistency: The cup silhouette, lid, handle, ceramic highlights, tabletop, gray background and framing remain visually unchanged outside the emblem. Instruction: A centered red equal-armed cross is added to the cup, fulfilling the requested emblem placement; its conspicuous dark outline is a minor deviation from the classic plain red emblem. Knowledge: The supplied explanation requires the Red Cross to be attached, which is visibly achieved, with the same minor emblem-design deviation. Quality: The cup has coherent geometry, natural ceramic shading and reflections, and a crisp, well-integrated emblem; no noticeable rendering artifacts are visible."
+    }
+  ]
+}

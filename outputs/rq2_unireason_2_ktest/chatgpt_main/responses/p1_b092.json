@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b092",
+  "results": [
+    {
+      "blind_id": "case_906f7f82f77fb477",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested poster background, placement, lighting effects and typography, the crown retains its basic gold openwork silhouette but its central lower ornament and gemstone settings are redrawn and its base band proportions and bead detailing change noticeably. Instruction: The edit adds a centered crown, deep-blue backdrop, gold halo/glow bands and star glints; a complete result would also have the exact gold title Crowned in Glory and a white luxury slogan. The actual title reads CAVIRESTE EHLER’S and the white slogan is absent, so compliance is partial. Quality: Structural coherence ✔, naturalness ✔, artifact-free ✔, texture fidelity ✔; the jewelry, luminous rings, textured backdrop and raised lettering form a coherent, polished poster with no clear visual defects."
+    },
+    {
+      "blind_id": "case_2f9e3b2da0a65b53",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and basic blue cube/green leaf/orange caterpillar arrangement remain, but the cube is resized and its proportions/framing change, the caterpillar is visibly redrawn with different eyes and body, and the leaf shifts. These are outside the requested path markings. Instruction: The only new markings are black ground-level arrows and an H label beside the base. A correct edit would mark every shortest surface route ascending a side, crossing its top edge and reaching the leaf; no such route is shown, so the instruction is misinterpreted. Knowledge: The supplied explanation explicitly requires a diagonal climb followed by continuation over an edge toward the leaf, whereas the markings stay outside the cube at ground level. Instruction failure ⇒ knowledge invalid. Quality: Structural coherence ✔, naturalness ✔, artifact-free ✔, texture fidelity ✔; the cube, leaf, cartoon caterpillar and crisp black annotation are clean and visually intelligible as an illustration."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b088",
+  "results": [
+    {
+      "blind_id": "case_2e5a4e75fdf8fc83",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested poster layout, background, glow, embellishments and richer color, the diagonal wooden dipper and two-comb arrangement remain recognizable, but the front honeycomb structure is visibly remodeled into a more irregular, partly quadrilateral grid. Instruction: The image becomes a central honey poster with yellow-to-gold background, floating drops, petals and glow. A fully compliant poster would also have the exact title and readable health-benefit copy; the title reads “Pure Natual Honey” and the bottom copy is gibberish, so compliance is partial. Quality: Structure/text ✘: several lines of garbled lettering and distorted comb cells are distracting. Lighting and overall poster composition ✔; these do not remedy the text and texture defects."
+    },
+    {
+      "blind_id": "case_d04b1a2080fa08a2",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The white background and monochrome geometric-diagram presentation remain consistent; replacing the tall prism view with an exposed sectional shape and section hatching is within the requested change. Instruction: The tall prism is replaced by a flat, horizontally extended hatched polygon. The expected result is its horizontal cross-section; the edit depicts a section, but its outline has eight sides rather than the required six, so the main idea is only partially realized. Knowledge: The supplied explanation explicitly requires a regular hexagon. The visible long top and bottom, short sloping corner edges and vertical end edges form an elongated octagon, one clear geometric conflict with that explanation. Quality assessed alone: Structural coherence ✔, clean polygon and continuous hatching; natural diagram presentation ✔; artifact-free ✔; line texture ✔. Its mathematical mismatch is assessed under instruction and knowledge, not standalone visual polish."
+    }
+  ]
+}

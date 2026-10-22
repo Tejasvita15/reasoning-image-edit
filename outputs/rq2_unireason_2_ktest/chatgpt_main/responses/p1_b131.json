@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b131",
+  "results": [
+    {
+      "blind_id": "case_c9cda92715502d02",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the permitted change to the left rock gesture, the right open palm is replaced by a fist, both hands are reoriented, and long diagonal forearms replace the detached-hand composition; only the white background and broad pink cartoon palette remain. Instruction: The result shows two rocks. The expected edit changes the original left rock into paper to match the unchanged right paper; a tie is achieved by changing the wrong gesture, so the specified transformation is largely missing. Knowledge: The supplied explanation is blank; despite the visible rock-rock tie, the mandatory instruction-failure coupling determines this score. Instruction failure ⇒ knowledge invalid. Quality: ✔ Coherent stylized fists and wrists, clean black contours, consistent pink shading, and no noticeable duplication or rendering artifacts."
+    },
+    {
+      "blind_id": "case_a24b5d62f5d59b55",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, placement, atmosphere, and caption changes, the brown dog retains its upright ears, raised tail and tucked leaping limbs, but its eyes become larger and glossier, the muzzle and open mouth are reshaped, and fur detail is substantially smoothed. Instruction: The white setting becomes softly blurred green and a pale-yellow, blue-edged handwritten Full of Joy. caption appears upper left; the leaping dog remains the main subject. However, the caption is conspicuously large rather than small, the animal is centered rather than slightly lower, and the lawn has little discernible natural grass texture. These leave the main idea present but several requested aspects incomplete. Quality: ✔ Readable lettering, coherent dog anatomy and lively airborne pose; ✘ mildly plasticky, smoothed fur and facial surfaces reduce photographic naturalness. No major structural artifacts."
+    }
+  ]
+}

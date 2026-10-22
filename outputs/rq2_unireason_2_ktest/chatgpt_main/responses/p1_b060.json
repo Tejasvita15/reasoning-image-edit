@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b060",
+  "results": [
+    {
+      "blind_id": "case_774f15b3b39ea79e",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The silver lamp arms, shade, cable, gray wall and tabletop remain visually consistent, excluding occlusion caused by moving the book. The book itself changes noticeably: its spread is wider relative to the lamp, its page contours change and the visible print is lost. Instruction: The book moves from the right side to a position predominantly left of the lamp stand, as requested; the red-covered open book remains identifiable. Quality: Structure ✔, natural lighting and perspective ✔, artifact-free ✔, textures ✔; the lamp and open pages form a coherent scene without a noticeable defect."
+    },
+    {
+      "blind_id": "case_e464e775ecc17129",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The thick left book has been reduced to a tiny book near the center, the right book shifts upward, and a faint large rectangular outline remains in the white background. These are multiple unrequested alterations. Instruction: Instead of increasing the thin right book to the original thick book’s thickness, the edit shrinks the thick book and leaves the right book thin. The requested thickness match to the thick reference is not achieved. Quality: Book forms and warm page textures are recognizable, but artifact-free ✘: a large pale ghost outline occupies the left background, and the long book’s lower cover has a conspicuous irregular kink. These are noticeable visual flaws."
+    }
+  ]
+}

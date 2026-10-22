@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b080",
+  "results": [
+    {
+      "blind_id": "case_306e4ed7dba54d56",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the bottle, green sponge, yellow cloth and white brush retain their arrangement, but the brush bristle structure and sponge surface/contour are visibly redrawn, and the bottle label lettering and glass highlights change. Powder and reaction-related changes are excluded. Instruction: white powder is now visibly present inside the original vinegar bottle, fulfilling the requested addition of baking soda. Knowledge: the supplied explanation requires small reaction bubbles; instead the image shows dry, sharply peaked powder mounds at the liquid surface and bottom without visible effervescence, ignoring the stated reaction. Quality: the label, glass silhouette, cleaning tools and lighting are coherent; the upper powder mound has a slightly abrupt, pasted-looking boundary against the glass/liquid."
+    },
+    {
+      "blind_id": "case_04e6fb40744ef9af",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background, equation layout, match positions and blue heads are retained, but the sticks acquire conspicuous dark outlines and a sharper illustrated rendering. Instruction: the edited arrangement still reads 14 - 6 = 82, with no two-stick relocation apparent; the expected result is a true equation obtained by moving exactly two sticks, so the requested change is absent. Knowledge: the supplied explanation is blank; the visible arithmetic and the task imply that the equality must become true, whereas 14 - 6 is 8, not 82. The mandatory instruction-failure coupling determines this score. Instruction failure ⇒ knowledge invalid. Quality: coherent straight matchsticks, distinct blue heads, readable symbols, clean background and consistent rendering show no noticeable visual artifacts."
+    }
+  ]
+}

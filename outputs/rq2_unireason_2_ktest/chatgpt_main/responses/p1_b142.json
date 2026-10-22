@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b142",
+  "results": [
+    {
+      "blind_id": "case_21392ed7bde82c62",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the grid and fire-engine theme remain, but the burning house disappears, the title gains a black outline, and the scissors/cutting line moves substantially. Instruction: the lower road blocks are joined into a branching strip outside the grid; the grid still contains only its starting bend. A correct result would place all four blocks inside the grid to connect the engine to the house, so the requested construction is absent. Knowledge: the supplied explanation is blank; the mandatory instruction-failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality: the title and truck are legible and coherent, but the lower road strip has awkward open branches and cutout boundaries crossing its geometry, while the scissors line ends abruptly against the grid."
+    },
+    {
+      "blind_id": "case_19c2929fa9c8d2f3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested background, lighting, layout and floating ingredients, the pizza changes visibly: its pepperoni count and arrangement differ, the herb/cheese surface is redrawn, and the crust becomes thicker and more uniform. Instruction: the plain pizza presentation becomes a centered orange-yellow food poster with floating leaves, chilies, cheese-like strands and glowing heat effects, matching the main concept. However, the prominent title reads FRESHLY BALEK & SPASIYS rather than Freshly Baked & Spicy; whole chilies replace slices and distinct sauce droplets are not evident, leaving required details incomplete. Quality: the pizza, leaves and bright poster layout are visually coherent with convincing glossy surfaces, but the large malformed headline is a clear semantic flaw."
+    }
+  ]
+}

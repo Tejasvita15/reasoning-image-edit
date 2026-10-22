@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b127",
+  "results": [
+    {
+      "blind_id": "case_d2eba4228427a25d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: The two white shelf units, wall and wood floor retain their arrangement, but multiple large diagonal green objects now cross formerly empty shelf and wall areas, and floor grain appearance changes. Instruction: The original potted plant remains at the top right; a correct edit would move it to the far left of the other unit’s top tier. No intact plant is placed there, so the relocation is not accomplished. Quality: Structural coherence ✘ and naturalness ✘: giant thin vegetation streaks cut across the shelves, one bends into a dangling clump, and another appears suspended diagonally near the floor. These are major implausible object structures; the shelves themselves remain recognizable."
+    },
+    {
+      "blind_id": "case_6f11ca74f10f6cd1",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The left tabby and small central kitten remain in their original positions, with the white backdrop retained, but the left kitten’s fur contrast/detail changes and the reflective floor gains conspicuous flat gray patches. Instruction: The large gray kitten and right tabby’s head have disappeared. The expected result is exactly two intact kittens with the other two fully removed. Two recognizable kittens remain, but a large rounded beige body-like remnant and stray paws occupy the right kitten’s former location, making removal incomplete. Quality: Structural coherence ✘, naturalness ✘, artifact-free ✘: the central kitten adjoins a featureless rounded mass and disconnected paw shapes; faint erased silhouettes and broad gray floor smears are also visible. Surviving faces and most fur are legible, but multiple distracting errors remain."
+    }
+  ]
+}

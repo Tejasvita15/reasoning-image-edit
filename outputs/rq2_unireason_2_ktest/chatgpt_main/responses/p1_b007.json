@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b007",
+  "results": [
+    {
+      "blind_id": "case_207adc445e81e727",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested reduction to two bananas, the remaining fruit have different outlines and positions, and the shared brown stem has become two separated stems; the checkerboard background is also visibly coarser. Instruction: the original three-fruit bunch becomes exactly two recognizable yellow bananas, matching the expected count completely. Quality: structural coherence ✔, natural appearance ✔, artifact-free ✔, texture fidelity ✔; both fruits have continuous curved silhouettes, plausible shading and intact brown tips, without noticeable generation defects."
+    },
+    {
+      "blind_id": "case_da68ca42dc44fd66",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested ball color change, the ball position and size, purple tee, foreground grass, distant trees, fairway and sky remain visually unchanged. Instruction: the white ball becomes black with gray highlights while retaining its recognizable spherical, dimpled form; this fully matches the expected black golf ball. Quality: structural coherence ✔ and natural lighting ✔; the ball and tee are coherent, but texture fidelity ✘ for a small flattened, smeared patch across the ball crown interrupting the otherwise distinct dimples. No other noticeable artifacts."
+    }
+  ]
+}

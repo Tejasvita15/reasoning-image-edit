@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b124",
+  "results": [
+    {
+      "blind_id": "case_7ff20b29dfbdb66a",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The glass outline, water level, tabletop, green board and blurred microscope retain their appearance and placement; the added pencil and its local water interaction are excluded. Instruction: A yellow pencil is newly present, passing through the opening and extending into the water, fully matching the requested insertion. Knowledge: The explanation expects an apparent break from refraction; instead the shaft crosses the waterline nearly continuously and curves progressively farther below it, a clear mismatch to the expected interface displacement. Quality: Glass structure, background perspective, lighting and surface textures are coherent; the pencil has a slightly flat, illustration-like surface that blends imperfectly with the photographic scene."
+    },
+    {
+      "blind_id": "case_4bd3d8388c6812a8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The open cuff and floral engravings remain recognizable, but the tan woven mat is replaced by a white and dark speckled surface and the warm illumination becomes cool with stronger metallic reflections. Instruction: Darkening appears along the cuff edges and in a central patch; the expected result is visibly tarnished silver after prolonged sulfur exposure, but most broad surfaces remain bright and polished, so the change is partial. Knowledge: The supplied explanation says silver turns black on sulfur contact; limited dark rims and patches with extensive bright silver remaining show an incomplete response. Quality: The cuff has coherent edges, a plausible open shape, crisp engravings and convincing metallic shading; the textured surface and depth of field are natural, without noticeable generation artifacts."
+    }
+  ]
+}

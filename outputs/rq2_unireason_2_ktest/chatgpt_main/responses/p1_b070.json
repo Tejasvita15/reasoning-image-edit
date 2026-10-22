@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b070",
+  "results": [
+    {
+      "blind_id": "case_42813251bfbf3a61",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested scale/placement, setting and lighting changes, the plain white tapered cup, layered white lid, recessed lid center and dark drinking opening remain consistent. Instruction: The isolated cup becomes a lower-centered product on light wood in front of a warm, blurred cafe/street window scene, with a grounding shadow. This matches the expected setting and product focus, but the heading is heavy serif lettering with an outline rather than light sans-serif, and reads “Start here” without the required period; partial compliance. Quality: Structure ✔, natural lighting and perspective ✔, artifact-free ✔, texture fidelity ✔; the cup, tabletop and softly blurred background are coherent and the heading is legible."
+    },
+    {
+      "blind_id": "case_1386be87eb5f27d6",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested slice-count change and necessary arrangement adjustment, the wood board grain and its visible edge/shape change noticeably, as do the background wood pattern and framing. The general bread-on-board setting remains recognizable. Instruction: The original overlapping slices become two rows containing nine visible pieces (five behind, four in front). The expected result is exactly six slices; the count change is attempted but the central numerical requirement is poorly implemented. Quality: Lighting and bread/wood textures ✔; structure ✘, with conspicuously compressed narrow slices beside much wider slices and an awkward pointed, blended bread/crust junction in the overlapping rear-left group. These are noticeable shape flaws, although the scene remains readable."
+    }
+  ]
+}

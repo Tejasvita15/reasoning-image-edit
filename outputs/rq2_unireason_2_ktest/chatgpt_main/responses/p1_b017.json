@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b017",
+  "results": [
+    {
+      "blind_id": "case_811b1e4f1210e6e9",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested poster background, foliage, text and composition changes, the apple retains its red color and angled stem, but its surface has been visibly re-rendered with much stronger speckles and altered highlights. Instruction: The edit adds a centered apple, curving green leafy vines and a cream-to-green background; a correct poster would also display the exact requested handwritten sentence and recognizable morning dew. The headline is garbled rather than the required sentence, and distinct dew is not evident, so compliance is partial. Quality: The apple and decorative leaves have coherent shapes and the layout and lighting are plausible; the two-line headline is visibly nonsensical, a clear semantic defect. Surface textures and foliage otherwise remain coherent."
+    },
+    {
+      "blind_id": "case_8c0b61d726c10b14",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The yellow board, central and bottom-right pink circles, and top-right and bottom-middle X marks remain recognizable. However, the existing middle-left X is replaced by an O, and the gap in the upper horizontal divider near the right edge is closed; both are unrequested alterations. Instruction: An O appears in the occupied middle-left cell. The expected edit adds an O in the empty top-left cell to complete the top-left/center/bottom-right diagonal. The edited board does not achieve a win, so the core requirement fails. Knowledge: The supplied explanation is blank; the scoring basis is the mandatory instruction-failure coupling, also consistent with the visible absence of three aligned O marks. Instruction failure ⇒ knowledge invalid. Quality: The edited board has clear, coherent circles, X marks and cell divisions with consistent flat coloring; a small break in the left outer border is the one minor visible imperfection."
+    }
+  ]
+}

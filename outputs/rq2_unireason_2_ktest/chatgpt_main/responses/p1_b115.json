@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b115",
+  "results": [
+    {
+      "blind_id": "case_ff9c44cdbe76bc09",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The neutral tabletop and backdrop remain, but the flat silver-edged power bank becomes a thick rounded white block, and the phone loses its home button and changes bezel details; connector placement also changes. Requested phone relocation is excluded. Instruction: The side-by-side devices become a stack; the expected phone resting on top of the power bank is clearly present, fully satisfying the requested spatial relation. Quality: Object silhouettes, surface textures and shadows are coherent, but the conspicuous foreground cable appears to connect two sockets of the power bank itself while the phone has no visible connection, a clear semantic flaw."
+    },
+    {
+      "blind_id": "case_67e9907ceb1541e3",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Vegetation replacement, added understory and obscured ground are allowed by the requested dense rainforest. The general sunlit woodland setting remains, but the visible sun moves substantially upward in the composition, a clear non-requested change. Instruction: Sparse straight-trunk woodland becomes dense broadleaf vegetation with overlapping upper crowns, palms, lower shrubs and hanging vines. This matches the expected multilayer tropical canopy completely. Knowledge: The supplied explanation calls for tall emergent trees, understory shrubs and intertwining vines; visible tall background trees, dense lower foliage and hanging vine strands provide these layers plausibly. Quality: Structure, lighting and foliage textures are generally coherent, with convincing filtered rays; some rounded canopy masses have slightly repetitive, sponge-like leaf texture, a minor imperfection."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b032",
+  "results": [
+    {
+      "blind_id": "case_d1adc4b699f47afd",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the blue rounded grid, cell colors and all six original marks remain in their original positions; slight surface speckling changes the formerly flat fills. Instruction: an X was added in the bottom-right cell, whereas the bottom-middle cell would complete the middle column of Xs. The added X achieves no three-in-a-row, so the essential win requirement fails. Knowledge: the supplied explanation is blank; the visible board and task imply the three-in-a-row rule, and the mandatory failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality: coherent grid and legible X/O symbols, clean layout and consistent colors; mild softness does not obscure any symbol or introduce a substantive artifact."
+    },
+    {
+      "blind_id": "case_b5547ff8a2dd94dc",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the upright red lipstick, front emblem and silver upper tube remain recognizable; excluding requested staging and lighting changes, the lower casing loses the original stepped collar and seam, changing its construction. Instruction: a centered lipstick, black textured curtain, dark mirrored surface, cool metal highlights and gold uppercase serif title are present with no extra props. A fully compliant result would place ONE SWIPE FOCUS. in the lower left and soften the reflection. Here the title is large and centered at the bottom, lacks the period, the reflection is fairly sharp, and broad white side margins interrupt the black background. These make compliance partial. Quality: the edited image has coherent cylindrical geometry, convincing metallic reflections and curtain folds, readable typography and a clean symmetrical composition without noticeable generation artifacts."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b003",
+  "results": [
+    {
+      "blind_id": "case_53826417a7f17c94",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the existing fruit, flower and ladybug motifs remain recognizable, but the original simple grid is subdivided with extra lines and surrounded by new numeric labels; the framing also changes and clips the outer content. Instruction: the source is a 3×3 picture grid despite the stated 9×9 Sudoku request. The edit adds ladybugs to all three empty picture cells and adds arithmetic-like marginal numbers instead of completing a Sudoku; repeated ladybugs remain in rows and columns, so even the visible picture-grid interpretation is not solved. Knowledge: the supplied explanation is blank; the score follows mandatory instruction-failure coupling. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: the colorful motifs and black lines are legible and coherent, but peripheral numbers and the outer grid are visibly cut off at the image edges, a noticeable layout flaw."
+    },
+    {
+      "blind_id": "case_d3de603a78ec01b6",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the same yarn, honey, eggs and milk remain opposite the same cow, hen, sheep and bee, with the white background and column order preserved. However, the left objects shift left and the right animals shift right, widening the central gap; object contours and proportions also change, visibly in the eggs, honey jar and sheep. Instruction: no connecting lines, pair labels or matching arrangement are added. Correct matching should visibly associate yarn with sheep, honey with bee, eggs with hen and milk with cow; none is indicated. Knowledge: the supplied explanation is blank; the score follows mandatory instruction-failure coupling. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: satisfactory coherent cartoon shapes, clean outlines, readable milk label, consistent flat illustration style and uncluttered layout; no noticeable generation artifact."
+    }
+  ]
+}

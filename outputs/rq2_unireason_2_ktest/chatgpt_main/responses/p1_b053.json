@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b053",
+  "results": [
+    {
+      "blind_id": "case_5c20107c3fb71a81",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the six 3x3 grids in three columns, arrows, headings and existing example symbols are replaced by four larger irregular grids; most protected layout and content changes. Instruction: instead of filling the two lower empty 3x3 grids, the edit reconstructs the entire puzzle into different grids and does not deliver either required solution. Knowledge: the supplied rule requires swapping X and O in the same occupied cells of the corresponding upper grid; these corresponding grids and swaps are absent. Instruction failure ⇒ knowledge invalid. Quality: symbols are mostly legible and the black-on-white presentation is clear, but multiple overlapping/doubled grid borders, inconsistent cell structures and a small corrupted mark on the upper-left X create distracting structural errors."
+    },
+    {
+      "blind_id": "case_4d09a11719c63cd3",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the arm region allowed for correction and the shirt area it exposes, the long dark hair, neck, red shirt with white cuffs and yellow bands, blurred shelves and open book retain their appearance and arrangement. Instruction: the connecting forearm is made thinner and lowered, but both upper arms still join one continuous handless horizontal limb. A successful correction would show anatomically separate arms with plausible hands or occlusion; the main unreasonable anatomy remains, so most of the correction is poorly implemented. Quality: colors, fabric, hair and background are coherent, but the continuous U-shaped arm connecting both sleeves without hands is a major anatomical failure."
+    }
+  ]
+}

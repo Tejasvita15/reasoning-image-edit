@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b034",
+  "results": [
+    {
+      "blind_id": "case_e04dac057962f906",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested repositioning, background and wind shadows, the black shorts, waistband and white cords remain recognizable, but the branding changes visibly from AGG to ABG and the circular logo lettering is altered. Instruction: the edit adds a sunny skatepark, blue gradient sky, lower-left shorts and lively upper-right tagline, as expected; however, the letters are yellow with a white outline instead of white with a light-yellow outline, and the final period is absent. These make compliance partial. Quality: garment structure, skatepark perspective, lighting and main text are coherent; the small circular garment logo has malformed lettering, a minor local imperfection."
+    },
+    {
+      "blind_id": "case_b070b28f38df7219",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the added bowl is excluded, but the main plate is reduced and fully reframed with a new dark rim; the meat contours and herb arrangement are also visibly changed, giving multiple non-requested alterations. Instruction: a blue-and-white ceramic bowl has been added on the tabletop beside the meal; a commonly used Chinese tableware item is present in the requested location, satisfying the literal instruction. Knowledge: the supplied explanation specifically expects chopsticks; none are visible, and a bowl does not satisfy that expectation, so the explanation is ignored. Quality: the edited image alone has coherent ceramic forms, plausible overhead perspective and shadows, natural food and wood textures, and no noticeable structural artifacts."
+    }
+  ]
+}

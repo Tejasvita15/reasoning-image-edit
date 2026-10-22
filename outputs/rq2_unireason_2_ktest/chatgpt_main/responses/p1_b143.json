@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b143",
+  "results": [
+    {
+      "blind_id": "case_4e1341e6b5b85d78",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the six dominoes, their existing pips, dividing lines and blue patterned background retain their arrangement; a small dark speck appears in the background near the lower right edge. Instruction: both red question marks remain, with no replacement dots; the required result is three dots above and six below, so the requested change is absent. Knowledge: the supplied addition rule requires 1+2=3 and 5+1=6, neither of which is depicted. Instruction failure ⇒ knowledge invalid. Quality: the domino outlines and symbols are coherent and clearly legible, with a small distracting background blemish at right; otherwise the graphic is clean."
+    },
+    {
+      "blind_id": "case_eb1768482f478a0e",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the animal and silhouette identities remain recognizable, but the whole worksheet layout is altered: the original animal column moves inward, an extra left column of repeated snakes and other animals is introduced, and dividers and arrows are added. Instruction: five horizontal connecting lines are added, but every pairing is wrong: tapir to primate, snake to long-tailed mammal, bird to tapir, primate to bird, and long-tailed mammal to snake. Correct lines should connect matching animal shapes across different rows; thus the matching requirement is poorly implemented throughout. Knowledge: the visible pairings repeatedly contradict the supplied animal-to-matching-shadow rule. Instruction failure ⇒ knowledge invalid. Quality: individual central drawings remain readable, but repeated snakes, the cropped bottom-left animal and clipped right tapir, and disconnected divider/arrow structures produce multiple distracting layout and semantic defects."
+    }
+  ]
+}

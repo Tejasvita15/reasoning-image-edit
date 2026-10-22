@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b009",
+  "results": [
+    {
+      "blind_id": "case_71c93fb0013f4bbd",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: beyond permitted tile rearrangement, the square 4-by-4 board becomes a six-column, five-row board, outlined dimensional numerals become solid print, and the surrounding wood grain changes. Most major non-instruction details differ. Instruction: the numbered tiles are replaced by many repeated digits and zeros, with no empty slot; the expected completed 1–15 sequence on the original 4-by-4 board is absent. Quality: the board has coherent wood texture and generally clean tile outlines, but the third-row third-cell symbol is malformed and ambiguous, a clear semantic artifact. Knowledge: the supplied explanation is blank; scoring follows the mandatory instruction-failure coupling, supported by the visibly incorrect puzzle structure. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_d7b8fb309cb12159",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding the expressly requested transformation of the shape, the plain white background and black line presentation are preserved; no other scene elements are present. Instruction: the single circle becomes many overlapping elliptical rings with a rounded bottom and broad, roughly cylindrical upper portion. A clearly spherical solid or coherent spherical wireframe is expected; the confused coil-like construction poorly implements that form. Knowledge: the supplied explanation explicitly requires a sphere, while the visible rings do not establish a coherent spherical surface. Instruction failure ⇒ knowledge invalid. Quality: structural coherence and artifact freedom are problematic: numerous broken, doubled and jagged intersecting curves, long stray vertical strokes below both sides, and a small detached mark below the figure make the line drawing visibly degraded; the white background itself is clean."
+    }
+  ]
+}

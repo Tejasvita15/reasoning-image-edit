@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b027",
+  "results": [
+    {
+      "blind_id": "case_a22309f7c754865f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The desk, lamp, papers, spectacles, envelopes, two open books, cup and chair retain their general arrangement, but the holder and its contents are greatly enlarged, the wood and floor textures change, and an extra black pen appears across the central book. Instruction: The visible change puts a single pen on the book; the expected result is the pen holder resting on the book. The holder remains at the upper left, so the requested relocation is not performed. Quality: Object shapes, lighting and desk perspective are coherent; a small area of the densely overlapping black pens in the holder blends together."
+    },
+    {
+      "blind_id": "case_9c7246c2b68a393f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The bottle, stopper, label position and dark background remain recognizable, but the label lettering is noticeably distorted and the stopper proportions and glass highlights are changed beyond the liquid recoloring. Instruction: The formerly clear liquid is now vivid pink; the expected edit is a reagent-induced liquid color change in this bottle, which is fully shown. Knowledge: The supplied explanation expects pink coloration from an alkaline liquid, and the pink liquid matches that stated outcome. Quality: Bottle shape, liquid level and reflective glass are coherent, but the conspicuously malformed label text is a clear visual flaw; the surrounding surfaces have no major structural artifacts."
+    }
+  ]
+}

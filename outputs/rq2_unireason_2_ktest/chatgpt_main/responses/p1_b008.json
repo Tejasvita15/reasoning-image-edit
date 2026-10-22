@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b008",
+  "results": [
+    {
+      "blind_id": "case_ebde620dbe0acdc5",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The neutral tabletop, silver 20-denomination coins and soft lighting remain recognizable, but the original coins are rearranged into a regular three-column grid and their individual relief and wear patterns change; these exceed adding the requested one coin. Instruction: The source shows seven coins; the edit shows twelve in four rows of three. A correct edit would show eight. The count was changed but the sole required numerical target is missed, a major failure. Quality: Structural coherence ✔, natural lighting and contact shadows ✔, artifact-free ✔, texture fidelity ✔; the edited coins have coherent round rims and recognizable embossed designs."
+    },
+    {
+      "blind_id": "case_3d22ed599eb02788",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Background, placement, decoration and advertising text are authorized changes. The white pump identity, pale lining, brown-edged sole and slim heel broadly persist, but the shoe design changes visibly, especially its less sharply pointed toe and altered upper profile. Instruction: The single product image becomes a prominent pair of white heels with gold glitter, a pale gradient and soft lighting. A correct poster would carry GRACE IN EVERY STEP at top and the exact requested slogan below. Both text blocks instead contain unrelated, malformed wording, so the visual advertising concept is achieved but the required copy is missing. Quality: Lighting, shoe surfaces and overall poster layout are coherent ✔; structural/text coherence ✘ and artifact-free ✘ because the large gold headline contains malformed letter fragments and nonsensical wording, and the black slogan is garbled, producing multiple distracting text errors."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b020",
+  "results": [
+    {
+      "blind_id": "case_78a6d5ec74f15d34",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The eight populated cells retain their arrow directions and arrangement, but their arrowheads and shafts are visibly redrawn with smoother, rounder edges, and the grid divisions and left border shift; these are multiple non-requested changes. Instruction: The question mark remains and no answer arrows are added; the expected replacement is a left downward arrow and a right rightward arrow, so the requested change is absent. Knowledge: Neither arrow specified by the supplied explanation is present in the target cell. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the diagram has coherent straight grid lines, clearly readable arrows and question mark, clean white fills, and no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_2ee5c92f1c76f27e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested relocation, background and poster additions, the brush bundle has changed bristle shapes and handle markings, while the hand has a changed finger grip and nail shapes; multiple retained subject details differ. Instruction: The edit adds a warm beige paper background, colorful paint strokes and splatters, a detailed hand and brushes at bottom left, large dark top-centered title and smaller bottom-right text. This matches the intended layout, but the title reads CREATIVE PAINTING WORKHOP and the workshop details are garbled rather than usable clean-font information, making compliance partial. Quality: Paper texture, paint marks and hand shading look coherent, but multiple conspicuous malformed words in the lower-right block and the malformed headline word create distracting semantic errors throughout the typography."
+    }
+  ]
+}

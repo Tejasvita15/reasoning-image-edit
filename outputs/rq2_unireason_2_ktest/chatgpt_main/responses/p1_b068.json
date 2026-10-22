@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b068",
+  "results": [
+    {
+      "blind_id": "case_cd37d9b284f5807a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 4,
+      "rationale": "Consistency: the squirrel retains its frontal stance and raised tail, and the path and railings retain their layout, but its facial proportions and sharply patterned fur change, while background foliage and branch detail are noticeably redrawn. Instruction: two large shelled nuts and red berries are added on the ground beside the squirrel; the expected addition of its preferred food is clearly present. Knowledge: nuts match the supplied squirrel-food explanation, although their size relative to the squirrel is somewhat implausibly large. Quality: animal anatomy, ground contact and scene lighting are coherent, but the unusually regular molded grooves of the nuts and uniform candy-like berry surfaces are conspicuously artificial textures."
+    },
+    {
+      "blind_id": "case_3a1cdc25f0b34639",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested viewpoint change, the black/red color scheme, paired crown stripes and tinted visor remain recognizable, but the gray background becomes white and the realistic reflective rendering changes to an outlined illustration with simplified surface details. Instruction: the three-quarter view becomes a symmetric frontal view, correctly centering the stripes and exposing both sides; however, compared with the reference, the crown is much taller, the visor tapers strongly downward instead of spanning a broad rounded rectangle, and the chin narrows to a point rather than a broad base. This is a frontal view with notable proportion and shape errors. Quality: assessed alone as an illustration, the helmet has clean continuous contours, coherent bilateral construction, smooth shading and intact vent/stripe details, without noticeable rendering artifacts."
+    }
+  ]
+}

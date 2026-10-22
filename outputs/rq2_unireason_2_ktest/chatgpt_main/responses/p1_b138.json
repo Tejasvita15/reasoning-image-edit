@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b138",
+  "results": [
+    {
+      "blind_id": "case_ab001f079a20fdd5",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: A, B, C, E, F, G and their arrangement remain recognizable, but the uninstructed D node has disappeared. Instruction: the edit deletes D while leaving both G and H connected to E; the expected change is deletion of H and its edge, so G still has its sibling and the request is not fulfilled. Knowledge: the supplied explanation specifically requires deleting H, which remains. Instruction failure ⇒ knowledge invalid. Quality: letters and circular nodes are legible and the white diagram is coherent, but the left branch from B ends dangling without a node, a clear structural flaw."
+    },
+    {
+      "blind_id": "case_7f3a291f89bc9b24",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding the solar appearance requested for modification, the centered composition and black background remain, with a small new pale mark at the lower-left edge. Instruction: the visible solar surface becomes more textured, but the whole bright orange disk remains exposed; the expected total eclipse requires an opaque circular occultation, which is entirely absent. Knowledge: the supplied explanation requires the sun to be completely obscured by a circular shadow; no such shadow is present. Instruction failure ⇒ knowledge invalid. Quality: the circular disk, mottled fiery surface and dark surround are visually coherent, with one small distracting pale artifact at the lower-left border."
+    }
+  ]
+}

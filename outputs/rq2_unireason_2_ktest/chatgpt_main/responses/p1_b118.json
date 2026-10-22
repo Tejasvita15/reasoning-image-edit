@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b118",
+  "results": [
+    {
+      "blind_id": "case_fe6a91a6acfbee92",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background, 4x4 grid, and positions and identities of the given pepper, cabbage and star symbols remain consistent; the given bottom-left apple is visibly redrawn, with a different leaf position and surface markings. Instruction: Seven blank cells acquire symbols, but the bottom-row third cell remains empty. A completed Sudoku should have each of the four symbols once in every row, column and 2x2 block; the top row instead has three peppers, and the second row three cabbages, so most additions fail the required solution. Knowledge: The supplied explanation is blank; the visible repetitions violate the Sudoku logic explicitly implied by the task. Instruction failure ⇒ knowledge invalid. Quality: The grid and cartoon shapes are coherent and clean, with consistent flat coloring; pale diagonal watermark fragments on the red apples are a minor visible blemish."
+    },
+    {
+      "blind_id": "case_dacce40dd957074f",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Most original non-requested content changes: the two-column five-animal layout becomes a multi-column six-row layout, several animal drawings are replaced, the fishbowl and tree hollow disappear, and multiple birdhouses and garbled text appear. Instruction: No connecting matches are drawn; instead the worksheet is replaced with unrelated animals, plants and repeated houses. The expected result would connect fish to fishbowl, squirrel to tree hollow, bee to hive, bird to birdhouse and dog to kennel. Knowledge: The explanation is blank; scoring follows the mandatory instruction-failure coupling. Instruction failure ⇒ knowledge invalid. Quality: Extensive unreadable pseudo-text, an incoherent winged mammal-like hybrid, and mismatched repeated habitat illustrations create severe semantic and structural errors despite clean white margins and bright colors."
+    }
+  ]
+}

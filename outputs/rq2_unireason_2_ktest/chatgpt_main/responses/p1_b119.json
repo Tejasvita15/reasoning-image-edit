@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b119",
+  "results": [
+    {
+      "blind_id": "case_7eddb76be6b2b7ff",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the main tree positions, snowy field and distant houses remain recognizable, but the upper-left overhanging branches disappear, branch structures change, and foreground snow tracks are simplified beyond the requested lighting/location change. Instruction: daylight becomes a dark blue, moonlit winter scene; the expected Arctic winter-solstice polar-night appearance is present. Knowledge: the supplied explanation requires the sun below the horizon; no sun is identifiable in this nighttime scene, whose white orb reads as a moon, so the visible result is compatible with polar night. Quality: coherent tree silhouettes, snow, houses and moonlit shading; no noticeable structural or texture artifacts."
+    },
+    {
+      "blind_id": "case_59ffd5b206ceb43e",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the person, clothes, hands, tablet, cup, table, windows and floor remain visually unchanged; chair modifications are excluded. Instruction: the chair shell and mechanism move downward, but a thick added cushion occupies the gap and the pelvis and legs remain at their original height and angles. A lower sitting position with a more comfortable posture was expected, so this only partially implements the request. Knowledge: the explanation calls for lowering chair height; the shell is lower but the effective sitting surface stays high, a clear conflict with the intended lowering. Quality: room lighting, limbs and furniture are coherent, but the stacked bulging seat cushions create a conspicuous awkward double-seat structure."
+    }
+  ]
+}

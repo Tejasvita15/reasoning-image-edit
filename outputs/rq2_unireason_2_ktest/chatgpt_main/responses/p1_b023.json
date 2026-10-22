@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b023",
+  "results": [
+    {
+      "blind_id": "case_8ce2569286ffe8bd",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white reflective setting and three ball identities remain, but the baseball has different clean leather and a completely different seam orientation, and the balls have shifted positions within the frame. Resizing itself is excluded. Instruction: The baseball is now enlarged, while the tennis ball remains much smaller and the golf ball smaller still. A correct result would give all three the original baseball size; no size equality is achieved, so the requested change is not followed. Quality: Structure, naturalness, artifact freedom and texture fidelity are satisfactory; the spherical forms, stitching, felt, dimples and soft reflections are coherent."
+    },
+    {
+      "blind_id": "case_75883858f170e39d",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Line a, the O label, the a label and white background retain their arrangement, but an additional thin diagonal stroke appears to the right of O as a distinct unrequested element. Instruction: The original oblique b remains in essentially its original direction; the added thin stroke also runs obliquely and crosses a away from O. A correct edit would rotate b to meet a at a right angle at O, which is not achieved. Knowledge: The supplied explanation requires perpendicular directions at O; the visible intersection remains clearly non-right-angled. Instruction failure ⇒ knowledge invalid. Quality: Labels are readable and the principal lines are coherent, but the detached thin diagonal creates one clear stray-line artifact and diagrammatic ambiguity; the white background remains clean."
+    }
+  ]
+}

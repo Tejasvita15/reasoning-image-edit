@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b087",
+  "results": [
+    {
+      "blind_id": "case_0eb3eb1b40026d3e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested setting, placement and lighting changes, the left spout/right loop-handle configuration remains, but the broad squat teapot body becomes rounder and the distinctive red glaze patch pattern is substantially changed. Instruction: The isolated pot is placed on a coarse ceramic tray with upper-left light, gray/brown/red tones and upper-right smoke. A perfect edit would retain the pot in a pale rice-paper-like ink-wash setting with a faint wisp; instead the upper background is predominantly darker gray and the smoke is conspicuous, so compliance is partial. Quality: Structure ✔, natural light and shadows ✔, artifact-free ✔, texture fidelity ✔; the ceramic pot, tray and tabletop are coherent and convincingly rendered."
+    },
+    {
+      "blind_id": "case_8328f58618c80eab",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested bottle-number change and necessary repositioning, the white background, brown cola, black caps and red labels remain consistent, but the prominent Coca-Cola label lettering is visibly reshaped and distorted. Instruction: The original six bottles become seven prominent foreground bottles plus six additional rear bottles, with thirteen separate caps visible. The expected result is exactly seven bottles total; the extra rear row is a major count error. Quality: Bottle structure and plastic highlights ✔, white-background presentation ✔; artifact-free ✘ because several large label logos are warped, with malformed overlapping-looking strokes. These are noticeable typography artifacts."
+    }
+  ]
+}

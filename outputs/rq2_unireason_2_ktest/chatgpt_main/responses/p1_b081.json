@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b081",
+  "results": [
+    {
+      "blind_id": "case_9fbced64e02c85e2",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The original five-by-five grid is replaced by a largely undivided four-column arrangement; numerous circles disappear, change color or move, and the grid geometry changes throughout. Instruction: The top-left question mark remains, with no blue circle inserted; the requested completion is absent. Knowledge: The supplied explanation requires a blue circle, which is missing. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the chart has coherent straight borders, legible question mark, distinct colored circles and clean flat fills; moderate softness does not impede recognition."
+    },
+    {
+      "blind_id": "case_dfae75bfc32876a7",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The light source and incoming wave are reduced, the slit barrier is moved left and resized, and the angled right screen becomes a large frontal rectangle; the scene layout is extensively changed, beyond adding its requested pattern. Instruction: Blue curling, roughly concentric lines are added to the right board, but the expected double-slit pattern of alternating parallel bright and dark fringes is not drawn. The target is marked but the essential pattern is wrong. Knowledge: The irregular spiral/rings do not depict the alternating interference fringes described in the explanation. Instruction failure ⇒ knowledge invalid. Quality: The source, barrier and board are recognizable with clean surfaces, but the central drawing has conspicuously uneven, overlapping and abruptly broken curves, creating a clear diagrammatic flaw."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b048",
+  "results": [
+    {
+      "blind_id": "case_c04fbf5878f80541",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the close-up tabletop has become an almost complete small table, changing its apparent proportions, framing, leg arrangement, and the wall/floor background; only the general white finish remains. Instruction: the tabletop edges have been rolled over and the rear corner rounded, but the prominent front corner still comes to an angular point rather than a rounded outline; the anti-collision change is partial. Knowledge: the explanation calls for rounded table corners; rounding the upper edge while retaining the pointed front outline leaves a clear conflict with that expectation. Quality: viewed alone, the stylized table has coherent solid surfaces, cylindrical legs, smooth shading, and plausible contact shadows without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_0e9342e4b9bebd97",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the gray pair and broad wall/rack placement remain, but the rack right support has moved inward and the beige footwear has changed from two front-facing shoes to one visible side-facing shoe with altered detail. A pale rectangular wall patch also remains in its former position. Instruction: one beige shoe is now at the far right, but the gray pair stays on the left and the other beige shoe is not separately visible; the expected result is all four shoes relocated to the right, so this is partial compliance. Quality: the rack and footwear are generally coherent with plausible lighting, but a conspicuous pale rectangular patch with a curved upper-left boundary interrupts the otherwise plain wall behind the shelf."
+    }
+  ]
+}

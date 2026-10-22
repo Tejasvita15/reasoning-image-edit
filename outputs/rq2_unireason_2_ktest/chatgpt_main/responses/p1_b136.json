@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b136",
+  "results": [
+    {
+      "blind_id": "case_4142e6b87195488f",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding the requested howling poses and plural wolves, the original foreground trees and crossing branches disappear, the bright hillside becomes a dark distant forest, and the main wolf’s body orientation and coat markings change; most major retained scene details are replaced. Instruction: The single forward-facing wolf becomes three wolves with raised muzzles and open mouths, fully depicting the requested howling scene. Knowledge: The prominent front wolf raises its head and visibly howls, exactly matching the supplied explanation. Quality: Anatomy, snowy footing and lighting are coherent; a minor overly regular, blended fur texture across the shoulders gives the coats a slightly artificial appearance."
+    },
+    {
+      "blind_id": "case_d62e312ade1d093c",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The green vineyard, leaves, tendrils and softly blurred background are replaced by a tan surface in strong sunshine, and several additional bunches replace the single suspended bunch; most non-requested scene elements change. Instruction: The blue-purple grapes become orange/amber and acquire speckled surfaces, but remain round and plump rather than visibly shrunken, wrinkled raisins. The requested dried state is largely missing. Knowledge: The explanation requires shrinkage and brown raisins; the large spherical fruits do not show that outcome. Instruction failure ⇒ knowledge invalid. Quality: Evaluated alone, the bunches have coherent fruit shapes, consistent sunlight and cast shadows, convincing granular surface detail and natural depth of field, without clear structural artifacts."
+    }
+  ]
+}

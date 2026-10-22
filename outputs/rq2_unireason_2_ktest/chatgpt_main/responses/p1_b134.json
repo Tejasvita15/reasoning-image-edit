@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b134",
+  "results": [
+    {
+      "blind_id": "case_21b4cfa4c5ae4703",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested reversal and its occlusion changes, the blue background, metal pole and ball finial, and red-white-blue fabric identity remain consistent; the star pattern has been noticeably redrawn with different spacing and rows. Instruction: The pole moves to the right and the flag extends left, correctly establishing the rear orientation. However, the reference shows a much broader hanging flag and different central-fold occlusion; the edit compresses the hanging striped section and retains a pronounced overlapping curl, so the viewpoint match is partial. Quality: The edited image alone has coherent pole construction, continuous stripes and fabric folds, plausible shading and clean contours, with no clear perceptual artifact."
+    },
+    {
+      "blind_id": "case_1429834fa125810a",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white studio background, round green watermelon, top stem scar and grounded shadow remain recognizable; excluding the lower-front cut area, the rind pattern and surface texture are noticeably redrawn into darker, sharper branching patches. Instruction: Only a shallow pale patch appears along the bottom front while the fruit remains essentially whole. A cut watermelon should show an opened section of the fruit; this surface shaving poorly implements that change. Knowledge: The supplied explanation requires exposed red flesh, but only pale green-white rind is visible. Instruction failure ⇒ knowledge invalid. Quality: Judged alone, the fruit has a coherent rounded shape, a clean shallow exposed patch, plausible surface detail and contact shadow, without noticeable structural artifacts."
+    }
+  ]
+}

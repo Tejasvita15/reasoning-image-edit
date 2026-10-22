@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b021",
+  "results": [
+    {
+      "blind_id": "case_5e5ad694adb01593",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested poster layout, background, lettering and glow, the flower arrangement, bud, gold stems and leaves, and faceted vase silhouette remain recognizable and similarly arranged. The crystal petals have noticeably simplified, flatter facet patterns instead of the original intricate internal reflections. Instruction: 1. The plain background becomes a pink/white floral poster with glow and a gold-accented script title. 2. The expected result is a clear crystal-flower centerpiece with soft refraction, subtle petals and the title Crystal Moments. 3. The centerpiece, exact title, handwriting and color scheme are present; the broad bright halo and prominent background petals are less subtle than requested. 4. This is minor deviation from otherwise fulfilled changes. Quality: Structure ✔, legible lettering ✔, coherent decorative lighting ✔, artifact-free ✔ and intact glass/metal textures ✔; no noticeable structural flaw."
+    },
+    {
+      "blind_id": "case_e5c087b5538fdf67",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding correction of the missing/malformed limbs, the tan coat, general stance and outdoor path setting are retained. However, the eyes are enlarged and reshaped, the muzzle and open mouth are changed, and the tail outline and position shift visibly. Instruction: 1. A short dangling front-limb stub appears while facial details change. 2. The expected correction is a dog with plausible complete limbs and coherent body anatomy. 3. The conspicuously absent second foreleg is not restored to a complete leg and paw, and the rear-leg arrangement remains incomplete. 4. The main anatomical correction is poorly implemented, a major omission. Quality: Structure ✘: a forelimb terminates in a blurred stump and the leg arrangement is severely incomplete. Lighting and fur texture ✔, but the broken anatomy is a major structural failure."
+    }
+  ]
+}

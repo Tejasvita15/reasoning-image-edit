@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b093",
+  "results": [
+    {
+      "blind_id": "case_3b2a81e5f0a105a1",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the fern arrangement, mossy rock and forest layout remain recognizable, but the dog has a broader dark muzzle with an open mouth, a substantially smoother coat and heavier body; background contrast also increases. These changes exceed the permitted posture edit. Instruction: the standing dog becomes broader with a bent inner hind leg, but no hind leg is visibly raised sideways into the expected marking posture; the requested action is absent. Knowledge: the supplied explanation requires lifting one leg to urinate, whereas the visible paws remain down near the ground. Instruction failure ⇒ knowledge invalid. Quality: forest textures and lighting are coherent, but the dog has conspicuously blended, plastic-looking fur and an indistinct dark groin/inner-hind-leg junction, producing noticeable anatomical and texture flaws."
+    },
+    {
+      "blind_id": "case_4c10437f7b26ee0f",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the leaf silhouette, stem, composition and blue-green background remain aligned, but the fine leaf surface and small vein network become conspicuously coarse and embossed, a clear change beyond color. Instruction: the dominant green leaf becomes vivid red across its entire blade, correctly realizing the core recoloring; visible secondary leaves at the upper right remain green, a minor omission from the plural request. Quality: the leaf shape, branching veins, stem connection, backlighting and background are coherent and free of duplicated structures; slightly exaggerated, relief-like surface texture is a small naturalness imperfection."
+    }
+  ]
+}

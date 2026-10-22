@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b101",
+  "results": [
+    {
+      "blind_id": "case_72fc7bfac6389b94",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding the requested shadow change, the sandy, pebbled ground is replaced throughout by snow, and the post is wider with altered grain and missing original knots; the upright post and general framing remain recognizable. Instruction: the long leftward shadow remains and becomes broader; the expected result under the supplied explanation is a post without a cast shadow, so the requested change is completely misinterpreted. Knowledge: the retained long shadow directly contradicts the supplied no-shadow explanation. Instruction failure ⇒ knowledge invalid. Quality: ✔ coherent post geometry, ✔ natural snow texture and directional lighting, ✔ clean edges and credible wood grain, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_3dd17453fd135f40",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding completion of the missing right side, the existing plate decoration is moved and darkened into more distinct dot clusters, the inner basin gains a pronounced circular boundary, and the tabletop grain pattern changes. The pale ceramic color and wooden surface remain broadly similar. Instruction: the large missing right-hand section has been filled into a continuous round plate with an intact rim, fully satisfying completion. Quality: ✔ coherent circular rim and basin, ✔ credible ceramic reflections and wood texture, ✔ clean decoration and edges without visible seams, duplication or structural artifacts."
+    }
+  ]
+}

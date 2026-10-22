@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b014",
+  "results": [
+    {
+      "blind_id": "case_b769621fea659e01",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested new setting, lighting, placement and brim/bow pose, the hat retains its broad form but its distinctive lace crown band is lost, the fine crochet becomes coarse open weaving, and the scalloped lace edging is changed. Instruction: the isolated hat becomes a centrally hung hat on aged pale wooden boards with warm slanting light and a dangling bow. The expected nostalgic door composition is present, but the upper-left handwriting is garbled rather than the required sentence, and the brim does not clearly tilt upward; partial compliance. Quality: structure and lighting are coherent and the woven material is readable, but the conspicuously nonsensical lettering is a clear semantic artifact."
+    },
+    {
+      "blind_id": "case_e5e9e6054ecd5150",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the elephant, standing pose, ivory tusks and woodland setting remain recognizable, but the cloud pattern and foliage are visibly redrawn, and the eyes, trunk contour and foot positions change beyond any clear correction. Instruction: the image redraws the same bright red elephant with somewhat altered proportions; a successful correction would resolve its conspicuously unnatural skin coloration. That red coloration remains throughout, and no clear unreasonable feature is corrected, so the requested correction is not fulfilled. Quality assessed alone: structural coherence, painterly naturalness, artifact absence and texture fidelity are satisfactory; the four legs, trunk, tusks and ears form a coherent stylized elephant, with clean contours and consistent painted lighting."
+    }
+  ]
+}

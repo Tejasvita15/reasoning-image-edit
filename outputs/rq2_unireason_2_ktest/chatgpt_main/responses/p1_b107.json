@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b107",
+  "results": [
+    {
+      "blind_id": "case_38203d24ff0b245e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background, plot placement, numerical ranges and center remain, but axis typography is replaced by heavy irregular lettering and the curve, ticks and frame become substantially thicker. Instruction: The bell retains essentially its original width and approximately 0.4 peak at x=2; increasing variance fourfold should broaden it, so the requested distribution change is absent. Knowledge: The supplied explanation also requires horizontal expansion about the unchanged center, which is absent. Instruction failure ⇒ knowledge invalid. Quality: The standalone plot is legible and structurally coherent, with clean whitespace and an intact curve, but lettering has visibly rough, uneven contours."
+    },
+    {
+      "blind_id": "case_c643f81dc1e01aae",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested room, lighting, poster layout and beige coloration, the sofa changes from three separate back cushions to two asymmetrical sections, and its sloping arms become tall rounded vertical arms; the original furniture construction is not preserved. Instruction: A beige three-seat sofa now anchors a restrained bright room with white walls, plants, books, natural window light and generous whitespace. This fulfills the visual setting, but the headline is extensively misspelled and garbled rather than the specified sentence, making compliance partial. Quality: Furniture geometry, room perspective, plant forms and soft illumination are coherent; the prominent headline contains obvious malformed words and lettering, a clear semantic defect."
+    }
+  ]
+}

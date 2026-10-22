@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b114",
+  "results": [
+    {
+      "blind_id": "case_1f744335afcb13ba",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white setting and folded tissue remain recognizable, but an extra horizontal fork appears below the plate, the plate outline and rim proportions change, and the left fork is lengthened upward. Instruction: The visible change adds a fork; the expected result is the existing knife resting on the tissue. The knife instead remains on the bare surface at the right, so the requested placement is absent. Quality: Structural coherence, naturalness, artifact absence and texture fidelity are satisfactory; the plate, cutlery and folded fabric have coherent shapes and plausible reflections and shadows."
+    },
+    {
+      "blind_id": "case_8ca5948bb50f71cf",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding permitted match movement, the white background remains consistent, but many additional sticks appear and the matchheads change from rounded blue tips to flattened, outlined blue junctions. Instruction: The isolated center square and outer border become a dense grid with eight clearly closed small square cells and an open bottom-center region. The expected edit moves exactly four existing sticks to yield three squares; the much larger number of sticks and squares completely misinterprets that constraint. Knowledge: The supplied explanation is blank; the task itself implies conservation of the existing sticks and a three-square result. The observed grid fails those conditions, and the score follows the mandatory coupling. Instruction failure ⇒ knowledge invalid. Quality: The white field and gold shafts are clear, but fused blue junctions obscure individual match ends and the two hanging bottom-center shafts create visibly awkward truncated structures; these are noticeable structural artifacts."
+    }
+  ]
+}

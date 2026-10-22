@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b139",
+  "results": [
+    {
+      "blind_id": "case_c62105dc08f120ae",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding the necessary shape change and bisectors, the blue fill and plain light background remain recognizable, but an extensive set of unrelated black oblique strokes has been added around the shape. Instruction: The wide rectangle becomes a rotated square with horizontal and vertical vertex-to-center lines; the four angle bisectors meet at the same central point, fulfilling the requested geometry. Knowledge: The supplied explanation calls for a blue square, which is visibly present. Quality: The square and central cross are clean and coherent, but disconnected oblique strokes around it and their abrupt cropping create a conspicuously cluttered, unfinished diagram."
+    },
+    {
+      "blind_id": "case_eb22e1e6197a1118",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The oval bangle, two front-left charms, attachment loops, white background and framing are retained; the small flower charm has subtly altered petal and recessed-circle contours. Silver-related highlight and shadow changes are excluded. Instruction: The gold band, loops and both charms have all become neutral silver with metallic reflections, exactly realizing the requested recoloring. Quality: The continuous bangle and distinct charm attachments are structurally coherent, with smooth reflective metal, natural grounding shadows and no noticeable generation artifacts."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b047",
+  "results": [
+    {
+      "blind_id": "case_e4ab2937a2316a8c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the computer-position changes are excluded; the monitor desktop is horizontally reversed (Start menu now right, Windows emblem left), the monitor and peripheral layout shifts, and the background gear pattern changes. Instruction: the white computer moves from right to left and the black/red computer from left to right, exactly accomplishing the requested exchange. Quality: structure, lighting and case textures are coherent; a small area of keyboard keys has blended, irregular boundaries."
+    },
+    {
+      "blind_id": "case_c1563de0a6d01e1e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background and bare arm remain, but the fingers change from an open pinching pose to a closed grip and the forearm/elbow angle changes noticeably. Instruction: a white strip is added across the palm near the wrist. The expected result is a bandage applied appropriately near the bleeding elbow; the strip is at the hand, leaving the elbow unbandaged, a major omission. Knowledge: the supplied explanation calls for tying the bandage outside the elbow at its distal end; the visible strip is held at the palm instead. Instruction failure ⇒ knowledge invalid. Quality: satisfactory hand and arm anatomy, natural lighting, coherent fabric texture and clean edges, without noticeable artifacts."
+    }
+  ]
+}

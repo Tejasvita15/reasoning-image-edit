@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b063",
+  "results": [
+    {
+      "blind_id": "case_1159adaa88c16b2f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "Consistency: beyond the allowed hat replacement, the hands shift left and change pose, hair becomes straighter, the sweatshirt neckline and cuffs change, and the background fountain/car framing changes. Instruction: the baseball cap becomes a woven straw hat with a very wide brim and colorful floral band, largely meeting the requested Mexican festival hat; its relatively flat brim and straight-sided crown are a minor departure from the characteristic sombrero silhouette. Knowledge: the broad straw construction supports the supplied sombrero expectation, with that small shape deviation. Quality: coherent face and hands, convincing woven straw and embroidered flowers, natural shadows and fabric, and no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_f059fe3c07e9023d",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": 4,
+      "rationale": "Consistency: hands, finger positions, jeans and seams, chair, background, and leg outline remain unchanged outside the wound area. Instruction: the bloody abrasion is removed and replaced with closed skin, as expected for healing, but a reddish rough-looking edge remains to the left and below the repaired area, a minor incompleteness. Knowledge: the explanation expects no remaining wound; the central skin is intact with no blood or open cut, although the residual irritated-looking edge slightly weakens the fully healed appearance. Quality: anatomy, clothing, and lighting are coherent, but a conspicuous smooth peach-colored patch on the knee lacks the surrounding skin texture and has a visible boundary, giving one clear retouching artifact."
+    }
+  ]
+}

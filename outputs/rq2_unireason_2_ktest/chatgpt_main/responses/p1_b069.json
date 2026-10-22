@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b069",
+  "results": [
+    {
+      "blind_id": "case_1939c1bad69cc885",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the background, tabletop, upper-left lettering and beer can retain their arrangement and appearance, but the non-target cola bottle is visibly erased into a pale silhouette. Instruction: the cola is blanked while the clearly labeled beer remains; the expected result removes the beer, so the requested selection is completely misinterpreted. Knowledge: the supplied explanation requires removing alcohol, contradicted by the retained beer. Instruction failure ⇒ knowledge invalid. Quality: the can has coherent shape, reflections and readable main labeling, but a conspicuous ghost bottle with a gray shaded base remains against the white background; upper-left watermark lettering is also present."
+    },
+    {
+      "blind_id": "case_57ba83ab15c116a0",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the flame silhouette, wick location and holder outline remain recognizable, excluding the requested flame-color change; however, the surrounding dark background acquires a visible green cast and the holder becomes strongly red with green lower areas. Instruction: yellow-orange flame regions change to saturated red around a yellow center, rather than the expected yellow-green flame; the requested coloration is mostly missing. Knowledge: the supplied barium explanation specifies yellow-green, whereas the flame is predominantly yellow and red. Instruction failure ⇒ knowledge invalid. Quality: the flame and holder are structurally readable, but the broad flat red lower flame and conspicuous red/green color spill look unnatural; texture otherwise remains coherent."
+    }
+  ]
+}

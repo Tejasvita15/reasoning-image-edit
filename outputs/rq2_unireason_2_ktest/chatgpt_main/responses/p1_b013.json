@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b013",
+  "results": [
+    {
+      "blind_id": "case_fe7e7a1ce401ff85",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The curved branch, green background, framing and original head placements remain recognizable and largely unchanged, but multiple original birds have lost their fine breast feather texture and brown-green coloration, and their tails have been smoothed and recolored gray; these are not required by adding a bird. Instruction: The source has five heads; the edit adds a forward-facing bird near the center, with the original central bird visible behind it, giving six little birds as requested. Quality: Structural coherence is mostly satisfactory and the perch and background are natural, but the breasts are conspicuously smeared into smooth yellow blobs and the long tails have blurred, flattened surfaces inconsistent with the sharper heads and bark; texture fidelity and artifact freedom are problematic."
+    },
+    {
+      "blind_id": "case_0cf2e0a863567cbd",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the requested painting replacement, the hand and brush retain the broad pose but the hand has been reshaped, shifted and heavily retextured; the bounded tilted canvas and plain white surroundings have become an expanded cream surface with additional landscape at the far right. Instruction: The pink palm-tree scene becomes a monochrome bamboo-like tree and waterside landscape with seals. The expected edit is the specified Xu Beihong painting, identified in the supplied explanation as Galloping Horse; no horse appears, so the intended painting is absent. Knowledge: The explanation explicitly requires Galloping Horse, whereas the visible content is vegetation and water. Instruction failure ⇒ knowledge invalid. Quality: The brush and landscape are recognizable with coherent broad lighting, but the hand has conspicuously exaggerated, etched wrinkles and dark cutout-like contours, creating a clear unnatural surface/edge artifact; the ink scenery itself remains coherent."
+    }
+  ]
+}

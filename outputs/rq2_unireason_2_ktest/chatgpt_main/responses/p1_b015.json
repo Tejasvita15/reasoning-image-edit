@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b015",
+  "results": [
+    {
+      "blind_id": "case_5bf0e9751cf49387",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the curved perch, foliage arrangement and framing remain recognizable, but leaf surface textures are substantially redrawn and background foliage contrast, detail and lighting change noticeably. The organism itself is excluded from consistency. Instruction: the striped caterpillar remains a caterpillar; a fully grown adult should be a butterfly, so the required transformation is absent. Knowledge: the supplied explanation explicitly requires turning into a butterfly, while no wings or adult butterfly form appear. Instruction failure ⇒ knowledge invalid. Quality: coherent caterpillar anatomy, continuous stem, plausible foliage and depth of field, with intact textures and no clear structural artifacts."
+    },
+    {
+      "blind_id": "case_a84b90a332a08b8e",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background, yellow color and right-pointing sharpened end are preserved, but the existing shaft is noticeably straightened and made slimmer beyond the repaired left end. Instruction: the ragged broken end becomes a continuous yellow shaft with a clean closed end; the expected intact pencil is present, completing the requested repair. Quality: the pencil has coherent hexagonal facets, a clean wooden cone and graphite point, natural contact shadow and continuous surface texture, without noticeable artifacts."
+    }
+  ]
+}

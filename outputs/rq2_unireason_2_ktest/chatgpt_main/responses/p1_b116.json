@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b116",
+  "results": [
+    {
+      "blind_id": "case_0884a3573426b891",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white setting, rabbit order and coat-color identities remain, but the rabbits have visibly reshaped faces and fur patterns, and conspicuous regular black speckles have appeared across the backdrop. Instruction: the visible change is a redrawing of the animals; the expected result has exactly three rabbits, whereas four distinct rabbits remain, so the requested count change is absent. Quality: anatomy, seated arrangement and lighting are coherent, but the repeated black dots across the background and floor are a clear distracting artifact; the fur and facial features otherwise remain readable."
+    },
+    {
+      "blind_id": "case_62a0132104e831bf",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "Consistency: the country positions, silhouettes, labels, cropped edge countries and black surroundings are preserved; the black boundary and lettering strokes are slightly heavier. Requested color changes are excluded. Instruction: white regions become green, yellow, cyan-blue and red; a completed four-color map should color every country with differently colored edge-sharing neighbors. The map is colored, but southern Italy remains partly white and several neighboring countries share a fill, so compliance is partial. Knowledge: the supplied explanation is blank; the scoring basis is the adjacency rule explicitly implied by the Four Color Theorem task. Yellow Czech Republic and Austria share a border, yellow Switzerland and Italy share a border, and red Slovakia and Hungary share a border: multiple violations justify 2. Quality: the map silhouettes and labels are legible and the flat graphic style is coherent, but Italy has a conspicuous yellow-to-white fading fill rather than a clean uniform region."
+    }
+  ]
+}

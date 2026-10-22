@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b004",
+  "results": [
+    {
+      "blind_id": "case_600d08b5ad239a42",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding shoe movement, overlap and resulting shadows, the orange wooden surface remains but its grain pattern changes noticeably, and the slipper uppers have a coarser, lumpier fabric texture; white color and basic slipper design remain. Instruction: the separated slippers now overlap diagonally. A successful edit would show one inserted into the opening of the other. The upper slipper lies across the lower slipper with its sole outside the lower upper, so containment is not convincingly implemented: major omission. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: structure ✔, natural lighting and contact shadows ✔, artifact-free ✔, texture fidelity ✔; the two slippers and wood form a coherent photograph."
+    },
+    {
+      "blind_id": "case_72b2d2de14a4f02b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: white cup material and the neutral studio surface remain, but an additional cup appears and the scene is reframed with enlarged cups and a cropped upper rim; these exceed the requested movement. Instruction: the left cup remains lying beside the upright cup while a third cup is inserted into the upright one. The expected result is the original left cup moved onto the other, leaving two cups. The stacking relation is depicted using an added cup instead of moving the requested object, a major omission. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: structure ✔, naturalness ✔, artifact-free ✔, texture fidelity ✔; smooth continuous rims and walls, plausible nested overlap, ceramic highlights and grounded shadows make a coherent three-cup arrangement."
+    }
+  ]
+}

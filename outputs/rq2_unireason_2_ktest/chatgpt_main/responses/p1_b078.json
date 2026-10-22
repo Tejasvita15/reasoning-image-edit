@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b078",
+  "results": [
+    {
+      "blind_id": "case_25d6acf33f4a75bb",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the two left diagrams have been extensively distorted, overlapped and renumbered; only the right diagram largely preserves its structure and numbers. Instruction: the target question mark remains unchanged instead of being replaced by 45, so the requested edit is absent. Knowledge: the supplied sum rule requires 114 - 12 - 23 - 34 = 45, which is not supplied. Instruction failure ⇒ knowledge invalid. Quality: structural coherence and artifact checks fail because the left diagrams contain broken, crossing outlines and garbled or overlapping numerals; the clean right diagram does not resolve these major graphic failures."
+    },
+    {
+      "blind_id": "case_5845284d143bff67",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: all three balls disappear, the turf becomes a markedly different patchwork texture, the white boundary is redrawn with a woven appearance, and the dark upper-right object is absent. Instruction: the image removes every ball; the supplied correct outcome retains all three, including the balls overlapping the boundary, so this completely misinterprets the requested selection. Knowledge: the explanation explicitly says all soccer balls should be retained, contrary to the empty result. Instruction failure ⇒ knowledge invalid. Quality: the boundary remains recognizable, but multiple distracting surface artifacts cover the field, including repeated holes, large flat green patches, and an unnatural mesh texture across the turf and line."
+    }
+  ]
+}

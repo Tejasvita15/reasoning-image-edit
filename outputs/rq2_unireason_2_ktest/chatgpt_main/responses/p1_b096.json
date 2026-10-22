@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b096",
+  "results": [
+    {
+      "blind_id": "case_a8214e75c0f95669",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the three triangle outlines, all peripheral numbers, central 12 and 21, and their layout remain visually unchanged apart from image scale. Instruction: the rightmost center still contains a question mark; the requested replacement with 32 is entirely absent. Knowledge: the supplied product-divided-by-10 rule gives 4 × 8 × 10 / 10 = 32, which is not displayed. Instruction failure ⇒ knowledge invalid. Quality: coherent triangle geometry, legible numbers and question mark, and clean white background; slight edge softness does not impair readability."
+    },
+    {
+      "blind_id": "case_b3e1bc3feac93d30",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the first seven circles retain their spoke orientations, but the bottom-middle circle has disappeared and the grid is shifted/cropped so its left outer border is absent. Instruction: the question mark is replaced with a circle, but it contains an upward spoke, a short rightward stroke and a disconnected lower-right segment instead of the single correct radial connector; the requested pattern is poorly implemented. Knowledge: the supplied explanation requires the bottom-middle downward spoke rotated 90 degrees counterclockwise, producing a single rightward spoke reaching the rim. The added figure fails that geometry. Instruction failure ⇒ knowledge invalid. Quality: the grid and most circles are coherent and clear, but the bottom-right figure has a conspicuous disconnected diagonal and an awkward short stroke adjoining the inner ring, making its structure ambiguous."
+    }
+  ]
+}

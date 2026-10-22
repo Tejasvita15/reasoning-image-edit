@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b066",
+  "results": [
+    {
+      "blind_id": "case_6c41d11bd7501b5f",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the outer border and eight existing line motifs remain recognizable, but the grid proportions change visibly: horizontal dividers and the bottom edge move downward relative to the frame. Instruction: the blank gains a right-pointing chevron and a thin rounded rectangle, rather than a square containing the required top-left-to-bottom-right diagonal; the target region is edited but the principal shape is wrong. Knowledge: the supplied XOR explanation requires a single descending diagonal, whereas the new chevron includes an extra ascending segment and does not complete the expected square. Instruction failure ⇒ knowledge invalid. Quality: the black-and-white line diagram is legible, but the thin rounded rectangle overlapping the lower-right motif and the awkward unbounded last cell are clear structural distractions."
+    },
+    {
+      "blind_id": "case_190f7579615aae5e",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the frame, top-left diamond, top-right concave four-pointed star, and bottom-left dotted diamond retain their forms and relative positions; the outlines acquire a small amount of additional rough grain. Instruction: the lower-right tag-like shape is replaced with an empty straight-sided diamond. The requested pattern completion should instead be a concave four-pointed star with a central dot, so both defining features of the answer are missing. Knowledge: the provided explanation explicitly requires that dotted four-pointed star, which is absent. Instruction failure ⇒ knowledge invalid. Quality: the four shapes and rectangular border are coherent and easily readable, with a minor speckled roughness around the black outlines; no major structural corruption is visible."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b099",
+  "results": [
+    {
+      "blind_id": "case_b89a8b0f5f2283f1",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background and four-triangle arrangement remain, but lettering and line weights are redrawn throughout, and the last triangle's bottom 1 becomes 0. Instruction: the question mark becomes a circled 3; the expected replacement is 17, so the target is edited but the essential numerical answer is wrong. Knowledge: the supplied rule requires 7+3+7=17 from the preceding triangle, not 3. Instruction failure ⇒ knowledge invalid. Quality: viewed alone, the diagram has clean circles and connectors, readable numerals, a coherent layout and no visible rendering corruption."
+    },
+    {
+      "blind_id": "case_92e6e1bce1613a0e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the two overlapping mangoes, their broad orientations and white backdrop remain; excluding ripening color and skin changes, the rear mango gains a conspicuous protruding stem at its left tip and the ground shadows change from dark gray to softer brown. Instruction: both green fruits become predominantly golden yellow with orange shading and small green areas, clearly depicting their ripe appearance. Knowledge: the supplied explanation expects yellow mangoes, and both now show that outcome. Quality: coherent fruit shapes, natural highlights and contact shadows, believable skin blemishes and smooth intact contours; no noticeable artifacts."
+    }
+  ]
+}

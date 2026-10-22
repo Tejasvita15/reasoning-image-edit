@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b132",
+  "results": [
+    {
+      "blind_id": "case_e33b738a57df70a4",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested placement, background, particles, text and base shadow, the tree retains its general silhouette, red/gold ornaments and gift arrangement, but foliage and tinsel detail are substantially altered and the gift bows/ribbon shapes are visibly redrawn. Instruction: The edit adds the exact centered greeting, upper glowing particles, a centered lower tree and a base shadow. The expected poster has a warm white gradient and gold handwriting; the actual background is strongly beige/gold and the lettering predominantly dark brown, so these required aspects are incomplete. Quality: Structure and readable lettering are satisfactory, with coherent lighting and a balanced layout; foliage/tinsel highlights show a small texture-blending issue, while the gifts and ornaments remain recognizable."
+    },
+    {
+      "blind_id": "case_3447e6bed0b223e6",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding attempted anatomical correction, the rolled jeans, foreground foot details, wall and overall composition remain consistent. One clear unintended change is the smooth smeared floor patch beneath/behind the rear arch, interrupting the surrounding wood grain. Instruction: The edit removes a large portion of the rear foot arch but retains the foreground red shoe heel attached beneath bare skin. A successful correction would yield coherent ordinary foot anatomy; the rear foot now has an implausible missing underside, and the principal heel abnormality remains, so most correction is poorly implemented. Quality: Structural coherence and artifact checks fail: the rear foot has an abruptly scooped-away underside with a broad blurred fill, and the foreground bare heel terminates in a red shoe-heel projection. Jeans and most skin texture remain coherent, but the multiple anatomical and fill defects are distracting."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b122",
+  "results": [
+    {
+      "blind_id": "case_62571698a731d6de",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and approximate positions of the battery and lower lamp remain, but the switch, all connecting wires, right-hand lamp and lower lamp terminals disappear; battery shading also changes. These removals are not required by pressing a switch. Instruction: Instead of showing the existing switch closed, the edit removes it and leaves an isolated battery and unlit bulb, so the requested action is absent. Knowledge: The explanation requires two illuminated bulbs; only one unlit bulb remains. Instruction failure ⇒ knowledge invalid. Quality: The isolated components have coherent shapes, clear outlines and consistent illustrative shading, with one minor imperfection in the jagged, irregular battery contact outlines."
+    },
+    {
+      "blind_id": "case_594aadc7904b42cd",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Background apples and the pale tabletop remain recognizable, but the large left foreground apple is removed/painted over, the cut apple changes shape and scale, and its core, seeds and stem are substantially rearranged. Instruction: The exposed flesh remains pale and fresh-looking without a visible aging change; reconstructing the fruit does not depict it after time has passed. Knowledge: The supplied explanation expects oxidation and yellowing, but the cut surfaces show no convincing additional discoloration. Instruction failure ⇒ knowledge invalid. Quality: Multiple distracting artifacts include the smooth red replacement patch at upper left, a translucent curved cutout boundary around the central fruit, malformed core details and smeared texture below the front notch; these disrupt an otherwise recognizable photographic apple scene."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b010",
+  "results": [
+    {
+      "blind_id": "case_fadce380d4bce645",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 2,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Excluding the enlarged slide scar, displaced vegetation and debris footprint, the distant left mountain forest and the foreground foliage have both changed from detailed natural trees to thick, distorted textures; the misty skyline and foreground fence arrangement remain recognizable. Instruction: The small exposed patch becomes a broad downslope chute and spreading deposit, clearly conveying a landslide, though the exceptionally smooth curtain-like slope weakens the resemblance slightly. Knowledge: The explanation expects more exposed rocky mountain; exposed terrain increases greatly, but it looks like uniform fine sand with flowing parallel streaks, lacking the rocky surfaces and rubble that would fulfill that expectation. Quality: Structure and texture are problematic: the central slope has fabric-like stretched streaks, its sidewalls have unnatural smooth bands, and surrounding foliage forms melted, outlined clumps; these are multiple distracting defects despite coherent overall lighting."
+    },
+    {
+      "blind_id": "case_de2e7cbef4d99179",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding instructed vegetation and ground-cover changes, the blue sky and broad horizon placement remain consistent, but the background rolling terrain is reshaped into more pronounced smooth dunes and troughs. Instruction: Sparse taller shrubs replace the extensive low foreground grass, while bright bare sand occupies most of the foreground. Effective control should show expanding vegetation cover and contracting desert; the scattered shrubs offer only a limited cue and most of that required outcome is missing. Knowledge: The explanation explicitly requires more grassland and less desert, whereas broad grassy patches disappear beneath exposed sand. Instruction failure ⇒ knowledge invalid. Quality: Landscape structure and daylight are coherent, but numerous similarly shaped dark shrubs have unusually hard, clumped silhouettes against the nearly textureless white sand, producing a conspicuous pasted-on appearance."
+    }
+  ]
+}

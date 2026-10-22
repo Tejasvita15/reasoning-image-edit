@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b079",
+  "results": [
+    {
+      "blind_id": "case_eb3b52e81e0b1b05",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the central post and horizontal dock arrangement remain recognizable, but the gauge changes from 9/8/7/6 to 9/8/8/6, the upper-right dock gains a black patterned strip, and the scene contrast and wood appearance change noticeably. Instruction: the water and reflection are redrawn, but the waterline still reaches approximately the bottom of the 6 section, as in the source; a clearly lower level exposing more gauge was expected and is largely missing. Knowledge: the supplied explanation requires a decrease, which is not clearly demonstrated. Instruction failure ⇒ knowledge invalid. Quality: post geometry and water reflections are coherent, but duplicated gauge numbering and the malformed upper-right markings are visible semantic flaws."
+    },
+    {
+      "blind_id": "case_990b53bfacc0ac2d",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the plain pale background and frontal portrait remain, but facial identity, hairstyle, expression, clothing and shoulder composition change substantially; the suit and tie disappear. Instruction: the edited face becomes visibly red, fulfilling the central requested appearance, but conspicuous raised pustules and crusted lesions across both cheeks and chin depict an additional skin condition instead of a straightforward alcohol flush, so the state is only partially accurate. Knowledge: the supplied expectation is facial redness, which is present; the prominent eruptive lesions are a clear mismatch with that described response. Quality: viewed alone, the portrait has coherent facial anatomy, believable skin lesions, natural lighting and intact shirt structure, with no clear rendering artifacts."
+    }
+  ]
+}

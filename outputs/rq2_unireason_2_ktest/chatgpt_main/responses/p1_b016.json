@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b016",
+  "results": [
+    {
+      "blind_id": "case_416474e90de7d364",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: excluding the requested vegetation loss and dry-ground transformation, the cloud band, distant mountains and overall composition remain recognizable, but the fence post becomes nearly black, its wire mesh changes, and the foreground red litter and scattered stones disappear. Instruction: lush grass is replaced by extensive bare cracked ground and sparse dry tufts, fully satisfying the requested increase in desertification. Knowledge: reduced grassland and increased barren terrain match the supplied explanation. Quality: landscape perspective and vegetation are coherent, but the very thick, flat black crack network looks like drawn outlines pasted onto photographic ground, a clear texture/naturalness flaw."
+    },
+    {
+      "blind_id": "case_d66f51ba268aa52d",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the maze walls and openings, duck drawing, stars, arrows, START and FINISH labels remain visually unchanged. Instruction: no red line is present anywhere; a completed edit should show a red route through the maze from start to finish, so the requested change is absent. Knowledge: the supplied explanation is blank; the score follows the mandatory instruction-failure coupling. Instruction failure ⇒ knowledge invalid. Quality: the edited worksheet alone has coherent continuous maze boundaries, clean cartoon outlines and legible labels, without noticeable generation artifacts."
+    }
+  ]
+}

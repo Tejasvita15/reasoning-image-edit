@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b037",
+  "results": [
+    {
+      "blind_id": "case_ea3c3f73dd68fa0c",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the square grid, white cells, black background and all original clue values and positions remain; the grid strokes have minor unevenness compared with the crisp source. Instruction: all blanks receive digits, but a completed 4x4 Sudoku requires 1–4 without repeats in each row, column and block. Added 6s and 8s, two 4s in row three and two 3s in row four make most of the completion incorrect. Knowledge: the supplied explanation is blank; the visible result violates the Sudoku logic implied by the task, and the mandatory low-instruction coupling applies. Instruction failure ⇒ knowledge invalid. Quality: the diagram remains legible overall with clean contrasting cells, but the second-row first digit has a visibly malformed, overlapping-looking upper stroke; grid lines are also slightly uneven."
+    },
+    {
+      "blind_id": "case_bfdfae293dbcfa70",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the surrounding wood and outer crumpled-paper layout remain recognizable, but a large central area of wrinkled paper becomes smooth brown paper, and the retained bread appearance is changed to enlarged, matching heavily floured loaves. The requested count reduction is excluded. Instruction: three loaves become exactly two clearly separate loaves, fully matching the requested change. Quality: both loaves have coherent bread shapes and recognizable crust texture, but conspicuously repeated crust and scoring patterns look duplicated, and the broad smooth central paper patch has an abrupt boundary against the crumpled surroundings."
+    }
+  ]
+}

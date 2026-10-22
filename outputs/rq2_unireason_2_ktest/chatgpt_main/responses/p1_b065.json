@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b065",
+  "results": [
+    {
+      "blind_id": "case_559acdc7fc4ecadc",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white backdrop, overall placement and large left turtle remain recognizable, but the unrequested small right turtle has a changed shell contour and pattern, altered head, and a markedly different extended front leg. Instruction: The visible change is mainly to the right turtle; the expected result is a reduced left turtle matching the right turtle in size. The left turtle remains substantially larger, so the requested size match is absent. Quality: Lighting, shell textures and the left animal are coherent, but the right animal has a conspicuous flattened, bent strip-like front foot, a clear anatomical distortion."
+    },
+    {
+      "blind_id": "case_46adb44d00427ed3",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Excluding the permitted maturation, the single subject becomes four animals, the warm underwater rock setting becomes a high-contrast gravel scene with green background, and framing, illumination and subject arrangement change substantially. Instruction: The tadpole has become frog-like animals with eyes and developed limbs; the expected mature frog form is clearly achieved in front, although the rear-left animal retains a markedly elongated, neck-like body rather than a clear adult frog silhouette. This is a minor incompleteness in the requested maturation depiction. Knowledge: The supplied explanation requires tadpoles to become frogs. The foreground animals show the expected frog bodies and folded hindlegs, but the rear-left animal has a conspicuously elongated neck/body that conflicts with adult frog anatomy, giving one clear biological discrepancy. Quality: Foreground forms, contact shadows and skin are coherent; the rear-left animal has an unnaturally stretched neck/body. Background softness alone is not penalized."
+    }
+  ]
+}
