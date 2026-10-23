@@ -1,0 +1,32 @@
+#!/bin/bash
+#PBS -N rq1_analyze
+#PBS -q normal
+#PBS -P personal-tejasvit
+#PBS -l select=1:ncpus=4:mem=16gb
+#PBS -l walltime=00:30:00
+#PBS -j oe
+#PBS -o /home/users/ntu/tejasvit/scratch/reasoning-image-edit/logs/pbs_rq1_analyze.log
+
+set -euo pipefail
+
+module purge
+module load miniforge3
+conda activate /home/users/ntu/tejasvit/scratch/conda_envs/step1x
+
+cd /home/users/ntu/tejasvit/scratch/reasoning-image-edit
+
+mkdir -p logs analysis/rq1
+
+echo "Job ID: $PBS_JOBID"
+echo "Node: $(hostname)"
+echo "Start: $(date)"
+
+python -u -m src.analyze_rq1 \
+    --base-log analysis/rq1/k_dev/inputs/rq1_base_k_dev_seed42.jsonl \
+    --thinking-log analysis/rq1/k_dev/inputs/rq1_thinking_k_dev_seed42.jsonl \
+    --correction-log analysis/rq1/k_dev/inputs/rq1_correction_k_dev_seed42.jsonl \
+    --bootstrap-samples 10000 \
+    --bootstrap-seed 42 \
+    --output-dir analysis/rq1/k_dev
+
+echo "End: $(date)"

@@ -1,0 +1,32 @@
+#!/bin/bash
+#PBS -N rq1_determinism
+#PBS -q normal
+#PBS -l select=1:ncpus=16:mem=110gb:ngpus=1
+#PBS -l walltime=02:00:00
+#PBS -j oe
+#PBS -o /home/users/ntu/tejasvit/scratch/reasoning-image-edit/logs/pbs_rq1_determinism.log
+
+set -euo pipefail
+
+module purge
+module load miniforge3
+
+conda activate /home/users/ntu/tejasvit/scratch/conda_envs/step1x
+
+cd /home/users/ntu/tejasvit/scratch/reasoning-image-edit
+
+mkdir -p logs outputs/determinism
+
+echo "Job ID: $PBS_JOBID"
+echo "Node: $(hostname)"
+echo "Start: $(date)"
+nvidia-smi
+
+python -m src.check_determinism \
+    --config configs/rq1_thinking.yaml \
+    --splits data/splits.json \
+    --seed 42 \
+    --num-examples 10 \
+    --output-dir outputs/determinism
+
+echo "End: $(date)"

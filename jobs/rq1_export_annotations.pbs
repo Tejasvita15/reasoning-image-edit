@@ -1,0 +1,35 @@
+#!/bin/bash
+#PBS -N rq1_export_ann
+#PBS -q normal
+#PBS -P personal-tejasvit
+#PBS -l select=1:ncpus=2:mem=8gb
+#PBS -l walltime=00:15:00
+#PBS -j oe
+#PBS -o /home/users/ntu/tejasvit/scratch/reasoning-image-edit/logs/pbs_rq1_export_annotations.log
+
+set -euo pipefail
+
+module purge
+module load miniforge3
+conda activate /home/users/ntu/tejasvit/scratch/conda_envs/step1x
+
+cd /home/users/ntu/tejasvit/scratch/reasoning-image-edit
+
+mkdir -p logs annotations/rq1
+
+echo "Job ID: $PBS_JOBID"
+echo "Node: $(hostname)"
+echo "Start: $(date)"
+
+# First run the required 10-example codebook pilot.
+python -m src.export_rq1_annotations \
+    --thinking-log logs/rq1_thinking_k_dev_seed42.jsonl \
+    --correction-log logs/rq1_correction_k_dev_seed42.jsonl \
+    --seed 42 \
+    --limit 10 \
+    --output-dir annotations/rq1/pilot
+
+# After the pilot/codebook is accepted, remove --limit 10 and
+# change --output-dir to annotations/rq1 for the full K-small export.
+
+echo "End: $(date)"

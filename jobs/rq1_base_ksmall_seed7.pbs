@@ -1,0 +1,58 @@
+#!/bin/bash
+#PBS -N rq1_bs7
+#PBS -q normal
+#PBS -P personal-tejasvit
+#PBS -l select=1:ncpus=4:mem=24gb:ngpus=1
+#PBS -l walltime=15:00:00
+#PBS -j oe
+#PBS -o /home/users/ntu/tejasvit/scratch/reasoning-image-edit/logs/rq1_base_ksmall_seed7.log
+
+set -e
+
+PROJECT_ROOT=/home/users/ntu/tejasvit/scratch/reasoning-image-edit
+ENV_PATH=/home/users/ntu/tejasvit/scratch/conda_envs/step1x
+
+echo "========================================"
+echo "RQ1 Base K-small | Seed 7"
+echo "========================================"
+echo "Job ID: $PBS_JOBID"
+echo "Node: $(hostname)"
+echo "Start: $(date)"
+echo "========================================"
+
+module purge
+module load miniforge3
+
+conda activate "$ENV_PATH"
+cd "$PROJECT_ROOT"
+
+export HF_HOME=/home/users/ntu/tejasvit/scratch/hf_cache
+export HUGGINGFACE_HUB_CACHE="$HF_HOME/hub"
+
+mkdir -p logs outputs/rq1/base
+
+echo "Python: $(which python)"
+nvidia-smi
+
+python - <<'CHECK'
+import torch
+from diffusers import Step1XEditPipelineV1P2
+
+print("Torch:", torch.__version__)
+print("CUDA available:", torch.cuda.is_available())
+assert torch.cuda.is_available(), "CUDA unavailable"
+print("GPU:", torch.cuda.get_device_name(0))
+print("Step1X import OK")
+CHECK
+
+echo "Starting Base K-small seed 7"
+
+python -u -m src.run_experiment \
+    --config configs/base_ksmall_seed7.yaml \
+    --splits data/splits.json \
+    --split k_small \
+    --seed 7 \
+    --stop-on-failure
+
+echo "Completed Base K-small seed 7"
+echo "End: $(date)"
