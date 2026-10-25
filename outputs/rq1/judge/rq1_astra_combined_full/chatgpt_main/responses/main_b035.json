@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b035",
+  "results": [
+    {
+      "blind_id": "case_fdd38370d2fe7afbed41",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white wall/table and overall two-container arrangement remain, but the non-target cola bottle loses its entire red label and date stamp and its dark surface becomes markedly lighter. Instruction: The visible change is label removal, whereas the expected result is removal of the beer can; the beer remains, so the requested removal is not achieved. Knowledge: The supplied explanation says alcohol should be removed, but the can marked THE BEER is still present. Instruction failure ⇒ knowledge invalid. Quality: Container shapes, reflections and table contact are coherent; the small gold text beneath GOLD is visibly garbled and the upper-left Kindelsie watermark is conspicuous."
+    },
+    {
+      "blind_id": "case_f87f707ac8774018e152",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The non-target cola bottle has been completely removed, a clear unintended object change; the wall, tabletop boundary and upper-left lettering retain their arrangement. Instruction: The cola disappears while the beer can remains. The expected image should remove the alcoholic beer, so this removes the wrong item and fails the instruction. Knowledge: Keeping the can visibly labeled THE BEER contradicts the supplied alcohol-removal explanation. Instruction failure ⇒ knowledge invalid. Quality: The can has coherent cylindrical geometry, metallic reflections and a plausible contact shadow, but the small gold paragraph on its red label is malformed and the upper-left Kindelsie watermark is visible."
+    },
+    {
+      "blind_id": "case_e4a323b76a2c58dc30bb",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding the required beer removal and its reconstructed background, the cola bottle position, red cap, large Coca-Cola label, molded base, wall/table boundary and wall scuff are preserved; the small label lettering has minor shape changes. Instruction: The beer can is fully absent and the cola remains, precisely matching the expected removal. Knowledge: Removing the clearly alcoholic beer matches the supplied explanation that alcohol should be removed. Quality: The bottle structure, liquid, reflections and tabletop are natural and coherent, with no obvious removal remnants; the upper-left Kindelsie watermark is a small visual blemish."
+    },
+    {
+      "blind_id": "case_3bea09b50255cadb4e9a",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The cola bottle silhouette, red cap, large label logo, position, molded base, wall scuff and table boundary remain consistent after excluding the requested beer removal; minor reshaping of the small label print is visible. Instruction: The beer can and its footprint are removed while the cola remains, fulfilling the expected selective removal. Knowledge: The absent beer correctly implements the supplied explanation that alcohol should be removed. Quality: The single bottle has coherent geometry, natural highlights, credible liquid and a plausible contact shadow on a continuous tabletop; the upper-left Kindelsie watermark is a minor blemish."
+    }
+  ]
+}

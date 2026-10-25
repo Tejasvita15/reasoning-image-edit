@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b247",
+  "results": [
+    {
+      "blind_id": "case_301310683baa93051293",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The gray studio background, black-and-gold shell identity and broad framing remain, but shell scute outlines and the face/eye shape are visibly redrawn; limb positioning is excluded as an action change. Instruction: The head angle and stance change, yet the neck and all visible legs remain extended. Expected: the head and limbs withdraw into the shell; no protective withdrawal is shown, so compliance is absent. Knowledge: The supplied explanation requires retraction, which the exposed neck and feet contradict. Instruction failure ⇒ knowledge invalid. Quality: Evaluated alone, the anatomy, scaly limbs, shell texture, lighting and contact shadow are coherent, without a noticeable generation defect."
+    },
+    {
+      "blind_id": "case_4ee019a5a96115ce7805",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The plain gray setting and black-and-gold tortoise are retained, but the shell contour/pattern and facial proportions are visibly altered. Pose changes are excluded from consistency. Instruction: The stance shifts and the head points more forward, while the neck, front limbs and rear foot remain outside the shell. Expected: head and limbs retracted; the visible change does not enact this defensive response. Knowledge: Exposed extremities do not match the supplied retraction explanation. Instruction failure ⇒ knowledge invalid. Quality: Judged alone, the shell, eye, scaled limbs, perspective and soft ground shadow look natural and structurally coherent, with no clear artifacts."
+    },
+    {
+      "blind_id": "case_61e73bae669a75e3a776",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The single natural tortoise becomes two upright green anthropomorphic figures; animal count, anatomy, coloration, shell design, framing and shadow arrangement all change. Only a broadly gray studio setting remains. Instruction: A running pose and a standing figure replace the original animal. Expected: the original tortoise retracts its head and limbs into its shell; neither figure does so, and replacing the animal is not the requested action. Knowledge: Extended humanoid limbs and exposed heads contradict the supplied defensive-retraction expectation. Instruction failure ⇒ knowledge invalid. Quality: Judged alone, the floating disconnected hand-like piece, ambiguous arm attachment on the left figure and three-legged lower body on the right produce multiple distracting structural errors despite clear shell texture and coherent ground lighting."
+    },
+    {
+      "blind_id": "case_400d58bc0a7d64cbceb7",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The gray studio setting and black-and-gold tortoise appearance persist, but the view changes to the rear, shell markings are redrawn, and framing/contact-shadow geometry change. These viewpoint and design changes are not necessary for retraction. Instruction: The tortoise turns away while its head protrudes to the left and multiple limbs remain extended. Expected: head and limbs withdrawn into the shell; turning the animal does not depict that protective action. Knowledge: The visibly exposed head and feet conflict with the supplied explanation. Instruction failure ⇒ knowledge invalid. Quality: Judged alone, the shell texture, rear legs and ground shadow are convincing; the upper-left neck/forelimb junction is slightly blended and awkward, a minor localized imperfection."
+    }
+  ]
+}

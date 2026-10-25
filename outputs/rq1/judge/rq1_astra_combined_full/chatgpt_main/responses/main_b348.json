@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b348",
+  "results": [
+    {
+      "blind_id": "case_b0ee3c536f7cbf849ab7",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background, two columns, animal identities and tail categories persist, but circles and animals are repositioned/rescaled and facial features, feather contours and cat markings are redrawn. These are multiple non-requested changes. Instruction: Thick blue horizontal and vertical arrows were added. Correct completion requires striped tail–cat, feathers–rooster, pink curl–pig, brown hair–horse and thin gray tail–mouse. Only the brown hair–horse horizontal pairing is correct; the striped-tail line stops in the gap, and the remaining horizontal arrows target incorrect animals. Vertical chains also defeat one-to-one matching, so most requested matches are poorly implemented. Knowledge: The supplied tail-to-owner explanation is violated by feather–pig, curl–mouse and gray tail–cat links. Instruction failure ⇒ knowledge invalid. Quality: Structural coherence and artifact freedom are problematic: bulky arrows obscure the horse mane and body, a translucent blue fragment covers the mouse forehead, and overlapping vertical strokes clutter several figures. Flat colors and cartoon textures otherwise remain legible."
+    },
+    {
+      "blind_id": "case_58930036c0d940f32ef6",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Background and the five animal/tail identities remain recognizable, but all left circles shift right, yellow connection markers disappear, and animal faces and body contours are redrawn; multiple non-instruction elements change. Instruction: Five straight double-headed horizontal arrows now join same-row objects. The expected matches are striped tail–cat, feathers–rooster, pink curl–pig, brown hair–horse and gray tail–mouse. Only brown hair–horse is correct; four of five requested pairings are wrong despite the one-to-one line structure. Knowledge: The tail-to-owner explanation is contradicted by cat stripes linked to the rooster, feathers to the pig, pink curl to the mouse and gray tail to the cat. Instruction failure ⇒ knowledge invalid. Quality: Structural coherence, natural cartoon appearance, artifact freedom and texture fidelity are satisfactory: complete recognizable figures, clean circles, smooth arrows and uncluttered white spacing show no noticeable generation flaws."
+    },
+    {
+      "blind_id": "case_d4fa5385a5afafe4c6e6",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background, object order and animal/tail categories remain, but the circles, markers and animals shift, several objects change size, and facial details and silhouettes are redrawn. These are multiple visible non-requested alterations. Instruction: Thin black double-headed horizontal connections have been added between same-row objects. Correct completion requires striped tail–cat, feathers–rooster, pink curl–pig, brown hair–horse and gray tail–mouse. The brown hair reaches the horse, but the four other lines connect incorrect owners, leaving most requested matching incorrect. Knowledge: Linking striped fur to a rooster, feathers to a pig, a pink curl to a mouse and a gray tail to a cat conflicts with the supplied ownership explanation. Instruction failure ⇒ knowledge invalid. Quality: The image alone is coherent and clean: animals and circular tail drawings are recognizable, black connectors are continuous, flat fills and outlines are intact, and there is no distracting structural or texture artifact."
+    },
+    {
+      "blind_id": "case_1ec248c244bd24524f5d",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Although the right column retains the five animal identities on white, most left-side tail drawings and their circular frames are replaced, duplicated, fragmented or moved; brown hair circles now occupy the middle and lower center, and markers are enlarged and multiplied. The major worksheet layout and content are severely altered. Instruction: Multiple black lines and yellow nodes appear, but the left objects become disordered fragments instead of five intact tails with one connection each. No reliable complete tail-to-owner matching is achieved; brown hair is visibly connected toward the mouse and cat, and the upper pink curl does not reach the pig. This fundamentally misinterprets the requested one-to-one matching. Knowledge: The visible brown-hair links contradict the horse-tail ownership explanation and a coherent ownership solution is absent. Instruction failure ⇒ knowledge invalid. Quality: Severe structural failures dominate the left column: tangled unrecognizable yellow and pink fragments, broken circular frames, duplicated brown hair circles and a malformed long gray squiggle. Branching lines and oversized nodes compound the incoherent diagram, despite readable animals on the right."
+    }
+  ]
+}

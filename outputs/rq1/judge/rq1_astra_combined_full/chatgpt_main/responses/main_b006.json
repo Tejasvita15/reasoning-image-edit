@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b006",
+  "results": [
+    {
+      "blind_id": "case_ea92772d8f80ff8db1b3",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The leafy vineyard background, curled vine and original composition are replaced by a sky backdrop, horizontal line and hanging cloth. Instruction: The grapes disappear and an orange checked cloth appears; the expected result is the same grapes reduced to wrinkled raisins, so the requested transformation is absent. Knowledge: The supplied explanation requires shrinkage into brown raisins, which are absent. Instruction failure ⇒ knowledge invalid. Quality, assessed on the edited image alone: coherent hanging textile with natural folds, backlighting and fine woven texture; no noticeable structural or generation artifacts."
+    },
+    {
+      "blind_id": "case_b338c6737e9d24d8fc64",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "Consistency: The left leaf, curled tendril and hanging-bunch placement remain recognizable; the non-target background is visibly redrawn, with stronger distinct foliage and changed light patches on the right. Instruction: The large round grapes become smaller elongated, deeply wrinkled golden-brown raisins, matching the expected dried bunch, except for a small smooth blue grape remaining near the upper-left curl. Knowledge: Shrinkage and brown dried skins match the supplied explanation; the residual fresh blue fruit is a minor incomplete transformation. Quality, assessed on the edited image alone: coherent hanging fruit and stems, detailed wrinkled skins and plausible lighting, without noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_a0f90d61f9518728bdff",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The leaves, curled tendril, supporting vine, background light patches and scene framing remain visually unchanged; fruit color changes are within the targeted object. Instruction: Grapes become paler but remain full-sized, smooth, round fruit. The expected smaller wrinkled raisins are absent, so sun-drying is not depicted. Knowledge: Neither shrinkage nor conversion into brown raisins described by the supplied explanation is shown. Instruction failure ⇒ knowledge invalid. Quality, assessed on the edited image alone: natural rounded fruit, coherent overlaps and vine, plausible soft lighting and intact skin and leaf textures; no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_de51a2c4ae7456e2ce90",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The leaf, curled tendril, vine and hanging placement are retained, but the non-target background is visibly more blurred, especially the right-side green and cream shapes. Instruction: Brown rough patches appear on some grapes, yet the bunch remains composed of essentially full-sized round blue-purple grapes. The expected shrunken wrinkled raisins are mostly missing, making this a major omission. Knowledge: Surface browning alone does not depict the explained shrinkage into brown raisins. Instruction failure ⇒ knowledge invalid. Quality, assessed on the edited image alone: coherent fruit forms and overlaps, plausible mottled skin texture, natural lighting and smooth depth of field, with no noticeable generation artifacts."
+    }
+  ]
+}

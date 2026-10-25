@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b164",
+  "results": [
+    {
+      "blind_id": "case_c4cd5a00f35b4ab06bd0",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The numeral shape, two white counters, central crossing and framing remain unchanged; faint blocky green/yellow fringe appears on the surrounding white near the outline (4). Instruction: Orange has become green throughout the 8. The expected result is this same number colored green, and the observed recoloring fully meets that request (5). Quality, assessed alone: The 8 is coherent and legible with a clean layout; slight blocky edge halos are a small artifact (4)."
+    },
+    {
+      "blind_id": "case_be9a2783c467ca0d0813",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The 8 retains its proportions, counter shapes, crossing and placement against white; a small speckled colored halo is visible just outside its contours (4). Instruction: The orange numeral is now green across both loops and the crossing, exactly the requested color change to the same number (5). Quality, assessed alone: The symbol is structurally clear with natural flat graphic presentation; fine mottling along its edges is a minor texture imperfection (4)."
+    },
+    {
+      "blind_id": "case_e652d9b630fd6aaed125",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The numeral geometry, white openings, central junction and composition are retained. A faint tinted fringe slightly alters the white immediately beside the contour (4). Instruction: The visible change is orange to green across the complete numeral; this matches the expected green version of the same 8 (5). Quality, assessed alone: The figure is legible and coherent, with slight uneven edge texture/halo but no structural defect (4)."
+    },
+    {
+      "blind_id": "case_39db0d236ed1a5a7eb50",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The large 8, its two openings, crossing and white background layout retain their shapes and positions; a very faint yellow-green rim occurs along parts of the outline (4). Instruction: The numeral has changed from orange to green throughout. A green 8 is the expected outcome and is fully present (5). Quality, assessed alone: The graphic has coherent curves and clearly readable form; a faint colored edge fringe is a small imperfection, while softness does not impair legibility (4)."
+    },
+    {
+      "blind_id": "case_3d35b68cc05d64f2390c",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The outline, counter geometry, center crossing and positioning match the source; faint edge tint spills onto the neighboring white in places (4). Instruction: The same 8 is entirely green instead of orange, satisfying the expected recoloring (5). Quality, assessed alone: The numeral is clear and structurally coherent; subtle rectangular tonal patches in the green fill are a minor surface artifact (4)."
+    },
+    {
+      "blind_id": "case_96174754fe477463918c",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The numeral silhouette, two white openings and centered composition are preserved; small colored speckles fringe the contour on the white background (4). Instruction: Both loops and the central crossing are green where the source was orange. This fully matches the requested green number (5). Quality, assessed alone: The 8 remains coherent and easily legible, with slight grainy colored edge halos as the only minor artifact (4)."
+    }
+  ]
+}

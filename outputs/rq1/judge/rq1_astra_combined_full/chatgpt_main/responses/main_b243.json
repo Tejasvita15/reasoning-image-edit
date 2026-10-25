@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b243",
+  "results": [
+    {
+      "blind_id": "case_a9e40d906b0f5fa3fe97",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, brown covers, yellow pages and two-book arrangement are preserved; the untouched thick book is visibly wider with a newly bowed right page edge. Instruction: The right book remains a thin volume, while the left book has been reshaped. The expected result is a right book with a page block as thick as the left; that increase is absent, so this is non-compliance. Quality: Structure, perspective, cover edges and page textures are coherent, with no noticeable generation defects."
+    },
+    {
+      "blind_id": "case_485450fc0903efd6ef22",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and book colors remain, but the left book is enlarged vertically and both books occupy a lower baseline; cover proportions and the intervening gap also change. Instruction: The left thick book grows while the right book stays thin. The right page block should match the original thick volume, which it plainly does not; the requested change is absent. Quality: The books are recognizable and their page textures coherent, but a small dark vertical slit interrupts the upper right edge of the large page block."
+    },
+    {
+      "blind_id": "case_eff919ada793abf4fd93",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The left book shape and placement, brown covers, yellow page blocks, white background and right book placement are visually preserved. Instruction: The right book still has a narrow page block and no meaningful thickness increase. A successful edit would give it the thick left book\u2019s thickness; that change is absent. Quality: Both closed books have coherent covers, page edges and perspective; no noticeable artifacts appear."
+    },
+    {
+      "blind_id": "case_160d98050d71ca3f3010",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The thick left book, the slim right book\u2019s cover appearance and position, their colors, and the empty white background remain visually unchanged. Instruction: The thin right volume retains its shallow page block instead of gaining thickness to match the left volume; the requested adjustment is not implemented. Quality: The two book structures, rounded bindings, page textures and cover overhangs are natural and free of noticeable defects."
+    },
+    {
+      "blind_id": "case_804394843fc59a0cf591",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The original left volume\u2019s outline and yellow page texture, the brown covers, book spacing, baseline and white background are visually preserved. Instruction: The right volume is still thin, with its page block far shallower than the left. The expected matching thickness is absent, warranting non-compliance. Quality: Book geometry, cover layering, lighting and paper surfaces are coherent, with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_8cb60b130df73474bddd",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and brown/yellow palette are retained, but both books move down and their cover shapes change, including the large book\u2019s raised angular upper-right corner and the small book\u2019s extended rear-left cover. Instruction: The right book remains thin; the expected enlargement of its page block to match the thick left book is absent. Quality: Paper textures and lighting are coherent, but the large cover has an angular raised corner and the small cover has an awkward protruding rear-left flap, producing noticeable structural distortions."
+    }
+  ]
+}

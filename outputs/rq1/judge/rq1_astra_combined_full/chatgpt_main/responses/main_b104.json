@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b104",
+  "results": [
+    {
+      "blind_id": "case_8ea89a322c98271ef0a1",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray background, diagonal composition, metallic body, and cropped handle are preserved; a slight change to the lower body/handle outline is visible. Instruction: The tine still ends in a miniature fork, with only small contour changes. A successful correction would give it a normal unbranched tine matching the rest; the unreasonable branching is untouched, so the instruction is not fulfilled. Quality: Structural coherence is problematic because a thin tine sprouts another fork head. Lighting, shadows, metal texture, and background are otherwise natural and free of conspicuous artifacts."
+    },
+    {
+      "blind_id": "case_d8d5be58983a0f653874",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray setting and diagonal orientation remain, but the body reflections/surface texture are changed and the shadow beneath the handle is broader and darker. Tine corrections are excluded from consistency. Instruction: The miniature fork has disappeared and the tines are rearranged. The expected result is a regular fork with coherent full-length tines; a short pointed stub remains on the right beside three long tines, so correction is partial. Quality: Structural coherence is flawed by the short bent-looking right prong and uneven tine arrangement. The metallic shading, plain surface, and cast shadow are otherwise plausible, without major texture corruption."
+    },
+    {
+      "blind_id": "case_6ddf01d16c1a22f30b27",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Background tone, framing, diagonal fork position, body contours, scratched metal, reflected highlights, and handle shadow remain visually unchanged. Instruction: No substantive correction is visible: a long tine still terminates in a miniature fork. The expected correction would replace that anomalous branching with a normal tine; the required change is absent. Quality: The fork-on-a-tine geometry is a clear semantic/structural abnormality. The metal surface, perspective, lighting, and background remain coherent, with no other distracting artifact."
+    },
+    {
+      "blind_id": "case_9b6d1f8be1e0d213f7e7",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The plain gray surface and diagonal orientation remain, but the fork's scale and placement change substantially, and the cropped broad handle becomes a fully visible rounded handle with different reflections. Instruction: The image now contains a conventional four-tined fork. A successful targeted correction would normalize the anomalous tine on the existing fork; this instead replaces/redesigns the whole utensil. The normal-fork objective is achieved, but the requested modification is only partially matched. Quality: Structure, perspective, and lighting are coherent; four separated tines join a natural head and handle. The metal reflections and contact shadow are plausible, with no noticeable generation artifacts."
+    }
+  ]
+}

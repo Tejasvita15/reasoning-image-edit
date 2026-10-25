@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b266",
+  "results": [
+    {
+      "blind_id": "case_ef1c7042ba18a395211a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested poster background, placement, lettering, cranes and glow, the painting retains its pine tree, crane groups, flowers and calligraphy placement, but individual bird outlines and rock/flower detail are repainted, the central watermark disappears, and carved frame detail changes. Instruction: The white surround becomes a blue cloud background with flying cranes and a glowing centered frame. A complete result would also have the exact serif title and readable handwritten event information at bottom left. The title wording is present, but uses sweeping script rather than serif, and the bottom-left writing is largely nonsensical; partial compliance. Quality alone: Structure/text ✘: the event block has multiple garbled lines and the flying birds have awkward threadlike neck/leg shapes. Natural lighting ✔; textures are broadly coherent ✔, but artifacts ✘."
+    },
+    {
+      "blind_id": "case_505f8b628b165aabab19",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The source's main crane/pine/flower arrangement and wood-frame outline remain recognizable. Outside the allowed poster additions, the painting's colors and bird details change, its central watermark is removed, and the frame carving is softened/reworked. Instruction: Blue gradient, light clouds, two flying cranes, centered painting and frame glow are added. The expected exact large serif heading and readable handwritten lower-left event details are not delivered: the top is tiny garbled lettering and the lower text is nonsensical. Core visual setting is present but required typography is incomplete, giving partial compliance. Quality alone: Structure/text ✘ and artifacts ✘ because both text areas contain malformed, unreadable lettering and the right flying bird has confused neck/body geometry. Lighting and overall rectangular frame ✔; texture fidelity broadly ✔."
+    },
+    {
+      "blind_id": "case_6736765bcc766ae5e774",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The crane painting's broad composition, pine, mountains, pink flowers and two frame hangers persist. The bird/foliage contours and carved ornament details are visibly re-rendered, rather than remaining identical; requested surround and glow are excluded. Instruction: The edit introduces a blue gradient, cloud motifs, centered glowing frame, large serif lettering and script along the bottom. The expected exact title and readable lower-left event information are replaced by nonsense, while the supposed surrounding cranes look like isolated white feather shapes. This is partial implementation. Quality alone: Structural coherence ✘: prominent title and footer are gibberish, and the small white shapes above the clouds do not resolve into coherent birds. Naturalness of the light/glow ✔ and broad surface texture ✔; artifact-free ✘."
+    },
+    {
+      "blind_id": "case_37203124e8bf2e11ec98",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The original's pine-tree side, crane clusters, calligraphy, flowers, ornate wooden frame and gold hangers are recognizable. Individual painted bird/rock details and frame scrollwork are altered, and the central mark is distorted. Requested recentering, background, lettering, glow and added birds are excluded. Instruction: Clouds, flying cranes, blue gradient and a glowing centered painting appear. A correct version would carry the exact large serif title and handwritten event information at bottom left; this version has a nonsensical script heading and nonsensical bottom-right text. Required typography and placement are incomplete, so partial compliance. Quality alone: Structure ✘ and artifact-free ✘: both large and small text are garbled, and several exterior birds have pinched or indistinct body/wing joins. The layout, frame geometry and lighting are coherent ✔; textures broadly ✔."
+    },
+    {
+      "blind_id": "case_837aad14bbe5cef9e840",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The painting remains recognizable through its pine tree, crane group, calligraphy and flowers, but its bird/rock details and wood carvings are redrawn, and both gold hanging fittings are removed. The instructed poster surround is excluded. Instruction: A blue gradient, decorative clouds, centered frame and large serif text are added. The intended exact title is replaced with gibberish, no clear flying cranes surround the picture, the footer is centered serif rather than bottom-left handwriting, and the lighting is mostly flare spots rather than a clear soft frame glow. Most detailed requirements are missing or poorly implemented. Quality alone: Structure/text ✘ and artifact-free ✘: the large heading and several footer lines are nonsensical, and a cloud overlaps and obscures footer letters. Frame geometry and painted scene remain coherent ✔, with generally intact texture ✔."
+    },
+    {
+      "blind_id": "case_37c88687572584b1877b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The source crane-and-pine composition, calligraphy, pink flowers, dark carved frame and gold fittings remain identifiable. Non-requested changes include altered individual crane forms and compressed rock/flower details, together with reworked frame carvings. Background, glow, placement and added text are excluded. Instruction: A blue gradient with substantial soft clouds surrounds a centered glowing painting, with a large serif heading and handwritten-looking bottom text. The expected exact title is instead gibberish, the event text is not meaningful information, and flying cranes outside the painting are absent. This satisfies the setting but only partially fulfills the instruction. Quality alone: Structural coherence ✘ and artifact-free ✘ because the heading contains broken letterforms and nonsensical words, with multiple illegible footer fragments. Cloud lighting, frame geometry and overall texture are coherent ✔."
+    }
+  ]
+}

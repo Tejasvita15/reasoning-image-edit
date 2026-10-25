@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b281",
+  "results": [
+    {
+      "blind_id": "case_b609a2b5d8f82cac7cd1",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The one/two oranges, one/two/three bananas, and one/two/three apples retain their identities and arrangements, and the three colored rows remain. However, fruit surface detail is redrawn (especially the single orange and apples), and the thin row outlines become uneven. Instruction: The top-right question mark remains, with no oranges added; the expected replacement is three oranges, so the requested change is absent. Knowledge: The explanation requires three oranges to continue the same-fruit increasing-count row; none are supplied. Instruction failure ⇒ knowledge invalid. Quality, evaluated on this image alone: Fruit shapes, leaves, shadows, and recognizable textures are coherent; the thin grid outlines have minor waviness, but there are no major structural artifacts."
+    },
+    {
+      "blind_id": "case_bb73c31bd036d345c25a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The eight other cells retain their fruit identities, counts, and arrangement, and row colors remain. Orange, banana, and apple surface textures are noticeably coarsened/redrawn, and thin frame edges are irregular. Instruction: The question-mark cell now contains one orange with two thick black curved marks. The expected content is three oranges; the target is edited and the fruit type is attempted, but the required count is missing and the black marks do not supply it. Knowledge: One orange does not complete the explained one/two/three same-fruit progression. Instruction failure ⇒ knowledge invalid. Quality, evaluated on this image alone: Fruit and grid structures remain recognizable, but the unexplained black fragments on the upper-right fruit are a conspicuous semantic artifact, and fruit textures appear harshly mottled."
+    },
+    {
+      "blind_id": "case_a98711810d57a15e4438",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Fruit identities and counts in the eight non-target cells are retained, as are the row colors. The layout is shifted and widened, cropping the left-side white margins and outer frame, and fruit surfaces and silhouettes are redrawn, including the single orange and apple. Instruction: The target still contains a large question mark, now with a different glyph shape, rather than the expected three oranges. No requested fruit completion is made. Knowledge: The explanation requires three oranges in the last cell of the orange row; the question mark does not express that pattern. Instruction failure ⇒ knowledge invalid. Quality, evaluated on this image alone: The grid is orderly, the question mark is legible, and fruit bodies, leaves, textures, and contact shadows are coherent and free of noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_4c89b4d0704808827feb",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The eight other fruit cells preserve their fruit types, counts, and general positions. However, fruit textures and shading are redrawn, and the panel margins/outer outlines shift, with the bottom frame cropped. Instruction: The question mark is replaced by a bunch of several bananas in the correct target cell. The expected drawing is three oranges, so both the required fruit type and count are wrong despite filling the cell. Knowledge: Bananas in the orange row violate the explanation's same-item sequence, and the bunch does not give the specified three oranges. Instruction failure ⇒ knowledge invalid. Quality, evaluated on this image alone: The fruit shapes and stems are coherent, the bunch has plausible overlapping bananas and shadows, and the grid and surface textures show no noticeable structural artifacts."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b039",
+  "results": [
+    {
+      "blind_id": "case_5ac4b29cb4ea7940871f",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The sticker colors, two-by-two construction, white background and reflective surface remain recognizable; the unrequested large cube is shifted down/left and its framing changes. Small-cube size is excluded. Instruction: The scene is slightly repositioned, but the small cube remains visibly shorter and narrower than the large cube, with essentially the original size relationship. A successful edit would enlarge the existing small cube to the large cube’s overall dimensions; that change is absent. Quality: Structure, lighting, reflections and plastic/sticker textures are coherent, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_2288f25e9f49a38976eb",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Sticker arrangements and the white reflective setting remain recognizable, but the large cube becomes pale and translucent, and the composition has substantially increased surrounding white space with repositioned objects. Instruction: The small cube occupies a somewhat closer overall size to the large cube, but remains visibly shorter and narrower. The expected result is the existing small cube enlarged to match the large cube’s dimensions; the visible size match is incomplete. Quality: Both puzzle structures and sticker surfaces are coherent, but the right object has a conspicuous milky fade that washes out its black frame and lower face, producing an unnatural transparency/lighting discontinuity."
+    },
+    {
+      "blind_id": "case_9130801c2455b54863c8",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The sticker layout, black frames and white reflective setting persist, but the unrequested large cube is shifted left/down, altering the gap and its framing. Small-cube resizing is excluded. Instruction: The cubes are repositioned slightly, yet the small cube retains essentially its original size relationship and is distinctly shorter and narrower than the large cube. The expected enlargement to equal overall dimensions is absent. Quality: Both objects have coherent puzzle geometry, clean sticker boundaries, natural glossy highlights and consistent surface reflections; no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_1bf10f4b6c8323702483",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The cube positions are reversed, both orientations and sticker arrangements change, and the overall scale/framing and reflections are rebuilt. Most major non-instruction details therefore differ, despite a retained white studio setting. Instruction: The two-by-two puzzle is now on the right and still dramatically smaller than the three-by-three puzzle. The expected change is to enlarge the existing small cube to the large cube’s size; it is not achieved. Quality: The two puzzle objects have clean, connected grids, believable glossy surfaces and coherent contact reflections against the white background, without noticeable generation artifacts."
+    }
+  ]
+}

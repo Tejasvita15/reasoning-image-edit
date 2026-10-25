@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b010",
+  "results": [
+    {
+      "blind_id": "case_e53e67d5a018b4af297b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Background, placement, decoration and dress glow are excluded as requested changes. The dark low bun, back-facing stance and hanging arm remain recognizable, but the eyes now look toward the viewer, facial appearance changes, and the back/sleeve lace arrangement is redrawn. Instruction: The edit adds a mint gradient, petals, decorative borders, luminous gown, gold script and footer; a fully compliant poster would preserve the figure slightly right of center and use the exact title with clean bottom information. The title reads 'The Big Big Day', the figure is nearly centered, the borders read more as vines than lace, and the footer is garbled: partial compliance. Quality, judged only from this image: Anatomy and skirt shape are coherent and lighting is plausible, but duplicated title wording and several rows of malformed, partly cropped footer text create multiple distracting semantic and typographic defects; fabric texture is otherwise coherent."
+    },
+    {
+      "blind_id": "case_beba6edba6158db2a40f",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested green background, petals, lace overlay and dress illumination, facial features, low bun, drop earring, backward glance, bent left arm, hanging right hand, lace bodice and train folds remain visually consistent. Instruction: The edit adds a green gradient, corner lace, petals, gold handwritten lettering and bottom text around the slightly right-of-center bride. The expected exact 'The Big Day' and readable bottom information are not achieved: the title contains extra malformed words ('Thioe' and 'Doday!'), and the footer is nonsensical. The wedding-poster idea is present, giving partial compliance. Quality, assessed independently: Figure anatomy, dress silhouette and lighting are coherent; title spelling/word formation and multiple footer lines have conspicuous semantic corruption. Lace and fabric textures are coherent, but these multiple text errors substantially degrade the poster."
+    },
+    {
+      "blind_id": "case_68568dc3233656af621e",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Requested background, poster decoration, positioning and glow are excluded. The bride is substantially replaced: her head turns into side profile instead of the original downward backward glance, bun shape changes, both arm relationships change, and the gown has a different neckline, back closure, lace pattern and skirt. Most major preserved-subject details differ. Instruction: The edit supplies green shading, petals, light flecks, a glowing bridal figure and large gold script; a complete result would retain the source figure slightly right of center, add lace patterns, use the exact title and provide clean bottom information. The figure is centered and replaced, the title repeats 'Big', background lace is absent, and the bottom contains garbled text and an extra malformed script heading. The broad theme is present but required aspects are incomplete. Quality, judged solely from this image: The human silhouette and lighting are plausible, but repeated headline wording, malformed secondary heading and numerous distorted footer glyphs produce multiple distracting semantic/text artifacts; dress lace is somewhat blended but remains interpretable."
+    },
+    {
+      "blind_id": "case_4797dcac8fc497afef37",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, petals, lace borders, glow and poster lettering, the low bun, earring, backward head angle, bent arm, hanging hand, lace bodice and train folds remain consistent. Facial contrast and lip definition are slightly stronger, a small non-requested appearance change. Instruction: The image adds the light green gradient, petals, lace borders, luminous dress and exact gold handwritten 'The Big Day' at top center, with the source bride slightly right of center. A fully compliant version would also give clean, usable bottom information; the three footer lines are visibly nonsensical, leaving that required component incomplete and giving partial compliance. Quality, assessed only from the edited image: Structure, anatomy, lighting, decorative lace and fabric are coherent with no obvious duplicated limbs or ghosting. The clear defect is the garbled footer text; the main title remains legible and the overall composition is intact."
+    }
+  ]
+}

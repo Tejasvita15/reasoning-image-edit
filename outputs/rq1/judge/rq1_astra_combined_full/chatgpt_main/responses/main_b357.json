@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b357",
+  "results": [
+    {
+      "blind_id": "case_f63a2a9fae70672a7e96",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Three drawers and circular knobs remain, but the molded cap is flattened and the side posts/base geometry are remodeled; requested setting and lighting changes are excluded. Instruction: The isolated cabinet becomes a slightly left-positioned furnishing against a warm wall and oak floor with linen and angled sunshine. This matches the expected tranquil neutral room, but the bottom-centered, distorted text neither supplies the required sentence nor the thin bottom-right title. Partial compliance. Quality: Cabinet and room structure, lighting and textures are coherent, but the two lines of heavily malformed lettering create distracting unreadable text artifacts."
+    },
+    {
+      "blind_id": "case_26978765a64e677cd117",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Three drawers, round knobs, molded cap, base and legs retain the source design; the painted front has a slightly rougher surface texture. Setting, illumination and placement changes are excluded. Instruction: A warm wall, wood floor, right curtain and directional shadows replace the white background, as expected, and the cabinet sits slightly left. Right-side breathing room is limited; the bold title includes 'Noty', 'stoms' and 'presreerving' instead of the exact thin-line sentence. Partial compliance. Quality: Structure, perspective, curtain texture and lighting are coherent; the conspicuously misspelled and extraneous title text is a clear semantic flaw."
+    },
+    {
+      "blind_id": "case_078beb6c78abf26c5e41",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Drawer count, knob style and molded top remain recognizable, but the feet are visibly squarer and more blocklike than the source's beveled legs. Requested room and lighting changes are excluded. Instruction: The cabinet is placed in a pale room with wood flooring and right linen curtain, matching much of the expected setting. It is nearly centered with little blank right space, angled sunlight is weak, and the heavy title reads 'items, buso' rather than the exact thin-line sentence. Partial compliance. Quality: The furniture, fabric and floor are structurally coherent and natural; the malformed word in the otherwise readable title is a clear text-semantic artifact."
+    },
+    {
+      "blind_id": "case_74b8c7dcd02367af0d7a",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The three drawer faces, circular knobs and general molding are retained; the front feet have become more square and less beveled. Requested placement, room and sunlight changes are excluded. Instruction: A slightly left cabinet, warm wall, light wood, right linen and diagonal sunlight substantially realize the expected room. The large gibberish heading at the top and tiny nonsensical footer fail the required exact bottom-right thin title. Partial compliance. Quality: The cabinet, lighting and fabric are plausible with coherent surfaces, but both the prominent upper text block and lower line contain distracting malformed, meaningless lettering."
+    },
+    {
+      "blind_id": "case_4f719c7e6f60acf5cfaf",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The source cabinet's three drawers, circular hardware, top molding, base and legs are preserved; its front finish shows a small rough-texture change. The instructed environment and illumination are excluded. Instruction: The cabinet now stands slightly left against a pale wall and wood floor, with a curtain and shadows on the right, matching the expected lifestyle setting. The right blank area is narrow and the bottom-right lettering is heavy and erroneous, including 'Noty' and 'stoms', so the exact thin-line title is not achieved. Partial compliance. Quality: Furniture geometry, perspective, lighting and linen texture are coherent. The title's stray word and misspellings create a noticeable semantic text defect."
+    },
+    {
+      "blind_id": "case_90241f2d0daaf3ecb59b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Three drawers and round knobs remain, but the cap's molding profile and the broad flat side-post/base construction differ from the source. Requested placement and room changes are excluded. Instruction: The edit introduces the expected warm wall, light oak, linen and diagonal sunlight, but places the cabinet so far left that it is substantially cropped, rather than slightly left. The boxed, garbled lower title fails both the exact wording and thin bottom-right presentation. Partial compliance. Quality: Room illumination, wood and fabric look natural and the visible cabinet is coherent, but the caption contains extensive distorted letterforms and doubled edges that make it unreadable."
+    }
+  ]
+}

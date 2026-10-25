@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b349",
+  "results": [
+    {
+      "blind_id": "case_0b1d9cde978c44d3d067",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pale wooden top, layered edge, small green edge mark and plain studio setting remain recognizable, but the table framing and tabletop perspective visibly shift; leg completion is excluded. Instruction: A second white-and-wood U-shaped support now fills the empty right side. The expected result is a matching complete support under that end, and both supports reach the floor coherently, fulfilling the request. Quality: Structure, perspective, soft shadows and wood textures are coherent; no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_65d46d8d7ad2ffadc14b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The tabletop outline and framing change, and the layered front edge is simplified with its green mark removed; the plain light background remains similar. Leg changes are excluded. Instruction: Four wooden posts and connecting stretchers appear. Completing the missing support should extend the existing white-and-wood U-frame design, but this replaces the original leg construction with a different framework, so compliance is partial. Quality: The four posts, joints and stretchers form a plausible table; lighting, contact shadows and wood surfaces are natural, without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_0bfc71a93a53256ed302",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The tabletop shape, position, pale finish, laminated edge and green mark remain visually unchanged, as does the studio backdrop; leg and associated shadow changes are excluded. Instruction: A matching right-hand U support is added, but the original left bottom connecting rail disappears, leaving two individual posts. A completed table should retain that existing support while adding the missing one, so the leg completion is partial. Quality: The standalone image has coherent tabletop geometry, clean posts and a continuous right support with plausible floor contact; surfaces and lighting are natural, without clear artifacts."
+    },
+    {
+      "blind_id": "case_318e7dc34cf91e909a3f",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The tabletop silhouette, pale grain, layered edge, green mark and plain background remain visually unchanged; all leg changes are excluded. Instruction: A right U-shaped support is added, but the left support becomes a narrow loop with an extra upright, while the front post stands separately. The expected matching complete supports are therefore only partially achieved. Quality: Structural coherence is problematic: the narrow left loop produces a conspicuous surplus upright and an awkward five-post arrangement. Lighting and surface textures remain natural and clean, but the duplicated support geometry is a clear visual flaw."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b118",
+  "results": [
+    {
+      "blind_id": "case_8e1ad4f26e9d1d7b4372",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and nine-cell layout remain, but extra spokes appear in the top-right, middle-center and bottom-left circles, while middle-right and bottom-center spokes disappear. Instruction: The question mark becomes a circle bisected by a vertical diameter without a central ring; the expected solution has an outer circle, central ring and single correctly oriented radial spoke, so most required details are wrong. Knowledge: The supplied counterclockwise rotation of the downward spoke requires a rightward spoke, absent here. Instruction failure ⇒ knowledge invalid. Quality, assessed only from this image: Structure and white surface are clear; slightly ragged, uneven circular outlines are a minor linework imperfection, without major rendering breakdown."
+    },
+    {
+      "blind_id": "case_ee9cfa715f7bb1f22bfb",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The grid, white background and all eight existing circle-and-spoke figures retain their positions, shapes and orientations. Instruction: A square floral ornament replaces the question mark; the expected circle, small central ring and single radial spoke are absent, constituting a complete misinterpretation of the pattern task. Knowledge: The explanation requires the bottom-middle symbol rotated counterclockwise by 90 degrees, giving a rightward spoke, not floral ornamentation. Instruction failure ⇒ knowledge invalid. Quality, assessed only from this image: The grid and circular diagrams are clean, and the intricate floral motif is coherent and legible; flat monochrome appearance and surface are natural with no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_b6329deaba112df0e860",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "Consistency: All eight existing symbols preserve their circle-and-spoke content and orientations, and the white background remains; a slight horizontal spacing/stretch change in the grid is a minor discrepancy. Instruction: The question mark is replaced by an outer circle, an incomplete small ring and a detached bent line reaching toward the upper right. This attempts the correct class of symbol but fails its required closed center and single correctly directed connected spoke. Knowledge: A counterclockwise quarter-turn of the downward spoke should retain both closed circles and produce a straight rightward spoke; the broken center and detached angular line violate that rotation in multiple respects. Quality, assessed only from this image: The layout is clear, but the bottom-right small ring is broken and its angular stroke is disconnected, two conspicuous structural flaws; the plain background remains clean."
+    },
+    {
+      "blind_id": "case_82dd0e23c039ceec3698",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The surrounding grid, white background and all eight circle-and-spoke diagrams remain visually unchanged. Instruction: Several concentric loops are drawn around the retained question mark. The required solved circle-and-spoke symbol is missing, so merely marking the target area leaves most of the task unfulfilled. Knowledge: The explanation calls for a quarter-turn counterclockwise of the bottom-middle figure, yielding a rightward spoke and closed central ring; no such result is drawn. Instruction failure ⇒ knowledge invalid. Quality, assessed only from this image: The grid and question-mark glyph are legible and the monochrome surface is clean; the surrounding loops have an awkward overlapping closure near the lower right, a minor linework artifact."
+    }
+  ]
+}

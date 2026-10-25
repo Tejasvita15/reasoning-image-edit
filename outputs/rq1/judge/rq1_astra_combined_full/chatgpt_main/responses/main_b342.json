@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b342",
+  "results": [
+    {
+      "blind_id": "case_78669739ebf58cd1c09b",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Title, brown bottle, table, background and object placement are preserved; a small change to the beaker rim contour remains outside the requested liquid edit. Instruction: A white submerged mass and many bubbles replace the quiet pink contents. The expected result is dry ice treatment with the solution becoming colourless after minutes; dry ice activity is depicted, but the liquid remains distinctly pink, giving partial compliance. Knowledge: The supplied explanation predicts CO2-induced fading to colourless; the persistent pink is one clear conflict despite plausible bubbling. Quality: Vessel shapes, legible heading, lighting and surrounding textures are coherent; the dense white bubble mass has a slightly pasted, overly crisp edge."
+    },
+    {
+      "blind_id": "case_9f030a72271440c86593",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 1,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The beaker is moved toward the centre, the bottle is fully revealed with changed spacing, the table occupies more of the frame, and the two-line heading is replaced by a garbled single line; the general laboratory setting remains. Instruction: A large white plume appears above the solution, suggesting dry ice, but the liquid remains strongly pink. The expected after-minutes view would show the treated solution losing pink colour; this only partially implements the request. Knowledge: The visible pink endpoint conflicts with the supplied CO2-lowers-pH and colourless-result explanation. Quality: Glass and bottle silhouettes and lighting are coherent, but the prominent heading consists of severely garbled symbols, a major semantic failure; smaller glass lettering is also malformed."
+    },
+    {
+      "blind_id": "case_509a1b43c2b7d07f22d8",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The brown bottle, two-line title, laboratory background and stained tabletop retain their identities and arrangement, but the image is reframed horizontally with the side margins removed and the title shifted. Instruction: A pale angular mass and cloudy bubbly material appear within the still-pink solution. A fully compliant result would show dry ice treatment followed by loss of pink colour after minutes; the added activity supplies only part of that change. Knowledge: The explanation specifically predicts a colourless solution as CO2 lowers pH; the vivid remaining pink conflicts with that endpoint. Quality: Text, main vessel outlines and illumination are coherent, but the suspended pink-white material forms a conspicuous ragged sheet with an ambiguous boundary, a clear local rendering flaw."
+    },
+    {
+      "blind_id": "case_1b2d0f683422da01ba48",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 4,
+      "rationale": "Consistency: The title wording, brown bottle, background, table and glass markings are retained, but a slight overall reframing changes the title margins and apparent vessel size. Instruction: The vivid pink liquid has become nearly colourless with pale haze and small bottom bubbles, consistent with a dry-ice-treated after-minutes view. The core result is present, though dry ice addition is only weakly indicated by these small residues. Knowledge: Removal of pink matches the supplied explanation that dissolved CO2 lowers pH; the slight greenish milky cast is a minor deviation from a fully colourless appearance. Quality: The heading is readable, glass and bottle structures are coherent, and lighting and tabletop textures are natural; the uniformly hazy liquid panel slightly flattens the glass reflections."
+    }
+  ]
+}

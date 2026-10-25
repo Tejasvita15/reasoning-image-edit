@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b254",
+  "results": [
+    {
+      "blind_id": "case_df3a2e5974ac6ac6714c",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The frog's two reference hands change from blue/red to orange/yellow, although its face, green body, surrounding outlines, motion marks and layout remain intact. Instruction: All eight surrounding hands remain white; the expected edit is blue for rightward-thumb silhouettes and red for leftward-thumb silhouettes, matching the frog. This changes the wrong hands and leaves the requested coloring absent. Knowledge: The supplied explanation is blank; the mandatory failure rule is the basis. Instruction failure ⇒ knowledge invalid. Quality: The cartoon has coherent anatomy, clean outlines, smooth fills and a clear, balanced layout with no noticeable generation defects."
+    },
+    {
+      "blind_id": "case_5dbae6ceceb646db7d1f",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The frog's face, body, original blue/red hands, surrounding hand shapes, positions, motion marks and white background are preserved. Instruction: All surrounding hands receive color, but orange, purple, yellow, green and cyan replace the expected blue/rightward-thumb and red/leftward-thumb classification; most coloring is incorrect. Knowledge: The explanation is blank; the mandatory failure rule applies. Instruction failure ⇒ knowledge invalid. Quality: Five-finger silhouettes are coherent, fills stay inside their borders, and the central cartoon and spacing are visually clean and natural for a worksheet."
+    },
+    {
+      "blind_id": "case_6ceb95f5944cfbee219a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The frog's smile and body contours are redrawn, and surrounding outlines and their spacing shift, particularly the lower row; the green frog, white background and broad layout remain recognizable. Instruction: Only part of the upper-left hand is filled blue and a narrow part of the upper-right hand red. These hues match the visible thumb orientations, but most of those hands and the other six are white, a major omission. Knowledge: No explanation is supplied; scoring follows the mandatory failure coupling. Instruction failure ⇒ knowledge invalid. Quality: The hand silhouettes and frog remain coherent, but visibly rough, speckled contours give the linework a minor finish defect; there is no severe structural failure."
+    },
+    {
+      "blind_id": "case_66ccb7d1030a602506e7",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The frog's mouth/body outlines and the surrounding hand outlines/vertical spacing visibly change; its identity, original hand colors, white background and motion-mark motif remain. Instruction: All eight surrounding hands turn peach. Coloring the correct objects is attempted, but none implements the required blue versus red matching by thumb orientation, so the main requirement is poorly implemented. Knowledge: The supplied explanation is empty, and the mandatory failure rule supplies the score. Instruction failure ⇒ knowledge invalid. Quality: The eight silhouettes have coherent fingers and neatly bounded peach fills; rough, lightly speckled line edges are a small perceptual defect."
+    },
+    {
+      "blind_id": "case_ef74887d22d2d5c06b6c",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The frog's blue hand is slightly brighter, a small color deviation; its face, body, surrounding outlines, positions, motion marks and background otherwise remain visually intact. Instruction: None of the eight surrounding hands is colored. The expected blue/rightward-thumb and red/leftward-thumb fills are entirely absent. Knowledge: The explanation is blank; the mandatory failure coupling is the basis. Instruction failure ⇒ knowledge invalid. Quality: The simple cartoon has coherent anatomy and spacing, smooth body shading and legible hand outlines, with no noticeable structural or rendering defect."
+    },
+    {
+      "blind_id": "case_2ff7abc77b7285a38276",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 2,
+      "rationale": "Consistency: The frog's smile and body contours are redrawn and the surrounding hand shapes/vertical placement shift; the original central blue/red cue, white background and broad arrangement remain. Instruction: All eight hands receive red or blue. The upper-left and bottom-center rightward-thumb hands are red instead of blue, while the upper-right leftward-thumb hand is blue instead of red; the other five match. This is partial compliance. Knowledge: The explanation is blank, so the basis is task-implied matching of visibly mirrored hand shapes to the frog's colored hands. Three contradictory assignments create multiple violations of that logic. Quality: Hand anatomy and color boundaries are coherent, but grainy, uneven outlines around fingers and the frog create a minor finish problem."
+    }
+  ]
+}

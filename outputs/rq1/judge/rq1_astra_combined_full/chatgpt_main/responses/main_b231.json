@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b231",
+  "results": [
+    {
+      "blind_id": "case_14767f916f7d2bce6415",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the tower exchange, the background gear pattern is reversed, the mouse moves from right to left, the webcam reverses, and the monitor loses the Start menu and reverses its wallpaper; the desk and central monitor arrangement remain recognizable. Instruction: The white tower moves to the left and the black red-lit tower to the right. The expected exchange is present, with both recognizable computers on their required opposite sides: perfect compliance. Quality, assessed from this image alone: structure, lighting and case textures are coherent, but the keyboard has visibly scrambled, merging key shapes, a clear local artifact."
+    },
+    {
+      "blind_id": "case_900c6f193a6b4ea0e16d",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the exchanged towers, the mouse moves to the left, the Start menu disappears, the wallpaper is redrawn, and the keyboard key pattern changes; the dark gear backdrop and central display/stand arrangement remain recognizable. Instruction: The observed white-left and black-red-right tower arrangement matches the expected exchange of the two original computers; both required position changes are present. Quality, assessed from this image alone: tower geometry, lighting and desk perspective are coherent, but the keyboard contains irregular, fused key outlines and the Windows motif has visibly bent pane boundaries; these are local distortions."
+    },
+    {
+      "blind_id": "case_3d211a91608e4215f34f",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the tower exchange, the monitor and webcam move slightly left, the stand moves left, and the keyboard and mouse also shift left; the wallpaper, open Start menu, gear backdrop and dark desktop remain visually consistent in content. Multiple unrequested object-position changes are visible. Instruction: The white computer is now left of the monitor and the black computer with red accents is right, exactly the expected exchange of the recognizable original towers. Quality, assessed from this image alone: satisfactory case and display structure, natural shadows and perspective, coherent keyboard and mouse, and intact surface textures; no noticeable generation artifact."
+    },
+    {
+      "blind_id": "case_8314eded3832ea9aeebd",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Apart from the requested tower swap, the display and its webcam are shifted left, the stand is displaced left, and the keyboard and mouse positions also change. The gear-pattern background, desktop, Start menu and blue wallpaper retain their content. These are multiple visible non-instruction position changes. Instruction: The black red-accented computer has moved from left to right and the white computer from right to left; this matches the expected complete exchange. Quality, assessed from this image alone: the towers, monitor, keyboard and mouse have coherent shapes and perspective, the lighting and shadows are natural, and the textures are intact without a noticeable artifact."
+    }
+  ]
+}

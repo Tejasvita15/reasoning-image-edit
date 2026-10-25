@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b237",
+  "results": [
+    {
+      "blind_id": "case_afc59dae371cfc9f94bf",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The unbranded tapered cup body and right-side drinking opening remain recognizable; the lid's broad rounded lower rim has changed into narrower stacked ridges and its recessed top contour is reshaped. Requested scene, position, scale and warm illumination changes are excluded. Instruction: The white studio scene becomes a warm blurred cafe beside glass windows, with a light wood table, grounded shadow and cup below center. The expected image also needs exact 'Start here.' in light dark-brown sans serif. The actual heading is malformed ('Start ryere'), white and heavy, so the scene request is fulfilled but the typography is only partially compliant. Quality, judged only from this edit: Structure, cup texture, table perspective and illumination are satisfactory; the malformed heading is a clear textual semantic artifact, with an odd protruding mark above a letter."
+    },
+    {
+      "blind_id": "case_5265046ecabff447d502",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The plain tapered cup, recessed lid, layered rim and right-hand dark opening retain their design; the small dark bottom-edge contour is softened away. Requested placement, scale, scene and lighting changes are excluded. Instruction: The scene becomes a blurred warm urban morning street with the cup below center on pale wood, a visible cast shadow and exact centered dark-brown 'Start here.' The expected treatment also requires light-weight typography and soft light through glass windows; the heading is very bold and dominant, and the scene reads as directly outdoors with stronger sunlight rather than window-filtered cafe light. These leave partial compliance. Quality, judged only from this edit: Structural coherence, readable text, natural shadows and perspective, and clean cup and wood textures are satisfactory; no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_cfc1c20b1dfa5444c086",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The plain tapered cup body and right-side drinking hole remain identifiable, but the lid is redesigned: its top recess has a pronounced stepped interruption and the broad rounded lower molding becomes thin stacked rims. Requested warm lighting, setting and positioning are excluded. Instruction: A warm blurred cafe street is visible through large windows, with a light wood table, natural illumination, grounded cup shadow and a cup below center. The expected exact heading is 'Start here.' in light dark-brown sans serif; the actual large heavy heading reads 'Stat torer' and lacks the required wording and period. Thus the scene is implemented but the text requirement is incomplete. Quality, judged only from this edit: Cup structure, surface textures, window perspective and lighting are coherent; the nonsensical headline is a clear semantic text flaw."
+    },
+    {
+      "blind_id": "case_72cff0ffc8c3cb6a0162",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The unbranded tapered body, recessed lid with rear groove, layered rim and right-side drinking opening retain the source design; the dark bottom lip is slightly softened. Requested background, placement, scale and lighting changes are excluded. Instruction: The edit adds a blurred warm urban street, light wood tabletop, natural cup shadow, below-center focal cup and exact top-centered dark-brown 'Start here.' The ideal also calls for a light sans-serif heading and soft natural light filtering through glass windows. Here the very bold headline dominates and the setting is an open street without the requested window-filtered light, leaving partial compliance. Quality, judged only from this edit: Structure and legible lettering are satisfactory, with plausible perspective and contact shadow, smooth cup surfaces and coherent wood texture; no noticeable artifacts."
+    }
+  ]
+}

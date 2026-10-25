@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b079",
+  "results": [
+    {
+      "blind_id": "case_1bee8000fa1c5d7979cc",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The retained basketball preserves its recognizable seam arrangement, orange pebbled surface and tiny upper mark; resizing, repositioning, background and typography are requested changes and excluded. Instruction: The ball is reduced and placed centrally above mid-frame, with bold lower text and no figures or hoop. The expected full matte-black field and exact tagline are not achieved: white surrounds a black disk and rectangular banner, the shadow belongs visually to the banner, and the wording ends 'Just bounce bacw.' rather than the requested sentence. This is partial compliance. Quality: Structure and ball texture are coherent; the graphic shapes have clean edges. Artifact-free text fails because 'bacw' is a conspicuous malformed word, a clear semantic flaw."
+    },
+    {
+      "blind_id": "case_a5c4528a1a358bb48cd8",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The basketball remains orange and spherical with a similar seam family and upper mark, but the middle seam is substantially straighter and the pebbling has been visibly regenerated into a coarser pattern. These are two non-requested surface changes; requested layout and background changes are excluded. Instruction: The image now has a centered upper basketball on black with bottom-centered bold lettering and no people or hoop. The expected exact English tagline is replaced by nonsensical lettering, and no circular soft cast shadow is discernible. The main composition is present but required aspects are incomplete. Quality: The sphere, seams, lighting and surface are coherent, but the bottom line consists of garbled words, a clear semantic text artifact."
+    },
+    {
+      "blind_id": "case_b1783593ba49c17feedf",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The orange spherical basketball is recognizable, but its middle seam and lower panel curves have changed, and its surface pebbling is visibly regenerated and elongated. These non-requested geometry and texture changes are distinct from permitted rescaling, lighting, background and text changes. Instruction: The ball is centered slightly above mid-frame against black, with a soft oval beneath it, no hoop or figures, and a bold lower caption. A fully compliant edit would show the exact requested tagline and a subtle cast shadow; the caption is nonsensical and the oval appears as a bright glow rather than a shadow. This is partial compliance. Quality: The basketball has coherent round structure and detailed texture. The gibberish caption is a clear semantic flaw, and the bright floating oval gives the grounding an artificial appearance."
+    },
+    {
+      "blind_id": "case_e6fc7c7f4d2362255b98",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Visible ball panels retain the source's distinctive curving black seams, orange pebbling and small upper mark. Its size, placement, illumination, background and added typography fall within requested edits and are excluded. Instruction: The ball is isolated on a dark field with a soft shadow and no hoop or people. A compliant image would place it slightly above center with the exact tagline at the bottom. Here it sits near the middle, a brown halo interrupts pure black, and large text covers the ball, reading 'No excuses, Just bacw.' instead of the requested sentence. The composition is only partially compliant. Quality: The sphere, texture and soft lighting are coherent and the bold letters are crisp, but 'bacw' creates a conspicuous semantic text error."
+    }
+  ]
+}

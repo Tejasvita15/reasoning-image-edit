@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b192",
+  "results": [
+    {
+      "blind_id": "case_9bfa8a704296d70d6ccb",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The four-by-four worksheet, top-left giraffe and bottom-right tree remain recognizable, but the grid is widened, the animal/tree outlines are redrawn, and the lettering has visible colored edge distortion. Changes to the directional blocks are excluded from consistency. Instruction: The lower strip now contains a left arrow and a fruit-like symbol, while the grid remains empty. A correct result would place directional blocks into a connected route from the giraffe to the fruit; no such route is built, so the request is not followed. Knowledge: No explanation was supplied; the score follows the mandatory coupling. Instruction failure ⇒ knowledge invalid. Quality: Structure and layout are readable, with coherent flat worksheet styling, but colored ghosting around the lettering and line drawings is a noticeable artifact; fine outlines are ragged."
+    },
+    {
+      "blind_id": "case_58ba14fbe9eb56f1fa36",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The grid, headings, lower arrow strip and original bottom-right tree are retained, but the small top-left giraffe is replaced by a large central head/neck and an additional large central tree obscures the grid. These are multiple unrequested changes. Instruction: Four diagonal arrows radiate around the new central tree. The expected edit is a connected sequence of directional blocks linking the original giraffe position to the fruit. Arrows are added, but they form disconnected outward branches instead of that route, leaving most required work unfulfilled. Knowledge: The supplied explanation is blank; mandatory instruction-failure coupling determines this score. Instruction failure ⇒ knowledge invalid. Quality: The worksheet text and arrow shapes are legible and the flat style is coherent, but the central tree has tangled, overlapping fruit/branch contours and the giraffe neck disappears awkwardly into the crown, creating noticeable structural ambiguity."
+    },
+    {
+      "blind_id": "case_135560a3c1f30786e122",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The giraffe, tree, headings and five-arrow strip retain their identities and arrangement. The main grid is visibly widened, with its vertical dividers and right-side tree shifted, constituting a noticeable layout alteration. Instruction: The grid remains empty and the directional blocks remain in the bottom strip. The expected result is a connected block path from the top-left giraffe to the bottom-right fruit; that requested construction is absent. Knowledge: No knowledge explanation is present; this score is assigned by the mandatory coupling. Instruction failure ⇒ knowledge invalid. Quality: The flat worksheet has coherent animal/tree drawings, readable text and intact arrow symbols. A thin doubled edge beside the central vertical grid divider is a minor line-rendering flaw; no major structural corruption is visible."
+    },
+    {
+      "blind_id": "case_3f5989f6f25231173cc9",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The entire worksheet layout, grid, text, directional strip and drawn tree are replaced by a large three-dimensional block giraffe and a red apple on a white background. Almost all major non-instruction details change. Instruction: The edit depicts a toy giraffe with fruit near its muzzle, but constructs no path and uses none of the worksheet directional blocks. The expected result is a connected directional-block route on the supplied grid; the edit completely misinterprets the request. Knowledge: The explanation is blank and the mandatory failure rule supplies the score. Instruction failure ⇒ knowledge invalid. Quality: The block-built animal has coherent joints, orderly brick seams, a recognizable face and clean surfaces. The apple and leaves are clearly shaped, lighting and floor shadows are consistent, and no noticeable generation artifacts are apparent."
+    }
+  ]
+}

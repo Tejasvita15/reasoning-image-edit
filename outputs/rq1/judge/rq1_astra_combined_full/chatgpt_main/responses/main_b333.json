@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b333",
+  "results": [
+    {
+      "blind_id": "case_558acf04fadcd27383e3",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The black shell, paired red crown stripes, dark reflective visor, red sculpted chin and side vents, shell channels, and gray background are preserved; viewpoint-dependent shape and reflection changes are excluded. Instruction: The helmet turns from three-quarter toward frontal; a perfect result would face squarely forward. Both sides now appear, but the stripe/chin axis remains slightly left of the silhouette center and the right side is more exposed, a minor residual turn. Quality: Coherent shell and visor geometry, clean trim and vent edges, smooth materials, and plausible reflections; no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_5e2bcc327beb0e3a057c",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray background and black/red helmet design remain, including flared twin crown stripes, tinted visor, grooved chin and red side vent with diagonal trim; the permitted rotation accounts for changed exposure and highlights. Instruction: The object becomes nearly frontal instead of three-quarter. A precise front view would center its longitudinal stripe and chin axis with balanced side exposure; these remain left-shifted and the right side remains more visible, so the rotation has a minor shortfall. Quality: Continuous smooth helmet surfaces, coherent visor border and chin structure, clear paint boundaries and plausible glossy lighting are artifact-free."
+    },
+    {
+      "blind_id": "case_04673bce980c059fb10a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Black/red colors, paired flared stripes, dark visor and gray setting remain. Beyond the permitted viewpoint change, the shell channels disappear and the chin/cheek assembly loses its diagonal trim and sculpted red vent detailing, noticeably simplifying the design. Instruction: The three-quarter view becomes a centered frontal depiction with aligned crown stripes and chin, balanced contour, and symmetric visor, fulfilling the requested view. Quality: Judged alone, the clean rounded shell, continuous visor rim, smooth surfaces and orderly red paint form a coherent artifact-free product rendering."
+    },
+    {
+      "blind_id": "case_5e15ba9bf1bd08560382",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The source helmet identity and materials are retained: black crown with two flared red stripes, tinted visor, red grooved chin, angular side vent and gray backdrop. Perspective and reflection changes are allowed. Instruction: The camera/object relation is moved toward front, but the stripe and chin remain to the left of the silhouette axis with more of the right cheek showing. A fully front-facing view would balance those sides; the requested change is largely achieved with slight remaining yaw. Quality: The shell, visor, side trim and chin meet cleanly; glossy reflections and paint edges are coherent, with no visible generation defects."
+    },
+    {
+      "blind_id": "case_bf683a58d2df21523071",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray setting, black/red palette, twin crown stripes and dark visor persist. The shell grooves are removed, the narrow sculpted chin is broadened and smoothed, and a small circular fitting appears on the visor face rather than remaining on the side shell; these are design changes beyond rotation. Instruction: The helmet is now shown squarely from the front, with centered stripes and chin and balanced side outline, satisfying the requested viewpoint. Quality: The overall shell and visor are coherent and smoothly shaded, but a small irregular ring-like mark on the left visor interrupts the otherwise clean surface; other edges and textures are sound."
+    },
+    {
+      "blind_id": "case_d0dc88eac07c4de1e532",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The black shell, tapered red crown stripes, tinted reflective visor, grooved red chin, angular red vents and gray background retain the source design; changed visibility and reflections follow the allowed viewpoint change. Instruction: The helmet is reoriented to a near-frontal view with both sides visible. A precise front view would put the stripe/chin axis at the silhouette center; it is still slightly leftward with a little more right side exposure, leaving a minor orientation error. Quality: Smooth solid shell and visor, crisp continuous trim, coherent vents and plausible glossy reflections show no noticeable artifacts."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b054",
+  "results": [
+    {
+      "blind_id": "case_4762805490e245305871",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background, centered placement, black contour style and relative framing remain unchanged; resolution changes do not alter the composition. Instruction: The outlined circle remains a flat, empty circle without depth cues; the expected modification is a sphere, so the required change is absent. Knowledge: The explanation calls for a sphere, which is not visibly established. Instruction failure ⇒ knowledge invalid. Quality: The simple circular outline is continuous and coherent, with clean empty space and no distracting artifacts."
+    },
+    {
+      "blind_id": "case_2c0492a3e6c2b950ddd8",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: White background and black line style remain consistent; the outline has a slightly larger lower margin and is subtly reduced vertically. Instruction: The source circle remains an unshaded outline, whereas a visibly three-dimensional sphere is expected; the requested transformation is absent. Knowledge: No spherical volume is depicted despite the supplied sphere expectation. Instruction failure ⇒ knowledge invalid. Quality: The standalone outline is smooth, closed and structurally coherent, with an uncluttered background and no noticeable defects."
+    },
+    {
+      "blind_id": "case_0dc8b0e3789e58f9d6fd",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background, centered circular framing and black line treatment are retained; the added internal geometry is assessed as the attempted shape modification. Instruction: A tapering stack of spiral loops is added inside the circle. A sphere should result, but the new form is conical rather than spherical, completely misinterpreting the transformation. Knowledge: The conical coil does not match the supplied sphere explanation. Instruction failure ⇒ knowledge invalid. Quality: The outlined coil is recognizable and the layout coherent, but doubled, uneven strokes at the lower loops create a small linework imperfection."
+    },
+    {
+      "blind_id": "case_fa883006bdfbc5561a4a",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The white background and centrally framed circular silhouette are preserved; shading and removal of the outline serve the requested dimensional transformation. Instruction: The empty circle becomes a shaded round volume, with a bright upper-left region and dark lower-right region. This precisely depicts the expected sphere. Knowledge: The visible spherical volume matches the explanation that rotation produces a sphere. Quality: The round structure and directional shading are coherent, but visible horizontal tonal banding in the lower shaded area is a minor surface artifact."
+    },
+    {
+      "blind_id": "case_e842f266924908ac59ca",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The surrounding white field, centered circular boundary and monochrome line style remain consistent; the internal geometric drawing is the attempted instructed change. Instruction: A pointed cone with elliptical horizontal sections is inserted inside the circle. The expected result is a sphere, so this conical form completely misinterprets the requested transformation. Knowledge: The pointed taper is incompatible with the supplied spherical outcome. Instruction failure ⇒ knowledge invalid. Quality: The cone and outer circle are recognizable and well separated, but wobbly, uneven interior section curves are a minor drafting defect."
+    },
+    {
+      "blind_id": "case_58c92792b018cdb56dfd",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The plain white background and black contour are retained; the circle is subtly shorter, leaving a slightly enlarged bottom margin. Instruction: The output remains a flat circular outline with an empty interior. The expected spherical volume is not represented, so the shape transformation is absent. Knowledge: The supplied explanation requires a sphere, and the image supplies no visible volumetric evidence. Instruction failure ⇒ knowledge invalid. Quality: The closed circular contour is coherent and clean, with no distracting artifacts or structural errors."
+    }
+  ]
+}

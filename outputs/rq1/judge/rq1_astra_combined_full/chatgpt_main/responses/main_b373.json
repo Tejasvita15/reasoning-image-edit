@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b373",
+  "results": [
+    {
+      "blind_id": "case_4b0ab95a23f60eaaa1e7",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Cup position, lid shape, handle and gray backdrop remain recognizable, but the ceramic surface is visibly grainier and the tabletop grain/reflection is altered. Instruction: A white cross inside a red disk has been added to the cup; the expected classic emblem is a red cross on white. Correct placement and cross motif provide partial compliance, but the colors are reversed. Knowledge: The supplied explanation requires the Red Cross to be attached; the visible white cross on red conflicts with that emblem identity. Quality: Structure, lighting and layout are coherent, with slight rough, grainy ceramic contours as a minor surface imperfection."
+    },
+    {
+      "blind_id": "case_e833c0c9ca3b42df7f9a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The gray setting and basic lidded mug remain, but the mug and knob shift slightly upward/left and the wood grain beneath and beside it changes visibly. Instruction: A large red circular badge with a white cross is attached to the correct cup; a red cross on white was expected, so the emblem colors are incorrect despite the successful attachment. Knowledge: The explanation calls for the Red Cross; the reversed white-on-red cross is a clear identity mismatch. Quality: Viewed alone, the cup, closed lid, connected handle, glossy decal and tabletop are structurally coherent, naturally lit and free of noticeable artifacts."
+    },
+    {
+      "blind_id": "case_f7e7547c1ae9d4b980f5",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Lid, knob, handle, cup silhouette and base, gray backdrop, wood grain and lighting appear unchanged outside the added emblem. Instruction: The previously blank front now bears an upright red equal-arm cross on the white cup, precisely matching the requested attachment. Knowledge: The attached red cross visibly satisfies the supplied explanation and the task-implied emblem identity. Quality: Cup geometry, lighting and ceramic texture are coherent; a faint doubled border and tiny residue beside the right cross arm are a minor local edge imperfection."
+    },
+    {
+      "blind_id": "case_cca29191ee39fa2c9bab",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The cup body, lid and knob, curved handle, base, background and tabletop retain their original shapes, positions and appearance outside the emblem. Instruction: A red equal-arm cross has been added centrally to the existing white cup, matching the expected classic Red Cross emblem. Knowledge: The visible red cross is attached to the cup as the explanation requires, without a conflict in emblem identity. Quality: The image has coherent ceramic structure, natural highlights and clean surroundings; slight edging and a tiny speck at the right arm of the cross constitute a minor local imperfection."
+    },
+    {
+      "blind_id": "case_601341b1a5add27d7537",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The original cup silhouette, lid, knob, handle, base, gray backdrop, table and reflections remain visually unchanged outside the added symbol. Instruction: A centered upright red equal-arm cross is newly present on the white cup, fully satisfying the requested emblem attachment. Knowledge: The red-on-white cross is visibly attached as stated in the supplied explanation and fits the task-implied emblem. Quality: The cup and handle are structurally sound, the red symbol is clean and integrated with the surface, and lighting, shadows and textures are natural with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_bfcec47ed79d11f30f1c",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Cup position, lid and knob, handle outline and gray backdrop are retained; the tabletop grain and reflected detail are visibly reworked. Instruction: The cup gains a white cross in a red disk, whereas the expected classic emblem is a red cross on white. Attachment and the general cross motif are present, but the color identity is wrong. Knowledge: The supplied explanation requires the Red Cross to be attached; the inverted color arrangement visibly conflicts with that identity. Quality: The cup, lid, handle and scene lighting are coherent, but the circular badge has a slightly ragged dark rim and uneven painted edge, a minor finish defect."
+    }
+  ]
+}

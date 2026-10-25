@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b119",
+  "results": [
+    {
+      "blind_id": "case_ee64a10469b6aff0e3d4",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "Consistency: The silhouette, individual region shapes, placement, and white background are preserved, but the entire black boundary network has become white. Requested region colors are excluded from this judgment. Instruction: White regions are now filled with all four requested colors; a correct game would give each region a single color distinct from edge-sharing neighbors. The coloring is complete, but adjacent red regions at upper left and middle left, adjacent yellow central regions, and the two blue lower-right regions violate that requirement. Knowledge: The supplied explanation is blank; task-implied map-coloring logic supports multiple serious adjacency violations (2). Quality: Coherent flat map geometry, clean separators, smooth fills and an uncluttered background show no noticeable artifacts (5)."
+    },
+    {
+      "blind_id": "case_03d74e04ea30a6ff278c",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "Consistency: The general map silhouette and most partitions remain recognizable, but an extra vertical boundary divides the bottom middle-left region and faint gray marks appear in the surrounding white background. Instruction: Regions receive red, yellow and blue, but green is absent; the upper-left region and bottom middle-left region also contain multiple colors. A correct result would use the requested palette with one color per region and different colors across shared edges. This is partial compliance. Knowledge: No knowledge explanation was supplied; task-implied logic is violated by several red neighbors in the middle and yellow neighbors on the right. Quality: The map remains legible, but pale background scuffs and abrupt color patches without enclosing outlines are noticeable visual flaws (3)."
+    },
+    {
+      "blind_id": "case_3cfd641f32a0882a7010",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "Consistency: Overall map placement and silhouette broadly persist, but several stepped outlines are smoothed or roughened, and parts of the upper-left and lower-middle partition network are lost or redrawn. Instruction: The map is colored red, yellow and blue with no green; some original regions are split into differently colored patches. Expected coloring would assign a single requested color to each region and distinguish edge-sharing neighbors, so the result is partial. Knowledge: The explanation is blank; directly visible task-implied violations include the yellow central regions sharing a boundary and the yellow upper-right and middle-right regions sharing a boundary. Quality: Noticeably ragged black contours, broken separators and uneven transitions between patches detract from an otherwise readable graphic (3)."
+    },
+    {
+      "blind_id": "case_209246d08a5792979978",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "Consistency: Black outlines, the region network, white background and overall map geometry are retained; a small leftward framing shift brings the upper-left outline against the canvas edge. Region fill changes are explicitly excluded. Instruction: All regions are filled using red, yellow, blue and green. A correct game would separate edge-sharing regions by color; instead the upper-left and middle-left reds, two central yellows, right-side greens, and lower greens share boundaries. The main coloring request is therefore only partly fulfilled. Knowledge: With the supplied explanation blank, task-implied adjacency logic directly establishes multiple serious violations (2). Quality: The edited image itself has coherent shapes, consistent black separators, smooth saturated fills and a clean white background, without noticeable generation artifacts (5)."
+    }
+  ]
+}

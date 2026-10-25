@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b107",
+  "results": [
+    {
+      "blind_id": "case_10475dfe7279fc47b640",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the six-by-six layout, original symbols and their locations, white ground and framing remain intact; grid strokes have a small unevenness. Instruction: only a sun-like mark is added at row 3 column 1; a completed puzzle would fill every blank with appropriate pictorial symbols, so nearly all required additions are missing. Knowledge: the supplied explanation is blank; the mandatory instruction-failure rule applies. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: the grid and existing symbols are legible and the background is clean, but the row 3 column 1 sun has tangled interior strokes and malformed rays, a clear local artifact."
+    },
+    {
+      "blind_id": "case_a1b98b02cde8f17915e5",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 2,
+      "rationale": "Consistency: original pictorial clues, cell positions, thick block dividers, thin grid lines, white background and framing are visually preserved; additions in blank cells are excluded. Instruction: all blanks are populated with pictures, but appropriate completion requires a valid symbol arrangement; repeated butterflies across row 1 and repeated suns across rows 2 and 3 make this only partial compliance. Knowledge: no explanation was supplied; task-implied Sudoku logic requires unique symbols per row, column and block. Multiple suns within row 3 and repeated butterflies in the upper-left block visibly violate that logic. Quality, edited image alone: the grid is orderly, symbols are legible and surfaces clean; the row 4 column 2 flower-like symbol has a small stray/disconnected upper stroke, a minor drawing imperfection."
+    },
+    {
+      "blind_id": "case_ad7f54dd2c1ded4ccb67",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: original six-by-six composition, clue pictures and positions, background and borders remain intact, with only slight irregularity in grid-line edges. Instruction: no blank cell has been filled; the expected completed grid would contain appropriate symbols throughout, so the requested change is absent. Knowledge: the explanation is blank and the mandatory failure coupling supplies the basis. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: coherent rectangular cells, clean recognizable line drawings, natural flat graphic presentation and an uncorrupted white background show no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_f0bae69f76e8c0ed65e3",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background and several original clues remain, but the grid spacing shifts, the row 1 column 4 butterfly and row 3 column 3 flower are replaced, and the row 2 column 1 flower loses its lower stem/leaves. Instruction: most empty cells receive digits or letters, with bottom corner cells still empty; appropriate completion would use the existing pictorial symbol vocabulary consistently, so the requested solution is poorly implemented. Knowledge: the supplied explanation is blank; the instruction-failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: grid lines and bold characters are clearly legible with clean backgrounds, but the flower at row 2 column 1 is visibly truncated and malformed, a clear local structural flaw."
+    }
+  ]
+}

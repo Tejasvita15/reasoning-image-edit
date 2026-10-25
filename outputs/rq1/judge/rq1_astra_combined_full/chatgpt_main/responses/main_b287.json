@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b287",
+  "results": [
+    {
+      "blind_id": "case_de0091e6f5994b1b26a5",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The square grid, white cells and black surround remain, but numerous fixed clues change, including r1c1 4 to 9, r1c4 1 to 2 and r2c3 3 to 9. Instruction: Blank cells receive numbers, but a correct completion would preserve clues and give rows 4321/2134/3412/1243; most inserted numbers are wrong, including 5, 6 and 7. Knowledge: The explanation is blank; the visible task implies Sudoku logic, but the mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: The grid is coherent and most symbols legible on clean white surfaces, but r2c2 has visibly overlapping numeral strokes, a clear local artifact."
+    },
+    {
+      "blind_id": "case_3f6b275de049b1a72ee3",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 2,
+      "rationale": "Consistency: Fixed clues, white cells, black surround and overall layout remain; the formerly straight thin grid lines now visibly wobble, especially along the bottom row. Instruction: All blanks are filled, but only four of eight additions fit the required rows 4321/2134/3412/1243; r1c2, r2c4, r3c1 and r4c3 are wrong, so completion is partial. Knowledge: No explanation is supplied; task-implied Sudoku logic requires 1–4 once per row, column and block. Repeated 2s in the first three rows and repeated 1s in the last violate multiple constraints. Quality: The numerals are legible, surfaces clean and structure coherent; slight waviness of thin grid lines is a small drawing imperfection."
+    },
+    {
+      "blind_id": "case_386dd36edb843f945a1c",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The grid arrangement and clue values remain, but the white cells acquire scattered dirty marks, grid edges become rough and some given numeral shapes are redrawn, especially the bottom-left 1. Instruction: All blanks receive digits, yet only r2c4=4 and r4c2=2 fit the required completion 4321/2134/3412/1243. Wrong entries include r3c4=7, and most required additions fail. Knowledge: The supplied explanation is blank; the task visibly implies Sudoku constraints, but the mandatory failure coupling determines this score. Instruction failure ⇒ knowledge invalid. Quality: All cells and digits remain identifiable; rough dirty grid edges and damaged/stray strokes around numerals, particularly r2c1, are clear artifacts on otherwise flat surfaces."
+    },
+    {
+      "blind_id": "case_5e2d799663be16301d8f",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Grid geometry, black surround and most clues remain, but fixed clues r2c3 and r3c3 change from 3 and 1 to 8 and 5, and r2c2 is overdrawn. Instruction: Blank cells are populated, but only r1c2=3 and r3c4=2 match the required completion 4321/2134/3412/1243; most inserted values are wrong. Knowledge: The explanation is blank; the visible Sudoku task supplies the logical context, but the mandatory failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality: Straight grid lines, clean flat cells and mostly legible numerals form a coherent diagram, but r2c2 has obvious stacked/ghosted numeral strokes."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b154",
+  "results": [
+    {
+      "blind_id": "case_e0755c749fbc532f63e0",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The orange rounded ceramic body, tapered fabric shade, visible upper support/finial and circular metal foot retain their forms; reframing, illumination and the new setting are requested changes. Instruction: The edit adds a centered glowing lamp, navy background, diffuse orange-yellow halo, dark wooden desk, sunglasses and the exact upper-right title. A fully compliant scene would also show an open magazine with exposed pages; the lower-left publication instead appears as a closed/stacked issue, so this is partial compliance. Quality, edited image alone: Structure, naturalness, artifact freedom and textures are satisfactory; the lamp, readable headline, layered paper, lenses and tabletop form a coherent scene."
+    },
+    {
+      "blind_id": "case_c3ca9ca569518b0f9500",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The rounded orange body, tapered shade with top supports and finial, and low metal foot preserve the source lamp's identity and geometry; lighting/reflections and setting are allowed to change. Instruction: A centered lit lamp, blue background, warm spreading halo, dark desk, sunglasses and accurate upper-right title are present. The expected open magazine is not clearly realized: two thick folded/closed publications occupy the foreground, leaving a required aspect incomplete. Quality, edited image alone: Structure, naturalness, artifact freedom and texture fidelity are satisfactory, with coherent lamp construction, legible headline, believable eyewear and paper stacks, and consistent warm illumination."
+    },
+    {
+      "blind_id": "case_a30e33f7d56c3f2d08a2",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The orange ceramic lamp and metal foot remain recognizable, but the shade is narrower and loses the source's visible open top/supports, while the body/neck proportions are altered. These are multiple non-requested design changes. Instruction: The edit introduces a blue setting, lit central lamp, open magazine, sunglasses and upper-right text. A compliant result would have a dark wood surface, a spreading warm halo and the exact headline; the desk is light wood, the outward halo is weak/absent and the headline is gibberish. Thus the concept is only partially fulfilled. Quality, edited image alone: Object structures, perspective and surface textures are generally coherent, but structural/semantic coherence fails in the large garbled headline; the remaining scene has no major distracting deformation."
+    },
+    {
+      "blind_id": "case_2f70f8461071995e50ad",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The rounded orange body and metal foot are recognizable, but the shade is narrower with its upper opening/support assembly no longer visible, and the neck/body silhouette has changed. These multiple design alterations are outside the requested lighting and composition changes. Instruction: The edit supplies a centered illuminated lamp, dark blue background, warm diffuse halo, dark reddish wood, open pages and sunglasses. The expected exact upper-right headline is replaced by large garbled lettering across the upper region, making compliance partial. Quality, edited image alone: Lighting, ceramic/wood textures and eyewear are visually coherent; the prominent nonsensical headline is a clear semantic artifact, and the foreground publication has an awkward multi-fold arrangement, while overall object structure remains readable."
+    }
+  ]
+}

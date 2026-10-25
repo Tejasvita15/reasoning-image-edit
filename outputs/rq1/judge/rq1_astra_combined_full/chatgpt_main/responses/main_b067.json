@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b067",
+  "results": [
+    {
+      "blind_id": "case_f36a3311148e364dae4d",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The pink yarn, honey jar, eggs, milk carton, white background and two-column layout remain; the cow is replaced with a newly drawn sheep, the orange hen becomes a white hen, and the bee becomes another chicken. Matching permits associations, not these unrelated redrawings and substitutions. Instruction: Animal substitutions appear without connecting marks; only the yarn row now aligns with its producing animal. A complete result would associate yarn–sheep, honey–bee, eggs–hen and milk–cow; most matches are absent or wrong. Knowledge: The explanation is blank; the score follows mandatory coupling. Instruction failure ⇒ knowledge invalid. Quality: Viewed independently, the illustrated animals and products have coherent silhouettes, clean contours and intact textures, with clear spacing and no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_ac7d5cb752955a51f59d",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and broad two-column arrangement remain, but honey and milk are removed/replaced, the bee and sheep move, the hen disappears, and several new animals and malformed objects replace the lower rows. Most major content is altered. Instruction: The edit substitutes and rearranges objects without establishing the four product-origin pairs. Expected yarn–sheep, honey–bee, eggs–hen and milk–cow associations are not shown. Knowledge: The explanation is blank; mandatory coupling determines the score. Instruction failure ⇒ knowledge invalid. Quality: Independently, the lower-right cluster contains an illegibly labeled yellow carton, an ambiguous container, an amorphous pale shape and a detached blue mark; multiple semantic and structural artifacts disrupt an otherwise spaced icon layout."
+    },
+    {
+      "blind_id": "case_0c38c54579f88a1a691c",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The cow, orange hen, gray-faced sheep, bee, white background and right-column arrangement remain recognizable and essentially preserved. All four left products are replaced with a sheep, empty basket, rooster and cow, significantly altering non-requested content. Instruction: Object replacement produces two animal columns rather than matches between the original products and their origins. No yarn–sheep, honey–bee, eggs–hen or milk–cow associations are completed. Knowledge: No explanation is supplied; mandatory coupling supplies the score. Instruction failure ⇒ knowledge invalid. Quality: Judged alone, animal anatomy and basket construction are coherent in a cartoon style, contours are clean, textures intact and the spacious layout free of noticeable artifacts."
+    },
+    {
+      "blind_id": "case_aca5bfed84410e4720bd",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Honey, milk, right-column animals and the pale background are preserved; yarn becomes a gray animal head, a tan animal is added beside honey, and eggs move beside an added sheep. Multiple non-requested elements change. Instruction: New animal pictures appear on the product side, but the required four origin matches are not established. Expected explicit or clearly aligned yarn–sheep, honey–bee, eggs–hen and milk–cow pairings are absent. Knowledge: The explanation is blank, so the mandatory coupling is the basis. Instruction failure ⇒ knowledge invalid. Quality: Considered independently, the added and existing cartoon icons have coherent anatomy and shapes, clean outlines, legible milk text and clear spacing without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_329792bc918b42ef7f93",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Yarn and needles, honey, eggs, milk and the white two-column setting remain. The top cow is replaced by a newly illustrated sheep, the orange hen is redrawn as a white hen, and the bottom bee becomes a chicken; these are multiple non-requested content alterations beyond indicating matches. Instruction: The top row suggests yarn–sheep, but honey faces a hen, eggs face a sheep, and milk faces a chicken, with no connecting marks establishing the correct origins. Most of the required matches are missing or incorrect. Knowledge: The explanation is blank; mandatory instruction-failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality: Independently, the icons are clean and readable, animal silhouettes and limbs are coherent, and the balanced layout has no visible corruption or distracting artifacts."
+    },
+    {
+      "blind_id": "case_dae0c1c3c83c1901d0ce",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and two-column concept persist, and eggs and milk remain recognizable, but the yarn is redrawn without needles, the cow is replaced with a squat rendering, honey moves and changes, and new animals replace the hen, sheep and bee. Most major non-requested details change. Instruction: Rearranged and replaced icons do not identify the product-origin pairs; yarn faces a cow, honey occupies the right column, and eggs and milk face unrelated animals. None of the four required associations is clearly completed. Knowledge: The supplied explanation is empty; the mandatory coupling determines the score. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, most icons are recognizable and well separated, but the honey dipper has two divergent handles fused at one head, and the bottom-right animal has a tangled, ambiguous body contour. These are noticeable structural flaws."
+    }
+  ]
+}

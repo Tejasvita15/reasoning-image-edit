@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b351",
+  "results": [
+    {
+      "blind_id": "case_942bfbc23e44e7749207",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pink flower, left bud, five stamens, crossed gold stems and clear vase remain recognizable; however the central pink crystal's facets and the vase's facet structure/outline are visibly redrawn. Poster placement, background and glow are excluded. Instruction: The plain background becomes a warm peach-pink luminous poster with gold-toned cursive above the flower. A fully compliant result would retain clear crystal detail, use a pink-to-white petal-textured background and read 'Crystal Moments'. The glow and romantic composition are present, but the title is incorrect and petal textures are absent, giving partial compliance. Quality alone: Structure and crystal surfaces are largely coherent, but the prominent heading is nonsensical and a faint signature-like mark appears at bottom right; these are multiple distracting text/artifact issues."
+    },
+    {
+      "blind_id": "case_61bb1dea38867a698cf6",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pink petals and bud, five gold stamens, gold stem crossings and leaves, and faceted vase retain their original shapes and internal details; changes are confined to the requested background, light and title. Instruction: A pink/peach illuminated setting, floating and scattered petals, and the correct gold handwritten 'Crystal Moments' title have been added. The expected clear flower-centered romantic poster is present; the petal treatment is conspicuous rather than subtle, a minor departure. Quality alone: Structure and text are coherent and legible, with convincing metallic and crystal surface detail and no obvious duplication; the vase remains conspicuously pale/opaque against the colored surroundings, a small transparency/lighting integration issue."
+    },
+    {
+      "blind_id": "case_4344d17dc9198fcef987",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The original flower petal contours and facets, left bud, five stamens, gold stems and leaves, and vase silhouette/facets remain unchanged; the added glow, poster text and petal background are requested changes. Instruction: The background is now a warm pink-to-white field with soft petal forms and light blooms. The expected result includes a detailed crystal flower and the exact gold handwritten title 'Crystal Moments'. The flower, palette, petal texture and glow satisfy the main design, but the visible title instead reads a malformed alternative, making compliance partial. Quality alone: Flower, gold supports and vase are structurally coherent with soft but identifiable material detail; the large heading contains malformed/nonsensical wording, one clear semantic flaw."
+    },
+    {
+      "blind_id": "case_75e2783493940ebbcb57",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The source's flower-and-bud arrangement, five stamens and crossed stems remain recognizable, but the pink petal facet patterns and the vase's faceting/proportions are changed. Poster scaling/position, background and glow are excluded. Instruction: A glowing pink/cream poster and large gold-toned cursive have replaced the plain setting. The expected poster would have clear crystal detail, subtle petal textures and the exact title 'Crystal Moments'. Romantic lighting and the flower-centered composition are achieved, but the title is incorrect and there are sparkles rather than visible petal textures, so compliance is partial. Quality alone: The flower and glass ornament have coherent silhouettes and plausible highlights. The large heading and smaller subtitle are nonsensical, and a small signature-like text mark appears at bottom right, producing multiple distracting text artifacts."
+    }
+  ]
+}

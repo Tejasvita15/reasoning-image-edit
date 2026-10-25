@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b273",
+  "results": [
+    {
+      "blind_id": "case_b28473981e7b79ce24c6",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The two overlapping steaks and rosemary remain identifiable, but the front steak's contour/proportions and surface grooves are redrawn, and an unrequested rectangular brown plaque is added; the requested scale, slate, background and gloss changes are excluded. Instruction: The edit adds a black slate, pale gradient and upper-right lettering while placing the meat near the lower center. Expected is the retained steak composition on slate with dark-brown bold sans-serif 'Bold. Juicy.' on white. The actual white 'BAL. JUXC!' on a brown panel fails both wording and text color, so compliance is partial. Quality, judged from this edit alone: structure and shadows are coherent and meat/slate textures recognizable; the nonsensical headline is a clear semantic flaw, while object edges show no major structural failure."
+    },
+    {
+      "blind_id": "case_383d21c7cfeae1ac6e9d",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The two steak silhouettes, overlapping arrangement, major grill marks and rosemary positions are preserved; changes to gloss, slate and background are requested. A tiny extra ring-like glyph at the end of the headline is a minor unrequested addition. Instruction: A black slate and bold dark-brown upper-right 'Bold. Juicy' are added, with the steaks slightly below center on a nearly white subtly shaded background. This closely matches the expected restrained steak advertisement, but the final period appears as a small ring-like symbol rather than ordinary punctuation. Quality, judged from this edit alone: steak and slate shapes, lighting and readable main lettering are coherent, with convincing food texture; a thin pale fringe along part of the meat's lower contact edge is a small compositing imperfection."
+    },
+    {
+      "blind_id": "case_5bfec5d45e5ade5ef034",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The rear steak is removed and the remaining steak's silhouette and grill-groove arrangement are substantially reshaped. Rosemary removal is treated as part of the requested restrained presentation, and requested slate/background/repositioning changes are excluded; the extra brown headline panel is also unrequested. Instruction: The edit introduces slate, a gray-to-white setting and an upper-right headline. Expected is the original steak subject slightly below center on black slate, a light gray/white gradient and dark-brown bold sans-serif 'Bold. Juicy.' without extra decoration. The visible pale 'BOLD JUXEX' wording on a brown rectangle is incorrect, the background has a conspicuous horizontal division, and the meat sits left of center; the overall idea is only partly achieved. Quality, judged from this edit alone: the single steak, flat slate, shadows and textured surfaces are coherent; the malformed nonsensical headline is a noticeable semantic flaw."
+    },
+    {
+      "blind_id": "case_5b723ee94da8795701e9",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Both steaks retain their outlines, overlap, grill-mark placement and rosemary arrangement. Requested gloss, slate and background changes are excluded; the tiny star-like symbol following the headline is a minor additional detail. Instruction: Black slate, a light gray-to-white gradient and dark-brown bold sans-serif upper-right lettering are added, with the meat prominent and slightly below center. The expected clean 'Bold. Juicy.' composition is substantially realized, but the last period is replaced by a small irregular star-like mark. Quality, judged from this edit alone: the food, slab perspective, shadows and glossy texture are visually coherent, and the main words are clearly legible; the small malformed terminal glyph is a minor text artifact."
+    }
+  ]
+}

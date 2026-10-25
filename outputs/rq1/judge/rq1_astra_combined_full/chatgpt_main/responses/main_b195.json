@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b195",
+  "results": [
+    {
+      "blind_id": "case_433bcec99f2f486c5fc7",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white backdrop and glossy floor remain consistent, but the untouched upright cup is visibly smaller and shifted left/down. Instruction: The left cup is moved closer and turned, but remains on the floor beside the upright cup; the expected result is that cup resting on top of the other, so the requested placement is absent. Quality: Coherent cup rims and interiors, smooth ceramic surfaces, and plausible floor contact and lighting; no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_ce228858d0bf15b780f7",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The plain background and reflective surface are retained, but the upright cup shifts left/up and changes proportions. Instruction: The sideways cup moves forward and right while still resting beside the upright cup; it should instead be placed onto the other cup, so the instruction is not fulfilled. Quality: Both cup forms, clean rims, interior shading, and contact shadows are visually coherent, with no apparent generation defects."
+    },
+    {
+      "blind_id": "case_f7dc073e159c1940fc59",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Beyond the permitted relocation of the left cup, the lower cup becomes much shorter and moves toward the center; the floor reflection and scene viewpoint also change visibly. Instruction: The formerly sideways cup is raised and tilted above the other, with its lower rim resting across the lower cup's opening, satisfying placement onto it. Quality: Smooth ceramic surfaces and clear rims are present, but the steeply tilted upper cup has an implausibly precarious, poorly resolved support relationship at the lower rim, a noticeable structural/naturalness issue."
+    },
+    {
+      "blind_id": "case_614b0a8fb26301012d4c",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Background and glossy ground remain consistent, while the upright cup is moved left/up and shortened. Instruction: The left cup is turned slightly and pressed against the upright cup's side, still touching the floor; the expected on-top placement is absent. Quality: Cup silhouettes, interior depth, smooth material, and floor shadows are coherent and natural, without visible artifacts."
+    },
+    {
+      "blind_id": "case_083bcb9ef7093f2a9476",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The plain white setting persists, but the supporting cup is repositioned centrally and shortened; the ground reflection and framing are also altered beyond the requested left-cup movement. Instruction: The left cup is now upright directly atop the other cup, its base aligned with the lower opening, matching the requested stacking. Quality: Rims and ceramic surfaces are clean, but the top cup's narrower base appears suspended inside a wider opening without a convincing supporting contact, a noticeable physical-coherence flaw."
+    },
+    {
+      "blind_id": "case_920c6dd2ab7ec61dcfae",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and reflective floor are retained, but the upright cup shifts left and changes height and width. Instruction: The left cup moves toward the front of the upright cup and remains sideways on the ground; it should rest on top of the other cup, which has not happened. Quality: Continuous rims, coherent interiors, clean ceramic textures, and plausible lighting and shadows show no noticeable artifacts."
+    }
+  ]
+}

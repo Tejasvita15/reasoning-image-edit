@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b210",
+  "results": [
+    {
+      "blind_id": "case_4c1375c9a6378ecf8270",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Grid geometry, white outer margin and original clue positions remain, but cell backgrounds turn dark brown and the original black numerals become white. Instruction: Only three blanks are filled (5 at r1c3, 1 at r3c2 and 9 at r3c4); five blanks remain. A completed puzzle should have all eight blanks filled with appropriate 1–4 values, so most required work is missing or incorrect. Knowledge: The supplied explanation is blank; mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the straight grid, legible white numerals and even dark cells are coherent and free of noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_a1f409a7f766de8c1b5e",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The grid layout, outer white margin and original clues are retained, but the cells change to dark brown and clue lettering changes from black to white. Instruction: The visible additions are 5 in r1c3, 1 in r3c2 and 9 in r3c4; five cells remain empty. The requested complete 1–4 Sudoku is largely unfulfilled. Knowledge: No knowledge explanation was supplied; the mandatory instruction-failure rule applies. Instruction failure ⇒ knowledge invalid. Quality: The standalone image has regular cell boundaries, clear numerals and uniform fills without noticeable visual artifacts."
+    },
+    {
+      "blind_id": "case_ecc877b1cbff9bb1b96a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Grid positions and white margin remain, but cells become red, numerals become white, and existing clues change at r1c2 (3 to 2), r3c3 (2 to 3) and r4c2 (1 to 4). Instruction: No originally empty cell is filled; instead, existing clues are altered. The expected fully filled Sudoku is absent. Knowledge: The explanation is blank and mandatory coupling determines the score. Instruction failure ⇒ knowledge invalid. Quality: Judged alone, the red-and-white diagram has clean rectangular cells and readily legible digits, with no noticeable rendering flaws."
+    },
+    {
+      "blind_id": "case_352a8fba4ae661e1c3b7",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background, thin gray grid, dark central dividers and all original black clues remain visually consistent; enlargement does not alter the layout. Instruction: All empty cells receive digits, producing rows 4 3 2 3 / 1 2 3 2 / 1 4 2 2 / 2 1 8 3. Filling is complete, but several numbers are inappropriate, so compliance is partial. Knowledge: The supplied explanation is blank; task-implied Sudoku logic requires each row, column and 2x2 box to contain 1–4 once. Repeated 3s in row 1, repeated 2s in rows 2 and 3, and an 8 fundamentally violate these constraints. Quality: Viewed independently, the grid is regular and intact, digits are readable and surfaces are clean; softness creates no ambiguity."
+    },
+    {
+      "blind_id": "case_b638b89fecf1836284c8",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The original grid arrangement and white margin persist, but red fills replace white cells, white lettering replaces black, and clues r1c2, r3c3 and r4c2 change to 2, 3 and 4 respectively. Instruction: The original blanks stay empty; changing given numbers does not perform the requested completion. Knowledge: The explanation is blank; the mandatory failure coupling supplies the basis. Instruction failure ⇒ knowledge invalid. Quality: The standalone diagram is visually clean, with straight cell edges, even red fills and readable numerals without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_5dbac836f1db3452cbc7",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The cell arrangement persists, but white cells turn red, original black clues turn white, central divider styling changes, and the outer white area becomes yellow graph paper. Most major non-instruction visual styling is changed. Instruction: All eight blanks receive digits, with rows 4 3 3 7 / 1 2 3 0 / 0 9 2 3 / 2 1 3 2. This attempts full completion but supplies many inappropriate values. Knowledge: The explanation is blank; task-implied 4x4 Sudoku logic permits only 1–4 without row, column or box repetition. The 0s, 7 and 9 and repeated 3s contradict these fundamental rules. Quality: Independently viewed, the diagram has clear white digits, regular red cells and coherent graph-paper surroundings, with no noticeable rendering defects."
+    }
+  ]
+}

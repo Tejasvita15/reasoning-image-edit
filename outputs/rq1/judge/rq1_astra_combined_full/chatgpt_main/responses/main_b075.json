@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b075",
+  "results": [
+    {
+      "blind_id": "case_c1015a98a63670b0bd6c",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background and clue cell assignments remain, but the grid is narrowed and shifted, and the existing pepper, cabbage, star and apple drawings have changed shapes, faces and positions. Instruction: no symbols were added to any of the eight empty cells; a completed board should fill them with the appropriate four distinct symbols. No completion was attempted. Knowledge: the supplied explanation is blank; the mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: the grid and cartoon symbols are coherent and readable, with clean fills; faint diagonal watermark traces across the apple and middle pepper are a small visual blemish."
+    },
+    {
+      "blind_id": "case_8489067a58c5dbde7c11",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background, grid arrangement and all original clue locations are retained; a visible overall texture/edge alteration makes the colored symbols mottled and their outlines harsher. Instruction: all eight originally empty cells remain empty, so the required completed Sudoku is absent. Knowledge: the explanation is blank and the mandatory coupling supplies the score. Instruction failure ⇒ knowledge invalid. Quality: the grid and individual symbols are readable, but conspicuous speckled color, rough dark contours and colored edge fringes degrade the otherwise coherent flat illustration."
+    },
+    {
+      "blind_id": "case_12f29f36a3cfb1a8eff8",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the clue cell locations and white ground persist, but the existing star gains a curved red stem, the grid placement changes, and original clue outlines/faces are redrawn. Instruction: all eight blank cells acquire peppers, whereas completion requires suitable varied symbols; the first row now contains four peppers and the second three, so most additions are incorrectly implemented. Knowledge: no explanation is supplied; visible repetition violates the task-implied Sudoku rule, and the mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: the grid is readable, but the third-row left pepper has doubled/warped outlines and translucent overlaid forms, the star has an anomalous protruding stem, and pale diagonal watermark marks recur over multiple symbols."
+    },
+    {
+      "blind_id": "case_0e3a6cd3b794c595da5e",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the background, grid structure and placement of all clue types remain; the clue artwork has a visible redraw/edge treatment, including altered star facial details and slightly different pepper contours. Instruction: none of the eight blank cells is filled, so the requested completed Sudoku is missing. Knowledge: the explanation is blank and the mandatory instruction-failure rule determines the score. Instruction failure ⇒ knowledge invalid. Quality: the board and cartoon forms are coherent and legible, with a small roughness in the symbol contours and fine facial marks; no major structural distortion is visible."
+    }
+  ]
+}

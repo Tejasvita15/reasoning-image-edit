@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b167",
+  "results": [
+    {
+      "blind_id": "case_533dd1e32ffc598b58ef",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and dark cookware appearance remain, but the long handle rotates to a shallower angle and is cropped at the right edge, and the pot body is broadened/recontoured. Lid movement is excluded. Instruction: The lid has moved from beside the opening to above it; a fully compliant result would seat it on the pot rim. It covers much of the opening but projects far beyond the right rim and leaves a visible gap on the left, so placement is incomplete. Quality: Structure/contact is problematic: the oversized, offset lid does not convincingly meet the vessel rim. Lighting and surface textures are otherwise coherent; no distracting duplication."
+    },
+    {
+      "blind_id": "case_af251e251bfc2c7eed38",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white setting and dark finish remain, but the pot body is widened and made more frontal, a small right-side lug appears, and the handle attachment marking is lost. These exceed the permitted lid placement. Instruction: The formerly separate glass lid now sits across the pot opening with its knob upright and perimeter following the rim, matching the expected covered pot. Quality: Structure, perspective, lighting, and textures are satisfactory; the glass reflections, metal edge, and pot surfaces look coherent without noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_6f9bb30ec7b55abadc58",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, pot position, left tab, and long black handle remain visually consistent. The front pot contour is slightly fuller/lower, a small unintended change; the lid movement and its occlusion of the handle base are excluded. Instruction: The lid moves over the pot, but remains tilted and offset to the right with an exposed opening on the left. Expected placement would seat the lid on the rim; this realizes the main idea only partially. Quality: The lid-to-pot contact is structurally unconvincing, with a large unsupported-looking overhang and uneven gap. Glass and pot textures, lighting, and knob reflection are otherwise coherent."
+    },
+    {
+      "blind_id": "case_56cde65deea0b4f32647",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, pot body, both handles, and scene arrangement remain visually consistent; the small marking at the long-handle base changes slightly. Instruction: The glass lid remains leaning beside/in front of the open pot, essentially its original placement. The expected change is a lid seated across the opening, which is absent; the instruction is not followed. Quality: Structure, naturalness, artifact absence, and texture fidelity are satisfactory. The leaning glass lid, rounded pot, handles, reflections, and ground shadow form a coherent product image."
+    }
+  ]
+}

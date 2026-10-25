@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b212",
+  "results": [
+    {
+      "blind_id": "case_56b3ffb980713975a855",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white tabletop, shadows, background apples, framing, foreground shape, stem and seed arrangement are preserved. Instruction: The cut flesh remains the same pale cream and the fruit still looks fresh; expected visible aging/yellowing is absent, so the instruction is not followed. Knowledge: No new oxidation yellowing is visible as required by the supplied explanation. Instruction failure ⇒ knowledge invalid. Quality: Coherent apple anatomy, natural light and depth of field, clean contours and convincing skin/flesh textures; no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_0ef60787455ce370444e",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Tabletop, lighting and surrounding fruit arrangement remain recognizable; the foreground seed shapes and core structure have been redrawn. Aging-related skin damage and fallen material are excluded from consistency. Instruction: New yellow patches on the cut surface and deteriorated skins visibly convey fruit left over time, but most exposed flesh remains fresh-looking, a minor omission of the expected yellowing. Knowledge: Yellow discoloration agrees with the explanation, but it is rendered as sharply bounded missing-flesh cavities while broad exposed areas stay pale despite advanced exterior decay, a clear mismatch with oxidation. Quality: Fruit volumes, shadows and composition are coherent; the flat, abrupt transitions around the yellow surface patches are a small texture-blending imperfection."
+    },
+    {
+      "blind_id": "case_5dac43258eff28e7f523",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 4,
+      "rationale": "Consistency: The white setting, depth of field and fruit layout are maintained; the foreground core and seed-pocket geometry are visibly simplified and reshaped. Skin deterioration and associated debris are excluded as aging changes. Instruction: Several yellow areas now mark the exposed flesh and the left apple has aged skin, matching the intended passage of time, though broad parts of the cut face remain pale. Knowledge: Visible yellow discoloration supports the supplied oxidation explanation; the sharply localized islands with largely unchanged surrounding flesh are a minor plausibility deviation. Quality: Shapes, lighting, shadows and seeds are coherent; slightly flat, paint-like yellow patches are the one small surface-texture issue."
+    },
+    {
+      "blind_id": "case_bd1e40574023d103ff84",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The tabletop, overall arrangement, background placement and photographic lighting remain consistent; drying-related fruit color, texture and shrinkage are excluded from this metric. Instruction: The foreground fruit becomes deeply brown, dry and wrinkled and the left apple looks weathered, clearly depicting aging, but the intended yellowing of exposed flesh is replaced by extreme desiccation, giving partial compliance. Knowledge: The supplied explanation predicts oxidation and yellowing; the uniformly gray-brown, densely fibrous cut surface instead presents a different, much more advanced change, a clear mismatch. Quality: Composition and contact shadows are coherent, but the foreground has an unnaturally layered, cardboard-like material texture that obscures believable apple flesh, a noticeable semantic/material artifact."
+    }
+  ]
+}

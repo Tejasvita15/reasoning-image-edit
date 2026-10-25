@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b341",
+  "results": [
+    {
+      "blind_id": "case_f44065299ff7b3932f6b",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Hand pose, fingers, denim folds and seams, chair, background and framing remain aligned; the overall surface rendering is visibly more textured and contrasty on the hands and denim, a clear non-requested rendering change. Healing changes are excluded. Instruction: The red abrasion is replaced by continuous skin on the same knee; the expected fully closed, wound-free surface is present, so compliance is complete. Knowledge: The supplied explanation says \"No more wound\"; there is no remaining open scrape or blood, matching it fully. Quality, edited image alone: Anatomy, lighting and object structure are coherent with no duplication; a small overly smooth patch on the upper knee blends imperfectly with the grainier surrounding skin."
+    },
+    {
+      "blind_id": "case_bf126dee3b9a2504ed35",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Denim layout, chair and background are preserved, but the right-side fingers sit slightly farther inward/down the knee and hand/denim surface detail is visibly re-rendered with stronger texture; these are two non-requested changes. Healing itself is excluded. Instruction: The original red scrape is gone and the same knee has closed, intact skin, fulfilling the expected wound-free result. Knowledge: Continuous skin with no bleeding or open abrasion directly matches the supplied \"No more wound\" explanation. Quality, edited image alone: Hands and knee are anatomically coherent, daylight and shadows are natural, and skin, nails and denim have convincing texture without a conspicuous generation artifact."
+    },
+    {
+      "blind_id": "case_b229f1af46d4320040ad",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Hands and their placement, denim seams and folds, chair, background and lighting remain consistent. Skin smoothing extends well down the shin beyond the abrasion, visibly removing uninvolved skin texture; this is one clear non-requested change, excluding healing of the injured area. Instruction: The abrasion is replaced by uninterrupted skin on the original knee, with no red raw surface remaining; this fully matches the requested healed wound. Knowledge: The supplied \"No more wound\" expectation is satisfied by the closed, blood-free surface. Quality, edited image alone: Anatomy and scene geometry are coherent and illumination is plausible, but the broad textureless, airbrushed knee/shin patch is a conspicuous texture artifact against the detailed hands and lateral leg."
+    },
+    {
+      "blind_id": "case_5d270923966827cefe80",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Hand geometry and placement, denim, chair supports, background and composition remain consistent. The central skin has been smoothed far below the wound into otherwise uninvolved shin skin, a clear non-requested texture alteration; removal of the wound itself is excluded. Instruction: The red abrasion disappears and the same knee is covered by intact skin, exactly the expected visible outcome of full healing. Knowledge: No open wound or blood remains, fully satisfying the supplied explanation \"No more wound\". Quality, edited image alone: Fingers, knee silhouette, denim and background are structurally coherent with natural lighting; the large uniformly smooth central knee/shin area looks conspicuously airbrushed and loses realistic skin texture."
+    }
+  ]
+}

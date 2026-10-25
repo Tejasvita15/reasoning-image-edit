@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b315",
+  "results": [
+    {
+      "blind_id": "case_371f749926a7b7965502",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background remains, but the small silver scissors have been shrunk and moved down-left, and an additional central pair has appeared. Instruction: The large green-handled scissors remain large; the expected result is that same pair reduced to the small silver pair\u2019s size. No requested reduction is achieved. Quality: Structure and artifact checks fail: the central scissors have a broken handle ring and collide with adjoining blade/handle geometry; the large scissors and white surface remain recognizable, with plausible shading. Knowledge is not applicable."
+    },
+    {
+      "blind_id": "case_6311dfeead8b4524b801",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white field and green-handled pair\u2019s identity and diagonal arrangement are retained; the non-target silver scissors are visibly enlarged/reshaped and shifted left. Instruction: The green pair still spans far more of the image than the silver pair. A successful edit would reduce the green pair to the silver pair\u2019s size; that change is absent. Quality: Structure, naturalness, artifact absence and texture fidelity are satisfactory: both scissors have coherent rings, blades and pivots with plausible contact shadows. Moderate softness does not impair recognition. Knowledge is not applicable."
+    },
+    {
+      "blind_id": "case_bbe6513555b81d414dd3",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, green handles and metal blades remain recognizable in the same arrangement, but the small silver pair is visibly repositioned upward relative to the scene. Instruction: The green-handled scissors remain much larger than the silver scissors, with no meaningful reduction toward the required equal size. Quality: Structure, naturalness, artifact absence and surface texture are satisfactory; the two closed scissors have coherent outlines, connected handles and believable shadows. Knowledge is not applicable."
+    },
+    {
+      "blind_id": "case_55714962ba493798a3b2",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and general green-scissors arrangement persist; the silver scissors have shifted left and their blade/handle contours are altered. Instruction: The large pair still occupies most of the lower image and greatly exceeds the silver pair in size. The expected small-sized green pair is not produced. Quality: Structure, naturalness, artifact absence and textures are satisfactory: the paired loops, closed blades and metal pivot read clearly, and the soft shadows are plausible. Softness alone does not cause semantic loss. Knowledge is not applicable."
+    },
+    {
+      "blind_id": "case_242acbd0babc01bfbd38",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white field is retained, but the silver scissors have moved down-right and their blades are separated; the green pair also changes its angle and placement. Instruction: The large pair is somewhat reduced, yet remains roughly twice the small pair\u2019s length. The requested reduction to matching small-scissors size is mostly missing. Quality: Structure, naturalness, artifact absence and textures are satisfactory: both scissors retain coherent blade and handle geometry with credible highlights and shadows. Knowledge is not applicable."
+    },
+    {
+      "blind_id": "case_4ab4a8d71897a6b8d714",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and overall arrangement persist, but both the small silver scissors and the green-handled scissors have conspicuously altered, mottled surface textures. Instruction: The green pair remains substantially larger than the silver pair; it has not been reduced to the requested small-scissors size. Quality: Structure and shadow logic are satisfactory, but artifact absence and texture fidelity fail: conspicuous colored, scratch-like mottling roughens the metal blades and handles unnaturally. Knowledge is not applicable."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b313",
+  "results": [
+    {
+      "blind_id": "case_2c626ced74ca713e77f5",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The white support and red scattered powder remain recognizable, but the view is pulled back substantially, the peripheral powder distribution changes, and new dark support edges appear at the top. Flame, smoke, ash and their local illumination are excluded from consistency. Instruction: New yellow flames, smoke and scorched material visibly originate from the pile; the expected edit is this pile actively burning in open air, and that requested action is fully present. Knowledge: The supplied explanation expects slow combustion with white smoke and a faint flame. White smoke is present, but the intense bright fire is a clear conflict with the faint-flame expectation. Quality, edited image only: Coherent mound, surface and flame structure with convincing granular textures; the upper white smoke has slightly solid, lobulated blending that mildly reduces naturalness, without major artifacts."
+    },
+    {
+      "blind_id": "case_16cdb9b0e3626d2e6b14",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "Consistency: The close framing, white support, outer scattered-powder landmarks and background remain visually consistent. Changes to the burning mound, glow, charring and flame-lit surroundings are consequences of the requested ignition and are excluded. Instruction: Large flames and glowing fissures now emerge from the original pile. The expected visible action is ignition of that pile in open air, which is fully shown. Knowledge: The explanation calls for white smoke and a faint flame during slow burning; the towering bright fire and absence of a distinct white smoke plume are two substantial deviations. Quality, edited image only: Structure, natural appearance, artifact freedom and texture fidelity are satisfactory; irregular glowing clumps, granular debris, translucent flame edges and warm illumination form a coherent photograph."
+    },
+    {
+      "blind_id": "case_621d4c3776d68099dfdd",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "Consistency: The white support and recognizable radial powder layout remain, but the camera framing is noticeably wider, making the pile and its surrounding scatter occupy less of the frame. Combustion, smoke and fire illumination are excluded. Instruction: A large orange-yellow flame rises directly from the pile. The expected edit is the same pile visibly ignited in air, and this action is completely depicted. Knowledge: The supplied expectation is slow burning with white smoke and a faint flame. The visible dark brown-gray smoke and large vigorous flames contradict both the smoke-color and faint-flame expectations. Quality, edited image only: The granular mound, scattered particles, curling flames and diffuse smoke have coherent structure and natural lighting, with no noticeable duplication, malformed shapes or corrupted textures."
+    },
+    {
+      "blind_id": "case_18ef0fc9486c65068f5f",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 2,
+      "rationale": "Consistency: The white support, close composition and broad outer scatter layout remain recognizable, but the unburning foreground powder trails and clumps have been visibly redistributed. Fire, glow and changes within the burning pile are excluded. Instruction: Flames visibly surround and rise from the pile; the expected result is this pile burning in open air, and ignition is fully represented. Knowledge: The supplied explanation expects a faint flame with white smoke from slow burning. The broad tall flames and lack of a distinct white smoke plume are substantial mismatches. Quality, edited image only: The granular mound and surrounding debris are structurally coherent with consistent warm illumination; the flame around the lower mound forms an unusually smooth ribbon-like contour, a minor naturalness defect. No major structural artifacts are visible."
+    }
+  ]
+}

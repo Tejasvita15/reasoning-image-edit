@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b031",
+  "results": [
+    {
+      "blind_id": "case_d65558f4946b39bde2d2",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white puppy, green collar and lying pose remain recognizable, but eye/head proportions, fur texture, deck grain and background layout are visibly changed; the added sunshine is excluded as a hot-weather cue. Instruction: The main difference is stronger sunshine and shadows, whereas the expected dog should open its mouth and extend its tongue. Its mouth remains closed, so heat dissipation is not depicted. Knowledge: The supplied explanation requires the tongue to stick out; no tongue is visible. Instruction failure ⇒ knowledge invalid. Quality: Assessed alone, anatomy, fur, collar, wooden surface, lighting and depth of field are coherent, with no noticeable generation defect."
+    },
+    {
+      "blind_id": "case_a2b322d27da71cb3dd97",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Face, ears, collar, forepaws, deck layout and green background remain closely preserved; the left flank/body contour is noticeably widened and reshaped. The vapor added around the animal is excluded as the attempted cooling effect. Instruction: Wispy vapor and a pale haze appear, but the mouth stays shut. The expected visible action is a protruding tongue, which is absent. Knowledge: Vapor around the fur does not implement the supplied tongue-out explanation. Instruction failure ⇒ knowledge invalid. Quality: Anatomy, perspective, lighting and wood texture are coherent; a small area of pale haze blends awkwardly into the lower-left body/tail boundary."
+    },
+    {
+      "blind_id": "case_2914fbfc96287643a93e",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": 4,
+      "rationale": "Consistency: The lying white puppy, green collar and deck setting persist, excluding the requested mouth/tongue change. However, eyes become amber and narrower, ear shapes change, and deck and background textures are altered. Instruction: The mouth opens and a pink tongue hangs out, matching the expected heat-dissipation action, though its extreme extension is exaggerated. Knowledge: The tongue-out behavior directly matches the supplied explanation, with a minor plausibility concern from the disproportionately long hanging tongue. Quality: Fur, deck, lighting and body are coherent, but the very long, straight tongue and stretched mouth opening create a clear anatomical distortion."
+    },
+    {
+      "blind_id": "case_f034133fe817794bcfb4",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Head, eyes, ears, collar, body position and background are closely retained, excluding the water added as the attempted cooling effect. The front paws noticeably change from exposed rounded pads to a more downward-pointing toe arrangement. Instruction: Wet patches and droplets are introduced around the dog, but its mouth remains closed and no tongue appears. This suggests cooling only indirectly and omits the expected visible tongue-out action. Knowledge: The supplied explanation specifically calls for the dog to stick out its tongue; the wet surface does not supply that behavior. Instruction failure ⇒ knowledge invalid. Quality: Assessed alone, the puppy anatomy, fur, collar, wet wood reflections, perspective and background blur appear coherent and natural, without a clear generation artifact."
+    }
+  ]
+}

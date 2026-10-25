@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b309",
+  "results": [
+    {
+      "blind_id": "case_1e5e47297039de440aaf",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The cuff outline, opening, floral engravings, placement, bamboo weave and background remain unchanged; the reaction-related surface alteration is excluded. Instruction: Bright silver becomes rough orange-brown and dark brown metal. The expected result is blackened silver after extended sulfur exposure; the correct bracelet is altered, but predominantly rust-colored corrosion only partially supplies the requested outcome. Knowledge: The supplied explanation says silver turns black; the prominent orange rust-like crust conflicts with that expected black tarnish. Quality: Structure, perspective, lighting and depth of field are coherent; the rough metal texture and engraving edges appear natural, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_7a8b4d630c37f6e78fd9",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The general open cuff and paired floral decorations remain, but the bamboo background becomes a smooth gray surface, warm illumination becomes cool gray lighting with different shadows, and the floral outlines are redrawn. Instruction: The formerly bright silver now carries extensive charcoal-black mottling across the outer band and inner ends. The expected blackened silver is visibly present on the correct jewelry, satisfying the requested exposure outcome. Knowledge: The black surface tarnish matches the supplied explanation that sulfur contact blackens silver; uneven coverage with remaining metallic highlights is physically coherent. Quality: The cuff has continuous, believable geometry, clean engravings, natural metallic highlights and contact shadows, and convincing mottled texture without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_513a87b0db338b7b8fef",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The cuff position and open shape are retained, but the warm bamboo mat becomes gray-white with dark markings, illumination and shadows change substantially, and the floral contours shift. Instruction: Brown-gold speckles and bands appear on the silver exterior and inside ends. Blackened silver is expected after the stated sulfur exposure; discoloration of the correct object conveys aging, but the brown coating and largely bright silver surface only partially meet that outcome. Knowledge: The supplied blackening explanation is not adequately represented by the predominantly brown-gold staining; this is a clear mismatch in the chemical appearance. Quality: The edited image has coherent cuff geometry, legible floral engraving, plausible shadows and metallic surface texture, with no noticeable structural or synthesis artifacts."
+    },
+    {
+      "blind_id": "case_71ce1ec9d014ed19b80d",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The cuff shape, position, floral pattern and bamboo arrangement remain recognizable, but overall background lighting is darker and piles and scattered pieces of black material are newly present on the mat. Instruction: The silver exterior and interior acquire extensive black patches and crust. The expected blackened jewelry is present on the correct object, although the bulky coating and apparent shedding overstate the surface change. Knowledge: Blackening agrees with the supplied sulfur explanation, but abundant thick debris around the bracelet presents substantial material breakdown rather than a plausible thin tarnish layer, a clear physical deviation. Quality: Judged on its own, the cuff, rough coating, granular debris and supporting mat are coherently rendered; perspective, depth of field, texture and contact shadows are natural, without noticeable generation artifacts."
+    }
+  ]
+}

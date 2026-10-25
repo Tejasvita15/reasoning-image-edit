@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b225",
+  "results": [
+    {
+      "blind_id": "case_448bee50ca326aed8367",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The solid golden-yellow fill, pale plain background, and centered placement are preserved; changes to the ellipse dimensions are excluded as requested shape changes. Instruction: The ellipse becomes slightly taller and narrower, but the expected equal-width-and-height circle is absent; it remains markedly horizontal, so most of the requested correction is missing. Knowledge: The supplied explanation expects a yellow circle, whereas this remains a yellow ellipse. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the filled oval has a smooth coherent boundary, uniform surface, clean background, and no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_4fd26e47464be8fb6f63",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The pale background and centered arrangement remain, but the originally solid yellow interior has been removed, leaving a yellow outline, a clear unrequested fill change. Instruction: The visible change is from a filled ellipse to an outlined ellipse; a circular contour with equal horizontal and vertical extent was expected. The contour remains strongly elongated, so the circle instruction is not followed. Knowledge: The explanation expects a yellow circle, but the image depicts an elliptical ring. Instruction failure ⇒ knowledge invalid. Quality: Independently, the simple outlined oval is coherent, continuous, and clean, with a consistent flat graphic appearance; modest softness does not obscure its structure."
+    },
+    {
+      "blind_id": "case_345aae6140a8ece1fee3",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Centered placement and the plain pale background remain; the yellow fill has a slight tonal unevenness compared with the flat source, a small surface difference. The requested shape alteration is excluded. Instruction: The filled ellipse becomes a little taller, but still has substantially greater width than height. A circle with equal diameters was expected, and the central requirement remains poorly implemented. Knowledge: The visible oval does not satisfy the explanation that the shape becomes a yellow circle. Instruction failure ⇒ knowledge invalid. Quality: Viewed independently, the smooth filled oval and uncluttered background are structurally coherent and free of noticeable generation artifacts; slight softness is not semantically degrading."
+    },
+    {
+      "blind_id": "case_9330b94e1efce5f06ff5",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The centered yellow filled shape and pale background are preserved, with a small new rough fringe along the contour. Instruction: The output retains the strongly horizontal elliptical shape, with no meaningful conversion to the expected equal-width-and-height circle; the instruction is not followed. Knowledge: Although yellow, the shape remains an ellipse instead of the circle described by the explanation. Instruction failure ⇒ knowledge invalid. Quality: Independently, the oval is coherent and its fill is intact, but a fine ragged, speckled edge introduces one small visible artifact."
+    }
+  ]
+}

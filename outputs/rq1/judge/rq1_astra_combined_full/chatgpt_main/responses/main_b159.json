@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b159",
+  "results": [
+    {
+      "blind_id": "case_9e9fd0464eaf3567a44a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: white background, gold shafts/blue tips, left 14, minus, equals and final 2 remain recognizable, but multiple vertical segments disappear from both the 6 and 8, beyond the two allowed relocations. Instruction: the former 6 loses its lower verticals and the former 8 becomes three isolated horizontal bars; a successful edit would relocate exactly two intact sticks to give a true equation. The displayed deletions do not form a valid equation, so most requirements fail. Knowledge: no explanation was supplied; the mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: the clean white field and regular shafts are coherent, but floating blue tips and incomplete central/right glyphs are clear structural and semantic artifacts."
+    },
+    {
+      "blind_id": "case_1b0b07ef731bd06bbf32",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background and gold/blue palette persist, but the numeral layout, individual segment arrangements and spacing are extensively changed, with a cropped left horizontal and doubled middle bars. Instruction: numerous sticks are rearranged into malformed glyphs instead of exactly two being moved to produce a valid equation; this is a complete misinterpretation. Knowledge: no explanation was supplied; the mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: multiple doubled crossbars, disconnected segments, edge clipping and ambiguous numeral structures substantially degrade the image, despite regular stick textures."
+    },
+    {
+      "blind_id": "case_ad8db6cf89236faa6405",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: gold shafts and blue heads become irregular black strokes, the background becomes textured, and the equation layout and most symbols are replaced. Instruction: the visible row resembles a vertical stroke, dash, broken angular symbol, B-like glyph and open loop; there is no usable equals sign or two-stick solution. The expected true equation after exactly two relocations is absent. Knowledge: no explanation was supplied; the mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: jagged merged black forms and broken symbol contours dominate the image, destroying coherent matchstick and equation structure."
+    },
+    {
+      "blind_id": "case_2b77189bc222a8cebc01",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the original equation layout is replaced by widely spaced, irregular colored forms; stick geometry, colors and the formerly plain background also change. Instruction: the result contains vertical bars, a cross-like shape, bent triangular/curled forms and a trailing dash, with no valid equation and no identifiable two-stick relocation. Knowledge: no explanation was supplied; the mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: severely warped and fused strokes, irregular bulbous ends and garbled symbols create major structural failures across the composition."
+    },
+    {
+      "blind_id": "case_bdcf84ec82b12154b2ae",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: gold/blue sticks and a white field remain, but the equals sign moves to the left and nearly all numeral arrangements, spacing and the left-edge composition change. Instruction: the image replaces the original relation with a cropped left glyph, equals sign and several disconnected or doubled-bar glyphs; it neither preserves the puzzle with two relocations nor yields a valid equation. Knowledge: no explanation was supplied; the mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: disconnected lower strokes, ambiguous right-hand symbols, duplicated horizontal bars and clipped left content produce multiple distracting structural errors."
+    },
+    {
+      "blind_id": "case_37d06dd97dfd33d02925",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the light background and gold/blue palette survive, but straight matchstick digits become large curved strokes, the operators and numeral arrangements change, and the layout is substantially replaced. Instruction: the row now contains an altered 14-like form, multiple equals-like marks and curved 2-like forms; this does not show exactly two intact matchsticks moved into a true equation. Knowledge: no explanation was supplied; the mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: bent continuous shafts, a tiny floating equals-like fragment, an extra underline and malformed joined left digits create several substantial structural and semantic defects."
+    }
+  ]
+}

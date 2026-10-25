@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b211",
+  "results": [
+    {
+      "blind_id": "case_dd3d23c7c4a33f529677",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Windows and paneled wall remain recognizable, but the table is now square with different legs, the laptop and several tabletop accessories are gone, and carpet texture and chair designs change. Chair-count changes are excluded. Instruction: Four chairs become ten visible chairs (six along the far perimeter and four near the front); the expected total is six, so increasing the seating only partially fulfills the request. Quality: Structure/artifacts are problematic at several knobby, distorted armrest-to-back joints, particularly the foreground right chair; lighting and perspective are plausible and wood/upholstery remain recognizable."
+    },
+    {
+      "blind_id": "case_d602870443d05a5d8839",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Table shape, frame, laptop, notebooks, cups, paper, windows and wall remain in their original arrangement; the carpet's fine weave is visibly redrawn into a more strongly outlined pattern. Added chairs and their shadows are excluded. Instruction: One chair is added at each short end, yielding exactly six chairs instead of four; the required count is fully achieved. Quality: Structural coherence, naturalness, artifact freedom and texture fidelity are satisfactory: chairs have coherent seats and supports, tabletop objects are well formed, and lighting and occlusion are plausible."
+    },
+    {
+      "blind_id": "case_7e4717a52f77866b7ccc",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Windows and wall remain recognizable, but the table proportions and leg frame change, the small phone beneath the far cup disappears, carpet texture changes and the furniture arrangement shifts. Added seating itself is excluded. Instruction: The scene changes from four to eight chairs\u2014three on each long side and one at each end. Six are expected, so the seating increase addresses the idea but misses the specified number. Quality: Structure/artifacts are problematic in the nearest right chair's jagged, branching back/arm junction and the irregular front-end chair back; lighting and perspective are generally plausible, with recognizable wood and fabric textures."
+    },
+    {
+      "blind_id": "case_6755543d6af425f6e594",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The table, laptop, cups, notebooks, paper, windows and wall largely retain their arrangement. However, carpet texture is visibly redrawn, and the existing left chairs have changed back/seat shapes and placement. The two added chairs and associated occlusion are excluded. Instruction: Chairs appear at both short ends in addition to the four side chairs, giving exactly six as requested. Quality: Structural coherence, naturalness, artifact freedom and texture fidelity are satisfactory: the wooden chairs and metal table frame are coherent, occlusion is plausible, and surfaces and lighting look natural."
+    }
+  ]
+}

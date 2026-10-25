@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b023",
+  "results": [
+    {
+      "blind_id": "case_f2960b2fdce2b3183475",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The grid remains, but most protected photos are redrawn: both tennis players and the swimmer change, the right skateboarder becomes another question mark, the skier becomes a skateboarder, and both baseball figures change. Instruction: The first-row target still contains a question mark; the expected replacement is a tennis image, so the requested drawing is absent. Knowledge: No tennis appears in the target to complete the explained same-sport first/third relationship. Instruction failure ⇒ knowledge invalid. Quality, assessed from this image alone: Grid boundaries and colors are clear, but the serving racket lacks strings, the central player's racket collapses into a small sliver, the batter lacks a coherent bat, and the bottom-middle rider floats over a separated board; these are multiple distracting structural errors."
+    },
+    {
+      "blind_id": "case_45c3dfec56b174e9f47a",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Outside the permitted top-right box, the tennis server, swimmer, two skateboarders, central tennis player, batter, skier, pitcher, their backgrounds, and grid remain visually unchanged. Instruction: The target question mark is redrawn with a cleaner contour but remains a question mark; a tennis scene should occupy this cell, so the requested change is absent. Knowledge: The target supplies no tennis to match the first cell as the explanation requires. Instruction failure ⇒ knowledge invalid. Quality, assessed from this image alone: The nine-cell layout is orderly, the symbol is crisp, sports figures and equipment are coherent, lighting and surface textures look natural, and no clear generation artifact disrupts the image."
+    },
+    {
+      "blind_id": "case_80ff269aa2f256b04842",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Most protected panels are visibly redrawn: the server's racket and clothing, swimmer's face and water, skateboarders' poses and boards, central tennis player's racket and posture, batter's equipment and numeral, skier's face, and pitcher's lettering and pose change. Instruction: The first-row target retains a question mark, with an altered curved stroke, rather than the required tennis image; the requested completion is absent. Knowledge: No tennis content completes the explained first/third same-sport relationship. Instruction failure ⇒ knowledge invalid. Quality, assessed from this image alone: The grid and sports categories are readable, but racket interiors lose convincing strings, the batter's bat becomes a short pointed fragment, and the pitcher's shirt lettering is garbled; multiple equipment and text defects distract despite coherent overall color and lighting."
+    },
+    {
+      "blind_id": "case_5101e60b50394c070856",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The eight protected sports photos retain their figures, equipment, poses, clothing, backgrounds and arrangement; visible changes are confined to the allowed question-mark box. Instruction: The target shows a redrawn question mark rather than a tennis image, so no requested pattern completion is provided. Knowledge: A question mark does not show the tennis category needed to match the first cell under the supplied explanation. Instruction failure ⇒ knowledge invalid. Quality, assessed from this image alone: The collage has clean aligned cells, a legible symbol, coherent athletic figures and equipment, natural photographic surfaces and lighting, and no noticeable disruptive artifacts."
+    }
+  ]
+}

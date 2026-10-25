@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b169",
+  "results": [
+    {
+      "blind_id": "case_05ce2f5e95ebf75942a1",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The two white chargers and pale setting remain recognizable, but the large charger loses its top marking and metal protrusion, the small charger loses its inset face border, and the tabletop scratch pattern changes. Requested size changes are excluded. Instruction: The right charger becomes broader and bulkier; a correct result would match the large charger in overall dimensions. It is still substantially shorter and less deep, so the enlargement only partially meets the request. Quality: Solid bodies, lighting, and shadows are plausible, but the printed port labels contain visibly malformed characters; surface textures are otherwise coherent."
+    },
+    {
+      "blind_id": "case_fb2c4f5f176a94ec655d",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pale tabletop, shadows, large charger body, top protrusion, and three-port layouts remain substantially consistent; the large charger port lettering is visibly redrawn and distorted. Instruction: The right charger retains essentially its original small proportions. It should have been enlarged to match the left charger in height and bulk, but that required change is absent. Quality: Charger geometry, port cavities, surface texture, and soft shadows are coherent; a small localized imperfection is the malformed port lettering on the large charger."
+    },
+    {
+      "blind_id": "case_ae9e6fdf8a2d72371bfa",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, tabletop, large charger silhouette, and port arrangement remain consistent; the large charger top marking and protrusion shift visibly. Instruction: The right charger is slightly broader and its front is modestly enlarged. The expected result is a charger matching the left one in overall size; it remains markedly shorter and less bulky, so most of the required enlargement is missing. Quality: Both housings and their recessed ports are structurally coherent, with natural soft lighting, grounded shadows, and plausible plastic textures; no noticeable generation artifact is evident."
+    },
+    {
+      "blind_id": "case_37b957fa16690c6a32f9",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white tabletop setting and left charger silhouette are retained, but the large charger top print and metal protrusion disappear, while the right charger port spacing changes and its bottom port is flattened. Instruction: The right charger front is reshaped into a taller, narrower form rather than enlarged sufficiently in all dimensions. It should match the large charger overall, but remains clearly smaller, making the requested size adjustment poorly implemented. Quality: Lighting, shadows, and plastic surfaces look natural; the right bottom socket is implausibly compressed, and some printed labels are malformed, creating two visible flaws."
+    }
+  ]
+}

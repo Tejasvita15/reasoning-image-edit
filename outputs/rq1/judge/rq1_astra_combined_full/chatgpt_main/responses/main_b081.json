@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b081",
+  "results": [
+    {
+      "blind_id": "case_286859a543b714125bd4",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The distant wooded shore, houses, overcast sky, horizon and right-hand rock arrangement remain recognizable and aligned; the turbulent whirlpool and extensive white surf have been replaced by gentler ripples, a clear unrequested change in water motion. Instruction: Blue-green water becomes red across the bay, matching the expected red-tide discoloration. Knowledge: The supplied expectation is that water turns red, and the red body of water satisfies it. Quality: Coherent shoreline, perspective and lighting; some foreground ripple crests have a slightly thick, waxy texture, a minor surface imperfection."
+    },
+    {
+      "blind_id": "case_73a4aff6836638c998bd",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Shoreline layout, houses and foreground rock positions are retained, but the sky becomes visibly blotchy and trees and rock surfaces are repainted into higher-contrast simplified forms. These are multiple non-instructed changes. Instruction: The formerly blue-green water becomes salmon-red beneath white surf, visibly fulfilling the red-tide change. Knowledge: Red coloration of the water directly matches the supplied explanation. Quality: Coherent coastal geometry and surf; visibly smudged treetop/building detail and patchy, block-like sky texture are two clear rendering flaws."
+    },
+    {
+      "blind_id": "case_553ccd561b291c81e2b8",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The sky, distant wooded shore and houses, right-side rock shapes, viewpoint and swirling white foam patterns remain visually unchanged; the visible alteration is the instructed water discoloration. Instruction: Blue-green foreground water becomes burgundy-red, fading toward the distant water, clearly depicting the requested occurrence. Knowledge: Red water directly satisfies the explanation that the water should turn red. Quality: Coherent rocky coast, natural overcast illumination, detailed foamy currents and smoothly integrated water coloration; no noticeable structural or texture artifacts."
+    },
+    {
+      "blind_id": "case_ae8b42fc5568da0767e2",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": 4,
+      "rationale": "Consistency: Composition and shoreline positions are retained, but rock textures and distant vegetation are visibly simplified/repainted, and much of the white turbulent foam is suppressed. Instruction: Water is changed to red throughout, but the near-uniform fluorescent orange-red appearance weakens an accurate natural red-tide depiction. Knowledge: The red-water expectation is present, with a minor plausibility issue from the uniformly saturated opaque surface. Quality: Coastline and perspective are coherent; the flat paint-like water and etched, thread-like wave contours are conspicuous surface-rendering flaws."
+    },
+    {
+      "blind_id": "case_ca0aa6b8ea052d73b39f",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The coastal layout and rock positions remain, but trees/buildings and rock textures are visibly resynthesized and the sky has new patchy tonal blocks. Instruction: Red is added predominantly along foamy currents, while broad water interiors remain muddy brown or dark olive; the expected red body of water is only partially realized. Knowledge: The explanation calls for water turning red, whereas the strongest red looks concentrated on luminous foam outlines rather than throughout the water, a clear mismatch. Quality: Coherent shore geometry, but bright glowing current outlines look unnaturally emissive and the sky contains blotchy rectangular texture artifacts."
+    },
+    {
+      "blind_id": "case_dda4478fdd1233619d3b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The same coast, houses and rock layout are preserved, but the distant trees and rock surfaces have visibly repainted, simplified textures and the foam detail is substantially reworked beyond recoloring. Instruction: The water becomes unmistakably red across the scene while white breaking surf remains, meeting the requested red-tide appearance. Knowledge: Red coloration of the body of water satisfies the supplied explanation. Quality: Recognizable currents and coherent coastal perspective; harsh clipped foam highlights and smeared, painterly rock/vegetation textures are noticeable rendering flaws."
+    }
+  ]
+}

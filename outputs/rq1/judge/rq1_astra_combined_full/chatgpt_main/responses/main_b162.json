@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b162",
+  "results": [
+    {
+      "blind_id": "case_d2b25ecddffc3b8f9858",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The sky, wooded landscape, ledge and right cup remain visually consistent; an extra third cup is introduced on the left. Instruction: A cup is added above the still-present left cup. Expected: the original left cup should sit above the right cup, leaving its old position empty. The stack is on the wrong cup and the original pair remain side by side, so most of the requested relocation is missing. Quality, edited image alone: coherent cup shapes and handles, plausible nested contact, natural lighting and ceramic/ledge textures; no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_664a310e6254816696ec",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Beyond the allowed relocation, the lower cup moves to the center and acquires a second handle; ceramic, ledge and vegetation textures become heavily multicolored and mottled, with a sharper altered landscape. Instruction: Two cups now form a vertical stack, with the original left cup's right-facing handle above the other cup's left-facing handle. Expected: the left cup rests on the other cup; that spatial change is present. Quality, edited image alone: severe mottled, confetti-like texture corruption covers both cups and the ledge, with noisy sky and vegetation; the bottom cup also has duplicated opposing handles. The overall stack remains recognizable but multiple distracting defects degrade its natural appearance."
+    },
+    {
+      "blind_id": "case_9b88e80c25ea3330183a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The landscape and ledge retain their general scene identity, but the lower cup is moved to the center, narrowed and given an additional right-side handle; the background framing and ledge surface also change visibly. Instruction: The two cups become a vertical stack with the right-handled former left cup on top of the left-handled other cup. Expected: the left cup rests on the other cup; the required order and contact are present. Quality, edited image alone: smooth ceramic surfaces and lighting are convincing, but the lower cup has duplicated opposing handles and an oddly flat, filled-looking interior beneath the upper cup, creating a clear structural oddity at the stack junction."
+    },
+    {
+      "blind_id": "case_0a708d98cd99e253523c",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The sky, wooded hills and ledge remain consistent outside the newly revealed area. The stationary lower cup is slightly narrowed and shifted left, including its handle, a visible non-requested object change. Instruction: The left position is empty and its right-handled cup now rests on top of the left-handled right cup. Expected: exactly this two-cup stack on the other cup; the relocation and contact satisfy the instruction. Quality, edited image alone: the cups and handles are smoothly formed, the upper cup seats naturally into the lower rim, and lighting, shadows and surface textures are coherent without noticeable artifacts."
+    }
+  ]
+}

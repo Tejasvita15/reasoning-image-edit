@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b362",
+  "results": [
+    {
+      "blind_id": "case_67b872d973e70ed310c5",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The diagonal casing, raised USB Charger cover, plug, cables, wood seams and shadows are preserved; a small roughening along the casing edge is visible. Instruction: All ten USB openings and their labels have disappeared, leaving a blank panel. Six physical USB interfaces were expected; none are present, so the request is not fulfilled. Quality: The blank white housing, three-pin plug, wood surface and lighting are coherent, with no noticeable structural or rendering artifacts."
+    },
+    {
+      "blind_id": "case_a8897ca87d766c359c8c",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The plug, cables and wooden setting remain recognizable, but the raised rear cover has been flattened and the USB Charger branding removed; the casing outline also changes. Instruction: The panel now has fourteen USB sockets in two columns of seven, rather than the required six. Increasing the count does not implement the requested change. Quality: The overall strip and plug have coherent perspective, but many socket labels are visibly broken and illegible and several socket interiors have smeared, irregular edges."
+    },
+    {
+      "blind_id": "case_2247266de447a55629f5",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The raised branded cover, housing placement, plug, cables and wooden background are preserved; the casing edge shows a small roughened patch. Instruction: The USB sockets are replaced by a colorful touchscreen containing icons and controls. The expected edit is six physical USB interfaces on the charger, so this substitutes a different kind of interface and fails the instruction. Quality: The touchscreen fits the housing perspective and lighting, but its small headings and icon captions are visibly garbled; the remaining object structure and surfaces are coherent."
+    },
+    {
+      "blind_id": "case_bb07ae71db116d76675f",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The raised USB Charger cover, casing placement, plug, cables and wooden setting remain consistent; minor roughness appears along the front casing edge. Instruction: The panel contains ten dark recessed sockets in five paired strips, plus a central white rectangle. Six USB interfaces were expected, and neither the count nor recognizable USB socket construction satisfies that request. Quality: The recesses have inconsistent malformed interiors, the central white rectangle awkwardly interrupts a strip, and numerous labels are distorted or illegible, creating multiple distracting defects."
+    },
+    {
+      "blind_id": "case_a23888380e1a9a78a1fe",
+      "status": "unreadable",
+      "consistency_score": null,
+      "instruction_score": null,
+      "quality_score": null,
+      "knowledge_score": null,
+      "rationale": "The supplied edited image displays only a tiny square patch of brown wood. No charger, interfaces, plug or complete scene is identifiable, so the required edit and its preserved content cannot be reliably assessed. The whole item is unreadable."
+    },
+    {
+      "blind_id": "case_82d91590af85e0fba30a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The general diagonal charger-and-plug arrangement remains, but the housing contour and slope have changed, USB Charger lettering is visibly distorted, and wood grain and seams have been redrawn. Instruction: Ten USB sockets remain in two columns of five; the required result would contain six. The requested count change has not been made. Quality: The product arrangement and lighting are plausible, but the title and repeated port labels have broken glyphs and the socket interiors have jagged, distorted forms, producing multiple visible artifacts."
+    }
+  ]
+}

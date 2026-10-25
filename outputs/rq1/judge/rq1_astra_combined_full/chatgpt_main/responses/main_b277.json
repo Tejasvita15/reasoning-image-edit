@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b277",
+  "results": [
+    {
+      "blind_id": "case_b82c4ae4370da5dfcdee",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: surrounding lily-pad positions and water highlights remain recognizable, but the background is visibly softened and the brown stem becomes green. Instruction: the closed bud becomes a spread white-pink flower; the expected result is the same plant fully open with its floral center exposed. Opening is achieved, but the conspicuous flat seedpod-like center and absent visible stamens change the floral form, giving partial compliance. Knowledge: the explanation requires spread petals revealing yellow stamens; the exposed yellow-green perforated disk does not supply those stamens, a clear biological mismatch. Quality, judged only from this edit: coherent petal layering and stem, plausible illumination, clean edges and intact textures; no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_c3192b7d7557d17f02b4",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the scene is substantially reconstructed: a top-down viewpoint replaces the side view, the stem disappears, lily pads have different shapes and positions, and water and lighting change. Instruction: the closed bud is shown as an open pink water lily with petals spread around an exposed center, matching the requested daytime open state. Knowledge: the explanation's fully spread petals and revealed yellow stamens are directly visible, with a plausible radiating ring of stamens. Quality, judged only from this edit: coherent layered petals and lily-pad shapes, natural sunlight and shadows, convincing surface textures, and no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_8a6f228a02285e96ab08",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: background pads, water highlights and framing are retained; the supporting stem is visibly changed from brown to a thicker green form. Instruction: the closed bud becomes an open flower with broadly spreading pale petals and a clearly exposed yellow center, fulfilling the daytime-open request. Knowledge: fully spread petals expose numerous yellow stamens as the supplied explanation specifies. Quality, judged only from this edit: flower structure, illumination and background are coherent, but upper petal surfaces show a small area of smeared, patchy translucent texture; no major structural artifacts."
+    },
+    {
+      "blind_id": "case_8a7128781cd8482134f7",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the background pad arrangement is enlarged and reframed, and the stem is shifted and enlarged; non-instructed scene geometry changes noticeably. Instruction: the closed bud has opened at its tip to reveal pale petals and some stamens, but remains a narrow upright cup with enclosing green outer parts. A fully open daytime flower should spread its petals; this shows only partial opening. Knowledge: some yellow stamens are exposed, but the petals remain upright and enclosed rather than fully spread as the explanation requires, a clear mismatch. Quality, judged only from this edit: coherent cup-shaped flower and supporting stem, natural light and depth of field, intact textures, and no noticeable generation artifacts."
+    }
+  ]
+}

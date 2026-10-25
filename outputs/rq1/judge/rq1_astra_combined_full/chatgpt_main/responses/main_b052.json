@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b052",
+  "results": [
+    {
+      "blind_id": "case_bde959d6acfd1e132d5d",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and black drawing convention remain, but new crank-like attachments outside the shape are an unrelated apparatus detail; the requested shape transformation itself is excluded. Instruction: The circle becomes a tall oval with vertical ribs, two horizontal bars and protrusions. The expected result is a sphere; this is an attempted volume depiction but most of the required spherical geometry is missing. Knowledge: The supplied explanation requires a sphere, whereas this reads as an elongated ribbed apparatus. Instruction failure ⇒ knowledge invalid. Quality: Independently, the line diagram has coherent connected outlines, orderly ribs, a clean white field and no distracting rendering artifacts."
+    },
+    {
+      "blind_id": "case_33d2c52d3dcf1cabc3a2",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The centered single-object composition and plain white background remain; shading and contour treatment belong to the requested conversion to a volume. Instruction: The flat outlined circle becomes a smoothly shaded round ball, precisely depicting the expected sphere. Knowledge: The round continuous surface and spherical shading agree with the supplied explanation that rotation produces a sphere. Quality: The silhouette is smooth and closed, shading is coherent, the surface is clean and the composition has no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_c90eb14ac016c819899c",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The centered circular placement and plain white background remain, with the new internal shading confined to the instructed shape conversion. Instruction: The empty outlined circle becomes a fully shaded spherical form, matching the expected object of rotation. Knowledge: Its continuous round surface without a hole agrees with the stated sphere outcome. Quality: The volume and lighting are coherent, but small ragged dark flecks along the upper and right outline slightly disrupt an otherwise clean silhouette."
+    },
+    {
+      "blind_id": "case_c9f6791685247915863d",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and centered single-object presentation remain; the altered geometry and its tonal rendering are excluded as the target of the instruction. Instruction: The circle becomes concentric thick rings with a large central hole. A sphere was expected, so this substitutes a hollow ring assembly for the required object. Knowledge: The hole and nested annuli contradict the supplied spherical outcome. Instruction failure ⇒ knowledge invalid. Quality: The concentric form is legible and its shading suggests depth, but the thin inner ring contours wobble and merge unevenly in places, a small surface-rendering flaw."
+    },
+    {
+      "blind_id": "case_7f42e21432f859d792af",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The centered round footprint and white background are preserved; the shading is part of making the instructed three-dimensional object. Instruction: The outlined circle gains a complete rounded shaded surface and reads clearly as the expected sphere. Knowledge: The unbroken ball shape matches the supplied explanation of rotation producing a sphere. Quality: Structure and overall lighting are coherent, but visibly stepped tonal bands across the lower surface slightly impair the otherwise smooth shading."
+    },
+    {
+      "blind_id": "case_a7cafdb29d9f85167201",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The white background and central single round object remain, with changes to the outline and surface shading attributable to the instructed volume conversion. Instruction: The original flat circle is rendered as a complete smoothly shaded sphere, exactly the expected object. Knowledge: The continuous spherical surface agrees with the supplied explanation. Quality: The circular silhouette, soft highlight and gradual darkening are coherent and clean, with no visible structural or texture artifacts."
+    }
+  ]
+}

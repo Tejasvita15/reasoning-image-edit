@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b252",
+  "results": [
+    {
+      "blind_id": "case_c9ad5868a6c2ba44860a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The surrounding skin creases, upper hairs, lighting and crop remain recognizable and largely unchanged, but the brown iris becomes lighter gray-hazel and the lower lid margin is smoothed with its fine lashes reduced; these exceed removal of the pupil opacity. Instruction: The large pale pupil disk is replaced by a round black pupil. A normal-looking eye with the opaque white area removed is expected, and this is achieved. Knowledge: The supplied explanation requires removing the white part on the pupil; that opacity is absent, while small surface catchlights are plausible reflections. Quality: Judged alone, the eye anatomy, iris fibers, skin texture and lighting are coherent and natural, without a noticeable generation flaw."
+    },
+    {
+      "blind_id": "case_d9f7df1fd97b48b628db",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The eye location and close-up composition persist, but skin highlights become intensely stippled and glossy, lashes are redrawn as heavier separated strands, and iris fibers become pronounced radial strokes. Instruction: The eye is redrawn but the large pale blue-white disk still fills the pupil. The expected result is an unobscured dark pupil, so the required correction has not occurred. Knowledge: The explanation requires removal of the white pupil region, which remains. Instruction failure ⇒ knowledge invalid. Quality: Judged alone, anatomy is readable, but the waxy, densely dotted skin highlights and strongly drawn iris/lash textures give the image clear artificial surface artifacts."
+    },
+    {
+      "blind_id": "case_d0543e2d4b73d81ce732",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The brown iris, eye outline, upper hairs, major folds and composition remain consistent, but the surrounding skin microtexture is visibly reworked into finer, sharper ridges. The pupil change is excluded. Instruction: The large pale pupil area becomes smaller and darker blue, but remains an opaque-looking blue disk rather than a normal dark pupil. The expected clearing is therefore only partial. Knowledge: The white opacity described in the explanation is reduced, but visible blue cloudiness persists across the pupil, leaving a clear conflict with the intended cleared appearance. Quality: Judged alone, the image has coherent eye anatomy, natural skin folds and lashes, and consistent photographic illumination; the cloudy pupil is a recognizable physical appearance rather than a generation defect."
+    },
+    {
+      "blind_id": "case_51b8e8223e8b9df283e9",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The crop, surrounding wrinkles, upper hair arrangement and broad lighting are retained, but the iris changes from brown to gray-hazel and the lower eyelid margin and inner corner are smoothed and reshaped. Those changes extend beyond clearing the pupil. Instruction: The white pupil disk is replaced with a rounded black pupil, matching the expected normal-looking cleared eye. Knowledge: The opacity that the explanation says to remove is absent; the remaining small white glints are consistent with surface reflections. Quality: Judged alone, the eye and skin are coherent, but the inner corner has a small conspicuous white smear and blended glossy edge that look less naturally integrated."
+    }
+  ]
+}

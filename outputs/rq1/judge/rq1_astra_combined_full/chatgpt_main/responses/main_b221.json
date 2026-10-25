@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b221",
+  "results": [
+    {
+      "blind_id": "case_459384f283b64f3ea6a8",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The overall viewpoint and recognizable foreground stump remain, but the blue sky is recolored toward violet, the dune contours are sharpened and reshaped, and the stump and foreground branch shapes are redrawn. Instruction: Bare sand expands across the foreground and the existing green patches remain isolated; effective control should expand vegetation and reduce desert, so the requested change is absent. Knowledge: This is opposite to the supplied expectation of more grassland and less desert. Instruction failure ⇒ knowledge invalid. Quality: Structure and daylight perspective are coherent, with no duplicated objects; the green ground has a slightly flat, painted texture against the detailed sand."
+    },
+    {
+      "blind_id": "case_5a9aa2358b1f8c20df5f",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Sky, horizon contours, viewpoint, foreground stump and scattered dry branches remain visually consistent; vegetation changes are excluded. Instruction: Foreground grass appears slightly denser, but the large bare middle ground and distant sandy hills remain, with no substantial contraction of desert. Effective measures should visibly extend vegetation into those bare areas; most of that change is missing. Knowledge: The supplied explanation requires increased grassland and decreased desert, which is not convincingly demonstrated. Instruction failure ⇒ knowledge invalid. Quality: Coherent rolling terrain, natural daylight, recognizable plants and convincing patchy soil textures; no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_6725aa586c0e2f98408b",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The clear sky, horizon profile, viewpoint and left foreground stump remain consistent; new vegetation and its occlusion of formerly bare ground are within the requested change. Instruction: Dense grasses and shrubs now spread through the foreground and middle ground, greatly reducing exposed sand. This directly depicts effective desertification control. Knowledge: The visible expansion of living vegetation and reduction of desert match both outcomes stated in the supplied explanation; residual dry distant hills are compatible with recovery. Quality: Coherent landscape structure, natural irregular plant distribution, consistent light and plausible vegetation textures, with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_eb07d2269bf28267199b",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Viewpoint, sky and recognizable dune skyline are retained, as are the left stump and bottom branch; a small non-requested change is the stronger dark shadow beside the stump. Ground-cover expansion is excluded. Instruction: A broad green grass cover replaces most bare foreground and middle-ground sand, making the land visibly recovered as requested. Knowledge: Increased grassland and decreased desert directly satisfy the supplied explanation, with no separate ecological contradiction visible. Quality: The landscape remains readable, but the grass looks like a very uniform flat carpet and its distant right boundary has an abrupt straight, stepped edge; these are noticeable texture and integration flaws."
+    }
+  ]
+}

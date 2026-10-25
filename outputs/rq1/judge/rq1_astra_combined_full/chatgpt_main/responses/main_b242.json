@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b242",
+  "results": [
+    {
+      "blind_id": "case_20f5cf3f1a70318fdef5",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: White background and brown/yellow palette remain, but the left book has a deeper top cover, altered right edge and lower placement; the right book also moves downward. Instruction: The right book remains thin while the left stays thick. A correct edit would raise the right page block to the left block\u2019s thickness; this change is absent. Quality: The books, lighting and page textures are coherent, but a small dangling dark/gray strip at the large book\u2019s upper-right edge disrupts the cover join."
+    },
+    {
+      "blind_id": "case_1c44e0c0297ceb09115b",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Background, cover colors, book widths, baseline and left-book shape are retained; the left page texture is subtly reworked. Instruction: The right page block becomes substantially thicker, but is still visibly shorter than the left page block. Equal thickness was required, so the correct object and attribute are changed only partially. Quality: Both book structures, cover perspective, page edges and lighting are coherent, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_799ff48fbfbcfc5139f4",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and colors persist, but the left top cover changes its outline and right-side decoration, and the right cover changes perspective and edge design. Instruction: The right book gains a little thickness but remains only a small fraction of the left book\u2019s thickness; the required matching page-block depth is mostly missing. Quality: Book identities, lighting and paper texture are clear; a small awkward raised tab at the thin book\u2019s upper-left cover join is a minor structural imperfection."
+    },
+    {
+      "blind_id": "case_9e209d4439f5c952ffe2",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The background and general palette remain, but the left book is enlarged and shifted, with a new broad mauve right side, while the right book is narrower and lower. Instruction: The already thick left book becomes thicker and the right book remains thin. The intended result requires increasing the right book to the left book\u2019s thickness, so the wrong object is modified. Quality: Paper textures and the small book are coherent, but the large book\u2019s broad solid pink right-side panel merges its upper and lower covers into an implausible enclosure, a clear structural flaw."
+    },
+    {
+      "blind_id": "case_2ae5888b8641ae5492a2",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, colors and recognizable book forms remain, but both books are noticeably displaced downward and the large book\u2019s outline is slightly widened. Instruction: The right book retains a very thin page block, with no meaningful increase toward the left book\u2019s thickness. The requested thickness match is absent. Quality: Cover and page shapes, texture, perspective and lighting are visually coherent; no noticeable artifacts are present."
+    },
+    {
+      "blind_id": "case_87a596feea730d125528",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The background, palette and overall two-book arrangement persist, but the left book\u2019s outline is visibly wider and its top edge higher. Instruction: The right page block is thicker than in the source but still far thinner than the left page block. The correct attribute is attempted, yet most of the increase needed for equal thickness is missing. Quality: Both books have coherent cover joins, page blocks and natural texture, with consistent lighting and no noticeable artifacts."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b130",
+  "results": [
+    {
+      "blind_id": "case_c917ef9ffcbec12d0f05",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The bed and pillows, mustard throw, rug, windows and curtains, wall picture, lamps, nightstand and floor remain in their original arrangement and appearance; balloon additions are excluded. Instruction: Peach and pale balloons now appear inside the room; the expected added helium balloon is clearly present. Knowledge: The explanation expects floating, and the balloons are suspended above the bed with their ties below, matching it. Quality: Furniture structure, perspective and fabrics are coherent, but the pale circular form and translucent gray smear beside the peach balloon create noticeable ghostlike artifacts in the window area."
+    },
+    {
+      "blind_id": "case_04618ce0ae0184b0a616",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Bed upholstery and bedding, throw, rug, window view and curtains, painting, lamps, nightstand and floor are unchanged outside the balloon and its ribbon. Instruction: An orange balloon with a hanging ribbon has been added inside the room, precisely providing the requested balloon. Knowledge: It visibly floats high above the bed with the ribbon descending, matching the supplied floating expectation. Quality: Balloon silhouette and shading are natural; furniture geometry, lighting, perspective and fabric textures are coherent, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_5a2bed71d5d689abc39d",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The room layout, cream bed, yellow throw and blue wall remain recognizable, but the headboard tufting and bedding folds are redrawn, the rug relief is altered, and the pendant shade and window details change. These are multiple non-requested alterations. Instruction: A red inflated balloon with a descending string is clearly added in the room, fulfilling the requested addition. Knowledge: The balloon is suspended above the bed, with its string extending down toward the tray, consistent with helium buoyancy and the supplied floating explanation. Quality: Room geometry, balloon shape, lighting and perspective are coherent; a small imperfection is the somewhat smeared, irregular relief texture of the rug."
+    },
+    {
+      "blind_id": "case_ea52af952ffd2a76133f",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The overall bedroom layout is retained, but headboard quilting, bedspread folds, rug relief and pendant proportions have visibly changed beyond the added balloon. Instruction: A small red balloon and dangling string now appear in front of the bin at the left of the room; no balloon size or placement height was specified, so the requested addition is present. Knowledge: The balloon is elevated above the floor with its string hanging below, consistent with the explanation that it should float; its low position alone does not contradict that behavior. Quality: Furniture and room geometry, perspective, lighting and the balloon silhouette are coherent; the rug relief has a minor smeared texture imperfection."
+    }
+  ]
+}

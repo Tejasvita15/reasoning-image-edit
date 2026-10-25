@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b063",
+  "results": [
+    {
+      "blind_id": "case_71b5ebf20241a28c29a9",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The orange bill, eye, neck, body outline, feet, white background and ground shadow remain in place; the non-down flight feathers on the folded wing become elongated black blades, a clear unintended wing change. Instruction: The visible difference is a black outer-wing patch. The expected edit is black soft/downy body plumage; the head, neck, breast and belly remain cream, while stiff wing feathers were changed instead, so the instruction is misinterpreted. Quality: Structure and lighting are coherent, with recognizable feet and bill; a small rough, brushlike transition at the lower black wing edge weakens texture naturalness."
+    },
+    {
+      "blind_id": "case_e9615932034505a7f72b",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The bill, eye, upright pose, body placement, orange feet and white setting are preserved. The folded wing and its rear feather tips are visibly remodeled into long black feathers with projecting pale tips, a clear unintended wing alteration. Instruction: Black appears on the long outer-wing feathers, while the soft cream head, neck and body plumage stays pale. Black downy plumage is expected, so the changed feather type does not fulfill the instruction. Quality: Duck anatomy, lighting and layout are coherent; the thin pale feather tips at the tail/wing junction look slightly streaked and blended, a small local texture flaw."
+    },
+    {
+      "blind_id": "case_9d0041a24df1ba9738fb",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The bill, feet, pose, silhouette, background and shadow closely retain their source arrangement. Outside the requested down coloration, the clearly defined layered wing and tail feathers are also turned black, constituting one noticeable feather-region alteration. Instruction: The cream soft plumage on the head, neck, breast and belly is now black throughout, matching the requested black down coloration without a visible pale omission. Quality: Anatomy and composition are coherent, but the neck and body have conspicuously lumpy, flattened dark texture and an unnaturally hard cutout edge; these are noticeable surface/rendering flaws."
+    },
+    {
+      "blind_id": "case_6fe958291bb5ace60e70",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Bill, feet, general pose and white background remain recognizable and similarly placed. The non-down layered wing feathers are recolored and remodeled, and the eye changes to a more brown/gray disc; the plumage silhouette is also redrawn with a dense fringe beyond a color-only edit. Instruction: The soft head, neck, breast and belly plumage is visibly black all over, fulfilling the requested down color. Quality: The duck has coherent anatomy, layered feathers and plausible lighting. A slightly uniform, bristly fringe around the neck and belly gives the fine feather texture a synthetic appearance, a minor surface issue."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b328",
+  "results": [
+    {
+      "blind_id": "case_545eb44ffac37aabe9b8",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The three purple crossed figures, surrounding numbers, central 110/112/114, and white background retain their visible arrangement and appearance. Instruction: No answer is inserted; the rightmost upper-left cell still contains '?', whereas it should contain 45. This is non-compliance. Knowledge: The supplied sum rule requires 114 - (12 + 23 + 34) = 45, which is absent. Instruction failure ⇒ knowledge invalid. Quality: The diagram is coherent, its numbers and outlines are legible, and the white field is clean; no noticeable structural artifacts."
+    },
+    {
+      "blind_id": "case_01498ed412d5b5721573",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Existing number identities and the three-figure layout remain, but many purple outline segments fade to pale gray, text color becomes muted, and figure contours extend higher/lower than in the source. Instruction: '?' is replaced by a legible 112 in the correct cell; the required result is 45, so filling the cell addresses the main action but gives the wrong answer. Knowledge: The explanation requires surrounding values to sum to 114; 112 + 12 + 23 + 34 = 181, a clear conflict with that rule. Quality: The text and crossed shapes are readable, but conspicuously washed-out outline segments create uneven, partially disappearing borders; the background is otherwise clean."
+    },
+    {
+      "blind_id": "case_39557533f89789d91b7b",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The three figures, all existing numbers, and their relative arrangement remain, but the formerly clean diagram has a visible fine grain/colored edge speckling across its strokes and white field. Instruction: The target remains '?'; the expected 45 has not been filled in, so the instruction is not followed. Knowledge: The supplied rule requires 114 - 12 - 23 - 34 = 45. Instruction failure ⇒ knowledge invalid. Quality: The diagram and all symbols are structurally coherent and legible; slight grain and rough colored edges are a small surface imperfection."
+    },
+    {
+      "blind_id": "case_c80f141343faa65aa07a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The numbers and white background persist, but the figures have visibly altered proportions and spacing, and several formerly continuous purple outlines are now thin, uneven or interrupted, especially around the middle intersection and right upper arm. Instruction: The rightmost figure still displays '?' rather than the expected 45, with no requested answer inserted. Knowledge: The explanation's surrounding-number sum requires 45. Instruction failure ⇒ knowledge invalid. Quality: The numbers remain legible and the overall diagram is coherent, but broken/faint line sections and uneven outlines visibly compromise the geometric borders."
+    }
+  ]
+}

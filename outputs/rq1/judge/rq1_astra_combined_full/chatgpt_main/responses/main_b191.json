@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b191",
+  "results": [
+    {
+      "blind_id": "case_96f39d1ff5c2cad03a11",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The five distinct animals and five swatches are replaced by seven rows of distorted spotted cats and repeated swatches; identities, counts, patterns and layout change substantially, while the white background remains. Instruction: Red horizontal lines are added, but the expected five one-to-one connections are tiger–stripes, spotted cat–spots, owl–brown scallops, fox–orange strokes and lion–plain yellow. Replacing the subjects and repeating patterns fails most of that task. Knowledge: The lines do not implement the supplied animal-to-texture rationale. Instruction failure ⇒ knowledge invalid. Quality: Structural coherence and artifact freedom fail: repeated cats have fused or duplicated heads, malformed legs and tails, and the bottom figure is a broken rectangular fragment; textures are smeared."
+    },
+    {
+      "blind_id": "case_3d300cadb8290382a87f",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Animal identities, markings, colors, five swatches and white background remain recognizable and faithful; the non-requested composition shifts, with the animal column moved slightly right and swatches slightly left/up relative to the source. Instruction: Only three short horizontal arrows are added, leaving tiger and lion unconnected and failing to reach several swatches. A complete result would connect all five animals to their matching textures; the owl arrow instead points toward tiger stripes. Knowledge: The visible arrows do not establish the animal-texture correspondences required by the explanation. Instruction failure ⇒ knowledge invalid. Quality, judged from this image alone: Coherent cartoon anatomy, clean silhouettes, distinct textures and smooth readable arrows; no distracting rendering artifacts."
+    },
+    {
+      "blind_id": "case_e2f5ac9db4d66094fbc4",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The original two-column arrangement is replaced by scattered and duplicated tiger, owl and lion figures; the fox and spotted cat disappear, swatches are repeated/repositioned, and animal designs change. Only the white background and broad cartoon style persist. Instruction: Numerous disconnected and branching arrows appear, including animal-to-animal links, rather than five one-to-one animal-to-matching-texture lines. This completely misinterprets the requested matching task. Knowledge: Tiger-to-owl and lion-to-spots links do not follow the supplied texture-matching rationale. Instruction failure ⇒ knowledge invalid. Quality: Major semantic and structural failures include detached heads, malformed bodies, duplicated figures, clipped swatches and dangling arrow fragments; the diagram is visually incoherent."
+    },
+    {
+      "blind_id": "case_30d736ee9160c9692eff",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The five animals retain their identities, markings and colors, and all five texture circles and the white background remain. The non-requested horizontal spacing changes visibly: the animal column shifts right and the swatch column left, narrowing the layout. Instruction: Four horizontal lines appear, pairing tiger with owl scallops, spotted cat with orange strokes, owl with tiger stripes and fox with plain yellow; lion is unconnected. The expected five one-to-one pattern matches are therefore mostly absent despite the added lines. Knowledge: Those visible mismatches contradict the explanation to match animals with their textures. Instruction failure ⇒ knowledge invalid. Quality, judged independently: Animal shapes and texture disks are coherent and clean, but repeated doubled, partly detached arrowheads are a clear diagram-rendering flaw."
+    }
+  ]
+}

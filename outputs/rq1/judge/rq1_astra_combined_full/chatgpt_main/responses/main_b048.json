@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b048",
+  "results": [
+    {
+      "blind_id": "case_9014083b3d6b1c0cec83",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The single blue rounded handset and gray background remain; viewpoint changes are excluded. The three-lens camera assembly disappears and a central Apple logo is added, two conspicuous unrequested changes. Instruction: The handset turns to expose a broad plain panel. A correct rear view would show this same phone with its existing rear camera assembly; the panel faces backward but loses its defining rear hardware, a major omission. Quality assessed independently: structural coherence, naturalness, artifact freedom and surface texture are satisfactory; the clean panel, rounded frame and highlights are internally coherent."
+    },
+    {
+      "blind_id": "case_3a639c9c7b4693532b79",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Blue rounded housings and the triangular three-camera design remain against gray. An additional complete handset and a grounded, overlapping two-phone composition replace the solitary floating presentation, two conspicuous unrequested changes. Instruction: The main handset becomes more face-on, exposing its back and the same three-lens assembly. The expected rear view of the given phone is clearly present and complete; the extra object is assessed under consistency. Quality assessed independently: structural coherence, naturalness, artifact freedom and texture are satisfactory; both phones have coherent frames, separate lenses, plausible occlusion and grounded shadows."
+    },
+    {
+      "blind_id": "case_94fba52a04accc11225f",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: One rounded blue handset, three-camera module, blank rear panel and gray setting remain. Excluding the requested perspective change, the body finish is noticeably lighter and more cyan than the dark teal source. Instruction: The back is broadened and the opposite edge becomes visible. The expected rear view retains the same phone and triangular camera arrangement; these are fully shown. Quality assessed independently: structure, lighting and body texture are satisfactory, but the lower-left camera has a small cloudy, smeared-looking internal reflection and rim; otherwise the object is coherent and clean."
+    },
+    {
+      "blind_id": "case_17580ead98946f612753",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The single handset, gray background, rounded outline and three-lens layout remain. Excluding its changed viewing angle, the body has a conspicuously flatter, pale blue rendered finish instead of the source's shaded metallic teal finish. Instruction: The handset becomes a broad rear-facing view with a narrow right edge. The expected back of the same three-camera phone is clearly and fully depicted. Quality assessed independently: the handset silhouette and lighting are coherent, but the camera rings have visibly irregular contours and the lower-left lens has a broken-looking white crescent; the flash also has a ragged outline. These localized distortions are noticeable artifacts."
+    }
+  ]
+}

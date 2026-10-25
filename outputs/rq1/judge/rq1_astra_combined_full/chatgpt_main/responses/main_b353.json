@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b353",
+  "results": [
+    {
+      "blind_id": "case_81aa99e43534f0f24101",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The black surround and general axial arrangement remain, but bowel contours, peripheral soft tissues, renal outlines and scan framing change noticeably. Instruction: The bright renal cluster and small central white focus disappear; the expected removal of the small white particles is fully visible. Knowledge: The supplied expectation is removal of a few small white particles; those particles are absent while renal tissue remains, satisfying that limited expectation. Quality, assessed from this image alone: The slice is legible and the vertebra coherent, but broad bright ribbon-like tissue bands and coarse, unusually uniform organ textures are clear visual flaws."
+    },
+    {
+      "blind_id": "case_e8d5efb4b07219e175a9",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The body outline, annotation and vertebra remain, but the image-left kidney is largely erased, the large image-right renal region is replaced by a small blurred remnant, and posterior muscles are flattened into smooth masses. Instruction: The white foci disappear, but whole renal regions disappear with them; the expected localized particle removal is poorly implemented. Knowledge: Instruction failure ⇒ knowledge invalid. Quality, assessed from this image alone: Broad empty black spaces, a blurred isolated oval and unnaturally smooth fused posterior tissue create multiple distracting structural and texture defects."
+    },
+    {
+      "blind_id": "case_bfcc2f5fbdfd9128524b",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Body boundary, bowel, kidneys, vertebra, posterior muscles, black field and corner annotations remain visually unchanged outside the removed white foci. Instruction: The image-right renal white cluster and central round white focus are replaced by surrounding gray tissue; the requested small-particle removal is complete. Knowledge: This directly matches the supplied explanation to remove a few small white particles, preserving the surrounding tissue. Quality, assessed from this image alone: The axial anatomy is coherent, tissue grain is natural, boundaries are continuous and there are no noticeable editing artifacts."
+    },
+    {
+      "blind_id": "case_56d538dd66f0fdaa019b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The outer body, vertebra and posterior muscles remain, but both renal regions and several upper-right abdominal structures are erased or converted into small smooth ovals. Instruction: White foci are absent, yet the edit removes substantial organs rather than selectively removing the small particles, a major failure of the requested operation. Knowledge: Instruction failure ⇒ knowledge invalid. Quality, assessed from this image alone: Small blurred disks float in large featureless black areas, with abruptly interrupted tissue structure and conspicuous smoothing across multiple regions."
+    },
+    {
+      "blind_id": "case_7b95c706e084ac97dd33",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The body contour, organ outlines, bowel, spinal structure, posterior musculature and annotations stay visually identical outside the targeted white spots. Instruction: The bright cluster in the image-right kidney and the isolated central white spot disappear into gray tissue, giving the expected particle-free result. Knowledge: The visible removal of the small white particles matches the supplied explanation while retaining tissue. Quality, assessed from this image alone: Organ and bone shapes remain coherent, scan texture is continuous, and no clear seams, duplication or unnatural patches are visible."
+    },
+    {
+      "blind_id": "case_b6ee3f7098d78f088c24",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The outer body border, vertebra and corner labels remain, but the image-left kidney is missing, the image-right renal region becomes a smooth gray oval, bowel detail is removed and central and posterior soft tissues merge into uniform masses. Instruction: The white particles are gone, but large anatomical regions are erased or replaced rather than locally cleared; most of the requested selective edit is poorly implemented. Knowledge: Instruction failure ⇒ knowledge invalid. Quality, assessed from this image alone: A nearly featureless oval, broad black voids and fused smooth tissue masses produce multiple distracting structural and texture failures."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b068",
+  "results": [
+    {
+      "blind_id": "case_2e410e80c705327df543",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The honey, orange hen, sheep, bee and white layout remain recognizable, but yarn becomes a brown cow, eggs become birds, the milk disappears, and the upper-right cow is redrawn. Instruction: Added animals and replacements provide no clear links from each original product to its producing animal; the expected yarn–sheep, honey–bee, eggs–hen and milk–cow matches are absent. Knowledge: The supplied explanation is blank; mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: The isolated cartoons have clear contours and flat shading, but a chicken has a striped insect abdomen and the large bee has birdlike feet, two conspicuous anatomical blends."
+    },
+    {
+      "blind_id": "case_f8266f3d4d49d9e916f8",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white two-column background remains, but essentially all products and animal identities, positions and illustrations have changed, including a black sheep at upper right and a winged quadruped at lower right. Instruction: Replacement and hybrid figures do not visibly match the four original products to their producing animals; the required four associations are missing. Knowledge: The supplied explanation is blank; mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: Several distracting structural blends appear: a carton merges with a honey bowl, a headless woolly form has legs, yarn wraps a woody form, and a quadruped has insect wings. Textures and outlines are otherwise readable."
+    },
+    {
+      "blind_id": "case_67736de8be11481ee026",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The right-side cow, hen, sheep and bee retain their designs and ordering, and the milk carton persists, but yarn and honey are replaced by bulky animals and the eggs move beside the milk. Instruction: Three animal-like forms replace the left products rather than linking each product to its origin; no complete product-to-animal matches are shown. Knowledge: The supplied explanation is blank; mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: The white spacing and right-side cartoons are coherent, but three bulbous left-side bodies have compressed or malformed anatomy, and the third has an irregular dangling black-and-white appendage; several distracting structural flaws are visible."
+    },
+    {
+      "blind_id": "case_33680be968d716b35609",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The four left products, hen and white background remain recognizable, but the cow is redesigned, the sheep becomes another bovine, and the bee changes pose and face. Instruction: No connecting marks or other explicit associations are added; the four products are still unpaired, so the expected yarn–sheep, honey–bee, eggs–hen and milk–cow matching is not performed. Knowledge: The supplied explanation is blank; mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the worksheet has coherent cartoon animals and product silhouettes, clean contours, legible MILK text, orderly spacing and consistent simple shading without noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_c7432ec8abb9eca09033",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Only the broad white two-column arrangement survives; nearly every product and animal is replaced, moved or fused, including egg-legged shapes, an insect-bodied quadruped and multiple bovine-like figures. Instruction: These replacements show no clear matching of the original four products with their production animals; the requested associations are missing. Knowledge: The supplied explanation is blank; mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: Major anatomical hallucinations dominate: eggs have limbs, an animal torso merges with a large insect, and multiple mammals combine mismatched heads, wool, legs and bodies. These pervasive structural failures outweigh the clean background."
+    },
+    {
+      "blind_id": "case_78a73281234ebea5b4cf",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The right-side cow, hen, sheep and bee remain recognizable in their original order, but pink yarn becomes a beige skein, honey gains an overlapping sheep, eggs disappear, and the milk moves beside a fused animal. Instruction: Additional sheep and a cow-head/sheep composite do not establish the four required product-to-origin matches; the products are not clearly paired with the appropriate right-side animals. Knowledge: The supplied explanation is blank; mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: Most silhouettes and wool/yarn textures are coherent, but the center-left sheep has a second cow head fused atop its face, a conspicuous anatomical and semantic flaw; the other objects remain readable."
+    }
+  ]
+}

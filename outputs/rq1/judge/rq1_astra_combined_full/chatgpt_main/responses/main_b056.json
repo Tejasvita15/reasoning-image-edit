@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b056",
+  "results": [
+    {
+      "blind_id": "case_776a6cf1fef59dddc575",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": 3,
+      "rationale": "Consistency: White background and black line style remain, and a standalone section view is allowed; the large circular ring, central circle, and circular vertex markers are multiple unrequested additions. Instruction: The prism becomes a flat six-cornered outline, addressing the expected horizontal polygonal section, but overlapping circular and irregular outlines obscure the actual cut boundary; partial compliance. Knowledge: The explanation requires a regular hexagon. The visible six-cornered perimeter has substantially shorter vertical sides than its oblique sides, with competing circular boundaries, so regularity is not established and the geometry has a clear conflict. Quality: The central circle and white field are clear, but the perimeter has numerous uneven overlapping strokes, doubled paths, and awkward intersections with the vertex rings, creating multiple distracting structural artifacts."
+    },
+    {
+      "blind_id": "case_c220e20d695902ccb917",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Black outlines and white background remain, but the solid is made broad and squat and its lower boundary becomes a bowed, notched contour; these are two conspicuous changes beyond showing a section. Instruction: Several horizontal bands and faint top strokes are added. A clear horizontal polygonal cut through the original prism is expected; the bands do not delineate a readable complete cross-section, so most of the requested change is poorly implemented. Knowledge: The supplied explanation requires a regular hexagon, but no clear regular hexagonal section is shown. Instruction failure ⇒ knowledge invalid. Quality: The layered solid has multiple visibly wavy edges, a distorted lower contour, and faint tangled top lines; these impair geometric coherence despite the uncluttered background."
+    },
+    {
+      "blind_id": "case_c9a3b378c0a411330a19",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: White background, black wireframe style, upright placement, and dashed hidden edges remain. The major unrequested change is the solid geometry: the broad six-sided prism becomes a narrower quadrilateral-based form. Instruction: The edit changes the solid outline but adds no horizontal cutting plane or isolated section. The expected visible horizontal section is absent, giving non-compliance. Knowledge: No regular hexagonal section required by the explanation is present. Instruction failure ⇒ knowledge invalid. Quality: The main outer edges are clear, but the dashed rear vertical does not meet the dashed top-face corner coherently, and the top dashed strokes are ragged; this is a noticeable structural problem in an otherwise readable wireframe."
+    },
+    {
+      "blind_id": "case_606b7594fcee817e2008",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background, centered upright composition, and simple black outline remain. The solid geometry is clearly changed into a much narrower quadrilateral-based prism rather than merely having a section displayed. Instruction: The polyhedron is redrawn with a narrow top and base, without a horizontal cut plane or separate cross-sectional polygon. The requested section is absent, so the instruction is not followed. Knowledge: The required regular hexagon is absent. Instruction failure ⇒ knowledge invalid. Quality: Considered alone, the diagram has a coherent narrow prism outline, clean joined corners, consistent perspective, and an uncluttered white field, with no noticeable generation artifacts."
+    }
+  ]
+}

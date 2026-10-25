@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b161",
+  "results": [
+    {
+      "blind_id": "case_0580d80c5b6941ebc157",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and two-cup arrangement remain, but the large right thermos shifts left/up, its reflections change, and the left strap geometry changes; these are unrequested changes. Instruction: The left thermos becomes shorter and narrower, while the right remains tall. A correct edit would enlarge the left thermos to the right thermos's height and overall size; the visible change goes in the opposite direction, so compliance is absent. Quality, considered only within this image: coherent cylindrical bodies, fitted lids and attached loop straps, natural metallic highlights and grounding shadows, and clean surfaces without visible artifacts."
+    },
+    {
+      "blind_id": "case_541b52df0989712807b5",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white setting, beige/gold palette and two-cup layout remain, but the left thermos shifts left, strap contours change, and both bodies have altered highlight patterns, including a stronger dark vertical reflection on the right. Instruction: The left cup remains distinctly shorter than the right, with no visible enlargement toward a size match. The expected result is two thermoses of matching overall size, so the requested change is absent. Quality, considered only within this image: the cylinders, cap seams and straps are structurally plausible; metal reflections and contact shadows are coherent, and no noticeable generation artifacts or corrupted textures are visible."
+    },
+    {
+      "blind_id": "case_f5013b0ff24a7994c059",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and general product arrangement remain, but the left thermos shifts left, the straps are reshaped, and the metal reflections change visibly, particularly the dark vertical stripe on the right body. Instruction: The left thermos remains substantially shorter than the right and is not visibly enlarged to match it. A successful edit would give the left cup the same overall dimensions as the large cup; that change is absent. Quality, considered only within this image: smooth coherent cylindrical bodies, credible fitted lids, continuous attached straps, plausible metallic reflections and soft contact shadows; no clear artifacts are visible."
+    },
+    {
+      "blind_id": "case_1a4f9ff55ecca659c833",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white setting and two beige/gold thermoses remain, but the large thermos is taller and shifted left, both surfaces have stronger altered reflections, and the strap shapes/attachments change. Instruction: The small left thermos becomes shorter while the right becomes taller, increasing the size disparity. The expected edit would enlarge the small cup to the original large cup's overall size; this is the opposite modification and is noncompliant. Quality, considered only within this image: both thermoses have coherent cylindrical geometry, clean cap seams, plausible connected straps and metal shading, with natural grounding shadows and no noticeable artifacts."
+    }
+  ]
+}

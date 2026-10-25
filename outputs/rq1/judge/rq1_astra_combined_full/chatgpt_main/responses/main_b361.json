@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b361",
+  "results": [
+    {
+      "blind_id": "case_bc4becfdad308f51b375",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The charger housing, heading, diagonal placement and upper cable remain; the lower-right plug and its cable disappear, and the wood grain is visibly flattened into broad streaks. Instruction: The visible change removes the plug but leaves ten USB sockets, five in each column. A compliant edit would show six USB sockets on this charger; no socket-count change is achieved. Quality alone: Structure and lighting are coherent, the labels are legible, and surfaces are plausible; fine speckled edging along the white casing is a small artifact."
+    },
+    {
+      "blind_id": "case_de1f15a00333a76a05f3",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Housing silhouette, plug, cables, floor joints and composition remain, but the small electrical labels are altered or missing and the smooth casing and wood acquire a visibly rough texture. Instruction: Socket details are redrawn but ten openings remain in two columns of five. The expected result is six physical USB interfaces; the requested count is not implemented. Quality alone: Perspective, plug structure and shadows are coherent; several socket labels are distorted or absent and the casing has a noticeable mottled texture, producing two clear flaws."
+    },
+    {
+      "blind_id": "case_d108aeae9363bfa58081",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The charger body, USB Charger heading, plug, cables, wood floor and lighting remain visually consistent. Excluding the requested socket-count change, an unrequested black display surface replaces the white socket panel. Instruction: All USB sockets are replaced by six colored graphical tiles. The expected change is six physical USB interfaces on the charger, so this substitutes a different kind of interface and completely misinterprets the request. Quality alone: The casing, plug, perspective and shadows are coherent and clean; the display captions are garbled, a clear semantic artifact."
+    },
+    {
+      "blind_id": "case_50515f6bc2b5c4db3a33",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white charger, title, position, upper cable and floorboard layout remain. The separate plug and its right-side lead are removed, while the surrounding wood texture is visibly simplified into broad streaks. Instruction: Despite the plug removal, the device still has ten USB ports in five pairs. Six USB ports are required, and that change is absent. Quality alone: The product geometry, sockets, text and lighting are coherent; small speckled edge artifacts on the casing are the minor imperfection."
+    },
+    {
+      "blind_id": "case_a68130cd8d24ef02624e",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The device outline, plug placement, cables and floorboard arrangement remain, but the charger title and electrical labels are deformed and the housing and floor textures are noticeably roughened. Instruction: Socket rims have changed shape, but ten USB openings remain, five per column. The expected six-interface charger is not produced. Quality alone: Overall perspective and shadow placement are plausible, but uneven melted socket rims, corrupted small lettering and mottled plastic surfaces are multiple distracting artifacts."
+    },
+    {
+      "blind_id": "case_a2d08876d52182d61b19",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The charger and plug retain their locations, with the same cable routes and floor joints. Non-requested changes include broken heading and port-label lettering and visibly mottled housing, plug and wood surfaces. Instruction: The port shapes are distorted but all ten openings remain in two five-port columns. A successful edit would reduce the physical USB interfaces to six; that modification is absent. Quality alone: Broad object geometry and lighting are understandable, but jagged socket contours, malformed lettering and patchy plastic textures create multiple distracting errors."
+    }
+  ]
+}

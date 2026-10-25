@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b160",
+  "results": [
+    {
+      "blind_id": "case_d891c891f0bc41aec38f",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white field remains, but nearly all match lengths, textures, blue heads, digit shapes and spacing change. Instruction: The original 14 - 6 = 82 is replaced with irregular upright strokes, an E-like shape and a B-like shape; this is extensive reconstruction, not two relocated matches yielding a valid equation. Expected: retain the matches and move exactly two into a true equality. Knowledge: No explanation is supplied; the visible result does not establish a valid arithmetic equality. Instruction failure ⇒ knowledge invalid. Quality: Multiple ragged, darkened sticks, lumpy cyan joints and malformed glyphs undermine structural coherence; background and overall horizontal placement remain clear."
+    },
+    {
+      "blind_id": "case_dd249e50a31b90e365be",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: White background persists, but the match textures, lengths, orientations, glyphs and scene arrangement are extensively altered. Instruction: Several digits and the equals sign become diagonal or disconnected groups, with far more than two stick changes; no valid equality results. Expected: exactly two relocated sticks producing a true equation. Knowledge: The explanation is blank; visible groups do not express a coherent arithmetic equality. Instruction failure ⇒ knowledge invalid. Quality: Severe symbol malformation, tangled intersections, irregular dark outlines and mottled stick textures make the graphic structurally incoherent."
+    },
+    {
+      "blind_id": "case_81a28ccb84694a21c0cc",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Gold sticks with blue heads and a white background persist, but most digit configurations and positions are changed, with an added cropped equals sign at the left. Instruction: The source becomes a series of equals signs, an 8-like group, 6 and malformed right-hand groups; this requires many changes and is not a true equation obtained by moving two sticks. Expected: exactly two relocated matches with the remaining arrangement retained. Knowledge: No explanation is supplied; the visible expression does not support a valid equality. Instruction failure ⇒ knowledge invalid. Quality: Smooth stick rendering is coherent, but a cropped symbol, doubled lower-left strokes and open or malformed right-hand glyphs are multiple distracting structural errors."
+    },
+    {
+      "blind_id": "case_ee3fbd2f47b7fd30af9b",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Only the white background remains; all matchsticks and numbers disappear and two solid blue plus symbols replace the equation. Instruction: Removal and replacement of the whole puzzle does not move two matchsticks or produce an equation. Expected: retain the puzzle and relocate exactly two sticks into a valid equality. Knowledge: The explanation is blank; two plus signs alone express no equality. Instruction failure ⇒ knowledge invalid. Quality: Both blue plus signs have clean rounded edges, uniform color and coherent shapes on an uncluttered white field, with no visible rendering artifacts."
+    },
+    {
+      "blind_id": "case_ba1462b044bb5ed7759c",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: White background and the general gold-and-blue palette remain, but most digits, match positions and lengths change and the minus sign disappears. Instruction: The result has two diagonal-filled 2-like figures followed by an equals sign and a malformed 21-like group; many sticks are reconstructed or relocated, rather than exactly two moves forming a valid equation. Expected: a true equality formed by moving only two existing matches. Knowledge: No explanation is supplied; the visible groups do not demonstrate a true arithmetic equality. Instruction failure ⇒ knowledge invalid. Quality: Multiple shortened or headless sticks, doubled vertical strokes and malformed diagonal-filled numerals disrupt structural coherence despite a clean white background."
+    },
+    {
+      "blind_id": "case_285a876f60edabed137e",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white field remains, but stick colors, textures, lengths, number shapes and the arrangement of the equation are extensively replaced. Instruction: The image becomes a single upright stroke, minus, a 14-like group, equals, an L-like group and another horizontal stroke; it does not show two moved matches producing a valid equation. Expected: only two relocated matches and a true equality. Knowledge: The explanation is blank; the resulting fragments do not constitute a valid arithmetic statement. Instruction failure ⇒ knowledge invalid. Quality: Severely broken, multicolored stick edges, stray fragments, fused intersections and malformed glyphs create major structural and texture failures."
+    }
+  ]
+}

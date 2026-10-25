@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b156",
+  "results": [
+    {
+      "blind_id": "case_fad643ca3b72a57435c6",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The pale sky and blurred dark tree remain recognizable, but the long left leaf and broad right leaves are replaced by small, low foliage, and the stem/branch arrangement changes. Bloom expansion itself is excluded. Instruction: The partly enclosed bud becomes an expansive open yellow flower with a fully exposed disk, matching the requested full bloom. Knowledge: The explanation identifies a sunflower in full bloom; radiating yellow ray petals around a textured central disk are biologically plausible. Quality: Structure, lighting, overlapping petals, disk texture and hairy stem are coherent and natural, with no noticeable generation defect."
+    },
+    {
+      "blind_id": "case_26289d6c719073f69866",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The central stem and long lateral leaves largely retain their positions, but the blurred background is replaced with numerous flowering plants and the lower-right foreground foliage is reshaped and supplemented. Instruction: The original bud is opened into a complete ring of yellow petals surrounding an exposed disk, fulfilling full bloom. Knowledge: This matches the supplied sunflower expectation through the characteristic ray petals and dense central florets. Quality: The flower, veined leaves, stems and progressively blurred distant flowers form a coherent photographic scene; lighting and textures are natural without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_df312f6dadbc7d4ba34b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The pale sky and blurred tree remain recognizable, but the long left leaf is removed/replaced, the right foliage is relocated and reshaped, and the branching stem arrangement changes. Instruction: Yellow outer petals open, but the large central mass remains tightly folded into a budlike dome; a fully open sunflower head is only partially achieved. Knowledge: Against the supplied sunflower-in-full-bloom expectation, the closed petal-like central dome instead of an exposed disk is a clear biological mismatch. Quality: Lighting and leaf texture are coherent, but the flower center has an awkward tightly ribbed, bulbous structure with fused-looking folds, a noticeable structural flaw."
+    },
+    {
+      "blind_id": "case_bc00f33bfe285646847a",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Sky, blurred tree, stem position and the major leaf silhouettes remain aligned; however, the foliage surface becomes conspicuously etched with stronger dark vein outlines, a clear non-requested texture change. Instruction: The enclosed bud becomes an open sunflower with a full radial ring of yellow petals and visible disk, precisely delivering full bloom. Knowledge: The exposed densely patterned disk and surrounding yellow ray petals match the supplied sunflower expectation. Quality: The flower structure, perspective and lighting are coherent; the overly outlined vein texture on the leaves is a minor naturalness issue, with no major distortion or duplication."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b226",
+  "results": [
+    {
+      "blind_id": "case_455f9af323dd8fc81efa",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Ferns, mossy rock and forest setting remain recognizable, but the dog has a different short smooth coat, floppy ears, dark muzzle and tail shape; these are not posture changes. Instruction: The dog changes appearance and stands normally; the expected edit is the same dog lifting a hind leg to mark territory, which is absent. Knowledge: Neither hind leg is visibly raised outward in the leg-lifting urination posture described by the explanation. Instruction failure ⇒ knowledge invalid. Quality: The dog, overlapping standing legs, face, fur, vegetation and ground lighting are coherent and natural, without a clear generation artifact."
+    },
+    {
+      "blind_id": "case_8a1e71d36a2acd432c2e",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding posture changes, the tan rough-coated dog identity, pointed ears, forest ferns, mossy rock, leaf litter and lighting remain unchanged. Instruction: Both front legs have been raised while both rear paws remain grounded; the expected marking posture requires one raised hind leg, so the principal requested behavior is poorly implemented. Knowledge: Raising the forequarters does not depict the leg-lifting urination behavior in the supplied explanation. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the dog has coherent anatomy and a plausible momentary rearing pose, with natural fur, continuous vegetation and consistent lighting; no noticeable artifact."
+    },
+    {
+      "blind_id": "case_6c18cf065a745ec957ed",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The general fern forest remains, but a large foreground log and orange material are added, the dog coat is smoother and its tail is much bushier; the background framing also shifts. Instruction: The dog bends its head to orange material on a log with its hind feet down; the expected raised-hind-leg marking posture is entirely absent. Knowledge: The visible feeding-like pose fails to show the leg lift specified by the explanation. Instruction failure ⇒ knowledge invalid. Quality: Fur, bark and foliage render naturally, but the pink dangling structure beneath the chest/abdomen is anatomically malformed and the adjoining far foreleg contour is confused, creating a noticeable structural defect."
+    },
+    {
+      "blind_id": "case_1fb0c0b1b1b7a4a94466",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The same tan rough coat, pointed ears, face, fern arrangement, mossy rock, forest floor and lighting are preserved; differences are confined to the permitted posture adjustment. Instruction: One foreleg is lifted forward while the rear legs remain planted. A correct result would lift a hind leg for marking, so the requested posture is poorly implemented despite a leg being raised. Knowledge: The wrong limb is raised for the urination behavior described in the explanation. Instruction failure ⇒ knowledge invalid. Quality: The isolated image shows a coherent dog holding up a front paw, natural anatomy and fur, consistent forest textures and lighting, and no noticeable generation artifacts."
+    }
+  ]
+}

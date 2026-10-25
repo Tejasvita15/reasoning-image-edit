@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b102",
+  "results": [
+    {
+      "blind_id": "case_b5cb1c2783b948f63639",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The black-on-white table, title wording and most row names remain, but the table is vertically compressed and its right divider shifts left; Carbohydrate becomes Caibohydrate. Instruction: The numerical entries still show 2505 kJ, 27.0 g, 50.2 g and 16.5 g rather than a zero-energy label, so the requested change is absent. Knowledge: The explanation requires 0 kJ, zero protein/fat/carbohydrate and their 0% NRVs; none appears. Instruction failure ⇒ knowledge invalid. Quality, judging this image alone: Clear table rules, readable numbers and clean flat background are satisfactory; the malformed carbohydrate label is a noticeable textual/semantic flaw."
+    },
+    {
+      "blind_id": "case_de5b102ecb88aa266ce4",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and nutrient-name list remain recognizable, but the title and headers are badly deformed, the three-column structure becomes two columns, row placement changes, and sodium values disappear. Instruction: Numeric cells are erased rather than replaced with a readable zero-energy value; the expected 0-calorie information is absent. Knowledge: The explanation calls for explicit 0 kJ, 0 g macronutrients and 0% NRVs, not empty cells. Instruction failure ⇒ knowledge invalid. Quality, judging this image alone: Major garbled title/header symbols, stray text fragments and an empty data region make this a structurally and semantically broken nutrition table despite its plain background and recognizable row labels."
+    },
+    {
+      "blind_id": "case_e9d2802184ecaf5670ca",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Title, column headings, table rules, remaining nutrient names and sodium entry visually match the source; the one clear unintended change is replacement of the Energy row name by a nonsensical 00kq-like label. Instruction: Zeros appear in the item-name cell, but energy remains 2505 kJ with 30%, so zero calories is very poorly implemented. Knowledge: Protein 27.0 g, fat 50.2 g, carbohydrate 16.5 g and their nonzero NRVs also contradict the supplied zero-value expectation. Instruction failure ⇒ knowledge invalid. Quality, judging this image alone: The table has straight rules, coherent typography and a clean background, but the 00kq-like first item name is a clear semantic/text defect."
+    },
+    {
+      "blind_id": "case_74548add42950faf7785",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The title wording, black-on-white palette and basic table arrangement remain, but lettering becomes much heavier throughout, table/row spacing changes, and NRV and carbohydrate labels acquire incorrect letters. Instruction: Several numbers change to other nonzero values, including protein 47.0 g and carbohydrate 10.5 g, while energy remains 2505 kJ; no zero-calorie result is shown. Knowledge: Energy, macronutrients and their percentages remain nonzero instead of the explanation's 0 kJ, 0 g and 0%. Instruction failure ⇒ knowledge invalid. Quality, judging this image alone: The table is recognizable with readable numeric cells and clear rules, but the malformed NRV header and misspelled carbohydrate label are noticeable text defects, with uneven glyph contours."
+    }
+  ]
+}

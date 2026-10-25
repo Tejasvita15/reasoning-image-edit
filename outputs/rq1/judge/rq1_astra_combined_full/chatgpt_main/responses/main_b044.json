@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b044",
+  "results": [
+    {
+      "blind_id": "case_e2205c52f65bef32742a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The wider framing, newly visible arms/shirt/waistband and expanded chair background change multiple non-requested scene elements; the original pocket arrangement is recognizable. Instruction: The view expands, but the large frayed right-pocket hole remains open. A completed garment should have this missing fabric restored; no repair is made, so compliance is 1. Quality: Structural coherence, natural lighting/perspective, artifact absence and denim texture are satisfactory; the torn pocket and standing figure are visually plausible."
+    },
+    {
+      "blind_id": "case_18cf97091294a5458ad7",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The waistband and center-seam geometry, pocket placement, leg silhouette and denim wash/folds are noticeably changed; the dark background and chair remain broadly recognizable. Instruction: The garment is reshaped and smoothed, but its large right-side hole remains. Expected completion would restore the missing pocket fabric; this is not achieved, so compliance is 1. Quality: Lighting and fabric texture are natural, but the right pocket's upper boundary disappears into a hole extending into the yoke, producing a visibly confused pocket/garment construction; this is one clear structural flaw."
+    },
+    {
+      "blind_id": "case_94469b45fa8705fd2750",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Framing, chair/background, pocket outlines and seam layout are preserved, but broad sections of blue denim are changed into tan, coarsely woven material, a clear non-requested material/color alteration. Instruction: Fabric appearance changes while the large pocket hole and center fraying remain. Completion should close the missing fabric area; the requested repair is absent, so compliance is 1. Quality: The patchwork garment has coherent stitching, plausible torn edges, consistent woven textures and natural lighting; no clear generation artifact is visible."
+    },
+    {
+      "blind_id": "case_1834acfaee8c5860b0fb",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pocket outlines, framing and background remain aligned, but the denim wash/texture across the untouched left pocket and legs is visibly reworked with stronger pale streaking. Instruction: The large right-pocket opening is filled with continuous denim, matching the expected repaired pocket; a small frayed gap at the lower center seam remains, so completion has a minor omission. Quality: Pocket structure and seams are coherent, fabric grain and folds look plausible, and lighting is natural without noticeable generation artifacts."
+    }
+  ]
+}

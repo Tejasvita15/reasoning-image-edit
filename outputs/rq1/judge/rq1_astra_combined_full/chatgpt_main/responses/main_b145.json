@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b145",
+  "results": [
+    {
+      "blind_id": "case_d1f3ca6d4dc891e7baa5",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "Consistency: The state layout, coastlines, white background and framing remain recognizable and aligned, but thin blue/gold boundaries have been replaced throughout by heavy black outlines, a clear unrequested line-style change. Instruction: Blank states are now filled with colors; a correct result would use red, yellow, blue and green with different colors across shared state borders. The coloring is substantial, but green is largely absent apart from a tiny coastal patch, and neighboring states repeatedly share fills, including red North/South Dakota and yellow Colorado/Kansas; partial compliance. Knowledge: The supplied explanation is blank; using task-implied map-coloring logic, multiple shared-border conflicts, including the two examples above, are serious violations. Quality, considering this edited image alone: coherent map structure and clean flat fills, legible boundaries, natural graphic presentation and no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_9406f3785ed3fa381024",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "Consistency: The coastline, state boundary geometry, thin gold internal lines, blue outer outline, white background and framing remain visually unchanged; state fills are the requested modification. Instruction: The blank map is now filled with all four requested colors. A correct game solution would give edge-adjacent states different colors, but California/Nevada are both red, North/South Dakota both blue, and Oklahoma/Texas both green, so the central coloring action is present with an important requirement unmet. Knowledge: No explanation was supplied; task-implied adjacency logic is visibly violated along multiple shared borders, including those named above. Quality, judged solely on this image: coherent recognizable map shapes, consistent flat color surfaces and clear boundaries; the mild softness does not obscure the structure and no noticeable artifacts appear."
+    },
+    {
+      "blind_id": "case_6c5059d43532930e1b32",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "Consistency: The state shapes, coastal silhouette, original thin boundary treatment, white background and composition are preserved; only the requested region fills visibly change. Instruction: States have been colored red, yellow, blue and green, but the expected neighboring-state distinction is repeatedly absent: Washington/Oregon/California are red, Montana/Wyoming yellow, and North/South Dakota blue. This fulfills the coloring action only partially as a Four Color Theorem game. Knowledge: The explanation field is blank; task-implied shared-border logic is sufficient to identify multiple serious conflicts in these same-color neighboring states. Quality, independently of the task: the map has coherent outlines, uniform fills and a clean graphic appearance, without distracting distortions, ghosting or corrupted textures."
+    },
+    {
+      "blind_id": "case_1df5434effb1be7cd33f",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "Consistency: State positions and shapes, the coastal silhouette, white field and composition remain consistent, while the thin colored boundary lines are visibly redrawn as bold black strokes across the map, an unrequested graphic-style change. Instruction: The blank states receive red, yellow, green and blue-family fills; a successful game would distinguish every pair sharing a border. Washington/Idaho/Montana remain yellow across shared edges, North/South Dakota are red, and Alabama/Georgia are yellow, so the result only partially follows the game requirement. Knowledge: The supplied explanation is blank; these visible shared-border conflicts violate the adjacency rule implied by the named game in multiple places. Quality, based only on this edited image: the outlined map remains structurally coherent, its flat fills are clean, and its graphic presentation has no noticeable rendering artifacts."
+    }
+  ]
+}

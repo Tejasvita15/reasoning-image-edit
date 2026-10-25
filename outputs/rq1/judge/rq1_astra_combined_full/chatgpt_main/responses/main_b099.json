@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b099",
+  "results": [
+    {
+      "blind_id": "case_f719d61adb97ef2edb7b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The truck, grid topology, existing bend, house and four tile designs remain recognizable, but the red title banner is removed, the dotted background is erased, and the worksheet is repositioned. Instruction: No road tiles have been placed into the empty grid; a correct result would extend the starter road with all four blocks toward the burning house. No requested construction is present. Knowledge: The supplied explanation is blank; the mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: The standalone worksheet has coherent straight grid lines, clean flat illustrations and intact road shapes, without noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_571ba0bd3dcfe1ed7a17",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The title, truck, house, grid arrangement, dotted backdrop and tile bank are retained; grid edges have minor irregular wavering. Road additions are excluded from consistency. Instruction: A winding road is added around the truck and upper-left cells, but much of it lies outside the grid and it returns toward the start instead of reaching the house. The expected four-block continuous route through the grid is largely unfulfilled. Knowledge: The supplied explanation is blank; the mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: Letter edges and dotted tile borders have visible rough, speckled fringes, and the road/truck overlap creates a confusing fused junction; the overall diagram remains readable."
+    },
+    {
+      "blind_id": "case_d5aa9fe50bfd313bf368",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The red title, truck, burning house, grid boundaries, starter bend, dotted background and cutout row retain their appearance and relative arrangement. Instruction: The grid remains empty beyond the original starter bend and all four blocks remain below; the requested connected route has not been constructed. Knowledge: The supplied explanation is blank; the mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: The worksheet is structurally coherent and the title and illustrations are readable; slight roughness along dotted cutout borders and road edges is a minor rendering imperfection."
+    },
+    {
+      "blind_id": "case_f6de1f0fa460be648fa8",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The truck, grid topology, starter road and original burning house remain recognizable, but the title is removed, a large additional burning house covers the lower-left worksheet, and the scissors divider is replaced by two dotted lines. Instruction: No four-block route has been assembled in the grid; the conspicuous change is an additional fire illustration rather than path construction. Knowledge: The supplied explanation is blank; the mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: The standalone graphics are individually coherent, but the oversized house/fire overlaps grid lines and obscures cutout borders and road pieces, creating a clear layout and occlusion flaw."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b113",
+  "results": [
+    {
+      "blind_id": "case_b0633eb839c9a02cc7ed",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Shoe positions, silhouettes, panel seams, lace layout, white wire grid and framing remain intact; the carpet has visibly stronger, coarser contrast across the foreground, a clear unrequested background alteration. Shoe color changes are excluded. Instruction: The white uppers, laces and soles become rich brown. The expected result is the same pair of brown shoes, and both shoes visibly satisfy that change. Quality: Structure \u2714, naturalness \u2714, artifact-free \u2714, texture fidelity \u2714; coherent leather grain, threaded laces, sole edges and grounded shadows show no noticeable defect."
+    },
+    {
+      "blind_id": "case_1760672ceb83edaf4a5f",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The carpet, wire grid, crop, placement, shoe outlines, seams and lace arrangement are retained. The shoe uppers change from pebbled leather-like surfaces to visibly woven, matte canvas-like material, one clear unrequested material alteration; brown recoloring is excluded. Instruction: Both shoes change from white to brown across their uppers, laces, soles and interiors. The expected same pair in brown is present, with black heel accents still plausible. Quality: Structure \u2714, naturalness \u2714, artifact-free \u2714, texture fidelity \u2714; woven surfaces, rounded collars, lacing and rubber soles are coherent with natural depth and shadows."
+    },
+    {
+      "blind_id": "case_24ab6a6b38071d239677",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pair's position, silhouettes, lace routing, white interiors, black heel patches, wire-grid layout and crop are retained. The carpet texture is visibly more harshly contrasted throughout, a clear background alteration outside the requested recoloring. Instruction: The white uppers, laces and soles become brown on both shoes; the expected brown pair is achieved, with the existing lining and heel accents compatible with brown shoes. Quality: Structure \u2714, naturalness \u2714, texture fidelity \u2714; the white lining along the foreground shoe's opening has a slightly jagged, cutout-like boundary, a small edge artifact. The shoes, laces and soles otherwise remain coherent."
+    },
+    {
+      "blind_id": "case_4a3816cbf8f988532e24",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray carpet, wire frame, framing, shoe locations, silhouettes, seam layout and lacing remain intact. The uppers visibly acquire a woven textile appearance instead of the source's leather-like grain, a clear material change beyond color. Brown surfaces and interiors are excluded from consistency penalties. Instruction: Both formerly white shoes now have brown uppers, laces, soles and interiors. The expected same pair colored brown is fully realized. Quality: Structure \u2714, naturalness \u2714, artifact-free \u2714, texture fidelity \u2714; the canvas weave, collar construction, laces, perspective and contact shadows form a natural, coherent product image."
+    }
+  ]
+}

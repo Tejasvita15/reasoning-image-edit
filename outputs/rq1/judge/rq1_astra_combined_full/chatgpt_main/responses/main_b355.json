@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b355",
+  "results": [
+    {
+      "blind_id": "case_8c17102377f385d18f05",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Body outline, bowel arrangement, renal silhouettes, muscles, vertebral structure and annotation placement are retained; tissue grain and edge contrast are visibly coarser throughout. Instruction: The round central white focus and lobulated white renal focus disappear into gray tissue, matching the expected removal of the small bright particles. Knowledge: This directly matches the supplied explanation, with tissue remaining at the cleared sites. Quality: Coherent axial anatomy, natural grayscale, continuous scan texture and no conspicuous seams or duplicated structures."
+    },
+    {
+      "blind_id": "case_d91fe3ba04365d8278cb",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Body contour, bowel, both renal outlines, vertebra and canal, muscles, background and corner annotations visually remain unchanged outside the removed foci. Instruction: Both the round central white particle and lobulated white renal particle are absent, with gray tissue occupying their locations; the requested removal is complete. Knowledge: Removing these small white particles while preserving their surrounding tissue matches the supplied explanation. Quality: Anatomical structures are coherent, grayscale and texture are natural, and no visible patch edges or generation artifacts interrupt the scan."
+    },
+    {
+      "blind_id": "case_756362c223da2f64cb1b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Body contour, bowel, renal outlines and muscle positions remain recognizable, but the vertebral body and canal have become a solid white mass, and tissue grain is coarser across the image. Instruction: The lobulated renal white focus is removed, but the round central white particle remains; the expected disappearance of the small white particles is incomplete. Knowledge: The remaining bright particle is a clear omission relative to the supplied explanation. Quality: The large featureless white vertebral region erases internal structure and the canal, producing a conspicuous anatomical and texture flaw; the surrounding scan remains coherent."
+    },
+    {
+      "blind_id": "case_523b2d76740174d16226",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Body outline, bowel layout, renal shapes, muscles and corner annotation layout persist; the dark spinal canal is filled with white material, and tissue texture is visibly coarser. Instruction: The round central and lobulated renal white particles are both removed and replaced by gray tissue, fulfilling the requested change. Knowledge: The target small white particles disappear as the supplied explanation specifies; the unrelated spinal alteration is assessed in consistency and quality. Quality: A solid white bridge fills the expected central opening of the vertebral arch, a clear structural flaw, while the rest of the axial scan has coherent shapes and continuous texture."
+    },
+    {
+      "blind_id": "case_ada45d3ee38aa91061d7",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Body contour, bowel arrangement, renal silhouettes, muscles, vertebral body and dark canal, and annotation positions are preserved; tissue grain and contrast are visibly stronger throughout. Instruction: Both the round central white particle and the lobulated renal white particle disappear into gray tissue, matching complete removal. Knowledge: The result follows the explanation to remove a few small white particles, with surrounding tissue still present. Quality: Coherent anatomy and grayscale, continuous granular CT texture, and no obvious seams, ghosting or structural artifacts."
+    },
+    {
+      "blind_id": "case_c11ff57c6df1d582e595",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Body outline, bowel, vertebra, muscles and annotation placement remain, but the image-left kidney disappears and the image-right enlarged kidney is replaced by a much smaller smooth oval. Instruction: The bright particles vanish, but substantial organs are erased or replaced along with them; this poorly implements removal of only the stones. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: The very smooth oval in the right half has an abrupt, simplified contour and lacks the internal texture of surrounding organs, giving that region an obvious pasted appearance; the remaining axial structures are coherent."
+    }
+  ]
+}

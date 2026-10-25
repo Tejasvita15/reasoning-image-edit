@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b347",
+  "results": [
+    {
+      "blind_id": "case_97cbf4f35496354454d8",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 4,
+      "rationale": "Consistency: The pale background, overhead framing, bowl position and recognizable perimeter clumps remain; the lower bowl rim has a small contour change. Burning powder and fire illumination are excluded. Instruction: The central grey powder becomes dark and supports orange flames. Expected is ignition of this mixture with visible emitted sparks; ignition is clear, but a distinct spark shower is absent, so the request is only partially met. Knowledge: The supplied explanation requires intense light. Bright yellow flame cores and orange reflected light support emission, but the relatively ordinary orange flame gives a slightly weak depiction of that intensity. Quality, judged from this image alone: Bowl geometry and flame placement are coherent, with plausible warm illumination; the unusually squiggly, fibrous surface texture is a small naturalness flaw."
+    },
+    {
+      "blind_id": "case_2db4184801c04c47fdaa",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Pale background, overhead composition, white bowl and prominent perimeter clumps remain recognizable and aligned; the bottom bowl rim has a slight contour change. Ignition, sparks and their illumination are excluded. Instruction: Orange burning patches and bright streaking sparks now emerge from the grey mixture. The expected ignited mixture with visible sparks is present on the correct material. Knowledge: White-yellow light at the sparking sites and luminous flying particles visibly satisfy the supplied statement that the thermite reaction emits intense light. Quality, judged from this image alone: Bowl and granular contents are structurally coherent, but several airborne bright patches have conspicuously rectangular or polygonal shapes, and the diffuse orange patches over the powder look pasted on rather than volumetric."
+    },
+    {
+      "blind_id": "case_c25ba2e335b9d0e3e907",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The white bowl disappears, the pale background becomes black, and the original tabletop composition is replaced by a close view of an isolated reaction; most major non-instruction scene elements are lost. Instruction: A brilliant central reaction and abundant radiating sparks replace the original quiet powder scene. Expected is the original grey mixture ignited with sparks; ignition and sparks are shown, but the original mixture is no longer clearly identifiable as the edited object, giving partial compliance. Knowledge: The saturated white-yellow reaction center and luminous particle trails directly match the supplied explanation that thermite emits intense light. Quality, judged from this image alone: The bright core, dark granular chunks and fine branching spark trajectories form a coherent photographed reaction; strong exposure and motion trails are natural, without a clear structural or texture artifact."
+    },
+    {
+      "blind_id": "case_facb1988eb188711ba58",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The overhead bowl composition remains recognizable, but the bowl outline and lower rim proportions change visibly and the pale surrounding surface is replaced by a dark environment. Fire-induced orange illumination and reacting material are excluded from the comparison. Instruction: The mixture in the bowl gains an intensely glowing reaction patch and numerous outward-flying sparks. These are the expected changes to the correct material, fully satisfying ignition and spark visibility. Knowledge: The brilliant yellow-white patch, luminous sparks and orange illumination visibly accord with the supplied statement that thermite emits intense light. Quality, judged from this image alone: The bowl, granular contents and luminous reaction are coherent with warm reflected light; several sparks have conspicuously regular star-shaped flares, a small stylization that weakens photographic naturalness."
+    }
+  ]
+}

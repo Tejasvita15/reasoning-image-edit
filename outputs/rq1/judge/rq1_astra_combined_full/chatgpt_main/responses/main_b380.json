@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b380",
+  "results": [
+    {
+      "blind_id": "case_341fd04faf1c36c828b7",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The pale curved gallery, low viewpoint and illumination remain, but the wall-panel outlines and positions are visibly redrawn; statue identity, clothing and appendages are excluded as the requested statue change. Instruction: David becomes a clothed winged woman with two complete arms. The expected result is the armless, bare-torso Venus de Milo with draped hips, so the goddess theme alone is achieved and the defining change is missing. Knowledge: The supplied explanation specifies Venus de Milo; wings and intact arms do not depict that statue. Instruction failure ⇒ knowledge invalid. Quality: The figure, feathered wings, folds and lighting are coherent; the hanging fingers have slight fused definition, a small surface-detail flaw."
+    },
+    {
+      "blind_id": "case_ae81a73542c805d41e60",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The cream gallery, curved cornice and upward camera angle are retained, but the background panel geometry and cornice placement visibly change. Changes to the statue itself are excluded. Instruction: The male nude becomes a winged, fully clothed woman with both arms intact, one holding drapery. The expected armless Venus de Milo is not realized beyond a female classical-statue theme. Knowledge: The explanation explicitly calls for Venus de Milo; intact arms, wings and the covered torso miss its defining form. Instruction failure ⇒ knowledge invalid. Quality: The wings, stance, folds and stone illumination are coherent; the hand grasping the drapery has slightly blended finger detail."
+    },
+    {
+      "blind_id": "case_a87d3478bbaee847eb9b",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The curved light-colored gallery and low viewing angle persist, but the wall moldings and panel divisions are visibly rearranged. The changed figure and its sculptural support are within the statue replacement. Instruction: The statue becomes a clothed woman holding a bird-like sculpture, with both arms complete. The expected Venus de Milo has missing arms and drapery around the lower body; the edit achieves only a generic goddess-like statue. Knowledge: The named Venus de Milo in the supplied explanation is not represented by this intact-armed, object-holding figure. Instruction failure ⇒ knowledge invalid. Quality: The standing anatomy, stone surface, folds and setting are coherent; the hand around the central object has slightly merged finger shapes."
+    },
+    {
+      "blind_id": "case_34525f44c6ac14b6a253",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The gallery panels, curved molding, framing and light remain visually unchanged; the statue changes are excluded. Instruction: Cracks and chipped stone appear on the hanging arm and shoulder, while the original male nude and both attached arms remain. The expected result is Venus de Milo, a female statue with missing arms and hip drapery; surface arm damage addresses only a fragment of the request. Knowledge: The supplied explanation identifies Venus de Milo, which this damaged David does not depict. Instruction failure ⇒ knowledge invalid. Quality: The statue has coherent anatomy and believable localized stone chips and fissures; the architectural perspective, textures and lighting are natural, without noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_c9ae4fc137461de9af03",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The gallery panel arrangement, curved cornice, framing and lighting are preserved; the slight overall softness does not change scene content. Instruction: The statue remains a male nude with both arms and its original pose; no requested goddess transformation is visible. The expected Venus de Milo would be a female figure with missing arms and lower-body drapery. Knowledge: The unchanged male statue fails the supplied Venus de Milo explanation. Instruction failure ⇒ knowledge invalid. Quality: Anatomy, marble surface, gallery geometry and lighting are coherent. Moderate softness leaves the content clear and is not penalized; no noticeable artifacts appear."
+    },
+    {
+      "blind_id": "case_6f7d299946b90cb2b0bd",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The cream paneled interior, curved molding, camera framing and illumination remain visually unchanged; alterations within the statue are excluded. Instruction: The hanging forearm acquires cracks and chipped patches, but David remains male and both arms are still attached. The expected armless, partially draped Venus de Milo is missing, so only an arm-damage cue is attempted. Knowledge: The supplied explanation specifically identifies Venus de Milo; cracked stone on David does not establish that identity. Instruction failure ⇒ knowledge invalid. Quality: The anatomy and architectural geometry are coherent, with plausible stone fissures, continuous marble texture and natural lighting; no noticeable generation flaw is visible."
+    }
+  ]
+}

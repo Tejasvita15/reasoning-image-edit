@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b253",
+  "results": [
+    {
+      "blind_id": "case_3bc14b0c38801cb909a0",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 2,
+      "rationale": "Consistency: The frog's face, green body, blue/red hands, jumping marks, eight hand shapes and circular layout remain intact; minor roughening of the frog's contours is visible. Instruction: Six surrounding hands are filled, but upper-left and upper-right remain blank and middle-right is red despite its thumb-right outline requiring blue. Expected thumb-right outlines blue and thumb-left outlines red; this is partial completion. Knowledge: No explanation was supplied; task-implied handedness matching is the basis. The wrong middle-right class and two missing class colors leave multiple logical failures. Quality: Coherent five-digit silhouettes and clear cartoon layout; slight mottled fringing around the frog detracts from otherwise clean fills."
+    },
+    {
+      "blind_id": "case_4662a506aa6b3e5ad531",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Frog identity, face, green body, blue/red hands, surrounding outlines, white background and jumping marks are preserved, with minor roughened contour rendering. Instruction: All eight surrounding hands remain white; the expected blue/red fills according to thumb orientation are entirely absent. Knowledge: No explanation was supplied; the mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: Readable five-digit outlines and coherent frog anatomy/layout, with slight speckled fringing on the frog's edges."
+    },
+    {
+      "blind_id": "case_5f6d94a86695f1230bf0",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Frog face, green body, blue/red reference hands, jumping marks and surrounding hand placement are preserved; minor contour roughening is visible. Instruction: Middle-left receives an incomplete red fill and lower-right becomes blue; six hands remain blank. Thumb-left outlines should be red, so lower-right is also incorrect. Most requested coloring is missing. Knowledge: No explanation was supplied; the mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: Clear hand silhouettes and coherent cartoon composition; the middle-left red fill has a conspicuously uneven boundary across the finger bases."
+    },
+    {
+      "blind_id": "case_38b7bc190354c597c420",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Frog face/body, surrounding outlines, background and motion marks remain unchanged, but both frog hand colors change without authorization: blue to red on viewer-left and red to yellow on viewer-right. Instruction: All surrounding hands remain white; only the central frog hands change, so the requested blue/red coloring of the surrounding outlines is absent. Knowledge: No explanation was supplied; the mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: Coherent cartoon frog and five-digit hand outlines, smooth contained fills and clean white background; no noticeable structural artifacts."
+    },
+    {
+      "blind_id": "case_d415bcb3dc183fbeef56",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Frog face, torso, legs, surrounding hand outlines and jumping marks remain recognizable, but its viewer-left forearm becomes blue and a large blue bent stroke is added above its head. Instruction: Every surrounding hand remains uncolored instead of receiving the corresponding blue/red fill; the changes affect the wrong areas. Knowledge: No explanation was supplied; the mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: The hand outlines and frog remain legible, but a thick disconnected blue stroke touches the eye area and produces a conspicuous stray-mark artifact."
+    },
+    {
+      "blind_id": "case_d00bfbf8a8ed1f7110f7",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Frog face, green body, blue/red hands, motion marks, white background and surrounding hand shapes/positions are visually preserved; surrounding fill colors are the instructed change and excluded. Instruction: All eight surrounding hands are filled, but in purple, orange, yellow, green and cyan instead of the frog's blue/red handedness classes. The requested objects are colored but the defining color rule is poorly implemented. Knowledge: No explanation was supplied; the mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: Smooth contained colors, clear five-digit silhouettes and a coherent cartoon frog/layout without noticeable artifacts."
+    }
+  ]
+}

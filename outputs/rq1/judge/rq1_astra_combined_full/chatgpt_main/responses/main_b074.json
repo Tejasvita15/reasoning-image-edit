@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b074",
+  "results": [
+    {
+      "blind_id": "case_ec0ccede809ef9596e2b",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The framing, horizon, cloud arrangement, distant ice silhouettes and flanking ice walls remain in place; loss of foreground ice and its associated reflections is excluded as the requested change. Instruction: The large central and lower-left floating chunks disappear, leaving open water, but the tall glacier-like walls and background ice remain essentially intact. The expected caption is this landscape with visibly partially melted ice masses; the change conveys ice loss only partially. Knowledge: The explanation expects glaciers to partially melt. Reduced floating ice is compatible with warming, but unchanged dominant ice walls do not clearly demonstrate the specified glacier melting. Quality: Coherent ice shapes, natural lighting and water reflections, and continuous surface textures; no clear structural or generation artifacts."
+    },
+    {
+      "blind_id": "case_0a82f9183ba7fba8f2fe",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Composition, horizon, sky layout, ice-wall outlines and floating-ice positions are retained, but the overall illumination and contrast visibly change, with substantially darker foreground water and deeper wall shadows. Instruction: The same large foreground floes, tall ice walls and extensive distant ice remain; increased contrast does not produce the expected partially melted landscape. No discernible melting modification is present. Knowledge: The supplied expectation of partially melting glaciers is not demonstrated. Instruction failure ⇒ knowledge invalid. Quality: Ice formations and floating chunks are structurally coherent, lighting and reflections agree, and textures are natural without visible generation artifacts."
+    },
+    {
+      "blind_id": "case_0bb8686bdc27c472e640",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The sky, horizon, left and right ice formations, water composition and individual foreground floes remain visually unchanged in structure and placement. Instruction: No meaningful ice loss, recession or reduction is visible; the central chunk and long lower-left floe remain intact. The expected appearance would show partial melting of the ice landscape, which this output does not show. Knowledge: The glaciers do not visibly partially melt as the supplied explanation requires. Instruction failure ⇒ knowledge invalid. Quality: The landscape has coherent ice geometry, plausible reflected light and intact textures; moderate softness creates no semantic ambiguity or noticeable artifact."
+    },
+    {
+      "blind_id": "case_905b2dcd34f4851d71f5",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The scene framing, cloud arrangement, horizon, main ice-wall silhouettes and positions of the prominent foreground floes are preserved; no clear non-instruction content change is apparent. Instruction: The large left and right ice masses and the central and lower-left floating chunks remain intact, with no convincing visible reduction. The expected partially melted appearance is absent. Knowledge: The supplied expectation is partial glacier melting, but the retained ice forms provide no visible evidence of that change. Instruction failure ⇒ knowledge invalid. Quality: Ice contours, spatial layout, shadows and reflections are coherent, with readable surface textures and no clear distracting artifacts."
+    }
+  ]
+}

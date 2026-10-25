@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b021",
+  "results": [
+    {
+      "blind_id": "case_012d2ed8474a572d844c",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Bottle silhouette, stopper, background bands, framing and label wording remain consistent; the label border has a small rounded-shape/thickness change. Instruction: The clear contents become pink throughout the liquid region, matching the expected pink contents after reagent addition; the correct bottle is modified. Knowledge: The visible pink outcome matches the supplied alkaline-to-pink expectation. Quality, assessed from this image alone: Bottle structure and text are coherent and lighting is credible, but the uniformly smooth pink fill has slightly flattened, painted-looking texture."
+    },
+    {
+      "blind_id": "case_333e9fae357c34bb0e1d",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Bottle, stopper, background arrangement and label wording remain recognizable and aligned; the label is visibly redesigned with a thicker pink border and squarer inner panel. Instruction: The originally clear liquid is visibly pink, with a preserved liquid surface and transparent glass, fulfilling the requested color change. Knowledge: Pink contents agree with the supplied alkaline-to-pink explanation. Quality, assessed from this image alone: The bottle and stopper have coherent geometry, readable lettering, natural highlights and transparent liquid depth; no noticeable generation artifact."
+    },
+    {
+      "blind_id": "case_4e0a33e6d5e39ad6d600",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Bottle outline, stopper, background bands and composition are maintained; the label lettering and border are visibly redrawn. Pink reflections around the liquid are excluded as part of the color change. Instruction: Clear contents become vivid pink in the same bottle, matching the expected reagent-induced pink color. Knowledge: The pink liquid matches the supplied alkaline-to-pink expectation; reflected pink on the surrounding glass is physically coherent. Quality, assessed from this image alone: Glass shape, liquid level and reflections are coherent; label letter edges have a small uneven, softened distortion."
+    },
+    {
+      "blind_id": "case_b1ae493d0c6ced0d57bb",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Stopper, bottle silhouette, label wording and outline, framing and background remain visually unchanged; liquid color and its colored reflections are the instructed edit. Instruction: The correct contents change from clear to dark burgundy-red, but the expected result is pink; the color-change idea is present with an incorrect hue. Knowledge: Dark red rather than pink is one clear conflict with the supplied alkaline-to-pink explanation. Quality, assessed from this image alone: The dark transparent liquid, glass highlights, readable label and bottle geometry look coherent and natural, without noticeable artifacts."
+    }
+  ]
+}

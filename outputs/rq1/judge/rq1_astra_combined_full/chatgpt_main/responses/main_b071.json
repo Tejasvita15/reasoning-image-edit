@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b071",
+  "results": [
+    {
+      "blind_id": "case_2ab6359122ed00f5c8d0",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The white background, pink palette and bold cartoon outlines remain, but the unrequested right paper hand is visibly redrawn, with a lower, inward thumb and different finger spacing/scale. The requested left gesture change is excluded. Instruction: The left closed fist becomes a five-digit spread palm; the expected result is paper against the existing paper, and both hands now clearly show that gesture. Knowledge: The explanation is blank; task-implied game logic directly supports a tie because both visible gestures are paper. Quality: Structure, cartoon shading, contours and textures are coherent; both hands have readable five-digit anatomy and the meeting thumbs have a clear boundary, with no noticeable artifact."
+    },
+    {
+      "blind_id": "case_1c442b2bc5590c46cd18",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The white background and outlined illustration style remain, but the left hand changes from pink skin to cream paper/glove-like material, while the right hand is redrawn with changed proportions, placement and palm shading. Instruction: The fist becomes an open hand-shaped form, but its rectangular sheet-like palm makes this a partial replacement rather than a faithful opening of the existing hand. Expected is the original hand showing an open paper gesture opposite the right paper gesture. Knowledge: No explanation was supplied; the two visibly spread five-digit forms support the task-implied paper-paper tie despite the material alteration. Quality: The right hand and flat shading are coherent, but the left has an unnatural rectangular palm and an abrupt horizontal seam separating palm from finger bases; these are clear structural flaws."
+    },
+    {
+      "blind_id": "case_9e0fd8f02dcda2040cde",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white field, pink colors and thick outlines remain. Outside the allowed left gesture change, the right hand is visibly reshaped, especially the thumb/palm highlight and finger spacing. Instruction: Several curled finger divisions disappear into a flat-topped block, but the left hand remains closed and does not become the expected spread paper palm matching the right hand; most of the required change is missing. Knowledge: The explanation is blank and the mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: The right open hand, shading and outlines are coherent, but the left hand has a conspicuous featureless rectangular finger block instead of anatomically readable digits."
+    },
+    {
+      "blind_id": "case_702675e3807e6a3def08",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: White background, pink fills and black cartoon contours persist; the unrequested right hand has changed shape/scale, including its shorter outer finger and altered palm proportions. The left gesture itself is excluded from consistency. Instruction: The left fist gains an extended side digit but retains curled fingers, rather than opening into the expected paper gesture. It does not match the right spread hand, so most of the requested change is missing. Knowledge: The explanation is blank; mandatory instruction-failure coupling is the scoring basis. Instruction failure ⇒ knowledge invalid. Quality: The right hand and flat highlights are coherent, but the left has an extra thumb-like side extension in addition to the crossing front digit and an awkward broken/overlapping contour at the upper curled finger."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b111",
+  "results": [
+    {
+      "blind_id": "case_9fc0ea6b52d67b458b22",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": 3,
+      "rationale": "Consistency: seated position and rightward tail remain recognizable, but snow is replaced by tall grass, the building gains clearer altered windows, and sky/background texture changes extensively. Fur changes are excluded. Instruction: white fur becomes a dark, mottled gray-brown coat; the expected summer edit is gray fur, so the color change is only partially achieved. Knowledge: the supplied gray-fur expectation is incompletely met by the conspicuously mixed brown and gray coat. Quality alone: the animal silhouette is coherent, but dense multicolored shard-like marks corrupt fur, sky, and building surfaces, producing multiple distracting texture defects."
+    },
+    {
+      "blind_id": "case_2a2d78538b368f566a6b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the building, snow, framing, seated orientation and tail direction are retained; eye appearance, muzzle shape and ear geometry are noticeably altered beyond coat change. Instruction: the coat becomes shorter and tan-brown with white cheeks/chest, whereas the expected summer result is gray fur; this is a partial seasonal-coat edit. Knowledge: tan-brown rather than gray fur is a clear mismatch with the supplied explanation. Quality alone: coherent seated anatomy, well-defined paws and tail, natural depth of field and continuous fur texture show no noticeable generation defects."
+    },
+    {
+      "blind_id": "case_6db410f6dfb43aced760",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: building and general snowy setting remain, but the muzzle and ears are reshaped and the front paws are repositioned, with an additional visible hind paw. Coat thinning is excluded. Instruction: fur looks somewhat less bulky but stays overwhelmingly white/cream instead of becoming gray; most of the required summer color change is missing. Knowledge: the supplied gray-fur outcome is absent. Instruction failure ⇒ knowledge invalid. Quality alone: anatomy, lighting and fur are coherent, with a small unnatural blue-gray rim along the upper tail edge."
+    },
+    {
+      "blind_id": "case_5c3b832a86dd54df3b87",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: snow, background building, seated orientation and overall placement are retained, but the eyes/muzzle and ear shapes change noticeably, and the visible paw arrangement shifts. Fur color and density are excluded. Instruction: white fur becomes a shorter brown coat with white cheek and chest markings; the expected gray summer coat is only partially addressed. Knowledge: the visibly brown coat conflicts with the explanation that fur should turn gray. Quality alone: the animal has coherent proportions and paw placement, continuous detailed fur, plausible light and an unobtrusive blurred background without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_8874f60109b887f35144",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the seated animal and rightward tail retain the broad arrangement, but snow becomes grass and the building, sky and field acquire strongly altered texture and detail. Instruction: fur changes from white to a dark rusty-brown coat; a seasonal color change is present, but the expected gray result is missing. Knowledge: brown rather than gray is a clear conflict with the supplied explanation. Quality alone: the fox remains identifiable with coherent broad anatomy, but dense colored streaks and clumps deform fur detail and contaminate the sky, building and grass, creating multiple distracting surface artifacts."
+    },
+    {
+      "blind_id": "case_bfb5d3ba11f6ce5f9f6d",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: face, ears, seated pose, paws, rightward tail, building and snow layout are retained; a visible overall color/lighting shift cools the left sky and increases background contrast. Fur appearance is excluded. Instruction: the coat remains thick and white with slight cream shading; no meaningful gray summer-coat transformation is shown. Knowledge: the supplied expectation that fur turn gray is unmet. Instruction failure ⇒ knowledge invalid. Quality alone: coherent fox anatomy, fine continuous fur, natural snow contact and depth of field show no noticeable artifacts."
+    }
+  ]
+}

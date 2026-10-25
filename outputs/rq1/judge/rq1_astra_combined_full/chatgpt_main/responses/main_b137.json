@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b137",
+  "results": [
+    {
+      "blind_id": "case_400aef125de2f85b163e",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the overall car interior remains recognizable, but mirror framing/reflection, dashboard vent and console details, and seat framing have changed; small floating fragments are added beside the pendant. Instruction: the circular pendant stays directly beneath its attachment on a vertical cord, with changed surface reflections but no acceleration-induced deflection; the expected change is a rear-right tilt, so the request is not fulfilled. Knowledge: no rear-right tilt appears, contrary to the supplied explanation. Instruction failure ⇒ knowledge invalid. Quality: coherent car lighting and surfaces, but several isolated floating fragments beside the otherwise intact hanging ornament are a clear artifact."
+    },
+    {
+      "blind_id": "case_6be2d14402193676657a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the cabin layout is recognizable, but mirror mount/reflection, console controls, passenger door trim, and seat framing change noticeably. Instruction: the original round pendant is replaced by a long brown hanging form and a separate ball-like form projecting up-left from the knot. A single intact pendant should deflect rear-right; this replacement and malformed branching do not fulfill the change. Knowledge: the leftward ball and extra dangling form do not express the supplied rear-right tilt. Instruction failure ⇒ knowledge invalid. Quality: the branching suspension, bulbous side object, and stretched lower object have multiple distracting structural and material ambiguities, despite coherent cabin lighting."
+    },
+    {
+      "blind_id": "case_96b3e5eb6013e896e5d8",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: mirror and its reflection, roof, windshield scenery, pillar, side mirror, dashboard, door and seat retain their positions and visible designs; the changed pendant and cord are excluded. Instruction: the pendant is slightly higher and motion-blurred, but its center and suspension remain almost vertically below the mount. An acceleration response should show a discernible rear-right deflection, so blur alone leaves the principal change missing. Knowledge: the required rear-right tilt is absent. Instruction failure ⇒ knowledge invalid. Quality: the cabin is coherent and the blurred metallic ornament remains recognizable; a small smeared discontinuity at the lower cord-to-ring connection weakens an otherwise natural motion depiction."
+    },
+    {
+      "blind_id": "case_0908add411a3a036983e",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the car scene is retained, but the mirror outline/reflection, windshield dot pattern, vent/console details, and visible seat area are altered. Instruction: the round pendant moves to the right of its mount and the cord bends with repeated traces; the expected result is an intact pendant suspended at a rear-right tilt. Rightward movement addresses the main idea, but the deeply bowed upper cord and near-vertical knot position make the tilt incomplete. Knowledge: the supplied explanation calls for rear-right deflection; the rightward bob agrees partly, while the S-shaped slack suspension conflicts with a weight pulling a tensioned cord during acceleration. Quality: lighting and cabin perspective are coherent, but the suspended object's multiply traced, kinked cord is a clear structural/ghosting flaw; moderate overall softness is not penalized."
+    }
+  ]
+}

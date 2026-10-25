@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b131",
+  "results": [
+    {
+      "blind_id": "case_e22978d345ed1ea0ab18",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pale neutral backdrop is retained, but the second shoe that should remain is also entirely absent, a clear additional object deletion. Instruction: Both shoes have disappeared; the expected result is exactly one remaining shoe. Removal is performed but exceeds the requested count, giving partial compliance. Quality, judged on this image alone: structure, lighting, smooth backdrop texture and absence of artifacts are satisfactory; the empty background has no visible structural defect."
+    },
+    {
+      "blind_id": "case_0b39082a78b68ed9907b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The remaining black lace-up shoe has moved from the left to the center and turned to face more directly forward; its highlight pattern and the direction/extent of its floor shadow also change. The neutral background is retained. Instruction: Two shoes become one black lace-up shoe, with no residual second shoe, meeting the requested removal. Quality alone: coherent shoe outline, lacing, stitched seams and sole; plausible glossy reflections and contact shadow; no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_e100d5e22715848a5014",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The neutral background remains, but the shoe that should have been retained is deleted as well; this is one clear extra object change beyond removing one shoe. Instruction: The visible difference is removal of both shoes. A compliant image would contain one shoe, so the removal concept is present but the requested quantity is wrong. Quality alone: the empty pale studio-like surface is coherent and smoothly shaded, with no visible corruption, structural defects or unnatural texture."
+    },
+    {
+      "blind_id": "case_5b33b3f720ec3e2a7d4a",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The right shoe retains its location, orientation, laces, outline and floor shadow, and the distant background remains pale. Its leather surface and toe highlights are visibly roughened and changed, a clear non-requested alteration. Instruction: The left shoe is removed and one right shoe remains as expected, but a conspicuous pale shoe-shaped patch and residual shading occupy the removed area, making removal slightly incomplete. Quality alone: the shoe is structurally coherent, but the large angular pale patch at left and its abrupt tonal boundary make the surface and shadow logic visibly unnatural; shoe seams and laces remain readable."
+    },
+    {
+      "blind_id": "case_a99b6f16b0b30e55a3b4",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The retained shoe is recentered and rotated into a frontal view; its lacing, polished highlight pattern and silhouette are redrawn, and the floor shadow is relocated. The pale neutral setting remains. Instruction: Only one black lace-up dress shoe is visible instead of two, with the second completely absent, fulfilling the requested count change. Quality alone: the shoe has coherent laces, opening, stitched panels and sole, natural glossy shading and a plausible supporting shadow, without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_27f038004b3d38860761",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Neither upright lace-up shoe is preserved: the principal object becomes an elongated flattened slipper-like form positioned diagonally across the center; laces, openings, shoe silhouettes, leather details and shadows change substantially. Instruction: Two shoes become one footwear-like object, but removing one shoe should leave the other intact; the severe transformation of the remaining footwear means the request is poorly implemented. Quality alone: the black upper is collapsed into an odd folded shell, while an elongated exposed footbed joins it with implausible proportions and construction. These distracting structural errors outweigh the otherwise smooth background and plausible broad shadow."
+    }
+  ]
+}

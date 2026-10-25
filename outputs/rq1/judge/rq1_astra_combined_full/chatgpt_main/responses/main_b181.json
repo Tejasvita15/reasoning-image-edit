@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b181",
+  "results": [
+    {
+      "blind_id": "case_f6c323af0ebe317818b3",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Park layout, trees and railings remain recognizable, but the squirrel's forelegs are raised from the ground and its face/muzzle and tail contour are reshaped; these changes were not required merely to add food. Instruction: A plate of mixed nuts and other food is added and the squirrel holds a morsel; the expected squirrel food is visibly present, fully satisfying the addition. Knowledge: The recognizable nuts on the plate match the supplied explanation that squirrels eat nuts. Quality: Anatomy, plate perspective, lighting and fur are coherent; a few food pieces have slightly blended, indistinct textures, a small localized imperfection."
+    },
+    {
+      "blind_id": "case_81f07c2147c1a326d2e2",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Trees, railing and overall composition are retained, but both forelegs change into a raised holding pose and the face and tail fur are visibly redrawn. Instruction: A plate of nuts and cone-like food plus a held cone is added; this meets the expected image with squirrel food present. Knowledge: Nuts and pine-cone forms directly match the foods named in the supplied explanation. Quality: Squirrel anatomy, ground contact, plate and lighting are coherent; the pale central cone has slightly fused, unnatural-looking scale textures, a minor localized issue."
+    },
+    {
+      "blind_id": "case_47421b6fef672195e4fd",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The squirrel's stance, face placement, tail silhouette and park layout are retained, but fur across the animal and the gravel/background textures are visibly reworked into coarse, patterned detail. Instruction: A brown nut with a pale exposed end is added immediately in front of the squirrel; the expected addition of a nut is fulfilled. Knowledge: A nut beside a squirrel agrees with the supplied nut-food explanation. Quality: Anatomy and object placement are coherent, but conspicuously mottled, squiggly texture on the squirrel and crunchy gravel detail create clear processing artifacts."
+    },
+    {
+      "blind_id": "case_43263314465c254ee436",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The frontal stance and broad park composition remain, but the squirrel's face/eyes, tail texture and background foliage/rail details are substantially redrawn. Instruction: Large piles of purple bean-like seeds and yellow corn kernels are added; food is present, but the expected recognizable squirrel-favorite nuts or cones are not clearly established, so compliance is partial. Knowledge: The supplied explanation calls for nuts such as walnuts or peanuts or pine cones; the dominant smooth purple bean-like objects do not clearly depict that expected food category, a noticeable mismatch. Quality: The animal, food piles and perspective are structurally coherent with consistent lighting; the purple food surfaces are slightly too uniformly smooth and waxy, a minor naturalness issue."
+    }
+  ]
+}

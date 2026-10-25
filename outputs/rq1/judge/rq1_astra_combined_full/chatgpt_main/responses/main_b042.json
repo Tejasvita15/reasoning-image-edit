@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b042",
+  "results": [
+    {
+      "blind_id": "case_1d8f0a0162832a407be3",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The tropical background, smiling pose and white hat remain recognizable, but the eyes/beard contours, hat weave and label, and exposed shirt pattern and placket are visibly redrawn. The garland and its occlusion are excluded. Instruction: A long flower strand has been added over both shoulders and down the chest; the expected neck-worn Hawaiian flower garland is present, so compliance is complete. Knowledge: Pink, yellow and white blossoms form a supported lei around the neck, matching the supplied multicolored-lei explanation. Quality: Anatomy, lighting and overall arrangement are coherent; a small area of white petals and green stems on the left chest blends into tangled shapes, giving a minor texture flaw."
+    },
+    {
+      "blind_id": "case_fa32b990cf68db89e6e6",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Most major non-requested details are changed: the face and beard are reshaped, the torso becomes frontal and smaller in frame, the shirt neckline/pattern and sleeves change, the hat shape and emblem change, and palm/background positions are recomposed. Instruction: A continuous flower loop now surrounds the neck and hangs on the chest, fully realizing the requested Hawaiian garland. Knowledge: Red, purple and yellow flowers visibly form a multicolored lei, exactly the supplied expectation, with plausible neck support and drape. Quality: The portrait has coherent anatomy and clothing, a clear connected flower loop, natural lighting and depth, and no noticeable structural or texture artifacts."
+    },
+    {
+      "blind_id": "case_b1c9c2c775d22e26eb97",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The general pose, palms and hat are retained, but facial details including eyes and beard, the hat label/weave, and shirt pattern, placket and left sleeve outline are altered beyond the flower addition. Instruction: Flowers and foliage have been added around the neck and along both sides of the chest, matching the expected Hawaiian garland placement completely. Knowledge: The white, pink, orange and yellow blossoms make the explicitly expected multicolored lei and hang plausibly from the shoulders. Quality: Face, body and lighting are coherent; some small white floral pieces on the left upper chest merge into indistinct fringes, a minor local texture defect."
+    },
+    {
+      "blind_id": "case_ce3dfe3c730f5784d708",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Background palm arrangement and broad pose are preserved, while the exposed shirt motif/placket, facial contours and beard texture, and hat weave/label are visibly modified. Requested flower coverage is excluded. Instruction: The new floral strand wraps behind the neck and falls down both sides of the chest, satisfying the expected neck-worn Hawaiian welcome garland. Knowledge: Yellow, pink and white flowers clearly supply the multicolored lei specified by the explanation, with plausible support and hanging direction. Quality: The portrait is structurally coherent with convincing daylight; tangled white petal and stem shapes along the left side of the garland create a small texture-blending imperfection."
+    },
+    {
+      "blind_id": "case_4b5f876b0dbecf8ce577",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The subject is reframed and turned more frontally; facial proportions and beard, shirt cut/pattern, hat shape/emblem, and background palm positions all change, covering most major non-instruction details. Instruction: A complete dense flower loop is added around the neck and onto the chest, exactly the required garland placement. Knowledge: Yellow, magenta, red and white flowers form the supplied expectation of a multicolored lei, with a credible closed hanging loop. Quality: Anatomy, flower arrangement, lighting and garment folds are coherent; the white emblem on the hat band is a small malformed scribble-like detail."
+    },
+    {
+      "blind_id": "case_2a7b0c01ac9030a4bbdd",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Most major details are regenerated: facial proportions and smile, hair/beard, torso angle and framing, shirt neckline and print, hat shape/logo, and background palm geometry differ from the source. Instruction: A new connected floral loop rests around the neck and over the chest, fully matching the expected Hawaiian welcome garland. Knowledge: Bright yellow and magenta flowers with green foliage clearly make the multicolored lei required by the explanation, and its weight and drape are plausible. Quality: The face and torso are anatomically coherent, flower and leaf shapes remain readable, fabric and hat have credible textures, and lighting and depth are natural without noticeable generation defects."
+    }
+  ]
+}

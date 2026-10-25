@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b337",
+  "results": [
+    {
+      "blind_id": "case_258e9c31e755d3c6e80d",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and large circular outline layout remain, but a second green circle is added and the outer outline is visibly bluer; relocation is excluded. Instruction: The edit produces two overlapping green circles side by side, rather than moving the original green circle to share the large circle’s center; no coincident centers result. Knowledge: The explanation requires coincident green and other-circle centers, which the separated centers contradict. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the closed outlines, clean intersections, uniform fills, and smooth strokes form a coherent diagram without visible artifacts."
+    },
+    {
+      "blind_id": "case_11b48f74e884dc107901",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background, pale outer circle, and green ring are retained, but an unrequested small green center marker is added. Instruction: A marker appears inside the green circle while that circle remains far to the right of the outer circle’s center; the expected concentric arrangement is absent. Knowledge: Marking a center does not make it coincide with the outer center as the explanation requires. Instruction failure ⇒ knowledge invalid. Quality: The diagram is legible with closed shapes and a clean background, but the outer stroke has slight unevenness and mottling."
+    },
+    {
+      "blind_id": "case_6ca0e445add2e52f668a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The background and two-ring structure remain, but the outer ring changes from pale lavender to saturated blue-violet and the green ring becomes larger; positional changes are excluded. Instruction: The green ring moves upward but remains conspicuously right of the outer center, so the requested concentric circles are not achieved. Knowledge: The visibly separated centers contradict the supplied coincidence explanation. Instruction failure ⇒ knowledge invalid. Quality: The two closed circles are clear and coherent, with a small defect in the outer stroke’s uneven color and texture."
+    },
+    {
+      "blind_id": "case_6447c6c7cd3c3af2df9d",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "Consistency: The white background, pale outer outline, and green color remain, but the green circle is noticeably reduced in diameter, which alignment did not request. Instruction: The green circle moves from the right toward the large circle’s center, nearly making the circles concentric, but its center remains slightly above and left of the outer center. Knowledge: The explanation requires exact coincidence; the small remaining offset is a minor geometric deviation. Quality: Viewed independently, the clean closed rings, consistent linework, and plain background are coherent and free of noticeable artifacts."
+    },
+    {
+      "blind_id": "case_a04df7aece4422b4e63e",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The pale outer circle and white background remain visually consistent, but an additional green circle changes the original two-circle diagram into three circles. Instruction: The original offset configuration becomes two overlapping green rings side by side; neither green center coincides with the large circle’s center as required. Knowledge: Side-by-side overlap does not satisfy the supplied center-coincidence explanation. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the smooth outlines, clear overlaps, and clean white field form a coherent diagram; moderate softness does not obscure the geometry."
+    },
+    {
+      "blind_id": "case_f2b413d135ba2029d369",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and pale outer ring remain, but an extra green circle is introduced and the green rings are substantially smaller than the original green circle. Instruction: The edit creates two small overlapping green circles with distinct centers instead of making the original two circles concentric. Knowledge: None of the visible green centers coincides with the outer center, contrary to the explanation. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the closed rings and clean intersections are structurally coherent, with smooth strokes and no distracting artifacts."
+    }
+  ]
+}

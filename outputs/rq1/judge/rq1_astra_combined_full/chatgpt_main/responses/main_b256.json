@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b256",
+  "results": [
+    {
+      "blind_id": "case_9cf227b831831825edd2",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and red-label/black-cap bottle identity remain, but the original level row is replaced by a deep fan with a disproportionately large central bottle; label lettering and neck/body geometry also change. The requested bottle-count change itself is excluded. Instruction: Six source bottles become a crowded group with ten discernible capped necks. The expected result is exactly seven Coke bottles; increasing the quantity addresses the direction but substantially misses the required count, so compliance has a major omission. Quality, assessed from this edit alone: structural coherence and artifact-free checks fail because several rear necks fragment or merge and right-hand logos become tangled black strokes; small label text is corrupted. White-background lighting and brown plastic surfaces are otherwise plausible. Knowledge is not applicable."
+    },
+    {
+      "blind_id": "case_d5150d4686d29360814d",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white backdrop, black caps, brown drink and red branding remain. Beyond the allowed count change, the level row becomes a fan with substantially unequal bottle sizes, and label lettering is redrawn. Instruction: The source's six bottles become eight distinct capped bottles. Exactly seven Coke bottles are expected; the product and quantity-increase idea are present, but the numerical requirement is wrong, giving partial compliance. Quality, assessed from this edit alone: bottle silhouettes, cap structure, overlap, highlights and plastic textures are coherent; the small printed line on the central label has slightly malformed characters. No major ghosting or structural break is visible. Knowledge is not applicable."
+    },
+    {
+      "blind_id": "case_b7a9a9814c137c7d148e",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white setting and recognizable red-labelled, black-capped bottles persist. Non-requested changes include a staggered arrangement with a larger foreground bottle, darker liquid with broad white reflections, and added ground shadows. Instruction: Bottle appearance and arrangement change, but six capped bottles are still visible, the same count as the source. The expected image has exactly seven Coke bottles; the requested count modification is absent, so this is non-compliance. Quality, assessed from this edit alone: bottle shapes, overlaps, lighting, shadows and glossy surfaces are coherent. Small label lettering is mildly malformed, but the principal branding and objects remain readable, with no major structural artifacts. Knowledge is not applicable."
+    },
+    {
+      "blind_id": "case_87ced34265e8de21eab8",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, black caps, amber-brown liquid and red labels remain. Excluding the requested count change, the group is enlarged toward the frame edges, bottle overlaps and relative positions change, and label details are altered. Instruction: Six source bottles become a group with ten discernible cap/neck positions, including partially hidden rear bottles. The expected result is exactly seven Coke bottles; the count increases but overshoots substantially, so the required quantity is poorly implemented. Quality, assessed from this edit alone: most bottle bodies and plastic highlights are coherent, but a rear cap/neck near the right is visibly ghosted and the crowded lower central bottle boundaries fuse. These are noticeable artifacts; moderate softness alone is not penalized. Knowledge is not applicable."
+    }
+  ]
+}

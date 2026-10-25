@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b248",
+  "results": [
+    {
+      "blind_id": "case_82ee6205e4702f91b304",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray foreground cup, cream rear cup and white tabletop remain identifiable in the same arrangement, but ceramic gloss/highlights and surface texture are noticeably changed, with a new dark scuff on the gray body and altered tabletop shadows. Handle correction is excluded. Instruction: The surfaces are polished, but the cream handle still extends sideways through the gray handle rather than forming a usable independent handle. A corrected image should show sensible handles attached to their own cups; the central unreasonable structure remains, so the requested correction is not fulfilled. Quality: Structure is problematic because the cream handle forms an anomalous horizontal connection across the neighboring mug. Lighting and perspective are plausible, and ceramic textures are mostly clean; this is a clear semantic flaw."
+    },
+    {
+      "blind_id": "case_aea5b4fde28139e68f56",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The two cup colors, left/right arrangement and plain background persist, but the gray body loses its granular surface texture and both cups shift upward with altered body contours and highlights. Requested handle repairs are excluded. Instruction: The rendering is smoother and the dark handle is rounded, but the cream handle remains a horizontal loop interlinked with the dark handle. The expected correction is independently usable cup handles; the unreasonable connection is still present, so the instruction is not fulfilled. Quality: Lighting, elliptical openings and smooth ceramic surfaces are coherent. Structural coherence is problematic at the cream handle, which runs horizontally into the adjacent handle instead of presenting a normal usable loop; this is a noticeable semantic problem."
+    },
+    {
+      "blind_id": "case_b6d9054a25af9140fbe8",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The plain light setting and gray/cream identities remain, but the gray mug moves to the right, the cream mug moves to the left, and the viewpoint and shadows change. These are conspicuous changes outside correcting the handles. Instruction: The scene is reversed and the handles are reshaped, but a horizontal cream connection still crosses through the dark handle. A successful correction would provide coherent independent handles on the cups; that central defect remains, so the instruction is not fulfilled. Quality: Ceramic bodies, rims, textures and soft shadows look natural. The cream handle appears to bridge into the gray mug while intersecting its handle, creating a clear structural/semantic flaw; no other major rendering artifacts are visible."
+    },
+    {
+      "blind_id": "case_bd11014ff747550f1f4a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray foreground and cream rear mugs, their colors and white setting remain. Excluding the instructed handle reconstruction, the gray cup shifts left and its body contour changes, while surface texture and highlights on both bodies are smoothed. Instruction: The horizontal cream connection is removed, a complete cream loop is attached to the right side of its own cup, and the gray loop is reconstructed as a separate usable handle. The expected image has physically coherent independent handles; this edit fully supplies that correction. Quality: Structural coherence, naturalness, artifact absence and texture fidelity are satisfactory. Both mugs have coherent elliptical rims, intact loop handles and smooth ceramic surfaces, with plausible contact shadows and lighting."
+    }
+  ]
+}

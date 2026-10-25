@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b365",
+  "results": [
+    {
+      "blind_id": "case_a6a0da958c55890132ef",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The board and laboratory setting remain recognizable, but the microscope shape, glass proportions and bubble-filled water have changed; most bubbles disappear. Instruction: A long wooden implement now extends into the water, as a pencil should, but its broad blunt shaft and unusually long black lower section make pencil identity imperfect. Knowledge: The explanation requires an apparent refractive break; the shaft remains essentially aligned across the waterline, with only a small surface distortion. Quality: Lighting and glass texture are coherent, but the implement has an awkward blunt, paddle-like black end that is a noticeable object-shape flaw."
+    },
+    {
+      "blind_id": "case_3bff7f1a6eb6667ea403",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The glass shape, water level and bubbles, countertop, board and blurred microscope remain visibly unchanged outside the inserted pencil. Instruction: A yellow pencil with eraser and sharpened end has been added diagonally through the water surface, fulfilling the requested insertion. Knowledge: The underwater shaft is visibly displaced from the above-water section at the surface, producing the apparent break expected from refraction. Quality: Glass, lighting and perspective are coherent; the sharpened lower tip has an indistinct graphite end, a small local imperfection."
+    },
+    {
+      "blind_id": "case_c7dec7f84d637ac9c732",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The glass, bubbles, water level, tabletop, green board and microscope retain their visible shapes and placement outside the added pencil. Instruction: A recognizable yellow pencil is inserted eraser-first into the water, with its sharpened point above the rim, fully satisfying insertion. Knowledge: The shaft continues on essentially the same line through the water surface rather than showing the explained apparent break. Quality: The scene has natural lighting and coherent glass, but the submerged blue fitting and white eraser have conspicuously irregular, mottled and merged contours."
+    },
+    {
+      "blind_id": "case_df256875e1eb7ef2b0d8",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The board, microscope, counter, glass outline, water level and existing bubbles remain visibly preserved outside the pencil addition. Instruction: A yellow pencil is visibly inserted into the water; its submerged end incongruously combines a metal eraser fitting with a sharpened point, a minor pencil-detail error. Knowledge: The shaft stays essentially straight and aligned through the waterline, missing the expected refractive break. Quality: The glass and surroundings are coherent, but the pencil has a malformed pointed eraser assembly and a thin yellow protrusion at the glass rim, two visible object artifacts."
+    },
+    {
+      "blind_id": "case_61042ca7799453733070",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The glass and water level, bubbles, laboratory background and countertop remain visually preserved outside the inserted object. Instruction: A recognizable pencil now sits diagonally in the water, although its doubled pointed ends and anomalous shaft sections slightly compromise the specified object's correctness. Knowledge: The shaft remains aligned where it enters the water; the expected apparent refractive break at the surface is not convincingly depicted. Quality: Lighting and glass are coherent, but the pencil has an abrupt metallic-looking seam low on its shaft and an awkward black pointed lower end, producing noticeable structural artifacts."
+    },
+    {
+      "blind_id": "case_2095d54a2fe77965dfda",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "Consistency: The background remains a laboratory, but the microscope and board framing change, the glass proportions are altered and the original distribution of small bubbles disappears. Instruction: A large wooden pencil is clearly inserted diagonally into the glass of water, satisfying the requested action. Knowledge: The shaft has little convincing displacement at the waterline, while conspicuous free-standing splash-like ribbons appear below the water surface; these violate both the expected refractive break and liquid continuity. Quality: The lighting and wooden texture are coherent, but the submerged transparent ribbons and distorted lower pencil/contact region create two conspicuous semantic and shape artifacts."
+    }
+  ]
+}

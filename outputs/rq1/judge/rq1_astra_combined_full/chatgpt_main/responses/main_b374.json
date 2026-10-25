@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b374",
+  "results": [
+    {
+      "blind_id": "case_8fa1761126cf4da8b0bf",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Black wide legs, elastic waist and three-part branding placement remain, but the white drawstring is reshaped into a loop and both circular and AGG lettering are replaced with distorted marks; requested setting, placement and wind shading are excluded. Instruction: The blank backdrop becomes a blue gradient sky and sunlit skate ramp, with the product prominent on the left and flowing fabric shadows. The expected lower-left product advertisement is largely present, but upper-right text is unrelated gibberish in yellow and white instead of white, yellow-outlined 'Just Breathe.'; partial compliance. Quality: Structure and fabric texture are coherent, with plausible ramp perspective and directional shadow. The nonsensical headline and malformed garment lettering are two clear semantic flaws."
+    },
+    {
+      "blind_id": "case_6326a4b15a58ba5959d3",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The broad black silhouette, crossed long white drawstrings, elastic waist, AGG text and rectangular patch remain recognizable; lettering within the circular logo visibly changes. Requested backdrop and shadow changes are excluded. Instruction: A blue sky, sunny outdoor sports surface and white 'Just Breathe.' appear. A complete edit would locate the product in the lower-left third, show skatepark features and slight wind shading, and outline the lively text in pale yellow. Here the garment remains centered, cloth detail is nearly blacked out, and yellow is an underline rather than an outline; partial compliance. Quality: The headline and garment outline are coherent, and background perspective is plausible. Severe loss of fabric detail in the nearly solid-black garment and malformed small logo letters are noticeable flaws."
+    },
+    {
+      "blind_id": "case_2da4b32183d8ceda20d8",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Black fabric and an elastic waistband remain, but the long crossed drawstrings become short separated strings, the circular/AGG branding is redesigned, and the rectangular patch disappears. Setting, positioning and wind-related drape are excluded. Instruction: A sunny skatepark with blue gradient sky, leftward product focus and wind-shaped folds is added. The expected white 'Just Breathe.' with pale-yellow outline in the upper right is absent, replaced by unrelated yellow and white text; the overall concept is only partially fulfilled. Quality: Fabric folds and the garment outline are coherent, but the large nonsensical lettering, malformed garment emblem/text and bent, irregularly connected background rail geometry create multiple distracting errors."
+    },
+    {
+      "blind_id": "case_43e9e19cdb6c14615e67",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Black wide-leg construction, gathered waistband, long crossed white strings, pockets, AGG lettering and white rectangular patch remain. The circular logo's small lettering is slightly malformed; requested wind folds and new setting are excluded. Instruction: Blue gradient sky, sunlit sports ground, fabric shading and the exact white upper-right 'Just Breathe.' are present. A complete edit would place the pants in the lower-left third of a clearly identifiable skatepark and give the type a light-yellow outline. The pants are centered, the background reads as a fenced sports court, and the yellow accent is an underline; partial compliance. Quality: Garment structure, seams and fabric folds are coherent, the headline is legible, and ground perspective and directional shadow are plausible. Slight distortion in the small circular-logo lettering is a minor artifact."
+    }
+  ]
+}

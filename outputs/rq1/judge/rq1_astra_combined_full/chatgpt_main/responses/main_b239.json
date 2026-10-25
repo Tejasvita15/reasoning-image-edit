@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b239",
+  "results": [
+    {
+      "blind_id": "case_f73129bbee8b223228b1",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The beach layout, horizon, and approximate visitor positions remain, but the detached rocks on the left disappear, the wave field is redrawn, and visitors change pose. The arch transformation itself is excluded. Instruction: The solid stack becomes a rugged rock bridge with a fully open passage at sea level, precisely depicting the requested natural sea arch. Knowledge: The supplied expectation is a rock archway opening to the sea; visible ocean and surf through the opening, weathered walls, and substantial supporting legs satisfy it. Quality: Rock structure, lighting, and water are coherent, with a minor blurred blending of the small right-hand visitors; rock and vegetation textures otherwise read naturally."
+    },
+    {
+      "blind_id": "case_140c8b7f7155711b94de",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The sky, horizon, sandy foreground, and approximate visitor locations remain recognizable. Detached shoreline rocks are removed, the ocean becomes much calmer, and visitor shapes change, beyond the allowed arch modification. Instruction: The formerly solid stack is opened into a large irregular sea-level arch with weathered rock sides, fully meeting the requested transformation. Knowledge: Ocean visibly continues through the rock opening, matching the supplied rock-archway-to-sea explanation; broad eroded supports are physically plausible. Quality: The arch, shadows, vegetation, and water are coherent and natural. A small smeared silhouette at the left foreground visitor is a minor local imperfection."
+    },
+    {
+      "blind_id": "case_d5e39dfbfa164de2bc6a",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding the requested reshaping of the stack and its corresponding reflection, the pale sky, horizon, detached shoreline rocks, surf outside the opening, beach, and visitor positions and appearances remain visually consistent. Instruction: The solid stack is changed into an irregular natural rock arch with a clear sea-level passage and exposed layered rock, fully satisfying the request. Knowledge: The sea and surf visible through the arch directly match the supplied expectation of a rock archway opening to the sea; its substantial rock supports and weathered layers are plausible. Quality: The continuous rock structure, layered texture, shaded underside, surf, reflections, and small human figures are coherent with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_374981cfca60ef6ac668",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The horizon, beach composition, scattered side rocks, and visitor locations are retained. Outside the instructed arch change, the sky gains distinct cloud bands, the scene lighting becomes markedly more contrasty, and the offshore wave pattern changes. Instruction: The solid stack becomes a weathered rock arch with an irregular opening extending to the sea, fully realizing the requested geological form. Knowledge: Ocean and breaking surf pass visibly through the rock opening, satisfying the supplied explanation; a continuous rock roof with substantial side supports is plausible. Quality: The arch silhouette, shadows, water, and reflections are coherent. The upper rock surface has a slightly harsh granular texture, a minor naturalness issue; there are no clear structural failures."
+    }
+  ]
+}

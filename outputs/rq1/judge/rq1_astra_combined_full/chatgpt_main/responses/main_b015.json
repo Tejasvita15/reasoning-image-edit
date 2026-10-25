@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b015",
+  "results": [
+    {
+      "blind_id": "case_4370b94a6d6cf0d09dbb",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The three shirt identities, red trousers, center trousers, and shoe-row layout remain recognizable, but the lower-center shoes change from black to predominantly white and conspicuous mottling changes clothing and background surfaces throughout. Instruction: The target cell still contains a question mark; the expected white trousers are absent, so the requested completion is not performed. Knowledge: The supplied row-category/column-color rule requires white trousers in the middle-right cell; none are shown. Instruction failure ⇒ knowledge invalid. Quality, evaluated on this image alone: Garments and shoes remain identifiable with coherent silhouettes, but widespread colored speckling and rough, uneven panel outlines are clear visual artifacts."
+    },
+    {
+      "blind_id": "case_92f2fb0bfe27121004c8",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Shirt identities and colors, the photographed person in red trousers, center black trousers, and all three shoe pairs are preserved. The panel layout is visibly stretched vertically toward the top and bottom edges, changing the original exterior margins and row proportions. Instruction: The question mark is replaced with a recognizable pair of trousers in the correct middle-right cell; the expected trousers should be white, while these are black, so the shape/category is completed but the required color is wrong. Knowledge: The supplied rule places trousers in this row and white objects in this column; the trousers satisfy the category but directly violate the column color. Quality, evaluated on this image alone: Coherent garment shapes, credible fabric folds, clean white backgrounds, readable object silhouettes, and orderly panel boundaries show no noticeable generation defects."
+    },
+    {
+      "blind_id": "case_434416396ffd0525e786",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The shirts, red-trouser photograph, center black trousers, and three shoe photographs retain their content and arrangement. The overall panel layout extends vertically toward the exterior edges, changing margins and row proportions. Instruction: The target question mark is redrawn with a different typeface and a smaller white backing, but no trousers are drawn; the required result is white trousers in that cell, so the request is unfulfilled. Knowledge: The explanation requires matching the trousers row and white column, whereas the target remains a punctuation symbol. Instruction failure ⇒ knowledge invalid. Quality, evaluated on this image alone: The clothing and footwear photographs are structurally coherent, panel boundaries are orderly, and the large question mark is crisp and legible; no noticeable visual artifacts warrant a deduction."
+    },
+    {
+      "blind_id": "case_0eab265b643cea4c91eb",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: All three shirts, the red-trouser photograph, center black trousers, and all three shoe pairs retain their colors, shapes, and relative placement. The outer panel outlines have slight new waviness, especially along the top boundary, a small non-instructed alteration. Instruction: The middle-right cell still shows the question mark and contains no white trousers; the requested replacement is absent. Knowledge: The supplied category/color rule calls for white trousers, which are not present. Instruction failure ⇒ knowledge invalid. Quality, evaluated on this image alone: The garments and shoes are coherent with natural photographic shading and clear textures; slight unevenness in the thin outer panel outlines is a minor imperfection."
+    }
+  ]
+}

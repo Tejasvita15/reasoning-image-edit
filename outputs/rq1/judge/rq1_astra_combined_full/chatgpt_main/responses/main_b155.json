@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b155",
+  "results": [
+    {
+      "blind_id": "case_f5d0c3a840e6b29e94b5",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The glass-bowl arrangement, jar, corn and wooden tabletop remain recognizable, but scattered kernels move, the spoon loses its painted bowl motif, and the corn shapes and framing change. Instruction: An amber stream now strikes the powder and leaves a brown trail; the expected addition of iodine is clearly depicted, though a continuous pour rather than a few drips is shown. Knowledge: The supplied explanation expects blue cornstarch at contact; the contacted powder stays brown/yellow with no blue reaction, ignoring that outcome. Quality: Bowl, corn and powder are coherent, but the liquid trail appears to jump from the powder to the outer glass and hang there without a convincing path over the rim, a clear integration flaw."
+    },
+    {
+      "blind_id": "case_c4d3c4d6b60137b43a33",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The jar, two bowls, corn and wooden setting persist, but the spoon shape and decoration, individual scattered kernels, corn contours and bowl framing are visibly changed. Instruction: The white powder now has numerous localized blue trails and soaked patches, showing the requested liquid application to the same pile; a visible dispenser is not necessary for the completed action. Knowledge: The blue patches at apparent liquid-contact sites directly match the supplied explanation that iodine turns cornstarch blue. Quality: The glass contours and reflections, granular powder, spoon, corn and wood are coherent, with natural lighting and no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_38c724f8595966963432",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Jar, corn, scattered kernels, tabletop and decorated spoon retain their positions and appearance; the bowl rim has a slight contour shift. Instruction: A golden liquid stream and broad glossy coating are added onto the powder. Liquid contact is present, but the thick syrup-like sheet and continuous pour only partially depict dripping iodine solution. Knowledge: Contacted powder remains white under amber liquid rather than turning blue as the explanation requires; the specified chemical outcome is absent. Quality: Objects, lighting and granular powder are coherent; the glossy coating has a slightly flattened, cutout-like lower edge that weakens texture integration."
+    },
+    {
+      "blind_id": "case_7eac87a8bcf0095a0e59",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The jar, corn, wood, scattered kernels and painted spoon remain in place with their recognizable details; the glass rim contour is subtly altered. Instruction: Two pale golden beads appear on the powder. They convey deposited drops, but the nearly clear, isolated globules lack a convincing iodine stain or wetted contact region, making the requested solution addition partial. Knowledge: Neither contact area becomes blue; the white powder and pale beads omit the blue reaction required by the supplied explanation. Quality: Background, bowl and powder are coherent and naturally lit, but the large rounded bead on the steep powder face looks pasted on, with an unconvincing contact boundary and little support from the surface."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b132",
+  "results": [
+    {
+      "blind_id": "case_599cd389710005e0bad4",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pale studio background and black leather style remain, but the surviving shoe is centered and straightened, its lace arrangement and highlights change, and its cast shadow is relocated. The removal itself is excluded. Instruction: Two shoes become one complete shoe; the expected result is exactly one remaining shoe, so the requested removal is complete. Quality, edited image only: Structure, natural lighting, clean edges and leather texture are satisfactory; the shoe and contact shadow are coherent without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_e7c3778e04c795386bce",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pale background and polished black shoe style remain. The surviving shoe moves to the center with a different orientation; its vamp reflections, laces and shadow shape change beyond the removal. Instruction: One complete shoe remains where there were two, matching the expected one-shoe result. Quality, edited image only: The sole, upper, opening and laces are structurally coherent, with natural highlights and grounding shadows and no visible generation defects."
+    },
+    {
+      "blind_id": "case_0b7000fe5bdf22530f36",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pale surface remains, but the additional shoe that should have been retained is also removed; this is a clear non-requested object loss. Instruction: Both shoes disappear. The expected result is one remaining shoe, so object removal occurs but the requested quantity is wrong, giving partial compliance. Quality, edited image only: This is a coherent empty pale surface with smooth tonal shading, no object fragments or visibly corrupted texture; absence of a subject is not itself a quality defect."
+    },
+    {
+      "blind_id": "case_6b1cba978e1c1e3768a5",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Both shoe positions, the pale background and overall lighting remain recognizable, but stitching, lace contours and leather texture on both shoes visibly change, especially the right vamp and left facing. Instruction: Both shoes remain; the expected result is only one shoe, so no requested removal occurs. Quality, edited image only: Shoe anatomy and shadows are coherent and edges are clean, but the leather highlights have slight smeared, mottled texture around the vamp and lace facings; otherwise the image is natural."
+    },
+    {
+      "blind_id": "case_c3f693801a72090a26f4",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pale background and right-shoe design remain, but the surviving shoe is shifted toward the center, its angle and proportions change, and the leather highlights and cast shadow are reshaped. Removal of the other shoe is excluded. Instruction: The pair becomes one complete shoe, precisely meeting the requested one-shoe removal. Quality, edited image only: The opening, laces, seams and sole form a coherent shoe; leather reflections and the rightward shadow look natural, with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_03b40c0611e400447978",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The black leather shoe style and pale studio ground persist, but the surviving shoe is reoriented into a broad side view, substantially changing composition, visible side panels, highlights and shadow. Instruction: Exactly one complete shoe remains instead of two, fulfilling the removal; its unrelated repositioning is assessed under consistency. Quality, edited image only: The upper, heel, sole and lacing are well formed, with credible leather sheen, clear stitching and a grounded cast shadow; no visible distortion or blending defect."
+    }
+  ]
+}

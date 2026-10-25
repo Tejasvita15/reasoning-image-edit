@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b141",
+  "results": [
+    {
+      "blind_id": "case_e0b1313870036fbd2f24",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The loose cap remains left of the diagonal marker, but the cap is shifted and reshaped, the marker now fits fully inside the frame, its grip/printing are lost, and the chisel nib becomes rounded; UV-related color and lighting changes are excluded. Instruction: The bright scene becomes a dark blue-violet exposure with conspicuous marker fluorescence, clearly depicting the requested UV-light treatment. Knowledge: The explanation requires the pink highlighter to glow orange; its conspicuous white-violet glow is a clear color mismatch. Quality, assessed alone: Coherent marker/cap arrangement and light spill, but the mottled cloudy body has a visibly melted, irregular surface and lacks convincing molded-plastic structure."
+    },
+    {
+      "blind_id": "case_cd628a2a9510c2ceed9a",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Marker outline, grip ribs, black printing, chisel-tip geometry, cap clip/opening, positions, crop and tabletop remain unchanged; illumination and glow are excluded as the requested change. Instruction: The scene dims and the nib emits a white light with a cyan halo; a UV-exposed fluorescent highlighter is expected, but this isolated flashlight-like tip effect only partially communicates UV exposure. Knowledge: The supplied explanation expects orange emission from the pink highlighter, whereas the visible emission is white/cyan, a clear mismatch. Quality, assessed alone: The marker and cap have coherent geometry, clean surfaces and plausible shadows; the luminous tip and surrounding blue spill are smoothly integrated without visible generation artifacts."
+    },
+    {
+      "blind_id": "case_350cde6f3020ea036a5b",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The cap, clip, marker shape, ribs, nib, printing, placement, crop and tabletop structure are preserved; the attempted fluorescent color/lighting transformation is excluded. Instruction: Pink plastic and tip become bright lime green while the scene remains ordinarily illuminated. Expected UV exposure is poorly established: this reads primarily as a color replacement with little visible UV lighting, a major omission. Knowledge: The explanation calls for orange glow, which is absent. Instruction failure ⇒ knowledge invalid. Quality, assessed alone: Coherent highlighter and separate cap, continuous molded ribs and smooth plastic, natural tabletop shadows and reflections, with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_293bb208ec44839e6c27",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The same cap-left/marker-right arrangement remains, but the cap has moved upward and left, the nib and neck have changed proportions, and the grip/printed markings differ. These structural and placement changes are separate from the allowed blue-violet illumination. Instruction: The bright original scene is convincingly bathed in strong blue UV-style illumination with purple fluorescent surfaces, fulfilling the requested exposure. Knowledge: The supplied explanation requires the pink highlighter to glow orange; it instead remains purple-magenta without orange emission, a clear conflict. Quality, assessed alone: Marker and cap geometry, molded ribs, tabletop texture, perspective and soft shadows are coherent; the saturated blue lighting is consistent across the scene without noticeable artifacts."
+    }
+  ]
+}

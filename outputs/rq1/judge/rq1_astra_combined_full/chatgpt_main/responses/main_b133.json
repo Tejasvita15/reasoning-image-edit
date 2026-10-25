@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b133",
+  "results": [
+    {
+      "blind_id": "case_2e7480698b5a9649016e",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The shoe design, tan lining, orientation, overlap, framing, leather sheen and shadows all change; only the general pale studio setting remains. Instruction: Two shoes remain, now angled together. The expected result is a single shoe with the other removed, so no shoe removal is accomplished. Quality: Structure, perspective, lighting and leather textures are coherent, with clean stitching and no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_e57ce1ffc35321fed668",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The shoes are smaller and repositioned into an overlapping side view; toe construction, lining color, surface highlights and shadows change substantially. Instruction: The output still contains two shoes. Removing one should leave exactly one, so the requested change is absent. Quality: Both shoes have plausible shapes, laces, seams, leather texture and contact shadows; no noticeable visual flaws."
+    },
+    {
+      "blind_id": "case_facc20b464917aed2273",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pale background remains, but the shoe that should have been retained is also removed, a clear non-requested object change. Instruction: Both shoes disappear, leaving an empty surface. A correct edit would leave one shoe; removal is achieved but the requested number is wrong. Quality: The edited image alone is a coherent empty pale surface with smooth tonal variation and no visible seams, ghost objects or other artifacts."
+    },
+    {
+      "blind_id": "case_9e13d5611871c1cabca4",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The retained right shoe stays in its original general position and orientation, with its laces and seams recognizable, but its leather highlights and texture are visibly redrawn. Instruction: The left shoe is removed and the right shoe remains, matching the expected single-shoe result. Quality: The shoe has a coherent structure, but a large pale, shoe-shaped patch with a visible curved boundary and unnatural shading disrupts the surface on the left; this is a clear compositing artifact."
+    },
+    {
+      "blind_id": "case_2f5a5dedf42aba2b1460",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The neutral studio surface is preserved, but the remaining shoe is removed as well as the requested shoe. Instruction: The two-shoe scene becomes an empty background. The expected result contains one shoe, so the removal operation is only partially compliant because both were erased. Quality: Viewed independently, the empty surface has natural smooth shading and no noticeable structural or texture artifacts."
+    },
+    {
+      "blind_id": "case_18c2d1616d5ed3035199",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The light background remains visually consistent, but neither shoe is retained; the additional removal is one clear unintended object change. Instruction: Both shoes are gone rather than just one. The expected edited scene would retain a single shoe, so the requested removal count is incorrect. Quality: The image alone shows an internally coherent blank studio surface with gentle illumination and no obvious ghosting, seams or corrupted textures."
+    }
+  ]
+}

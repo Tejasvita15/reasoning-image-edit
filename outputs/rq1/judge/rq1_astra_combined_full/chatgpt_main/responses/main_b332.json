@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b332",
+  "results": [
+    {
+      "blind_id": "case_4cb7f6338326da149d98",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The room layout and left window strip remain, but berry branches are rearranged and much denser, wall texture changes, and tabletop grain is redrawn; vase changes are excluded. Instruction: The rough round vase becomes a narrow-necked glossy black vase with a Chinese dragon motif; the expected Chinese-style vessel is clearly achieved. Knowledge: The supplied explanation expects blue-and-white porcelain, whereas the visible vessel is black with metallic pale/gold decoration, a clear palette/material-appearance conflict. Quality, edited image alone: Coherent vessel, rim, stems and tabletop; convincing glossy highlights, contact shadow and surface textures, with no noticeable structural artifact."
+    },
+    {
+      "blind_id": "case_5d7add947ebc07437064",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Branch and berry arrangement, window strip, wall division and overall lighting remain consistent; the visible tabletop grain is noticeably redrawn into different ridges. The changed vase shape and finish are excluded. Instruction: The brown rough vessel becomes a rounded white porcelain vase with blue floral scrollwork and ornamental neck and foot bands, fully achieving a Chinese-style vase. Knowledge: The visible blue decoration on white porcelain directly matches the supplied blue-and-white expectation. Quality, edited image alone: Coherent rim, rounded body and foot, plausible inserted stems, natural directional light and contact shadow, and legible decorative textures without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_5a5eb5ddf178ffc73020",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The branches, berry positions, wall/window composition and light direction remain consistent; tabletop wood grain has a visibly changed ridged pattern. Requested vessel changes are excluded. Instruction: The plain earthen vase becomes a white glazed vessel with blue flower-and-vine ornament and patterned neck and base, clearly fulfilling the Chinese-style modification. Knowledge: Blue motifs on white porcelain match the explicit explanation with no visible contradiction. Quality, edited image alone: The vase has coherent rounded geometry, an elliptical opening and stable foot; lighting, shadows, stems and ceramic ornament appear natural and artifact-free."
+    },
+    {
+      "blind_id": "case_2b4665e78d4e35c0f0b5",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The broad room composition and window strip remain, but the berry arrangement is denser and redistributed, wall texture is altered and wood-grain lines are redrawn. Vase shape and surface changes are excluded. Instruction: The original plain vessel becomes a tall-necked white vase with dark landscape/pine decoration and ornamental bands, visibly achieving a Chinese-style vase. Knowledge: The explanation specifically expects blue-and-white porcelain; the decoration and bands visibly read black rather than blue, one clear conflict with that expectation. Quality, edited image alone: Coherent neck, flared rim, body and foot, plausible branch insertion and stable table contact; natural side lighting and ceramic shading with no noticeable generation artifact."
+    }
+  ]
+}

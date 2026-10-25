@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b199",
+  "results": [
+    {
+      "blind_id": "case_75312e17571b8db7cfba",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background is replaced by a dense dark checkered and yellow ornamental pattern; triangle edges are obscured, several surrounding numbers change (including the first 1 to 8, second 2 to 1, third 3 to 8), and the second bottom 3 becomes a question mark. Most major non-target details are altered. Instruction: No 17 is filled at the right-hand question mark; a question mark remains there, so the requested completion is absent. Knowledge: The supplied rule requires 7+3+7=17 from the preceding triangle, which is not shown. Instruction failure ⇒ knowledge invalid. Quality: Multiple distracting pattern overlays obscure connecting lines and central labels, and cropped blue circles and repeated bright motifs intrude at the edges; some numerals remain legible but the diagram is visually degraded."
+    },
+    {
+      "blind_id": "case_c96882c3178ec46b48a0",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The four blue-node triangles, surrounding numerals, center labels 10/11/14, gray connecting lines, and white background retain their appearance and relative arrangement at the displayed scale. Instruction: The rightmost center still shows a question mark; the expected replacement by 17 is absent. Knowledge: The explanation requires the preceding triangle sum 7+3+7=17; no answer is supplied. Instruction failure ⇒ knowledge invalid. Quality: The diagram has clean circular nodes, legible numerals and punctuation, orderly spacing, coherent thin connectors, and a clean white field; mild softness creates no ambiguity."
+    },
+    {
+      "blind_id": "case_48855999039e72813fdd",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Numerals, blue circles, gray connectors, white background and horizontal layout are retained; a small vertical expansion of the triangle arrangement moves upper nodes slightly upward and lower nodes slightly downward. Instruction: The rightmost question mark is unchanged rather than filled with 17, so the requested modification is absent. Knowledge: The supplied preceding-triangle rule gives 7+3+7=17, which is not displayed. Instruction failure ⇒ knowledge invalid. Quality: The standalone diagram is coherent, with readable black labels, smooth circular nodes, clean connectors and uncluttered white space; softness does not impair interpretation."
+    },
+    {
+      "blind_id": "case_f4eaa6ecc8e828b6dd8a",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The four triangles, node numbers, 10/11/14 center labels, gray connectors and relative layout are retained; fine mottling and edge fringing affect the blue-node rendering. Instruction: The right-hand question mark remains with no 17 inserted, leaving the requested edit undone. Knowledge: The provided explanation requires 17 from 7+3+7 in the previous triangle, and that completion is absent. Instruction failure ⇒ knowledge invalid. Quality: Labels and triangle structures are readable and coherent, but fine speckling and colored edge noise on the blue circles are a small visible rendering imperfection."
+    }
+  ]
+}

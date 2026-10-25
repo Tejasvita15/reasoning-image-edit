@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b302",
+  "results": [
+    {
+      "blind_id": "case_bad864afc1b5f38445fb",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and all existing circle color assignments remain, but the grid is slightly narrowed and vertically stretched, with shifted row boundaries and lower circle positions; these are multiple non-requested spatial changes. Instruction: The question mark remains and no shape has been inserted; the expected change is a blue circle replacing it, so the instruction is unfulfilled. Knowledge: The explanation requires a blue circle, which is absent. Instruction failure ⇒ knowledge invalid. Quality, assessed on this image alone: The symbols and five-by-five layout are coherent and clear, with clean flat fills; slightly wavering grid strokes are a minor imperfection."
+    },
+    {
+      "blind_id": "case_da287921824b7a1846a2",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The grid, background, and other existing circles are preserved except the first circle of the second row, which changes from red to blue, one clear unrelated change. Instruction: A large blue circle replaces the question mark in the correct cell; the expected blue circle is present, but its diameter is conspicuously larger than the pattern's existing circles, a minor mismatch in the requested completion. Knowledge: The supplied explanation requires a blue circle, and the inserted shape satisfies that color-and-shape requirement fully. Quality, assessed on this image alone: The grid is orderly and symbols distinct with solid fills; the large top-left circle has a mildly uneven contour, a small rendering imperfection."
+    },
+    {
+      "blind_id": "case_8475468a8a261d4e63d2",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: All circle color identities and the white background are retained, but the grid's proportions and row-line positions change and circles in the lower rows shift down with them; multiple non-instruction spatial details differ. Instruction: The top-left question mark is still visible without a replacement shape; a blue circle should occupy that cell, so the requested modification is absent. Knowledge: No blue-circle completion is present despite the explicit explanation. Instruction failure ⇒ knowledge invalid. Quality, assessed independently: The five-by-five diagram and colored circles are readable and coherent, with flat uncorrupted fills; mildly wavy grid strokes constitute a small imperfection."
+    },
+    {
+      "blind_id": "case_127d0ecf0468f280439f",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The background, grid boundaries and remaining circles are consistent, but the second-row first-column red circle has become blue, one clear unrequested alteration. Instruction: The question mark becomes a blue circle inside the intended top-left cell; the color, shape and location are correct, although the new circle is substantially larger than the other pattern symbols. Knowledge: The explanation specifies a blue circle; that logical answer is visibly supplied, satisfying the stated knowledge expectation. Quality, judged only from this edited image: The layout is coherent, colored shapes are legible and flat fills are intact; slight lumpiness around the large top-left circle is a minor contour flaw."
+    },
+    {
+      "blind_id": "case_df46137506c073c003f5",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The arrangement of color identities and white background remains, but the grid is slightly stretched vertically and narrowed, and the lower circle centers move down along with changed row boundaries; more than one spatial element differs. Instruction: There is still a question mark in the target cell, with no added circle; the expected blue-circle replacement is entirely missing. Knowledge: The supplied explanation's blue circle is not shown in the answer cell. Instruction failure ⇒ knowledge invalid. Quality, considered alone: The circles and question mark are easily identifiable in a coherent five-by-five grid, and fills are clean; slightly irregular grid-line straightness is a minor defect."
+    },
+    {
+      "blind_id": "case_0eacdcc4c40edf0f5926",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Outside the intended top-left replacement, the grid, white background, and all existing circles retain their positions, colors and shapes. Instruction: The question mark is replaced by a large lime-green circle in the correct cell; the expected answer is a blue circle matching the pattern, so filling the correct box achieves the main action but the required color is wrong and the symbol is oversized. Knowledge: The explicit explanation calls for blue; the green answer is one clear conflict with that expectation. Quality, assessed only on the edited image: The grid is straight and coherent, circles have clear intact contours and solid fills, and the larger top-left symbol fits cleanly inside its cell without overlaps or rendering artifacts."
+    }
+  ]
+}

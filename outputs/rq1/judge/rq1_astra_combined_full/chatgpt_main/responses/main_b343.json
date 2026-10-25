@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b343",
+  "results": [
+    {
+      "blind_id": "case_36393eb05cd12e1894dd",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: face, swept hair, outstretched arms, blue tank, red trouser folds, blue shoes and striped airborne board remain unchanged; the requested background and graphic additions are excluded. Instruction: the white backdrop becomes a blue gradient with speed streaks, lightning, skyline, bold yellow top title and readable bottom call-to-action, with the original skater airborne centrally. This closely matches the expected sports poster, but separate skateboard-part decorations are absent. Quality: coherent anatomy, clothing and board textures, clean skyline and readable copy; the tightly packed title is partly crowded by the hair, a small layout imperfection."
+    },
+    {
+      "blind_id": "case_c0687fbe72def6ff7330",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: blue tank, red trousers and blue footwear remain recognizable, but hair silhouette, face details, hand poses, leg arrangement and the board's shape, orientation and stripe have changed noticeably. Instruction: blue/cyan motion graphics and an edge skyline turn the image into an energetic airborne-skater poster with yellow lettering. The expected meaningful top title and bottom call-to-action are replaced by nonsensical text, and clear lightning icons and separate skateboard parts are missing, giving partial compliance. Quality: the large text is semantically garbled, the board hardware forms bent hooklike shapes, and shoe contours are smeared; these are multiple distracting errors despite the coherent overall composition."
+    },
+    {
+      "blind_id": "case_957d50934f13032c9ca0",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the face, hair, arm and leg pose, tank-top folds, red trousers, shoes and black board with pink stripe match the original; requested graphics and background are excluded. Instruction: blue gradient, light streaks, lightning and skyline surround the original airborne skater, and large yellow lettering sits at the top. The expected readable motivational title is instead garbled, the bottom call-to-action is absent, and no clear separate skateboard parts are supplied; the poster concept is only partly fulfilled. Quality: anatomy, fabric and board are structurally coherent, with clean graphic effects; the headline and small lettering contain conspicuous malformed/nonsensical words, a clear semantic flaw."
+    },
+    {
+      "blind_id": "case_bb0ed8fc415d95d0c774",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: the broad blue-top/red-trouser palette persists, but the face, tall spiked hair, muscular arms, hand shapes, bent-leg pose, shoe construction and horizontal unstriped board differ noticeably from the source. Instruction: an airborne skater, blue gradient, vivid motion strokes and skyline deliver the sports-poster concept. The expected bold yellow title at the top is absent, the lettering below is nonsensical rather than a call-to-action, and recognizable lightning icons and separate board parts are missing. Quality: text across several lines is garbled, the extended fingers are fused or elongated, and skateboard truck/wheel forms are tangled; multiple structural and semantic flaws distract from otherwise clear color and layout."
+    }
+  ]
+}

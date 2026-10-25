@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b097",
+  "results": [
+    {
+      "blind_id": "case_830dcc14f5ec610de86f",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The warm blurred background, rocky setting and framing remain recognizable; exposed foreground rock texture and ridges are visibly redrawn. Adult body, limbs and loss of tail are excluded as requested changes. Instruction: The dark tailed tadpole becomes a fully formed, tailless green frog with developed legs, matching the expected grown animal completely. Knowledge: The supplied explanation says tadpoles grow into frogs; the visible adult frog fulfills that biological outcome. Quality: Coherent crouched anatomy, distinct eyes and toes, natural contact shadows and detailed skin; no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_08d34cdbc810a2f05856",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The background is replaced by strongly defined dark crevices and rocks, foreground terrain is rebuilt, and the scene framing changes substantially; most surrounding scene details are different. Instruction: A frog-like head and developed legs appear, but the animal retains a very long tail and elongated larval body, so the requested grown frog is only partially realized. Knowledge: The explanation requires a frog; the conspicuous retained tail conflicts with the adult outcome. Quality: Multiple overlapping or duplicated-looking forelimbs and merged, irregular toes make the anatomy structurally confused despite detailed glossy skin and plausible ground lighting."
+    },
+    {
+      "blind_id": "case_8794e86807393988d4c6",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The golden background, rock layout and close framing are retained, but the exposed rocky surface and its texture are visibly altered; growth-related anatomy is excluded. Instruction: The tadpole becomes a compact brown spotted frog with prominent eyes and folded legs, with its long swimming tail removed, fully depicting the grown animal. Knowledge: A mature frog matches the supplied tadpole-to-frog explanation. Quality: The body and eyes are coherent and lit consistently, but the nearest forefoot has an angular tangled toe shape and the rear foot appears as an oddly flattened pointed appendage, producing noticeable anatomical artifacts."
+    },
+    {
+      "blind_id": "case_2f15305910a8660dc7b8",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The warm background blur and recognizable foreground rock formation remain, while local exposed rock details and surface texture are visibly redrawn. Changes to the creature required for growth are excluded. Instruction: The tailed black tadpole becomes a complete green frog with adult limbs, bulging eyes and no tail, precisely matching the requested grown form. Knowledge: The visible tailless adult frog follows the supplied explanation that tadpoles grow into frogs. Quality: The overall anatomy, skin texture, lighting and grounded pose are coherent; a small pale toe-like shape beneath the belly blends awkwardly into the near forefoot, a minor local imperfection."
+    }
+  ]
+}

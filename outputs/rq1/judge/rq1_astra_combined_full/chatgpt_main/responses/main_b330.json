@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b330",
+  "results": [
+    {
+      "blind_id": "case_c5ac25112754ce8bd232",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The circular silver shank, small inner-bottom hallmark, shoulder diamonds, central seam and low pronged main-stone setting remain unchanged; background, lighting and typography are requested changes. Instruction: The white backdrop becomes textured fabric and text is added, but the expected upright upper-central ring over softly shaded off-white/icy-gray velvet with a bottom silver serif uppercase title is only partially achieved: the large ring occupies nearly the full height, the dark sans-serif title sits inside it, and MOUNTAINS is misspelled. Quality alone: Structure, lighting and fabric texture are coherent and the ring is cleanly rendered; the visibly malformed word in the otherwise legible caption is a noticeable semantic flaw."
+    },
+    {
+      "blind_id": "case_5e274ef0e8b5b4049f0e",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The main diamond becomes a tall tapered stone instead of the low round setting, its supporting basket is replaced by a narrow neck, and the shank/shoulder construction changes with the inner hallmark absent. These are non-requested jewelry-design changes. Instruction: The composition gains an upright centered ring, gray-white background, shadow and bottom uppercase lettering. A fully compliant result would retain the ring on white velvet with gentle upper-right light and the exact pale-silver serif sentence; here the surface is smooth, light comes from upper left, the shadow extends sideways and the bottom sentence is extensively garbled. Partial compliance. Quality alone: The ring silhouette and scene perspective are coherent, but the main stone has harsh fragmented black-white facets and multiple lines of malformed, unreadable lettering distract substantially; background texture is smooth and consistent."
+    },
+    {
+      "blind_id": "case_678454076851f0777534",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The silver circular shank, inner hallmark, center shoulder seam, pave arrangement and low pronged diamond setting are retained; the brighter illumination and new background/text are explicitly requested. Instruction: The background becomes pale icy gray with upper-right glow and the requested sentence is inserted. The expected white velvet display with an upper-central upright ring and bottom pale uppercase serif title is only partly realized: velvet texture is absent, the oversized ring spans most of the height, and dark lettering sits inside it with Love in mixed-case script. The soft shadow and restrained reflection are present. Quality alone: Structural coherence, natural lighting, clean edges and smooth material rendering are satisfactory; the decorative caption is legible and there are no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_d174969dc7f0ef750b6d",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The low side-view main diamond is replaced by a much larger front-facing round stone with a different prong arrangement; the band becomes a narrower double-contour loop with extended outer diamond shoulders, and the hallmark is lost. Instruction: An upright centered ring, textured white-gray fabric, lower shadow and bottom title are added. The expected gentle upper-right illumination, soft ring shadow and exact light-silver uppercase serif sentence are incomplete: light enters from upper left, the shadow projects right, fabric is conspicuous, and the black title and smaller line are badly corrupted. Partial compliance. Quality alone: The outer diamond shoulders terminate as dangling strips beside the shank, the gemstone facets look fragmented, and the text contains malformed words and compressed illegible characters. These multiple distracting errors reduce structural and semantic coherence despite a readable overall ring silhouette."
+    }
+  ]
+}

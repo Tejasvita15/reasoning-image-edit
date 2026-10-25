@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b090",
+  "results": [
+    {
+      "blind_id": "case_cd028f525633f5628f3f",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white pointed pump remains recognizable, but its opening is reshaped with a pronounced brown rim, the heel becomes thicker and straighter, and the sole trim is heavier; requested poster/background changes are excluded. Instruction: The image adds prominent white footwear, gold glitter, a gray-to-white background and soft illumination, as expected for the advertisement, but both the required title and slogan are replaced by garbled wording. This is partial compliance. Quality: Shoe structure, lighting and surface shading are coherent, but multiple prominent lines of malformed, nonsensical typography materially degrade the poster."
+    },
+    {
+      "blind_id": "case_e1a6727bf8e4ff3494d0",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pointed toe, curved opening, side seam, slim heel, brown sole edge and glossy highlights remain visually unchanged; the added background, ornaments and typography are requested changes. Instruction: Gold floral outlines and glitter frame the prominent white pump on a softly lit gray-white gradient, with the correct title and slogan. The title uses mixed-case script instead of bold uppercase lettering and lacks a clear shadow, a minor styling omission. Quality: Structure, legible lettering, lighting, decorative spacing and smooth material textures are coherent, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_409a7ae54938fe4ec32c",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white pointed pump and brown outsole remain, but the opening becomes a narrow doubled lip, the heel stem/base changes, and the upper silhouette and side seam are redrawn. These shoe-detail changes are outside the requested poster treatment. Instruction: The edit provides a prominent white heel, gold fine lines and floating ornaments, soft light and a pale gray-white background, but neither required phrase is reproduced; the title and lower copy contain unrelated malformed text. The advertisement concept is only partially fulfilled. Quality: The shoe and decorative lines are generally coherent with smooth shading, but malformed headline characters and multiple garbled copy lines are distracting typography failures."
+    },
+    {
+      "blind_id": "case_6a86663280613a47f6cd",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The shoe's pointed toe, opening, side seam, thin heel, brown outsole and highlight pattern are preserved. The surrounding gradient, glitter, floral linework and text are allowed additions. Instruction: The edit creates the requested luxury poster with a prominent white pump, gold ornaments, gray-white gradient, soft light and both correct phrases. The gold title is mixed-case script rather than bold uppercase and has no distinct shadow, a minor styling omission. Quality: Main lettering and footwear are structurally coherent, with natural shading and intact textures. The small footer appears as crowded, indistinct pseudo-copy, a minor local imperfection in an otherwise clean layout."
+    },
+    {
+      "blind_id": "case_dbc5a11f9661aadfe2a4",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The original pointed toe, curved opening, side seam, thin heel, sole edge and highlights remain intact; the floral decorations, sparkles, text and new background are within the requested changes. Instruction: A prominent white pump, gray-white gradient, soft light, gold glitter and fine floral lines are present. However, the title reads approximately 'Grace in tho stops' in mixed-case script, and the slogan is replaced by garbled wording, so the specified advertisement copy is not delivered. Quality: Footwear structure, lighting and surfaces are coherent, but the erroneous title wording and malformed two-line slogan create multiple distracting semantic and typography defects."
+    },
+    {
+      "blind_id": "case_dd69ed10a503837c5f27",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pointed white upper, toe profile, curved opening, diagonal seam, slim heel, brown sole trim and highlights are visually preserved; requested decorative and background changes are excluded. Instruction: The shoe is prominent on a softly lit pale gradient with gold glitter and floral/fine-line accents, and the correct title and slogan appear. The title is mixed-case script rather than bold gold uppercase with a visible shadow, a minor styling shortfall. Quality: Main typography, shoe geometry, shadows and glossy texture are coherent. The very small footer forms a dense band of indistinct pseudo-copy, a localized imperfection; no other clear structural artifacts are visible."
+    }
+  ]
+}

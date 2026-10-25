@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b120",
+  "results": [
+    {
+      "blind_id": "case_2f4c0f6ea695f723624e",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The red/yellow shirt, black hair, blue background and shelves retain their general identities, but the framing now includes the chin, the hair and shirt stripe layout change, the book is substantially repositioned and a pencil is added. Arm correction is excluded. Instruction: The fused handless arm loop becomes two distinct arms, with one hand holding a pencil and the other resting on the book. The expected result is anatomically plausible separate arms and hands; this fulfills the correction. Quality, judged only from this image: structural coherence, lighting, perspective and fabric/hair textures are satisfactory; the hands and book are plausible, with no noticeable generation artifact."
+    },
+    {
+      "blind_id": "case_d59fd2f225cbaed08e3c",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: The blue backdrop, shelves and open book remain in the same arrangement, and shirt colors and hairstyle are retained. However, a chin edge appears at the top and the collar and shirt folds are visibly redrawn. Arm changes are excluded. Instruction: The elbow contours shift slightly, but the arms still form a single uninterrupted skin bridge without hands. The expected correction is two anatomically distinct arms with plausible hand terminations; that correction is absent. Quality, judged only from this image: structural coherence fails severely because the two upper arms join a continuous handless forearm loop. Lighting and background are coherent and textures are acceptable, but the central anatomical failure dominates."
+    },
+    {
+      "blind_id": "case_eb6216038a12b833f7b4",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The shelves, blue background and lower open book remain recognizable and similarly placed. The hair now has visibly different exposed blunt ends, and the collar and yellow shirt bands have been reshaped and shifted. Changes to arm placement and newly revealed areas are excluded. Instruction: The continuous fused arm is replaced with two separate forearms ending in hands resting on the book. The expected anatomical correction is present, with plausible wrists and fingers. Quality, judged only from this image: anatomy and object structure are coherent, lighting is natural, and hair, fabric and skin have satisfactory textures without noticeable duplication or melting; softness does not obscure the scene."
+    },
+    {
+      "blind_id": "case_bf868414e86b79e55f09",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The long black hair, red shirt with yellow bands and white cuffs, blue backdrop, shelves, crop and open book remain visually unchanged outside the corrected arm region. Instruction: A visible diagonal overlap separates the former continuous skin bridge into two folded forearms, with their hand ends concealed by the crossed pose. The expected correction is anatomically plausible distinct arms; the folded arrangement achieves it. Quality, judged only from this image: the crossed limbs have coherent overlap and plausible hidden hands; lighting, book perspective and skin, hair and clothing textures are satisfactory, without noticeable artifacts."
+    }
+  ]
+}

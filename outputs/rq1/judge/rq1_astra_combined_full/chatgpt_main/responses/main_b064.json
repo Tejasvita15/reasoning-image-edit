@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b064",
+  "results": [
+    {
+      "blind_id": "case_ab41c9dcf599ab7b76dd",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Most characters are replaced, reordered or turned around; the top-left figure combines a bow-haired head with the boy's clothing, and the fourth-left figure is severely changed. White background and two-column arrangement remain. Instruction: Yellow paths are added, but the expected five front-to-corresponding-back connections are mostly absent or ambiguous; paths run into unrelated figures and do not preserve the original matching task. Knowledge: The supplied explanation requires identity matching across front/back views; this is not established. Instruction failure ⇒ knowledge invalid. Quality: Structural coherence and artifact freedom fail because the fourth-left body is fragmented and the top-left head/body junction is malformed; several overlapping yellow marks obscure figures. Flat colors and white background are coherent."
+    },
+    {
+      "blind_id": "case_6a9f7b035124fd0ce304",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Characters are extensively replaced and rearranged, one left-row character is missing, and yellow nodes move; only the broad white-background, two-column format remains. Instruction: Added short yellow strokes radiate locally from figures and nodes, with no completed left-to-right connections. The expected result is five lines joining matching front/back identities, so the requested connection operation is absent. Knowledge: No corresponding front/back pairs are linked as the supplied explanation requires. Instruction failure ⇒ knowledge invalid. Quality: Multiple distracting structural problems include a double-stacked head at upper left, distorted facial detail on the lower-right flower girl, and an irregular detached loop among fragmented strokes; flat fills remain coherent."
+    },
+    {
+      "blind_id": "case_409563ccc2e57b309867",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Character identities, clothes, colors and white background remain recognizable, but the left schoolgirl's head/face proportions and the flower girl's hat details change, and left figures/nodes shift slightly. Instruction: Five black horizontal lines are added. Correct matching would connect left rows 1–5 to right rows 5, 1, 4, 2, 3 respectively; instead every line joins the same row, so all five pairings are wrong. Knowledge: These pairings contradict the explanation's front/back identity rule. Instruction failure ⇒ knowledge invalid. Quality: Structural coherence, flat illustration style, clean background and artifact freedom are satisfactory; the characters and lines are legible, with no degrading structural errors."
+    },
+    {
+      "blind_id": "case_751552a26ef3b3fceac1",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Faces, hairstyles, clothing, character positions, yellow circles and white background remain visually unchanged, excluding the requested connecting marks. Instruction: Five horizontal black arrows appear between same-row circles. Expected matching is left rows 1–5 to right rows 5, 1, 4, 2, 3; none of the displayed same-row pairings matches the corresponding character, making the connections poorly implemented. Knowledge: The arrows pair different identities rather than corresponding front/back views required by the explanation. Instruction failure ⇒ knowledge invalid. Quality: Coherent cartoon bodies, clean flat fills, uncluttered background and crisp simple arrows; no noticeable generation artifacts or semantic loss from softness."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b149",
+  "results": [
+    {
+      "blind_id": "case_7a09504bae86a0aeba00",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white backdrop, two blue balls, and left-front/right-back arrangement remain. However, the small left ball is narrowed and its top lowered, its ribs/highlights are redrawn, and the right ball has altered rib spacing and reflections; these are multiple non-requested changes. Instruction: The contours and shading change, but the right ball remains visibly larger than the left. A compliant image would reduce the right ball to the original small ball’s size; that size match is absent, so the instruction is not fulfilled. Quality: Structural coherence ✔, natural lighting and contact shadows ✔, artifact freedom ✔, and surface texture ✔; both ribbed spherical forms appear coherent."
+    },
+    {
+      "blind_id": "case_b31c3ab0eeee535e3bc0",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white setting, blue color, and overlapping pair remain, but the small left ball is narrowed and moved inward, its ring pattern and highlights change, and floor shadows are reshaped. These are multiple visible non-requested alterations. Instruction: The balls’ outlines and surface details change, yet the right ball is still taller and larger than the left. The expected result is a right ball reduced to match the original left ball; no convincing size-matching edit is present. Quality: Structure ✔, naturalness ✔, artifact freedom ✔, and texture ✔; smooth round contours, coherent ribbing, and plausible highlights and grounding shadows are visible."
+    },
+    {
+      "blind_id": "case_b7e3de5cd1e860e135f5",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white backdrop and two overlapping blue balls persist. The small left ball becomes narrower, its upper contour and highlight shapes change, and both balls have visibly altered rib patterns. These exceed one non-requested detail. Instruction: The left ball’s contour and surface markings change while the right ball remains distinctly larger. The requested outcome would shrink the large right ball to the original small ball’s size; the visible edit does not implement that match. Quality: Structural coherence ✔, naturalness ✔, artifact freedom ✔, and texture fidelity ✔; the two inflatable balls have coherent contours, reflective surfaces, and plausible contact shadows."
+    },
+    {
+      "blind_id": "case_a53a2e6f25dd1c254b92",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Blue ribbed balls and the plain white setting remain, but the small left ball is substantially narrowed and shifted inward/upward, the ribbing and highlights are redrawn, and the floor shadow changes. Multiple non-instruction elements are altered. Instruction: Both silhouettes are adjusted, with the left ball conspicuously smaller, while the right ball remains clearly larger. Correct execution would resize the right ball to the original left ball’s size; shrinking the small ball and retaining the size disparity does not fulfill that request. Quality: Structural coherence ✔, natural lighting/shadows ✔, artifact freedom ✔, and texture fidelity ✔; both spheres and their surface rings read naturally without distracting defects."
+    }
+  ]
+}

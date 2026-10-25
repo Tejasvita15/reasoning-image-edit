@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b101",
+  "results": [
+    {
+      "blind_id": "case_7991a8493cd4f8f5eff5",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white door, worn rectangular mounting plate, screw holes and rear cylinder remain in place; the lower metal tab acquires a conspicuous keyhole and brass finish, an unrequested change. Instruction: The open, broken front is replaced by a closed rounded metal knob. A complete knob should have a continuous usable grip, which this edit provides; perfect compliance. Quality, judged only from the edit: structural coherence \u2714, natural perspective and metallic reflections \u2714, artifact-free \u2714, convincing worn paint and metal textures \u2714. Knowledge is explicitly not applicable."
+    },
+    {
+      "blind_id": "case_0083084df7c45a7e061d",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white door and general hardware arrangement remain recognizable, but the mounting plate and lower tab have changed proportions/vertical extent, and the worn paint pattern around the bottom of the plate changes visibly. Instruction: The front remains an open black broken collar with missing segments; a completed knob should present a continuous finished grip. No such completion is visible, so the instruction is not followed. Quality, judged only from the edit: structural coherence \u2714 (a plausible damaged mechanism), natural lighting and perspective \u2714, artifact-free \u2714, coherent paint and metal textures \u2714. Knowledge is explicitly not applicable."
+    },
+    {
+      "blind_id": "case_576a1592a10cac76dd12",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The door, paint wear, mounting plate, holes and rear cylinder remain visually consistent; the lower metal tab is visibly lengthened and its rounded bottom reshaped. Instruction: The exposed black front becomes slightly larger/smoother but retains the open cavity and missing rim sections. A complete doorknob should have a finished continuous grip; this remains an incomplete mechanism, so the instruction is not fulfilled. Quality, judged only from the edit: structural coherence \u2714, natural shadows and metal surfaces \u2714, artifact-free \u2714, texture fidelity \u2714; the visible mechanical damage is coherent rather than a rendering failure. Knowledge is explicitly not applicable."
+    },
+    {
+      "blind_id": "case_5ab9175c9c95e9625273",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Door composition, mounting plate outline, screw holes, rear cylinder and lower tab geometry remain consistent; a small texture difference is visible in the more mottled surface of the lower metal tab. Instruction: The edit still shows the open black front with broken/missing segments. The expected result is a continuous finished knob, and that requested completion is absent; non-compliance. Quality, judged only from the edit: structural coherence \u2714, plausible damaged hardware and natural lighting \u2714, artifact-free \u2714, coherent worn paint and metal textures \u2714. Knowledge is explicitly not applicable."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b286",
+  "results": [
+    {
+      "blind_id": "case_13e9bc09030183eaf96a",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: White fur remains, but the cat's identity is redrawn: blue eyes, symmetrical ears/head, different muzzle, body proportions and paw/tail arrangement replace the source features. Requested background and layout changes are excluded. Instruction: The edit adds a centered cat, pink/blue background, paw prints, hearts and hand-lettered 'Pet Home'; the expected poster also needs the exact light-gray sans-serif tagline and heart-shaped bubbles. The bottom wording is nonsense and the hearts are flat, so compliance is partial. Quality: Structure, lighting and illustrated fur are coherent; the conspicuous meaningless bottom text is a clear semantic flaw. Knowledge: Not applicable."
+    },
+    {
+      "blind_id": "case_f7ed7d03d6b258838cf2",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: White fur is retained, but the upright symmetrical head, olive eyes, muzzle, bulkier body, paws and right-curving tail change most identifying cat details. Background and placement changes are excluded. Instruction: The cat is centered with a 'Pet Home' heading, paw prints and hearts. A complete result would include a soft pink/blue gradient, bright hand-drawn title, heart bubbles and the specified gray tagline; the cream background, muted plain heading and absent tagline leave several requirements unmet. Quality: Coherent cat anatomy, natural soft lighting, detailed fur and clean legible lettering; no noticeable generation artifacts. Knowledge: Not applicable."
+    },
+    {
+      "blind_id": "case_430d0431666b2f279f59",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The source cat's tilted head, eyes, pink nose, ears, seated pose, feet and left tail remain recognizable and aligned, but its fur texture is visibly smoothed. Requested background and graphic changes are excluded. Instruction: A pink/blue gradient, pink script title, paws, hearts and bubbles are added. The ideal poster places the enlarged cat centrally with the title above and the exact light-gray tagline below; here the title is beside the head, the cat is not enlarged, the pink tagline is garbled and the bubbles are round. This is partial compliance. Quality: Cat anatomy and soft lighting are coherent, but the malformed tagline, several illegible pseudo-text lines and broken upper-right emblem create multiple distracting semantic artifacts. Knowledge: Not applicable."
+    },
+    {
+      "blind_id": "case_c65e12b8788ade3e9f6f",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Head tilt, facial geometry, ear asymmetry, seated posture, paws and left tail are retained; fur rendering is noticeably harsher and more contrasty. Background, text and placement changes are excluded. Instruction: The edit supplies the pastel gradient, pink script 'Pet Home', paws, bubbles and exact tagline. Expected compliance also requires a slightly enlarged central cat, heart-shaped bubbles and light-gray minimalist text below; the cat is reduced, bubbles are round and the bold dark tagline sits beside its head in a speech bubble. Quality: Readable text, coherent anatomy and orderly graphic layout; a small pale cutout fringe around the cat is a minor integration flaw. Knowledge: Not applicable."
+    },
+    {
+      "blind_id": "case_621f7f71f36ca484492c",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The visible cat retains its tilted head, unequal ear angles, dark eyes, pink nose and seated body silhouette; fur texture/contrast is noticeably altered. The new promotional tag and its overlap are treated as allowed playful poster elements. Instruction: A central cat, pink/blue gradient, bright hand-drawn title above, paws, dimensional hearts and exact tagline below establish the requested poster. The large dark italic tagline departs from the specified middle-sized light-gray minimalist treatment, and slight enlargement is not evident. Quality: The readable lettering, tag, heart shapes and visible cat anatomy are coherent; a small bright fringe along the cat's outline slightly weakens compositing. Knowledge: Not applicable."
+    },
+    {
+      "blind_id": "case_eb70b60213d1331009da",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: White fur and a seated cat remain, but the level frontal head, golden eyes, muzzle, ear geometry, longer upright torso and symmetric foot arrangement change most source identity and pose details. Requested background and positioning are excluded. Instruction: The edit centers a cute cat and adds floating hearts, but the expected pink/blue gradient, paw prints, heart bubbles, 'Pet Home' heading and exact gray tagline are absent. Most required poster elements are missing. Quality: Natural anatomy and soft illumination, plausible floor contact, coherent fur and clean heart decorations; no noticeable artifacts. Knowledge: Not applicable."
+    }
+  ]
+}

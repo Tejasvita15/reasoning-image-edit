@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b350",
+  "results": [
+    {
+      "blind_id": "case_8be85c3ae0dba5eaac18",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The grid, white background, eight given shape combinations and their arrangement remain recognizable and aligned; the middle-left outlined square has visibly uneven, skewed edges instead of its original straight sides. The bottom-right change is excluded. Instruction: The question mark is restyled but remains a question mark; the expected replacement is a small empty circle. No answer shape is supplied, so the requested completion is absent. Knowledge: The explanation requires retaining the shared small circular outline; that result is absent. Instruction failure ⇒ knowledge invalid. Quality: Viewed independently, the monochrome puzzle has coherent closed shapes, a legible question mark and an orderly grid, without noticeable disruptive artifacts."
+    },
+    {
+      "blind_id": "case_380683c71102290ceee0",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The grid, white background and all eight given circle/square symbols retain their positions, sizes and fills; no visible non-target change is apparent. Instruction: The question mark is replaced by a large outlined square. The expected answer is a small empty circle; the correct box is filled, but both the required shape and size are wrong, constituting major omission. Knowledge: The square does not preserve the shared small-circle feature specified in the explanation. Instruction failure ⇒ knowledge invalid. Quality: Assessed alone, the clean grid and distinct geometric symbols are coherent, with smooth closed contours and no visible generation artifacts."
+    },
+    {
+      "blind_id": "case_6913ea701da6c84205c2",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 2,
+      "rationale": "Consistency: The grid arrangement, white background and eight given shape identities are retained, but multiple non-target contours are visibly altered: the middle-row circle outlines and several outlined squares have rougher, irregular edges. Instruction: The question mark becomes a circular outline containing a black square. A small empty circle is expected; the circular component is present, but it is oversized and contains an unwanted filled square, so completion is partial. Knowledge: The explanation says to retain common features only. The filled square is not shared by the two bottom-row inputs, and the added circle does not retain their small diameter, producing two logical mismatches. Quality: Independently, the grid and symbols are structurally coherent and easily read; slight roughness along multiple black contours is a minor rendering imperfection, with no broken or ambiguous forms."
+    },
+    {
+      "blind_id": "case_6afebd4ea8adf908a4c1",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The grid, background and all eight existing circle/square combinations appear unchanged in position, size, outline and fill. Instruction: No meaningful target change is visible: the question mark remains in the bottom-right box instead of the required small empty circle. The instruction is unfulfilled. Knowledge: The shared small circular outline described by the explanation is not supplied as the answer. Instruction failure ⇒ knowledge invalid. Quality: Independently, the image is a coherent monochrome puzzle with clear closed shapes, straight grid divisions and a legible question mark, without noticeable artifacts."
+    }
+  ]
+}

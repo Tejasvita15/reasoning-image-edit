@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b275",
+  "results": [
+    {
+      "blind_id": "case_2582e3b0c747147d68a0",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: White background and pale card material remain, but the fan has extra cards, changed overlaps and altered suit graphics beyond the rank changes needed. Instruction: The five-card 4,6,8,8,8 hand becomes an expanded fan with repeated 8-like marks and a malformed black glyph; a full house should show exactly three equal ranks and a pair, which is not achieved. Knowledge: The supplied three-plus-two rule is not satisfied. Instruction failure ⇒ knowledge invalid. Quality: Card surfaces and lighting are broadly coherent, but multiple broken rank glyphs, fragmented suit marks and inconsistent diamond shapes are distracting structural defects."
+    },
+    {
+      "blind_id": "case_8ef5869737582b3e7d71",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: White setting and red/black printing persist, but card scale, fan positioning and bottom-edge visibility change substantially, and an extra overlapping card appears. Instruction: The 4 and 6 remain alongside the three 8s, with an additional partly exposed red mark/card; the expected five-card three-plus-two grouping is absent. Knowledge: Retaining unequal 4 and 6 ranks fails the supplied full-house rule. Instruction failure ⇒ knowledge invalid. Quality: Lighting and card surfaces are plausible, but the narrow extra card has a malformed rank, the left exposed heart has smeared printing, and the right edge contains a stray distorted red symbol."
+    },
+    {
+      "blind_id": "case_30907f13939e3a78f46b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The pale tabletop and overlapping-card motif persist, but the card arrangement, exposed lower edges, suit designs and major printed graphics are changed. Instruction: The original clear ranks are replaced by overlapping letter/number fragments, including visible 4, 8 and 2 forms; there is no coherent three-of-a-kind plus pair. Knowledge: The explanation requires two rank groups of three and two, which this visibly corrupted hand does not depict. Instruction failure ⇒ knowledge invalid. Quality: Numerous fused and garbled rank symbols, stray text, inconsistent suits and tangled lower card contours constitute severe semantic and structural failure despite smooth white surfaces."
+    },
+    {
+      "blind_id": "case_65f5a136f30d0823b972",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background, five-card order and familiar suit graphics persist, but the fan is rescaled/repositioned with bottom corners newly visible, changed shadows and an added faint right-side flourish. Instruction: The visible ranks remain 4,6,8,8,8; neither singleton becomes a matching partner, so the requested full house is not made. Knowledge: Three 8s with a 4 and a 6 are not the supplied three-plus-two arrangement. Instruction failure ⇒ knowledge invalid. Quality: The five cards have coherent edges, legible indices, plausible overlap shadows and smooth surfaces; one small faint scribble beside the rightmost diamond is a minor artifact."
+    },
+    {
+      "blind_id": "case_42413052d4a22e608ce6",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Pale background and fanned white cards remain, but the fan angles/overlap, suit graphics and large right-card pip arrangement change beyond the needed rank edit. Instruction: The ranks become Y-like letters, an ampersand-like glyph, 8 and 1, rather than three matching ranks plus two matching ranks. Knowledge: The supplied full-house grouping is not established by these nonstandard, inconsistent indices. Instruction failure ⇒ knowledge invalid. Quality: Card planes and lighting are coherent, but multiple nonstandard or malformed rank glyphs and a heart index combined with diamond body pips create distracting semantic defects."
+    },
+    {
+      "blind_id": "case_c5010c762508ec422954",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The pale setting, five-card ordering and red/black suits are retained; the cards are nevertheless rescaled and shifted, their bottom edges and stronger shadows are exposed, and a faint flourish appears at the right. Instruction: The readable hand is still 4,6,8,8,8. A correct edit would make the 4 and 6 share a rank, completing a pair beside the three 8s; this does not occur. Knowledge: The visible singleton ranks violate the supplied three-plus-two definition. Instruction failure ⇒ knowledge invalid. Quality: Card outlines, readable numerals, overlaps, lighting and surface texture are coherent; the small pale scribble near the right-hand diamond is a minor visible blemish."
+    }
+  ]
+}

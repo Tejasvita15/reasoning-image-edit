@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b158",
+  "results": [
+    {
+      "blind_id": "case_79947d9ddfe77ac0808b",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: White background remains, but the matchstick material, blue heads, equation layout, and nearly all original symbols are replaced by solid blue typography. Instruction: The output reads =89=; a correct edit would relocate exactly two existing sticks to form a true equation. Wholesale replacement and an incomplete statement do not fulfill that request. Knowledge: Instruction failure ⇒ knowledge invalid. Quality, edited image alone: Glyph edges and fills are clean, but the isolated =89= has dangling equals signs and lacks a coherent complete expression."
+    },
+    {
+      "blind_id": "case_b753338d4d70e489b2f1",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: White background and gold/blue palette remain; original digit grouping, minus sign, stick positions and number shapes are extensively changed. Instruction: The output has two malformed 2-like figures before an equals sign and a crowded 21-like group after it, involving many moved or extra strokes rather than exactly two relocated sticks forming a valid equation. Knowledge: Instruction failure ⇒ knowledge invalid. Quality, edited image alone: Multiple extra diagonal strokes, doubled verticals in the right group, and incomplete upper-left sticks make the symbols structurally distorted and the expression unclear."
+    },
+    {
+      "blind_id": "case_c8a659823cae1ef8cd33",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: White background and approximate gold/blue colors remain, but straight matchsticks become curved drawn numerals; original symbol layout and most numbers disappear. Instruction: The image now resembles 8 = 2! rather than the original arrangement with exactly two sticks moved; neither the visible equality nor the requested physical operation is achieved. Knowledge: Instruction failure ⇒ knowledge invalid. Quality, edited image alone: Curved gold strokes have detached blue fragments inside and beside them, and the right upright has a detached lower dot; these create multiple distracting object-structure defects."
+    },
+    {
+      "blind_id": "case_087d3af990aeecf6c15b",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The pale background is retained in broad appearance, but the thin gold sticks with discrete blue tips are replaced by thick mottled blue/green forms, and the equation layout and symbols are extensively altered. Instruction: The output resembles 1 - 6 6 - with no equals sign or complete equation; it does not show a valid result obtained by relocating two sticks. Knowledge: Instruction failure ⇒ knowledge invalid. Quality, edited image alone: Symbols have visibly ragged, fused edges and noisy patchwork surfaces throughout; the isolated sequence also lacks a coherent complete mathematical structure."
+    },
+    {
+      "blind_id": "case_c9496939fddf282561df",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background, gold shafts, blue heads, broad horizontal layout, original 1 and 6 are retained. Apart from the attempted symbol changes, several match heads become conspicuously doubled at both ends of horizontal shafts, changing their object styling. Instruction: Extra lower-left and bottom strokes appear on the 4, extra horizontal strokes appear above the minus and equals, and the lower-right stroke of the 8 disappears. These changes exceed two relocations and leave malformed symbols rather than a valid equation. Knowledge: Instruction failure ⇒ knowledge invalid. Quality, edited image alone: Shafts and background are clean, but the closed-bottom 4-like shape, three-bar relation and incomplete right-hand digit create clear symbol-coherence defects."
+    },
+    {
+      "blind_id": "case_33d15f1e53c3cd433b36",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: White background, gold match shafts, blue tips, spacing, digit shapes and the horizontal equation layout remain visually consistent with the source. Instruction: The readable expression remains 14 - 6 = 82 with no discernible two-stick relocation. A compliant result would move exactly two sticks and produce a true equation; this unchanged false equality does neither. Knowledge: Instruction failure ⇒ knowledge invalid. Quality, edited image alone: Individual sticks and blue tips are coherent, symbol shapes are legible, lighting and background are uniform, and no distracting visual artifacts are apparent."
+    }
+  ]
+}

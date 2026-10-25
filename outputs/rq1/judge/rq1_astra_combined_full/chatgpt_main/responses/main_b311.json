@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b311",
+  "results": [
+    {
+      "blind_id": "case_2211e0d0025006b9e56e",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The red can, large white script and silver rims remain recognizable; the small 'SINCE ... 1886' lettering and lower-left volume marking are altered, and the condensation pattern is redrawn. Requested background, lighting and poster composition changes are excluded. Instruction: The plain backdrop becomes a blue sunlit water-and-ice burst around a close-up central can. A complete result should also display 'Refresh Every Moment' in red/white contrast at the top or center with rising bubbles; the slogan is entirely absent and distinct rising bubbles are not evident, so compliance is partial. Quality, assessed only on this edit: Structure and splash layout are coherent, with crisp ice and droplets; the small lettering flanking CLASSIC is visibly malformed, a clear text artifact."
+    },
+    {
+      "blind_id": "case_a25e1a6cf9f65d51618b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The red can and broad Coca-Cola script remain, but the small upper label lettering, bottom volume text and condensation distribution visibly change. Requested scene and composition changes are excluded. Instruction: Water splashes and scattered ice now surround a close-up central can beneath a large red headline. The expected poster should have the exact 'Refresh Every Moment' slogan with red/white contrast and rising bubbles; the headline is nonsensical and the bubble component is unclear, giving partial compliance. Quality, assessed only on this edit: The can and water have plausible overall forms, but the prominent headline contains garbled words and overlapping ghost text, and small package lettering is corrupted; these multiple distracting text errors degrade the poster."
+    },
+    {
+      "blind_id": "case_266a8b96ac5dffc5aa8c",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The can's red body, white Coca-Cola script, CLASSIC/1886 label and characteristic condensation remain visually consistent with the source. The slogan addition and new water, ice, bubbles, sunlight and framing are requested changes and excluded. Instruction: The white background becomes a bright blue sunlit splash with scattered ice and rising bubbles around a close-up centered can. The expected exact red/white slogan 'Refresh Every Moment' instead reads 'REFRESH MOMENT' in white against the red can; the missing 'Every' is a minor omission. Quality, assessed only on this edit: The can, lettering, ice and bubbles are coherent and readable with consistent illumination; the broad foreground splash looks slightly milky and sheet-like, a small naturalness issue."
+    },
+    {
+      "blind_id": "case_93cfb36edd96ecf378a9",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The red can shape, white brand script, CLASSIC/1886 marking and visible condensation retain the source appearance. Requested slogan, lighting, water, ice, bubbles and reframing are excluded from consistency. Instruction: A centered close-up can is surrounded by a blue watery setting, a dynamic splash, floating ice, bubbles and sunlight. The expected exact slogan is 'Refresh Every Moment'; the visible red/white treatment instead says 'REFRESH MOMENT' on the upper can, omitting 'Every', so there is a minor omission. Quality, assessed only on this edit: Structure, legible text, water perspective and lighting are coherent; translucent splash sheets, droplets, ice and bubbles have consistent textures without noticeable generation artifacts."
+    }
+  ]
+}

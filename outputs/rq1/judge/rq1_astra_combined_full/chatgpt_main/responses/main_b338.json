@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b338",
+  "results": [
+    {
+      "blind_id": "case_2821af4e9284418db7c4",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The white background and lavender outer circle remain visually intact, but the green circle is reduced in size and duplicated. Instruction: The single right-offset circle becomes two overlapping green circles; the expected result is two concentric original circles. Their centers are brought toward the middle but remain separately offset from the lavender center, so alignment is partial. Knowledge: The explanation requires coincident centers; the visibly distinct green and lavender centers contradict that geometry. Quality: Judged alone, the diagram has smooth closed outlines, clean intersections, a coherent flat layout, and no visible rendering artifacts."
+    },
+    {
+      "blind_id": "case_c68e64c5acef3099cd42",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "Consistency: White background, lavender boundary, and green color are preserved; the green circle is substantially shrunk, an unrequested size change. Instruction: The green circle moves from the right toward the lavender center. Concentric circles are expected; horizontal centering is achieved, but the green center sits slightly below the outer center, leaving a minor alignment error. Knowledge: The required coincidence is nearly achieved, with a small remaining vertical displacement. Quality: The standalone image has clean closed circular contours, uniform flat colors, and no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_1866fb48f2a41191c74a",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background remains, but the large lavender circle disappears and three green circles replace the original two-circle arrangement, changing the major graphic content. Instruction: Three intersecting circles with separate centers form a triangular arrangement; the expected two concentric circles are absent, so the request is misinterpreted. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: Judged solely as a diagram, the three smooth closed loops and their intersections are coherent, with clean color and background and no noticeable generation defects."
+    },
+    {
+      "blind_id": "case_93cb9cd502db025f09b8",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "Consistency: The white background and lavender outer boundary are retained, but two extra green loops appear and the green circles are smaller than the original green circle. Instruction: A green circle is now near the lavender center, with additional loops on either side. The expected coincidence is almost attained by the middle circle, although its center is slightly too low. Knowledge: The central green and lavender circles nearly share a center, with a minor vertical deviation from the supplied coincidence requirement. Quality: Assessed alone, the overlapping-loop diagram is clean and legible, with smooth uninterrupted outlines, consistent colors, and no visible artifacts."
+    },
+    {
+      "blind_id": "case_f8ceabc677872528a6e1",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 4,
+      "rationale": "Consistency: The white field and lavender outer circle remain, but the green circle is smaller and has an additional nested green contour; the outlines also look less uniform. Instruction: The right-offset green shape is moved to the middle. The intended concentric placement is largely present, though the green centers are slightly right of the lavender center and the inner green contour sits slightly lower. Knowledge: The centers are nearly coincident, with small visible offsets rather than exact coincidence. Quality: Viewed alone, the diagram remains clear and closed, but slight contour wobble and uneven edge texture are a minor rendering imperfection."
+    },
+    {
+      "blind_id": "case_2bce45a20fe7e611cc38",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background, lavender boundary, and green circle size remain recognizable; conspicuous blue center and perimeter annotations are added. Instruction: The green circle remains well to the right and slightly below the lavender center, while blue markers are introduced. The expected concentric relocation is not performed. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: The standalone graphic has readable circular structure, but the green perimeter is visibly jagged with an irregular blue fringe and small protrusions, a clear contour artifact."
+    }
+  ]
+}

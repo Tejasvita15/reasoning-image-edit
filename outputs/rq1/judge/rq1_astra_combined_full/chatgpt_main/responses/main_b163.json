@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b163",
+  "results": [
+    {
+      "blind_id": "case_c656ca22d69c64585438",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The numeral 8, two teardrop openings, diagonal waist and centered white layout remain intact; a small pale blocky fringe now borders the numeral. Instruction: Orange has changed to green throughout the numeral. The expected result is the same 8 colored green, and that modification is fully present. Quality: The 8 is legible and structurally coherent with a solid green fill and sensible flat layout; faint rectangular edge halos are a minor artifact."
+    },
+    {
+      "blind_id": "case_62649a588ad59b20140b",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The 8 retains its loop proportions, crossing stroke, placement and white background; faint pale blocks along its contour are a small background alteration. Instruction: The orange numeral is now entirely green, exactly matching the expected recoloring of the same number. Quality: A clear, coherent 8 with clean openings and consistent flat color; slight blocky edging around the silhouette is a minor imperfection."
+    },
+    {
+      "blind_id": "case_c91f8eddb26a85d2abbc",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The same 8 shape, pointed openings, central crossing and white composition are preserved; a fine pale speckled fringe has appeared along the boundary. Instruction: The numeral changes from orange to green over its full body, meeting the expected green 8 completely. Quality: The symbol is unambiguous and well formed, with coherent flat graphic styling; small noisy flecks around the outline slightly impair edge cleanliness."
+    },
+    {
+      "blind_id": "case_97eb3286a5a728617ead",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The upper and lower loops, diagonal crossing and centered framing are retained on white; a very faint tinted edge fringe is a minor non-instructed alteration. Instruction: The entire orange 8 is recolored green, satisfying the expected same-number green result. Quality: The numeral is readable, with coherent loops and a natural flat graphic layout; slight mottling and pale edging constitute a small surface-finish imperfection."
+    },
+    {
+      "blind_id": "case_43e2de859a4aa984c327",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The 8 silhouette, two openings, diagonal junction, position, margins and white background remain visually unchanged apart from the requested color. Instruction: The orange body is replaced by green throughout the same numeral, precisely matching the expected recoloring. Quality: The green 8 is clearly legible, its smooth loops and crossing are coherent, and the simple white layout and solid fill show no noticeable distracting artifacts."
+    },
+    {
+      "blind_id": "case_2e743f397830310f06bd",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The numeral geometry, pointed interior openings, diagonal waist and white framing remain intact; faint tinted fringing along the outside contour is a small background change. Instruction: Orange becomes green throughout the 8, fully matching the expected green version of the same number. Quality: The graphic has coherent geometry, readable form and consistent flat presentation; a faint grainy edge halo is a minor finish issue."
+    }
+  ]
+}

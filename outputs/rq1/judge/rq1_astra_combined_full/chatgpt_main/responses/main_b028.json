@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b028",
+  "results": [
+    {
+      "blind_id": "case_ba690838fe9aa06d43c1",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The wall courses, white bent pavement mark and black stains retain their arrangement, but both masonry and pavement have conspicuous new convoluted textures. Instruction: The separated halves are bridged into one outline; a completed skateboard should have a continuous intact deck. Large central exposed gaps and overlapping broken-looking pieces remain, so completion is partial. Quality: Structural coherence and artifact freedom are problematic: the center has implausible layered cavities, and wormlike texture affects the wall, ground and grip. Lighting and overall perspective are plausible."
+    },
+    {
+      "blind_id": "case_3e3e46fd15dfbb0cb205",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The wall layout, white mark and pavement stains are recognizable, but wall/pavement texture is altered and most existing black grip is replaced with bare pale wood, beyond joining the break. Instruction: The broken center is filled into a continuous deck joining the original ends, with wheels beneath; the expected complete skateboard is present. Quality: Structure, lighting and surface textures are generally coherent; a small dark protrusion beneath the middle edge is an isolated shape irregularity."
+    },
+    {
+      "blind_id": "case_ebb639316f06a79ad09b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The wall courses, white pavement mark and stain arrangement remain recognizable, but ground texture changes and the original worn deck finish and wheel appearance are substantially redesigned. Instruction: A complete continuous skateboard appears, as expected, but the damaged original is effectively replaced by a differently shaped, newly surfaced board with added top fixtures, giving partial compliance with completing that skateboard. Quality: Lighting, perspective and grip texture are coherent, but two strap-like metal-mounted protrusions on the riding surface are conspicuous semantic/structural oddities."
+    },
+    {
+      "blind_id": "case_3aef0027820cabc1d4ce",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The wall layout, bent white mark and black pavement spots remain in place, and the worn grip appearance is preserved; the ground texture is visibly reworked. Changes needed to bring the broken board together are excluded. Instruction: The central break is replaced with a continuous grip-covered deck connecting the worn ends, yielding the expected complete skateboard. Quality: Structure, naturalness, artifact freedom and texture fidelity are satisfactory: the curved deck, visible wheels, worn edges and contact shadow form a coherent photographic scene."
+    }
+  ]
+}

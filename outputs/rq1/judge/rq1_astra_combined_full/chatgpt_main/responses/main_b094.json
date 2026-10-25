@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b094",
+  "results": [
+    {
+      "blind_id": "case_deebaf19961f31405379",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The blue sky, metal pole with ball finial, and red-white-blue flag identity remain, but a large man has been added and the star field is reduced and rearranged; those are not required by a rear view. Instruction: The flag is spread more openly and a man faces away. A correct result would show the reverse of the original flag with its hoist/canton on the right. The flag still has its hoist and canton on the left, so the requested object has not been shown from behind. Quality: Structure, lighting and cloth texture are coherent; a small cluster of stars near the lower-right canton has irregular, smeared points."
+    },
+    {
+      "blind_id": "case_1594aefb32751b0a24f9",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Sky, pole material/finial, flag colors and rendering style remain consistent. The star pattern has been noticeably reduced and rearranged, beyond a viewpoint change; changes in visible folds are excluded. Instruction: The billowing flag has become more spread out, but the pole and canton remain on the left. The expected reverse view would expose the opposite face with the hoist on the right; changing the drape does not accomplish that. Quality: Pole, cloth silhouette, perspective and surface shading are coherent with no duplication; several star points are slightly pinched or irregular."
+    },
+    {
+      "blind_id": "case_a49656bf1e0a531feb35",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The sky, silver ball-topped pole, palette and rendered surface style remain. The flag is reduced to a narrow rectangular fragment, losing its extended striped fly; this is a clear alteration to the object beyond reversing the viewpoint. Instruction: The flowing flag has been replaced by a flat narrow section, still attached at the left. A rear view should retain the complete flag and show its opposite face; neither the retained orientation nor the missing fly provides the requested rear view. Quality: Lighting and the pole are coherent, but multiple lower-canton stars fragment into streaks and partial marks, a clear surface-generation flaw."
+    },
+    {
+      "blind_id": "case_4f05a2e6ba63c4a001e8",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The blue background, silver ball-topped pole, flag colors and fabric rendering remain recognizable. The reversed left/right arrangement and newly visible folds are allowed; an added narrow slit with a yellowish edge in the lower-left striped fabric is a clear unrequested detail. Instruction: The pole and canton move to the right and the striped fly extends left, giving the expected reverse view of the flag. The core change is correct, though broken continuity around the central overlapping fabric makes the reconstruction slightly inaccurate. Quality: Overall flag and pole shapes, lighting and textile texture are legible; the thin slit in the stripes and abrupt central fabric joins are two noticeable artifacts."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b334",
+  "results": [
+    {
+      "blind_id": "case_250340d7a647f8a5929d",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray background, black shell, paired red crown stripes with widened ends, dark visor, red chin panel, and angular red side vents are retained; changed silhouette and reflections follow the requested viewpoint. Instruction: The oblique helmet becomes a centered, straight-on front view with aligned crown and chin centers and both sides visible, satisfying the requested projection. Quality: Coherent smooth shell, continuous visor rim, credible glossy reflections, clean graphics and intact vent geometry; no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_85c199e2fa89fc1afa70",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Gray backdrop, black/red materials, widened twin stripes, tinted visor, chin graphics and angular side vents remain recognizable and consistent after excluding viewpoint changes. Instruction: The view moves substantially toward the front, but the stripe/chin axis remains left of the silhouette center and more right cheek is exposed; a precise front view should have the central features aligned and balanced sides. This is a minor residual turn. Quality: Shell and visor geometry are coherent, reflections plausible, and edges and red graphics clean, without visible generation artifacts."
+    },
+    {
+      "blind_id": "case_e77c98e935e6d620238c",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The black shell, red twin stripes, dark visor, red chin and side graphics remain, but the gray background is replaced by plain white, one clear unrelated change. Instruction: The helmet is turned close to front-facing, yet the crown stripes and chin remain displaced leftward and the right cheek is more exposed; the required centered front projection is slightly incomplete. Quality: The helmet has smooth coherent contours, a continuous visor, credible glossy surfaces and clean color boundaries; no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_7c107fadec4fb5e6c53c",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The helmet retains its black/red palette, tapered twin crown graphics, tinted visor, red chin and angular side vents. The gray background is replaced by white, an unrelated background alteration. Instruction: The oblique object is shown directly from the front, with centered stripes and chin, balanced shell sides and both cheek vents visible; the requested view is achieved. Quality: Symmetric solid helmet construction, continuous trim, smooth surfaces and coherent reflections are satisfactory, with no visible corruption or malformed parts."
+    },
+    {
+      "blind_id": "case_a0434cccfce281d8e5f9",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Gray background and basic black/red scheme remain, but the shell acquires a pronounced shoulder-like bulge at upper left and the detailed angular red vent assemblies become largely plain dark slits; these alter two object-design elements beyond rotation. Instruction: Crown and chin are centered in a front-facing view, achieving the core change, but altered shell and cheek geometry limit the accuracy of this object’s front depiction. Quality: The upper-left shell contour has a conspicuous lumpy step inconsistent with the smooth opposite side, a clear structural flaw. The visor and graphics otherwise remain clean and legible."
+    },
+    {
+      "blind_id": "case_0a95b579d948fd137ef9",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray backdrop, dark visor, black/red palette, paired crown stripes and central chin panel remain. The sculpted crown ridges are smoothed away and the angular cheek vent assemblies disappear, two noticeable changes to the helmet design beyond viewpoint. Instruction: The output is centered and front-facing with an aligned crown/chin axis, but omits visible design features that should carry into the front view, a minor accuracy loss in depicting the same object. Quality: Judged alone, this is a coherent rounded helmet with smooth shell, continuous visor rim, clean red graphics and plausible reflections; no noticeable artifacts."
+    }
+  ]
+}

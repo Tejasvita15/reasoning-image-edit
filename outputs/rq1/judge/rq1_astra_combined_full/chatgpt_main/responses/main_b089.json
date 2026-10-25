@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b089",
+  "results": [
+    {
+      "blind_id": "case_d5c34669b82f223fb5bb",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The leafy background, diagonal branch, stems, remaining closed lower-right husk, and framing are unchanged; the two opened husks are the requested modification. Instruction: Two formerly closed husks now have broad openings exposing their interiors, matching the expected opened seed casing. Knowledge: The explanation calls for glossy brown nuts inside green spiny husks; the openings instead expose pale elongated ribbed kernels, a clear biological-content mismatch. Quality: Shell contours, pale interiors, foliage textures, perspective, and lighting are coherent, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_e30f41bffffcfa53f447",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The foliage, diagonal branch, and two lower closed husks retain the source arrangement, but the upper husk has moved noticeably down and right, leaving its former attachment bare. Instruction: The previously closed upper casing now has a large broken opening, fulfilling the requested opening. Knowledge: An opened green husk should reveal glossy brown nuts according to the explanation; this opening shows a pale irregular lining and shadow rather than an identifiable glossy brown nut. Quality: Foliage and lighting are natural, but the ragged pale opening blends ambiguously into the neighboring spiny fruit, creating a noticeable structural junction flaw."
+    },
+    {
+      "blind_id": "case_f487fec0dcbdfcfccb9d",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The view is substantially recomposed into a close-up; branch geometry, background leaf placement, fruit scale, and the original three-fruit arrangement have changed beyond the requested opening. Instruction: A large husk is visibly split open with an exposed central nut, satisfying the requested action. Knowledge: The explanation predicts glossy brown nuts; the exposed nut is predominantly charcoal-dark and wrinkled, a clear mismatch to the specified nut appearance despite the appropriate opening. Quality: The broken shell, rough inner rim, dark nut, branch, and blurred foliage form a coherent natural close-up with consistent light and no evident generation artifacts."
+    },
+    {
+      "blind_id": "case_5edee80257415559cdc0",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The background leaves, branch, stems, closed lower-right husk, and framing remain visually unchanged; opening the other two casings is within the requested change. Instruction: Two closed casings have become visibly open cups exposing their contents, fully depicting the requested opening. Knowledge: The supplied explanation requires glossy brown nuts, whereas the cavities contain many small pale grain-like seeds; the revealed contents clearly conflict with that expectation. Quality: The cups, individual seed shapes, textured outer surfaces, foliage, and shadows are visually coherent and naturally rendered without noticeable artifacts."
+    }
+  ]
+}

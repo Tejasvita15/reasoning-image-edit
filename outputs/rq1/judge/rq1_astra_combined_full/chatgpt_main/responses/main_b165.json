@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b165",
+  "results": [
+    {
+      "blind_id": "case_a43bf0ee3680ec192413",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the 8 retains its loop shapes, diagonal waist, position and white background; a faint tinted fringe around its contour is a small background-edge change. Instruction: the orange fill has become green throughout; the expected same numeral with green fill is present, fully satisfying the request. Quality: structure and legibility are sound, the flat graphic is coherent, and surfaces are intact; slight edge haloing is the only small artifact."
+    },
+    {
+      "blind_id": "case_886f9111f657a4707804",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: numeral shape, both white counters, framing and background remain intact; a slight pale fringe outside the green contour is the only small non-requested difference. Instruction: the formerly orange 8 is now completely green, matching the expected recoloring of the existing number. Quality: the 8 is immediately legible, with coherent curves and a clean flat fill; a faint edge halo is a minor imperfection."
+    },
+    {
+      "blind_id": "case_20214ece0134d80de7eb",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the figure-eight silhouette, relative placement, white openings and plain background are preserved; faint speckled tint immediately outside the outline introduces a small edge-background change. Instruction: the entire orange numeral has been recolored green, exactly the requested attribute change. Quality: the numeral has coherent loops and an unambiguous shape; slight mottled edging around the contours is a small artifact, while the flat layout and surfaces are otherwise sound."
+    },
+    {
+      "blind_id": "case_7a6215023adb0cfeb944",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the original loop geometry, crossed waist, composition and white negative space are retained; there is only a slight tinted halo along the outline. Instruction: the observed change is orange to green across the same 8, matching the expected green number completely. Quality: legible structure, coherent graphic layout and intact fill are satisfactory; a faint fringe at the edges is a minor artifact."
+    },
+    {
+      "blind_id": "case_cf1e85ff01ae02895529",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the 8 maintains its silhouette, proportions, two white counters and placement on white; a faint colored edge fringe is a small change outside the intended fill. Instruction: the number is now green across its full stroke, fulfilling the requested recoloring of the existing numeral. Quality: the figure is structurally coherent and easily readable with a uniform flat green surface; minor pale edge speckling is the sole visible imperfection."
+    },
+    {
+      "blind_id": "case_74c7a5df6dfabc97c3d1",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the 8 keeps its two loops, diagonal middle stroke, white openings and overall layout; slight tinted edging just outside the outline is a small non-instructed alteration. Instruction: orange has been replaced by green throughout the existing numeral, precisely matching the expected green 8. Quality: the glyph remains legible and its curves and flat presentation are coherent; faint edge haloing is a minor artifact, with no structural failure."
+    }
+  ]
+}

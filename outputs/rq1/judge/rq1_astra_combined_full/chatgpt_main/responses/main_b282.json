@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b282",
+  "results": [
+    {
+      "blind_id": "case_587afa1dfff30c41b057",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The hen is moved to the far left, cropped and turned to face right; straw arrangements also change, while the white background and wooden ledge remain recognizable. Instruction: Two chicks appear at the right and the rightmost original egg disappears, but two intact original eggs remain and no broken shell establishes hatching. Expected is an egg yielding a chick; the result conveys chicks but only partially establishes that transformation. Knowledge: The supplied explanation expects the egg to become a chick. Chicks are biologically appropriate, but two chicks appear where only one original egg disappears, leaving the egg-to-chick relationship unclear. Quality: Satisfactory bird anatomy, coherent overlapping feathers and down, natural lighting and supported feet; no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_f5c0cabaae5fdc87f263",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The dominant hen is entirely removed and replaced by a large field of eggs; the scene layout and much of the nest change, although the white backdrop and wooden front edge remain. Instruction: Eggs are multiplied and enlarged without any chick or visible hatching; an egg should instead yield a chick, so the request is not followed. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: The eggs have coherent ovoid shapes, smooth natural shading and plausible overlaps in detailed straw; no clear structural or texture artifacts."
+    },
+    {
+      "blind_id": "case_8bd31268f807637a775b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The hen, white backdrop and wooden ledge retain their overall appearance, but the foreground egg arrangement is expanded and repositioned and the straw pattern is visibly rearranged. These additions are not required hatching changes. Instruction: The edit adds intact eggs rather than showing a chick emerging or an egg transformed into a chick; hatching is absent. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: Bird structure and feather layering are coherent, the eggs sit plausibly in the straw and lighting is consistent; no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_dcbd3c27815dac0eca53",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The hen, white background and wooden ledge are maintained, but nest straw across the foreground is noticeably rearranged beyond the area needed for the chick. Instruction: A yellow chick is added centrally, yet the three original eggs remain intact and an additional intact-looking egg appears at its left. Expected is an original egg hatching into a chick; the chick conveys the main idea but the requested egg transformation is incomplete. Knowledge: The supplied explanation expects an egg to become a chick. The chick is appropriate, but retaining the original intact eggs while adding another egg leaves a clear mismatch in the depicted transformation. Quality: The chick has coherent eyes, beak, down and body, and both birds and eggs have consistent lighting and convincing surface detail; no noticeable artifacts."
+    }
+  ]
+}

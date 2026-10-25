@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b358",
+  "results": [
+    {
+      "blind_id": "case_a60e5b5798f3cf1807f9",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The three drawers and round knobs remain recognizable, but the cabinet is turned to a deep side view and its top molding, leg proportions, and knob stems differ; the requested room, light, placement, and text changes are excluded. Instruction: The isolated cabinet becomes a left-positioned room scene with warm wall, oak floor, right linen curtain and angled sunlight, as expected, but both text blocks are gibberish instead of the exact thin sans-serif bottom-right sentence; this is partial compliance. Quality: Structure, lighting and fabric/wood textures are coherent, but conspicuously malformed lettering in two separate areas causes distracting semantic artifacts."
+    },
+    {
+      "blind_id": "case_5ed3b21383a09ad4586a",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The frontal three-drawer cabinet, round mottled knobs, beveled top and base, upright rails and square feet retain their visible design; room, illumination, scale and placement are instructed changes. Instruction: The edit provides the left-positioned cabinet, pale wall, wood floor, right curtain and diagonal shadow expected, but the title reads 'buso preserving' instead of 'but also preserving' and uses heavy bold lettering rather than thin lines; partial compliance. Quality: Cabinet geometry, linen texture, wood surface and shadow are coherent; the clear textual error 'buso' is a noticeable semantic flaw."
+    },
+    {
+      "blind_id": "case_92d23f976bc3dbe2230f",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The original three-drawer front, three centered knobs and broad frontal proportions are replaced by a tall blank panel, narrow edge with a single elongated pull and different visible foot arrangement; most defining product details are lost. Instruction: A cabinet and small wood-floor region appear against white, but the expected left-focused three-drawer room scene lacks the linen curtain, angled sunlight and entire requested title; most changes are absent. Quality: Surfaces and molding are smooth and coherent, but the wood floor ends abruptly in a large rectangular white cutout at lower left, disrupting spatial continuity."
+    },
+    {
+      "blind_id": "case_2613a77193327120792f",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: Three drawer divisions and round knobs survive, but the cabinet surface is covered in multicolored mottling and the top/base profile and viewpoint change visibly; the requested background and lighting changes are excluded. Instruction: A left cabinet, right curtain, wall-floor junction and diagonal illumination are present, but pervasive colored texture defeats the requested calm light-grey/white palette and the large bottom text is gibberish rather than the prescribed bottom-right title; major requirements are poorly implemented. Quality: Severe multicolored granular corruption covers furniture, wall, curtain and floor, while the lettering forms nonsensical words; texture fidelity and semantic coherence fail throughout."
+    },
+    {
+      "blind_id": "case_25885031ec29508fa33a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Three drawers and round knobs are recognizable, but a strongly turned view exposes a new recessed side panel and changes the top/base profiles and leg proportions. Requested room and lighting changes are excluded. Instruction: The white wall, light wood floor and linen curtain are added, but the cabinet is on the right with blank space on the left, angled sunlight is weak, and unrelated malformed text replaces the prescribed title; the expected layout and caption are substantially missed. Quality: Cabinet perspective, floor and fabric remain largely coherent, but two prominent nonsensical text areas, including distorted outlined lettering at top, create distracting semantic artifacts."
+    },
+    {
+      "blind_id": "case_2bb4737f437ad230281d",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The cabinet retains its frontal three-drawer layout, centered textured round knobs, beveled cornice and base, vertical frame and square legs; the room, linen fabric, lighting and composition changes are within the request. Instruction: The edit adds a pale wall, wood floor, right linen and angled shadow, with a near-central/slightly left cabinet and bottom-right text. The expected exact thin-line title is instead bold and contains corrupted extra characters around 'and'; partial compliance. Quality: Furniture geometry, fabric folds, wood grain and lighting are coherent. Malformed characters within the main caption and a tiny illegible text strip below are noticeable text artifacts."
+    }
+  ]
+}

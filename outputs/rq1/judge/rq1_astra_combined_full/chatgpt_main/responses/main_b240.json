@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b240",
+  "results": [
+    {
+      "blind_id": "case_92945c6f85ddbc5449af",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the girl is repositioned and redrawn, the house gains a door and different roof/windows, the grid is resized and misaligned, and the header arrows change directions and count. Instruction: the grid remains empty; the expected addition is a directed route from the person toward home using the supplied sequence. No route is built, so this is non-compliance. Knowledge: the supplied explanation is blank; the score follows the mandatory coupling. Instruction failure ⇒ knowledge invalid. Quality, judging this image alone: the character and house are recognizable with clean monochrome styling, but the upper-left grid corner has a conspicuous doubled, offset join; this is a clear structural flaw."
+    },
+    {
+      "blind_id": "case_bcfd93bca136a8a5dedb",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the overall girl, house and grid positions remain, but the first header arrows acquire conspicuous jagged marks and the formerly straight grid lines become visibly wavering; roof and flower linework also changes. Instruction: thick bent strokes are added only around the girl and upper-left cells, with a branch overlapping the header. A correct edit would carry a coherent directed route across the grid to home; these disconnected local strokes neither implement the sequence nor reach the house, a major omission. Knowledge: the supplied explanation is blank; the score follows the mandatory coupling. Instruction failure ⇒ knowledge invalid. Quality, judging this image alone: irregular splintered header arrowheads and heavy branching strokes merging with the figure and symbols create multiple distracting ambiguities; the rest of the worksheet remains recognizable."
+    },
+    {
+      "blind_id": "case_353d37846b7944e5d231",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the girl, house and grid layout remain visibly consistent; the header arrow sequence is removed/replaced by differently oriented and positioned symbols, one clear non-requested element change. Instruction: numerous arrows and blocks appear mostly in the second column and across the top, including opposed up/down directions. The expected edit is a continuous ordered route from the girl to home using the header directions; this scattered, contradictory arrangement stops far from the house and omits most of the required route. Knowledge: the supplied explanation is blank; the score follows the mandatory coupling. Instruction failure ⇒ knowledge invalid. Quality, judging this image alone: several symbols fragment into rectangles, a striped block and irregular blobs; overlapping arrow shafts and heads cause multiple distracting structural defects despite the recognizable grid and figures."
+    },
+    {
+      "blind_id": "case_a2bc4142ad8664ab952f",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the header directions and object positions are preserved, but the girl and house outlines are visibly thickened/redrawn and multiple grid lines become uneven. The added in-grid arrows themselves are excluded from consistency. Instruction: four downward arrows are added across the top row, while the rest of the grid stays empty. A correct edit would trace the supplied sequence through successive positions to the house; these parallel downward arrows neither supply the initial rightward progression nor connect to home, a major omission. Knowledge: the supplied explanation is blank; the score follows the mandatory coupling. Instruction failure ⇒ knowledge invalid. Quality, judging this image alone: symbols, character anatomy and house structure are clear and coherent with clean black fills; slight waviness of the grid lines is a minor imperfection."
+    }
+  ]
+}

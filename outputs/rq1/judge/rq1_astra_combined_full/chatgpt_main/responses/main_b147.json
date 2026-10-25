@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b147",
+  "results": [
+    {
+      "blind_id": "case_a68f8b8f5fe2c17b96ae",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The left clock disappears, and the remaining clock has a different hand arrangement, added minute ticks, and altered framing; the pale wall and general clock colors remain. Instruction: Instead of enlarging the small left clock to match the existing large clock, the image shows just one redesigned clock, so the requested resize is absent. Quality: Circular housing, numerals, wall texture, and shadow are coherent, but the dial has only one visible hand, giving an incomplete timekeeping structure."
+    },
+    {
+      "blind_id": "case_f32032dd4842c84e6d17",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Both clock faces retain their numeral designs, colors, and hand directions, and the pale wall remains; however, the left clock shifts right and the right clock shifts left and slightly down, changing their spacing. Instruction: The left clock remains visibly smaller with essentially its original diameter; the expected result is two clocks of matching size, so no meaningful requested resize is visible. Quality: Both housings and faces are coherent, numerals are legible, hands are well formed, and lighting, shadows, and surface textures look natural without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_f4c935a8810b1ea08a0b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Clock colors, numerals, and hand directions are retained, as is the plain wall, but the left clock moves upward and the right clock moves left and down. Instruction: The left clock is still distinctly smaller and appears slightly reduced rather than enlarged; matching the large clock would require increasing its diameter. The requested modification is not achieved. Quality: The two circular clocks have legible numbering and coherent hands, rims, textures, perspective, and cast shadows, with no noticeable generation flaws."
+    },
+    {
+      "blind_id": "case_bdc99a92aff438d80e2e",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The wall and overall clock designs persist, but both clock positions change and the large clock hour hand rotates toward two instead of its original near-one direction. Instruction: The small left clock remains smaller at approximately its original diameter; an enlarged left clock matching the large right one is absent. Quality: Both dials, their hands and numerals, the frame construction, wall texture, and directional shadows are visually coherent and natural."
+    },
+    {
+      "blind_id": "case_fac1f0c8cbf00733a998",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pale wall and white-rimmed blue faces remain, but the small clock hand arrangement is replaced by a single thick diagonal hand, its placement changes, and the large clock shifts left within the frame. Instruction: The left clock remains clearly smaller and has not been enlarged to match the right clock; changing its hands does not implement the requested size adjustment. Quality: Numerals, frames, surfaces, and lighting are coherent, but the left clock has only a single visible thick hand, creating a noticeable incomplete dial structure."
+    },
+    {
+      "blind_id": "case_eecdf407776b4696961a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Both white-rimmed blue clock faces and the pale wall remain, but the left clock hands change direction, the right clock loses its main hands and center hub, and the right-side shadow is greatly reduced. Instruction: The small left clock is visibly enlarged and now approaches the large clock diameter, as requested, although it remains slightly smaller. Quality: Numerals and circular housings are readable and coherent, but the right dial contains only a thin diagonal stroke without a coherent hub and full hand assembly, a clear structural flaw; surface texture remains interpretable."
+    }
+  ]
+}

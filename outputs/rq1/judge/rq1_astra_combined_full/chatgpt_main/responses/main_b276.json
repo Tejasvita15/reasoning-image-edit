@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b276",
+  "results": [
+    {
+      "blind_id": "case_541452b8dea1e9299f44",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background, red/black printing and five-card fan remain, but the framing now reveals all lower card edges, card positions/angles shift, and diamond pip size and placement change. Instruction: The visible ranks remain 4, 6, 8, 8, 8; the expected pair plus triple has not been made, so there is no compliance. Knowledge: The explanation requires a pair alongside the three eights, but 4 and 6 remain unequal. Instruction failure ⇒ knowledge invalid. Quality: Card outlines, lighting and surfaces are coherent; the fully exposed eight of diamonds has only three body pips and no opposing corner index, a clear card-design inconsistency."
+    },
+    {
+      "blind_id": "case_ec2ca3cd713641ed113f",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The light background and card-fan theme remain, but card angles and boundaries change substantially, suit glyphs change, and the front diamond arrangement is replaced. Instruction: Ranks and symbols are altered, including a left 6 and central 6, but a malformed C-like rank, an 8 and an unindexed front card do not visibly establish a five-card triple plus pair; most required structure is missing. Knowledge: No valid three-of-one-rank/two-of-another hand is shown. Instruction failure ⇒ knowledge invalid. Quality: Multiple distracting semantic defects include the C-like rank, black rank over a red diamond, malformed left suit and an unindexed front card; the white surfaces and illumination are otherwise coherent."
+    },
+    {
+      "blind_id": "case_0a61f6074bfd5e203904",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Background and the original red/black fan theme remain, but framing, original card positions, lower edge visibility and fan geometry change. Instruction: A new foreground 4 is added while the original 4, 6 and three 8s remain; the expected result is five cards forming a triple and pair. A pair of fours and triple of eights are present, but the extra six makes this only partial compliance. Knowledge: The visible six-card hand contains the desired grouping but conflicts with the explanation's five-card full house rather than changing the original 6 to 4. Quality: Lighting and most card shapes are coherent; the foreground black 4 with a red diamond and doubled lower edge contours are clear semantic/structural flaws."
+    },
+    {
+      "blind_id": "case_aa4dc717b33c29d6f969",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The pale background and fan remain recognizable, but card positions, visible lower ends, front card geometry and suit/index printing change. Instruction: The readable sequence is still 4, 6, 8, 8, 8, followed by a separate unindexed diamond card; neither the 4 nor 6 becomes a matching pair. The required five-card full house is absent. Knowledge: There is no displayed pair accompanying the three eights. Instruction failure ⇒ knowledge invalid. Quality: Multiple card-design defects are visible: a black 8 above a red heart, duplicate eight-of-hearts identities, a separate unindexed diamond card, and warped lower card outlines. White surfaces and general illumination remain plausible."
+    },
+    {
+      "blind_id": "case_25512325bda068381f46",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and overlapping cards remain, but card scale/placement, suit graphics, large lower glyphs and front-card design change. Instruction: The 6 becomes a 4, but the rightmost 8 becomes an A; the resulting 4, 4, 8, 8, A forms two pairs, not the required triple and pair. Knowledge: The explanation's suggested pair-making modification is undermined by removing the third eight. Instruction failure ⇒ knowledge invalid. Quality: Several clear printing defects include garbled lower rank symbols, mixed heart and diamond imagery on the front card and inconsistent index layouts; the fan and lighting are otherwise coherent."
+    },
+    {
+      "blind_id": "case_bc23b4efffd444c2781d",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: White surroundings and a fanned-card composition remain, but the fan expands to seven cards, their positions and shapes change, and multiple suit/pip designs are altered. Instruction: The readable ranks become 5, 6, 8, 4, 4, 4, 4; this does not show the requested five-card triple plus pair and instead presents four fours with unrelated singletons. Knowledge: The visible rank multiplicities contradict the explanation. Instruction failure ⇒ knowledge invalid. Quality: Multiple distracting semantic flaws include repeated four-of-spades identities, a malformed small black suit on the front card paired with a large spade, and incomplete/inconsistent pip and corner-index layouts; illumination remains coherent."
+    }
+  ]
+}

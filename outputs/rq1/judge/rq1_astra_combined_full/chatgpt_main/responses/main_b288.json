@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b288",
+  "results": [
+    {
+      "blind_id": "case_26ad6ee022f58328e85e",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "Consistency: The blue glove and its folds, diagonal strip and two pads, bottle/chart, red lid, tabletop and cup rim retain their positions and appearance; the urine and its transmitted color are excluded. Instruction: Pale yellow liquid becomes saturated amber-brown in the same cup. The expected result is strongly darkened urine; the core change is present, with the color still somewhat light and golden. Knowledge: The supplied explanation says dark brown; the amber-brown liquid is a small shortfall in darkness. Quality: Structure, natural lighting, clean boundaries and glove/plastic textures are satisfactory; no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_22064148dc166fb83cd7",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The arrangement is recognizable, but glove folds/finger contours, cup shape and placement, bottle/chart details and red-lid appearance have visibly changed; the strip still occupies the central diagonal. Instruction: The liquid remains light yellow, with only a slightly stronger yellow tone, instead of the expected darkened urine; the requested severe-dehydration appearance is absent. Knowledge: The supplied dark-brown expectation is not depicted. Instruction failure ⇒ knowledge invalid. Quality: The hand grip, straight strip, cylindrical cup, reflections and material textures are coherent and natural, with no noticeable artifacts; background defocus does not impair scene comprehension."
+    },
+    {
+      "blind_id": "case_ff3a01cc78bf52bb93f4",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Glove folds and pose, strip with beige/yellow pads, bottle/chart, red lid, cup rim and tabletop remain visually unchanged; altered liquid color and reflections are within the requested urine edit. Instruction: The pale urine becomes deep reddish brown with amber light at its edges, fulfilling the expected dark concentrated appearance in the existing cup. Knowledge: The deep brown central liquid and brown appearance through the cup wall match the supplied dark-brown explanation. Quality: Coherent cup geometry and hand anatomy, natural surface highlights and a small bubble, intact glove/plastic textures and no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_1c5da83d05881a7c5462",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The glove folds and finger shape, cup placement/proportions, bottle chart colors and lettering, red lid and strip tip have changed, although the basic hand-strip-cup arrangement remains. Instruction: Light yellow urine becomes very dark brown in the cup, precisely giving the requested severe-dehydration appearance. Knowledge: The dark brown center with translucent brown-gold edges directly matches the supplied dark-brown expectation. Quality: Hand, cup and liquid have coherent geometry, natural shading and intact textures; the upper strip pad has a small crumpled, uneven edge that reads as a minor local imperfection."
+    }
+  ]
+}

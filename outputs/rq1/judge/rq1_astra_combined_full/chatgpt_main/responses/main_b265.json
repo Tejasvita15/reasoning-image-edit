@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b265",
+  "results": [
+    {
+      "blind_id": "case_a0c7d51f5ab1f3eb6a9d",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The crane-and-pine subject and flowers remain recognizable, but the painting is vertically compressed/cropped at the bottom and the carved bottom frame is replaced by a thin plain rail; these exceed the permitted background/glow changes. Instruction: Blue gradient, cloud motifs, centered painting and a light halo are added. The expected surrounding flying cranes are absent, the title is nonsensical script rather than the requested serif wording, and bottom text is garbled and centered rather than handwritten event information at bottom left; partial compliance. Quality: Structural coherence is problematic because all three text regions contain malformed nonsense; the frame and painted scene remain coherent. Gradient and cloud textures are natural for a poster, but distorted lettering and the internal watermark are distracting artifacts."
+    },
+    {
+      "blind_id": "case_3725c2a3b08ca1d0e912",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Painted crane poses, tree, rocks, flowers and inscription placement are retained, as are the rectangular frame and two gold hangers. The frame's floral relief carving is visibly redrawn/simplified, a clear non-requested change; the blue surround and glow are excluded. Instruction: The image adds light clouds, three flying cranes, a blue gradient and warm frame halo, keeping the painting centered. The correct large title is present but in connected calligraphic script; the bottom-left handwriting and text do not convey readable event information, so compliance is partial. Quality: Painting, frame and sky are structurally coherent with plausible decorative lighting and textures. Bottom-left writing is malformed and the image contains multiple watermark-like marks, giving several distracting text/artifact issues."
+    },
+    {
+      "blind_id": "case_a3522cd4a1086f96addc",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The original crane grouping, pine, rocks, flowers and dark rectangular frame remain identifiable. The painting's internal linework and inscription are visibly washed out and degraded beyond the frame glow request; background clouds and halo are excluded. Instruction: Blue gradient, clouds, centered painting and glow are added, but the expected flying cranes outside the frame are absent. The title reads altered words rather than the requested phrase and mixes script with sans serif; bottom-left text is gibberish rather than handwritten event details. This is partial compliance. Quality: Structural coherence and texture fidelity are problematic: the frame has streaked/ghosted edges and the painting is heavily veiled, losing detail. Malformed title and footer lettering plus watermark-like marks introduce multiple distracting artifacts; the blue cloudy background itself remains coherent."
+    },
+    {
+      "blind_id": "case_09d79405df117e7aa04b",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The crane poses, pine tree, rocks, pink flowers, inscription area and twin hangers remain in the original arrangement. The frame's carved floral ornament is visibly simplified/redrawn; requested background and lighting changes are excluded. Instruction: Centered artwork, muted blue gradient, outlined cloud motifs and a subtle halo are added. The expected cranes surrounding the frame are absent, the large script title does not reproduce the specified wording or serif treatment, and garbled lower-right text fails the bottom-left event-information requirement; partial compliance. Quality: The frame and painted scene have coherent shapes and textures and the cloud ornament fits the composition. Structural/text coherence fails in the title, subtitle and footer, with malformed nonsensical words and watermark-like marks causing multiple distractions."
+    },
+    {
+      "blind_id": "case_7f29d41d4622ccf6087c",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The original crane and pine composition, flowers, rocks, inscription placement and twin hangers remain. The relief motifs along the wooden frame are visibly changed/simplified; the requested glow and cloud background are not counted. Instruction: The centered painting receives a blue gradient, clouds, surrounding flying cranes and a warm highlight. The title wording is present but very small sans serif at upper left rather than large elegant serif, while the bottom-left signature and garbled fine print do not supply readable event information; partial compliance. Quality: Frame and painting structure, illumination and surface textures are coherent. The right exterior crane has ambiguous dangling black anatomy, footer text is malformed, and several watermark-like marks remain; these create multiple visible semantic/artifact problems."
+    },
+    {
+      "blind_id": "case_e8fd485f1fe00c7a6336",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Crane positions, pine branches, rocks, flowers and inscription layout are preserved along with the dark frame silhouette and gold hangers. The frame's carved side and top floral patterns are noticeably redrawn, a clear non-requested change; clouds and glow are excluded. Instruction: The painting stays centered amid a blue gradient, soft clouds and three flying cranes with a warm frame halo. The exact title is large but rendered in connected script instead of serif, and the bottom-left handwriting/fine print is not readable event information; partial compliance. Quality: The picture, frame geometry, sky and lighting are coherent with intact painted textures. Bottom-left letterforms are nonsensical and multiple watermark-like marks intrude, producing several distracting textual/artifact issues."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b299",
+  "results": [
+    {
+      "blind_id": "case_bf44ccef8e8ec3167a55",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The wood frame, white surround, grain on the existing tiles and brown circled numerals remain visually consistent; a new zero tile fills the previously empty square, an addition beyond rearranging the existing pieces. Instruction: The only substantive board change is that zero tile; tiles 1–15 remain in their source positions. Completion requires rows 1–4, 5–8, 9–12, and 13–15 followed by an empty bottom-right square, so the instruction is not fulfilled. Knowledge: The supplied explanation is blank; the visible zero-filled board also conflicts with the task-implied single-empty-space logic. Instruction failure ⇒ knowledge invalid. Quality: Structure, legible symbols, lighting, wood texture and clean tile borders are satisfactory, with no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_f231504b89e504d125ef",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The wooden frame and white background are recognizable, but the wood surface has become mottled and grainier, the numerals and circles are darker/redrawn, and the frame/grid proportions change. Instruction: The upper-left gap remains; 5 is replaced by 7, and 12 and 13 become 1 and 3, without producing the required ascending rows 1–4, 5–8, 9–12, 13–15 and bottom-right gap. This is label corruption rather than completion. Knowledge: No explanation was supplied; duplicated 1, 3 and 7 and missing 5, 12 and 13 visibly violate the task-implied numbered-piece inventory. Instruction failure ⇒ knowledge invalid. Quality: The wooden grid, shadows and numeral legibility are satisfactory, but repeated 1, 3 and 7 labels make the numbered board semantically incoherent, a clear visible flaw."
+    },
+    {
+      "blind_id": "case_6a81cfae61507da2f6e1",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white surround, wood material, brown circled numeral style and individual tile grain are retained; the board and grid are visibly expanded within the image, changing their geometry and margins. Instruction: Every numbered tile remains in the original offset order with the gap at upper left. The expected completion is 1–15 in ascending row order with the gap at bottom right, so no requested rearrangement is shown. Knowledge: The explanation is blank; judgment follows the mandatory failure coupling, also supported by the visibly uncompleted layout. Instruction failure ⇒ knowledge invalid. Quality: The square tile grid, legible numbers, natural wood grain, recess lighting and clean contours are coherent without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_72ae8d2458ed20da2bbe",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The wooden construction and white background remain, but numerals and circles are substantially darker, wood grain is redrawn, and the frame/grid extend differently toward the bottom and right margins. Instruction: The gap stays upper left and the numbered pieces remain in the same offset sequence. Completion should show 1–4 across the top and 13–15 plus a gap along the bottom; this has not been done. Knowledge: The supplied explanation is blank, and the visible arrangement supports the mandatory instruction-failure coupling. Instruction failure ⇒ knowledge invalid. Quality: The tile shapes, readable markings, natural surface texture and recessed shadows are satisfactory, with no noticeable rendering defects."
+    },
+    {
+      "blind_id": "case_18e2d9d80a8961219a83",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Brown circled numerals and wooden construction persist, but a zero-bearing tile is added, frame grain and proportions change, and a new right-side cast shadow alters the surrounding appearance. Instruction: Filling the upper-left gap with 0 leaves the original numbered pieces in place. The expected completed 15-puzzle has ascending rows 1–4, 5–8, 9–12, then 13–15 and a bottom-right gap; that rearrangement is absent. Knowledge: No explanation was supplied; the zero-filled grid fails the task-implied empty-space logic. Instruction failure ⇒ knowledge invalid. Quality: Clean square pieces, legible markings, coherent wood texture and plausible frame shadow give a natural, artifact-free rendered board."
+    },
+    {
+      "blind_id": "case_26e954c5db3f937ce7a5",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The wooden board and white surround remain recognizable, but multicolored speckling and coarse texture alter the frame and many tiles, while circled numerals are darkened/redrawn and the grid/frame proportions shift. Instruction: All tiles retain the original offset order and the gap remains upper left. The required ascending 1–15 arrangement with the gap at bottom right is not present. Knowledge: The explanation is blank; the visible failure to rearrange supports the mandatory failure coupling. Instruction failure ⇒ knowledge invalid. Quality: Tile structure and numbers remain readable, and the overall lighting is coherent, but distracting colored speckling and rough blotchy surface texture visibly degrade much of the board."
+    }
+  ]
+}

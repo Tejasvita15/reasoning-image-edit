@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b219",
+  "results": [
+    {
+      "blind_id": "case_8a5bbf9e016fb3db12b7",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Composition, hanger position, shirt outline and sleeve lengths remain, but the gray backdrop becomes visibly mottled and the fabric's small wrinkles and hem folds change. The requested black recoloring is excluded. Instruction: The white short-sleeved shirt becomes black over its body, collar and both sleeves; the expected black version of this garment is fully present, so compliance is perfect. Quality, edited image alone: Structure and lighting are coherent, with credible fabric drape and clean garment edges; slight blocky mottling in the gray backdrop is a minor texture imperfection."
+    },
+    {
+      "blind_id": "case_c939731f8538d01a642c",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The centered shirt, wooden hanger, suspension rod and gray backdrop retain their layout and shapes. The garment's fine crinkles and bottom hem undulations are visibly smoothed/reworked, a clear non-color fabric-detail change. Instruction: The observed white-to-black change covers the entire short-sleeved garment, including collar and sleeves, matching the expected black shirt completely. Quality, edited image alone: Coherent shirt construction, natural hanging folds and shading, clean edges, plausible wood and fabric textures, and no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_dc3da023b4fdc79febde",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Hanger and rod placement, backdrop, shirt silhouette and framing are retained; fine torso creases and lower-edge ripples are reduced and reshaped rather than merely recolored. This is a noticeable fabric-detail alteration outside the allowed color change. Instruction: The shirt is now black across the torso, sleeve panels and neckline, exactly the expected change to the existing short-sleeved garment. Quality, edited image alone: The collar, sleeves and hem form a coherent garment, illumination and hanging drape are natural, and the wood and cloth surfaces show no conspicuous artifacts."
+    },
+    {
+      "blind_id": "case_87fb68329aa32e2a4e56",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The framing, rod position and overall shirt/hanger silhouettes remain. The shirt's crinkled fabric and hem details become much smoother, the hanger's wood grain is redrawn, and the background develops patchy texture. These exceed the requested color change. Instruction: The formerly white short-sleeved shirt is fully black, including its collar and both sleeves, matching the expected black garment without an omitted region. Quality, edited image alone: Shirt construction, edge contours, drape and lighting are coherent; a slight blocky texture across the gray background is a minor visual imperfection, while the garment itself is free of obvious structural artifacts."
+    }
+  ]
+}

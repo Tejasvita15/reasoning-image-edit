@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b082",
+  "results": [
+    {
+      "blind_id": "case_8207d874710525e47506",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The composition, horizon, houses and two shorelines remain recognizable, but foreground rock fissures and distant tree/building contours are redrawn; these are non-requested changes. Instruction: Gray/turquoise water becomes salmon-red throughout, with orange streaks following the currents. The expected red-discolored tide is fully visible. Knowledge: The supplied explanation requires water to turn red; the visibly red water satisfies it. Quality: Structure and perspective are coherent, with continuous foam paths and intact shores; the orange granular streaks have slightly pasted-looking texture, a minor naturalness issue."
+    },
+    {
+      "blind_id": "case_edc8d19793bcb53e6e9f",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The coastal layout and buildings stay in place, but rock surface details, distant vegetation contours and individual foam patterns change visibly beyond the requested water discoloration. Instruction: The water changes from gray/turquoise to vivid red while remaining recognizable as moving water, fully showing the requested red tide. Knowledge: Red water directly matches the supplied expectation that the water should turn red. Quality: The coastline and white surf are structurally legible, but extensive clipped-looking red areas flatten wave shading and create an obviously artificial surface; no broken objects or duplicated structures are visible."
+    },
+    {
+      "blind_id": "case_6bdd3a7d30a332c55586",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Rock shapes and fissures, distant houses and vegetation, horizon and major foam paths remain aligned with the source; a slight warm tint in the pale sky is the only small non-requested change. Instruction: The turquoise foreground and middle water turn burgundy-red, fading toward the distance. This clearly depicts the expected red-discolored tide. Knowledge: The water visibly turns red as specified by the supplied explanation; a paler distant area introduces no contradiction. Quality: The currents, white foam and rocky shoreline are coherent, with natural tonal transitions, believable perspective and no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_bfc4a514ea35735ffa63",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The view, distant land and right shoreline retain their layout, but the foreground foam network is largely replaced by sparse loops, rock textures change and vegetation silhouettes are simplified. Instruction: Water becomes red across the scene, fully supplying the requested visible red tide. Knowledge: The red water fulfills the explicit supplied explanation. Quality: The shore geometry and horizon are coherent, but the very flat saturated red surface and thin, smeared foam loops give the moving water a visibly painted appearance; surface texture lacks convincing depth in substantial areas."
+    },
+    {
+      "blind_id": "case_9e29f3b62896d4cc3ba1",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The houses, headland and rocky shore remain recognizable, but much of the foreground white foam disappears and the headland/shore contours and rock detailing shift. These exceed the requested discoloration. Instruction: A broad red area develops across the foreground and middle currents, with gray water at the horizon and in some eddies; this clearly shows a red tide occurring. Knowledge: The affected water turns red, directly satisfying the supplied explanation; complete coverage was not required. Quality: Coastline structure and perspective are coherent and the red patch blends continuously with gray water, though the smooth foreground has a mildly airbrushed surface texture."
+    },
+    {
+      "blind_id": "case_51afa083e4ac7bcabbe5",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Overall coastal composition, house locations and horizon remain recognizable, but the foreground rocks acquire altered fissure textures, distant foliage contours change and the foam is reworked. Instruction: Gray/turquoise water becomes red-orange throughout the visible currents, fully presenting the requested red tide. Knowledge: The visible red water matches the supplied requirement that the water should turn red. Quality: Swirling water, foamy crests and rocky banks remain structurally coherent with consistent perspective; the strongly processed, glossy foam and ripple texture is a minor naturalness flaw, without major structural artifacts."
+    }
+  ]
+}

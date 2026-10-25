@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b316",
+  "results": [
+    {
+      "blind_id": "case_c09ddbc77140df37574d",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, two-object layout, green handle color and broad metal blades are retained; the small silver scissors are visibly remodeled, with opened blades and a new exposed pivot. Instruction: The observed change is to the small scissors. A compliant edit would shrink the green-handled scissors to the silver pair\u2019s size; the green pair remains much larger, so the requested resizing is absent. Quality, evaluated on this image alone: coherent open silver scissors and closed green scissors, plausible metal and plastic, natural contact shadows, and no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_383614bab0cf50ba6fb3",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The original silver scissors, green-handled scissors, white background and diagonal arrangement remain recognizable and substantially preserved, but an additional small silver pair has been introduced at upper left. Instruction: An extra silver pair appears while the large green scissors remain large. The expected result is the existing green pair reduced to the original silver pair\u2019s size; adding another pair does not fulfill this, so the instruction is not followed. Quality, evaluated on this image alone: all three scissors have coherent shapes, plausible surfaces and shadows; their separate arrangement is natural, without visible structural defects."
+    },
+    {
+      "blind_id": "case_a4c3d80392e5b47f4f57",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and overall two-scissors arrangement remain; the silver pair has clearly altered blade proportions and a lower-pointing tip. The green handle color and broad-bladed construction are retained. Instruction: The visible alteration is primarily to the silver pair\u2019s shape, while the green scissors still occupy a much larger span. The expected shrinking of the green pair to match the small pair is absent. Quality, evaluated independently: both scissors have intelligible blades and handle rings, believable material highlights and contact shadows, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_3ef6b1379e93ce270ee3",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and general diagonal arrangement remain, but the silver scissors have lost their blades in favor of two extra loops, and the large green handle loops have changed shape, particularly the upper loop. These are non-requested structural changes. Instruction: The green scissors remain much larger than the silver object; a correct result would reduce the existing green pair to the small pair\u2019s size. Remodeling the silver object does not perform that change, so compliance is absent. Quality, evaluated on this image alone: the silver object has four finger loops and no cutting blades, a clear semantic and structural defect. The large scissors, material rendering, background and shadows otherwise look coherent."
+    },
+    {
+      "blind_id": "case_fb2ca7d1c5e31b1815bc",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, two-object placement and green-and-metal construction are retained. The small silver scissors have visibly different blade contours and a slightly shifted tip, so this non-target object is not unchanged. Instruction: Both pairs retain their large size disparity; the green pair has not been reduced to the silver pair\u2019s size as required. The small contour changes do not constitute the requested adjustment. Quality, evaluated independently: plausible scissors construction, continuous handle rings, coherent metal surfaces and natural shadows; no conspicuous artifact or semantic ambiguity."
+    },
+    {
+      "blind_id": "case_cc1063943765f5a2de33",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, green color, broad blade design and two-object arrangement persist. The silver scissors have noticeably lengthened, straighter blades and a tip moved down and left, changing an object that was not requested to change. Instruction: The green scissors still span far more of the image than the silver pair. A successful edit would shrink the green pair to the silver pair\u2019s size, and that change is absent. Quality, evaluated solely on the edited image: the closed blades and handle loops are structurally coherent, the materials and lighting are plausible, and no noticeable ghosting, distortion or surface corruption is present."
+    }
+  ]
+}

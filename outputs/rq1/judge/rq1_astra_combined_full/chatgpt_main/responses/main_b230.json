@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b230",
+  "results": [
+    {
+      "blind_id": "case_3a07d8f7624ecfe0dd33",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The wooden surface, blurred stationery, and tall left eraser's printed sleeve remain substantially consistent; the right reference eraser is noticeably shortened, an unrequested change. Instruction: The left eraser remains tall while the right eraser becomes shorter. A compliant edit would shrink the left eraser to the original right eraser's size; the wrong object is resized and the size mismatch persists, so this is non-compliance. Quality, assessed only from this edited image: Structural coherence, natural lighting and shadows, artifact absence, and surface texture are satisfactory; the packaging text is legible and the two objects have coherent shapes."
+    },
+    {
+      "blind_id": "case_45dfa72663500e03f7e0",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The wood setting, blurred background stationery, and recognizable sleeve graphics are retained, but the small right eraser is visibly reduced and its top sits lower; this is one clear unrequested object change. Instruction: The left eraser is slightly reduced, but the right eraser is also reduced and the left remains substantially taller and wider. The expected result is a left eraser matching the original small eraser; the required size adjustment is mostly missing. Quality, assessed only from this edited image: Structural coherence, naturalness, artifact absence, and texture fidelity are satisfactory; straight sleeves, readable print, plausible rubber edges, and grounded shadows show no noticeable generation flaws."
+    },
+    {
+      "blind_id": "case_7bc82f93a05b15370694",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The wood grain setting, background stationery, and sleeve identities remain recognizable and substantially preserved. The small right eraser has nevertheless been shortened, with its upper edge noticeably lowered, constituting a clear unrequested change. Instruction: The large left eraser is modestly shortened, yet it remains much taller and broader than the newly shortened right eraser. It should instead match the original small eraser's size; most of that adjustment is not achieved. Quality, assessed only from this edited image: Structural coherence, natural lighting and perspective, artifact absence, and texture fidelity are satisfactory. Both erasers and their printed sleeves remain plausible and legible without distracting distortion."
+    },
+    {
+      "blind_id": "case_c3ffd028bf15fae04914",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The wooden setting and blurred stationery remain broadly recognizable, but the right eraser is shortened and loses its boxed logo, while both exposed erasers and sleeve openings acquire smoother rounded contours. These are multiple noticeable unrequested alterations. Instruction: The left eraser retains its tall scale while the right becomes markedly shorter; the expected edit would reduce the left to the original right eraser's size. The requested size match is absent and the smaller object is changed instead, giving non-compliance. Quality, assessed only from this edited image: Structural coherence, naturalness, artifact absence, and texture fidelity are satisfactory. Rounded eraser bodies, folded sleeves, readable lettering, and soft contact shadows form a coherent product image."
+    }
+  ]
+}

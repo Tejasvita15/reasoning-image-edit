@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b108",
+  "results": [
+    {
+      "blind_id": "case_baaf5b2f208b933c4a6c",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The brown dog, raised ears, smiling mouth and tucked forelegs remain recognizable, but its facial/fur detail is redrawn with conspicuously rippled chest texture, and a second blurred tail-like projection appears to its right. Requested lawn, placement and caption changes are excluded. Instruction: The white setting becomes a softly focused textured green lawn and the leaping dog is centered slightly low. An ideal edit would preserve the pose and add a small upper-left pale handwritten 'Full of Joy.' caption. The pose and lively expression are retained, but the two-line caption is large and reads 'Full of Joy!' instead; partial compliance. Quality, edited image alone: Structure is mostly coherent and the text legible; naturalness/artifact checks fail on the extra tail-like streak and conspicuously processed, wrinkled fur. Lawn texture and lighting are plausible."
+    },
+    {
+      "blind_id": "case_7054d51acfdf700f64c9",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The tan coloring and general airborne orientation remain, but the eyes are enlarged and reshaped, the muzzle and open mouth are changed, both forelegs are repositioned, and the tail is narrowed into a detached-looking strip. These exceed requested background/layout/text changes. Instruction: The edit supplies a soft green lawn and a cheerful jumping dog with pale handwritten text. The expected result is the same pose/expression slightly below center with a small upper-left 'Full of Joy.' caption. The actual caption is unrelated garbled lettering, with another large text block at lower right, and the original expression/pose is not faithfully preserved; partial compliance. Quality, edited image alone: Structure/artifact checks fail on the floating tail segment, unnaturally glossy bulging eyes and malformed lettering in both text blocks. The lawn and body texture otherwise read coherently; multiple distracting errors warrant 2."
+    },
+    {
+      "blind_id": "case_eb233244947f881b1a5a",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Facial shape, smiling mouth, asymmetric raised ears, brown coat and tucked forepaw arrangement are substantially retained. A clear extra tail-like appendage extends diagonally right from the back while the upright tail remains, constituting a noticeable non-requested anatomical addition. Requested background, framing and text changes are excluded. Instruction: A textured softly blurred green lawn replaces the white setting and the leaping dog sits slightly low in the center. The intended result calls for a small pale handwritten upper-left 'Full of Joy.' caption with the dynamic expression preserved. The expression and placement work, but the caption is an oversized two-line 'Full of Joy!' headline; partial compliance. Quality, edited image alone: Text is legible, lawn and fur textures are coherent, and lighting is plausible. Structural/artifact checks fail on the two tail-like projections, a clear anatomical duplication. Moderate softness is not penalized."
+    },
+    {
+      "blind_id": "case_64a0d9bf6e7ea79968f4",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The tan dog and broad airborne orientation remain, but the eyes become conspicuously round and pale-rimmed, the muzzle/open mouth change, the right ear is more pointed, and the extended forepaw is reshaped. These are multiple non-requested changes beyond allowed lawn, placement and caption edits. Instruction: The edit introduces a gentle green lawn with natural foreground texture and a centered jumping dog, plus pale-yellow handwritten lettering at upper left. The ideal is the original pose and expression slightly lower in frame with a small 'Full of Joy.' caption. The supplied large lettering instead forms an unrelated malformed word, and facial/limb details are changed; partial compliance. Quality, edited image alone: Body, airborne limbs, lawn perspective and fur texture are largely coherent. Artifact/semantic checks fail on nonsensical fused lettering and the unusually round, mismatched-looking eyes. These are noticeable flaws, with no penalty for the soft background."
+    }
+  ]
+}

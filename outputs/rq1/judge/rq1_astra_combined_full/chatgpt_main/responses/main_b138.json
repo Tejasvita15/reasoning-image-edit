@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b138",
+  "results": [
+    {
+      "blind_id": "case_a5a841c769e2ac4fa3e1",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: White background, two-turtle arrangement and poses remain, but shell surface detail and both faces/leg scale textures are visibly redrawn. Instruction: The left turtle remains much larger in shell height, width and head size; a correct edit would shrink it to the right turtle's size. No meaningful requested size match is visible. Quality: Structure, natural lighting, shadows and shell/skin texture are coherent, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_fbc69af209cec40fa0e6",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: White studio setting and left/right identities remain, but the right turtle moves down/right, limb positions change, and the faces and shell contours are redrawn. Instruction: The left turtle is still substantially larger than the right; the expected reduction to equal apparent size has not occurred. Quality: Both animals have coherent shells and limbs, natural contact shadows, and convincing textured surfaces without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_65c2f53124aac126b422",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white setting and two-animal layout persist, but the left shell silhouette and rear leg position change and the right face/feet are redrawn. Instruction: The large left turtle still has a conspicuously wider and taller shell and larger head than the small right turtle; the requested equal-size result is absent. Quality: Shell construction, visible anatomy, lighting and grounded shadows are coherent; textures remain natural with no clear generation defects."
+    },
+    {
+      "blind_id": "case_85ec9ad89c652316d30a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and left turtle placement remain, but the entire right turtle disappears and the remaining turtle's face and shell rim change. Instruction: Removing the small turtle does not resize the large turtle to match it; the remaining animal retains its large apparent scale. Quality: Considered alone, this single-turtle image has coherent anatomy, plausible shell/skin detail and soft contact shadows, with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_d32a2884b2e36e1414c1",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and side-by-side layout persist, but both animals sit higher, the left head/front shell opening change, and the right feet and face are redrawn. Instruction: The left turtle remains clearly larger than the right in shell dimensions and head size; the expected reduction to the small turtle's size is not achieved. Quality: Both turtles appear structurally coherent, with natural lighting, contact shadows and detailed shell and skin textures; no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_0675ac7c8e0cb53aadda",
+      "status": "unreadable",
+      "consistency_score": null,
+      "instruction_score": null,
+      "quality_score": null,
+      "knowledge_score": null,
+      "rationale": "The supplied edited image displays as a blank near-white field in two direct original-detail views. No turtle, shell, head or other task-relevant detail is identifiable, preventing reliable scoring of this source–edited pair and edited-image quality."
+    }
+  ]
+}

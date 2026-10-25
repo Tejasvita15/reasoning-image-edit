@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b303",
+  "results": [
+    {
+      "blind_id": "case_a6f03a4519c7e44009bf",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The frontal crop, gray indoor panel and ceiling lights remain recognizable, but the exposed nose is longer/lower and the sweater knit and collar detail are visibly redrawn; these are unrelated to raising the mask. Instruction: The mask top and folds change, but its upper edge remains below both exposed nostrils. The expected correction is a mask raised over the nose as well as the mouth; that correction is absent (1). Knowledge: The supplied explanation requires nose coverage, whereas the entire nose tip and nostrils remain outside the mask. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: Structure ✔, natural lighting ✔, artifact-free ✔, texture fidelity ✔; the face, elastic loops, fabric folds and knit clothing are coherent without a noticeable generation defect (5)."
+    },
+    {
+      "blind_id": "case_5b9d00e19d6950b4c8fc",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The close frontal composition and general indoor background persist, but facial pores/wrinkles and nose shape, neck creases, and the sweater pattern/contrast change noticeably. Instruction: The mask upper band is lowered and redesigned, exposing skin below the nostrils. Correct wearing would raise it over the nose; no required nose coverage is achieved (1). Knowledge: Both nostrils and the nose tip remain exposed, directly contrary to the supplied requirement that the mask cover the nose. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: Structure ✔ and lighting ✔; texture fidelity ✘, with conspicuously etched skin detail and a stark, wormlike black-and-white sweater pattern giving surfaces an artificial rendered appearance. These are noticeable texture artifacts, though face, mask and room remain coherent (3)."
+    },
+    {
+      "blind_id": "case_9745d62f59d94eec7751",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The same general frontal portrait, dark sweater and pale indoor panel remain, but the face/ear contours and skin texture are altered, the collar and knit pattern change, and the horizontal background boundary moves upward. Instruction: The mask is reshaped with a slightly peaked top edge, yet the nose tip and both nostrils remain visibly above it. A correct result would cover the nose; that essential modification is absent (1). Knowledge: The supplied explanation calls for nose coverage, and the exposed nostrils demonstrate that this is not accomplished. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: Structure ✔, naturalness ✔, artifact-free ✔, texture fidelity ✔; facial anatomy, mask pleats, ear loops, sweater and defocused indoor setting are visually coherent (5)."
+    },
+    {
+      "blind_id": "case_6c73a3a7309d6f93db64",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The portrait remains centered in a similar indoor setting, but facial surface detail and nose/ear shapes change, the sweater has a different knit/collar structure, and the ceiling lights and background proportions are altered. Instruction: The mask has a new peaked upper seam and different folds, but still sits below the exposed nose and nostrils. The expected nose-covering placement is not present (1). Knowledge: Visible nostrils above the mask contradict the supplied explanation that it should cover the nose. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: Structure ✔, natural lighting and perspective ✔, artifact-free ✔, texture fidelity ✔; the skin, elastic attachments, folded fabric and sweater form a coherent photographic image without conspicuous defects (5)."
+    }
+  ]
+}

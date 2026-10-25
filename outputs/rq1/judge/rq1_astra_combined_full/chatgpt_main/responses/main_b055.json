@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b055",
+  "results": [
+    {
+      "blind_id": "case_4c2296a85d537deb4da2",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The original trunk positions, visible mossy ground, and central golden sun with long ground shadows are replaced by a different enclosed forest composition; canopy and foliage additions themselves are excluded. Instruction: Dense broadleaf foliage, overlapping tree crowns, lower ferns and shrubs, and hanging vines have appeared. A dense tropical canopy with several vegetation heights is expected, and these layers fully realize it. Knowledge: Tall upper crowns, understory plants, and numerous descending/intertwining vines visibly satisfy the supplied biological expectation. Quality: Structure, leaf forms, depth, diffuse lighting, and vegetation textures are coherent, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_1d413676706b258a09a3",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The source's individual trunk arrangement, moss-covered floor and low central sunlight with long shadows are replaced; a broad reddish bare-earth clearing now defines the foreground. Requested canopy additions are excluded from this judgment. Instruction: Overlapping tropical tree crowns, large broad leaves, dense lower vegetation, and hanging vines replace the sparse upper forest. The expected dense multilayer tropical canopy is fully present. Knowledge: Tall trees rise behind shrubs and ferns, while hanging vines connect the green layers, matching the supplied explanation. Quality: Forest depth, lighting and ground are coherent; one small issue is the conspicuously isolated pale central leaf with an unclear attachment, while the remaining foliage textures and structures are natural."
+    },
+    {
+      "blind_id": "case_70276490fea9d7416a28",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Original foreground trunk positions and bark, mossy floor, small ground growth, central sunlight and long diagonal shadows remain visually unchanged; the added overhead and background tropical foliage is the requested change. Instruction: Large palm crowns and broad leaves have been added above and between trunks. A dense tropical canopy with multiple substantial layers is expected, but the result remains open below a dominant palm tier, so layering and density are only partly achieved. Knowledge: Tall tropical trees are present, but the expected understory shrubs and intertwining vines forming connected green layers are conspicuously lacking, a clear mismatch with the explanation. Quality: Trunks, palm fronds, lighting, depth and ground texture are coherent and natural, with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_385f6039b49701ecd2ef",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "Consistency: The original trunk arrangement, ground surface and ground-shadow pattern are lost in a new deep vegetation-filled composition dominated by a central slender palm; these scene changes extend beyond adding canopy foliage. Instruction: Dense tropical crowns, giant foreground leaves and several descending layers of shrubs and palms have appeared. This meets the expected dense multilayer rainforest canopy. Knowledge: Tall trees and thick understory visibly fulfill most of the explanation, but clearly intertwining vines are scant, a minor omission from the specified vegetation structure. Quality: Palm geometry, overlapping leaves, atmospheric depth and warm sun illumination are coherent; textures are natural and no noticeable generation defects are visible."
+    }
+  ]
+}

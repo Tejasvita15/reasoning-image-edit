@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b208",
+  "results": [
+    {
+      "blind_id": "case_6d48c4da8ba60f8a6c65",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The pale grid, dark middle dividers, seven original clues, white background and placement remain unchanged; additions are excluded. Instruction: Only r1c3=1, r3c1=0 and r3c2=3 were added, leaving six required cells empty. A completed grid should read 4312 / 1234 / 3421 / 2143; most additions are missing and two are incorrect. Knowledge: The supplied explanation is blank; the mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: Independently, the grid is coherent, symbols are legible, and the plain background has no noticeable artifacts; mild softness does not impair reading."
+    },
+    {
+      "blind_id": "case_5cb516b1d0ab65fa2869",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 2,
+      "rationale": "Consistency: Clue values and positions and the grid layout remain, but the originally clean clue edges now have colored speckles and the grid/background have visibly mottled edges and marks. Instruction: All blank cells are filled, producing 4312 / 1234 / 0523 / 2114 instead of the required 4312 / 1234 / 3421 / 2143; this is partial completion with several incorrect entries. Knowledge: No explanation was supplied; task-implied Sudoku logic is violated by 0 and 5, duplicate 1s in row four, and repeated entries in columns and blocks. Quality: Independently, the square grid and digits are clear and coherent, with minor colored edge noise around several glyphs and lines."
+    },
+    {
+      "blind_id": "case_737e3a320f840b673b05",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 2,
+      "rationale": "Consistency: Original clue values and cell placement remain, but the outer grid border is now heavy black and the original clues/background acquire colored grain. Instruction: All blanks are populated, yielding 4312 / 1232 / 4325 / 2143 rather than 4312 / 1234 / 3421 / 2143; several required entries are wrong despite completing the visible grid. Knowledge: The explanation is blank; task-implied rules are violated by the 5 in row three, repeated 2 in row two, and repeated values in columns and blocks. Quality: Independently, the rectangular grid and every numeral are legible with coherent spacing; minor multicolored speckling appears around glyph edges and intersections."
+    },
+    {
+      "blind_id": "case_bb3cdcee0eeac3a2d077",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 2,
+      "rationale": "Consistency: The grid arrangement and original clue values/locations persist, but colored speckles alter the original numeral edges and mottling alters the white background and grid lines. Instruction: Blank cells have been filled as 4312 / 1234 / 3824 / 2134; the expected solution is 4312 / 1234 / 3421 / 2143, so the completed-looking grid is only partially correct. Knowledge: With no supplied explanation, task-implied Sudoku logic supplies the basis: 8 is outside 1–4 and column four repeats 4 three times, with further column/block conflicts. Quality: Independently, all symbols and cells are readable and geometrically coherent; slight colored grain in the white surface and around printed strokes is a minor artifact."
+    },
+    {
+      "blind_id": "case_04610171f6069c384488",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "Consistency: The original seven clues, pale grid, dark center dividers, white background and relative placement are preserved; only the requested blank-cell contents change. Instruction: Every blank receives a digit, yielding 4312 / 1232 / 4323 / 2133 instead of 4312 / 1234 / 3421 / 2143; this implements filling but not an accurate solution. Knowledge: The supplied explanation is blank; visible task-implied violations include repeated 2 in row two, repeated 3 in rows three and four, and column/block duplicates. Quality: Independently, the clean rectangular grid, centered legible digits and uniform background are coherent and free of noticeable artifacts."
+    },
+    {
+      "blind_id": "case_f5e8fc47e777791ee3f3",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 2,
+      "rationale": "Consistency: The original clue values and positions and the grid layout remain, but existing glyph edges become speckled and the pale grid/background gains colored mottling. Instruction: All blank cells are filled to show 4313 / 1235 / 1424 / 2132; the appropriate completion is 4312 / 1234 / 3421 / 2143, so filling is achieved but many entries are wrong. Knowledge: No explanation was provided; task-implied Sudoku logic is contradicted by 5 in row two, repeated 3 in row one, repeated 4 in row three and repeated 2 in row four, alongside column/block conflicts. Quality: Independently, the grid structure and numerals remain clear, with a minor colored-grain artifact along some glyph and grid edges."
+    }
+  ]
+}

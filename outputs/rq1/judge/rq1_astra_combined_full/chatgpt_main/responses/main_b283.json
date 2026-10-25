@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b283",
+  "results": [
+    {
+      "blind_id": "case_1f8566f2e436e4c52b34",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Apart from the permitted H deletion, all retained nodes A–G and every connecting edge have disappeared; the original tree layout is entirely lost. Instruction: The output is a blank white field; the expected edit removes only H and its E–H edge while retaining G as the sole child of E. Erasing the whole tree completely misinterprets the request. Knowledge: The explanation specifies deleting H; the absent G cannot be shown as an only child. Instruction failure ⇒ knowledge invalid. Quality: Judged solely as the displayed image, the plain white field has no visible distortion, broken marks, ghosting, or texture artifacts; absence of requested content is assessed under instruction."
+    },
+    {
+      "blind_id": "case_399077f31fb7ea2634fb",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: A, B, C, D, F and their remaining connections retain the tree arrangement, white background and black labeled-circle style; beyond permitted H removal, E and G and their connecting branch are also deleted. Instruction: E, G and H are gone. The expected edit removes H alone and leaves G attached to E; removing the target G makes the requested result substantially incorrect. Knowledge: H is absent as the explanation requests, but G is also absent rather than remaining E’s only child. Instruction failure ⇒ knowledge invalid. Quality: The five-node diagram has legible labels, coherent circles and connected edges on a clean white field, without noticeable structural or rendering artifacts."
+    },
+    {
+      "blind_id": "case_43b0415a15feea3bd53f",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: A, B, C, D, F and their positions and main connections remain recognizable; E and G are additionally erased, and the former B–E edge is shortened to a dangling segment. The allowed H deletion is excluded. Instruction: The entire E/G/H region is erased with a residual line below B. The required result is H removed while E and G remain connected; deletion of G leaves the main requested outcome unfulfilled. Knowledge: Although H is removed, G is no longer present as E’s sole child, contrary to the logical outcome of the supplied H-deletion explanation. Instruction failure ⇒ knowledge invalid. Quality: Labels and circles are readable and the white field is clean, but a conspicuous branch from B terminates in empty space, creating one clear structural flaw."
+    },
+    {
+      "blind_id": "case_eb8d127129fe5da63bb2",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The surviving A–B–D and A–C–F branches preserve their arrangement and black-on-white labeled-circle design; E and G and their branch are removed in addition to the allowed H deletion. Instruction: E, G and H have disappeared. A correct edit would remove only H and its edge and retain G beneath E; erasing G substantially fails the requested outcome. Knowledge: The explanation identifies H for deletion, whereas the displayed result also removes the node whose sibling relationship was to be changed. Instruction failure ⇒ knowledge invalid. Quality: The standalone tree is coherent, with clear letters, closed node outlines and continuous connections; mild edge softness does not obscure meaning and there are no noticeable artifacts."
+    }
+  ]
+}

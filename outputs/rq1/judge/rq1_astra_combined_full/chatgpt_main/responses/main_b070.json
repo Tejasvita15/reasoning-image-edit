@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b070",
+  "results": [
+    {
+      "blind_id": "case_5a58415a5e0e54b3090d",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The apple, grid layout, original lower-right worm and lower block bank remain recognizable and essentially preserved; an additional curled worm appears in row four, a clear unrequested object addition. Added directional marks are excluded from consistency. Instruction: Rightward arrows, a downward arrow and several U-shaped arrows have been added only to the bottom two rows. A correct edit would arrange the supplied directional blocks into a route from the lower-right worm to the upper-left apple. No route reaches the apple, and the added directions do not establish that journey, so most required work is missing. Knowledge: The supplied explanation is blank; the mandatory instruction-failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality: The worksheet layout and apple are coherent, but the curled creature has tangled outlines and the leftmost U-arrow has a visibly broken, scribbled tip; these are noticeable local artifacts."
+    },
+    {
+      "blind_id": "case_bb3a83a818b96f43474a",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The apple, overall grid and white worksheet layout are retained; the worm is shifted upward and redrawn as a tangled, differently shaped creature. Path strokes and block manipulation are excluded. Instruction: Thick blue bent lines and oversized arrows overlap the lower block bank and bottom grid row. The expected result is a readable arrangement of the supplied directions connecting the worm to the apple. The marks never extend to the apple and do not supply a valid route, constituting a major omission. Knowledge: No knowledge explanation is supplied; the required instruction-failure rule determines the score. Instruction failure ⇒ knowledge invalid. Quality: The worm outline is malformed, oversized blue paths obscure several arrow symbols, and crossings produce a dark congested junction. These multiple distracting structural errors degrade the diagram."
+    },
+    {
+      "blind_id": "case_2545f8552f24e85e68a1",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The apple and outer worksheet arrangement remain, but several internal grid boundaries have been erased or displaced and the lower-right worm loses its head and recognizable body structure. Added paths and rearranged directional blocks are excluded. Instruction: Numerous blue bends and scattered arrowheads cover the board and lower bank. A compliant result would make a traceable directional-block route from the worm to the apple. Disconnected and conflicting segments fail to connect to the upper-left apple, leaving the central requirement unmet. Knowledge: The explanation is blank; scoring follows the mandatory failure coupling. Instruction failure ⇒ knowledge invalid. Quality: Broken and partially erased arrows, ghosted dashed segments, malformed junctions and a severely fragmented creature create widespread structural failure and garbled diagram symbols."
+    },
+    {
+      "blind_id": "case_5a7999fac8ebfa321183",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The apple, grid and worksheet placement remain essentially preserved. The worm is dramatically elongated and its face redesigned, an unrequested change to the main character; directional-block edits are excluded. Instruction: The worm now stretches diagonally across the board to the apple, while the lower bank contains altered arrows. The requested edit would use those blocks to construct a correct route. No directional blocks are arranged along a route on the board; extending the animal to the target omits the required mechanism. Knowledge: The supplied explanation is blank; the mandatory instruction-failure rule applies. Instruction failure ⇒ knowledge invalid. Quality: The long segmented creature and grid are visually coherent, but the lower bank includes broken arrow outlines and stray detached marks, particularly in the second through fourth upper cells, giving clear localized symbol defects."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b001",
+  "results": [
+    {
+      "blind_id": "case_cb553877ff1e5c80b968",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The upright composition and plain pale backdrop remain, but the stem loses its rough ridged texture and changes its tip, the pepper's front develops a long central groove and different lobes, and surface specks/background floor detail are lost. These are multiple visible non-color changes. Instruction: The green body becomes fully yellow; the expected result is this pepper with yellow skin, and that requested color change is complete. Quality, judged from this output alone: coherent pepper and attached curved stem, natural highlights and contact shadow, clean skin texture and edges; no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_9dfd83666b1809fb812e",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pepper outline, bottom notch, curved fibrous stem, small skin marks, upper highlight placement, pale background and floor specks remain visually consistent. The body's color and corresponding warm shading are the requested edit. Instruction: The body changes from green to yellow over the entire visible skin, exactly matching the expected yellow pepper while retaining its identity. Quality, judged from this output alone: sound lobed structure, natural stem texture, continuous skin shading and plausible floor contact; no visible duplication, ghosting or malformed edges."
+    },
+    {
+      "blind_id": "case_4f659b66af50362cde5f",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The curved stem with its dry hanging tip, pepper silhouette and base lobes, skin blemishes, pale setting and scattered floor marks remain visually unchanged outside the requested recoloring. Instruction: The formerly green flesh is yellow throughout, including the curved shoulders and shaded side; this matches the expected same pepper with yellow skin completely. Quality, judged from this output alone: coherent pepper shape, realistic fibrous stem and fine skin texture, plausible gloss and cast shadow, with no noticeable artifacts; softness does not impair recognition."
+    },
+    {
+      "blind_id": "case_2f34421b17b1c3a3d187",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The single upright pepper and pale background are retained, but the stem's curve and torn tip are reshaped, the shoulders and lower lobes change, skin marks differ, and the floor specks/shadow detail are altered. Multiple non-color elements therefore differ. Instruction: The body is fully yellow instead of green, satisfying the expected yellow-skinned pepper; the requested attribute is completely changed. Quality, judged from this output alone: believable lobed body and attached textured stem, natural small skin blemishes, coherent highlight and ground shadow, and clean contours without noticeable generation artifacts."
+    }
+  ]
+}

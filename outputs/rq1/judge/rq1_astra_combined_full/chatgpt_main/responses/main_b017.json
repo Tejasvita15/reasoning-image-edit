@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b017",
+  "results": [
+    {
+      "blind_id": "case_b21cedd7445dfc214cc9",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: White backdrop, two-fruit arrangement and overlap remain, but the rear fruit gains a conspicuous brown end stem and the ground shadows become warmer and softer. Ripening color and skin appearance are excluded. Instruction: Both green mangoes become yellow, the expected ripe appearance; the requested change is fully present. Knowledge: Both fruits turn yellow, directly matching the supplied explanation. Quality, assessed from this edit alone: Coherent mango shapes, fine skin texture, clean edges and plausible highlights/contact shadows; no noticeable artifact."
+    },
+    {
+      "blind_id": "case_66b9312603a564424e22",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: White background and general leaning arrangement remain, but the upright mango has a larger protruding stem and a changed top contour, while the rear mango's upper contour develops a pronounced dip. Ripening color and skin texture are excluded. Instruction: Both green fruits become predominantly golden yellow; minor green at their ends does not prevent a ripe appearance. Knowledge: The yellow skin fulfills the supplied expectation that the mango turns yellow, with plausible residual green. Quality, assessed from this edit alone: Natural speckled skin, coherent intact fruit shapes, convincing lighting and contact shadows, with no noticeable generation flaw."
+    },
+    {
+      "blind_id": "case_cdde43942f52d5dac5f3",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "Consistency: Background, fruit count and leaning overlap remain, but both silhouettes shift, particularly the upright fruit's higher, broader crown and the rear fruit's raised upper edge; ground-shadow shape and tone also change. Ripening color and skin texture are excluded. Instruction: The green mangoes become ripe-looking orange-gold; the core change is present, though the hue is more orange than the expected yellow. Knowledge: The supplied explanation calls for yellow mangoes; the strongly orange result is a small color deviation from that expectation. Quality, assessed from this edit alone: Structurally coherent fruits, natural small skin blemishes, smooth illumination and convincing support shadows; no noticeable artifact."
+    },
+    {
+      "blind_id": "case_34af4227be005e593937",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "Consistency: White backdrop, fruit outlines, count, positions and overlap are closely retained; the ground shadows visibly change from neutral dark gray to warm reddish brown. Ripening skin color and texture are excluded. Instruction: Both green mangoes become ripe-looking golden orange with some reddish tips; the main transformation is achieved, but yellow is not the dominant hue throughout. Knowledge: The explanation expects yellow skin; the orange-red emphasis is a minor deviation from that specific outcome. Quality, assessed from this edit alone: Coherent mango forms, fine skin texture, intact contours, plausible highlights and grounding shadows, with no noticeable generation artifact."
+    }
+  ]
+}

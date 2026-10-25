@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b151",
+  "results": [
+    {
+      "blind_id": "case_d8d0edb399df30f971dd",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the white background, wooden 3-by-3 frame, blank cells and remaining marks retain their arrangement, but the upper-right X is erased, an unrequested change. Instruction: the central X becomes O; the expected central replacement is present and completes the middle column of three Os. Knowledge: the explanation is blank; task-implied tic-tac-toe logic supports a win from the visible vertical O-O-O line. Quality assessed alone: coherent wooden blocks, legible painted marks, natural recess shadows and continuous wood surfaces, without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_4609a647e415af3b8857",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white backdrop and occupied-cell arrangement remain, but the frame and tile proportions, exposed supports, wood grain and painted-mark contours are visibly redrawn. Instruction: all three Xs remain Xs; the expected central X-to-O change is absent, so no requested modification occurs. Knowledge: the explanation is blank; the mandatory instruction-failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality assessed alone: the nine suspended tiles and frame are coherent, symbols legible, lighting and recess shadows plausible, and surfaces clean without distracting defects."
+    },
+    {
+      "blind_id": "case_2d7fca50f52fbbd6e751",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the background, frame arrangement, other symbols and blank cells are retained; the lower-left wooden tile is visibly reshaped with a flatter, more squared outline beyond the requested paint change. Instruction: the lower-left X becomes O, but the center remains X; a correct result would change the center to complete the middle column. Thus one X-to-O conversion is achieved without the required win. Knowledge: no explanation was supplied; task-implied three-in-a-row logic shows no row, column or diagonal of three Os, a clear conflict with the winning outcome. Quality assessed alone: coherent wooden grid, recognizable marks, plausible lighting and intact wood textures without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_5acf3a27cda167ef13f5",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background and general wooden-grid layout persist, but an unrequested K is added to the bottom-right blank tile, and tile shapes, support visibility and wood details change. Instruction: the central, upper-right and lower-left Xs remain; the required central X-to-O conversion is absent. Knowledge: the explanation is blank; the mandatory instruction-failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality assessed alone: lighting, wooden surfaces and grid structure are coherent, but the conspicuous K mixed with X/O game symbols creates a clear semantic inconsistency."
+    }
+  ]
+}

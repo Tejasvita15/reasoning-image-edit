@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b049",
+  "results": [
+    {
+      "blind_id": "case_265395ae036f9469084b",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The warm wooden surface and white fabric slipper appearance remain, but the visible wood grain is redrawn across the background; shoe movement and associated shadows are excluded. Instruction: The shoes move together and overlap laterally. A successful edit would show one shoe entering the opening of the other; here both complete toe openings remain exposed side by side and neither shoe passes inside the other, so the required containment is largely missing. Quality: Structure, lighting, shadows and fabric texture are coherent; the overlapping shoes have clean boundaries and no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_9a53a53a25402e9e78c7",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The wood grain changes and both formerly flat open heel areas acquire tall enclosing heel walls and interior seams. White fabric color and warm surface lighting remain; repositioning is excluded. Instruction: The shoes are closer together, but each remains separately on the surface with its own unobstructed opening. The expected result is one shoe inserted into the other, which is absent. Quality: The two slippers have coherent outlines, smooth stitched rims, plausible fabric texture and natural contact shadows, with no noticeable generation defects."
+    },
+    {
+      "blind_id": "case_074d3ac246b019f115b4",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The background grain is altered and the slippers gain thick enclosing heel/collar structures absent from the original flat-backed slides. White fabric and warm lighting remain; nesting, rotation and their shadows are excluded. Instruction: The separated pair becomes a central nested form, with an upright inner shoe-like section passing behind an outer band. This conveys containment, but the original two slide shoes are not clearly retained as two complete objects, making the requested insertion only partially realized. Quality: Fabric and illumination are plausible, but the continuous oversized outer cuff and bowl-like inner section fuse the footwear into an ambiguous structure; separate shoe soles and upper boundaries are unclear."
+    },
+    {
+      "blind_id": "case_2cba6bfa5cc982ae6cf7",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: White cloth and the warm wooden setting remain, while the surface grain is visibly redrawn and tall stitched heel enclosures replace the flat exposed heel pads. Shoe relocation is excluded. Instruction: The pair is repositioned close together, with both toe openings and separate footbeds still visible beside one another. One shoe should extend inside the opening of the other; no such insertion is visible, so the instruction is unfulfilled. Quality: Both footwear shapes are intelligible, fabric texture and rim stitching are natural, and lighting and ground shadows are coherent without noticeable artifacts."
+    }
+  ]
+}

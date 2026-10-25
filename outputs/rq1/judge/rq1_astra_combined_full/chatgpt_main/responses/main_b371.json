@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b371",
+  "results": [
+    {
+      "blind_id": "case_391e971a374d686242f8",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Cup body, lid and knob, handle, gray backdrop, tabletop grain and reflection retain their visible shapes, positions and lighting outside the emblem. Instruction: A centered red equal-armed cross has been added to the formerly blank cup; the expected classic red cross on the white cup is present, so the requested attachment is complete. Knowledge: The explanation says the Red Cross should be attached; the red cross visibly sits on the cup surface with plausible shading, satisfying that expectation. Quality, judged from this edit alone: Coherent ceramic geometry, clean emblem edges, natural highlights and contact shadow, and intact surface textures; no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_9348cec4a2e5af83e845",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Composition, gray background and general cup design remain, but the tabletop grain and reflection have visibly changed, and the ceramic surface is brighter and more mottled with altered lid highlights. Instruction: A large upright red cross has been added to the cup front. A classic red cross attached to the white cup is expected; this is present, with no size restriction in the instruction. Knowledge: The supplied attachment expectation is met by the red cross visibly following the cup surface and its highlight. Quality, judged from this edit alone: Cup, lid and handle are structurally coherent; the printed cross follows the curved surface, illumination and shadows are natural, and textures show no distracting generation defect."
+    },
+    {
+      "blind_id": "case_5e204c8ec74d27a049f5",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The cup silhouette, lid, handle, placement and gray background remain consistent; the wooden tabletop has visibly different, more pronounced grain outside the added badge. Instruction: An outlined red badge with a white cross and surrounding lettering has been attached. The expected emblem is a red cross on the white cup; attachment is achieved but the cross colors are reversed and the extra badge design does not match the classic emblem, giving partial compliance. Knowledge: The explanation only says the Red Cross should be attached. Attachment is visible, but task-implied emblem identity conflicts with the white cross on red, a clear knowledge mismatch. Quality, judged from this edit alone: Cup geometry, lighting and metallic badge placement are coherent, but the conspicuous surrounding badge lettering is malformed and nonsensical, a clear semantic artifact."
+    },
+    {
+      "blind_id": "case_68afd145a451c255f8a5",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Outside the emblem, the cup body and base, lid and knob, handle, gray background and wooden surface retain their visible arrangement, contours and lighting. Instruction: A red upright equal-armed cross now occupies the blank cup front, precisely supplying the requested classic emblem on the correct object. Knowledge: The explanation requires the Red Cross to be attached; this recognizable red cross is visibly integrated onto the cup surface, with no logical conflict. Quality, judged from this edit alone: Ceramic form, shadows and background are coherent, but a small pale ragged streak along the left edge of the cross gives its printed boundary a minor texture imperfection."
+    },
+    {
+      "blind_id": "case_2e35740800ce636d67e2",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The lid, knob, cup body and base, handle, gray backdrop, tabletop and reflection appear unchanged outside the requested emblem. Instruction: A red equal-armed cross has been added centrally to the white cup. This matches the expected classic emblem attached to the cup and fully implements the change. Knowledge: The supplied expectation that the Red Cross be attached is fulfilled by the recognizable red cross conforming to the cup face. Quality, judged from this edit alone: Object structure, perspective, illumination and wood texture are coherent; a small pale scuffed streak at the upper left of the red vertical arm is a minor print-texture flaw."
+    },
+    {
+      "blind_id": "case_e6bb17ff8e0c36d45d73",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Overall cup-on-table composition and gray background remain, but the cup lid/knob and handle contours and vertical placement have changed, and the tabletop grain and reflections are noticeably different. Instruction: A red circular emblem with a white cross has been placed on the cup. Attachment of a cross emblem is achieved, but the expected classic red cross on white is replaced by reversed colors within a red disk, giving partial compliance. Knowledge: The explanation only specifies that the Red Cross should be attached; the emblem is attached plausibly, but its white cross on red conflicts with the task-implied identity of the classic Red Cross. Quality, judged from this edit alone: The cup and handle have coherent geometry, the circular print follows the curved face and highlight, and the ceramic, wood, lighting and shadows appear natural without a noticeable artifact."
+    }
+  ]
+}

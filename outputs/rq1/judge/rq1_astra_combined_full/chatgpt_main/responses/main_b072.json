@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b072",
+  "results": [
+    {
+      "blind_id": "case_ad38369eca9f9e74031a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The painting itself is excluded from this check. The hand and brush retain their general placement, but the hand is redrawn with different contours and texture, the brush shape changes, and the tabletop and lighting become strongly golden. Instruction: The pink palm landscape becomes a brown/gold palm landscape; the expected result is Xu Beihong's Galloping Horse, and no horse appears, so the requested subject change is absent. Knowledge: The supplied explanation expressly requires Galloping Horse, which the retained palm scene does not depict. Instruction failure ⇒ knowledge invalid. Quality: Viewed independently, the stylized golden scene has coherent hand anatomy, a continuous brush, convincing painted surfaces and consistent illumination, with no clear structural artifacts."
+    },
+    {
+      "blind_id": "case_bda72385b21dac051d93",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding painting content, the diagonal support and hand placement remain recognizable, but the background becomes mottled beige with an added white object at the right edge, and the hand's contours and skin folds are visibly redrawn. Instruction: The painting changes to a pale palm-and-water landscape with added small trees; the expected Galloping Horse subject is entirely absent. Knowledge: The explanation identifies Xu Beihong's Galloping Horse, whereas this image depicts palms and water. Instruction failure ⇒ knowledge invalid. Quality: Independently, the hand and brush are structurally coherent, painted trees and reflections read clearly, and the surface and shadows are convincing without conspicuous generation errors."
+    },
+    {
+      "blind_id": "case_78c494a38d60c13faf6b",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the requested painting changes, the white tabletop, diagonal support, hand position and overall framing remain consistent. The flat brown-bristled brush is visibly changed into a long pointed black tip, a clear non-instruction alteration. Instruction: Palm fronds and water reflections are redrawn but the pink palm landscape remains; a correct result would depict Galloping Horse, and no horse is present. Knowledge: The retained palm subject fails the supplied Galloping Horse explanation. Instruction failure ⇒ knowledge invalid. Quality: Independently, the hand, painting and lighting are coherent; the brush tip has a small conspicuous forked, cutout-looking irregularity, while the remaining surfaces are clean."
+    },
+    {
+      "blind_id": "case_5f555613d8be52641a9a",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding painting content, the hand pose, flat brush, diagonal rectangular support and surrounding tabletop arrangement remain closely preserved; the tabletop has a slight warmer cream tint. Instruction: The colored palm scene becomes a monochrome ink landscape with additional foliage, but the required Galloping Horse subject is missing. Knowledge: Ink styling alone does not satisfy the explanation's explicit Galloping Horse requirement; there is no horse. Instruction failure ⇒ knowledge invalid. Quality: Independently, the hand anatomy and grip are coherent, the brush is continuous, the landscape has readable ink strokes and atmospheric depth, and the image shows no clear structural or texture artifacts."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b375",
+  "results": [
+    {
+      "blind_id": "case_225325285a00d0c3565e",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding size changes, the plain wall and right cabinet/books remain recognizable, but the stools have different leg orientations and seat grain, their positions shift, and the floor grain/plank pattern changes. Instruction: The seats and legs are reshaped, yet the stools still increase substantially in height from left to right. A successful edit would reduce both larger stools to the original left stool's size; that size match is absent. Quality: Structure, natural lighting and shadows, clean edges, and wood textures are satisfactory; no noticeable generation artifact."
+    },
+    {
+      "blind_id": "case_2a49723863d053052aba",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding resizing, the wall, cabinet/books, diagonal white support, stool arrangement and basic wooden construction are retained. The floor surface has visibly different grain and plank markings. Instruction: Small changes to stool dimensions are visible, but the middle and right stools remain progressively taller and broader than the left. The expected result is three stools matching the original smallest stool; the required normalization is absent. Quality: The stools have coherent seats, legs and crossbars, plausible contact shadows and natural wood surfaces; no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_b3f8d821e23b3167ec5b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Beyond allowed sizing, an extra fourth stool appears in the foreground, the floor grain changes and the cabinet ledge shifts upward; the white wall and general wooden furniture setting remain. Instruction: A small stool has been added while the three original stools retain their ascending size pattern. All original stools should instead match the smallest original stool; adding another stool does not fulfill this. Quality: Lighting and wood textures are plausible, but the foreground stool has visibly awkward, fused-looking inner leg and brace geometry near its lower center, a clear structural flaw."
+    },
+    {
+      "blind_id": "case_e8403e14d5c6d5ac1d7f",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding size changes, the wall, books/cabinet, white diagonal support and three-stool arrangement remain consistent. The floor grain and board-surface markings are visibly reworked. Instruction: Stool contours and dimensions change slightly, but the middle and right stools remain substantially larger than the left. The expected edit would bring both down to the original smallest stool's size, which is not achieved. Quality: Circular seats, legs and braces are coherent, lighting and contact shadows are natural, and wood surfaces have no noticeable generation defects."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b184",
+  "results": [
+    {
+      "blind_id": "case_2118ec8b004ad9cd5169",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The red/gold tree, tinsel and four gift packages remain recognizable, but the gold star topper is removed and bauble/star placements and gift-bow shapes are redrawn. Requested background, composition and text changes are excluded. Instruction: The edit adds a warm white gradient, upper glowing specks and a centered gold handwritten heading above the lowered tree with a small base shadow, as expected; the final period in 'Make it merry.' is missing. This is a minor omission. Quality: Structure \u2714, natural lighting and grounding \u2714, artifact-free \u2714, textures \u2714; the lettering is legible and the tree and presents form a coherent holiday illustration."
+    },
+    {
+      "blind_id": "case_5314ccd5131c7997fe0a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The tree, gold star and gift color arrangement are retained, but foliage has been reshaped into broad clumps, ornament details/positions are altered and ribbon/bow geometry is redrawn. Instruction: The tree is centered below an added handwritten heading, but the expected soft warm white gradient and subtle upper particles are replaced by dense multicolored glitter across the entire background. The brown-gold text reads 'Make it Merry' without the requested period, and a clear small grounding shadow is absent. These are incomplete required aspects. Quality: Structure \u2714 for identifiable tree, gifts and readable text; naturalness \u2718 because the gifts look suspended against the continuous glitter field; texture fidelity \u2718 because foliage and bow details blend into conspicuous thick blobs. No major duplicated objects are visible."
+    },
+    {
+      "blind_id": "case_e2b9b9d100bf7615e28a",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Branch tiers, red/gold ornaments, tinsel loops and gift/ribbon arrangement remain visibly consistent, but the gold star topper is no longer visible above the stem. The instructed background and placement changes are excluded. Instruction: The edit supplies a balanced lower-centered tree, warm white gradient, soft glowing upper particles, base shadow and centered gold handwritten heading. Expected wording is 'Make it merry.'; the visible heading instead ends with an exclamation mark. This is a minor text discrepancy. Quality: Structure \u2714, grounding and lighting \u2714, textures \u2714 with moderate softness that retains meaning; artifact/layout check \u2718 for the thin tree stem running into the middle of the heading, producing a small awkward junction."
+    },
+    {
+      "blind_id": "case_dbe9d16d7c5266a3d5bc",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The star topper, tree branch silhouette, red/gold baubles, tinsel paths and four gift packages with their ribbon arrangements remain visibly unchanged. The specified background, typography and base-shadow changes are excluded. Instruction: A warm white background and gold handwritten heading are added, but the expected subtle particles at the top become large bright bokeh disks throughout the sides. The tree remains near its original vertical placement, its star overlaps the heading, and the heading ends in '!' instead of the requested period. The main idea is present with multiple incomplete aspects. Quality: Tree and gift structure \u2714, lighting and base shadow \u2714, texture fidelity \u2714; layout/legibility \u2718 because the star and stem cross the central letters of the heading, visibly obscuring 'it'. This is a clear compositional flaw."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b216",
+  "results": [
+    {
+      "blind_id": "case_1f3b91d5aa0487e8a992",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The upright wooden post and sandy setting remain recognizable, but the post is shorter with different grain/knots and the gravel-covered ground becomes much smoother. The requested shadow change is excluded. Instruction: The long leftward shadow changes angle and shape but remains conspicuous; the expected result under the supplied explanation is no projecting shadow, so the requested outcome is absent. Knowledge: The retained long cast shadow directly contradicts the supplied no-shadow explanation. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the post has coherent straight edges and grain, the sand texture is natural, and its attached cast shadow and perspective are coherent; no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_09316224d11dae9a95c7",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Post shape, position, knots, pebble layout and right-side twig are preserved, but a pronounced cool gray-blue cast replaces the warm ground coloration across the scene. Shadow coloration is excluded from consistency. Instruction: The existing long diagonal shadow is retained with a bluer appearance; no-shadow ground around the post was expected, so the required change is absent. Knowledge: A clearly extended shadow contradicts the supplied explanation that the object should have no shadow. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the post, gravel, perspective and cast-shadow attachment are coherent, with natural surface detail and no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_92c22cae00988959edcc",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The post geometry, knots, placement, foreground stones and twig remain consistent, but a broad pale frost-like covering changes the upper and left ground. The shadow is excluded. Instruction: A long diagonal shadow remains while the surrounding ground turns partly pale; the expected no-shadow result is not achieved. Knowledge: The conspicuous extended shadow contradicts the explicit supplied no-shadow expectation. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the straight wooden post and granular terrain are coherent, the pale ground transitions naturally, and the shadow is attached convincingly; no noticeable structural or texture artifacts."
+    },
+    {
+      "blind_id": "case_fec4aed39e019a5818d2",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: A vertical post remains in approximately the same composition, but its top, grain and knots change, and the pebbly tan terrain and twig are replaced by smooth pale ground. The altered shadow is excluded. Instruction: A broad long shadow still projects leftward; the supplied expected result is a post without an extended cast shadow, so this does not implement the requested outcome. Knowledge: The retained long shadow contradicts the explanation that the object should have no shadow. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the wooden prism, fine pale ground texture and soft-edged shadow form a coherent natural image, without visible distortions or synthesis artifacts."
+    },
+    {
+      "blind_id": "case_aa6892ea792cc8c0c959",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The post retains its recognizable shape and knots, but a sky and vegetation horizon replaces the upper ground, and foreground stone positions and sizes visibly change. The cast shadow is excluded. Instruction: The diagonal shadow remains long and prominent, with only modest contour changes; the expected no-shadow outcome is absent. Knowledge: The visible extended shadow directly conflicts with the supplied no-shadow explanation. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the post, sandy plain, distant vegetation and blue sky form a coherent outdoor composition; wood and gravel textures and shadow attachment appear natural, without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_11b93508a2e0bd24b68c",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The wooden-post subject and sandy setting persist, but the post shifts and changes proportions, top and knot details, while the gravel field becomes smooth sand with different scattered debris. The shadow change is excluded. Instruction: The long shadow now extends beyond the left edge instead of disappearing; the expected result under the supplied explanation is no projecting shadow, so the target outcome is not followed. Knowledge: The extended dark shadow contradicts the supplied statement that the object should have no shadow. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the straight post, wood grain, sand texture and connected directional shadow are visually coherent and natural, with no noticeable generation artifacts."
+    }
+  ]
+}

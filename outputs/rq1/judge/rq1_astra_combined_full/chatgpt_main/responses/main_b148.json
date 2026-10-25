@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b148",
+  "results": [
+    {
+      "blind_id": "case_c76c7938bb122321b543",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The wall and two-clock arrangement remain, but both clocks move inward, the left clock moves upward, and the right face/hands and shadows are redrawn. These are outside resizing the small clock. Instruction: The small left clock becomes slightly smaller and remains clearly smaller than the right; the expected result is the original left clock enlarged to the right clock size. The requested enlargement is absent. Quality: Structure, readable numerals, lighting/shadows, and surface textures are coherent; no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_57f6de98db9e648ecd34",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The right clock disappears, and the remaining left clock has the former right clock’s hand configuration rather than the original left clock’s hands; the wall remains plain. Instruction: A single large-clock-looking object appears at left instead of enlarging the original small clock while retaining the large clock. The expected two clocks with matching sizes are absent, and the target appears replaced. Quality: The single clock has a coherent rim, legible complete numerals, natural wall shadow and clean surface texture without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_a128ed586eb103f43dac",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The two clocks and plain wall remain recognizable, but the left clock shifts upward and the right clock shifts left/down with altered hand rendering and shadow. Instruction: The left clock remains approximately its original size and clearly smaller than the right. A successful edit would enlarge that left clock to match the right; this change is absent. Quality: Circular rims, numeral ordering, hands, perspective and shadows are coherent; textures are clean, with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_cbe2d58592f4b469c173",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The right-hand clock is removed and the left clock’s hands are changed to the original right-hand clock’s time; the pale wall persists. Instruction: The image shows one clock resembling the large clock relocated to the left, rather than the small clock resized beside the retained large clock. Thus the required modification of the small clock is not demonstrated. Quality: The visible clock has a coherent face and rim, readable numerals, plausible illumination and shadow, and intact textures without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_6a6430a842fa096589bb",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The wall and right-hand clock are recognizable, but the left clock’s hand configuration changes to match the right and both clock placements shift, with the left moved upward. Instruction: The left clock is now approximately the same diameter as the right, satisfying the size relationship. However, its face and hands reproduce the large clock rather than preserving and resizing the original small clock, so the correct-object requirement is only partially met. Quality: Both clock structures, legible numerals, hands, wall shadows and surface textures are coherent and artifact-free."
+    },
+    {
+      "blind_id": "case_fcd2200fdf8db2a5545c",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The two clocks and pale wall remain, but the left clock shifts upward and the right shifts left/down; hand details and shadows are also redrawn. Instruction: The left clock is slightly smaller than before and remains visibly smaller than the right. The expected enlargement of the original small clock to match the large clock has not occurred. Quality: Both rims and faces are coherent, numerals are legible, lighting and shadows are plausible, and surfaces show no noticeable artifacts."
+    }
+  ]
+}

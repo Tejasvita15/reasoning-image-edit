@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b326",
+  "results": [
+    {
+      "blind_id": "case_63648a7bb3ecb74df21e",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The exposed vertical planks, knots, framing and lighting remain in place, but a separate long handled metal tool is added beside the parchment, an unrequested accessory. Instruction: The edit adds a circular navigation-style diagram on paper and a rod; the expected addition is a compass. A printed radial chart without a visible directional needle does not adequately provide that instrument, so most of the required change is missing. Knowledge: The supplied explanation specifies a compass, whereas the visible objects are a chart and rod. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the parchment, drawn grid, rod, wood textures and contact shadows have coherent structure and natural lighting without a noticeable generation defect."
+    },
+    {
+      "blind_id": "case_1a45a7487283906c0dc3",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": 4,
+      "rationale": "Consistency: The vertical narrow-board background is replaced by broad diagonal tabletop boards with different grain, scratches, perspective and illumination; most major non-instruction scene details change. Instruction: A wooden-cased dial with central brass pointers is added. A compass is expected, and the dial is recognizable as a compass-like instrument, though the extra pointer arrangement makes its implementation slightly inaccurate. Knowledge: The explanation calls for a compass; the graduated circular directional instrument meets that identity, with a small plausibility issue in its multiple irregular pointer arms. Quality: The wooden housing, metal reflections and tabletop shadows are coherent, but the dial contains malformed lettering and the central arms have awkward fused geometry, two noticeable flaws."
+    },
+    {
+      "blind_id": "case_e2c9affe16102d55be5d",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Outside the added instrument and its contact shadow, the vertical plank arrangement, distinctive knots, grain, color, lighting and framing remain unchanged. Instruction: A brass pocket compass with a circular directional face and central pivot is placed on the wood, precisely providing the requested navigation instrument. Knowledge: The visible compass directly matches the supplied explanation that a compass should be placed. Quality: The brass rim, suspension loop, central pivot and cast shadow are structurally coherent and natural; small dial markings near the bottom are malformed, a minor local imperfection."
+    },
+    {
+      "blind_id": "case_b7b2ac71b9027bd187c4",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The vertical-board composition and recognizable knot positions are retained, but the wood surface is visibly re-rendered with coarser mottled grain and wavering board seams, a clear background alteration. Instruction: A long black decorated rod or sheathed weapon with crossbars is added; the expected object is a compass, and no compass is visible. Knowledge: The supplied explanation requires a compass, which the added elongated object does not depict. Instruction failure ⇒ knowledge invalid. Quality: The central ornament, cylindrical body and crossbars are coherent, with plausible shading; the wood grain has a mildly smeared, painterly texture, a small surface-quality issue."
+    }
+  ]
+}

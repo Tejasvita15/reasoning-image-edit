@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b098",
+  "results": [
+    {
+      "blind_id": "case_8c6b7a5534a1fceb4938",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The cabinet, cylinder, curtains, tiled floor and chair-back arrangement remain recognizable, but a person in jeans and white shoes has been added and the seat wood grain has been redrawn. Instruction: The visible change adds human legs; a completed chair should have its missing wooden leg and connected support. The chair still has three legs and an exposed brace end, so the request is not fulfilled. Quality: Structural coherence, natural lighting, artifact freedom and material textures are satisfactory; the shoes, clothing and wooden chair read as a coherent photograph."
+    },
+    {
+      "blind_id": "case_ff17b08c8d66328829de",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The room fixtures, floor joints, chair back, seat outline and overall viewpoint are retained; the seat grain has a small local variation. Leg and brace changes are excluded. Instruction: A fourth wooden rod and extended crosspiece have been added. A complete chair should have a fourth leg properly seated and connected to its brace; the new rod starts at the seat edge while the exposed pale brace end remains unattached, so completion is only partial. Quality: Lighting and wood textures are plausible, but the lower rod has an awkward seat-edge connection and the brace network has a conspicuous unconnected end; these are noticeable structural flaws."
+    },
+    {
+      "blind_id": "case_90ad52639bfa5723d20d",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Cabinet, cylinder, curtains, chair-back spindles, seat placement and floor layout are preserved, but a conspicuous grainy texture treatment changes the appearance of the surfaces throughout the image. Instruction: No missing chair leg has been supplied; the three-leg arrangement and open brace end remain. The expected fourth connected wooden leg is absent, giving non-compliance. Quality: The room geometry and lighting are intelligible, but coarse mottled noise degrades surfaces and a thin colored corruption strip appears along the bottom edge; these are noticeable artifacts."
+    },
+    {
+      "blind_id": "case_07ee76a52794f0e0b4f4",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The room layout, cabinet, cylinder, curtains and chair-back configuration are retained, but bare human legs and feet have been added and the seat grain is visibly redrawn. Instruction: The edit adds a person rather than completing the wooden chair legs. A fourth correctly connected chair leg is expected; the chair still has three legs and the exposed brace end, so the instruction is not followed. Quality: Perspective, lighting and wood and skin textures are plausible. The bare toes have slightly blended, simplified contours, a small anatomical imperfection; the rest of the image is coherent."
+    }
+  ]
+}

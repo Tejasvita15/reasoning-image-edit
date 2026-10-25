@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b172",
+  "results": [
+    {
+      "blind_id": "case_d57d27c7f58c8aa772e1",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Bottle silhouette, red capsule, and main brand identity persist; the label illustration and lettering are visibly redrawn, so the label is a changed non-requested element. Requested background, lighting, placement and reflection are excluded. Instruction: The white setting becomes a red-to-black illuminated backdrop with an upright, lower-centered bottle and bottom reflection. The expected restrained wine advertisement is present, but the upper-right text is incorrect ('Movaing. Tiare'), white and sans serif instead of the exact muted-gold serif slogan; partial compliance. Quality: Structure and glass shading are coherent, and background gradients are smooth; malformed headline characters are a clear semantic/text artifact. Bottle and reflection remain plausible."
+    },
+    {
+      "blind_id": "case_cf1879e73be866102ad5",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The bottle shape, red capsule, neck mark, cream bordered label, landscape emblem and Vino Rosso/REGAL/ARDITI identity remain visually consistent; permitted changes to scale, location, lighting and setting are excluded. Instruction: The source becomes a lower-centered upright bottle on reflective burgundy staging. A perfect edit would use a restrained wine-red/black gradient and exact muted-gold serif 'Timeless. Bottled.' The curtain folds and strong visible overhead beam depart from that soft-gradient treatment, while the script headline uses a comma after Timeless; partial compliance despite the requested words, upper-right placement and reflection. Quality: Structural coherence, naturalness, artifact freedom and texture fidelity are satisfactory: the bottle is intact, lettering flows cleanly, and curtain folds, illumination and reflection form a plausible studio scene. Moderate softness does not impair object meaning."
+    },
+    {
+      "blind_id": "case_494cd71a036b98bec340",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The red capsule, dark bottle silhouette, bordered cream label and brand identity persist. The label's landscape emblem and typography have been visibly redrawn; this is a clear change to the retained label. Requested staging and light changes are excluded. Instruction: The white background becomes a wine-red/black gradient with an upright bottle, clear detail and restrained bottom reflection. The expected upper-right muted-gold serif slogan is replaced by malformed wording resembling 'Tim...age / Botirer'; hence the main advertising treatment is achieved but a required component is wrong. Quality: The bottle structure, shaded glass and reflection are coherent. The upper headline contains overlapping/distorted glyphs and nonsensical wording, a clear text artifact; other textures remain plausible."
+    },
+    {
+      "blind_id": "case_2f277accc6ff66277888",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Bottle silhouette, dark glass, cream label artwork, brand lettering and red neck wrap are preserved. The capsule's rim/side contour is slightly simplified, a small non-requested detail; staging and highlights are excluded. Instruction: The setting changes to a soft burgundy-to-black glow, upright bottle and bottom reflection with gold upper-right lettering. This closely matches the intended restrained composition, but 'Timeless,' has a comma rather than a period and the font is calligraphic script rather than conventional serif typesetting; minor typography deviations. Quality: Bottle geometry, label placement, smooth background illumination, clean calligraphic lettering and reflected bottle are visually coherent. Structural coherence, naturalness, artifact freedom and surface fidelity are satisfactory."
+    },
+    {
+      "blind_id": "case_b7ea137aa2ff7e6ad0de",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The bottle's overall identity and cream/red label scheme remain. The capsule rim and neck are visibly reshaped into uneven stepped edges, and the label illustration/lettering is reworked; these are two non-requested element changes. Background, position and lighting are excluded. Instruction: A dark wine-red glow, vertical bottle, upper-right gold serif text and base reflection replace the original setting. The intended exact 'Timeless. Bottled.' is instead garbled as 'Tineciues / Botfirtg', while the bottle sits near the frame center rather than clearly below it; partial compliance. Quality: The overall bottle and lighting remain readable, but the headline is semantically garbled with awkward glyph joins, and the cap edge is irregular. These are noticeable artifacts; the backdrop and reflection are otherwise coherent."
+    },
+    {
+      "blind_id": "case_ad4b70c29062b26f6e45",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Bottle silhouette, red capsule and neck emblem, cream bordered label, landscape graphic, and main brand lettering remain consistent with the source. Requested placement, setting, reflection and lighting changes are excluded. Instruction: The bottle is placed vertically below center against red velvet curtains, with a reflection and gold upper-right 'Timeless, Bottled.' The expected result calls for a soft wine-red/black gradient and exact serif 'Timeless. Bottled.'; distinct curtain folds, a conspicuous overhead light cone, script lettering and the changed punctuation leave required aspects incomplete. Quality: Structure, naturalness, artifact freedom and texture fidelity are satisfactory. The bottle is coherent, calligraphic text is clean, curtain folds are plausible, and the dark reflective surface supports the scene without obvious generation defects."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b305",
+  "results": [
+    {
+      "blind_id": "case_c34aff3f774be89b5a47",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The plain tabletop setting remains, but the retained green rind has a different stripe pattern and the background/lighting is warmer with stronger directional shadows; splitting and separating the fruit are excluded. Instruction: The whole fruit becomes two exposed halves, exactly the visible cutting outcome requested. Knowledge: Red flesh is exposed as the explanation requires, but the huge rounded, protruding seeds are a clear biological implausibility. Quality: The halves and their contact shadows are coherent, but bulbous glossy seeds and straight recessed seams down the flesh create conspicuous artificial structure; rind texture is otherwise clear."
+    },
+    {
+      "blind_id": "case_61ca7190be13b03a543e",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The green striped fruit remains recognizable, but the background now has a dark upper vignette and the illumination is markedly harsher; retained rind markings are also redrawn. Cut surfaces and separation are excluded. Instruction: The fruit is visibly divided into two pieces with exposed interiors, fulfilling the cutting request. Knowledge: Instead of the red flesh explicitly expected, the interior is thick white flesh around a yellow seed cavity, contradicting the supplied explanation. Quality: The two pieces have coherent volumes, rind and cut edges with plausible shadows; small green smears at their bases are a minor texture artifact."
+    },
+    {
+      "blind_id": "case_888dce083a3eac0e7a2d",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The light gray-white backdrop and studio setting are retained, but the visible uncut rind has a clearly different, broad crosswise stripe pattern. The exposed face and changed outline caused by cutting are excluded. Instruction: A section is removed to expose a broad cut face, fully showing the requested cut fruit. Knowledge: The exposed red flesh inside a pale rind directly matches the supplied explanation. Quality: The fruit volume, rind boundary and supporting shadow are coherent and natural; some seed sockets blend softly into the flesh, a minor local texture issue."
+    },
+    {
+      "blind_id": "case_717fcc2fd4d186e93edd",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The pale seamless background retains its gray-to-white gradient, but the fruit has disappeared entirely rather than retaining cut portions, a clear object removal beyond the requested modification. Instruction: The image shows only an empty backdrop, with no cut fruit or exposed interior; cutting is not depicted. Knowledge: No red flesh or fruit is visible. Instruction failure ⇒ knowledge invalid. Quality: Judged only as an image, the empty light backdrop is smooth and coherent, without visible seams, ghosting or distorted objects; its lack of a subject is not a rendering artifact."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b177",
+  "results": [
+    {
+      "blind_id": "case_0383471a63be941c6510",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The lamp, papers and glasses, envelopes, small notebook, coffee, chair and desk layout remain consistent; a new black pen appears on the large book, a clear unrequested addition. Instruction: A black pen has been added but the filled pen holder remains at the upper left. The expected result is that holder resting on the book; moving or adding a pen instead completely misinterprets the requested object. Quality: Structure, lighting, perspective and surface textures are coherent; no noticeable malformed objects or generation artifacts."
+    },
+    {
+      "blind_id": "case_b2f7542125e1e2bb2fd5",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Lamp, papers and glasses, envelopes, books, coffee, chair and tabletop remain consistent, but the loose silver pen left of the large book has disappeared. Instruction: The holder remains at the upper left and the book remains empty; only the loose pen is removed. The expected holder-on-book placement is absent, so the instruction is not followed. Quality: Object shapes, shadows, perspective and textures are natural and coherent, with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_ab96c625bc555f9e9629",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Lamp, papers and glasses, envelopes, both books, coffee, chair and desk remain consistent; the loose silver pen has shifted from the left of the large book to its right edge. Instruction: The moved object is the loose pen, while the filled holder stays at the upper left. The expected image has the holder on the book, so this is a misinterpretation of the requested object. Quality: The objects and their lighting and perspective are coherent, including the angled silver pen; textures remain natural without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_bc253cd8e37b9ec71aac",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the instructed holder placement, the lamp, papers and glasses, envelopes, loose pen, books, coffee, desk and chair retain their positions and appearance. Instruction: An additional enlarged filled holder sits on the large book while the original holder remains at the upper left. The expected result moves the existing holder onto the book; the desired spatial relation is present but duplication instead of relocation makes compliance partial. Quality: The desk scene has coherent geometry, lighting and recognizable textures; a small pale edge halo around the central holder and its projecting pen tips slightly weakens the integration."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b003",
+  "results": [
+    {
+      "blind_id": "case_406214b945e92bf82fe1",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The black-on-white chart, rectangular axes, numeric tick sequence and italic x label remain, but the chart frame and its labeling have been visibly repositioned/resized as a layout change. Instruction: The curve still peaks near x=2 at about 0.4, with narrow shoulders and tails near zero at the original horizontal distances; no substantial spread increase is visible. Fourfold variance should broaden this distribution about its center (twice the standard deviation) and lower its density peak, so the requested change is absent. Knowledge: The supplied explanation calls for retaining center 2 and expanding other x offsets fourfold; the center is retained but that expansion is absent. Instruction failure ⇒ knowledge invalid. Quality, considering only this image: coherent rectangular chart, legible labels, continuous clean curve and uniform white background; no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_7d73f76267ec9809494f",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The rectangular frame, tick locations and labels, italic x, white background and black-line styling remain visually unchanged. Instruction: The edited curve retains its narrow bell, peak near (2,0.4) and original-looking tail reach. A fourfold variance increase requires a broader distribution about x=2, with twice the standard deviation and a lower density peak; none of that change is visible. Knowledge: The supplied explanation retains center 2 but requires fourfold horizontal offsets; this curve retains the center without that expansion. Instruction failure ⇒ knowledge invalid. Quality, considering only this image: the single continuous plotted curve, straight frame, readable tick labels and clean background are structurally coherent and free of noticeable artifacts."
+    },
+    {
+      "blind_id": "case_0a038cd10501fdadad47",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: White background, black chart styling, tick values and italic x are preserved, but the frame and associated labels have visibly changed their placement/size within the image. Instruction: The bell remains concentrated about x=2 with a peak near 0.4 and nearly zero tails within the same approximate x range. Expected fourfold variance would visibly widen the distribution about 2 (doubling standard deviation) and reduce its density height; the requested spread change is absent. Knowledge: Center 2 matches the supplied explanation, but the explanation's fourfold expansion of x offsets is not shown. Instruction failure ⇒ knowledge invalid. Quality, considering only this image: clean continuous curve, readable mathematical labels, coherent chart border and uniform background without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_d1afe1acc1ea29a12905",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The frame, tick labels, italic x, black-white palette and chart placement remain visually consistent; a conspicuous solid black patch has been added inside the curve at the peak, which is not required by changing variance. Instruction: The visible change is a thick filled cap near x=2; the narrow outer bell, peak near 0.4 and horizontal spread remain essentially unchanged. Fourfold variance calls for a wider bell about 2, twice the standard deviation and a lower density peak, not a filled peak. Knowledge: The center remains 2 but the supplied explanation's fourfold x-offset expansion is absent. Instruction failure ⇒ knowledge invalid. Quality, considering only this image: axes and text are legible and the chart layout is coherent, but the curve abruptly becomes a large black cap with a scalloped lower edge, a clear distracting structural artifact."
+    }
+  ]
+}

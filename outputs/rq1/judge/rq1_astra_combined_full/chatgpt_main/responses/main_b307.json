@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b307",
+  "results": [
+    {
+      "blind_id": "case_6b16712a8592ccd3e1cd",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The black/navy surroundings, cylindrical support, angled barrier and screen retain their composition; the red emitter and beam belong to the requested setup change. Instruction: A red beam and red fringes replace yellow illumination, but both vertical slits remain and the screen still has similarly narrow stripes. The expected single slit and broad central red maximum with narrow sides are absent, a major omission. Knowledge: The explanation requires one slit and a broad center with narrow sides; neither is depicted. Instruction failure ⇒ knowledge invalid. Quality: The diagram planes and pedestal are coherent, but the emitter has a visibly crumpled, irregular silhouette and the beam washes into its indistinct structure; surfaces elsewhere are clean."
+    },
+    {
+      "blind_id": "case_da4d70459e03bf8c0564",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The support, bulb, barrier and screen preserve their arrangement, but the entire black/navy background is replaced by white, one clear unrelated background alteration. Instruction: Screen stripes turn red, while the yellow light source and two slits persist. A red single-slit apparatus with a broad central band and narrower side bands was expected; changing stripe color leaves the main setup and pattern changes unfulfilled. Knowledge: Two slits and the repeated narrow stripes contradict the supplied single-slit/broad-center explanation. Instruction failure ⇒ knowledge invalid. Quality: The planes and cylindrical pedestal are well formed and the surfaces are clean; the bulb glow has a small rough, hard-edged dark halo against the white background."
+    },
+    {
+      "blind_id": "case_a67b34df0381a92d55ee",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The dark background and navy floor remain; the cylindrical support is shifted right and made smaller, now entirely within the frame, a noticeable non-instruction object alteration. Apparatus and pattern changes are excluded from this metric. Instruction: Red illumination and a widening field of red bars replace the barrier/screen setup, but no single-slit board is present and no broad central maximum flanked by narrower bands is shown. The requested apparatus and characteristic pattern are largely absent. Knowledge: The visible bar field lacks both the single slit and broad-center/narrow-side outcome required by the explanation. Instruction failure ⇒ knowledge invalid. Quality: Independently, the stylized glowing bulb, smooth pedestal and regularly drawn luminous fan are visually coherent, with consistent perspective and glow, clean surfaces and no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_7aa8cbb3a8dff7ea3b56",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The background, object positions, cylindrical support, angled planes and bulb structure remain unchanged; red illumination and its surface coloration are within the requested red-light setup change. Instruction: The apparatus and fringes become red, but the barrier still visibly contains two slits and the pattern retains narrow repeated bands rather than a broad center with narrow sides. The expected single-slit geometry and characteristic pattern are missing, a major omission. Knowledge: Retaining two slits and the narrow-stripe pattern does not implement the supplied explanation. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the illustrative planes, pedestal and bulb are cleanly formed, with coherent red illumination, smooth surfaces and no noticeable duplication, warping or texture artifacts."
+    }
+  ]
+}

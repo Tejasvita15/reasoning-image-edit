@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b175",
+  "results": [
+    {
+      "blind_id": "case_4e68ec9ea873a00510d4",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Both pears, their stems and positions, the turquoise plate and brown background remain consistent. The right fruit has a wider, more upright outline and a newly prominent stem and dimple, beyond the requested color change. Instruction: The observed red-to-green change is on the right fruit. Expected is the same apple recolored green; the green color is complete, but the reshaped fruit appears replaced rather than simply recolored, a minor compliance issue. Quality: Structure, lighting, shadows and speckled fruit textures are coherent; the three fruit silhouettes are natural and there are no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_2d9d04c2d2f1c886fc5c",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The two pears, stems, plate, background, layout and right fruit outline and highlight remain visually consistent; the requested color change is excluded. Instruction: The right fruit changes from red to green, as expected for the same apple recolored green; the correct object and attribute are fully modified. Quality: Fruit shapes are coherent, light reflections and contact shadows are plausible, and skin textures remain natural without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_e5bbee2c7044a1331ad9",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Both pears, the plate, brown backdrop and fruit arrangement remain consistent. A small brown stem is now visible on top of the right fruit, one minor unrequested detail. Instruction: The right fruit is visibly recolored from red to green; the expected green apple is present and the requested color change is complete. Quality: The fruit outlines, stem, lighting and shadows are coherent, with natural speckled surfaces and no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_d888928bc3717b3bb548",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The layout and pear silhouettes are retained, but both pears have much coarser, darker surface mottling, the background and plate acquire conspicuous grain and texture, and the right fruit outline is broadened. These are multiple unrequested changes. Instruction: The right fruit changes from red to vivid green; the expected green apple is present and the specified color change is complete. Quality: The scene and fruit forms remain recognizable, but the black crescent across the right fruit top has an abrupt pasted-looking edge, and coarse, harsh mottling across the pears looks unnaturally processed; these are two visible flaws."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b289",
+  "results": [
+    {
+      "blind_id": "case_0cad9e4d44b939f41407",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested layout, background, gloss and playful styling, the cone's embossed bowl markings disappear, the waffle pattern changes, and both the swirl geometry and sprinkle arrangement are substantially redesigned; the pink soft-serve cone identity remains. Instruction: The edit introduces a central glossy pink cone, blue gradient, candy decoration and soft ground shadow. A correct result would also have colorful bubbles and the exact strawberry-pink rounded title. The title instead contains malformed words, the small side lettering is unrelated, and distinct bubble patterns are missing; the main poster concept is only partially fulfilled. Quality, edited image alone: Structure and lighting of the cone are coherent, but the large headline contains malformed lettering and the smaller yellow lettering dissolves into scribbles, with distracting white smears around that badge; these are multiple conspicuous artifacts."
+    },
+    {
+      "blind_id": "case_75a8c825421a5f598c8b",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The original swirl folds, dense multicolored sprinkle arrangement, embossed cone bowl and diamond lattice remain visibly intact after the permitted repositioning and styling; no clear non-instructed alteration is evident. Instruction: The edit adds a blue gradient, surrounding hand-drawn sweets, an upper central pink handwritten headline and soft bottom shadow around the central product. The intended wording is readable, apart from capitalization and absent final exclamation mark; the sugary lettering texture and distinct colorful bubble patterns are weak or absent, so compliance has minor decorative omissions. Quality, edited image alone: Structural coherence, legible lettering, lighting and grounded shadow/reflection are satisfactory; ice-cream folds, sprinkles and wafer texture are coherent, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_617ca25886bbaafeaefe",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding requested presentation and texture treatment, the cone loses its original embossed bowl details, the waffle lattice is redrawn, and the swirl folds and sprinkle distribution change noticeably; the basic pink soft-serve cone form remains. Instruction: The new central cone, blue gradient, soft bottom shadow, rounded pink textured headline and playful yellow/pink doodles address the intended poster. However, the headline reads unrelated malformed wording rather than the requested sentence, the doodles do not clearly supply the requested candy-and-bubble mix, and the chalky surface provides limited high gloss. Thus the main idea is present but required aspects are incomplete. Quality, edited image alone: The illustrated cone, shadow and grainy texture are internally coherent, with no structural breakdown. The prominent headline has a clear semantic/lettering problem, reading approximately 'Sweet to thesL Lock Wotery!', which is a noticeable flaw."
+    },
+    {
+      "blind_id": "case_d1604a3f2d60bf47f905",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The source's characteristic swirl folds, colorful sprinkle placement, embossed upper cone and waffle lattice are retained; the changed position, background and shadow are authorized, with no clear unrelated product alteration. Instruction: The edit supplies a central pink cone, blue gradient, candy drawings, colored circular decorations and soft ground shadow. The expected exact strawberry-pink slogan is not present: the huge pink title reads 'Sweebery' and the remaining phrase appears as a smaller yellow subtitle. Gloss is present but the sugary title texture is weak; these title and styling discrepancies give partial compliance. Quality, edited image alone: The large stylized brand-like word and smaller subtitle are legible, the product geometry and textures are coherent, and the soft shadow and reflection ground the cone. Decorative sweets and circles have clean silhouettes; no noticeable artifacts are evident."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b076",
+  "results": [
+    {
+      "blind_id": "case_9c44df74dc6ae92df5b9",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The building, maze, trees and family retain their locations, but the grass patches and architectural linework are repainted and the family faces and clothing are visibly redrawn; the requested red marks are excluded. Instruction: A red horizontal stroke near the top and a vertical stroke to the left tower were added. A complete result would trace the white route continuously from the bottom-right start to the building; the entire lower route is unmarked and the vertical stroke cuts across grass. Most required marking is absent. Knowledge: The supplied explanation is blank; the visible incomplete route triggers the mandatory rule. Instruction failure ⇒ knowledge invalid. Quality: The cartoon layout and objects are recognizable, but visibly muddled facial detail and uneven, smeared fine linework produce noticeable artifacts; lighting and overall shapes remain coherent."
+    },
+    {
+      "blind_id": "case_2e659737b2660073ed8c",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The overall maze, building, tree and family arrangement remains, but grass textures, dome and tower patterns, and facial details have all visibly changed beyond the requested marking. Instruction: A red horizontal segment across the upper maze and a separate hooked vertical mark on the left tower are added. The expected continuous red route from the bottom-right corner to the building is absent; the two marks are disconnected and leave nearly the whole route unmarked. Knowledge: No explanation was supplied; mandatory instruction-failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality: The scene is understandable, but numerous rough, broken contours and blotchy textures across the dome, tower ornament, grass and small faces create distracting rendering errors; the broad composition and color scheme are coherent."
+    },
+    {
+      "blind_id": "case_bbcffdf4e1bda23a0840",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The building, white maze layout, sky, trees and grass remain visually consistent. The family illustration is altered, especially the faces and the pale smeared leg/foot region at the lower right, a clear non-instruction change. Instruction: A thin red squiggle is added in the right-middle maze. The expected red line would continuously follow the white route from the bottom-right start to the building; this short mark reaches neither endpoint and crosses grass and multiple paths. Most of the requested route is absent. Knowledge: The explanation is blank; the mandatory coupling is the scoring basis. Instruction failure ⇒ knowledge invalid. Quality: Architecture, vegetation and maze curves are coherent and clean, but the conspicuous pale ghosted shape beside the family makes the lower-right anatomy visually ambiguous."
+    },
+    {
+      "blind_id": "case_f34b4c48095587c6d62d",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The building, sky, vegetation, grass and maze retain their visible arrangement and appearance. The family faces have been redrawn, particularly the father's eyes and smile, constituting a clear non-instruction alteration. Instruction: A red horizontal arrow appears along the bottom, pointing right toward the family. A correct result would trace a continuous route from that corner through the maze to the building; the arrow runs across the bottom and provides none of that onward route. Most required marking is absent. Knowledge: The provided explanation is blank; the mandatory instruction-failure rule determines this score. Instruction failure ⇒ knowledge invalid. Quality: The edited image has coherent cartoon figures and architecture, smooth maze contours, consistent flat shading and legible red graphics, with no noticeable generation defects."
+    }
+  ]
+}

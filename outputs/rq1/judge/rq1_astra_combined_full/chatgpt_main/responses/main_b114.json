@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b114",
+  "results": [
+    {
+      "blind_id": "case_af491f707b140832252a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The sky, wooded setting and frontal composition remain recognizable, but the ears are reshaped, the trunk hangs lower, tusk curves change and the feet and ground shadows move. These changes go beyond correcting the skin color. Instruction: The brilliant red body becomes predominantly earthy brown, with a red-orange forehead and ears remaining. A fully corrected elephant would have plausible natural skin coloration throughout; the recoloring addresses the problem incompletely. Quality, assessed alone: Structure \u2714, naturalness \u2714, artifacts \u2714, texture fidelity \u2714; coherent four-legged elephant anatomy, detailed wrinkled hide, smoothly attached tusks and grounded shadows form a clean painterly image."
+    },
+    {
+      "blind_id": "case_1c7dbb31eebf682f0a29",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The general woodland and sky layout and frontal elephant pose are retained. Ear outlines, eye details, tusk shapes, trunk length and foot placement visibly change, with a stronger shifted ground shadow. Instruction: The edit darkens the body and trunk to brown but leaves conspicuous orange coloring on the head and ears. The expected result is an elephant with plausible coloration across the animal; this provides only a partial correction. Quality, assessed alone: Structure \u2714, naturalness \u2714, artifacts \u2714, texture fidelity \u2714; the animal has coherent limbs and facial anatomy, continuous textured skin and convincing shaded volume without visible generation defects."
+    },
+    {
+      "blind_id": "case_912fee3941bf8406b20e",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The trees, sky and basic standing composition remain, but the tusks are reshaped, the trunk extends farther down and the ear contour and ground shadow change. Instruction: Visible changes adjust tusks and trunk while retaining the intense red skin. The expected correction is plausible natural elephant coloration; the conspicuous unreasonable color is not corrected, so the instruction is misinterpreted. Quality, assessed alone: Structure \u2714 and texture fidelity \u2714, with coherent trunk, tusks and legs; naturalness \u2718 because the entire elephant is intensely scarlet in an otherwise naturalistic scene, a clear semantic problem. No obvious duplication or edge artifacts."
+    },
+    {
+      "blind_id": "case_a8b2e95f5db54d7efba7",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Elephant placement, ear and trunk outlines, tusk arrangement, trees and sky composition are retained, excluding the intended skin recoloring. The landscape is visibly warmer and brighter, particularly the ochre ground and green foliage, constituting one background appearance change. Instruction: Red skin is replaced with natural gray across the face, ears, torso, legs and tail. The expected naturally colored elephant is present, resolving the salient unreasonable feature completely. Quality, assessed alone: Structure \u2714, naturalness \u2714, artifacts \u2714, texture fidelity \u2714; coherent elephant anatomy, continuous gray wrinkled skin, ivory tusks and soft landscape lighting show no noticeable defects."
+    },
+    {
+      "blind_id": "case_532f885d504057edbcf9",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: The upright frontal portrait, sky, trees, ground layout, pose and painting texture are all replaced by an overhead-looking red animal shape on a densely mottled background. Most major non-instruction elements change. Instruction: The animal becomes a distorted red form rather than the same elephant with corrected unnatural features. A successful edit would preserve a recognizable elephant with plausible coloration and anatomy; this wholly misinterprets the correction. Quality, assessed alone: Structure \u2718, naturalness \u2718, artifacts \u2718, texture fidelity \u2718; the body has ambiguous head and limb connections, curling appendages at opposite ends, an isolated pale protrusion and pervasive noisy melted texture. Major anatomical failure makes this severely degraded but visibly assessable."
+    },
+    {
+      "blind_id": "case_cfe912a004fb0f5d77cc",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Sky, tree placement, tusks and the overall frontal stance remain recognizable. The trunk tip is extended lower with a changed curve, a distinct new shadow lies beneath it, and the ground and foliage have a warmer, brighter appearance. Instruction: The trunk and shading change, but the elephant remains vivid scarlet throughout. The expected correction would replace the unreasonable coloration with plausible elephant skin; that required correction is absent. Quality, assessed alone: Structure \u2714, artifacts \u2714 and texture fidelity \u2714; anatomy and painterly skin folds are coherent. Naturalness \u2718: uniformly intense red skin gives the naturalistic animal a clear semantic implausibility."
+    }
+  ]
+}

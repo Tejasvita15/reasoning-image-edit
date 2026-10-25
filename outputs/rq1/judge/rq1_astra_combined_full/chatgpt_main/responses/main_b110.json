@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b110",
+  "results": [
+    {
+      "blind_id": "case_4e1809ad822e65e463d0",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The cabin, field, rocks, sky and seated composition remain recognizable and closely aligned; the eyes change from amber to gray, and the nose/muzzle shape changes. Fur color and coat-volume changes are excluded. Instruction: The white coat becomes short-looking dark brown with white cheeks/chest; a summer coat should become gray. The seasonal coat change is attempted but its dominant color is incorrect, giving partial compliance. Knowledge: The supplied explanation requires gray fur; predominantly brown fur is one clear mismatch. Quality: Coherent seated anatomy and tail, natural light and depth of field, and detailed fur without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_43817a28343d6181b1e6",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The seated fox and cabin arrangement persist, but snow is replaced by tall grass, the sky gains streaks, and the eyes and muzzle are reshaped. Fur changes are excluded. Instruction: White fur changes to mottled brown-gray; the expected summer result is a gray coat. The substantial warm brown coloring makes the requested change only partial. Knowledge: Gray strands support the expected transition, but the predominantly brown/tan coat is a clear deviation from the supplied gray-fur explanation. Quality: Anatomy and spatial layout are coherent, but conspicuous diagonal streaking across the sky and scene and brittle, multicolored fur texture produce noticeable visual artifacts."
+    },
+    {
+      "blind_id": "case_c5106f2841a6fd1252e8",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The fox still sits with its tail to the right before a cabin, but eye shapes change, the sky becomes blue, field colors intensify, and the snow acquires pronounced ridges and speckles. Instruction: The fur remains white and long; a gray summer coat is expected, so the requested seasonal fur change is absent. Knowledge: The coat remains white instead of the explained gray. Instruction failure ⇒ knowledge invalid. Quality: Anatomy, lighting and fur are coherent; the foreground snow has slightly unnatural etched dark contours and speckled texture, a minor surface imperfection."
+    },
+    {
+      "blind_id": "case_114d0376e36b59cc204b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The seated placement and rightward tail remain, but snow and rocks are replaced by vegetation, the cabin windows/roof are altered, and the face and eye appearance change. Fur changes are excluded. Instruction: The white winter coat becomes a less fluffy reddish-brown coat; the expected gray summer coloration is missing, so the seasonal change is only partial. Knowledge: The reddish-brown coat conflicts with the explanation that the fox fur should turn gray, a clear color mismatch. Quality: The fox has coherent anatomy, convincing continuous fur, natural shadows, and a plausible leafy foreground and defocused building without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_111ddd84287d1d9e8638",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The cabin, distant grass, rocks, snow setting and seated layout are retained; the amber eyes become gray and the nose/muzzle is reshaped. Coat coloration and reduced fluff are excluded. Instruction: White fur is replaced by orange-brown fur with white cheeks and chest. This shows a coat change but only partially matches the expected gray summer coat. Knowledge: The dominant orange-brown coloration is a clear conflict with the supplied gray-fur explanation. Quality: Seated limbs and tail are coherent, fur strands and shading are natural, and the snow contact and background blur show no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_60d17ab43e84401455be",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The cabin, grassy distance and seated fox with rightward tail remain in the same general layout, but the eyes/nose are reshaped, both front paws become more exposed, and foreground snow contours change. Instruction: The coat remains white and fluffy instead of changing to a gray summer coat; the required fur transition is absent. Knowledge: The retained white coat does not realize the supplied gray-fur explanation. Instruction failure ⇒ knowledge invalid. Quality: Coherent fox anatomy, natural fine fur, convincing soft light and snow contact, and a consistent defocused background without noticeable artifacts."
+    }
+  ]
+}

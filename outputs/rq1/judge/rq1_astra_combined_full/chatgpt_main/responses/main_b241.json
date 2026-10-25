@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b241",
+  "results": [
+    {
+      "blind_id": "case_9d32fff021b54791ed00",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and brown/yellow palette remain, but both books move downward and their top-cover geometry changes, including an extended left corner on the thin book. Instruction: The right book remains thin with a narrow page block; the expected result is a right page block matching the thick left book. No meaningful thickness adjustment is visible. Quality: Structure, lighting and page textures are coherent; the thin book has a small awkward protruding upper-left cover flap."
+    },
+    {
+      "blind_id": "case_00b176c44f94d803298e",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and book colors remain, but the left book becomes substantially wider and the right book is narrower and shifted right, changing the gap. Instruction: The already-thick left book is enlarged while the right book stays thin; the required right-book thickness match is absent. Quality: The books have coherent covers, pages and lighting; a small dark blurred wedge at the gap between them disrupts otherwise clean contours."
+    },
+    {
+      "blind_id": "case_9cf198b495568e743245",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Background and brown covers remain, but the thick book is widened and the thin book is moved right and narrowed, nearly closing the original gap. Instruction: The right page block is still a thin strip, whereas it should become as thick as the left page block; the requested change is not made. Quality: Book geometry and page textures are plausible, with a small pale gray smeared fringe at the lower-left edge of the right book."
+    },
+    {
+      "blind_id": "case_adff4df91499a92508d0",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: White background and book colors remain; the unrequested left book is reduced in height and width, and the right book shifts left. The requested right-book thickness increase is excluded from this check. Instruction: The thin right book gains a large page block and becomes approximately as thick as the left book, though its page block remains slightly shallower and falls short of the original thick-book thickness. Quality: Both book structures, cover edges, page textures, perspective and lighting are coherent without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_7b51d6a8c7a74bd88618",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, two-book arrangement, cover colors and proportions are retained; the page-block surface texture is visibly coarser and mottled compared with the original. Instruction: The right book retains a narrow page block and remains much thinner than the left, so the expected matching thickness is not achieved. Quality: Both books have coherent outlines, page blocks and cover perspective; lighting is natural and no clear generation artifact is visible."
+    },
+    {
+      "blind_id": "case_3af5074b985856a67f61",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: White background and color palette remain, but both books shift downward and the thick book gains a conspicuous vertical brown strip along its right page edge. Instruction: The thin right book remains thin rather than gaining a page block matching the left book; the requested thickness modification is absent. Quality: Page textures and lighting are coherent, but the thick book has an unnatural vertical cover-like strip connecting its upper and lower boards along the exposed right edge, producing a clear structural flaw."
+    }
+  ]
+}

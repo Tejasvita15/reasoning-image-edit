@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b354",
+  "results": [
+    {
+      "blind_id": "case_47a5d48cfec600379df7",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Body outline, bowel layout, both renal outlines and posterior muscles remain recognizable, but the vertebral body becomes a large black disc and the separate central round white focus disappears. Instruction: The white cluster in the image-right kidney is replaced with gray tissue, matching the expected stone-free kidney; the requested cluster is fully removed. Knowledge: The explanation calls for removing a few small white particles; removal of the renal cluster fits this, but erasing the solid vertebral body is a clear biological conflict with a localized stone-removal result. Quality, edited image only: The sharply bounded, uniformly black circular void within the otherwise bright vertebra is a conspicuous structural artifact; surrounding CT textures and body outline remain coherent."
+    },
+    {
+      "blind_id": "case_d410bd16c861a821615e",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Renal outlines, vertebra, posterior muscles, body perimeter and corner labels are retained, but the separate central round white focus is removed and the upper central dark bowel cavity and its bordering tissue change shape. Instruction: The bright renal cluster is absent and its location is filled with gray renal texture, precisely matching the expected removal. Knowledge: The supplied expectation is removal of a few small white particles; the conspicuous renal particles disappear and the kidney remains a continuous tissue structure, consistent with that expectation. Quality, edited image only: Coherent axial anatomy, continuous organ boundaries and natural granular CT texture; no conspicuous seams, duplicated structures or malformed regions."
+    },
+    {
+      "blind_id": "case_7106f228a8da1dd4d37f",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The external body contour, vertebra and upper bowel remain recognizable, but the image-left kidney largely disappears, the image-right renal mass shrinks dramatically, the central white focus disappears and posterior muscles lose their internal texture. Instruction: The white renal cluster vanishes, but it does so through extensive deletion/replacement of the kidney rather than localized removal of stones; the expected result retains the kidney with only its small white particles removed. This is a poorly implemented removal. Knowledge: Instruction failure ⇒ knowledge invalid. Quality, edited image only: Large unnaturally empty dark spaces flank the central anatomy and several soft-tissue regions are smeared into nearly featureless shapes, producing noticeable anatomical and texture ambiguity."
+    },
+    {
+      "blind_id": "case_05f700ccf3ca08dda13d",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The body outline, bowel arrangement, renal shapes, vertebral structure, posterior muscles and corner annotations are preserved; the clearly separate round white focus just above the vertebra is changed to gray outside the renal removal. Instruction: The image-right kidney no longer contains its bright white cluster, and gray tissue fills that site, fully matching the requested stone removal. Knowledge: Removing the small white renal particles while leaving continuous renal tissue matches the supplied explanation. Quality, edited image only: The axial structures have coherent boundaries and plausible grayscale CT texture, with no visible cutout, seam, duplication or structural deformation."
+    },
+    {
+      "blind_id": "case_ec39907ba77590436064",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Both kidney outlines, bowel layout, vertebra, posterior muscles, body perimeter and annotation positions are retained; the nonrenal central round white focus is also eliminated. Instruction: The conspicuous white cluster in the image-right kidney has disappeared into continuous gray tissue, matching the expected kidney without visible stones. Knowledge: The requested small white particles are absent while the renal tissue remains intact, matching the supplied explanation. Quality, edited image only: Organ boundaries and skeletal structures are coherent; the granular scan texture is continuous and there are no conspicuous artificial voids, seams or duplicated structures."
+    },
+    {
+      "blind_id": "case_69b5e3e9cfd2b57b1dc1",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The external contour, both renal outlines, upper bowel, vertebra, posterior musculature and corner text remain visually consistent; the separate circular bright focus above the vertebra is additionally removed. Instruction: The image-right renal white cluster is removed and replaced with gray tissue, fully satisfying the expected disappearance of the stones. Knowledge: The visible removal of small white particles with continuous surrounding kidney tissue agrees with the supplied explanation. Quality, edited image only: Coherent axial anatomy and natural grayscale tissue texture, with smooth continuous boundaries and no obvious generation artifact; the moderate softness does not obscure structures."
+    }
+  ]
+}

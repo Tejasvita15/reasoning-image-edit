@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b036",
+  "results": [
+    {
+      "blind_id": "case_a6e6a93da5d79758944c",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The timber dock, crossbeam and attached hardware disappear; the support becomes an isolated narrow pole against a distant horizon, and lighting and composition change. Instruction: The scene becomes calm blue water with concentric ripples, but water still meets the gauge just below 6. The expected result is a visibly lower waterline exposing more of the original gauge/support; that decrease is not demonstrated. Knowledge: The supplied explanation requires decreased water level, which the retained contact near 6 does not establish. Instruction failure ⇒ knowledge invalid. Quality: Judged alone, the pole and numerals are coherent, the rings and reflection look natural, and surface textures show no noticeable generation defects."
+    },
+    {
+      "blind_id": "case_8e2ae92ca3e195a525a5",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Gauge, timber support, horizontal beam, upper planks and metal fitting retain their shapes and positions. The water surface behind and beside the post is visibly smoothed, a clear non-level surface change. Instruction: Ripple texture changes, but water continues to meet the post immediately below 6, with no additional lower gauge exposed. The expected lower waterline is absent. Knowledge: The explanation explicitly calls for a decrease; the visible gauge reading remains essentially unchanged. Instruction failure ⇒ knowledge invalid. Quality: Judged alone, the dock geometry and gauge are coherent, wood textures and rippled reflections are natural, and there are no conspicuous artifacts."
+    },
+    {
+      "blind_id": "case_88f0253b07ecf756a34f",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The dock layout, gauge placement and metal fixture are retained, but the crossbeam has changed patches and weathering, the upper timber surface details are altered, and the foreground waves/reflection are redrawn. Instruction: The surface pattern changes while water still contacts the bottom of the 6 section at essentially the original gauge reading. A successful edit would visibly expose more support below that mark, so the required decrease is absent. Knowledge: The stated expectation is decreased water level; no such gauge-level change is shown. Instruction failure ⇒ knowledge invalid. Quality: Judged alone, the readable markings, timber joints, weathered surfaces and water reflections form a coherent natural scene without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_e4ea91664c93f709679b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The gauge, dock geometry and hardware remain positioned as before, but the water becomes pale olive and foamy, and the timber/gauge lighting takes on a greener cast. These changes go beyond lowering the level. Instruction: White turbulent foam is introduced around the post, yet the waterline remains near the bottom of 6 and sometimes laps higher. The expected exposed lower portion from decreased water is absent. Knowledge: The supplied explanation requires a lower level, whereas the visible contact and foam do not show a decrease. Instruction failure ⇒ knowledge invalid. Quality: Judged alone, the post and readable gauge are structurally coherent, foam and waves have plausible shapes and shading, and there are no clear generation artifacts."
+    }
+  ]
+}

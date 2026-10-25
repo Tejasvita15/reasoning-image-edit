@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b249",
+  "results": [
+    {
+      "blind_id": "case_a2f3894e29fcf88d78d0",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "Consistency: Country silhouettes, placement and label lettering remain recognizable and aligned, but the black exterior becomes white/green and several internal borders, notably Austria–Hungary, disappear. Requested country recoloring is excluded. Instruction: White countries become colored; the expected result is a complete red/yellow/blue/green map with differently colored neighbors. The palette is present, but Poland, Czech Republic and Slovakia are red, while Austria and Hungary are blue, so the game is only partially fulfilled. Knowledge: The supplied explanation is blank; task-implied adjacency logic is the basis. Several shared-border neighbors have identical colors, giving multiple serious violations. Quality, assessed only from this image: Flat fills and overall map silhouettes are coherent, but the left Switzerland label and the southern 'Slov...' label are visibly truncated, with weakly separated blue areas creating a further readability issue."
+    },
+    {
+      "blind_id": "case_0b47974e8bf2aca6b4b8",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The black exterior, country arrangement, coastline and geographic label locations are retained; the label lettering has been noticeably redrawn with heavier strokes. Country fill changes are excluded. Instruction: Some regions are newly green, yellow, red and blue. A correct result would color every country uniformly using the specified palette and distinguish neighbors. Germany, Poland, Switzerland and the small southern country remain white, Italy is only partly blue, and Czech Republic and Austria are both green; most of the coloring task is missing or incorrectly applied. Knowledge: The supplied explanation is blank; the mandatory score coupling applies. Instruction failure ⇒ knowledge invalid. Quality, assessed only from this image: Clean flat fills and coherent country outlines, but the left Switzerland text and the small southern 'Slov...' text are visibly cut off, impairing map-label readability."
+    },
+    {
+      "blind_id": "case_6de33c7be93c3a50dd9f",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "Consistency: Country placement, main silhouettes and label forms remain aligned with the source, but the exterior changes from black to green and internal divisions such as Austria–Hungary lose their black border. Requested fills are excluded. Instruction: The white map becomes red, blue, yellow and green-toned regions. The expected result colors every country with one of four colors and keeps shared-border neighbors different. Coloring is extensive, but Czech Republic and Slovakia share yellow, and Austria and Hungary share green, so compliance is partial. Knowledge: No explanation text was supplied; task-implied map adjacency supplies the basis. Multiple same-color neighbors violate the game's logic, including the yellow Czech–Slovak pair and green Austrian–Hungarian pair. Quality, assessed only from this image: The flat-color map is broadly coherent, but clipped Switzerland and southern 'Slov...' labels impair readability, and green country edges against the green exterior have poor visual separation."
+    },
+    {
+      "blind_id": "case_19fb277deeace09b4271",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "Consistency: The black background, country layout, coastline and label positions are retained; geographic lettering is visibly redrawn and heavier. Recoloring is excluded from consistency. Instruction: The white countries receive the four requested colors. A correct result would give each country a uniform color different from its neighbors. Czech Republic, Slovakia and Austria are all yellow; Italy contains both yellow and blue, and Austria's western extension is cyan-blue. The main coloring idea is present but several required aspects are wrong. Knowledge: The supplied explanation is blank; task-implied adjacency and single-region coloring logic are the basis. Multiple adjacent yellow countries and split-color countries violate that logic. Quality, assessed only from this image: Strong flat fills and coherent map silhouettes, but Switzerland's label is cropped at the left and the small southern 'Slov...' label is truncated, constituting visible labeling defects."
+    }
+  ]
+}

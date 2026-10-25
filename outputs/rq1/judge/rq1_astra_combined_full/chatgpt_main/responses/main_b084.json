@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b084",
+  "results": [
+    {
+      "blind_id": "case_4b5039f3b7c8055bf90b",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: identity, hairstyle, suit and tie, head angle, crop and background lighting have changed; only the general portrait setting remains. Instruction: the edit replaces the person with a worried, upward-looking man, without the expected red facial flush, so the requested state is absent. Knowledge: the explanation requires a red face, which is not shown. Instruction failure ⇒ knowledge invalid. Quality: coherent facial anatomy and upward gaze, natural lighting, detailed hair, skin and shirt texture, and no visible generation artifacts."
+    },
+    {
+      "blind_id": "case_0340046c5e2775e142d8",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the frontal portrait and pale background remain, but the facial contours and deep smile creases, hair shape, and jacket/shirt folds are noticeably altered beyond flushing. Instruction: the cheeks and nose have become visibly pink-red; the expected flushed face is present on the portrait subject. Knowledge: this visible facial redness matches the supplied explanation that the person's face should turn red. Quality: anatomy, clothing structure and lighting are coherent; slightly waxy, over-smoothed facial shading is a small naturalness issue, with no major distortions or duplication."
+    },
+    {
+      "blind_id": "case_e5490c4080d9b950d4c9",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: face and expression, hairstyle, suit lapels, shirt folds, patterned tie, frontal pose and plain background are visually preserved. Instruction: there is no meaningful red facial flush; the skin retains its ordinary light coloring, so the expected change is absent. Knowledge: the supplied explanation calls for the face to turn red, which is not visibly realized. Instruction failure ⇒ knowledge invalid. Quality: a coherent natural portrait with sound anatomy, plausible lighting and intact hair and fabric textures; moderate softness does not obscure any content."
+    },
+    {
+      "blind_id": "case_03cd4b9737282245ceff",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: identity, hairstyle, expression, frontal composition and pale background remain; the clothing has noticeably redrawn shirt folds and jacket contours. Facial and neck redness are excluded as the intended change. Instruction: the face is now strongly and visibly red across the cheeks, nose and forehead, accurately supplying the expected flushed state. Knowledge: the red face directly matches the supplied explanation. Quality: coherent facial anatomy, realistic skin highlights and hair, intact suit structure and plausible lighting, with no noticeable generation artifacts."
+    }
+  ]
+}

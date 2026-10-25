@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b100",
+  "results": [
+    {
+      "blind_id": "case_24dd32e45c7a800025bb",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Shelf arrangement, supports, wall and original upper-right vase remain consistent; the wooden floor has noticeably smoother, altered grain. The requested plant relocation is excluded from this check. Instruction: A large leafy plant in an opaque gray pot has appeared at the left of the second tier, while the original small plant in its glass vase remains at upper right. Expected: that original plant on the far left of the other unit\u2019s top tier. The other unit and left side are addressed, but the object, tier and removal from its old position are wrong, a major omission. Quality, assessed only in this image: structure, naturalness, artifact freedom and textures are satisfactory; the pot is supported, foliage is coherent and shelf perspective is plausible."
+    },
+    {
+      "blind_id": "case_b3f354d20707bc94e79b",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The two shelving units, wall, supports and upper-right vase retain their arrangement; the floor grain is visibly smoothed and changed. Plant relocation itself is excluded. Instruction: A rounded leafy plant in a gray pot is added at the left of the second shelf from the top, with the original glass-vase plant still at upper right. Expected: move the original plant to the far left of the other unit\u2019s corresponding top tier. Leftward placement on the other unit is present, but the wrong plant and tier and retained original leave most requirements unfulfilled. Quality, judged solely from this edited image: coherent shelving and plant shapes, plausible light and contact, clean surfaces, and no noticeable artifacts; structure, naturalness, artifact freedom and texture all satisfactory."
+    },
+    {
+      "blind_id": "case_145fbaccb873d5178a13",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Overall shelving layout and white wall remain recognizable, but a small white cup-like object appears on the left unit\u2019s second tier, and the floor grain and tone are altered. Instruction: The upper-right plant remains and another similar vase plant appears at the right end of the bottom tier of the same unit. Expected: the original plant relocated to the far left of the other shelving unit\u2019s top tier. Neither the destination unit, side nor tier is followed, so this is non-compliance. Quality assessed independently: shelf geometry, shadows and plant forms are coherent; the small white object on the left second tier has a slightly blended, indistinct rim. Structure and naturalness are otherwise satisfactory, with this minor local texture imperfection."
+    },
+    {
+      "blind_id": "case_97075995d30a6638b6b6",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The major two-unit layout is retained, but shelf edges/support details become rougher and the wall and wooden floor textures are noticeably changed. Instruction: The original top location is empty, while two rounded plants in brown pots occupy the right ends of the second and bottom tiers of the right unit. Expected: a single original vase plant at the far left of the left unit\u2019s corresponding top tier. The plant is replaced and duplicated at entirely incorrect destinations, so the instruction is completely misinterpreted. Quality judged only from this image: the two potted plants have coherent foliage, plausible pots and supported placement; shelving perspective and shadows are consistent. Structure, naturalness, artifact freedom and textures are satisfactory; fine grain does not cause semantic loss."
+    }
+  ]
+}

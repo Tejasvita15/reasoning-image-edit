@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b027",
+  "results": [
+    {
+      "blind_id": "case_c1deae709b0ea269f0c6",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The dark background, sesame bun, patty, cheese and lower bun remain recognizable, but the purple onion and green pickle pieces disappear and a large empty gap separates the upper bun from the tomato. Instruction: The edit removes fillings and separates layers; the expected result is an overhead view dominated by the circular sesame-covered bun with underlying layers occluded. The retained side-on dome and vertically stacked fillings do not perform the requested view change. Quality, assessed only from this output: Structure, rendering, clean contours and textured surfaces are coherent; the separated bun reads as an exploded food illustration without visible generation artifacts. Knowledge is not applicable."
+    },
+    {
+      "blind_id": "case_e34472178963e3db290b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The dark background remains, and occlusion of the fillings is allowed by the requested overhead view. However, the bun loses both its sesame seeds and its toasted, textured orange surface, becoming a smooth pale disk. Instruction: The frontal hamburger is replaced with a circular overhead-looking form. A correct top view should show the recognizable upper sesame bun; the circular silhouette and hidden layers support the main idea, but the featureless disk does not adequately depict that object's top. Quality, assessed only from this output: The simple disk has a smooth continuous edge, coherent gentle shading and clean uniform surroundings; no visible structural or rendering defects. Knowledge is not applicable."
+    },
+    {
+      "blind_id": "case_8be1bf40f58cc7d5ba0e",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The sesame bun, onion, pickles, tomato, cheese, patty and bottom bun retain their recognizable arrangement and appearance. The background changes clearly from dark to white without being requested. Instruction: The visible change is chiefly the background and rendering finish; a correct result would show the hamburger directly from above, chiefly its round upper bun. This output still displays the front-facing stack and side profiles of the fillings, so the requested viewpoint change is absent. Quality, assessed only from this output: Structure and contours are coherent, food textures are intact, shading is consistent with the rendered style, and the clean white surroundings contain no noticeable artifacts. Knowledge is not applicable."
+    },
+    {
+      "blind_id": "case_bb03c011d6d9606767fb",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The recognizable sesame-topped burger and its onion, pickle, tomato, cheese, patty and lower-bun layers remain. The clear non-instruction change is the replacement of the dark background with white. Instruction: The burger remains a frontal layered stack with a domed bun and broad exposed filling faces. The expected overhead view would instead show the circular upper bun occluding most of those layers; that view change has not been made. Quality, assessed only from this output: The rendered burger has coherent layer boundaries, continuous contours, consistent highlights and intact bread and meat textures, without noticeable generation defects. Knowledge is not applicable."
+    }
+  ]
+}

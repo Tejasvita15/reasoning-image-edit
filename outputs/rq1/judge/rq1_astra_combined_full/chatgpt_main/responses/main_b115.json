@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b115",
+  "results": [
+    {
+      "blind_id": "case_0aafad7ae9273f98018b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The standing pose, ear silhouettes, trunk curve, and composition remain; the vegetation/ground textures are repainted and the tusks become more golden. The requested skin recoloring is excluded. Instruction: The red skin changes to gray across the head, ears, trunk, body, legs, and tail. A corrected image should retain this elephant with plausible gray skin; this fully addresses the conspicuous unreasonable feature. Quality: Structure, naturalness, artifact freedom, and texture fidelity are satisfactory: coherent limbs, tusks and trunk, continuous wrinkles, and plausible shading throughout."
+    },
+    {
+      "blind_id": "case_b0a8f69f08bae4f9bd9e",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The frontal painted scene is replaced by an overhead view; pose, body proportions, background, perspective, and rendering all change. Instruction: The elephant becomes an overhead orange-red figure, retaining the implausible skin color. The expected correction is a naturally colored elephant with sound anatomy; no such correction is achieved. Quality: Structure and texture fidelity are problematic: the head/trunk region is blunt and compressed, the skin is covered in coarse wormlike ridges, and the ground has distracting multicolored crystalline noise. Lighting is broadly coherent but these multiple defects degrade the image."
+    },
+    {
+      "blind_id": "case_9704458f6effea103cba",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The general frontal stance and landscape concept remain, but the ear contours and facial details change, the tusks are shortened/recurved, and the clouds and vegetation are repainted. Instruction: The shape and rendering change while the entire elephant remains vivid red. A successful correction should remove the biologically implausible coloration; that requested correction is absent. Quality: Anatomy, grounding, and continuous painted textures are coherent, without obvious duplication; the conspicuously unnatural uniformly saturated red skin is a clear natural-appearance problem."
+    },
+    {
+      "blind_id": "case_66ab2ca6111b46fdbe6a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The framing, ears, legs, and landscape layout remain recognizable; the trunk is lengthened and straightened, tusk tips/curvature change, and the ground shadow beneath the trunk is extended. Instruction: Trunk and tusks are reshaped but the red skin remains. The expected result is this elephant with its unreasonable coloration corrected; the visible changes do not accomplish that. Quality: The animal has coherent limbs, ears, tusks and trunk and consistent painted textures/shading. Its uniformly bright red skin is a noticeable naturalness problem; there is no obvious duplication or broken body structure."
+    },
+    {
+      "blind_id": "case_fa14bce9b1d682105f6c",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: The composition, viewpoint, surroundings, anatomy, and painted rendering are replaced by an overhead figure on a textured ground. Instruction: The animal retains orange-red skin and acquires a second ear-like pair across its rear body. A corrected elephant should have natural coloration and a single coherent head and ear pair; the requested correction is absent. Quality: Structural coherence fails severely: two broad ear pairs and head-like forms are joined along one elongated body, with a thin appendage on the lower head-like mass. Skin and ground are also coarse and unnatural. This is a major anatomical hallucination."
+    },
+    {
+      "blind_id": "case_cf1f417199df4bd28cfc",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The frontal elephant and landscape arrangement persist, but ear edges and facial proportions, tusk lengths/curvature, and clouds and shrub textures are visibly altered. Instruction: The elephant is redrawn with changed anatomy details but still has uniformly vivid red skin. The expected correction would restore plausible elephant coloration; the central unreasonable feature is uncorrected. Quality: The painted animal has coherent anatomy, plausible grounding and lighting, and continuous wrinkle textures without obvious generation seams. The intensely red skin remains one clear natural-appearance problem."
+    }
+  ]
+}

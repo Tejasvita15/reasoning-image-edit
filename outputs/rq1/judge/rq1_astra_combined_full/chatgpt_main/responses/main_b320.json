@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b320",
+  "results": [
+    {
+      "blind_id": "case_2fbc56c435250340629c",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The frontal mouth-and-nose layout remains, but the teeth and mouth opening change, lighting becomes much darker, and water droplets cover the surrounding skin. Instruction: The lips become glossy and visibly wet rather than severely dry; the expected change is pronounced dry, cracked or peeling lip skin, so the request is not fulfilled. Knowledge: The supplied explanation requires dry skin on the lips, whereas the image emphasizes moisture. Instruction failure ⇒ knowledge invalid. Quality: Anatomy, lighting and lip texture are coherent; several skin droplets look like flat, opaque discs, a minor naturalness issue."
+    },
+    {
+      "blind_id": "case_2ea85d4ee9e64200ab1d",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The frontal facial crop is retained, but considerably more of the nostrils is exposed and the mouth opening and visible tooth arrangement change. Instruction: Flaking and fissures appear on the lips and surrounding skin, partially establishing dryness, but the lips and much of the face remain strongly wet-looking; severe dry lips are incompletely depicted. Knowledge: Peeling lip skin supports the supplied explanation, but the pronounced slick surface conflicts with the intended dry-skin appearance. Quality: Facial anatomy remains readable, but the broad translucent skin sheets blend into the cheeks with a visibly waxy, mask-like texture."
+    },
+    {
+      "blind_id": "case_06af81ca367294e1e22d",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Facial framing, skin color, nose placement and overall lip outline remain close to the source; the tooth row and mouth opening are noticeably reshaped. The instructed cracking and peeling are excluded from consistency. Instruction: The previously smooth lips now have extensive fissures and peeling patches across both lips, clearly depicting severe dryness. Knowledge: The visible cracked, flaking lip skin directly matches the supplied dry-skin explanation. Quality: Anatomy and illumination are coherent, but several dark, sharply outlined polygonal cracks and peeling patches look drawn onto the lip surface rather than naturally integrated."
+    },
+    {
+      "blind_id": "case_cd169048d3c583957805",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The frontal crop, surrounding skin, nose position and overall lip silhouette remain recognizable and close to the source; the visible tooth row changes into two broader central teeth. Requested changes in lip surface and color are excluded. Instruction: The lips show widespread deep creasing, roughness and pale dry surface skin, clearly realizing the requested severe dehydration appearance. Knowledge: The conspicuously dry, rough lip skin matches the supplied explanation that lips develop dry skin. Quality: Mouth and nose anatomy, lighting, shadows and fine surface textures are coherent and natural, with no noticeable duplication, deformation or generation artifacts."
+    }
+  ]
+}

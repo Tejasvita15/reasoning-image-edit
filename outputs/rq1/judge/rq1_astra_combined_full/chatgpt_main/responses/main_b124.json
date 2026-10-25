@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b124",
+  "results": [
+    {
+      "blind_id": "case_ce52522511e4d5aa269a",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The hands, coat, pen, notebook, apple, background and left vessel retain their arrangement; the HNO3 label is removed, one clear unrequested change. Instruction: A copper-colored rod is now immersed in the flask, but the solution remains yellow. The requested result requires copper inside and a subsequent color change, so only part is fulfilled. Knowledge: The explanation specifies blue copper nitrate; persistent yellow liquid fails to show this fundamental reaction outcome. Quality: The vessel, hands and surrounding objects have coherent shapes and lighting, and the metallic rod has clear, natural highlights without noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_0b2284fb683c56971818",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The HNO3 label, flask, hands, coat, pen, notebook, apple, left vessel and yellow background remain visually unchanged outside the added material. Instruction: A copper-colored folded mass appears inside the flask, but the liquid remains yellow rather than displaying the required subsequent color change; this is partial compliance. Knowledge: The supplied explanation calls for blue copper nitrate, whereas the edited liquid remains yellow around copper-colored material, failing to depict the reaction outcome. Quality: The scene, glassware, hands and lettering are coherent, with one minor issue: the copper-colored mass has slightly blended, ambiguous folds at its lower edge."
+    },
+    {
+      "blind_id": "case_bec8fb51a5f8bbd3c302",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": 4,
+      "rationale": "Consistency: The scientist’s hands and coat, pen, book, apple, left vessel and background retain their positions; the HNO3 label is missing, a clear unrelated alteration. Instruction: An immersed metallic piece and a blue solution replace the empty yellow reagent appearance, matching the requested placement and elapsed color change, with a minor weakness in the piece’s yellow-gold rather than distinctly copper appearance. Knowledge: The blue solution matches the explanation’s copper nitrate outcome; the metallic piece’s brass-like hue is a minor material plausibility deviation. Quality: Glass and object geometry remain intelligible, but conspicuous mottled noise across the hands, coat and background and smeared small placard lettering visibly degrade texture and detail."
+    },
+    {
+      "blind_id": "case_dae51b2301675d741991",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The flask and HNO3 label, hands, coat, pen, notebook, apple, left vessel and background retain their original appearance; the added copper is the attempted instructed modification. Instruction: A copper plate is placed on the notebook outside the flask, while the reagent stays yellow. The expected copper immersion and subsequent solution color change are both absent, a major omission. Knowledge: Instruction failure ⇒ knowledge invalid. The copper lies outside the reagent and no blue copper nitrate outcome is shown. Quality: The copper plate has coherent thickness, metallic shading and placement; the hands, glassware, text and surrounding scene are natural and free of noticeable generation artifacts."
+    }
+  ]
+}

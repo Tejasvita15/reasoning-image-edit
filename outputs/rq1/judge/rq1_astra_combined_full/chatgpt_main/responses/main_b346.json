@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b346",
+  "results": [
+    {
+      "blind_id": "case_1637634b64859ca3607a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The two upper balls, vertical line, blue marker and dark upper-right object retain their layout; the lower ball, which still overlaps the line, is removed and the surrounding turf is visibly retextured. Instruction: Only the lower-right ball disappears. The correct outcome retains all three balls because none is wholly beyond the boundary; removing this ball misinterprets out of play. Knowledge: The supplied explanation explicitly requires retaining all soccer balls, contrary to this deletion. Instruction failure ⇒ knowledge invalid. Quality: Ball shapes and lighting are coherent, but a conspicuous smooth green patch interrupts the lower-right grass and the grass has a visibly artificial wavy texture."
+    },
+    {
+      "blind_id": "case_52c3a66cb8bec0b0fe57",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white boundary, blue marker and upper-right dark object preserve their general placement, but two balls disappear, the remaining ball has different panel orientation and placement, and turf texture changes broadly. Instruction: The edit leaves a single ball wholly left of the line; the expected result retains the original three, including balls overlapping the boundary. This removes in-play balls rather than identifying a wholly out-of-play ball. Knowledge: Retaining only one ball contradicts the supplied all-balls-retained explanation. Instruction failure ⇒ knowledge invalid. Quality: The ball is structurally coherent with plausible shading, but a large smooth turf patch beside the lower boundary visibly clashes with the surrounding coarse grass."
+    },
+    {
+      "blind_id": "case_10372457347ffcf29c37",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: All three in-play balls vanish, a netted goal replaces the dark upper-right object, a horizontal white line is added, and smooth patches alter the turf; only the basic green field, vertical boundary and blue marker persist. Instruction: All balls are removed, whereas all should remain because none has wholly crossed the right boundary. The requested selection is completely misinterpreted. Knowledge: Removing every ball directly contradicts the supplied explanation that all soccer balls should be retained. Instruction failure ⇒ knowledge invalid. Quality: The goal and painted lines are recognizable and geometrically coherent, but conspicuous smooth, blocklike green patches interrupt the grass beside the vertical line and above the lower horizontal line."
+    },
+    {
+      "blind_id": "case_e17bbc8a0a35d36c1ba4",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The vertical boundary and blue marker remain, but the middle ball is missing, both surviving balls have altered panels and sizes, the lower ball is repositioned off the line, and the dark upper-right object disappears. Instruction: The line-straddling middle ball is deleted and the foreground ball is displaced rightward. The expected result preserves all three original balls; this deletes an in-play ball and creates a wholly right-side ball instead. Knowledge: Two surviving balls do not satisfy the supplied requirement to retain all soccer balls. Instruction failure ⇒ knowledge invalid. Quality: Both balls have coherent spherical forms and plausible shadows, but an obvious smooth dark patch to the left of the central boundary breaks the grass texture."
+    },
+    {
+      "blind_id": "case_a18c1bf6b51b354bac8f",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The upper two balls, boundary, blue marker and dark corner object retain their general appearance and location. The lower ball is wrongly removed despite overlapping the boundary, and the field texture is visibly redrawn into a wavy pattern. Instruction: Only the foreground right ball is deleted; a correct result keeps all three original balls, since none is entirely beyond the white line. This mistakes partial overlap for out of play. Knowledge: The deletion conflicts with the explicit explanation that all soccer balls should be retained. Instruction failure ⇒ knowledge invalid. Quality: The two balls have coherent geometry and shading, but a large smooth patch at lower right and artificial wavy grass texture are clear visual flaws."
+    },
+    {
+      "blind_id": "case_91347e90a5290a8f7914",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white vertical boundary, blue marker and upper-right dark object remain recognizable in place. All three in-play balls are removed and conspicuous smooth areas alter the grass on both sides of the line. Instruction: Every ball disappears; the expected image retains every ball because none is wholly beyond the boundary on the right. The edit completely misinterprets which balls are out of play. Knowledge: The empty field contradicts the supplied explanation requiring all soccer balls to remain. Instruction failure ⇒ knowledge invalid. Quality: The field perspective and painted line are coherent, but large smooth green patches beside the boundary visibly interrupt the surrounding coarse grass texture."
+    }
+  ]
+}

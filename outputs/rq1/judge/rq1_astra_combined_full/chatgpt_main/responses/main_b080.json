@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b080",
+  "results": [
+    {
+      "blind_id": "case_37a6f97a52cc9b603474",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The sky, coastal composition and right rock bank remain recognizable, but the distant treeline/house shift slightly upward and most foreground foam strands disappear into smoother waves; these are changes beyond water color. Instruction: The turquoise foreground becomes a broad red water patch, matching the expected visible red tide fully. Knowledge: The supplied explanation says the water should turn red; extensive red water directly satisfies it. Quality, judged only from this image: Coherent shoreline, naturally tapering ripples, intact rocks and diffuse lighting; no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_04c4b942e3043f211fb5",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The island, houses, sky, horizon and distinctive swirling foam layout are preserved; the upper right rock outline has a small local shape change. The instructed water recoloring is excluded. Instruction: The foreground and middle water change from turquoise to red beneath the foam, fully depicting the requested red tide. Knowledge: Red water matches the explicit explanation that the water should turn red. Quality, judged only from this image: Water and foam have coherent flowing structures, rocks retain credible textures, and lighting and perspective are natural without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_52d0ddcf56c35f7fd6d3",
+      "status": "unreadable",
+      "consistency_score": null,
+      "instruction_score": null,
+      "quality_score": null,
+      "knowledge_score": null,
+      "rationale": "Unreadable: The exact supplied edited image displays as a tiny blurred thumbnail. Water coloration, foam structure and shoreline details cannot be resolved reliably enough to assess the requested edit or its consistency, knowledge and quality. All scores are null."
+    },
+    {
+      "blind_id": "case_000a493fcdc65af6be21",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The broad coastline layout remains, but island vegetation and rock colors are strongly warmed/saturated and the shoreline and foam textures become visibly remodeled; these non-requested changes are substantial. Instruction: The water changes to bright green with isolated orange-red patches. A red tide should visibly redden the water; the patches convey part of the idea, but the dominant green treatment leaves it incomplete. Knowledge: The explanation expects water to turn red; large green areas are a clear mismatch despite red patches. Quality, judged only from this image: Strongly smeared rock and vegetation textures, fused glassy foam, and conspicuously glowing red-orange water contours create several distracting surface and lighting artifacts."
+    },
+    {
+      "blind_id": "case_48ace25ef77523c6e519",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Island buildings, sky, horizon and rocky bank retain their placement and appearance; the large central whirlpool and branching white foam pattern are replaced by a different field of low waves, a clear non-requested structural change. Instruction: Almost the whole visible near-water surface becomes red, fully showing the requested event. Knowledge: The widespread red water directly matches the supplied expectation that water should turn red. Quality, judged only from this image: Coastline, perspective and rippling water remain coherent; the lower-right foam ridge has a slightly coarse, granular appearance, a minor texture imperfection."
+    },
+    {
+      "blind_id": "case_d6ca533f836f1261a10e",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The island, houses, horizon, rocky bank and major swirling foam paths remain in place; there is a small change to the upper right rock contour. Red coloration of water is excluded from consistency. Instruction: Turquoise water becomes red across the foreground and middle distance, fully depicting the requested red tide. Knowledge: The water visibly turns red as specified by the explanation, with no conflicting required outcome. Quality, judged only from this image: The landscape and fluid structures are coherent with intact rock textures; some lower foreground foam edges have a mildly glowing orange outline, a small naturalness flaw."
+    }
+  ]
+}

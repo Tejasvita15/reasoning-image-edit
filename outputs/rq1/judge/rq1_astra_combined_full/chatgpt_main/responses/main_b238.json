@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b238",
+  "results": [
+    {
+      "blind_id": "case_24e923f62254e82b4533",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The nine-cell grid, white background, and arrow pairs in all eight populated cells retain their arrangement, directions and appearance. Instruction: The middle-right cell still contains the question mark; no shape has been drawn. The expected replacement is a downward arrow on the left and a rightward arrow on the right, so the requested change is absent. Knowledge: Neither of the two arrows specified by the explanation is provided. Instruction failure ⇒ knowledge invalid. Quality: The grid and symbols are coherent and legible, with clean recognizable arrow structures; moderate softness does not obscure meaning."
+    },
+    {
+      "blind_id": "case_6c0c55371260343ba8cb",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Grid borders, the eight existing arrow pairs, their positions and directions, and the white background remain visually unchanged. Instruction: The question mark remains in the middle-right cell and no arrows have been added; a correct edit would replace it with a left downward arrow and a right rightward arrow. Knowledge: The explanation's required pair is absent. Instruction failure ⇒ knowledge invalid. Quality: The complete diagram has coherent straight grid boundaries and clearly identifiable arrowheads and question mark, without a distracting structural artifact."
+    },
+    {
+      "blind_id": "case_ec16a84091ce7f7b81f8",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The grid layout and all eight populated cells preserve their arrow directions and arrangement, but the background and symbol edges show a noticeable overall change to speckled, rough texture. Instruction: The target cell retains its question mark without any added shape, rather than displaying the required downward and rightward arrows. Knowledge: The pair specified in the supplied explanation is absent. Instruction failure ⇒ knowledge invalid. Quality: The grid and symbols remain readable, but conspicuous speckling and ragged halos around arrowheads and lines give the diagram a visibly degraded texture."
+    },
+    {
+      "blind_id": "case_040f05bc6db25fe110e5",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Outside the instructed middle-right cell, the grid, white background and all eight arrow pairs retain their placement, shapes and directions. Instruction: The question mark is replaced by one large rightward arrow. The expected result has two arrows, with a downward arrow at left and a rightward arrow at right; the rightward component is present but the downward component is missing, making this partial compliance. Knowledge: The supplied two-arrow directional rule is only partly represented, with the absent downward arrow constituting one clear conflict. Quality: The diagram is legible and structurally coherent; the bold horizontal arrow has a clean shaft and triangular head and the remaining symbols are readily recognizable without distracting artifacts."
+    }
+  ]
+}

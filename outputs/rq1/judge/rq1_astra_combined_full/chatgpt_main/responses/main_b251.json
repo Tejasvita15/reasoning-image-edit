@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b251",
+  "results": [
+    {
+      "blind_id": "case_ce4f3934feb35577cfae",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The road, grassy surroundings, mirror and dashboard layout remain recognizable, but the retained lower wheel is reframed higher and smaller, the hands and forearms are reshaped, and dashboard proportions shift. Instruction: The image redraws both wheels without removing the unsupported upper wheel. A corrected scene should have one mounted wheel held by the driver and an unobstructed windshield; the central unreasonable duplication is untouched, so compliance is absent. Quality: Structure and naturalness are problematic because a second unsupported steering wheel floats over the dashboard; hands, lighting and surface textures otherwise look coherent, without substantial rendering damage."
+    },
+    {
+      "blind_id": "case_7cecb2e5a455a34900ae",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The lower steering wheel, hand positions, dashboard vents and gauges, mirror, windshield frame, road and vegetation remain visually unchanged. Instruction: There is no meaningful corrective difference: the large extra wheel still floats across the windshield above the working wheel. The expected single-wheel driving scene is not achieved. Quality: The unsupported duplicate steering wheel is a clear semantic and structural flaw; the hands, vehicle materials, perspective and daylight are otherwise plausible and free of conspicuous texture artifacts."
+    },
+    {
+      "blind_id": "case_39f43154dd0bc0e96a0f",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding removal of the extra wheel and necessary reconstruction behind it, the windshield frame, mirror, vents and visible roadside remain consistent. However, the retained wheel hub and spoke proportions change, and both hands change shape and position, including the exposed right fingers. Instruction: The floating upper wheel is removed and replaced with a continuous windshield view of road and sky, leaving one mounted wheel in the driver's hands; this fully corrects the visible unreasonable duplication. Quality: Anatomy, vehicle structure, lighting and textures are coherent. A small hard-edged tonal patch on the lower-left roadway is a minor blending imperfection; background softness does not obscure the scene."
+    },
+    {
+      "blind_id": "case_c6c31860199a4c9144d9",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: The general driving viewpoint, road, greenery, mirror and dashboard persist, but an enormous central arm is added, the original gripping hands are reshaped, and wheel spokes and dashboard details are altered. Instruction: The extra upper wheel remains, and a new central limb covers its hub rather than correcting the duplication. A reasonable single-wheel scene is not produced, so the instruction is misinterpreted. Quality: A huge isolated forearm ending in an exposed elbow fills the center while two additional hands hold the lower wheel; this is a major anatomical hallucination. The unsupported second wheel adds structural incoherence despite otherwise smooth skin and interior textures."
+    }
+  ]
+}

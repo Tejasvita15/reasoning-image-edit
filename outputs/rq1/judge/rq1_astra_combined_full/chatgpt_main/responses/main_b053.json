@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b053",
+  "results": [
+    {
+      "blind_id": "case_f33c5833a02a96c219d2",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and central placement remain, but the white shape becomes a dark metallic object and a broad floor shadow is added; changes of geometry are excluded. Instruction: The circular outline becomes a thick washer with a central hole and stepped rim. The requested rotation should yield a sphere, so the form is completely misinterpreted. Knowledge: The supplied explanation requires a sphere; the visible annular solid does not meet it. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the metallic ring has coherent thickness, smooth reflections, a clean aperture, and a believable contact shadow; no noticeable rendering defect."
+    },
+    {
+      "blind_id": "case_86d367b5b22dbadce16a",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The plain white background, central placement, and circular outer extent remain, but the originally white interior becomes a distinctly black material; shading needed to express volume is excluded. Instruction: The flat circle becomes a fully rounded, shaded ball, precisely the expected sphere. Knowledge: The continuous spherical surface with no hole matches the supplied explanation that rotation produces a sphere. Quality: Viewed alone, the ball has a smooth silhouette, coherent broad highlights and gradients, and an uncluttered background without visible artifacts."
+    },
+    {
+      "blind_id": "case_4b1bf443e6dca7dcae20",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background, centered circular composition, black contour treatment, and white main face remain; the changed geometry and its depth shading are the instructed area of modification. Instruction: The circle becomes an oblique annular disk with a large central hole, whereas the expected object is a sphere. This is a complete misinterpretation of the requested rotational result. Knowledge: The supplied sphere expectation is contradicted by the open center and flat annular face. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, this simple diagram has continuous contours, legible depth, consistent flat shading, and no conspicuous artifacts."
+    },
+    {
+      "blind_id": "case_f9b2c156e2c95c5f2641",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The white background, central composition, and pale object appearance remain; the new gray shading and volumetric outline implement the requested shape change. Instruction: The original circular outline is rendered as a solid rounded sphere with continuous curvature, fulfilling the expected transformation. Knowledge: The visible hole-free ball matches the supplied explanation that the result should be a sphere. Quality: Viewed alone, the gradient and lighting express a coherent ball, but a slightly doubled, uneven dark contour along the bottom is a small edge imperfection; the rest is clean."
+    },
+    {
+      "blind_id": "case_d61a020596c41ac31a8d",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The white backdrop and centered placement persist, but the shape acquires black material and a conspicuous ground shadow absent from the source; volume shading itself is excluded. Instruction: The circular outline becomes a solid spherical ball, with the requested curved volume clearly present. Knowledge: Its continuous spherical form matches the supplied sphere explanation exactly. Quality: Viewed alone, the sphere has a smooth contour, consistent rounded lighting, and a plausible contact shadow with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_a1d9fb808449ea6e407f",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The plain white background, centered circular composition, and pale surface remain; the gray modeling and new three-dimensional surface fall within the requested transformation. Instruction: The flat outlined circle becomes a shaded, hole-free sphere, exactly the expected result. Knowledge: The resulting ball matches the supplied explanation that rotation creates a sphere. Quality: Viewed alone, the rounded contour and smoothly varying light-to-dark surface are coherent, with a clean background and no noticeable structural or texture artifacts."
+    }
+  ]
+}

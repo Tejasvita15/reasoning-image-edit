@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b308",
+  "results": [
+    {
+      "blind_id": "case_080ea2a947b0c3f61085",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Hedge layout, flower-bed positions and statue placement remain recognizable, but paving outlines and foliage/flower details are redrawn throughout, and the lower circular pavement motif gains conspicuous dark junction dots. Instruction: Thin red segments have been added; the expected result is one continuous corridor-following route from the upper-left to the lower-right. The top segment crosses a vertical hedge, the middle segment crosses planted barriers, and large gaps leave both the route and destination incomplete. Knowledge: The supplied explanation is blank; the visible wall crossings and disconnected segments violate task-implied maze logic. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the garden map has coherent hedge geometry, readable stone and plant textures, consistent overhead presentation and clean red strokes without noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_b02371cae7b8aa3c5065",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The broad maze arrangement is retained, but stone patterns, flower/foliage details and the statue drawing are extensively changed, with altered framing/proportions. Instruction: A thick red stepped line now runs through central corridors and loops around the statue; a correct edit would connect the upper-left and lower-right corners through open passages. This line starts in the left interior, terminates around the statue and never reaches either requested corner. Knowledge: No explanation was supplied; endpoint connectivity is the task-implied logical requirement visibly unmet. Instruction failure ⇒ knowledge invalid. Quality: The overhead garden is structurally coherent with legible paving and planted borders; the left end of the red marking has a small stray hooked extension and faint reddish smear that slightly spoil its otherwise clean presentation."
+    },
+    {
+      "blind_id": "case_80ac911dd21d2ab1f6bd",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Maze walls, bed positions and the statue location are maintained, but the paving tessellation and small floral/foliage marks have been redrawn across the image. Instruction: A red horizontal shaft and arrowhead have been added near mid-height. The expected continuous upper-left-to-lower-right corridor route is absent: the shaft enters from the left edge, cuts across hedges and stops near the center. Knowledge: The explanation is blank; visible barrier crossings and missing corner connectivity contradict task-implied maze logic. Instruction failure ⇒ knowledge invalid. Quality: The garden itself has coherent overhead structure and readable plant and stone textures, but the arrowhead is visibly detached from the shaft and awkwardly offset, a clear graphic construction flaw."
+    },
+    {
+      "blind_id": "case_00252af9ee63a664fde0",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The overall maze arrangement remains recognizable, but paving and foliage textures are extensively redrawn, the statue silhouette changes and framing/proportions shift. Instruction: Several thick red orthogonal stretches and a loop around the statue have been added. A successful edit would make one connected route between the specified corners; these strokes start at the middle left, break near the center, and terminate in interior upper-right and lower-middle corridors instead. Knowledge: The supplied explanation is blank; the visible breaks and interior endpoints fail task-implied route connectivity. Instruction failure ⇒ knowledge invalid. Quality: Independently viewed, the overhead illustration has coherent walls and garden beds, consistently rendered stone textures and clean, smooth red graphic strokes without conspicuous generation artifacts."
+    }
+  ]
+}

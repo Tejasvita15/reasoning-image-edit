@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b331",
+  "results": [
+    {
+      "blind_id": "case_1f46db887f03affa6641",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding requested room, lighting, beige color and poster additions, the sofa retains three back and seat cushions, narrow arms, upholstered plinth and reddish tapered legs; its cushion proportions and contours have visibly been reshaped. Instruction: The isolated sofa becomes a beige fabric focal point in a softly lit white-and-wood room with greenery, books and generous blank wall. This matches the expected Nordic poster, but the otherwise correct headline has a visibly disrupted letter area in \"sleep\" and lacks the final period. Quality independently: Structure, lighting and fabric are coherent; a conspicuous stray dark stroke interrupts the headline around \"sleep\", a clear typography artifact. Knowledge is not applicable."
+    },
+    {
+      "blind_id": "case_e89160ac75003cc56bf7",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested setting, color, lighting and poster treatment, most sofa-specific design is replaced: tall back cushions become low segmented panels, the separate loose seat cushions become a continuous seamed bench, and the upholstered base and dark legs become an exposed pale wooden frame with extra supports. Instruction: The output adds the expected softly lit pale room, beige three-seat sofa, plant, books and restrained palette, but the required sentence is replaced by multiple lines of nonsensical lettering. The room concept is fulfilled while the copy is not. Quality independently: Room lighting and main furniture shapes are plausible, but numerous warped and garbled text lines dominate the wall and overlap the sofa, creating multiple distracting semantic artifacts. Knowledge is not applicable."
+    },
+    {
+      "blind_id": "case_37d78e3ef14f02db29fb",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding requested room, palette, illumination and text, sofa identity changes substantially: the high textured backs become low smooth cushions, the arms become rounded bolsters, and the leg color and cushion contours change. The three-seat arrangement remains. Instruction: The output supplies a beige three-seater, white wall, soft light, greenery and books as expected, but an oversized central white text panel obscures the sofa and contains gibberish rather than the specified copy; its irregular lettering also misses the suggested sans-serif treatment. Quality independently: Furniture, plants and lighting are coherent, but the prominent panel contains several lines of malformed, unreadable words and corrupted fine print, strongly degrading the composition. Knowledge is not applicable."
+    },
+    {
+      "blind_id": "case_92473ddfd494ca1d68b4",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding requested room, lighting, lighter upholstery and poster changes, the three-back/three-seat construction, narrow arms, upholstered base and reddish tapered legs remain recognizable; the sofa cushions have visibly different proportions and contours. Instruction: A softly lit beige fabric sofa anchors a pale wood-and-white room with a plant, books and ample blank poster area. This largely matches the expected Nordic presentation, but the small headline misspells \"gentleness\" although the remaining sentence is readable. Quality independently: Furniture structure, fabric, illumination and shadows are coherent; the distorted letters in the prominent framed sentence produce a clear text defect. Knowledge is not applicable."
+    }
+  ]
+}

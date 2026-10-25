@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b188",
+  "results": [
+    {
+      "blind_id": "case_4c13a8c1ae3af6a58950",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The plain white background becomes a pale checkerboard with visible patching; fork-count changes are excluded. Instruction: Eight forks become no visible forks. The expected result is exactly six recognizable forks, so the requested change is not achieved. Quality: The visible checkerboard has warped, irregular cells and broad washed-out seams; these are noticeable texture defects, assessed independently of the absent requested objects."
+    },
+    {
+      "blind_id": "case_7ce7471ebb3732a7bbb9",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white backdrop, upright orientation and silver finish remain, but the surviving forks have visibly narrower heads and handles. Redistribution associated with changing the count is excluded. Instruction: The eight-fork array becomes a single row of three forks. Exactly six are required; count reduction is attempted but three required forks are missing, a major omission. Quality: All three utensils have coherent four-tine heads, connected tapered handles, smooth metallic shading and clean edges; no noticeable generation artifact."
+    },
+    {
+      "blind_id": "case_b17682dc6fc3eebaf8aa",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: White background, silver appearance and two-row arrangement remain; the entire array is slightly contracted vertically, with new top and bottom margins. Instruction: There are still four forks per row in two rows, eight total. The expected six-fork result is absent, so this is non-compliance. Quality: The eight distinct utensils have intact tines and handles, plausible smooth shading and a clean white background without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_436144f62fabd2e70f6e",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, metallic finish and upright two-row composition remain, but the fork array has shifted inward horizontally, most clearly at the left margin. Instruction: Four forks in each of two rows still total eight; there is no reduction to the required six. Quality: Each fork is structurally coherent, with four separated tines and a continuous handle; shading and clean isolated presentation are satisfactory, without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_c99e85cffde1430dc39a",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: White background, upright silver utensils and the two-row presentation remain; the forks have narrower head and handle silhouettes. Count-related redistribution into three columns is excluded. Instruction: The eight-fork array becomes two rows of three complete forks, exactly six, fully satisfying the requested count. Quality: Six clear, separate utensils have coherent tines, connected handles, smooth metal shading and clean silhouettes; no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_cdf00077e16ccadc47c9",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and silver upright fork style remain, but the utensils are substantially reduced in size and the composition moves into the lower portion of the canvas with a large empty upper area. Instruction: Eight forks become four complete forks in one row. The expected total is six; count reduction is present but two required forks are missing, a major omission. Quality: Four recognizable utensils have intact four-tine heads and tapered handles, consistent metallic shading and clean separation; moderate softness does not create ambiguity or a noticeable structural flaw."
+    }
+  ]
+}

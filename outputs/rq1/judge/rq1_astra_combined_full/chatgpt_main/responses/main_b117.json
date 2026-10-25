@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b117",
+  "results": [
+    {
+      "blind_id": "case_b5983bbc5eac26814e19",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The fork, folded tissue, white background and overall arrangement remain, with a small change to the plate rim contour/shading. Instruction: A new black-handled serrated implement crosses the tissue and plate while the original right-hand knife remains. The expected result is the existing knife resting on the tissue; adding a different implement only weakly addresses this, so major omission. Quality: Background, plate and fabric are coherent, but the diagonal implement has an unnatural blade-to-second-metal-handle transition and confused utensil geometry, a clear structural artifact."
+    },
+    {
+      "blind_id": "case_2cdf31e4dd31e0b170b3",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The diagonal tissue becomes a broad rectangular cloth, a second folded tissue is added over the plate, and the left fork shifts; the white background remains. Instruction: The right-hand knife disappears and a horizontal fork appears on the new tissue. The expected edit places the knife on the tissue; a fork is the wrong utensil, so the instruction is not fulfilled. Quality: The plate, two forks and folded textiles have coherent shapes, plausible reflections, fabric folds and shadows; no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_2431f4a54da5de1401c0",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The fork is removed, the plate is enlarged and shifted, and the tissue outline shifts left; the white setting is retained. Instruction: The right-hand silver knife is relocated diagonally onto the tissue with its blade and handle supported there, matching the requested placement. Quality: The plate, cloth and silver knife are otherwise coherent with natural shadows and reflections, but a small dark spike projects beside the blade tip."
+    },
+    {
+      "blind_id": "case_461796ccf30a12974232",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The fork rotates and becomes partly hidden beneath the plate, the tissue shifts right, and the plate contour/position changes; the white background remains. Instruction: The knife moves from the right to a diagonal position across the plate. It should rest on the tissue, but nearly all of it rests over the plate, so the requested placement is poorly implemented. Quality: The utensils and plate have coherent shapes and perspective; metallic reflections, cloth folds and cast shadows appear natural, without noticeable artifacts."
+    }
+  ]
+}

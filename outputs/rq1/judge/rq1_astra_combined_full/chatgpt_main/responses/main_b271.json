@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b271",
+  "results": [
+    {
+      "blind_id": "case_302b6ee386f6815bc45c",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray shoe, black heel and white sole remain recognizable, but the toe/mesh panels, lace arrangement and sole contour are visibly redrawn; requested background, placement and light effects are excluded. Instruction: The white backdrop becomes a gray/cyan gradient with luminous curved tracks beneath a centered shoe and small geometric shards. The expected modern sports poster is present, but the upper-right lettering reads approximately 'ILIGHT LLIGER', not 'Light Start.' This is partial compliance. Quality: Shoe structure, lighting and fabric are coherent; the malformed, fragmented headline is a clear text artifact. Knowledge is not applicable."
+    },
+    {
+      "blind_id": "case_110550da5f4907ce3afd",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Gray uppers, black heel and white sole are retained, but the side mesh boundary, heel pull-loop shape and sole grooves/outline change noticeably; instructed layout and backdrop changes are excluded. Instruction: The shoe is centered against a white-to-teal gradient with diagonal speed lines and an upper-right headline. A fully compliant poster would say 'Light Start.' and show movement trails underneath; the headline instead reads 'LIGHT LYIMEE', and the lines largely remain behind the shoe rather than forming an underfoot track. Partial compliance. Quality: The shoe has coherent structure, shadows and mesh, but the nonsensical second headline word and fractured letterforms are noticeable text defects. Knowledge is not applicable."
+    },
+    {
+      "blind_id": "case_3199d02bfae6c76e4a7f",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Shoe silhouette, gray panels, mesh pattern, orange lace accents, black heel, pull loop and white sole match the source; the background and overlay illumination are requested changes. Instruction: The background becomes a pale blue-gray/orange gradient with horizontal speed lights and trails below the centered shoe, and 'Light Start.' appears at upper right. This matches the expected simple sports-tech poster, with only distinct minimal geometric shape accents missing. Quality: Structure and typography are coherent, the glow and grounded shadow are plausible, and fabric/sole textures show no noticeable corruption or duplication. Knowledge is not applicable."
+    },
+    {
+      "blind_id": "case_dfccb9402d7b6c9dc4ac",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The source shoe's profile, gray panel boundaries, mesh, orange lace details, black heel, pull loop and white outsole remain visually intact; the new setting and flow effects are excluded as instructed. Instruction: A cyan/pale-orange gradient, dynamic luminous curves beneath and around the centered shoe, and upper-right 'Light Start' create the expected modern sports promotion. Minor omissions are the title's final period and distinct geometric shape accents. Quality: The shoe and readable title are well formed, lighting and shadow are coherent, and the textures and flowing graphics are free of noticeable artifacts. Knowledge is not applicable."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b193",
+  "results": [
+    {
+      "blind_id": "case_5eba7f5c895c2f372f17",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the upper-left six hearts, panel layout and arrows remain recognizable, but the upper-right lower heart is replaced by multiple smileys and the bottom-left lowest smiley becomes a heart; surface grain also changes. Instruction: the requested bottom-right square remains empty; the expected addition is three smiling faces, so the requested modification is absent. Knowledge: the explanation explicitly requires three smiling faces, with none in the target. Instruction failure ⇒ knowledge invalid. Quality, judged from this image alone: recognizable hearts, faces and rectangular panels, but a conspicuous gray ghost-shaped smear between the upper-right smileys and rough mottled surfaces are visible artifacts."
+    },
+    {
+      "blind_id": "case_e1ee216eb97349b4b085",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the six upper-left hearts, three upper-right hearts, six bottom-left smileys, arrows, frames and green background remain visually unchanged outside the target square. Instruction: six yellow smiling faces are added to the bottom-right square; three smiling faces are expected, so the correct location and symbol are supplied but the count is wrong. Knowledge: the explanation requires three smiling faces, consistent with halving six to three; six output faces clearly violate that count. Quality, judged from this image alone: faces and frames are coherent and legible, but pale pink ghost marks above and below the bottom-right faces are a clear visual artifact."
+    },
+    {
+      "blind_id": "case_bddd0759015db46eb8c5",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the heart panels, original six smileys, both arrows, green background and square borders remain visually unchanged outside the instructed area. Instruction: seven smiling faces appear in the bottom-right square, whereas the expected completion is three; this fulfills the location and symbol type but not the required count. Knowledge: seven faces conflict with the supplied three-face explanation and the visible six-to-three relationship. Quality, judged from this image alone: the diagram has coherent rectangular panels, distinct evenly formed faces and hearts, clean interiors and recognizable arrows, without noticeable generation artifacts; moderate softness does not impair meaning."
+    },
+    {
+      "blind_id": "case_bdc6580e920ee98a1fa4",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: heart and smiley counts, arrangements, arrows and four-panel layout are preserved, but the non-target drawing and background show a visible overall change to grainier texture and rougher outlines. Instruction: the bottom-right square remains blank rather than receiving the expected three smiling faces; the requested addition is absent. Knowledge: the supplied explanation requires three smiling faces and the target contains none. Instruction failure ⇒ knowledge invalid. Quality, judged from this image alone: coherent square borders, recognizable arrows, intact hearts and well-formed smiling faces; mild grain and softness do not create semantic ambiguity or a conspicuous structural artifact."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b197",
+  "results": [
+    {
+      "blind_id": "case_18f6e370ffb5e9d700e9",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray background, golden wood face, brown numerals and ticks, dark hands, black turned pedestal and wooden foot remain recognizable and consistent; the open C-shaped support has become a closed ring, an unrequested structural change. Instruction: The face is widened and brought toward the viewer. A correct front view would look squarely at the same clock; the remaining broad right-hand casing and asymmetric face indicate a small residual oblique angle, so the core change is made with a minor error. Quality, judged from this output alone: coherent clock, legible markings, clean contours, plausible metal reflections and wood surfaces; no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_3cd0ea9d3f129e84885b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Background, numeral/tick design, hands, black pedestal and wooden foot are retained. The open support becomes a complete ring, and the face's relatively straight wood grain becomes a conspicuously wavier, more strongly patterned grain. Instruction: The clock face is widened and nearly presented head-on; a true front view should squarely expose the face without the unequal casing visibility. The thick left casing still suggests a slight oblique view, a minor remaining error. Quality, judged independently: clear dial markings, coherent support and pedestal, plausible materials and shadows, and clean boundaries without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_33e9302f9f0330efe34b",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the viewpoint transformation, the gray setting, wood dial, dark rim and hands, gold-brown markings, open curved support, black turned pedestal and wooden base retain the object's design and materials; perspective explains their changed visibility and proportions. Instruction: The dial has instead become very narrow and almost edge-on. The expected edit is a head-on view with the face fully exposed; this is a side view and completely misinterprets the requested direction. Quality, judged independently: a coherent side-oriented clock with plausible thin dial, curved frame, pedestal, wood and metal surfaces; no clear structural or rendering artifacts."
+    },
+    {
+      "blind_id": "case_890f67ad5b9c296e0ca1",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray background, brown dial markings and hands, black pedestal and wood base are retained. The C-shaped open support is replaced by a closed ring, and the dial grain is noticeably reworked into a stronger wavy pattern. Instruction: The dial is now centered and squarely faces the viewer with balanced edges, aligned top and bottom supports and no broad exposed side wall. This fulfills the requested front view. Quality, judged only from this image: coherent symmetrical clock construction, legible numbers, clean hands and frame edges, plausible reflective pedestal and wood textures, with no noticeable artifacts."
+    }
+  ]
+}

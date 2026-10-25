@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b296",
+  "results": [
+    {
+      "blind_id": "case_537e05891587277463a1",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The red-capped reference bottle is shortened and its molded lettering and lower contour change; the black-capped bottle also shifts right. Cap colors, amber contents and pale background remain recognizable. The requested size change itself is excluded. Instruction: The black-capped bottle becomes much smaller. A correct edit would enlarge it to the red-capped bottle\u2019s height and width; the observed shrinkage reverses the request. Quality: Structure, natural lighting, artifact absence and surface texture are satisfactory; both bottles have coherent necks, caps, liquid boundaries and bases."
+    },
+    {
+      "blind_id": "case_8778b16673133878571a",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The remaining red-capped bottle is visibly narrower and shorter, with altered molded lettering and base contour; the pale split background remains. The target bottle\u2019s absence is assessed under instruction. Instruction: The black-capped bottle disappears entirely. The expected result contains that bottle enlarged to match the large bottle, so removal does not fulfill resizing. Quality: The single bottle has a coherent cap, transparent neck, level liquid, curved body and molded base, with natural amber shading and no noticeable generation artifact."
+    },
+    {
+      "blind_id": "case_8b6720f40e329900e7a3",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The black-capped bottle shifts right, the red-capped bottle\u2019s neck, lettering and outline change, and the pale panel boundary disappears into a more uniform white background. Cap colors and amber contents remain. Instruction: The left bottle stays approximately its original height and width and remains visibly shorter and narrower than the right bottle. The required enlargement to matching size is absent. Quality: Both bottles are structurally coherent, with intact caps, necks and bases, plausible reflections and liquid surfaces, and clean molded textures; no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_d203a6bd852a33661e1b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The left bottle moves right, the red-capped bottle\u2019s placement and contour change, and the pale panel background becomes uniform white. The black and red caps and amber contents persist. Instruction: The left bottle remains approximately its original size, still shorter and narrower than the right bottle. A successful edit would enlarge the black-capped bottle to the large bottle\u2019s dimensions; that change is absent. Quality: Bottle shapes, cap threading, clear necks and molded bases are coherent; lighting and liquid boundaries appear natural and textures show no noticeable generation defects."
+    }
+  ]
+}
