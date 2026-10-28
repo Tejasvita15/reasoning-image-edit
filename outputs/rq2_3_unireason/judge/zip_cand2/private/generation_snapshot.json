@@ -1,0 +1,12 @@
+{
+  "experiment": "rq2",
+  "split": "k_small",
+  "seed": 42,
+  "splits_sha256": "07c4fec7aff8d0b48256fe45a35b6b5a04abab13d40e076d9798f7c3200b2251",
+  "logs": {
+    "logs/rq2_3_unireason/judge/cand2/rq2_3_unireason_think-cached_cfg4_steps50_feedback-cand2_k_small_seed42.jsonl": "63d8b51e3b4c1e01d5fd2ace7137b0f6ba43d84b8d0798ff968c71bc8ea846f6",
+    "logs/rq2_3_unireason/judge/cand2/rq2_3_unireason_think-cached_cfg4_steps50_resample-cand2_k_small_seed42.jsonl": "1edbc3681ad5bc38a1a0a101b22e7aad1c8f934cebcdc2e69b9c64f2e3256013"
+  },
+  "outputs": 80,
+  "protocol_hash": "2975ac75e7bd790a02f57b22e1eb8b9f7a8db267e514b124cd5daa857ca99abd"
+}
