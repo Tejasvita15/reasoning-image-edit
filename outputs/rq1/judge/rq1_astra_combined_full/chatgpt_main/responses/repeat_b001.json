@@ -1,0 +1,23 @@
+{
+  "batch_id": "repeat_b001",
+  "results": [
+    {
+      "blind_id": "case_a8087900dd68f753be88",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: The sky, trees and ground are replaced by dense multicolored fragments; the animal is drastically reduced and its pose, silhouette and leg visibility change. Most major non-requested content is lost. Instruction: The image changes to a small, severely distorted red elephant-like form. A successful correction would retain a coherent elephant while correcting its implausibly saturated red coloration. The red persists and anatomy is destroyed, so the request is not fulfilled. Quality: Structural coherence and texture fidelity fail: the body and head merge into a lobed mass, recognizable legs are absent, and pervasive confetti-like artifacts obscure surfaces and the entire setting. Natural lighting and spatial grounding are absent."
+    },
+    {
+      "blind_id": "case_b1df528e04de8b3bc4fb",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The broad sky, wooded backdrop and standing composition remain recognizable, excluding the requested correction of animal coloration. However, the tusks change curvature and position, the trunk and feet shift, and ground vegetation and cast shadows visibly change; multiple non-requested elements differ. Instruction: The uniformly vivid red elephant becomes mostly dark brown with more natural skin texture, but the head and especially the ears retain conspicuously saturated orange-red coloration. The expected edit is a plausibly colored, anatomically coherent elephant. Color correction is substantial but incomplete, warranting partial compliance. Quality assessed independently: Structural coherence, natural appearance within the painted style, artifact absence and texture fidelity are satisfactory. The four legs, trunk, tusks and ears are coherent, skin folds are detailed, and the ground shadows and vegetation form a convincing scene without noticeable generation defects."
+    }
+  ]
+}

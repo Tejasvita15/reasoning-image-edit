@@ -1,0 +1,23 @@
+{
+  "batch_id": "repeat_b008",
+  "results": [
+    {
+      "blind_id": "case_ae247366ba3b39ee352e",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The glass tabletop, chrome rings, clear legs, pale background and white vase with turquoise/white flowers are substantially preserved; the open book has additionally been closed, an unrequested change to its state. Instruction: The book changes from open to closed but remains to the right of the vase. A correct edit would relocate it to the left of the vase; the required side change is absent. Quality: Structural coherence, natural lighting and reflections, artifact absence and surface textures are satisfactory; the closed book, flowers and glass furniture look coherent."
+    },
+    {
+      "blind_id": "case_a165e16af5dd190ba16c",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The table is reframed and its perspective and supports change substantially; the vase moves toward the center, the bouquet arrangement changes, and the book is closed with different cover imagery. Most major non-requested scene details differ. Instruction: The open book becomes a closed book but still sits to the right of the vase. The expected edit would move the original book to the left, so the requested spatial change is absent. Quality: The glass table, vase and book have coherent main shapes and plausible soft illumination, but a conspicuous translucent vase-like shape extends below the tabletop with a broad base near the floor, creating an implausible ghost object. Other surface textures are satisfactory."
+    }
+  ]
+}

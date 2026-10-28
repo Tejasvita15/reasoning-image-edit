@@ -1,0 +1,23 @@
+{
+  "batch_id": "repeat_b006",
+  "results": [
+    {
+      "blind_id": "case_72ae5961eaa7e64bd559",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background, lavender outer ring and green inner ring retain their appearance and approximate sizes, but an unrequested small green center marker is added. Instruction: the inner circle remains visibly right and slightly below the outer circle center; adding a marker does not make the two original circles concentric, so the requested alignment is not achieved. Knowledge: the explanation requires coincident centers, whereas the visible centers remain separated. Instruction failure ⇒ knowledge invalid. Quality: the nested ring diagram is clear with coherent shapes and clean empty space; slight unevenness and roughness along the large ring contour are a minor rendering flaw."
+    },
+    {
+      "blind_id": "case_42dbe1ab6a0efd85a14b",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "Consistency: the white field, lavender outer ring and green stroke color remain consistent, but the green circle is substantially reduced in diameter, which alignment did not request. Instruction: the green circle moves left toward the outer circle center; the intended result is concentric circles, and horizontal alignment is achieved, but the inner center remains slightly below the outer center. Knowledge: the supplied explanation requires coincident centers; this small residual vertical offset is a minor geometric deviation. Quality: judged on this image alone, both outlined circles are smooth, coherent and clearly legible against a clean white field, with no noticeable generation artifacts."
+    }
+  ]
+}

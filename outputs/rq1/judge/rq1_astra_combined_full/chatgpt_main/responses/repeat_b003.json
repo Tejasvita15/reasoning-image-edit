@@ -1,0 +1,23 @@
+{
+  "batch_id": "repeat_b003",
+  "results": [
+    {
+      "blind_id": "case_3855107d99897a857ecb",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the beige textured setting and orange/gray object colors persist, but a large unsolicited black heading appears, the base changes size and position, and the ball/spring order is reversed; removing the hand is excluded. Instruction: the pressing hand is entirely removed, leaving no hand contact, which fully satisfies release. Knowledge: the explanation requires spring elongation and a rising ball; instead the ball drops onto the base and the spring sits above it, fundamentally reversing the required support and motion. Quality, viewed alone: shading, surface texture and object contours are coherent, but the conspicuous heading contains malformed, nonsensical lettering, a clear semantic/text artifact."
+    },
+    {
+      "blind_id": "case_fba6fd3f69866a5b836a",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the beige background, gray rectangular support, dark metallic spring, orange ball and illustration style remain recognizable; the support and its ground shadow visibly shift upward, one clear non-requested alteration. Hand removal and the spring/ball response are excluded. Instruction: the hand disappears completely and the ball is free of pressing contact, exactly matching release. Knowledge: the spring is visibly taller above the base and the ball sits higher on its top, directly matching the supplied elongation-and-rise explanation. Quality, viewed alone: smooth coherent ball and coil contours, credible highlights and contact shading, and consistent fine texture; no visible duplication, malformed text or distracting artifacts."
+    }
+  ]
+}

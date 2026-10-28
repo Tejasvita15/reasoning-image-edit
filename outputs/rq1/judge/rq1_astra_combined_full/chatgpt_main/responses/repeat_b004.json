@@ -1,0 +1,23 @@
+{
+  "batch_id": "repeat_b004",
+  "results": [
+    {
+      "blind_id": "case_a96eaeb9e18b9272d7ae",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding changes to ports and their labels, the charger outline, USB Charger title, cord paths, plug position and floorboard layout remain aligned; the wood grain is noticeably rougher and the plug surface has acquired visible speckled texture. Instruction: The ten original sockets and their labels disappear, leaving a blank panel. The expected result is six sockets on this charger; zero sockets completely fails that request. Quality: Structure, perspective, shadows and lettering are coherent, with no broken outlines or ghost objects; slight grainy surface rendering on the otherwise smooth white plug is a minor texture imperfection."
+    },
+    {
+      "blind_id": "case_4274e1c7a5bba2cbcb8e",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the port changes, the charger title, cord routes, plug placement and floorboard arrangement persist. The charger casing becomes much taller at the front and its raised rear transition changes shape; wood and plug surfaces also become conspicuously rougher. Instruction: The original ten sockets become twelve top sockets arranged as six rows of two, plus an additional front-facing socket. The expected edit has six interfaces total; changing the array while substantially missing that count is a major omission. Quality: Perspective and broad object layout are understandable, but socket interiors are irregular, the two small front labels are distorted, and white plug surfaces show distracting blotchy texture and jagged pin edges; multiple visible defects degrade the rendering."
+    }
+  ]
+}
