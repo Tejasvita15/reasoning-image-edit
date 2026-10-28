@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b040",
+  "results": [
+    {
+      "blind_id": "case_1a25879b125f2d22",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the plain white background and central single-object composition remain; the outline-to-volume transformation is the requested change. Instruction: the flat outlined circle becomes a shaded round solid; the expected rotated object is a sphere, and the edit clearly depicts one. Knowledge: the supplied explanation explicitly expects a sphere, matched by the spherical silhouette and volumetric shading. Quality: coherent round structure, smooth gray surface, and consistent highlight-to-shadow transition, with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_ee3c5fd3380fb1c8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: beyond the permitted interface-count change, the raised charger housing becomes a flat elongated slab, the small voltage labels disappear, and the wood grain and plug placement change; white color, diagonal layout, and general plug type persist. Instruction: the original ten USB ports become sixteen, arranged in two columns of eight. The expected result is six ports on the charger, so the defining numerical instruction is not fulfilled. Quality: the charger, cable, plug, and tabletop have coherent structure and perspective, but the USB socket interiors have slightly rough, simplified dark textures."
+    }
+  ]
+}

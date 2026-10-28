@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b012",
+  "results": [
+    {
+      "blind_id": "case_052537d7e07da5c1",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white backdrop remains, but the large turtle changes from an oblique pose to a frontal symmetrical pose with different head and leg placement, while the small turtle is reduced and shifted right, creating a gap. These changes extend beyond resizing the large turtle. Instruction: The visible size disparity increases; the expected result is two equally sized turtles with the large one reduced. The large turtle remains much larger, so the requested match is absent. Quality, edited image alone: Structure, naturalness, artifact freedom and texture fidelity are satisfactory; both animals have coherent shells, faces and scaly legs with plausible floor shadows."
+    },
+    {
+      "blind_id": "case_eb25c9a8fc3a822a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and two-book arrangement remain, but the left book has a changed rounded spine and projecting lower-right cover, both books are repositioned, and pale bands have appeared on the covers. These are separate from the requested thickness adjustment. Instruction: The right book gains pages and becomes thicker. A complete edit would make its page-block thickness equal to the left book, but it remains conspicuously thinner, so this is partial compliance. Quality, edited image alone: Structure, naturalness, artifact freedom and texture fidelity are satisfactory; the covers, layered page blocks and perspective form coherent books, without distracting distortions."
+    }
+  ]
+}

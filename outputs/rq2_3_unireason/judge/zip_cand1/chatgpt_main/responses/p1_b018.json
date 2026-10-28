@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b018",
+  "results": [
+    {
+      "blind_id": "case_b2c54fd4b57480c9",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the sideline, blue marker and upper-right dark object remain in their general positions, but the in-play balls are removed/replaced by a differently positioned ball, and the turf texture is substantially altered. Instruction: all three original balls disappear under visible patches and a new ball appears farther left; the expected result retains the balls because none is wholly beyond the boundary. This misinterprets the requested selective removal. Knowledge: the supplied explanation explicitly requires retaining every ball, which the edit contradicts. Instruction failure ⇒ knowledge invalid. Quality: the ball itself is coherent, but three large flat, hard-edged patches interrupt the grass, with beige patches also breaking the painted line; these are multiple distracting texture and compositing errors."
+    },
+    {
+      "blind_id": "case_b664b300f8d42f30",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the plain white background and centered single-object composition remain unchanged; the outline-to-volume transformation is explicitly requested. Instruction: the flat outlined circle becomes a smoothly shaded three-dimensional sphere, exactly the solid expected from rotation around its symmetry axis. Knowledge: the supplied explanation says the result should be a sphere, and the rounded silhouette and volumetric shading clearly depict one. Quality: coherent spherical geometry, smooth surface shading and a clean background show no noticeable structural or rendering artifacts."
+    }
+  ]
+}

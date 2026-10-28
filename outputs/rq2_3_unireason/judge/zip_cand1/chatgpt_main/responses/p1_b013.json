@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b013",
+  "results": [
+    {
+      "blind_id": "case_fdf031ecc82a367e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested interface-count change, the charger loses its raised rear housing and becomes a flat slab; the wood grain is much more pronounced and the plug outline/shadows also change. The diagonal placement, white cables and brown floor remain recognizable. Instruction: The ten source ports become twelve ports in two columns of six. The expected result is six interfaces total, so the requested count is not achieved. Quality: Structure and lighting are broadly coherent, but the port labels are extensively garbled, the main USB Charger lettering is distorted, and the port interiors are unnaturally flat black slots with inconsistent rims; these are multiple distracting defects."
+    },
+    {
+      "blind_id": "case_bd2a0864eb02c2c4",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding removal of the renal white particles, the axial anatomy and surrounding black field remain in the same arrangement, but the bright circular focus anterior to the vertebra is also turned gray and the tissue texture/contrast throughout the scan is visibly simplified into smoother, harder-edged regions. Instruction: The conspicuous lobulated white deposit inside the kidney on the image right is absent and replaced with surrounding gray tissue. A CT with those renal deposits removed is the expected result, and that requested removal is complete. Knowledge: The supplied explanation calls for removing a few small white particles; the bright renal deposit disappears while the kidney remains visible, matching that stated expectation. Quality: The axial layout remains coherent and recognizable, but broad uniformly gray tissue patches with abrupt contours look over-smoothed, and small peripheral annotations are distorted. These are noticeable texture and text flaws; resolution alone is not penalized."
+    }
+  ]
+}

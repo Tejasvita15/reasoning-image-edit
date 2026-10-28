@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b008",
+  "results": [
+    {
+      "blind_id": "case_957c96cf00d96f24",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The cabinet retains its three drawers, round knobs, beveled top and base, and square feet; relocation, scale, background and lighting are allowed. A conspicuous thin white border has been added without instruction. Instruction: The isolated cabinet becomes a softly sunlit room scene with a pale wall and wood floor, matching the requested lifestyle setting and restrained palette. However, it is essentially centered, the curtain is on the left instead of the right, and the requested bottom-right sentence is absent, replaced by a short garbled mark at mid-right. This is partial compliance. Quality: Structure, cabinet surfaces, fabric and sunlight are coherent and natural; the clearly garbled lettering is a noticeable visual flaw."
+    },
+    {
+      "blind_id": "case_0fad14f665c2cb49",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background remains, but nearly all major non-instructed match arrangements and rendering details change: the original clean gold sticks with blue tips become outlined, differently spaced strokes, and several digits and operators disappear or deform. These changes greatly exceed moving two sticks. Instruction: The original readable 14 - 6 = 82 becomes a tangled left symbol, a blue dash, a drawn 5 between vertical sticks, another dash and a looped right symbol. A compliant edit would preserve the matchstick puzzle and relocate exactly two sticks to produce a readable true equation. This output provides neither an identifiable two-stick move nor a valid equation. Knowledge: Instruction failure ⇒ knowledge invalid. The supplied knowledge explanation is blank; this score follows the mandatory coupling, not absent explanatory text. Quality: Structural coherence and artifact checks fail: branched intersecting strokes at left and malformed looped strokes at right make the symbols semantically incoherent, with inconsistent stick and drawn-stroke construction."
+    }
+  ]
+}

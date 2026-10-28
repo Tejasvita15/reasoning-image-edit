@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b035",
+  "results": [
+    {
+      "blind_id": "case_291dcdf86e24a5c9",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: charger shape, plug, cables and floorboard layout remain, but the wood and white plastic acquire conspicuous grain, and the small port labels become distorted. Instruction: the expected result is six USB interfaces; the edited charger still visibly has ten ports in two columns of five, so the requested count change is absent. Quality: structure, perspective and shadows are coherent, but pervasive coarse surface texture and warped small electrical labels are visible flaws."
+    },
+    {
+      "blind_id": "case_c181039492523ba8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background and five-card subject remain, but the fan angles and card positions change, red rank numerals become black, and the front diamond card becomes a heart with its large pips removed. Instruction: the visible ranks remain 4, 6, 8, 8, 8; a full house requires the 4 and 6 to become a matching pair alongside the three eights. That required change is absent. Instruction failure ⇒ knowledge invalid. Quality: card edges and lighting are coherent, but red-suit cards have black rank numerals, two identical eight-of-hearts cards appear, and the exposed front eight lacks its body pips, creating multiple semantic defects."
+    }
+  ]
+}

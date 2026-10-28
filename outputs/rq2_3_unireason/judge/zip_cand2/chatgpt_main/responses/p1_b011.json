@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b011",
+  "results": [
+    {
+      "blind_id": "case_11364b0df60bbbb7",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested rotation and resulting occlusion of the photograph, the black finish and white background remain, but the thin wire easel has become pale internal bars and the frame has become a thick, glass-sided rectangular enclosure. Instruction: A narrow view is attempted, but the expected side profile in the reference has a leaning front and a clearly separated triangular black rear support; the edit is upright and lacks that profile, with major proportion and support errors. Quality: The edited object has straight, coherent outer edges and plausible glass reflections, but the glass-to-frame junction at the bottom has a small rough, smeared patch."
+    },
+    {
+      "blind_id": "case_fdc94708f778ca81",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The smiling bearded man, pale hat, light shirt and palms remain recognizable, but facial contours and beard details, hat weave and label, shirt pattern and the framing/body scale all visibly change beyond adding the garland. Instruction: A continuous flower garland has been added around the neck, passing behind it and hanging down over the chest, fully matching the requested placement. Knowledge: The explanation requires a multicolored lei; the visible yellow, purple, orange and red flowers satisfy that expectation and form a plausible hanging loop. Quality: Anatomy, flowers, lighting and depth are coherent; the small hat label has malformed lettering, a minor local flaw."
+    }
+  ]
+}

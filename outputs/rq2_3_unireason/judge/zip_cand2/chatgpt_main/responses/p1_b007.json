@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b007",
+  "results": [
+    {
+      "blind_id": "case_59560d8c6001bfa0",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pale wall, two white rims and blue-gray faces remain recognizable, but the hand arrangements on both clocks change substantially; these time changes are not requested. Instruction: The left clock remains visibly smaller in both diameter and height than the right clock. A correct edit would enlarge the left clock to match the right; the edited pair does not show that size match or a meaningful reduction of the disparity. Quality, edited image alone: Structural coherence ✔, natural lighting and shadows ✔, artifact-free ✔, texture fidelity ✔; both clocks have coherent rims, legible numerals and clean hands."
+    },
+    {
+      "blind_id": "case_65e72368751dd687",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested count change and associated spacing, the white background, silver finish and upright four-tine fork type remain consistent. The fork contours are redrawn, with more abrupt asymmetric neck transitions and altered handle outlines, a noticeable change to their design. Instruction: The source has eight forks in two rows of four; the edit has nine, five above and four below. The required image would contain exactly six forks, so the count change goes in the wrong direction and does not comply. Quality, edited image alone: Structures and four-tine heads ✔, metallic shading ✔, clean white background ✔; small dark notches at several neck transitions are a minor contour imperfection."
+    }
+  ]
+}

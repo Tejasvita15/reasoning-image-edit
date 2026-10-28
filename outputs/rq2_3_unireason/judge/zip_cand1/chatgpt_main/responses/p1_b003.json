@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b003",
+  "results": [
+    {
+      "blind_id": "case_1cafff1b05df2276",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, clouds, glow, typography and centered placement, the painting retains its crane-and-pine theme but its birds, foliage, rocks and calligraphy are visibly redrawn; the wooden frame carving is also simplified and changed. Instruction: 1. The image adds a blue gradient, outlined clouds, a luminous frame surround and script text. 2. The expected poster has the centered original painting, surrounding flying cranes, a soft glow, the exact elegant-serif title and handwritten event information at bottom left. 3. Centering, blue background, clouds and bottom-left script are present, but surrounding cranes are absent, the title is garbled and cursive, and the lower script conveys no intelligible event information; the glow is conspicuously strong. 4. This is partial compliance. Quality, edited image alone: Structural coherence is problematic because both prominent text blocks are nonsensical; the faint central watermark is an additional artifact. The frame, painted scene and decorative clouds otherwise form a coherent layout, with intact surface textures."
+    },
+    {
+      "blind_id": "case_1bc6a23cb7363d09",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding the added lei and its occlusion, the smiling bearded man, pale hat and tropical setting remain recognizable, but the shirt changes from a fine patterned long-sleeved design to a short-sleeved wavy-patterned shirt; the portrait framing, facial details and background palm arrangement also change visibly. Instruction: 1. A continuous flower garland is added over both shoulders and down the chest. 2. The expected result is a Hawaiian flower garland worn around the neck. 3. The visible loop encircles the neck and hangs naturally in front. 4. The requested addition is fully present. Knowledge: 1. The added lei contains yellow, purple and red blossoms. 2. The supplied explanation requires a multicolored lei. 3. These clearly distinct flower colors satisfy that expectation, and its placement is plausible. 4. Fully plausible. Quality, edited image alone: Anatomy, flower shapes, illumination, depth and clothing texture are coherent, with no obvious ghosting or malformed limbs. A small imperfection is the scrambled lettering on the hat-band label; otherwise the portrait is clean."
+    }
+  ]
+}

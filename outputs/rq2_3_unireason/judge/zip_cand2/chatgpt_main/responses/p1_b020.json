@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b020",
+  "results": [
+    {
+      "blind_id": "case_006ac7dfe886bca7",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, clouds, glow, typography and centered presentation, the painting keeps its crane-and-pine subject but redraws the crane bodies, branch shapes and calligraphy; the carved frame ornaments are also visibly simplified. Instruction: The edit adds a centered framed painting, blue gradient, cloud motifs and bright frame glow. A fully compliant poster would also have surrounding flying cranes, the exact title in elegant serif lettering and readable handwritten event information at bottom left. The surrounding cranes are absent, the title is garbled script rather than the specified serif text, and the bottom-left writing supplies no readable event details, giving partial compliance. Quality of edited image alone: Structure and naturalness are satisfactory for a decorative poster, but artifact-free presentation fails because both prominent text regions are malformed and unreadable, with an additional malformed small logo/text at bottom right; the painting also contains a visible pale watermark. Multiple distracting text errors materially degrade the design."
+    },
+    {
+      "blind_id": "case_f5e97dae6045c8e5",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding enlargement of the small clock, the pale wall, white rims, light blue faces and numeral style remain recognizable. However, both clocks have changed hand directions, and the right clock has moved downward relative to the left, changing the original staggered arrangement. Instruction: The formerly smaller left clock is enlarged and now matches the right clock in apparent diameter. This is the expected size relationship, so the requested change is fully achieved. Quality of edited image alone: Structural coherence, naturalness, artifact-free appearance and texture fidelity are satisfactory: both circular clock faces have legible correctly ordered numerals, coherent hands and rims, and plausible soft shadows on the plain wall. No noticeable visual defect warrants a deduction."
+    }
+  ]
+}

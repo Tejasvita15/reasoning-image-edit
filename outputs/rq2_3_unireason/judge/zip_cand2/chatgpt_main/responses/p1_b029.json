@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b029",
+  "results": [
+    {
+      "blind_id": "case_d4dbfdeed2e235de",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The 8 retains its loop shapes, proportions, placement and white background; faint edge-adjacent speckling is a small unintended change. Instruction: The orange numeral becomes green throughout, exactly the expected color change. Quality: Structure and flat graphic layout are coherent and the numeral is unambiguous; slight pale colored edge noise is the only small artifact."
+    },
+    {
+      "blind_id": "case_574d4121ed0c598a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, decorations, text, centering and resizing, the cat has noticeably changed facial proportions and eye appearance, a straight frontal head and body pose instead of the original tilted head and angled body, and a different tail arrangement; white fur remains. Instruction: A centered white cat, pink-to-blue gradient, floating paw prints and pink hand-drawn Pet Home title are present. The expected exact Add warmth to your life tagline is replaced with nonsensical text, heart-shaped bubbles are absent, and the cat is not recognizably the same slightly enlarged subject, making compliance partial. Quality: The cat anatomy, fur, lighting and poster arrangement are coherent, but the bottom line is clearly garbled text, a noticeable semantic flaw."
+    }
+  ]
+}

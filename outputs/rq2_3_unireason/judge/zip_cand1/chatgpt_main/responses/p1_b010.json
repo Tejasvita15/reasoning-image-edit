@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b010",
+  "results": [
+    {
+      "blind_id": "case_a3586c1ae164f86a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The surrounding hand positions and white background remain, but their outlines are noticeably thickened; the frog shading and facial linework also change, and the motion marks become much darker. These are outside the requested hand fills. Instruction: All eight surrounding hands remain white. A successful edit would fill each with red or blue according to the corresponding frog hand; none of these required fills is present. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: The worksheet has coherent five-finger hand shapes and a readable central frog, with a small area of rough, mottled texture and colored edging on the frog."
+    },
+    {
+      "blind_id": "case_44a22e0c1691c9fa",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested poster composition, background, lighting, decoration and text, the white pointed pump retains its side-facing orientation and tan sole, but its profile is visibly redrawn: the opening is lower and deeper and the heel/arch geometry changes. Instruction: Gold glitter, a light gray-to-white background, prominent white shoe and top gold uppercase typography create the requested advertisement layout. However, neither requested phrase appears: the title, smaller line and bottom line are garbled substitutes, so the verbal requirements are incomplete. Quality: The shoe has coherent contours, smooth material and a plausible ground shadow, and the glitter decoration is clean; multiple prominent text lines are nonsensical and contain malformed letters, substantially degrading the poster."
+    }
+  ]
+}

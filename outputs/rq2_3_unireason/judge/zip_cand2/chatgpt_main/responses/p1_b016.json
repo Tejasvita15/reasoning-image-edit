@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b016",
+  "results": [
+    {
+      "blind_id": "case_395dd4676ce6f10a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 4,
+      "rationale": "Consistency: excluding the permitted repositioning, both the green circle and lavender circle are visibly enlarged; the white background and outline colors remain consistent. Instruction: the green circle moves left and upward into an almost concentric arrangement, but its center remains slightly right and below the outer center, so alignment is slightly incomplete. Knowledge: the explanation requires coincident centers; the small residual displacement is a minor deviation. Quality of edited image alone: clean white fill and coherent nested outlines, with slight unevenness in the circular contours as one small geometric imperfection."
+    },
+    {
+      "blind_id": "case_bb6a720d457d406f",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding requested fur changes, the snowy foreground and blurred building are replaced by grass and a dense green forest, and the fox is rescaled and repositioned within a different composition; most major scene details change. Instruction: the visible edit changes the surroundings, while the fox retains its thick white coat instead of showing the requested summer fur change. The supplied explanation expects gray fur, which is absent. Instruction failure ⇒ knowledge invalid. Quality of edited image alone: the fox and forest are recognizable, but the flat, sharply cut lower fur/paw boundary and weak ground contact give the animal a conspicuously pasted appearance."
+    }
+  ]
+}

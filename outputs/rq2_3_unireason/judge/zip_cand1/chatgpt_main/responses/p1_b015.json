@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b015",
+  "results": [
+    {
+      "blind_id": "case_c44c3d0362132893",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested viewpoint change, the botanical picture has disappeared into a blank gray panel and the wire support is absent; the black rectangular frame and white background remain. Instruction: the frame turns to an oblique angle, but retains a broad visible face instead of the reference\u2019s narrow side profile, and lacks its triangular rear support and associated occlusion relationships. This is an attempted viewpoint change with major errors. Quality: judged alone, the rectangular frame, straight edges, glass layer and softly shaded panel are coherent, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_def9fffe3341b0e2",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested color change, the numeral 8 retains its distinctive curved silhouette, two openings and placement on white; a small pale blocky fringe appears around its edges. Instruction: the orange numeral is fully recolored vivid green, matching the requested attribute and target. Quality: the numeral is clear and structurally coherent with an even green fill, but faint rectangular edge halos slightly blemish the otherwise plain white background."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b013",
+  "results": [
+    {
+      "blind_id": "case_7b9b0f81acca28d9",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding permitted tile rearrangement, the wooden outer frame disappears, the board changes from four to five columns, tile lettering changes from brown to black, and the surrounding composition becomes white. Instruction: the scrambled 4-by-4 puzzle becomes a filled 4-by-5 array with repeated and malformed labels, rather than ordered 1–15 and one empty cell; the requested completed puzzle is absent. Knowledge: Instruction failure ⇒ knowledge invalid. The explanation is blank; this score follows the mandatory instruction-failure coupling. Quality, edited image alone: tile shapes and wood textures are coherent, but repeated numerals and several severely garbled symbols, including an F-like top label and a tangled second-row mark, undermine the numbered-board structure."
+    },
+    {
+      "blind_id": "case_51cf71dc95e7c1c1",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding requested fur changes, the building, open landscape and snow are replaced by a saturated green forest and moss; framing, facial details and paw placement also change. Instruction: the setting becomes summery but the fox retains a thick white coat; the expected summer fur change is absent. Knowledge: the explanation calls for gray fur, whereas the coat remains white. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: the face, seated body and forest are recognizable, but the paws, belly and tail have conspicuous sharp sawtooth cutout edges against the moss and weak ground contact; the remaining fur and forest textures are coherent."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b004",
+  "results": [
+    {
+      "blind_id": "case_0af7fad75e1b5e78",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: excluding the emblem, the lid/knob and handle contours and positions change, the cup base sits higher, and the tabletop grain and background boundary change. Instruction: a red cross-shaped outline is added to the correct cup, but the classic emblem should be a solid red cross; the large white cross-shaped center makes this only partial compliance. Knowledge: the supplied explanation requires the Red Cross to be attached; an attached cross motif is visible, but its hollow red outline conflicts with the classic solid emblem. Quality, edited image alone: coherent ceramic cup, lid and handle, smooth glaze and credible highlights/shadows; the outlined emblem is cleanly rendered with no noticeable structural artifacts."
+    },
+    {
+      "blind_id": "case_4d9196561b1d7702",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding additions in blank cells, existing clues are altered (top-row 3 becomes 6 and second-row first 1 becomes 5), the thin pale grid becomes a thick black grid, and the numeral typeface changes. Instruction: cells are filled, but a correct completion must preserve clues and use 1–4 once per row, column and 2x2 box; the result includes 6, 0 and 8, repeats 2 in row two and has a garbled third-row final entry, so most required entries are poorly implemented. Knowledge: Instruction failure ⇒ knowledge invalid. The explanation is blank; the mandatory failure coupling determines this score. Quality, edited image alone: the square grid is coherent and most digits readable, but the third-row rightmost glyph is a tangled cluster and the bottom-right glyph has a doubled, distorted outline."
+    }
+  ]
+}

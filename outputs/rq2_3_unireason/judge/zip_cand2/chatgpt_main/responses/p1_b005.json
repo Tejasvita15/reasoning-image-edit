@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b005",
+  "results": [
+    {
+      "blind_id": "case_0862e20c976d28dd",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested book relocation, the bouquet changes from mixed white and cyan flowers to two cyan roses, the vase proportions change, and table framing, hardware and lighting change; the plain backdrop and general glass-table design remain recognizable. Instruction: The open book becomes a closed blue-covered book but remains to the right of the vase. The expected result is the book on the opposite, left side; the requested positional relation is not achieved. Quality: Structural coherence, naturalness, artifact absence and texture fidelity are satisfactory: the glass tabletop, clear legs, metal rings, flower vase and closed book have coherent shapes, reflections and shadows, without a noticeable visual defect."
+    },
+    {
+      "blind_id": "case_74046ea0cd4c2f10",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the added emblem, the white lidded cup remains on a brown tabletop against gray, but its body is widened and enlarged in the frame, the handle and lid profiles change, and tabletop texture and lighting change noticeably. Instruction: A gold-edged red shield with a white cross is added to the cup. The expected classic Red Cross emblem is a red cross on white; the correct object receives a badge, but the defining cross color and emblem design are wrong, a major omission. Knowledge: The supplied explanation requires the Red Cross to be attached, whereas the visible badge has an inverted white-on-red cross. Instruction failure ⇒ knowledge invalid. Quality: Structural coherence, naturalness, artifact absence and texture fidelity are satisfactory: the cup, lid, continuous handle and crisp shield badge are cleanly formed, with plausible ceramic highlights and tabletop contact shadows."
+    }
+  ]
+}

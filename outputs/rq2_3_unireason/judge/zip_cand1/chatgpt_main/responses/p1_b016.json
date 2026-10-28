@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b016",
+  "results": [
+    {
+      "blind_id": "case_389bb059a6f64977",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white backdrop remains, but both turtles have different shell contours and scute patterns, faces and leg poses; the unrequested small turtle is reduced and separated from its neighbor. Most major subject details are changed beyond resizing the large turtle. Instruction: The edit still shows a much larger left turtle and a much smaller right turtle. The expected result is the original large turtle reduced to the small turtle\u2019s size; the conspicuous size disparity remains, so the requested match is not achieved. Quality, edited image alone: Structure, naturalness, artifact absence and texture fidelity are satisfactory; both animals have coherent shells, heads and scaled legs, with plausible soft contact shadows and clean white surroundings."
+    },
+    {
+      "blind_id": "case_899d13f6be3598ad",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white wall, pale rims and blue faces remain recognizable, but the right clock has shifted down relative to the frame and its hands have changed orientation and shape; the left clock\u2019s hand details also differ. These are multiple noticeable changes outside the allowed left-clock resizing. Instruction: The left clock has been enlarged from smaller than the right clock to approximately its size. A perfect result would give equal apparent diameters; the left clock is now slightly larger, making the core change successful with a minor size overshoot. Quality, edited image alone: Structure, naturalness, artifact absence and texture fidelity are satisfactory. Both clock faces have coherent circular rims, legible ordered numerals and connected hands; wall lighting and cast shadows are plausible."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b019",
+  "results": [
+    {
+      "blind_id": "case_ffc1d01592bc2453",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 4,
+      "rationale": "Consistency: excluding circle repositioning, the white background and lavender outer circle remain substantially consistent, but the green circle is conspicuously enlarged. Instruction: the green circle moves from the lower right to nearly the outer circle center; exact concentricity is expected, but a small rightward center offset remains. Knowledge: the explanation requires coincident centers, and the residual horizontal offset is a minor deviation. Quality: the simple two-ring diagram has clean colors and no extraneous marks, but the inner contour is slightly oval and uneven rather than uniformly circular."
+    },
+    {
+      "blind_id": "case_b93f5492c64c9671",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: excluding hand removal and the exposed ball surface, the orange ball, spring and base retain their locations and basic forms, but the background becomes noticeably paler and the spring/base rendering acquires harder outlines and more angular shading. Instruction: the pressing hand disappears completely, leaving the ball unobstructed, which fulfills release of the hand. Knowledge: the explanation predicts spring elongation and a raised ball; the spring remains compressed and the ball rests at the same support height, a clear failure of the expected elastic recovery. Quality: the edited illustration alone has a coherent ball, continuous spring and solid base, consistent shading and clean surfaces without distracting artifacts."
+    }
+  ]
+}

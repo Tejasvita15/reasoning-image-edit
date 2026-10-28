@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b031",
+  "results": [
+    {
+      "blind_id": "case_977fce02a2a1d3e2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the required skin-color correction, the frontal elephant pose, tusks and woodland setting remain recognizable, but the cloud pattern and foliage are repainted, and the eyes, tusk contours and toenail shapes change noticeably. Instruction: The conspicuously red elephant becomes naturally gray; a plausible elephant with corrected coloration is the expected result, and that change is fully present. Quality: Structural coherence \u2714, natural painted lighting and perspective \u2714, artifact-free \u2714, texture fidelity \u2714; the trunk, ears, legs and tusks form a coherent animal with convincing skin folds."
+    },
+    {
+      "blind_id": "case_11fe21ce95736dbe",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding relocation and rotation of the left cup and their associated shadows, the white material and neutral setting are preserved, but the lower cup is noticeably enlarged and shifted within the frame, and the reflective floor appearance is replaced by a more matte background. Instruction: The formerly leftward horizontal cup is now visibly resting across the opening of the other cup, with its mouth facing the viewer. The expected left cup placed on the other cup is fully achieved; nesting or upright orientation was not specified. Quality: Structural coherence \u2714, natural shading \u2714, texture fidelity \u2714; both hollow cup forms are clear, with a small rough, dark speckled edge along the lower cup base as the only conspicuous surface imperfection."
+    }
+  ]
+}

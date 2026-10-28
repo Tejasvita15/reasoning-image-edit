@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b030",
+  "results": [
+    {
+      "blind_id": "case_5be91faa8af0ce56",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, decorations, text and centering/scaling, the cat's eyes change from very large dark pupils to smaller amber eyes, the tilted head becomes upright with different facial proportions, and the visible feet disappear into a cropped body edge. White fur and pink ears/nose remain. Instruction: The white cat is centered against a pink-blue gradient with floating hearts, giving the requested poster concept, but the expected bright-pink 'Pet Home' above the cat and gray 'Add warmth to your life' below are replaced by unrelated text below; paw prints are absent and the background is strongly saturated. These are substantial incomplete aspects of the main idea. Quality: The fur, eyes and heart shapes are coherent, but the lettering forms nonsensical words and the cat terminates in an obvious soft horizontal cutout edge; these are two clear semantic/visual flaws."
+    },
+    {
+      "blind_id": "case_8e7d4837413480e8",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the instructed viewpoint change and its resulting visibility/reflection changes, the black full-face helmet, dark visor, red chin panel, paired crown stripes and gray background remain recognizable. The crown stripe design is visibly altered into broad stepped ends at the visor rather than the source's narrow tapered bands, a clear non-instructed design change. Instruction: The helmet rotates toward the viewer from the source's oblique view, but the expected reference is straight-on, centered and bilaterally symmetric. The edit retains a conspicuous right-side vent, offset chin panel and crown stripes, unequal side visibility and a higher viewing angle. Orientation and occlusion are therefore only partially correct. Quality: Structural coherence, natural rendered lighting, artifact absence and surface texture are satisfactory: the visor, shell, trim and vent form a clean plausible helmet with smooth continuous edges and coherent glossy highlights."
+    }
+  ]
+}

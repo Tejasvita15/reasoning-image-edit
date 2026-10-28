@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b009",
+  "results": [
+    {
+      "blind_id": "case_4cb7650d6a1387da",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding relocation/rotation of the left cup and the associated shadows, the pale background and white material remain, but the receiving cup is substantially reduced/repositioned and an extra upright cup appears. Instruction: The original side-by-side pair becomes a vertical arrangement; the expected result is the same two cups with the left one resting on the right. Stacking is present, but three cup forms replace the requested two-cup arrangement, so compliance is partial. Quality (edited image alone): Surfaces and background are smooth and coherent, but the sideways upper vessel has an implausible narrow rim contact with the upright vessel, making the stack structurally awkward; otherwise the lighting and ceramic textures are plausible."
+    },
+    {
+      "blind_id": "case_a74105523e04fdde",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested interior, poster layout, cool palette and framing changes, the cushion remains square with pointed corners and black/white woven fabric. Its diamond motif is noticeably altered, with broken and irregular patches through the center-right and bottom rather than the intact repeating source pattern. Instruction: The isolated cushion becomes a sofa poster. The expected result includes a prominent textured diamond cushion, cool industrial interior and legible bold top-left title. The sofa, palette, main subject and title placement fit, but the title is extensively garbled and the requested close-up texture emphasis is absent, giving partial compliance. Quality (edited image alone): The sofa, perspective and lighting are coherent, but multiple malformed title words and glyphs are distracting, and the cushion has visibly broken, smeared geometric motifs and patchy fabric regions. These combined text and surface errors materially degrade the image."
+    }
+  ]
+}

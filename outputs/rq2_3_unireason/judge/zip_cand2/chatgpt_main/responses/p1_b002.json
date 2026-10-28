@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b002",
+  "results": [
+    {
+      "blind_id": "case_becd457d886f2049",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested viewpoint change, the botanical print and its lettering disappear, and the visible silver retaining clips are lost; the black rectangular frame and white backdrop remain. Instruction: the frame turns to an opposite oblique view, but still presents a broad glass face; the reference requires a narrow side profile with the tall triangular rear support exposed. This is a substantial perspective and occlusion mismatch. Quality: considered alone, the rectangular frame, glass reflections, joints and visible wire base are coherent and clean, without noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_e489b2c487a40d8c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested setting, placement, palette and lighting changes, the cabinet changes from three drawers to four and its beveled top and base molding become flatter, differently shaped trim; round knobs and the general cabinet identity remain. Instruction: the edit supplies a warm white wall, pale wood floor, right-side linen curtain and angled sunlight with a calm neutral palette. However, the cabinet sits essentially centrally and the bottom-right thin text is garbled instead of the specified sentence, so compliance is partial. Quality: the lighting, floor grain and curtain texture are convincing, but the caption contains conspicuously malformed lettering and the cabinet top has irregular, warped trim edges."
+    }
+  ]
+}

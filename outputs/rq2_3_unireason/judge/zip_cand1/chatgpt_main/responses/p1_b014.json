@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b014",
+  "results": [
+    {
+      "blind_id": "case_2749b13f928c0e05",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the requested matchstick movements, the white background and horizontal equation layout remain, but new black triangular/A-like marks appear over the operators and inside a digit, and a black circular doodle appears inside the right-hand 8. Instruction: The original reads 14 - 6 = 82; the edit changes digit segments and adds black markings instead of showing an intelligible valid equation obtained by moving exactly two sticks. No valid requested result is visible. Knowledge: Instruction failure ⇒ knowledge invalid. Quality (edited image alone): Match shafts and blue heads are recognizable, but multiple thick black marks obscure the mathematical symbols, including a malformed triangular digit interior and a garbled circular mark; these create distracting semantic and structural errors."
+    },
+    {
+      "blind_id": "case_e4655a38a69dc6b5",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding card identities allowed to change for the hand, the white backdrop and five-card fan are retained, but card edges/fan positions have shifted and the large body-pip layout has changed, including an added exposed black pip near the lower center. Instruction: The visible ranks remain 4, 6, 8, 8, 8; changing the last corner from a red diamond to a black spade does not create the required pair alongside the three 8s. A correct result would change 4 to 6 or 6 to 4, which has not happened. Knowledge: Instruction failure ⇒ knowledge invalid. Quality (edited image alone): Card edges and rank text are legible, but the rightmost card combines black spade corner markings with large red diamond pips, the adjacent heart card exposes a black body pip, and two visible cards duplicate the 8 of spades. These multiple card-identity inconsistencies undermine semantic coherence despite clean surfaces."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b028",
+  "results": [
+    {
+      "blind_id": "case_cb32c2cbb33ffc6c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested backdrop, lighting, positioning, reflection and headline, the dark bottle, red capsule and cream label remain recognizable, but the neck insignia and the label illustration/small lettering are visibly redrawn. Instruction: The white setting becomes a wine-red/black spotlight backdrop with a vertical isolated bottle, bottom reflection and pale-gold serif headline at upper right. This substantially matches the expected restrained advertisement, but the headline reads \"Timeless. Bottlel.\" rather than the exact requested wording, and the bottle is not clearly below center. Quality: Structure and glass lighting are coherent, with smooth background and reflection; text coherence is problematic in the malformed headline and distorted small label lettering."
+    },
+    {
+      "blind_id": "case_66d4d412c0c4d8db",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested size reduction, the original separate silver scissors are lost as an intact object, their ring appears fused into the other scissors, and the green-handled scissors have changed orientation, handle arrangement and blade structure. Only the plain white background remains consistent. Instruction: The two separate diagonal scissors become one broad hybrid form with enormous green loops and a small silver loop. The expected edit would retain two scissors and shrink the green-handled pair to the silver pair’s size; no such size match is achieved. Quality: White background and metal/green textures are plausible, but the fused extra silver ring, missing coherent blade pivot and mismatched blade-to-handle connections create multiple distracting structural errors."
+    }
+  ]
+}

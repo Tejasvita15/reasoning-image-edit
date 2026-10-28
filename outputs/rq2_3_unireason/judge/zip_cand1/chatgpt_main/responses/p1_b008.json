@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b008",
+  "results": [
+    {
+      "blind_id": "case_4b8ad27486e33f29",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested book relocation, the book changes from open to closed with a different visible picture, the flower arrangement changes, and the backdrop and overall lighting become noticeably darker blue; the circular glass table and vase remain recognizable. Instruction: the book is now closed but still lies to the right of the vase. The expected result places the same book on the opposite, left side; no such relocation occurs, so the instruction is not fulfilled. Quality, edited image alone: structural coherence, natural lighting and reflections, artifact absence, and surface textures are satisfactory; the table, flowers, vase, and book have coherent shapes without a clear visual defect."
+    },
+    {
+      "blind_id": "case_0c55073451b6038e",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding the permitted replacement of the statue, the curved room, panel arrangement, and moldings remain in approximately the same positions, but the surrounding wall illumination and tone are visibly darker and grayer. Instruction: the male statue becomes a draped female statue, but both arms and hands remain intact. The expected broken-armed goddess is therefore largely unfulfilled despite the change to a female figure. Knowledge: the explanation specifies Venus de Milo; the intact arms and clothed upper torso do not depict that statue. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: structural coherence, naturalness, artifact absence, and texture fidelity are satisfactory; the carved figure, hands, drapery, stone surface, and architectural setting read coherently without a clear generation defect."
+    }
+  ]
+}

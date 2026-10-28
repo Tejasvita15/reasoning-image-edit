@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b012",
+  "results": [
+    {
+      "blind_id": "case_ec0bf4b5b682d632",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested viewpoint change, the gray backdrop becomes white and the glossy, detailed surface reflections become broad simplified gradients; black/red colors and the main stripe-and-vent motif remain. Instruction: the helmet changes from a three-quarter view to a symmetrical frontal orientation, but compared with the reference it is viewed noticeably from above, exposing a much taller crown, shortening the visor and narrowing the chin region; the required front view is only partially matched. Quality, edited image alone: the shell, visor, paired vents and central stripes have clean, coherent outlines and smooth shading, without noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_e5d7ca13e71f4c4c",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: excluding hand removal and the mechanically expected ball/spring changes, the orange ball, dark coil, cream background and illustration style remain, but the rectangular base is visibly shifted upward and slightly narrowed. Instruction: the pressing hand is completely removed, leaving the ball unobstructed and no longer pressed, fully satisfying release. Knowledge: the supplied explanation requires spring elongation and a rising ball; the coil remains similarly compressed and the ball support height is nearly unchanged, so exposing the round upper ball does not depict the required rebound. Quality, edited image alone: the ball, continuous shaded coil and solid rectangular base are clearly formed with coherent contact and texture and no noticeable artifacts."
+    }
+  ]
+}

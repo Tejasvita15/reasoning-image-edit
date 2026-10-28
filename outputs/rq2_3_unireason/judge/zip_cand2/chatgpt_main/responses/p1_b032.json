@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b032",
+  "results": [
+    {
+      "blind_id": "case_90761ede5a89472c",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background, silver finish, four-tined fork design and two-row presentation remain, but the spacing and horizontal positions of the existing forks are visibly compressed toward the left; the requested count change itself is excluded. Instruction: the source has eight forks; the edit has four on top and five below, totaling nine. The expected result is exactly six forks, so the requested count is not achieved. Quality: structural coherence, natural shading, clean contours and metal surface texture are satisfactory; the forks are complete and no noticeable rendering artifact is visible."
+    },
+    {
+      "blind_id": "case_19c86f1b14851306",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the permitted size adjustment, both turtles have substantially changed shell patterns, heads and limb poses, and their formerly touching arrangement becomes separated. The white setting remains, but most major subject details have been redrawn. Instruction: the edit still depicts a substantially larger left turtle and smaller right turtle, while changing their appearance. A successful result would shrink the original large turtle to the small turtle's size; that size match is absent. Quality: the shell textures, white ground and soft contact shadows are coherent, but the front limbs have conspicuously blunt, paddle-like ends with poorly resolved toes, a noticeable anatomical flaw."
+    }
+  ]
+}
