@@ -1,0 +1,5 @@
+blind_id,example_uid,model,condition,seed,category,batch_id,status
+case_52d0ddcf56c35f7fd6d3,geography__40,step1x,correction,42,geography,main_b080,unreadable
+case_6ff9929ca45a0d277622,rule-based_reasoning__75,step1x,correction,7,rule-based_reasoning,main_b128,unreadable
+case_0675ac7c8e0cb53aadda,size_adjustment__33,step1x,thinking,42,size_adjustment,main_b138,unreadable
+case_a23888380e1a9a78a1fe,count_change__47,step1x,thinking,7,count_change,main_b362,unreadable

@@ -1,0 +1,5 @@
+model,condition,n_expected,n_scored,Q_100,consistency,instruction,quality,knowledge,knowledge_n
+step1x,base,300,300,53.375,3.02667,2.64667,4.18,2.14724,163
+step1x,thinking,300,299,57.1767,3.17057,2.87291,4.25084,2.33129,163
+unireason,base,300,300,45.20833,2.59667,2.49333,3.81333,1.81595,163
+unireason,thinking,300,300,45.39583,2.32667,2.83333,3.52333,2.31288,163
