@@ -1,121 +1,121 @@
 {
   "p1_b001": {
-    "judge_label": "gpt-6-astra",
-    "ui_settings": "Codex delegated agent /root/rq23u_001; selected model gpt-6-astra; fresh context for this batch without parent history or earlier evaluations; direct local view_image inspection with original detail requested, transport may resize images; local shell/file tools enabled; both source\u2013edited pairs and all metric inputs share this batch context; neutral input paths use hard links to the original supplied files; not a ChatGPT temporary chat; system/developer instructions active; ChatGPT memory/custom-instruction settings not controlled; Pro mode not selected or verified; reasoning effort inherited, not separately verified; conversation_url_or_id is a user-requested batch label, not a verified conversation URL or runtime task ID.",
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
     "judged_at": "2026-10-28T06:03:58.305703+00:00",
     "conversation_url_or_id": "/root/judge_001"
   },
   "p1_b002": {
-    "judge_label": "gpt-6-astra",
-    "ui_settings": "Codex delegated agent /root/rq23u_002; selected model gpt-6-astra; fresh context for this batch without parent history or earlier evaluations; direct local view_image inspection with original detail requested, transport may resize images; local shell/file tools enabled; both source\u2013edited pairs and all metric inputs share this batch context; neutral input paths use hard links to the original supplied files; not a ChatGPT temporary chat; system/developer instructions active; ChatGPT memory/custom-instruction settings not controlled; Pro mode not selected or verified; reasoning effort inherited, not separately verified; conversation_url_or_id is a user-requested batch label, not a verified conversation URL or runtime task ID.",
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
     "judged_at": "2026-10-28T06:04:08.314856+00:00",
     "conversation_url_or_id": "/root/judge_002"
   },
   "p1_b003": {
-    "judge_label": "gpt-6-astra",
-    "ui_settings": "Codex delegated agent /root/rq23u_003; selected model gpt-6-astra; fresh context for this batch without parent history or earlier evaluations; direct local view_image inspection with original detail requested, transport may resize images; local shell/file tools enabled; both source\u2013edited pairs and all metric inputs share this batch context; neutral input paths use hard links to the original supplied files; not a ChatGPT temporary chat; system/developer instructions active; ChatGPT memory/custom-instruction settings not controlled; Pro mode not selected or verified; reasoning effort inherited, not separately verified; conversation_url_or_id is a user-requested batch label, not a verified conversation URL or runtime task ID.",
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
     "judged_at": "2026-10-28T06:04:30.618877+00:00",
     "conversation_url_or_id": "/root/judge_003"
   },
   "p1_b004": {
-    "judge_label": "gpt-6-astra",
-    "ui_settings": "Codex delegated agent /root/rq23u_004; selected model gpt-6-astra; fresh context for this batch without parent history or earlier evaluations; direct local view_image inspection with original detail requested, transport may resize images; local shell/file tools enabled; both source\u2013edited pairs and all metric inputs share this batch context; neutral input paths use hard links to the original supplied files; not a ChatGPT temporary chat; system/developer instructions active; ChatGPT memory/custom-instruction settings not controlled; Pro mode not selected or verified; reasoning effort inherited, not separately verified; conversation_url_or_id is a user-requested batch label, not a verified conversation URL or runtime task ID.",
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
     "judged_at": "2026-10-28T06:06:00.404840+00:00",
     "conversation_url_or_id": "/root/judge_004"
   },
   "p1_b005": {
-    "judge_label": "gpt-6-astra",
-    "ui_settings": "Codex delegated agent /root/rq23u_005; selected model gpt-6-astra; fresh context for this batch without parent history or earlier evaluations; direct local view_image inspection with original detail requested, transport may resize images; local shell/file tools enabled; both source\u2013edited pairs and all metric inputs share this batch context; neutral input paths use hard links to the original supplied files; not a ChatGPT temporary chat; system/developer instructions active; ChatGPT memory/custom-instruction settings not controlled; Pro mode not selected or verified; reasoning effort inherited, not separately verified; conversation_url_or_id is a user-requested batch label, not a verified conversation URL or runtime task ID.",
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
     "judged_at": "2026-10-28T06:06:28.192678+00:00",
     "conversation_url_or_id": "/root/judge_005"
   },
   "p1_b006": {
-    "judge_label": "gpt-6-astra",
-    "ui_settings": "Codex delegated agent /root/rq23u_006; selected model gpt-6-astra; fresh context for this batch without parent history or earlier evaluations; direct local view_image inspection with original detail requested, transport may resize images; local shell/file tools enabled; both source\u2013edited pairs and all metric inputs share this batch context; neutral input paths use hard links to the original supplied files; not a ChatGPT temporary chat; system/developer instructions active; ChatGPT memory/custom-instruction settings not controlled; Pro mode not selected or verified; reasoning effort inherited, not separately verified; conversation_url_or_id is a user-requested batch label, not a verified conversation URL or runtime task ID.",
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
     "judged_at": "2026-10-28T06:06:08.038260+00:00",
     "conversation_url_or_id": "/root/judge_006"
   },
   "p1_b007": {
-    "judge_label": "gpt-6-astra",
-    "ui_settings": "Codex delegated agent /root/rq23u_007; selected model gpt-6-astra; fresh context for this batch without parent history or earlier evaluations; direct local view_image inspection with original detail requested, transport may resize images; local shell/file tools enabled; both source\u2013edited pairs and all metric inputs share this batch context; neutral input paths use hard links to the original supplied files; not a ChatGPT temporary chat; system/developer instructions active; ChatGPT memory/custom-instruction settings not controlled; Pro mode not selected or verified; reasoning effort inherited, not separately verified; conversation_url_or_id is a user-requested batch label, not a verified conversation URL or runtime task ID.",
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
     "judged_at": "2026-10-28T06:08:00.692942+00:00",
     "conversation_url_or_id": "/root/judge_007"
   },
   "p1_b008": {
-    "judge_label": "gpt-6-astra",
-    "ui_settings": "Codex delegated agent /root/rq23u_008; selected model gpt-6-astra; fresh context for this batch without parent history or earlier evaluations; direct local view_image inspection with original detail requested, transport may resize images; local shell/file tools enabled; both source\u2013edited pairs and all metric inputs share this batch context; neutral input paths use hard links to the original supplied files; not a ChatGPT temporary chat; system/developer instructions active; ChatGPT memory/custom-instruction settings not controlled; Pro mode not selected or verified; reasoning effort inherited, not separately verified; conversation_url_or_id is a user-requested batch label, not a verified conversation URL or runtime task ID.",
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
     "judged_at": "2026-10-28T06:08:11.140190+00:00",
     "conversation_url_or_id": "/root/judge_008"
   },
   "p1_b009": {
-    "judge_label": "gpt-6-astra",
-    "ui_settings": "Codex delegated agent /root/rq23u_009; selected model gpt-6-astra; fresh context for this batch without parent history or earlier evaluations; direct local view_image inspection with original detail requested, transport may resize images; local shell/file tools enabled; both source\u2013edited pairs and all metric inputs share this batch context; neutral input paths use hard links to the original supplied files; not a ChatGPT temporary chat; system/developer instructions active; ChatGPT memory/custom-instruction settings not controlled; Pro mode not selected or verified; reasoning effort inherited, not separately verified; conversation_url_or_id is a user-requested batch label, not a verified conversation URL or runtime task ID.",
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
     "judged_at": "2026-10-28T06:08:20.034682+00:00",
     "conversation_url_or_id": "/root/judge_009"
   },
   "p1_b010": {
-    "judge_label": "gpt-6-astra",
-    "ui_settings": "Codex delegated agent /root/rq23u_010; selected model gpt-6-astra; fresh context for this batch without parent history or earlier evaluations; direct local view_image inspection with original detail requested, transport may resize images; local shell/file tools enabled; both source\u2013edited pairs and all metric inputs share this batch context; neutral input paths use hard links to the original supplied files; not a ChatGPT temporary chat; system/developer instructions active; ChatGPT memory/custom-instruction settings not controlled; Pro mode not selected or verified; reasoning effort inherited, not separately verified; conversation_url_or_id is a user-requested batch label, not a verified conversation URL or runtime task ID.",
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
     "judged_at": "2026-10-28T06:09:10.020044+00:00",
     "conversation_url_or_id": "/root/judge_010"
   },
   "p1_b011": {
-    "judge_label": "gpt-6-astra",
-    "ui_settings": "Codex delegated agent /root/rq23u_011; selected model gpt-6-astra; fresh context for this batch without parent history or earlier evaluations; direct local view_image inspection with original detail requested, transport may resize images; local shell/file tools enabled; both source\u2013edited pairs and all metric inputs share this batch context; neutral input paths use hard links to the original supplied files; not a ChatGPT temporary chat; system/developer instructions active; ChatGPT memory/custom-instruction settings not controlled; Pro mode not selected or verified; reasoning effort inherited, not separately verified; conversation_url_or_id is a user-requested batch label, not a verified conversation URL or runtime task ID.",
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
     "judged_at": "2026-10-28T06:09:29.749914+00:00",
     "conversation_url_or_id": "/root/judge_011"
   },
   "p1_b012": {
-    "judge_label": "gpt-6-astra",
-    "ui_settings": "Codex delegated agent /root/rq23u_012; selected model gpt-6-astra; fresh context for this batch without parent history or earlier evaluations; direct local view_image inspection with original detail requested, transport may resize images; local shell/file tools enabled; both source\u2013edited pairs and all metric inputs share this batch context; neutral input paths use hard links to the original supplied files; not a ChatGPT temporary chat; system/developer instructions active; ChatGPT memory/custom-instruction settings not controlled; Pro mode not selected or verified; reasoning effort inherited, not separately verified; conversation_url_or_id is a user-requested batch label, not a verified conversation URL or runtime task ID.",
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
     "judged_at": "2026-10-28T06:09:27.097698+00:00",
     "conversation_url_or_id": "/root/judge_012"
   },
   "p1_b013": {
-    "judge_label": "gpt-6-astra",
-    "ui_settings": "Codex delegated agent /root/rq23u_013; selected model gpt-6-astra; fresh context for this batch without parent history or earlier evaluations; direct local view_image inspection with original detail requested, transport may resize images; local shell/file tools enabled; both source\u2013edited pairs and all metric inputs share this batch context; neutral input paths use hard links to the original supplied files; not a ChatGPT temporary chat; system/developer instructions active; ChatGPT memory/custom-instruction settings not controlled; Pro mode not selected or verified; reasoning effort inherited, not separately verified; conversation_url_or_id is a user-requested batch label, not a verified conversation URL or runtime task ID.",
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
     "judged_at": "2026-10-28T06:10:16.799656+00:00",
     "conversation_url_or_id": "/root/judge_013"
   },
   "p1_b014": {
-    "judge_label": "gpt-6-astra",
-    "ui_settings": "Codex delegated agent /root/rq23u_014; selected model gpt-6-astra; fresh context for this batch without parent history or earlier evaluations; direct local view_image inspection with original detail requested, transport may resize images; local shell/file tools enabled; both source\u2013edited pairs and all metric inputs share this batch context; neutral input paths use hard links to the original supplied files; not a ChatGPT temporary chat; system/developer instructions active; ChatGPT memory/custom-instruction settings not controlled; Pro mode not selected or verified; reasoning effort inherited, not separately verified; conversation_url_or_id is a user-requested batch label, not a verified conversation URL or runtime task ID.",
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
     "judged_at": "2026-10-28T06:10:42.120478+00:00",
     "conversation_url_or_id": "/root/judge_014"
   },
   "p1_b015": {
-    "judge_label": "gpt-6-astra",
-    "ui_settings": "Codex delegated agent /root/rq23u_015; selected model gpt-6-astra; fresh context for this batch without parent history or earlier evaluations; direct local view_image inspection with original detail requested, transport may resize images; local shell/file tools enabled; both source\u2013edited pairs and all metric inputs share this batch context; neutral input paths use hard links to the original supplied files; not a ChatGPT temporary chat; system/developer instructions active; ChatGPT memory/custom-instruction settings not controlled; Pro mode not selected or verified; reasoning effort inherited, not separately verified; conversation_url_or_id is a user-requested batch label, not a verified conversation URL or runtime task ID.",
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
     "judged_at": "2026-10-28T06:10:31.991161+00:00",
     "conversation_url_or_id": "/root/judge_015"
   },
   "p1_b016": {
-    "judge_label": "gpt-6-astra",
-    "ui_settings": "Codex delegated agent /root/rq23u_016; selected model gpt-6-astra; fresh context for this batch without parent history or earlier evaluations; direct local view_image inspection with original detail requested, transport may resize images; local shell/file tools enabled; both source\u2013edited pairs and all metric inputs share this batch context; neutral input paths use hard links to the original supplied files; not a ChatGPT temporary chat; system/developer instructions active; ChatGPT memory/custom-instruction settings not controlled; Pro mode not selected or verified; reasoning effort inherited, not separately verified; conversation_url_or_id is a user-requested batch label, not a verified conversation URL or runtime task ID.",
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
     "judged_at": "2026-10-28T06:13:53.833442+00:00",
     "conversation_url_or_id": "/root/judge_016"
   },
   "p1_b017": {
-    "judge_label": "gpt-6-astra",
-    "ui_settings": "Codex delegated agent /root/rq23u_017; selected model gpt-6-astra; fresh context for this batch without parent history or earlier evaluations; direct local view_image inspection with original detail requested, transport may resize images; local shell/file tools enabled; both source\u2013edited pairs and all metric inputs share this batch context; neutral input paths use hard links to the original supplied files; not a ChatGPT temporary chat; system/developer instructions active; ChatGPT memory/custom-instruction settings not controlled; Pro mode not selected or verified; reasoning effort inherited, not separately verified; conversation_url_or_id is a user-requested batch label, not a verified conversation URL or runtime task ID.",
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
     "judged_at": "2026-10-28T06:14:02.450713+00:00",
     "conversation_url_or_id": "/root/judge_017"
   },
   "p1_b018": {
-    "judge_label": "gpt-6-astra",
-    "ui_settings": "Codex delegated agent /root/rq23u_018; selected model gpt-6-astra; fresh context for this batch without parent history or earlier evaluations; direct local view_image inspection with original detail requested, transport may resize images; local shell/file tools enabled; both source\u2013edited pairs and all metric inputs share this batch context; neutral input paths use hard links to the original supplied files; not a ChatGPT temporary chat; system/developer instructions active; ChatGPT memory/custom-instruction settings not controlled; Pro mode not selected or verified; reasoning effort inherited, not separately verified; conversation_url_or_id is a user-requested batch label, not a verified conversation URL or runtime task ID.",
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
     "judged_at": "2026-10-28T06:14:09.007258+00:00",
     "conversation_url_or_id": "/root/judge_018"
   },
   "p1_b019": {
-    "judge_label": "gpt-6-astra",
-    "ui_settings": "Codex delegated agent /root/rq23u_019; selected model gpt-6-astra; fresh context for this batch without parent history or earlier evaluations; direct local view_image inspection with original detail requested, transport may resize images; local shell/file tools enabled; both source\u2013edited pairs and all metric inputs share this batch context; neutral input paths use hard links to the original supplied files; not a ChatGPT temporary chat; system/developer instructions active; ChatGPT memory/custom-instruction settings not controlled; Pro mode not selected or verified; reasoning effort inherited, not separately verified; conversation_url_or_id is a user-requested batch label, not a verified conversation URL or runtime task ID.",
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
     "judged_at": "2026-10-28T06:15:07.603558+00:00",
     "conversation_url_or_id": "/root/judge_019"
   },
   "p1_b020": {
-    "judge_label": "gpt-6-astra",
-    "ui_settings": "Codex delegated agent /root/rq23u_020; selected model gpt-6-astra; fresh context for this batch without parent history or earlier evaluations; direct local view_image inspection with original detail requested, transport may resize images; local shell/file tools enabled; both source\u2013edited pairs and all metric inputs share this batch context; neutral input paths use hard links to the original supplied files; not a ChatGPT temporary chat; system/developer instructions active; ChatGPT memory/custom-instruction settings not controlled; Pro mode not selected or verified; reasoning effort inherited, not separately verified; conversation_url_or_id is a user-requested batch label, not a verified conversation URL or runtime task ID.",
+    "judge_label": "GPT-6 Astra Pro",
+    "ui_settings": "fresh temporary chat; memory/custom instructions off; tools off",
     "judged_at": "2026-10-28T06:15:11.290845+00:00",
     "conversation_url_or_id": "/root/judge_020"
   }
