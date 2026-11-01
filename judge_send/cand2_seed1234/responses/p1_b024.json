@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b024",
+  "results": [
+    {
+      "blind_id": "case_d3b31405e15869d2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the moved left cup and necessary contact/shadow changes, the receiving cup is noticeably smaller and shifted toward the center, and the glossy floor reflection is lost; the neutral background and white material remain. Instruction: the sideways left cup has moved from the floor onto the upright cup, as requested, with its lower edge supported at the opening; the positional change is complete. Quality: structural coherence ✔, natural lighting and shadows ✔, artifact-free ✔, smooth ceramic textures ✔; the tilted cup and receiving cup have coherent visible contours."
+    },
+    {
+      "blind_id": "case_1fa16b92dd742f33",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the hand positions, frog pose and white background remain, but the unrequested outline strokes and dashed/motion marks are substantially thicker and darker, and the frog has acquired noisy colored edging and altered facial detail. Instruction: only the upper-left surrounding hand is fully blue, with a blue patch on one upper-right finger; the expected result colors all eight hands blue or red according to their handedness. Most hands remain white, so most of the requested coloring is missing. Knowledge: the supplied explanation is blank; the mandatory failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality: overall cartoon structure and layout ✔; artifact-free appearance ✘ due to conspicuous colored speckling/halos around the frog and a thin blue spill below the upper-right hand; the hand outlines remain legible."
+    }
+  ]
+}

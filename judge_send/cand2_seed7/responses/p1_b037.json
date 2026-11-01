@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b037",
+  "results": [
+    {
+      "blind_id": "case_05a5e23ba50c9349",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The grey three-drawer cabinet, round knobs, beveled top and base are retained; the legs and horizontal drawer rails are visibly slimmer, changing the cabinet construction proportions. Requested scene, lighting and placement changes are excluded. Instruction: The plain product image becomes a tranquil warm-white wall/oak-floor scene with right curtain and angled sunlight; these match the expected lifestyle setting and palette. However, the cabinet remains centered rather than slightly left, and the bottom text is garbled rather than the requested sentence and spans the bottom rather than occupying the bottom right. This is partial compliance. Quality: Structure, lighting and wood/fabric surfaces are coherent; the large nonsensical caption is a clear semantic artifact, while the rest of the image is natural."
+    },
+    {
+      "blind_id": "case_09bac1c8dc403b74",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The burgundy frame, two gold hangers and general crane/pine/rock painting composition remain recognizable. However, frame carving details are simplified and several painted crane shapes and their fine wing/leg arrangements are changed. Requested surrounding poster changes are excluded. Instruction: The edit centers the painting on a blue gradient with surrounding clouds and a frame glow, as expected. No flying cranes are added outside the painting, the top title is nonsensical cursive instead of the specified wording in an elegant serif, and the bottom-left handwriting conveys no readable event information. The poster concept is present but requirements are incomplete. Quality: The frame and cloud layout are coherent and textures remain plausible, but both the prominent heading and the event text are garbled, producing multiple distracting semantic errors."
+    }
+  ]
+}

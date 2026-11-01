@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b015",
+  "results": [
+    {
+      "blind_id": "case_c0bc50d03af69ee9",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding removal of one shoe and its shadow, the other major shoe is also erased; the gray surface now has large pale silhouettes and mottled patches instead of the original clean lighting. Instruction: 1. Both black shoes disappear into pale filled regions. 2. A correct edit would leave exactly one intact shoe. 3. Removal occurs, but the requested quantity is wrong and no shoe remains. 4. Partial compliance. Quality: structural coherence ✘ and artifact-free ✘: large indistinct mound-like regions, residual contour fragments and blocky pink/green mottling dominate the image; natural surface texture and lighting are disrupted."
+    },
+    {
+      "blind_id": "case_32dd81f6e7236972",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: the diagonal charger, plug and cable retain their general arrangement, but the casing outline and bevels change, the floor grain becomes strongly red-striped, and the printed port labels become garbled. These are multiple noticeable changes beyond changing the number of interfaces. Instruction: 1. Port rendering changes but ten openings remain, arranged in two columns of five. 2. The charger should have exactly six interfaces. 3. The required count reduction is absent. 4. Non-compliance. Quality: structural coherence ✘ and texture fidelity ✘: the port labels are garbled, USB sockets appear as flat black outlines with white bars rather than coherent recessed connectors, and floor grain is conspicuously wavy and overdrawn. The plug and overall perspective remain recognizable, but multiple distracting errors are present."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b019",
+  "results": [
+    {
+      "blind_id": "case_31d3c3377abfcdb8",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the requested shadow change, the post is much narrower and moved right, its grain and top geometry differ, and the pebbly ground is replaced by uniform fine sand; most major non-instruction details change. Instruction: The diagonal cast shadow changes shape but remains long and dark; the expected result is a post without a cast shadow, so the requested noon condition is not achieved. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: The edited image alone has a coherent straight wooden post, continuous sand texture and a clean connected shadow, with no noticeable structural or rendering artifacts."
+    },
+    {
+      "blind_id": "case_0ee88360ee5ea09f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding the added garland and its occlusion, the smiling man, white hat and palm setting remain recognizable, but facial proportions, hat shape, shirt pattern and framing are noticeably altered. Instruction: A substantial loop of flowers has been added around the neck and hangs over the chest, fully realizing the requested welcome garland. Knowledge: The explanation calls for a multicolored lei; the visible yellow and purple-white flowers form a neck-worn loop and match that expectation. Quality: Anatomy, hat, garment and background are coherent, with no obvious duplication or broken shapes; the flowers have slightly flat, overly smooth petal surfaces against the otherwise photographic portrait."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b020",
+  "results": [
+    {
+      "blind_id": "case_ad0b083283e1a804",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the sideline, blue marker and upper-right dark object remain in place, but all three balls disappear and the grass becomes conspicuously coarse; the in-play balls are not authorized removals. Instruction: all balls are replaced by flat green patches. The expected result retains balls that have not wholly crossed the boundary, including the rightmost ball overlapping the line; removing all three completely misinterprets the request. Knowledge: the supplied explanation explicitly requires all soccer balls to be retained, whereas none remain. Instruction failure ⇒ knowledge invalid. Quality (edited image alone): the field and line are recognizable, but three large circular patches have incompatible texture and conspicuous seams, and two interrupt the white line unnaturally; multiple distracting compositing errors."
+    },
+    {
+      "blind_id": "case_395f9a55370523b5",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background, two-book arrangement, brown covers and left book dimensions remain substantially consistent; the left book page texture is visibly rougher and more strongly lined, a clear non-requested alteration. Instruction: the right book page block becomes thicker, but remains much thinner than the left book. The expected result has matching page-block thicknesses; the correct book is modified in the intended direction, but the required match is incomplete. Quality (edited image alone): both books have coherent covers, spines and page blocks, plausible perspective and natural surface textures against a clean white background; no noticeable structural or generation artifacts."
+    }
+  ]
+}

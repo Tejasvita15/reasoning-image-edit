@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b007",
+  "results": [
+    {
+      "blind_id": "case_29d0835e11b1a5d0",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the numeral 8 retains its outline, two counters, placement and white surround; a very faint rectangular patch above the upper curve is a small background change. Instruction: the orange numeral becomes uniformly green; the expected same number in green is fully achieved. Quality, edited image alone: coherent, readable numeral with smooth curves and uniform fill; faint rectangular background discoloration near the top is a minor artifact."
+    },
+    {
+      "blind_id": "case_438903bb2b14e36f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: black shell, dark visor and paired red crown stripes remain recognizable, allowing the requested rotation and associated occlusion changes. However, the chin assembly becomes markedly narrower and more pointed, visor reflections become a broad simplified gray patch, and the background acquires a stronger smooth halo. Instruction: the three-quarter view becomes centered and bilaterally frontal, but the reference shows a more level front elevation with a shallower visible crown, wider chin and flatter visor boundaries. The edit retains an elevated downward-looking angle and notably different proportions, giving partial compliance. Quality, edited image alone: the helmet silhouette, paired trim, glossy materials and visor are coherent; a thin irregular dark strip along the bottom image edge is a minor artifact."
+    }
+  ]
+}

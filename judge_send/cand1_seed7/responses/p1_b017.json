@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b017",
+  "results": [
+    {
+      "blind_id": "case_a79ca45da1cbfbb6",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested viewpoint change, the white background and botanical subject remain, but the thin frame becomes a deep solid frame, the wire easel support disappears, and the printed lower-left label is lost. Instruction: the front is narrowed into an oblique view, but the expected reference is an almost edge-on profile with the rear wire stand clearly exposed; the broad visible picture face and missing stand are major orientation/occlusion errors. Quality: assessed alone, the rectangular frame, inset picture, straight edges, and plain background are coherent and clean, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_6ea314e930b9054b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the glass tabletop, clear legs, and metal rings retain their basic arrangement, but the vase shifts left, the flower arrangement is substantially reshaped, the book illustration changes, and lighting/shadows are stronger. These are beyond relocating the book. Instruction: the open book remains on the right of the vase, as in the source; the expected result would put it on the left. The requested side change is absent. Quality: assessed alone, the glass table, metal joints, vase, flowers, and open book have coherent shapes, plausible reflections and shadows, and no noticeable artifacts."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b040",
+  "results": [
+    {
+      "blind_id": "case_96262106dcb6a602",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested setting, placement, lighting, palette and title, the cabinet retains three drawers, round textured knobs and square legs, but its molded top has become visibly flatter and thinner, changing the furniture profile. Instruction: The isolated cabinet is now left of center against a warm white wall, oak-colored floor and right-hand linen curtain with angled sunlight, as expected. However, the bottom text is garbled rather than the requested sentence and extends across the bottom instead of sitting neatly in the bottom-right corner; the main scene is fulfilled but the title is not. Quality, edited image alone: Structure, lighting and fabric/wood textures are coherent; the two lines of malformed nonsensical lettering are a clear semantic and typographic flaw."
+    },
+    {
+      "blind_id": "case_eaa4342ff8d70c2b",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the requested shadow change, most major details differ: pebbly dirt with stones and sticks becomes fine rippled sand, and the post loses its knots, changes grain and cross-section, and shifts position and apparent height. Instruction: The original leftward shadow has become a long straight shadow continuing beyond the left edge. The supplied target requires no projected shadow, so the visible change fails the central requested outcome. Knowledge: The explanation explicitly says the object should have no shadow, directly contradicted by the long dark cast shadow. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: Structural coherence ✔, naturalness ✔, artifact-free ✔, texture fidelity ✔; the straight wooden post, continuous grain, fine sand and connected cast shadow form a coherent image without noticeable generation defects."
+    }
+  ]
+}

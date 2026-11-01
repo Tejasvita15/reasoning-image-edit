@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b022",
+  "results": [
+    {
+      "blind_id": "case_fae7f7e469772a21",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white field, lavender outer circle and green inner circle retain their colors, sizes and outline design; faint rectangular color residue appears around the green outline. Instruction: The green circle moves slightly upward but remains far to the right of the outer circle center. The expected concentric arrangement is absent, so alignment is not achieved. Knowledge: The explanation requires coincident centers, whereas the circles remain visibly eccentric. Instruction failure ⇒ knowledge invalid. Quality: Both circular outlines are coherent and continuous, with clean flat fills; faint blocklike halos around the green contour are a small visible artifact."
+    },
+    {
+      "blind_id": "case_3e07b5942f636497",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The cream textured backdrop remains, but the ball, spring and rectangular supporting base have all disappeared; removal of those objects is not required by releasing the hand. Instruction: The entire apparatus and hand are erased, leaving only background. A released hand with the ball and spring still depicted is expected; removing the scene does not show the requested action. Knowledge: Neither an elongated spring nor a raised ball is visible, contrary to the supplied explanation. Instruction failure ⇒ knowledge invalid. Quality: Judged alone, the image is a uniform cream textured field with coherent texture and no visible seams, distortions, ghosting or structural artifacts."
+    }
+  ]
+}

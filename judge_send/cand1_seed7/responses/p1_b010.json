@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b010",
+  "results": [
+    {
+      "blind_id": "case_b265be292e110b40",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding the added garland and its occlusion, the man retains a white hat, beard and pale patterned shirt, but his facial proportions and beard contour change, the shirt pattern and collar are redrawn, and the framing and palm/background arrangement change noticeably. Instruction: A large flower loop is newly draped behind the neck and down the chest, exactly the requested neck garland. Knowledge: Its yellow, red, pink and purple blossoms form a multicolored lei, matching the supplied explanation and hanging plausibly around the neck. Quality, edited image alone: Anatomy, flower shapes, lighting and clothing textures are coherent and natural; the tiny hat-band label has distorted lettering, a small local imperfection."
+    },
+    {
+      "blind_id": "case_2b41e1c56c653022",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested poster layout, lighting, background, glitter and typography, the white pointed pump and tan sole remain recognizable, but the shoe silhouette is noticeably reshaped: the toe is fuller and the rear upper and heel contours differ. Instruction: The edit adds a prominent white pump, gold sparkles, gray-to-white illuminated background and gold uppercase headline, as expected for the luxury advertisement. However, the headline does not say Grace in Every Step and neither smaller text block supplies the requested slogan; both are garbled, so the poster concept is only partially fulfilled. Quality, edited image alone: The pump, glitter and lighting are visually coherent, but the large headline and both smaller text blocks contain conspicuously malformed or nonsensical lettering, producing multiple distracting semantic defects."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b038",
+  "results": [
+    {
+      "blind_id": "case_219a1eaa0e27c0fe",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the toe-count correction, the turquoise sandal remains but its strap contour and sole proportions change; the wet-ground reflections and background light positions also change. Instruction: Seven toes become five. A successful correction would give five anatomically plausible toes; the count is corrected, but the large toe has an unnatural rounded, nail-less end, so correction is partial. Quality: Structural coherence ✘ at the bulbous big toe and absent visible nail; natural lighting ✔, artifact-free background ✔, and skin, strap and pavement textures ✔."
+    },
+    {
+      "blind_id": "case_7750f5a6b65df6ed",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and brown-cover/yellow-page appearance remain. The originally thick left book is made thin, and the right book becomes visibly wider, both beyond the requested thickness increase of the thin book. Instruction: The right book becomes thick while the left becomes thin. Expected are two books of matching thickness; the intended right book is thickened, but the pair still has sharply unequal thicknesses, giving partial compliance. Quality: Structural coherence ✔ for both closed books, natural perspective ✔, artifact-free ✔, and cover/page textures ✔; moderate softness does not obscure their forms."
+    }
+  ]
+}

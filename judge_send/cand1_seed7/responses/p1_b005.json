@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b005",
+  "results": [
+    {
+      "blind_id": "case_3435e8fa9125738c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and broad equation arrangement remain, but many untouched sticks have different lengths, spacing, outlines and head shapes, and extra letter-like strokes appear beneath the left digits. Instruction: The source reads 14 − 6 = 82; the edit adds AN-like and L-like forms and fragments the right-hand digits rather than moving exactly two sticks into a readable true equation. No valid equation results. Knowledge: Instruction failure ⇒ knowledge invalid. The supplied knowledge explanation is blank; this score follows the mandatory failure coupling. Quality, edited image alone: White background and colors are clean, but multiple malformed or fragmented glyphs, split heads and stray fragments create severe semantic and structural failures."
+    },
+    {
+      "blind_id": "case_c96f4db5dda0cc52",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The black full-face helmet, dark visor and red accents remain recognizable, allowing the requested viewpoint change. However, the dark textured background becomes a pale studio floor/background, glossy shell illumination becomes diffuse, and the red chin panel gains a black center stripe and loses its sculpted ridges. Instruction: A symmetric frontal view replaces the original three-quarter view, correctly hiding the side pivot. Relative to the reference, however, the crown is much taller, the visor occupies less height, the silhouette narrows strongly toward the chin, and the chin shape/details differ noticeably. Thus the frontal orientation is correct but proportions and details only partially match. Quality, edited image alone: Coherent symmetric helmet geometry, smooth shell and visor, legible vent details, consistent studio lighting and a plausible floor shadow; no noticeable generation artifacts."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b013",
+  "results": [
+    {
+      "blind_id": "case_c0603635ecdc6173",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: excluding the permitted center repositioning, the green circle is enlarged dramatically and the lavender circle is also slightly reduced; the white background, outline colors and unfilled style remain. Instruction: the formerly offset green circle is now concentric with the lavender circle, matching the requested shared center precisely. Knowledge: the visible concentric outlines satisfy the explanation that their centers coincide. Quality: coherent smooth closed outlines, clean white interiors and a balanced diagram; no noticeable structural or texture artifacts."
+    },
+    {
+      "blind_id": "case_e24d7a72f5329240",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: beyond the allowed removal of one shoe, the other shoe and its detailed leather, laces and shadow have also disappeared, and the surrounding gray surface is replaced by uneven pale patches. Instruction: both shoes are erased; the expected result is exactly one remaining shoe, so removal is substantially overapplied. Quality: the nearly blank surface contains conspicuous block-like tonal boundaries, pale object-shaped ghosts near the top and uneven smeared texture across the bottom; these multiple artifacts undermine surface coherence."
+    }
+  ]
+}

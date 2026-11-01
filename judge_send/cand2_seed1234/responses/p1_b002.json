@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b002",
+  "results": [
+    {
+      "blind_id": "case_331a5f10d9a93408",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested interior, close-up composition and typography, the cushion retains its square pointed-corner form and black/white palette, but its regular nested-diamond fabric design is visibly replaced by large irregular curling shapes across the center. Instruction: The isolated cushion becomes the main subject on a dark gray modern sofa with a cool minimal setting and bold top-left sans-serif text, as expected. However, the title reads meaningless fragments rather than the requested message, and much of the diamond geometry is lost, yielding partial compliance. Quality, edited image alone: Sofa structure, lighting and cushion placement are coherent, but the prominent nonsensical title and numerous malformed, tangled fabric motifs are distracting errors; fabric detail is also weak in the central pattern."
+    },
+    {
+      "blind_id": "case_6ab901e6449ad777",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The lidded white mug, right handle and basic frontal arrangement remain recognizable, but the gray background and wooden tabletop with its shadow/reflection are replaced by white space, and strong dark contour edging is added to the mug. Instruction: A large red circle containing a white cross is added to the front. The expected classic Red Cross emblem is a red cross on white; the visible symbol reverses that essential design, so the requested emblem is poorly implemented despite a mark being attached to the correct object. Knowledge: Instruction failure ⇒ knowledge invalid. Quality, edited image alone: Structure ✔, readable cross shape ✔, ceramic highlights and surface texture ✔; the conspicuous dark cutout-like edge around the lid and handle is a small naturalness issue."
+    }
+  ]
+}

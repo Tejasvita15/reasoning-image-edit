@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b011",
+  "results": [
+    {
+      "blind_id": "case_b0a27902d37ed585",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested large-turtle size change, the small turtle is also substantially shrunk, turned to face forward, and given a different shell pattern; the turtles are separated and their poses change. The white background remains consistent. Instruction: The large left turtle becomes smaller, but the right turtle also shrinks and the left remains markedly wider and taller; the expected equal-size pair is poorly implemented. Quality, edited image alone: structural coherence, naturalness, artifact absence, and texture fidelity are satisfactory; both turtles have coherent shells, faces, limbs, and soft grounded shadows."
+    },
+    {
+      "blind_id": "case_0467bd9735bf39ac",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The original thin 4x4 grid becomes a heavy irregular six-column, five-row grid, and the original given digits and their positions are extensively changed. Instruction: Numerous numerals and letterlike marks replace the puzzle; a completed 4x4 Sudoku retaining its givens was expected, but the grid dimensions and entries fundamentally misinterpret that request. Quality, edited image alone: the grid is visible, but multiple malformed or ambiguous glyphs, crowded entries, and inconsistent cell geometry cause distracting structural degradation. Knowledge: The supplied explanation is blank; the required instruction-failure coupling applies. Instruction failure ⇒ knowledge invalid."
+    }
+  ]
+}

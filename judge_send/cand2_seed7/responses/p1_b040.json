@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b040",
+  "results": [
+    {
+      "blind_id": "case_4c36e60d4e3e5918",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the numeral 8 retains its silhouette, two counters, placement and white background; a faint grainy fringe appears around its edges. Instruction: the orange fill becomes green throughout the same numeral, exactly fulfilling the requested color change. Quality: structure and legibility are satisfactory, with uniform green fill; slight pale edge noise is the only small artifact."
+    },
+    {
+      "blind_id": "case_3ae975ccddacc785",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the plain white background and centered single-object composition remain; the outline-to-solid transformation is requested and excluded. Instruction: the outlined circle becomes a shaded spherical object, the expected solid of rotation, fully satisfying the request. Knowledge: the explanation explicitly requires a sphere, and the circular silhouette with volumetric shading depicts that solid correctly. Quality: the silhouette is coherent and the surface smooth, but a conspicuous abrupt dark curved band across the lower portion interrupts otherwise continuous spherical shading."
+    }
+  ]
+}

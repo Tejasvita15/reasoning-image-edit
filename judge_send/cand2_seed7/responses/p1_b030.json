@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b030",
+  "results": [
+    {
+      "blind_id": "case_e3ae065f0bb1bfa1",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background remains, but most matchstick shapes, spacing, scale and blue-head detailing are redrawn; the neat equation layout becomes irregular painted symbols, far beyond two moved sticks. Instruction: The original reads 14 − 6 = 82; the edit replaces much of it with malformed shapes including an S-like mark, X and O. A valid equation made by relocating exactly two sticks is absent, so this is non-compliance. Knowledge: The explanation is blank; the mandatory instruction-failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: The broad fused strokes, malformed left symbol and garbled central notation cause major structural and semantic failure despite the plain clean background."
+    },
+    {
+      "blind_id": "case_055afa55533c73c9",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the requested statue replacement, the pale curved paneled room remains recognizable, but its architectural panel proportions and molding positions are visibly changed. Instruction: The male statue becomes a winged, dressed female figure holding a spear with both arms intact. A broken-arm goddess statue is expected; only the female classical-statue aspect is achieved, while the defining broken arms and Venus de Milo form are missing. Knowledge: The explanation explicitly specifies Venus de Milo, which the winged armed figure does not depict. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: The stone figure, feathered wings, drapery and room have coherent lighting and surface detail; the lowered hand has slightly blended, indistinct finger anatomy, a small local imperfection."
+    }
+  ]
+}

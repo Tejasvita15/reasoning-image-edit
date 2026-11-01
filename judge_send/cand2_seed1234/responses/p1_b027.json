@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b027",
+  "results": [
+    {
+      "blind_id": "case_8e5afaf64d071594",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Apart from permitted tile rearrangement, the square wooden frame and individual tile boundaries disappear, the board becomes a wide rectangular panel, and brown numerals become black in a different typeface; most major retained details change. Instruction: The original 4-by-4 puzzle becomes three rows of five printed circles with repeated 1, 12, 13 and 15 labels. A completed puzzle should show 1 through 15 once in row order and a bottom-right empty cell; this result does not complete the puzzle. Knowledge: Instruction failure ⇒ knowledge invalid. Quality, assessed on the edited image alone: The flat wooden panel, circular outlines and numerals are clean and legible, spacing is coherent, and no visible rendering damage or texture corruption is present."
+    },
+    {
+      "blind_id": "case_f8a723408b30b032",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The round glass table, ribbed white vase and pale background retain their basic identities, but the flower arrangement changes visibly, the book photograph and page shapes change, and the metal/reflection contrast and shadows are substantially different. Instruction: The book remains on the right of the vase, as in the source; the expected edit would put it on the left. Small shifts in placement do not fulfill the requested side change. Quality, assessed on the edited image alone: The glass tabletop and metal rings have coherent perspective, the vase and flowers are well formed, the open book has credible page curvature, and reflections, shadows and surface textures show no noticeable artifacts."
+    }
+  ]
+}

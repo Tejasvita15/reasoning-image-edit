@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b016",
+  "results": [
+    {
+      "blind_id": "case_73aa905e44e90a68",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, decorations, text and repositioning/resizing, the white fur and pink ears remain, but the face/eye proportions and head tilt change, and the front paws and curled tail are reshaped. Instruction: The plain photograph becomes a centered cat poster with a pink/blue gradient and hearts; a successful edit would include soft colors, paw prints, heart bubbles and the two exact requested text lines. The poster concept is present, but the gradient is highly saturated, paws and bubbles are absent, and both requested texts are replaced by garbled wording in the wrong tagline styling. This is partial compliance. Quality: Structure and fur texture are satisfactory, but multiple prominent nonsensical text lines and lettering overlapping the ears create distracting semantic and layout defects."
+    },
+    {
+      "blind_id": "case_168b1d2300247e90",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding movement/rotation of the left cup and associated contact shadows, the plain pale setting and white material remain consistent; the other cup is noticeably tilted and its silhouette changes from upright and symmetric to leaning and asymmetric. Instruction: The previously floor-level left cup now lies sideways across the other cup rim. The expected result is that left cup supported on the other cup, and this relationship is visibly achieved. Quality: White surfaces, shading and clean outlines are satisfactory, with no garbled texture or duplication; the lower cup has visibly skewed geometry, with an almost vertical left side and strongly slanted right side over a nearly level base, making the supporting structure look distorted."
+    }
+  ]
+}

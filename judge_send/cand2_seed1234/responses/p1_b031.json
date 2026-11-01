@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b031",
+  "results": [
+    {
+      "blind_id": "case_150ef72f3f7e2ef8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding the requested shadow change, the gravel-covered ground becomes nearly uniform fine sand, the twig and many stones disappear, and the post loses its knots and changes width and height; the central upright composition remains. Instruction: the long leftward shadow becomes a cleaner, dark diagonal shadow instead of disappearing as required by the supplied expectation, so the requested noon shadow outcome is absent. Knowledge: the explanation explicitly requires no shadow, but a long cast shadow remains. Instruction failure ⇒ knowledge invalid. Quality: assessed alone, the upright wooden post has coherent edges and grain, the ground has continuous texture, and the attached directional shadow is structurally natural, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_f4d2649e9c4aa8c3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the permitted viewpoint change, the black frame and botanical photograph remain recognizable, but the thin open frame construction becomes a thick solid-sided housing, the wire rear support disappears, and the white background becomes gray with a floor shadow. Instruction: the front is foreshortened into an oblique view, but a broad section of the photograph remains visible; the reference instead shows a narrow tilted side profile with the rear wire stand fully exposed. The attempted turn therefore has major orientation and support/occlusion errors. Quality: assessed alone, the rectangular frame, photograph and mat are coherent, its edges and perspective are orderly, and the neutral background and soft contact shadow are clean, with no noticeable artifacts."
+    }
+  ]
+}

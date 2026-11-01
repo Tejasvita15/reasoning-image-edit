@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b031",
+  "results": [
+    {
+      "blind_id": "case_f9de98b0156cc566",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "Consistency: The beige background, base position and spring placement remain, but the orange ball is deleted rather than retained, and the spring shading and base edge outlines are visibly redrawn. Expected movement of the hand, ball and spring is excluded from preservation scoring. Instruction: The pressing hand has disappeared completely; the expected removal of hand contact is fully achieved. Knowledge: The explanation requires an elongated spring and a rising ball; instead the spring remains compressed and the ball is absent, two serious failures of the stated physical outcome. Quality, edited image alone: The isolated spring and rectangular base have coherent shapes, consistent metallic shading and a clean textured background, without noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_6beb14bcb72bab19",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Beyond permitted tile rearrangement, the circled brown numerals become uncircled black numerals, the wood grain is replaced and the frame is enlarged/cropped at the image boundaries. Instruction: The source sequence has been replaced by rows 1/4/2/5, 2/4/0/6, 2/3/6/9 and 5/6/5/9, with no empty cell. A completed puzzle requires 1 through 15 in order and a final empty cell; the requested completion is wholly absent. Knowledge: Instruction failure ⇒ knowledge invalid. The supplied knowledge explanation is blank; this score follows the mandatory instruction-failure coupling. Quality, edited image alone: The wooden frame, regular tile edges, lighting and legible glyphs are coherent, but repeated labels and an entirely filled sliding-puzzle grid create a clear semantic defect."
+    }
+  ]
+}

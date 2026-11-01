@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b007",
+  "results": [
+    {
+      "blind_id": "case_b66ce69bb8405426",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The wooden enclosing frame disappears, the four-by-four board becomes a three-by-five freestanding array on white, and the tile lettering changes from brown numerals to black mixed symbols; these exceed rearrangement. Instruction: The tiles change position and identity, but a completed puzzle should contain 1–15 in order with one blank in its four-by-four board. Repeated 6s, 0s, 2s and letterlike symbols do not accomplish this. Knowledge: Instruction failure ⇒ knowledge invalid. The supplied knowledge explanation is blank; this score follows the mandatory coupling. Quality, edited image alone: ✔ regular tile shapes and coherent layout, ✔ consistent shading, ✔ clean edges and wood texture; the visible black symbols are clearly rendered without noticeable graphic artifacts."
+    },
+    {
+      "blind_id": "case_13ce44be91e97df7",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "Consistency: Excluding hand release and consequent spring/ball motion, the orange ball is deleted rather than retained and moved, and the base is visibly wider and shifted slightly upward/left. The cream backdrop and dark metallic illustration style remain consistent. Instruction: The hand disappears, but so does the ball. The expected result is the hand released from a still-present ball; removal achieves release only partially because the depicted ball interaction is lost. Knowledge: The explanation requires spring elongation and a rising ball. The spring is only modestly taller and remains tightly coiled, while the ball is absent entirely, so the specified physical result is poorly represented. Quality, edited image alone: ✔ coherent metallic spring and rectangular base, ✔ consistent highlights and cast shadow, ✔ clean contours and textures without noticeable artifacts."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b026",
+  "results": [
+    {
+      "blind_id": "case_978d6905f2698e06",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, positioning, lighting, reflection and headline changes, the dark bottle shape and red capsule remain recognizable, but the label illustration and fine printing are visibly redrawn. Instruction: The white setting becomes a black setting with a pale spotlight and bottom reflection; the expected deep wine-red gradient and upper-right “Timeless. Bottled.” are absent, with unrelated gold text instead at the bottom. The bottle remains upright and alone, so the main advertising idea is present but required aspects are wrong. Quality: Bottle structure, glass shading and reflection are coherent, but the prominent gold lettering is garbled and overlapping, a clear semantic artifact."
+    },
+    {
+      "blind_id": "case_15b62eb824d60002",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The glass, green board, counter and right-hand microscope retain their overall positions and appearance, but the water bubble pattern is substantially changed and the microscope components have visibly different shapes. Instruction: A yellow pencil has been added leaning into the existing water-filled glass, with a substantial submerged section, exactly fulfilling the requested insertion. Knowledge: The explanation requires an apparent break from refraction; the pencil instead continues in nearly the same straight line through the water surface, with only a tiny edge discontinuity, so the required optical displacement is not convincingly shown. Quality: Glass, liquid, counter and lighting are coherent and natural, but the pencil’s upper end has an odd pale collar and pointed cap-like construction, a small localized structural imperfection."
+    }
+  ]
+}

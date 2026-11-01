@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b018",
+  "results": [
+    {
+      "blind_id": "case_de14272ce3e72db3",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The numeral 8, its looping silhouette, placement and white background remain intact; faint new speckled edging is a small unintended detail. Instruction: The orange fill changes to green; the expected result is the same number in green, which is fully achieved. Quality: Structure and flat graphic appearance are coherent, with clear white counters; slight speckling around the green edges is the only small artifact."
+    },
+    {
+      "blind_id": "case_b72988339ac342a1",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested interior, lighting, composition and title changes, the cushion remains a square woven black-and-white product, but its diamond motif is visibly redesigned, with fewer larger diamonds and broken or irregular centers. Instruction: A cool industrial interior, dark sofa, prominent textured diamond cushion and bold top-left sans-serif title are added as expected. However, the title is extensively misspelled and nonsensical, including BLCK AND WITLE and OF LIFE’S LORLE, so the requested message is only partially delivered. Quality: The cushion and room have coherent perspective and lighting, but the headline contains multiple garbled words and the sofa/wall surfaces have distracting dense pitted and swirling texture artifacts."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b016",
+  "results": [
+    {
+      "blind_id": "case_eaff94d2c3fe7597",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and matchstick equation layout remain recognizable, but an unrequested thick black zero is inserted inside the 4 and the matchsticks change from pale yellow to dark olive with much heavier contours. Instruction: The sticks still form 14 - 6 = 82; no two-stick rearrangement creates a valid equation, and adding a drawn zero does not fulfill the requested move. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: The sticks and blue heads are coherent, but the heavy black zero overlapping the space within the matchstick numeral produces a conspicuously malformed composite symbol; the remaining layout and background are clean."
+    },
+    {
+      "blind_id": "case_6dcc4d28af53aed3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Both white-rimmed pale-blue clocks remain on a light wall, but the right clock hands change orientation, numerals become substantially heavier, and the wall texture and shadows change. Instruction: The left clock remains visibly smaller in both height and width than the right clock. A successful edit would enlarge the left clock to match the right; the size mismatch remains pronounced and the requested adjustment is not achieved. Quality: Structural coherence, naturalness, artifact absence, and texture fidelity are satisfactory: both clock faces have legible complete numeral sets, coherent hands and rims, and plausible wall shadows without conspicuous rendering defects."
+    }
+  ]
+}

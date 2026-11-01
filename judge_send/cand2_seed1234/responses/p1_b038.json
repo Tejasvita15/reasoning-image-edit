@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b038",
+  "results": [
+    {
+      "blind_id": "case_7c419b4bc207d808",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested setting, lighting, placement and title, the cabinet retains three grey drawers and round knobs, but its formerly flat drawer faces acquire inset borders and its feet and trim change shape. Instruction: the isolated cabinet becomes a left-positioned furnishing against a warm white wall and light wood floor, with a right curtain and diagonal sunlight, as requested. However, the expected full sentence at bottom right is replaced by large centered nonsensical lettering, so compliance is partial. Quality: structure, room perspective, lighting and surface textures are coherent; the prominent garbled lettering is a clear semantic flaw. Moderate softness does not obscure the furniture."
+    },
+    {
+      "blind_id": "case_95954259e3116215",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background, left thick book, burgundy covers and tan pages remain recognizable and similarly placed. Excluding the allowed thickness increase, the right book has a noticeably redesigned, smoothly rounded cover/spine contour. Instruction: the right book is visibly thickened; the expected result is equal page-block thickness in both books. Its page block remains substantially thinner than the left book, so the change is only partial. Quality: structural coherence, natural perspective, artifact absence and texture fidelity are satisfactory; both volumes have coherent covers, page blocks and boundaries without distracting defects."
+    }
+  ]
+}

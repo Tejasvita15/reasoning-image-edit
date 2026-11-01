@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b020",
+  "results": [
+    {
+      "blind_id": "case_63f2bccaae0e22f3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The small upper scissors and white backdrop remain recognizable and similarly arranged. Beyond permitted resizing, the large scissors have substantially redesigned pointed blades and a separated, rotated green handle assembly, with new metal loops/holes. Instruction: 1. The lower scissors are disassembled and reshaped rather than uniformly reduced. 2. The intact green-handled scissors should be approximately the size of the small upper pair. 3. Their combined extent remains much larger and their identity as an intact tool is lost. 4. The requested size match is not achieved. Quality, edited image alone: Structural coherence ✘: the lower tool has disconnected handles and an incoherent metal handle/pivot arrangement. Naturalness ✘ for the disconnected assembly; textures ✔ and white background ✔, but multiple structural errors distract."
+    },
+    {
+      "blind_id": "case_3925b319178c8531",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the shape that is explicitly to be modified, the plain white background and simple centered composition remain unchanged; there are no additional scene elements. Instruction: 1. The edited image remains an unfilled circular outline. 2. A successful edit would visibly depict the sphere produced by rotation. 3. No shading, dimensional construction, or other visible indication distinguishes this from the original flat circle. 4. The required transformation is not visibly carried out. Knowledge: The explanation explicitly requires a sphere, whereas the visible result still reads as a flat outlined circle. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: Structural coherence ✔, naturalness appropriate to a line diagram ✔, artifact-free ✔, texture fidelity ✔: a clean continuous circular contour on a uniform white field, with no visible structural defects."
+    }
+  ]
+}

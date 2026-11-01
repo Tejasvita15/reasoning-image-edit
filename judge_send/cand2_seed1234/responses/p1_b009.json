@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b009",
+  "results": [
+    {
+      "blind_id": "case_3726020c5a073c2c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The lidded white cup and right-side handle remain recognizable, but the gray backdrop and wooden tabletop are replaced by white, the grounding shadow disappears, and cup proportions and shading change. Instruction: A large red cross-like graphic is added to the cup, but a classic solid equal-armed Red Cross is expected; four conspicuous white cutouts make this a different emblem, so compliance is partial. Knowledge: The explanation requires the Red Cross to be attached; placement on the cup matches, but the cutout symbol conflicts with that emblem. Quality, edited image alone: The ceramic body, lid and handle are coherent, glossy highlights are smooth, and the decorative graphic has clean edges without noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_e937e2327796e63f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The diagonal white charger and three-pin plug remain, but the rear cable disappears, the USB Charger lettering and voltage labels change, and wood grain and board seams are altered. Requested interface changes are excluded. Instruction: The ten original sockets become thirteen visible sockets, arranged as six on the left and seven on the right. Six total interfaces are expected; changing the count without reaching six is a major failure. Quality, edited image alone: The housing and plug are recognizable, but the top label is malformed, small lower labels are garbled, and socket rims and internal bars are irregular and distorted, creating multiple distracting defects."
+    }
+  ]
+}

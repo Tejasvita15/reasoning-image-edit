@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b033",
+  "results": [
+    {
+      "blind_id": "case_09c35ad605ae1537",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background and five-card fan remain, but card positions/angles and spacing visibly change, and the rightmost card loses its large lower diamond and gains a partial red 4 at the right edge; these are beyond the required rank correction. Instruction: the 6 becomes a 2, leaving visible ranks 4, 2, 8, 8, 8. A full house requires three matching ranks plus a matching pair; the two singletons still do not match, so the requested hand is absent. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: clean card surfaces, lighting and legible main indices, but the partial sideways 4 on the card indexed 8 is a clear semantic card-design flaw."
+    },
+    {
+      "blind_id": "case_bc298ce8ec563026",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested correction of red skin to gray, the elephant retains its stance, ears, trunk curve, tusk shapes and four-legged arrangement. However, the sky is visibly repainted with pronounced cloud texture, foliage and ground brushwork change throughout, and ivory tusks become white-gray. Instruction: the conspicuously red elephant is changed to a naturally gray elephant with coherent anatomy, correcting the evident unreasonable feature completely. Quality: coherent elephant anatomy and readable skin folds, clean tusk and ear contours, plausible shadows and a consistent illustrated landscape; no noticeable generation defects."
+    }
+  ]
+}

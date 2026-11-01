@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b018",
+  "results": [
+    {
+      "blind_id": "case_def542b031fb54b1",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested poster background, ornament, lighting and prominent placement, the glossy white pointed-pump identity remains, but the shoe silhouette is noticeably redesigned with a different opening and thicker heel profile. Instruction: The single shoe becomes a prominent pair with gold glitter and fine curved lines on a softly shaded gray-white background. The expected poster also requires the exact uppercase gold title and clean sans-serif slogan; both are replaced by nonsensical text, and the smaller text is serif. The main advertising concept is present but required typography is substantially incomplete. Quality: Structure and glossy shoe textures are coherent, and lighting is plausible; artifact-free presentation fails because the headline and both smaller lines contain distracting garbled lettering and malformed glyphs."
+    },
+    {
+      "blind_id": "case_d5b28a63f6e3a0d6",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the requested statue replacement, the pale curved paneled room remains recognizable, but its background panel geometry and framing change visibly, especially the upper recessed panels and curved horizontal molding. Instruction: The male statue becomes a draped female figure with two intact arms and patterned objects behind her head. The expected result is the broken-armed goddess statue; the female subject addresses only part of that request while the defining missing arms are absent, a major omission. Knowledge: The explanation specifies Venus de Milo, whereas the depicted clothed, intact-armed figure does not supply that identity. Instruction failure ⇒ knowledge invalid. Quality: Stone shading, legs and drapery are coherent and natural; artifact-free structure is problematic because the two checker-patterned protrusions behind the head have implausible, ambiguous construction, a clear semantic flaw."
+    }
+  ]
+}

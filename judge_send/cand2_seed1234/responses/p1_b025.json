@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b025",
+  "results": [
+    {
+      "blind_id": "case_4e2a2d17175836ff",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding the released hand and the expected upward motion, the ball and spring have both been entirely deleted; the remaining base has changed shading, position and shadow, while the cream background remains similar. Most major non-instruction objects are lost. Instruction: the hand disappears, but a proper release would retain the ball and spring; deleting the entire assembly makes this a major omission. Knowledge: no elongated spring or raised ball is visible. Instruction failure ⇒ knowledge invalid. Quality: viewed alone, the simple gray slab has coherent beveled edges and texture on a clean cream background, without visible generation artifacts."
+    },
+    {
+      "blind_id": "case_a72e7238957f060c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested book relocation, the vase moves from left of center to the right, the flower arrangement changes, and the table viewpoint, leg positions and framing change noticeably; the pale backdrop and general glass/chrome materials remain recognizable. Instruction: the open white book with a picture changes from the right side of the vase to its left, matching the requested opposite-side placement. Quality: viewed alone, the glass tabletop, transparent legs, metal rings, vase, flowers and open book form a coherent scene with clean contours, credible reflections and no noticeable artifacts."
+    }
+  ]
+}

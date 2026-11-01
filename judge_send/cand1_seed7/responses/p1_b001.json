@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b001",
+  "results": [
+    {
+      "blind_id": "case_0b5263705d125022",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding the requested water color change, the sky, horizon, shoreline arrangement and wave geometry remain recognizable, but the foreground rocks acquire conspicuous cyan/green coloring and stronger texture contrast, and the distant vegetation becomes more saturated and contrasty. Instruction: The gray/turquoise water has become red across the sea while retaining visible foam and currents; this fully supplies the requested red-tide appearance. Knowledge: The supplied expectation is that the water should turn red, which is clearly shown. Quality, edited image alone: Coherent shoreline, horizon and turbulent water; the rock surfaces have slightly harsh, outlined texture, a minor naturalness imperfection."
+    },
+    {
+      "blind_id": "case_11afd5a42ef9a719",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The grid and raised covered cells remain in place, but the blue 1 clues become red, the green 2 becomes a plus, the row-4 column-3 clue disappears, and a new 1 appears at row 5 column 2. Instruction: Instead of red X marks on mine cells, the edit recolors and alters clues; the covered cells have no red X marks, so the requested marking is absent. Knowledge: The supplied explanation is blank; the mandatory instruction-failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: The grid and raised cell borders are coherent and the symbols are legible, but the green plus amid numerical clues is a clear semantic inconsistency in the game display."
+    }
+  ]
+}

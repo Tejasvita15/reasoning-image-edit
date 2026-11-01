@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b010",
+  "results": [
+    {
+      "blind_id": "case_0c955f78f8db0a09",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The black frame, botanical print and white background persist, excluding the requested rotation; however, the thin wire easel support has become a broad rectangular rear panel, a clear unrequested structural change. Instruction: A more oblique view is present, but the expected reference is a near-edge-on leaning frame with a triangular wire support. The edit still exposes much of the picture face and has substantially incorrect support geometry and occlusion. Quality: Viewed alone, the clean rectangular panels, continuous edges, botanical image and even lighting are visually coherent, without noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_15a956d3a7b75b73",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the requested fur changes, the seated pose and rightward tail remain recognizable, but the green ground behind the fox becomes snow and the building proportions and framing change noticeably. Instruction: The white coat becomes saturated rusty orange with dark legs and tail; the expected summer result is a gray coat, so the main attribute is changed incorrectly and the coat remains voluminous. Knowledge: The visible orange coat fails the supplied explanation that the fox fur should turn gray. Instruction failure ⇒ knowledge invalid. Quality: Assessed alone, the fox has coherent anatomy, detailed continuous fur, convincing snow contact and a naturally defocused building, with no noticeable artifacts."
+    }
+  ]
+}

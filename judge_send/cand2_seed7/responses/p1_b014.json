@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b014",
+  "results": [
+    {
+      "blind_id": "case_592fc5c15c4343f8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The shoreline arrangement, distant buildings, horizon and broad whirlpool composition remain, excluding the requested water recoloring; however, the right-hand rocks acquire conspicuous blue-green, outlined textures, and the distant vegetation and sky are visibly retextured. Instruction: Gray/turquoise water becomes red throughout the sea, matching the requested red tide. Knowledge: The explanation explicitly expects red water, and that outcome is present. Quality of the edited image alone: The coast and currents remain recognizable and spatially coherent, but the rocks have conspicuous crunchy, outlined texture and the water has smeared, flattened surface detail."
+    },
+    {
+      "blind_id": "case_287057569bb11cea",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The five-by-five grid and most circles remain, but several uninstructed cells change: the top-row third green circle becomes a question mark, the top-row fourth red circle turns green, the third-row fourth blue circle turns green, and additional lower circles change color. Instruction: The target top-left question mark becomes a black numeral-like mark rather than the required blue circle; the requested pattern completion is absent. Knowledge: Instruction failure ⇒ knowledge invalid. Quality of the edited image alone: The grid, symbols and circular forms are readable and coherent; minor ragged colored halos around circle edges reduce surface cleanliness."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b023",
+  "results": [
+    {
+      "blind_id": "case_51a04ccf061b1318",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The field, white boundary, blue marker and upper-right dark object remain recognizable, but the retained balls have noticeably changed panel markings and positions relative to the line, and the turf texture is extensively changed. Instruction: The foreground right ball disappears while two balls remain. The correct result should retain all three: the foreground ball still overlaps the boundary rather than being wholly beyond it. Removing it is a major error in identifying an out-of-play ball. Knowledge: The supplied explanation explicitly says all soccer balls should be retained; the removal contradicts that expectation. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: Coherent round balls, plausible contact shadows, continuous field markings and natural turf; no noticeable structural artifacts."
+    },
+    {
+      "blind_id": "case_f8220dd853666d1f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, decorations, text and centering/scale changes, the cat remains white with pink ears and nose, but its head tilt, facial proportions and seated leg/tail arrangement noticeably change. Instruction: A centered cat poster with hearts is created, but the expected pink-blue gradient, bright-pink Pet Home title, light-gray sans-serif Add warmth to your life tagline, floating paw prints and heart-shaped bubbles are absent or incorrect. The yellow-orange background and unrelated orange/cream lettering leave most specified details unfulfilled. Quality, edited image alone: Cat anatomy, fur, lighting and decorative shapes are coherent, but both prominent text lines are nonsensical, creating a clear semantic flaw in the poster."
+    }
+  ]
+}

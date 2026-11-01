@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b029",
+  "results": [
+    {
+      "blind_id": "case_453bfd59842ac542",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: excluding stone removal, the surrounding black field becomes white, corner annotations change, and tissue contrast and texture are noticeably altered; the broad anatomical layout is retained. Instruction: the bright white focus in the right-side kidney and the small central bright focus disappear; the expected image without these small white particles is achieved. Knowledge: the supplied explanation specifically calls for removing small white particles, and their disappearance matches that expectation. Quality of the edited image alone: the axial anatomy remains coherent with recognizable bone and soft tissue, but the corner annotation characters are visibly malformed and partly clipped, a clear text artifact."
+    },
+    {
+      "blind_id": "case_955ccea52da645ff",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested count reduction and its spacing implications, the white background and four-tined silver fork design remain, but fork surfaces and outlines change visibly to higher-contrast edges with dark marks along the necks and handles. Instruction: eight forks become exactly six, arranged as four above and two below, fully matching the requested count. Quality of the edited image alone: all six utensils have coherent four-tined heads and complete handles on a clean white background; small irregular dark edge marks near the necks and handles are a minor finish imperfection."
+    }
+  ]
+}

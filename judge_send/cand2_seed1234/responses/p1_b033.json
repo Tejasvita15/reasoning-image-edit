@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b033",
+  "results": [
+    {
+      "blind_id": "case_3ae398466a7eb05f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding the requested water coloration, the horizon, coastline and major whirlpool arrangement remain recognizable, but the right-hand rocks have markedly darker blue-black coloring and smoothed, exaggerated texture, and the distant trees/buildings lose and change detail. Instruction: The gray/turquoise water becomes extensively red; the expected red-tide appearance is present across the water, fulfilling the requested change. Knowledge: The supplied explanation requires the water to turn red, which the visible red water satisfies. Quality, edited image alone: Coherent shoreline and wave layout, but the water has conspicuously harsh, glowing contour-like highlights and the rocks have smeared, posterized textures, making the photograph look visibly unnatural."
+    },
+    {
+      "blind_id": "case_85e848118df4e1ce",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, lighting, placement, reflection and added headline, the bottle retains its black body, red capsule and cream label, but its branding artwork and fine lettering are visibly redrawn and distorted, including the neck emblem and central label illustration. Instruction: The edit adds a wine-red-to-black spotlight background, highlights the upright bottle, preserves an uncluttered arrangement and supplies a bottom reflection and gold serif text at upper right. The expected exact headline is Timeless. Bottled.; the displayed headline instead reads approximately Timmes. Botble., so a required textual aspect is wrong despite the intended product-poster treatment. Quality, edited image alone: The bottle silhouette, lighting, gradient and reflection are coherent, but malformed headline words and garbled small branding text create clear semantic and lettering flaws."
+    }
+  ]
+}

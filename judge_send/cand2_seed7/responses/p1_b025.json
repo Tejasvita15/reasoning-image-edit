@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b025",
+  "results": [
+    {
+      "blind_id": "case_09de6734949c4e4a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the requested matching marks, the left-hand items have all shifted left, the milk-carton artwork has changed, and the pale gray background is now white; animal identities and the two-column arrangement remain recognizable. Instruction: No connecting lines or other matching indicators have been added. The expected yarn–sheep, honey–bee, eggs–chicken and milk–cow associations are not expressed, so the requested operation is absent. Knowledge: The supplied explanation is blank; the mandatory failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the illustrated objects and animals have coherent shapes, clean separation and consistent cartoon coloring; no clear structural or texture artifacts are visible."
+    },
+    {
+      "blind_id": "case_aad051c6bf207007",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested port-count modification, the charger body, plug, cables, wood-plank layout and viewpoint remain consistent, but the wood surface has visibly stronger, more granular grain throughout. Instruction: The edited charger still visibly has ten ports, five in each of two columns, as in the source. The expected six interfaces are absent, so the count-change instruction is not followed. Quality: Viewed alone, the charger, sockets, three-pin plug and cables have coherent geometry, plausible perspective and shadows, and readable main labeling. Moderate softness in small port labels does not prevent their interpretation; no clear generation artifact is visible."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b018",
+  "results": [
+    {
+      "blind_id": "case_44de53e1cea8c781",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested count change and accompanying spacing, the white background, upright orientation, four-tined shape and silver finish remain consistent; the handle edges acquire small irregularities. Instruction: the eight original forks become ten, arranged in two rows of five; the expected result is exactly six forks, so the requested count is not achieved. Quality: structure, lighting and metallic surfaces are coherent, but slight repeated jaggedness along the handle edges is a small artifact."
+    },
+    {
+      "blind_id": "case_887d597ec09f7893",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding replacement of the statue, the curved paneled architectural setting remains recognizable, but the background panel and molding positions visibly change. Instruction: the male figure becomes a draped, winged female figure with intact arms; the expected broken-armed goddess is therefore only broadly approached through a female statue, with the defining missing-arm appearance absent. Knowledge: the explanation specifies Venus de Milo, whereas the image depicts a winged figure with arms. Instruction failure ⇒ knowledge invalid. Quality: stone texture, feathers, drapery and lighting are coherent, but the overlapping bent limbs on the image-left side create a clear extra-arm/anatomical ambiguity."
+    }
+  ]
+}

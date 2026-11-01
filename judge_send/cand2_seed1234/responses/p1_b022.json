@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b022",
+  "results": [
+    {
+      "blind_id": "case_a9ed8480131dee0e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the toe/anatomy correction, the turquoise sandal strap and pink nail polish disappear, the ankle framing changes, and both skin and wet pavement acquire conspicuous mottled texture; the rain, warm lights and turquoise sole remain recognizable. Instruction: The crowded seven-toed forefoot is reduced and reshaped toward a normal foot; a successful correction would show five distinct, anatomically coherent toes. The edit addresses the surplus toes, but the outer toes and their junctions remain indistinct and bulbous, so the correction is partial. Quality of the edited image alone: Structural coherence ✘ (poorly differentiated outer toes and absent nail definition); naturalness ✘ and texture fidelity ✘ (dense confetti-like mottling across skin and pavement); artifact-free ✘. These multiple distracting defects warrant 2."
+    },
+    {
+      "blind_id": "case_771e4419688b2191",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The statue replacement is excluded. The pale domed gallery and paneled walls remain recognizable, but their panel geometry and framing visibly change, constituting a noticeable background alteration. Instruction: The nude male statue becomes a fully draped female statue with a crescent headdress, shield and raised implement, retaining two arms. The expected statue is the armless Venus de Milo; the observed replacement completely misidentifies the requested figure. Knowledge: The supplied explanation explicitly specifies Venus de Milo, whereas this armed, clothed figure does not match it. Instruction failure ⇒ knowledge invalid. Quality of the edited image alone: Structure, stone drapery, gallery perspective and lighting are coherent; a small blending/definition issue occurs where the raised fingers grip the implement, giving a minor imperfection (4)."
+    }
+  ]
+}

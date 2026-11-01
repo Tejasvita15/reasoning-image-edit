@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b036",
+  "results": [
+    {
+      "blind_id": "case_f33d62b6f375e266",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the white lidded cup and right handle remain recognizable, but the gray background and wooden tabletop are replaced by white, and the cup is shifted upward with altered shading. Instruction: a large red, equal-armed cross is newly attached to the cup front, exactly matching the requested emblem. Knowledge: the explanation requires an attached Red Cross, and the visible red cross satisfies it. Quality: coherent ceramic cup, handle and lid, smooth reflections, clean emblem edges and an uncluttered white background show no noticeable structural or texture artifacts."
+    },
+    {
+      "blind_id": "case_7844ebe6bca2bf90",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding requested card-face changes, the white background and fanned-card concept remain, but five cards become six and the fan angles/top-edge arrangement change noticeably. Instruction: the original 4, 6, 8, 8, 8 becomes 4, 6, 8, 8, 8, 8; the expected five-card three-of-a-kind plus pair is absent, so this is not a Full House. Instruction failure ⇒ knowledge invalid. Quality: edges and printed ranks are readable with coherent paper texture, but the two repeated black-heart eights and nonstandard black heart markings introduce clear semantic card defects."
+    }
+  ]
+}

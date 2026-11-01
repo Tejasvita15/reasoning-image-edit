@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b012",
+  "results": [
+    {
+      "blind_id": "case_5a9c01ef7c407c3e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The green board, microscope and countertop remain recognizable, but the glass proportions and framing change, and the numerous suspended bubbles disappear. Instruction: A yellow pencil is newly present, extending from above the rim into the water, fully satisfying insertion. Knowledge: The explanation requires an apparent break from refraction; the pencil instead continues in essentially the same straight alignment across the water surface, omitting the specified effect. Quality: Glass contours, background lighting and surface textures are coherent, but the lower pencil point visibly extends into the thick solid glass base, a clear spatial-coherence flaw."
+    },
+    {
+      "blind_id": "case_d480d16b6724d3cd",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: White background, red-brown covers and two-book arrangement persist, but the left book page texture becomes visibly mottled, and the right book widens and shifts left, beyond the requested thickness change. Instruction: The right book gains some page-block thickness; the expected result is a thickness matching the left book, whereas it remains much thinner, so compliance is partial. Quality: Both books have coherent covers, spines and layered page blocks, with consistent perspective and clean silhouettes; moderate softness causes no semantic loss and no clear generation artifact is visible."
+    }
+  ]
+}

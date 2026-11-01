@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b007",
+  "results": [
+    {
+      "blind_id": "case_68709e86c17d2ca4",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The eight-hand arrangement, white background and green frog remain recognizable, but the frog face/pupil shapes and feet have been redrawn, and hand contours, motion marks and dashed lines are substantially darker. These are outside the requested coloring. Instruction: The surrounding hands remain white; the expected result would fill each with red or blue according to its handedness and the frog examples. No surrounding hand receives the requested color. Knowledge: Instruction failure ⇒ knowledge invalid. The supplied explanation is blank; this score follows the mandatory failure coupling. Quality: Viewed alone, the cartoon has coherent five-finger hand outlines, a clear frog face, clean flat colors and an orderly layout, without noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_0d6862ed7f421cb3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested placement, lighting, background and added headline, the dark bottle and red capsule retain their identity, but the label illustration is redrawn, REGAL becomes RECAL, and the capsule emblem/lettering changes. Instruction: A vertical bottle now sits against a wine-red/black spotlight background with gold serif text at upper right and a bottom reflection. The expected exact headline is Timeless. Bottled.; the visible headline instead reads Timers. Bottlel., and the reflection is conspicuous rather than subtle. The main composition is achieved with a significant text failure. Quality: Viewed alone, the bottle shape, studio highlights, gradient and mirrored base are coherent, but malformed headline wording and distorted label/emblem lettering create clear semantic artifacts."
+    }
+  ]
+}

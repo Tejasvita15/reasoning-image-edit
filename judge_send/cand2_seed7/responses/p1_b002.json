@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b002",
+  "results": [
+    {
+      "blind_id": "case_d551c0b630d7e41c",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested poster layout, lighting, background and decorations, the pointed white pump retains its silhouette, curved arch, heel and diagonal rear seam, but its formerly brown sole edge becomes a conspicuously shiny metallic-gold trim. Instruction: The shoe is enlarged into a prominent advertisement; a successful edit would have a light gray-to-white background, floating ornament and the two specified readable text lines. Instead there is a strong gold radial background and unrelated, garbled lettering; neither required title nor slogan is present, so most required design details fail. Quality (edited image alone): The shoe shape and lighting are coherent, but multiple prominent text regions contain malformed, unreadable characters, including the top branding, large script and bottom small print; these are distracting structural defects."
+    },
+    {
+      "blind_id": "case_d8e9e96374085fa1",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The 4x4 arrangement remains, but thin pale grid lines become uniformly thick black lines, the original serif digits change style, and given values change (row 3 column 3 changes from 2 to 6; row 4 column 2 from 1 to 2). Instruction: All blank cells receive marks, whereas completion requires preserving givens and placing valid 1–4 values throughout rows, columns and 2x2 boxes. Visible 6 and 5 in the last column, repeated 2s across the bottom row and altered givens make the completion largely incorrect. Knowledge: The supplied explanation is blank; the instruction-failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality (edited image alone): The square grid and most digits are clear, but row 3 column 2 has an overlapping malformed glyph and row 3 column 3 has a conspicuous extra diagonal stroke, giving two visible character defects."
+    }
+  ]
+}

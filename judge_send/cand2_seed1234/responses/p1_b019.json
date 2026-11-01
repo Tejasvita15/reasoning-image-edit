@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b019",
+  "results": [
+    {
+      "blind_id": "case_07f26e05d4508076",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background and 4x4 arrangement remain, but pale thin grid lines become black and heavy, and existing clues change (row 3 column 3: 2 to 4; row 4 column 2: 1 to 5). Instruction: all blanks receive numerals, but a correct completion must preserve clues and use 1–4 without repeats; the result includes 0, 5 and 8 and repeated 4s, so most entries are incorrect. Knowledge: the supplied explanation is blank; the mandatory failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality: the grid is coherent and numerals legible on clean white cells, with a small visibly rough/distorted junction in the 8."
+    },
+    {
+      "blind_id": "case_5d70e062fc646f75",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: grass, a white boundary, the blue marker and upper-right dark fabric remain recognizable, but the in-play left and straddling balls disappear and the boundary changes its angle and contour. Instruction: all three balls are removed; the expected result retains balls that have not wholly crossed the right edge of the line, including the foreground ball overlapping it. The requested selection is therefore poorly implemented. Knowledge: the supplied explanation explicitly requires retaining all balls, whereas none remain. Instruction failure ⇒ knowledge invalid. Quality: the field and painted line are coherent, but a smoother, smeared-looking patch of grass immediately left of the central line has noticeably different texture."
+    }
+  ]
+}

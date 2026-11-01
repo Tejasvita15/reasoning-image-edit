@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b035",
+  "results": [
+    {
+      "blind_id": "case_d622658ad285aa1f",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The three grey drawers, round metal knobs and two front legs preserve the cabinet identity; its top and bottom molding profile is visibly more stepped/angular. Requested background, lighting and framing changes are excluded. Instruction: The white cutout becomes a warm white wall/light oak floor scene with a right linen curtain and angled sunlight. This matches the requested tranquil palette and setting, but the cabinet remains essentially centered rather than left with ample blank space, and the entire required bottom-right sentence is absent. Thus the main idea is only partially complete. Quality, edited image alone: Structural coherence ✔, natural lighting and perspective ✔, artifact-free ✔, texture fidelity ✔; cabinet, floor grain, curtain folds and cast shadows are coherent."
+    },
+    {
+      "blind_id": "case_673c29a271aa67b8",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, diagonal placement, green handles and separate small metal scissors remain recognizable and similarly arranged. A noticeable surface-rendering change adds fine scratchy/hatched texture across the scissors, especially the large blades and green handles. Instruction: The edit retains the large green-handled scissors at more than twice the small scissors’ length. The expected result would reduce those large scissors to the small pair’s size; no meaningful relative-size reduction is visible, so the requested change is not followed. Quality, edited image alone: Structure ✔, perspective and shadows ✔, no duplication ✔; texture fidelity has a minor issue from the conspicuous fine etched pattern over otherwise coherent metal and handle surfaces."
+    }
+  ]
+}

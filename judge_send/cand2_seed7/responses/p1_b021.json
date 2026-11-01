@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b021",
+  "results": [
+    {
+      "blind_id": "case_fdfa69fe5865f69a",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested large-scissors size change, the small silver scissors have shifted upward and slightly left; their identity and the plain white background remain consistent. Instruction: The green-handled scissors remain substantially larger than the silver scissors. A correct edit would shrink them to approximately the small pair’s overall size; no meaningful size match is achieved. Quality: The edited image alone has coherent blades, pivots and handle loops, natural metallic surfaces and shadows, and no noticeable structural artifacts."
+    },
+    {
+      "blind_id": "case_55f8435a2dd93da8",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Most of the worksheet layout changes: yarn moves to the center, eggs and milk disappear, the bee disappears, honey jars multiply, and new text appears; the cow, chicken and sheep remain recognizable but shift. Instruction: Instead of four clear product-to-producer connections (yarn–sheep, honey–bee, eggs–chicken, milk–cow), the edit supplies rearranged pictures and garbled labels without the requested matches. Quality: The edited image contains extensive garbled lettering, duplicated honey vessels and implausibly branching honey streams, although the animal drawings remain coherent. Knowledge: The supplied explanation is blank; the score follows the mandatory instruction-failure coupling. Instruction failure ⇒ knowledge invalid."
+    }
+  ]
+}

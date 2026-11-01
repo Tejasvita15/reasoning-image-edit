@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b008",
+  "results": [
+    {
+      "blind_id": "case_3c32491ab300a43a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding the requested tile rearrangement, the engraved circular borders disappear, numeral typography changes, and the wood frame gains conspicuous pink/green streaks; the square board layout remains. Instruction: the labels change to rows 1/7/0/2, 1/4/5/6, 4/6/18/4, and 7/15/16/6 rather than the required ordered 1–15 tiles with a final empty cell, so no completed puzzle is shown. Knowledge: Instruction failure ⇒ knowledge invalid. Quality, edited image alone: the grid and individual glyphs are legible, but repeated and out-of-set labels make the numbered puzzle semantically incoherent, while colored streaking visibly corrupts the wooden frame texture."
+    },
+    {
+      "blind_id": "case_d2770230a6e77a48",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding correction of the red skin, the elephant retains its pose, ear outlines, trunk curve, four legs and tail placement; however, the tusks change from warm ivory to cool white and the background foliage and foreground grass are visibly redrawn with different texture and detail. Instruction: the conspicuously red elephant becomes a normally gray elephant, correcting the visible unreasonable feature while retaining coherent elephant anatomy; the requested correction is complete. Quality, edited image alone: coherent trunk, ears, tusks and legs, legible skin folds, consistent painted lighting and grounded feet; no noticeable deformation, ghosting or corrupted texture."
+    }
+  ]
+}

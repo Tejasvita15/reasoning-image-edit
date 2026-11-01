@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b016",
+  "results": [
+    {
+      "blind_id": "case_6b85b6ed2c478032",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested correction of the red skin, the frontal elephant composition and ivory tusks remain, but the tree/sky background is visibly repainted and the trunk tip, ear contours and foot/toenail shapes change. Instruction: 1. The red elephant becomes gray. 2. A corrected animal should have plausible elephant coloration and anatomy. 3. The conspicuous unreasonable red coloration is corrected to natural gray, with coherent elephant anatomy. 4. The requested correction is complete. Quality, edited image alone: Structure ✔, natural lighting and ground contact ✔, artifact-free ✔, texture fidelity ✔; the elephant, tusks, trunk and four legs form a coherent painted scene."
+    },
+    {
+      "blind_id": "case_7760254368794a52",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested poster background, decorations, text, centering and scale, the cat itself changes substantially: its tilted head becomes upright, facial proportions and eye placement change, the body becomes fluffier and front-facing, and the tail and paws have different shapes and positions. White fur and pink ears/nose remain, but the principal non-instructed subject details are replaced. Instruction: 1. A centered white kitten, pink-blue background, pink Pet Home title, paw prints and blue loops are added. 2. The supplied cat should be slightly enlarged in the poster, with heart-shaped bubbles and the exact light-gray sans-serif tagline Add warmth to your life. 3. The poster concept and title are present, but the cat is substantially different, hearts are absent, and the bottom line instead reads Me Homes od fe vary in a hand-drawn style. 4. These are substantial incomplete requirements, giving partial compliance. Quality, edited image alone: Structure ✔ for the cat and decorative layout, naturalness ✔, texture fidelity ✔; artifact-free ✘ because the prominent bottom line is nonsensical text, a clear semantic flaw."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b015",
+  "results": [
+    {
+      "blind_id": "case_75436f90017463c6",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white pointed pump, side profile, curved upper, slender heel and tan sole remain visually consistent; placement, background, lighting, glitter and typography are requested changes. Instruction: the plain product shot becomes a prominent shoe advertisement with gold glitter and a gray-to-white glow, as expected, but the required title and slogan are replaced by gibberish rather than the specified wording. Thus the main design is present but key requirements fail. Quality: shoe structure, surface and lighting are coherent, but multiple large text blocks contain malformed, overlapping or nonsensical lettering, creating distracting semantic defects."
+    },
+    {
+      "blind_id": "case_c72d14c2309e243a",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: replacing the statue is allowed; the cream architectural setting remains recognizable, but its wall-panel geometry and molding alignment visibly change, constituting a clear background alteration. Instruction: the male statue becomes a winged female figure with raised intact arms, ornate chest covering and handheld props. The expected result is the broken-armed goddess identified as Venus de Milo; the edit captures only a female mythological statue and misses her defining form. Knowledge: the supplied explanation specifies Venus de Milo, whereas intact raised arms, wings and props do not match that statue. Instruction failure ⇒ knowledge invalid. Quality: the edited statue, drapery, wings, stone surface and room lighting are generally coherent; slight blending of the fingers with the handheld props is a small local imperfection."
+    }
+  ]
+}

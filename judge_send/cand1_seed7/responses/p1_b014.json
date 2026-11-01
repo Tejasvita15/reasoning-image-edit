@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b014",
+  "results": [
+    {
+      "blind_id": "case_562005e926afd693",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background and five-by-five grid are retained, but both blue circles in row 3, columns 3–4 become green and the red circle in row 4, column 3 also becomes green; multiple non-requested elements change. Instruction: the top-left question mark remains instead of being replaced with the expected blue circle, so the required change is absent. Knowledge: the explanation specifies a blue circle, which is not supplied. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: ✔ coherent grid and circular symbols, ✔ legible question mark, ✔ uniform flat colors and clean background, ✔ no noticeable visual artifacts; softness does not obscure meaning."
+    },
+    {
+      "blind_id": "case_0937e5c98bdb57fb",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: beyond permitted tile rearrangement, the four-by-four board becomes five-by-four, the circled brown numeral design is replaced by large black uncircled digits, the tile shapes and wood grain change, and the frame proportions change; most major non-requested details differ. Instruction: instead of rows 1–4, 5–8, 9–12, and 13–15 followed by a blank, the edit shows twenty filled tiles with repeated single digits and zeros, no blank, and no numbers 9–15. This completely misinterprets completion of the supplied 15-puzzle. Knowledge: the supplied explanation is blank; the mandatory instruction-failure coupling determines this score. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: ✔ regular wooden frame and aligned tile grid, ✔ crisp readable digits, ✔ plausible wood texture and edge shadows, ✔ no visible warping, ghosting, or malformed symbols."
+    }
+  ]
+}

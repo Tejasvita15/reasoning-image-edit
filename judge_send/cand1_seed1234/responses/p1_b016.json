@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b016",
+  "results": [
+    {
+      "blind_id": "case_040646d731d41987",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and gold/blue match appearance remain, but most of the equation is rearranged or reformed beyond two relocated sticks: spacing changes throughout, the minus disappears, and the right-hand digits lose their original structure. Instruction: Instead of a valid equation obtained by moving exactly two sticks, the edit shows an L-like first character, a 4 and 6 without a connecting operator, and malformed right-hand symbols with a curved printed-looking 6. This does not fulfill the requested operation. Knowledge: The explanation is blank; the mandatory failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality: ✘ Structural coherence and artifact-free construction: several symbols are malformed or incomplete, and the curved 6 is visually fused into an inconsistent mixture of drawn and match-built characters. ✔ Plain background and match textures remain readable."
+    },
+    {
+      "blind_id": "case_0cb4a2c48fcb4419",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "Consistency: Excluding the requested translation, the white field and lavender/green outlines remain, but the green circle is noticeably enlarged. Instruction: The green circle moves up and left toward the outer circle center; a perfect edit would make their centers coincide. It is nearly concentric but remains slightly to the right, a minor alignment error. Knowledge: The explanation explicitly requires coincident centers; the slightly smaller right-side gap than left-side gap shows a small residual deviation. Quality, edited image alone: ✔ Coherent closed circular outlines, clean white field, consistent flat colors and readable geometry; no distracting artifacts or texture corruption."
+    }
+  ]
+}

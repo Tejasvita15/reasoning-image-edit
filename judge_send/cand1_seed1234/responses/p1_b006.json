@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b006",
+  "results": [
+    {
+      "blind_id": "case_9b6933a52d928acf",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The original four-by-four grid becomes five rows by four columns with thick black borders; most original clues are replaced, and the fine serif numerals become large irregular marks. These are not required by filling blank cells. Instruction: Blank spaces are filled, but a correct result would retain the four-by-four grid and given clues and add valid digits 1–4. The output instead includes 6, 7, 8, 9 and malformed symbols, completely misinterpreting the puzzle. Knowledge: The supplied explanation is blank; the mandatory failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: Structure/text ✘, with multiple garbled numeral-like forms such as 1≠, 1t: and :W; the grid is straight but widespread symbol corruption constitutes severe errors."
+    },
+    {
+      "blind_id": "case_86ead70b919aee0c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and two-row presentation remain, but the outer columns move inward relative to the frame and the forks acquire noticeably darker outlines and altered metallic shading, especially along the handles and necks. These changes are outside changing the count. Instruction: The edited image still shows four forks in each of two rows, eight total, just as the source does; the requested result would contain six forks. No requested count reduction occurs. Quality, edited image alone: Structure ✔, with coherent four-tined forks and complete handles; naturalness and surface shading ✔ overall. Artifact-free ✘ for slight ragged dark edge traces along the handles, a minor imperfection."
+    }
+  ]
+}

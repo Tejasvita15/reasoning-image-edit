@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b015",
+  "results": [
+    {
+      "blind_id": "case_0effe20bed4dceb9",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested small-clock enlargement, both clocks\u2019 hand positions change, the large clock is also enlarged/reframed, and the continuous wall becomes a divided composition. White rims, pale blue faces and black numerals remain. Instruction: 1. Both clocks now fill separate panels. 2. The left clock should match the original large clock\u2019s size. 3. The left clock is enlarged but remains visibly smaller than the right, which also grows. 4. The size-match request is only partially achieved. Quality, edited image alone: structure \u2718 because the right clock has an extra thick hand pointing toward 2 alongside the hands toward 1 and 10; naturalness \u2714 for wall shadows, artifact-free \u2718 for the hand anomaly, and surface textures \u2714."
+    },
+    {
+      "blind_id": "case_46084b83a709e308",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: the requested sofa setting, poster layout, lighting and framing changes are excluded. The cushion retains its square pointed silhouette and black/white fabric appearance, but its regular nested-diamond pattern is visibly changed into broken, intersecting angular motifs across the center. Instruction: 1. The cushion appears on a dark gray sofa with upper-left white type. 2. The expected poster uses a close view of the diamond cushion, a cool industrial interior and the coherent bold sans-serif title about life\u2019s order. 3. The setting, palette, placement and font style are present, but most title wording is garbled and the geometric pattern is disrupted. 4. Partial compliance. Quality, edited image alone: structure \u2718 for unreadable lower title lines and malformed intersecting cushion motifs; naturalness \u2714 for sofa perspective and lighting; artifact-free \u2718 for duplicated/overlapping letter fragments; texture fidelity \u2714 for visible woven upholstery. Multiple distracting errors reduce quality."
+    }
+  ]
+}

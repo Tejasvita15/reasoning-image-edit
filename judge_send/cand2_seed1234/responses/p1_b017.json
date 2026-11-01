@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b017",
+  "results": [
+    {
+      "blind_id": "case_cf656b6e4c056088",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The wood-panel arrangement, plug, cables and USB Charger heading remain in place, but the charger front outline is widened/reshaped and the voltage labels are visibly deformed; the requested port-count change is excluded. Instruction: The ten source sockets become eleven visible sockets, including a closely stacked extra socket on the left. The expected six interfaces are absent, so the count change fails. Quality: Structure and lighting are broadly coherent, but the crowded double socket and distorted small electrical labels are two clear visual flaws; the plug and wood surfaces remain recognizable."
+    },
+    {
+      "blind_id": "case_e85a8edb902f5f3d",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background persists, but virtually the entire matchstick layout, stick lengths, head styling and numeral spacing are changed beyond moving two sticks. Instruction: The source reads 14 − 6 = 82; the edit replaces it with long connected bars and incomplete letter-like forms, loses the equals sign, and does not show a valid equation obtained by two moves. Expected was a readable true equation preserving all but two stick positions; this is non-compliance. Quality: Structural coherence and artifact freedom fail: several sticks merge into oversized continuous strokes, heads occur at internal joints, and the resulting symbols are malformed despite consistent colors and a clean background. Knowledge: Instruction failure ⇒ knowledge invalid."
+    }
+  ]
+}

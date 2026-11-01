@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b034",
+  "results": [
+    {
+      "blind_id": "case_226a37482785fc6b",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The requested interior, composition, lighting and typography changes are excluded. The cushion remains black and white and roughly square, but its original continuous diamond lattice is noticeably redrawn into broken, overlapping shapes. Instruction: 1. The isolated cushion becomes a sofa poster with large top-left text. 2. The expected result is a cool industrial interior with a prominent textured diamond cushion and the specified meaningful bold sans-serif headline. 3. The gray sofa, industrial room, cool palette and text alignment match; the headline instead reads nonsensical letter groups, and the fabric is not clearly highlighted in close-up. 4. This is partial compliance. Quality: Structural coherence ✘: headline text is nonsensical and the cushion pattern breaks into irregular strips and blended shapes. Naturalness ✔: sofa and room perspective are coherent. Artifact-free ✘ and texture fidelity ✘: multiple conspicuous cushion-surface distortions accompany the text problem."
+    },
+    {
+      "blind_id": "case_d2d5aab5b32cd908",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The line, blue marker and dark upper-right object retain their relative positions. However, the turf changes from fine dark grass to a markedly coarse, bright texture, and the two clearly in-bounds balls are replaced by flat patches although their removal was not requested. Instruction: 1. All three ball surfaces are replaced by rounded grass-colored patches, with a white stripe over the middle patch. 2. Only balls wholly beyond the right boundary should disappear; the left ball and both line-overlapping balls should remain. 3. The edit indiscriminately erases their identifying surfaces instead of retaining the in-play balls. 4. This fundamentally misinterprets the selective removal task. Knowledge: The supplied explanation explicitly says all soccer balls should be retained; the visible replacement of all three contradicts it. Instruction failure ⇒ knowledge invalid. Quality: Structural coherence ✘ and artifact-free ✘: three sharply bounded, rounded patches visibly interrupt the ground, with dark crescent remnants underneath; the middle patch carries an unnatural broad white section. Naturalness ✘ and texture fidelity ✘: flat patch textures clash with the surrounding coarse turf."
+    }
+  ]
+}

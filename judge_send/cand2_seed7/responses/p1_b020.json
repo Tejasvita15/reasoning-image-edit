@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b020",
+  "results": [
+    {
+      "blind_id": "case_29b232bd67a5cdc2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the requested fur change, the seated pose and building layout persist, but the snow surface contours and background grass/rock details are noticeably redrawn, and the eyes become narrower. Instruction: White fur becomes orange-brown with dark facial and leg markings; the expected summer change is gray fur on the same fox. The coat changes, but the required seasonal coloration is poorly implemented. Knowledge: Instruction failure ⇒ knowledge invalid. The orange-brown coat does not match the supplied gray-fur explanation. Quality: The edited image alone has coherent fox anatomy, detailed fur, plausible lighting and depth of field, and no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_0605468d14322e8e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white lidded cup, right handle and gray-wall setting remain, but the handle contour and upper attachment change, the tabletop grain is redrawn, and the wall/table boundary moves upward. These changes are outside attaching an emblem. Instruction: A white cross inside a dark blue circle is added to the cup; the requested classic emblem should be a red cross. Placement is correct, but the emblem itself is substantially wrong. Knowledge: Instruction failure ⇒ knowledge invalid. The attached symbol is not the Red Cross specified by the explanation. Quality: Assessed alone, the cup has coherent ceramic contours, natural highlights and shadows, a clean cross graphic, and convincing tabletop texture without noticeable artifacts."
+    }
+  ]
+}

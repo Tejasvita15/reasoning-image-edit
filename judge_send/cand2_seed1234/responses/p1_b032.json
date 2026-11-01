@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b032",
+  "results": [
+    {
+      "blind_id": "case_b85ffefa22e4ca61",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested viewpoint change, the black frame and botanical print remain recognizable, but the white background becomes a gray wall and tabletop with a cast shadow, and the thin frame with wire support becomes a thick solid frame without its visible stand. Instruction: The front is narrowed by an oblique turn, but remains broadly visible; the reference requires a nearly edge-on profile with the rear triangular wire support exposed. Significant orientation and occlusion errors remain. Quality: The edited image alone has coherent straight frame edges, a plausible inset print, and consistent lighting and contact shadow; moderate softness introduces no semantic ambiguity or noticeable artifact."
+    },
+    {
+      "blind_id": "case_df45329ceea04028",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding the requested conversion from planar outline to solid form, the centered isolated composition and plain white background remain unchanged, with no additional objects. Instruction: The outlined circle becomes a shaded three-dimensional sphere, fully depicting the solid obtained by rotation about a symmetry axis. Knowledge: The supplied explanation explicitly expects a sphere, and the round solid with continuous curved shading matches that expectation. Quality: The edited image alone has a smooth circular silhouette, coherent lighting from the upper left, and an uninterrupted clean surface without visible structural or generation artifacts."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b006",
+  "results": [
+    {
+      "blind_id": "case_40d90c75b88f04a8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the toe correction, the turquoise sandal and pink polish remain recognizable, but the sandal sole becomes smoother and differently shaped, the strap stitching/contour changes, and the wet pavement texture and reflections are visibly redrawn. Instruction: Seven visible toes become six; a correct foot would have five. Removing one extra toe addresses the anatomical error but leaves another, so the correction is partial. Quality (edited image alone): Lighting, nail surfaces and sandal textures are coherent, but six distinct toes form a clear anatomical flaw; structure \u2718, natural lighting \u2714, surface fidelity \u2714."
+    },
+    {
+      "blind_id": "case_c7c196f7acb2daa9",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested rotation and its occlusion/reflection changes, the black shell, paired red crown stripes, dark visor, red chin panel and gray background remain recognizable. The helmet body geometry is visibly altered into a more elongated, tapered chin silhouette. Instruction: The three-quarter view becomes centered and bilaterally frontal (orientation \u2714), but the reference has a shallower visible crown, wider visor and broader, flatter lower edge. The edited tall crown and narrowing lower face give notable elevation/proportion discrepancies (perspective/proportion \u2718), so the front-view change is partial. Quality (edited image alone): Structure \u2714, natural rendering \u2714, artifact-free \u2714, texture fidelity \u2714; shell, visor border, symmetrical red graphics and smooth highlights are clean and coherent without a noticeable generation flaw."
+    }
+  ]
+}

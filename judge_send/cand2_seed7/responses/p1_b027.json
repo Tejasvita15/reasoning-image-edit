@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b027",
+  "results": [
+    {
+      "blind_id": "case_15b27463240f84b4",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the attempted red annotations, the blue and green clues and covered-cell arrangement remain, but the grid framing and cell geometry visibly shift, especially at the top and bottom edges. Instruction: Red numerals 2 and 1 appear instead of red X marks; the mine cells at row 1 column 6 and row 3 column 3 remain unmarked. The requested mine marking is not implemented. Knowledge: The explanation is blank; the score follows the mandatory instruction-failure coupling. Instruction failure ⇒ knowledge invalid. Quality: Judging the edited image alone, the board has coherent straight grid lines, legible numerals and consistent beveled cells without noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_eed3146fb450e152",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The frog, its blue and red hands, eight surrounding outlines, dashed motion marks and white background remain; there is a small vertical layout drift visible around the lower hands. Instruction: All eight surrounding hands remain white. A correct edit would fill them blue or red according to their handedness, so the requested coloring is absent. Knowledge: The explanation is blank; the score follows the mandatory instruction-failure coupling. Instruction failure ⇒ knowledge invalid. Quality: Judging the edited image alone, the cartoon frog and five-finger hand silhouettes are coherent, with one minor rendering issue: visibly rough, speckled hand-outline edges."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b003",
+  "results": [
+    {
+      "blind_id": "case_b717b09e14acc086",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the requested rank/pip changes, the white background and five-card fan remain recognizable, but the card positions and overlap angles change, and the unchanged eight of diamonds has a substantially rearranged large-pip layout. Instruction: The original 4, 6, 8, 8, 8 becomes 2, 4, 8, 8, 8; a full house should show three equal ranks and a matching pair. The two unequal low ranks remain unequal, so the essential conversion is poorly implemented. Knowledge: The supplied explanation requires a triple plus a pair; the visible hand lacks the pair. Instruction failure ⇒ knowledge invalid. Quality: Card edges and numerals are clear and the lighting is coherent, but the front diamond card has a visibly duplicated small suit symbol beneath its corner index and an anomalous oversized main diamond layout, producing a clear card-design defect."
+    },
+    {
+      "blind_id": "case_eb0f2d9e138fd86e",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the left-shoe removal area, the right shoe retains its position, silhouette, lacing and seams, and the surrounding gray background and rightward shadow remain consistent; however, the remaining shoe surface becomes visibly grainier and more mottled. Instruction: The left black shoe loses its leather, laces and other details, but a large pale shoe-shaped cutout with a faint upper outline and dark lower edge remains. A complete removal would leave continuous background in this space; the removal is only partial. Quality: The black shoe has coherent construction, readable stitching and plausible highlights. The pale shape at left has a conspicuous ghost outline and a raised-looking dark lower edge, creating a clear unnatural object/background artifact; the rest of the scene is structurally coherent."
+    }
+  ]
+}

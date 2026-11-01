@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b013",
+  "results": [
+    {
+      "blind_id": "case_3f007b1ca2c2afed",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the toe correction, the turquoise sandal strap disappears, the big toenail loses its pink polish, and the foot/sandal occupy less of the rainy composition; the wet pavement and warm blurred lights remain recognizable. Instruction: the source has seven toes and the edit has six. A correct result would have five anatomically plausible toes; removing one extra toe attempts the correction but leaves another, giving partial compliance. Quality: structural coherence is problematic because six toes remain and the big toenail resembles an inset outline; rain, lighting, wet pavement and sandal textures are otherwise coherent."
+    },
+    {
+      "blind_id": "case_c93eeb2f66fa525f",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the body outline, kidneys, bowel, vertebra and posterior muscles retain their arrangement, but the bright round focus anterior to the vertebra is also replaced by gray tissue, a clear alteration outside the kidney-stone region. Instruction: the conspicuous white deposit in the image-right kidney disappears and is replaced with gray renal-region texture. The expected kidney without that white deposit is achieved. Knowledge: the supplied explanation calls for removing small white particles; the visible bright deposit is absent, matching that stated expectation. Quality, assessed on the edited CT alone: coherent axial structures and scan texture, clear tissue boundaries and natural grayscale appearance, with no conspicuous duplication, patch seams or structural artifacts."
+    }
+  ]
+}

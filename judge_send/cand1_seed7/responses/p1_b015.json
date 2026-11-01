@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b015",
+  "results": [
+    {
+      "blind_id": "case_a396f91e25e146c6",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The two white-rimmed blue clocks and pale wall remain, but both clocks’ hand configurations change, the large clock occupies much more of the frame, and clock spacing and wall texture change. These exceed the permitted small-clock resizing. Instruction: The visible difference makes the left clock smaller relative to the right; the expected result is two clocks of matching size. The left clock remains markedly smaller, so the required size match is not achieved. Quality (edited image alone): Structural coherence ✔, natural lighting and shadows ✔, artifact-free ✔, texture fidelity ✔; rims, numerals and hands are clean and coherent."
+    },
+    {
+      "blind_id": "case_6b3defb286367ff4",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The diagonal white charger, wood floor and white cables persist, but the raised charger housing becomes flat, the voltage labels disappear, and the three-pin plug becomes a smaller pinless connector. Multiple non-requested elements change. Instruction: Ten USB ports become eighteen in two rows of nine; the expected edit is exactly six ports. The count increases instead of becoming six, so the instruction is not fulfilled. Quality (edited image alone): Overall structural coherence ✔, natural lighting/perspective ✔ and surface texture ✔; artifact-free ✘ for slight irregularity and blending of metal details inside some USB openings. The overall product remains visually coherent."
+    }
+  ]
+}
