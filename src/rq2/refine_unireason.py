@@ -6,6 +6,7 @@ from PIL import Image as PILImage
 from src.seeding import set_global_seed
 
 
+@torch.inference_mode()
 def refine_with_cot(
     runner,
     src_image,
