@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b284",
+  "results": [
+    {
+      "blind_id": "case_5e57136d292925e8008c",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: White fur remains, but eye color and pupil shape, muzzle, ear geometry, upright head, body posture and paws are changed, replacing the cat's identifying appearance; requested layout/background changes are excluded. Instruction: The edit adds a centered prominent cat, pink title and paw prints. The expected poster also needs a pink-blue gradient, heart bubbles, hand-drawn title and exact gray tagline below; the beige background, block capitals, absent hearts and absent tagline leave partial compliance. Quality alone: Structure ✓, natural lighting ✓, clean edges/artifact-free ✓, detailed fur ✓; the cat, paws and readable title form a coherent poster."
+    },
+    {
+      "blind_id": "case_a8cf1fc7eadd4fa42d3c",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The cat's tilted head, dark round eyes, pink nose, asymmetric ears, seated body, front paws and left curled tail remain visually preserved; background and graphic additions are requested changes. Instruction: Pink-cyan gradient, paw prints, bubbles and a pink script title are added. Expected is a slightly enlarged centered cat with title above, heart bubbles and exact light-gray tagline below. The title sits beside the head, bubbles are round, and the pink bottom line is garbled ('And waemm the Lifue'), so compliance is partial. Quality alone: Cat anatomy and fur ✓; semantic text coherence ✘ and artifact-free ✘ because the bottom sentence is malformed and several small pink decorative marks are broken, illegible shapes, producing multiple distracting errors."
+    },
+    {
+      "blind_id": "case_6316063c7b157ae7dbff",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Facial identity, tilted head, ear shapes, seated pose, paws and left tail are preserved; fur rendering is visibly rougher and higher-contrast across the face and torso, one clear non-requested appearance change. Instruction: The edit supplies a pink-blue gradient, pink script title, paw prints, round bubbles and correct tagline. Expected is a slightly enlarged central cat with heart bubbles and a light-gray tagline below; the cat is reduced, bubbles are not heart-shaped, and the dark bold tagline is in a speech box beside the head. These are partial compliance. Quality alone: Anatomy, readable text and layout ✓; naturalness/texture has a minor issue from the coarse, slightly cutout-looking fur contour; otherwise no structural failures."
+    },
+    {
+      "blind_id": "case_b3c902a5a2609fe929fa",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: White coloring persists, but the narrow golden eyes, gray forehead markings, smaller ears, straight head, tall symmetrical posture, paws and missing left tail change most identifying cat details. Requested graphics and repositioning are excluded. Instruction: A centered cat, pale paws and flat hearts appear. Expected is a slightly enlarged source cat, pink-blue gradient, heart bubbles, pink handwritten 'Pet Home' and exact gray tagline. Both text elements and the gradient are absent, and the cat is smaller, so most requested changes are missing. Quality alone: Anatomy and lighting ✓, clean composition ✓; texture fidelity has a small issue in the unnaturally regular ribbed fur on forehead and chest, with no major structural artifact."
+    },
+    {
+      "blind_id": "case_98f3ec452504a4815921",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: White fur and pink nose persist, but the cat is redrawn with a rounder face, nearly black button eyes, different ears, changed sitting pose and a tail extending right instead of curling left; most identity details change. Instruction: The edit creates a central cute cat, pink-blue background, bright pink hand-rendered title and paw decorations. Expected also includes heart-shaped bubbles and the exact light-gray sans-serif tagline; bubbles are absent and the large cream bottom text is nonsensical, leaving partial compliance. Quality alone: Stylized anatomy, coherent lighting and fur ✓; text coherence/artifact-free ✘ because the bottom line is meaningless and contains a visibly smeared letter, a clear localized semantic flaw."
+    },
+    {
+      "blind_id": "case_9e1cf5cbd182f00bd97e",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The original dark round eyes, nose, tilted head, ear outline, seated posture, front paws and left tail are retained. The fur on face and body is noticeably coarser and more contrasty, a clear unrequested rendering change; permitted poster/background changes are excluded. Instruction: A pink-blue gradient, bright pink script title, paws, glossy hearts, bubbles and correct tagline are added. Expected is a slightly enlarged centered cat and light-gray tagline below it; the cat is smaller and lower, while the tagline is magenta above the cat, giving partial compliance. Quality alone: Structure and legible typography ✓, harmonious graphic layout ✓; texture fidelity has a minor coarse, overprocessed appearance in facial and torso fur, without broken anatomy."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b297",
+  "results": [
+    {
+      "blind_id": "case_d4ff55c8aeba619bf24d",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The pale wooden frame, white surround, existing tiles' grain, brown circular markings and lighting remain visually unchanged; tile occupancy is assessed as the attempted edit. Instruction: A 0 tile fills the upper-left gap while 1–15 remain in their original positions. Completion requires rows 1–4, 5–8, 9–12, then 13–15 and an empty bottom-right cell; no such rearrangement occurred. Quality, edited image alone: Coherent square tiles, legible 0–15 labels, clean rings, plausible wood and illumination, without noticeable artifacts. Knowledge: The supplied explanation is blank; the mandatory coupling applies. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_c70e646a5f2faf8f12cd",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Wooden frame and white surround remain recognizable, but the frame's proportions and coarse surface texture change, and tile grain/markings become conspicuously mottled. Instruction: The gap stays upper-left, 3 becomes a second 2, and 12 becomes a second 4; the remaining arrangement is retained. Expected completion is 1–15 in row order with the final cell empty, so label substitutions do not execute the rearrangement. Quality, edited image alone: Straight grid and readable symbols, but duplicated 2/4 labels create a semantic flaw and pervasive speckled texture degrades the surface finish. Knowledge: No explanation was supplied; mandatory coupling determines this score. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_9e3525293744759c4ab9",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and wooden board theme persist, but the frame grain/bevel appearance and right-edge shadow change, and the tile grid proportions and several circle shapes are redrawn. Instruction: A 0 tile occupies the former gap; 1–15 retain their original sequence of positions. The required result is row-major 1–15 with the bottom-right cell empty, which is not shown. Quality, edited image alone: Legible labels, regular tile structure and plausible illumination; the 0 tile has a noticeably flat, nearly grainless surface against the surrounding wood, a minor texture mismatch. Knowledge: Explanation text is blank, and the mandatory failure coupling applies. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_209338c9b644587b5cd5",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The pale wooden frame and white background are retained in concept, but the frame proportions and grain change and the tile surfaces/printing acquire conspicuous speckled texture. Instruction: The upper-left opening and original placement remain; the bottom-left 12 is replaced by 7. This does not rearrange the board into 1–15 in row order with a bottom-right opening. Quality, edited image alone: A recognizable aligned wooden grid with legible numbers; duplicated 7 labels are a semantic defect and rough mottling across the wood and print is visibly distracting. Knowledge: The explanation is blank; score follows mandatory instruction-failure coupling. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_9281b810193197a196bc",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: White surround and wooden square frame remain, but the frame grain is smoother and its proportions change; the tile grid geometry and numeral/ring rendering are also redrawn. Instruction: The gap is filled with 1, 5 and 11 become 1, and 15 becomes 13, while the puzzle is not rearranged. Expected rows are 1–4, 5–8, 9–12, then 13–15 and a gap; repeated labels and no opening do not satisfy that. Quality, edited image alone: Clean, readable printing and coherent wood/grid structure; repeated 1 and 13 labels create a clear semantic numbering defect. Knowledge: No explanation text exists; the mandatory failure rule supplies the score. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_8b35e419d19ac5ddd3b7",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The square wooden frame and white surround remain recognizable, but the frame's grain and miter seams are reworked, and tile geometry, wood texture and dark circular printing are noticeably redrawn. Instruction: The empty upper-left cell is filled with another 1, leaving the other labels in the original positions. The target is 1–15 in row order ending with an empty cell; adding a duplicate does not perform that rearrangement. Quality, edited image alone: Crisp wood grain, aligned tiles and readable dark numerals with coherent shading; the duplicated 1 is a clear semantic numbering flaw. Knowledge: The supplied explanation is blank; mandatory instruction-failure coupling applies. Instruction failure ⇒ knowledge invalid."
+    }
+  ]
+}

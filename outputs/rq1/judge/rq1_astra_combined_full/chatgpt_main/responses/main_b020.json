@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b020",
+  "results": [
+    {
+      "blind_id": "case_6413e4ba863a70482baa",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The outer frame, white background and three existing panel locations remain recognizable, but the existing cyan panels acquire conspicuous mottling and their diagonal stripe edges become ragged. Instruction: The empty bottom-right panel is filled cyan, but all required mirrored diagonal bands are missing; the expected result is the bottom-left pattern reflected horizontally into this panel, so most of the change is absent. Knowledge: The supplied symmetry explanation requires those mirrored bands; the blank cyan panel cannot complete that symmetry. Instruction failure ⇒ knowledge invalid. Quality: The rectangular layout is coherent, but visible speckling and rough, frayed diagonal edges degrade otherwise flat graphic surfaces."
+    },
+    {
+      "blind_id": "case_7b00df79a5c96683d172",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The surrounding frame, white margins, upper panels and bottom-left diagonal arrangement are retained; a small yellow-green fleck appears in a bottom-left stripe. Instruction: The bottom-right blank becomes a cyan panel with nested upward-pointing chevrons. The expected replacement has parallel diagonals confined toward the upper-left corner, reflecting the bottom-left panel; adding a striped panel addresses the task but the chevron geometry is incorrect. Knowledge: The supplied horizontal mirror symmetry is violated by the centered chevron apex and its two sloping arms, a clear logical pattern conflict. Quality: The four-panel graphic has coherent closed outlines and readable bands; a small colored fleck interrupts an otherwise clean black/cyan stripe."
+    },
+    {
+      "blind_id": "case_49ab4b39256626919cc9",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The three existing cyan patterns and main outer frame are preserved, but the white margin beside and beneath the bottom-right panel is visibly consumed by its expanded footprint. Instruction: The empty panel gains cyan fill and ascending black diagonals, but becomes too wide and its bands cross much of the panel with an extra descending spur. A correct replacement would mirror the bottom-left bands into the upper-left corner within the original panel; the pattern is only partially fulfilled. Knowledge: Ascending diagonals acknowledge the reflection direction, but their placement and perpendicular spur do not reproduce the supplied mirrored pattern, producing a clear symmetry conflict. Quality: The graphic remains legible, but a dangling black diagonal intersects a band and the oversized lower panel awkwardly merges into the outer border, two visible structural flaws."
+    },
+    {
+      "blind_id": "case_9b67158bf944c4a96cdf",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The upper panels, bottom-left pattern and most of the enclosing frame remain intact; an added cyan triangle projects across the right-side white margin and outer frame. Instruction: The lower-right blank becomes cyan with ascending bands near its upper-left, but also contains numerous angular strokes and an attached outward triangle. The expected result is a simple horizontal reflection of the bottom-left panel; the initial bands implement part of that change but the completed shape is incorrect. Knowledge: Some upper-left bands follow the required reflection direction, while the extra internal zigzags and projecting triangular extension break the mirror relationship described in the explanation. Quality: Cyan and black forms remain identifiable, but the lower-right panel has visibly irregular, disconnected angular linework and an awkward overlapping triangle, giving two clear graphic coherence problems."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b009",
+  "results": [
+    {
+      "blind_id": "case_a36d74100de7031c7eb5",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Street layout, building outlines, tree positions, tables and principal seated figures remain, but numerous faces are redrawn (including the green-shirted man and central seated women), and storefront/sign lettering is softened or changed; these are multiple non-requested alterations. Instruction: Multicolored flat, petal-shaped paper decorations have been added in overhead rows; the expected sky filled with colorful paper flowers is present, fully meeting the literal instruction. Knowledge: The supplied explanation expects multicolored papel picado banners. The additions are separate solid flowers, with no perforated banner panels, so that explicit expected decoration is absent. Quality, edited image alone: Structure, perspective and street lighting are coherent; one minor issue is blended petal texture in the dense central overhead flower cluster. The crowd and architecture remain visually interpretable."
+    },
+    {
+      "blind_id": "case_19174ee74a0f0139553b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Buildings, left tree, streetlights, crowd arrangement and foreground chairs retain their positions, but multiple people's facial features and clothing details are redrawn, and shop/sign details change; more than one non-requested element differs. Instruction: Bright layered paper flowers on many overhead strands are newly present; colorful paper flowers suspended across the sky match the literal requested addition completely. Knowledge: The explanation requires multicolored papel picado banners. These are individual layered blossoms without the cut-paper banner panels, so the specified knowledge outcome is missing. Quality, edited image alone: The street and hanging rows have coherent perspective and illumination, but several crowd faces have conspicuously smoothed, fused features, a clear anatomy/texture flaw; flower and building shapes are otherwise readable."
+    },
+    {
+      "blind_id": "case_4c0ca2a79b246ccffba2",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The original street perspective, tree silhouettes, architecture, lights, seating layout and main crowd positions are retained. Faces such as the foreground green-shirted man and several central spectators are redrawn, and small shop lettering/details change, giving multiple non-requested alterations. Instruction: Strings of multicolored folded, fringed paper flowers now occupy the sky; this is the expected literal paper-flower addition and fully complies. Knowledge: The supplied explanation specifically calls for multicolored papel picado banners. Separate tissue-like rosettes replace that expected form, and perforated banner panels are absent, so the explanation is not fulfilled. Quality, edited image alone: Buildings, people, perspective and warm lighting read coherently, with a minor localized texture-merging issue in the dense lower band of flowers; the individual upper rosettes have recognizable folds."
+    },
+    {
+      "blind_id": "case_4baa1ef069108e0fad1a",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Although a crowded evening street is retained, most foreground people have different faces, clothing and poses; table and chair arrangements change, the left storefront sign is replaced, and the buildings and streetlights are substantially reconstructed. Most major non-requested details differ. Instruction: Numerous colorful, folded flower-shaped decorations have been added across the upper sky; the literal expected paper-flower addition is fully present. Knowledge: The explanation expects multicolored papel picado banners, but the sky contains isolated solid flowers and leaves without perforated banner panels; the specified knowledge outcome is absent. Quality, edited image alone: The broad street scene is legible, but the left shop sign has malformed lettering, several background faces are smeared, and central foreground hands merge into poorly resolved shapes. The flowers also have inconsistent visible suspension, producing multiple distracting semantic and structural issues."
+    }
+  ]
+}

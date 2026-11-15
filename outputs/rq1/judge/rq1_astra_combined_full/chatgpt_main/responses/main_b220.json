@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b220",
+  "results": [
+    {
+      "blind_id": "case_04245ce45c67db1151da",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The right-cropped white body, gray water and general framing remain, but the head is broader, the breast outline shifts left and surrounding ripple detail changes; the intended neck correction is excluded. Instruction: The thin sideways neck bend becomes a smoother, more upright curve. A natural neck joining head and breast is expected; this largely addresses the defect, although the lower sweep remains exaggerated. Quality: Structure, natural lighting, water reflection and feather texture are satisfactory; no clear artifacts are visible."
+    },
+    {
+      "blind_id": "case_04d8232c765ef1239180",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Head shape and bill, body silhouette and placement, feather rendering, water texture and reflection are all substantially redrawn; the gray-water setting and white swan remain recognizable. Instruction: The crooked neck is straightened into a long upright tube. The expected result is a naturally proportioned swan neck; the targeted part changes, but the rigid, narrow length and abrupt right-angle attachment to the torso leave the correction incomplete. Quality: The neck-to-body junction is visibly awkward and the facial black patch is unusually broad and flat. Lighting and reflection are coherent, with otherwise readable feather texture."
+    },
+    {
+      "blind_id": "case_27e1247fc1156af1794c",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray-water setting and white plumage remain, but the head and bill rotate into a different profile, the torso moves left with substantially more body visible, and the nearby ripples and reflection change. Neck reshaping itself is excluded. Instruction: The sharply displaced neck is replaced by a smooth upright curve with a plausible transition into the breast, matching the expected anatomical correction. Quality: Anatomy, feather surfaces, illumination, water contact and reflection are coherent and natural, without noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_0c493547284ebdd594eb",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The right-cropped body and gray-water scene persist, but the head and bill enlarge and change shape, the breast outline shifts, and background ripples are visibly redrawn. The intended neck reshaping is excluded. Instruction: The stretched sideways neck bend is shortened into a smooth, more upright S-curve that joins the head and breast plausibly, fulfilling the anatomical correction. Quality: The swan has coherent anatomy and feather texture, convincing light and shadow, and natural water contact and reflection; no noticeable artifacts are present."
+    }
+  ]
+}

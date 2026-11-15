@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b026",
+  "results": [
+    {
+      "blind_id": "case_606cc4e23ed47333e8fa",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The white plate, meat, greens and wooden tabletop remain recognizable, but the plate is reduced/reframed, meat and herb details are redrawn, and tabletop grain changes; added tableware is excluded. Instruction: Two bowls and a pair of chopsticks appear on the table; the expected common Chinese tableware is clearly present, fully satisfying the request. Knowledge: The explanation calls for chopsticks, and a usable pair lies beside the plate, matching it fully. Quality: Coherent bowl rims, straight utensils, natural shadows and convincing food and wood textures; no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_c8af2fa21a72621b39e6",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The main plate retains its placement and overall food arrangement, but food surfaces and individual leaves change visibly and the lighting becomes darker and more contrasty; added tableware is excluded. Instruction: Pale ceramic bowls appear on both sides of the plate, resting upside down on the table. Bowls are commonly used Chinese tableware, so the requested addition is present. Knowledge: The supplied explanation specifically expects chopsticks; none are visible, so its sole expected element is absent. Quality: The inverted bowls have coherent foot rings and curved bodies, the food is recognizable, and shadows, reflections and wood grain appear natural without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_afa2164e750fde4f8245",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The plate, food and wooden table preserve their general identities, but the plate is smaller within the frame, food and herb details are redrawn, and wood-grain features change; the new bowls and chopsticks are excluded. Instruction: Two bowls and a clear pair of chopsticks are added on the tabletop, fully providing the requested commonly used Chinese tableware. Knowledge: The visible paired chopsticks directly satisfy the supplied explanation. Quality: Bowl rims and interiors, straight chopsticks, plate geometry and food textures are coherent, with natural lighting and no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_d2e7d7ef254a7447c950",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The main plate and food retain their general placement, but the food and herbs are visibly retextured and fragmented, and the plate surface and tabletop grain are altered; the new side dishes are excluded. Instruction: Pale ceramic dishes or inverted bowls are added on the table on both sides; this provides common tableware used in Chinese dining and satisfies the stated request. Knowledge: No chopsticks are visible, so the explanation's specific required object is entirely absent. Quality: The dish geometry and tabletop are coherent, but the meat has a conspicuous mosaic-like texture and the greens break into unnatural angular fragments, producing two clear visual flaws."
+    }
+  ]
+}

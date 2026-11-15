@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b261",
+  "results": [
+    {
+      "blind_id": "case_51c1d67f318f58d6331f",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The diagonal shore and recognizable foreground sand grooves remain, but a sky/horizon is inserted and daylight sand and surf are recolored with dark blue night lighting; these are changes beyond the requested tide. Instruction: A full moon and reflection are added, but the foam edge retains essentially its original reach and a broad exposed beach remains. Expected high tide would advance water over more sand; most of that change is missing. Knowledge: The supplied explanation requires high tide, which the unchanged water reach does not establish. Instruction failure ⇒ knowledge invalid. Quality: Shore, foam, sand and reflection are coherent, with a small irregular black strip along the bottom edge."
+    },
+    {
+      "blind_id": "case_bbe4cce5f10b9028f955",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Beyond the allowed water advance, the close downward-looking daylight scene becomes a horizon-facing night vista with a large sky and moon; sand color, texture and lighting are reconstructed. Most major non-tide scene details change. Instruction: Breaking surf and its wash extend much farther down the left and across the lower beach, leaving a narrower exposed sand area. This directly depicts the expected higher tide. Knowledge: Increased inundation of the beach matches the supplied explanation, \"It should be high tide.\" Quality: Waves, spray, foam and reflection have coherent structure, but the very large, sharply outlined moon has a mildly pasted-on appearance against the otherwise soft atmospheric scene."
+    },
+    {
+      "blind_id": "case_49b3baae3b3c9cca9c49",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 4,
+      "rationale": "Consistency: The broad sand-and-water arrangement remains, but the viewpoint now includes distant shoreline, sky and moon; daylight illumination and the identifiable foreground sand pattern are replaced. Most non-tide scene details are reconstructed. Instruction: The leading wash reaches farther down the left foreground and waves are more developed, suggesting higher water. However, much of the right beach remains exposed and the changed viewpoint makes the high-water advance only modestly clear, a minor shortfall from the expected high tide. Knowledge: Added inundation supports the supplied high-tide explanation, though its visual extent is somewhat weak. Quality: Shoreline, wave structure and moon reflection are natural and coherent; a narrow irregular dark strip at the bottom is a small artifact."
+    },
+    {
+      "blind_id": "case_19d7af1254c38a1f52c7",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The permitted water advance is excluded, but the downward daylight composition is replaced by a night horizon, sky and moon, with reconstructed dark sand texture and lighting. Most major non-tide details change. Instruction: Foamy water now reaches substantially farther into the lower beach, reducing exposed sand and showing the expected high tide. Knowledge: The visibly greater inundation matches the supplied explanation that it should be high tide. Quality: Surf and reflection are coherent, but the giant moon visibly overlaps below the horizon and is cut off by nearby water, making it appear to sit on the sea rather than in the distant sky; this is a clear spatial-compositing flaw."
+    }
+  ]
+}

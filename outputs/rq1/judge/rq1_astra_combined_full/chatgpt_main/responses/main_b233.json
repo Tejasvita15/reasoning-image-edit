@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b233",
+  "results": [
+    {
+      "blind_id": "case_b8f2edc74c58502fc324",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The broad arrangement of three foreground trees and a snowy field remains, but the central and right trees have redrawn branching, background houses change shape, and the snow tracks change. Seasonal lighting and snow changes are excluded. Instruction: The sky becomes darker blue and the landscape frostier, but a bright sun remains high above the horizon; the expected Arctic winter-solstice scene should show no above-horizon sun. Most of the essential change is missing. Knowledge: The visible high sun contradicts the supplied polar-night expectation. Instruction failure ⇒ knowledge invalid. Quality: Viewed independently, tree forms, snow texture, distant buildings and cast shadows are coherent and natural, without noticeable generation defects."
+    },
+    {
+      "blind_id": "case_2682e55f6dc8033dd9d5",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Foreground tree positions and recognizable branches, overhanging corner twigs, distant houses and conifers, and crossing snow tracks remain visually consistent; the requested sky and illumination transformation is excluded. Instruction: Daylight and the sun are replaced by a dark sky with green auroral curtains above the snowy scene, matching the expected Arctic winter-solstice appearance. Knowledge: No sun is visible above the horizon, consistent with the supplied polar-night explanation; a still image represents its visible appearance rather than proving 24-hour duration. Quality: Independently, the branching silhouettes, layered sky, clouds, snow surfaces and horizon structures are coherent, with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_a2b6325634e7ef291515",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The broad snowy field and foreground-tree arrangement remain, but the overhanging upper-left branches disappear, the central tree loses its distinctive low forked limb geometry, and the foreground tracks are removed. The required darkening is excluded. Instruction: The sunny scene becomes a dark, moonlit winter landscape with no sun visible, matching the requested winter-solstice polar-night appearance. Knowledge: The textured bright disk is visibly the moon, not an above-horizon sun, and the dark snowy scene agrees with the supplied explanation; temporal duration cannot be established in one frame. Quality: Independently, the moon, silhouetted trees, subdued snow illumination and horizon form a coherent night photograph, with no noticeable structural defects; darkness does not prevent scene recognition."
+    },
+    {
+      "blind_id": "case_25e75b7092707b79cae9",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The foreground trees retain their locations and distinctive branches, the upper-left twigs remain, and the distant houses, conifers and crossing snow tracks stay in place. Increased snow cover and changed atmospheric light are allowed seasonal changes. Instruction: The scene gains heavier frost and a paler, hazier sky, but the sun still shines well above the horizon; the expected polar-night transformation is largely absent. Knowledge: The visible sun and direct daytime illumination contradict the supplied below-horizon requirement. Instruction failure ⇒ knowledge invalid. Quality: Independently, trees, buildings, frost, tracks and shadows are structurally coherent and naturally rendered without noticeable artifacts."
+    }
+  ]
+}

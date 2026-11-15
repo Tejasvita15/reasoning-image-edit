@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b205",
+  "results": [
+    {
+      "blind_id": "case_dfa8c0a47351eb9e7fe8",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The glass table, clear legs and pale background retain their general arrangement, but the vase/bouquet and table framing shift slightly left, flower details change, and the open book becomes closed. Its relocation is excluded. Instruction: The book moves closer to the vase but stays on its right and closes. Expected: the same open book on the left of the vase. The opposite-side requirement is not achieved. Quality: Structure, naturalness, artifact absence and textures are satisfactory; the closed book sits coherently on the reflective glass, and the vase and table have plausible contours."
+    },
+    {
+      "blind_id": "case_51c6337f7b8d25d68d3e",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Vase position, bouquet arrangement, glass rings, clear legs and pale background are substantially preserved. The clear non-requested change is the book becoming a tightly curved, raised bundle of pages instead of an open spread. Instruction: The book changes orientation/form while remaining to the right of the vase. Expected: the open book moved to its left. No opposite-side relocation is visible. Quality: Table, vase, lighting and reflections are coherent, but the book has an unnatural row of thick curling sheets with an unclear binding and support; this is one noticeable structural flaw."
+    },
+    {
+      "blind_id": "case_57abc64a59c366c5001e",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pale background and circular glass-table design persist, but the vase is narrower and farther left, the bouquet has different foliage and flower shapes, and table hardware/reflection details change. Book relocation is excluded. Instruction: The open book moves leftward into the foreground directly in front of the vase, still extending mostly to its right. Expected: the book clearly on the left side of the vase. Movement is present but the requested opposite-side relation remains incomplete. Quality: Structure, lighting, textures and artifact absence are satisfactory; the open pages curve plausibly, and the glass rings, legs and object contacts are coherent."
+    },
+    {
+      "blind_id": "case_6b04327679a739ab5f05",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The circular table and pale studio setting remain recognizable, but flower arrangement and stems change, vase shape/base changes, and table fittings, proportions and shadows are altered. Instruction: The open book remains on the right of the vase with altered page imagery. Expected: the book relocated to the left. The requested side change is absent. Quality: Table and book structure and lighting are coherent, with no duplication; the foliage along the left of the bouquet has a small patch of smeared, tangled texture."
+    },
+    {
+      "blind_id": "case_30242753144d53b9bf5a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The vase and pale background remain broadly similar, but the book is now nearly closed and upright, and the glass tabletop/front rim and leg geometry shift. These are not required by a position change. Instruction: The book stands up beside the vase on the same right side. Expected: the open book moved to the left. The instruction is misinterpreted as reorientation, without the opposite-side placement. Quality: Glass, ceramic and page textures are coherent and lighting is plausible; the slightly leaning upright book has a small support/balance implausibility at its narrow bottom edge."
+    },
+    {
+      "blind_id": "case_5321acdb93ace9db1359",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Most major non-requested details change: the vase moves to the right and its bouquet is rearranged, the table loses the prominent front leg and changes its supports, and book page imagery changes. The pale background remains similar. Instruction: The book is now left of the vase and removed from its former right-hand position. Expected: the same open book on the opposite side. The spatial change succeeds, with a minor mismatch in the displayed book pages. Quality: Lighting and ceramic/glass textures are plausible, but the lower metal ring has an exposed joint where a supporting front leg is absent, creating a clear structural coherence problem."
+    }
+  ]
+}

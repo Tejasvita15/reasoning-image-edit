@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b007",
+  "results": [
+    {
+      "blind_id": "case_40b8c37ec2b6c41c0f58",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "Consistency: The black surround, upright forearm, cropped hand, elbow position and R marker remain recognizable. Beyond the permitted radius fracture, the right-hand bone is severed and a transverse cut extends across the surrounding soft tissue. Instruction: A broad transverse separation has been introduced near the elbow; the expected change is a fracture of the left forearm bone. That bone is interrupted, but the cut also passes through the whole arm, giving partial compliance. Knowledge: The supplied explanation identifies the left bone as fractured; the image instead shows both bones and surrounding tissue divided along the same broad band, with implausibly uniform separation. Quality, edited image alone: The radiograph is legible with coherent overall arm placement and no duplication, but the straight layered cut through the arm is a conspicuous pasted-band artifact."
+    },
+    {
+      "blind_id": "case_5e7e2a89883219963951",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The single narrow radiograph and empty black margins have become a stylized three-forearm composition; bone rendering, hand shapes and scene layout are extensively changed, although an R marker survives. Instruction: Branching black fissures now cross the central hand, elbow and tissue, with additional arms on either side. A localized fracture of the left forearm bone was expected; most cracks resemble surface crazing, and the central left shaft is largely continuous, so the requested modification is poorly implemented. Knowledge: The explanation calls for the left arm bone to be fractured, whereas the visible cracks extend across unrelated surfaces and multiple joints. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: Shading and borders are clean, but the central wrist and elbow contain fused, indistinct joint forms and the foreground crack overlay reads as disconnected from the anatomy."
+    },
+    {
+      "blind_id": "case_f744f71602596a89d501",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The source hand and wrist have been replaced with a shoulder-like joint, and large torso halves and ribs fill the formerly black margins. The lower forearm and bent elbow remain recognizable, but most major scene content and upper anatomy change. Instruction: Branching black cracks descend from the new upper joint across the arm and soft tissue; the expected result is a fracture in the left forearm bone. The left shaft remains visibly continuous and the changes depict an unrelated cracked anatomical composite, so the request is misinterpreted. Knowledge: The visible surface-spanning cracks do not demonstrate the left-bone fracture specified by the explanation. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: The shading is smooth, but a shoulder-like head connects directly to long forearm bones, while the flanking torso fragments and exposed rib area form an anatomically incoherent composite; these are multiple distracting structural errors."
+    },
+    {
+      "blind_id": "case_987b886f97bd48be7c13",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The upright arm, black surroundings, R marker, cropped hand and elbow placement are retained. Excluding the attempted fracture marking, the radiograph has a clearly changed smooth illustrative rendering, with simplified carpal detail and bone texture. Instruction: A pink curved ribbon has been added diagonally across the middle of the forearm. The expected change is a visible break in the left forearm bone, but its shaft remains continuous beneath a surface-like colored strip; the fracture is poorly implemented. Knowledge: The explanation specifies a fractured left bone; the ribbon crosses the interosseous region toward the right bone without a convincing cortical break. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: The arm silhouette and joints are readable, lighting is consistent and the background is clean, but the pink strip has a conspicuous floating, pasted-on appearance with no convincing depth integration."
+    }
+  ]
+}

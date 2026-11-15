@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b066",
+  "results": [
+    {
+      "blind_id": "case_265ce3d2608b824ea8e2",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The blue background, circular dish position, viewing angle and surrounding shadow remain consistent; powder redistribution and exposure of the rim are attributable to the added water. Instruction: Clear liquid now pools around and within the white mound, directly showing the requested portion of water contacting the powder. Knowledge: The supplied explanation expects blue crystals, but the wetted material remains white throughout, contradicting the required transformation. Quality: The dish and mound are coherent, with plausible shadows and powder texture; the liquid highlights have a slightly painted, uniformly outlined appearance."
+    },
+    {
+      "blind_id": "case_733d6159c0720faa8b84",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Background, dish placement and central powder features remain recognizable, but a conspicuous extra curved rim/sliver appears beyond the lower-right dish edge. Liquid coverage and powder displacement are excluded as requested changes. Instruction: A clear pool visibly surrounds and contacts the powder, fulfilling the addition of water. Knowledge: The explanation requires transformation into blue crystals; the wet powder and liquid remain white or colorless, with no blue product. Quality: Powder texture and illumination are coherent, but the detached lower-right crescent creates a clear structural artifact in the dish."
+    },
+    {
+      "blind_id": "case_f174660100ebf747f8d1",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The circular dish layout remains, but the background becomes visibly coarser and the unaffected outer powder is substantially retextured into sharper, larger clumps. Instruction: An opaque gray raised blob replaces the center; the expected added water should read as liquid wetting the powder, whereas this smooth solid-looking dome provides poor evidence of water and constitutes a major omission. Knowledge: No blue crystals appear. Instruction failure ⇒ knowledge invalid. Quality: The circular support and powder are recognizable, but the central feature has an unnaturally smooth inflated form and weak integration with the granular surface, a clear material-coherence flaw."
+    },
+    {
+      "blind_id": "case_b499eeef5708e86b26ee",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The dish remains in the same overall composition, but the blue background has a noticeably coarser texture and the unmodified white outer powder has been retextured into larger, sharper clumps. Instruction: The center changes from white powder to a blue granular patch, consistent with a portion being wetted; the core result is present, though there is little visible liquid or wet sheen to explicitly establish water addition. Knowledge: The supplied explanation calls for blue crystals, and the localized blue crystalline/granular material matches that transformation while surrounding dry material remains white. Quality: The dish, granular surface and shadows are coherent without broken geometry; the blue patch has a slightly abrupt, painted-looking color boundary."
+    }
+  ]
+}

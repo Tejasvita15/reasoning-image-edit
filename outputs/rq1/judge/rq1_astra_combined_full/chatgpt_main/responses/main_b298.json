@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b298",
+  "results": [
+    {
+      "blind_id": "case_2ed7c53cf142386fdd81",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The wooden frame, white surround and circled-number design remain recognizable, but the frame grain is substantially smoothed and the numerals/circle strokes are darker and redrawn. Instruction: The arrangement remains blank-1-2-3 / 4-5-6-7 / 8-9-10-11 / 12-13-14-15. Completion requires 1-4 across the first row, then 5-8, 9-12, and 13-15 plus a bottom-right blank; no requested rearrangement occurred. Knowledge: The supplied explanation is blank; visible task-implied ordering is unmet. Instruction failure ⇒ knowledge invalid. Quality: Independently, the regular tile structure, readable unique labels, coherent shadows and clean wood surfaces are satisfactory, without noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_b8be150d948cad8f9283",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Wooden material, circled labels, tile grain and front-facing view are preserved; the whole board is visibly reduced within a larger white margin, an unrequested framing change. Instruction: Tiles still read blank-1-2-3 / 4-5-6-7 / 8-9-10-11 / 12-13-14-15. The expected completed rows are 1-4, 5-8, 9-12, and 13-15 followed by blank, so no completion is shown. Knowledge: No explanation was supplied; task-implied sequential placement is visibly unmet. Instruction failure ⇒ knowledge invalid. Quality: Independently, square tiles, legible labels, natural wood grain and plausible recess shadows form a coherent artifact-free object."
+    },
+    {
+      "blind_id": "case_93460246c20d2c7130dc",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The wooden construction, circular brown labels, grain features and frontal orientation remain consistent, but the board is substantially smaller in the white canvas. Instruction: Despite the size change, the blank is still upper-left and rows remain blank-1-2-3 / 4-5-6-7 / 8-9-10-11 / 12-13-14-15. A completed puzzle needs ascending rows starting with 1 and a bottom-right blank; that change is absent. Knowledge: The supplied explanation is blank; the visible arrangement fails task-implied completion logic. Instruction failure ⇒ knowledge invalid. Quality: Independently, the tile grid is orderly, all labels are clear, wood texture is plausible and lighting is coherent, with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_bff115786e001316aa0c",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Frame material, grain patterns, brown circular labels, white background and frontal presentation are maintained; there is a small expansion of the board/grid toward the image edges. Instruction: The blank remains upper-left, with 1-3 following it and 12-15 across the bottom. The entire original order persists instead of the required 1-4 / 5-8 / 9-12 / 13-15-blank completion. Knowledge: The explanation is blank; visible task-implied ordering fails. Instruction failure ⇒ knowledge invalid. Quality: Independently, the wooden frame and tiles are structurally coherent, numbers are legible and unique, and surface texture and shadows appear natural without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_f76fc9dff4d83f6d7f5c",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Wood construction, white surround and frontal view remain, but the tile marked 14 is relabeled 13 and several numeral/circle shapes and grain details are redrawn; rearrangement does not authorize changing tile identity. Instruction: The upper-left blank and displaced ascending sequence persist, while the bottom row now reads 12-13-13-15. Completion requires each number 1-15 once in ascending rows and the blank bottom-right; no completion is achieved. Knowledge: The explanation is blank; the visible duplicate also violates task-implied tile conservation. Instruction failure ⇒ knowledge invalid. Quality: Independently, the frame, grid and lighting are coherent and labels readable, but the duplicated 13 and absent 14 create a clear semantic flaw in the numbered puzzle."
+    },
+    {
+      "blind_id": "case_fabc7caae0421a674849",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The wooden frame, white surround and circled-label style remain recognizable, but an additional numbered tile replaces the vacant cell and wood/label textures are visibly mottled and redrawn. Instruction: The top row becomes 2-1-2-3, with the remaining rows 4-7, 8-11 and 12-15. Expected completion is 1-4 / 5-8 / 9-12 / 13-15-blank; adding a duplicate 2 and eliminating the vacancy does not rearrange the puzzle to completion. Knowledge: No explanation was supplied; visible task-implied uniqueness and blank-space requirements fail. Instruction failure ⇒ knowledge invalid. Quality: Independently, the frame and grid remain readable, but duplicate 2 labels and no sliding space create a semantic defect, while mottled colored speckles and rough numeral edges visibly degrade the surface finish."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b046",
+  "results": [
+    {
+      "blind_id": "case_6320412c1e2bb28b05c1",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The crown retains its pointed silhouette, front scrollwork and diamond-set base, but the front central gem and surrounding setting are visibly widened/reshaped; requested background, lighting and placement changes are excluded. Instruction: The white setting becomes a deep-blue/gold poster with a central crown, luminous rings and bands. The expected poster also needs the exact gold title and meaningful white slogan; both displayed lines are garbled, and distinct star effects are weak, so compliance is partial. Quality: Structure and lighting of the crown are coherent, but the prominent title and subtitle contain nonsensical malformed text, creating multiple distracting semantic errors; crown softness alone is not penalized."
+    },
+    {
+      "blind_id": "case_4619a6564673891f6d89",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The entire crown, including its ornate points, scrollwork and gemstones, is absent; all major preserved subject details are lost. Requested background and text additions are excluded. Instruction: A blue/gold graphic with stars, a lower halo, correct gold title and white slogan replaces the source. The expected central crown is completely missing, the title is near the middle rather than the top, and an upper glow band is not clear; omission of the principal subject makes compliance poor. Quality: Text is readable and the typography, gradient and elliptical lighting are coherent. A small faint loop-like stray mark at the right is an isolated artifact; otherwise the standalone graphic is clean."
+    },
+    {
+      "blind_id": "case_b191cbf2d41f0d8b4aec",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The overall crown silhouette and scroll motif remain recognizable, but the clear central gemstones become blue-toned irregular insets and the fine filigree and base stone settings are substantially reworked. Requested resizing, placement and background are excluded. Instruction: A central crown, blue/gold setting, gold upper heading, radial glow and lower rings establish the poster idea. A compliant result needs the specified title, meaningful white slogan, stars and soft bands above and below; the heading and bottom line are gibberish, the slogan is gold, and the lighting substitutes hard rings and a burst for the requested soft bands. Compliance is partial. Quality: The two text lines are semantically garbled, some lower letters are visibly broken, and the crown surface has fused, irregular metallic and gemstone details. These multiple distracting errors undermine otherwise coherent placement."
+    },
+    {
+      "blind_id": "case_3629d987324166c1b10d",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The crown keeps its main central and side points, but the base gains a conspicuous vertically ridged band, the lower gemstone rows change, and side-point/scroll details are reshaped. Requested scale, position and lighting changes are excluded. Instruction: The crown is centered in a promotional layout with an upper gold heading and radiating light. The expected blue/gold gradient is instead burgundy and black, the required title and slogan are garbled, and clear halos, stars and upper/lower soft bands are missing. Most specified design details fail. Quality: Crown silhouette and central lighting are understandable, but several prominent text lines contain malformed, colliding and nonsensical characters, with scattered dirty specks around the upper field. Multiple distracting artifacts prevent a clean poster."
+    }
+  ]
+}

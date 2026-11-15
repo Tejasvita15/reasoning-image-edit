@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b327",
+  "results": [
+    {
+      "blind_id": "case_dd4f3a414a9580275c8f",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background is preserved, but the non-target descending line is rotated and shortened, and the a and O labels disappear; the b label is also absent. Instruction: Both line orientations change, producing a shallow rising line crossing a descending diagonal at an acute angle. The expected result is b meeting the original a at a right angle at O; the changed crossing does not achieve this and O is unidentified, so compliance has major omissions. Knowledge: The supplied explanation requires perpendicular directions at O, which the acute crossing fails. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the two continuous straight black strokes on white are coherent and clean, with no distracting artifacts or text corruption."
+    },
+    {
+      "blind_id": "case_4d4bc64dae166120f741",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The background, line a, and a/b lettering remain visually consistent; O acquires a conspicuous vertical stem connecting it to the crossing. Instruction: The visible addition is that stem; b retains its original oblique direction. The expected b would rotate to form a right angle with a at O, but the crossing stays acute/obtuse, so the requested change is absent. Knowledge: The explanation calls for perpendicular directions at O; the unchanged crossing does not satisfy this. Instruction failure ⇒ knowledge invalid. Quality: The black-on-white diagram and letters are readable, but the vertical stroke attached to O visibly merges the label into the intersection, a clear graphic/semantic flaw."
+    },
+    {
+      "blind_id": "case_f256be329225c79c9674",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background remains, but line a changes orientation, its label disappears, and O is redrawn smaller; these are non-target alterations. Instruction: The labeled b is now nearly horizontal, crossing a steeper descending line, with a split stroke below the crossing. The expected change is b perpendicular to the original a at O. Although b changes direction, the resulting angle is visibly acute rather than right, so the main geometric requirement is poorly implemented. Knowledge: The supplied perpendicular-direction explanation is violated by the acute intersection. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the descending stroke splits into a conspicuous narrow angular loop below the intersection; the remaining strokes and b/O labels are legible, but that duplication is a clear structural artifact."
+    },
+    {
+      "blind_id": "case_f3ad9aafb999a8a71c15",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background, line a, labels a and O, and overall diagram layout are visually preserved, with no evident non-instruction alteration. Instruction: There is no substantive geometric change: b still rises diagonally through the same crossing. A correct edit would rotate b to intersect a at a right angle at O, whereas this intersection remains visibly acute/obtuse. Knowledge: The supplied explanation requires perpendicular directions, which the retained oblique crossing does not show. Instruction failure ⇒ knowledge invalid. Quality: Independently, the two straight continuous lines and clearly legible a, b, and O labels form a coherent clean diagram on white with no distracting artifacts."
+    }
+  ]
+}

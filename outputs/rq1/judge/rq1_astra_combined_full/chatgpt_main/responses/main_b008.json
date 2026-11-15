@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b008",
+  "results": [
+    {
+      "blind_id": "case_fe2a0ce30f328916ff7d",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Stem position, blue bokeh, background layout and overall leaf placement remain recognizable and aligned; the foreground leaf's fine vein mesh and edge contours have visibly been redrawn, a clear unrequested structural/detail change. Instruction: The foreground leaf changes from green to red; an ideal result would make the visible leaves red. The large leaf is fully red, but the identifiable upper-right background leaf remains yellow-green, a minor omission. Quality: Structure and backlighting are coherent and the venation is legible; a small dark broken-looking fleck on the lower-left leaf tip is a minor edge artifact. Knowledge: Not applicable."
+    },
+    {
+      "blind_id": "case_69b95605c1c876fd110b",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pointed leaf silhouette, fine branching veins, diagonal stem, framing and blue background highlights remain visually unchanged; leaf coloration is excluded as requested. Instruction: Green foreground and identifiable upper-right background leaves become red, with the shadowed upper foliage also reddish; the expected red-leaf scene is present and the existing leaves retain their shapes. Quality: Coherent leaf structure, detailed vein texture, natural transmitted light and smooth background blur; no noticeable generation artifacts. Knowledge: Not applicable."
+    },
+    {
+      "blind_id": "case_251f3b9dc70bba2ccbdb",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The original leaf outline, branching vein geometry, stem position and blue bokeh layout remain intact; color changes to the visible foliage are allowed by the instruction. Instruction: The main green leaf is now red throughout, and the visible upper-right leaf is red as well; this matches the expected recoloring of the leaves without replacing them. Quality: Natural leaf shape and fine venation, plausible bright left-side illumination and darker right-side folds, with coherent background blur and no noticeable artifacts. Knowledge: Not applicable."
+    },
+    {
+      "blind_id": "case_902bf0860ea5cc2a9875",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The stem, framing and recognizable blue/green background arrangement remain in place, but the foreground leaf's fine texture and vein mesh are visibly reconstructed and its tip contours subtly altered; this is one clear non-color detail change. Instruction: The large leaf becomes vivid red across its surface, matching the core expected change; the distinct background leaf at upper right stays green, leaving a minor part of the plural-leaf request incomplete. Quality: The leaf has a coherent lobed silhouette, convincing branching veins and illuminated tissue; stem attachment, depth of field and shadow direction are plausible, with no noticeable artifacts. Knowledge: Not applicable."
+    }
+  ]
+}

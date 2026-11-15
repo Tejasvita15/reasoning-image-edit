@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b038",
+  "results": [
+    {
+      "blind_id": "case_87ad4da0a44ad82b3386",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The white background remains, but the arm is enlarged, rotated diagonally, and cropped to exclude the hand; the original pose and composition are replaced. Instruction: A white wrap and an exposed bleeding elbow wound are added. An appropriate elbow bandage is expected; the wrap is on the upper-arm side of the wound, so placement is only partially correct. Knowledge: The supplied explanation requires distal placement outside the elbow; the visible wrap lies proximal to the wound, a clear placement conflict. Quality: The arm and woven wrap are coherent with plausible lighting; the thin blood trails have a slightly drawn-on appearance."
+    },
+    {
+      "blind_id": "case_f1ecd13f734661fe3aa2",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background persists, but the relaxed hand becomes a fist, the arm is reframed and repositioned, and a second hand is introduced; most major subject details change. Instruction: Fabric is being wrapped around the fist rather than the elbow. The expected change is a bandage at an appropriate elbow location, so the required location is largely missed. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: Both hands have coherent visible anatomy, natural skin shading, and believable woven fabric with frayed edges; no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_ce4466f3c228fd07072e",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 2,
+      "rationale": "Consistency: The hand gesture, arm silhouette, framing, and white background remain; beyond the requested bandaging, extensive red branching vessels replace the plain skin appearance across the arm. Instruction: Blue wraps appear at the wrist and above the elbow. An appropriately positioned elbow bandage is expected, but neither wrap sits just distal to the elbow, leaving partial compliance. Knowledge: The explanation specifies outside the elbow at the distal end; the wrist wrap is remote from the elbow and the other wrap is proximal, giving multiple placement conflicts. Quality: Anatomy, wrap texture, and lighting are coherent; the branching red network looks flat and drawn over the photographic skin."
+    },
+    {
+      "blind_id": "case_4415acc8290afbea553a",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "Consistency: The original relaxed fingers, palm, arm pose and contour, crop, and white background are preserved outside the added bandages. Instruction: Two white wraps have been added, including one on the forearm immediately distal to the elbow, satisfying the core location request; the additional proximal wrap is unnecessary. Knowledge: The distal forearm wrap matches the supplied explanation, with a small deviation from the additional wrap on the upper-arm side. Quality: Arm anatomy is coherent, both wraps follow its volume, and fabric texture, edges, and lighting appear natural without noticeable artifacts."
+    }
+  ]
+}

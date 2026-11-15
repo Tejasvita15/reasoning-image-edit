@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b059",
+  "results": [
+    {
+      "blind_id": "case_725af8a1d48b0870bef4",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: yellow sponge, irregular white filling, gold tray and dark background remain recognizable; the framing is pulled back and the wrapper's exposed extent and print are altered. Requested viewpoint changes are excluded. Instruction: the edit mainly reframes the same three-quarter view; a proper front view would look straight at the cut end with the long side receding behind it. The long right side still dominates, so the requested view is absent. Quality: structural coherence, lighting, artifact control and cake/paper textures are satisfactory; the cake and folded packaging look physically coherent."
+    },
+    {
+      "blind_id": "case_471d13b6c6c76b85d557",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: yellow sponge, white filling, gold scalloped tray and dark backdrop persist; the cake acquires a conspicuous tall rectangular upper body beyond the rounded cut face, changing its form beyond a viewpoint change. Packaging projection changes are excluded. Instruction: the cut face is now nearly head-on, as expected for a front view, but the large squared extension above it misrepresents the original rounded roll, making compliance partial. Quality: lighting and surface textures are coherent, but the abruptly rectangular cake silhouette behind the rounded cream-filled end is a clear structural anomaly; no additional major artifacts are evident."
+    },
+    {
+      "blind_id": "case_1f800e634bff9e120eae",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: sponge color and texture, irregular cream pattern, gold tray and charcoal background are preserved; a large printed wrapper sheet has been added across the lower-left foreground. View-dependent projection changes are excluded. Instruction: the cut face becomes somewhat more prominent, but the long right side remains broadly exposed. A front view should align the sightline with the roll's length, leaving the cut end dominant; the requested reorientation is mostly missing. Quality: cake structure, cream texture, directional lighting and folded tray/wrapper are coherent, without noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_8c96b9ddd59a7633343f",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: yellow sponge, white cream, gold tray and dark background persist, but the original irregular folded filling becomes a smooth oval with two holes, and the loose wrapper is replaced by a neatly draped band. These changes are not required by the new view. Instruction: the roll becomes a short upright-looking segment with its cut end on the right, still seen obliquely. A proper front view would show the original cut face directly with depth receding behind it; the specified orientation and recognizable internal geometry are poorly implemented. Quality: lighting, outer sponge and tray are coherent, but the cream face has two conspicuous dark, oddly smooth cavities and a simplified rim that make the internal structure look unnatural."
+    }
+  ]
+}

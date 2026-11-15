@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b356",
+  "results": [
+    {
+      "blind_id": "case_6c04d20758697451c910",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The two lemon halves retain their left-oblique/right-frontal arrangement, yellow rind and relative size; the right cut face has a changed central core and segment detailing, a noticeable non-requested change. Requested placement, backdrop and decoration are excluded. Instruction: The edit adds a centered upper headline, yellow-to-cream background and lowers the fruit. The expected design uses rounded sans-serif gradient lettering and subtle translucent edge brush splatters; instead, Lemon Juice is script, the text is solid dark green, and the large glossy splash is opaque and dominant. This is partial compliance. Quality: Structure, readable lettering, fruit texture, lighting and decorative splash contours are coherent, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_39b4c95ec8e2df368068",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Both halves preserve their orientation, relative arrangement and rind colors, but the right fruit's central core and radiating membranes have been redrawn. Background, fruit placement and splash additions are requested and excluded. Instruction: A bright gradient, lower-centered lemons and top-centered sans-serif headline are present. The expected yellow-white background, green-to-orange lettering and subtle translucent brush splatters are not achieved: the backdrop is strongly green at the sides, text is solid orange, and splashes are large glossy opaque forms. The headline also reads '100we NFC' instead of '100% NFC'. These leave partial compliance. Quality: Fruit shapes, lighting and textures are coherent and the layout is clear; the malformed '100we' is a conspicuous semantic text flaw."
+    },
+    {
+      "blind_id": "case_667a72cbd77744450253",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pair and left/right orientations remain recognizable, but the right half's outline and segment structure are substantially changed, while the left half's cut-face proportions and pulp pattern are also changed. Requested resizing/placement and background decoration are excluded. Instruction: Lower-centered lemons, an upper centered sans-serif headline, a bright gradient wash and peripheral brush splatters implement the main concept. The expected exact '100% NFC Lemon Juice' is replaced by '100 M Weon Lemon Suice'; lettering is solid dark green and the yellow splatters are strong opaque marks rather than subtle translucent strokes. Partial compliance. Quality: The fruit forms, rind and shadows are coherent; multiple malformed headline words and uneven letter contours create distracting textual degradation despite the otherwise intact composition."
+    },
+    {
+      "blind_id": "case_8fdace9a2f87fe50ca9e",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The two-half arrangement and rind colors remain, but the left cut face is re-proportioned and its pulp pattern changed; the right half has a different outer contour and substantially different membranes and core. Requested composition and backdrop changes are excluded. Instruction: The edit supplies lower-centered fruit, an upper centered headline, a bright white-to-yellow/green wash and edge brush splatters. The expected exact text and light-green-to-orange rounded lettering are absent: the headline reads '100+8 MEN LEMON UIÍLE' in dark green, with sharp blocklike capitals; the edge strokes are vivid opaque yellow. The overall concept is present with several wrong required details, hence partial compliance. Quality: Lemon shapes, textures and grounding shadows are coherent, but several garbled words/symbols in the prominent headline create distracting semantic errors."
+    }
+  ]
+}

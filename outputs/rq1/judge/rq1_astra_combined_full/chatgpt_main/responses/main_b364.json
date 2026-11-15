@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b364",
+  "results": [
+    {
+      "blind_id": "case_8cefc7452d66600f85ce",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The yellow pair, gray lining, white soles and plain background remain, but the rear shaft moves left and changes contour, the front shaft widens, and the surface highlights are redrawn. Instruction: The visible change reshapes and smooths the boots; a reasonable correction would enclose both exposed toes so the tall rubber boots protect the feet. Both toe openings remain, so the intended correction is absent. Quality: Structural coherence, lighting, clean edges and surface textures are satisfactory; the open-toe design is rendered coherently without evident generation artifacts."
+    },
+    {
+      "blind_id": "case_a59f572104ed3a51605b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Yellow color, gray interiors, white soles and the staggered arrangement remain recognizable. The rear boot's shaft and foot shift left, its seam changes, and the front boot's highlights and contour change. Instruction: The shafts and shading are revised, but both exposed toe openings remain. Correcting the apparent functional contradiction would produce closed-toe rubber boots; that correction is absent. Quality: The footwear has coherent contours, continuous soles, plausible shading and clean material surfaces, with no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_4cef4545a21f09b994f0",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Boot positions, shaft silhouettes, lining and sole design are substantially preserved. However, the yellow surfaces are noticeably brighter with altered highlight bands, and the floor shadow extends more distinctly to the right. Instruction: Changes concentrate on illumination and surface rendering. Expected correction is closure of the two exposed toe areas of the rubber boots, but both remain open; the requested repair is not achieved. Quality: The edited image independently presents clean boot geometry, coherent openings and soles, natural directional shadows and intact rubber textures without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_6b9efeca3386ad9b0141",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Yellow uppers, gray interiors and light soles persist, but the view changes from an oblique upright presentation to a nearly overhead view, with side-by-side alignment, radically different visible shaft proportions and changed floor shadows. Most major presentation details change. Instruction: The edit changes viewpoint while retaining both open toes. A functional correction would close the toe openings of the rain boots; neither is closed, so the apparent unreasonable feature remains. Quality: Evaluated alone, the overhead footwear arrangement is geometrically coherent, with clean rims, continuous soles, consistent shadows and smooth intact materials; no noticeable generation artifacts are visible."
+    }
+  ]
+}

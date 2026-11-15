@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b051",
+  "results": [
+    {
+      "blind_id": "case_5dd966b0143e7915453d",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The backrest, open gap, four-leg layout and wood-grain pattern remain recognizable in the same framing, but the white background becomes blue and new floor shadows appear around the feet. Instruction: The tan chair becomes blue across its back, seat, supports and legs; the expected same chair colored blue is fully realized. Quality: Structure, perspective, shading and wood texture are coherent; the blue studio setting and soft contact shadows are plausible, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_e1e9cd2064534713d1ea",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, framing, curved backrest outline, grain rings, seat profile and four leg positions remain visually unchanged apart from the requested chair color. Instruction: All wooden chair components change from tan to blue, matching the expected blue version of the same chair completely. Quality: The chair has coherent joints and legs, continuous wood texture, clean boundaries and plausible highlights; no noticeable artifacts are visible."
+    },
+    {
+      "blind_id": "case_b4ac242adbe77832aa4b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The chair silhouette, curved seat, backrest grain and leg arrangement are retained, but the formerly white background is blue and soft floor shadows have been introduced beneath the chair. Instruction: Backrest, seat and every support and leg are visibly blue, fully matching the requested recoloring of the existing chair. Quality: The chair is structurally sound, its grain and shaded surfaces are coherent, and its contact shadows are plausible; no noticeable artifacts are visible."
+    },
+    {
+      "blind_id": "case_76a676bd14593488b894",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and overall chair design remain, but the left and inner rear legs end higher relative to the seat and the small dark foot tips are removed. Instruction: The tan chair is now blue throughout its back, seat and legs, fully matching the requested color change. Quality: The painted chair has coherent four-leg construction, clean contours, plausible surface highlights and faint wood grain; no noticeable artifacts are visible."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b290",
+  "results": [
+    {
+      "blind_id": "case_e4a59898684d816a0e82",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The left cut orange is replaced by an intact peel-covered orange, and the right half's central pulp pattern and shadow change; the pink setting and two-object arrangement remain. Instruction: The visible change is mainly to the large left fruit's cut/whole state; the right fruit remains smaller. The expected result is the right cut orange enlarged to match the left cut orange, which is not achieved. Quality, edited image alone: Structure, natural lighting/shadows, artifact absence and peel/pulp textures are satisfactory; both fruits have coherent contours and surfaces."
+    },
+    {
+      "blind_id": "case_d0ee4600827d656f3b14",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The left orange's segment pattern and outline change, the right orange's pulp center is redrawn, and the lower-left background scratch becomes more prominent; the pink background and left/right arrangement persist. Instruction: The right orange remains distinctly smaller, with no visible enlargement toward the left orange's diameter. A successful edit would show two matching-size cut faces; the requested change is absent. Quality, edited image alone: Fruit structure, shadows and citrus textures are coherent, but a thin irregular white strip along the bottom edge is a minor artifact."
+    },
+    {
+      "blind_id": "case_00188b4af26cdee937e9",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Both exposed cut faces are replaced by whole peel-covered fruits, the large fruit becomes more oval, and the original lower-left background marking is lost; the two-fruit pink tabletop layout remains recognizable. Instruction: Both fruits change from cut to whole, while the right fruit is still substantially smaller. The expected edit enlarges the right cut orange to the left orange's size; changing fruit state does not fulfill that request. Quality, edited image alone: Rounded fruit forms, peel texture and contact shadows are coherent and natural; a thin white rough edge at the bottom is a minor artifact."
+    },
+    {
+      "blind_id": "case_c7ebcfcc1ed7ecbc22c0",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The large left orange loses its cut face and becomes a whole orange, while the right half's pulp center and shadow are altered; the pink background and basic object locations remain. Instruction: The large fruit's state changes, but the small right orange is not enlarged to match it. The intended result would retain both cut faces and make their sizes equal, so the requested size adjustment is not followed. Quality, edited image alone: Structure, naturalness, artifact absence and texture fidelity are satisfactory, with plausible rind and pulp, smooth contours and coherent shadows."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b024",
+  "results": [
+    {
+      "blind_id": "case_0a5e7e06c70c66d35981",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The two overlapping comb slabs, diagonal wooden dipper with grooved head, and honey pools retain their recognizable shapes and arrangement; centering, scale, gold color treatment, background, glow and decorations are requested changes. Instruction: The white product photograph becomes a gold-gradient poster with centered honeycomb/dipper, a soft halo, petals and honey drops. A perfect edit would also carry the exact bold top title and a readable bottom health-benefit description. The title is correct and prominent, but the bottom paragraph is garbled and communicates no reliable benefit; floating honey drops are not clearly established. This is partial compliance. Quality, edited image alone: Structure and honeycomb/wood textures are coherent, lighting is plausible and the main title is legible; the conspicuously malformed bottom text is one clear semantic artifact."
+    },
+    {
+      "blind_id": "case_8de58b2d59ccbd7cde85",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The two comb pieces, wooden dipper's diagonal orientation and grooved form, and honey pools remain recognizable and in the same relative arrangement. Reframing, warm lighting, background replacement and floral/drop decoration fall within the requested poster transformation. Instruction: A yellow-gold poster, centered product, floating golden drop, petals and glow are present. The expected result also needs the exact bold 'Pure Natural Honey' title and a meaningful bottom health description; the observed cursive title is misspelled and not bold, and the lower text is nonsensical. These leave the poster partially compliant. Quality, edited image alone: The product forms and lighting are coherent, with softness causing no object ambiguity; malformed title lettering, nonsensical large lower characters and an illegible tiny footer create multiple distracting text errors."
+    },
+    {
+      "blind_id": "case_c0d4f782117e62a2c7bb",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The overlapping honeycomb slabs, wooden dipper's recognizable handle and ringed head, and pooled honey retain their source identities and relative arrangement. Their centered reduction, gold backdrop, glow and floral/drop surroundings are part of the instructed composition. Instruction: The edit adds a luminous yellow-to-gold poster setting, central textured comb/dipper, floating amber droplets and petals. A perfect version would have the exact bold top title and concise readable health benefits below. The actual headline says 'THE DULLIKE' with additional malformed text, and the bottom description is gibberish, so the main visual idea is present but required messaging fails. Quality, edited image alone: Product structure, warm lighting and floral forms are coherent; multiple malformed text blocks above and below the product, including conspicuous headline damage and a crowded near-edge footer, are distracting generation errors."
+    },
+    {
+      "blind_id": "case_8f97128edd6d28021663",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The same two overlapping honeycomb slabs, diagonal wooden dipper with ridged head and honey pools remain identifiable in their relative arrangement. Product centering/scaling, golden treatment, halo and floral/drop decoration are explicitly intended changes. Instruction: The photograph has become a centered honey poster with a pale-yellow/gold gradient, glow, floating petals and small amber drops. The expected exact bold 'Pure Natural Honey' headline and readable bottom health-benefit copy are absent: the prominent text reads 'PARHUX!' with other invented strings and the footer is garbled. This is partial compliance. Quality, edited image alone: The honeycomb, dipper, flowers and lighting are visually coherent; several large nonsensical title lines and the malformed two-line footer produce multiple distracting semantic/text artifacts."
+    }
+  ]
+}

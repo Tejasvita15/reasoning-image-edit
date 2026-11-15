@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b369",
+  "results": [
+    {
+      "blind_id": "case_9d8394f32ab59c372508",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The tower's viewpoint, silhouette, platforms, arches and mirrored base remain aligned with the source; its dark metallic contrast is visibly softened into a lighter brown rendering. Requested sky, clouds, birds, stars and lettering are excluded. Instruction: Observed additions create a blue-purple romantic poster with a centered tower, clouds and birds. The expected result also requires a top-centered handwritten title, exact subtitle and clean bottom-left agency details. The title and correct subtitle appear at upper right, and the agency block is garbled, so compliance is partial. Quality, judging this image alone: Structure and atmospheric lighting are coherent; texture is satisfactory, but the agency heading and multiple contact lines contain distorted, nonsensical letters. These repeated text defects are distracting."
+    },
+    {
+      "blind_id": "case_6fccb83326a271ef4993",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The tower is redrawn from a nearly frontal viewpoint, with different platform proportions, golden surface treatment and a rounded summit; the source's mirrored base is absent. Most retained subject details therefore change, independently of the permitted sky and decorative additions. Instruction: The edit adds a centered Eiffel-like tower, blue-purple sky, stars, clouds, birds and gold script at the top. A fully compliant poster needs the exact title and subtitle and clean bottom-left agency information. The title is misspelled, the subtitle is gibberish, and the footer is centered and garbled; the visual theme is present but text requirements are incomplete. Quality alone: Lighting and overall composition are coherent, but the tower has a blunt, malformed summit and several prominent text lines are nonsensical with fused letterforms. Structural coherence and artifact freedom are problematic; textures otherwise support the illustrated style."
+    },
+    {
+      "blind_id": "case_e9d7dba111f1af7e497e",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The source's oblique tower and reflected base become a frontal golden tower with altered latticework, platforms and summit; the reflection disappears. These are major changes to the retained subject, excluding all requested atmosphere and poster additions. Instruction: The observed poster has a centered tower, blue-purple gradient, stars, floating clouds and flying birds. The expected exact handwritten title and following subtitle are not delivered: 'Charm of' is repeated above a misspelled title, the requested subtitle is absent, and large garbled script replaces clean bottom-left agency details. This is partial compliance. Quality alone: The illustrated sky, birds and lighting are coherent, but duplicated title wording, malformed place-name lettering and two prominent gibberish footer lines create multiple distracting semantic/text artifacts. Tower textures are stylized but readable; text structure and artifact freedom fail."
+    },
+    {
+      "blind_id": "case_a7ccd1898c93697dc242",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The tower's oblique viewpoint, lattice silhouette, arches, platforms and reflected base are preserved. Its metallic shading is noticeably lighter and lower-contrast than the source. Background, birds, clouds, stars and all poster text additions are excluded from consistency. Instruction: The edit adds the specified dreamy blue-purple setting and centered tower, with gold script near the top and agency-like content at bottom left. A correct result requires the exact title and subtitle, clear tower presentation and clean readable agency details. Both headline and subtitle are corrupted, the oversized lettering overlaps the tower, and contact text is garbled; the main visual idea is present but several required aspects fail. Quality alone: The tower and atmospheric composition are coherent, but large malformed headline/subtitle letters and multiple corrupted contact lines are conspicuous. The upper-right bird also has an indistinct body-wing junction. Lighting and surface textures are otherwise consistent; text coherence and artifact freedom are problematic."
+    }
+  ]
+}

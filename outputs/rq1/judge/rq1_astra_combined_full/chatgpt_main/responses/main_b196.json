@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b196",
+  "results": [
+    {
+      "blind_id": "case_bcaaba289a80bde0cb6f",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The plain pale background, reflective surface and white ceramic finish remain consistent; the unrequested upright cup has moved left and become narrower. Instruction: The sideways cup moved in front of the upright cup. The expected result is the original left cup resting on top of the other cup; here its mouth still rests at tabletop level, so the required placement is mostly missing. Quality: Structure, lighting, rim contours and ceramic textures are coherent, with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_ae004637f9fe3898b1a7",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pale backdrop, tabletop and ceramic material remain consistent; the supporting cup has been moved downward and left and changed in proportions. Instruction: The sideways left cup is now lifted onto the opening of the upright cup, with its mouth facing forward. This matches the expected two-cup arrangement with the original left cup on top. Quality: Both cup forms, rim contact, smooth ceramic highlights and grounding shadows are coherent and free of noticeable artifacts."
+    },
+    {
+      "blind_id": "case_18fac0d4ab40c2867f58",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The blank pale environment and ceramic finish remain consistent; the original right cup is repositioned toward the center and lower in the frame. Instruction: The left cup has been rotated upright and stacked into the opening of the other cup, leaving its former position empty. This fully matches the requested placement of that cup onto the other. Quality: The two tapered vessels, clean elliptical rims, overlapping contact and soft surface reflections are natural and artifact-free."
+    },
+    {
+      "blind_id": "case_9fd985b711ee8244facc",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pale background, reflective tabletop and white material remain consistent; the unrequested right cup is narrower and shifted left. Instruction: The sideways cup remains on the tabletop beside the upright cup, with only a small pose adjustment. The expected change is its relocation onto the other cup, which is absent. Quality: The vessel contours, interior base, lighting and contact shadows are coherent, with no noticeable generation defects."
+    },
+    {
+      "blind_id": "case_67a54dd2b3f4eda94379",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pale setting and ceramic finish remain consistent, but the upright cup is reshaped and repositioned and an additional small cup is introduced. Instruction: A third cup appears over the original pair while the original left cup remains sideways on the table. The expected result moves that left cup onto the other and retains two cups; the image substitutes an added object for the requested move. Quality: Considered alone, the three ceramic vessels have coherent contours, smooth highlights and plausible overlapping support, without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_1adc5bae7aff92aebf0a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pale backdrop, reflective surface and ceramic appearance remain consistent; the supporting cup is moved toward the center and resized, and an unrequested layered metallic-looking band is introduced between the cups. Instruction: The original left position is cleared and an upright cup is placed directly above the other. This fulfills the core stacking request, but the intervening band prevents a clean direct cup-on-cup placement. Quality: The ceramic bodies and lighting are coherent, but the contact region has visibly tangled, rippled concentric ridges that resemble malformed stacked rings, a clear local structural artifact."
+    }
+  ]
+}

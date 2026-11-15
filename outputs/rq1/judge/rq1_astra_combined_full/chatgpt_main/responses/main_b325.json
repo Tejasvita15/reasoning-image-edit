@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b325",
+  "results": [
+    {
+      "blind_id": "case_5a5ef18c154b6d15ddc9",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the upright green stem, leaf arrangement, white background and watermark layout remain recognizable and in place, but the berry outline is visibly broadened at the shoulders and sides; the requested hue change is excluded. Instruction: the red flesh has become purple throughout. The expected result is this same strawberry with purple flesh, and that change is fully present (5). Quality assessed alone: coherent berry, leaves and seed pits with plausible highlights and intact surface texture; repeated diagonal watermarks across the background and fruit are a noticeable visual flaw (3)."
+    },
+    {
+      "blind_id": "case_73297d3d985ab94fdee1",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the green stem, calyx, centered composition and white watermarked background are retained; the fruit body is slightly but visibly wider through its upper sides, a nonrequested outline change (3). Instruction: the visible red fruit surface is now purple, matching the expected recoloring of this strawberry, with no substantial red flesh remaining (5). Quality assessed alone: the fruit silhouette, individual seeds and leafy crown are coherent, with consistent glossy lighting; the repeated diagonal watermark overlays are a clear artifact (3)."
+    },
+    {
+      "blind_id": "case_273942d003ef49b53dd1",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: stem and leaf geometry, fruit position, tapered outline and white background are preserved. Outside the allowed recoloring, the fine fruit texture is visibly smoothed and its small seed-pit highlights simplified (3). Instruction: the flesh changes from red to a saturated purple across the entire strawberry, as the requested result requires (5). Quality assessed alone: berry and foliage are structurally coherent, and the glossy lighting follows the rounded form; repeated diagonal watermarks are noticeable across the image (3)."
+    },
+    {
+      "blind_id": "case_d459c6c278897d95dcb6",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the upright stem, leafy crown, tapered fruit outline and background layout remain in place. The fruit surface has been smoothed, with small pit rims and surface detail simplified beyond a hue change (3). Instruction: the red flesh is replaced by purple over the whole fruit, fully matching the expected purple strawberry (5). Quality assessed alone: coherent fruit shape, leaf structure and distributed seed pits, with a consistent glossy surface; repeated diagonal watermark text remains a noticeable artifact (3)."
+    }
+  ]
+}

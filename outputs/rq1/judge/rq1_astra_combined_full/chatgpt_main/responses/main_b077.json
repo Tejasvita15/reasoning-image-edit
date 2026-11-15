@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b077",
+  "results": [
+    {
+      "blind_id": "case_8a7ab88d07dc1cc022a3",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The eight-bean count, orientations and overlapping arrangement remain, but bean surfaces are broadly redrawn with finer stippling, altered creases and more golden coloration; requested background, shadows, positioning and typography are excluded. Instruction: A white poster with elevated beans, soft shadows and a centered brown serif title is created. The expected title is “Crafted by time. Brewed for soul.”; instead both lines are nonsensical, and the type is heavy rather than fine, so compliance is partial. Quality: Bean shapes, lighting and surface detail are coherent, but the prominently displayed nonsensical lettering is a clear semantic flaw."
+    },
+    {
+      "blind_id": "case_8ec071b8a1de6c94823e",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Bean count, silhouettes, individual grooves, brown surface details and relative arrangement match the source; the background, shadows and added type are requested edit areas. Instruction: The edit adds a centered brown title on white while retaining the beans. A fine serif title with the complete specified sentence and soft dimensional shadows was expected; the oversized bold sans-serif “Crafte” omits most of the first sentence, and shadows below the group are very weak. “Brewed for soul.” is present, giving partial compliance. Quality: Beans and surfaces are coherent and the lettering is sharp, but the large incomplete word “Crafte” is a conspicuous semantic defect; no obvious shape corruption or ghosting appears."
+    },
+    {
+      "blind_id": "case_0cef3d74790e8baf765e",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Eight beans retain their general arrangement and orientations, but several individual outlines, seam shapes and surface wrinkles are changed, especially the central and bottom beans. Requested scale/placement, background, shadows and title are excluded. Instruction: The smaller group is elevated on white with soft shadows and a centered dark serif text block. The expected exact two-sentence title is replaced by three lines of corrupted words, and the text sits well above the bottom; the poster concept is only partially fulfilled. Quality: Bean forms and lighting are plausible, but multiple overprinted, broken and tangled letters across the text block create distracting corruption and unreadable wording."
+    },
+    {
+      "blind_id": "case_e9cf3c7d70dde5435f20",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: All eight bean silhouettes, groove patterns and relative overlaps are preserved, but the bean group has a visibly warmer reddish color cast. Requested beige background, shadows and title are excluded. Instruction: The edit provides a light beige minimalist poster, softly grounded beans and the correct complete wording centered near the bottom in dark brown. The first line uses an elegant serif, but the second line is sans-serif rather than the requested fine serif throughout, a minor deviation. Quality: Bean forms, textured surfaces and soft directional shadows are coherent; both lines are cleanly legible and the restrained layout has no noticeable generation artifacts."
+    }
+  ]
+}

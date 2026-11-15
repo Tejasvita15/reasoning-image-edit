@@ -1,0 +1,24 @@
+# Install CUDA PyTorch first; choose a wheel compatible with the GPU driver.
+# The original RQ1 requirements.txt is deliberately independent.
+transformers==4.55.4
+accelerate==1.10.1
+datasets==4.0.0
+huggingface_hub==0.34.4
+safetensors==0.6.2
+importlib_metadata==8.7.0
+qwen-vl-utils==0.0.10
+megfile==4.2.4
+einops==0.8.1
+sentencepiece==0.2.1
+pyyaml==6.0.2
+pillow==11.3.0
+numpy==2.2.6
+scipy==1.15.3
+matplotlib==3.10.5
+pandas==2.3.2
+tqdm==4.67.1
+lpips==0.1.4
+openai==1.102.0
+pytest==8.4.1
+# Install diffusers and RegionE from the pinned local checkouts with --no-deps.
+# RegionE's setup.py pins a different Triton; keep the version supplied by torch.

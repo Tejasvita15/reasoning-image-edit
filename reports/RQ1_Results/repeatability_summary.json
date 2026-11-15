@@ -1,0 +1,69 @@
+{
+  "main_batches": 380,
+  "repeat_batches": 10,
+  "total_cases": 1780,
+  "main_cases": 1760,
+  "repeat_cases": 20,
+  "main_scored": 1756,
+  "repeat_scored": 20,
+  "main_json_matches_previous_upload": true,
+  "Q100_definition": "mean(25*(rubric score - 1)) over applicable 1-5 rubric fields",
+  "Q_mean_first": 45.41666666666667,
+  "Q_mean_repeat": 43.54166666666667,
+  "Q_mean_signed_difference_repeat_minus_first": -1.8749999999999993,
+  "Q_MAD": 3.124999999999999,
+  "Q_MAD_bootstrap95": [
+    0.625,
+    6.249999999999999
+  ],
+  "Q_MedianAD": 0.0,
+  "Q_95th_percentile_AD_linear": 17.08333333333333,
+  "Q_maxAD": 25.0,
+  "Q_exact": 15,
+  "Q_exact_pct": 75.0,
+  "selection_by_model_condition": {
+    "step1x_thinking": 10,
+    "unireason_correction": 10
+  },
+  "metric_agreement": {
+    "consistency_score": {
+      "n": 20,
+      "exact": 16,
+      "exact_pct": 80.0,
+      "within_one_point": 19,
+      "MAD_on_1_to_5": 0.25,
+      "max_abs_diff": 2.0
+    },
+    "instruction_score": {
+      "n": 20,
+      "exact": 18,
+      "exact_pct": 90.0,
+      "within_one_point": 20,
+      "MAD_on_1_to_5": 0.1,
+      "max_abs_diff": 1.0
+    },
+    "quality_score": {
+      "n": 20,
+      "exact": 17,
+      "exact_pct": 85.0,
+      "within_one_point": 20,
+      "MAD_on_1_to_5": 0.15,
+      "max_abs_diff": 1.0
+    },
+    "knowledge_score": {
+      "n": 12,
+      "exact": 12,
+      "exact_pct": 100.0,
+      "within_one_point": 12,
+      "MAD_on_1_to_5": 0.0,
+      "max_abs_diff": 0.0
+    }
+  },
+  "limitations": [
+    "Only 20 repeated outputs drawn from 10 source examples; p95 is sample-sensitive.",
+    "Repeat selection contains Step1X Thinking and UniReason Correction only, so does not represent every model/condition.",
+    "Archive contains no repeat-session model/settings logs, so fresh-chat/model protocol cannot be independently verified from JSON alone.",
+    "Within-batch absolute ratings are adapted from KRIS official rubrics, not the official pinned API evaluator.",
+    "Image-level repeatability is not an effect-size threshold for group-mean contrasts."
+  ]
+}

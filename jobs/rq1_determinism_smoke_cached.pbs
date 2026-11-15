@@ -1,0 +1,36 @@
+#!/bin/bash
+#PBS -N rq1_det_cache
+#PBS -q normal
+#PBS -P personal-tejasvit
+#PBS -l select=1:ncpus=4:mem=32gb:ngpus=1
+#PBS -l walltime=02:00:00
+#PBS -j oe
+#PBS -o logs/rq1_determinism_smoke_cached.log
+
+set -euo pipefail
+
+cd "$PBS_O_WORKDIR"
+
+PYTHON=/home/users/ntu/tejasvit/scratch/conda_envs/step1x/bin/python
+
+# Reuse the existing scratch checkpoint cache.
+export HF_HUB_CACHE=/scratch/users/ntu/tejasvit/hf_cache/hub
+export HF_XET_CACHE=/scratch/users/ntu/tejasvit/hf_cache/xet
+
+# Avoid downloading model files again.
+export HF_HUB_OFFLINE=1
+
+export CUBLAS_WORKSPACE_CONFIG=:4096:8
+
+echo "Node: $(hostname)"
+echo "HF_HUB_CACHE=$HF_HUB_CACHE"
+echo "HF_HUB_OFFLINE=$HF_HUB_OFFLINE"
+
+nvidia-smi
+
+"$PYTHON" -u -m src.check_determinism \
+  --config configs/thinking.yaml \
+  --splits data/splits.json \
+  --seed 42 \
+  --num-examples 1 \
+  --output-dir analysis/rq1/determinism/thinking_smoke_cached

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b171",
+  "results": [
+    {
+      "blind_id": "case_780424946ad976158525",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white shirt, cropped portrait, wristband, wall and plant remain recognizable, but shirt folds/pocket geometry, neck shading and wall texture have visibly changed; hand corrections are excluded. Instruction: The curled fingers have been reshaped into a tighter fist. A successful correction would show an anatomically credible thumb and four folded fingers. The revised curl partially addresses the hand, but the outer fingers still merge without a clearly resolved fourth folded digit. Quality: Structure is problematic at the compressed outer fingers; lighting and overall pose are coherent, but conspicuous mottled/grainy skin and fabric reduce texture fidelity. No obvious duplication or ghosting."
+    },
+    {
+      "blind_id": "case_dffb4098837e0ea801f6",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The cropped face, wall, plant, overall framing and dark wristband are retained. Shirt folds around the upper sleeve and pocket are visibly redrawn, constituting a changed non-instruction element; hand/wrist adjustment is excluded. Instruction: The hand moves slightly right and its outline changes subtly, but the same three prominent folded-finger lobes remain. The expected correction is a credible five-digit hand with natural finger articulation; the missing/merged outer folded digit is not convincingly repaired, so most of the requested anatomical correction remains unresolved. Quality: Lighting, clothing and background are natural, without obvious ghosting; the hand has a clear finger-count/articulation ambiguity at its outer edge. Moderate softness alone is not penalized."
+    },
+    {
+      "blind_id": "case_419f76eb2b376f17e7ff",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Composition, white shirt, wristband, wall and plant are retained, but the shirt wrinkles/pocket, lower-face and neck contours/shadows, and wall markings are noticeably altered. Requested hand modifications are excluded. Instruction: The hand has stronger tendons and creases and slightly revised contours. The expected result is anatomically plausible fingers and thumb; three folded-finger lobes still terminate in an unresolved outer hand edge, so enhanced definition does not adequately correct the finger structure. Quality: Scene layout and illumination are coherent and fabric remains legible, but the hand's outer digit structure is unclear and its tendon ridges appear excessively sculpted. These are noticeable local anatomical/naturalness flaws."
+    },
+    {
+      "blind_id": "case_8b6513bd37461ef0e718",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The scene retains the cropped man, white shirt, wristband, pale wall and plant, but the chin/neck placement and contour and the shirt's sleeve folds, opening and pocket are visibly changed. Hand repositioning is excluded from this judgment. Instruction: The thumb is straighter and the hand is shifted upward/right. Correcting the unreasonable hand would require coherent five-digit anatomy; the fist still presents only three distinct folded-finger lobes with no convincing fourth folded digit, leaving the principal defect unresolved despite the thumb adjustment. Quality: Clothing, background, lighting and pose are coherent, with no obvious duplication. The outer curled fingers are insufficiently articulated, a noticeable anatomical flaw; the image's softness itself is not penalized."
+    }
+  ]
+}

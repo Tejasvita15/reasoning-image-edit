@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b032",
+  "results": [
+    {
+      "blind_id": "case_1be3b849c3b0b65d25fb",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Grass blades, purple tee, trees, sky, framing and ball position are retained; the ball has a clearly redrawn pattern of smaller, rounder dimples, beyond the permitted color change. Instruction: The white ball becomes black with gray reflected highlights. The expected result is the same golf ball colored black; the correct object and attribute are modified fully. Quality: Structure, naturalness, artifact absence and texture are satisfactory; the spherical ball, coherent dimples, glossy highlights and supported placement on the tee look plausible."
+    },
+    {
+      "blind_id": "case_441dade2b0b46da4e119",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Tee shape, ball position, grass layout, tree silhouettes and sky remain aligned, but the surrounding grass and foliage have visibly increased saturation and contrast. The requested ball color is excluded. Instruction: The white ball is now black throughout its shaded body with gray highlights, fulfilling the expected black golf ball appearance on the same tee. Quality: Structure and placement are coherent and no duplicated objects are visible; texture has a small imperfection where the dimples dissolve abruptly into a smooth patch at the upper left of the ball."
+    },
+    {
+      "blind_id": "case_22dfde2e6689e9365f71",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The ball location, tee geometry, individual grass arrangement, trees and sky layout remain recognizable and aligned; non-target grass and foliage are noticeably more saturated and contrasty. Instruction: The formerly white golf ball has a black body with subdued gray illumination. This matches the expected color modification of the existing ball completely. Quality: The sphere and tee are structurally coherent, perspective and contact are plausible, and no ghosting is visible. A small surface-texture issue is the abruptly smooth patch interrupting the dimples near the upper left."
+    },
+    {
+      "blind_id": "case_88f588390c286495b999",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The foreground grass, purple tee, distant trees, sky and composition remain visually preserved. The non-color dimple geometry is noticeably changed to smaller round indentations across the ball. Instruction: The ball changes from white to black while remaining a golf ball on its tee; gray highlights are compatible with black material and the requested attribute is fully achieved. Quality: Structure, naturalness, absence of artifacts and texture fidelity are satisfactory. The round ball has coherent shading and recessed dimples, clean edges and believable support on the tee."
+    }
+  ]
+}

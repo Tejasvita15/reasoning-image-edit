@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b103",
+  "results": [
+    {
+      "blind_id": "case_540ae9c277122aa3dd47",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The overall loop and three-strand arrangement remain, but the oval links become narrower and twisted, both ornate terminals become plain round disks, the clasp changes, and the background prop's contour and shadows change. These exceed the requested recoloring. Instruction: Gold changes to silver across the chains, terminals and clasp; the expected silver-colored necklace is present throughout, giving full color compliance. Quality, judging only this image: Structure, lighting and metallic texture are coherent overall; slight fused-looking link texture at the upper-left strand overlap is one small imperfection."
+    },
+    {
+      "blind_id": "case_a78ff0fa62cecef367d7",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Chain paths, oval-link shapes, decorative terminal outlines, clasp position and the cream prop's shape remain consistent. The peach background and prop have a visibly more muted, gray-beige tone, a non-requested scene-color alteration. Instruction: The gold links, both decorative terminals and clasp become silver; the expected silver necklace is fully realized. Quality, judging only this image: Coherent links and fittings, natural highlights and cast shadows, intact surface textures and no noticeable generation artifacts; moderate softness causes no semantic loss."
+    },
+    {
+      "blind_id": "case_6a7fd9438f3994ad2657",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The loop and three hanging strands retain their arrangement, but link shapes and spacing change, the upper terminal loses its embossed floral design, the lower terminal's emblem becomes a concentric pattern, and the prop's contour and background shadows change. Instruction: The necklace's chains, terminals and clasp visibly change from gold to silver throughout, satisfying the requested color change. Quality, judging only this image: The jewelry and setting have coherent forms and plausible lighting; a small area of crowded, blended links at the upper-left junction is imperfect, while the remaining chains and surface textures are clear."
+    },
+    {
+      "blind_id": "case_69106943cd5df14fdd7d",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The necklace layout, oval links, decorative terminal outlines, clasp, prop silhouette and shadow placement remain consistent. The background and cream prop shift toward a more muted beige, a noticeable unrequested scene-color change. Instruction: Gold is replaced by silver on the full chain assembly, both decorative ends and the clasp, matching the expected silver-colored necklace. Quality, judging only this image: Structure, naturalness, absence of artifacts and texture fidelity are satisfactory; links, fittings, highlights and shadows are coherent, and the mild softness does not obscure their meaning."
+    }
+  ]
+}

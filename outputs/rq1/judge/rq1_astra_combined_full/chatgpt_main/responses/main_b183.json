@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b183",
+  "results": [
+    {
+      "blind_id": "case_595289f8bb30ad506b40",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white backdrop and ball materials remain recognizable, but the composition is rebuilt: five balls replace three, the baseball moves to second place, extra tennis balls appear, and the floor reflections disappear. Instruction: The edit changes scale and adds balls; the expected result is the original three balls with equal baseball-sized diameters. The displayed balls instead descend through markedly different sizes, so the requested size match is not achieved. Quality, judged independently: Structural coherence ✔, naturalness ✔, artifact-free ✔, texture fidelity ✔; the five separate round balls have coherent seams, surfaces and contact shadows."
+    },
+    {
+      "blind_id": "case_5b26be770f137f4b9301",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, three-ball order and broad positions persist, but the baseball stitching and wear pattern change, the tennis seam rotates, and the reflections become stronger. Instruction: Surface patterns and reflections change while the tennis ball remains slightly smaller than the baseball and the golf ball much smaller. All three should match the baseball diameter; no meaningful equalization is visible. Quality, judged independently: Structural coherence ✔, naturalness ✔, artifact-free ✔, texture fidelity ✔; round contours, clear stitches, tennis felt, golf dimples and aligned reflections are coherent."
+    },
+    {
+      "blind_id": "case_b45aa00e516ffc40a55a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white reflective setting remains, but the baseball is replaced by a tennis ball and the row is repositioned substantially downward; object identity and layout are altered beyond resizing. Instruction: The left ball changes type and the balls change scale, whereas the expected result retains the baseball and makes both other balls match its diameter. The baseball is absent and the golf ball remains much smaller, so the requested operation is misinterpreted. Quality, judged independently: Structural coherence ✔ and texture fidelity ✔ for the two tennis balls and golf ball; naturalness ✘ because the left tennis ball lacks convincing contact and seems to float above its washed-out reflection. No additional major artifact is evident."
+    },
+    {
+      "blind_id": "case_ba96f4a84a029ed9773b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white setting, ball order and approximate positions persist, but the baseball seam arrangement changes, the tennis seam becomes two near-vertical curves, and floor reflections become more pronounced. Instruction: The visible changes concern surface orientation and reflections; the tennis ball remains smaller than the baseball and the golf ball markedly smaller. The expected three equal baseball-sized balls are not produced. Quality, judged independently: Structural coherence ✔, naturalness ✔, artifact-free ✔, texture fidelity ✔; the spherical forms, distinct material textures, contact shadows and reflections look coherent."
+    }
+  ]
+}

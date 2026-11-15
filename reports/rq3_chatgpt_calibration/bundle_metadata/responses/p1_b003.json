@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b003",
+  "results": [
+    {
+      "blind_id": "case_3bf3892538343d0c",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The branch, leaf arrangement, background bokeh, framing and backlighting remain visually consistent; the visible changes are confined to the leaves' damage appearance. Instruction: Numerous brown patches have been added to the previously mostly green leaves, establishing damaged foliage. However, the blades remain largely continuous and the marks read mainly as surface lesions rather than clear eaten-through holes, so the pest-damage outcome is only partially realized. Knowledge: The supplied explanation specifically predicts holes where insects consume leaf tissue. Predominantly brown spotting without clear new perforations is a noticeable mismatch with that explanation. Quality: Assessed independently, the image has coherent leaf shapes and veins, natural backlighting and depth of field, and convincing surface textures without noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_3b8eb8665bdf4300",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The eight existing dot panels, their black/white arrangements, the grid and the white background are preserved. Only the bottom-right answer cell is changed. Instruction: The question mark is replaced in the correct cell, but by one large solid black circle rather than the required 4-by-4 arrangement of black and white dots. Most of the requested pattern completion is missing. Knowledge: The supplied position-wise equality rule requires a separate output dot at each of 16 positions; a single solid disk cannot express those results. Instruction failure ⇒ knowledge invalid. Quality: Judged only as a rendered graphic, the grid and circles have clean boundaries, strong contrast and coherent geometry, with no noticeable visual artifacts; the incorrect puzzle answer is not a visual-quality penalty."
+    }
+  ]
+}

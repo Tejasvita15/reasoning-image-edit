@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b321",
+  "results": [
+    {
+      "blind_id": "case_88c0e33268af9315a4ab",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The pale background and blue flat fill remain, but the figure is rotated; resizing into a square and attempted bisector marks are excluded. Instruction: The rectangle becomes a roughly square tilted quadrilateral with corner projections and outward rays. A correct result would be a square with any depicted angle bisectors meeting centrally; the square-like body addresses the idea, but the displayed rays do not show that common intersection. Knowledge: The supplied explanation expects a blue square; the central body approximates one, but the corner spurs and diverging geometry introduce a clear conflict with the intended geometric construction. Quality: Flat color and background are clean, but angular corner protrusions and a disconnected upper-left stroke visibly compromise the diagram's structural coherence."
+    },
+    {
+      "blind_id": "case_8e89831690fed3960e80",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The blue flat-fill concept remains, but the background becomes whiter and a strong dark-blue perimeter outline changes the drawing style; attempted shape and bisector changes are excluded. Instruction: The rectangle becomes a curved, irregular filled figure with overlapping triangular segments. The expected square/parallelogram with four concurrent angle bisectors is absent; neither the boundary nor the several different line crossings implements it. Knowledge: The supplied blue-square expectation is not met. Instruction failure ⇒ knowledge invalid. Quality: The bowed boundaries, overlapping triangular appendage, and tangled off-center junctions create multiple distracting structural ambiguities despite a clean blank background."
+    },
+    {
+      "blind_id": "case_e24b693f102b360f14a4",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: A pale background and blue flat figure remain, but large black letter annotations and black leader strokes are added outside the requested construction; the attempted shape and bisector changes are excluded. Instruction: The rectangle becomes a five-sided house shape with yellow horizontal, vertical, and diagonal lines. A square with concurrent angle bisectors is expected; the pentagon is not a parallelogram, and the horizontal/vertical crossing is visibly above the diagonals' crossing. Knowledge: The supplied blue-square expectation is absent. Instruction failure ⇒ knowledge invalid. Quality: The filled polygon and thin lines are legible, but the right-side letter is overprinted into a malformed symbol, producing a clear local diagram artifact; flat surfaces and the rest of the layout are clean."
+    },
+    {
+      "blind_id": "case_d6122ccb1b9ab9d9d56b",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The pale background, centered placement, and flat blue treatment remain; two long horizontal bars are a clear added non-instruction element. The attempted geometric reshaping itself is excluded. Instruction: The rectangle is replaced by a blue triangle with two parallel horizontal strokes. The expected square/parallelogram and four angle bisectors meeting at one point are missing entirely. Knowledge: The supplied explanation requires a blue square, whereas this has three sides. Instruction failure ⇒ knowledge invalid. Quality: Considered alone, the triangle and parallel bars form a clean, coherent flat graphic with straight edges, uniform fill, a smooth blank background, and no noticeable generation artifacts."
+    }
+  ]
+}

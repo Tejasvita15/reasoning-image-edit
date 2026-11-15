@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b121",
+  "results": [
+    {
+      "blind_id": "case_05fee07b3419baee1ded",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The eight faces retain their eye fills, expressions, nested boxes and grid positions on white, but several box edges and corners are visibly wavier and facial curves/rings are redrawn with uneven contours. Instruction: The question mark remains; no answer face is drawn. Expected is a nested square sad face completing the right column, with a black right eye; therefore the requested modification is absent. Knowledge: The supplied explanation requires a crying face with the right eye black, which is not depicted. Instruction failure ⇒ knowledge invalid. Quality: Structure and symbols are legible, the flat graphic appearance and white field are coherent; slight unevenness in the black linework is a minor finish issue, without semantic loss."
+    },
+    {
+      "blind_id": "case_f13eeb8622b23a875698",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The eight existing nested squares, eye fills, mouth shapes, spacing, white background and outer boxes remain visually unchanged; the replacement at the question mark is excluded. Instruction: The question mark becomes a large circular smiling face with two filled eyes. Expected is a square sad face in the nested-box pattern with the right eye filled; the location and eye fill are addressed, but expression and enclosing geometry are wrong, leaving most of the specified answer poorly implemented. Knowledge: The visible smile contradicts the supplied crying-face expectation. Instruction failure ⇒ knowledge invalid. Quality: All symbols have coherent closed contours and readable facial features, clean white areas and consistent black strokes; no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_13535eae5514eb63e6ce",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The upper six cells and bottom-left face preserve their basic arrangement and eye states, but their borders and strokes become irregular, and the bottom-middle neutral face is replaced by curved closed eyes and a smiling, looped mouth. Instruction: The question mark is replaced by a narrow rectangular enclosure containing a distorted shaded face-like shape. Expected is the nested square sad face with a filled right eye; the drawn object does not instantiate that pattern. Knowledge: A clear crying face and correct black right-eye symbol are not supplied. Instruction failure ⇒ knowledge invalid. Quality: The lower-right figure has fused dark masses, broken white facial contours and an irregular silhouette; the bottom-middle mouth has an overlapping loop and smear. These multiple distracting distortions degrade structure despite the readable upper cells."
+    },
+    {
+      "blind_id": "case_cf15c1f4e7aec78b2bfe",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The existing eight nested-square faces, eye states, expressions, grid alignment and white background are visually unchanged; the added answer-region border is within the requested modification area. Instruction: An outer square is added around a retained, enlarged question mark, but no answer face appears. Expected is a square sad face completing the pattern with its right eye filled black, so the requested shape is missing. Knowledge: The retained question mark depicts neither the specified crying expression nor its eye state. Instruction failure ⇒ knowledge invalid. Quality: The grid, closed square outlines and question-mark glyph are clean and coherent, with stable flat black-and-white rendering and no noticeable artifacts."
+    }
+  ]
+}

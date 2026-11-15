@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b206",
+  "results": [
+    {
+      "blind_id": "case_c9496390c7b0402cedff",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pale backdrop and round glass-table arrangement remain recognizable, but the bouquet foliage and flower arrangement, vase proportions, and table leg/bracket shapes change noticeably; the book illustration also changes. Instruction: The book changes appearance but remains to the right of the vase. A successful move would put it to the left, so the requested side change is absent. Quality, edited image alone: Structure, lighting and glass reflections are coherent; the book has a small unnatural blending of its page block into the central fold. No distracting duplication is visible."
+    },
+    {
+      "blind_id": "case_821631fac9ff0fb7437a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The neutral background and broad table layout persist, but the flowers are rearranged, the vase base and proportions change, the table hardware shifts, and the illustrated book becomes a smaller blank spread. Instruction: The book remains on the right of the vase; the expected result is the book on the left. The required side change is not made. Quality, edited image alone: The book, vase, flowers and transparent legs have coherent shapes and natural lighting, with one small kink/discontinuity in the upper-right glass rim; textures otherwise look clean."
+    },
+    {
+      "blind_id": "case_82effffbe32bbacf3d49",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pale background and circular glass table remain, but the bouquet loses its prominent cream flowers, the vase base changes, and the table rear support/bracket and leg geometry differ visibly. Instruction: The open book is still to the right of the vase, with a changed food illustration. Moving it to the left was expected, so the instruction is not fulfilled. Quality, edited image alone: Structural coherence, lighting/reflections, artifact absence and texture fidelity are satisfactory; the open pages, ceramic vase, flowers and glass table appear plausible without noticeable defects."
+    },
+    {
+      "blind_id": "case_062a4059137a3739ca2e",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pale setting and glass-table concept remain, but the bouquet arrangement and vase silhouette change, table supports and lower-ring geometry differ, and the book illustration changes. Instruction: The book is still on the vase’s right. The expected edit places it on the opposite, left side, and that change is absent. Quality, edited image alone: The open book and page curvature are coherent, flowers and ceramic surfaces read naturally, and the glass legs, metal rings, reflections and shadows form a plausible scene without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_e450f45dd4c41779ad59",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The vase, individual flower arrangement, glass rings, clear legs, metal brackets and pale background are closely preserved. One clear unrequested alteration is that the open book becomes closed, with the food image now on its upper cover. Instruction: The closed book stays on the right side of the vase; the expected move is to the left. Changing the book’s open/closed state does not fulfill the instruction. Quality, edited image alone: The closed book, ribbed vase, flowers and table are structurally coherent; lighting, reflections and textures are natural, with no noticeable generation artifact. Softness does not obscure the objects."
+    },
+    {
+      "blind_id": "case_7f93dbab16b09a43e9ed",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pale background and circular table remain recognizable, but the vase moves toward the center, the bouquet changes, the upper metal ring becomes faint/altered, and an extra pedestal-like shape appears below the tabletop; the book also becomes closed with different imagery. Instruction: The book remains on the right of the vase, whereas the expected result places it on the left. The requested side change is absent. Quality, edited image alone: Most object shapes, surfaces and soft lighting are plausible, but a conspicuous pale stem and round pedestal under the tabletop look like a ghosted extension of the vase, making the central structure/reflection semantically incoherent."
+    }
+  ]
+}

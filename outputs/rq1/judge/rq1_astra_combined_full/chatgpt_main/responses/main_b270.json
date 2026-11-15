@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b270",
+  "results": [
+    {
+      "blind_id": "case_ccff1612da35b1fce82d",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The beige wall, wooden floor, seated composition and calico identity remain, but eye shapes, paw positions, flank outline and tail placement visibly change beyond anatomical correction. Instruction: The body and face are redrawn, but the central extra ear and the extra ear on the right both remain. A correct result would have two naturally placed ears and ordinary feline anatomy; neither extra ear is removed, so the requested correction is not achieved. Quality: Lighting, fur and floor textures are natural, but the four-ear head has two conspicuous anatomical duplications; paws and torso are otherwise coherent."
+    },
+    {
+      "blind_id": "case_43d02980b007801f9c91",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The warm wall/floor setting and seated framing remain, but the eyes become green, facial proportions change, and the white forelegs and orange patches become heavily striped tabby markings; tail placement also changes. Instruction: Both supernumerary ears are removed and the head now has two natural ears. The expected correction is normal feline anatomy, and the visible head, four paws and single tail fulfill it. Quality: Anatomy, fur, lighting and contact shadows are coherent and natural; a narrow pinkish vertical edge at the far right is a minor image artifact."
+    },
+    {
+      "blind_id": "case_c9a9b97cd6cbb51b5f6c",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Facial features, seated pose, paw placement, tail and beige-wall/wood-floor setting remain close to the source. The foreleg coat pattern visibly changes, especially the orange-and-dark patch added to the right foreleg; ear corrections are excluded. Instruction: The central extra ear is removed and the original right-side extra ear disappears, but an extra lateral ear is now visible on the left. A fully corrected kitten should have two ears; three remain, making the anatomical repair partial. Quality: Fur, eyes, paws, lighting and setting are coherent, but the left lateral third ear is a clear anatomical duplication."
+    },
+    {
+      "blind_id": "case_25ef48a666fa87490807",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The warm room, calico coloration and seated composition remain, but eye color/shape, facial proportions, front-leg spacing and floor details visibly change beyond the requested correction. Instruction: The kitten is redrawn with narrower forelegs, while the central extra ear and right-side extra ear remain. The expected result has two ears and ordinary feline anatomy; the conspicuous abnormal parts are not corrected. Quality: Detailed fur, plausible lighting and coherent paws are present, but two duplicated ears make the head anatomically implausible; a thin colored edge is also visible at the far right."
+    }
+  ]
+}

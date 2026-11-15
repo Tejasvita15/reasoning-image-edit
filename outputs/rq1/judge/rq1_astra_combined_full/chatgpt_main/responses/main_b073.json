@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b073",
+  "results": [
+    {
+      "blind_id": "case_cf84ffd4b83f3cfd4b6f",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The blue-to-peach sky, warm light, general skyline and foreground blocks retain their arrangement, but distant building silhouettes and numerous foreground roof/window details are redrawn; the landmark transformation is excluded. Instruction: The lattice tower becomes a green crowned, robed figure with raised torch and tablet at its site. The expected Statue of Liberty is fully present. Knowledge: The explanation identifies the Statue of Liberty, and the visible crown, torch, tablet and robe support that identification. Quality: The figure, drapery and city perspective are coherent, with no obvious duplicated anatomy; a small blending weakness at the thin base's contact with the rooftops makes its support less convincing."
+    },
+    {
+      "blind_id": "case_e54094212cd599360245",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Sky gradient, warm illumination, broad city layout and foreground building positions remain, but skyline building forms and roof/facade textures across the city visibly change. The changed landmark and pedestal are excluded. Instruction: The tower is transformed into a crowned green statue holding an elevated torch and tablet on a stone pedestal, fully delivering the expected Statue of Liberty. Knowledge: These visible identifying features match the supplied explanation's Statue of Liberty. Quality: The statue anatomy, robe folds, pedestal architecture and light direction are coherent; minor texture blending in distant city buildings reduces surface fidelity, without making the scene unreadable."
+    },
+    {
+      "blind_id": "case_37bc29749c75bcf0e74c",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The sky and broad warm-lit urban arrangement persist, while multiple distant buildings and foreground roof/window details are altered. Changes to the target tower itself are excluded. Instruction: The tower's lattice, upper tip and platforms are reshaped, but it remains an Eiffel-like tower; the expected crowned, torch-bearing Statue of Liberty is absent, so the requested transformation fails. Knowledge: The supplied explanation requires the Statue of Liberty, whereas the visible result remains a tower. Instruction failure ⇒ knowledge invalid. Quality: Lighting and the city layout are coherent, but the tower has visibly uneven, fused lattice members around its lower arch and platforms, a clear structural artifact."
+    },
+    {
+      "blind_id": "case_603baa6f9da22cb63a5b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The original sky gradient, lighting direction, general skyline and foreground blocks are retained, but distant building silhouettes and numerous roof/facade details are visibly redrawn. The landmark and its new base are excluded. Instruction: The lattice tower becomes a green robed figure with radiating crown, raised torch and tablet, supported by a masonry pedestal. This fulfills the expected Statue of Liberty transformation. Knowledge: The visible statue's identifying attributes agree with the explanation naming the Statue of Liberty. Quality: The figure, cloth folds, pedestal and surrounding city have coherent geometry and illumination; minor blended textures in distant buildings are the principal visible imperfection."
+    }
+  ]
+}

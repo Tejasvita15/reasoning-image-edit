@@ -1,0 +1,51 @@
+{
+  "array_walltime": "06:00:00",
+  "num_shards": 4,
+  "per_condition_slowest_pilot_seconds": {
+    "A": 82.17219065316021,
+    "B": 81.59225263609551,
+    "C": 40.20472073717974,
+    "D": 43.7036449983716,
+    "E": 44.19512288318947,
+    "F": 60.73255491023883
+  },
+  "protocol_hash": "a2001fe4612dfee6ae489c243b0fb204b1f04ba39f4877bf0f53853fe7f1438c",
+  "safety_factor": 1.3,
+  "setup_allowance_minutes": 30,
+  "shards": [
+    {
+      "estimated_seconds_with_margin": 17865.48632478281,
+      "examples": 10,
+      "quality_generations": 50,
+      "shard_index": 0,
+      "suggested_walltime": "05:00:00",
+      "timing_generations": 150
+    },
+    {
+      "estimated_seconds_with_margin": 17865.48632478281,
+      "examples": 10,
+      "quality_generations": 50,
+      "shard_index": 1,
+      "suggested_walltime": "05:00:00",
+      "timing_generations": 150
+    },
+    {
+      "estimated_seconds_with_margin": 17319.862400256985,
+      "examples": 10,
+      "quality_generations": 48,
+      "shard_index": 2,
+      "suggested_walltime": "05:00:00",
+      "timing_generations": 144
+    },
+    {
+      "estimated_seconds_with_margin": 18411.110249308636,
+      "examples": 10,
+      "quality_generations": 52,
+      "shard_index": 3,
+      "suggested_walltime": "06:00:00",
+      "timing_generations": 156
+    }
+  ],
+  "timing_repeats": 3,
+  "warning": "Estimate only: unseen edit regions, filesystem load, model loading and JIT compilation can change runtime. Resume unfinished shards; retain fixed membership."
+}

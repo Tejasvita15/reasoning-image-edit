@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b318",
+  "results": [
+    {
+      "blind_id": "case_b156b874e25e800e8bf2",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and black frame finish remain, but the botanical print is altered and foliage protrudes beyond its plane; the rear support also becomes an open horizontal rod. Viewpoint-dependent foreshortening is excluded. Instruction: The frontal view changes to a narrow oblique profile; an accurate side view should preserve the thin framed panel and its rear loop support. The side-view idea is present, but the protruding print and incomplete support make the object's reconstruction inaccurate. Quality: Structure ✘ and artifact-free ✘: plant leaves escape the panel and a long unsupported rod ends abruptly. Surface rendering and white-background lighting are satisfactory."
+    },
+    {
+      "blind_id": "case_00fb4d75dffcb0ffc701",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and black material remain, and disappearance of the front print is appropriate to a profile view. The full-height rear wire support is changed to a low rectangular foot, a clear non-requested construction change. Instruction: The broad front becomes a clean edge-on vertical bar. A correct side view would also show the original tall rear support; the low foot omits that major feature, so compliance is partial. Quality: Structure ✔, natural appearance ✔, artifact-free ✔, texture fidelity ✔: the straight dark upright and connected wire foot are clean and coherent."
+    },
+    {
+      "blind_id": "case_0927344b32943ff64798",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, black perimeter, and recognizable botanical subject remain. The print's small label is distorted and the visible retaining clips are changed/removed; botanical details are also redrawn. The allowed viewing-angle change is excluded. Instruction: The frame is seen from the opposite shallow frontal angle, with its photograph still almost fully visible. The expected result is a side profile of the panel and rear support; most of that change is absent. Quality: Structure and surface rendering are satisfactory, but the label and dimension characters at lower left are visibly malformed, a localized semantic artifact."
+    },
+    {
+      "blind_id": "case_1e4acc7e450bb9131fc2",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white backdrop and black frame material remain. Botanical foliage and contrast are redrawn, the lower-left label is distorted, and retaining hardware changes. Differences required by viewing direction are excluded. Instruction: The frame's tilt and perspective change slightly, but it remains a broad front-facing presentation. A proper side view would expose the narrow panel edge and rear support geometry; this is mostly missing. Quality: Frame structure, lighting, and surfaces are coherent. Artifact-free ✘: the lower-left branding and size text have broken, malformed characters."
+    },
+    {
+      "blind_id": "case_5f52c42d53e03ab56863",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Black frame color and white background remain. The botanical image is substantially redrawn, including different branching and rounded shrub forms, and the printed branding/size text is replaced by distorted characters. Instruction: The frame has a modestly altered front-oblique perspective with a visible right support. The expected side profile would greatly reduce the visible front face; the image still presents nearly the entire photograph, so the requested change is largely absent. Quality: The frame and plants are structurally coherent with consistent surfaces and lighting; the obviously garbled lower-left branding and dimensions are a clear text artifact."
+    },
+    {
+      "blind_id": "case_1bffde713f651a1296be",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white backdrop, black finish, and recognizable plant print remain. The thin rear stand is replaced by a broad framed translucent side panel, and the perimeter becomes a bulky central corner post, altering the object's construction beyond viewpoint alone. Instruction: The front is foreshortened and a side is prominently exposed, addressing the main idea. An accurate side view should show a thin picture frame with a wire support, whereas this depicts a deep box-like display, making compliance partial. Quality: Structure ✔, natural appearance ✔, artifact-free ✔, texture fidelity ✔: the framed transparent panels meet coherently, edges are continuous, and the printed foliage is visually plausible."
+    }
+  ]
+}

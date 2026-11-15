@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b262",
+  "results": [
+    {
+      "blind_id": "case_af211f83f6f56f15e2ea",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The red label and contoured glass bottle remain recognizable, but the white background becomes a dark gray vignette, the ground shadow extends strongly rightward, and the bottle shifts slightly left. Instruction: Foam is added inside the neck, but the red crown cap remains seated; the expected opened mouth is absent, so opening is not achieved. Knowledge: No liquid or bubbles spray out, and the bottle remains capped. Instruction failure ⇒ knowledge invalid. Quality: Structure, readable branding, glass texture, foam and studio lighting are coherent, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_05f45f18bbab61574085",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The white setting, red label and lower bottle contour are retained, but a second horizontal bottle and a hand are introduced, and the main bottle is shifted left with its shoulder/neck shape extensively changed. Instruction: The cap is absent and abundant foam surrounds a broad opening, but the narrow neck is effectively removed and a second bottle appears to pour into it; this only partially depicts opening the original bottle. Knowledge: Bubbles and airborne droplets are present as expected, but the apparent incoming pour from a second bottle conflicts with the requested pressure-driven spray from the shaken cola. Quality: The horizontal bottle neck merges indistinctly into the liquid mass, and the upright bottle has an abruptly truncated, oversized foamy mouth; these are multiple distracting structural defects despite coherent lower glass and white lighting."
+    },
+    {
+      "blind_id": "case_20ec1a32157c28becd80",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white setting and central upright composition persist, but the label lettering/small print is redrawn and the lower glass silhouette and broad reflections change. Foam, bubbles and the liquid stream are excluded from consistency. Instruction: Bubbles, neck foam and an angled liquid ribbon are added, yet the red crown cap still covers the mouth; no convincing opened bottle is shown, leaving the core change largely unfulfilled. Knowledge: The expected spray is not credibly connected to an open mouth. Instruction failure ⇒ knowledge invalid. Quality: The bottle and label are coherent overall, but the liquid ribbon appears to pass through or merge into the capped rim, creating a clear local structural ambiguity."
+    },
+    {
+      "blind_id": "case_2841eefebe5809ec65a7",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background, bottle placement, contour, red label and cap remain closely matched. Beyond the added foam and bubbles, the lower bottle has a visibly darker, altered reflection pattern. Instruction: Foam and rising bubbles are added inside the bottle, but the crown cap is still fully seated; the expected removal of the closure is absent. Knowledge: There is no outward spray of liquid or bubbles. Instruction failure ⇒ knowledge invalid. Quality: The bottle shape, branding and lighting are coherent; a small patch of dark grainy texture near the lower edge of the label looks blended into the glass, a minor surface imperfection."
+    }
+  ]
+}

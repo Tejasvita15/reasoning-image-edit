@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b223",
+  "results": [
+    {
+      "blind_id": "case_d6bc3535496371587e64",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray tabletop and wall remain, but the horizon is higher, the power bank is shifted upward, and the phone cable loses its connector; these exceed the permitted phone relocation. Instruction: The black phone moves from beside the bank to overlapping its upper-left edge. Expected is the same phone resting on the bank; this is largely achieved, although most of the phone overhangs and its support is awkward. Quality: Device outlines and surface shading are coherent, but the foreground cable ends in a blunt, connectorless tip and the phone support looks uncertain; textures otherwise look natural."
+    },
+    {
+      "blind_id": "case_08d981b25d5f8be2c0e1",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The wall, tabletop, power bank, ports and cable loops are preserved, but an additional large phone is introduced while the original remains on the left. Instruction: A new landscape-oriented phone stands above the objects; the expected edit would move the existing phone onto the bank. The existing phone stays in place, so the requested relocation is mostly absent. Quality: Surfaces and lighting are plausible, but the upright phone has oddly repeated navigation markings on both short bezels and its precarious support across the lower devices is visually awkward."
+    },
+    {
+      "blind_id": "case_200dfffb7e0376b287eb",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray setting and recognizable bank ports remain, but the horizon and bank position shift, the phone becomes white, and an extra broad silver-and-black device occupies the left side. Instruction: A white phone now lies across the bank and left device. Expected is the original black phone on the bank; the stacking idea is present, but the phone is replaced and only partly supported by the bank. Quality: Lighting and cable curves are coherent, but faint repeated vertical ghost marks cross the upper screen and adjacent surface, and the layered device edges at the lower-left support blend unnaturally."
+    },
+    {
+      "blind_id": "case_74a342d667489400cb48",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray background, bank port arrangement and white cables remain recognizable, but the bank moves upward and changes its top contour, the horizon shifts, and the phone bezel details change. Instruction: The phone has been raised into a nearly upright portrait position beside the bank. Expected is the phone resting on the bank top; its lower edge stays to the left of the bank, so the requested placement is largely missing. Quality: The phone is recognizable with a coherent screen, but appears unsupported upright on its connector, and the power-bank top has an unnatural rippled depression; cables and general illumination are plausible."
+    }
+  ]
+}

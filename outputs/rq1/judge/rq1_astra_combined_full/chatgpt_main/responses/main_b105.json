@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b105",
+  "results": [
+    {
+      "blind_id": "case_0ac21d06fc6bd3507d8b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The monitor, white desk, cable and blue background retain the scene layout, but both hands and shirt cuffs have changed shapes/textures; the unrequested right phone is smaller and its screen reflection differs. Instruction: The left phone shifts right and looks slightly smaller rather than enlarged. A successful edit would give it the large phone's height and width; it remains plainly shorter and narrower, so the requested adjustment is absent. Quality, edited image alone: Structure, lighting, finger arrangement, phone edges and surface textures are coherent; no noticeable generation artifact."
+    },
+    {
+      "blind_id": "case_570f72affc4d474d709a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The desk/monitor setting is recognizable, but the right phone's proportions, position and reflection change, as do hand creases and cuff patterns; the central background appliance is more exposed. Instruction: The left phone remains small while the right phone is reduced and shifted. The expected result is enlargement of the left phone to the original large phone's dimensions; that change is not made and the left is still substantially shorter and narrower. Quality, edited image alone: Both phones have coherent bodies, screens and controls; grips, skin, cloth and lighting look natural, with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_4aeca7c3c2d272445445",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The monitor, cable, desk and broad background layout are preserved. However, the gripping fingers/hand contours change and the right cuff's stripe placement changes; the right phone outline is also slightly shifted. Instruction: The left phone becomes only marginally taller, retaining almost its former width and remaining substantially smaller than the large phone. The expected edit would match both height and width; most of that enlargement is missing. Quality, edited image alone: Phone geometry and controls, hand anatomy, shadows and cloth textures are coherent and natural; no noticeable artifact."
+    },
+    {
+      "blind_id": "case_c209e3dfcf925812e617",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The same desk, monitor, cable and blue-lit background remain, but hand creases and gripping-finger shapes are altered; the right phone position and dark-screen reflection also change. Instruction: The left phone retains essentially its small proportions relative to the scene and stays markedly shorter and narrower than the large phone. Matching the large phone requires clear enlargement of the left phone, which is not visibly accomplished. Quality, edited image alone: The two phones, hand grips and shirt fabric are structurally plausible, with consistent lighting and intact edges; visible grain does not impair semantics or introduce a noticeable generation flaw."
+    }
+  ]
+}

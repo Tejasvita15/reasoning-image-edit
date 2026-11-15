@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b360",
+  "results": [
+    {
+      "blind_id": "case_6d331bae76756857aab6",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The diagonal charger, heading, wood-board layout and plug location persist, but a second cable appears behind the charger and the plug loses a pin while gaining black patches; these are outside the requested port-count change. Instruction: Ten port positions remain, including one corrupted socket, rather than the expected six USB sockets on this charger; the required count change is absent. Quality: Structure/artifact-free checks fail for the malformed upper-right socket, distorted plug, doubled cable and garbled small labels; lighting and basic material appearance remain coherent."
+    },
+    {
+      "blind_id": "case_36528ab6fff7be33978a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The heading, diagonal placement and three-pin plug are retained, but the charger casing is visibly taller with a new front opening, and wood/plastic textures become coarse. Instruction: The top now has twelve sockets in two columns of six, plus a front connector, instead of the expected six total interfaces; the count increases in the wrong direction. Quality: Overall perspective, lighting and object structure are coherent, but the front connector has an irregular interior and the few printed socket labels are distorted; texture shows grain without preventing recognition."
+    },
+    {
+      "blind_id": "case_e1f153acd66e7893014d",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The casing outline, plug, cable routes and floor seams remain, but the USB Charger lettering is distorted and smooth plastic/floor surfaces acquire conspicuous mottling and rough edges. Instruction: All ten sockets remain in their original two-column arrangement; a compliant result would have six, so the requested modification is absent. Quality: Basic structure and shadow placement are coherent, but socket labels are malformed, socket interiors are jagged, and widespread blotchy plastic texture and edge noise create multiple distracting artifacts."
+    },
+    {
+      "blind_id": "case_fd5d03564f3eb331d64c",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The charger shell, USB Charger heading, wood background, plug and cables remain visually consistent, but a large black screen bezel is newly added to the face beyond changing the number of sockets. Instruction: The ten sockets are replaced by a display with icons and controls, rather than six USB sockets; this completely misinterprets the requested interface count. Quality: Casing, plug, lighting and materials are coherent and clean; the display has conspicuously garbled labels and ambiguous symbols, a clear semantic flaw."
+    },
+    {
+      "blind_id": "case_e8db18d8b617fbb1d3f0",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The shell geometry, heading, plug, cables, floor-board layout and shadows remain in place; a noticeable granular surface-rendering change affects the otherwise smooth product image. Instruction: Every socket and its label is erased, leaving a blank face with zero interfaces; the expected result is six sockets, so the requested change is not fulfilled. Quality: Structure, perspective, lighting and surface continuity are coherent, with no malformed objects; fine rough speckling along the white casing is a small texture imperfection."
+    },
+    {
+      "blind_id": "case_111c963d1260b32b9425",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Diagonal casing placement, cable paths, plug geometry and floor seams persist, but the heading and small printed labels become distorted, and plastic/floor textures and edges acquire visible roughness. Instruction: Ten sockets are still visible in two columns of five, rather than the required six; there is no successful count modification. Quality: The product and plug have coherent shapes and plausible shadows, but small labels contain malformed characters and socket rims/interiors show jagged deformation; materials remain recognizable."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b166",
+  "results": [
+    {
+      "blind_id": "case_33ca5bbb4dcd421c1fab",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Cup position, outline, spout, white graduations and label, gray background and tabletop remain unchanged; liquid-dependent color and reflections are excluded. Instruction: The clear blue water becomes opaque yellow throughout. The expected result is yellow oil added to the existing water; yellow contents are present, but the retained water is not identifiable, so this is partial compliance. Knowledge: The explanation requires oil floating on water; the entire liquid column is uniformly yellow with no distinct upper oil layer, contradicting the required separation. Quality, judged on this image alone: coherent glass geometry, legible markings, smooth liquid surface, natural lighting and clean textures; no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_e4cf546a88ede9027d84",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 2,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The cup outline and base are reshaped, the graduations and brand lettering change substantially, and the background/table seam shifts; the gray setting and general cup placement remain recognizable. Instruction: A yellow oil layer has been added to the blue water in the measuring cup, visibly representing the requested addition after pouring; all required components are present. Knowledge: Oil visibly floats on top as explained, but a large connected yellow ribbon hangs deep into the water almost to the bottom, a clear conflict with the expected floating layer. Quality, judged on this image alone: glass, lighting and background are coherent, but multiple distracting text/scale errors include the scrambled brand and a nonmonotonic 260/280/400/100 measuring scale."
+    },
+    {
+      "blind_id": "case_20f355543e11ce951622",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The original receiving cup, spout, placement, label, graduations, tabletop and background are retained. The added pouring vessel, stream, contents and associated optical changes belong to the requested edit. Instruction: A tilted vessel pours a visible yellow stream into the existing measuring cup, accurately depicting the requested action. Knowledge: Instead of oil floating on water as the explanation requires, the yellow material occupies nearly the entire liquid column, with no distinct floating yellow layer over identifiable water; this contradicts the central expected behavior. Quality, judged on this image alone: the pouring vessel, continuous thick stream, receiving glass and readable markings are coherent, with natural highlights and no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_7743bb14861fcbcfd476",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 2,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The receiving cup becomes wider and changes its rim/base geometry, the original label and scale text are altered, and the background/table boundary shifts; the general gray setting remains. Instruction: A tilted transparent vessel pours a yellow oil stream directly into the blue water of the measuring cup, fulfilling the requested action. Knowledge: The added oil forms a large connected mass deep below the water surface without a visible floating layer. This is a clear deviation from the supplied expectation that oil should float on top, even though a descending stream can occur during pouring. Quality, judged on this image alone: the transparent vessels and lighting are coherent, but the cup has multiple distracting lettering and scale defects, including duplicated 150 labels, overwritten digits, a malformed volume label and garbled brand text."
+    }
+  ]
+}

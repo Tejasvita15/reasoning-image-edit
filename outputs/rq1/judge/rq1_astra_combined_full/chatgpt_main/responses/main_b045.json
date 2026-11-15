@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b045",
+  "results": [
+    {
+      "blind_id": "case_a0c4cd79ffeed4bf2cdf",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The tan coat, green backdrop and sandy setting remain recognizable, but the face/eye shape, head position, tail curve and background/ground texture change. Anatomical repair is excluded from this assessment. Instruction: The legs are repositioned and the leftmost paw is lifted; a corrected puppy should have four coherent limbs. Five separate legs and paws remain, so the central anatomical defect is largely uncorrected. Quality alone: Structural coherence is problematic because of the extra foreleg; fur also has conspicuous combed, repetitive ridging. Lighting and setting are coherent."
+    },
+    {
+      "blind_id": "case_ad25d7c752a71b119e7d",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The tan puppy and outdoor composition remain, but the muzzle/eyes, ear contours, tail position and ground texture noticeably change beyond anatomical correction. Instruction: The splayed leg becomes more upright and the inner paw moves backward. The expected result is four normally attached limbs; a duplicate leg and paw remain immediately behind the left foreground leg, leaving five paws. Most of the essential correction is missing. Quality alone: Natural light, fur and background are satisfactory, but the duplicated left foreleg/paw is a clear anatomical artifact."
+    },
+    {
+      "blind_id": "case_5ae3c246bdd9c3e5119f",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The puppy identity is substantially changed to a broad-headed, heavier dog with amber eyes, a dark muzzle and altered ears; body proportions and background texture also change. The green-and-sand scene remains. Instruction: The extra foreground limb is removed and a coherent four-legged stance is established. A perfect result would repair the same puppy; this instead substantially replaces its appearance with a mature-looking dog, so compliance is partial. Quality alone: Anatomy, four-leg arrangement, paw contact, lighting and fur texture are coherent, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_847e027900b8eab46e35",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The tan puppy and general scene layout remain, but the muzzle markings, facial contours, tail curve and background/ground texture visibly change. Requested limb corrections are excluded. Instruction: The extra foreleg is removed and the puppy now has a plausible four-legged arrangement, with the far hind paw partly occluded. The left foreground paw still has irregular merged toes and an awkward wrist contour, so the repair has a minor residual defect. Quality alone: Lighting and overall form are natural, but the left foreground paw has distorted toe outlines and a conspicuous uneven transition at the wrist; the remaining fur and setting are coherent."
+    }
+  ]
+}

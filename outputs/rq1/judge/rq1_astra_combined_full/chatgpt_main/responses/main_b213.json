@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b213",
+  "results": [
+    {
+      "blind_id": "case_07d2ffd6eb4175d9907a",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The woven crown, lace crown band, lace-edged brim and lace bow remain consistent with the source; requested hanging pose, brim tilt, lighting, palette and background changes are excluded. Instruction: The isolated hat is now hung on an aged white door, right of center, with an upturned brim and dangling bow. The intended warm nostalgic door scene and exact caption words are present at upper left, but the lettering is heavy rather than fine and the shadows and wear are stronger than requested. Quality: Structure, legible lettering, woven/lace textures and the hook-supported hanging arrangement are coherent; lighting and shadows look natural, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_38dd0a822eae700549da",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The general sun-hat form survives, but the crown/brim weave becomes much coarser and the delicate lace bow is replaced by thick woven straps and loops; the scalloped trim is also redesigned. Requested scene, pose and lighting changes are excluded. Instruction: The white weathered door, warm light, hanging hat, raised brim and natural bow realize the main scene. Perfect compliance would also show the specified sentence in fine handwriting at upper left; the prominent two-line pseudo-writing does not reproduce it, and the cast shadow is relatively hard. Quality: Hat shape, door construction, light and textile texture are coherent. The conspicuous heading contains malformed, semantically unintelligible words, a clear text-generation flaw."
+    },
+    {
+      "blind_id": "case_f54217db74d1f15522cd",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The source's fine lace bow changes to a coarse woven bow and straps, while the lace brim border and hat weave become differently patterned and more pronounced; the basic crown and broad brim remain recognizable. Requested pose, setting and illumination are excluded. Instruction: A hanging hat with lifted brim and dangling bow appears against a warm off-white wooden door, creating the intended quiet sunlit mood. However, the upper-left heading is nonsensical rather than the required caption, door-frame context is minimal, and the light produces strong shadows. Quality: Viewed alone, the hat, door panels and warm directional light form a plausible scene with clear textile texture. The two-line malformed heading is a noticeable semantic/text artifact."
+    },
+    {
+      "blind_id": "case_7a5d2c8db66f5ce31ec0",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The hat retains its woven crown, open lace band, fine scalloped lace edge and lace ribbon/bow construction. The modified hanging pose, scale, framing, illumination and door background are explicitly requested and excluded from consistency. Instruction: The hat hangs slightly right of center on a weathered white door with a lifted brim and freely hanging bow; warm muted colors and the correct upper-left handwritten caption fulfill the core request. The conspicuous dark opening behind the hat and fairly strong frame shadows depart slightly from the restrained background and soft-shadow requirement. Quality: The hat, ribbon, hook, paneled door and readable script are structurally coherent. Warm directional lighting and cast shadows are plausible; fabric and wood surfaces show no noticeable corruption or duplication."
+    }
+  ]
+}

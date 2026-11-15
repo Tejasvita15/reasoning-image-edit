@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b005",
+  "results": [
+    {
+      "blind_id": "case_b3b61ffe908d8b45ac0c",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and block colors remain, but the red block is shifted right and down and acquires an extra partly hidden rear stud; the blue block also shifts. Instruction: The blue block is slightly reduced, but still has a long eight-stud body substantially larger than the red block. The expected result is the blue block resized to the small red block’s size; most of that adjustment is missing. Quality: Structure is problematic at the red block’s rear, where an extra overlapping stud disrupts its otherwise regular arrangement. Plastic textures, lighting and the blue block are coherent; this is a noticeable duplication artifact."
+    },
+    {
+      "blind_id": "case_4f5f5d8aab0db48aec44",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white backdrop and red/blue colors remain, but the blocks swap sides, both change viewpoint, the red block is extensively redrawn, and new ground shadows appear. Most major non-instruction scene details change. Instruction: The blue block becomes compact, approaching the red block’s size, but remains wider and shorter with an irregular stud layout. The expected blue block should match the small red block’s size; resizing is attempted but the dimensions do not match reliably. Quality: The blue block has an anomalously short central stud and an irregular top arrangement, a clear structural flaw. The red block, background, plastic surfaces and overall lighting are otherwise coherent."
+    },
+    {
+      "blind_id": "case_ac4fb46bfd71302dec5f",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and colors remain, but the red block moves right/down and gains several partial rear studs, and the blue block shifts. These are multiple noticeable non-instruction changes. Instruction: The blue block remains an elongated eight-stud block much larger than the red block despite a modest reduction. The expected edit would make it the small block’s size; most of the necessary size change is missing. Quality: The red block has overlapping partial studs along its rear edge, producing a clear duplicated/ghosted structure. The blue block geometry, lighting and glossy plastic surfaces are otherwise coherent."
+    },
+    {
+      "blind_id": "case_5b5aaf4fa37725406835",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and blue color remain, but the red block is removed entirely and the blue block is relocated to the left. These are two clear non-instruction alterations. Instruction: The blue block is shortened from eight studs to six and made more compact, but remains rectangular rather than reaching the small block’s compact size; the reference block is no longer present. The expected result is the blue block matching the original small red block’s size. This realizes the reduction only partially. Quality: Structure, perspective, highlights and plastic texture are coherent. The six studs form a regular arrangement, the block edges are intact, and no noticeable generation artifacts are visible."
+    }
+  ]
+}

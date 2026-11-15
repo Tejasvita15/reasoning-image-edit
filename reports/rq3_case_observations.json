@@ -1,0 +1,54 @@
+{
+  "generation_protocol_hash": "a2001fe4612dfee6ae489c243b0fb204b1f04ba39f4877bf0f53853fe7f1438c",
+  "evaluation_protocol_hash": "095c775e5aae19c2469c5647e717d9209b14a9887ae43ec7410f50657e6af2e2",
+  "reviewer": "Assistant visual inspection of generated side-by-side source/output grids; not independent human scoring",
+  "score_policy": "Original manual ratings unchanged; these are post-hoc qualitative notes, not replacement scores or a new reliability study",
+  "observations": [
+    {
+      "example_uid": "count_change__48",
+      "observed_conditions": "ABCD",
+      "output_sha256": {
+        "A": "bdbc9319a66fe8f06742fc5ccd59b5b08a85feaf6072e93c7d86e7e4e18302a5",
+        "B": "5b73012caafe0fcc3a8d1045ab36fa68ff9eb7a8ee005a41b32750cf97efd07f",
+        "C": "b55a6f824b653f906b0f535dc4b079cf19f8a066b48563ca8e69aa09636040e4",
+        "D": "65aeec50999b4ddef24cbd2bb4eafdbc82c5d8c691fb110a9194ec8f542da36e"
+      },
+      "observation": "The source shows eight forks and requests six. The saved rewrite says to remove four forks, which is an incorrect count adjustment. A/C retain eight visible forks; B/D are nearly blank. This illustrates both a rewrite error and failure to execute even that rewrite, rather than an acceleration-specific failure."
+    },
+    {
+      "example_uid": "mathematics__6",
+      "observed_conditions": "ABCD",
+      "output_sha256": {
+        "A": "862bd744cd7ec1b7f8582f499049ec1d619370c9d5c1625d0501bd9c45718c50",
+        "B": "0ce4f9f55822bb04c0eaf10499f7c688f739edb13c5b7a31d1adb1a8278d02f3",
+        "C": "4327e78c91de0b7e0e7dcef09f2d53bd32610eafce3867d9bb0709ce6f1d5fa2",
+        "D": "7e668136a6b3907745d05efb505d738918ae9ea3543b0d2f713dda3a5b01e1d7"
+      },
+      "observation": "A/C replace the original large-and-small-circle layout with several overlapping circles. B/D preserve the large circle and move the green circle toward its center, but also introduce a blue filled patch. This is a relative improvement consistent with the higher judge scores, not an error-free edit."
+    },
+    {
+      "example_uid": "count_change__47",
+      "observed_conditions": "BDEF",
+      "output_sha256": {
+        "A": "449dfb0174a82a03d2cb8c6d66258d86faa11278eb3afc4e37150cfd25b0307f",
+        "B": "42fa0bfe3350b710839deaedcf20eb394a9e3b52550e345ac27e1e41bb33bfc3",
+        "C": "6635cffe6dd643fcac6a8a4692d6dc59135f7dda0513631686bb6a3b553df920",
+        "D": "1b1460724f3088bdd53030359d6fc8be8b5bc314e19faf2f3cd4fe3340010dea",
+        "E": "0c8800c8f5757d3c6f4814274f9877f04dfe855d9b4f6b7c7c11c92da6b15630",
+        "F": "4a621513f1a2c08859ef531dfb06741430b7ae3b537ff83418e96a767d870623"
+      },
+      "observation": "The requested output has six interfaces, but B/D/F show a blank charger face without the requested visible ports despite Q=83.33. E also changes the charger, plug and background substantially. The removal-of-RIKV example supports visible context disruption while exposing a mismatch between the judge rating and exact counting correctness."
+    },
+    {
+      "example_uid": "position_movement__30",
+      "observed_conditions": "ABCD",
+      "output_sha256": {
+        "A": "3f1c5bc7834bd53a14654df11e45a3210ca4221ab2c15d5f413db39d456b6a31",
+        "B": "c9aa534bb101b1de3edea31895f46738a8e1d8893603fd82c3713df575479722",
+        "C": "3a51c8875fb448e12eafe0d39db4d7a89ae1a28287036ff5f08b55cda6128fce",
+        "D": "072a6a65df7f57c6d335fed7cc2205e468ca407c6ffe81e27db7cd68da50f72a"
+      },
+      "observation": "B and D both show three cups where the source has two: the left cup remains while another cup appears above the right one. Their broadly similar failure receives different scores (B=58.33, D=41.67). Treat this as a score-selected discrepancy case, not independent visual proof that RegionE caused a 16.67-point semantic loss."
+    }
+  ]
+}

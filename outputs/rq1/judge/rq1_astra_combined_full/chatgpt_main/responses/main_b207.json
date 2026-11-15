@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b207",
+  "results": [
+    {
+      "blind_id": "case_025740f5274cc8684fd9",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray backdrop, board placement, tabletop and warm lighting remain recognizable; the board's foreground grain is visibly redrawn, especially the light streak at right. Instruction: The five overlapping slices remain five, with small contour changes. Expected: six identifiable slices of the pictured bread. No sixth slice has been added, so the requested count change is absent. Quality assessed on this image alone: structural coherence, lighting/shadows, artifact absence and bread/wood textures are satisfactory; no noticeable generation defect."
+    },
+    {
+      "blind_id": "case_0000a4c7f01f3efcc146",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The wooden-board setting and warm light remain, but board grain/outline and the background texture/viewpoint have visibly changed; the original foreground knot and crumb are absent. Changes needed to display six slices are excluded. Instruction: Five overlapping slices become six separate slices in two rows of three. Expected: six identifiable slices of the pictured toast/bread; the count is exactly fulfilled. Quality assessed on this image alone: six coherent slice outlines and plausible placement/shadows, but the crumb has conspicuous black cavities and smeared pale webbing that look synthetic; texture fidelity is problematic."
+    },
+    {
+      "blind_id": "case_838461531fbc5dcc690b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: A brown board on a gray wooden surface remains, but the board grain and outline are redrawn and the backdrop is more distinctly grained with a changed viewpoint; foreground knot/crumb details are lost. The six-slice display itself is excluded. Instruction: The overlapping group is changed to two rows of three complete slices. Expected: six identifiable slices of the pictured bread; exactly six are present, fulfilling the contextual count request. Quality assessed on this image alone: coherent individual bread shapes, convincing porous crumb and crust, natural shadows and depth of field, and no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_c86836a98a843b32d192",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The board, gray backdrop, tabletop and warm illumination retain their general positions, but the board grain is visibly redrawn and the existing slices have changed contours and larger, differently distributed crumb pores beyond a count adjustment. Instruction: The fan still contains five slices despite changes in their shapes and spacing. Expected: six identifiable slices; the requested additional slice is absent. Quality assessed on this image alone: coherent overlapping bread structure, natural crust and crumb, plausible shadows and photographic softness, with no noticeable generation defect."
+    }
+  ]
+}

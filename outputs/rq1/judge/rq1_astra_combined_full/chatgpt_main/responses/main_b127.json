@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b127",
+  "results": [
+    {
+      "blind_id": "case_e848d4cb94c561b39638",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The grid, gray cells, beveled covered squares, blue clue digits and green 2 are preserved; added red marks are excluded. Instruction: Red vertical strokes appear in open blank cells, with no red X at any mine. Expected X positions are row 1 column 6, row 3 column 3, and row 4 column 5 (counting from the top left); this completely misses the requested marking. Knowledge: The supplied explanation is blank; the visible clues imply these three mine positions, while the strokes mark open cells. Instruction failure ⇒ knowledge invalid. Quality: Satisfactory regular grid structure, readable digits, coherent flat shading and clean strokes; no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_18154ba90a1c525501dc",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Grid layout, existing clue values/colors, gray background and covered-cell bevels are preserved, excluding added red symbols. Instruction: A red 2 is added at row 1 column 6 and a red 1 at row 3 column 3. Expected red Xs belong at those cells and row 4 column 5. Two positions are addressed, but the symbols are wrong and the third mine is unmarked, a major implementation failure. Knowledge: No explanation was supplied; task-implied clue logic supports the two marked locations but also requires the omitted mine. Instruction failure ⇒ knowledge invalid. Quality: Satisfactory square grid, legible numerals, consistent bevel shading and clean surfaces; no visible structural artifacts."
+    },
+    {
+      "blind_id": "case_5a4e5cc134a9a83b8d16",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The existing clue at row 4 column 3 changes from blue to red, a clear non-requested clue alteration; the grid, other digits, covered squares and gray background remain consistent. Instruction: Only that existing 1 is recolored; no red Xs are added. Expected mine marks are at row 1 column 6, row 3 column 3 and row 4 column 5. The requested operation is absent. Knowledge: The explanation is blank; the visible red digit is an already revealed clue, not a mine inferred from the neighboring counts. Instruction failure ⇒ knowledge invalid. Quality: Satisfactory grid alignment, readable digits and clean, coherent cell shading; no noticeable generation defects."
+    },
+    {
+      "blind_id": "case_757671b0fc589676a6ff",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The blue 1 at row 4 column 3 becomes a red, altered glyph; this changes an existing clue. Other existing digits, gray grid and beveled covered cells retain their layout. Instruction: Red numeral-like marks appear in the lower-left open cells rather than red Xs at row 1 column 6, row 3 column 3 and row 4 column 5. No required mine position is marked. Knowledge: The explanation is blank; direct Minesweeper clue logic places mines in covered cells, not these open lower-left squares. Instruction failure ⇒ knowledge invalid. Quality: Grid and shading are coherent and most digits are legible, but the repeated red glyphs in column 3 have visibly malformed, inverted-T-like numeral shapes, a clear semantic rendering flaw."
+    },
+    {
+      "blind_id": "case_95c9038926549b3072e0",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Many existing blue 1 clues are recolored red across multiple rows, changing several non-requested clue elements; grid geometry, covered-cell bevels and the green 2 remain consistent. Instruction: Red 1s are added in open cells and existing clues turn red, while none of the covered mine locations receives an X. Expected Xs are at row 1 column 6, row 3 column 3 and row 4 column 5; this misinterprets the requested marking. Knowledge: The supplied explanation is blank; visible clue logic requires mines in those covered cells, not the red numbered open cells. Instruction failure ⇒ knowledge invalid. Quality: Satisfactory regular cell structure, legible numerals, consistent flat colors and bevels, without noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_94f1ec4d0343b4029382",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Existing blue digits, green 2, covered-cell borders, gray background and grid layout are preserved; added red annotations are excluded. Instruction: Paired red dots fill numerous blank open cells. There are no red Xs at the clue-implied mines: row 1 column 6, row 3 column 3 and row 4 column 5. Both symbol and locations fail the request. Knowledge: No explanation was supplied; the visible Minesweeper clues imply those covered-cell locations rather than the open cells receiving dots. Instruction failure ⇒ knowledge invalid. Quality: Satisfactory grid coherence, readable digits, orderly circular marks and clean flat shading; no noticeable structural or texture defects."
+    }
+  ]
+}

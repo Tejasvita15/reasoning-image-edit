@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b203",
+  "results": [
+    {
+      "blind_id": "case_851ab3f626bc0d2d6553",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: grid, rounded border, existing symbols and other cell colors are preserved, but the center cell changes from white to yellow. Instruction: only that fill visibly changes; no new X appears. The required result is one X in the bottom-middle cell to complete the middle column, so the requested move is absent. Knowledge: the supplied explanation is blank; the mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: coherent square grid, legible symbols, even color fields and clean rounded shapes; moderate softness creates no semantic ambiguity or noticeable artifact."
+    },
+    {
+      "blind_id": "case_6b68a356614682b080de",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the board layout and existing symbol locations remain, but the bottom-right background changes from blue to white and flat surfaces/edges acquire visibly uneven mottling and roughness. Instruction: an X is added at bottom-right; the expected addition is bottom-middle, completing the middle column. The added X makes no three-in-a-row, missing the central win requirement. Knowledge: the explanation is blank; mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: grid and symbols are coherent and readable, with one minor surface/edge texture roughness issue; no broken or ambiguous shapes."
+    },
+    {
+      "blind_id": "case_57a7547c9dac74c69580",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: excluding the X additions assessed under instruction compliance, the rounded frame, grid, original symbols and white/yellow/blue cell arrangement remain visually preserved. Instruction: Xs appear in both middle-left and bottom-middle. The expected single bottom-middle X is present and completes the middle column, but an additional move is also made, so the requested single placement is only partially followed. Knowledge: the supplied explanation is blank; task-implied tic-tac-toe logic supports the completed middle-column win, but adding two Xs in one move is a clear logical violation. Quality: coherent clean grid, recognizable consistent symbols and smooth color fields; no noticeable artifacts or ambiguous structures."
+    },
+    {
+      "blind_id": "case_1f9dfd3fd10bad137329",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: frame, grid and original symbol locations remain recognizable, but middle-right changes from white to yellow and bottom-right from blue to yellow; the surfaces also gain conspicuous speckling. Instruction: a new X occupies bottom-right instead of the required bottom-middle cell, so it completes no line and fails the requested win. Knowledge: the supplied explanation is blank; mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: the grid and X/O shapes remain coherent and readable, but conspicuous granular colored noise and rough edges visibly degrade the otherwise flat graphic."
+    }
+  ]
+}

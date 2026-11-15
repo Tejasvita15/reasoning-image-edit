@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b204",
+  "results": [
+    {
+      "blind_id": "case_1029d66a3c34f12d63e1",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The vase, turquoise/white bouquet and pale backdrop retain their appearance and placement; the table is visibly stretched downward, shifting its rim, lower rail and feet. Instruction: The open book has disappeared from the right, with no book on the left. A successful move would retain the book on the opposite side of the vase; removal alone does not follow that instruction. Quality: Structure, lighting, reflections and glass/metal textures are coherent; no noticeable generation artifact is visible."
+    },
+    {
+      "blind_id": "case_1309c04a1c8915fe9603",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The round glass table and pale setting remain recognizable, but the bouquet is substantially rearranged, a detached turquoise bloom is added on the book, and the lighting/metal contrast changes. Instruction: The book remains to the right of the vase, with altered pages and an added flower. The expected book to the left is absent, so the requested side change is not performed. Quality: The table, vase, flowers and open book have coherent shapes, plausible contact and reflections, and natural surface textures without a clear artifact."
+    },
+    {
+      "blind_id": "case_6eaba19d4821a41b978e",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The vase and bouquet, table rim and chrome rings, transparent legs, pale background and floor shadows remain visually consistent; the vacated book area is excluded from this check. Instruction: The book is removed from the right but does not appear on the left of the vase. The expected relocation of the same book is therefore not achieved. Quality: The glass tabletop, support geometry, vase reflection and flower textures are coherent and natural, with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_cd4066de27e314e080e5",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The vase, bouquet and pale backdrop remain consistent, but the table geometry extends farther downward, moving the front rim, lower ring and feet. Instruction: The book now stands upright on the same right-hand side of the vase instead of lying open. The expected move to the left has not occurred; changing its orientation does not fulfill the requested side change. Quality: The upright partly opened book, reflected image, glass table and flower arrangement are visually coherent, with plausible materials and no noticeable generation defect."
+    },
+    {
+      "blind_id": "case_c6a5d8060d187eeb68c5",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The glass table and pale setting are retained, but a second white cylindrical vase-like object appears behind the bouquet on the left, the foliage changes, and additional reflected forms appear on the tabletop. Instruction: The recognizable open book disappears; the new white object lacks identifiable book pages or the original printed spread. The requested book on the other side is not present. Quality: The main table and vase are coherent, but the extra white object has an ambiguous curled form and the separate white wedge reflected to the right of the vase has unclear correspondence, producing visible semantic/reflection problems."
+    },
+    {
+      "blind_id": "case_54aea938fea6f9aea896",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The vase, flower arrangement, circular glass edge, chrome supports, clear legs and pale floor/background retain their visible appearance and positions; changes where the book was removed are excluded. Instruction: The original right-hand book is absent and no relocated book is visible on the left. The expected side-to-side move is not accomplished. Quality: The table construction, reflective surfaces, flower shapes and lighting remain coherent and natural, without noticeable artifacts."
+    }
+  ]
+}

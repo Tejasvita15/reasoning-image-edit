@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b014",
+  "results": [
+    {
+      "blind_id": "case_c7362102321fda2c978d",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The upper plus and diamond rows retain their symbol types, and the bottom-left boxed star and center crossed star remain, but the left column shifts left and the outer frame widens; these are multiple non-requested spatial changes. Instruction: The blank bottom-right outline is replaced by a large four-pointed star and only two small star-like marks on its left. The expected replacement is a four-pointed star surrounded by four black dots, so the central shape is correct but its required surround is incomplete. Knowledge: The supplied explanation requires four surrounding black dots; two irregular star-like marks fail that requirement, although the central four-pointed star fits. Quality: The diagram is legible, with clean white space and coherent shapes; the two tiny left-hand marks have slightly irregular, rough silhouettes."
+    },
+    {
+      "blind_id": "case_1e1805a33d85ece76840",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The outer frame, boxed plus/diamond/star column, crossed-symbol column, and two upper dotted symbols remain visually unchanged after accounting for display scale. Instruction: The bottom-right outlined blank shape remains empty, with no replacement; the expected four-pointed star and four black dots are absent. Knowledge: The supplied explanation requires a four-pointed star with four black dots, none of which appears in the target. Instruction failure ⇒ knowledge invalid. Quality: The standalone diagram has coherent geometric symbols, clear spacing, intact outlines, and a clean background; slight raster softness does not obscure any shape."
+    },
+    {
+      "blind_id": "case_35d119c4612393419631",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The existing symbol types and their row order remain, including both upper dotted figures and the crossed-star cell, but the boxed left column shifts left and the enclosing frame changes width and placement. Instruction: The bottom-right blank outline becomes a large hollow diamond; the expected four-pointed star with four surrounding dots is missing, so the target was changed but the required content is incorrect. Knowledge: A hollow diamond without dots contradicts the supplied star-and-four-dots explanation. Instruction failure ⇒ knowledge invalid. Quality: The standalone diagram is clear and structurally coherent, with closed geometric outlines, solid symbols, uncluttered spacing, and no noticeable rendering defect."
+    },
+    {
+      "blind_id": "case_7589d624fcbed3e5679c",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The outer border, left boxed shapes, middle crossed shapes, and upper right dotted figures retain their arrangement and appearance after accounting for display scale. Instruction: A black branched cross-like mark is inserted within the retained bottom-right outline. The expected replacement is a four-pointed star with four surrounding black dots; neither the correct star silhouette nor its dot surround is provided. Knowledge: The branched mark and missing dots fail the supplied explanation. Instruction failure ⇒ knowledge invalid. Quality: The diagram remains legible with intact framing and clear upper symbols, but the bottom-right mark has an awkward fused junction and uneven diagonal branches, a noticeable structural distortion."
+    }
+  ]
+}

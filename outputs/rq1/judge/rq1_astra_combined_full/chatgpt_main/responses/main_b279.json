@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b279",
+  "results": [
+    {
+      "blind_id": "case_2c3aeb0e87543c36369b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 2,
+      "rationale": "Consistency: The beige textured background becomes white and the orange ball becomes much smaller; the gray base and dark spring remain recognizable in their original area. Hand removal is excluded. Instruction: The pressing hand disappears completely, matching the expected released, unrestrained ball. Knowledge: The explanation requires spring elongation and a rising ball; the spring remains compressed and the small ball stays at essentially the original support height, so both expected consequences are missing. Quality: Coherent spring, base, lighting and textures, with a minor rough, ragged contour around the orange ball."
+    },
+    {
+      "blind_id": "case_b7a58f445e42d2d3f899",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Background, orange color and gray materials remain recognizable, but the base moves upward and the spring gains an additional visible turn rather than merely increasing spacing. Hand removal and upward ball motion are excluded. Instruction: The hand is entirely absent, fully releasing the ball as requested. Knowledge: The spring is visibly taller and the ball is elevated, matching the supplied elongation-and-rise explanation. Quality: Clean coherent illustrated sphere, spring and rectangular support, with consistent shading, intact textures and no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_b2a43197bb829a4ed657",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Beige background, orange ball identity and gray coil appearance are retained; the base has a small upward/right placement shift. Removal of the hand and revelation of the ball top are excluded. Instruction: The hand is removed completely, so the ball is visibly released. Knowledge: The spring remains essentially the same compressed height and the ball bottom remains at its original support level; uncovering its rounded top does not demonstrate the elongation and upward movement required by the explanation. Quality: Coherent forms, smooth consistent illumination and grain, clean boundaries and no visible generation artifacts."
+    },
+    {
+      "blind_id": "case_445d5955e42368858204",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The beige background, base placement and shading, and dark spring structure remain visually unchanged; the removed hand and newly exposed ball surface are the requested region of change. Instruction: Complete removal of the pressing hand clearly achieves release. Knowledge: The spring stays compressed and the ball remains on its original support level, conflicting with the explained spring elongation and ball rise. Quality: The orange rounded object, continuous spring and gray base have coherent shapes, natural illustrated shading and intact textures without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_950a56da0817e8e43d72",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The gray base and its shadow are visibly shifted upward; background, ball color and spring material remain consistent. Hand removal and intended ball rise are excluded. Instruction: The hand disappears fully and no longer presses the ball, precisely showing release. Knowledge: The ball is higher in the frame, but the base rises with the assembly and the spring shows little elongation relative to its base; the expected expansion driving the rise is inadequately depicted. Quality: Coherent rounded ball, clean spring contours and solid base, with consistent light and texture and no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_dcd3b86a65d46ff0d0a8",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The base becomes narrower and its perspective changes, while the spring shading and top-coil appearance are noticeably redrawn; beige background and orange color remain recognizable. Hand removal and ball displacement are excluded. Instruction: The hand is wholly absent, leaving the ball released. Knowledge: The ball rises clear of the spring, but the spring remains compressed rather than elongating as the explanation requires, a clear incomplete physical response. Quality: The ball, base and main coil structure are coherent with consistent textures; a small smeared pale rim on the top coil is a minor surface artifact."
+    }
+  ]
+}

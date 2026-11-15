@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b004",
+  "results": [
+    {
+      "blind_id": "case_578321cc559fa8882835",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The glass remains centrally placed with the same tall cylindrical form, wooden setting and overall lighting, but the tabletop grain is visibly retextured. Pellet and liquid changes are excluded. Instruction: White round pellets have appeared both among the ice and at the bottom of the original glass. The expected result is calcium chloride pellets added to this ice water at the specified five-minute stage; the addition is visible, but the timing is not established. Knowledge: The explanation predicts exothermic dissolution and melting ice. The large ice pieces retain their original shapes and extent, so the expected melting is not visibly realized, a clear conflict. Quality, judged from this edit alone: Glass structure, perspective and wooden surface are coherent; the lower pellet cluster has slightly overly crisp, pasted-looking boundaries, a minor integration flaw."
+    },
+    {
+      "blind_id": "case_d2f92a99e05c11298a42",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The glass outline, rim, base, placement, tabletop grain, background and lighting remain visually unchanged; the added material and associated liquid appearance are excluded. Instruction: A bed of small white pellets is newly present inside the original ice-water glass. This depicts the requested addition, but gives no visible evidence of the five-minute timing, a minor omission. Knowledge: Exothermic dissolution should melt the ice according to the supplied explanation. The original large ice pieces remain visibly intact at essentially the same extent despite the added pellets, leaving one clear missing physical consequence. Quality, judged from this edit alone: The cylindrical glass, reflections, shadows and granular pellet bed are coherent and natural, with no noticeable distortion, duplication or texture failure."
+    },
+    {
+      "blind_id": "case_b848897bb6ee6521933f",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The central glass, thick base, wooden setting and overall illumination are retained, but the wood grain across the tabletop is visibly altered. Changes within the water are excluded as the instructed region and its effects. Instruction: New opaque white pellet-like pieces and a pale granular deposit appear in the original water glass, while the ice configuration changes. This largely depicts adding pellets, but the specified five-minute timing is not visually established. Knowledge: The supplied explanation predicts dissolution with heat and ice melting. The original large ice forms are reduced or absent, consistent with melting, but conspicuous frothy, bubble-like accumulations across the surface and bottom introduce a clear unsupported reaction effect. Quality, judged from this edit alone: The glass and table are structurally coherent, but the central white pieces have conspicuously flat cutout-like edges and the lower granular mass has an unnatural speckled texture, two visible integration flaws."
+    },
+    {
+      "blind_id": "case_ea35493b80526f343d7f",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The glass position, rim and base, tabletop grain, background, lighting and shadow remain visually unchanged. Added pellets and changes to the liquid and ice region are excluded. Instruction: White pellets now cover the bottom of the original ice-water glass, with a pale plume above them. The requested addition is present, but the five-minute timing is not visually established, a minor omission. Knowledge: The explanation expects exothermic dissolution to melt the ice. A cloud obscures part of the ice, but the upper large ice pieces remain visibly intact; clouding does not clearly demonstrate the expected melting, leaving a clear incomplete physical outcome. Quality, judged from this edit alone: Glass geometry, perspective and pellet shapes are coherent, but the large central white plume ends in a conspicuous stippled, pointed boundary that looks artificially composited, one clear visual flaw."
+    }
+  ]
+}

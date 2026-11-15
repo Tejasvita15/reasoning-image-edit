@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b061",
+  "results": [
+    {
+      "blind_id": "case_6dc6f17043080a571fbc",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The outer frame, white background and top-left tile remain visually consistent, but the top-right black sector changes sides and the bottom-left tile becomes part of a long merged rectangle. Instruction: The lower area becomes one wide rectangle with black at its upper right; the expected separate bottom-right rectangle with a solid upper-left quarter circle is missing, so most required details fail. Knowledge: The supplied explanation specifically requires the upper-left quarter circle, which is absent. Instruction failure ⇒ knowledge invalid. Quality: Judged alone, the diagram has coherent closed rectangles, smooth solid black curves, clean white space and no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_cc664363286922eeb181",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The outer border, white background, both top tiles and bottom-left tile retain their positions, outlines and black sectors. Instruction: The bottom-right outline is replaced by a solid black circle; the expected rectangle containing an upper-left solid quarter circle is absent, constituting a major omission. Knowledge: A full black circle does not match the supplied rectangular quarter-circle solution. Instruction failure ⇒ knowledge invalid. Quality: Judged alone, the geometric shapes are clearly defined, solid fills are clean, the layout is coherent and no noticeable artifacts occur."
+    },
+    {
+      "blind_id": "case_83e948402fa5968a8d2c",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The surrounding frame, white background, both upper tiles and lower-left tile remain visually unchanged. Instruction: The bottom-right shape becomes an intersecting angular outline; it lacks both the required rectangle and its solid upper-left quarter circle, so most requested features are missing. Knowledge: The angular unfilled symbol conflicts with the supplied quarter-circle solution. Instruction failure ⇒ knowledge invalid. Quality: Judged alone, the line diagram is legible and its fills and background are clean, but a short doubled diagonal beside the lower-left edge of the bottom-right symbol is a small stray-line imperfection."
+    },
+    {
+      "blind_id": "case_0ac4783c388c89fd4324",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The outer frame, background and three untargeted rectangular tiles preserve their arrangement and sector orientations. Instruction: A black teardrop is added inside the existing right-pointing outline; the expected replacement rectangle with an upper-left solid quarter circle is not produced, leaving most required changes missing. Knowledge: Neither the teardrop nor its enclosing pointed outline matches the supplied geometric solution. Instruction failure ⇒ knowledge invalid. Quality: Judged alone, the outlined shapes and teardrop are coherent and cleanly filled, the white background is uniform and there are no noticeable generation artifacts."
+    }
+  ]
+}

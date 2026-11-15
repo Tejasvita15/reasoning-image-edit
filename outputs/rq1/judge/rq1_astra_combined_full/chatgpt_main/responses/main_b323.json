@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b323",
+  "results": [
+    {
+      "blind_id": "case_5bd54134e9595385b1c0",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The centered placement remains, but the disk occupies substantially less of the frame and a star field replaces the plain black background; these are two non-requested changes. Instruction: The orange disk becomes a fully luminous cream-white sphere, with no obscuring circular silhouette. A total eclipse should show the solar face covered, so the requested change is absent. Knowledge: No circular shadow covers the sun as the supplied explanation requires. Instruction failure ⇒ knowledge invalid. Quality: The sphere, glow and stars are coherent, but thin scratch-like protrusions along the lower rim are a small artifact; textures elsewhere remain clean."
+    },
+    {
+      "blind_id": "case_cdde2ca11846817e09aa",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The single centered disk and otherwise empty dark setting remain, but its size relative to the frame is clearly reduced. Changes to the solar surface and surrounding glow are excluded as the intended edit region. Instruction: The disk remains fully bright and mottled, with a brighter edge instead of an opaque circular cover. The expected fully obscured solar face is absent. Knowledge: The visible luminous face contradicts the supplied complete-obscuration expectation. Instruction failure ⇒ knowledge invalid. Quality: The round outline, fiery texture and smoothly fading warm glow form a coherent illustration; no distracting deformation, duplication or texture corruption is visible."
+    },
+    {
+      "blind_id": "case_c88774afee503152b2c2",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The disk retains its central position and apparent diameter, but the empty black background becomes flat gray, a clear unrelated alteration. The changed disk and added crescent are assessed as the eclipse attempt. Instruction: The solar disk is now black, yet a large bright white crescent overlaps its upper-right edge and projects well beyond it. Totality should show a fully covered circular sun without this exposed crescent, so the main idea is present but incomplete. Knowledge: A circular dark cover supports the supplied explanation, but the separate offset luminous crescent conflicts with a completely obscured sun, one clear physical inconsistency. Quality: Circular and crescent contours are smooth and textures clean; the white crescent's cool glow and the disk's orange halo have a slight lighting discontinuity at their overlap."
+    },
+    {
+      "blind_id": "case_9734105987d15d22b401",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The isolated light source remains centrally placed against an empty dark field, but its apparent diameter is drastically reduced to a tiny point. Changes to light and glow are excluded from consistency. Instruction: The large solar disk becomes a bright white point with blue horizontal flare and radial beams; no dark circular occluder appears. This does not depict the expected fully covered sun. Knowledge: The supplied circular-shadow requirement is not visible. Instruction failure ⇒ knowledge invalid. Quality: The compact luminous core, smoothly graded blue halo and symmetrical lens flare are visually coherent, with clean transitions and no noticeable generation artifacts."
+    }
+  ]
+}

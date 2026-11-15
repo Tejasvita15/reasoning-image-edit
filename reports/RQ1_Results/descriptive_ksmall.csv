@@ -1,0 +1,7 @@
+model,condition,n_expected,n_scored,Q_100,consistency,instruction,quality,knowledge,knowledge_n
+step1x,base,120,120,48.81944,3.03333,2.225,4.05,1.96667,60
+step1x,correction,120,118,52.36582,2.99153,2.47458,4.17797,2.37931,58
+step1x,thinking,120,118,54.71398,3.07627,2.55085,4.27966,2.53333,60
+unireason,base,120,120,44.96528,2.66667,2.4,3.725,1.93333,60
+unireason,correction,120,120,41.80556,2.23333,2.50833,3.53333,2.11667,60
+unireason,thinking,120,120,43.36806,2.19167,2.63333,3.55,2.35,60

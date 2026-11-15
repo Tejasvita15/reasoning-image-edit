@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b173",
+  "results": [
+    {
+      "blind_id": "case_8ae6a37b6c9161af4051",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The dark bottle, red capsule, gold neck mark, bordered cream label and main branding remain recognizable; fine label print is slightly re-rendered. Requested background, lighting, reflection and layout changes are excluded. Instruction: The white setting becomes a red-black spotlight scene with a vertical bottle, reflection and upper-right gold lettering. The expected restrained gradient and exact serif 'Timeless. Bottled.' are only partly met: conspicuous curtain folds dominate the setting, and large calligraphic text uses a comma after Timeless. Quality: Structure, lighting, reflections and fabric are coherent; the lettering is legible and no noticeable generation artifact appears."
+    },
+    {
+      "blind_id": "case_1fc683c415e57a6e385d",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Capsule, neck emblem, bottle outline and label arrangement persist after resizing; the label lettering, especially REGAL and ARDITI, is visibly distorted. Background and placement changes are excluded. Instruction: The bottle is smaller and lower against a spotlight gradient with a bottom reflection. A complete edit would also have a wine-red to black velvet background and muted-gold serif slogan at upper right; this background is gray-black and the slogan is absent, giving partial compliance. Quality: Bottle structure, studio illumination and reflection are coherent; a small localized imperfection affects the label's large letterforms."
+    },
+    {
+      "blind_id": "case_690885bb1d0f739a6b71",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Bottle silhouette, red capsule and neck emblem, cream label border, landscape ornament and VINO ROSSO/REGAL/ARDITI branding are retained; the requested background, illumination and reflection changes are excluded. Instruction: The white background becomes red-black fabric with a soft glow, a vertical dominant bottle, bottom reflection and upper-right gold text. The expected pure gradient and exact serif slogan are not fully achieved: pronounced fabric waves remain and calligraphic 'Timeless,' substitutes a comma for the required period. Quality: Bottle geometry, legible principal lettering, fabric folds, lighting and reflection are coherent, with no noticeable artifact; moderate softness does not impair interpretation."
+    },
+    {
+      "blind_id": "case_5ec07ea7ba7c59ad2105",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The red closure, neck mark, dark bottle and cream bordered label retain their identity and layout; fine print on the label has minor re-rendering. Requested scene and illumination changes are excluded. Instruction: A red-black spotlight backdrop, upright bottle, reflection and upper-right gold words replace the white product setting. Partial compliance results because the prominent draped curtains weaken the requested pure gradient, and the ornate calligraphic text reads 'Timeless, Bottled.' instead of the exact serif slogan. Quality: The bottle, clear display lettering, velvet surfaces and reflected base have coherent structure and illumination without visible generation errors."
+    },
+    {
+      "blind_id": "case_e5990e2a189b573066ec",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Bottle form, red capsule, neck emblem, bordered cream label and landscape artwork persist; the label's red product-name letters have visibly changed. Scene and placement modifications are excluded. Instruction: A wine-red to black spotlight gradient, upright bottle and subtle reflection implement the main visual concept. The expected exact muted-gold serif slogan at upper right is replaced by visibly malformed cream words, so a required aspect is incomplete. Quality: Bottle geometry, reflective floor and lighting are plausible, but the conspicuously garbled headline is a clear semantic and letterform artifact."
+    },
+    {
+      "blind_id": "case_8afab9b85cbea920916a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The dark bottle/red capsule identity remains, but the bottle has become noticeably slimmer with a different cap profile, and the label border and principal branding are altered and corrupted. Requested composition and lighting changes are excluded. Instruction: The bottle is positioned lower against a red-black spotlight gradient with a faint bottom reflection. The required upper-right muted-gold serif 'Timeless. Bottled.' instead appears as white sans-serif 'Timne Bottle'; the main scene is achieved but typography, wording and color are wrong. Quality: The bottle and gradient are structurally coherent, but both the headline and principal label text contain visible semantic/letterform errors."
+    }
+  ]
+}

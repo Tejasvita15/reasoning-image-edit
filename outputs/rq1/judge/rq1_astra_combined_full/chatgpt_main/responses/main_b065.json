@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b065",
+  "results": [
+    {
+      "blind_id": "case_3f133910eabfe8a01fe4",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white top, two white legs and gray wall retain the scene layout, but dark outlines are added around the furniture and the floor becomes strongly streaked and reflective. Instruction: The edge is redrawn with a sharp projecting corner; the expected anti-collision modification is a rounded corner, which is absent, so the instruction is not followed. Knowledge: The supplied explanation requires rounded table corners, while this corner remains angular. Instruction failure ⇒ knowledge invalid. Quality: Structural coherence, perspective, lighting and surface rendering are satisfactory; the outlined furniture is internally coherent with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_82e47681796f26807925",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The two white supports and general wall/floor arrangement remain recognizable, but the opaque white slab is replaced by thin transparent blue-edged glass, with new reflections through its surface. These material and thickness changes are not required for rounding a corner. Instruction: A clear corner cover has been added, showing the protective idea, but its exposed shape and the underlying tabletop still terminate in a pronounced angle rather than the expected rounded profile; compliance is partial. Knowledge: The explanation specifically expects rounded table corners; the angular cover and glass point leave a clear mismatch with that expectation. Quality: The table, lighting and transparent material are broadly coherent; the small clear cover has slightly blended, difficult-to-separate overlapping edges, a minor local imperfection."
+    },
+    {
+      "blind_id": "case_d34190609bd0556ef6eb",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding the protective edging and its rounding, the white tabletop and two white supports remain recognizable, but the floor has substantially different dark streaks and the rear support ends higher and is repositioned relative to the table. Instruction: A thick black protective edge now wraps continuously around the exposed corner, with a visibly softened curved transition and rounded outer profile; this fulfills the anti-collision modification. Knowledge: The visible rounded corner agrees with the supplied explanation that table corners should be rounded and plausibly removes the sharp exposed contact point. Quality: The edge, tabletop and supports form a coherent structure, with smooth material shading, plausible depth of field and no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_2782d3b5df7dd267685d",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white slab and gray setting are retained in broad arrangement, but both slim white legs become much thicker wood-grained brown supports, and the tabletop corner and background boundary shift substantially upward. Instruction: The visible change is primarily to the supports; the tabletop still has a sharp rectangular corner, whereas the expected anti-collision form would round that corner. No requested corner modification is achieved. Knowledge: The sharp exposed corner does not meet the explanation requiring rounded table corners. Instruction failure ⇒ knowledge invalid. Quality: The wooden cylinders, grain, tabletop geometry and contact shadows are coherent and naturally rendered, with no noticeable generation artifacts."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b244",
+  "results": [
+    {
+      "blind_id": "case_40ca42c0858bd926cef7",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The silver case, pale blue dial, compass rose, degree markings and white background remain unchanged; needle changes are excluded. Instruction: The red tip moves from about 15 degrees to about 55 degrees, while the blue tip moves southwest. A correct reversal would exchange the original red and blue positions along the original axis. Rotation by only about 40 degrees leaves the required exchange absent, a major omission. Knowledge: The explanation requires the red and blue pointers to exchange positions, which they do not. Instruction failure ⇒ knowledge invalid. Quality: Structural coherence, natural shading, clean edges and smooth metal/dial textures are satisfactory; labels remain legible and no noticeable artifacts appear."
+    },
+    {
+      "blind_id": "case_8e2fba8efcb1a33bb499",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The compass layout, cardinal labels and white background remain, but the silver housing contours/proportions and outer degree/tick lettering are noticeably redrawn. Instruction: The needle shifts toward roughly 30/210 degrees and both ends become red, eliminating the blue end. The expected reversal exchanges red and blue at the original opposite positions; recoloring both ends does not accomplish this, leaving most of the requested change missing. Knowledge: No red/blue position exchange is shown as required by the explanation. Instruction failure ⇒ knowledge invalid. Quality: The compass and straight needle remain coherent with plausible metallic shading and clean broad surfaces; minor irregularity in small perimeter ticks/lettering reduces finish."
+    },
+    {
+      "blind_id": "case_2a4d6d18e330fe90f062",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and overall circular compass layout remain, but a large detailed globe replaces the plain dial face, and the housing shading and compass typography are redrawn. Instruction: The needle is redirected almost horizontally, with red toward the upper right and blue toward the left. A correct result would exchange the original red and blue positions, putting red near the original lower-left tip and blue near the original upper-right tip. The globe addition and sideways needle do not implement that reversal, a major omission. Knowledge: The supplied explanation's position exchange is absent. Instruction failure ⇒ knowledge invalid. Quality: The circular housing, graduations and metallic lighting are coherent, but large jagged black patches obscure globe regions and overlap the compass rose, a clear visual artifact; the remaining ocean and metal textures are well defined."
+    },
+    {
+      "blind_id": "case_b42f91c211a6f7a2c3d8",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The cardinal layout and white background remain, but the outer housing texture is visibly roughened/redrawn and the degree numbers and tick ring acquire extensive distortion and colored edge noise. Instruction: The needle changes to an approximately 30/210-degree axis with red at both ends and no blue pointer. A reversal should exchange the original red and blue positions; this color change and small rotation omit the required exchange. Knowledge: Both-red ends contradict the explanation's red/blue position swap. Instruction failure ⇒ knowledge invalid. Quality: The compass silhouette and central star are recognizable, but pervasive mottled/ringing texture on the metal, doubled or warped graduations and broken-looking small labels create multiple distracting artifacts."
+    }
+  ]
+}

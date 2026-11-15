@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b339",
+  "results": [
+    {
+      "blind_id": "case_427712e214740a4330ae",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "Consistency: The white background, lavender outer ring and green outline color remain; the inner circle is visibly reduced in diameter, an unrequested change. Its movement is excluded. Instruction: The green circle moves left toward the outer center; perfect alignment would make the circles concentric. It remains slightly right and below that center, so the core change has a minor offset. Knowledge: The supplied explanation requires coincident centers; the small remaining displacement is a minor geometric mismatch. Quality: The two closed smooth outlines, white fills and simple layout are coherent, with no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_baec575418f6c7c0a991",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and lavender outer circle remain, but an extra green circle is added and the green outlines are somewhat smaller than the original inner circle. Instruction: Two green circles now overlap side by side; the expected result is the original green and lavender circles sharing one center. Neither green center coincides with the outer center, misinterpreting the requested alignment. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: Considered alone, the three circular outlines and their intersections are clean and structurally coherent, with consistent fills and no visible artifacts."
+    },
+    {
+      "blind_id": "case_8254a4c4f4f7a2109cf2",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The background and outer lavender ring remain, while the inner outline changes from green to purple and a purple center dot is added. Instruction: The small circle stays on the right with its center below the outer center; changing its color and marking its center does not create the expected concentric circles. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: The closed circular outlines, crisp center dot and uniform white background form a coherent diagram without visible generation defects."
+    },
+    {
+      "blind_id": "case_e3bd5f87ecd3a0fdcd5c",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white field, lavender and green colors, two-ring content and approximate inner size remain; the outer ring has a small contour expansion. The intended positional change is excluded. Instruction: The inner circle moves from the right to far left, remaining substantially displaced from the outer center. The expected common center is therefore poorly implemented. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: Viewed independently, both rings are continuous and smooth, their fills and background are clean, and no distracting artifacts are visible."
+    },
+    {
+      "blind_id": "case_b34050438a9a911ff0ba",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "Consistency: The white background, lavender outer ring and green stroke remain, but the inner circle is substantially shrunk, which alignment does not require. Instruction: The inner circle moves close to the outer center, as requested, but remains slightly low; a perfect result would have coincident centers. Knowledge: The explanation explicitly requires the green center to coincide with the other center; the visible downward offset is a minor deviation. Quality: The image independently presents two clean closed outlines and a uniform background with coherent geometry and no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_5b5d0f6f0e7c41f910e7",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The background, two outline colors and outer-ring appearance remain substantially consistent, but the inner outline is enlarged and slightly broader horizontally. Its movement is excluded. Instruction: The green circle moves left toward the outer center but stops noticeably left of it and slightly below it. This partly addresses alignment without producing the expected concentric circles. Knowledge: The clearly separated centers conflict with the explanation that the green center should coincide with the other center. Quality: Considered alone, the smooth closed outlines and clean white field have coherent shapes, consistent strokes and no noticeable rendering artifacts."
+    }
+  ]
+}

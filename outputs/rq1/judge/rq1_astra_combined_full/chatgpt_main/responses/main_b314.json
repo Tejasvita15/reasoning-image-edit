@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b314",
+  "results": [
+    {
+      "blind_id": "case_1723603a33095799fdd5",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and diagonal green-handled scissors remain recognizable; the small silver scissors have been rotated upright and given a broad, completely different blade shape. Instruction: The large scissors remain much larger than the silver pair. A successful edit would shrink the green-handled pair to the small pair's overall size; no such reduction is visible, so the instruction is not followed. Quality: Lighting and surfaces are plausible, but the upright silver tool has a single broad knife-like blade without coherent opposing scissor blades, a clear structural flaw."
+    },
+    {
+      "blind_id": "case_5eb2bb87425e9a936974",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and large green-handled tool retain their arrangement and appearance. The silver scissors are visibly longer and lower, with altered blade geometry, an unrequested change to that object. Instruction: The green-handled scissors still dominate the image at essentially their original size; the required result is that this large pair becomes as small as the silver pair. The requested reduction is absent. Quality: Both tools have coherent handles, joints, blades and natural contact shadows; the metal and plastic surfaces are plausible and no noticeable generation artifact is visible."
+    },
+    {
+      "blind_id": "case_c0a8ffa7e6b8123ed4c1",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background remains plain, but the small silver scissors are reduced and shifted toward the center. The large tool's metal surface also acquires conspicuous mottled scratch-like texture. Instruction: The green-handled scissors remain large while the already-small pair becomes smaller. The expected edit would reduce the green-handled pair to the original small pair's size; the wrong object is resized. Quality: Tool outlines, joints and shadows are coherent; slightly noisy, irregular texture blending on the broad metal blade is a small surface imperfection."
+    },
+    {
+      "blind_id": "case_2fc91192066355b4b7f9",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The small silver pair, diagonal green-handled pair, white background and relative arrangement are preserved. There is a subtle change in the fine surface texture of the broad metal blade. Instruction: The large scissors retain their original visual scale and remain far larger than the silver scissors. The expected equal-size reduction of the green-handled pair is absent. Quality: Both scissors have coherent loops, blades and pivots, with believable material textures and contact shadows; no noticeable structural or rendering artifact is visible."
+    },
+    {
+      "blind_id": "case_18af13543fdad5c8bf51",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The small silver scissors are moved left and their blade-and-pivot design changes. The composition also shifts so that the large blades run off the left edge. The white backdrop remains consistent. Instruction: The green-handled scissors appear enlarged and cropped rather than reduced. They should have been shrunk to the size of the original silver pair; the visible change does not fulfill that request. Quality: The visible scissors have plausible metal joints, smooth handle loops and natural shadows. The deliberate-looking edge crop does not create a structural failure, and no noticeable generation defect is visible."
+    },
+    {
+      "blind_id": "case_2645824ffcfca2153dad",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The silver scissors are repositioned and opened, with altered central geometry. The large green handle loops also change proportions and orientation; the white background remains unchanged. Instruction: The green-handled scissors remain several times the size of the silver pair. The required change is a reduction of that large pair to the small pair's overall size, which is absent. Quality: The large tool and its shadows are coherent, but the small scissors have an awkward extra opening near the joint and kinked, poorly connected upper-blade geometry, producing a clear structural problem."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b106",
+  "results": [
+    {
+      "blind_id": "case_2bd2ad1d0cc864b7cb69",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white ceramic holder has shifted from the left toward the center and is narrower, with its rim and surface markings altered; the turquoise backdrop and tabletop remain recognizable and no extra objects appear. The requested toothbrush movement is excluded. Instruction: The brush changes from leaning outside to standing with its peach handle occluded inside the holder. The expected result is the original pink brush inserted handle-first with its head exposed; that relationship is clearly fulfilled. Quality, edited image alone: Structure, natural lighting and shadows, artifact absence, and ceramic/plastic texture are satisfactory; the brush and rim overlap coherently."
+    },
+    {
+      "blind_id": "case_0a2971f34a4f839cd692",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The large holder retains its position, outline, rim details and ceramic appearance, and the turquoise setting remains consistent; an additional small white cup is a clear unrequested object. Instruction: The brush is now upright inside the added small cup while the original holder stays empty. The expected result is insertion into the existing holder, so the containment idea is present but the target holder is wrong. Quality, edited image alone: Both cups have coherent rims and bases, the brush enters the small cup naturally, shadows ground the objects, and textures show no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_87d089e813a4e013818e",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The holder has moved right and down and its opening and ceramic markings have changed; the turquoise background and tabletop remain the same type of setting. Toothbrush relocation is excluded from consistency. Instruction: A pink brush-like object now extends from inside the cup, which supplies the requested containment, but the original narrow-necked, two-tone brush has been replaced by a broad flat pink form. Expected is the same toothbrush placed inside; the changed object design makes this partial compliance. Quality, edited image alone: Cup structure, contact shadow and ceramic texture are satisfactory, but the brush head has flat white bands with little credible bristle volume, a noticeable semantic/structural flaw; no other clear artifacts."
+    },
+    {
+      "blind_id": "case_5d1ba58a4b39d9fa9a0d",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The main cup, its rim and surface details, and the turquoise setting remain consistent; a tall white tubular attachment and connecting bracket have been added beside the cup, constituting a clear holder alteration. Instruction: The toothbrush is more upright beside the holder, but its peach handle is fully visible in front of the new tube and reaches the tabletop; the original cup is empty. Expected is a handle visibly entering and being occluded by the holder. Repositioning occurs without convincing insertion, leaving the central change poorly implemented. Quality, edited image alone: The ceramic cup and attached tube have coherent forms, the brush leaning in front has a plausible silhouette and contact shadow, and plastic/ceramic textures are natural without noticeable artifacts."
+    }
+  ]
+}

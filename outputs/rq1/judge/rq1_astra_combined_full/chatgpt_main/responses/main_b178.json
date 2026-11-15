@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b178",
+  "results": [
+    {
+      "blind_id": "case_19c559c238009a9988a5",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The yellow bag, Lay’s logo, Classic label, potato-and-chip illustration and visible folds remain consistent after the requested placement and scale change; the background, added chips and captions are excluded. Instruction: The edit adds a centered package, yellow-to-orange background, exact handwritten top-right slogan and bold bottom-left caption. Ideally chips would burst from beneath the bag; here many orbit its sides and some rest at the bottom, so the burst origin is slightly incomplete. Quality, judged only from this output: structure ✔, natural lighting ✔, artifact-free ✔, texture fidelity ✔; coherent packaging, readable typography and realistically curved chips show no noticeable defects."
+    },
+    {
+      "blind_id": "case_3657c3ee7d1331a9bdd5",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The yellow Lay’s Classic identity and potato artwork remain recognizable, but the package has changed side contours/fold geometry and its small lower print is corrupted. Instruction: A centered bag, airborne chips and warm gradient are added. The expected yellow-to-orange poster with chips below, exact top-right Let’s Snack! and bold bottom-left Enjoy a Moment, That’s Living is only partly realized: purple dominates the outer gradient, chips flank the sides, the top slogan is misspelled and the bottom-centered caption is gibberish. Quality, judged only from this output: structure ✘ because both large slogans contain malformed/nonsensical lettering; natural appearance ✔ for the lit bag and chips; artifact-free ✘ for corrupted type and stray jagged fragments; texture fidelity ✔ on the main product."
+    },
+    {
+      "blind_id": "case_b9352451eb00fb82fb88",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The yellow package, recognizable Lay’s logo, Classic name and basic potato illustration persist; the bag folds/outline are redrawn and the lower-left package lettering is distorted. Instruction: The edit adds the central product, warm background and airborne objects with upper-right handwriting and a lower caption. The expected exact slogans, bold bottom-left title and realistic chips bursting below are incomplete: the upper wording is misspelled, the lower line is gibberish, chips resemble torn angular pieces at the sides, and the gradient includes pink. Quality, judged only from this output: structure ✘ for malformed text and implausibly pointed, ragged chip forms; naturalness ✘ for those shards; artifact-free ✘ for broken lettering and floating angular fragments; texture fidelity ✔ on much of the package but ✘ at chip edges."
+    },
+    {
+      "blind_id": "case_bc1a5d80d070ff1c6f16",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The Lay’s logo, Classic label, yellow bag silhouette, visible folds and printed potato artwork match the source after placement/scaling; the instructed chip burst and its occlusion are excluded. Instruction: The centered pack, yellow-to-orange gradient, top-right handwritten Let’s Snack! and bold caption beginning at bottom-left are present. The lower chip burst is clear, but prominent flame-like white streaks make it heavier than the requested light chip explosion and the caption adds an exclamation mark. Quality, judged only from this output: structure ✔ for the bag and readable text; naturalness ✘ where intense white streaks merge ambiguously with chips across the lower bag; artifact-free ✘ for this conspicuous blended region; texture fidelity ✔ on the main pack, with some airborne chips appearing flat and textureless."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b329",
+  "results": [
+    {
+      "blind_id": "case_ae08efcc9f4e4e6897fa",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The numbered cells and branching layout remain recognizable, but the blue fills acquire pervasive colored mottling and the outlines and numeral edges become visibly rougher. Instruction: The bottom-left cell still contains a question mark; the required replacement is 6, so the requested change is absent. Knowledge: The supplied doubling rule requires 6 beside 12, which is not supplied. Instruction failure ⇒ knowledge invalid. Quality: Legible numerals and coherent hexagons, but conspicuous multicolored noise across the blue surfaces and rough outlines visibly degrade the diagram."
+    },
+    {
+      "blind_id": "case_d96bb513df5a9ae1f3f1",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The original numbered chain is largely retained, but multiple extra hexagons labeled 3, 11, 6, 9, 4 and another question mark expand the composition and introduce cropped cells at the left edge. Instruction: The original question mark beside 12 remains; adding a 6 in a different cell does not replace the requested mark. Knowledge: The expected result is 6 in the cell immediately left of 12. Instruction failure ⇒ knowledge invalid. Quality: The blue cells and numerals are clear, but the leftmost cells are awkwardly clipped and some joined borders, particularly above the upper-right 4, have doubled, uneven contours."
+    },
+    {
+      "blind_id": "case_535799877919a60e10f8",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The original numerals and main cell arrangement remain, but a new blue, black-edged cell tip intrudes from the bottom edge, and the blue fills and border rendering visibly change. Instruction: The bottom-left question mark is still present instead of the required 6; the requested replacement is absent. Knowledge: The supplied rule requires 6 because its right-hand neighbor is 12. Instruction failure ⇒ knowledge invalid. Quality: The diagram has readable text and coherent main cells, but the isolated cropped blue tip at the bottom is a clear extraneous visual fragment."
+    },
+    {
+      "blind_id": "case_4901779ff7ac47d9cdd0",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Aside from the permitted question-mark replacement, the original 8 is changed to 6, and the cell chain is slightly shifted left with altered outlines; the white background and other numeral identities remain. Instruction: The bottom-left question mark is replaced by a clear black 6 in the correct cell beside 12, fully making the requested change. Knowledge: The inserted 6 correctly satisfies 12 = 2 × 6, but changing the existing 8 to 6 creates a clear conflict with the supplied doubling rule in the 4–6 pair. Quality: The image independently presents clean, legible numerals, coherent blue hexagons, consistent dark borders and an uncluttered white background without noticeable generation artifacts."
+    }
+  ]
+}

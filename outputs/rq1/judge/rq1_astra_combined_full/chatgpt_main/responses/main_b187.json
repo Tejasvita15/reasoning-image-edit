@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b187",
+  "results": [
+    {
+      "blind_id": "case_1694518da8eb4e38d9ad",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, silver material, four-tine design and two-row presentation remain, but the framing/vertical extent changes visibly: the lower handles now run beyond the bottom edge. Instruction: The source has eight forks; the edit still shows four above and four below. The expected result is six forks, so the requested count change is absent. Quality: Structure, lighting, clean separation and metal textures are coherent; the edge cropping creates no ambiguous object structure or generation artifact."
+    },
+    {
+      "blind_id": "case_d1854c65d9788313ab48",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, silver four-tine fork design and positions of the retained forks are preserved; the leftmost heads are slightly clipped by the left edge. Removing two forks is excluded from consistency. Instruction: The two central lower forks have disappeared, leaving four above and two below, exactly the expected six forks. Quality: All six utensils have coherent heads, handles and metallic shading; the white cleared area is clean, without visible remnants or texture corruption."
+    },
+    {
+      "blind_id": "case_3511d346534a028ce1b9",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and silver utensil theme remain, but the fork rendering has stronger dark contours and altered head silhouettes, and the lower-right head has lost its long tines. Instruction: There are seven complete forks plus an eighth handle and truncated head, rather than six complete forks; cutting off one set of tines poorly implements the requested reduction. Quality: Most utensil structures and metal surfaces are coherent, but the lower-right utensil has conspicuously amputated tines and a scalloped stump, a clear structural flaw."
+    },
+    {
+      "blind_id": "case_4f4e5b73d737ff1ed193",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, upright orientation and gray metal remain. Excluding count and associated spacing, the utensils have visibly changed rendering, with sharper dark edges and small white marks interrupting several handle edges. Instruction: The edit contains two rows of five forks, totaling ten instead of the expected six; the requested count is not achieved. Quality: Heads and handles are recognizable and lighting is coherent, but repeated bright nicks or cutouts on the handle edges are noticeable surface/contour artifacts."
+    },
+    {
+      "blind_id": "case_2380af0d3742d973615e",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white backdrop, silver four-tine utensils and two-row arrangement remain, but the horizontal framing changes noticeably, with the outside forks inset and more white margin at both sides. Instruction: Four forks remain in each row, so the visible total is still eight; the expected reduction to six has not occurred. Quality: Utensil anatomy, soft metallic shading and clean white separation are coherent. Moderate softness does not obscure their structure, and no clear generation defect is visible."
+    },
+    {
+      "blind_id": "case_56654fbd56782e74a260",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, gray metal, four-tine heads and two-row arrangement remain; the vertical framing changes clearly, cropping the upper tine tips and lower handle ends that were visible in the source. Instruction: The edit retains four forks in each row, totaling eight rather than the expected six; the count instruction is unfulfilled. Quality: Visible heads and handles have coherent proportions, smooth metallic shading and clean edges. The frame cuts through objects naturally, without visible melting, ghosting or other generation artifacts."
+    }
+  ]
+}

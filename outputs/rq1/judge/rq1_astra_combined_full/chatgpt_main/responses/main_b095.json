@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b095",
+  "results": [
+    {
+      "blind_id": "case_c3943e2190b121c49257",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The cartoon duck, hat, stars, START/FINISH labels and arrows, maze walls, and paper background retain their visible design; added red markings are excluded. Instruction: Red right-angle segments have been added inside several corridors. A correct result would show one continuous red route from START to FINISH; this has numerous disconnected endpoints, a branch, and a horizontal segment crossing the upper-right vertical wall, so the requested route is poorly implemented. Knowledge: The supplied explanation is blank; the mandatory instruction-failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality: Judged alone, the cartoon, readable labels, black maze contours, and smooth, uniform red strokes are clean and coherent, with no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_2b4a2368b06997cb3dec",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The duck, stars, hat, label lettering, white background and maze geometry remain recognizable and consistent, but the entire wall network and both endpoint arrows have changed from black to red. Instruction: The walls and arrows are recolored; there is no added route through the white corridors. The expected continuous red solution path is completely misinterpreted as coloring the maze boundaries. Knowledge: The supplied explanation is blank; the mandatory instruction-failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality: Evaluated alone, the red maze boundaries have consistent texture and clean shapes; the cartoon and labels are legible and structurally coherent, with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_2484e9f63e40a2ee3929",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The maze wall layout, duck drawing, stars, hat, black arrows, labels and paper appearance are preserved apart from the added red stroke and its occlusions. Instruction: A nearly straight red vertical stroke runs from beneath the duck to the FINISH lettering. A correct mark would follow the open corridors from START; this never reaches START and crosses several solid horizontal walls, so the path is poorly implemented. Knowledge: The explanation is blank; the mandatory instruction-failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the drawing and maze remain clean and legible overall, but the red stroke runs into and partially obscures the final lettering, a small presentation flaw."
+    },
+    {
+      "blind_id": "case_c08eb9ee8e0bb7d625a4",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The duck, hat, stars, original black wall network, endpoint labels and arrows, and paper background retain their visible appearance; red overlay changes are excluded. Instruction: A red line connects the endpoint regions and bends through some corridors, but crosses a wall just below START and multiple walls across the lower maze; it also branches upward into a wall at the top. The expected single unobstructed solution route is therefore poorly implemented. Knowledge: The supplied explanation is blank; mandatory instruction-failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality: Assessed independently, the cartoon and typography are coherent, the maze contours are crisp, and the solid red annotation is clearly rendered without conspicuous generation artifacts."
+    }
+  ]
+}

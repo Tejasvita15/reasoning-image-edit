@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b236",
+  "results": [
+    {
+      "blind_id": "case_b4de4589544a4a893aa7",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Bottle body, droplets, reflections, base, wooden counter and tiled wall remain visually unchanged; cap completion is excluded. Instruction: Exposed neck threads are now covered by a complete blue ribbed cap with a solid top, matching the expected closed bottle; perfect compliance. Quality: Structure, lighting, perspective and plastic textures are coherent, with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_b893cd3e05ec5355dbf5",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Bottle placement and wall layout are retained, but the lower bottle contours/reflections and the counter grain are visibly reworked. Instruction: A complete blue ribbed cap now covers the exposed threaded mouth; the bottle is fully closed as requested. Quality: Bottle and cap have coherent shapes, plausible highlights and natural surface textures; no noticeable structural or generation artifacts."
+    },
+    {
+      "blind_id": "case_e71720cf41931d543e6f",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Counter, tiles and overall composition remain consistent, but the bottle body is visibly broadened at the shoulders and its outline is altered. Instruction: A full ivory cap with a solid recessed top replaces the exposed mouth, completing the closure; no cap color was specified. Quality: Bottle and scene are coherent with plausible lighting, but the cap front has a small irregular notch and softened embossed texture."
+    },
+    {
+      "blind_id": "case_6b67e0c873d673a16646",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Wall/counter layout and bottle position persist, but the counter and wall textures become conspicuously mottled and the bottle base contours/reflections change. Instruction: A blue cap is added, but it sits tilted above separated stacked blue neck bands with a visible gap; a completed cap should seat coherently over the mouth, so the request is only partially fulfilled. Quality: The tilted cap and disconnected-looking neck bands create a clear structural flaw; coarse mottled surface texture also degrades the scene, although the bottle body remains recognizable."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b293",
+  "results": [
+    {
+      "blind_id": "case_151fd64d85c08984f0ba",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The maze walls, border openings, upper-left figure, endpoint markers and white background remain visually unchanged apart from the requested red annotation. Instruction: A thick red arrow is added from the figure; a correct edit would trace a continuous corridor route to the lower-right exit. This arrow crosses the upper-left horizontal wall and stops inside the lower-left maze, leaving the destination unconnected, a major omission. Knowledge: The explanation is blank; the visible wall crossing and unfinished route also conflict with task-implied maze logic. Instruction failure ⇒ knowledge invalid. Quality: Judging this image alone, the black maze geometry, white background, recognizable figure and smooth red arrow are clean, coherent and free of noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_e05f07fe2743f52ddfa4",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The maze topology and framing are extensively replaced, the upper-left figure is absent, and a new oval and red/black spot appear near the right side. Instruction: A horizontal red stroke crosses numerous walls; the expected edit is a corridor-following line from the small figure to the lower-right exit. Neither that start nor a valid connected route is shown, so the requested path is not represented. Knowledge: No explanation was supplied; the mandatory instruction-failure coupling determines this score. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the rectilinear maze is readable, but the irregular red/black endpoint blob and adjacent rough oval are conspicuous malformed graphic marks; the otherwise plain surfaces remain clean."
+    },
+    {
+      "blind_id": "case_99163625505ac0c6f10d",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The maze walls, border, background and endpoint markers retain their layout; the tiny figure has slightly altered lower-body/limb detailing. The red annotation itself is excluded. Instruction: Red segments have been added, including one starting below the figure and a separate closed loop on the right. A correct edit would give one continuous corridor path to the lower-right exit. The start segment crosses walls and ends internally; the right loop is disconnected and does not leave the exit, so the path is poorly implemented. Knowledge: The explanation is blank; disconnected segments and wall crossings visibly violate task-implied route continuity, with the required coupling applying. Instruction failure ⇒ knowledge invalid. Quality: On its own, the image has clean maze strokes and flat colors, but the disconnected open red segment and isolated closed red loop make the diagram semantically incoherent in two conspicuous areas."
+    },
+    {
+      "blind_id": "case_4d8dbbd5dfb6040f4915",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Most maze wall relationships are changed, the figure is relocated along the upper border, the entry marker disappears, and the exit marker becomes a large black rectangle. Instruction: Several red diagonal strokes and an angular lower-right mark are added. The required result would be a continuous red route through corridors from the figure to the exit. These strokes cross many walls, extend outside the maze and remain disconnected, so most of the requested route is missing or incorrectly implemented. Knowledge: The supplied explanation is blank; visible discontinuities and wall crossings fail task-implied maze logic, and the mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: Assessed alone, multiple stray black wall flecks, disjoint red strokes extending off-frame, and a tangled red junction over the heavy black lower-right block distract from the diagram; the remaining black wall shapes and white surfaces are readable."
+    }
+  ]
+}

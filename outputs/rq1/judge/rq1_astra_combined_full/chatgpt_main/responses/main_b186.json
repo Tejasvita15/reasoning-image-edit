@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b186",
+  "results": [
+    {
+      "blind_id": "case_322a762ed0869c07dfde",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The leaf outline and veins, brown stem, white backdrop, fruit placement and broad silhouette remain consistent. Skin speckles and pores have become visibly darker and more pronounced beyond the requested color change. Instruction: The yellow-orange skin has changed to green across the mango; the expected result is the same mango with green skin, and this fully matches. Quality: Structure, lighting and contact shadow are coherent; the green skin has plausible pores and speckles, with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_3977f5395d15acb4a4a9",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Leaf, stem, white background, fruit position and overall shape are preserved. The skin texture is visibly more emphatic, with dark enlarged-looking speckles and brighter pores, an additional change beyond hue. Instruction: The mango skin has changed from yellow-orange to green throughout. The expected same fruit with green skin is present, so the requested modification is complete. Quality: The fruit and leaf have coherent shapes, natural shading and credible surface detail; no visible structural defects, ghosting or corrupted textures."
+    },
+    {
+      "blind_id": "case_b0a1c85aa126b2eee185",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Leaf veins, stem, background, framing and recognizable speckle pattern remain consistent; the left fruit contour is slightly fuller, a small unrequested shape change. Instruction: Yellow-orange skin is now light olive green over the entire mango. The expected result is a green version of the same mango, which this fulfills. Quality: The smooth fruit contour, fine skin texture, detailed leaf and soft contact shadow are natural and coherent, without noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_9478e78323e035ed5089",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The leaf, brown stem, white setting, framing and fruit markings are retained. There is a small widening of the left fruit contour beyond the required recoloring. Instruction: The mango has changed from yellow-orange to light green throughout; this matches the expected green mango with the original identity retained. Quality: Fruit structure, leaf venation, skin speckles and lighting all read naturally; edges and the grounding shadow are coherent, with no noticeable artifacts."
+    }
+  ]
+}

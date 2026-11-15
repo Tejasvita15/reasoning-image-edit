@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b168",
+  "results": [
+    {
+      "blind_id": "case_3b461cca5dc006895672",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray wall, white desktop, framing and articulated silver lamp remain substantially consistent. The book is now closed and upright instead of open and flat, a clear unrequested state change; its requested relocation is excluded. Instruction: The red book has moved from the right of the lamp foot to its left. Expected is the book to the left of that stand; this spatial change is achieved. Quality: Structure, natural lighting, clean edges and surface textures are satisfactory; the upright volume and lamp are coherent with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_cb02580a249d1d25e694",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The desktop, wall boundary, framing and open red book appearance are retained aside from the requested relocation. The lamp surface has visibly rougher, mottled metallic rendering, especially along its arms and shade. Instruction: The book has shifted leftward from its original position but its center lies directly in front of the lamp foot, with both halves straddling it. Expected is the book to the left of the stand; movement is present but the final relation is incomplete. Quality: Object structure and lighting are coherent, with a small texture issue: speckled, slightly colored edge noise along the metal arms and shade. The book and desk remain natural, without duplication."
+    },
+    {
+      "blind_id": "case_7780827a722ecef7eb7e",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white desk, plain gray wall, open red book and overall lamp arrangement are preserved apart from the requested book position. A small change in the shade contour and tilt is visible. Instruction: The open book moves leftward, but its binding is almost aligned with the stand and its right half still extends to the right of it. Expected is the book to the left of the stand; the displacement only partially establishes the requested relation. Quality: Structure, naturalness, artifact absence and textures are satisfactory: the book pages, hinged lamp, soft metallic reflection and clean tabletop are coherent."
+    },
+    {
+      "blind_id": "case_ef4130c860417887d589",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The plain gray wall, white tabletop and silver articulated lamp retain their overall appearance and arrangement. The book changes from lying open to standing closed, which is a noticeable unrequested state change; the instructed positional change is excluded. Instruction: The red book is relocated from the right side of the stand to the left side, with its body extending left of the foot. Expected is the book to the left of the stand, and that spatial requirement is fulfilled. Quality: The closed book has coherent covers and page block, the lamp joints and shade are plausible, and soft lighting and contact shading are natural. No noticeable generation artifacts or texture defects are visible."
+    }
+  ]
+}

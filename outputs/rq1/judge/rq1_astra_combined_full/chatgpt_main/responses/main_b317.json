@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b317",
+  "results": [
+    {
+      "blind_id": "case_9c1c9abc07c821c7fb53",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: White background, black frame and botanical print subject remain; excluding permitted viewpoint changes, the rear support now attaches halfway down with a rounded foot instead of the full-height rectangular support, and foliage/print details and small label lettering are altered. Instruction: The frame is slightly reoriented but its broad front face still dominates. A side view should show the narrow frame profile and support in profile; this remains a frontal view, so the request is not fulfilled. Quality: Structure, lighting and surface edges are coherent; the small size lettering below the logo is visibly malformed, a minor local imperfection."
+    },
+    {
+      "blind_id": "case_de8872548ced3fbb57db",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: White background, black border and botanical subject persist. Excluding viewpoint changes, foliage extends beyond the print and right border into the support opening, and the label lettering and plant details change. Instruction: The angle changes and the right edge/support become more exposed. The expected result is a side profile of the original frame; the broad front remains dominant, so most of the required rotation is missing. Quality: Frame edges and lighting are coherent, but foliage visibly spills outside the picture boundary and the small label is garbled; these are clear localized artifacts."
+    },
+    {
+      "blind_id": "case_0fb3d4fcc2a418ff5dba",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Background, black finish and botanical subject remain. Apart from the allowed viewpoint change, the slender open-backed frame acquires a deep solid black side panel, silver retaining clips are replaced by dark blocklike fittings, and print/label details change. Instruction: A more oblique angle exposes a wide side, but an accurate side view would retain the original thin frame and wire support. The image partially expresses a side view while inventing a boxlike body and keeping much of the front visible. Quality: The boxlike main geometry and lighting are coherent, but label text is garbled and the left interior fittings have awkward blocklike transitions, giving two visible local defects."
+    },
+    {
+      "blind_id": "case_ac7dc2b4495184b8cbc0",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: White background, black frame and plant photograph subject are retained. Excluding intended perspective changes, the support changes to a halfway-attached triangular easel, and print foliage/label details are altered. Instruction: The front is made nearly square to the viewer while only a slim support is visible at right. An appropriate result would show the frame from its side; the change does not deliver that view. Quality: Frame, plant forms and lighting are coherent, with no major distortion; the tiny size text beneath the logo is malformed, a small local flaw."
+    },
+    {
+      "blind_id": "case_7fd50bfd19dd2b930685",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: White background, black material and botanical picture subject remain. View-induced narrowing is excluded, but a broad solid side slab replaces the thin frame structure, the wire support is absent as a recognizable assembly, and the white picture border becomes an uneven bottom opening. Instruction: The image does rotate the object toward a narrow side-oriented view. A correct result would show the original thin frame and rear wire support in profile; invented thick body geometry and the unresolved support make this partial compliance. Quality: The tall object is recognizable, but its grainy, doubled vertical edge strips and the ambiguous lower white opening with crossing rails are visible structural/artifact problems; the broad black surface and background are otherwise clean."
+    },
+    {
+      "blind_id": "case_a1b495c172599b747528",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Black frame, white background and botanical print subject persist. Excluding allowed perspective changes, the original tall rectangular rear support becomes a rounded easel attached near mid-height, while the foliage details and small print lettering change. Instruction: The edited object presents its broad front almost squarely, with a little support visible on the right. The expected modification is a narrow side profile showing the original frame/support; the requested view is not achieved. Quality: The border geometry, botanical forms, surface shading and layout are coherent; only the malformed tiny size lettering is a noticeable minor local imperfection."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b228",
+  "results": [
+    {
+      "blind_id": "case_c605c895d281d6600c6c",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The square cushion silhouette and woven material remain recognizable, but its regular nested-diamond repeat becomes broken, overlapping angular bands, a clear unrequested pattern change. Requested background, framing and typography changes are excluded. Instruction: The edit adds a dark gray sofa, cool minimalist setting and bold upper-left title; an ideal result would retain clear diamond geometry and a coherent life/order headline while showcasing fabric. The close-up and setting match, but the disrupted geometry and duplicated 'Life' in the headline leave partial compliance. Quality: Structure/naturalness are satisfactory for cushion and sofa; artifact-free and texture checks fail for broken interlocking print and the malformed/duplicated headline wording. Two clear visual/semantic flaws."
+    },
+    {
+      "blind_id": "case_ecb23ebb74ee811218fc",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The cushion's familiar black-and-white motif survives in places, but the source's soft square silhouette becomes a tall flat rectangular panel and its central diamond repeat becomes severely smeared. These are two unrequested product changes; the room and title additions are excluded. Instruction: A wide urban room and bold upper-left life/order text have been added. The expected image would feature a close-up diamond cushion with clear fabric texture on a sofa; here the patterned subject reads as wall art behind the furniture, with no convincing cushion close-up. Major omission. Quality: The room perspective and furniture are coherent, but the patterned rectangle has an unnatural white top strip, smeared floating forms and ambiguous object structure; artifact and texture checks fail with multiple distracting errors."
+    },
+    {
+      "blind_id": "case_df75e341a14ec17add64",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The recognizable woven cushion remains, allowing for instructed close-up cropping and repositioning, but the nested diamond print is changed into several filled, broken and irregular shapes. The sofa, cool lighting and title are requested changes. Instruction: A cool dark sofa close-up and upper-left bold text were added; the expected poster would show orderly diamond geometry and a readable life/order headline. The cushion and fabric emphasis are present, but the headline is gibberish and the geometry is damaged, giving partial compliance. Quality: Sofa lighting and basic cushion form are coherent; legible-text and artifact-free checks fail because the large title is garbled and multiple cushion motifs dissolve or break. Fabric weave is visible but pattern integrity is poor."
+    },
+    {
+      "blind_id": "case_9b5983b177aa9dc6d72b",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The source cushion, its silhouette, nested diamond pattern and woven material are entirely absent. Requested urban background and text changes are excluded, but removal of the main product loses essentially all retained source content. Instruction: The image adds a grayscale sofa, city view and upper-left bold lettering. The expected main visual is a close-up black-and-white diamond cushion with fabric detail and a coherent life/order headline; the cushion is missing and substantial wording is malformed. Only supporting style and setting requirements are fulfilled. Quality: Sofa and skyline are broadly coherent, but several oversized letters merge or deform and the secondary headline dissolves into unreadable characters. Multiple distracting text artifacts dominate the composition."
+    },
+    {
+      "blind_id": "case_297d84bce4ae1a3b7808",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The cushion retains its square textile identity and black-and-white nested motifs, allowing for requested perspective and layout changes; however, several motifs on the left and bottom are broken, filled or misshapen relative to the original regular repeat. This is a clear unrequested pattern change. Instruction: The edit introduces a cool gray sofa close-up, industrial interior and a black upper-left typography panel. The expected layout would include a readable life/order headline and orderly diamond texture. Setting, framing and bold placement match, but the main wording is gibberish and parts of the pattern are corrupted, so compliance is partial. Quality: Cushion placement, lighting and woven surfaces are plausible; text coherence fails throughout the title and small text, and motif boundaries distort on the left and lower edge. Multiple distracting artifacts."
+    },
+    {
+      "blind_id": "case_60bf1c6a93e7f8f64abb",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The source cushion's pointed corners, inward-curving top edge, regular nested-diamond arrangement and woven surface are preserved. Changes in framing, size within the scene, sofa background, lighting and added type are all instructed; no clear independent product alteration is visible. Instruction: The edit places the cushion prominently on a dark sofa and adds a bold sans-serif headline aligned at the top left. This matches the expected cool minimalist poster, with a close view of geometric structure and fabric and the requested life/order wording. All required elements are present. Quality: Structure, legible text, natural lighting, artifact-free rendering and fabric texture are satisfactory; the cushion edges, repeat and sofa contact are coherent without noticeable defects."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b096",
+  "results": [
+    {
+      "blind_id": "case_d513a6b0cbb9848f4810",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white studio background and reflective floor remain, but the retained small gray tabby is enlarged, moved left and made upright; the right tabby is paler with altered face and body proportions. Instruction: Four kittens become two, with the two left kittens absent; the expected result is exactly two remaining kittens, so the requested removal count is fulfilled. Quality, assessed on this image alone: coherent kitten anatomy, clean fur boundaries, plausible lighting and floor reflections; the pale soft rendering remains readable and has no noticeable structural artifacts."
+    },
+    {
+      "blind_id": "case_bdfc483fafaa4f9d3fb1",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white backdrop, floor and three retained kitten identities and overall arrangement persist. However, the gray kitten\u2019s forepaws extend lower and its face is subtly reshaped, while the right tabby\u2019s eyes and facial proportions are altered. Instruction: Only the far-left kitten disappears, leaving three; exactly two should remain, so one of the two required removals is incomplete. Quality, assessed independently: three anatomically coherent kittens with natural fur, lighting, contact shadows and reflections; no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_18fdc3b10a24d01927c5",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The right tabby largely preserves its face, markings and placement, but a third kitten is removed beyond the two authorized removals, and the floor has conspicuous flat white replacement patches and disrupted reflections. Instruction: Three kittens disappear and only one remains; the expected two-kitten result is exceeded by one removal, giving partial compliance. Quality, assessed independently: the kitten itself is coherent, but faint ghostlike contours across the empty white field and abrupt white patches interrupting the reflective floor are clear cleanup artifacts."
+    },
+    {
+      "blind_id": "case_d9e1fd4e5bb5da19615b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white studio setting and reflective floor persist, but the left retained kitten changes from solid gray to a striped tabby in a low crouch; the right tabby\u2019s head is lowered substantially and the middle kitten\u2019s body contour is changed. Instruction: The far-left original kitten is removed, but three kittens remain instead of the required two; the additional appearance changes do not complete the second removal. Quality, assessed independently: the three kittens have plausible crouching or sitting anatomy, coherent faces and fur, natural contact shadows and a clean reflective floor without noticeable artifacts."
+    }
+  ]
+}

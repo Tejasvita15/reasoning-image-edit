@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b136",
+  "results": [
+    {
+      "blind_id": "case_62323595a18a30082a3b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The black background and general emitter/barrier arrangement remain, but the emitter and wave arrow shrink/shift, the barrier geometry changes, the outgoing dotted arrow disappears, and the screen becomes a large frontal rectangle. Instruction: The blank right screen gains three multicolored vertical strips with thick horizontal projections; the expected drawing is alternating bright and dark interference fringes on that screen. The irregular, crossbar-like pattern poorly implements that change (2). Knowledge: The explanation requires alternating bright/dark fringes, which these noisy colored strips and lateral bars do not clearly depict. Instruction failure ⇒ knowledge invalid. Quality: Structural coherence and artifact freedom are problematic: the colored strips contain numerous jagged discontinuities, smeared rainbow patches, and irregular protruding bars. The black field and simple solid objects are clean, but the panel has multiple distracting rendering errors (2)."
+    },
+    {
+      "blind_id": "case_2a8741cebdc40f120f79",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The purple emitter, blue wave and dotted arrows, gray barrier outline, and right screen outline retain their positions and forms. The formerly black background is replaced by a full-frame striped field, also visible through the barrier openings, a clear unrequested background alteration (3). Instruction: Stripes appear across the background and several narrow gray slit-like marks appear on the right board. A correct edit would draw alternating bright/dark interference fringes on the board itself; the large fringe field is misplaced and the board marks are an inadequate depiction (2). Knowledge: The supplied explanation places alternating bright/dark fringes on the detection screen; background stripes do not establish that outcome. Instruction failure ⇒ knowledge invalid. Quality: The emitter, arrows, and planar shapes are coherent, and gradients are smooth. A small localized issue is the uneven, doubled gray/white edging of the right-panel marks; otherwise surfaces and silhouette edges are clean (4)."
+    },
+    {
+      "blind_id": "case_bc3910c918b550ecb0ca",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The black field, purple emitter, and incident blue wave arrow are retained. The barrier is narrowed with a shifted right edge, the outgoing dotted arrow is absent, and the screen is enlarged and changed into a frontal rectangle extending almost the full height (2). Instruction: The right panel acquires broken angular blue marks and disconnected blocks. The expected drawing is a recognizable series of alternating bright and dark fringes; these fragmented maze-like forms only constitute a poorly implemented pattern attempt (2). Knowledge: The broken strokes and blocks do not show the alternating bright/dark fringes specified in the explanation. Instruction failure ⇒ knowledge invalid. Quality: The emitter and barrier have coherent silhouettes, but the panel contains numerous fragmented blue strokes, isolated blocks, and gray/pink smears. These visibly corrupt the graphic and create multiple distracting artifacts (2)."
+    },
+    {
+      "blind_id": "case_dd029fcf2bc5386ba138",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The emitter, incident wave arrow, outgoing dotted arrow, gray slit-barrier geometry, and screen placement are preserved. The black background is replaced with full-height black/white bands, changing a clear non-instruction background element (3). Instruction: Two broad gray slit-shaped bars appear on the right board while the extensive alternating bands occur behind the apparatus. The expected result is an interference-fringe drawing on the right board; the two slit-like marks do not adequately provide it (2). Knowledge: The explanation requires alternating bright/dark fringes on the detection screen, rather than a striped backdrop with two gray board marks. Instruction failure ⇒ knowledge invalid. Quality: Judging this image alone, the cylindrical emitter, clean arrows, planar panels, and smooth stripe edges form a coherent schematic. Lighting gradients and flat surfaces are consistent with the illustration style, with no noticeable generation artifacts or damaged textures (5)."
+    }
+  ]
+}

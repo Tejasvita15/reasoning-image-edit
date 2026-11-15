@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b376",
+  "results": [
+    {
+      "blind_id": "case_28c60de316fe26e1ad39",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white studio setting and left-to-right coat-color order remain, but the rabbits' facial proportions, ear shapes and fur markings are visibly redrawn, and the background has more prominent regularly spaced specks. Instruction: The faces and fur change, but four separate rabbits remain. The expected result is exactly three rabbits; the count is unchanged, so the request is not fulfilled. Quality: Structure, lighting and fur are coherent; small repeated dark specks across the white backdrop are a minor artifact. Knowledge is not applicable."
+    },
+    {
+      "blind_id": "case_3dfde838a54b0c6c192b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding rabbit removal, the white floor, grey rabbit and right-side arrangement are largely retained. The brown rabbit's face/ear outlines are altered, and the backdrop has a conspicuous regular pattern of dots. Instruction: The two left rabbits are removed, leaving two distinct rabbits. Exactly three were expected; reducing the number addresses the idea but overshoots the requested count. Quality: Both animals have coherent anatomy, natural fur and plausible contact shadows; faint repeated backdrop specks are a small imperfection. Knowledge is not applicable."
+    },
+    {
+      "blind_id": "case_9905eab98de1e68436b4",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding removal, the cream, brown and grey coat categories and white setting remain. The cream rabbit's ear pose and facial features change, the grey rabbit's proportions change, and the surviving animals are repositioned. Instruction: The orange rabbit is absent and three complete, separately identifiable rabbits remain, precisely satisfying the requested count. Quality: Rabbit anatomy, fur, lighting and ground contact are coherent; small repeated dots on the white background are a minor artifact. Knowledge is not applicable."
+    },
+    {
+      "blind_id": "case_94f92e99de4522c38b53",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white studio setting remains, but most major rabbit details are changed: two tan rabbits replace the distinctive original coat patterns and faces, and the grey rabbit has a different body shape, ear pose and paw placement. These identity and pose changes exceed the count edit. Instruction: There are now exactly three distinct rabbits, meeting the specified count. Quality: All three animals have coherent bodies, ears and paws, natural lighting and plausible fur; faint scattered backdrop specks are a minor imperfection. Knowledge is not applicable."
+    }
+  ]
+}

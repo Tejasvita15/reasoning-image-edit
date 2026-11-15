@@ -63,7 +63,24 @@ class Step1XRunner:
         )
 
         if self.cpu_offload:
-            self.pipe.enable_model_cpu_offload()
+            if not torch.cuda.is_available():
+                raise RuntimeError(
+                    "CUDA is required when "
+                    "cpu_offload=True."
+                )
+
+            self.pipe.enable_model_cpu_offload(
+                gpu_id=0,
+                device="cuda",
+            )
+
+            # Step1X calls the Qwen nested embed_tokens() directly during
+            # prompt encoding. This bypasses the CPU-offload hook installed
+            # on the top-level text_encoder.forward(). Explicitly trigger
+            # that existing hook before each embedding encode operation.
+            # This does not modify the installed Step1X library source.
+            self._install_qwen_embedding_offload_bridge()
+
         else:
             if not torch.cuda.is_available():
                 raise RuntimeError(
@@ -73,14 +90,189 @@ class Step1XRunner:
 
             self.pipe.to("cuda")
 
+        self._print_deployment_summary()
         print("Step1X loaded.")
+
+    def _install_qwen_embedding_offload_bridge(self) -> None:
+        """On-load Qwen before Step1X directly calls nested embedding layers.
+
+        Diffusers/Accelerate attaches a model-level CPU-offload hook to the
+        text encoder's forward(). Step1X's _get_qwenvl_embeds() instead
+        invokes text_encoder.model.language_model.embed_tokens() directly,
+        so the parent hook does not run and the weight stays on CPU while
+        token IDs are on CUDA.
+
+        Trigger the *existing* parent hook before each Qwen embedding pass.
+        The normal next-model offload chain still handles transitions to
+        transformer/vae. No Step1X source or model weights are modified.
+        """
+        encoder = getattr(self.pipe, "text_encoder", None)
+        offload_hook = getattr(encoder, "_hf_hook", None)
+        pre_forward = getattr(offload_hook, "pre_forward", None)
+        original_encode = getattr(self.pipe, "_get_qwenvl_embeds", None)
+
+        if encoder is None or not callable(pre_forward):
+            raise RuntimeError(
+                "Model CPU offload was enabled but its text_encoder "
+                "hook was not found. Check Accelerate/diffusers versions."
+            )
+        if not callable(original_encode):
+            raise RuntimeError(
+                "Step1X-v1p2 _get_qwenvl_embeds method was not found."
+            )
+
+        embedding = encoder.model.language_model.embed_tokens
+        count = 0
+
+        def encode_with_loaded_qwen(*args, **kwargs):
+            nonlocal count
+            # Invoke the top-level accelerate CpuOffload hook normally
+            # reached when text_encoder.forward() is called.
+            # Step1X bypasses text_encoder.forward() during embedding.
+            offload_hook.pre_forward(encoder)
+            device = embedding.weight.device
+            if device.type != "cuda":
+                raise RuntimeError(
+                    "Text encoder was not moved onto CUDA before "
+                    f"Step1X token embedding (weight device={device})."
+                )
+            count += 1
+            if count == 1:
+                print(f"Qwen embedding onloaded to {device} before encode.")
+            return original_encode(*args, **kwargs)
+
+        self.pipe._get_qwenvl_embeds = encode_with_loaded_qwen
+        print(
+            "Installed Qwen embedding bridge for model CPU offload "
+            f"(hook={type(offload_hook).__name__})."
+        )
+
+        # Thinking uses text_encoder.generate(), not the pipeline's
+        # _get_qwenvl_embeds() helper. The CPU-offload hook moves Qwen onto
+        # CUDA only when forward() starts, which is AFTER generate() has
+        # prepared/placed its inputs. In that case, input IDs can be on CPU
+        # while the embedding weights have been moved to CUDA.
+        #
+        # Onload the same existing model hook before generate() begins,
+        # and align caller-supplied tensors with that loaded model. This
+        # keeps the fix in our wrapper; no diffusers/transformers patching.
+        original_generate = getattr(encoder, "generate", None)
+        if not callable(original_generate):
+            if self.config["generation"].get("enable_thinking_mode", False):
+                raise RuntimeError(
+                    "Thinking enabled, but text_encoder.generate() "
+                    "is not available for CPU-offload bridging."
+                )
+            return
+
+        generate_count = 0
+
+        def move_generation_data(value, device):
+            if isinstance(value, torch.Tensor):
+                return value.to(device=device, non_blocking=True)
+            if isinstance(value, dict):
+                return {
+                    key: move_generation_data(item, device)
+                    for key, item in value.items()
+                }
+            if isinstance(value, list):
+                return [move_generation_data(item, device) for item in value]
+            if isinstance(value, tuple):
+                return tuple(move_generation_data(item, device) for item in value)
+            return value
+
+        def generate_with_loaded_qwen(*args, **kwargs):
+            nonlocal generate_count
+            # Make the Qwen weights CUDA-resident *before* transformers
+            # prepares decoding tensors, not just when forward() starts.
+            offload_hook.pre_forward(encoder)
+            model_device = embedding.weight.device
+            if model_device.type != "cuda":
+                raise RuntimeError(
+                    "Thinking Qwen model was not loaded onto CUDA "
+                    f"before generate (weight device={model_device})."
+                )
+
+            cuda_args = tuple(
+                move_generation_data(item, model_device) for item in args
+            )
+            cuda_kwargs = {
+                key: move_generation_data(value, model_device)
+                for key, value in kwargs.items()
+            }
+            generate_count += 1
+            if generate_count == 1:
+                print(
+                    "Qwen thinking generate onloaded to "
+                    f"{model_device} with aligned input tensors."
+                )
+            return original_generate(*cuda_args, **cuda_kwargs)
+
+        encoder.generate = generate_with_loaded_qwen
+        print("Installed Qwen thinking-generation CPU-offload bridge.")
+
+    def _print_deployment_summary(
+        self,
+    ) -> None:
+        print(
+            "Deployment mode:",
+            (
+                "model_cpu_offload"
+                if self.cpu_offload
+                else "full_cuda"
+            ),
+        )
+
+        if self.cpu_offload:
+            print(
+                "Model offload sequence:",
+                getattr(
+                    self.pipe,
+                    "model_cpu_offload_seq",
+                    None,
+                ),
+            )
+
+        for name in (
+            "text_encoder",
+            "transformer",
+            "vae",
+        ):
+            module = getattr(
+                self.pipe,
+                name,
+                None,
+            )
+
+            if module is None:
+                continue
+
+            try:
+                parameter_device = next(
+                    module.parameters()
+                ).device
+            except (
+                StopIteration,
+                AttributeError,
+            ):
+                parameter_device = "n/a"
+
+            buffer_devices = sorted(
+                {
+                    str(buffer.device)
+                    for buffer
+                    in module.buffers()
+                }
+            )
+
+            print(
+                f"{name}: "
+                f"parameter_device={parameter_device}, "
+                f"buffer_devices={buffer_devices}"
+            )
 
     @staticmethod
     def _sync_cuda() -> None:
-        """
-        Synchronize CUDA before/after wall-clock timing.
-        """
-
         if torch.cuda.is_available():
             torch.cuda.synchronize()
 
@@ -89,10 +281,6 @@ class Step1XRunner:
         tokenizer,
         text: Optional[str],
     ) -> Optional[int]:
-        """
-        Count tokens with the model tokenizer when available.
-        """
-
         if not text:
             return 0
 
@@ -126,10 +314,6 @@ class Step1XRunner:
     def _get_available_tokenizer(
         self,
     ):
-        """
-        Return the tokenizer actually exposed by Step1X.
-        """
-
         processor = getattr(
             self.pipe,
             "processor",
@@ -167,17 +351,6 @@ class Step1XRunner:
         think_info,
         num_candidates: int,
     ) -> int:
-        """
-        Reproduce Step1X-v1p2 native candidate selection.
-
-        Step1X chooses the candidate maximizing:
-
-            min(score1) * min(score2)
-
-        Ties prefer a candidate containing <#Success>.
-        If still tied, the later candidate wins.
-        """
-
         if num_candidates <= 0:
             raise ValueError(
                 "num_candidates must be positive."
@@ -257,13 +430,6 @@ class Step1XRunner:
         think_info,
         retry_triggered: bool,
     ) -> str:
-        """
-        Interpret the final Step1X reflection result.
-
-        This only logs what happened; it does not alter
-        Step1X's native correction behavior.
-        """
-
         if not think_info:
             return (
                 "single_pass"
@@ -301,17 +467,9 @@ class Step1XRunner:
         example_uid: str,
         base_seed: int,
     ) -> Dict[str, Any]:
-        """
-        Run one Step1X RQ1 generation.
-        """
-
         generation_cfg = self.config[
             "generation"
         ]
-
-        # =====================================================
-        # Validate input
-        # =====================================================
 
         if len(images) != 1:
             raise ValueError(
@@ -322,10 +480,6 @@ class Step1XRunner:
             )
 
         image_input = images[0]
-
-        # =====================================================
-        # Configuration
-        # =====================================================
 
         num_inference_steps = int(
             generation_cfg[
@@ -357,18 +511,12 @@ class Step1XRunner:
             ]
         )
 
-        # =====================================================
-        # Seeds
-        # =====================================================
-
         stage_seeds = get_rq1_stage_seeds(
             base_seed=base_seed,
             example_uid=example_uid,
             max_try_cnt=max_try_cnt,
         )
 
-        # Step1X's thinking module samples through the
-        # global torch RNG.
         set_global_seed(
             stage_seeds["thinking"]
         )
@@ -379,28 +527,16 @@ class Step1XRunner:
                 "requires CUDA."
             )
 
-        # Step1X receives one explicitly seeded diffusion
-        # generator. If its native correction loop retries,
-        # that same generator continues its RNG stream.
         generator = torch.Generator(
             device="cuda"
         ).manual_seed(
             stage_seeds["diffusion_0"]
         )
 
-        # =====================================================
-        # GPU statistics
-        # =====================================================
-
         torch.cuda.reset_peak_memory_stats()
 
         self._sync_cuda()
-
         pipeline_start = time.perf_counter()
-
-        # =====================================================
-        # Inference
-        # =====================================================
 
         result = self.pipe(
             image=image_input,
@@ -420,18 +556,10 @@ class Step1XRunner:
             - pipeline_start
         )
 
-        # =====================================================
-        # GPU memory
-        # =====================================================
-
         peak_vram_gb = (
             torch.cuda.max_memory_allocated()
             / (1024 ** 3)
         )
-
-        # =====================================================
-        # Candidate outputs
-        # =====================================================
 
         result_images = list(
             getattr(
@@ -447,9 +575,6 @@ class Step1XRunner:
                 "Step1X returned zero output images."
             )
 
-        # Step1X-v1p2 returns all generated attempts in
-        # result.images and its internally selected image in
-        # result.final_images.
         final_images = list(
             getattr(
                 result,
@@ -462,10 +587,6 @@ class Step1XRunner:
             final_image = final_images[0]
         else:
             final_image = result_images[0]
-
-        # =====================================================
-        # Reasoning / reflection metadata
-        # =====================================================
 
         reformat_prompt = getattr(
             result,
@@ -485,17 +606,11 @@ class Step1XRunner:
             None,
         )
 
-        # In Step1X reflection mode, result.think_info contains
-        # the reflection output for each generated attempt.
         reflection_info = (
             think_info
             if reflection_enabled
             else None
         )
-
-        # =====================================================
-        # Token count
-        # =====================================================
 
         tokenizer = (
             self._get_available_tokenizer()
@@ -508,18 +623,8 @@ class Step1XRunner:
             )
         )
 
-        # Reflection contains one string per attempt. Keep the
-        # exact strings in reflection_info; do not collapse them
-        # into a misleading single per-round token count.
         reflection_token_count = None
 
-        # =====================================================
-        # Correction metadata
-        # =====================================================
-
-        # result.images is the native Step1X candidate history,
-        # so its length is the actual number of generated
-        # attempts.
         attempt_count = len(
             result_images
         )
@@ -548,20 +653,13 @@ class Step1XRunner:
             )
         )
 
-        # =====================================================
-        # Return
-        # =====================================================
-
         return {
-            # Main output
             "final_image":
                 final_image,
 
-            # All native Step1X candidates / attempts
             "candidate_images":
                 result_images,
 
-            # Reasoning
             "reformat_prompt":
                 reformat_prompt,
 
@@ -580,7 +678,6 @@ class Step1XRunner:
             "reflection_token_count":
                 reflection_token_count,
 
-            # Correction metadata
             "attempt_count":
                 attempt_count,
 
@@ -596,20 +693,15 @@ class Step1XRunner:
             "selected_is_last_candidate":
                 selected_is_last_candidate,
 
-            # Seeds
             "base_seed":
                 base_seed,
 
             "stage_seeds":
                 stage_seeds,
 
-            # Timing
             "latency_pipeline_sec":
                 latency_pipeline_sec,
 
-            # These require instrumentation inside the
-            # Step1X implementation and are intentionally
-            # not guessed.
             "latency_thinking_sec":
                 None,
 
@@ -622,7 +714,6 @@ class Step1XRunner:
             "latency_offload_sec":
                 None,
 
-            # Resources
             "peak_vram_gb":
                 peak_vram_gb,
         }

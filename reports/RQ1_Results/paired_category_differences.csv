@@ -1,0 +1,548 @@
+contrast,comparison,model,category,metric,n_pairs,n_examples,mean_delta
+Step1X: Thinking − Base,Thinking − Base,step1x,abstract_reasoning,Q_100,30,30,7.291666666666667
+Step1X: Thinking − Base,Thinking − Base,step1x,abstract_reasoning,consistency_score,30,30,0.03333333333333333
+Step1X: Thinking − Base,Thinking − Base,step1x,abstract_reasoning,instruction_score,30,30,0.5333333333333333
+Step1X: Thinking − Base,Thinking − Base,step1x,abstract_reasoning,quality_score,30,30,0.16666666666666666
+Step1X: Thinking − Base,Thinking − Base,step1x,abstract_reasoning,knowledge_score,30,30,0.43333333333333335
+Step1X: Thinking − Base,Thinking − Base,step1x,anomaly_correction,Q_100,16,16,13.541666666666666
+Step1X: Thinking − Base,Thinking − Base,step1x,anomaly_correction,consistency_score,16,16,-0.4375
+Step1X: Thinking − Base,Thinking − Base,step1x,anomaly_correction,instruction_score,16,16,1.4375
+Step1X: Thinking − Base,Thinking − Base,step1x,anomaly_correction,quality_score,16,16,0.625
+Step1X: Thinking − Base,Thinking − Base,step1x,biology,Q_100,17,17,-0.7352941176470589
+Step1X: Thinking − Base,Thinking − Base,step1x,biology,consistency_score,17,17,0.058823529411764705
+Step1X: Thinking − Base,Thinking − Base,step1x,biology,instruction_score,17,17,-0.11764705882352941
+Step1X: Thinking − Base,Thinking − Base,step1x,biology,quality_score,17,17,0.17647058823529413
+Step1X: Thinking − Base,Thinking − Base,step1x,biology,knowledge_score,17,17,-0.23529411764705882
+Step1X: Thinking − Base,Thinking − Base,step1x,chemistry,Q_100,14,14,7.589285714285714
+Step1X: Thinking − Base,Thinking − Base,step1x,chemistry,consistency_score,14,14,0.07142857142857142
+Step1X: Thinking − Base,Thinking − Base,step1x,chemistry,instruction_score,14,14,0.42857142857142855
+Step1X: Thinking − Base,Thinking − Base,step1x,chemistry,quality_score,14,14,0.21428571428571427
+Step1X: Thinking − Base,Thinking − Base,step1x,chemistry,knowledge_score,14,14,0.5
+Step1X: Thinking − Base,Thinking − Base,step1x,color_change,Q_100,16,16,0.520833333333333
+Step1X: Thinking − Base,Thinking − Base,step1x,color_change,consistency_score,16,16,0.0625
+Step1X: Thinking − Base,Thinking − Base,step1x,color_change,instruction_score,16,16,0.0
+Step1X: Thinking − Base,Thinking − Base,step1x,color_change,quality_score,16,16,0.0
+Step1X: Thinking − Base,Thinking − Base,step1x,count_change,Q_100,16,16,6.770833333333336
+Step1X: Thinking − Base,Thinking − Base,step1x,count_change,consistency_score,16,16,1.0
+Step1X: Thinking − Base,Thinking − Base,step1x,count_change,instruction_score,16,16,-0.0625
+Step1X: Thinking − Base,Thinking − Base,step1x,count_change,quality_score,16,16,-0.125
+Step1X: Thinking − Base,Thinking − Base,step1x,geography,Q_100,14,14,11.160714285714286
+Step1X: Thinking − Base,Thinking − Base,step1x,geography,consistency_score,14,14,0.5
+Step1X: Thinking − Base,Thinking − Base,step1x,geography,instruction_score,14,14,0.42857142857142855
+Step1X: Thinking − Base,Thinking − Base,step1x,geography,quality_score,14,14,0.21428571428571427
+Step1X: Thinking − Base,Thinking − Base,step1x,geography,knowledge_score,14,14,0.6428571428571429
+Step1X: Thinking − Base,Thinking − Base,step1x,humanities,Q_100,13,13,4.326923076923077
+Step1X: Thinking − Base,Thinking − Base,step1x,humanities,consistency_score,13,13,0.15384615384615385
+Step1X: Thinking − Base,Thinking − Base,step1x,humanities,instruction_score,13,13,0.23076923076923078
+Step1X: Thinking − Base,Thinking − Base,step1x,humanities,quality_score,13,13,0.0
+Step1X: Thinking − Base,Thinking − Base,step1x,humanities,knowledge_score,13,13,0.3076923076923077
+Step1X: Thinking − Base,Thinking − Base,step1x,mathematics,Q_100,12,12,7.291666666666667
+Step1X: Thinking − Base,Thinking − Base,step1x,mathematics,consistency_score,12,12,0.5
+Step1X: Thinking − Base,Thinking − Base,step1x,mathematics,instruction_score,12,12,0.5833333333333334
+Step1X: Thinking − Base,Thinking − Base,step1x,mathematics,quality_score,12,12,-0.3333333333333333
+Step1X: Thinking − Base,Thinking − Base,step1x,mathematics,knowledge_score,12,12,0.4166666666666667
+Step1X: Thinking − Base,Thinking − Base,step1x,medicine,Q_100,11,11,15.909090909090908
+Step1X: Thinking − Base,Thinking − Base,step1x,medicine,consistency_score,11,11,0.8181818181818182
+Step1X: Thinking − Base,Thinking − Base,step1x,medicine,instruction_score,11,11,0.6363636363636364
+Step1X: Thinking − Base,Thinking − Base,step1x,medicine,quality_score,11,11,0.09090909090909091
+Step1X: Thinking − Base,Thinking − Base,step1x,medicine,knowledge_score,11,11,1.0
+Step1X: Thinking − Base,Thinking − Base,step1x,multi-instruction_execution,Q_100,37,37,2.2522522522522532
+Step1X: Thinking − Base,Thinking − Base,step1x,multi-instruction_execution,consistency_score,37,37,-0.16216216216216217
+Step1X: Thinking − Base,Thinking − Base,step1x,multi-instruction_execution,instruction_score,37,37,0.13513513513513514
+Step1X: Thinking − Base,Thinking − Base,step1x,multi-instruction_execution,quality_score,37,37,0.2972972972972973
+Step1X: Thinking − Base,Thinking − Base,step1x,part_completion,Q_100,12,12,4.86111111111111
+Step1X: Thinking − Base,Thinking − Base,step1x,part_completion,consistency_score,12,12,0.25
+Step1X: Thinking − Base,Thinking − Base,step1x,part_completion,instruction_score,12,12,0.3333333333333333
+Step1X: Thinking − Base,Thinking − Base,step1x,part_completion,quality_score,12,12,0.0
+Step1X: Thinking − Base,Thinking − Base,step1x,physics,Q_100,9,9,-1.3888888888888888
+Step1X: Thinking − Base,Thinking − Base,step1x,physics,consistency_score,9,9,0.3333333333333333
+Step1X: Thinking − Base,Thinking − Base,step1x,physics,instruction_score,9,9,-0.3333333333333333
+Step1X: Thinking − Base,Thinking − Base,step1x,physics,quality_score,9,9,-0.1111111111111111
+Step1X: Thinking − Base,Thinking − Base,step1x,physics,knowledge_score,9,9,-0.1111111111111111
+Step1X: Thinking − Base,Thinking − Base,step1x,position_movement,Q_100,13,13,0.6410256410256406
+Step1X: Thinking − Base,Thinking − Base,step1x,position_movement,consistency_score,13,13,-0.6153846153846154
+Step1X: Thinking − Base,Thinking − Base,step1x,position_movement,instruction_score,13,13,0.6153846153846154
+Step1X: Thinking − Base,Thinking − Base,step1x,position_movement,quality_score,13,13,0.07692307692307693
+Step1X: Thinking − Base,Thinking − Base,step1x,practical_knowledge,Q_100,10,10,-9.375
+Step1X: Thinking − Base,Thinking − Base,step1x,practical_knowledge,consistency_score,10,10,0.0
+Step1X: Thinking − Base,Thinking − Base,step1x,practical_knowledge,instruction_score,10,10,-0.8
+Step1X: Thinking − Base,Thinking − Base,step1x,practical_knowledge,quality_score,10,10,0.0
+Step1X: Thinking − Base,Thinking − Base,step1x,practical_knowledge,knowledge_score,10,10,-0.7
+Step1X: Thinking − Base,Thinking − Base,step1x,rule-based_reasoning,Q_100,33,33,-1.7045454545454546
+Step1X: Thinking − Base,Thinking − Base,step1x,rule-based_reasoning,consistency_score,33,33,0.2727272727272727
+Step1X: Thinking − Base,Thinking − Base,step1x,rule-based_reasoning,instruction_score,33,33,-0.12121212121212122
+Step1X: Thinking − Base,Thinking − Base,step1x,rule-based_reasoning,quality_score,33,33,-0.21212121212121213
+Step1X: Thinking − Base,Thinking − Base,step1x,rule-based_reasoning,knowledge_score,33,33,-0.21212121212121213
+Step1X: Thinking − Base,Thinking − Base,step1x,size_adjustment,Q_100,16,16,-2.083333333333334
+Step1X: Thinking − Base,Thinking − Base,step1x,size_adjustment,consistency_score,16,16,0.0
+Step1X: Thinking − Base,Thinking − Base,step1x,size_adjustment,instruction_score,16,16,-0.125
+Step1X: Thinking − Base,Thinking − Base,step1x,size_adjustment,quality_score,16,16,-0.125
+Step1X: Thinking − Base,Thinking − Base,step1x,viewpoint_change,Q_100,10,10,5.833333333333332
+Step1X: Thinking − Base,Thinking − Base,step1x,viewpoint_change,consistency_score,10,10,0.4
+Step1X: Thinking − Base,Thinking − Base,step1x,viewpoint_change,instruction_score,10,10,0.2
+Step1X: Thinking − Base,Thinking − Base,step1x,viewpoint_change,quality_score,10,10,0.1
+UniReason: Thinking − Base,Thinking − Base,unireason,abstract_reasoning,Q_100,30,30,-7.916666666666667
+UniReason: Thinking − Base,Thinking − Base,unireason,abstract_reasoning,consistency_score,30,30,-0.8666666666666667
+UniReason: Thinking − Base,Thinking − Base,unireason,abstract_reasoning,instruction_score,30,30,0.3
+UniReason: Thinking − Base,Thinking − Base,unireason,abstract_reasoning,quality_score,30,30,-0.7666666666666667
+UniReason: Thinking − Base,Thinking − Base,unireason,abstract_reasoning,knowledge_score,30,30,0.06666666666666667
+UniReason: Thinking − Base,Thinking − Base,unireason,anomaly_correction,Q_100,16,16,2.6041666666666674
+UniReason: Thinking − Base,Thinking − Base,unireason,anomaly_correction,consistency_score,16,16,-0.875
+UniReason: Thinking − Base,Thinking − Base,unireason,anomaly_correction,instruction_score,16,16,0.9375
+UniReason: Thinking − Base,Thinking − Base,unireason,anomaly_correction,quality_score,16,16,0.25
+UniReason: Thinking − Base,Thinking − Base,unireason,biology,Q_100,17,17,10.661764705882353
+UniReason: Thinking − Base,Thinking − Base,unireason,biology,consistency_score,17,17,0.29411764705882354
+UniReason: Thinking − Base,Thinking − Base,unireason,biology,instruction_score,17,17,0.8823529411764706
+UniReason: Thinking − Base,Thinking − Base,unireason,biology,quality_score,17,17,-0.47058823529411764
+UniReason: Thinking − Base,Thinking − Base,unireason,biology,knowledge_score,17,17,1.0
+UniReason: Thinking − Base,Thinking − Base,unireason,chemistry,Q_100,14,14,11.160714285714286
+UniReason: Thinking − Base,Thinking − Base,unireason,chemistry,consistency_score,14,14,-0.21428571428571427
+UniReason: Thinking − Base,Thinking − Base,unireason,chemistry,instruction_score,14,14,0.8571428571428571
+UniReason: Thinking − Base,Thinking − Base,unireason,chemistry,quality_score,14,14,-0.2857142857142857
+UniReason: Thinking − Base,Thinking − Base,unireason,chemistry,knowledge_score,14,14,1.4285714285714286
+UniReason: Thinking − Base,Thinking − Base,unireason,color_change,Q_100,16,16,-3.1249999999999996
+UniReason: Thinking − Base,Thinking − Base,unireason,color_change,consistency_score,16,16,-0.3125
+UniReason: Thinking − Base,Thinking − Base,unireason,color_change,instruction_score,16,16,0.0625
+UniReason: Thinking − Base,Thinking − Base,unireason,color_change,quality_score,16,16,-0.125
+UniReason: Thinking − Base,Thinking − Base,unireason,count_change,Q_100,16,16,0.5208333333333339
+UniReason: Thinking − Base,Thinking − Base,unireason,count_change,consistency_score,16,16,0.1875
+UniReason: Thinking − Base,Thinking − Base,unireason,count_change,instruction_score,16,16,0.25
+UniReason: Thinking − Base,Thinking − Base,unireason,count_change,quality_score,16,16,-0.375
+UniReason: Thinking − Base,Thinking − Base,unireason,geography,Q_100,14,14,7.142857142857143
+UniReason: Thinking − Base,Thinking − Base,unireason,geography,consistency_score,14,14,0.14285714285714285
+UniReason: Thinking − Base,Thinking − Base,unireason,geography,instruction_score,14,14,0.6428571428571429
+UniReason: Thinking − Base,Thinking − Base,unireason,geography,quality_score,14,14,-0.5714285714285714
+UniReason: Thinking − Base,Thinking − Base,unireason,geography,knowledge_score,14,14,0.9285714285714286
+UniReason: Thinking − Base,Thinking − Base,unireason,humanities,Q_100,13,13,11.538461538461538
+UniReason: Thinking − Base,Thinking − Base,unireason,humanities,consistency_score,13,13,-0.23076923076923078
+UniReason: Thinking − Base,Thinking − Base,unireason,humanities,instruction_score,13,13,0.9230769230769231
+UniReason: Thinking − Base,Thinking − Base,unireason,humanities,quality_score,13,13,0.15384615384615385
+UniReason: Thinking − Base,Thinking − Base,unireason,humanities,knowledge_score,13,13,1.0
+UniReason: Thinking − Base,Thinking − Base,unireason,mathematics,Q_100,12,12,-0.5208333333333334
+UniReason: Thinking − Base,Thinking − Base,unireason,mathematics,consistency_score,12,12,-0.5
+UniReason: Thinking − Base,Thinking − Base,unireason,mathematics,instruction_score,12,12,0.5833333333333334
+UniReason: Thinking − Base,Thinking − Base,unireason,mathematics,quality_score,12,12,-0.8333333333333334
+UniReason: Thinking − Base,Thinking − Base,unireason,mathematics,knowledge_score,12,12,0.6666666666666666
+UniReason: Thinking − Base,Thinking − Base,unireason,medicine,Q_100,11,11,5.681818181818182
+UniReason: Thinking − Base,Thinking − Base,unireason,medicine,consistency_score,11,11,-0.45454545454545453
+UniReason: Thinking − Base,Thinking − Base,unireason,medicine,instruction_score,11,11,0.7272727272727273
+UniReason: Thinking − Base,Thinking − Base,unireason,medicine,quality_score,11,11,0.0
+UniReason: Thinking − Base,Thinking − Base,unireason,medicine,knowledge_score,11,11,0.6363636363636364
+UniReason: Thinking − Base,Thinking − Base,unireason,multi-instruction_execution,Q_100,37,37,-0.9009009009009
+UniReason: Thinking − Base,Thinking − Base,unireason,multi-instruction_execution,consistency_score,37,37,-0.08108108108108109
+UniReason: Thinking − Base,Thinking − Base,unireason,multi-instruction_execution,instruction_score,37,37,-0.02702702702702703
+UniReason: Thinking − Base,Thinking − Base,unireason,multi-instruction_execution,quality_score,37,37,0.0
+UniReason: Thinking − Base,Thinking − Base,unireason,part_completion,Q_100,12,12,-18.055555555555554
+UniReason: Thinking − Base,Thinking − Base,unireason,part_completion,consistency_score,12,12,-0.8333333333333334
+UniReason: Thinking − Base,Thinking − Base,unireason,part_completion,instruction_score,12,12,-0.5833333333333334
+UniReason: Thinking − Base,Thinking − Base,unireason,part_completion,quality_score,12,12,-0.75
+UniReason: Thinking − Base,Thinking − Base,unireason,physics,Q_100,9,9,-3.4722222222222223
+UniReason: Thinking − Base,Thinking − Base,unireason,physics,consistency_score,9,9,0.0
+UniReason: Thinking − Base,Thinking − Base,unireason,physics,instruction_score,9,9,0.1111111111111111
+UniReason: Thinking − Base,Thinking − Base,unireason,physics,quality_score,9,9,-0.5555555555555556
+UniReason: Thinking − Base,Thinking − Base,unireason,physics,knowledge_score,9,9,-0.1111111111111111
+UniReason: Thinking − Base,Thinking − Base,unireason,position_movement,Q_100,13,13,5.128205128205125
+UniReason: Thinking − Base,Thinking − Base,unireason,position_movement,consistency_score,13,13,-0.23076923076923078
+UniReason: Thinking − Base,Thinking − Base,unireason,position_movement,instruction_score,13,13,0.9230769230769231
+UniReason: Thinking − Base,Thinking − Base,unireason,position_movement,quality_score,13,13,-0.07692307692307693
+UniReason: Thinking − Base,Thinking − Base,unireason,practical_knowledge,Q_100,10,10,2.5
+UniReason: Thinking − Base,Thinking − Base,unireason,practical_knowledge,consistency_score,10,10,-0.1
+UniReason: Thinking − Base,Thinking − Base,unireason,practical_knowledge,instruction_score,10,10,0.1
+UniReason: Thinking − Base,Thinking − Base,unireason,practical_knowledge,quality_score,10,10,0.2
+UniReason: Thinking − Base,Thinking − Base,unireason,practical_knowledge,knowledge_score,10,10,0.2
+UniReason: Thinking − Base,Thinking − Base,unireason,rule-based_reasoning,Q_100,33,33,-5.871212121212121
+UniReason: Thinking − Base,Thinking − Base,unireason,rule-based_reasoning,consistency_score,33,33,-0.3939393939393939
+UniReason: Thinking − Base,Thinking − Base,unireason,rule-based_reasoning,instruction_score,33,33,0.0
+UniReason: Thinking − Base,Thinking − Base,unireason,rule-based_reasoning,quality_score,33,33,-0.5454545454545454
+UniReason: Thinking − Base,Thinking − Base,unireason,rule-based_reasoning,knowledge_score,33,33,0.0
+UniReason: Thinking − Base,Thinking − Base,unireason,size_adjustment,Q_100,17,17,1.96078431372549
+UniReason: Thinking − Base,Thinking − Base,unireason,size_adjustment,consistency_score,17,17,0.0
+UniReason: Thinking − Base,Thinking − Base,unireason,size_adjustment,instruction_score,17,17,0.35294117647058826
+UniReason: Thinking − Base,Thinking − Base,unireason,size_adjustment,quality_score,17,17,-0.11764705882352941
+UniReason: Thinking − Base,Thinking − Base,unireason,viewpoint_change,Q_100,10,10,2.1316282072803005e-15
+UniReason: Thinking − Base,Thinking − Base,unireason,viewpoint_change,consistency_score,10,10,0.1
+UniReason: Thinking − Base,Thinking − Base,unireason,viewpoint_change,instruction_score,10,10,-0.2
+UniReason: Thinking − Base,Thinking − Base,unireason,viewpoint_change,quality_score,10,10,0.1
+Step1X: Correction − Thinking,Correction − Thinking,step1x,abstract_reasoning,Q_100,3,1,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,abstract_reasoning,consistency_score,3,1,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,abstract_reasoning,instruction_score,3,1,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,abstract_reasoning,quality_score,3,1,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,abstract_reasoning,knowledge_score,3,1,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,anomaly_correction,Q_100,6,2,1.3888888888888882
+Step1X: Correction − Thinking,Correction − Thinking,step1x,anomaly_correction,consistency_score,6,2,0.16666666666666666
+Step1X: Correction − Thinking,Correction − Thinking,step1x,anomaly_correction,instruction_score,6,2,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,anomaly_correction,quality_score,6,2,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,biology,Q_100,3,1,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,biology,consistency_score,3,1,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,biology,instruction_score,3,1,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,biology,quality_score,3,1,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,biology,knowledge_score,3,1,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,color_change,Q_100,3,1,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,color_change,consistency_score,3,1,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,color_change,instruction_score,3,1,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,color_change,quality_score,3,1,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,count_change,Q_100,8,3,-13.888888888888893
+Step1X: Correction − Thinking,Correction − Thinking,step1x,count_change,consistency_score,8,3,-1.0555555555555556
+Step1X: Correction − Thinking,Correction − Thinking,step1x,count_change,instruction_score,8,3,-0.22222222222222224
+Step1X: Correction − Thinking,Correction − Thinking,step1x,count_change,quality_score,8,3,-0.3888888888888889
+Step1X: Correction − Thinking,Correction − Thinking,step1x,geography,Q_100,5,2,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,geography,consistency_score,5,2,-0.25
+Step1X: Correction − Thinking,Correction − Thinking,step1x,geography,instruction_score,5,2,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,geography,quality_score,5,2,0.25
+Step1X: Correction − Thinking,Correction − Thinking,step1x,geography,knowledge_score,5,2,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,humanities,Q_100,9,3,-2.0833333333333335
+Step1X: Correction − Thinking,Correction − Thinking,step1x,humanities,consistency_score,9,3,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,humanities,instruction_score,9,3,-0.1111111111111111
+Step1X: Correction − Thinking,Correction − Thinking,step1x,humanities,quality_score,9,3,-0.2222222222222222
+Step1X: Correction − Thinking,Correction − Thinking,step1x,humanities,knowledge_score,9,3,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,mathematics,Q_100,6,2,-4.166666666666667
+Step1X: Correction − Thinking,Correction − Thinking,step1x,mathematics,consistency_score,6,2,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,mathematics,instruction_score,6,2,-0.3333333333333333
+Step1X: Correction − Thinking,Correction − Thinking,step1x,mathematics,quality_score,6,2,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,mathematics,knowledge_score,6,2,-0.3333333333333333
+Step1X: Correction − Thinking,Correction − Thinking,step1x,medicine,Q_100,3,1,-22.916666666666668
+Step1X: Correction − Thinking,Correction − Thinking,step1x,medicine,consistency_score,3,1,-0.3333333333333333
+Step1X: Correction − Thinking,Correction − Thinking,step1x,medicine,instruction_score,3,1,-1.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,medicine,quality_score,3,1,-1.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,medicine,knowledge_score,3,1,-1.3333333333333333
+Step1X: Correction − Thinking,Correction − Thinking,step1x,multi-instruction_execution,Q_100,18,6,0.46296296296296324
+Step1X: Correction − Thinking,Correction − Thinking,step1x,multi-instruction_execution,consistency_score,18,6,0.16666666666666666
+Step1X: Correction − Thinking,Correction − Thinking,step1x,multi-instruction_execution,instruction_score,18,6,-0.05555555555555555
+Step1X: Correction − Thinking,Correction − Thinking,step1x,multi-instruction_execution,quality_score,18,6,-0.05555555555555555
+Step1X: Correction − Thinking,Correction − Thinking,step1x,physics,Q_100,6,2,-2.083333333333333
+Step1X: Correction − Thinking,Correction − Thinking,step1x,physics,consistency_score,6,2,-0.16666666666666666
+Step1X: Correction − Thinking,Correction − Thinking,step1x,physics,instruction_score,6,2,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,physics,quality_score,6,2,0.16666666666666666
+Step1X: Correction − Thinking,Correction − Thinking,step1x,physics,knowledge_score,6,2,-0.3333333333333333
+Step1X: Correction − Thinking,Correction − Thinking,step1x,position_movement,Q_100,6,2,-1.3888888888888904
+Step1X: Correction − Thinking,Correction − Thinking,step1x,position_movement,consistency_score,6,2,-0.3333333333333333
+Step1X: Correction − Thinking,Correction − Thinking,step1x,position_movement,instruction_score,6,2,0.16666666666666666
+Step1X: Correction − Thinking,Correction − Thinking,step1x,position_movement,quality_score,6,2,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,practical_knowledge,Q_100,6,2,-1.0416666666666667
+Step1X: Correction − Thinking,Correction − Thinking,step1x,practical_knowledge,consistency_score,6,2,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,practical_knowledge,instruction_score,6,2,-0.16666666666666666
+Step1X: Correction − Thinking,Correction − Thinking,step1x,practical_knowledge,quality_score,6,2,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,practical_knowledge,knowledge_score,6,2,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,rule-based_reasoning,Q_100,17,6,1.0416666666666667
+Step1X: Correction − Thinking,Correction − Thinking,step1x,rule-based_reasoning,consistency_score,17,6,0.05555555555555555
+Step1X: Correction − Thinking,Correction − Thinking,step1x,rule-based_reasoning,instruction_score,17,6,0.2222222222222222
+Step1X: Correction − Thinking,Correction − Thinking,step1x,rule-based_reasoning,quality_score,17,6,-0.1111111111111111
+Step1X: Correction − Thinking,Correction − Thinking,step1x,rule-based_reasoning,knowledge_score,17,6,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,size_adjustment,Q_100,11,4,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,size_adjustment,consistency_score,11,4,-0.08333333333333333
+Step1X: Correction − Thinking,Correction − Thinking,step1x,size_adjustment,instruction_score,11,4,0.08333333333333333
+Step1X: Correction − Thinking,Correction − Thinking,step1x,size_adjustment,quality_score,11,4,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,viewpoint_change,Q_100,6,2,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,viewpoint_change,consistency_score,6,2,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,viewpoint_change,instruction_score,6,2,0.0
+Step1X: Correction − Thinking,Correction − Thinking,step1x,viewpoint_change,quality_score,6,2,0.0
+UniReason: Correction − Thinking,Correction − Thinking,unireason,abstract_reasoning,Q_100,3,1,0.0
+UniReason: Correction − Thinking,Correction − Thinking,unireason,abstract_reasoning,consistency_score,3,1,0.0
+UniReason: Correction − Thinking,Correction − Thinking,unireason,abstract_reasoning,instruction_score,3,1,0.0
+UniReason: Correction − Thinking,Correction − Thinking,unireason,abstract_reasoning,quality_score,3,1,0.0
+UniReason: Correction − Thinking,Correction − Thinking,unireason,abstract_reasoning,knowledge_score,3,1,0.0
+UniReason: Correction − Thinking,Correction − Thinking,unireason,anomaly_correction,Q_100,6,2,1.3888888888888895
+UniReason: Correction − Thinking,Correction − Thinking,unireason,anomaly_correction,consistency_score,6,2,0.0
+UniReason: Correction − Thinking,Correction − Thinking,unireason,anomaly_correction,instruction_score,6,2,0.3333333333333333
+UniReason: Correction − Thinking,Correction − Thinking,unireason,anomaly_correction,quality_score,6,2,-0.16666666666666666
+UniReason: Correction − Thinking,Correction − Thinking,unireason,biology,Q_100,3,1,-4.166666666666667
+UniReason: Correction − Thinking,Correction − Thinking,unireason,biology,consistency_score,3,1,0.0
+UniReason: Correction − Thinking,Correction − Thinking,unireason,biology,instruction_score,3,1,0.0
+UniReason: Correction − Thinking,Correction − Thinking,unireason,biology,quality_score,3,1,-0.6666666666666666
+UniReason: Correction − Thinking,Correction − Thinking,unireason,biology,knowledge_score,3,1,0.0
+UniReason: Correction − Thinking,Correction − Thinking,unireason,color_change,Q_100,3,1,0.0
+UniReason: Correction − Thinking,Correction − Thinking,unireason,color_change,consistency_score,3,1,0.0
+UniReason: Correction − Thinking,Correction − Thinking,unireason,color_change,instruction_score,3,1,0.0
+UniReason: Correction − Thinking,Correction − Thinking,unireason,color_change,quality_score,3,1,0.0
+UniReason: Correction − Thinking,Correction − Thinking,unireason,count_change,Q_100,9,3,-0.925925925925927
+UniReason: Correction − Thinking,Correction − Thinking,unireason,count_change,consistency_score,9,3,-0.2222222222222222
+UniReason: Correction − Thinking,Correction − Thinking,unireason,count_change,instruction_score,9,3,-0.2222222222222222
+UniReason: Correction − Thinking,Correction − Thinking,unireason,count_change,quality_score,9,3,0.3333333333333333
+UniReason: Correction − Thinking,Correction − Thinking,unireason,geography,Q_100,6,2,4.166666666666667
+UniReason: Correction − Thinking,Correction − Thinking,unireason,geography,consistency_score,6,2,0.0
+UniReason: Correction − Thinking,Correction − Thinking,unireason,geography,instruction_score,6,2,0.16666666666666666
+UniReason: Correction − Thinking,Correction − Thinking,unireason,geography,quality_score,6,2,0.3333333333333333
+UniReason: Correction − Thinking,Correction − Thinking,unireason,geography,knowledge_score,6,2,0.16666666666666666
+UniReason: Correction − Thinking,Correction − Thinking,unireason,humanities,Q_100,9,3,-4.166666666666667
+UniReason: Correction − Thinking,Correction − Thinking,unireason,humanities,consistency_score,9,3,0.3333333333333333
+UniReason: Correction − Thinking,Correction − Thinking,unireason,humanities,instruction_score,9,3,-0.2222222222222222
+UniReason: Correction − Thinking,Correction − Thinking,unireason,humanities,quality_score,9,3,-0.5555555555555555
+UniReason: Correction − Thinking,Correction − Thinking,unireason,humanities,knowledge_score,9,3,-0.2222222222222222
+UniReason: Correction − Thinking,Correction − Thinking,unireason,mathematics,Q_100,6,2,-18.75
+UniReason: Correction − Thinking,Correction − Thinking,unireason,mathematics,consistency_score,6,2,0.16666666666666666
+UniReason: Correction − Thinking,Correction − Thinking,unireason,mathematics,instruction_score,6,2,-1.6666666666666665
+UniReason: Correction − Thinking,Correction − Thinking,unireason,mathematics,quality_score,6,2,0.16666666666666666
+UniReason: Correction − Thinking,Correction − Thinking,unireason,mathematics,knowledge_score,6,2,-1.6666666666666665
+UniReason: Correction − Thinking,Correction − Thinking,unireason,medicine,Q_100,3,1,-4.166666666666667
+UniReason: Correction − Thinking,Correction − Thinking,unireason,medicine,consistency_score,3,1,-0.6666666666666666
+UniReason: Correction − Thinking,Correction − Thinking,unireason,medicine,instruction_score,3,1,0.6666666666666666
+UniReason: Correction − Thinking,Correction − Thinking,unireason,medicine,quality_score,3,1,-0.6666666666666666
+UniReason: Correction − Thinking,Correction − Thinking,unireason,medicine,knowledge_score,3,1,0.0
+UniReason: Correction − Thinking,Correction − Thinking,unireason,multi-instruction_execution,Q_100,18,6,-0.4629629629629635
+UniReason: Correction − Thinking,Correction − Thinking,unireason,multi-instruction_execution,consistency_score,18,6,-1.850371707708594e-17
+UniReason: Correction − Thinking,Correction − Thinking,unireason,multi-instruction_execution,instruction_score,18,6,-0.16666666666666666
+UniReason: Correction − Thinking,Correction − Thinking,unireason,multi-instruction_execution,quality_score,18,6,0.11111111111111112
+UniReason: Correction − Thinking,Correction − Thinking,unireason,physics,Q_100,6,2,2.0833333333333335
+UniReason: Correction − Thinking,Correction − Thinking,unireason,physics,consistency_score,6,2,-0.16666666666666666
+UniReason: Correction − Thinking,Correction − Thinking,unireason,physics,instruction_score,6,2,0.8333333333333333
+UniReason: Correction − Thinking,Correction − Thinking,unireason,physics,quality_score,6,2,0.16666666666666666
+UniReason: Correction − Thinking,Correction − Thinking,unireason,physics,knowledge_score,6,2,-0.5
+UniReason: Correction − Thinking,Correction − Thinking,unireason,position_movement,Q_100,6,2,-18.055555555555554
+UniReason: Correction − Thinking,Correction − Thinking,unireason,position_movement,consistency_score,6,2,-0.16666666666666666
+UniReason: Correction − Thinking,Correction − Thinking,unireason,position_movement,instruction_score,6,2,-1.1666666666666665
+UniReason: Correction − Thinking,Correction − Thinking,unireason,position_movement,quality_score,6,2,-0.8333333333333333
+UniReason: Correction − Thinking,Correction − Thinking,unireason,practical_knowledge,Q_100,6,2,4.166666666666666
+UniReason: Correction − Thinking,Correction − Thinking,unireason,practical_knowledge,consistency_score,6,2,0.0
+UniReason: Correction − Thinking,Correction − Thinking,unireason,practical_knowledge,instruction_score,6,2,0.3333333333333333
+UniReason: Correction − Thinking,Correction − Thinking,unireason,practical_knowledge,quality_score,6,2,0.0
+UniReason: Correction − Thinking,Correction − Thinking,unireason,practical_knowledge,knowledge_score,6,2,0.3333333333333333
+UniReason: Correction − Thinking,Correction − Thinking,unireason,rule-based_reasoning,Q_100,18,6,1.388888888888889
+UniReason: Correction − Thinking,Correction − Thinking,unireason,rule-based_reasoning,consistency_score,18,6,0.27777777777777773
+UniReason: Correction − Thinking,Correction − Thinking,unireason,rule-based_reasoning,instruction_score,18,6,-0.11111111111111112
+UniReason: Correction − Thinking,Correction − Thinking,unireason,rule-based_reasoning,quality_score,18,6,0.16666666666666666
+UniReason: Correction − Thinking,Correction − Thinking,unireason,rule-based_reasoning,knowledge_score,18,6,-0.1111111111111111
+UniReason: Correction − Thinking,Correction − Thinking,unireason,size_adjustment,Q_100,12,4,0.6944444444444464
+UniReason: Correction − Thinking,Correction − Thinking,unireason,size_adjustment,consistency_score,12,4,0.3333333333333333
+UniReason: Correction − Thinking,Correction − Thinking,unireason,size_adjustment,instruction_score,12,4,-0.08333333333333334
+UniReason: Correction − Thinking,Correction − Thinking,unireason,size_adjustment,quality_score,12,4,-0.16666666666666669
+UniReason: Correction − Thinking,Correction − Thinking,unireason,viewpoint_change,Q_100,6,2,1.3888888888888917
+UniReason: Correction − Thinking,Correction − Thinking,unireason,viewpoint_change,consistency_score,6,2,-0.3333333333333333
+UniReason: Correction − Thinking,Correction − Thinking,unireason,viewpoint_change,instruction_score,6,2,0.0
+UniReason: Correction − Thinking,Correction − Thinking,unireason,viewpoint_change,quality_score,6,2,0.5
+Step1X − UniReason: Base,Cross-model,step1x,abstract_reasoning,Q_100,30,30,4.791666666666667
+Step1X − UniReason: Base,Cross-model,step1x,abstract_reasoning,consistency_score,30,30,0.0
+Step1X − UniReason: Base,Cross-model,step1x,abstract_reasoning,instruction_score,30,30,0.3
+Step1X − UniReason: Base,Cross-model,step1x,abstract_reasoning,quality_score,30,30,0.36666666666666664
+Step1X − UniReason: Base,Cross-model,step1x,abstract_reasoning,knowledge_score,30,30,0.1
+Step1X − UniReason: Base,Cross-model,step1x,anomaly_correction,Q_100,16,16,-0.5208333333333339
+Step1X − UniReason: Base,Cross-model,step1x,anomaly_correction,consistency_score,16,16,0.4375
+Step1X − UniReason: Base,Cross-model,step1x,anomaly_correction,instruction_score,16,16,-0.4375
+Step1X − UniReason: Base,Cross-model,step1x,anomaly_correction,quality_score,16,16,-0.0625
+Step1X − UniReason: Base,Cross-model,step1x,biology,Q_100,17,17,16.544117647058822
+Step1X − UniReason: Base,Cross-model,step1x,biology,consistency_score,17,17,1.1176470588235294
+Step1X − UniReason: Base,Cross-model,step1x,biology,instruction_score,17,17,0.5882352941176471
+Step1X − UniReason: Base,Cross-model,step1x,biology,quality_score,17,17,0.29411764705882354
+Step1X − UniReason: Base,Cross-model,step1x,biology,knowledge_score,17,17,0.6470588235294118
+Step1X − UniReason: Base,Cross-model,step1x,chemistry,Q_100,14,14,2.6785714285714284
+Step1X − UniReason: Base,Cross-model,step1x,chemistry,consistency_score,14,14,1.0
+Step1X − UniReason: Base,Cross-model,step1x,chemistry,instruction_score,14,14,-0.14285714285714285
+Step1X − UniReason: Base,Cross-model,step1x,chemistry,quality_score,14,14,0.07142857142857142
+Step1X − UniReason: Base,Cross-model,step1x,chemistry,knowledge_score,14,14,-0.5
+Step1X − UniReason: Base,Cross-model,step1x,color_change,Q_100,16,16,5.20833333333333
+Step1X − UniReason: Base,Cross-model,step1x,color_change,consistency_score,16,16,0.4375
+Step1X − UniReason: Base,Cross-model,step1x,color_change,instruction_score,16,16,-0.125
+Step1X − UniReason: Base,Cross-model,step1x,color_change,quality_score,16,16,0.3125
+Step1X − UniReason: Base,Cross-model,step1x,count_change,Q_100,16,16,7.291666666666668
+Step1X − UniReason: Base,Cross-model,step1x,count_change,consistency_score,16,16,0.25
+Step1X − UniReason: Base,Cross-model,step1x,count_change,instruction_score,16,16,-0.0625
+Step1X − UniReason: Base,Cross-model,step1x,count_change,quality_score,16,16,0.6875
+Step1X − UniReason: Base,Cross-model,step1x,geography,Q_100,14,14,9.821428571428571
+Step1X − UniReason: Base,Cross-model,step1x,geography,consistency_score,14,14,0.5
+Step1X − UniReason: Base,Cross-model,step1x,geography,instruction_score,14,14,0.5
+Step1X − UniReason: Base,Cross-model,step1x,geography,quality_score,14,14,0.0
+Step1X − UniReason: Base,Cross-model,step1x,geography,knowledge_score,14,14,0.5714285714285714
+Step1X − UniReason: Base,Cross-model,step1x,humanities,Q_100,13,13,15.865384615384615
+Step1X − UniReason: Base,Cross-model,step1x,humanities,consistency_score,13,13,0.6153846153846154
+Step1X − UniReason: Base,Cross-model,step1x,humanities,instruction_score,13,13,0.5384615384615384
+Step1X − UniReason: Base,Cross-model,step1x,humanities,quality_score,13,13,0.46153846153846156
+Step1X − UniReason: Base,Cross-model,step1x,humanities,knowledge_score,13,13,0.9230769230769231
+Step1X − UniReason: Base,Cross-model,step1x,mathematics,Q_100,12,12,-1.5625
+Step1X − UniReason: Base,Cross-model,step1x,mathematics,consistency_score,12,12,-0.8333333333333334
+Step1X − UniReason: Base,Cross-model,step1x,mathematics,instruction_score,12,12,0.3333333333333333
+Step1X − UniReason: Base,Cross-model,step1x,mathematics,quality_score,12,12,0.08333333333333333
+Step1X − UniReason: Base,Cross-model,step1x,mathematics,knowledge_score,12,12,0.16666666666666666
+Step1X − UniReason: Base,Cross-model,step1x,medicine,Q_100,11,11,-0.5681818181818182
+Step1X − UniReason: Base,Cross-model,step1x,medicine,consistency_score,11,11,-0.09090909090909091
+Step1X − UniReason: Base,Cross-model,step1x,medicine,instruction_score,11,11,0.45454545454545453
+Step1X − UniReason: Base,Cross-model,step1x,medicine,quality_score,11,11,-0.5454545454545454
+Step1X − UniReason: Base,Cross-model,step1x,medicine,knowledge_score,11,11,0.09090909090909091
+Step1X − UniReason: Base,Cross-model,step1x,multi-instruction_execution,Q_100,37,37,27.02702702702703
+Step1X − UniReason: Base,Cross-model,step1x,multi-instruction_execution,consistency_score,37,37,2.108108108108108
+Step1X − UniReason: Base,Cross-model,step1x,multi-instruction_execution,instruction_score,37,37,0.1891891891891892
+Step1X − UniReason: Base,Cross-model,step1x,multi-instruction_execution,quality_score,37,37,0.9459459459459459
+Step1X − UniReason: Base,Cross-model,step1x,part_completion,Q_100,12,12,-0.6944444444444452
+Step1X − UniReason: Base,Cross-model,step1x,part_completion,consistency_score,12,12,-0.4166666666666667
+Step1X − UniReason: Base,Cross-model,step1x,part_completion,instruction_score,12,12,0.25
+Step1X − UniReason: Base,Cross-model,step1x,part_completion,quality_score,12,12,0.08333333333333333
+Step1X − UniReason: Base,Cross-model,step1x,physics,Q_100,9,9,17.36111111111111
+Step1X − UniReason: Base,Cross-model,step1x,physics,consistency_score,9,9,1.1111111111111112
+Step1X − UniReason: Base,Cross-model,step1x,physics,instruction_score,9,9,0.3333333333333333
+Step1X − UniReason: Base,Cross-model,step1x,physics,quality_score,9,9,1.1111111111111112
+Step1X − UniReason: Base,Cross-model,step1x,physics,knowledge_score,9,9,0.2222222222222222
+Step1X − UniReason: Base,Cross-model,step1x,position_movement,Q_100,13,13,4.487179487179487
+Step1X − UniReason: Base,Cross-model,step1x,position_movement,consistency_score,13,13,0.46153846153846156
+Step1X − UniReason: Base,Cross-model,step1x,position_movement,instruction_score,13,13,-0.46153846153846156
+Step1X − UniReason: Base,Cross-model,step1x,position_movement,quality_score,13,13,0.5384615384615384
+Step1X − UniReason: Base,Cross-model,step1x,practical_knowledge,Q_100,10,10,10.0
+Step1X − UniReason: Base,Cross-model,step1x,practical_knowledge,consistency_score,10,10,0.0
+Step1X − UniReason: Base,Cross-model,step1x,practical_knowledge,instruction_score,10,10,0.6
+Step1X − UniReason: Base,Cross-model,step1x,practical_knowledge,quality_score,10,10,0.5
+Step1X − UniReason: Base,Cross-model,step1x,practical_knowledge,knowledge_score,10,10,0.5
+Step1X − UniReason: Base,Cross-model,step1x,rule-based_reasoning,Q_100,33,33,2.6515151515151514
+Step1X − UniReason: Base,Cross-model,step1x,rule-based_reasoning,consistency_score,33,33,-0.5454545454545454
+Step1X − UniReason: Base,Cross-model,step1x,rule-based_reasoning,instruction_score,33,33,0.2727272727272727
+Step1X − UniReason: Base,Cross-model,step1x,rule-based_reasoning,quality_score,33,33,0.18181818181818182
+Step1X − UniReason: Base,Cross-model,step1x,rule-based_reasoning,knowledge_score,33,33,0.5151515151515151
+Step1X − UniReason: Base,Cross-model,step1x,size_adjustment,Q_100,17,17,5.3921568627450975
+Step1X − UniReason: Base,Cross-model,step1x,size_adjustment,consistency_score,17,17,0.29411764705882354
+Step1X − UniReason: Base,Cross-model,step1x,size_adjustment,instruction_score,17,17,0.0
+Step1X − UniReason: Base,Cross-model,step1x,size_adjustment,quality_score,17,17,0.35294117647058826
+Step1X − UniReason: Base,Cross-model,step1x,viewpoint_change,Q_100,10,10,-0.8333333333333336
+Step1X − UniReason: Base,Cross-model,step1x,viewpoint_change,consistency_score,10,10,-0.2
+Step1X − UniReason: Base,Cross-model,step1x,viewpoint_change,instruction_score,10,10,-0.6
+Step1X − UniReason: Base,Cross-model,step1x,viewpoint_change,quality_score,10,10,0.7
+Step1X − UniReason: Thinking,Cross-model,step1x,abstract_reasoning,Q_100,30,30,20.0
+Step1X − UniReason: Thinking,Cross-model,step1x,abstract_reasoning,consistency_score,30,30,0.9
+Step1X − UniReason: Thinking,Cross-model,step1x,abstract_reasoning,instruction_score,30,30,0.5333333333333333
+Step1X − UniReason: Thinking,Cross-model,step1x,abstract_reasoning,quality_score,30,30,1.3
+Step1X − UniReason: Thinking,Cross-model,step1x,abstract_reasoning,knowledge_score,30,30,0.4666666666666667
+Step1X − UniReason: Thinking,Cross-model,step1x,anomaly_correction,Q_100,16,16,10.416666666666666
+Step1X − UniReason: Thinking,Cross-model,step1x,anomaly_correction,consistency_score,16,16,0.875
+Step1X − UniReason: Thinking,Cross-model,step1x,anomaly_correction,instruction_score,16,16,0.0625
+Step1X − UniReason: Thinking,Cross-model,step1x,anomaly_correction,quality_score,16,16,0.3125
+Step1X − UniReason: Thinking,Cross-model,step1x,biology,Q_100,17,17,5.147058823529412
+Step1X − UniReason: Thinking,Cross-model,step1x,biology,consistency_score,17,17,0.8823529411764706
+Step1X − UniReason: Thinking,Cross-model,step1x,biology,instruction_score,17,17,-0.4117647058823529
+Step1X − UniReason: Thinking,Cross-model,step1x,biology,quality_score,17,17,0.9411764705882353
+Step1X − UniReason: Thinking,Cross-model,step1x,biology,knowledge_score,17,17,-0.5882352941176471
+Step1X − UniReason: Thinking,Cross-model,step1x,chemistry,Q_100,14,14,-0.8928571428571429
+Step1X − UniReason: Thinking,Cross-model,step1x,chemistry,consistency_score,14,14,1.2857142857142858
+Step1X − UniReason: Thinking,Cross-model,step1x,chemistry,instruction_score,14,14,-0.5714285714285714
+Step1X − UniReason: Thinking,Cross-model,step1x,chemistry,quality_score,14,14,0.5714285714285714
+Step1X − UniReason: Thinking,Cross-model,step1x,chemistry,knowledge_score,14,14,-1.4285714285714286
+Step1X − UniReason: Thinking,Cross-model,step1x,color_change,Q_100,16,16,8.854166666666664
+Step1X − UniReason: Thinking,Cross-model,step1x,color_change,consistency_score,16,16,0.8125
+Step1X − UniReason: Thinking,Cross-model,step1x,color_change,instruction_score,16,16,-0.1875
+Step1X − UniReason: Thinking,Cross-model,step1x,color_change,quality_score,16,16,0.4375
+Step1X − UniReason: Thinking,Cross-model,step1x,count_change,Q_100,16,16,13.54166666666667
+Step1X − UniReason: Thinking,Cross-model,step1x,count_change,consistency_score,16,16,1.0625
+Step1X − UniReason: Thinking,Cross-model,step1x,count_change,instruction_score,16,16,-0.375
+Step1X − UniReason: Thinking,Cross-model,step1x,count_change,quality_score,16,16,0.9375
+Step1X − UniReason: Thinking,Cross-model,step1x,geography,Q_100,14,14,13.839285714285714
+Step1X − UniReason: Thinking,Cross-model,step1x,geography,consistency_score,14,14,0.8571428571428571
+Step1X − UniReason: Thinking,Cross-model,step1x,geography,instruction_score,14,14,0.2857142857142857
+Step1X − UniReason: Thinking,Cross-model,step1x,geography,quality_score,14,14,0.7857142857142857
+Step1X − UniReason: Thinking,Cross-model,step1x,geography,knowledge_score,14,14,0.2857142857142857
+Step1X − UniReason: Thinking,Cross-model,step1x,humanities,Q_100,13,13,8.653846153846153
+Step1X − UniReason: Thinking,Cross-model,step1x,humanities,consistency_score,13,13,1.0
+Step1X − UniReason: Thinking,Cross-model,step1x,humanities,instruction_score,13,13,-0.15384615384615385
+Step1X − UniReason: Thinking,Cross-model,step1x,humanities,quality_score,13,13,0.3076923076923077
+Step1X − UniReason: Thinking,Cross-model,step1x,humanities,knowledge_score,13,13,0.23076923076923078
+Step1X − UniReason: Thinking,Cross-model,step1x,mathematics,Q_100,12,12,6.25
+Step1X − UniReason: Thinking,Cross-model,step1x,mathematics,consistency_score,12,12,0.16666666666666666
+Step1X − UniReason: Thinking,Cross-model,step1x,mathematics,instruction_score,12,12,0.3333333333333333
+Step1X − UniReason: Thinking,Cross-model,step1x,mathematics,quality_score,12,12,0.5833333333333334
+Step1X − UniReason: Thinking,Cross-model,step1x,mathematics,knowledge_score,12,12,-0.08333333333333333
+Step1X − UniReason: Thinking,Cross-model,step1x,medicine,Q_100,11,11,9.659090909090908
+Step1X − UniReason: Thinking,Cross-model,step1x,medicine,consistency_score,11,11,1.1818181818181819
+Step1X − UniReason: Thinking,Cross-model,step1x,medicine,instruction_score,11,11,0.36363636363636365
+Step1X − UniReason: Thinking,Cross-model,step1x,medicine,quality_score,11,11,-0.45454545454545453
+Step1X − UniReason: Thinking,Cross-model,step1x,medicine,knowledge_score,11,11,0.45454545454545453
+Step1X − UniReason: Thinking,Cross-model,step1x,multi-instruction_execution,Q_100,37,37,30.180180180180177
+Step1X − UniReason: Thinking,Cross-model,step1x,multi-instruction_execution,consistency_score,37,37,2.027027027027027
+Step1X − UniReason: Thinking,Cross-model,step1x,multi-instruction_execution,instruction_score,37,37,0.35135135135135137
+Step1X − UniReason: Thinking,Cross-model,step1x,multi-instruction_execution,quality_score,37,37,1.2432432432432432
+Step1X − UniReason: Thinking,Cross-model,step1x,part_completion,Q_100,12,12,22.222222222222218
+Step1X − UniReason: Thinking,Cross-model,step1x,part_completion,consistency_score,12,12,0.6666666666666666
+Step1X − UniReason: Thinking,Cross-model,step1x,part_completion,instruction_score,12,12,1.1666666666666667
+Step1X − UniReason: Thinking,Cross-model,step1x,part_completion,quality_score,12,12,0.8333333333333334
+Step1X − UniReason: Thinking,Cross-model,step1x,physics,Q_100,9,9,19.444444444444443
+Step1X − UniReason: Thinking,Cross-model,step1x,physics,consistency_score,9,9,1.4444444444444444
+Step1X − UniReason: Thinking,Cross-model,step1x,physics,instruction_score,9,9,-0.1111111111111111
+Step1X − UniReason: Thinking,Cross-model,step1x,physics,quality_score,9,9,1.5555555555555556
+Step1X − UniReason: Thinking,Cross-model,step1x,physics,knowledge_score,9,9,0.2222222222222222
+Step1X − UniReason: Thinking,Cross-model,step1x,position_movement,Q_100,13,13,1.0931426704001542e-15
+Step1X − UniReason: Thinking,Cross-model,step1x,position_movement,consistency_score,13,13,0.07692307692307693
+Step1X − UniReason: Thinking,Cross-model,step1x,position_movement,instruction_score,13,13,-0.7692307692307693
+Step1X − UniReason: Thinking,Cross-model,step1x,position_movement,quality_score,13,13,0.6923076923076923
+Step1X − UniReason: Thinking,Cross-model,step1x,practical_knowledge,Q_100,10,10,-1.875
+Step1X − UniReason: Thinking,Cross-model,step1x,practical_knowledge,consistency_score,10,10,0.1
+Step1X − UniReason: Thinking,Cross-model,step1x,practical_knowledge,instruction_score,10,10,-0.3
+Step1X − UniReason: Thinking,Cross-model,step1x,practical_knowledge,quality_score,10,10,0.3
+Step1X − UniReason: Thinking,Cross-model,step1x,practical_knowledge,knowledge_score,10,10,-0.4
+Step1X − UniReason: Thinking,Cross-model,step1x,rule-based_reasoning,Q_100,33,33,6.818181818181818
+Step1X − UniReason: Thinking,Cross-model,step1x,rule-based_reasoning,consistency_score,33,33,0.12121212121212122
+Step1X − UniReason: Thinking,Cross-model,step1x,rule-based_reasoning,instruction_score,33,33,0.15151515151515152
+Step1X − UniReason: Thinking,Cross-model,step1x,rule-based_reasoning,quality_score,33,33,0.5151515151515151
+Step1X − UniReason: Thinking,Cross-model,step1x,rule-based_reasoning,knowledge_score,33,33,0.30303030303030304
+Step1X − UniReason: Thinking,Cross-model,step1x,size_adjustment,Q_100,16,16,2.0833333333333326
+Step1X − UniReason: Thinking,Cross-model,step1x,size_adjustment,consistency_score,16,16,0.3125
+Step1X − UniReason: Thinking,Cross-model,step1x,size_adjustment,instruction_score,16,16,-0.4375
+Step1X − UniReason: Thinking,Cross-model,step1x,size_adjustment,quality_score,16,16,0.375
+Step1X − UniReason: Thinking,Cross-model,step1x,viewpoint_change,Q_100,10,10,4.999999999999999
+Step1X − UniReason: Thinking,Cross-model,step1x,viewpoint_change,consistency_score,10,10,0.1
+Step1X − UniReason: Thinking,Cross-model,step1x,viewpoint_change,instruction_score,10,10,-0.2
+Step1X − UniReason: Thinking,Cross-model,step1x,viewpoint_change,quality_score,10,10,0.7
+Step1X − UniReason: Correction,Cross-model,step1x,abstract_reasoning,Q_100,3,1,54.166666666666664
+Step1X − UniReason: Correction,Cross-model,step1x,abstract_reasoning,consistency_score,3,1,2.3333333333333335
+Step1X − UniReason: Correction,Cross-model,step1x,abstract_reasoning,instruction_score,3,1,2.6666666666666665
+Step1X − UniReason: Correction,Cross-model,step1x,abstract_reasoning,quality_score,3,1,0.3333333333333333
+Step1X − UniReason: Correction,Cross-model,step1x,abstract_reasoning,knowledge_score,3,1,3.3333333333333335
+Step1X − UniReason: Correction,Cross-model,step1x,anomaly_correction,Q_100,6,2,29.16666666666667
+Step1X − UniReason: Correction,Cross-model,step1x,anomaly_correction,consistency_score,6,2,1.1666666666666665
+Step1X − UniReason: Correction,Cross-model,step1x,anomaly_correction,instruction_score,6,2,0.6666666666666667
+Step1X − UniReason: Correction,Cross-model,step1x,anomaly_correction,quality_score,6,2,1.6666666666666667
+Step1X − UniReason: Correction,Cross-model,step1x,biology,Q_100,3,1,16.666666666666668
+Step1X − UniReason: Correction,Cross-model,step1x,biology,consistency_score,3,1,0.0
+Step1X − UniReason: Correction,Cross-model,step1x,biology,instruction_score,3,1,0.0
+Step1X − UniReason: Correction,Cross-model,step1x,biology,quality_score,3,1,2.6666666666666665
+Step1X − UniReason: Correction,Cross-model,step1x,biology,knowledge_score,3,1,0.0
+Step1X − UniReason: Correction,Cross-model,step1x,color_change,Q_100,3,1,0.0
+Step1X − UniReason: Correction,Cross-model,step1x,color_change,consistency_score,3,1,0.0
+Step1X − UniReason: Correction,Cross-model,step1x,color_change,instruction_score,3,1,0.0
+Step1X − UniReason: Correction,Cross-model,step1x,color_change,quality_score,3,1,0.0
+Step1X − UniReason: Correction,Cross-model,step1x,count_change,Q_100,9,3,-8.333333333333334
+Step1X − UniReason: Correction,Cross-model,step1x,count_change,consistency_score,9,3,0.0
+Step1X − UniReason: Correction,Cross-model,step1x,count_change,instruction_score,9,3,-1.0
+Step1X − UniReason: Correction,Cross-model,step1x,count_change,quality_score,9,3,-1.850371707708594e-17
+Step1X − UniReason: Correction,Cross-model,step1x,geography,Q_100,5,2,8.854166666666666
+Step1X − UniReason: Correction,Cross-model,step1x,geography,consistency_score,5,2,0.6666666666666666
+Step1X − UniReason: Correction,Cross-model,step1x,geography,instruction_score,5,2,0.0
+Step1X − UniReason: Correction,Cross-model,step1x,geography,quality_score,5,2,0.75
+Step1X − UniReason: Correction,Cross-model,step1x,geography,knowledge_score,5,2,0.0
+Step1X − UniReason: Correction,Cross-model,step1x,humanities,Q_100,9,3,18.055555555555554
+Step1X − UniReason: Correction,Cross-model,step1x,humanities,consistency_score,9,3,1.6666666666666667
+Step1X − UniReason: Correction,Cross-model,step1x,humanities,instruction_score,9,3,0.5555555555555556
+Step1X − UniReason: Correction,Cross-model,step1x,humanities,quality_score,9,3,0.0
+Step1X − UniReason: Correction,Cross-model,step1x,humanities,knowledge_score,9,3,0.6666666666666666
+Step1X − UniReason: Correction,Cross-model,step1x,mathematics,Q_100,6,2,6.25
+Step1X − UniReason: Correction,Cross-model,step1x,mathematics,consistency_score,6,2,-0.6666666666666666
+Step1X − UniReason: Correction,Cross-model,step1x,mathematics,instruction_score,6,2,0.5
+Step1X − UniReason: Correction,Cross-model,step1x,mathematics,quality_score,6,2,0.6666666666666666
+Step1X − UniReason: Correction,Cross-model,step1x,mathematics,knowledge_score,6,2,0.5
+Step1X − UniReason: Correction,Cross-model,step1x,medicine,Q_100,3,1,-20.833333333333332
+Step1X − UniReason: Correction,Cross-model,step1x,medicine,consistency_score,3,1,1.0
+Step1X − UniReason: Correction,Cross-model,step1x,medicine,instruction_score,3,1,-2.0
+Step1X − UniReason: Correction,Cross-model,step1x,medicine,quality_score,3,1,-0.3333333333333333
+Step1X − UniReason: Correction,Cross-model,step1x,medicine,knowledge_score,3,1,-2.0
+Step1X − UniReason: Correction,Cross-model,step1x,multi-instruction_execution,Q_100,18,6,24.537037037037038
+Step1X − UniReason: Correction,Cross-model,step1x,multi-instruction_execution,consistency_score,18,6,1.6666666666666667
+Step1X − UniReason: Correction,Cross-model,step1x,multi-instruction_execution,instruction_score,18,6,0.5555555555555555
+Step1X − UniReason: Correction,Cross-model,step1x,multi-instruction_execution,quality_score,18,6,0.7222222222222222
+Step1X − UniReason: Correction,Cross-model,step1x,physics,Q_100,6,2,30.208333333333336
+Step1X − UniReason: Correction,Cross-model,step1x,physics,consistency_score,6,2,2.5
+Step1X − UniReason: Correction,Cross-model,step1x,physics,instruction_score,6,2,0.0
+Step1X − UniReason: Correction,Cross-model,step1x,physics,quality_score,6,2,1.3333333333333335
+Step1X − UniReason: Correction,Cross-model,step1x,physics,knowledge_score,6,2,1.0
+Step1X − UniReason: Correction,Cross-model,step1x,position_movement,Q_100,6,2,4.166666666666665
+Step1X − UniReason: Correction,Cross-model,step1x,position_movement,consistency_score,6,2,0.3333333333333333
+Step1X − UniReason: Correction,Cross-model,step1x,position_movement,instruction_score,6,2,-1.0
+Step1X − UniReason: Correction,Cross-model,step1x,position_movement,quality_score,6,2,1.1666666666666667
+Step1X − UniReason: Correction,Cross-model,step1x,practical_knowledge,Q_100,6,2,3.1249999999999996
+Step1X − UniReason: Correction,Cross-model,step1x,practical_knowledge,consistency_score,6,2,0.3333333333333333
+Step1X − UniReason: Correction,Cross-model,step1x,practical_knowledge,instruction_score,6,2,0.0
+Step1X − UniReason: Correction,Cross-model,step1x,practical_knowledge,quality_score,6,2,0.16666666666666666
+Step1X − UniReason: Correction,Cross-model,step1x,practical_knowledge,knowledge_score,6,2,0.0
+Step1X − UniReason: Correction,Cross-model,step1x,rule-based_reasoning,Q_100,17,6,6.597222222222221
+Step1X − UniReason: Correction,Cross-model,step1x,rule-based_reasoning,consistency_score,17,6,0.19444444444444442
+Step1X − UniReason: Correction,Cross-model,step1x,rule-based_reasoning,instruction_score,17,6,-0.02777777777777779
+Step1X − UniReason: Correction,Cross-model,step1x,rule-based_reasoning,quality_score,17,6,1.0
+Step1X − UniReason: Correction,Cross-model,step1x,rule-based_reasoning,knowledge_score,17,6,-0.1111111111111111
+Step1X − UniReason: Correction,Cross-model,step1x,size_adjustment,Q_100,12,4,-1.3888888888888924
+Step1X − UniReason: Correction,Cross-model,step1x,size_adjustment,consistency_score,12,4,-0.25000000000000006
+Step1X − UniReason: Correction,Cross-model,step1x,size_adjustment,instruction_score,12,4,-0.5833333333333333
+Step1X − UniReason: Correction,Cross-model,step1x,size_adjustment,quality_score,12,4,0.6666666666666667
+Step1X − UniReason: Correction,Cross-model,step1x,viewpoint_change,Q_100,6,2,3.552713678800501e-15
+Step1X − UniReason: Correction,Cross-model,step1x,viewpoint_change,consistency_score,6,2,1.3333333333333333
+Step1X − UniReason: Correction,Cross-model,step1x,viewpoint_change,instruction_score,6,2,-0.6666666666666666
+Step1X − UniReason: Correction,Cross-model,step1x,viewpoint_change,quality_score,6,2,-0.6666666666666667

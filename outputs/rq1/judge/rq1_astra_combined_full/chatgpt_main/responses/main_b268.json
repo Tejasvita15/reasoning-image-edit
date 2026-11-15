@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b268",
+  "results": [
+    {
+      "blind_id": "case_41447b25536600b41317",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The gray wall/table setting and central glass remain recognizable, but the CuSO4 label is removed, graduations are redrawn and the tabletop texture changes. Requested metal placement and reaction effects are excluded. Instruction: A large rectangular iron-like block with a short stem has been added below the liquid surface; the expected placement is visibly accomplished. Knowledge: The solution remains vivid blue, contradicting the supplied expectation of pale green ferrous sulfate, despite a reddish deposit on the block. Quality: The glass and metal geometry are readable and textures coherent, but the submerged block has a conspicuously dry, sharply cut-out appearance lacking integration through the liquid/glass."
+    },
+    {
+      "blind_id": "case_e175a48415e3f96f4693",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The label, glass rim/base, graduations, gray wall, tabletop and framing remain visually unchanged outside the requested insertion. Instruction: A tilted metal block now extends into the solution behind the label, with its top above the surface, satisfying placement in the solution. Knowledge: The unchanged saturated blue solution does not show the pale green ferrous sulfate required by the explanation. Quality: Text and glass are coherent and the metal has plausible surface texture and underwater tint, but its lower end visibly hangs above the base without support, creating a clear unnatural suspension."
+    },
+    {
+      "blind_id": "case_eb3c9fc2c11aea12db1c",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The central glass and gray setting are retained, but the CuSO4 label disappears, measurement markings change, and the table texture is visibly reworked; requested block/reaction changes are excluded. Instruction: A rectangular metal block has been placed within the liquid with a short stem above it, matching the requested insertion. Knowledge: Reddish coating appears on the block, but the solution is still strong blue rather than the explained pale green ferrous sulfate, a clear knowledge mismatch. Quality: The vessel and block have coherent basic shapes and readable surface texture, but the block face appears pasted across the liquid with very little optical integration, a conspicuous compositing flaw."
+    },
+    {
+      "blind_id": "case_0fd95f82101b4bb7ff70",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The label, red graduations, rim, wall, tabletop and framing are preserved; a small dark oval/reflection appears in the clear glass base. The added block and its liquid interaction are excluded. Instruction: A tilted rectangular metal block is visibly immersed behind the label, with its upper end above the surface, completing the requested placement. Knowledge: The liquid remains saturated blue rather than becoming pale green ferrous sulfate as the supplied explanation specifies. Quality: The glass outline, legible label, perspective and textured metal are coherent; the submerged section is naturally darkened/tinted and its edges integrate with the liquid, with no clear generation artifact."
+    }
+  ]
+}

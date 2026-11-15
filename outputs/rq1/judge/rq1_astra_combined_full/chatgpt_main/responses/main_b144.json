@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b144",
+  "results": [
+    {
+      "blind_id": "case_d7c5660e1e9414b26f2e",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The pens, existing watermelon counts, lemons and colored grid retain their positions and identities; the lower-left lemon's surface highlight is visibly redrawn. Instruction: A single watermelon is added in the correct middle-right box, as required, but the large question mark remains over it, leaving a minor completion omission. Knowledge: The supplied rule requires one watermelon: the row determines fruit type and the right column contains single objects. The added fruit has the correct category and count. Quality, judged from this image alone: The grid and photographic objects are coherent with plausible surfaces and shadows, but the large black question mark obscuring the fruit is a conspicuous visual/semantic blemish."
+    },
+    {
+      "blind_id": "case_cb7bdd3450b7fcc71212",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The middle-left cell gains a second watermelon, and the lower-left and lower-center lemons become watermelons; these are multiple unrequested alterations. The pen row, right lemon and overall colored grid remain recognizable. Instruction: The designated middle-right cell still contains only the question mark rather than the required single watermelon; changes elsewhere do not satisfy the request. Knowledge: Instruction failure ⇒ knowledge invalid. Quality, judged from this image alone: Objects and cell layout remain readable, but the center watermelons have conspicuously harsh, speckled rind textures and the outer grid lines are uneven."
+    },
+    {
+      "blind_id": "case_dc63d8508b9506fc36aa",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The pen row, existing watermelon cells, lemon identities and positions, and colored grid are retained; the lower-left lemon has a visibly changed highlight/texture. Changes within the designated answer box are excluded from this check. Instruction: The target question mark is redrawn with a thin rectangular outline, but no watermelon is supplied. The expected result is one watermelon in this cell, so the requested change is absent. Knowledge: Instruction failure ⇒ knowledge invalid. Quality, judged from this image alone: The regular grid, crisp readable question mark, recognizable fruit and pens, and plausible photographic textures and shadows are coherent and free of conspicuous generation defects."
+    },
+    {
+      "blind_id": "case_2dc5e263e7168ce9e562",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The original object categories, counts and cell positions persist, but rind textures in the existing watermelon cells and surface detail on the lemons are noticeably redrawn, with slight waviness in the outer grid borders. Instruction: The middle-right box still shows a question mark without the required single watermelon, so the task is unfulfilled. Knowledge: Instruction failure ⇒ knowledge invalid. Quality, judged from this image alone: The objects, shadows and three-row layout are coherent and easily readable; slightly irregular outer border lines are a small visual imperfection."
+    }
+  ]
+}

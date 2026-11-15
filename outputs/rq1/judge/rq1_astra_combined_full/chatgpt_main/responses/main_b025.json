@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b025",
+  "results": [
+    {
+      "blind_id": "case_91744abffe901c05c180",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The three triangle outlines, placement, white background, center 12 and 21, and other peripheral numbers remain consistent, but the left bottom 4 has changed to 14, a clear unrequested alteration. Instruction: The detected numerical change is at the left bottom; the rightmost center still shows '?'. The expected edit is 32 replacing that question mark, so the requested change is absent. Knowledge: The supplied rule gives 4×8×10/10=32, which is not inserted. Instruction failure ⇒ knowledge invalid. Quality, judged only from this image: coherent triangle diagram, clearly legible symbols, plain uniform background, and no noticeable generation artifacts; moderate softness does not obscure content."
+    },
+    {
+      "blind_id": "case_d6937adc5fb45e6ffdd0",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The original three outlined triangles, all numeric labels, and their orderly layout are replaced by large irregular black masses and rectangular blocks; most major non-instruction content is lost. Instruction: Visible changes replace the whole diagram with abstract black shapes; no rightmost triangle center bearing 32 is visible. The expected targeted substitution of '?' by 32 is absent. Knowledge: No numerical solution expressing the supplied product-divided-by-10 rule is shown. Instruction failure ⇒ knowledge invalid. Quality, judged only from this image: extensive jagged and fragmented black forms, abrupt rectangular regions, and incoherent merging produce severe structural failure with no legible symbolic content."
+    },
+    {
+      "blind_id": "case_6111a5b1e6f64c14de1b",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The three triangle outlines and their relative layout, white background, all peripheral numbers (5,6,4; 6,7,5; 4,8,10), and center 12 and 21 are visually preserved; no non-requested content change is evident despite overall image scaling. Instruction: There is no relevant detected change; the rightmost center retains '?'. It should instead contain 32, so the requested replacement is absent. Knowledge: The explanation requires 4×8×10/10=32; the unresolved question mark supplies no answer. Instruction failure ⇒ knowledge invalid. Quality, judged only from this image: coherent outlined triangles and readily legible numerals and punctuation, natural flat diagram presentation, uniform white background, and no noticeable artifacts; mild edge softness does not impair meaning."
+    },
+    {
+      "blind_id": "case_c525697ee2dcd6501c56",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Triangle layout, white background, left and right peripheral values, and center 12 and 21 remain recognizable and consistent, but two non-instructed middle-triangle labels change: upper-left 6 becomes 9 and upper-right 7 becomes 6. Instruction: Those labels change while the rightmost center still contains '?'. The expected replacement is 32 in that center, so the specified edit is absent. Knowledge: The required answer from the supplied explanation is 32, and no such answer is inserted. Instruction failure ⇒ knowledge invalid. Quality, judged only from this image: all three triangles have coherent closed outlines, labels are legible, the flat black-on-white presentation is clean, and no noticeable generation artifacts are present."
+    }
+  ]
+}

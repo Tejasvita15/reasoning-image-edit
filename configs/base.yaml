@@ -3,7 +3,7 @@ experiment_name: base
 model:
   model_id: stepfun-ai/Step1X-Edit-v1p2
   dtype: bfloat16
-  cpu_offload: false
+  cpu_offload: true
 
 generation:
   num_inference_steps: 50

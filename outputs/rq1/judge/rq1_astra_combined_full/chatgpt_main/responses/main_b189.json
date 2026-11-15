@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b189",
+  "results": [
+    {
+      "blind_id": "case_11fb9aba83a8a0674360",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, silver four-tined design and two-row arrangement remain, but vertical framing changes clearly: upper tips and lower handle ends are now cut off. Instruction: The framing changes, but four forks in each of two rows remain visible, totaling eight. The expected output contains exactly six forks; the count is unchanged, so the requested edit is not implemented. Quality: Coherent fork structures, natural silver shading and clean background; the tight cropping of tips and lower handles is a minor presentation defect."
+    },
+    {
+      "blind_id": "case_9578622711b23a5dca14",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: White background, upright silver forks and four-tined heads are preserved; the forks are repositioned inward with visibly different side margins and column spacing. Instruction: Placement changes but the image still contains four forks above and four below. Exactly six are required; eight remain, so the requested count change is absent. Quality: Structurally coherent complete forks with separated tines, smooth metallic surfaces and consistent lighting; no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_9276ba31615c89538943",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: White background and upright two-row organization remain, but top framing clips the tine tips, and handles have visibly flatter, more angular shading and altered outlines. Instruction: Fork rendering and framing change while all eight forks remain in two rows of four. The expected count is six, so the specified change is not made. Quality: Forks remain coherent and metallic, with clean separation and smooth surfaces; cropped upper tine tips are a minor framing defect."
+    },
+    {
+      "blind_id": "case_d4f652fecc8d5d1646a8",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: White background and upright silver utensil identity remain. The array has larger side margins and changed spacing, while fork heads and handles are narrower and their surface shading is flatter. Instruction: The objects are redrawn and repositioned, but four forks remain in each row, totaling eight rather than the required six. There is no count compliance. Quality: Readable fork shapes, consistent light and clean white background; slight unevenness at the narrow head-to-handle transitions is a minor contour imperfection."
+    },
+    {
+      "blind_id": "case_575cbaa12b06cae86797",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: White background, metallic finish, four-tined fork design and two rows remain. The outer columns shift inward, visibly changing spacing and margins. Instruction: Fork placement changes, but the visible count stays at eight, arranged as four above and four below. A compliant image would show six; the required reduction is absent. Quality: Coherent separated tines and tapered handles, smooth silver shading and a clean background; no noticeable structural or texture artifacts."
+    },
+    {
+      "blind_id": "case_487074e16b51fb49ad7a",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white field remains, but the entire utensil arrangement disappears, including the six forks that should have been retained; major non-requested subject content is lost beyond the permitted removal of two forks. Instruction: All eight forks disappear, leaving zero. Exactly six forks were required, so the change fails completely. Quality, assessed only from this output: The visible image is a clean, essentially uniform white field without visible seams, corrupted texture or malformed structures. No subject is present to assess anatomy or material realism; absence of the requested forks is evaluated under instruction rather than imported into standalone quality."
+    }
+  ]
+}

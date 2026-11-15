@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b245",
+  "results": [
+    {
+      "blind_id": "case_51cb82c9145559570db9",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The central tube, surrounding glass columns, background shadows and reflections retain their positions and appearance; the added droplet is excluded. Instruction: A small clear, stacked teardrop shape appears near the bottom of the yellow liquid. The expected change is solution being delivered as drops into the tube; no delivery at the surface is shown, so this isolated submerged shape implements little of the action. Knowledge: Instruction failure ⇒ knowledge invalid. The liquid also remains clear amber without the specified reddish-brown precipitate. Quality: Glass, lighting and background are coherent, but the white-edged, tiered droplet looks pasted on and structurally unnatural."
+    },
+    {
+      "blind_id": "case_0c188289b0c0dcf3dafb",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The side glass columns and blurred background retain the scene layout, but the central tube has visibly redrawn wall and base contours and reflections. Instruction: A descending clear strand and two bulbous drops have been added. Dropwise delivery into the existing solution is the expected action; the edit conveys addition, but the long continuous strand and oversized submerged globule make dropwise addition incomplete. Knowledge: The explanation requires reddish-brown iron(III) hydroxide precipitate; only transparent amber liquid and clear globules are visible, with no precipitate, contradicting the core expected result. Quality: The vessel and background are coherent with natural lighting, but the elongated suspended filament and large floating glass-like globule create clear semantic and structural anomalies."
+    },
+    {
+      "blind_id": "case_78a21792c05511656737",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The central vessel, adjacent glassware, reflections, background and framing remain unchanged outside the added material in the liquid. Instruction: A dark reddish layer now fills the lower tube. The expected action is sodium hydroxide solution entering dropwise; the changed contents suggest an aftermath, but no drops or delivery are shown, leaving the specified manner of addition unrepresented. Knowledge: The reddish-brown lower material partially matches the supplied precipitate expectation, but its uniform translucent appearance and crisp smooth boundary resemble a separate liquid layer rather than precipitated solid. Quality: The scene and glass structure are coherent, but the lower red region has conspicuously flat shading and hard overlay-like edges that undermine natural texture integration."
+    },
+    {
+      "blind_id": "case_0cc02af38ed0f47f75b1",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The side glassware and backdrop remain in the same arrangement, while the central tube wall, rounded bottom and reflected streaks have been redrawn. Instruction: A tapered dispenser-like form and a hanging drop now appear at the liquid surface. The expected change is individual drops entering the existing solution; addition is recognizable, but the broad bulb fused to the meniscus and the attached submerged drop make the dropwise action ambiguous. Knowledge: The supplied explanation calls for reddish-brown precipitate; the contents remain transparent golden liquid, entirely lacking that chemical outcome. Quality: Glass and background show coherent perspective and lighting, but the funnel-shaped bulge at the meniscus merging into a hanging bead is a clear structural anomaly."
+    }
+  ]
+}

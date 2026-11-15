@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b176",
+  "results": [
+    {
+      "blind_id": "case_5a9d930c3e241e7d793c",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray background and pineapple identity remain, but the crown leaf arrangement, rind pattern and body proportions change, and a ground shadow is added. These are not required by an overhead view. Instruction: The fruit is redrawn but still shown upright from the side, with the crown above the fully visible elongated body. A correct top view would place the crown centrally over a foreshortened, roughly circular fruit; that change is absent. Quality: Structure, natural appearance, artifact absence and surface texture are satisfactory; the irregular rind and layered leaves form a coherent object."
+    },
+    {
+      "blind_id": "case_43d64c7e2f6d7584625e",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray background, brown rind and dry green crown remain recognizable, but the fruit is greatly reduced in scale, leaving a large empty field; this is a clear unrequested composition change. Instruction: The visible change is shrinking the upright pineapple. The expected overhead view would show a central crown overlapping a roughly circular body; the output still shows the full side silhouette with crown above body, so the requested viewpoint is absent. Quality: Structure, natural appearance, artifact absence and texture are satisfactory. The small isolated fruit remains coherent and readable without distracting defects."
+    },
+    {
+      "blind_id": "case_7766482244305b957669",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The plain gray background and brown, rough pineapple rind are retained. Excluding the required viewpoint and foreshortening changes, the crown has visibly fresher, greener, more intact leaves than the dry, damaged source crown, a clear non-instruction change. Instruction: The output changes to a near-overhead circular fruit with leaves radiating around a central crown, matching the requested top-view construction. The source crown is unusually tall and upright, whereas the depicted crown is broadly splayed, so its precise overhead geometry is slightly inaccurate. Quality: Structure, natural appearance, artifact absence and texture are satisfactory; the radial leaf overlaps, pointed tips and continuous rind perimeter are visually coherent."
+    },
+    {
+      "blind_id": "case_605f11bce1fe8c0d7130",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Pineapple identity and the recognizable dry crown remain, but the gray background becomes white and the rind is substantially redrawn with smoother, strongly outlined surface forms. These are unrequested changes. Instruction: The fruit is redrawn in the same upright side-facing arrangement. A correct top view would show the crown centered over a foreshortened circular body, but the full elongated side and vertically stacked crown remain, so the viewpoint instruction is not followed. Quality: Structure, natural appearance within the rendered style, artifact absence and texture are satisfactory; the layered crown and continuous fruit silhouette are coherent and clean."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b078",
+  "results": [
+    {
+      "blind_id": "case_03a8d5ea542ca6be1af4",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The plate, scattered crumbs, dark background, viewpoint and placement remain visually unchanged; the browned and blackened bread perimeter is the requested change. Instruction: The formerly pale slice now has a clearly burnt black crust and browned adjacent crumb. An overcooked slice should visibly show scorching, which this edge charring supplies. Knowledge: The supplied explanation calls for charred toast; blackened edges and uneven browning plausibly show excessive heating. Quality: Coherent bread and plate shapes, natural shadows and reflections, and detailed crumb and scorched crust textures; no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_8d7676d93421968b5f4b",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The plate, crumbs, background and general placement are retained, but the slice outline is noticeably changed, especially the loss of the right-side indentation and the more rounded upper corners; cooking color and texture are excluded. Instruction: The pale bread becomes deeply golden brown with scattered dark scorch spots. An overcooked appearance is present, although much of the face still reads as ordinary browned toast, making the excessive cooking somewhat understated. Knowledge: The explanation expects charring; the dark burnt spots and darker perimeter provide physically plausible localized charring amid toasted crumb. Quality: The slice has coherent edges and porous texture, with plausible shading, plate reflections and contact shadow and no obvious artifacts."
+    },
+    {
+      "blind_id": "case_d02792ec716b348ca881",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The white plate and dark setting remain recognizable, but the plate framing and lower reflected highlight visibly change, and surrounding crumb locations differ, including added crumbs at the left. Browning, charring and heat-related shrinkage of the bread are excluded. Instruction: The slice changes from pale bread to dark brown toast with broad blackened areas across its upper face and edges, fully establishing an overcooked appearance. Knowledge: The supplied expectation that toast should be charred is directly satisfied by irregular black carbonized-looking patches and scorched margins. Quality: Toast structure, rough burnt surface, plate geometry and shadowing are coherent and natural, without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_27c8ced9da737cd46c55",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Bread placement, the plate, surrounding crumbs and background are preserved, with a small change to the bright reflection along the lower plate. The blackened border and changed bread surface are permitted cooking changes. Instruction: The pale slice acquires a deeply scorched perimeter, especially at the top, plus dark brown spots across its face; these visible changes clearly make it appear overcooked. Knowledge: The explanation requires charring, and near-black crust with irregular scorch patches plausibly represents excessive heat despite lighter areas remaining in the center. Quality: The bread has a coherent outline and continuous textured face; lighting, contact shadow and plate reflections look natural, with no obvious duplicated or malformed objects."
+    }
+  ]
+}

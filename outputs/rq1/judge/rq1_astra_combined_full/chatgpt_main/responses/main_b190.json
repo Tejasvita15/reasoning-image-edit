@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b190",
+  "results": [
+    {
+      "blind_id": "case_2ebc5d8b67671427bc11",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The dark background, lower holder, wick position and framing remain consistent; the flame silhouette has a taller tip and a distinct inward kink on its upper left edge, an unrequested shape change. Instruction: The yellow-orange flame gains red margins and a magenta base; the expected modification is a yellow-green flame, which is absent. Knowledge: The supplied explanation specifies yellow-green barium emission, whereas no green emission is visible. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the flame and holder have coherent shapes, smooth luminous gradients, plausible lighting and intact surfaces, without conspicuous artifacts."
+    },
+    {
+      "blind_id": "case_ddcd62a35c4e2e6c50eb",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The flame outline, holder shape, wick position, background and framing remain visually consistent; changed flame colors and their illumination of the holder are excluded as part of the requested color modification. Instruction: The lower flame becomes blue and cyan, with a narrow green transition into a largely yellow upper flame. A yellow-green flame is expected; some yellow-green is present, but the dominant blue-cyan lower region makes this partial compliance. Knowledge: The explanation calls for yellow-green barium emission; the prominent cyan-blue region is one clear departure from that expected color. Quality: Independently, the image has coherent flame and holder structure, smooth glow transitions, convincing reflective highlights and no noticeable distortions or ghosting."
+    },
+    {
+      "blind_id": "case_89bd275712b80a1aad54",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": 4,
+      "rationale": "Consistency: The dark background, flame placement and outer contour, wick and holder geometry are retained. Excluding the requested recoloring and associated reflected light, the holder surface has visibly changed to a coarse grainy texture. Instruction: The flame is recolored bright green throughout, with a cyan-green central region. This implements the expected green emission, but lacks the yellow component of the requested yellow-green result. Knowledge: The supplied barium explanation is substantially reflected by the green flame, with a minor hue deviation toward pure green/cyan rather than yellow-green. Quality: Structure and framing are coherent, but the large saturated green region loses natural tonal detail, and the holder has conspicuous coarse speckling; these are visible rendering flaws when judging this image alone."
+    },
+    {
+      "blind_id": "case_2c5ca320e09d79e52dd3",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The black background, holder geometry, wick location and overall framing are preserved. The flame is taller with a visible indentation in its upper left contour, a clear shape alteration beyond the requested color change. Instruction: The flame remains yellow-orange with red edges and a red lower region; the expected yellow-green flame coloration is not introduced. Knowledge: The visible colors do not show the yellow-green emission specified by the explanation. Instruction failure ⇒ knowledge invalid. Quality: Evaluated independently, the image presents a coherent flame and holder, smooth luminous shading, plausible dark surroundings and preserved surface details, without noticeable generation defects."
+    }
+  ]
+}

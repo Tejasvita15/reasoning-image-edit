@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b050",
+  "results": [
+    {
+      "blind_id": "case_b2589712e268da123f8f",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "Consistency: Original numbered circles, their positions, and white background remain, but all four unrelated bidirectional connections are deleted, two empty circles are added, and an extra node 5 appears. Instruction: The 0-to-3 arrow is removed, isolating node 0 exactly as requested; unrelated changes are assessed separately. Knowledge: The explanation requires removing only 0-to-3 and keeping everything else unchanged; deleting the other connections and adding nodes creates multiple serious graph-logic departures. Quality: Circles and numerals are clear and the flat diagram is clean, but duplicate node 5 and two conspicuous unlabeled circles produce semantic ambiguity."
+    },
+    {
+      "blind_id": "case_c1afb97787525bef901c",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The six numbered nodes and vertical side connections remain, but the 3-to-4 connection is deleted and the 2-to-3 connection is obscured by an irregular red mark. Instruction: The visible change affects unrelated connections; the required result is an isolated node 0 with its arrow to 3 removed, yet that arrow remains intact. Knowledge: The supplied explanation explicitly identifies 0-to-3 for removal, which has not occurred. Instruction failure ⇒ knowledge invalid. Quality: Numbered circles remain legible and the layout is coherent, but a conspicuous red smear over the central-left arrow makes that connection malformed and unclear."
+    },
+    {
+      "blind_id": "case_4dbfba7bc6a24b4f2fc7",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "Consistency: The original six numbered circles and white background remain, but all four unrelated bidirectional connections disappear; four empty circles, diagonal connectors, and an extra node 3 are introduced. Instruction: The arrow from node 0 to node 3 is gone and node 0 is isolated, satisfying the requested disconnection; unrelated edits are evaluated separately. Knowledge: Removing 0-to-3 agrees with the explanation, but deleting the other connections and inventing nodes and connections violates its keep-everything-else-unchanged requirement in multiple serious ways. Quality: Circular outlines and text are clean and readable, with coherent flat styling, but duplicated node 3 and four unlabeled nodes make the diagram semantically ambiguous."
+    },
+    {
+      "blind_id": "case_4d8f85562be98ac45de9",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The numbered circles, node arrangement, white background, and all non-target bidirectional connections are visually preserved. Instruction: No requested disconnection is visible: the arrow from 0 to 3 remains, whereas the expected output isolates node 0 by deleting that arrow. Knowledge: The retained 0-to-3 arrow directly fails the supplied explanation. Instruction failure ⇒ knowledge invalid. Quality: The diagram has coherent circular nodes, clear numerals, continuous lines and recognizable arrowheads; the plain background is clean and no noticeable generation artifacts impair interpretation."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b218",
+  "results": [
+    {
+      "blind_id": "case_244f72f5004dd2638750",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The upright wooden post and approximate placement remain, but a blue sky/horizon with vegetation replaces the upper ground, and the soil/pebble detail is altered. Instruction: The long leftward shadow is darker and cleaner rather than removed; the expected result under the supplied explanation is a post without a cast shadow, so the requested outcome is absent. Knowledge: The visible elongated shadow contradicts the explicit no-shadow explanation. Instruction failure ⇒ knowledge invalid. Quality: The post has coherent straight edges and wood grain, granular soil is natural, and the horizon, perspective and lighting are credible without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_a587be896a15215c96e1",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The general upright-post composition remains, but the brown pebbly earth becomes white finely textured ground, and the post changes width, top shape and knot/grain details. Instruction: A broad long shadow still extends leftward, now with a pronounced bend; the expected shadow-free result is not present. Knowledge: This conspicuous cast shadow contradicts the supplied no-shadow expectation. Instruction failure ⇒ knowledge invalid. Quality: The wood and fine ground textures are coherent, but the shadow visibly curves and widens on apparently level ground despite the straight post, producing one clear geometric inconsistency."
+    },
+    {
+      "blind_id": "case_e4d816eff7b204049fd2",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The upright post remains in roughly the same composition, but the pebbles and twig disappear into uniform fine sand, and the wood loses its original knots and changes its top profile and base position. Instruction: The shadow becomes a clean straight band extending off the left edge; it is not removed as the supplied expected result requires. Knowledge: The substantial projected shadow conflicts with the explanation that the object should have no shadow. Instruction failure ⇒ knowledge invalid. Quality: The post geometry, fine wood grain, continuous sand texture and sharply defined directional lighting are visually coherent and free of noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_799e57a8785e821dbd2c",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The framing, post placement and right-side twig are preserved, but the soil around the base and foreground is visibly retextured with changed pebble details, and the post face has altered darker grain and knot appearance. Instruction: The cast shadow is darkened and given a smooth rounded tip while remaining long and leftward; the expected absence of a cast shadow is not achieved. Knowledge: The long ground shadow contradicts the supplied no-shadow explanation. Instruction failure ⇒ knowledge invalid. Quality: The upright post is structurally sound, grain and stones are convincing, and the lighting and shadow read naturally with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_2b4f64c516689424c59f",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The overall upright-post arrangement persists, but the earth is smoother and brighter with most original pebbles absent, and the post changes grain, knots, top shape and position. Instruction: The ground shadow still runs far left and out of frame rather than disappearing; this does not match the supplied shadow-free expectation. Knowledge: The long cast shadow contradicts the stated no-shadow outcome. Instruction failure ⇒ knowledge invalid. Quality: Wood and ground have plausible textures and the post is straight, but a conspicuous soft vertical bright smear below the base interrupts the granular ground and appears as a rendering artifact."
+    },
+    {
+      "blind_id": "case_b6a0643e3dfdd77f04e5",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The post shape, knots, position, pebble layout and twig remain closely aligned with the source, but the overall ground color and illumination shift visibly from warm tan to a cooler gray-beige. Instruction: The leftward cast shadow is darker and more blue-toned but remains long; it has not been eliminated as the expected result requires. Knowledge: The remaining extended shadow conflicts with the explicit no-shadow explanation. Instruction failure ⇒ knowledge invalid. Quality: The post edges and wood grain are coherent, the detailed rocky ground is natural, and directional lighting is internally plausible without visible generation defects."
+    }
+  ]
+}

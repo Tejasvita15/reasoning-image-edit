@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b024",
+  "results": [
+    {
+      "blind_id": "case_8ad1483e59ec34bf",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The requested edit is accompanied by one noticeable non-target change or broader layout drift. Instruction: The result shows limited evidence of \"Change to the shadow at noon during the winter solstice in a certain place on the Tropi...\", with major aspects missing or unclear. Quality: Overall structure is coherent, with only minor visual imperfections."
+    },
+    {
+      "blind_id": "case_7f95b2a118b1a4ed",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The main idea of \"Modify the shape in the image to form the object that is created when it is rotated aro...\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections."
+    }
+  ]
+}

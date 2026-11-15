@@ -1,0 +1,24 @@
+#!/bin/bash
+#PBS -N rq1_det_smoke
+#PBS -q normal
+#PBS -P personal-tejasvit
+#PBS -l select=1:ncpus=4:mem=32gb:ngpus=1
+#PBS -l walltime=02:00:00
+#PBS -j oe
+#PBS -o logs/rq1_determinism_smoke.log
+
+set -euo pipefail
+
+cd "$PBS_O_WORKDIR"
+
+PYTHON=/home/users/ntu/tejasvit/scratch/conda_envs/step1x/bin/python
+
+echo "Node: $(hostname)"
+nvidia-smi
+
+"$PYTHON" -u -m src.check_determinism \
+  --config configs/thinking.yaml \
+  --splits data/splits.json \
+  --seed 42 \
+  --num-examples 1 \
+  --output-dir analysis/rq1/determinism/thinking_smoke

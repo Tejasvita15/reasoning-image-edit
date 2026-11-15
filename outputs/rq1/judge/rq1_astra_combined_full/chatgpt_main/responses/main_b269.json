@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b269",
+  "results": [
+    {
+      "blind_id": "case_30e6245171bb5dd8387c",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Compared with the source, the three tissues retain their overlap, outlines and placement, and the gray background and rightward shadows remain consistent. The embossed border texture is visibly reworked into more continuous ridges, particularly along the front tissue; this is an unrequested surface-detail change. Instruction: The visible change is white paper becoming pale pink. A perfect edit would make every tissue pink; all three tissues, including their exposed borders, are pink, so compliance is complete. Quality, judged from the edited image alone: structure ✓, natural lighting and shadows ✓, artifact-free ✓, texture fidelity ✓; the layered paper, fine embossing and softly wrinkled surfaces look coherent."
+    },
+    {
+      "blind_id": "case_12df8fb4241e5d224ab7",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The three-sheet arrangement and diamond border design remain recognizable, but the gray background has a greenish cast and the paper surfaces acquire much stronger, differently distributed wrinkles and mottling. These are multiple non-color changes. Instruction: All three formerly white tissues have become pink, including the back sheet and patterned margins. The expected result is pink throughout every tissue, and the visible paper meets that requirement; bright fold highlights are consistent with lighting. Quality, assessed only in this image: structure ✓, naturalness ✓, artifact-free ✓, texture fidelity ✓; crisp layered edges, plausible paper crinkles and coherent embossed diamond borders form a natural product image."
+    },
+    {
+      "blind_id": "case_93e54dad1ecc8f836151",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The source's broad three-tissue layout is retained, but tissue contours and overlap positions shift, the diamond embossing is replaced by a squiggly pattern, and the background becomes lighter with more pronounced shading. Multiple non-instruction elements change. Instruction: White tissues become saturated pink across all three sheets and all visible borders. The expected edit is to make every tissue pink, and this is fully achieved. Quality, assessed only from this output: structure ✓ and lighting/perspective ✓; texture fidelity ✘ because the embossed border has slightly tangled, wavering lines. The sheets remain cleanly defined and the scene is coherent, with a minor surface-pattern imperfection."
+    },
+    {
+      "blind_id": "case_591ebe9b127de636a844",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray backdrop, three tissue positions, outer shapes, overlaps and shadow direction remain consistent with the source. The embossed bands are visibly remodeled into stronger continuous ridges, especially along the front sheet's diagonal and bottom borders, constituting one clear unrequested texture change. Instruction: The observed edit makes each white tissue pale pink. The ideal result has pink on all tissue surfaces; the exposed rear, middle and front sheets and their patterned margins satisfy this completely. Quality, evaluated from this edited image alone: structure ✓, naturalness ✓, artifact-free ✓, texture fidelity ✓; the fine paper surface, orderly embossed borders, crisp overlaps and soft contact shadows are visually coherent."
+    }
+  ]
+}

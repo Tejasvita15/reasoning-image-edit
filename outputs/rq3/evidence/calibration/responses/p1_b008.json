@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b008",
+  "results": [
+    {
+      "blind_id": "case_8297bafea150be43",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The leaf cluster's placement, supporting branch, background bokeh and lighting are retained. Apart from the allowed leaf-damage changes, no clear non-instructed alteration is visible. Instruction: Brown irregular spots are added across the leaves, conveying damaged foliage. They primarily appear to be surface discoloration, however, while the leaf blades remain continuous; the requested pest aftermath is not fully realized as eaten-through holes. Knowledge: The supplied explanation specifically requires holes from consumed leaf tissue. Predominantly surface-like spotting is a noticeable mismatch with that expectation. Quality: The edited image alone has coherent veins and leaf edges, believable backlighting and natural depth of field, without noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_66bf745d5abf0ded",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The eight established dot configurations, grid borders and surrounding white areas are preserved; the change is confined to replacing the question mark. Instruction: A large black disk is inserted into the correct answer cell, but the necessary 4-by-4 dot configuration is absent. Correct placement alone does not satisfy the requested pattern completion, and most of the required content is missing. Knowledge: The supplied rule requires black or white output at each corresponding dot position, which the undivided disk does not encode. Instruction failure ⇒ knowledge invalid. Quality: Viewed independently of the puzzle solution, the diagram has smooth circles, intact straight dividers and clean black-and-white fills without noticeable artifacts."
+    }
+  ]
+}

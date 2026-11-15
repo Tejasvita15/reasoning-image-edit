@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b029",
+  "results": [
+    {
+      "blind_id": "case_c82a02de3fed2429b76b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, stack arrangement, shirt colors and buttons remain recognizable, but the check patterns, striped fabric and plain fabrics acquire extensive irregular texture and distorted edges across multiple garments. Instruction: The visible change is texture corruption; the expected result is exactly four garments. All five original layers remain (blue check, purple check, cyan, multicolor stripe and lavender), so the requested reduction is absent. Quality: Structure is recognizable and lighting is coherent, but widespread crystalline/rippled fabric, broken checks and rough smeared edges are multiple distracting artifacts; texture fidelity and artifact freedom fail."
+    },
+    {
+      "blind_id": "case_803baf4983a490d3c5b9",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pale background and stacked-shirt theme remain, but most retained garment designs have been replaced: the top becomes solid blue with striped collar/placket, the purple shirt becomes solid, and the bottom is fine blue stripes. Collar construction, buttons and folded silhouettes also change substantially. Instruction: The stack changes from five garments to four clearly separable layers; exactly four pieces are visible, fully meeting the requested count. Quality: Lighting, stack structure and solid fabric surfaces are coherent. The top striped placket has visibly wavering, merging lines and a ragged junction near the collar, a noticeable localized fabric/trim distortion."
+    },
+    {
+      "blind_id": "case_499466a2e06423a9afd9",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Removing the blue-check top shirt and exposing the purple-check shirt are allowed. The remaining purple-check, cyan, multicolor-striped and lavender garments preserve their identities, order, button placements, pale background and lighting. A slight change in the bottom lavender front fold/outline is a minor residual inconsistency. Instruction: The top garment is removed, leaving exactly four distinct folded shirts, which precisely meets the requested count. Quality: The folded garments have coherent outlines, plausible woven textures, clean buttons and natural contact shadows; no noticeable generation artifact is visible."
+    },
+    {
+      "blind_id": "case_b6143ef2876558fb64ad",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Removal of the lavender bottom garment is allowed. Background, lighting and the four surviving fabric identities remain recognizable, but the stack is narrower/reframed and the top collar is smaller with altered folds and button geometry. These are multiple visible changes beyond garment removal. Instruction: The lavender bottom layer disappears and exactly four shirts remain\u2014blue check, purple check, cyan and multicolor stripe\u2014fully satisfying the requested count. Quality: Shirt shapes, collar, buttons, fabric patterns and contact shadows are coherent and natural, with no noticeable artifacts."
+    }
+  ]
+}

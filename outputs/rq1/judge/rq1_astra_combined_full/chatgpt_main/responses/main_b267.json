@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b267",
+  "results": [
+    {
+      "blind_id": "case_a9e836da3c33a7fbb432",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, placement, yellow faceted shaft, wood cone, graphite tip and soft ground shadow remain visually unchanged. Instruction: No meaningful completion is visible; a completed pencil should have its splintered left end repaired or extended into a finished body. That end remains broken, so the request is not fulfilled. Quality: Structure, lighting, shadows and wood/paint textures are coherent; the splintering looks like natural physical damage, without evident generation artifacts."
+    },
+    {
+      "blind_id": "case_28119a52e10e6194f196",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The photographic yellow pencil and smooth white setting are transformed throughout into monochrome line drawing, with hatching over the background, shaft, wood and shadow. Instruction: The detected change is a rendering-style conversion; the expected repair or extension of the broken left end has not occurred, and its jagged end remains. Quality: The drawing independently has coherent pencil geometry, deliberate consistent hatching, readable material boundaries and a plausible drawn ground shadow; no clear visual artifact is apparent."
+    },
+    {
+      "blind_id": "case_9a33e00483b89c774bde",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white setting and yellow coloration remain, but the previously intact pointed wood-and-graphite end is conspicuously replaced by a blunt pale end. Extension of the broken shaft is excluded from consistency. Instruction: The body extends leftward beyond the frame and the splintered edge disappears. A complete pencil should present a repaired continuous body with a finished rear end and usable point; no finished rear end is visible and the point is lost, so completion is poorly implemented. Quality: Lighting and shaft texture are plausible, but the wooden taper terminates in an incongruous white rectangular plug, creating a clear structural/material ambiguity."
+    },
+    {
+      "blind_id": "case_c052fd28c6c973d59486",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Background, yellow shaft, broken left end, placement and shadow remain consistent, but the intact graphite point is shortened dramatically and replaced mainly by exposed wood. Instruction: The detected alteration is to the right tip; the expected completion of the visibly broken left end is absent, with its splinters unchanged. The request is not fulfilled. Quality: The object independently has coherent sharpened geometry, a small dark tip, natural paint and wood textures, and a plausible soft contact shadow, without visible generation defects."
+    }
+  ]
+}

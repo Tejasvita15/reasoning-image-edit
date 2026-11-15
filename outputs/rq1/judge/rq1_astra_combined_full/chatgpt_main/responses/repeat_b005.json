@@ -1,0 +1,23 @@
+{
+  "batch_id": "repeat_b005",
+  "results": [
+    {
+      "blind_id": "case_2bdb164e76b92d573608",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding the requested two stick movements, the original equation layout, remaining stick positions, blue heads, smooth gold shafts and plain white background are extensively replaced by irregular colorful strokes and a mottled surface. Instruction: the source reads 14 - 6 = 82; the output replaces it with isolated verticals, bent illegible symbols and a final dash, rather than preserving the matches and relocating exactly two to form a true equation. No valid equality remains. Knowledge: the explanation is blank; the mandatory failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality: the image alone has severely malformed, fused angular symbols, bulbous green ends and coarse multicolored outlines; the symbolic structure is largely illegible."
+    },
+    {
+      "blind_id": "case_f128d6a5caf61423916b",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background and gold/blue match appearance persist, but beyond two permissible relocations most numeral structures and positions are replaced, the subtraction sign disappears and the right side is extensively reconstructed. Instruction: the original 14 - 6 = 82 becomes two large 2-like forms followed by an equals sign and a crowded 21-like group. Numerous shafts change location and orientation, including new diagonal strokes; this neither depicts exactly two moves nor produces a readable true equation. Knowledge: the explanation is blank; the mandatory failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality: judged alone, the shafts and white surface are visually clean, but both large left symbols contain awkward extra diagonal segments and disconnected verticals, while the right group has doubled closely spaced vertical strokes. These multiple structural defects make the notation ambiguous."
+    }
+  ]
+}

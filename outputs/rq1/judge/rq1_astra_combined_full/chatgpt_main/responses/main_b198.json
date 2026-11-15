@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b198",
+  "results": [
+    {
+      "blind_id": "case_619c6623d2bcfd6c1309",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The neutral backdrop, framing and left/center chair positions and colors are preserved. The right chair seat changes from pale upholstery to green, and its back loses its fabric texture for a smooth surface. Instruction: The visible change is to materials, while three separate chairs remain. The expected result is exactly two chairs; the count is unchanged, so the request is not followed. Quality: Structure, lighting, shadows and surfaces are coherent; the smooth right seat/back read as solid materials, with no noticeable generation defects."
+    },
+    {
+      "blind_id": "case_fa6a3b8bd4844c007b74",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pale backdrop and gray/blue/green palette remain. The outer chairs move inward into a touching cluster, and lower front crossbars disappear on the blue and green chairs. These are noticeable unrequested layout and construction changes. Instruction: Chairs have been regrouped, but three backs and three seats are still visible. Exactly two chairs were required; the count requirement is not met. Quality: The chairs have coherent frames, seats and circular backs, plausible floor contacts and soft shadows, and intact surfaces without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_989ec5321d366cd33e72",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The neutral studio backdrop, pale upholstery and gray/green frame colors remain. Both surviving chairs have smaller oval, offset backs with altered support arrangements, and their positions and orientations change. Instruction: The center blue chair is removed and exactly two distinct chairs remain, matching the requested count completely. Quality: The two chairs have readable seats, backs and connected frames, with natural soft lighting and floor shadows. The image is soft but semantically clear, without noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_fac4ca0beca321f7d947",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the chair-count modification itself, the warm-left/cool-right neutral backdrop, framing and softly lit floor are retained without a clear unrelated alteration. Instruction: All three chairs disappear, leaving an empty scene. The expected result contains exactly two chairs; removing every chair completely misses that requested result. Quality: Viewed alone, this is a coherent empty studio backdrop with smooth light gradients and a plausible soft floor transition, free of visible structural or texture artifacts."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b304",
+  "results": [
+    {
+      "blind_id": "case_0e5f5558da976f227136",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and five-row grid concept remain, but all cell patterns are redrawn, both columns move inward, and the brown dots move to the outer margins and enlarge; most major non-requested details change. Instruction: New brown strokes extend outward from the dots and leave the center blank. The expected result is five lines joining complementary left/right grids (left rows 1–5 to right rows 2,1,4,5,3); no such connections are present. Knowledge: The supplied rule requires yellow/white inversion at every corresponding cell; no complementary pair is connected. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: Coherent three-by-three grids, clean yellow/white fills, smooth brown marks and a readable, evenly arranged diagram; no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_6bc0df0b4474ea90b8e1",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background, two columns, five rows and brown dots remain broadly in place, but several cell patterns change, including the top-left grid becoming yellow across its top row and the top-right gaining multiple yellow cells; the grid rows also shift upward progressively. Instruction: Thin horizontal bars appear between same-row grids near their upper/lower boundaries, rather than five dot-to-dot links between the complementary pairs. Connecting lines are attempted, but most required matching is absent. Knowledge: The bars do not encode the required yellow/white-complement matches (left rows 1–5 to right rows 2,1,4,5,3). Instruction failure ⇒ knowledge invalid. Quality, edited image alone: Grid structure and linework are legible and coherent, with clean background and fills except a noticeably paler yellow center cell in the fourth left grid, a minor fill inconsistency."
+    },
+    {
+      "blind_id": "case_be42f7cc320b96958f68",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: White background and the five-row two-column arrangement persist; several grids retain their cell patterns, but the second-left, bottom-left and multiple right grids change their fills, and several brown dots move, disappear or become clipped. Instruction: Thick arrows, separated bars and square-shaped paths are added in the central space. The expected five continuous links between complementary grids are missing; the rowwise fragments poorly implement the requested connections. Knowledge: These disconnected rowwise marks do not demonstrate the supplied cellwise yellow/white inversion rule or the required cross-row pairing. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: The grids remain readable, but disconnected, abruptly terminated square paths and visibly cut-off brown dots are clear diagram artifacts; the background and yellow areas otherwise remain coherent."
+    },
+    {
+      "blind_id": "case_a5550eb8c5f94616b86e",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The two-column five-row layout, white background and brown dots remain recognizable, but every grid has altered cell fills; for example the upper-left has a yellow top row and central vertical yellow strip, and the upper-right has several yellow cells instead of just its center. Most pattern content changes. Instruction: Cell colors change but no connecting lines are added. A successful edit would join the five original complementary grid pairs; the requested action is absent. Knowledge: No links express the supplied yellow/white inversion relationship. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: The grid outlines, dots and overall diagram arrangement are coherent, but several left-column cells have conspicuous pale or graded yellow fills, especially in rows three and four, making their binary fill states visually ambiguous."
+    }
+  ]
+}

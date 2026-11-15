@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b345",
+  "results": [
+    {
+      "blind_id": "case_9ce8c3b36450c9d371fa",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The blue marker and general vertical boundary remain, but all three in-play balls disappear, a goal and horizontal white line are added, the dark upper-right object disappears, and turf patches change. Instruction: The edit removes every ball; the expected result retains all three because none is wholly beyond the boundary. This completely misinterprets the requested selection. Knowledge: The supplied explanation explicitly requires all balls retained, contradicted by the empty field. Instruction failure ⇒ knowledge invalid. Quality: Goal framing and field perspective are coherent, but conspicuous smooth green patches beside the line interrupt the surrounding grass texture."
+    },
+    {
+      "blind_id": "case_8c3097fc0454f74fdd1c",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The central line and blue marker remain recognizable, but all three in-play balls and the dark upper-right object are removed; the grass becomes much coarser with smooth replacement regions. Instruction: All balls have disappeared, whereas the expected outcome retains all three, including balls overlapping the boundary. No correct ball selection is demonstrated. Knowledge: Removing all three contradicts the supplied all-balls-retained explanation. Instruction failure ⇒ knowledge invalid. Quality: The field and stripe are structurally legible, but large smooth patches left of the stripe and at lower right visibly clash with the coarse surrounding turf."
+    },
+    {
+      "blind_id": "case_86052a2af638ca8ff8cb",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The line, blue marker, and overall framing persist, but all three in-play balls are erased, the dark upper-right object is lost, and the grass has broad smoothed regions. Instruction: The observed empty field fails the expected retention of all three balls, none of which has entirely crossed the line. Knowledge: The supplied explanation says all soccer balls should be retained; none remains. Instruction failure ⇒ knowledge invalid. Quality: The stripe has coherent perspective and the field is recognizable, but broad soft green areas beside the line and in the upper right break the turf texture visibly."
+    },
+    {
+      "blind_id": "case_2c3f60661c010871e917",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Most major details change: two balls disappear, the remaining ball becomes much smaller, the boundary is straightened and repositioned, the turf is redrawn, and the upper-right dark object is gone; only the generic field and blue marker survive. Instruction: Only one ball remains instead of the expected three; deleting both boundary-overlapping balls makes most of the required retention fail. Knowledge: The supplied expectation to retain all soccer balls is violated by two removals. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the small round ball, lighting, continuous stripe, and turf form a coherent scene; a thin irregular dark strip along the bottom edge is a minor visual blemish."
+    },
+    {
+      "blind_id": "case_8bdf09496e84487a8f70",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The two upper balls, blue marker, dark upper-right object, and line placement are preserved, but the foreground in-play ball is removed and the field texture becomes visibly more strongly outlined across the image. Instruction: Only the foreground ball disappears. The correct result retains all three, since even this ball still overlaps the boundary; keeping two but removing this one is partial compliance. Knowledge: The supplied all-balls-retained explanation is violated by one clear selection error. Quality: The two balls and stripe are coherent, with plausible shadows, but the large featureless green patch at lower right is an obvious texture discontinuity."
+    },
+    {
+      "blind_id": "case_686bcc57056f7bc80d18",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The upper pair of balls, marker, upper-right dark fabric, and boundary keep their arrangement, but the lower ball is erased and the surrounding turf gains conspicuously outlined texture. Instruction: The edit retains two balls and removes the foreground one; the expected scene retains all three because the foreground ball still reaches the boundary. The requested selection is only partly correct. Knowledge: One ball that the supplied explanation explicitly says to retain is missing, a clear conflict with the stated expectation. Quality: Ball shapes, field perspective, and illumination are coherent; a smooth, nearly featureless lower-right grass patch creates a conspicuous blending artifact."
+    }
+  ]
+}

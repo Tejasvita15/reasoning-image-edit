@@ -1,0 +1,6 @@
+contrast,label,source,n_examples,mean,ci_low,ci_high,ci_width,wilcoxon_p,bootstrap_resamples,confidence
+full_D_minus_vanilla_B,Full RegionE: D − B,canonical_NSCC_report,20,0.0,0.0,0.0,0.0,1.0,10000,0.95
+without_RIKV_E_minus_full_D,Remove RIKV: E − D,canonical_NSCC_report,20,-4.166666666666666,-8.854166666666668,3.552713678800501e-16,8.854166666666668,0.09209091592891183,10000,0.95
+without_AVD_F_minus_full_D,Remove AVD: F − D,canonical_NSCC_report,20,0.0,0.0,0.0,0.0,1.0,10000,0.95
+without_RIKV_E_minus_vanilla_B,Without RIKV vs baseline: E − B,canonical_NSCC_report,20,-4.166666666666666,-8.854166666666668,3.552713678800501e-16,8.854166666666668,0.09209091592891183,10000,0.95
+without_AVD_F_minus_vanilla_B,Without AVD vs baseline: F − B,canonical_NSCC_report,20,0.0,0.0,0.0,0.0,1.0,10000,0.95

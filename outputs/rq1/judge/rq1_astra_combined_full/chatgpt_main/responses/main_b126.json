@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b126",
+  "results": [
+    {
+      "blind_id": "case_14d0dba9364d8efb3a1b",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Grid, bevels, gray cells and all numbered clues remain unchanged; added marks are excluded. Instruction: Many red Xs and three green Xs appear. Expected red Xs only at r1c6, r3c3 and r4c5 (rows/columns counted from top left); numerous revealed empty cells are falsely marked and r3c3 is green, so the requested mine marking is largely incorrect. Knowledge: The explanation is blank; visible clues contradict these numerous marks. Instruction failure ⇒ knowledge invalid. Quality: Coherent square grid, legible numbers, clean centered crosses and consistent flat shading; no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_2bca5d9ba927874e1983",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "Consistency: Existing grid, shaded tile bevels, blue 1s and green 2 remain visually unchanged. Instruction: Red Xs mark all three required mines at r1c6, r3c3 and r4c5, but also r1c1, r3c5, r4c1, r6c1 and r6c6; the core change is present with substantial false positives. Knowledge: No explanation was supplied; task-implied Minesweeper logic is visibly violated because revealed empty cells are marked, and the r2c6 clue 1 borders marked r1c6 and r3c5. Multiple serious clue contradictions justify 2. Quality: Regular grid, readable glyphs, clear red crosses, coherent bevel shading and clean surfaces without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_bcd05553279e721bcf26",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Grid, gray cells, raised tiles and blue clues remain unchanged, but the green 2 at r4c4 is erased. Instruction: A single red X replaces that revealed clue; the expected red marks at r1c6, r3c3 and r4c5 are absent. This misinterprets mine marking by crossing out a clue. Knowledge: The explanation is blank; the visible clue cell is not a mine location. Instruction failure ⇒ knowledge invalid. Quality: The image itself has a coherent regular grid, legible blue numbers, clean red X and consistent bevels and gray fills, with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_3bc0e6c302ac526ba4a3",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The board remains recognizable, but the grid proportions and clue glyph contours are redrawn, and a new blue 1 occupies the previously blank raised top-right tile. Instruction: No red Xs appear; adding a blue numeral does not mark the mines at r1c6, r3c3 and r4c5. Knowledge: Explanation blank; the required marking is absent. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the grid is coherent, all numbers are legible, gray surfaces and white bevel highlights are regular, and no distracting generation defects appear."
+    },
+    {
+      "blind_id": "case_4d2ee83c06f8794751a8",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Grid proportions and numeral shapes are redrawn, and the r4c3 clue changes from blue to red; the broad board arrangement and green 2 remain. Instruction: The only red symbol is a 1, with no red Xs at the three mine cells r1c6, r3c3 and r4c5, so the instruction is not followed. Knowledge: Explanation blank; recoloring a revealed clue supplies no valid mine marking. Instruction failure ⇒ knowledge invalid. Quality: Grid structure, readable digits and bevel shading are coherent; the red 1 has a small blotchy colored fringe that reduces local edge cleanliness."
+    },
+    {
+      "blind_id": "case_7d0dbedf779a2f745858",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Gray board, cell borders, raised-tile highlights and blue 1 clues remain intact; the green 2 at r4c4 has been removed. Instruction: One red X occupies that revealed clue cell instead of marking the mines at r1c6, r3c3 and r4c5; none of the required mine positions is marked. Knowledge: No explanation was provided; the output crosses out a visible safe clue rather than a mine. Instruction failure ⇒ knowledge invalid. Quality: Clear X, readable numbers, aligned grid, uniform gray fills and coherent white bevels; no visible structural or texture artifacts."
+    }
+  ]
+}

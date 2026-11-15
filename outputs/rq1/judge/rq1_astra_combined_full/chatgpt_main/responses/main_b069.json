@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b069",
+  "results": [
+    {
+      "blind_id": "case_a9d711f42cd7e5d1b022",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and two-column arrangement remain, as do the upper cow, hen and bee; the yarn is orange, the honey tool is replaced, eggs become a brown animal, milk becomes a jar, and the sheep becomes a cow. Most major non-instructed item identities change. Instruction: New objects replace products without connecting or correctly arranging the four original product–animal pairs; expected yarn–sheep, honey–bee, eggs–hen and milk–cow matches are absent. Knowledge: The supplied explanation is blank; the mandatory failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality: The cartoon layout and colors are clear, but the upper honey tool tangles into a twisted shape, the lower jar has a forked limb-like implement, and the brown animal has ragged, confused outlines; multiple structural artifacts distract."
+    },
+    {
+      "blind_id": "case_cf51e29b355f7a75c30e",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Background, column layout, yarn, cow and milk remain recognizable, but the honey jar widens, sheep stretches, eggs are replaced by a green-accented creature, the hen by a furry hybrid, and the bee by a sheep/insect hybrid. Multiple non-instructed elements change. Instruction: These substitutions show no completed links or correct arrangement for yarn–sheep, honey–bee, eggs–hen and milk–cow. The matching instruction is not followed. Knowledge: No explanation was supplied; scoring follows the mandatory coupling. Instruction failure ⇒ knowledge invalid. Quality: The isolated icons and milk label are readable, but the green creature has lumpy merged appendages, the orange creature has an incoherent elongated furry body, and the bottom striped insect has a fused sheep head/body; multiple anatomical errors undermine coherence."
+    },
+    {
+      "blind_id": "case_a2ab5c1fb8b355c92882",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: White background persists, but the composition expands with extra creatures, shifted yarn and honey, changed egg arrangement, duplicate milk cartons and a replacement for the bee. Most major non-instructed layout and object details change. Instruction: Added creatures and duplicated products do not connect or correctly pair the original products with their producing animals; all four required matches remain unexpressed. Knowledge: The explanation field is blank, so the required instruction-failure rule determines this score. Instruction failure ⇒ knowledge invalid. Quality: Several familiar icons are legible, but duplicate cartons, the brown creature with a blank circular eye, a fuzzy partly fused creature and the merged two-headed bottom animal create multiple distracting structural and semantic errors."
+    },
+    {
+      "blind_id": "case_304d6a4f34b7b96ecc64",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The background and original hen, sheep and bee remain, but yarn is replaced by a cow, eggs and milk disappear from their original positions, the upper cow is redrawn, and several birds and insects are added. Most major non-instructed product details change. Instruction: A bee next to honey and an egg beside a chicken suggest some production associations, but no links to the right-column animals are made and yarn–sheep and milk–cow are absent. Most required matching is missing. Knowledge: The supplied explanation is blank; despite the visible honey/bee and egg/chicken associations, the mandatory coupling controls the score. Instruction failure ⇒ knowledge invalid. Quality: The page spacing and most cartoon contours are coherent; two clear anatomical flaws are the insect with bird-like feet and the chicken-headed striped insect/bird body."
+    },
+    {
+      "blind_id": "case_8111f44c872aa1a997e8",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: White background, right-column cow, hen, sheep and bee, and the milk carton remain; yarn is replaced by another sheep, honey by an empty wooden tub, and eggs by a rooster. Multiple non-instructed product identities change. Instruction: Replacing products with a sheep, tub and rooster supplies neither connecting marks nor a correct rearrangement of the original four product–animal pairs; no requested matching is completed. Knowledge: There is no supplied explanation; the mandatory failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the cartoon icons have coherent shapes and anatomy, clean separated silhouettes, readable MILK lettering, consistent fills and no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_b19eb172850fe9e94d68",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Background, original yarn, honey, eggs and all four right-column animals retain their arrangement and identities; the clear non-instructed change is replacement of the milk carton with a second honey jar. Instruction: The new bottom honey jar sits opposite the bee, suggesting one correct association, but there are no matching lines, yarn and eggs remain opposite wrong animals, and milk–cow is missing. Most required matches are absent. Knowledge: No explanation text was supplied; the mandatory coupling applies despite the one task-implied honey/bee association. Instruction failure ⇒ knowledge invalid. Quality: The isolated cartoons and two-column spacing are coherent, but the bottom honey tool has a round head with several thin fork-like strands instead of a coherent handle, a clear structural artifact."
+    }
+  ]
+}

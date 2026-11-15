@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b182",
+  "results": [
+    {
+      "blind_id": "case_49859bfb117df60aecac",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The bridge setting, warm light, navy jacket, blue jeans and red shoes remain recognizable, but the dog's face/ear contours and the jeans' folds and footwear details change noticeably. Instruction: The dog and clothing are redrawn, yet both hands remain empty and no leash is added. The expected correction is a hand-held leash attached to the neck; this is absent. Knowledge: The supplied explanation requires that physical connection, which is missing. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: Coherent dog and human anatomy, natural perspective and sunset shadows, believable fur/fabric/pavement textures, and no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_10eda0e61e26d1bc754f",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The warm bridge environment and clothing colors persist, but the dog moves right and adopts a different leg position with a visible tail, the jacket/jeans details change, and bridge beam arrangements differ. Instruction: The dog now strides forward, but neither hand holds a leash. A hand-held leash attached to the dog's neck is the expected correction, so the requested change is absent. Knowledge: No physical person-to-collar link appears, contrary to the supplied explanation. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: The walking pose, paws, human hands, perspective and cast shadows are coherent; fur, denim and road textures look natural, without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_201bab1cc30291d8af35",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The bridge, golden light and clothing color scheme persist, but the dog's head, mouth and body proportions change, the person's legs/shoes adopt a standing pose, and jacket and bridge details are altered. Instruction: An open palm is extended toward the dog, but it holds nothing and no leash exists. The expected hand-held leash attached to the neck has not been implemented. Knowledge: The empty gesture provides none of the physical leash connection specified in the explanation. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: Human and dog structures are coherent, the palm and paws are plausible, lighting and perspective are natural, and fur, fabric and ground remain free of conspicuous artifacts."
+    },
+    {
+      "blind_id": "case_5bcd9f342bf4fbb2ec7f",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 4,
+      "rationale": "Consistency: Excluding the permitted hand/leash modification, the dog's body position, rear-leg visibility and head shape change; the jacket seams, jeans folds and bridge structure also differ. Warm lighting and the main clothing colors persist. Instruction: A dark leash is now held in the hand and runs toward the dog's neck, matching the expected correction in its main elements, though the lower fastening is indistinct and appears to trail beside the neck rather than clearly join the collar. Knowledge: The explanation's hand-to-neck connection is largely represented, with a small plausibility issue at the dangling-looking fastening. Quality, edited image alone: Anatomy, perspective, lighting and fur/fabric textures are coherent; one small imperfection is the irregular thin strap/clip transition beside the dog's neck."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b340",
+  "results": [
+    {
+      "blind_id": "case_833f20184043edcf8302",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The blue numbers and their cell assignments remain, but the horizontal grid divisions and outer frame height shift, and several numerals move vertically; faint colored patches also appear around digits. Instruction: The red question mark remains rather than being replaced with the expected 25, so no requested completion occurs. Knowledge: The supplied rule gives 45 / 9 × 5 = 25, which is absent. Instruction failure ⇒ knowledge invalid. Quality: The grid and all symbols are coherent and legible, with a small imperfection of pale colored halos around some numerals; no structural ambiguity."
+    },
+    {
+      "blind_id": "case_b310e7d8678eaab75d9a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: All given values and blue/red roles remain, but numeral edges acquire conspicuous colored speckling and the formerly straight grid strokes become uneven. Instruction: The bottom-middle cell still contains a red question mark; the expected replacement by 25 is missing. Knowledge: The supplied division-then-multiplication rule gives 25 for the last row, but no answer is supplied. Instruction failure ⇒ knowledge invalid. Quality: All symbols remain readable and the table is structurally coherent, but colored granular halos around numerals and slightly ragged grid lines are clear visual flaws."
+    },
+    {
+      "blind_id": "case_2fcaaee2912ca6c90318",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The eight given values and cell assignments remain, but the outer frame extends vertically, the lower horizontal division moves, and lower-row numerals shift down; pale background patches appear near blue numerals. Instruction: The question mark is replaced with a clear red 30 in the correct cell. A completed image should show 25 there, so filling the cell achieves only partial compliance. Knowledge: The provided rule yields 45 / 9 × 5 = 25; 30 is one clear arithmetic conflict. Quality: The image has a coherent regular table and clear numerals, with a minor pale halo/patch artifact around some blue text."
+    },
+    {
+      "blind_id": "case_cfb5c5333aaf0d0ef5f0",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The given numbers retain their values and cells, but their edges show added colored speckles and the black grid lines are visibly less even. The answer-cell replacement is excluded from consistency. Instruction: The question mark becomes a blue 2 in the correct cell; the required visible answer is 25, so the completion is only partial. Knowledge: Applying the supplied rule to the last row gives 45 / 9 × 5 = 25, whereas 2 is a clear arithmetic conflict. Quality: The table layout and numerals are legible and coherent, but conspicuous colored noise surrounding text and rough grid strokes create visible artifacts."
+    }
+  ]
+}

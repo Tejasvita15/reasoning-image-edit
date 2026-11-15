@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b227",
+  "results": [
+    {
+      "blind_id": "case_0453ba66dae5289794e1",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The cushion remains square and black/white, but its original fine woven surface becomes coarse and nubby, and the nested diamonds lose the fine diagonal connecting lines and change spacing; these are two non-requested product changes. Repositioning, sofa, cool lighting and typography are excluded. Instruction: The isolated product becomes a cool industrial poster with a prominent cushion on a dark sofa and bold upper-left text. A fully compliant result would retain the cushion and show its geometry/texture with the requested meaningful headline; the setting and close view work, but the headline is largely gibberish. Thus partial compliance. Quality alone: Structure and lighting of the sofa/cushion are plausible and fabric is defined, but the prominent lettering has numerous malformed and unreadable words, a distracting semantic/typographic failure."
+    },
+    {
+      "blind_id": "case_615351f8c2b1711faa98",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The source cushion, its square silhouette, nested-diamond print and woven surface are all absent. The requested interior and poster layout are excluded, but removal of the central product is a severe non-requested change. Instruction: The image adds a gray sofa, city backdrop and large upper-left bold typography. The expected poster requires the diamond cushion as the main visual with fabric close-ups and a meaningful headline; that central visual is missing entirely and the headline is corrupted, despite some urban monochrome styling. Thus major omission. Quality alone: Sofa and city forms are broadly recognizable, but multiple headline letters merge into malformed shapes, the smaller line becomes nonsensical, and the city/sofa composite has an abrupt vertical transition through the seating scene; multiple distracting flaws."
+    },
+    {
+      "blind_id": "case_9791127ff7c72a190af2",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The square black/white cushion is recognizable, but the original regular nested-diamond lattice becomes irregular rounded quadrilaterals and the fine woven surface becomes streaked, scratchy patches. These product print and surface changes are not requested; sofa placement, pose and cool grading are excluded. Instruction: The product is now prominently shown on a dark sofa under upper-left white text. The expected cool minimalist close-view cushion poster is substantially present, but the main title is misspelled/nonsensical and its irregular lettering does not convincingly realize clean bold sans-serif typography. Thus partial compliance. Quality alone: Sofa perspective and lighting are plausible, but the headline contains many garbled words and deformed glyphs, while cushion motifs have conspicuous streaked interiors and distorted joins; multiple distracting artifacts."
+    },
+    {
+      "blind_id": "case_7e6f1c9cac827e6df3e3",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Square cushion form, black/white colors and a fine fabric appearance remain, but much of the left and lower print changes from regular nested diamonds to broken, interlocking angular strokes. This is a clear non-requested alteration of the product pattern. The new sofa, composition, lighting and text are excluded. Instruction: The image adds a cool dark sofa setting, a close prominent cushion and bold upper-left lettering. A fully compliant poster would clearly display the diamond geometry/texture and the meaningful requested headline; the scene and layout are present, but the headline is gibberish and the geometry partly breaks down. Thus partial compliance. Quality alone: Overall cushion volume and shadows are coherent, but text has numerous malformed, nonsensical words and the cushion print develops visibly fragmented branching shapes; these are multiple distracting visual/semantic errors."
+    },
+    {
+      "blind_id": "case_0e9ecf56fc331cd034ad",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The black/white square cushion remains, but its regular diamond lattice is altered into uneven merged motifs and the fine original weave becomes much coarser with patchy streaks. These are two non-requested product changes. The sofa/window setting, perspective, lighting and poster text are allowed changes. Instruction: The image creates a cool urban interior poster with a large cushion, dark sofa, visible fabric and bold upper-left headline. The expected scene and product emphasis are present, but the text fails to convey the supplied title and the diamond geometry is irregular. Thus partial compliance. Quality alone: Sofa, window lighting and cushion volume are broadly natural, but many headline words and glyphs are garbled and the print has merged, irregular intersections and smeared texture patches; multiple distracting flaws."
+    },
+    {
+      "blind_id": "case_5ea1ef7a829466236ad8",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The cushion's square pinched silhouette, nested diamond placement, thin connecting lines and fine woven surface match the source. Sofa placement, background and text are requested modifications and excluded; no clear non-requested product change is visible. Instruction: The source cushion now fills a sofa scene with a text overlay. The expected poster would have cool industrial styling, a close fabric/geometry view and bold text aligned upper left. The product and close view are present, but the title is centered over the cushion and repeats 'the'; the layout therefore only partially follows the instruction. Quality alone: Cushion shape, pattern, seams, sofa perspective and fabric are coherent with plausible shadows. The legible central caption contains the conspicuous semantic duplication 'the the', a clear textual flaw; there is no major structural corruption."
+    }
+  ]
+}

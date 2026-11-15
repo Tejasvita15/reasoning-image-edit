@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b285",
+  "results": [
+    {
+      "blind_id": "case_616c2a597d7d12c00a27",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The cat retains its tilted head, unequal ear angles, dark eyes, pink nose and seated body; only slight fur/edge contrast changes are visible. Requested background and layout changes are excluded. Instruction: A pink-blue gradient, paw prints, hearts and bright pink handwritten 'Pet Home' are added. The expected centered, slightly enlarged cat and exact light-gray sans-serif tagline are incomplete: the cat is smaller and partly covered, and the dark italic label reads 'Ped warmth to your life'. Quality: Anatomy, gradient and decorative shapes are coherent; the malformed tagline is a clear semantic flaw. Fur and compositing are otherwise readable."
+    },
+    {
+      "blind_id": "case_e2d657495126269f7e27",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The photographic cat becomes a different illustrated kitten, with rounder head, symmetrical ears, smiling mouth, altered body and an upright curved tail; only generic white fur and pink ears remain. Instruction: The image adds a centered cat, pink-blue gradient, paw prints, hearts and a prominent hand-drawn title. A faithful poster should retain the supplied cat and have the exact light-gray sans-serif tagline; the cat is replaced, the title is red uppercase and the lower line is gibberish. Quality: The illustration has coherent anatomy and an intentional soft texture, but the nonsensical bottom lettering is a clear semantic artifact."
+    },
+    {
+      "blind_id": "case_3145d3f17ebd3d97e03b",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The cat's identity and pose change: the eyes are gold with narrower pupils, the head is upright, ears are more symmetric, and the legs, paws and body proportions differ. Instruction: Pastel paw prints and a centered cat are present. A complete edit would add the pink-blue gradient, floating heart bubbles, bright pink 'Pet Home' and exact gray tagline; both text elements and hearts are absent, the background is mainly cream, and the cat is replaced. These are major omissions. Quality: The cat has coherent ears, face and four grounded paws, natural soft lighting and intact fur; the softly blurred paw decorations show no noticeable generation defects."
+    },
+    {
+      "blind_id": "case_0c0d50c0f2906413463b",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The tilted head, eye shapes, pink nose, seated posture and paw placement match the source; the cat's fur is slightly washed out. The instructed background replacement and decorations are excluded. Instruction: A pink-blue gradient, floating paws and hearts surround the cat. The expected title above and exact tagline below are not achieved: the upper-right heading reads 'Petent Home', the line beneath is corrupted, and the cat is not visibly enlarged. Quality: The cat and background remain structurally coherent, but malformed title lettering and garbled tagline are two distracting semantic errors; the blank white strip also leaves the text area visually awkward."
+    },
+    {
+      "blind_id": "case_08d94baa76c3f5b0afc1",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The cat keeps its head tilt, dark eyes, ear asymmetry and seated paw arrangement, but the fur texture is visibly rougher and higher-contrast across the face and torso. Requested position and background changes are excluded. Instruction: The image adds the soft pink-blue gradient, paw prints, hearts, bubbles and correct bright pink script title. The exact sans-serif tagline is present but bright pink and above the cat rather than light gray below it; the cat is reduced rather than enlarged. Quality: Text is legible, anatomy and reflection are coherent, and decorative elements are clean; slightly harsh, clumped facial fur is a minor texture issue."
+    },
+    {
+      "blind_id": "case_d991b13d323b7b612c69",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: A different cream-colored kitten replaces the source cat, with an upright broader face, altered eyes, shorter ears, different front legs and a tail curled across the foreground. Instruction: A centered cute cat, title, hearts and paws establish a pet poster. The expected pink-blue gradient is absent, the title is dark rose rather than bright pink hand-drawn lettering, the exact gray tagline is missing, and the source cat is replaced. Most specified details are missing or incorrect. Quality: The kitten's anatomy, curled tail, facial features and fur are coherent; title lettering is clean and the cream palette and soft shadows are internally consistent, without noticeable artifacts."
+    }
+  ]
+}

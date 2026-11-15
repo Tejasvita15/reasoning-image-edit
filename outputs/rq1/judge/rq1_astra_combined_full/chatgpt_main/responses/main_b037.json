@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b037",
+  "results": [
+    {
+      "blind_id": "case_06ca81f52eb69dee351e",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and rounded light housing remain recognizable, but both labels and the original ports move, a second red rectangular port is added, and the lower bracket layout changes. Instruction: Instead of shrinking the upper rectangular interface to the lower oval interface's size, the upper interface remains large and another large interface appears; the required size match is absent. Quality: Structure, legible labels, lighting, edges and surface textures are coherent, with no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_f496478b8f157eb28f5a",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The single broad housing becomes two narrow housings; port arrangement, label text, object count and composition change substantially, although the background remains white. Instruction: The original large interface is not visibly resized to match the small interface; it is displaced into a different device and rotated, while the left upper opening is blank. Quality: Multiple labels are malformed or nonsensical, the red insert has an irregular stepped shape, and the left upper socket looks like a blank raised patch, producing several distracting structural and semantic errors."
+    },
+    {
+      "blind_id": "case_861b8e4b37b96f652695",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The housing is narrowed and shortened, the lower oval port and PD/20W label disappear, and the upper label and port move to the top; the white background remains. Instruction: The upper rectangular port remains visibly large, while the small comparison port is removed. A successful edit would retain both and shrink the rectangular opening to the small opening's size, so the requested change is absent. Quality: The port, legible QC/18W label and smooth shell are coherent; one minor linework issue joins the printed side bracket awkwardly into the long inset outline."
+    },
+    {
+      "blind_id": "case_c819ad7e5337428614c0",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The housing proportions change, labels and brackets enlarge and shift upward, the lower oval interface enlarges, and an extra oval interface appears beneath it; the white background remains. Instruction: The large rectangular interface becomes larger rather than shrinking to match the original small interface. Adding another small opening does not fulfill the requested size adjustment. Quality: The ports, label lettering, smooth surfaces and lighting are coherent; the short disconnected, asymmetric marks beside the bottom opening are a minor linework defect."
+    }
+  ]
+}

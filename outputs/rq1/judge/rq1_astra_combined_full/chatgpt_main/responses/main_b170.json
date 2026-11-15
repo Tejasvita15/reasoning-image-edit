@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b170",
+  "results": [
+    {
+      "blind_id": "case_8ca2073e6b14a222b2b0",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Brush shapes, worn paint marks, finger grip, arm and rolled tan sleeve remain visually unchanged; requested background, graphics and typography are excluded. Instruction: The edit adds beige paper coloration, vivid strokes/splatters and text. The expected poster needs the hand bottom-left, the exact centered title and clean bottom-right details. The hand remains on the right, the title is malformed and the details are gibberish at mid-right, giving partial compliance. Quality: Structure/text ✘: large title letters are malformed and the small copy is garbled; natural hand/brush anatomy ✔, surface textures ✔, but multiple distracting typographic errors prevent a coherent poster."
+    },
+    {
+      "blind_id": "case_1feec6d0de62c239b994",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding requested placement, background and graphics, most retained subject details change: the brush bundle becomes three differently shaped brushes, the grip and fingers are reconstructed, and sleeve folds differ. Instruction: The edit creates beige textured paper, colorful strokes and splatters, a bottom-left hand and top dark type. A correct result requires the exact title and clean small workshop details at bottom-right; 'PANNING' and malformed workshop wording plus nonsensical lower copy leave those requirements incomplete. Quality: Text coherence ✘ and artifacts ✘: misspelled/garbled headline and lower copy, with an irregular blotched letter in the headline. Hand anatomy and painted/paper textures are otherwise plausible ✔."
+    },
+    {
+      "blind_id": "case_9b25da00ed48cb84b15a",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Brush arrangement and distinctive worn handles, finger grip and tan sleeve are retained; arm lighting is noticeably changed, with flatter pale skin and a much stronger surrounding shadow. Requested paper background and poster graphics are excluded. Instruction: The edit adds beige paper, colorful splashes and the correct bold top title. Expected placement is a bottom-left hand with clean small bottom-right workshop information; the hand remains right-sided and the mid-right detail blocks are gibberish, so compliance is partial. Quality: Text coherence ✘: two prominent information blocks contain nonsensical headings and malformed body text. Naturalness ✘: the strong diffuse shadow gives the arm a pasted-on appearance. Brush, hand and paper textures remain coherent ✔."
+    },
+    {
+      "blind_id": "case_84c3533b5b9cbf4fef5a",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Beyond authorized repositioning and poster additions, most subject details change: the brushes have different pale bristles and brown handles, the thumb/finger grip is reconstructed, and the rolled sleeve becomes a simple bottom cuff. Instruction: Beige paper, lively strokes/splatters, bottom-left hand and dark top typography are present. The expected exact title and clean small bottom-right details are not delivered: the title reads 'PANNING' and 'WOKRSSOH', and lower text is nonsensical. This is partial compliance. Quality: Text coherence ✘ and artifact-free ✘: multiple headline and detail lines are garbled, with scratchy letter interiors and malformed small characters. The hand and brush forms are plausible ✔ and paper/paint texture is coherent ✔."
+    }
+  ]
+}

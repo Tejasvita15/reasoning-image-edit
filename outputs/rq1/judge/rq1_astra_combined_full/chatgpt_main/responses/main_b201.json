@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b201",
+  "results": [
+    {
+      "blind_id": "case_36f26a69a689a7c4d808",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Identity, beige background, frontal framing and blue collar remain recognizable; excluding expression changes, conspicuous white cheek strips are added and the hair strands/top-right silhouette are redrawn. Instruction: The toothy smile becomes a nearly level closed mouth and white trails appear beneath both eyes. The expected crooked mouth and slanted/asymmetric eyes are absent; the face remains largely symmetric, so the requested appearance is not achieved. Knowledge: The supplied explanation requires a crooked mouth and slanted eyes, neither visibly established. Instruction failure ⇒ knowledge invalid. Quality: Anatomy, lighting, hair and clothing are coherent; the raised white cheek material has slightly pasted-looking outer edges with weak contact shading, a minor integration issue."
+    },
+    {
+      "blind_id": "case_dd46aa85d58e85c17596",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Background, hair arrangement, clothing and frontal identity are preserved; excluding the requested facial-expression region changes, the facial skin texture is noticeably smoothed. Instruction: The smile is reduced, the viewer-left cheek becomes deeply indented and the outer eyelid develops a fold. A correct result should show a crooked mouth with slanted/asymmetric eyes; the mouth and eye openings remain largely level and balanced, leaving most of the requested appearance missing. Knowledge: The localized fold does not establish the crooked-mouth/slanted-eye combination in the supplied explanation. Instruction failure ⇒ knowledge invalid. Quality: Lighting, hair and fabric are coherent, but a conspicuous looping skin fold at the viewer-left outer eye looks anatomically warped."
+    },
+    {
+      "blind_id": "case_bf1f28dbfe89a9dcbfea",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Identity, beige backdrop, framing and blue clothing remain recognizable; excluding mouth/expression changes, white painted cheek trails are added and the top-right hair silhouette and strand pattern change. Instruction: The open smile becomes a smaller, nearly horizontal smile and two white trails descend from the eyes. The expected crooked mouth and slanted eyes do not appear; adding cheek markings does not fulfill the requested facial change. Knowledge: The visible mouth and eyes do not show the combination specified by the supplied explanation. Instruction failure ⇒ knowledge invalid. Quality: The portrait has coherent anatomy, natural lighting, intact hair and fabric textures, and clean white markings that follow the face and eyelid folds; no noticeable generation artifacts are evident."
+    },
+    {
+      "blind_id": "case_01d2490d3443c66c770d",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The same recognizable person, frontal composition and beige background remain; excluding facial-expression reshaping, the forehead skin texture is changed and the blue collar/shoulder outline is widened and repositioned. Instruction: The cheeks become more indented and both outer-eye areas gain pronounced folds while the smile remains broad and approximately balanced. The expected crooked mouth and slanted/asymmetric eyes are not convincingly created, so most of the requested change is missing. Knowledge: Bilateral smile creasing does not establish the crooked-mouth/slanted-eye appearance specified in the explanation. Instruction failure ⇒ knowledge invalid. Quality: Hair, clothing and overall illumination are coherent, but pinched cheek contours and looping outer-eye creases produce visible facial warping."
+    }
+  ]
+}

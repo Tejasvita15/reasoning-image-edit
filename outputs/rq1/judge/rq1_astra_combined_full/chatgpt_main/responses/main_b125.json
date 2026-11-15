@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b125",
+  "results": [
+    {
+      "blind_id": "case_be146d07d4c6bc1c5488",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The runner's visible profile, short black hair, blue short-sleeved shirt, black shorts, dark shoes and limb details remain unchanged; the requested background and graphics are excluded. Instruction: The white background becomes a blue gradient with flowing lines, stars and light dots around the original sprinting runner. A fully compliant poster would place him slightly right with 'Full Speed Ahead' at top center and a white bottom slogan. Instead, 'Sual speeds' crosses the middle and 'ATPOADE' appears below it; the runner remains in his original placement and no bottom slogan is present. This is partial compliance. Quality alone: anatomy, lighting and clothing textures are coherent, but the two conspicuous nonsensical text strings are clear semantic flaws. Knowledge is not applicable."
+    },
+    {
+      "blind_id": "case_0ab35015603d01294d82",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The same visible facial profile, hair, short-sleeved blue shirt, black shorts, dark shoes and body details are retained; requested poster graphics are excluded. Instruction: A luminous blue gradient, sweeping windlike streaks and glowing dots replace the white background. The expected result also needs the runner slightly right, the exact title at top center, floating stars and a white bottom slogan. The runner stays in his original placement, the right-side title reads 'FUML STPEEDS AWADE', the small text is beneath that title rather than at the bottom, and distinct star shapes are absent. The sports-poster concept is present but required text and placement are incomplete. Quality alone: the athlete and flowing background are structurally coherent with intact clothing, but the malformed headline and illegible small text block are two visible semantic defects. Knowledge is not applicable."
+    },
+    {
+      "blind_id": "case_a6e474e7856fa818ca24",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding requested pose, position and background changes, the runner's facial appearance and lighting change, the short-sleeved shirt becomes a sleeveless vest, the physique is much more sharply muscular, and the shoes gain light soles. Black hair and black shorts remain broadly similar, but several non-instructed details change. Instruction: The output supplies an energetic runner, blue gradient, diagonal motion lines, stars and light dots with a bold top title. A complete match would retain the given runner and show 'Full Speed Ahead' with a white bottom slogan. The headline instead reads approximately 'FULL SEUEND HEAID', the runner's appearance is substantially re-rendered, and the bottom slogan is absent, yielding partial compliance. Quality alone: the body silhouette, footwear and graphic composition are coherent, with strong stylized illumination and clear textures; malformed headline lettering is a noticeable semantic flaw. Knowledge is not applicable."
+    },
+    {
+      "blind_id": "case_9c936b89280a7fd2be46",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Requested pose, position, background and graphics are excluded. The face and illumination change, the blue shirt loses its sleeves, the musculature is re-rendered and the shoes acquire pale soles; short black hair and black shorts remain generally similar. Multiple non-instructed details are altered. Instruction: The image adds a blue gradient, windlike diagonal strokes, stars and light dots around a sprinting figure slightly right of center, with bold white text above. A complete result needs the given runner, exact 'Full Speed Ahead' title and a white bottom slogan. The title reads 'FULL SPEED AEAD', a malformed smaller line sits under the heading instead of at the bottom, and the runner's appearance changes substantially. These are incomplete required aspects despite a clear sports-poster concept. Quality alone: anatomy, garment textures and the luminous graphic background are coherent; the missing-letter headline and garbled small line are two clear typography defects. Knowledge is not applicable."
+    }
+  ]
+}

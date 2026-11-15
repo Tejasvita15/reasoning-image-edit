@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b310",
+  "results": [
+    {
+      "blind_id": "case_bdf8056b1ae324794b67",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white surface/background and silver material remain consistent, but the fork's head-to-handle orientation is reversed, a clear change beyond correcting its malformed structure. Instruction: The solid slab form becomes a thin curved utensil with long tines at the left and a second short fork-like end at the right. A successful correction would give one usable tined head and one ordinary handle. One end is corrected, but the double-ended structure leaves the main correction poorly implemented. Quality: Lighting and metal surfaces are coherent; the utensil has a conspicuous second tined end instead of a conventional grip, creating a clear structural/semantic flaw."
+    },
+    {
+      "blind_id": "case_7c0c2744c6e841f88fa9",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The background, diagonal placement, metallic finish, shadows and handle appearance remain visually unchanged. Instruction: No substantive correction is visible: the head still consists of thick rectangular plates. The expected correction is a usable fork head with slender separated tines; this is absent. Quality: The metal texture, lighting and background are coherent, but the massive plate-like tines create a clear unnatural utensil structure."
+    },
+    {
+      "blind_id": "case_0d5544aac0f755865318",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The silver material and white setting are retained. Excluding the required thinning and reshaping, the utensil occupies a noticeably longer horizontal span, with the handle reaching farther left and the tines farther right. Instruction: The thick slab utensil becomes a thin fork with a conventional handle and four separated curved tines. This matches the expected usable fork structure and fully corrects the unreasonable geometry. Quality: The fork shape, perspective, shading and metal surface are coherent; slight ragged edging around the rightmost tine tips is a small local artifact."
+    },
+    {
+      "blind_id": "case_f76b8ebe4399d11825cf",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, diagonal object placement, brushed metal finish, handle and surrounding shadow remain visually unchanged. Instruction: The broad thick rectangular tines remain without a visible corrective change. A normal slender separated fork head is expected, so the instruction is not fulfilled. Quality: The scene has coherent lighting and metallic texture, but the head's bulky plate-like prongs are a conspicuous structural/semantic defect."
+    }
+  ]
+}

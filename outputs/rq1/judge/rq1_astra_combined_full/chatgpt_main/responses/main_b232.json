@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b232",
+  "results": [
+    {
+      "blind_id": "case_86ce47f60ac9e3ab79c2",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Grid, border, yellow background, three X positions and bottom-right O remain intact; the existing center O has lost its pink fill, a clear unrequested change. Instruction: The visible change is recoloring the center O, with no O added to an empty cell. The required addition is at top-left to complete the center/bottom-right diagonal, so the instruction is unfulfilled. Knowledge: The explanation is blank; the mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: Judged alone, the grid and symbols are coherent, contours clean, colors even and shapes unambiguous, without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_1bc3f34794374b7c3a19",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Border, grid including its gaps, all X/O positions and composition are preserved; the yellow surface has acquired visible grain and uneven texture. Instruction: No new O is present; top-left remains empty. A correct edit would add an O there to join the center and bottom-right Os, so the requested change is absent. Knowledge: The explanation is blank; the mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: Judged alone, the board geometry and marks are clear and coherent; mild grain around the flat fills and edges is a small visual imperfection."
+    },
+    {
+      "blind_id": "case_1540ea4f8e5d00df5745",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Outside the added O, the border, grid gaps, background, all original Xs and the center/bottom-right Os appear unchanged. Instruction: A pink O is added at top-middle. The expected winning placement is top-left, so adding a mark addresses the action but fails the required location and win. Knowledge: No explanation is supplied; task-implied tic-tac-toe logic provides the basis. Top-middle, center and bottom-right Os form no straight row, column or diagonal of three, a clear logical failure of the winning condition. Quality: Judged alone, the board and individual marks are clean, coherent and legible, with even surfaces and no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_00ebfbc005ec50e13917",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Original center/bottom-right Os and the X positions remain, but the gap in the upper right horizontal grid line is closed and the flat background and pink fills develop conspicuous mottling. Instruction: An O is drawn over the occupied top-right X. A correct edit would add an O at the empty top-left to complete the diagonal. The occupied-cell overlay and absence of a winning line make the requested move poorly implemented. Knowledge: The explanation is blank; the mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: Judged alone, the top-right crossed ring gives one cell conflicting symbols, and mottled pink/yellow fills create a second noticeable visual flaw; the overall grid remains recognizable."
+    }
+  ]
+}

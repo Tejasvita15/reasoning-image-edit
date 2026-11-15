@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b319",
+  "results": [
+    {
+      "blind_id": "case_a2a36516b01a0d629662",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The black frame, white surroundings, and botanical print remain recognizable; the rear wire stand is absent, a clear unrequested change. The compressed face and changed outline are excluded as viewpoint changes. Instruction: The broad frontal view becomes a narrow oblique profile. A complete side view should reveal the frame thickness and supporting structure; the strong rotation achieves the core request, but the support is missing. Quality: Structure, perspective, clean edges, and surface rendering are coherent, with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_3ef4569dbf86cc8acbc0",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Black frame and white setting remain, but the plant photograph is redrawn with changed foliage contours, and its printed brand/dimension text becomes distorted. Viewpoint changes are excluded. Instruction: The visible side switches and a narrow thickness is shown, but the picture face still dominates almost the entire frame. A side view should substantially foreshorten that face and expose the depth; most of that requested change is missing. Quality: Frame geometry and lighting are coherent, but the small lettering beneath the recognizable brand is visibly garbled, a clear local artifact."
+    },
+    {
+      "blind_id": "case_f02d649959e25954f17a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The black finish and white background remain, but the botanical insert is removed and the rear wire stand disappears. Rotation and foreshortening are excluded. Instruction: The frame is narrower and exposes a right-hand edge, yet a broad blank panel remains the dominant face. The expected side view would show the original frame and support in profile; this only weakly implements that rotation and loses identifying structure. Quality: The rectangular frame, inset panel, joins, shading, and clean background are internally coherent and free of noticeable artifacts."
+    },
+    {
+      "blind_id": "case_fb8cff1b6a96d1908e76",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The black border and white setting remain, but the botanical image and the rear support are removed. Instruction: The object becomes a blank, broadly frontal frame with only a slim right edge visible. The expected result is a profile of the supplied frame and support; a broad front face does not implement the requested side view. Quality: The simple frame has consistent straight edges, plausible depth and shading, and a clean, uniform panel without noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_04e71aaae944ee589a83",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Black material and white background are retained; disappearance of the front image and the narrow silhouette follow the requested edge-on viewpoint and are excluded. No separate non-instruction change is evident. Instruction: The broad picture becomes a true edge-on vertical bar with a horizontal rear projection. A complete side view should also convey the rear rising support visible on the source; the isolated horizontal line omits that structure, so the side-view idea is present but incomplete. Quality: The vertical bar and thin horizontal extension are sharply joined, straight, cleanly shaded, and internally coherent; no noticeable artifact is visible."
+    },
+    {
+      "blind_id": "case_b0927f0f279f9f0798a3",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The black frame, white setting, and visible botanical print remain recognizable. The previously transparent open region becomes a broad opaque white enclosure, a clear material/background-visibility change. Viewpoint foreshortening is excluded. Instruction: The front is strongly foreshortened and depth is exposed, matching the side-view idea. However, the expected thin frame and wire support become a deep boxlike assembly with substantial rear uprights, so the original object is only partially represented. Quality: Judged alone, the enclosure has coherent rectangular geometry, connected edges, plausible surface shading, and readable plant imagery without noticeable artifacts."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b016",
+  "results": [
+    {
+      "blind_id": "case_ce71d707c8448f0fd0d8",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The road, green foliage, tan coat and frontal framing remain, but the foliage pattern and road texture are visibly redrawn, and the eyes and ear contours change beyond anatomical repair. Instruction: 1. The fur and face are re-rendered while the same two visible legs and closed, bulky right chest remain. 2. A corrected dog should have plausible forelimbs and hindlimbs attached to its torso. 3. The absent limbs are not restored. 4. The requested correction is not achieved. Quality, edited image only: Structural coherence is problematic: the chest ends in a rounded lobe without a foreleg and the rear body lacks a convincing second hindlimb. Lighting and fur texture are coherent, but these anatomical defects are distracting."
+    },
+    {
+      "blind_id": "case_3cb57e7771170fcf46c5",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The tan dog, road, blurred greenery and frontal composition remain. Non-required changes include the lowered and reshaped tail, repositioned head with changed facial proportions, and redrawn background foliage. Instruction: 1. A far hindleg and a lifted foreleg are added, and the torso now connects to four limbs. 2. The expected correction is a dog with coherent four-legged anatomy. 3. The additions resolve the missing-limb problem with a plausible walking pose. 4. The requested correction is fulfilled. Quality, edited image only: Structure, lighting and fur are coherent; the lifted forepaw has a slightly blunt, indistinct toe contour, a small local imperfection. No distracting duplication or background artifacts are visible."
+    },
+    {
+      "blind_id": "case_65f2a4654e4c450ab894",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The road, blurred green surroundings, tan coat, general head position and forward-facing layout remain recognizable. The tail curvature and height, facial proportions and road texture nevertheless change outside the required limb correction. Instruction: 1. The image adds a far hindleg and a bent foreleg behind the forward leg. 2. A correct result should give the dog anatomically plausible limbs. 3. Four limbs now connect coherently to the body in a walking pose; the bent paw is partly occluded by the forward leg. 4. This satisfies the correction. Quality, edited image only: Lighting, fur and overall structure are natural. The lifted forepaw has a slightly softened, poorly differentiated contour where it passes behind the other leg; otherwise the image is coherent and free of conspicuous artifacts."
+    },
+    {
+      "blind_id": "case_c497e5ae1f76cc743043",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The road, green background, tan dog and central frontal framing remain, but the mouth and eyes are reshaped, the coat is more saturated, the tail contour changes, and the background is redrawn. These exceed the anatomical correction. Instruction: 1. The chest is reshaped into a plausible torso and two distinct weight-bearing forelegs are present; the stance becomes stationary. 2. A corrected dog should have a natural torso and believable supporting limbs. 3. The front-limb defect is resolved, and the rear-leg overlap is plausible for this viewpoint. 4. The correction is fulfilled. Quality, edited image only: Structural coherence, natural lighting, artifact absence and texture fidelity are satisfactory. The paws have believable toes and contact the road, the chest and legs connect naturally, and the fur and blurred surroundings have no noticeable corruption."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b083",
+  "results": [
+    {
+      "blind_id": "case_ba6ec25af825e388d77a",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The leaf with brown holes, upper long leaves, lower foliage, framing, lighting and blurred background remain unchanged outside the added blossoms. Instruction: Open pink flowers now occupy the previously leafy plant; the expected result is this same plant visibly flowering, which is fully achieved. Knowledge: The supplied explanation identifies rhododendron with pink or purple flowers. Pink coloration matches, but the broad, layered bowl-shaped blossoms with dense yellow central discs visibly conflict with the expected rhododendron flower form, a clear botanical mismatch. Quality: Coherent petals and foliage, natural lighting and depth of field, clean boundaries and believable textures; no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_a49ebd49b2c4f41fd0e5",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The recognizable leaf-and-stem arrangement is retained, but several leaf contours and positions are altered, including the upper right long leaf and central right foliage; the foliage also acquires markedly darker, more saturated green and purplish tones. Instruction: New open pink flowers and pink buds appear on the plant. The expected visibly blooming plant is fully present. Knowledge: Pink open, lobed flowers with projecting stamens accord with the supplied rhododendron explanation and its pink/purple color expectation. Quality: Structure, lighting and depth of field are coherent; the central flower has slightly flattened, ribbonlike stamens, a small local naturalness issue. Other textures and boundaries are clean."
+    },
+    {
+      "blind_id": "case_4484f8f2061d13e3ba0c",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The upper closed bud, spotted central leaf, lateral leaves, foreground brown bud, lighting, framing and blurred background are preserved; added blooms and their occlusions are excluded. Instruction: Numerous open pink blossoms have appeared on the same plant, fully meeting the expected visible flowering state; remaining buds do not prevent blooming. Knowledge: Pink coloration agrees with the supplied explanation, but the rounded, layered flowers with dense central sprays of short yellow stamens resemble double cherry-like blossoms rather than rhododendron flowers, a clear botanical mismatch. Quality: Petals, leaves and stems remain coherent, with natural sunlit texture and photographic focus falloff; no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_aa8f325bff17ecddfa0c",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The long upper left leaf, surrounding green foliage, left branch, foreground leaf positions, background blur and scene framing remain consistent wherever unobscured; blossoms and supporting flower growth are the requested change. Instruction: The plant is covered in clearly open pink blossoms, precisely establishing the requested blooming state. Knowledge: Pink, flared lobed flowers with projecting stamens are compatible with rhododendron and the supplied pink/purple color explanation. Quality: Flower structure, foliage, perspective and illumination are coherent; some petal rims have slightly crunchy bright edging, a small texture imperfection, without structural failure."
+    }
+  ]
+}

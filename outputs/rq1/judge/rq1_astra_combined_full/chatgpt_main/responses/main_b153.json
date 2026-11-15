@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b153",
+  "results": [
+    {
+      "blind_id": "case_37dd1a717d09a9aa035f",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The title, orange frame, white panels and overall maze arrangement remain recognizable and in place, but the black maze strokes are visibly redrawn with uneven edges and slightly shifted ends. Instruction: Red strokes have been added; a correct result would be one continuous entrance-to-exit route within the corridors. The left stroke crosses the entrance corridor wall and the wall below the upper-left pocket, then stops; the exit stroke is disconnected and crosses a vertical wall. Most of the route is absent. Knowledge: The supplied explanation is blank; the applicable mandatory coupling determines this score. Instruction failure ⇒ knowledge invalid. Quality, judged from this image alone: The title and diagram are legible and the flat graphic layout is coherent, with one small jagged, dark-edged kink at the inner end of the upper-right red stroke."
+    },
+    {
+      "blind_id": "case_8a86d9a94f12dcb17a7b",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The black maze layout, title, orange frame, rounded white panels and side arrows are visually preserved, excluding the requested red overlay. Instruction: A straight red horizontal line has been added between the two openings. The expected highlight would turn through the open maze corridors; this line instead cuts across several black vertical walls near the top, so the actual route is not highlighted. Knowledge: The supplied explanation is blank; this score follows the mandatory instruction-failure coupling. Instruction failure ⇒ knowledge invalid. Quality, judged from this image alone: The lettering is clear, rectangular maze geometry and red stroke are clean, the white and orange areas are uniform, and no distracting generation artifacts are visible."
+    },
+    {
+      "blind_id": "case_cdd176340edf7e42ce8b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The title and general maze arrangement are retained, but the black maze strokes have been redrawn unevenly, and the orange perimeter and white-panel edges have acquired visible roughness and mottling. Instruction: A red branching trace runs from the left entrance into the lower-left area, with a separate horizontal exit stroke. A correct highlight would be a single connected corridor-following route. The trace crosses walls at the entrance and upper-left pocket, ends against or across interior walls, and never connects to the exit segment. Knowledge: No knowledge explanation is supplied; the mandatory instruction-failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality, judged from this image alone: Text and overall diagram remain readable, but irregular, smeared black line edges and speckled/frayed panel and outer-border edges are noticeable graphic artifacts."
+    },
+    {
+      "blind_id": "case_50d42adc27669872fbbf",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The title, orange surround, white panels, maze walls and two directional arrows visually match the source outside the red overlay. Instruction: The edit adds a red horizontal stroke across the upper maze. The intended result would highlight a continuous navigable path; the observed stroke passes through multiple vertical walls instead of bending through passages, leaving the solution unrepresented. Knowledge: The supplied explanation is blank, and the score is assigned using the required coupling. Instruction failure ⇒ knowledge invalid. Quality, judged from this image alone: Clear lettering, orderly black linework, a smooth red stroke and clean flat-color panels produce a coherent graphic with no noticeable rendering defects."
+    }
+  ]
+}

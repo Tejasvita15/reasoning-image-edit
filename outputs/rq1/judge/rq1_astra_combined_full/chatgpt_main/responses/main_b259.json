@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b259",
+  "results": [
+    {
+      "blind_id": "case_ad060d9b3c95b771589c",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The background bokeh, table horizon, plank seams, exposed knots and foreground grain remain visually unchanged; the added fruit and its contact shadow are the requested change. Instruction: A whole green, sharply spiked fruit with a stout stem now rests on the table; the expected result is a durian on this surface, and this fulfills it. Knowledge: The explanation specifies durian, and the oval spiny husk and woody stem visibly identify one. Quality: Structure, lighting, grounded shadow and detailed rind texture are coherent, with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_7813c34b337d85d8500f",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The warm bokeh pattern, table framing, plank boundaries and visible wood knots remain consistent; fruit occlusion and shadows are excluded as part of the addition. Instruction: A whole spiny fruit and an opened portion containing pale yellow flesh have been added to the table, fully providing the expected durian. Knowledge: The explanation calls for durian; the thorny husk, thick pale inner rind and large yellow flesh lobes match that fruit. Quality: The whole fruit and cut section have coherent shapes and textures, natural illumination and convincing surface contact, with no clear generation defects."
+    },
+    {
+      "blind_id": "case_0caf7e62cc9259b9186f",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The blurred lights, background colors, table horizon, board seams and exposed foreground knots and grain are unchanged; the fruit and its shadow are permitted additions. Instruction: A large oval green spiny fruit with a woody stem is now placed on the tabletop, exactly satisfying the expected durian placement. Knowledge: Its prominent pyramidal spikes and characteristic husk identify the durian specified by the explanation. Quality: Fruit structure, sharp rind texture, stem attachment and contact shadow are coherent and natural, without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_fac5bb68116d60048719",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The background bokeh, warm illumination, table horizon and visible plank seams and grain remain consistent with the source; the fruit arrangement and its shadows are the attempted requested addition. Instruction: Several orange-fleshed fruit halves and pineapple-like scaly whole forms appear on the table. The expected result is a durian, but these forms do not depict one, so the requested identity is misinterpreted. Knowledge: The explanation explicitly requires durian; the broad pineapple-like scales and angular orange flesh do not match that fruit. Instruction failure ⇒ knowledge invalid. Quality: Multiple fruit forms are structurally unnatural: chunky flesh blocks merge into radial wedges, cut shells contain irregular piled protrusions, and the rear whole fruits have distorted overlapping scales and crowns. These repeated semantic and structural errors are distracting despite coherent lighting."
+    }
+  ]
+}

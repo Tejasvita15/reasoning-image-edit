@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b047",
+  "results": [
+    {
+      "blind_id": "case_72295a051c4e316234dc",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Bottle, stopper, label, sponge, brush and cloth layout remain intact, but a new powder mound on the cloth and a separate spill across the tabletop alter two non-requested areas. Instruction: White particulate material now occupies the liquid at the bottle bottom; the expected addition of a portion of baking soda to the existing liquid is visibly represented. Knowledge: The explanation requires small reaction bubbles; the visible addition appears as settled powder without clear effervescence, a clear missing chemical effect. Quality: Coherent glass, readable label, natural powder texture, lighting and cleaning-tool geometry; no noticeable visual artifacts."
+    },
+    {
+      "blind_id": "case_68087895b6fd1541d8ce",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "Consistency: Bottle shape, stopper, green label, sponge and brush placement are preserved, but the powder heap on the cloth and scattered tabletop powder are two additional changes outside the requested liquid. Instruction: A portion of white powder is visibly added inside the original bottle, at the liquid surface and bottom, matching the requested addition. Knowledge: The expected small bubbles are absent; a dry conical mound also sits intact on the liquid surface while substantial powder remains below, giving multiple implausible aspects to the depicted reaction. Quality: Glass, label and surrounding objects are coherent, but the sharply formed dry mound appearing to rest unsupported at the liquid surface is a noticeable semantic flaw."
+    },
+    {
+      "blind_id": "case_b52ee4d81b322195cc81",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "Consistency: Excluding the altered bottle contents, the glass outline and stopper, label position and text, brush, sponge, folded yellow cloth, white background and composition are preserved. Instruction: The clear liquid is now largely occupied by a tall, compact white powder mass with a dry mound at its top; an addition is suggested, but the result resembles filling the bottle with dry powder rather than adding a portion to liquid, so compliance is partial. Knowledge: The explanation calls for small bubbles; no clear reaction bubbles appear, and the dry compact powder column does not depict mixing or reacting with the vinegar. Quality: The tools and readable label are coherent, but the white contents have an unnaturally straight cylindrical boundary and a pasted-looking lower edge inside the glass."
+    },
+    {
+      "blind_id": "case_82636143a120e799cef5",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The overall bottle-and-cleaning-tools arrangement remains recognizable, but the brush bristle pattern and shape, sponge surface texture, and label lettering and contour are noticeably altered. Instruction: The formerly clear vinegar now shows abundant effervescence and white foam in the same bottle, visibly representing baking soda added to the liquid. Knowledge: Numerous small bubbles through the liquid and a foamy surface directly match the supplied acetic-acid reaction explanation. Quality: The bottle and lighting are coherent, but the brush has fused ribbon-like bristles and the label lettering has visibly irregular, distorted edges, giving two clear visual flaws."
+    }
+  ]
+}

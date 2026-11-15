@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b294",
+  "results": [
+    {
+      "blind_id": "case_11da03bcfa770ba29e4b",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The black rim, red/white decals, white shaft, brown door panels, left reflective strip and framing remain visually unchanged. Instruction: The central pair of loose, curved yellow strings and the wide gap above them remain; a completed racket should have a continuous taut grid attached to the rim. No completion is visible, so this is non-compliance. Quality, considered alone: Structure, lighting, perspective and surface textures are coherent; the loose strings read naturally as physical damage, with no noticeable generation artifact."
+    },
+    {
+      "blind_id": "case_2fc16bfe17b2a12e0ce5",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The rim silhouette, red/white markings, white shaft, door panels and composition are retained; string changes are excluded. Instruction: Several grid lines are redrawn and one central strand is straighter, but the curved central strand still ends inside the head and upper central vertical strings remain missing. A complete taut grid is expected; most of the needed repair remains absent. Quality, considered alone: The frame, background and lighting are coherent, but strings form an awkward central branching junction and several short doubled or detached segments near the lower sides, creating noticeable structural artifacts."
+    },
+    {
+      "blind_id": "case_b3d67b35bb34bfa4c738",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The racket head is visibly slightly narrower and its right rim is drawn inward relative to the source, changing a non-requested object shape. The black/red/white design, shaft, wooden door layout and lighting remain recognizable and consistent. Instruction: Both curved loose central strings and the missing upper central vertical runs remain. The expected continuous taut string bed has not been completed, so the instruction is not followed. Quality, considered alone: The frame and shaft are coherent, the broken strings look physically plausible, and the wood, lighting and perspective appear natural without noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_439c4c32c8e3d4f3e9df",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Compared with the source, the right side of the racket rim sits farther inward and the head is slightly narrower. The red/white frame decoration, white shaft, brown paneled background and overall composition are preserved. Instruction: The central loose yellow ends still stop well below the top rim, leaving the central vertical stringing incomplete. A finished taut grid would remove these gaps and loose ends; no completion is visible. Quality, considered alone: The racket geometry, damaged strings, wood surfaces and lighting form a coherent photograph, with no evident duplication, melting or other generation artifacts."
+    }
+  ]
+}

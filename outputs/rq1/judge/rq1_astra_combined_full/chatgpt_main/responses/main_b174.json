@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b174",
+  "results": [
+    {
+      "blind_id": "case_af77e180a5a194cabdc6",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The dark bottle silhouette, red capsule with gold mark, cream bordered label, village illustration and main VINO ROSSO/REGAL/ARDITI lettering are retained; the small label lettering/layout is slightly reworked. Requested background, illumination and reflection changes are excluded. Instruction: The white setting becomes a wine-red/black spotlight backdrop with a clear upright bottle and bottom reflection. The expected restrained product composition is present, but the upper-right gold wording uses ornate script and a comma after Timeless instead of the requested serif text with a period. Quality: Structure, lighting, glass and label textures are coherent; the headline is readable and no noticeable generation artifact is visible."
+    },
+    {
+      "blind_id": "case_d98bff4abf94749df6e1",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The bottle shape, red capsule and gold neck mark remain recognizable. The label is visibly redrawn, including altered red wine-name lettering and the village details; the requested setting and lighting changes are excluded. Instruction: A red-to-black background, spotlight, upright bottle, clear details and soft base reflection are present, as expected. However, the upper-right gold serif headline reads approximately 'Tineele yer / Bott Bottee' rather than 'Timeless. Bottled.', so the text requirement is incomplete. Quality: Bottle structure, shading and surface textures are coherent, but the prominent nonsensical headline is a clear semantic artifact."
+    },
+    {
+      "blind_id": "case_8c710928885365016662",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The red capsule with gold emblem, dark tapered bottle and principal label branding are retained. The label artwork and small lettering have been visibly redrawn, especially the village illustration and lower typography. Background, positioning, lighting and reflection are excluded as requested changes. Instruction: The bottle is placed upright below center on a wine-red/black spotlight setting with a subtle reflection and no extra objects. The expected gold serif 'Timeless. Bottled.' is instead a pale near-white corrupted 'Timeeler / Botteke' headline, leaving a major specified aspect incomplete. Quality: Bottle geometry, highlights and grounding are coherent; the malformed headline, including a damaged overlapping character, is a noticeable text artifact."
+    },
+    {
+      "blind_id": "case_4f280070d2ab687e74eb",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The basic bottle outline and cream label identity remain, but the gold capsule emblem is removed and label lettering/artwork is visibly altered. Relighting, backdrop and reflection are excluded. Instruction: The white setting is replaced by a dark burgundy gradient and the upright bottle has a base reflection, matching much of the expected product composition. The upper-right text instead reads 'Guditve / Hxplarine' in pale lettering, failing the requested words and muted gold; the reflection is also quite bright. Quality: Bottle form and background are coherent, but the nonsensical headline and rough distorted label lettering are visible semantic/text defects."
+    },
+    {
+      "blind_id": "case_cd6bac160f129a02f702",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The dark bottle shape, red capsule and gold emblem, cream border, village drawing and main branding are preserved; only small label typography is subtly reworked. Requested backdrop, illumination and reflection changes are excluded. Instruction: The upright bottle is clear with a bottom reflection and upper-right muted gold wording. The expected soft gradient is replaced by conspicuous folded red curtains, and the wording uses ornate script with a comma after Timeless rather than the specified serif phrase and period. These leave the restrained gradient/type treatment only partly fulfilled. Quality: The bottle, curtain folds, glass highlights and reflected label are coherent, with readable headline lettering and no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_9732b6fcfbaaee20daae",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The bottle identity, dark glass, red capsule with gold emblem and principal label branding persist. The label has noticeably changed proportions and internal spacing, especially its enlarged lower section; requested lighting and scene changes are excluded. Instruction: The bottle stands upright slightly below center with clear details and a bottom reflection. The expected deep red-to-black soft gradient becomes folded curtains with a conspicuous pale overhead beam, while the upper-right gold wording is script and uses a comma after Timeless. The principal idea is present but the background and typography depart from the requested restrained treatment. Quality: Bottle geometry, fabric folds, lighting and reflection are visually coherent, and the decorative headline is clean and readable without evident artifacts."
+    }
+  ]
+}

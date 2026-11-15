@@ -1,0 +1,23 @@
+{
+  "batch_id": "repeat_b007",
+  "results": [
+    {
+      "blind_id": "case_be48189b5696f6ffa131",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The grey board and overall arrangement remain recognizable, but an unrequested blue 1 appears in the top-right covered square, and clue glyph shapes and grid/bevel rendering are visibly redrawn. Instruction: No red X is added; the expected marks are on the covered cells at row 1 column 6, row 3 column 3, and row 4 column 5 (counting visible rows and columns from the top left). The requested marking is absent. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the grid, bevels, and blue/green numerals are coherent and legible, with no noticeable structural artifacts; raster softness does not obscure their meaning."
+    },
+    {
+      "blind_id": "case_f9b4f36610b115871666",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The grid, grey cells, bevels, and blue clues remain visually unchanged, but the green 2 at row 4 column 4 has been erased beneath the added X, an unrequested change to a revealed clue. Instruction: One red X is present on that revealed clue cell rather than a covered mine cell. Correct marking requires Xs at row 1 column 6, row 3 column 3, and row 4 column 5; all three are missing, so most required changes are missing or incorrect. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the board has straight regular grid lines, legible numerals, consistent bevels, and a clean, well-formed red X without noticeable artifacts."
+    }
+  ]
+}

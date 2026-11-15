@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b312",
+  "results": [
+    {
+      "blind_id": "case_cbfac6f30b32fa402ba8",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The wooden background, framing and left outer plate contour remain consistent, but the existing central window reflection disappears and the decorative motifs on the existing upper and lower plate are rearranged. These changes are not needed to complete the missing section. Instruction: The missing right section is filled, producing a continuous round plate; the expected result is the existing plate with its missing area restored, and that geometric completion is fully present. Quality, viewed independently: Structure, lighting, artifact absence and ceramic/wood textures are satisfactory; the complete plate has a smooth coherent rim and natural shading without noticeable defects."
+    },
+    {
+      "blind_id": "case_8bce4cf84d39bdf19d30",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The board grain and framing, existing left plate contour, small floral marks, blue-white glaze and central reflected window remain visually consistent, allowing for display size; the restored right portion is excluded. Instruction: The absent right side is restored into a smooth continuous circular rim, matching the expected complete version of the same decorated plate. All requested completion is present. Quality, viewed independently: Structure, perspective, reflected light, shadow and wood/ceramic textures are coherent; there are no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_30135ea2f36ec31fa5f5",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The framing, surviving plate contour, motif positions and central reflection remain consistent, but the wooden background has conspicuously coarse mottled grain and the existing ceramic surface acquires visible colored noise. Instruction: The large right-side cutout remains essentially unchanged. A complete plate should have a restored right section and continuous rim, so the requested modification is absent. Quality, viewed independently: The partial ceramic object and its reflection are understandable and the lighting is plausible, but conspicuous granular color noise across the ceramic and board visibly degrades surface fidelity; structural readability remains intact."
+    },
+    {
+      "blind_id": "case_5fa581ea095ae8ee8fbd",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The wooden board, framing and left outer plate contour remain consistent. An unsolicited serving of noodles, tomato and green garnish occupies the previously empty plate, and visible decorative marks near the top and bottom have changed. Instruction: The missing right portion has been filled to form a continuous complete plate, satisfying the expected geometric restoration. The added food is assessed as an unrelated change under consistency. Quality, viewed independently: The plate, noodle strands, diced toppings and board are structurally coherent, naturally lit and convincingly textured; no noticeable artifacts are present."
+    }
+  ]
+}

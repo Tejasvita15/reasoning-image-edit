@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b306",
+  "results": [
+    {
+      "blind_id": "case_afa280d25ca151b295b3",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding the requested howling poses and additional wolf, the woodland arrangement, foreground branches, snow contours, subject placement and coat markings are replaced; only the general snowy setting remains. Instruction: The single forward-looking wolf becomes a scene of two wolves with raised muzzles and open mouths, matching the requested howling scene. Knowledge: The prominent wolf raises its head with its mouth open, directly matching the supplied explanation. Quality: Structure, lighting, snow contact and fur are coherent; the overlapping legs and partly snow-hidden paws are readable, with no clear generation artifacts."
+    },
+    {
+      "blind_id": "case_d8c286c847197e601ae1",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The trunks, foreground twigs, snow layout, standing position and tail remain closely aligned. Excluding the head and mouth changes, the torso fur pattern is visibly reworked and smoothed. Instruction: The mouth opens farther and the face turns slightly, but the expected raised-muzzle howling pose is absent; the wolf appears to pant with its head level. Knowledge: The lead wolf does not raise its head as specified in the explanation. Instruction failure ⇒ knowledge invalid. Quality: The wolf has coherent anatomy, a natural mouth and teeth, detailed fur, convincing daylight and clean snow/branch boundaries, with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_c92e09e89d70d4c1b60a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Beyond the allowed mouth/head modification, the view is changed to a tight portrait that removes most legs and tail, and the trees and foreground branch arrangement are altered. Snow and gray-brown coloring remain broadly consistent. Instruction: The wolf is enlarged and its mouth opened, but its muzzle remains forward rather than raised; this reads as panting instead of the expected howling scene. Knowledge: The visible head remains level, contrary to the supplied raised-head expectation. Instruction failure ⇒ knowledge invalid. Quality: Facial anatomy, teeth, whiskers and fur are clear and coherent, with natural background blur, lighting and branch contours; no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_0826772e1fc6e553a97e",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The snowy slope, left trunks and foreground twigs remain recognizable. Excluding the additional wolf and requested vocalizing facial changes, the original body is shifted left, its leg stance changes and its coat pattern is reworked. Instruction: Two wolves now have widely opened mouths, establishing a group vocalizing scene, but their forward-pointing muzzles and broad jaw openings look more like barking or yawning than the intended howling posture. Knowledge: The prominent front wolf does not raise its head, a clear mismatch with the explanation. Quality: Both animals have coherent bodies and distinguishable overlapping legs, convincing fur and mouth detail, consistent lighting and plausible contact with the snow, without noticeable artifacts."
+    }
+  ]
+}

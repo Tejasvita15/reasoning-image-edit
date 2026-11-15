@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b018",
+  "results": [
+    {
+      "blind_id": "case_9616c61133f0fe3e20c9",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The green backdrop and arched perch remain recognizable, but the background blur pattern and bark details change, and existing birds have different head directions and plumage outlines beyond adding a bird. Instruction: Five birds become six individually visible birds; the expected six little birds are present, giving perfect compliance. Quality: Structure, lighting and feather texture are coherent; a small dark spur hanging below a central tail is a minor artifact."
+    },
+    {
+      "blind_id": "case_dc030de5c88c7dbfc749",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The broad green backdrop and branch placement are retained, but branch texture and existing bird body/head shapes are visibly redrawn beyond the requested count change. Instruction: The source has five birds; the edit has four identifiable heads/bodies, with an extra detached-looking beak above the central bird. The expected six little birds are absent and the count moves in the wrong direction. Quality: Feather texture and lighting are credible, but the extra long beak protruding above the central head is a clear anatomical artifact."
+    },
+    {
+      "blind_id": "case_e894b624775beb59f402",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The general green setting remains, but the perch is lowered, existing birds are extensively repositioned and reshaped, and their long tails become short. These changes exceed adding a sixth bird. Instruction: The five-bird group becomes seven clearly countable birds; the expected six are not achieved, although adding birds addresses the main idea partially. Quality: Structure, natural lighting, feather and bark textures are satisfactory; all seven birds have coherent visible heads, bodies, feet and tails without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_6960b73a560cee38b406",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The curved perch and green background are recognizable, but existing head directions, body outlines and tail positions are substantially changed, and bark/background detail is altered. Instruction: Five birds remain five, despite the altered poses; the expected sixth bird is missing, so the requested count change is not followed. Quality: Bird anatomy, grasping feet, feather detail, lighting and branch structure are coherent and natural, with no noticeable generation artifacts."
+    }
+  ]
+}

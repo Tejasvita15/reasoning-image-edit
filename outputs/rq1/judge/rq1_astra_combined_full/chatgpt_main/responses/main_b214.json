@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b214",
+  "results": [
+    {
+      "blind_id": "case_ffb7811141c14611bde4",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The cube and white background retain their layout, but the leaf shape/veins are redrawn and the caterpillar is replaced by an elongated orange strip with two faces. Instruction: The new strip runs almost vertically up the front face and stops on the top; the expected result is marked shortest surface routes continuing to the leaf. No complete route to the leaf is marked, so this is a misinterpretation. Knowledge: The supplied explanation requires diagonal ascent followed by travel over the edge toward the leaf, which is absent. Instruction failure ⇒ knowledge invalid. Quality: The cube and leaf are coherent, but the orange structure has duplicated faces, a stretched ribbon-like body and an abrupt blunt extension above its upper head; these produce multiple distracting anatomical/structural errors."
+    },
+    {
+      "blind_id": "case_2f86ebc5bc7cd7ee24f7",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The blue cube and white setting remain recognizable, but the leaf silhouette/veins, caterpillar face/body and cube shading are noticeably changed. Instruction: Red arrows were added up the front face and along the top front edge. A correct edit would mark all shortest routes from the original caterpillar to the leaf; these arrows point in conflicting directions, stop away from the leaf and do not show the required diagonal ascent. Most of the requested route information is missing. Knowledge: The depicted vertical and edge-following arrows do not implement the explanation's diagonal climb and continuation toward the leaf. Instruction failure ⇒ knowledge invalid. Quality: The solid cube, leaf and cartoon body are cleanly rendered, but the fused arrow junction and opposing arrowheads on the same continuous strokes create a clear diagrammatic coherence flaw."
+    },
+    {
+      "blind_id": "case_7eee00f98bdeb16ae7e4",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The cube, leaf and white background largely retain their original appearance, but the original bottom caterpillar is removed and multiple large segmented worm forms and their shadows are introduced. Instruction: Long winding bodies replace path markings. The expected edit would retain the caterpillar and mark complete shortest routes to the leaf; no such route from its original position is present. Knowledge: The serpentine bodies do not demonstrate the explained diagonal surface climb and edge crossing toward the leaf. Instruction failure ⇒ knowledge invalid. Quality: Color, cube perspective and leaf rendering are coherent, but the long left body has no identifiable head and the suspended winding bodies with separated shadows give a conspicuous floating structural appearance."
+    },
+    {
+      "blind_id": "case_0c5e1b87c7e97450c5f1",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The cube geometry, blue surfaces, leaf and white background are retained; the caterpillar is moved from the bottom corner to the top and its face/body is redrawn, a clear non-requested character change. Instruction: Black looping strokes have been added across the cube. Correct markings would connect the original starting position to the leaf along all shortest surface routes. These curved strokes have disconnected endpoints on the left face, a long detour around the right face and no proper connection to the original start or leaf stem. Most required route content is missing. Knowledge: The loops do not realize the explanation's diagonal ascent and continuation across an edge to the leaf. Instruction failure ⇒ knowledge invalid. Quality: The cube, leaf and cartoon caterpillar are visually coherent with clean shading; the heavy irregular black strokes have abrupt disconnected ends and an awkward hooked junction, creating a clear diagrammatic visual flaw."
+    }
+  ]
+}

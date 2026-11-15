@@ -1,0 +1,11 @@
+{
+  "submitted_file_sha256": {
+    "ratings.csv": "4b9bf2415251b0c8e2a700d43eb4c121f1f58832ff6875e634e1b17b2130cd8b",
+    "practice_ratings.csv": "ef6838fa76247d2e54caf9671c61966c55ccb9c48bdfdc0d6cf7ba2a80db1a21",
+    "reviewer_metadata.json": "02c7b22bcb245f5fb079144bf9ced745fd2e2c3f4cf1c5e19622edad24af5527"
+  },
+  "submission_fingerprint": "7c86de2ec00dc002cb499379018aabcd3839720626cb63ecfdd680125bd3325f",
+  "fingerprint_method": "SHA-256 of UTF-8 JSON sorted submitted_file_sha256 with compact separators",
+  "captured_at": "2026-10-04T08:53:26.863435+00:00",
+  "note": "Original byte-preserving reviewer 2 submission; no rating or metadata corrections"
+}

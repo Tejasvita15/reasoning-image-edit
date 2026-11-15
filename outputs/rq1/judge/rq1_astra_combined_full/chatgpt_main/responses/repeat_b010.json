@@ -1,0 +1,23 @@
+{
+  "batch_id": "repeat_b010",
+  "results": [
+    {
+      "blind_id": "case_d7c00cb7b68dad801a04",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The outer wooden frame, white surround, and existing numbered tiles retain their appearance and positions, but an extra wooden 0 tile fills the previously empty upper-left cell, an unrequested added object. Instruction: The empty cell becomes 0 while 1–15 remain in their original positions; completion requires 1–15 in row-major order and an empty bottom-right cell. No requested rearrangement is achieved. Knowledge: The explanation is blank; the visible result fails the task-implied completed-puzzle requirement. Instruction failure ⇒ knowledge invalid. Quality: Viewed independently, the square blocks, crisp circular markings and legible 0–15 labels are coherent, with consistent wood texture, lighting and edges and no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_0081f99d817bc3279b9d",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The wooden frame and four-by-four layout remain recognizable, but the wood surface is visibly rougher and more mottled, the frame/grid proportions shift, and numeral and circle strokes change throughout. These appearance changes are not required by rearrangement. Instruction: The gap remains at upper left and most labels stay in their original cells; 3 becomes a duplicate 2 and 12 becomes a duplicate 4. The expected 1–15 sequence ending with a bottom-right gap is absent, so the puzzle is not completed. Knowledge: No explanation is supplied; the visible duplicates and missing numbers conflict with task-implied puzzle logic. Instruction failure ⇒ knowledge invalid. Quality: Independently, the wooden grid, lighting and readable markings are coherent, but repeated 2 and 4 labels produce two clear semantic flaws in the numbered puzzle."
+    }
+  ]
+}

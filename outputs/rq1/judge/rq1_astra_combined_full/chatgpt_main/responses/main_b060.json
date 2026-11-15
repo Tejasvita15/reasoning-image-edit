@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b060",
+  "results": [
+    {
+      "blind_id": "case_f94cc51552ed09f9c3c6",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background, six weather symbols and their positions remain intact; the grid has minor waviness and small alignment shifts. Instruction: No symbols were added to the three empty cells. A completed supplied symbol puzzle would fill those cells appropriately; the requested completion is absent (and the source is 3x3, despite the 9x9 wording). Knowledge: The supplied explanation is blank; this score follows the mandatory coupling. Instruction failure ⇒ knowledge invalid. Quality: Viewed independently, the nine-cell diagram is coherent, with clean recognizable icons, uniform white fills and no distracting artifacts."
+    },
+    {
+      "blind_id": "case_3d3d62535ad20961624f",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Grid layout, white background and all six icon positions are retained, but the illustration has a visible overall mottled/color-texture change across the icons. Instruction: Top-middle, middle-left and bottom-right remain empty; the expected completion would supply their missing content, so no requested completion occurred. The source itself is 3x3 rather than the stated 9x9. Knowledge: No explanation was supplied; the required instruction-failure rule determines this score. Instruction failure ⇒ knowledge invalid. Quality: The standalone grid and weather symbols are legible and structurally coherent; slight speckled texture along colored icon edges is a minor imperfection."
+    },
+    {
+      "blind_id": "case_afd82279851679fdacbb",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Weather-icon identities and positions remain recognizable, but the white background becomes bright red, cell interiors become dark brown, and the grid gains broad brown framing and red cross-lines. These are multiple unrequested alterations. Instruction: The three empty cells still contain no completing weather symbols; recoloring and cross-lines do not complete the puzzle. A correct completion would fill those cells, while the supplied source is 3x3 rather than the stated 9x9. Knowledge: The explanation is blank, so the mandatory failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality: Independently, this is a coherent stylized board with regular square framing, clean icon silhouettes, and consistent colors without noticeable rendering defects."
+    },
+    {
+      "blind_id": "case_9fba630118ebaf373b50",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background, outer grid and five weather symbols remain unchanged; the central rainbow is removed and replaced by an empty outlined square, a clear alteration of an existing clue. Instruction: None of the three initially empty cells receives content, and the added empty central box fails the requested completion. The expected result would fill missing cells appropriately; the actual source is a 3x3 symbol puzzle despite the instruction saying 9x9. Knowledge: No explanatory text is supplied; the mandatory instruction-failure coupling is the scoring basis. Instruction failure ⇒ knowledge invalid. Quality: Assessed alone, the regular grid, clean outlined inset square and recognizable weather icons have coherent shapes and smooth flat coloring with no distracting artifacts."
+    }
+  ]
+}

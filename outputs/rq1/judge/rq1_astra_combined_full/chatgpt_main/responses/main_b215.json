@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b215",
+  "results": [
+    {
+      "blind_id": "case_f21f48accbc9d7a67662",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The white background and black outer frame remain, but most existing symbols are replaced: the top-left becomes a chevron, the top-middle diagonal reverses, and both bottom-row symbols become single diagonals; grid divisions also move. Instruction: An outlined X is added in the bottom-right blank. The expected result is a square with only a top-left-to-bottom-right diagonal; the correct diagonal is present but an entire extra diagonal makes this partial compliance. Knowledge: The supplied XOR explanation requires cancellation of the shared upper-right arm; the X incorrectly retains/adds the rising diagonal, a clear logical conflict. Quality, considering this image alone: coherent closed frames, clear geometric strokes and clean white surfaces; no noticeable structural or rendering artifacts."
+    },
+    {
+      "blind_id": "case_47e01b8093869aae222c",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The outer frame, grid positions and seven other existing symbols remain visually consistent; the middle-right symbol gains a lower-right arm, a clear unrequested change. Instruction: The bottom-right blank is filled with a framed X. A single descending corner-to-corner diagonal is expected, so its presence with an extra rising diagonal is partial compliance. Knowledge: The supplied XOR rule cancels the common upper-right arm and leaves only the descending diagonal; the added rising diagonal is a clear conflict. Quality, judged solely on the edited image: the grid and symbols are legible and structurally coherent, with clean joins and consistent black-on-white rendering; slight edge roughness does not impair meaning."
+    },
+    {
+      "blind_id": "case_441e2798c9912312bff8",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "Consistency: Existing symbol identities and the white background remain, but multiple grid divisions and symbol vertices move upward/leftward, changing cell proportions; strokes are also broadly straightened. Instruction: A detached square containing a descending diagonal, a rising diagonal and an additional downward spoke is added at bottom right. Only a descending diagonal is expected; the target is filled and the required line is present, but the extra segments make the answer partially correct. Knowledge: Against the supplied XOR explanation, the rising diagonal fails cancellation and the additional center-to-bottom spoke has no counterpart in the inputs, giving multiple logical violations. Quality, evaluated on this image alone: the main diagram is clean and coherent, but the small lower-right square has a conspicuous doubled right edge and an awkward extra spoke crowding the lower junction, two visible drawing flaws."
+    },
+    {
+      "blind_id": "case_de691c8c52d973aa0563",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The outer border, white background, existing grid and all eight original symbols remain visually unchanged; the new square and contents occupy only the requested blank. Instruction: A descending diagonal with an upper-right branch is drawn in the bottom-right square. The expected single descending diagonal is present, but the additional branch changes the requested shape, giving partial compliance. Knowledge: The supplied XOR explanation cancels exactly that shared center-to-upper-right branch; visibly retaining it is a clear conflict with the stated logic. Quality, using only this edited image: the rectangular grid, angular symbols and intersections are coherent and clearly legible, with consistent black strokes and no noticeable rendering artifacts."
+    }
+  ]
+}

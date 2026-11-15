@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b224",
+  "results": [
+    {
+      "blind_id": "case_347d28c23240ff35c4ae",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Gray backdrop, tan polo, watch, frontal stance and box are retained, but the face/eye and beard contours are redrawn and the body and box shift left; shirt folds and placket also change. Anatomical repairs are excluded from this check. Instruction: The face and framing change, but the raised fist retains its crowded stacked finger shapes and extra digit-like lower band, and the supporting fingers remain poorly separated. A successful correction would give the man unambiguous natural hands; no clear repair of those defects is visible. Quality, edited image alone: Lighting and fabric are coherent, but the raised fist's lower finger/palm structure and the compressed supporting fingers are visibly ambiguous anatomical artifacts. Knowledge is not applicable."
+    },
+    {
+      "blind_id": "case_04523221e43a5fbdd881",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray background, tan clothing, watch and general box-holding composition remain, but facial features and smile, shirt pocket/seams and folds, and box dimensions/position are noticeably changed. Hand corrections are excluded. Instruction: Both hands are rebuilt: the raised hand has a thumb and four coherent curled fingers, and the lower hand forms a plausible grip under the box. The expected natural anatomy is present, fulfilling the correction. Quality, edited image alone: Anatomy and box structure are coherent; skin, beard and cloth textures look natural, lighting is consistent, and no noticeable duplication or generation artifact is evident. Knowledge is not applicable."
+    },
+    {
+      "blind_id": "case_2382caaf3fb9c1d93d40",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray backdrop and tan color scheme remain, but the frontal smiling portrait becomes a bent, downward-looking pose, clothing and visible torso change substantially, and the box moves to the lower foreground with a new orientation. These scene and expression changes exceed anatomical repair. Instruction: The anomalous raised fist is removed and the man now uses both hands at a lowered box. The expected result is natural anatomy; the new arms and near-side gripping hand are plausible, though the hand resting on top has slightly cramped, awkward finger contours, leaving a minor imperfection. Quality, edited image alone: Body proportions, lighting, fabric and box perspective are coherent. A small irregularity in the resting hand's finger contour is the only conspicuous local imperfection. Knowledge is not applicable."
+    },
+    {
+      "blind_id": "case_90d722014809ef737df5",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray background, tan polo, watch, raised-thumb pose and box remain recognizable, but the face and teeth are redrawn, the figure and box move left, and shirt/placket details change. Anatomical corrections are excluded. Instruction: The main visible changes concern the smile and framing; the raised fist still has crowded finger bands and an extra digit-like lower contour, while the box-supporting hand remains compressed and poorly articulated. The expected natural hand repair has not been visibly achieved. Quality, edited image alone: Lighting, beard and clothing textures are coherent, but the raised fist's finger/palm structure and the lower hand's compressed fingers produce noticeable anatomical artifacts. Knowledge is not applicable."
+    }
+  ]
+}

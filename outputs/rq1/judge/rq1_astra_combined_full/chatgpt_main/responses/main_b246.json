@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b246",
+  "results": [
+    {
+      "blind_id": "case_22c357a042bb2c13d25f",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Mainland position, shoreline course, horizon and cloud layout remain recognizable, but the forest canopy has become an embossed maze-like texture and the shallow-water reef textures along the foreground shore have been simplified. Instruction: The long right-hand island and its developed land have disappeared into water, as expected for removal; the requested target is fully absent. Knowledge: The supplied explanation identifies the small island on the right; that land is gone and continuous sea occupies its location, matching the stated expectation. Quality: Coastal geometry and lighting are coherent, but the foreground vegetation has conspicuous artificial worm-like patterning; this is a clear texture artifact."
+    },
+    {
+      "blind_id": "case_7f62a2dd00056c9ac6e5",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The mainland outline, sky layout and horizon are retained, but foreground vegetation is visibly retextured and the coastal shallows and white shoreline features have changed shape and contrast. Instruction: The main right-hand landmass is covered with water, but several conspicuous pale/green island fragments remain along its former upper-left extension and near its middle. Expected removal would leave the whole targeted island absent, so removal is incomplete. Knowledge: The explanation requires removal of the island on the right; surviving emergent-looking fragments visibly conflict with complete removal. Quality: The scene has coherent aerial perspective and readable terrain, but a conspicuous flat lavender-blue polygon with sharp edges interrupts the ocean surface."
+    },
+    {
+      "blind_id": "case_a2001de8f1aa6e1acda7",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The main coastline, mainland position, horizon and broad cloud arrangement are preserved. However, the forest canopy is replaced with visibly etched looping texture and the nearshore cyan water/reef detail is smoothed and reshaped. Instruction: The right-hand elongated island and its buildings are fully removed, with uninterrupted water in their place; this matches the expected edit. Knowledge: The explanation specifically calls for the right-hand island to disappear, and no emergent land remains in that location, so the visible result satisfies that expectation. Quality: The ocean, horizon and coast form a coherent scene, but the artificial maze-like canopy texture is a noticeable surface artifact across the foreground."
+    },
+    {
+      "blind_id": "case_3247393f255251de6deb",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": 4,
+      "rationale": "Consistency: Mainland placement, horizon, clouds and coastline route are maintained, but the land foliage has visibly altered texture and the foreground shoreline/shallows have changed detail and contrast. Instruction: The principal right-hand island is removed and replaced by pale water, but a small isolated dark remnant persists along its former middle-left line; complete removal would leave no such island fragment. Knowledge: The explanation identifies the right-hand island, which is substantially absent, with one small apparent remnant limiting complete agreement. Quality: Aerial structure and lighting are coherent, but the water contains an conspicuous angular zigzag of pale bands and a flat polygonal patch with abrupt boundaries, constituting clear blending artifacts."
+    }
+  ]
+}

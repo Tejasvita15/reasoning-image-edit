@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b058",
+  "results": [
+    {
+      "blind_id": "case_1874917b72e44c56f294",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The ridge silhouettes, cloudy sky, meadow placement and fence-post layout remain recognizable, but foreground foliage is retextured and distant left rock faces are reshaped; the slide, dust and buried grass are excluded. Instruction: The narrow bare patch becomes a descending mass of fractured material, a debris fan and dust plume. A slope failure with downslope debris is expected, and this clearly fulfills it. Knowledge: Newly exposed broken rock and downhill accumulation match the supplied expectation of more rocky mountain surface; dust plausibly partly obscures the scar. Quality: Structure, lighting and vegetation are coherent; a slightly too crisp, flat outer edge on the debris fan is a small compositing imperfection."
+    },
+    {
+      "blind_id": "case_f1eb6524865549bc206a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The general wooded valley and foreground posts persist, but the distant left ridge profile and exposed cliffs change, and trees outside the slide acquire different shapes and placement. The enlarged scar and runout are excluded. Instruction: The small scar becomes a broad stripped mountainside with descending grooves and a substantial deposit at its foot, fully resembling a landslide. Knowledge: Downslope displacement is sensible, but the exposed area reads predominantly as uniform sandy earth rather than the increased rocky mountain surface specified by the explanation, a clear material mismatch. Quality: The terrain and lighting are coherent, but foliage along the right edge and foreground forms conspicuous waxy fused clusters that lose natural branch structure."
+    },
+    {
+      "blind_id": "case_212762bb11c1e082dc59",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The valley framing and misty ridges remain broadly recognizable, but fence posts shift, foreground vegetation changes shape, and lighting across unaffected forest becomes substantially darker. The large scar, displaced material and dust are excluded. Instruction: A narrow bare patch becomes a massive continuous slope failure, with torn slabs descending from a high scar to a wide toe deposit; this fully presents a landslide. Knowledge: Extensive exposed fractured rock and downhill accumulation directly satisfy the explanation that the mountain should expose more rocky parts. Quality: The slope and debris are structurally readable and lighting is coherent, but pronounced smearing of trees and foreground branches into vertical streaks is a noticeable texture artifact."
+    },
+    {
+      "blind_id": "case_78278cd2a97a2459871c",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Mountain silhouettes, cloud placement and fence layout remain broadly aligned, but untouched forest is transformed into chunky foliage shapes and distant rock outcrop detail is visibly changed. The expanded rocky channel and debris covering meadow are excluded. Instruction: The narrow exposed patch becomes a widening earth-and-boulder channel with a broad debris deposit at its base, clearly and fully resembling a landslide. Knowledge: Numerous exposed gray and tan rocks occupy the stripped slope and collect downslope, directly matching the supplied expectation of greater rocky exposure. Quality: Landscape structure and illumination are coherent, but forest and foreground leaves show conspicuous fused, curled, plastic-looking textures rather than natural foliage."
+    }
+  ]
+}

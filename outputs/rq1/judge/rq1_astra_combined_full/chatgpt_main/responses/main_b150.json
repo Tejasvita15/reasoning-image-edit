@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b150",
+  "results": [
+    {
+      "blind_id": "case_5b1e52b31c9458af2004",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The red bullet/silver sleeve/dark stepped case remain recognizable, but the original square/check embossing is replaced by vertical pseudo-lettering, the tip is reshaped, and the sleeve-to-bullet proportions change; instructed setting, light and layout changes are excluded. Instruction: The white setting becomes black folded velvet and a dark mirror with a centered lipstick and gold title. The expected result also requires cool backlit silver, a slightly soft reflection and the exact lower-left serif title. Here the reflection is crisp, the oversized sans-serif text is garbled and spans the bottom, and the metal looks neutrally/warmly lit rather than distinctly cool backlit: partial compliance. Quality, edited image only: Structure and fabric/metal textures are coherent and the reflection is aligned; the conspicuous nonsensical two-line lettering and malformed lower-line glyph are clear semantic/typographic flaws."
+    },
+    {
+      "blind_id": "case_c95b9efae89ea2ef82f1",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The bullet's rounded sloping tip, square/check embossing, silver sleeve proportions and stepped dark case with its small side detail remain visually consistent; the requested setting, positioning, lighting and title are excluded. Instruction: Black velvet and a centered circular gray mirror replace the white setting, and a gold uppercase title appears. The expected view requires focused backlighting, a soft reflection and exact lower-left serif text. The title is sans serif at middle-left, lacks the final period, and the object retains predominantly frontal illumination; the main scene is achieved but several requirements remain incomplete. Quality, edited image only: Structural coherence, naturalness, artifact absence and texture fidelity are satisfactory: the lipstick is intact, text legible, curtain folds plausible and mirror geometry/reflection coherent. Moderate softness causes no semantic loss."
+    },
+    {
+      "blind_id": "case_db3265fb952ac80fdb19",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The red bullet, embossed square/check symbol and silver sleeve remain recognizable and similarly proportioned; the lower case is visibly redrawn with altered seam/edge geometry and relocated small inset detail. Requested scene and light changes are excluded. Instruction: A dark mirrored stand, velvet sides and gold serif wording are added. The expected minimalist scene has a full velvet background, no other props, backlit cool silver and a lower-left matte-gold title. A large framed upright mirror instead fills most of the background, the title sits at middle-left with a metallic gradient, and the frontal product highlights do not establish the requested backlighting. This is partial compliance despite correct words and a softened rear reflection. Quality, edited image only: The product, readable lettering, curtain and mirror arrangement are coherent; a slightly uneven/buckled right edge of the lower case is a small geometric imperfection. Textures and lighting otherwise remain plausible."
+    },
+    {
+      "blind_id": "case_513e890e7922d999ab3c",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The broad red/silver/dark lipstick identity remains, but the square/check embossing becomes a bright rectangular emblem, the tip profile changes, and the stepped case is redesigned with a narrow metallic collar and elongated lower section. Requested scene/layout/light changes are excluded. Instruction: The edit supplies a centered lipstick, black velvet folds, dark mirror and softened reflection. The expected result also has cool silver backlighting and exact lower-left matte-gold serif text. The metal is visibly warm, while garbled sans-serif lettering occupies the lower center/right, so the title requirements fail and the scene is only partially compliant. Quality, edited image only: The product silhouette, fabric folds and soft reflection are coherent with convincing material surfaces. Large nonsensical title words and a visibly malformed character in the second line are noticeable semantic/typographic artifacts."
+    }
+  ]
+}

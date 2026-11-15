@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b370",
+  "results": [
+    {
+      "blind_id": "case_72717a08005bb560777c",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The teal upholstery, silver tubular base, pale studio background and wood-topped teal side table remain recognizable. The table is visibly shifted upward and its top perspective changes; the chair rotation and resulting occlusions/shadow changes are excluded. Instruction: The exposed seat/front has become an exterior curved back with the seat mostly hidden. The expected result is the same chair viewed from behind, and this clearly supplies that rear view. Quality alone: Structure, lighting, perspective, fabric and wood textures are coherent, with clean outlines and no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_bb31b9a6a986ddb75843",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The teal palette, wood-topped companion table, metallic supports and pale setting remain. Excluding viewpoint-related relocation and occlusion, the chair shell becomes a markedly narrow, flat rectangular slab, changing its characteristic curved form. Instruction: The broad front seat disappears and an upright back panel faces the viewer. A successful rear view would retain a plausible rear projection of the curved chair; the extremely narrow planar back and awkward side fragments make this only partial compliance. Quality alone: Texture and illumination are readable, but the long horizontal rails protruding freely to the left and awkward, abrupt shell/side geometry create clear structural anomalies."
+    },
+    {
+      "blind_id": "case_57d20dd5bc1360ffd224",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white setting and teal/wood colors remain, but the chair and metal base disappear, and the small rounded-square table becomes a tall central cylinder. Most major object and layout details change beyond the allowed viewpoint change. Instruction: The two-object scene is replaced by a single elongated cylinder. The expected rear view would show the recognizable chair from behind; no such rear view is present, so the instruction is not followed. Quality alone: The cylinder silhouette, wooden rim and floor shadow are coherent, but conspicuous ghosted chair-like contours and mottled patches interrupt the otherwise continuous teal side texture."
+    },
+    {
+      "blind_id": "case_3137892411ad9a944dda",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Chair and table identities, teal colors, wooden top, tubular base and general arrangement persist. However, upholstery becomes smooth and plastic-like, the textured background becomes clean white, and the table is smaller and shifted upward. Instruction: The seat, inner back and arm contours remain visible in essentially the original front three-quarter view. The expected rear view would expose the outer back and hide most of the seat; that change is absent. Quality alone: The polished rendering has coherent object geometry, convincing metal and wood surfaces, consistent shadows and clean edges without noticeable artifacts."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b057",
+  "results": [
+    {
+      "blind_id": "case_5164bced4e5ec5bc2b1d",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Battery pair, holders, wire routing, terminals, background and composition remain unchanged; bulb illumination is an intended effect and excluded. Instruction: Yellow upright forms appear inside both bulbs, but the lever remains raised clear of its left contact; a pressed switch should visibly close that gap. Most of the requested switch action is absent. Knowledge: Both bulbs acquire yellow centers, but the visible switch remains open rather than completing the circuit described by the explanation. Instruction failure ⇒ knowledge invalid. Quality: Structure and layout are legible, but solid candle-like yellow inserts and abrupt white/yellow patches at the bulb necks create noticeable structural and blending artifacts; surrounding surfaces remain coherent."
+    },
+    {
+      "blind_id": "case_0537915a8220d0758181",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Battery pair, wires, holders, terminals and composition are retained; a faint new gray smudge above the batteries is a small background artifact. Instruction: No meaningful switch change is visible: the lever remains raised and both bulbs remain pale. A pressed switch should close onto its left contact, so the requested action is absent. Knowledge: The explanation expects two illuminated bulbs, whereas neither visibly lights. Instruction failure ⇒ knowledge invalid. Quality: Coherent schematic shapes, perspective, surface shading and connections; a faint gray ghost above the battery bank is a small isolated artifact."
+    },
+    {
+      "blind_id": "case_774c84d29b126ecfefd3",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Battery pair, wires, lamp holders, terminals, background and layout remain unchanged. The switch lever alteration is assessed as the requested target, separately from consistency. Instruction: The lever and handle disappear, leaving two separate contact posts; pressing should lower the existing lever into contact, not remove it. The action is misinterpreted. Knowledge: Both bulbs remain unlit, contrary to the supplied expectation that both light up. Instruction failure ⇒ knowledge invalid. Quality: The circuit drawing has coherent shading, wires and lamp shapes, but its switch assembly visibly lacks a connecting actuator, leaving an incomplete mechanical object; no other distracting artifacts are evident."
+    },
+    {
+      "blind_id": "case_73e833e4a9dbbad00df5",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Battery pair, wire routing, all holders and terminals, white background and composition appear unchanged. Instruction: The raised switch lever and pale bulbs show no meaningful modification. A pressed switch should visibly meet the left contact, so the instruction is not followed. Knowledge: Neither bulb lights as required by the explanation. Instruction failure ⇒ knowledge invalid. Quality: The schematic has coherent component geometry, clear terminals and wire paths, consistent shading and intact surfaces, with no noticeable generation artifacts."
+    }
+  ]
+}

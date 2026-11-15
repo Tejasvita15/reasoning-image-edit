@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b013",
+  "results": [
+    {
+      "blind_id": "case_5ea1e614ced114a49b6d",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white worksheet remains, but most original animals, their positions and several silhouettes are replaced: a hybrid bird occupies the tapir row, a long-tailed animal replaces the cobra, and the left tapir and cobra are now silhouettes. Instruction: Five horizontal lines are added; the expected result connects each original animal to its matching silhouette across rows. Several lines instead connect unlike animals, and the original set is not matched, so most required matches fail. Knowledge: The visible pairings do not consistently match shape and size as the supplied explanation requires. Instruction failure ⇒ knowledge invalid. Quality: The page and straight lines are clear, but the top-left bird has a mammalian head, the top-right figure is fragmented, and additional left animals have hybrid anatomy; multiple distracting structural defects remain."
+    },
+    {
+      "blind_id": "case_a2296f904d09f9c43650",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and right column broadly persist, but the cobra and bird become elephants, the fourth left animal becomes a scribbled mass, and the bottom animal becomes a silhouette; most major left-side content changes. Instruction: Four horizontal arrows appear, with no fourth-row connection. Correct completion would connect the five original animals one-to-one to their matching shadows; the arrows mostly join incompatible figures, so most requested matches are absent or wrong. Knowledge: The animals and silhouettes do not satisfy the supplied shape-and-size matching rule. Instruction failure ⇒ knowledge invalid. Quality: Clear arrows and some recognizable silhouettes coexist with a large incoherent fourth-row scribble, a mismatched gray elephant head on a black body, and a broken lower silhouette; these are major structural failures."
+    },
+    {
+      "blind_id": "case_c56fb812a9f4c18b98b4",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The five animal identities, white background and column order remain, but multiple non-instructed details are redrawn: the cobra's markings, tapir's face and feet, and the lower animal contours differ; the bird silhouette is shifted right and the snake silhouette is reshaped. Instruction: Five horizontal arrowed lines replace the dot-based gaps. Correct matching requires tapir→third right, cobra→fifth, bird→fourth, primate→first and bottom mammal→second. Every line instead joins the same row, so all five pairings are incorrect despite the presence of connections. Knowledge: Each connection violates the supplied requirement to match animal shape and size. Instruction failure ⇒ knowledge invalid. Quality: The individual worksheet has recognizable, coherent cartoon animals, solid clean silhouettes, tidy lines and an uncluttered white background; no noticeable generation artifact disrupts it."
+    },
+    {
+      "blind_id": "case_f1e59264dc723d6a0fc1",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Most original objects are missing, relocated or replaced: the top and bottom rows are empty, the tapir moves to the second row, middle animals merge into hybrids, and only two distorted right silhouettes remain. Instruction: Three horizontal lines are added, but two lack a corresponding animal at one endpoint and no complete original five-animal matching is present. The expected edit connects all original animals one-to-one to their matching shadows, so most requested changes are missing or poorly implemented. Knowledge: The surviving connected figures do not match the corresponding shadow shapes, and the complete matching set is lost. Instruction failure ⇒ knowledge invalid. Quality: The lines and white background are clean, but the upper animal has a feather-like facial appendage, the central animals have fused and incomplete anatomy, and the lower silhouette combines a quadruped body with a bird crest; multiple structural errors distract."
+    }
+  ]
+}

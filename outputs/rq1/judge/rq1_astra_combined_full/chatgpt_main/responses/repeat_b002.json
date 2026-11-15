@@ -1,0 +1,23 @@
+{
+  "batch_id": "repeat_b002",
+  "results": [
+    {
+      "blind_id": "case_e6c53d52afc806d0f700",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The numeral shape, two openings, placement and white field are preserved; a very faint pale fringe has appeared along portions of the outer edge. Instruction: The orange 8 is now green throughout, exactly the requested recoloring of the same number; full compliance. Quality, judged from this edit alone: The 8 is legible and structurally coherent with a smooth solid fill; the slight pale edge halo is one small imperfection, with no semantic loss from softness. Knowledge is not applicable."
+    },
+    {
+      "blind_id": "case_72cda3a4056f851ae733",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The 8 retains its recognizable contour, openings and relative placement, but the surrounding white background now has a visible band of blocky pale green/yellow speckles around the numeral. Instruction: The orange number has become green throughout; the requested object and color change are correct and complete. Quality, judged from this edit alone: The numeral remains coherent and legible, but blocky edge halos and mottled speckling around its outline are clear visual artifacts. Knowledge is not applicable."
+    }
+  ]
+}

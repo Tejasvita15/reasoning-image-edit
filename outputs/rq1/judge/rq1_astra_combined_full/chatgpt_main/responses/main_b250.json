@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b250",
+  "results": [
+    {
+      "blind_id": "case_d24b77b210194fe37664",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The blank background and three-hand arrangement remain, but the upper-left scissors are shifted down and the lower open hand is reshaped and shifted upward; these are outside the changed right-hand gesture. Instruction: The right fist becomes a single raised finger with a curled thumb while the lower paper hand remains. The expected edit is lower paper to scissors, retaining rock; the displayed change does not make rock win. Knowledge: No explanation was supplied; the mandatory failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality: Independently, the cartoon hands have coherent outlines, rounded digits, clean fills and consistent line weight; the raised finger and curled thumb are readable with no noticeable rendering defect."
+    },
+    {
+      "blind_id": "case_4d77f31fbc4a53e6c028",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The original three-hand triangular layout is replaced by two centered upright open hands; hand count, positions, orientations and gestures change, though the monochrome drawing style and plain background remain. Instruction: Two open hands replace the original scene, with no rock fist visible. The expected single change is paper to scissors while retaining the rock player, so the request is completely missed. Knowledge: The explanation is blank; scoring follows the required failure coupling. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the two stylized four-digit gloves are coherent, their touching thumbs and cuffs are legible, and clean black contours and white fills show no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_39678b7099440e2185b6",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The upper-left scissors, blank background and broad arrangement remain, but the unrequested upper-right fist is noticeably shifted right, with its cuff further cropped and internal marks repositioned. The attempted lower-hand gesture change is excluded. Instruction: The lower open hand gains small angular scissor-like protrusions at its right edge, but its spread fingers and extended thumb remain; the expected clear scissors gesture replacing paper is poorly implemented. Knowledge: The supplied explanation is blank, and the required low-instruction coupling determines this score. Instruction failure ⇒ knowledge invalid. Quality: The top hands and monochrome fills are coherent, but the lower hand has a conspicuous malformed digit ending in intersecting narrow triangular prongs, a clear anatomical/outline artifact."
+    },
+    {
+      "blind_id": "case_c4a52c73f75d6e58ef80",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The background, upper-left scissors and overall three-hand placement remain. New black arrows above the fist and beside the lower hand, and replacement of palm markings by large hash-like and curved symbols, alter multiple non-requested details. Instruction: The rock fist and lower spread paper hand remain rather than changing paper into a clear scissors gesture; symbolic markings and arrows do not implement the requested game outcome. Knowledge: No knowledge explanation was supplied; the mandatory failure rule applies. Instruction failure ⇒ knowledge invalid. Quality: The broad cartoon forms and contrast are readable, but the lower right finger outline loops into and merges with a heavy arrow cluster, creating a noticeable local structural ambiguity. Other outlines and plain fills are coherent."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b157",
+  "results": [
+    {
+      "blind_id": "case_cca0a5a283498d609671",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The outer frame, upper-left diamond, upper-right concave star, lower-left dotted diamond and their positions are preserved; outline rendering is slightly smoother/heavier. Instruction: The lower-right arrow-like shape becomes a large empty straight-sided diamond. The expected replacement is a four-pointed concave star with a central dot; both defining attributes are absent, so this is a major omission. Knowledge: The supplied explanation requires a four-pointed star and center dot, neither of which appears. Instruction failure ⇒ knowledge invalid. Quality: Judged alone, the closed outlines, solid dot, clean background and readable diagram layout are coherent, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_ca3e3a870be12301c750",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The frame and three non-target symbols retain their shapes, relative sizes and positions, with minor changes in stroke texture/weight. Instruction: The lower-right arrow-like outline is retained with a sharper tip rather than replaced by the expected four-pointed star with a center dot; the requested correction is not performed. Knowledge: Neither the star nor dot required by the supplied explanation is present. Instruction failure ⇒ knowledge invalid. Quality: Viewed independently, the diagram has complete legible geometric outlines, a clean field and coherent spacing, without distracting artifacts."
+    },
+    {
+      "blind_id": "case_02f7342220eb29ab9130",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The outer border, upper diamond, upper concave star and lower-left dotted diamond remain in the same relative arrangement; slight outline-weight/texture changes are visible. Instruction: The target becomes a rectangular enclosure around a straight-sided diamond with a central dot. A concave four-pointed star with a central dot was expected; the dot is supplied, but the shape is wrong and has an unnecessary enclosure, giving partial compliance. Knowledge: The center-dot relation is represented, but the diamond fails the supplied four-pointed-star expectation, a clear conflict with the pattern logic. Quality: Judged alone, the nested rectangle and diamond are cleanly closed, the dot is well defined, and the diagram is structurally coherent without visible corruption."
+    },
+    {
+      "blind_id": "case_f85a41ad06f864a5b7d9",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The frame and three non-target shapes retain their placement and content; minor smoothing/thickening of their outlines is visible. Instruction: The lower-right outline becomes a large straight-sided diamond with two inward vertical line segments and an empty center. The expected four-pointed concave star and center dot are both missing, making this a major omission. Knowledge: The lines and empty center do not express the star-with-dot outcome stated in the explanation. Instruction failure ⇒ knowledge invalid. Quality: In isolation, the diagram has a closed diamond, neatly terminated interior strokes, clear spacing and a clean background; no obvious rendering artifacts or structural breakdown are visible."
+    }
+  ]
+}

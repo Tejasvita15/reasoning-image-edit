@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b352",
+  "results": [
+    {
+      "blind_id": "case_167ca07b7270b4ea8fac",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The face and head angle, hand positions, hairstyle, white garment (now a blouse rather than the zippered top), and background framing are changed; most major non-hat details are reconstructed. Instruction: The baseball cap is replaced by a very broad, upturned woven-straw hat with colorful decoration, matching the expected festival sombrero. Knowledge: The supplied explanation calls for a sombrero, and the broad encircling brim and raised crown visibly identify one. Quality, assessed on this image alone: coherent face and hands, natural lighting and perspective, convincing hair, cloth and woven straw; no noticeable generation flaw."
+    },
+    {
+      "blind_id": "case_67a054ae0d60ce721e9c",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The head is raised with the face newly presented, hands and arms are repositioned, the zippered garment becomes a blouse, and hair arrangement and background objects/framing change. Most major non-hat details are altered. Instruction: The cap becomes an exceptionally wide-brimmed straw hat with a rounded raised crown and flared brim, fulfilling the requested straw sombrero replacement. Knowledge: The explanation specifies a sombrero; the plain woven-straw, broad shading brim and raised crown provide a plausible example without requiring colorful ornament. Quality, assessed on this image alone: coherent anatomy and hat structure, natural light and shadows, and intact straw, hair and garment textures; no noticeable artifact."
+    },
+    {
+      "blind_id": "case_deb23fb15cc42aea82a2",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The bowed face, hand pose, long dark hair, zippered white top, fountain, cars and architecture are preserved; a small blue-stone detail is introduced at the right-hand ring. Hat and brim-related occlusions are excluded. Instruction: The cap is replaced by woven straw with a wider brim, but the creased, near-flat-topped crown and comparatively flat brim read as a straw fedora rather than the requested festival sombrero; only partial compliance. Knowledge: The explanation explicitly requires a sombrero; the visibly fedora-like silhouette is one clear mismatch. Quality, assessed on this image alone: plausible anatomy and brim grip, consistent sunlight, detailed straw and hair, and coherent background; no noticeable artifact."
+    },
+    {
+      "blind_id": "case_bdc9c68278cfd0d702f5",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The bowed face, hands, hair, white zippered clothing, background fountain, cars and architecture remain visually unchanged outside the requested hat replacement and its occlusions. Instruction: The baseball cap becomes a wide-brimmed straw hat, but its pinched creased crown and strongly side-rolled brim form a cowboy-hat silhouette rather than the intended festival sombrero, so the requested identity is incomplete. Knowledge: The provided expectation is a sombrero; the cowboy styling is a clear category mismatch despite plausible straw material. Quality, assessed on this image alone: coherent hat construction and anatomy, natural illumination and shading, intact woven texture, hair and clothing, and no noticeable generation artifacts."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b295",
+  "results": [
+    {
+      "blind_id": "case_b5575b6bf616d4c707ca",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Phone placement, outline and overall camera arrangement remain, but the lens interiors/rims and small sensor appearance change, a conspicuous vertical marking appears on the lower back, and fine vegetation textures are redrawn. Excluding the requested body recoloring, multiple details differ. Instruction: The white body becomes black; the expected result is this same phone with a black casing, and the visible casing is fully black, so the color request is fulfilled. Quality, edited image only: Structure and natural lighting are satisfactory, with coherent casing edges and dry stems; artifact/text fidelity is problematic because the lower-right marking contains malformed, ambiguous glyphs, a clear localized flaw."
+    },
+    {
+      "blind_id": "case_5a77ca455886b7b8498a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The centered phone silhouette and camera positions are retained, while lens rings/interiors and the small sensor change, new pale vertical glyphs appear near the lower-right back, and the surrounding fine stem/seed-head texture is altered. These are multiple non-color changes. Instruction: The previously white casing is now black across its back and camera housing, matching the expected black version of the same phone; compliance is complete. Quality, edited image only: Phone geometry, reflections and vegetation are coherent and natural, but the conspicuous back inscription consists of malformed character-like loops. This is one clear text artifact; the remaining surface texture is satisfactory."
+    },
+    {
+      "blind_id": "case_c1a273842133e8733650",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Overall phone position, outline and main background stem layout remain recognizable. The flash becomes round rather than oblong, the lower small dark sensor becomes a bright droplet-like spot, and the background has conspicuously altered bright, smoothed vegetation texture. Multiple non-instruction details change. Instruction: The body changes from white to a continuous black finish, including the camera housing; this matches the expected black casing on the same phone and fully satisfies the requested color. Quality, edited image only: Overall phone structure is coherent, but numerous stems and seed heads have waxy, fused bright edges, and the small lower camera-cluster element has an irregular droplet shape. Texture/artifact checks are problematic despite readable scene layout and plausible overall illumination."
+    },
+    {
+      "blind_id": "case_0ad6c7e5c132530fa4bd",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Phone placement, rounded outline and the principal camera layout persist. The oblong flash becomes circular, the lower dark sensor becomes a pale circular element, lens detailing changes, and the vegetation is visibly reworked into brighter, denser fine textures. These are multiple changes beyond casing color. Instruction: The white phone back and housing become black, which is the expected requested appearance; the color modification is complete. Quality, edited image only: Phone geometry and perspective are coherent, but the vegetation contains conspicuously crunchy, fused bright seed-head and stem textures that look processed rather than natural. Surface texture/artifact fidelity is problematic, while the phone edges and general scene layout remain sound."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b229",
+  "results": [
+    {
+      "blind_id": "case_87f33e411a1aa7c73956",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested sofa setting, framing and typography, the square cushion and black/cream woven appearance remain, but several diamonds on the left have changed into broken angular shapes. Instruction: The isolated cushion becomes a close product view on a dark gray sofa with bold top-left type; the expected minimalist geometric fabric poster is largely achieved, but the title repeats 'White' and has a malformed letter. Quality alone: Structure and lighting are convincing; artifact-free and pattern coherence fail at broken left-side motifs and the duplicated/overprinted title wording. Texture remains fabric-like."
+    },
+    {
+      "blind_id": "case_3ac2d693b1824e4ec874",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The square, pointed cushion and woven black/white material remain; excluding the requested room and poster layout, the diamond repeat has been redrawn with different spacing and shapes. Instruction: A cool dark modern sofa scene and top-left bold title replace the isolated product view. The expected close fabric-led poster is only partial: the cushion occupies a modest area and the headline is extensively garbled instead of expressing the requested sentence. Quality alone: Sofa perspective, cushion volume and fabric are plausible, but the large headline and small caption contain multiple malformed letters and nonsensical words, materially degrading the poster."
+    },
+    {
+      "blind_id": "case_e6af01c8134a203eb372",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Apart from the authorized background and layout changes, the cushion's lower-right diamond repeat is substantially distorted and its formerly even woven surface gains shiny crumpled patches. The basic square black/white cushion remains. Instruction: The edit adds a cool gray sofa scene and top-left bold text, as expected, but the title is unrelated gibberish and the cushion is not shown in a strong texture close-up. Quality alone: Room geometry and lighting are coherent; text legibility and artifact-free rendering fail through multiple corrupted text lines and melted, reflective-looking pattern patches on the cushion."
+    },
+    {
+      "blind_id": "case_bc250ed8b99783201256",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested interior, lighting and poster composition, the main cushion's continuous diamond lattice becomes irregular disconnected angular motifs, and additional patterned cushions duplicate the original single product. Instruction: A close fabric-focused cushion scene, cool dark seating and bold top-left text are present. The expected industrial minimalist poster is incomplete because the title and body copy are garbled and the multiple cushions and dense text make the layout busy. Quality alone: Cushions have plausible volume and detailed woven surfaces, but numerous malformed words, broken geometric motifs and type colliding with the main cushion create multiple distracting errors."
+    },
+    {
+      "blind_id": "case_8f48a54155dc4dea3f8a",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested sofa placement, close framing, tone and added type, the cushion retains its pointed square silhouette, recognizable rows of nested diamonds, connecting lattice and woven black/cream fabric; no clear non-instructed alteration is visible. Instruction: The isolated product becomes the dominant close-up on a dark sofa, with visible weave and geometry, restrained gray surroundings and a bold sans-serif sentence aligned at the upper left. This matches the expected cool minimalist product poster. Quality alone: Structural coherence, natural lighting, artifact-free rendering and texture fidelity are satisfactory: the title is legible, cushion contours are intact, and the textile and sofa surfaces are coherent."
+    },
+    {
+      "blind_id": "case_1133186f1ffe6e89189c",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: After excluding the authorized urban interior and typography, the original single square cushion's identity is largely lost: its outline becomes intersecting rectangular panels, its material appears crumpled and its diamond pattern fragments through the center. Instruction: The edit supplies a cool modern living room and bold top-left wording, but the expected prominent, coherent cushion close-up is replaced by an ambiguous oversized patterned panel arrangement; the main product requirement is poorly implemented. Quality alone: The room, sofas and window are plausible and the headline readable, but the central patterned object has conflicting outlines, a flat white upper strip, and melted overlapping folds, producing substantial structural degradation."
+    }
+  ]
+}

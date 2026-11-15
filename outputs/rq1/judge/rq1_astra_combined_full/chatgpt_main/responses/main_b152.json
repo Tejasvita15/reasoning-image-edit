@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b152",
+  "results": [
+    {
+      "blind_id": "case_fa5e271be9d741a73d0e",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white wall and general lighting remain similar, but the rack is lengthened with a conspicuous central upright, and the four distinct shoe bodies are reduced to two principal fronts with overlapping upper remnants. Instruction: The footwear moves from the left/middle to the extreme right, leaving the left empty; the expected result is all four original shoes at the right. The location is correct, but preservation of the complete set is incomplete, so compliance is partial. Quality: Structure/artifacts are problematic: the front rail terminates into the gray shoe and the overlapping shoe uppers look fused. Lighting and wall texture are natural; shoe texture remains readable."
+    },
+    {
+      "blind_id": "case_c6d49e014b58c5567cfa",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The plain wall and broad illumination are retained. The shelf is widened and shifted left, and both pairs have altered uppers, collars and simplified lace/toe details. Instruction: The cream pair moves right while the gray pair remains at the far left. All four shoes should be grouped at the far right; moving only one pair fulfills this partially. Quality: Structure and perspective are coherent, with natural contact shadows and clean rails. There is a small area of blended lace/tongue detail on the gray shoes; other textures are plausible and no clear duplication is present."
+    },
+    {
+      "blind_id": "case_fa7506f92ae4492709ea",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The wall, broad lighting and recognizable gray and cream footwear are retained. The rack is visibly changed into a stepped, offset frame with an extra left extension instead of the original continuous rectangular structure. Instruction: All four shoes have shifted together to the right end, with the formerly occupied left portion empty; this matches the expected rightward relocation. Quality: The shoes and lighting are coherent, but the rack has a conspicuous awkward doubled/stepped junction and discontinuous rail geometry at the left of the occupied section. Textures are legible without major melting."
+    },
+    {
+      "blind_id": "case_8595a43d53d730736cd2",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white wall and overall lighting remain similar, but the rack extends farther left and its proportions change; the shoes also acquire smoother, reshaped collars and reduced lace and toe detailing. Instruction: The cream shoes are shifted toward the right end, but the gray shoes still occupy the far left with a large gap between pairs. The expected result places the entire set at the far right, so only part of the requested movement is achieved. Quality: The rack and shoe silhouettes are structurally coherent, with plausible perspective and shadows. A small patch of indistinct merged lace detail on the gray footwear is the main imperfection; the remaining surfaces appear natural."
+    }
+  ]
+}

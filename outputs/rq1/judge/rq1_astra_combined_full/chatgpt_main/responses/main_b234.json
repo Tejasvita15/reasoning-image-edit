@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b234",
+  "results": [
+    {
+      "blind_id": "case_cddbbb7d866618534759",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The white background, centered triangle geometry, and layout are retained; its outline is slightly heavier and rougher. Instruction: A red apex-to-base-midpoint vertical segment and an additional horizontal line appear. The expected result is only the vertical symmetry axis; the extra horizontal axis makes this partial compliance. Knowledge: The supplied explanation calls for a central vertical line, which is present, but the horizontal line incorrectly implies another reflection axis. Quality: The diagram has coherent straight geometry and clear red strokes, with minor speckling along the black outline."
+    },
+    {
+      "blind_id": "case_3c0b0bd8b314c3bef5a0",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The white background, triangle position, proportions, and vertices are retained; the outline is subtly softer and grayer. Instruction: A single vertical segment now joins the apex to the base midpoint, exactly showing the required symmetry axis. Knowledge: This centered vertical line matches the supplied explanation and divides the triangle into mirror halves. Quality: The standalone diagram is clean and coherent, with straight edges, a neat central junction, and no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_f5c5321d9d58eadd0ec8",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The white background, triangle geometry, and placement remain, but the triangle outline has visibly changed from black to magenta. Instruction: One central vertical magenta line runs through the apex and base midpoint and extends below the triangle, correctly indicating its sole symmetry axis. Knowledge: The central vertical line matches the supplied explanation and the reflection symmetry of the triangle. Quality: The geometry remains readable, but the magenta edges are visibly grainy and mottled, and the lower line terminates in a ragged dotted tail."
+    },
+    {
+      "blind_id": "case_4a2f979d8026d81d2e51",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The white background and triangle layout, vertices, and proportions remain intact; its outline is subtly softer and grayer. Instruction: The added vertical segment runs precisely from the apex to the base midpoint, showing the single required axis. Knowledge: The centered vertical line follows the supplied explanation and correctly bisects the triangle into reflection-equivalent halves. Quality: The standalone image has clear, coherent geometry, tidy intersections, and a clean white field without noticeable artifacts."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b185",
+  "results": [
+    {
+      "blind_id": "case_fcbe040b5c09b18f235f",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background, b arrow, and b, a, and theta lettering remain in place, but the original a shaft has been replaced by a crossing, downward-right double-headed line. Instruction: This line is the visible change; the expected addition is a single arrow from the tip of b to the tip of a. No such endpoint connector is drawn, so the subtraction request is misinterpreted. Knowledge: The supplied explanation requires direction from b endpoint to a endpoint, which is absent. Instruction failure ⇒ knowledge invalid. Quality: The strokes and lettering are legible on a clean background, but the double-headed line bearing a vector label and detached theta angle annotation create clear semantic ambiguity."
+    },
+    {
+      "blind_id": "case_bae1a5a878eaf4177983",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Both original arrows retain their common tail, directions, relative lengths, labels, and theta annotation on the white background; no non-instructed content change is visible. Instruction: No resultant has been added. The expected image would contain a directed connector from the b tip down-right to the a tip, so the requested modification is entirely missing. Knowledge: The endpoint-to-endpoint arrow required by the supplied explanation is absent. Instruction failure ⇒ knowledge invalid. Quality: The two-arrow diagram has coherent straight shafts, clear arrowheads, readable mathematical symbols, and an uncluttered white field; slight edge softness does not impair meaning."
+    },
+    {
+      "blind_id": "case_a06d37954f3c2d918728",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The common origin, a and b arrows, theta symbol, vector labels, and white background remain visually preserved. Instruction: There is no added vector; a correct edit would add an arrow beginning at the b endpoint and ending at the a endpoint. This required change is missing. Knowledge: The supplied endpoint-direction rule is not illustrated because no resultant arrow appears. Instruction failure ⇒ knowledge invalid. Quality: Independently, the diagram has clean continuous lines, well-formed arrowheads and symbols, and coherent spacing without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_7137598717481fc247c4",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The original a arrow is deleted, while the b arrow, both vector labels, theta symbol, and white background remain. This is a clear alteration of an existing element outside the requested addition. Instruction: The visible change removes a rather than drawing a resultant. The expected arrow from the original b tip to the original a tip is absent, so the instruction is not followed. Knowledge: The directed endpoint connector specified by the explanation is missing. Instruction failure ⇒ knowledge invalid. Quality: The remaining arrow and lettering are legible and smoothly rendered, but a floats without an associated vector and theta has no visible second angle boundary, producing clear semantic incompleteness."
+    }
+  ]
+}

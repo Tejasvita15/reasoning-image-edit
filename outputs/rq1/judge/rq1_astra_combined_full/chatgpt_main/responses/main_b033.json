@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b033",
+  "results": [
+    {
+      "blind_id": "case_0dedca2b19ef272040a9",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The pale wooden setting, four-column tiles and outlined number style persist, but the board is smaller and repositioned, the surrounding grain changes, and the 12 has added overlapping strokes. Tile rearrangement is excluded. Instruction: The visible order remains 1,5,2,8 / 6,14,13,7 / 10,12,15,9 / 11,3,blank,4. Completion requires 1–15 in row order with the final cell empty; no such rearrangement occurs. Knowledge: The supplied explanation is blank; the task-implied ordered-tile logic is visibly unsatisfied. Instruction failure ⇒ knowledge invalid. Quality: Tile outlines, wood and lighting are coherent, but the tangled double strokes on 12 are a clear local lettering artifact."
+    },
+    {
+      "blind_id": "case_5a878b1edda4958155b5",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The wooden four-by-four composition and inset tile borders remain recognizable, but numerous numeral designs and sizes change and wood textures are redrawn; these are beyond moving tiles. Instruction: The top row remains 1,5,2,8, while lower tiles acquire repeated single digits and a malformed lower-left mark; the blank is filled. The expected 1–15 sequence with a bottom-right gap is absent, so the request is not fulfilled. Knowledge: No explanation was supplied; visible duplicates and absence of the ordered set contradict task-implied puzzle logic. Instruction failure ⇒ knowledge invalid. Quality: The grid and lighting are coherent, but duplicated labels, mixed lettering styles, and the broken bottom-left symbol create multiple distracting semantic and text defects."
+    },
+    {
+      "blind_id": "case_1aabdac77d835fa8e7c1",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The pale wood, tile borders and most original numeral styling remain, but background/grain details change and the moved bottom tile bears a different 5 glyph instead of retaining the original 4 identity. Exclude tile and blank movement itself. Instruction: The blank moves to the bottom-right, but the first three rows remain scrambled and the bottom row reads 11,3,5,blank. Completion requires rows 1–4, 5–8, 9–12, then 13,14,15,blank; almost all rearrangement is missing. Knowledge: The explanation is blank; the repeated 5 and missing 4 fail the task-implied unique numbered-tile set. Instruction failure ⇒ knowledge invalid. Quality: Wood, outlines, readable numbers and shadows are coherent, but the duplicate 5 is a clear semantic flaw in the numbered puzzle."
+    },
+    {
+      "blind_id": "case_1822c59604ea39655ef1",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The square wooden grid and inset tile borders persist, but the wood becomes smoother and warmer, and nearly all numbers are redrawn with different outlines and reduced dimensional shading. These changes exceed rearrangement. Instruction: The top row still reads 1,5,2,8; other cells contain altered/repeated digits, the second-row second label is distorted, and the former blank is occupied. The required complete ascending sequence with bottom-right vacancy is absent. Knowledge: The explanation is blank; the visible tile set does not satisfy task-implied completion logic. Instruction failure ⇒ knowledge invalid. Quality: The overall grid and lighting are coherent, but a melted second-row numeral, repeated labels, and inconsistent lettering produce multiple distracting text and semantic artifacts."
+    }
+  ]
+}

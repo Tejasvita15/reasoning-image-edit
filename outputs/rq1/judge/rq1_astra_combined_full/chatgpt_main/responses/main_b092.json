@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b092",
+  "results": [
+    {
+      "blind_id": "case_82cd400a162077d651fe",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white pump's side profile, pointed toe, tan sole edge, arch detail, heel and diagonal rear seam remain unchanged; background, decoration and typography are authorized changes. Instruction: Gold flecks and floral lines, a gray-white gradient and a prominent white shoe create the requested poster. Expected exact uppercase gold title and clean slogan are not delivered: the script title reads approximately 'Grase on tho Steps' and the lower slogan is garbled. Thus the main concept is present but required text is incorrect. Quality: Shoe structure, lighting and surface are coherent, but malformed title wording, corrupted slogan and illegible small text create multiple distracting text defects."
+    },
+    {
+      "blind_id": "case_cd7c3e43027d3106d051",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white pointed pump and diagonal rear seam remain recognizable, but its profile is visibly taller/steeper and the sole has a thicker dark underside with a broader heel tip. These product changes exceed authorized placement and lighting. Instruction: A prominent white heel, gold glitter surround and pale gray-white background implement the advertisement concept. Expected exact gold uppercase title and sans-serif slogan are replaced by unrelated malformed serif text ('Atlve Dme to Dutle' and garbled lines), so compliance is partial. Quality: The shoe has coherent structure and glossy texture, with plausible grounding, but both the large headline and smaller copy contain conspicuous malformed/nonsensical text."
+    },
+    {
+      "blind_id": "case_8271af601077f95e6d05",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The shoe retains its pointed toe, white upper, fine tan sole, curved arch with small underside detail, rear seam and slim heel; changes to presentation and surrounding graphics are requested. Instruction: The poster adds floating gold flecks, fine gold lines, a pale gray-white gradient and both exact phrases, with the shoe prominent. The title uses mixed-case italic/script lettering rather than the requested bold uppercase styling and lacks a clear slight shadow, a minor styling omission. Quality: Shoe silhouette, lighting and smooth material are coherent; both text blocks are readable, and the decorative ring and floral accents show no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_39fb83f133c10a88a21a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: White color, pointed toe and a slim high heel persist, but the forefoot/vamp contour is reshaped and the arch construction loses the source's small underside detail while its sole rises differently into the heel. Authorized layout and gold decoration are excluded. Instruction: The prominent white shoe, pale gradient, soft lighting and gold glitter border achieve the core poster concept. The expected exact title and slogan are replaced by malformed gold letterforms and 'YANF & CUER CAIDERI.', leaving required wording unfulfilled. Quality: The shoe surface and grounding are coherent, but the headline contains warped, overlapping glyphs and the subtitle is nonsensical; these are multiple distracting typographic errors."
+    },
+    {
+      "blind_id": "case_5ba13e25971aa4550bc8",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white pointed pump remains, but its viewpoint now exposes a broad tan inner lining, the opening and upper silhouette are substantially reshaped, and the heel/sole construction differs. These are product changes beyond prominent placement. Instruction: Gold glitter and curling lines surround a prominent white heel on a pale softly lit background. The expected exact uppercase title and clean sans-serif slogan are absent, replaced by 'Preveye Becthisv' and garbled serif copy; the advertisement idea is only partially fulfilled. Quality: The shoe is structurally plausible with a clear smooth surface, but malformed headline letters and two corrupted lower text lines introduce multiple distracting semantic and typographic defects."
+    },
+    {
+      "blind_id": "case_9efc2791dc3a9a0b2491",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Pointed toe, white upper, tan sole edge, small arch detail, rear seam and narrow heel preserve the source shoe; background, scale/placement and decorations are authorized. Instruction: Gold glitter and floral outlines, a soft gray-white background, prominent heel and both exact phrases satisfy the core request. The title is mixed-case script rather than bold uppercase and has no distinct slight shadow, giving a minor styling omission. Quality: The pump silhouette and glossy surface are coherent, typography is readable, shadows are plausible and the gold/floral decoration is clean without noticeable artifacts."
+    }
+  ]
+}

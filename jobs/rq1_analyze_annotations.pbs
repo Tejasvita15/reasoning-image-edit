@@ -1,0 +1,29 @@
+#!/bin/bash
+#PBS -N rq1_ann_agreement
+#PBS -q normal
+#PBS -P personal-tejasvit
+#PBS -l select=1:ncpus=2:mem=8gb
+#PBS -l walltime=00:15:00
+#PBS -j oe
+#PBS -o /home/users/ntu/tejasvit/scratch/reasoning-image-edit/logs/pbs_rq1_annotation_agreement.log
+
+set -euo pipefail
+
+module purge
+module load miniforge3
+conda activate /home/users/ntu/tejasvit/scratch/conda_envs/step1x
+
+cd /home/users/ntu/tejasvit/scratch/reasoning-image-edit
+
+mkdir -p logs analysis/rq1_annotations
+
+echo "Job ID: $PBS_JOBID"
+echo "Node: $(hostname)"
+echo "Start: $(date)"
+
+python -m src.analyze_rq1_annotations \
+    --reviewer1 annotations/rq1/rq1_reviewer1.csv \
+    --reviewer2 annotations/rq1/rq1_reviewer2.csv \
+    --output-dir analysis/rq1_annotations
+
+echo "End: $(date)"

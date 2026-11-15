@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b139",
+  "results": [
+    {
+      "blind_id": "case_bebedb49a8e2351b4840",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white backdrop remains, but the left turtle is absent and the surviving right turtle is lower, smaller, and has changed shell and facial detail. Instruction: The visible change is removal of the large turtle, leaving one animal. A successful edit would retain two turtles and shrink the left one to the right one’s size; removal does not comply. Quality: Structure, lighting, contact shadow, and shell/skin texture are coherent; the single turtle has no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_b80c1348929f6019657a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white setting and two-turtle arrangement remain, but both faces and shell/leg textures are redrawn, and the right turtle is shifted slightly down and right. Instruction: The left turtle remains much wider and taller than the right, with no meaningful reduction. The expected result is two equally sized turtles after shrinking the left one, so the requested change is absent. Quality: Both turtles have coherent shells and limbs, natural studio lighting and grounded shadows, and convincing surface detail without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_bac0e8ea1ea4ccf5a770",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The backdrop is retained, but the right turtle is shifted right with a differently shaped shell and face, while texture on the left turtle’s face and legs also changes. Instruction: The large left turtle remains essentially its original size and clearly exceeds the right turtle; shrinking it to an equal size was required and is not achieved. Quality: Structure and shadow logic are coherent, with no duplication; a small patch of unnaturally etched, blended texture on the right turtle’s face is a minor surface imperfection."
+    },
+    {
+      "blind_id": "case_06f9944cc1cf91e20ed9",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white setting persists, but the right turtle is smaller and higher, and the faces, shell markings and leg details of both animals change. Instruction: There is a slight reduction of the left turtle, but it remains conspicuously taller and wider than the right turtle, which also shrinks. The expected equal-size pair is largely unfulfilled. Quality: The two shells, heads and limbs are coherent, with natural shading, contact shadows, and intact scaly textures; no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_dd2e69497f72b10271bd",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background persists, but the right turtle also becomes substantially smaller and changes position, while both turtles’ facial and shell details are altered. Instruction: The left turtle has clearly shrunk, addressing the requested attribute, but both turtles have been reduced and the left still remains substantially larger. The expected result is a left turtle matching the small turtle, so the size match is incomplete. Quality: Both animals have coherent anatomy, legible scutes and scales, plausible lighting and contact shadows, and no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_93ff6dd3f0b96b1f7f40",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and overall placement remain, but facial features, shell patterns, and leg textures of both turtles are visibly redrawn. Instruction: The left turtle remains large and the right remains smaller, with no meaningful size adjustment toward equality. The expected shrinking of the large turtle to match the small one is absent. Quality: Overall turtle structure and lighting are plausible, but shell scutes have irregular smeared, overlapping texture and facial scales look tangled and warped, producing noticeable surface artifacts."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p2_b002",
+  "results": [
+    {
+      "blind_id": "case_711cd31bba25bc47",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The subject's bearded appearance, clothing colors, glass and general interior are recognizable. The lower legs and shoes are substantially repositioned, the chair support is reshaped, and the fruit arrangement and existing right-side hand position change; these exceed the requested arm correction. Instruction: The surplus hanging hand is removed. The remaining glass-holding arm, however, has an unnatural bent skin-colored bridge between the white cuff and a tan sleeve-like segment beneath the hand. Two visible hands do not by themselves complete the correction when the arm connection remains malformed. Quality: The face, glass and most textures are coherent, but the forearm and sleeve junction is a noticeable anatomical/clothing artifact. Moderate softness elsewhere is not penalized."
+    },
+    {
+      "blind_id": "case_6f6afefebf7ed005",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The face, hairstyle, clothing colors, fruit table and principal background objects are broadly retained. The existing hand on the viewer's right is moved off its original resting position, the armrest changes, and the lower trousers and shoes shift. These are multiple noticeable non-instructed alterations. Instruction: The extra central arm and its glass are removed, leaving two anatomically plausible arms and hands, fully correcting the surplus body part. Quality: The edited image alone has a natural seated pose, coherent hands and clothing, plausible lighting and readable furniture details. No clear duplication, malformed limb or distracting texture artifact remains."
+    }
+  ]
+}

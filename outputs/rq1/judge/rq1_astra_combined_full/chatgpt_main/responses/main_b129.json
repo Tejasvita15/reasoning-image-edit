@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b129",
+  "results": [
+    {
+      "blind_id": "case_766f66f4ab5119ab1bf6",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The oval band geometry, two hanging charms, attachment loops, flower engraving, placement and white background remain unchanged; the metal and its reflected color are excluded as requested. Instruction: Gold has changed to neutral metallic silver across the band, loops and both charms. The expected result is this same bracelet entirely silver, and all its visible parts satisfy that change (5). Quality assessed on this image alone: structure ✔, natural highlights and contact shadows ✔, artifact-free ✔, and coherent metal texture and engraving ✔; no noticeable flaw."
+    },
+    {
+      "blind_id": "case_37d4fb3a76adc3787154",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The oval band, two charms, their arrangement and white setting are preserved. One small non-requested detail differs: the flower charm engraving has thicker, more pronounced curled channels than the original. Instruction: The gold band and both charms have become cool silver throughout. A fully silver version of the existing bracelet is expected, and the visible metal fulfills that change (5). Quality assessed on this image alone: structure ✔, natural metallic reflections and shadows ✔, artifact-free ✔, texture fidelity ✔; the continuous band and connected charms are coherent."
+    },
+    {
+      "blind_id": "case_dd25cacab6530810f39c",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Band shape, front-left charm positions, loop shapes, flower motif and white background match the original; the requested silver recoloring and associated loss of gold reflections are excluded. Instruction: The visible gold surfaces have become pale metallic silver, including both charms and their loops. The expected same bracelet in silver is fully present (5). Quality assessed on this image alone: structural coherence ✔, natural lighting and grounded shadows ✔, artifact-free ✔, surface texture ✔; the soft finish does not obscure any object."
+    },
+    {
+      "blind_id": "case_875de089d61e1d0fca0d",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The oval bracelet, paired charms, attachment arrangement and white background are retained. A small detail changes in the flower charm: its incised curls are more strongly defined and slightly reshaped. Instruction: The band, connecting loops and charms have all changed from gold to bright silver. The expected all-silver bracelet is achieved without any visibly gold part remaining (5). Quality assessed on this image alone: structure ✔, natural appearance ✔, artifact-free ✔, texture fidelity ✔; the smooth oval and detailed hanging charms have plausible highlights and contact shadows."
+    }
+  ]
+}

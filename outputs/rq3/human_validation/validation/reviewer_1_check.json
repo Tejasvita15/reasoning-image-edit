@@ -1,0 +1,150 @@
+{
+  "reviewer_id": "reviewer_1",
+  "summary": {
+    "main": {
+      "rows": 120,
+      "expected_rows": 120,
+      "unique_ids": 120,
+      "statuses": {
+        "ok": 120
+      },
+      "knowledge_required": 64,
+      "viewpoint_references": 4,
+      "confidence": {
+        "3": 99,
+        "2": 21
+      },
+      "ambiguity_notes": 43,
+      "score_distributions": {
+        "consistency_score": {
+          "5": 35,
+          "2": 26,
+          "4": 20,
+          "3": 33,
+          "1": 6
+        },
+        "instruction_score": {
+          "4": 8,
+          "1": 56,
+          "3": 27,
+          "2": 12,
+          "5": 17
+        },
+        "quality_score": {
+          "4": 10,
+          "5": 74,
+          "2": 16,
+          "3": 15,
+          "1": 5
+        },
+        "knowledge_score": {
+          "4": 1,
+          "": 56,
+          "1": 38,
+          "5": 8,
+          "3": 15,
+          "2": 2
+        }
+      },
+      "exact_duplicate_rationale_groups": 0
+    },
+    "practice": {
+      "rows": 4,
+      "expected_rows": 4,
+      "unique_ids": 4,
+      "statuses": {
+        "ok": 4
+      },
+      "knowledge_required": 2,
+      "viewpoint_references": 0,
+      "confidence": {
+        "3": 3,
+        "2": 1
+      },
+      "ambiguity_notes": 1,
+      "score_distributions": {
+        "consistency_score": {
+          "5": 3,
+          "2": 1
+        },
+        "instruction_score": {
+          "1": 1,
+          "5": 2,
+          "3": 1
+        },
+        "quality_score": {
+          "5": 4
+        },
+        "knowledge_score": {
+          "1": 1,
+          "": 2,
+          "3": 1
+        }
+      },
+      "exact_duplicate_rationale_groups": 0
+    }
+  },
+  "structural_errors": [],
+  "follow_up_items": [],
+  "metadata": {
+    "reviewer_id": "reviewer_1",
+    "prior_exposure": "no prior exposure to the study",
+    "background": "computer science graduate and no study-specific expertise",
+    "practice_started_at": "2026-10-04T14:00:00+08:00",
+    "practice_completed_at": "2026-10-04T15:07:56+08:00",
+    "started_at": "2026-10-04T15:08:11+08:00",
+    "completed_at": "2026-10-04T16:30:10+08:00",
+    "independent_rating_confirmed": true
+  },
+  "chronology": {
+    "practice_start_before_completion": true,
+    "practice_before_main_start": true,
+    "main_start_before_end": true,
+    "practice_before_end": true,
+    "recorded_main_duration_seconds": 4919.0,
+    "time_after_practice_seconds": 4934.0
+  },
+  "frozen_packet_files_checked": 381,
+  "changed_frozen_files": [],
+  "submitted_file_sha256": {
+    "ratings.csv": "fe1fd8af77e3a3f071021b1c9c1a9eb2ae034ee3f87fd6c089ddc816cef5f3eb",
+    "practice_ratings.csv": "7c94978de5039c5b65f9a5322258b175f3ccb96084d3da94f7ad8f0576b8498f",
+    "reviewer_metadata.json": "884e862ac0aa883229716f242142387ccfd93eb883a27bf952b74489c60fa28c"
+  },
+  "method_scope": "Submission validation only; no comparison with other reviewers or original judge; not proof of independent authorship or substantive correctness",
+  "duplicate_rationales": {
+    "main": [],
+    "practice": []
+  },
+  "checked_at": "2026-10-04T08:46:01.620964+00:00",
+  "submission_fingerprint": "13732134c4d23ca159ea7fcb0695eea787e3de8a131e8b832e7057e0b5526860",
+  "submission_archive": "outputs/rq3/human_validation/submissions/reviewer_1/13732134c4d23ca1",
+  "status": "passed",
+  "rationale_review": {
+    "scope": "Read all main/practice rationales for internal rubric consistency; no new human ratings or full visual correctness reassessment",
+    "definite_score_rationale_contradictions": [],
+    "notes": [
+      "All applicable dimensions addressed; no verbatim duplicate rationales",
+      "Missing knowledge explanations disclosed in 20 main ambiguity notes; retain as a rubric limitation",
+      "High visual quality can coexist with poor instruction compliance under separate rubric dimensions"
+    ]
+  },
+  "operator_clarification": {
+    "recorded_at": "2026-10-04T08:46:01.620964+00:00",
+    "practice_started_at": "2026-10-04T14:00:00+08:00",
+    "practice_completed_at_confirmed": true,
+    "note": "User edited practice_completed_at to 2026-10-04T15:07:56+08:00; original submission preserved; no rating changes."
+  },
+  "current_working_file_sha256": {
+    "ratings.csv": "fe1fd8af77e3a3f071021b1c9c1a9eb2ae034ee3f87fd6c089ddc816cef5f3eb",
+    "practice_ratings.csv": "7c94978de5039c5b65f9a5322258b175f3ccb96084d3da94f7ad8f0576b8498f",
+    "reviewer_metadata.json": "884e862ac0aa883229716f242142387ccfd93eb883a27bf952b74489c60fa28c"
+  },
+  "original_submission_archive": "outputs/rq3/human_validation/submissions/reviewer_1/cbdeb56e6eb8cbe9",
+  "original_submitted_file_sha256": {
+    "ratings.csv": "fe1fd8af77e3a3f071021b1c9c1a9eb2ae034ee3f87fd6c089ddc816cef5f3eb",
+    "practice_ratings.csv": "7c94978de5039c5b65f9a5322258b175f3ccb96084d3da94f7ad8f0576b8498f",
+    "reviewer_metadata.json": "a7f737f57fb9697ad4b468346ce9022fd51c1ba47ef9ee62fce4a94b7739767d"
+  },
+  "packet_integrity_checked_at": "2026-10-04T08:42:44.152181+00:00"
+}

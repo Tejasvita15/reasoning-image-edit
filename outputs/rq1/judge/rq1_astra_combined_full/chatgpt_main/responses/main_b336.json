@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b336",
+  "results": [
+    {
+      "blind_id": "case_d1e2ee6af5eee8c829c9",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Sand expansion and grass loss are excluded. The mountain horizon, right post placement and red foreground scrap remain recognizable, but the fence gains a conspicuous upright wire grid and cloud details are redrawn. Instruction: Dense green cover becomes broad bare sand with only distant sparse vegetation; the expected visibly more desertified landscape is fully achieved. Knowledge: The supplied explanation requires reduced grassland and increased desert; both are directly visible and plausible. Quality: Terrain, perspective and storm lighting are coherent; a small defect is the irregular, partly merging fine wire lines in the upright fence."
+    },
+    {
+      "blind_id": "case_975eead9c45ad19b52d3",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Vegetation loss, dry scrub and sand expansion are allowed. General horizon and right-post composition persist, but the cloud shapes and contrast are substantially changed, the collapsed fence mesh disappears, and foreground stones are redrawn. Instruction: Green grassland becomes an extensive sandy landscape with separated dry shrubs and dunes, fully matching a more desertified appearance. Knowledge: Reduced continuous grass cover and increased exposed sand directly satisfy the supplied explanation with plausible sparse arid vegetation. Quality: Coherent shrub forms, sand surfaces, receding scale and storm clouds; the leaning fence and debris are intelligible, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_b0203d9e303b7e70e08c",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Dry vegetation and exposed ground are excluded. The main post, fallen mesh, horizon and foreground scrap retain their layout, but cloud texture is reworked and bright red ties along the diagonal fence become conspicuous. Instruction: Most green field vegetation turns tan with some pale exposed bands, but a dense grass-like carpet remains; expected grass loss and desert expansion are only partly realized. Knowledge: The supplied explanation specifically requires grassland reduction and desert increase; chiefly drying or recoloring the standing cover leaves that mechanism incompletely depicted. Quality: The scene remains legible, but the left foreground has an unnatural orange smear and vegetation/ground textures form conspicuous crunchy, fused patches."
+    },
+    {
+      "blind_id": "case_987c862a4125c9d4c74b",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Grass reduction and orange sandy terrain are allowed. The fence post, diagonal wire, collapsed mesh, horizon contours and foreground stones/scrap retain their positions and forms. A clear unrelated alteration is the broad desaturation of the sky and distant mountains. Instruction: The distant grassy belt is replaced by bare brown terrain and the remaining vegetation is less lush, visibly increasing desertification; the instruction sets no requirement to remove all grass. Knowledge: The supplied explanation is met by reduced grassland and expanded bare arid ground; the surviving central grass patch does not contradict a relative increase in desertification. Quality: Coherent landscape structure, natural cloud forms, readable fence mesh and consistent sandy surface detail; no noticeable artifacts."
+    }
+  ]
+}

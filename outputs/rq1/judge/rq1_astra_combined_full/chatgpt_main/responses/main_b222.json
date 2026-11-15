@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b222",
+  "results": [
+    {
+      "blind_id": "case_89c6927166fa71eeea19",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Stem, green sepals, flower position and blurred background retain their arrangement; the upper inner petal folds and right outer petal contour are visibly reshaped beyond recoloring. Instruction: The red blossom becomes pink throughout. The expected result is this rose with pink petals, and the correct flower and color are present, giving perfect compliance. Quality, assessed from this output alone: coherent overlapping petals and connected stem/sepals, natural directional light and shadows, convincing fine petal texture, and no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_e9b0274854133a975a79",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The stem, sepals, bloom outline, petal fold arrangement and background layout remain aligned with the source; there is a subtle change in background surface grain. Instruction: Red petals become pale pink across the blossom. The expected pink version of the same flower is present, with no missing color change. Quality, assessed from this output alone: natural rose structure, plausible petal shadows and lighting, coherent green stem and sepals, and believable petal texture without conspicuous artifacts."
+    },
+    {
+      "blind_id": "case_6aa9078ff848bc4e23c9",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Flower placement, petal contours, stem, sepals and blurred background shapes are preserved; a small added graininess is visible in the defocused background. Instruction: The blossom changes from red to light pink. The expected result is the same flower with pink petals, which the visible recoloring fully achieves. Quality, assessed from this output alone: the layered petals, fine surface texture, stem attachment and lighting are coherent and natural; background softness causes no semantic loss and there are no noticeable structural or generation defects."
+    },
+    {
+      "blind_id": "case_1467fac06088c2acfdca",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Background composition, stem and green sepals remain in place, but the blossom structure changes in its inner upper folds and right petal outline, beyond the requested color change. Instruction: The red flower becomes clearly pink across its petals. The expected pink blossom is fully realized on the correct subject. Quality, assessed from this output alone: the rose has coherent overlapping petals and natural highlights and shadows, with convincing surface texture and an intact stem/calyx; no noticeable artifacts are present."
+    }
+  ]
+}

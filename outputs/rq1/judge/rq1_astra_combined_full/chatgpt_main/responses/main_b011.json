@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b011",
+  "results": [
+    {
+      "blind_id": "case_f090390a958454414f2a",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: white background remains, but both surviving cans have substantially changed size, proportions, positions and label layouts; the overall arrangement is rebuilt. Instruction: three cans become two. A perfect removal leaves two cola containers; treating bottle as the visibly supplied can, exactly one is removed, so compliance is complete. Quality: can silhouettes and metallic rims are coherent, but the large can has distorted ZERO SUGAR lettering and garbled lower markings, while the small can has malformed lower label text; these multiple text artifacts impair the product rendering."
+    },
+    {
+      "blind_id": "case_7fa46f554f95fb9e1703",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background and three-can row remain, but the cans are reduced and repositioned, the left logo is visibly distorted, and its lower white nutrition badge is lost. Instruction: all three cans remain. The expected result is two cola containers after one removal; no container is removed, so the instruction is not followed. Quality: cylinders, rims, lighting and background are plausible, but the left can has a conspicuous smeared and doubled-looking black logo region; remaining major lettering and surfaces are coherent."
+    },
+    {
+      "blind_id": "case_d67b3cd9508c1bf0405f",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background remains, but the surviving container is repositioned, elongated and recolored pale pink with red lettering, with extensively altered label details. Instruction: three cans become one. The expected result after removing one is two containers; removal is present but its quantity is wrong, giving partial compliance. Quality: the can outline and silver rims are plausible, but ZERRO SUGAR, the malformed end of the calorie line, the white badge and lower volume/nutrition markings contain multiple conspicuous lettering artifacts."
+    },
+    {
+      "blind_id": "case_e19132b2ff2342849ac2",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: white background and a row of three red cans remain, but can dimensions and positions change, the middle can becomes washed out with altered top geometry, and logos and lower labeling are changed. Instruction: three cans are still visible. A successful single removal would leave two; fading and deforming the middle container does not remove it, so compliance fails. Quality: the middle can has a smeared logo, garbled text and an unnatural flat speckled upper rim; boundaries between cans blend together, producing multiple distracting structural and texture artifacts."
+    }
+  ]
+}

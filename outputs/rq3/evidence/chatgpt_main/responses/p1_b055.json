@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b055",
+  "results": [
+    {
+      "blind_id": "case_0045edda2bbf788a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Multiple non-instructed elements change noticeably beyond the target edit. Instruction: The main idea of \"Place the left cup onto the other cup.\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: The image is understandable, but visible artifacts, distortions, or weak text rendering remain."
+    },
+    {
+      "blind_id": "case_188634efe15682fa",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Multiple non-instructed elements change noticeably beyond the target edit. Instruction: The main idea of \"Change to six forks\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections."
+    }
+  ]
+}

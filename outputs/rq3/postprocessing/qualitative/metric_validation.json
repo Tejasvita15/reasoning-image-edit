@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "identical_ssim_error": 0.0,
+  "symmetry_error": 0.0,
+  "constant_known_answer_error": 9.43689570931383e-15,
+  "direct_window_error": 1.942890293094024e-16,
+  "ssim_policy": {
+    "implementation": "local_numpy_scipy",
+    "window": 11,
+    "sigma": 1.5,
+    "K1": 0.01,
+    "K2": 0.03,
+    "data_range": 255,
+    "covariance": "population",
+    "channels": "arithmetic mean of separate R, G, B SSIM",
+    "boundary": "exclude five-pixel border; only complete 11x11 windows",
+    "reference": "https://scikit-image.org/docs/stable/api/skimage.metrics.html#skimage.metrics.structural_similarity"
+  }
+}

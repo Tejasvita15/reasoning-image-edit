@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b049",
+  "results": [
+    {
+      "blind_id": "case_edae080ad2662329",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Most non-instructed elements are preserved, with only minor incidental differences. Instruction: The main idea of \"Modify to show the occurrence of a red tide.\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections."
+    },
+    {
+      "blind_id": "case_cbeee210b7a2855c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Multiple non-instructed elements change noticeably beyond the target edit. Instruction: The main idea of \"Adjust the thickness of the thin book to match that of the thick book.\" appears to be attempted, but the result is only partial or somewhat ambiguous. Quality: Overall structure is coherent, with only minor visual imperfections."
+    }
+  ]
+}

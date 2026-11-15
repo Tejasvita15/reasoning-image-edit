@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b368",
+  "results": [
+    {
+      "blind_id": "case_c199c94a8e043f9a95f8",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the grid layout, arrows and heading remain, but new O marks alter the upper-left and upper-middle givens and the lower-left example. Instruction: both answer panels gain symbols, but the middle lacks the required upper-left and lower-right X marks and has extra O marks; the right is sparsely filled with O marks instead of the complete swapped nine-symbol pattern. Most requested content is missing or incorrect. Knowledge: the supplied X/O-swap rule is not implemented. Instruction failure ⇒ knowledge invalid. Quality: viewed alone, the grid lines, circles and crosses are coherent and legible, the background texture is natural for a scanned diagram, and no conspicuous rendering artifacts appear."
+    },
+    {
+      "blind_id": "case_fbeb6fe6a8f939353d3c",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the givens, example symbols, arrows and six-panel layout are retained, but the paper background shows a noticeable increase in dark mottled grain. Instruction: the two lower answer grids remain completely empty; the expected middle X/O swap and fully populated right swap have not been added. Knowledge: no resulting swapped symbols are supplied. Instruction failure ⇒ knowledge invalid. Quality: independently, this is a coherent scanned worksheet with legible symbols, intact grids and natural paper grain; mild line roughness does not obscure its structure."
+    },
+    {
+      "blind_id": "case_567b22f65707abb0810b",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: all existing symbol locations, grid arrangements, arrows and heading are preserved; the faint paper markings are slightly more pronounced. Instruction: neither empty lower grid receives any symbols. A correct edit would place X,O,blank / O,blank,O / blank,blank,X in the middle and O,O,X / X,X,O / O,X,O on the right. Knowledge: the required X/O exchange is absent. Instruction failure ⇒ knowledge invalid. Quality: considered alone, the grids are intact, symbols and arrows are clear, and the lightly textured monochrome worksheet has no noticeable structural or generation flaws."
+    },
+    {
+      "blind_id": "case_106d8f2a8f829624082b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the left example, upper-middle givens, arrows and heading remain, but all four corner symbols in the upper-right grid have been erased. Instruction: the two answer grids are replaced by dark patterned panels with irregular white motifs, rather than filled with swapped X/O symbols. This completely misinterprets the requested change. Knowledge: the supplied swap rule has no visible realization. Instruction failure ⇒ knowledge invalid. Quality: independently, the upper diagram and left grid are clear, but the lower center and right panels contain muddy mottling and fragmented, irregular white shapes, producing noticeable visual artifacts."
+    }
+  ]
+}

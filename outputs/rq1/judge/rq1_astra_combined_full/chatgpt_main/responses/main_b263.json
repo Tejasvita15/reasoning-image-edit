@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b263",
+  "results": [
+    {
+      "blind_id": "case_d215fb2eaf602a0c3ce8",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background remains, but the original square 3x3 layout and nearly all fixed picture clues are replaced by a wide irregular numeric grid. Instruction: Instead of filling the three empty picture cells, the edit replaces the puzzle with numbers and hybrid icons; neither the stated 9x9 task nor completion of the visible source is achieved. Knowledge: The explanation is blank; the mandatory failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality: Multiple digits collide with grid lines, the bottom ladybird is clipped, and flower/insect forms overlap, producing distracting structural errors."
+    },
+    {
+      "blind_id": "case_e6a124d76b5ffca26ff5",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background, 3x3 organization and six clue identities remain, but grid boundaries shift and the original icons are redrawn with visibly changed contours and texture. Instruction: Ladybirds are added at top-left and middle-right while bottom-middle remains empty. Completion would require filling all blanks appropriately; top-left duplicates its neighboring ladybird, so most required content is absent or wrong. Knowledge: The explanation is blank; the mandatory failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality: Viewed independently, the grid is regular, pictures are recognizable and neatly contained, and the flat illustration has no noticeable structural artifacts."
+    },
+    {
+      "blind_id": "case_97c9f9890acf136ae354",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: White background survives, but the source grid geometry, fixed clue placements and most clue appearances are extensively replaced. Instruction: The edit introduces numbers, question marks and distorted picture fragments into an irregular layout instead of completing the supplied blank squares; it supplies neither a completed 9x9 Sudoku nor a completed version of the visible picture puzzle. Knowledge: The explanation is blank; the mandatory failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality: Major structural failures include disconnected and unequal cell boundaries, malformed insect/number hybrids and stray strokes distributed across the diagram."
+    },
+    {
+      "blind_id": "case_1ae64eb8902081d4df2c",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background, 3x3 layout and existing clue identities persist, but the grid is shifted upward and the fixed icons are resized/redrawn, including altered pumpkin silhouettes and flower shapes. Instruction: A ladybird fills middle-right, but top-left and bottom-middle stay blank; only one of the three visible blanks is completed, and no 9x9 completion is present. Knowledge: The explanation is blank; the mandatory failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality: The grid and flat icons are clean and coherent, with one small stray brown fragment clipped at the bottom image edge."
+    }
+  ]
+}

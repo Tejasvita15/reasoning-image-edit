@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b087",
+  "results": [
+    {
+      "blind_id": "case_bab9bed55e0d2836",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Multiple non-instructed elements change noticeably beyond the target edit. Instruction: The image shows a clear attempt to fulfill \"Correct the unreasonable body part in the image.\", with the main requested change present but not perfectly exact in every detail. Quality: Overall structure is coherent, with only minor visual imperfections."
+    },
+    {
+      "blind_id": "case_cf43c65458ec9d1a",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Large parts of the image or scene differ from the source, so non-target details are not preserved. Instruction: The result shows limited evidence of \"Based on the given image, draw the side view of the object.\", with major aspects missing or unclear. Quality: Multiple structural or rendering problems are visible and distracting."
+    }
+  ]
+}

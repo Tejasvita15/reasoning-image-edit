@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b062",
+  "results": [
+    {
+      "blind_id": "case_9c50a451a3385e182b56",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The second leg disappears, the denim cuff and seam are redrawn, and the floor grain, wall boundary and framing change substantially; only the general bare-foot/jeans setting remains. Instruction: The foot is rebuilt with a normal rounded heel resting on the floor, removing the red shoe-like heel projection; this fulfills the anatomical correction. Quality: Structure, perspective and contact shadows are coherent, with five distinguishable toes; the skin has a slightly waxy, over-smoothed texture, a small naturalness issue."
+    },
+    {
+      "blind_id": "case_d99910ed32fdf833f91b",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Denim cuffs, both leg positions, skin folds, toes, wall and wood floor remain visually unchanged outside the corrected heel and its immediate surroundings. Instruction: The red heel-like projection is removed and replaced by a clean, naturally rounded bare heel; a person rising onto the forefoot is anatomically plausible, so the requested correction is complete. Quality: Both feet and ankles have coherent contours and contact, the raised heel has a plausible floor shadow, and skin, denim and wood textures have no clear generation artifacts."
+    },
+    {
+      "blind_id": "case_93b6a8fe6a6135236e77",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Both feet, the foreground jeans, floor, wall and composition remain consistent; the rear denim cuff has a small edge/position alteration. Body-contour adjustments are excluded from consistency. Instruction: The ankle contour is slightly reshaped, but the conspicuous red shoe-like heel remains attached beneath the bare foot. The expected correction is a natural bare heel without this projection, and that correction is absent. Quality: Lighting, floor perspective and skin/denim textures are coherent, but the red stiletto-like projection emerging directly from the bare heel is a clear semantic/anatomical flaw."
+    },
+    {
+      "blind_id": "case_2ac161b2dd3a476fe4c4",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The denim cuffs, two-leg arrangement, skin folds, toe positions, wall boundary and floor pattern retain the source appearance, with no clear non-instructed alteration. Instruction: No meaningful anatomical correction is visible; the red heel-shaped projection still protrudes from beneath the bare heel instead of being replaced with a normal heel contour. Quality: The photographic lighting and skin, fabric and wood textures are coherent, but a shoe heel attached directly to a bare foot is a noticeable structural/semantic defect."
+    }
+  ]
+}

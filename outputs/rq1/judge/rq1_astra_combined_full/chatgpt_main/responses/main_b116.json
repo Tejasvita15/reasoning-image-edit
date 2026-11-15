@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b116",
+  "results": [
+    {
+      "blind_id": "case_1cf7a2fa01839e0d04bf",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: The blue sky, trees, sandy ground and standing three-quarter pose are replaced by a dense multicolored field and a flattened, vertically arranged animal-like form; the scene layout and rendering are fundamentally changed. Instruction: The animal becomes a distorted orange-red mass with paired protrusions at both ends. A successful correction would retain a coherent elephant while correcting its implausibly vivid red skin to a natural elephant coloration. No such correction is visible; non-compliance. Quality alone: Structural coherence fails: the elongated body has confused head/limb organization. Dense granular multicolored texture overwhelms both subject and background, with unnatural surface relief and no coherent ground or lighting; severe errors."
+    },
+    {
+      "blind_id": "case_d492acd650ef3f793b2c",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: The landscape, sky, ground, standing pose and painterly surface are replaced by a multicolored granular field and a compact overhead-like orange form. Most major non-instruction elements change. Instruction: The output has a rounded red-orange body, narrow downward trunk and two pale tusks, but loses the clear standing elephant anatomy. Expected correction is a coherent naturally colored elephant; the unreasonable red coloration persists and anatomy is degraded, so the instruction is not fulfilled. Quality alone: Structural coherence is severely broken by the swollen merged head/body and absent intelligible supporting legs. The entire frame has distracting speckled relief, incoherent surroundings and unnatural texture; severe errors."
+    },
+    {
+      "blind_id": "case_29df538104899d8fbd5e",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: Sky, trees and sandy ground disappear into a granular multicolored surface; the elephant changes from a standing three-quarter view into an overhead-like form with its head at the bottom. Composition and surface treatment are fundamentally changed. Instruction: The red-orange animal now has side ears and bottom tusks, a short pointed facial projection and an upward curled appendage at the opposite end. A proper correction would preserve coherent elephant anatomy and give it natural coloration. The vivid red remains and the trunk/body arrangement is confused; non-compliance. Quality alone: The broad oval body, pointed head and misplaced trunk-like upper appendage create severely incoherent anatomy. Strong granular texture blankets the animal and surroundings, obscuring plausible surfaces and spatial grounding."
+    },
+    {
+      "blind_id": "case_0230d219db88a3ee0aed",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The standing elephant, paired tusks, blue sky and wooded dirt setting remain recognizable, but cloud shapes, foliage and ground vegetation are redrawn, and the animal has much stronger outlines and highlights. Multiple non-instruction elements change. Instruction: The visible changes sharpen wrinkles and alter rendering while retaining the vivid orange-red skin. Expected correction is a natural elephant coloration with coherent anatomy; the salient unreasonable coloration is not corrected, so this is non-compliance. Quality alone: Structural coherence is satisfactory, with a readable trunk, tusks and grounded legs; naturalness within the stylized painting, clean contours, consistent shading and texture fidelity are satisfactory. No noticeable generation artifact warrants a deduction."
+    },
+    {
+      "blind_id": "case_f07309c199e65114575a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The wooded setting, standing orientation, tusks and general composition are retained, but the elephant sits lower in the frame, the ground shadow changes substantially, and foliage/ground texture is smoothed and redrawn. Multiple non-instruction details differ. Instruction: The skin and landscape are smoothed and the animal is repositioned slightly, but the elephant remains bright orange-red. Expected correction would address the unnatural skin coloration while preserving a coherent elephant. The requested substantive correction is absent; non-compliance. Quality alone: The painted elephant has coherent ears, eyes, tusks, trunk and legs, convincing grounded shadows and continuous surfaces. The soft painterly textures remain legible and contain no noticeable duplication, melting or other artifacts; excellent quality."
+    },
+    {
+      "blind_id": "case_17483b11babce894dcf5",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The basic standing elephant, sky, trees and dirt clearing remain, but the trunk contour and tusk positions change, the ground shadow becomes more pronounced, and vegetation/ground details are repainted. Multiple non-instruction elements are noticeably altered. Instruction: The contour and texture are adjusted, yet the implausibly vivid red skin remains. Expected correction would give the otherwise coherent elephant natural coloration. No meaningful correction of that unreasonable feature is present; non-compliance. Quality alone: Anatomy and silhouettes are coherent, the trunk and two tusks remain distinct, feet meet the ground convincingly, and light and painterly texture are consistent. No clear generation artifacts are visible; excellent quality."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b142",
+  "results": [
+    {
+      "blind_id": "case_2a8773bd33af803f3296",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The eight existing arrows, black grid, green answer-cell outline and checkerboard remain visually unchanged. Instruction: The question mark is replaced by a centered downward arrow; the expected result is a rightward arrow in this cell, so filling the correct cell is only partial compliance. Knowledge: The supplied explanation explicitly requires a right-pointing arrow; the downward direction is one clear conflict with that pattern logic. Quality: The image itself has coherent arrow silhouettes, straight grid lines, clean fills and an orderly checkerboard, with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_44bd73976a947423e031",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The existing arrow directions, arrangement and green cell outline are retained, but the checkerboard background is visibly regenerated with uneven pale patches. Instruction: An upward arrow replaces the question mark in the correct cell; a right-pointing arrow is expected, so the requested shape is only partially fulfilled. Knowledge: The upward direction conflicts with the explicitly supplied right-arrow explanation. Quality: Symbols and grid are readable and coherent; slight mottling and unevenness in the checker texture are a small surface imperfection."
+    },
+    {
+      "blind_id": "case_a812c4deffd90ba308d5",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The eight original arrows and grid remain unchanged, but the answer-cell checkerboard becomes a visibly washed-out, irregular patch beyond the new symbol. Instruction: The question mark is replaced by a diagonal double-headed arrow in the correct cell; the expected shape is a single right-pointing arrow, making this partial compliance. Knowledge: The bidirectional diagonal symbol conflicts with the supplied right-pointing-arrow expectation. Quality: The arrows remain recognizable and the layout coherent, but the visibly degraded checkerboard texture in the lower-right cell is a clear artifact."
+    },
+    {
+      "blind_id": "case_4d26c9cd7791dbad60a8",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Existing arrow directions and cell layout persist, but the checkerboard has mottled, uneven rendering and the answer-cell outline changes from muted green to brighter yellow-green. Instruction: The question mark becomes an upward arrow in the correct cell; the required right-pointing arrow is absent, so this is partial compliance. Knowledge: An upward arrow conflicts with the supplied explanation requiring a right-pointing arrow. Quality: The symbols are legible, but visibly uneven grid edges and mottled checkerboard texture are two clear rendering flaws."
+    }
+  ]
+}

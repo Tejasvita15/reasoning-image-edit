@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b030",
+  "results": [
+    {
+      "blind_id": "case_4175bf5ce15759da6777",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The region boundaries, cursor, stage label, scores and bars remain recognizable and in the same arrangement, but the orange palette square has become gray. Instruction: No blank region has been filled; a completed puzzle should color every region with at most four colors while separating edge-adjacent regions. The palette change does not complete the puzzle. Knowledge: The supplied explanation is blank; the mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: The diagram has coherent closed shapes, legible labels, even fills and clean UI elements; moderate softness does not obscure meaning."
+    },
+    {
+      "blind_id": "case_5d65af14c0199a8b4536",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 2,
+      "rationale": "Consistency: The stage label, palette, corner button and bottom scores/bars are removed, the background turns gray, and the lower central region gains a new internal division. Color changes requested by puzzle completion are excluded. Instruction: Several blank regions gain red, green or yellow fills, but white and gray regions remain and adjacent upper-left and upper-middle regions share red. A correct completion would fill the original regions with at most four colors and different colors across every shared edge; this is partial completion. Knowledge: The explanation is blank, so this judgment uses task-implied map-coloring logic directly visible here: red regions share an edge, the two yellow regions at lower left share an edge, and the white areas add a fifth visible color to red, green, yellow and blue. These are multiple serious violations. Quality: The flat map is structurally legible with solid fills and no distorted objects, but the gray left-side region nearly blends into the gray background, weakening its outline."
+    },
+    {
+      "blind_id": "case_8d5db870c2bafdf4ce8d",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The map partition, palette colors, labels, scores, cursor and layout remain intact, with a small added roughness/color fringe along the diagram outlines. Instruction: The green and black filled areas and the unfilled white regions remain as before; no puzzle completion is visible. Expected completion would fill all regions with at most four colors and separate edge-sharing neighbors. Knowledge: The explanation is blank; scoring follows the mandatory coupling. Instruction failure ⇒ knowledge invalid. Quality: Shapes and text are coherent and readable, but small irregular colored fringes along gray outlines slightly mar the otherwise clean flat diagram."
+    },
+    {
+      "blind_id": "case_88ae0ff464321f6615f5",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The region geometry, white background, four palette squares, selection brackets, stage text, scores, bars, corner icon and circular cursor are visually preserved. Instruction: All originally white regions remain white, with only the original green and black regions filled; the requested completed coloring is absent. A completed puzzle would fill the regions with at most four colors and no equal colors across a shared edge. Knowledge: The supplied explanation is blank; the mandatory coupling is the basis. Instruction failure ⇒ knowledge invalid. Quality: The diagram is coherent, its boundaries and flat fills are clean, and labels and numbers are legible without noticeable generation artifacts."
+    }
+  ]
+}

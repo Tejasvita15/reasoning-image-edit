@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b194",
+  "results": [
+    {
+      "blind_id": "case_0d7e12d0ccd89587a468",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray studio background and white ceramic materials remain, but the stationary right cup is smaller and shifted left, and a conspicuous pale oval reflection appears on the foreground. Instruction: The left cup remains sideways beside the upright cup; the expected result is that cup resting on the other cup. No stacking occurs. Quality: Viewed alone, both cup shapes, elliptical openings, smooth surfaces, lighting and contact shadows are coherent and artifact-free."
+    },
+    {
+      "blind_id": "case_98e2a872c402ab655b83",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: White ceramic surfaces and the plain gray studio setting remain, but the receiving cup is visibly shorter and relocated toward the center. The instructed relocation of the left cup is excluded. Instruction: The sideways cup is now upright and nested atop the other cup, leaving its former floor position empty; this fulfills the expected two-cup stack. Quality: Viewed alone, the two clean cup silhouettes, nested contact, rim ellipses, shading and floor shadow are natural, with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_f31035614ad077fed2e2",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The plain background and ceramic appearance remain, but the receiving cup is shortened and the floor now has a large pale oval reflection. Instruction: The original sideways cup remains on the left while a shallow bowl-like rim appears atop the upright cup. The expected relocation of the left cup onto the other has mostly not occurred. Quality: Viewed alone, surfaces and lighting are smooth and the vessels are recognizable, but the upper vessel has a small pinched dark seam at its left contact with the lower cup."
+    },
+    {
+      "blind_id": "case_93b37962784b1409623d",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray setting and white ceramic material remain, but the bottom cup has become squat and centered, with several additional repeated rims around it. Instruction: A cup is upright above the other and the left floor position is empty, matching the stacking idea, but the requested two-cup arrangement has become a stack with multiple extra rim layers and a greatly reshaped support. Quality: Viewed alone, lighting and ceramic texture are coherent, but the repeated horizontal rims make the lower vessel structure ambiguous and visibly duplicated."
+    },
+    {
+      "blind_id": "case_0f11f05dc5b4adaad2e7",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The blank gray backdrop and ceramic finish remain, but the receiving cup is squat and shifted to the center, and the upper cup also has a broader, shorter form. Instruction: The left cup has been moved above the other and its original floor position is empty, as expected, although it appears perched across the opening instead of securely seated. Quality: Viewed alone, the smooth textures and lighting are credible, but the upper cup base seems suspended over the lower opening, with unclear physical support."
+    },
+    {
+      "blind_id": "case_af64e46e7ff18c6d0e07",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white ceramic finish and gray studio backdrop remain, but the receiving cup is shortened and relocated to the center. The upper cup movement and associated shadows are excluded. Instruction: The former left cup is tilted over the other cup rather than left on the floor, addressing the requested stacking, but their contact is fused and the upper cup is not cleanly placed onto the lower one. Quality: Viewed alone, the upper vessel has an angular truncated lower side, the vessels merge through a broad horizontal band, and a rough gray lump interrupts the left rim contact; these are multiple distracting structural errors."
+    }
+  ]
+}

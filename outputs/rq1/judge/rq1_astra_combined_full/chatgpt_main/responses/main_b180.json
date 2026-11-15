@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b180",
+  "results": [
+    {
+      "blind_id": "case_bb3dcfe0e4507ec7c9c0",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and two-carton arrangement remain, but the large carton\u2019s cap loses its facets, the lettering gains outlines, and the wave graphics and carton geometry change. Instruction: The right carton remains short, with its top far below the left carton; a correct edit would enlarge that small carton to the large carton\u2019s height and overall size. No size match is implemented. Quality, evaluated from this edited image alone: coherent folded carton shapes, readable milk labels, clean blue/white surfaces, and plausible stylized shading; no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_d12f6d4709bbb1d43772",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and basic colors remain, but the large carton becomes narrower, both labels and wave contours are redrawn, the right carton\u2019s side perspective changes, and a ground shadow appears. Instruction: The small right carton is still much shorter than the left; the expected enlargement to the large carton\u2019s size is absent. Quality, evaluated from this edited image alone: straight coherent box edges and folded tops, legible labels, smooth surfaces, and plausible shading and ground shadow; no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_a8ed039ea96c7e25f7a5",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The background and blue-cap motif remain, but the large carton shifts left and its wave and label proportions change; the small carton\u2019s front/side proportions and wave contour also change. Instruction: The right carton remains approximately a short carton beside a tall one, rather than being enlarged to match the large carton\u2019s height and size. The requested match is absent. Quality, evaluated from this edited image alone: coherent carton geometry, readable lettering, consistent stylized shading, and intact surfaces without noticeable artifacts; mild softness does not obscure meaning."
+    },
+    {
+      "blind_id": "case_70e431319cf293cf7b3b",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Although the white background and milk-carton theme remain, the large carton is dramatically elongated and raised, its cap and wave are redesigned, and the small carton reverses its visible side orientation and changes its front color, lettering, and wave graphic. Most major object details change. Instruction: The small right carton remains far shorter than the large carton; enlarging the already-large carton does not achieve the required small-to-large size match. Quality, evaluated from this edited image alone: the carton structures, smooth surfaces, and lighting are coherent, but small irregular white chips/halos interrupt the edges of the blue milk lettering, especially around the i and l."
+    }
+  ]
+}

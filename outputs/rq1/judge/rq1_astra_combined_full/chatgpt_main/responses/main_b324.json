@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b324",
+  "results": [
+    {
+      "blind_id": "case_6a2b957e294fb8c68fc6",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and gold/blue palette persist, but new opaque tan blocks and a filled gray center replace the plain open-stick appearance, and the sticks extend beyond the frame. Instruction: The two-square arrangement becomes a cross-like construction with five filled tiles; the expected result is exactly three matchstick squares after moving four existing sticks. This is a misinterpretation, not that rearrangement. Knowledge: No explanation was supplied; the mandatory coupling is the basis. Instruction failure ⇒ knowledge invalid. Quality: The flat colors and straight lines are legible, but clustered blue ends and block-covered intersections make several stick boundaries visibly incoherent."
+    },
+    {
+      "blind_id": "case_83760f791f0bd4c99544",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: White background, gold shafts, blue heads, open central square, outer frame and their relative placement remain visually unchanged. Instruction: No meaningful rearrangement is visible: the large perimeter and small center still form only two squares. Exactly four sticks should be relocated to produce three squares, so the instruction is not followed. Knowledge: No explanation was supplied; the mandatory coupling is the basis. Instruction failure ⇒ knowledge invalid. Quality: The schematic has coherent straight sticks, consistent colors and shadows, clear heads, and no noticeable generation artifacts; softness does not obscure its structure."
+    },
+    {
+      "blind_id": "case_05155b3113f7f7481b16",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white field and gold/blue styling remain, but the retained central square has visibly changed head placement, including doubled blue ends around the lower-right corner. Instruction: The entire outer perimeter disappears and only one small square remains. The expected edit relocates four sticks, preserves the available sticks, and yields three squares; removing the perimeter does not accomplish it. Knowledge: No explanation was supplied; the mandatory coupling is the basis. Instruction failure ⇒ knowledge invalid. Quality: The square outline is clear and its background clean, but the top shaft lacks a distinct head while the right and bottom shafts appear double-headed, a noticeable object-structure defect."
+    },
+    {
+      "blind_id": "case_579fd9938388d3059e94",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Background, gold/blue palette and schematic rendering are preserved, excluding the requested rearrangement; however, several shafts lose distinct blue heads, changing the stick appearance. Instruction: The perimeter and center are reconfigured into a grid-like structure. Four small closed squares are visible: upper-left and three stacked on the right. There are also additional stick segments, so this is not exactly three squares made by moving four of the original sticks; most exact requirements fail despite a relevant rearrangement. Knowledge: No explanation was supplied; the mandatory coupling is the basis. Instruction failure ⇒ knowledge invalid. Quality: Straight gold shafts and white spaces are readable, but multiple interior horizontal shafts lack distinct heads and some junctions merge, producing noticeable structural inconsistencies."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b260",
+  "results": [
+    {
+      "blind_id": "case_ff80ddb156d364e661a2",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The magenta teapot, white branding, left spout, right handle and white setting remain recognizable; the object is noticeably reduced in scale within the frame. Instruction: The edit shows a smaller frontal teapot with its full side inscription still facing us. A top view should show the lid and knob from above, with the spout and handle projected to opposite sides. No overhead conversion occurs, so the requested change is absent. Quality: Structure, ceramic surfaces, legible lettering, highlights and contact shadow are coherent, with no noticeable generation defects."
+    },
+    {
+      "blind_id": "case_e9af94c23857f7a4424c",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The teapot silhouette, left spout, right handle and white background remain, but the filled magenta ceramic becomes white with red outlines, the ground shadow disappears and the logo lettering changes. Instruction: The image becomes a line drawing with a more exposed lid, but still shows the broad front wall and upright knob. The expected top view would primarily show the lid face and foreshortened side appendages. Drawing is attempted, but the required overhead projection is largely missing. Quality: The line illustration has coherent main contours, but irregularly separated lettering and the malformed cube symbol are clear graphic defects; the plain white surfaces are otherwise clean."
+    },
+    {
+      "blind_id": "case_a072577fd4c09f948058",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The magenta outer body and white background remain, excluding the requested viewpoint change; the lid has changed from magenta to white and the branded lettering is visibly altered. Instruction: A directly overhead-looking lid and centered knob replace the frontal view. The expected projection should retain the same teapot, including an opposing spout and handle. The image supplies a top-view concept but omits the handle and gives the spout a different short tubular shape, making the reconstruction only partial. Quality: Smooth concentric lid surfaces, shading and the spout opening are coherent; the curved inscription has conspicuously malformed letters and a distorted logo, a noticeable semantic flaw."
+    },
+    {
+      "blind_id": "case_7ef950729f93f3bc257f",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The magenta ceramic finish, white inscription, left spout, right handle and white ground are retained, but the teapot is noticeably smaller in the composition. Instruction: The edit remains frontal, with a tall visible side wall, readable front branding and the knob in profile. An accurate top view would expose the lid face from above and foreshorten the body and appendages. The required viewpoint change is absent. Quality: The isolated teapot has coherent contours, clean handle and spout connections, legible branding and plausible glossy highlights and ground shadow, without noticeable artifacts."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+#!/bin/bash
+#PBS -N rq1_kris_pilot
+#PBS -q normal
+#PBS -P personal-tejasvit
+#PBS -l select=1:ncpus=4:mem=16gb
+#PBS -l walltime=02:00:00
+#PBS -j oe
+#PBS -o /home/users/ntu/tejasvit/scratch/reasoning-image-edit/logs/pbs_rq1_kris_pilot.log
+
+set -euo pipefail
+umask 077
+module purge
+module load miniforge3
+conda activate /home/users/ntu/tejasvit/scratch/conda_envs/step1x
+
+PROJECT=/home/users/ntu/tejasvit/scratch/reasoning-image-edit
+cd "$PROJECT"
+mkdir -p logs analysis/rq1/kris_judge/pilot
+export HF_HOME=/home/users/ntu/tejasvit/scratch/hf_cache
+export HUGGINGFACE_HUB_CACHE="$HF_HOME/hub"
+
+# Never print, hard-code, or check the key into Git.
+KEY_ENV="$HOME/.config/rq1/openai.env"
+if [[ ! -f "$KEY_ENV" ]]; then
+  echo "Missing API environment file: $KEY_ENV" >&2
+  exit 1
+fi
+# shellcheck disable=SC1090
+source "$KEY_ENV"
+if [[ -z "${OPENAI_API_KEY:-}" ]]; then
+  echo 'OPENAI_API_KEY not set in private environment file.' >&2
+  exit 1
+fi
+
+python -c 'import openai, datasets, PIL; print("Judge Python dependencies OK")'
+# Fail fast on blocked outbound HTTPS, invalid credentials or unavailable model.
+# Model retrieval does not submit image evaluations.
+python - <<'PYAPI'
+from openai import OpenAI
+client = OpenAI(timeout=20.0, max_retries=0)
+info = client.models.retrieve("gpt-4o")
+print("GPT-4o API preflight OK:", info.id)
+PYAPI
+echo "Job ID: $PBS_JOBID | Node: $(hostname) | Start: $(date)"
+
+python -u scripts/prepare_kris_rq1_eval.py \
+  --subset pilot \
+  --workspace analysis/rq1/kris_judge/pilot
+
+cd analysis/rq1/kris_judge/pilot
+
+# Only three selected examples are staged, one in each task family.
+# Each official script scores the three variants for its family.
+python -u metrics_common.py --models base thinking correction
+python -u metrics_knowledge.py --models base thinking correction
+python -u metrics_view_change.py --models base thinking correction
+
+echo "Pilot finished: $(date)"
+echo 'Scoring JSON outputs:'
+find results -name metrics.json -print
+cd "$PROJECT"
+python -u scripts/validate_kris_pilot.py

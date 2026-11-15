@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b200",
+  "results": [
+    {
+      "blind_id": "case_e31c9ce2fa348b8ae30a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The original pepperoni pizza remains recognizable, including the broad topping arrangement, but the crust outline is stretched into an oval and the cheese/herb surface and pepperoni textures are substantially redrawn. Requested background, lighting, typography and floating ingredients are excluded. Instruction: Detected an orange-yellow poster, central pizza, leaves and red droplets with a large black headline. Expected the exact title, floating cheese/herbs/sauce/chili and a steaming heat effect. The poster concept is present, but the headline is illegible nonsense and cheese strings and a convincing steaming effect are missing: partial compliance. Quality, edited image only: Structural coherence \u2718 because the headline contains malformed, unreadable words; naturalness \u2718 and texture fidelity \u2718 because the pizza surface is harshly blotched with blown-out cheese and fragmented green toppings; artifact-free \u2718 for these distracting distortions."
+    },
+    {
+      "blind_id": "case_daef2a8fba96b125e044",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The round crust, twelve pepperoni pieces and their arrangement, cheese pattern and scattered herbs are retained; poster placement, lighting, background and surrounding additions are instructed changes. No clear unrelated content change is visible. Instruction: Detected a centered pizza, orange-yellow radiant background, exact bold top title and floating leaves, cheese cubes, peppers and red droplets. Expected the same poster with cheese strings and a steaming, soft-light/heat-wave atmosphere. The principal layout and title are fulfilled, but cubes replace strings and hard radial rays provide little identifiable steam or heat distortion: partial compliance. Quality, edited image only: Structural coherence \u2714 with legible lettering and coherent food shapes; naturalness \u2714 within the stylized floating-food composition; artifact-free \u2714; texture fidelity \u2714. Moderate pizza softness does not obscure its contents."
+    },
+    {
+      "blind_id": "case_3857fad9be7d5612f2ef",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The original crust shape, pepperoni count and layout, and recognizable cheese/herb distribution are preserved. The requested poster layout, warm lighting, background and floating additions are excluded from consistency. No clear non-instructed change is identifiable. Instruction: Detected a central pizza under the correct two-line title, warm orange-yellow rays, floating herb leaves, chili pieces and cheese cubes. Expected bold title plus surrounding cheese strings, sauce droplets and steaming heat effects. The main poster concept and wording are present, but cheese strings and clearly identifiable sauce droplets are absent, and radiant streaks do not fully convey steam/heat waves: partial compliance. Quality, edited image only: Structural coherence \u2714 for the readable headline and intact food forms; naturalness \u2714 for a stylized advertising composition; artifact-free \u2714; texture fidelity \u2714. The soft pizza rendering remains semantically clear and is not penalized."
+    },
+    {
+      "blind_id": "case_64ceee5b7f2082ff4ac2",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pizza remains recognizable and retains the approximate pepperoni arrangement, but the round crust is re-shaped into a tilted oval, and the cheese/herb surface and individual pepperoni contours are visibly reconstructed. Requested lighting, background, typography and floating ingredients are excluded. Instruction: Detected an orange-yellow poster with a central pizza, wispy steam, radiant light, floating leaves and chili-like pieces. Expected the exact bold title and the specified floating food accents. The general design and hot-food atmosphere are present, but both headline lines are garbled and cheese strings and clear sauce droplets are missing: partial compliance. Quality, edited image only: Structural coherence \u2718 because the oversized headline consists of unreadable letter sequences; naturalness \u2718 and texture fidelity \u2718 because the cheese and herbs have harsh, fragmented, overprocessed patches; artifact-free \u2718 for the lettering and surface distortions. These are multiple distracting defects."
+    }
+  ]
+}

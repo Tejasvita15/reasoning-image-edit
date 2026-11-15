@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b022",
+  "results": [
+    {
+      "blind_id": "case_27cd61d1dcceb493859f",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background, two-column arrangement, five animal identities, tail identities and circle colors remain recognizable, but multiple drawings are shifted/rescaled (notably the dog and rhinoceros), contours are redrawn, and the original dot markers disappear. Instruction: Five horizontal double-headed lines are added; the expected result is cow-to-cow tail, squirrel-to-squirrel tail, lion-to-lion tail, rhinoceros-to-rhinoceros rear and dog-to-dog rear. Instead every line joins unlike animals in the same row, so most required matching is wrong despite one-to-one connections. Knowledge: These pairings conflict with the supplied front-to-corresponding-tail explanation. Instruction failure ⇒ knowledge invalid. Quality: Considered alone, the cartoon animals, colored circles and straight arrows are clean, coherent and readable; flat colors and outlines have no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_2a5c14a7f80c6460b154",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The original two-column layout becomes three columns with extra circles; animal fronts and rears are replaced, duplicated and distorted, and circle colors and positions change throughout. Instruction: Many colored arrows are added, but they branch, end in blank areas and connect within columns; there is no complete one-to-one matching of the five original fronts to their corresponding tails. Most required connections are poorly implemented. Knowledge: The supplied explanation requires matching each animal front to its own rear, which the duplicated and mixed animal fragments and ambiguous connections do not establish. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, multiple animals have fragmented bodies and fused faces, circles contain mixed fragments, and arrows dissolve into stray strokes; these are major structural and semantic failures."
+    },
+    {
+      "blind_id": "case_3b66815fba0a7ec77863",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Animal identities, colored circle backgrounds and the broad two-column arrangement remain, but numerous circles and animals shift downward or change size, the animal outlines are redrawn, and the original connection dots vanish. Instruction: Five roughly horizontal arrows appear. Correct completion would connect each front to its corresponding rear across different rows; instead cow connects to rhinoceros, squirrel to dog, lion to cow, rhinoceros to squirrel and dog to lion. All five pairings are wrong, so matching is poorly implemented. Knowledge: Every connection violates the supplied explanation about corresponding animal tails. Instruction failure ⇒ knowledge invalid. Quality: The image alone has clear, coherent cartoon shapes and flat colors with no melting or duplication. A small kinked stray extension at the left end of the middle arrow is a minor drawing imperfection."
+    },
+    {
+      "blind_id": "case_158332d14fe1d52fa218",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Nearly all animal drawings and several circle contents/colors are replaced or distorted; fronts and tails are rearranged, with duplicated gray animal fragments and lost original identities. The white background and general two-column organization survive. Instruction: Thick blue vertical rails and downward arrows connect objects within each column, leaving the central space empty. The requested one-to-one left-to-right correspondence is absent, a complete misinterpretation of the task. Knowledge: The supplied front-to-corresponding-tail rule is not represented. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the upper-left animal is fragmented into floating blotches, multiple gray animal forms are melted and duplicated, and several circular motifs have incoherent anatomy; major structural failures dominate."
+    }
+  ]
+}

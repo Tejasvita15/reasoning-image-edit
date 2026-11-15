@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b109",
+  "results": [
+    {
+      "blind_id": "case_539e2254cfcff164e065",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The rounded body, short left spout, oval right handle, lid and knob, and distinctive red glaze patches are retained; placement, tray, background and lighting are requested changes. Instruction: A textured ceramic tray, paper-white backdrop and upper-right smoke were added. The intended result is the same pot slightly right of an ink-wash field, with extensive gray/white negative space, faint smoke and upper-left light. The tray, palette and subdued still-life treatment fit, but the dark billowing smoke is conspicuous rather than faint, the pot remains centrally packed, and directional lighting is weak: partial compliance. Quality: Structure, naturalness, artifact absence and texture fidelity are satisfactory; pot, tray rim and contact shadows are coherent, with no noticeable generation defect. Knowledge: Not applicable."
+    },
+    {
+      "blind_id": "case_328bb73011d7ad706f28",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pot retains its basic left-spout/right-handle arrangement, but its body is rounder, lid flatter, knob thicker, spout longer and red glaze pattern redrawn; several non-requested identity details change. Instruction: A ceramic tray, broad gray background, upper-right steam and strong upper-left lighting appear. The target is the original pot slightly right of an ink-wash background with rice-paper white space, coarse ceramic support and subdued gray/red/brown tones. Much of this still-life arrangement is present, but the background reads as a plain studio wall rather than ink wash/rice paper, and the original vessel's form is not faithfully carried through: partial compliance. Quality: Structure, natural lighting and shadows, artifact absence and surface textures are satisfactory; the handle joins, lid, tray perspective and woven mat are coherent. Knowledge: Not applicable."
+    },
+    {
+      "blind_id": "case_642402a3c0ce4dee9fe6",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The original pot's body silhouette, short spout, loop handle, domed lid, round knob and recognizable red/gray glaze distribution remain intact; the added tray, backdrop and smoke are requested changes. Instruction: The pot now sits on a rough ceramic tray against textured off-white paper with smoke above its right side. Ideally there would be a spacious pale-gray ink wash, slightly rightward focal placement, faint smoke and clear upper-left light. The vessel, tray and muted palette fit, but the large dark smoke ribbons dominate the upper space, the composition is tightly centered and pale-gray ink wash is not evident: partial compliance. Quality: Structure, naturalness, artifact absence and texture fidelity are satisfactory; the pottery, continuous elliptical tray rim and grounded shadows are visually coherent. Knowledge: Not applicable."
+    },
+    {
+      "blind_id": "case_6f0ebd41aa2a5c931734",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Left spout, right loop handle and broad ceramic identity persist, but the body is rounder, spout reshaped with a newly visible mouth, lid flattened, and red glaze pattern substantially replaced; multiple non-requested details change. Instruction: A brown ceramic tray, gray textured background, upper-left illumination and rising upper-right steam have been added. The expected result preserves the vessel within spacious pale-gray/rice-white ink wash, with a coarse tray and only a faint wisp. The lighting, tray and subdued palette fit, but the backdrop looks like fabric or a studio wall, the steam is extensive, and the vessel's original form is altered: partial compliance. Quality: Structure, natural appearance, artifact absence and texture fidelity are satisfactory; body, lid, handle, tray and mat have coherent geometry and convincing highlights and shadows. Knowledge: Not applicable."
+    }
+  ]
+}

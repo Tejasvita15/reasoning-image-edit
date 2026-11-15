@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b134",
+  "results": [
+    {
+      "blind_id": "case_3760e9210961769c83d7",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and left example color order remain, but the right ice cream is substantially enlarged and widened, its dividers change, and the two five-square keys become a longer continuous row with additional squares. Instruction: The right ice cream is filled brown, lime, yellow, green and red, whereas its original key requires cyan-blue, orange, lime green, yellow and brown from top to bottom. Most required colors/positions are wrong despite filling the intended object. Knowledge: The supplied explanation requires top-to-bottom correspondence with the key, which is absent. Instruction failure ⇒ knowledge invalid. Quality, judged from this edit alone: Recognizable ice creams, sticks, square swatches and clean background are coherent; the missing black separator between the lime and yellow strips is a small inconsistency in the outlined illustration."
+    },
+    {
+      "blind_id": "case_2305a440e45f76b246ae",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The left colored example, both sticks, five-part right outline, both five-square keys and white background retain their content and arrangement. Instruction: The formerly blank right layers are filled brown, brown, blue, yellow and green; the required order is cyan-blue, orange, lime green, yellow and brown. Only the yellow layer occupies its correct position, so most requested changes are incorrect. Knowledge: The explanation specifies matching the key below, which this sequence fails to do. Instruction failure ⇒ knowledge invalid. Quality, judged from this edit alone: Both ice creams have coherent silhouettes, neatly bounded bands and attached sticks; square swatches and flat coloring are clear, without noticeable structural or rendering artifacts."
+    },
+    {
+      "blind_id": "case_c4597b193767916f2639",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The left example, color keys, sticks and plain background remain recognizable and in their established arrangement; the right ice cream outline and partitions are conspicuously reconstructed into a broad overlapping shape. Instruction: The right object gains red, orange, yellow, green, purple and red regions instead of five layers ordered cyan-blue, orange, lime green, yellow and brown. Coloring is attempted but most requested layer colors and their placement are wrong. Knowledge: The visible sequence does not correspond to the lower key as the explanation requires. Instruction failure ⇒ knowledge invalid. Quality, judged from this edit alone: The right ice cream has conflicting overlapping contours, offset rounded ends and cross-cutting internal lines that fragment its bands, producing multiple distracting structural errors; the left ice cream and swatches are otherwise coherent."
+    },
+    {
+      "blind_id": "case_5ed3dd1684a5b8cc9f02",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The left example, sticks, background and both five-square keys remain unchanged in content and arrangement. The first divider within the right ice cream is removed, merging two original compartments into one enlarged top region. Instruction: The right object is colored brown, blue, yellow and green across four visible regions, rather than preserving and filling five layers cyan-blue, orange, lime green, yellow and brown. Most of the required pattern is therefore missing or incorrect. Knowledge: The supplied explanation requires the layer order to match the five-square key below, which the four-color result does not satisfy. Instruction failure ⇒ knowledge invalid. Quality, judged from this edit alone: The rounded ice cream silhouettes, solid color areas, attached sticks and square swatches are visually coherent; mild grain does not obscure shapes or introduce semantic ambiguity, and no noticeable structural artifact is present."
+    }
+  ]
+}

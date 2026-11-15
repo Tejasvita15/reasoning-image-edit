@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b143",
+  "results": [
+    {
+      "blind_id": "case_8e20f34800954c11dbf4",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The fruit-count change is excluded; the remaining fruit are reoriented into a much more vertical fan, their contours and stem shape change, and the checkerboard becomes visibly warped and streaky. Instruction: Three bananas remain rather than the expected two; the count change is not achieved. Quality: The bananas have coherent bodies and shading, but the checkerboard is visibly distorted and smeared, especially above and between the fruit. Knowledge is not applicable."
+    },
+    {
+      "blind_id": "case_52c4a0ce64f789b8145f",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested fruit-count alteration, the gray-and-white checkerboard background and framing remain visually consistent. Instruction: All bananas disappear, leaving zero instead of the expected two; this does not implement the requested count. Quality: The checkerboard is coherent and readable, with a small faint pale streak near the upper central area; there are no malformed objects. Knowledge is not applicable."
+    },
+    {
+      "blind_id": "case_db3625a947aafdc36936",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding fruit-count changes, the common brown stem is split into two separated caps, the arrangement of the necks changes, and the checkerboard texture becomes irregular. Instruction: Three full banana bodies remain, with an additional yellow neck behind them; the expected unambiguous two bananas are absent. Quality: The rear yellow neck ends ambiguously into the overlapping bodies, making the fruit connections structurally unclear; surfaces and overall lighting are otherwise coherent. Knowledge is not applicable."
+    },
+    {
+      "blind_id": "case_312b68eb23b1b1b232fe",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding fruit-count changes, the bunch is smaller and repositioned, the necks and brown stem are reshaped, and new brown blemishes and smoother shading alter the peel appearance; the checkerboard background remains consistent. Instruction: The image still shows three bananas, whereas successful editing would show exactly two; the requested count is not achieved. Quality: Three distinct fruit bodies, their shared stem, peel blemishes, shading, and outlines are coherent, with no noticeable generation artifacts. Knowledge is not applicable."
+    }
+  ]
+}

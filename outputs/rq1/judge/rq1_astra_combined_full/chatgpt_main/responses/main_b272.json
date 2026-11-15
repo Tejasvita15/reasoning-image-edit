@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b272",
+  "results": [
+    {
+      "blind_id": "case_3b7371cc710540f571f3",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The six-tile layout, white faces, black outlines and blue patterned background remain recognizable, but existing dot counts change across several tiles: upper-left becomes 4/5 instead of 2/3, upper-middle becomes 3/3 instead of 3/1, upper-right becomes 5/5 instead of 5/4, and both lower-left and lower-middle gain dots. Instruction: Both red question marks remain; neither requested dot group is drawn. The expected replacement is three dots above and six below, so the requested edit is absent. Knowledge: The supplied addition rule requires 1+2=3 above and 5+1=6 below; neither answer is shown. Instruction failure ⇒ knowledge invalid. Quality: Viewed independently, the diagram has coherent rounded rectangular tiles, clear isolated dots and question marks, orderly spacing, and a consistent patterned background without noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_70a431769b2685b4a65a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The two-row tile layout, black borders, white interiors and blue patterned backdrop persist, but many protected dot groups are changed: upper-left is 5/5, upper-middle 2/3, upper-right 5/5, lower-left 5/4 and lower-middle 5/4, rather than the original counts. Instruction: The target tile still contains two red question marks, with no replacement dot groups. Correct compliance would draw three dots above and six below; neither change occurs. Knowledge: The explanation requires the respective sums 1+2=3 and 5+1=6, which are not supplied. Instruction failure ⇒ knowledge invalid. Quality: Independently, all six tile outlines and dividers are coherent, dots remain distinct and legible, red symbols are recognizable, and the flat illustration has no distracting visual artifacts."
+    },
+    {
+      "blind_id": "case_decbdac1409173020599",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The original tile positions, outlines, dividers and existing dot counts are retained, but a conspicuous grainy, mottled texture changes the image surface, particularly the blue background. Instruction: Both question marks remain in the lower-right tile; the expected three-dot upper group and six-dot lower group have not been drawn. Knowledge: Neither sum specified by the explanation, 1+2=3 or 5+1=6, appears at its question mark. Instruction failure ⇒ knowledge invalid. Quality: Independently, the tile structure and symbols are readable, but pronounced multicolored grain and rough, jagged edges visibly degrade the background and contour finish; this is distracting texture corruption, not simply low resolution."
+    },
+    {
+      "blind_id": "case_392480c25af03e29971d",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The blue patterned background, six-tile layout, white faces, black borders and dividers, and all pre-existing dot counts and placements remain visually consistent with the source. Instruction: The lower-right tile still shows both red question marks and no answer dots. The expected edit is three dots in its upper half and six in its lower half, so the requested modification is absent. Knowledge: The supplied rule requires 1+2=3 above and 5+1=6 below, neither of which is represented at the target locations. Instruction failure ⇒ knowledge invalid. Quality: Independently, the graphic has intact rounded tile borders, clean dividers, distinct circular dots, readable red question marks and a coherent blue patterned backdrop; mild softness does not impair meaning."
+    }
+  ]
+}

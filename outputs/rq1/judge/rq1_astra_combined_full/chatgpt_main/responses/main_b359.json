@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b359",
+  "results": [
+    {
+      "blind_id": "case_f5f34f0d58fbfdd18ba1",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The three drawers, round metal knobs, molded top/base and square legs remain recognizable and proportionate; the added foreground rug and white emblem are two unrequested additions. Instruction: The white cutout becomes a warm wall/oak-floor room with linen and angled sunlight, but the cabinet remains almost centered with little right-side blank space. The expected thin bottom-right caption instead appears bold and misspells preserving as prespeserving. Quality: Cabinet structure, lighting and fabric/wood textures are coherent; the malformed caption word and unexplained white emblem are visible graphic flaws."
+    },
+    {
+      "blind_id": "case_0b839c78c256a32eab2d",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray finish and three projecting knobs remain, but the cabinet is turned edge-on, hiding its drawer fronts, and its body becomes an extremely thin upright slab with a single visible leg. Instruction: A warm white wall, wood floor, right curtain and angled sunlight replace the cutout background, as expected, but the main object is presented as a narrow profile near center and the required bottom-right sentence is absent, replaced by gibberish. Quality: Structure is problematic because the very thin tower has unclear storage volume; both upper-left and lower-right lettering are garbled. Wall, curtain and floor textures are otherwise coherent."
+    },
+    {
+      "blind_id": "case_0930351ae8b1e4514477",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Three gray drawers, metal knobs and molded trim remain, but the frontal view changes to a strong three-quarter view with a large paneled side, and the knob positions are visibly leftward on the drawer fronts. Instruction: The only substantial change is the cabinet viewpoint; the expected left-positioned cabinet in a warm wall/oak-floor scene with curtain, angled sunlight and exact bottom-right title is missing. The white product cutout remains. Quality: The standalone cabinet has coherent perspective, clearly separated drawer fronts, plausible knobs and legs, clean edges and consistent painted texture; no noticeable generation artifact."
+    },
+    {
+      "blind_id": "case_e6b509deebeec4127c01",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The original three-drawer cabinet retains its front-facing shape, centered round knobs, molded top/base and square legs; changes to placement, setting and illumination are requested. Instruction: The cabinet is left of center at a white wall and wood floor, with linen at right and angled sunlight. The expected thin sans-serif exact sentence is instead bold and reads buso preserving, omitting the proper but also phrase. Quality: Cabinet geometry, contact shadows and curtain texture are coherent; the visibly malformed word buso creates a clear semantic flaw in otherwise legible typography."
+    },
+    {
+      "blind_id": "case_419ecf123138d3808366",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Three drawers with centered round metal knobs, the gray painted body, molded edges and square legs retain the source design; room and lighting changes are authorized. Instruction: The edit introduces the requested wall/floor junction and right linen curtain, but the cabinet is nearly centered, right blank space is narrow, and strong angled sunlight is not clearly established. The bold title reads storing storms instead of storing items and is not thin-line type. Quality: Furniture, folds, floor grain and soft shadows are coherent, but the conspicuous storing storms wording is a clear semantic text defect."
+    },
+    {
+      "blind_id": "case_d8a30fda96287dc0b349",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Drawer count, centered round knobs, gray finish and square legs remain consistent, but the top molding/upper surface has a noticeably uneven, slanted shape compared with the straight source top. Instruction: The cabinet is left of center in a warm wall/wood-floor room with a small right curtain and angled sunlight. The expected exact thin sans-serif caption instead uses italic type and reads Not only storings, omitting items. Quality: Room perspective, fabric and wood textures, drawer construction and lighting are broadly coherent; the conspicuously malformed storings phrase is a clear semantic flaw."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b209",
+  "results": [
+    {
+      "blind_id": "case_8942f959205ab3851990",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: White cells, restrained grid styling and original numeral appearance are replaced by multicolored, densely patterned cells; the bottom-left given 2 becomes 6. Instruction: All blanks contain digits, but most additions are incorrect, including 9 in the top-right and bottom-right and 5 in row 3 column 2; completing the preserved puzzle requires rows 4312 / 1234 / 3421 / 2143. Knowledge: The explanation is blank; the visible out-of-range digits and repetitions contradict task-implied 4x4 Sudoku logic. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: The rectangular grid and large digits remain recognizable, but dense multicolored flecks and overlapping miniature marks across the cells severely clutter the number faces and background."
+    },
+    {
+      "blind_id": "case_67bfda4a5cdba9171a74",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background, four-by-four grid with dark central dividers, and all eight given digits retain their appearance and positions. Instruction: Every blank is filled, but only the two top-row additions are correct; the 5 in row 2, 1 and 3 in row 3, and repeated 2 in the bottom row do not complete the puzzle appropriately. Expected rows are 4312 / 1234 / 3421 / 2143. Knowledge: No explanation was supplied; the visible 5 and repeated row/column entries violate task-implied Sudoku logic. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: Straight grid structure, clean white cells and legible, well-spaced numerals form a coherent artifact-free diagram; softness causes no semantic ambiguity."
+    },
+    {
+      "blind_id": "case_a2723d0cdda384eb8886",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The original white cells, pale grid, central dark dividers and eight given digits remain visually intact. Instruction: Only three of eight blanks receive numbers: 1 at row 1 column 3, 0 at row 3 column 1, and 3 at row 3 column 2. Five blanks remain, and the latter two additions are wrong; the expected completed rows are 4312 / 1234 / 3421 / 2143. Knowledge: The supplied explanation is blank; visible incompleteness and the 0 conflict with task-implied 4x4 Sudoku logic. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: The sparse grid is orderly, every displayed digit is readable, the background is clean, and there are no noticeable malformed strokes or rendering artifacts."
+    },
+    {
+      "blind_id": "case_705f6e96201d58161d70",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Original clue values, grid placement and white background are retained; minor colored speckling appears around existing numeral and grid edges. Instruction: All cells are filled, but most inserted values are wrong: the top-right 3, row 2 rightmost 2, row 3 leftmost 4 and rightmost 2, and bottom-right 4. Correct completion requires rows 4312 / 1234 / 3421 / 2143. Knowledge: The explanation is blank; repeated values in every row visibly violate task-implied Sudoku logic. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: The grid is regular and all digits are clear, with minor colored edge speckling around several numeral strokes and rules as the visible rendering imperfection."
+    },
+    {
+      "blind_id": "case_eed1ac7fb2bf667aae75",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Plain white cells and fine rules become cyan framed tiles, gold dividers and a dark decorative background; numeral styling changes and the bottom-row given 1 is replaced by 9. Instruction: The blanks are populated, but the added 3, 9, 5, 6, 9, 7 and 8 do not appropriately complete the original Sudoku; expected rows are 4312 / 1234 / 3421 / 2143. Knowledge: No explanation was supplied; out-of-range digits and repeated 9s contradict task-implied 4x4 Sudoku logic. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: The colorful tile board is neatly structured, with consistent nested frames, cleanly rendered legible numerals and a coherent geometric background, without noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_d470205967bf6253b21d",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The original given digits, pale outer grid, dark central rules and white cells are preserved, with minor colored speckling introduced along clue and rule edges. Instruction: Every blank is filled, but five of eight added digits are incorrect, including the top-right 3, row 3 entries 7 and 6, and bottom-row additions 1 and 4. The expected completed rows are 4312 / 1234 / 3421 / 2143. Knowledge: The explanation is blank; 7 and 6 lie outside the task-implied 1–4 domain, and duplicated row values are visible. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: All digits and cell boundaries are readily readable and structurally coherent; faint colored noise along existing strokes and rules is a minor artifact."
+    }
+  ]
+}

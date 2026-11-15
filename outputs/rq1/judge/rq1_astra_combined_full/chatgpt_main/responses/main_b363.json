@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b363",
+  "results": [
+    {
+      "blind_id": "case_ab3cc86056c46f13f679",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The five-finger pose and two palm panels remain recognizable, but the glove is repositioned and reduced within the frame, the visible wrist is removed, and the white background becomes gray with a new lower shadow. Instruction: The visible change is presentation and surface refinement; a completed glove should cover the exposed thumb opening with continuous material. That opening remains fully exposed, so the requested completion is absent. Quality: Structure, lighting, surface textures and edges are coherent; no noticeable generation artifact is visible."
+    },
+    {
+      "blind_id": "case_e6957c6c3e1c50cb6dfc",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pose, white background, wrist and panel layout are retained, but finger and palm surface markings are visibly redrawn with stronger seams, and the small palm emblem has a different shape. Instruction: Seams and texture become more pronounced, while the thumb opening remains uncovered. A completed glove should close this missing-material area; no such completion occurs. Quality: The glove has coherent five-finger construction, plausible stitched edges, worn material and lighting, without a noticeable structural or texture artifact."
+    },
+    {
+      "blind_id": "case_d1ec0aa24f1723706837",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Pose, background, wrist and main glove outline are preserved, but new black patches cover two fingers and two palm regions that were not missing material. Instruction: Added reinforcement patches do not close the exposed thumb hole. Expected completion would restore continuous material over that hole; the required change is absent. Quality: The glove anatomy, illumination and basic fabric remain coherent, but the large black palm patch has a slightly flat, pasted-on appearance along its left edge; otherwise its seams and material are readable."
+    },
+    {
+      "blind_id": "case_8608740ef979e1c5ffa3",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Pose, background, cuff, wrist and original palm-panel layout are preserved, but new peeling areas noticeably alter several fingers and the left palm surface. Instruction: The edit adds torn and peeling material while leaving the exposed thumb opening unchanged. A completed glove should instead have continuous coverage at the missing thumb section, so the instruction is not fulfilled. Quality: Viewed independently, this is a coherent worn glove with plausible peeling coating, intact five-finger structure, consistent lighting and legible fabric and stitching; no clear generation defect is evident."
+    }
+  ]
+}

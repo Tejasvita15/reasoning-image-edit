@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b202",
+  "results": [
+    {
+      "blind_id": "case_c23738b30346463ef942",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, pig face and painted eyes, right ear, feet, pose and ground shadow remain visually consistent; additions within the missing shell are excluded. Instruction: A threaded neck and shiny patches have appeared inside the opening. Completing the jar should close the missing body into a continuous vessel; the large broken side and jagged rim remain exposed, so most of the repair is missing. Quality: Structure/artifacts problematic: the threaded neck ends abruptly against the face and sits ambiguously within the open shell, with disconnected-looking reflective patches below. The ceramic face, lighting and surrounding background are otherwise coherent."
+    },
+    {
+      "blind_id": "case_8e600dabe48fae598916",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, right ear, feet and overall placement remain consistent, but the existing face is visibly redrawn, including the eye outline/lashes and snout contours. The new side shell itself is excluded. Instruction: The hollow missing side is now filled with a curved cream panel, as expected for a completed jar, but conspicuous seams and a small chipped-looking notch at its upper join leave the repair imperfect. Quality: The pig, lighting and ceramic highlights are readable and natural, but the angular inset panel and dark lower seam make the body look poorly joined; the panel/face junction is visibly awkward."
+    },
+    {
+      "blind_id": "case_930ecef310b5ff6e51d1",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The surviving face, painted eyes, snout, right ear, feet, pose and white background remain consistent. The rebuilt body, added ear and side closure, including their local shadows, belong to completion of the missing portion. Instruction: The broken cavity is replaced by a continuous rounded body with a fitted circular side lid and matching rim. A complete vessel was expected, and the visible gap is fully closed while retaining the pig jar. Quality: Structure, lighting, artifacts and texture are satisfactory: the circular lid has a coherent rim and perspective, the pig features are well formed, and glossy ceramic highlights and contact shadows look natural."
+    },
+    {
+      "blind_id": "case_00b61b6959c1c10c5827",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The existing painted face, snout, right ear, feet, pose, white background and ground shadow remain visually consistent. The restored rounded shell and reconstructed missing-side features are within the requested completion. Instruction: The missing body becomes a continuous cream ceramic surface with a restored near ear and a small rear tail. The expected intact pig-shaped jar is present without an open break or unfinished seam. Quality: Structure, naturalness, artifact absence and texture are satisfactory: the rounded body and facial features are coherent, glaze highlights follow the surfaces, and the feet sit naturally on the softly shadowed ground."
+    }
+  ]
+}

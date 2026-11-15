@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b087",
+  "results": [
+    {
+      "blind_id": "case_fac2789c33ced9772100",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The close frontal composition, pink polish and teal sandal remain, but the strap curve and cream sole rim are reshaped, and the pavement reflection texture changes. These non-requested changes warrant 2. Instruction: Toe contours are redrawn, but seven separate polished toes remain. A corrected foot should have five anatomically plausible toes; the unreasonable extra digits are not corrected, giving 1. Quality, edited image alone: Structure is problematic because seven elongated toes fan across the forefoot (3); lighting, skin texture, nail surfaces and sandal construction are otherwise coherent, with no obvious ghosting."
+    },
+    {
+      "blind_id": "case_4011e1e6a8ab9dd4f80e",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Teal footwear, pink nails and a rainy pavement setting remain recognizable, but the sandal strap/sole geometry and background rain/reflection pattern are visibly changed (2). Instruction: The digits are rearranged and the big toe becomes broad and bulbous, yet six smaller toes plus the big toe remain. The expected result is a normal five-toed foot, so the requested anatomical correction is absent (1). Quality alone: Seven toes and an oversized rounded big toe create clear anatomical flaws (3); lighting, material texture and contact with the sandal remain visually coherent, without obvious duplicated scene objects."
+    },
+    {
+      "blind_id": "case_7bf92e1fd7424d1ad4d4",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The framing, polish color and teal sandal theme remain, but visible falling rain is removed, the sandal strap sits lower and its outline changes, and the pavement texture is redrawn (2). Instruction: Toe lengths and contours change, while seven distinct nails and toes remain. A successful correction would yield five plausible toes; no removal of the extra digits occurs (1). Quality alone: The seven-toed forefoot is a clear structural defect (3). Skin, stitching, polish, lighting and ground perspective are otherwise coherent, without conspicuous blending artifacts."
+    },
+    {
+      "blind_id": "case_2d8a2dbe6a69d6c0b708",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The central foot, pink polish and teal footwear retain their general appearance. However, rain streaks disappear and the strap and cream footbed outlines change, with altered wet-ground reflections (2). Instruction: The toes are reshaped but still number seven. The expected correction is five anatomically plausible toes, and the defining anatomical error remains uncorrected (1). Quality alone: Seven long toes are a noticeable semantic/anatomical flaw (3); the skin and sandal textures, lighting and pavement perspective are otherwise consistent, with clean object boundaries."
+    },
+    {
+      "blind_id": "case_09e2a17a50791aca836f",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Pink polish, teal sandal and wet pavement remain, but the strap is narrower and differently contoured, skin texture/color changes, and the background lights and ground reflections are redrawn (2). Instruction: The forefoot and toes are remodeled, yet seven polished toes remain visible. The expected five-toed anatomy is not produced, so the requested correction fails (1). Quality alone: Extra toes and the elongated fingerlike lesser digits make the anatomy visibly implausible (3). Light, skin/nail texture, sole construction and reflective pavement otherwise form a coherent image without obvious ghosting."
+    },
+    {
+      "blind_id": "case_1fcec5c30b5486198576",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The frontal pose, pink polish, teal footwear and rainy setting remain. The skin is visibly paler and smoother, the cream sole rim and strap outline are reshaped, and pavement highlights change (2). Instruction: Digit contours are softened and redrawn, but the foot retains seven separate toes. Correcting the unreasonable anatomy should produce five natural toes, and this central change is absent (1). Quality alone: The seven-toed foot is a clear structural error (3); smooth skin, glossy nails, sandal seams and rainy lighting are otherwise coherent, without obvious object fusion or ghosting."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b258",
+  "results": [
+    {
+      "blind_id": "case_1c75940e0da2f54ba828",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray surface and 20-denomination coin motif remain, but existing coins are redistributed across the frame, including cropped side coins, and their worn surface detail is redrawn; these exceed the requested count change. Instruction: Seven coins become ten visible coins (including three partly cropped at the sides); the expected result is exactly eight. Increasing the number addresses the request partially, but the count is wrong. Quality: Structure, naturalness, artifact freedom and texture fidelity are satisfactory: circular metal discs, coherent embossed markings, convincing rim highlights and contact shadows; no noticeable generation defects."
+    },
+    {
+      "blind_id": "case_2ec7a111b5bc3831bb72",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray tabletop, coin denomination and upper two-row arrangement remain recognizable. Lower existing coins are relocated into wider rows and coin surface markings and tonal detail are altered, beyond the count change. Instruction: The seven-coin arrangement becomes ten coins, in rows of two, two, three and three. Exactly eight are required, so the quantity change is only partially compliant. Quality: Structure, naturalness, artifact freedom and texture fidelity are satisfactory: distinct round coins, readable 20 markings, plausible metallic wear and consistent contact shadows with no noticeable defects."
+    },
+    {
+      "blind_id": "case_8f08f69a24d2c07f997b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray background and seven-coin positions are preserved, but several coin surfaces are substantially smoothed and redrawn, especially the two upper coins; metallic coloration and rim highlights also change. Instruction: Surface appearance changes but the count remains seven (two, two, two, one); an eight-coin result requires an additional coin. The requested numerical edit is absent. Quality: Disc shapes and contact shadows are coherent, but texture fidelity and artifact freedom are problematic: the upper-left numeral and relief fade away, while the upper-right decorative relief dissolves into a broad blank area. These are noticeable localized surface defects."
+    },
+    {
+      "blind_id": "case_0473c0b1945de570852d",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Coin placement, denomination and gray background layout remain recognizable, but the tabletop gains conspicuous grain and colored speckling, while coin surfaces and embossed lines acquire widespread harsh, distorted texture. Instruction: There are still seven coins in rows of two, two, two and one. The expected eight-coin scene is not produced; only appearance changes, so the count instruction is not followed. Quality: Overall coin shapes and shadow direction remain intelligible, but artifact freedom and texture fidelity fail across the image: pervasive mottled color noise, jagged rims and broken-looking embossed lines create multiple distracting degradations."
+    }
+  ]
+}

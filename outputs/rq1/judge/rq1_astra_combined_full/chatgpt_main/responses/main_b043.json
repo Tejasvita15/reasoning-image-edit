@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b043",
+  "results": [
+    {
+      "blind_id": "case_08f952335e742cddc7a1",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The red apple, its lobed contour, rightward stem, orange upper-right patch and principal highlights remain recognizable; the stem tip has a small shape change. Requested foliage, dew, background and poster layout are excluded. Instruction: The white product image becomes a centered apple poster with dew-covered leaves, sweeping vines, a cream/green gradient and the exact handwritten headline. A fully compliant poster would also give the vines an elegant ink-like character; these are conspicuously thick, dimensional green stalks, a minor stylistic omission. Quality: Structure, legible typography, lighting, droplet forms and surface textures are coherent; no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_e0665751d6eab310532e",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The apple retains its red identity, rounded contour, tilted stem and orange upper-right area, but its skin pattern is visibly re-rendered with stronger, coarser speckling/highlights. Poster scale, added vegetation and background are excluded. Instruction: A central apple, outward leafy ink-like branches, droplets and green-to-cream gradient are added. The expected poster also requires the specified readable handwritten sentence; the top lettering is instead nonsensical, leaving partial compliance. Quality: The apple and gradient are coherent, but the large headline is garbled and multiple foliage/droplet regions break into irregular fragments, causing distracting semantic and structural errors."
+    },
+    {
+      "blind_id": "case_bd6ec57419038bad4131",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The red apple's contour, right-leaning stem and upper-right yellow patch are recognizable, but the skin is re-rendered with markedly enlarged, strongly contrasting spots and highlights. Requested layout, leaves and background changes are excluded. Instruction: The image becomes a centered apple poster with curling green foliage and a green/light gradient. Full compliance requires the exact top sentence, morning dew and a gentle botanical treatment; the top and added bottom text are nonsensical, and dew is not clearly realized on the leaves. The main concept is present but incomplete. Quality: The fruit shape is coherent, but prominent garbled lettering at both top and bottom and irregular detached plant-like blobs create multiple distracting errors."
+    },
+    {
+      "blind_id": "case_d495416b625912f99623",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The apple's overall red shape, tilted stem, orange upper-right patch and highlight placement are retained, while its skin detail is visibly smoothed and simplified. Requested vines, dew, background and poster arrangement are excluded. Instruction: The edit adds a centered apple, fine sweeping green vines, leaves, dew and a soft cream/green background. The expected exact handwritten sentence is not achieved: 'mind' appears twice and the phrase is awkwardly split with a duplicated 'mind and' segment. This makes the poster only partially compliant despite its botanical treatment. Quality: Apple form, leaf shapes, droplets and soft lighting are coherent. The conspicuous duplicated, awkwardly arranged headline is a clear semantic/layout flaw; the moderate surface softness does not itself cause semantic loss."
+    }
+  ]
+}

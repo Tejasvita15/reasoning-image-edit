@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b123",
+  "results": [
+    {
+      "blind_id": "case_283b3fde5faea30ef1f7",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, three-column/two-row layout, round plate silhouettes and inner-rim highlights are preserved; the ceramic surface and rim pattern have visibly coarser, mottled texture. Instruction: Six plates remain, with no count reduction. The expected result is exactly two plates; the requested change is absent (1). Quality assessed alone: Coherent circular dishes, spacing and lighting; slight speckled texture blending across the white surfaces is a minor imperfection (4)."
+    },
+    {
+      "blind_id": "case_1329b1a30de463713ae3",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white setting and six-position grid are recognizable, but broad cast shadows have been added beneath the plates, and the rim texture and inner-well contours have changed. Instruction: The image still contains six plates; exactly two are expected, so the count change is wholly absent (1). Quality assessed alone: Round shapes, regular textured rims, smooth wells and soft shadows are coherent and natural, without noticeable artifacts (5)."
+    },
+    {
+      "blind_id": "case_99e91921e33f6a153e41",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the instructed plate-count modification and its correctness, the plain white background is preserved without unrelated additions. Instruction: All six plates disappear, leaving zero; the expected result is two visible plates. Complete erasure misinterprets the requested count (1). Quality assessed alone: The visible image is a clean, nearly uniform white field without discernible distortions, seams or corrupt textures; no expected subject is imported into this metric (5)."
+    },
+    {
+      "blind_id": "case_30c11e59047b09ba06c3",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background remains, but the regular grid is replaced by an overlapping staggered arrangement, plate sizes vary, and the subtly patterned pale rims become largely smooth darker gray rims. These non-count changes affect most major scene details. Instruction: Five plates are visible, including the partially occluded upper-right plate; the expected count is two. A reduction occurs but most required removal is missing (2). Quality assessed alone: The five dishes have coherent ellipsoidal rims and wells, smooth ceramic shading and intelligible overlap without visible breaks or malformed joins (5)."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "repeat_b002",
+  "results": [
+    {
+      "blind_id": "case_e6c53d52afc806d0f700",
+      "status": "unreadable",
+      "consistency_score": null,
+      "instruction_score": null,
+      "quality_score": null,
+      "knowledge_score": null,
+      "rationale": ""
+    },
+    {
+      "blind_id": "case_72cda3a4056f851ae733",
+      "status": "unreadable",
+      "consistency_score": null,
+      "instruction_score": null,
+      "quality_score": null,
+      "knowledge_score": null,
+      "rationale": ""
+    }
+  ]
+}

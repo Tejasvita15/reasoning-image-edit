@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b292",
+  "results": [
+    {
+      "blind_id": "case_9046edab5b618c32f586",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The windows, wall, floor, table, cup, tablet, watch and clothing remain consistent. The chair design is visibly changed: its high slotted back is replaced by a shallow rim and its adjustment assembly is redesigned; this is beyond lowering its height. Instruction: The seat and hips remain at essentially the same elevation, with the same steep thigh angle and lifted right heel. A successful edit would lower the existing seat and seated body into a comfortable supported posture; changing the chair design does not do this. Knowledge: The supplied explanation requires a lower chair, which is not visibly achieved. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, anatomy, hands, footwear and chair structure are coherent, with natural light, floor reflections and intact fabric and wood textures; no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_aa6113ce802ef8ea1991",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The person, clothing, hands, tablet, cup, table, windows, wall, floor and lighting are preserved; the lowered chair is the instructed region and is excluded from consistency. Instruction: The chair seat and adjustment assembly move downward on a shorter support, but the hips and legs remain in their original position. The expected result is a lower chair with the person seated comfortably on it. Lowering is present, but the sitting posture is not completed. Knowledge: The explanation says the chair should be lowered, which occurs; however, the visible gap between the buttocks and rear seat breaks the task-implied support relationship instead of letting the sitter settle with the seat. This is one clear physical conflict. Quality: The image alone has a conspicuous unsupported hovering pelvis above the seat. Otherwise anatomy, room geometry, lighting and textures are coherent, without further obvious artifacts."
+    },
+    {
+      "blind_id": "case_e7f80e649f4481a39486",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Table, tablet, cup, watch, clothing, windows, wall and floor are preserved. Excluding posture adjustments, the chair body/underside is visibly reshaped and the red under-seat component is largely obscured, a clear non-height chair-design alteration. Instruction: The seat/hip boundary shifts only slightly, while the chair remains tall and the thighs slope steeply with the right heel raised. The expected edit would visibly shorten the chair support and bring the sitter into a lower comfortable posture. Most of this requested change is absent. Knowledge: The supplied lower-chair expectation is not meaningfully realized. Instruction failure ⇒ knowledge invalid. Quality: Judged alone, the person is coherently supported by the chair; limbs, hands, furniture geometry, light and reflections look natural, and clothing and room surfaces have no noticeable generation defects."
+    },
+    {
+      "blind_id": "case_a0c7e82f34e09bd009aa",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The clothing, hands, watch, tablet, cup, table, chair design, windows, wall, floor and light remain visually consistent, with no clear non-instruction content alteration. Instruction: There is no discernible lowering of the seat or telescopic support; the hips, bent legs and raised right heel retain the same posture. The expected lower seat and adjusted comfortable sitting position are absent. Knowledge: The explanation explicitly requires the chair height to be lowered, and the visible image does not show that outcome. Instruction failure ⇒ knowledge invalid. Quality: Viewed independently, human anatomy, chair construction and table geometry are coherent; lighting and floor reflections are natural and fabric, wood and metal textures remain intact, with no noticeable generation artifacts."
+    }
+  ]
+}

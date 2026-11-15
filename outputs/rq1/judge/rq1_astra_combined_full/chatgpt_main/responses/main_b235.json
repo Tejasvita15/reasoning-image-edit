@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b235",
+  "results": [
+    {
+      "blind_id": "case_6d098f68fbda23cd6ee3",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The two-leg arrangement and beige floor are retained, but the shin hair/vein pattern is redrawn and floor texture changes visibly; foot corrections are excluded. Instruction: Toe contours and nails are redrawn and the forefoot narrowed. A successful correction would give naturally proportioned, articulated toes. The foreground second toe remains conspicuously long and thick and the rear toes remain crowded, so correction is partial. Quality: Structure is problematic in the elongated foreground toes and awkward overlapping rear toe/nail boundaries; lighting and floor contact are coherent, and skin texture is detailed without ghosting."
+    },
+    {
+      "blind_id": "case_2debf044aecf51ea1f3e",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The overall pose and beige setting persist, but lower-leg skin/hair detail and the floor's mottled texture are visibly regenerated; changes to foot anatomy are excluded. Instruction: The toes are separated and slimmed and rear toe outlines changed. Expected is plausible toe length, joint structure and attachment. The edit addresses shape, but the foreground lesser toes still have long, nearly parallel fingerlike shafts, so the anatomical correction is incomplete. Quality: Lighting and contact shadows are natural and surfaces continuous, but the long straight foreground toes and simplified crowded rear toe arrangement create a clear anatomical flaw."
+    },
+    {
+      "blind_id": "case_b3c56d20fc1a90110956",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Shin outlines and hair, leg placement, beige floor markings, framing and background shadows remain visually consistent; the altered foot contours and skin are within the requested correction. Instruction: Foreground toes become slimmer and more separated, the second toe is shortened, and foot contours are smoothed. Expected is natural foot anatomy with coherent toe proportions. The correction is substantially present, though the central toes remain slightly tubular and uniform. Quality: Structure and contact shadows are coherent with no obvious seams or duplication; the overly smooth forefoot skin and uniform toe surfaces are a small naturalness/texture imperfection."
+    },
+    {
+      "blind_id": "case_92818291b00b5d076d63",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The shins and hair, leg positions, floor texture, illumination and composition remain unchanged outside the permitted foot region. Instruction: There is no meaningful visible correction to the elongated foreground second toe or the broad, crowded toe bases. Expected is corrected, naturally proportioned foot anatomy; the same conspicuous shapes persist, so the instruction is not fulfilled. Quality: Lighting, contact shadows and skin detail are coherent and there is no obvious compositing seam, but the long thick second toe and swollen-looking forefoot/toe junctions form a noticeable anatomical distortion."
+    }
+  ]
+}

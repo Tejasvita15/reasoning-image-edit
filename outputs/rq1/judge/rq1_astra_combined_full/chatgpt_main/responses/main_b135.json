@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b135",
+  "results": [
+    {
+      "blind_id": "case_81be50526552c8404572",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The left chopstick, its ivory handle, both original wooden shafts, spacing, and white background remain visually unchanged. Instruction: The previously truncated right shaft gains a full-length brown handle; a complete continuous handle is expected, and the extension supplies it, with a slightly uneven join where it meets the old shaft. No handle color was explicitly specified. Quality: Structure, lighting, and wood surfaces are coherent; a small lumpy color/edge transition on the right stick is the sole noticeable imperfection."
+    },
+    {
+      "blind_id": "case_a79ddeafc698cc28c482",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The left ivory handle becomes wood, both pointed shafts are reshaped with rounder tips, and wood grain and shadows change; the two-stick arrangement and white backdrop persist. Instruction: The short right chopstick is extended to a complete handle with a clean terminal end, satisfying the requested completion; no particular handle color was specified. Quality: Both wooden sticks have continuous clean silhouettes, plausible grain, coherent shadows, and no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_4bcb3c2b6a2f41a148fd",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The two separated tapered chopsticks are replaced by one centered, nearly parallel-sided rod, changing count, arrangement, silhouettes, and the ivory-handle configuration; only the plain backdrop remains broadly similar. Instruction: The image substitutes a new single rod with a tiny pale top cap instead of completing the missing handle on the supplied right chopstick, so the requested modification is not realized. Quality: The isolated rod has plausible wood texture and illumination, but a small abrupt notch in its middle interrupts an otherwise straight edge."
+    },
+    {
+      "blind_id": "case_eafd0207382bd3ab3184",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The original pair and its spacing are replaced by a single centered blunt-ended stick; original pointed shaft geometry and composition are lost, although wood/ivory materials and a white background remain. Instruction: A long ivory lower handle is present, which addresses the completion idea, but the supplied incomplete chopstick is substantially replaced and the original pointed upper portion is not retained; this is a major omission. Quality: The single two-material object has a clean continuous silhouette, a tidy joint, coherent surfaces and soft shading, with no noticeable artifacts."
+    }
+  ]
+}

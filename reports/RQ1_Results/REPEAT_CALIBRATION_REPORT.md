@@ -1,0 +1,9 @@
+# RQ1 Astra Pro UI judge: repeatability addendum
+
+The complete response archive has 390 valid batches: 380 main batches (1,760 ratings) and 10 repeat batches (20 ratings). 1,756 main ratings and 20 repeat ratings are scored; four main entries are unreadable. The main batch JSON objects exactly match the original `chatgpt_main.zip` used for the prior statistical results. Every repeat item matches the original image SHA-256 and case metadata in the private manifest.
+
+The composite score Q is the average of the applicable KRIS 1–5 scores after mapping each score `s` to `25(s−1)`; knowledge is included only for applicable cases. Across the 20 paired re-ratings, the mean absolute Q difference is **3.125/100**, the median absolute difference is **0**, the 95th percentile of absolute differences is **17.0833**, and the largest absolute difference is **25**. Exactly matching composite scores occur in **15/20 (75%)** pairs. The second rating is **1.875 points lower on average**, which should not be interpreted as a consistent drift in such a small sample.
+
+Per-metric exact agreements (first and second assessments) are: visual consistency 16/20, instruction compliance 18/20, visual quality 17/20, and knowledge correctness 12/12 for applicable images. The sample contains 10 Step1X Thinking and 10 UniReason Correction outputs from 10 source examples and is not representative of all conditions. With only 20 items, the 95th percentile is unstable; it is an item-level reliability statistic, not a threshold for detecting paired mean improvements. Repeat-session model-settings logs are absent from the new ZIP, so fresh-chat/model selection cannot be audited from it. The earlier paired test and bootstrap conclusions remain unchanged.
+
+This assesses **intra-judge repeatability only**; it does not measure agreement with human raters or official benchmark API evaluation. RQ1.3 causal failure categories still require manual inspection and annotation.

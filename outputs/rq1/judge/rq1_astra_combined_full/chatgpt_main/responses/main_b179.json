@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b179",
+  "results": [
+    {
+      "blind_id": "case_d5d096acdc3898e7a280",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The board layout, upper O and diagonal X pieces remain, but the lower-left O disappears, a loose X becomes a truncated wedge, and the board/background textures change visibly. Instruction: Removing one diagonal X should break the winning line; instead the lower-left O is removed and all three winning X marks remain. This does not fulfill the request. Knowledge: The visible diagonal is still a three-X win. Instruction failure ⇒ knowledge invalid. Quality: Board perspective and most symbols are coherent, but the loose cream piece beside the board is conspicuously malformed; surfaces and lighting otherwise read naturally."
+    },
+    {
+      "blind_id": "case_17f026ae228f82cafdcd",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The wooden grid, perspective and white background remain recognizable, but both O pieces, all loose pieces and additional board X pieces are removed; several compartment textures also change. Instruction: The expected edit is removal of one diagonal X. All pieces are erased, so the winning line is broken but the singular removal is over-applied: partial compliance. Knowledge: No explanation was supplied; task-implied tic-tac-toe logic supports that the empty board contains no winning X line. Quality: The empty grid is structurally coherent with natural perspective and shadows; several compartment floors look unusually smooth beside coarse neighboring floors, a minor texture inconsistency."
+    },
+    {
+      "blind_id": "case_3f87f72b35e368c262d5",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The board outline, grid position and background are retained, but the O pieces and loose pieces disappear along with multiple X pieces, and the formerly occupied compartments have altered textures. Instruction: A correct result would remove one X from the three-piece diagonal. Erasing every piece eliminates that line but exceeds the requested single removal, giving partial compliance. Knowledge: With the explanation blank, the visible empty board directly supports the task-implied conclusion that X has no winning line. Quality: Board geometry, perspective and lighting are coherent; smooth floors in several squares contrast mildly with the rougher neighboring surfaces, producing a small texture irregularity."
+    },
+    {
+      "blind_id": "case_c50d70fa699182771987",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The wooden grid, all on-board symbols, white setting and loose-piece group remain, but the loose pieces shift and change contour, while the board grain and surface texture visibly change. Instruction: One of the three diagonal X marks should be removed. All three remain, so no required X removal occurs. Knowledge: The top-left, center and bottom-right X marks still form a winning diagonal. Instruction failure ⇒ knowledge invalid. Quality: The board and pieces have coherent shapes, readable symbols, convincing perspective and shadows, and consistent wood surfaces without noticeable generation artifacts."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b122",
+  "results": [
+    {
+      "blind_id": "case_9cb615111aad991582b0",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Hand outline, finger spacing, nails, pose, crop and white background remain unchanged; the skin-color modification is excluded. Instruction: The skin becomes generally paler with conspicuous reddish-brown islands, rather than clearly white depigmented patches expected after vitiligo; the requested appearance is poorly implemented (2). Knowledge: The supplied explanation requires patches of white areas on the hand, which the dominant brown-red markings do not clearly provide. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: Coherent five-digit anatomy, natural shading and continuous fine skin texture; no noticeable compositing, duplication or structural artifacts (5)."
+    },
+    {
+      "blind_id": "case_cc96115c43432f758cd0",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Hand silhouette, fingers, nails, joint creases, pose, framing and white background are preserved; added pale areas are the requested change. Instruction: Numerous discrete white patches now cover the fingers, back of the hand, thumb and wrist. The expected appearance is white depigmented regions on this same hand, and that change is fully present (5). Knowledge: Those visible white areas directly match the supplied explanation that white patches should occur on the hand (5). Quality, edited image alone: Anatomy and lighting are coherent, but the opaque, nearly uniform white spots have conspicuously pasted-on, paint-like surfaces that interrupt natural skin shading and texture (3)."
+    },
+    {
+      "blind_id": "case_04762ae006c112b18151",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Hand outline, finger arrangement, pose, nails placement and white background are maintained. The surface rendering is noticeably coarsened, including the still-tan finger and wrist regions and mottled nail detail, beyond the requested pigment change (3). Instruction: Large irregular white regions now cover much of the hand, fingers and thumb while tan islands remain. The expected depigmented patch appearance is clearly supplied on the correct hand (5). Knowledge: The explanation requires patches of white areas; the broad, irregular white regions visibly satisfy that stated expectation (5). Quality, edited image alone: The hand anatomy and framing are coherent, but harsh grain and chalky, highly contrasted skin texture are distracting across the hand and around the nails (3)."
+    },
+    {
+      "blind_id": "case_06a3db793b352d06a60b",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The five-digit pose, overall hand outline, nail arrangement, framing and plain white background remain consistent. Skin relief is noticeably more wrinkled and leathery across unwhitened portions of the hand and wrist, an unrequested texture change (3). Instruction: Irregular white areas have appeared on the dorsal hand, fingers, thumb and wrist; this matches the expected patchy depigmentation on the existing hand (5). Knowledge: The visible white patches directly fulfill the supplied explanation that white areas should occur on the hand (5). Quality, edited image alone: Fingers, nails, outlines and lighting are coherent, with no duplication or malformed anatomy; the white regions have slightly chalky texture blending, particularly on the central hand (4)."
+    }
+  ]
+}

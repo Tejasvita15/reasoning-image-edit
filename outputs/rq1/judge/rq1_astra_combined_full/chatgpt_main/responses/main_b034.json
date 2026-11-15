@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b034",
+  "results": [
+    {
+      "blind_id": "case_f9e37cc549c1989e238b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background, two dot columns and five habitat icons remain, but all five animal illustrations and their colored circles have been removed, changing multiple non-requested elements. Instruction: The visible change is deletion of the left column; the expected result would visibly associate each animal with its appropriate habitat. No associations or animals remain, so the matching task is not performed. Knowledge: The supplied explanation is blank; the score follows the mandatory coupling. Instruction failure ⇒ knowledge invalid. Quality: Judging this image alone, the remaining houses, hive, bowl and hollow tree have coherent outlines, colors and cartoon construction; the dots and generous blank space are clean, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_c23454052839d04a106f",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Most major pictorial content is replaced or relocated: the fish becomes a bowl, the bee becomes a hollow tree, the dog becomes a wooden object, and right-side habitats are replaced by a squirrel and other wooden forms. Dot columns and white background remain, but the animal/habitat layout and colored circles change substantially. Instruction: Replacement and rearrangement are visible, but no complete animal-to-habitat associations are established; most animals are absent. The expected five matching relationships are not supplied. Knowledge: The supplied explanation is blank; the mandatory failure coupling determines this score. Instruction failure ⇒ knowledge invalid. Quality: The isolated image has clean cartoon colors and spacing, but the upper-right squirrel has a pinched, abbreviated body with no coherent visible tail, and the bottom-left wooden form has an ambiguous face-like panel and awkward construction; these are noticeable semantic/structural flaws."
+    },
+    {
+      "blind_id": "case_09fc684186649d3338c5",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The two columns, dots, white ground, colored backgrounds and habitat identities are retained. However, the fish has a blue body and yellow lower fins instead of its orange/yellow body and blue fins, and the squirrel forepaws/body contours are redrawn; these are multiple non-requested changes. Instruction: The animal illustrations are altered, but all dots remain unconnected and the original unmatched row arrangement remains. A correct result would associate fish with bowl, squirrel with tree hollow, bee with hive, bird with birdhouse and dog with kennel; none of these associations is marked. Knowledge: No explanation is supplied; the mandatory failure coupling is the basis. Instruction failure ⇒ knowledge invalid. Quality: Considering only this output, the five animals and five habitat icons are recognizable, coherently drawn and cleanly separated; flat colors, outlines and cartoon anatomy show no noticeable defects."
+    },
+    {
+      "blind_id": "case_fd79f53047e26d550279",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Most animal identities and habitat illustrations change: a cat-like hybrid replaces the fish, the bird becomes a long-bodied creature, and the kennel, hive, birdhouse and tree hollow become assorted animal hybrids. The dog reverses direction and is redrawn; only the general two-column layout, dots, white ground and bowl remain recognizably preserved. Instruction: The edit substitutes hybrid creatures rather than establishing the requested animal-to-habitat relationships; no matching lines or equivalent explicit associations appear. Knowledge: The explanation is blank, and this score is set by the mandated instruction-failure rule. Instruction failure ⇒ knowledge invalid. Quality: The image alone has multiple major anatomical failures: a cat-like body fused with fish fins, a two-headed torso at middle right, a bee with an incoherent face and tail, and a lower-right animal fused with a stump/branch. These make the depicted creatures structurally incoherent despite clean colors."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b012",
+  "results": [
+    {
+      "blind_id": "case_135f11be1e08711262b0",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The teal setting and overlapping white cards remain, but the fan angle/card outlines and exposed king artwork are visibly shifted, beyond any required rank change. Instruction: The 7 becomes a small 4-like index with a large spade; the 8 and three K cards remain. A correct edit would show four equal ranks, so this does not implement the requested hand. Knowledge: The supplied explanation requires four cards of one rank, which are absent. Instruction failure ⇒ knowledge invalid. Quality (edited image alone): Card surfaces and lighting are coherent, but the back card has an oddly repeated tiny index, a multicolored speck interrupts a lower card, and a faint central watermark is visible."
+    },
+    {
+      "blind_id": "case_3af534f4668a289f6a09",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The teal background and white-card style persist, but the fan has six cards, repositioned card outlines/overlaps, and different exposed king artwork. Instruction: A 4 of spades has been added while the 7, 8, and three kings remain. The expected result is four same-rank cards; adding a 4 does not produce that hand. Knowledge: Only three visible cards share the king rank, contrary to the supplied four-equal-ranks explanation. Instruction failure ⇒ knowledge invalid. Quality (edited image alone): The card edges, indices, suits, lighting, and surface texture are coherent; a faint watermark across the center is the visible imperfection."
+    },
+    {
+      "blind_id": "case_c2affd7f45084b222c77",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The teal setting remains, but the fan expands to six cards with different positions/overlaps, and the exposed face-card artwork is removed. Instruction: The output shows 4-spade, 8-spade, 8-heart, K-club, K-diamond, and a malformed red face index; no four equal ranks are visible. The required change would make four cards the same rank, so the target is not achieved. Knowledge: Even treating the malformed red index as a king leaves only three kings and two eights, contrary to the supplied explanation. Instruction failure ⇒ knowledge invalid. Quality (edited image alone): Lighting and white card surfaces are plausible, but the foremost red rank is garbled and its face-card design is incomplete; a faint central watermark is also present."
+    },
+    {
+      "blind_id": "case_abe0053dfb182fcee67a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The teal background and five-card fan persist, but non-required card overlaps/outline positions, large pip proportions, and visible king artwork change. Instruction: The visible ranks still read 7, 8, K, K, K; altered suit artwork does not create the expected four same-rank cards. The requested rank modification is absent. Knowledge: The explanation calls for converting 7 or 8 to a king; neither has happened. Instruction failure ⇒ knowledge invalid. Quality (edited image alone): The fan, lighting, and textured card surfaces are coherent, but a red suit mark is malformed and a multicolored speck appears near a blue border; a faint watermark crosses the cards."
+    }
+  ]
+}

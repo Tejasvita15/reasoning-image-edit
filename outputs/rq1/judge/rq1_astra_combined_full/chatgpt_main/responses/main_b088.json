@@ -1,0 +1,59 @@
+{
+  "batch_id": "main_b088",
+  "results": [
+    {
+      "blind_id": "case_8fb1e5cf82bac28efd59",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The turquoise thong sandal, pink polish and rainy pavement theme remain, but the strap has a different contour and stitching, the sole outline changes, and the background lights/reflections move. Toe reshaping is excluded. Instruction: The toes are shortened and rounded, yet seven distinct toenails/toes remain. A corrected foot should have five anatomically plausible toes; the extra digits are not removed, so the requested correction is not achieved. Quality: Structure ✘: seven toes create a clear anatomical defect. Natural lighting ✔, clean contours/artifact control otherwise ✔, and skin, polish and sandal textures ✔."
+    },
+    {
+      "blind_id": "case_fcb0ef5a92611e1eb06f",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The frontal foot, turquoise sandal, pink nails and orange background lights are retained. The strap sits visibly lower, the sole outline changes, and most of the visible falling rain has disappeared. Instruction: Toe lengths and spacing change, but there are still seven clearly separate toes. The expected correction is a normal five-toed foot; the defining anatomical problem remains, giving non-compliance. Quality: Structure ✘ because of the extra toes; lighting and perspective ✔, surface textures ✔, and no additional obvious ghosting or merging ✔."
+    },
+    {
+      "blind_id": "case_0c5e514f3bab0bf5c3e0",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The framing, orange lights, rain and pavement layout remain recognizable. Skin coloration is visibly paler and the sandal's strap/sole contours have shifted slightly; the turquoise and pink color choices remain. Instruction: Toe contours are subtly reshaped but seven toes are still visible. A successful edit would remove the excess digits and leave five natural toes, which is not done. Quality: Structure ✘: the foot has extra toes and a handlike spread. Lighting ✔, distinct material textures ✔, and clean separation without ghosting ✔; the anatomical defect is noticeable."
+    },
+    {
+      "blind_id": "case_080c5ff51faeff835c00",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The ankle, turquoise stitched strap, cream and black layered sole, pink polish, orange background lights, rainfall and wet pavement retain their visible arrangement and appearance. Instruction: No substantive correction is visible; seven toes remain just as in the source. The expected result is five anatomically coherent toes, so the instruction is not fulfilled. Quality: Structure ✘ owing to the clearly visible extra toes. Natural lighting and shadows ✔, skin and sandal texture ✔, and otherwise clean image construction ✔."
+    },
+    {
+      "blind_id": "case_eac7579d62e58a2a75a9",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The turquoise sandal, pink polish and rainy street setting remain. The sandal is narrower with a changed strap and sole outline, the foot occupies less of the frame, and the pavement reflections and background light placements change. Instruction: The toe shapes and overall foot width are adjusted, but seven distinct toes remain. Correct anatomy would require five toes, so the requested correction is absent. Quality: Structure ✘ for extra toes and the resulting elongated, handlike forefoot; coherent lighting ✔, well-defined polish and sandal textures ✔, and clean outlines ✔."
+    },
+    {
+      "blind_id": "case_2a5df6006675f58300c2",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The front-facing foot, turquoise thong, pink polish and warm reflected lights persist. The strap stitching and shape, sole silhouette, framing and pavement reflections are noticeably redrawn. Instruction: The toe lengths and nails are reshaped, yet the image still shows seven toes. A fully corrected foot should have five natural toes; the central anatomical error is uncorrected. Quality: Structure ✘: conspicuous additional toes. Natural shadows and lighting ✔, distinct skin/leather/foam textures ✔, and no obvious ghosting ✔."
+    }
+  ]
+}

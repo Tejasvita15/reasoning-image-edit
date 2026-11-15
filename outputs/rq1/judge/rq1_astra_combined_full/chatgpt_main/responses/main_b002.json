@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b002",
+  "results": [
+    {
+      "blind_id": "case_dfc1498a5e06c5ece2fd",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The cup, exposed rod, tabletop and kitchen layout remain recognizable, but the background packages are reshaped and the cup printing/lowest graduation changes; oil and its reflections are excluded. Instruction: Yellow liquid is now inside the original cup; the expected result is oil surrounding the rod with the submerged part nearly disappearing. Filling is achieved, but the strong white submerged rod does not visibly support the requested index match, so compliance is partial. Knowledge: The supplied explanation predicts near invisibility through minimal refraction; the submerged rod remains conspicuously outlined and white, a clear conflict. Quality, edited image alone: Coherent glass geometry, lighting, oil surface and tabletop texture; slightly smeared small cup lettering is a minor imperfection."
+    },
+    {
+      "blind_id": "case_4a7c1ac97dc1e03faf0d",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The exposed rod, cup placement, table and broad kitchen arrangement are retained, but background package shapes and cup markings change, including 25 becoming 26. Oil-related color and reflections are excluded. Instruction: Golden liquid fills the original cup; a fully matching result would have index-matched oil and a nearly invisible submerged rod. The fill is clear, but the underwater rod remains sharply delineated, leaving the index-match aspect incomplete. Knowledge: Despite immersion, dark rod edges and its rounded end remain clearly visible rather than nearly vanishing as the explanation predicts; this is one clear physical conflict. Quality, edited image alone: Glass, liquid surface, shadows and textures are coherent; malformed small lettering and irregular scale markings are a noticeable local flaw."
+    },
+    {
+      "blind_id": "case_91e906250d0c60c334d5",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Kitchen background, tabletop, exposed rod angle, cup outline and placement remain consistent; cup printing is visibly changed, notably the upper numeral to 45. Added liquid, bubbles and liquid-related reflections are excluded. Instruction: Amber liquid has been added around the rod in the same cup. Expected index-matched oil would leave the immersed rod nearly invisible; filling is present, but the strongly visible dark submerged rod makes compliance partial. Knowledge: The explanation specifies minimal refraction and near invisibility, whereas both rod contours and the rounded bottom remain conspicuous throughout the oil, one clear conflict. Quality, edited image alone: Natural lighting, coherent glass and liquid geometry, and credible bubbles; the distorted lettering and irregular 45/15/5 scale form a noticeable local semantic flaw."
+    },
+    {
+      "blind_id": "case_6c184ef6a078a2f3a16e",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Cup position, exposed rod, kitchen objects and table remain consistent. The added hand, pouring vessel, stream, oil and resulting reflections are permitted by the pouring instruction; altered cup printing is a clear unrelated change. Instruction: A hand visibly pours golden oil into the original cup, with a continuous stream and substantial fill. A fully correct result would show a nearly invisible immersed rod; the dark, complete rod remains visible, so the specified index match is incomplete. Knowledge: Immersion leaves high-contrast rod edges and a prominent rounded tip, conflicting with the supplied near-invisibility explanation. Quality, edited image alone: Hand anatomy, tilted vessel, continuous stream, liquid surface, bubbles and lighting are coherent; slightly muddled cup printing is a minor local imperfection."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b377",
+  "results": [
+    {
+      "blind_id": "case_b3acdac2227fe30c7dba",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The keyboard's placement and key layout, flower stems, two blossom positions and pale tabletop are retained, but the upper blossom's internal petal shapes are visibly redrawn. Instruction: Two ornate cross-shaped objects have been added on the tabletop; recognizable Christian symbol items on that surface are the expected result, so the request is fully met. Knowledge: The explanation requires a cross; both ornaments visibly have cross structures, satisfying that expectation. Quality: Object silhouettes, gold-and-enamel decoration, flowers and keyboard are coherent; contact shadows and surface textures are natural, with no noticeable generation defect."
+    },
+    {
+      "blind_id": "case_64c910f62e0704b59802",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Overall framing, keyboard placement, blossom locations and tabletop are retained; the upper flower's petal contours are redrawn and keyboard lettering, especially delete, is visibly altered. Instruction: A crucifix and a religious icon plaque now lie on the table, matching the expected placement of classic Christian symbolic items. Knowledge: The explicitly required cross is clearly present as the dark crucifix, so the explanation is satisfied. Quality: The plaque, tabletop, flowers and object shadows are coherent; the small gold figure on the crucifix has slightly blended arm/torso detailing, a minor local imperfection."
+    },
+    {
+      "blind_id": "case_601a311d93d7d699599f",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Keyboard layout and position, stems, blossom positions and pale tabletop remain consistent; the upper blossom has noticeably reworked internal petals. Instruction: A red Latin cross and two heart ornaments are added on the table. The expected outcome is Christian symbolic objects placed there, and the clear cross fulfills the central request. Knowledge: The supplied explanation says a cross should be placed; the visible red cross directly meets it. Quality: The cross and heart silhouettes are well formed, surface textures are coherent, and subtle shadows ground the objects naturally; no noticeable artifacts are visible."
+    },
+    {
+      "blind_id": "case_a98337c62c05679fd718",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 2,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The keyboard and flowers keep their overall positions and the tabletop remains pale, but keyboard lettering and key contours are redrawn and the blossoms' petal shapes change. Instruction: Two crosses, several religious figure ornaments and small devotional pieces have been placed on the tabletop, fully meeting the expected addition of Christian symbolic items. Knowledge: Both the left cross and right crucifix clearly satisfy the explanation's requirement that a cross be placed. Quality: The objects have plausible contact shadows and recognizable silhouettes, but multiple prominent inscriptions on the crosses and upper plaque are garbled, and the thin figure on the left cross has tangled, indistinct anatomy; these create several distracting errors."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b257",
+  "results": [
+    {
+      "blind_id": "case_617351c23e4735e3cd7a",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The blue sky, sea horizon and right beach remain in place, but the left pier is shortened/rebuilt, the island embankment is flattened and the shoreline vegetation/buildings change. Building changes are excluded. Instruction: The sail-shaped tower remains essentially the same building at the same visible height; the expected result is the Burj Khalifa, so the requested transformation is absent. Knowledge: The retained sail silhouette does not match the supplied Burj Khalifa explanation. Instruction failure ⇒ knowledge invalid. Quality: Structure, perspective and lighting are coherent; slight waviness/blending in the narrow facade grid is a small surface imperfection, with otherwise natural water and beach."
+    },
+    {
+      "blind_id": "case_3207f860d4fc00555e32",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The pier, island outline, beach, swimmers and horizon retain their layout, but the sky becomes visibly mottled and the water/foam textures are noticeably coarsened and altered. Tower transformation is excluded. Instruction: The sail tower becomes a slender stepped skyscraper with the characteristic Burj Khalifa taper; this fulfills the requested identity, though the spire tip is cut off by the frame. Knowledge: The tiered setbacks, slender upper stages and silver-glass facade visibly match the supplied expectation of Burj Khalifa. Quality: Architectural structure and lighting are coherent, but blotchy sky texture and crunchy, fragmented surf detail are two noticeable rendering flaws."
+    },
+    {
+      "blind_id": "case_50ba3b457da897836934",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The sky, broad water layout and right beach remain recognizable, but the left pier structures are rebuilt, the island base is flattened and the distant shore vegetation/buildings change. The tower itself is excluded. Instruction: The tower gains a tall rectangular glass body behind its sail frame, but it lacks the required Burj Khalifa silhouette and stepped spire; most of the requested transformation is missing. Knowledge: The supplied explanation calls for Burj Khalifa, whereas this is a sail-and-slab hybrid. Instruction failure ⇒ knowledge invalid. Quality: The building has coherent straight facade grids and plausible shading; sea, foam, sand and sky appear natural without a clear structural or texture artifact."
+    },
+    {
+      "blind_id": "case_ecfd3396a34c1658dd65",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The pier, island embankment, beach, palms and swimmer arrangement are retained, but the sky has a changed mottled texture and the surf/water acquire visibly coarse fragmented detail. Requested tower changes are excluded. Instruction: A much taller stepped cylindrical skyscraper replaces the sail profile and extends beyond the frame, conveying the requested transformation partially; retained projecting oval platforms and the unseen upper silhouette prevent an accurate Burj Khalifa depiction. Knowledge: The supplied Burj Khalifa expectation is partly represented by clustered stepped shafts, but the two prominent projecting platforms form a clear architectural mismatch. Quality: The tower has coherent vertical structure and plausible lighting; visible sky mottling and harsh fragmented foam textures are noticeable artifacts."
+    }
+  ]
+}

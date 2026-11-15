@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b085",
+  "results": [
+    {
+      "blind_id": "case_9e56764ab4195e78cd71",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The yellow HUMMER frame, black saddle and suspension layout remain recognizable, but the spoke arrangements and rear derailleur/cassette shapes have visibly changed; the background and motion graphics are requested changes. Instruction: The white backdrop becomes a blue-green promotional layout with a central bicycle, mountains and bright speed trails. The expected poster also requires city silhouettes and the specified readable headline and freedom slogan; city silhouettes are absent and the prominent text is garbled, so compliance is partial. Quality: Structure/text and artifact checks fail: the headline and smaller copy are nonsense, and pale streaking produces a doubled-looking seatpost/frame region. Mountain graphics and gradient textures are coherent."
+    },
+    {
+      "blind_id": "case_b794ca8ffb4257a8c247",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The yellow branded folding frame, saddle and general wheel layout are retained, but the drivetrain/crank details and numerous spokes are distorted or rearranged, with altered tire/rim rendering. Instruction: The output adds a blue-green backdrop, city silhouettes, hills and curling wind trails around a prominent bicycle. A fully compliant poster would include both scenery silhouettes and readable requested headline and slogan; the large words are garbled and no intelligible freedom slogan is present, yielding partial compliance. Quality: The layout and color fields are coherent, but nonsensical headline text and tangled, irregular drivetrain/spoke structures are multiple distracting errors; surface detail around the wheels looks smeared."
+    },
+    {
+      "blind_id": "case_ad3b13f9019ce50ed557",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The original folding HUMMER bicycle is replaced by a conventional yellow triangular frame with different lettering, yellow fork, different handlebars, saddle support and wheel/drivetrain geometry; most major product details change. Instruction: A blue-green graphic poster and white motion curves are introduced, but the intended result should prominently retain the supplied bicycle with mountain/city silhouettes and readable headline and slogan. The bicycle is replaced, the silhouettes are not clearly supplied, and the text is largely garbled, constituting major omissions. Quality: Structural/text and artifact checks fail: top lettering is malformed and clipped, bottom copy is severely garbled, and the crank/chain and wheel spokes have tangled, uneven forms. The broad gradient shapes themselves are smooth."
+    },
+    {
+      "blind_id": "case_5feeae880ee0cd674a55",
+      "status": "scored",
+      "consistency_score": 4,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The yellow HUMMER folding frame, black fork, saddle, handlebars/cable loops, reflectors and overall wheel geometry are retained; a small change is visible in the rear derailleur contour. The new backdrop, scale/placement and graphic elements are permitted. Instruction: The output adds a centered bicycle, blue-green gradient, mountain and city silhouettes, horizontal speed trails and a readable freedom slogan. The expected top headline is almost implemented but omits 'City'; the slogan sits above rather than beside the bicycle, a minor placement departure. Quality: Structure, lighting and texture are coherent, with clean silhouettes and readable text. One small typography defect remains: the final letter of 'Mountain' extends into an unusually long descending stroke."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b093",
+  "results": [
+    {
+      "blind_id": "case_b34cd3b881a407e35be1",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The curved perch, lower-left flower cluster and lower-right leaf remain in the same broad positions, but leaf surface detail, background foliage and overall contrast are visibly changed. The organism transformation is excluded. Instruction: The banded caterpillar becomes a striped hard-shelled beetle with antennae and walking legs; the expected adult is a butterfly, so the requested transformation is misinterpreted. Knowledge: The beetle contradicts the supplied expectation of turning into a butterfly. Instruction failure ⇒ knowledge invalid. Quality: Considered alone, the beetle has coherent shell, head, antennae and legs, natural contact with the stem, convincing illumination and clean plant textures without noticeable generation defects."
+    },
+    {
+      "blind_id": "case_43b34e9cf4c81da23d19",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The curved stem and original leaf/flower arrangement are replaced by an upright plant, a grassy garden, flowers and visible sky; most major non-instructed scene elements change. Instruction: The caterpillar becomes a fully winged orange-and-black monarch-type butterfly. An adult butterfly is the right life stage, but this organism’s green, black-banded caterpillar appearance calls for a swallowtail-type adult rather than a monarch, so identity is only partially preserved. Knowledge: The result satisfies the supplied generic butterfly expectation, but the depicted larva-to-adult identity is biologically inconsistent. Quality: Independently, the four wings, patterned margins, body and antennae are coherent, with natural outdoor lighting, detailed scales and clean foliage; no clear artifact is visible."
+    },
+    {
+      "blind_id": "case_98aa25a3c34d8b321255",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The curved green stem, lower-left flower rays, lower-right leaf with dark veins and upper-right fine foliage retain their layout. A conspicuous fine stippled texture across foliage and background changes the original photographic surface appearance; the adult body and wings are excluded. Instruction: A side-view orange monarch-type butterfly replaces the caterpillar, providing adult wings, antennae and legs. This meets the adult-butterfly concept but not the swallowtail-type identity indicated by the source caterpillar. Knowledge: Butterfly metamorphosis matches the supplied explanation, while the source-to-adult species morphology presents one clear biological conflict. Quality: Judged alone, the wing overlap and vein pattern, spotted thorax, antennae and jointed legs are coherent; lighting and plant detail are consistent and there is no clear structural artifact."
+    },
+    {
+      "blind_id": "case_8a3d405a7999d4232bc8",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The curved perch, radiating flower stems at lower left, veined foreground leaf, upper-right fine foliage and soft green background retain their visible positions and appearance. Differences are concentrated on the instructed adult organism and its occlusion of the scene. Instruction: The caterpillar becomes a spread-wing butterfly with orange-and-yellow panels and prominent eyespots. The adult life stage is present, but the tailless eyespotted wing form does not preserve the swallowtail-type identity indicated by the source caterpillar. Knowledge: The supplied expectation of becoming a butterfly is fulfilled generically, but this larva-to-adult morphology is not biologically consistent. Quality: Independently, the wing pairs, scales, body and two antennae are well formed, with convincing fine texture and lighting and no noticeable duplication or malformed structures."
+    }
+  ]
+}

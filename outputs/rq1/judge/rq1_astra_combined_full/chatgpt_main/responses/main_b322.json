@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b322",
+  "results": [
+    {
+      "blind_id": "case_f455463a5bb0b6dd2fe3",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested setting, plate, scattered fruit and lettering, the cake retains its pink-drip concept and berry arrangement, but the drip contours, cream dollop shapes, leaf detail and glossy cake texture are visibly redrawn. Instruction: The edit adds a centered cake, white plate and pink setting with blueberries; the expected scene also needs strawberry slices, subtle 'Happy Sweet Day' and the exact berry-red title. Slices are absent, the large headline is malformed, and the scattered red speckles do not clearly read as powdered sugar, so compliance is partial. Quality: Cake and plate structure, lighting and food textures are coherent; the prominent malformed headline is a clear semantic flaw. Knowledge: Not applicable."
+    },
+    {
+      "blind_id": "case_15036b6dfc9bb98910ca",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The cake's irregular pink drips, white body, cream dollops, strawberry and slice, dark blueberry and leaf cluster retain the source's visible forms and arrangement; setting, scale, plate, fruit and typography are requested changes. Instruction: A pink background, central cake on a white plate, surrounding blueberries and strawberry slices, powder-like flecks and a red script heading are added. The expected complete title instead reads 'Pink is the of today!', and subtle 'Happy Sweet Day' is absent; this is partial compliance. Quality: Plate perspective, fruit shapes, cake structure, shadows and textures are coherent. The conspicuously incomplete headline creates one clear semantic flaw; moderate softness alone is not penalized. Knowledge: Not applicable."
+    },
+    {
+      "blind_id": "case_6a6d2d8b6a6c9e3f0a1a",
+      "status": "scored",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the instructed presentation changes, most distinguishing cake details change: it becomes wider with regular smooth drips, the strawberry becomes tall and upright, the strawberry slice disappears, and the dollops and foliage are rearranged. Instruction: The image adds a centered pink cake on a white plate, a pink powder-dusted setting and scattered blueberries. The expected strawberry slices are missing, and a prominent malformed white phrase replaces both the exact berry-red title and the subtle background phrase; compliance is partial. Quality: Cake and plate geometry, shadows and textures are coherent, but the conspicuous malformed wording is a clear semantic artifact. Knowledge: Not applicable."
+    },
+    {
+      "blind_id": "case_e2855188879841bd79b9",
+      "status": "scored",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The cake preserves the source's irregular drip shapes, cream arrangement, strawberry with adjacent slice, dark blueberry and leafy garnish; the new scale, pink setting, plate, scattered fruit and text fall within the requested changes. Instruction: The central cake now sits on a white plate with blueberries and strawberry slices in a pink powder-flecked scene. The complete title is legible at the top, but only 'Pink' is berry red, the remainder is white, and the subtle handwritten 'Happy Sweet Day' is absent; these leave partial compliance. Quality: The cake, plate and fruit are structurally coherent, the lettering is legible, shadows and perspective are natural, and no noticeable generation artifacts corrupt the textures. Knowledge: Not applicable."
+    }
+  ]
+}

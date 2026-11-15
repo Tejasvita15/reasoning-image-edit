@@ -1,0 +1,41 @@
+{
+  "batch_id": "main_b019",
+  "results": [
+    {
+      "blind_id": "case_37c3b752a05fc3a97b7b",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The wooden table and overhead layout remain recognizable, but the surviving loaves' crust patterns, scoring and rounded shapes are comprehensively changed, and parchment creases are redrawn. These are beyond changing the count. Instruction: Three original loaves become three newly rendered loaves; the expected result is exactly two loaves. No count reduction occurs, so the instruction is not fulfilled. Quality: Structure, lighting, shadows and textures are coherent; all three breads have plausible continuous crusts and clean boundaries, with no noticeable artifact."
+    },
+    {
+      "blind_id": "case_f5f76f230e443c23f391",
+      "status": "scored",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The exposed wooden table and broad parchment outline remain, while the parchment's visible crease network is substantially changed, including areas outside the removed breads. Bread removal itself is excluded from consistency. Instruction: All three loaves disappear, leaving empty paper. The expected result contains exactly two loaves, so the edit fails the requested count. Quality: The paper and tabletop are recognizable, but three large smooth rectangular patches with soft dark smudges interrupt the crumpled-paper texture and look visibly artificial; the overall sheet structure remains coherent."
+    },
+    {
+      "blind_id": "case_649816d837130655ae14",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The table and overall parchment setting remain recognizable, but the remaining breads are enlarged and their crust/scoring patterns altered; parchment folds and contrast are also changed. The requested count change is excluded. Instruction: Three loaves become exactly two clearly separate whole loaves, matching the expected two-loaf result completely. Quality: Both loaves have coherent shapes, plausible flour and crust textures, clean silhouettes and convincing contact shadows on crumpled parchment; no clear generation artifact is visible."
+    },
+    {
+      "blind_id": "case_eb6b4e05d9209786c14e",
+      "status": "scored",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The wooden surface and parchment setting are retained, and recognizable crust motifs survive, but both remaining loaves are reduced in width and moved close together at the center. The parchment's creases and surface pattern are also visibly changed. Removing the third loaf is excluded. Instruction: Three loaves become exactly two distinct whole loaves, fully matching the requested count. Quality: The two breads have natural crust fissures and flour textures, coherent outlines and plausible shadows; paper folds and wood grain are visually coherent, without noticeable artifacts."
+    }
+  ]
+}
