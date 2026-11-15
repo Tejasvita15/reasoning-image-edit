@@ -1,10 +1,6 @@
 # RQ2 results: UniReason (RQ2.1, RQ2.2 and RQ2.3)
 
-RQ2 asks how Step1X-style dials behave for UniReason: guidance and number of steps (RQ2.1 and RQ2.2), whether thinking changes the answer, and whether a second attempt helps (RQ2.3).
-
-RQ2.1 and RQ2.2 are complete: generation, judging, statistics and figures. RQ2.3 is complete for all three seeds (42, 1234 and 7): generation, selection, judging and scoring. The three-seed figure and write-up are still to be finalised. The design is in the RQ2 plan (the RQ2 guidance and steps protocol).
-
-## Headline findings
+## Key findings
 
 1. **Thinking did not help UniReason.** Thinking on minus off is -2.0, -3.5 and -1.6 Q at guidance 2, 4 and 6. None is above the MMD (16.77 Q), and none is statistically clear. Thinking costs about 10.6 s per image. The cached thought was checked against live thinking: identical images on 3 K-dev examples (see Common setup).
 2. **Guidance 4 stays as the default.** Without thinking, guidance 6 is clearly worse than 4 (-3.8 Q, CI excludes 0). With thinking, guidance 2 beats 4 by 3.75 Q, which is below the MMD, so the default is kept.
@@ -218,11 +214,3 @@ Latency by run (mean per example): seed 42, feedback 85.85 s and resampling 85.9
 - Checker: `src/rq2/check_rq2_3_unireason.py`
 
 ---
-
-## Open items
-
-- **RQ2.1 and RQ2.2 interval:** the thinking-on minus thinking-off interval at guidance 4 and 50 steps needs one value. Re-run the stats file.
-- **RQ2.3 figure:** regenerate with the three-seed averages and interval bars.
-- **RQ2.3 write-up wording:** all comparisons are below the MMD, so describe them as trends.
-- **Judge name:** GPT-6 Astra Pro, as selected in the ChatGPT UI.
-- **K-small overlap.** Disclosed in the RQ2.3 section above.
