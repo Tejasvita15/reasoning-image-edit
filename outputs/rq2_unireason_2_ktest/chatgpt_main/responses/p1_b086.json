@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b086",
+  "results": [
+    {
+      "blind_id": "case_3eb29cc455933fd1",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding stool resizing, the white wall, right ledge and books, wooden stool designs and overall arrangement remain recognizable, but the floor grain and plank texture are visibly changed across the foreground. Instruction: the smallest stool is made smaller and the tallest is reduced somewhat, while the middle stool stays approximately its original size. A correct edit would make all three match the original smallest stool; the edited stools still form a distinctly ascending size sequence, so most of the requested matching is missing. Instruction failure ⇒ knowledge invalid. Knowledge is not applicable to this item. Quality: structural coherence ✔, naturalness ✔, artifact-free ✔, texture fidelity ✔; the three wooden stools have coherent seats, legs and braces, with plausible lighting and floor contact."
+    },
+    {
+      "blind_id": "case_099d78e2916613f4",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white backdrop and red metal-can appearance persist, but all branding and label text disappear, the remaining object is recentered, and the composition and apparent can scale are substantially altered beyond removing one container. Instruction: three cola cans become one blank red can. Interpreting bottle as the supplied cola container, a correct result would contain two cans; removal is achieved but the number removed is wrong, giving partial compliance. Quality assessed independently: structural coherence ✔, naturalness ✔, artifact-free ✔, texture fidelity ✔; the single unlabelled can has a clean cylindrical body, continuous silver rims and smooth plausible highlights without visible distortions."
+    }
+  ]
+}

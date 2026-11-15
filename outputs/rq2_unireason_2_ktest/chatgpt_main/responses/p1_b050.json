@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b050",
+  "results": [
+    {
+      "blind_id": "case_e3930887a3e2636d",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the transparent bottle, reflections, blue neck ring, wood counter and tiled background remain in place; the lower bottle contour has a small change. Instruction: a ribbed blue cap now covers the formerly open mouth, as expected, but it is narrower than the neck and leaves thread-like projections visible along its sides, so completion is slightly inaccurate. Quality: structure, lighting and transparent surfaces are otherwise coherent; the protruding neck threads beside the cap create one noticeable fitting defect. Moderate photographic softness is not penalized."
+    },
+    {
+      "blind_id": "case_174576b8a6cf2081",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "Consistency: the contiguous-US map, state arrangement and white background are retained; the thin blue and pale internal boundary lines have been replaced with conspicuously thick black outlines, beyond the requested region fills. Instruction: all state regions are filled using the four requested colors, but a successful Four Color Theorem game requires neighboring regions to differ; California and Nevada are both red, Colorado and New Mexico both yellow, and Indiana and Ohio both green. Thus the coloring is only partially compliant. Knowledge: the supplied explanation is blank; scoring uses the adjacency constraint explicitly implied by the named game. Multiple shared-border color conflicts seriously violate that logic. Quality: satisfactory structure, flat-color texture and graphic presentation, with continuous legible boundaries and no noticeable rendering artifacts."
+    }
+  ]
+}

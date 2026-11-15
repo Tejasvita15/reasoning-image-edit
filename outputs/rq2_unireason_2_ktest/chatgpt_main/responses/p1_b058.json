@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b058",
+  "results": [
+    {
+      "blind_id": "case_95fdce244063ed6e",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested lid placement, the black pot body, left tab, long handle, white background and contact shadow remain visually consistent. Instruction: The lid is shifted slightly but still leans in front of the open pot; the expected result is a lid seated across the pot opening. The opening remains exposed, so the requested placement is not achieved. Quality: Structural coherence ✔, natural lighting and shadows ✔, artifact-free ✔, and glass/metal textures ✔; the pot and detached lid form a coherent product image."
+    },
+    {
+      "blind_id": "case_c156b9f0ef75a504",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Apart from opening the lower husks, the foliage has been redrawn with smoother, brighter veins and changed contours, and the unopened upper husk has a different, coarser spike pattern; the branch arrangement and green setting remain recognizable. Instruction: The closed lower husks become visibly split, exposing their interiors. An opened seed casing is the requested outcome, and this change is present. Knowledge: The explanation calls for an opening green spiny husk revealing glossy brown nuts. Opening is shown, but the exposed areas read as dark hollow cavities dotted with many white seedlike marks rather than distinct glossy brown nuts, a clear conflict with the expected contents. Quality: Overall branching and lighting are coherent ✔, but the repeated white blobs and blended pale forms inside the opened shells make their internal structure ambiguous ✘; the foliage and exterior textures are otherwise coherent."
+    }
+  ]
+}

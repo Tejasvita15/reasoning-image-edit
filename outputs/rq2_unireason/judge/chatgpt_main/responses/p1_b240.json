@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b240",
+  "results": [
+    {
+      "blind_id": "case_21a26c147a3e829e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the two requested removals, the third baguette is also erased and the surrounding pale background has conspicuous blocky texture changes. Instruction: all three baguettes become a pale blank silhouette; exactly two should disappear with one intact loaf remaining. Removal is attempted but the count is wrong, giving partial compliance. Quality: structural coherence and texture fidelity fail: a large featureless bread-shaped patch with outlined, colored fringes dominates the image, with visibly corrupted surrounding texture; naturalness and artifact-free checks fail."
+    },
+    {
+      "blind_id": "case_52efb60a15231f6f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 2,
+      "rationale": "Consistency: cup positions, shapes and milk levels remain, but glass rim/base reflections are substantially redrawn and the neutral background shading changes beyond the red illumination; laser and its red glow are excluded. Instruction: a red beam now enters from the left while both cups retain pale soy milk, matching the explicit requested contents and entry direction. Knowledge: the supplied explanation requires penetration through both cups; instead the beam branches vertically inside the first cup and its diagonal branch stops just inside the second, with no through-going beam across that cup. These are multiple serious departures from the stated behavior. Quality: cup structure, liquid surfaces and glass textures are coherent; the small doubled, kinked beam tip at the right cup is a minor visible imperfection."
+    }
+  ]
+}

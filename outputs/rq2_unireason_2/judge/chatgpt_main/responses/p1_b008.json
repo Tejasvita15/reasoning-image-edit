@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b008",
+  "results": [
+    {
+      "blind_id": "case_56526c502aa3a5cc",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The blue-and-white thermometer and right-side cable remain recognizable, but the casing proportions and perspective, button positions, cable loops, and printed range/model labels visibly change beyond the requested temperature adjustment. Instruction: The original reads 28.7°C; the edit replaces it with malformed segments resembling U:24 rather than the expected 31.7°C. The requested temperature is not shown. Knowledge: The supplied explanation specifies an approximately 3°C increase, which is not represented by a coherent reading. Instruction failure ⇒ knowledge invalid. Quality: The casing, cable and white background are coherent, but the main digital reading, degree/unit glyphs, and lower printed labels contain multiple distracting malformed symbols and text errors."
+    },
+    {
+      "blind_id": "case_1a82150c5dd23d23",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The gray fluted classical-column design and receding arrangement remain, excluding the requested removal of columns. However, the retained leading column is shifted substantially inward with altered framing, and the light-gray background becomes white. Instruction: The source has eight columns and the edit has six distinct columns. The expected result is exactly five; the count is reduced in the requested direction but remains one too many, giving partial compliance. Quality: All six columns have coherent capitals, fluted shafts and bases, consistent shading and perspective, and clean silhouettes. No noticeable structural artifacts or texture corruption are visible; moderate softness does not obscure their structure."
+    }
+  ]
+}

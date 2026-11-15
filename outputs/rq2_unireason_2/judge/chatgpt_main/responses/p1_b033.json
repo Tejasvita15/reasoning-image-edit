@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b033",
+  "results": [
+    {
+      "blind_id": "case_9db930abdfde1766",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The lenses, bridge, nose pads, wood-grain layout and framing remain in place; the background has visibly brighter, stronger-contrast grain and lighting. Temple-arm changes are excluded. Instruction: The previously blunt lower arm now extends into a rounded curved earpiece, and both arms have finished tips. Complete, continuous temple arms are the expected result, so the requested completion is fully present. Quality: Structure, perspective, lighting and surface texture are coherent; the glasses have continuous arms and plausible rounded ends, without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_035d56720492f752",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The frontal pose, black eyes, pink nose and right-hand log placement remain recognizable, but the fur structure and face contours have been redrawn, the blue background has acquired conspicuous mottling, and the bedding and bark textures and illumination are substantially altered. Instruction: The golden coat has become gray across the head and body, with the pink nose and dark eyes retained; this fully supplies the requested gray hamster. Quality: Anatomy and composition are coherent, but fur has conspicuous smeared, streaklike clumps and the bedding/log surfaces look flattened and plasticky. These texture artifacts reduce naturalness."
+    }
+  ]
+}

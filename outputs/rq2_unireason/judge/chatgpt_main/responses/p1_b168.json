@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b168",
+  "results": [
+    {
+      "blind_id": "case_24f4192251ef4b74",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Room layout, window, curtains, chair and lamp positions remain, but the carved wall panel pattern and pillow/blanket textures are visibly reworked. Instruction: Three red balloons appear above the bed rather than a single regular-air balloon; balloon addition is achieved but the specified physical presentation is incomplete. Knowledge: The explanation requires the balloon to lie on the floor; none does, and the upper balloon visibly floats unsupported, contradicting the central expectation. Quality: Room geometry and lighting are coherent, but ornamental carving and woven pillow details show conspicuous smeared, tangled texture."
+    },
+    {
+      "blind_id": "case_01248d1c3533053a",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Horizon, ocean bands and cloud arrangement remain in place; there is a small change in sky/cloud texture. The altered shoreline and its extent are excluded as requested changes. Instruction: Sand is replaced by a broad stony foreground, but only the right half reads as a pebble beach; the left half is regular rectangular paving, so the transformation is partial. Knowledge: Rounded pebbles and coarse material are visible on the right, matching the supplied explanation, while the orderly paved left half conflicts with natural shingle sediment. Quality: Sea and sky are coherent and the stones are recognizable, but the sharp vertical join between two unrelated ground textures and the nearly straight pasted-looking water/ground boundary are clear compositing flaws."
+    }
+  ]
+}

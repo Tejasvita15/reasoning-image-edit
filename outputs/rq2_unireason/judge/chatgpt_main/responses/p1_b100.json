@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b100",
+  "results": [
+    {
+      "blind_id": "case_6c7deb4b18bf7d1a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the white background, nine-cell arrangement and other X/O/blank assignments remain, but the board perspective and framing, block proportions, wood grain and shadows visibly change across several untouched pieces. Instruction: the bottom-left block changes from a tilted X/O choice to a face-up blue X, exactly the required selection. Knowledge: the supplied explanation is blank; using the tic-tac-toe logic explicitly implied by the task, the three X marks now complete the left column and win. Quality: coherent wooden compartments and blocks, legible symbols, natural lighting and clean wood textures; no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_59fc0ea96f6a642d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the map composition, existing colored regions and timer value remain recognizable, but many region boundaries are redrawn with heavier contours and changed shapes, and the bottom toolbar proportions and swatch spacing change. Instruction: the edit mostly redraws the existing incomplete board; the numerous pale-blue unfilled regions remain. A completed puzzle would color all regions using the four palette colors with different colors across shared borders, so the requested completion is absent. Knowledge: the explanation is blank; the mandatory coupling applies: Instruction failure ⇒ knowledge invalid. Quality: the flat-color puzzle, outlines and timer text are coherent and readable, with clean fills; the rightmost settings icon is visibly clipped at the image edge, a minor presentation flaw."
+    }
+  ]
+}

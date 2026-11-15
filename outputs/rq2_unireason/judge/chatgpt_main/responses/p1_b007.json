@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b007",
+  "results": [
+    {
+      "blind_id": "case_24cd4e51c80282c9",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested setting, lighting, angle and stacking changes, the cookies lose their fully coated sides and acquire exposed porous layers; an extra third cookie is also introduced. Instruction: the white setting becomes a dark brown draped display with a black slab and upper-left highlights. The expected two-cookie stack, velvet backdrop, slightly upward view and exact top-right quotation are only partly realized: there are three cookies, the fabric is conspicuously glittery, the view looks down onto the slab, and the centrally placed title is garbled. Quality: coherent cookie forms, shadows and chocolate highlights, but conspicuously malformed text and an unnaturally grooved/pitted slab surface are clear visual flaws."
+    },
+    {
+      "blind_id": "case_ac35bce81a1992d6",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the foot remains in side profile against a plain grey surface, but beyond filling the heel hole the entire sock changes from worn charcoal knit to smooth navy ribbing, the cuff lettering changes, and new toe folds alter its silhouette. Instruction: the exposed-skin heel hole is fully replaced with continuous sock fabric, correctly completing the sock. Quality: the foot, fabric coverage, lighting and contact shadow are coherent; the irregular, awkward cuff glyphs are a small local imperfection."
+    }
+  ]
+}

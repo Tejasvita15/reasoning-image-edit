@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b011",
+  "results": [
+    {
+      "blind_id": "case_355b0578c8514591",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the requested shadow change, the post stays upright in the same location, but its grain/knot details and base shape change; the surrounding stones, soil texture and white ground mark are visibly redrawn. Instruction: The diagonal shadow becomes darker and extends beyond the left edge instead of disappearing as expected; the specified change is not achieved. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the wooden post has coherent geometry and realistic grain, the soil and stones are natural, and the directional lighting and cast shadow are internally coherent with no noticeable generation defects."
+    },
+    {
+      "blind_id": "case_ebb749827b142d73",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the shadow edit, the upright wooden post is retained but its grain, outline and vertical placement change. The rocky soil, twig and pale ground marking are replaced by smooth sand, and a new horizon and blue sky alter the background composition. Instruction: A long, dark leftward shadow remains, with an angular end, whereas the requested result should have no cast shadow; the intended modification is absent. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: The post, sand texture and horizon are coherent, but the cast shadow has a conspicuous bent, broad rectangular end that does not correspond to the simple straight post, creating a clear structural shadow artifact."
+    }
+  ]
+}

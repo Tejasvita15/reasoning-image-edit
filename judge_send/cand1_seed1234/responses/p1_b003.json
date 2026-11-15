@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b003",
+  "results": [
+    {
+      "blind_id": "case_ad3e3ae9ecccbc31",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, two-book arrangement and brown/gold colors remain, but the thick book has visibly coarser page and cover textures, and the thin book has a changed right edge and projecting lower cover. Instruction: The right book remains very thin beside the left book; the expected edit would enlarge its page-block thickness to match the left. No meaningful thickness increase is visible, so the requested change is absent. Quality, edited image alone: Structure ✔, naturalness ✔, artifact-free ✔ and texture fidelity ✔; both closed books have coherent covers and page blocks, and the modest softness does not obscure their forms."
+    },
+    {
+      "blind_id": "case_ff3039d16fb0af01",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, placement, lighting, reflection and added headline, the dark bottle and red capsule remain recognizable, but the label illustration and lettering have been redrawn and the capsule emblem is altered. Instruction: The white setting becomes a wine-red/black softly illuminated backdrop with a vertical centered bottle, bottom reflection and upper-right gold serif headline, without extra objects. The expected headline is exactly “Timeless. Bottled.”; the actual text reads “Timaeys. Bottle.”, leaving a required aspect incorrect despite substantial completion of the composition. Quality, edited image alone: Structure and lighting ✔, with coherent bottle geometry and reflection; artifacts/semantic coherence ✘ because the prominent headline contains a malformed word and the label illustration/letterforms are visibly distorted. Texture fidelity is otherwise satisfactory."
+    }
+  ]
+}

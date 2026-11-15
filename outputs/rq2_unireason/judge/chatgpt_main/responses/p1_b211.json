@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b211",
+  "results": [
+    {
+      "blind_id": "case_cb0cc5d67e48018a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the gray ground and dark grip surface remain recognizable, but the board is reoriented much more horizontally, its intact end changes shape, and the ground texture and framing change. Instruction: a lower deck and front wheels have been added; a completed skateboard should have a continuous repaired deck. The jagged broken colorful section remains on top of a separate-looking extension, so completion is only partial. Quality: texture and lighting are plausible, but the doubled deck and splintered upper section form a visibly incoherent board structure."
+    },
+    {
+      "blind_id": "case_17cf87c6609d9a13",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the pale background, gray fluted columns and receding row remain, but column spacing and framing change noticeably, and the shafts, capital profiles and bases are reshaped. Instruction: the row is redrawn but still contains eight columns; the expected result is exactly five columns, so the requested count change is absent. Quality: structural coherence, lighting, clean silhouettes and surface shading are satisfactory; the columns form a coherent rendering without noticeable artifacts."
+    }
+  ]
+}

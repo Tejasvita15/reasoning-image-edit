@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b009",
+  "results": [
+    {
+      "blind_id": "case_5603516ef3ae66a9",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pointed toe, high heel, shoe placement, beige lining and glossy highlight shapes remain recognizable and aligned; the non-target background and ground shading are visibly brightened, losing some of the original gray shading. Instruction: 1. The red exterior becomes black. 2. The expected result is this same shoe with black exterior surfaces. 3. Toe, upper, back and heel are all black, with plausible gray reflections and no residual red. 4. Perfect compliance. Quality: Structure and lighting are coherent and the glossy material reads naturally; a small pale/cyan edge fringe along the inner arch and sole slightly weakens edge fidelity."
+    },
+    {
+      "blind_id": "case_8c2898699394865e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The two red toy vehicles and wooden tabletop setting persist, but the untouched right car is repositioned and its wheel/body details change, while the tabletop gains conspicuous pale reflections and different grain. Instruction: 1. The large left Beetle-shaped car becomes a different small-car design, and the right vehicle also changes in apparent scale. 2. Interpreting the larger left vehicle as the intended target, it should retain its identity while shrinking to the right car’s size. 3. The target is replaced rather than simply resized, and remains visibly taller than the right car. 4. Major omission. The source contains two cars, not a truck. Quality: Structural coherence, naturalness, artifact absence and texture fidelity are satisfactory: both toy cars have coherent bodies, windows and wheels, believable glossy red paint and contact shadows on a softly reflective wooden surface."
+    }
+  ]
+}

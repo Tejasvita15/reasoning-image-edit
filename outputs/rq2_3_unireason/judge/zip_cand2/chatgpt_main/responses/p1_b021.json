@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b021",
+  "results": [
+    {
+      "blind_id": "case_d5cf51c7412668f8",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: most major non-requested details change: the milk carton disappears in favor of another bee, an extra sheep overlaps the eggs, the original drawings are redrawn and shifted, and large nonsensical labels are added. Instruction: the visible additions are duplicate animals and garbled words; the expected result would clearly connect yarn to sheep, honey to bee, eggs to chicken, and milk to cow. No complete matching is shown and the milk is absent, so the instruction is not followed. Knowledge: Instruction failure ⇒ knowledge invalid. Quality, edited image alone: the individual animal icons are recognizable, but the overlapping sheep/eggs, duplicated animals and multiple garbled or cropped text blocks create distracting structural and semantic errors."
+    },
+    {
+      "blind_id": "case_06bdfef653a3cd64",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: the requested interior, composition, cool palette and typography changes are excluded. The cushion retains its square silhouette and black/white diamond identity, but conspicuous gray torn-looking patches obscure the right side of its fabric, a clear unrequested alteration to the product. Instruction: the edit adds a dark gray modern sofa scene and a prominent diamond cushion with bold top-left sans-serif type, as expected for the poster; however, the headline is nonsensical rather than the requested meaningful sentence, and no effective close-up presents fabric detail. This fulfills the main idea only partially. Quality, edited image alone: sofa perspective, shadows and cool room lighting are coherent, but multiple malformed text lines and gray corrupted patches across the cushion are distracting errors."
+    }
+  ]
+}

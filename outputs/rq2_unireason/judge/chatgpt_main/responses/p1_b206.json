@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b206",
+  "results": [
+    {
+      "blind_id": "case_01736f678231009e",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The blue sky, distant right skyline and sandy setting remain, but the foreground ground surface is visibly reworked, with changed small rocks and erosion contours. The pyramid itself is excluded. Instruction: The pointed pyramid becomes a stepped monument with broad terraces, central stairs and a summit temple, fulfilling the requested Maya stepped-pyramid change. Knowledge: The supplied explanation specifies Kukulkan at Chichen Itza; the stair-and-temple concept fits, but the visibly reduced number of broad tiers and exaggerated projecting ledges depart clearly from that monument. Quality: Structure and perspective are coherent, with clear stairs and plausible lighting; the terrace walls have a small unnatural streaked, smoothed texture imperfection."
+    },
+    {
+      "blind_id": "case_0204bfa4149d936f",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The red Ferrari, three-quarter view, hood vent, headlamp layout, wheels and mirror remain recognizable; the front license plate has a noticeably changed shape/proportion. Requested framing, background and neon lighting are excluded. Instruction: A dark blurred urban-night backdrop, cyan/red reflections, low-centered car and upper-left sans-serif slogan are present. However, the slogan reads \"Unleash theDrive\" without the requested spacing or period, and the bottom brand lettering is visibly garbled rather than Ferrari; the required advertising text is only partially achieved. Quality: The car and lighting are generally coherent and the background blur is stylistically natural, but malformed bottom brand lettering is a clear semantic artifact; the slogan also has conspicuously crowded word spacing."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b028",
+  "results": [
+    {
+      "blind_id": "case_218730f689491807",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested count change and associated spacing, the white background and upright silver presentation remain, but two forks have changed from four tines to three with narrower heads and pinched necks; metallic shading and dark edge outlines also change visibly. Instruction: The source has eight forks; the edit has nine (five above, four below). The expected result is exactly six forks, so the count change goes in the wrong direction and does not comply. Quality: White background and metallic surfaces are coherent, but the two central three-tined forks have visibly irregular tine shapes and constricted, uneven neck transitions; these are noticeable object-shape flaws."
+    },
+    {
+      "blind_id": "case_a26b7bed6c83fa6d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The charger body, diagonal placement, three-pin plug and cable arrangement remain recognizable, but the wooden grain becomes conspicuously streaked and the charger title and electrical labels become malformed. These changes are outside the requested interface count. Instruction: Ten USB interfaces in the source become nine in the edit (four in the left column and five in the right). Exactly six usable interfaces were expected; removing only one leaves most of the requested reduction undone. Quality: The body and plug have coherent overall geometry and shadows, but the title is garbled, numerous small labels are corrupted, and the port interiors lose clear connector structure, producing multiple distracting semantic and structural errors."
+    }
+  ]
+}

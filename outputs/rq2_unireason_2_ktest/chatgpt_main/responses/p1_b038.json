@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b038",
+  "results": [
+    {
+      "blind_id": "case_0b626391fe809846",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested new setting, composition, lighting and typography, the cushion retains its black-and-white woven appearance, but its distinctive repeating diamond motif is noticeably redrawn with irregular outlines and altered intersections. Instruction: the isolated cushion becomes a close product view on a dark gray sofa in a cool industrial interior; this matches the expected geometric textile poster and top-left bold sans-serif layout. However, the headline is severely garbled rather than conveying the requested sentence, so compliance is partial. Quality: the sofa, shadows and fabric have convincing texture, but numerous broken or malformed headline words and visibly disrupted diamond outlines create multiple distracting errors."
+    },
+    {
+      "blind_id": "case_bba3fa0053dd9ada",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the hen changes proportions, comb, feathers and pose; the white backdrop and straw nest become a brown-walled sandy setting, and the three eggs become many differently positioned eggs. Most major non-requested details change. Instruction: the visible difference is a reconstructed hen-and-eggs scene; the expected edit would show a chick hatching from an egg. All visible eggs remain intact and there is no chick or emerging hatchling, so the requested event is absent. Knowledge: the supplied explanation requires the egg to transform into a chick; the intact eggs and adult hen do not show that result. Instruction failure ⇒ knowledge invalid. Quality: the bird, eggs, bedding and lighting form a coherent image with clear contours, but a small bright angular strand across the lower chest appears awkwardly disconnected from the bedding."
+    }
+  ]
+}

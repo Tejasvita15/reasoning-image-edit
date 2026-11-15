@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b267",
+  "results": [
+    {
+      "blind_id": "case_840aa256f0e648de",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested background and poster decorations, the supplied black-and-gold pen is shifted and shortened, its clip detailing changes, and its gold nib becomes a decorated yellow section with a black tip. Instruction: the plain product photo becomes a colorful blue poster with a bear balloon, stars and clouds. The expected poster would place the balloon slightly right and spell Bear Balloon Party accurately; the balloon is left, the title is garbled, and candy patterns are not clearly realized. The cheerful poster concept is partially fulfilled. Quality: cartoon shapes and colors are coherent, but the prominent title is nonsensical and the pen tip has an awkward malformed construction. The supplied source contains a pen, not the bear balloon described in the instruction."
+    },
+    {
+      "blind_id": "case_cbc108e08f8438c5",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background remains, but the tray changes shape and perspective, most packed cans disappear, the remaining can arrangement changes, and packaging lettering and the moved can label are altered. Most major non-instructed product details differ. Instruction: the separate right-hand can is removed from its original position and stands atop the cans in the left tray, matching the requested placement. Quality: the can and tray silhouettes remain recognizable, but multiple labels are corrupted, including Lime on the top can and ZERO SUGAR on the tray; the top can has an oversized protruding silver base and its lime graphic is distorted. These are multiple distracting product-rendering errors."
+    }
+  ]
+}

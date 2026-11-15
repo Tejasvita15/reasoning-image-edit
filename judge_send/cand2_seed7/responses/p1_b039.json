@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b039",
+  "results": [
+    {
+      "blind_id": "case_74d51c7c55bfe432",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The circular glass table and white ribbed vase remain recognizable, but the pale background becomes saturated blue, lighting and framing change, and the bouquet loses its central white flowers and changes arrangement. These are multiple noticeable unrequested changes. Instruction: 1. The book remains to the right of the vase. 2. It should appear on the opposite, left side. 3. The required side change is absent. 4. Non-compliance. Quality, edited image alone: Structure ✔, naturalness ✔, artifact-free ✔, texture fidelity ✔; the glass rings, transparent legs, open pages and flower petals are coherent, with convincing reflections and contact shadows."
+    },
+    {
+      "blind_id": "case_09f64e08b8e17dad",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested movement and rotation of the left cup, the receiving cup is clearly changed: it is now centrally positioned and noticeably shorter and wider rather than the tall right-hand cup. The neutral background, white material and soft studio lighting remain consistent. Instruction: 1. The formerly sideways left cup is now tilted upright with its base resting inside the other cup. 2. The requested result is the left cup placed onto the other cup. 3. The visible nested stack fulfills that relationship. 4. Perfect compliance. Quality, edited image alone: Structure ✔, naturalness ✔, artifact-free ✔, texture fidelity ✔; both cup rims and walls are smooth and coherent, and the overlap, interior shading and ground shadow look plausible."
+    }
+  ]
+}

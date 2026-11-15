@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b019",
+  "results": [
+    {
+      "blind_id": "case_ec8fb7b83290be64",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested resizing of the large turtle, the small turtle is also noticeably reduced and repositioned, and both animals have changed facial and shell details; the white background remains consistent. Instruction: The large left turtle is reduced, but the expected result is two matching-size turtles. Its shell and overall body remain clearly larger than the right turtle, so the size match is only partial. Quality, edited image alone: Structural coherence, natural lighting and contact shadows, artifact absence, and shell/skin texture are satisfactory; both turtles are recognizable and anatomically coherent without a clear distracting defect."
+    },
+    {
+      "blind_id": "case_2c793ae569e84b9a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested viewpoint change, the black frame and white background remain recognizable, but the thin open wire stand becomes a solid deep black enclosure, and the plant photograph has visibly altered leaf and branch detail. Instruction: The view changes to a narrower oblique front view. The reference requires a nearly edge-on leaning frame with an open triangular wire support and essentially hidden photograph; the edit still exposes a broad picture face and substitutes a solid rear block. Orientation and support/occlusion therefore have major errors despite an attempted turn. Quality, edited image alone: The rectangular frame and enclosure have coherent straight edges and perspective, plausible shading, and a legible botanical picture; structure, naturalness, artifact absence, and texture are satisfactory."
+    }
+  ]
+}

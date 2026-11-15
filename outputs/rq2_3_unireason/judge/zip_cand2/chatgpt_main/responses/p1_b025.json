@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b025",
+  "results": [
+    {
+      "blind_id": "case_c1464118147d1bfb",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested correction of the red skin, the frontal pose, ear and trunk arrangement, and landscape composition remain recognizable, but the tusks become more orange, the foliage and ground are redrawn, and the skin wrinkles and outlines are substantially restyled. Instruction: The visible change replaces the unnatural saturated red skin with gray throughout the elephant; the expected correction is a normally colored elephant, and that change is complete. Quality, edited image alone: Structure, lighting, illustrative skin texture, tusks, four legs and surrounding vegetation are coherent, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_b84134e39141dab8",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The five-by-five grid remains, but most non-target circles change color, including all four other top-row circles becoming dark green and many red, blue and lime circles elsewhere being recolored. Instruction: The question mark becomes a black numeral-like mark rather than the expected blue circle in the top-left cell; the requested shape is absent, so the edit does not comply. Knowledge: The supplied explanation explicitly requires a blue circle, which is absent. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: The flat grid and circles have coherent structure and readable separation, but slight multicolored fringe noise around circle edges creates a small visual imperfection."
+    }
+  ]
+}

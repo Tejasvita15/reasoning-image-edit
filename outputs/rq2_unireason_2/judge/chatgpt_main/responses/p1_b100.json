@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b100",
+  "results": [
+    {
+      "blind_id": "case_d4db8f83cc6e558a",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested poster layout, background and decorative additions, the plant's canopy is substantially rearranged, its braided trunk is redrawn, and the basket's rim, weave and proportions change; most major retained subject details differ. Instruction: The edit adds droplets, scattered leaf silhouettes, a green gradient and a luminous central halo around a centered plant. The expected upper-left 'Green Home' instead reads 'GREN HOME', and the dark green perimeter makes the requested light, fresh background only partly realized; partial compliance. Quality, edited image alone: Plant, basket, droplets and illumination are coherent with convincing textures, but the prominent 'GREN HOME' heading has a clear textual defect; otherwise the poster is clean."
+    },
+    {
+      "blind_id": "case_c00b4c24eaeb38dd",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": 4,
+      "rationale": "Consistency: Excluding the requested right-hand ball position, the broad symmetrical U-track becomes an asymmetric track with a short, thin curled left arm; the ball is markedly larger relative to the rail and the wall texture and ground framing change. Most major retained scene details differ. Instruction: The orange ball moves from the upper left to the upper right, depicting the requested maximum position near the right rail top. The expected ball should occupy the corresponding height on that side; the slight excess elevation is a minor mismatch. Knowledge: The supplied explanation requires the same height by energy conservation. Relative to the rail top and bottom, the right ball is approximately at the original upper level but sits slightly higher, giving a small departure from equal height. Quality, edited image alone: Lighting, orange surface and metallic textures are coherent, but the left track conspicuously narrows into a thin bent stalk with a bulbous tip, a clear structural distortion."
+    }
+  ]
+}

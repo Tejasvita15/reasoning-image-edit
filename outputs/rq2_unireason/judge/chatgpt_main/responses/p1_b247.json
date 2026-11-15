@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b247",
+  "results": [
+    {
+      "blind_id": "case_e70c22113830a012",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the pointed toe, tall heel, glossy highlight shapes, shoe placement and pale background remain consistent, but the exposed tan interior is noticeably more orange. Instruction: the red exterior changes to black throughout the toe, sides, heel and back; the expected black version of the same shoe is achieved. Quality: coherent shoe structure, reflections and ground shadow; a slight cyan-colored fringe along parts of the upper edge is a minor artifact."
+    },
+    {
+      "blind_id": "case_b334e621478c0fb6",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the four-circle arrangement and white background remain, but node labels change from 0/1/2/3 to altered or malformed characters, circle proportions change, and unrelated garbled text appears between the upper nodes. Instruction: the upper horizontal edge is removed and arrow directions change, whereas the expected result has directed edges without any directed cycle. Both the left vertical and bottom horizontal connections have arrowheads at both ends, retaining two-node directed cycles; the essential acyclic requirement is poorly implemented. Knowledge: these bidirectional connections contradict the supplied no-cycles explanation. Instruction failure ⇒ knowledge invalid. Quality: circle and line structure is recognizable, but the added text is unreadable and several node glyphs are malformed, producing multiple distracting semantic defects."
+    }
+  ]
+}

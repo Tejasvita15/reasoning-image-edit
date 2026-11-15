@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b165",
+  "results": [
+    {
+      "blind_id": "case_787b4807a1bc795e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the colored tile arrangement and white upper numbers remain, but several unrequested yellow answers change: 28 becomes a malformed 2r, 214 a malformed 614, 19 a malformed 1B, and 48 becomes 40. Instruction: the question mark is replaced with 10; the expected replacement is 410, so filling the location is achieved but the answer is incomplete. Knowledge: the supplied difference-and-sum rule gives 7−3=4 and 7+3=10, concatenated as 410; the visible 10 omits the difference. Quality: tile structure and colors are coherent, but multiple distorted, ambiguous yellow glyphs and visible horizontal banding degrade the graphic."
+    },
+    {
+      "blind_id": "case_9fd385548a146874",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background and two-bag arrangement remain, but the small bag becomes smaller relative to the frame, embroidery is redrawn on both bags, and the large bag loses its yellow beads and left tassel while its cord arrangement changes. Instruction: the right bag remains substantially larger and taller than the left; a compliant edit would reduce it to the small bag’s dimensions. The requested size match is absent. Quality: both bags have coherent gathered openings, convincing woven fabric, legible decorative figures, natural cords and tassels, and plausible soft contact shadows without distracting visual artifacts."
+    }
+  ]
+}

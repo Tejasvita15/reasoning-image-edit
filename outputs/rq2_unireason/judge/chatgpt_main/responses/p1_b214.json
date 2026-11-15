@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b214",
+  "results": [
+    {
+      "blind_id": "case_5d7b3142a6ba8f26",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background and two-device arrangement remain, but the left tablet is replaced by a narrow phone with an earpiece and camera, and the right phone gains a different top speaker/camera arrangement. Instruction: the right phone is enlarged; the expected result is that original phone matching the original tablet in overall size. It reaches approximately tablet height but remains much narrower, while the tablet itself becomes a phone, so the size match is only partial. Quality: satisfactory object structure, perspective, shadows, smooth glass and casing textures; no clear generation artifacts in the edited image alone."
+    },
+    {
+      "blind_id": "case_54986465682d21ff",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 4,
+      "rationale": "Consistency: the white background and centered test tube remain; excluding added chips and reaction effects, the HCl lettering moves upward and changes proportions, and the glass walls become darker and irregular with a changed right edge. Instruction: numerous pale stone chips now sit inside the liquid-filled test tube, matching the expected marble-chip addition and fulfilling the requested change. Knowledge: the explanation predicts bubbles from reaction with hydrochloric acid; a clear bubble appears above the chips, but visible effervescence is sparse, a minor shortfall. Quality: the label is legible and stones have defined texture, but the lower tube loses its transparent glass boundary around the stone mass and a straight gray strip protrudes along the right side, creating noticeable compositing/structural flaws."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b080",
+  "results": [
+    {
+      "blind_id": "case_a7634b6a5abaf48f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested poster background, placement, decorations and lettering, the lantern changes from a broad flattened form to a rounder body; its gold motifs, caps and substantial tassel are redesigned. Instruction: The edit adds a centered red lantern, gold branches, petals, glow, sparkles and top/bottom typography. A complete result would have the specified readable headline, a meaningful festive calligraphic slogan and red-to-gold gradient. The headline and lower text are garbled, the branches resemble feathery fronds, and the background is predominantly dark red rather than a clear red-to-gold gradient: partial compliance. Quality: Structure/text ✘, natural lighting ✔, artifact-free ✘, texture fidelity ✘; multiple lines of nonsensical lettering and tangled, smeared gold ornament details visibly degrade an otherwise coherent festive composition."
+    },
+    {
+      "blind_id": "case_94d61262af90447e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding filling the missing cube sections, the existing white top, orange right and blue left faces become red, white and green, and the four-row side grid becomes three rows. The purple patterned fabric and general viewpoint remain recognizable. Instruction: The visible cavity is filled and the outline becomes a complete cube. A faithful completion would fill the missing parts while continuing the existing four-by-four lattice. Instead the side faces have three-by-three grids and the top contains a mismatched patchwork of large and tiny tiles, so completion is only partial. Quality: Structural coherence ✘, natural lighting/perspective ✔, texture fidelity ✔; the top face has an incoherent subdivided grid with compressed, irregular central tiles that do not connect consistently to the side rows. The fabric and plastic otherwise look plausible."
+    }
+  ]
+}

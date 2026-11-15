@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b019",
+  "results": [
+    {
+      "blind_id": "case_bc9c157207918762",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the requested tile rearrangement, the wooden enclosing frame disappears, the circular numeral borders disappear, and the original board presentation is replaced by a freestanding taller array; major non-requested design elements change. Instruction: The 4-by-4 puzzle with fifteen distinct numbered tiles and one vacancy becomes a 4-by-5 array of repeated and overlapping numerals. A completed puzzle should read 1 through 15 in row order with the last cell empty; this is not achieved. Knowledge: Instruction failure ⇒ knowledge invalid. Quality, edited image alone: The wooden tile outlines and lighting are coherent, but several numerals are doubled or overprinted (including the upper-right glyph and second-row second tile), with distracting malformed markings across the array; surface texture is otherwise recognizable."
+    },
+    {
+      "blind_id": "case_1cb5c12031c17074",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding toe/anatomy correction, the teal sandal, pink polish, rainy pavement and general composition remain recognizable, but the ankle skin texture is visibly roughened and the foreground wet-pavement reflections/patterns are altered. Instruction: The seven-toed source is redrawn with six visible digit ends, including two outer digits without visible nails. The expected correction is a natural five-toed foot; removing only part of the excess and leaving malformed outer digits poorly implements it. Quality, edited image alone: Anatomy is problematic, with an extra digit, two nail-less rounded outer ends and unnaturally smooth lesser-toe skin contrasting with the textured big toe/ankle. Sandal stitching, lighting and wet ground remain coherent, but the multiple anatomical and texture defects are distracting."
+    }
+  ]
+}

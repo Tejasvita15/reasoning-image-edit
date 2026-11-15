@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b226",
+  "results": [
+    {
+      "blind_id": "case_f8261e7b039c475a",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding fur recoloring, the hamster pose, eyes, ears, nose, whiskers, blue background, log and bedding retain their placement and appearance. Instruction: the fur becomes somewhat cooler and grayer around the muzzle and chest, but the head and body remain predominantly cream/tan; the expected uniformly gray coat is mostly unrealized, a major omission. Quality: coherent anatomy, natural eye highlights and lighting, and detailed fur and wood textures; no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_e29e5f68f6421a26",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the two diamonds and divided lower-left square retain their designs, but their spacing relative to the outer frame changes visibly, with the left column closer to the left border. Instruction: the bottom-right outline remains a right-pointing rounded shape, with no square replacement; the expected result is an undivided square, so the requested change is absent. Knowledge: the explanation requires a square without internal lines, whereas the output retains the incorrect pointed shape. Instruction failure ⇒ knowledge invalid. Quality: all outlines are legible, closed and structurally coherent on a clean background; no distracting artifacts."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b004",
+  "results": [
+    {
+      "blind_id": "case_03101390e9891809",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the glass, laboratory setting, green board and tabletop retain their overall arrangement, but the water bubble pattern and microscope details are visibly altered. Instruction: a yellow pencil has been added diagonally through the water surface into the glass, fully satisfying the requested insertion. Knowledge: the explanation expects an apparent break from refraction; the pencil instead remains essentially straight through the waterline, a clear conflict with that expectation. Quality, edited image alone: coherent glass and pencil shapes, natural reflections and lighting, and convincing surface textures without noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_bd26d33d9000f35c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background remains, but the unrequested right turtle is much smaller, separated from its neighbor, and turned to face left rather than forward/right; shell and facial details also change. Instruction: the large left turtle remains large while the already small right turtle becomes smaller. The expected result is a reduced left turtle matching the original small turtle, so the requested object and size match are not achieved. Quality, edited image alone: both turtles have coherent shells, heads and limbs, natural ground shadows, and detailed shell and skin textures without clear artifacts."
+    }
+  ]
+}

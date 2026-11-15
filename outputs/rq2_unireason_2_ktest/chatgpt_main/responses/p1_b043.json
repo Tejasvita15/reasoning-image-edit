@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b043",
+  "results": [
+    {
+      "blind_id": "case_314aae3acb609f43",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the overhead bowl, powder mound outline and distinctive perimeter lumps remain recognizable; ignition, glow and sparks are excluded. The surrounding pale tabletop changes noticeably to dark grey. Instruction: a white-hot ignition region and abundant orange sparks replace the unlit powder, precisely showing the requested ignition and sparks. Knowledge: the very bright white core and orange illumination directly match the supplied explanation that thermite emits intense light. Quality: coherent bowl geometry, spark trajectories and readable material forms; the surrounding granules have a slightly over-outlined, harsh texture, a minor naturalness issue."
+    },
+    {
+      "blind_id": "case_e462bed53b1b32f8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: background, layout and sprint pose changes are requested and excluded. The runner retains blue shirt and black shorts, but his hair silhouette and facial appearance change, and the plain black footwear becomes detailed grey running shoes. Instruction: the edit adds a slightly right-positioned sprinter, deep-to-light blue gradient, sweeping motion lines, stars and light dots. A compliant poster would also have the exact top title and a white bottom slogan; the visible title reads FULL SPEED EHEAD and the bottom slogan is absent, so compliance is partial. Quality: the composition, energetic linework, clothing and shoe textures are coherent; the prominent malformed word EHEAD is a clear semantic typography flaw."
+    }
+  ]
+}

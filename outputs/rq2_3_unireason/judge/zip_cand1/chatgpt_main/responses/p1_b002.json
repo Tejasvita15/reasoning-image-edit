@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b002",
+  "results": [
+    {
+      "blind_id": "case_f6c9907c5d8bbe19",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested thin-book thickness adjustment, the thick left book is visibly shortened and narrowed, both books move upward, and the right book becomes wider with a changed spine/cover profile; the white background and brown/gold palette remain. Instruction: the right page block is only slightly thicker, while the left book becomes thinner. A correct edit would give the right book the original left book's thickness; the right book remains markedly thin, so most of the requested adjustment is missing. Quality, edited image alone: book shapes, page textures, lighting and clean background are coherent, with a small awkward upright projection at the lower-right cover of the left book."
+    },
+    {
+      "blind_id": "case_fc57e8e6c7591daa",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested backdrop, lighting, placement, reflection and headline changes, the red foil and black bottle identity remain recognizable, but the neck logo lettering and label illustration/small typography are visibly redrawn and altered. Instruction: the white setting becomes a wine-red-to-black spotlight gradient with a vertical bottle and bottom reflection, and gold serif text appears at upper right without extra objects. The intended restrained advertisement is substantially present, but the headline is visibly malformed and does not read the required exact phrase \"Timeless. Bottled.\"; compliance is partial. Quality, edited image alone: structure and lighting are coherent and the glass/reflection are plausible, but the prominent headline contains malformed wording and punctuation, and the neck/label small lettering is garbled; these are clear text artifacts."
+    }
+  ]
+}

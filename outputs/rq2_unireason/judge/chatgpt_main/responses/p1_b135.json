@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b135",
+  "results": [
+    {
+      "blind_id": "case_5f15b01204ce9603",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The printer body, three buttons, rear blank sheet, trays, white background and framing are preserved; the lid has slightly changed, more mottled surface texture. Instruction: The formerly blank foreground sheet now visibly contains printed lines and lies directly in front of the printer, fulfilling the requested placement of a printed document. Quality: Structure, lighting, perspective, paper edges and surface textures are coherent; the small print reads naturally as dense document text at this scale, with no conspicuous artifact."
+    },
+    {
+      "blind_id": "case_ef564e30369f1c26",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested viewpoint change, the blue-and-cream carton, cap and white background persist, but the MILK lettering becomes malformed and the cow graphic stretches across the broad face instead of remaining the original side-panel design. Instruction: The image changes to an opposing three-quarter view with a broad capped face and narrow cow side. The reference requires a straight side view centered on the cow panel and triangular gable, with the cap partly hidden at the left; orientation and occlusion are substantially incorrect. Quality: Carton edges, cap and lighting are coherent, but the distorted lettering and stretched cow outline merging with the label are clear graphic artifacts."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b004",
+  "results": [
+    {
+      "blind_id": "case_58bed8ffb7d0e23a",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: compared with the source, the cow is replaced by a second chicken, the milk carton by an unrelated malformed object, the pink yarn and needles by pale yarn without needles, and many garbled labels are added; most major non-requested details change. Instruction: the edit adds labels and replaces illustrations, but shows no connecting lines or other intelligible product-origin matches; the expected wool–sheep, honey–bee, eggs–chicken and milk–cow associations are absent. Knowledge: the supplied explanation is blank; the mandatory instruction-failure rule applies. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: ✘ pervasive garbled lettering and an unidentifiable bottom-left illustration create major semantic failures; the white background and several animal outlines remain coherent."
+    },
+    {
+      "blind_id": "case_7772027ad4dd6fbf",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the glass, green board, microscope and gray bench remain recognizable, but the glass and background framing shift upward and the bubble pattern is substantially redrawn; these are multiple visible non-requested changes. Instruction: a yellow pencil is newly present, passes through the water surface and extends to the bottom of the glass, fully satisfying the requested insertion. Knowledge: the explanation predicts an apparent break from refraction; the above-water and submerged shaft instead continue along essentially the same straight alignment, a clear conflict with that expected effect. Quality, edited image alone: ✔ coherent glass, reflections, background and surface textures; ✘ the pencil has conspicuous sharpened wood/point-like structures at both ends, giving it an anomalous double-ended construction. This is a clear localized semantic flaw."
+    }
+  ]
+}

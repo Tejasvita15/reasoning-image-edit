@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b102",
+  "results": [
+    {
+      "blind_id": "case_f108d1400728f5c0",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The single gold-and-black patterned tortoise and plain gray studio background are replaced by multiple differently patterned turtles, pavement, a green background and large trousered legs; nearly all major non-requested scene details change. Instruction: Instead of the original animal retracting into its shell to avoid danger, the turtles retain exposed heads and extended limbs, so the intended defensive action is absent. Knowledge: The supplied explanation specifically requires head and limb retraction, which is not shown. Instruction failure ⇒ knowledge invalid. Quality: Structural coherence ✘: enormous trousered human-like legs end in reptilian feet and intersect the turtle scene, with a conspicuously unsupported foot on the right; these are major anatomical and semantic failures. Lighting and pavement texture are otherwise coherent."
+    },
+    {
+      "blind_id": "case_6f6a502fc74adeab",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Excluding the requested bottom-right replacement, the outer rectangular border, white background, three other rectangular panels and their black quarter-circle orientations remain visually unchanged. Instruction: The bottom-right pointed outline becomes a rectangle with a solid curved region, but that region occupies the top-right corner. The correct completion is a rectangle with the solid quarter circle at top left; the correct object is replaced, but a required orientation is wrong, giving partial compliance. Knowledge: The supplied explanation explicitly specifies top left, whereas the edit repeats the top-right orientation of the bottom-left panel, a clear pattern-logic conflict. Quality: Structural coherence ✔, natural diagram layout ✔, artifact-free ✔ and texture fidelity ✔: closed outlines and solid black curved regions remain clear, with no distracting deformation or semantic ambiguity."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b053",
+  "results": [
+    {
+      "blind_id": "case_064f48a1d6e82642",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested repositioning, background, decorations and rays, the person retains her identity, open-mouth expression and hands-under-chin pose, but her curls and facial details are redrawn and the blouse folds, collar and buttons change noticeably. Instruction: The edit adds a centered crowned figure, rainbow colors, confetti, balloons, clouds and radiating light. A correct poster would also have the exact requested title and tagline plus fireworks; both text blocks are instead nonsense and distinct fireworks are absent, so compliance is partial. Quality: The overall poster composition and anatomy are coherent, but the large garbled title and tagline and the crumpled striped balloon at left are multiple distracting semantic/shape defects; hair and clothing also have uneven painted-looking texture."
+    },
+    {
+      "blind_id": "case_cfa2e9b5cdbd28c7",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background, brand and three-button arrangement remain recognizable, but the dark cuff is removed, device proportions change, and the time, pulse and small labels are altered beyond the requested pressure readings. Instruction: The original 123/72 display becomes an isolated malformed upper digit and an incoherent lower digit group. The expected result is a clearly legible hypotensive blood-pressure reading; changing the segments without producing a credible readable pressure pair poorly implements that core change. Knowledge: The supplied expectation is systolic below 90 or diastolic below 60; the corrupted display does not establish a coherent hypotensive measurement. Instruction failure ⇒ knowledge invalid. Quality: Housing, lighting and buttons are broadly coherent, but broken numerical segments and garbled unit/time labels create multiple distracting display defects."
+    }
+  ]
+}

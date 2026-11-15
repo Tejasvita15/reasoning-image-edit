@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b196",
+  "results": [
+    {
+      "blind_id": "case_8abf0199efe9899b",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding the requested eye changes, the tabby markings, face and nose, muzzle, whisker arrangement, pose and blurred pale/brown background remain visually unchanged. Instruction: both pupils expand to fill nearly the whole eye rather than becoming narrow under strong light; the requested response is reversed, so this is non-compliance. Knowledge: the supplied explanation requires constriction, whereas both pupils visibly dilate. Instruction failure ⇒ knowledge invalid. Quality: coherent feline anatomy, natural reflections and lighting, detailed fur and clean whiskers; no noticeable structural or texture artifacts."
+    },
+    {
+      "blind_id": "case_f46f78fa8f60b401",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the face, nose, pose, whiskers and background layout remain, but non-eye fur is noticeably changed into harsh, colored granular strands and the smooth blurred background acquires a crosshatched texture. Instruction: pupils enlarge into broad black circles instead of narrowing in response to strong light, reversing the required eye change. Knowledge: visible dilation contradicts the supplied requirement that pupils constrict. Instruction failure ⇒ knowledge invalid. Quality: anatomy and lighting are coherent, but conspicuous speckled, wiry fur texture and patterned noise in the blurred background are two visible rendering flaws."
+    }
+  ]
+}

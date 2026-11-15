@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b005",
+  "results": [
+    {
+      "blind_id": "case_b7cdb3db14dabe32",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding the requested water-color change, the island, buildings, sky, shoreline geometry and composition remain recognizable and aligned, but the foreground rocks have noticeably stronger dark contrast and bluish coloration. Instruction: The gray/turquoise water has become red across the scene, matching the expected red-tide depiction. Knowledge: The supplied explanation requires water to turn red; this visible change fully matches it. Quality, edited image alone: Shorelines and perspective are coherent, but the water has conspicuously smooth, glossy, almost molten-looking surfaces and harsh red-white highlight transitions that impair natural texture."
+    },
+    {
+      "blind_id": "case_93b0007347f8d680",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Beyond permitted tile rearrangement, the wooden frame disappears, the 4-by-4 board becomes two rows of five loose blocks, and the circled brown numerals change to large black typography. Instruction: The edit shows 12, 13, 12, 9, 11 above 11, 14, 14, 7, 15, rather than the expected ordered 1–15 grid with one empty bottom-right space; most tiles are missing and several numerals repeat. Knowledge: The explanation is blank; the score follows the mandatory failure coupling. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: The ten wooden blocks have coherent rectangular shapes, readable numerals, natural wood texture and consistent contact shadows, without noticeable rendering artifacts."
+    }
+  ]
+}

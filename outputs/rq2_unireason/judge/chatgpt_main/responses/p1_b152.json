@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b152",
+  "results": [
+    {
+      "blind_id": "case_adad828e53b4aa43",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested background, lighting and placement changes, the cream bag retains its handle, chevron design and double-G clasp, but the stitch paths and leather surface are visibly redrawn and the hardware contours change. Instruction: the bag is isolated against a gray-white textured gradient with open space; a correct result would place it slightly right of center with small exact gold serif copy and fine GUCCI lettering at the frame bottom. The bag remains essentially centered, the oversized headline reads garbled words rather than \"Elegance, Always.\", and GUCCI appears on the bag instead of at the bottom of the frame, so compliance is partial. Quality: structure, shadows and background texture are coherent, but the conspicuously malformed headline is a clear text artifact."
+    },
+    {
+      "blind_id": "case_a4db3c7791177728",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the grid and original animal identities stay in their cells, but several existing illustrations are visibly redrawn, including dog facial features and raccoon forehead markings. Instruction: only two of four empty cells receive pictures, a tiger at row 1 column 3 and a dog at row 3 column 1; row 1 column 1 and row 4 column 3 remain empty. A completed solution requires tiger, lion, raccoon and dog respectively in those four originally blank cells, so both additions are wrong and half the blanks remain. Knowledge: the supplied explanation is blank; task-implied Sudoku row/column uniqueness is violated by the added tiger duplicating the tiger in column 3 and the dog duplicating row 3 and column 1. Instruction failure ⇒ knowledge invalid. Quality: the grid and most animal icons are clean and recognizable, but the added dog at row 3 column 1 has a malformed loop-shaped ear and distorted facial arrangement, a noticeable localized artifact."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b017",
+  "results": [
+    {
+      "blind_id": "case_08148d975c8bd5c1",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding the requested statue transformation, the curved gallery wall and panel layout remain recognizable, but the wall surface is visibly retextured and mottled. Instruction: the male statue becomes a helmeted female warrior with a shield and sword, both arms intact; the expected broken-arm goddess is absent, so the request is misinterpreted. Knowledge: the explanation specifies Venus de Milo, whereas the intact-armed warrior does not depict that statue. Instruction failure ⇒ knowledge invalid. Quality: the edited image alone has coherent carved anatomy, drapery, helmet and shield, believable stone surfaces and gallery perspective, with no clear structural artifacts."
+    },
+    {
+      "blind_id": "case_8a9d39758e63f4a2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding correction of the unnatural red coloring, the elephant retains its pose, tusks and landscape composition, but skin creases are extensively redrawn, feet and toenail shapes change, and the foliage and ground acquire a different hatched texture. Instruction: the red elephant becomes predominantly natural gray-brown, as expected for correcting its unreasonable coloring; a conspicuously red tail remains, a small incomplete part of the correction. Quality: the edited image alone has coherent body, trunk, ears and tusks with consistent illustrative texture and lighting, but the bright red, thin loop-like tail is a clear semantic and structural oddity."
+    }
+  ]
+}

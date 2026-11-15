@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b012",
+  "results": [
+    {
+      "blind_id": "case_7334921504c59ee0",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding the added garland and its occlusion, the tropical setting, white hat and smiling bearded subject remain recognizable, but the framing shifts substantially upward on the subject, facial details change, and the shirt pattern and sleeve presentation are altered. Instruction: A large continuous flower garland has been added, passing behind the neck and hanging down the chest exactly as requested. Knowledge: The explanation requires a multicolored lei; the yellow and purple flowers with green foliage satisfy that expectation and hang plausibly around the neck. Quality: Anatomy, garment structure, lighting and flower arrangement are coherent; the small hat-band emblem has distorted, scribbled lettering, a minor local texture flaw."
+    },
+    {
+      "blind_id": "case_8588ddab98666deb",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding flowers and the opening buds, the branching layout and several identifiable leaf tips remain similar, but leaf contours and surface details are redrawn, and foliage lighting/color shifts markedly toward saturated green with blue-purple highlights. Instruction: Several open flowers now emerge among the original plant foliage, clearly depicting the requested blooming state. Knowledge: The supplied explanation calls for pink or purple rhododendron flowers; the pale pink-lilac petals and deep pink centers match that expectation, with blooms attached to the plant. Quality: The plant and flowers are structurally readable, with coherent depth and directional light; some petal surfaces and central stamens blend into overly smooth shapes, a minor texture imperfection."
+    }
+  ]
+}

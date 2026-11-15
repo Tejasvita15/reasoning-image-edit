@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b005",
+  "results": [
+    {
+      "blind_id": "case_c0ef6c23adf17385",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding requested setting, placement, palette, light and text, the three drawers and round knobs remain recognizable, but the cabinet top molding has changed from the broad sloped cap to a flatter stepped rim, and the legs now have different blocky proportions. Instruction: The plain background becomes a warm white wall, pale wood floor, right-hand linen curtain and angled sunlight, with the cabinet left of center as expected. However, the requested sentence is replaced by garbled text placed across the lower center rather than a thin-line title in the bottom right; this is partial compliance. Quality (edited image alone): Structure, lighting and material textures are coherent, but the conspicuously malformed, unreadable two-line caption is a clear visual flaw."
+    },
+    {
+      "blind_id": "case_3275750ed06734ce",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The grid layout, blue 1 clues, green 2, gray cells and raised covered squares are retained; there is a small overall change in grid proportions and line placement. Instruction: Two red numeral-like symbols appear in row 3, columns 4 and 5. The expected result is red X marks on the clue-determined mines, at row 1 column 6, row 3 column 3 and row 4 column 5 (counting from the top left). Neither added symbol is an X, both occupy safe cells, and all three mine cells are unmarked, constituting major omission. Knowledge: The supplied explanation is blank; the visible clues support the task-implied mine deductions above. Instruction failure ⇒ knowledge invalid. Quality (edited image alone): The regular grid, bevels and colored clues are coherent, but the left red symbol is malformed and semantically unclear, a noticeable graphic artifact."
+    }
+  ]
+}

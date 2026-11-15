@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b031",
+  "results": [
+    {
+      "blind_id": "case_2527b871f1a7d998",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the bear face/body are redrawn, framing changes, and several lower-right maze walls are erased or broken; the upper maze and gift arrangement remain recognizable. Instruction: red markings are added, but a correct result requires one continuous corridor-following route from animal to gifts. The line beside the bear stops, and disconnected red segments replace walls without reaching the gifts, so most of the route is missing or poorly implemented. Knowledge: the explanation is blank; the task itself implies a connected traversable route, which is absent. Instruction failure ⇒ knowledge invalid. Quality: the cartoon subjects and upper maze are coherent, but multiple lower maze walls dissolve into blurred white/red smears and disconnected stubs, causing distracting structural degradation."
+    },
+    {
+      "blind_id": "case_a4149edae6078843",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding the requested glass and liquid change, the rear bowl of raspberries becomes cabbage and the raspberry on the spoon becomes a cabbage-like slice; napkin texture also changes, while the pink tabletop and general arrangement persist. Instruction: the yogurt bowl is replaced by a transparent glass containing purple indicator-colored liquid, with cabbage shown nearby. This matches the literal requested result of red-cabbage indicator in water. Knowledge: the supplied explanation instead requires acidic yogurt turning red or pink; the image removes yogurt and shows predominantly purple liquid, so it does not depict that stated chemical outcome. Quality: the glass, spoon, lighting and table are coherent, but the cabbage has conspicuously artificial black voids and ornamental concentric swirls rather than convincing leafy structure."
+    }
+  ]
+}

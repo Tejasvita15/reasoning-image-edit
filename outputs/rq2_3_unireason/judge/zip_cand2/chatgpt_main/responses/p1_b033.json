@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b033",
+  "results": [
+    {
+      "blind_id": "case_7e79951779574570",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: excluding the requested conversion of the shape, the plain white background, central placement and single-object composition remain unchanged. Instruction: the outlined flat circle becomes a shaded three-dimensional ball, exactly the expected solid of rotation. Knowledge: the explanation specifies a sphere, and the circular silhouette with continuous spherical shading matches it. Quality: coherent round geometry, smooth surface and consistent upper-left illumination; no visible structural or generation artifacts."
+    },
+    {
+      "blind_id": "case_dd087e45749d509f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: excluding the requested water discoloration, the broad coastal layout remains, but the right-hand rocks acquire conspicuously altered contrast and smoothed textures, the distant trees/buildings lose and change detail, and pink haze extends into the previously gray sky at the horizon. Instruction: the gray-turquoise sea becomes red throughout the visible current, clearly showing the requested red tide. Knowledge: the supplied explanation requires the water to turn red, which is visibly achieved. Quality, considering the edited image alone: the coastline and currents remain recognizable, but froth and waves have conspicuously thick, glossy, smeared contours, and the right-hand rock surfaces show painterly blending and dark exaggerated outlines."
+    }
+  ]
+}

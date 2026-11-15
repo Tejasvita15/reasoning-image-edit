@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b198",
+  "results": [
+    {
+      "blind_id": "case_585275d767314335",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, short-sleeved silhouette, centered Nike emblem, neck tag and side tab remain recognizable and similarly placed; the fabric crease pattern is visibly redrawn, especially across the lower body and right underarm. The requested recoloring is excluded. Instruction: The black shirt becomes white across its body, sleeves and collar, exactly the expected color change to the same garment. Quality: Structure, lighting, fabric shading and clean edges are coherent, with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_7e48f90740a10be3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Beyond the permitted ball-position change, the track is reshaped with unequal upper endpoint heights, the ball is proportionally larger, and the background texture and framing change noticeably; the brown setting and metal material remain. Instruction: The ball is moved to the upper right, addressing the requested destination, but its displayed highest point is too high relative to the original release level; a correct result would show the rightward ball at that initial height. Knowledge: The explanation requires equal heights by energy conservation. The ball now floats substantially above the left endpoint, whereas the original ball overlapped that endpoint, visibly conflicting with the equal-height expectation. Quality: The edited image alone has coherent spherical and track geometry, consistent directional lighting, convincing metal and orange textures, and no noticeable rendering artifacts."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b124",
+  "results": [
+    {
+      "blind_id": "case_6af6de3c06405b3e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: white background, frontal presentation, slanted pockets and belt-loop arrangement remain, but the crotch rises and leg/hem outlines shift; the pale brown button becomes dark silver. These exceed the requested fabric recoloring. Instruction: the cream fabric changes to saturated blue throughout both legs and waistband; the expected blue pants are fully present, giving perfect compliance. Quality: structure, natural shading, clean outlines and fabric texture are satisfactory; no noticeable anatomical, object or rendering artifacts."
+    },
+    {
+      "blind_id": "case_e0089c3a2d112e46",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the glass outline, narrow neck, upright position and white setting remain consistent, excluding the required sand redistribution. The reflection below the base is noticeably darker and more solidly defined. Instruction: upper sand disappears and the lower mound grows; the expected completed hourglass cycle is fully depicted. Knowledge: the supplied explanation requires an empty upper chamber, which is clearly shown, with accumulated sand below, so the result fully matches. Quality: coherent glass form, plausible transparency and shading, and well-defined granular sand; no noticeable rendering defects."
+    }
+  ]
+}

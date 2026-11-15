@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b008",
+  "results": [
+    {
+      "blind_id": "case_65edcf2d5df469e8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested movement and rotation of the left cup and resulting contact shadows, the supporting cup has shifted toward the center and become shorter in proportion; the moved cup also loses its visible interior base ring. The plain pale setting and white material remain consistent. Instruction: the sideways left cup has moved above the upright cup, with its lower end resting in the opening, matching the requested placement onto the other cup. Quality: satisfactory cup geometry, rim continuity, lighting, contact shadows and smooth ceramic surfaces; no clear generation artifact is visible."
+    },
+    {
+      "blind_id": "case_de90af2b929615b1",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the broad axial anatomical arrangement remains recognizable, but the black exterior becomes white, peripheral scan annotations disappear, and bone and soft-tissue textures and contrast are extensively altered beyond particle removal. Instruction: the prominent small white focus in the kidney region and the separate central bright round focus are absent, leaving gray tissue in their locations; the requested removal is visibly complete. Knowledge: the explanation asks to remove a few small white particles, and their disappearance with tissue remaining in place matches that supplied expectation. Quality: the axial outline and organs are coherent and the granular tissue texture is plausible, but the vertebral body is an unnaturally featureless white block with an abrupt boundary, a clear local rendering flaw."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b105",
+  "results": [
+    {
+      "blind_id": "case_4ac39eceb7ebeda1",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Navy woven upholstery, brown tapered legs and white background remain, but the visible three-back-cushion construction becomes two cushions, and the continuous chaise becomes a separate-looking ottoman in front of a normal seat. These are object-design changes beyond rotation. Instruction: A frontal view is clearly produced and the extension is on the correct right side, but the reference has three back cushions and an integrated long right seat; the edited proportions and seat/extension relationship differ noticeably, giving partial compliance. Quality: The edited sofa and ottoman have coherent shapes, clean upholstery texture, plausible shading and intact legs, with no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_fc1633280699de88",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": 4,
+      "rationale": "Consistency: The orange ball and metallic curved track remain recognizable, but the entire left upright disappears, the scene is reframed, and the brown background and lighting become visibly darker. Instruction: The ball moves from the left to the upper right, indicating the requested maximum position near the height of the track tips; its placement is slightly detached inward from the right track endpoint rather than clearly meeting it. Knowledge: The supplied energy-conservation explanation requires the same attainable height on the opposite side. Placement near the right tip broadly conveys that equal-height return, although the small height/contact mismatch makes the peak less exact. Quality: The ball has natural spherical shading and texture and the right rail is coherent, but the lower-left end of the rail dissolves into the background without a clearly formed termination, a noticeable structural artifact."
+    }
+  ]
+}

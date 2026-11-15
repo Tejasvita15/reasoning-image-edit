@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b004",
+  "results": [
+    {
+      "blind_id": "case_a1f1cbf4067f9e6e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested setting, lighting and placement changes, the three drawers and round knobs remain, but the cabinet’s broad beveled crown becomes a flatter narrow top and its base/leg construction and drawer spacing change visibly. Instruction: The cabinet moves left into a warm white room with pale oak flooring, linen curtain and angled sunlight, matching the expected lifestyle setting. However, the required sentence is replaced by illegible text centered across the bottom rather than a correct bottom-right title; the main scene is achieved but the text requirement fails. Quality: Structure, lighting and surface textures are satisfactory; the two lines of garbled lettering are a clear semantic artifact."
+    },
+    {
+      "blind_id": "case_740a7ac757fbbee6",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The glass, laboratory setting and general composition remain recognizable, but the background microscope’s component shapes and positions change, and the bubble pattern and glass-base details are visibly regenerated beyond the pencil insertion. Instruction: A yellow pencil has been added with its lower portion inside the water and its upper portion above the rim, exactly fulfilling the requested insertion. Quality: Structural coherence, natural lighting/perspective, artifact absence and material textures are satisfactory; the glass, pencil and softly focused laboratory scene are visually coherent. Knowledge: The supplied explanation requires an apparent break from differing refractive indices. The inserted pencil instead continues in essentially one straight alignment through the water surface, with no convincing bend or displacement there, a clear conflict with the stated optical expectation."
+    }
+  ]
+}

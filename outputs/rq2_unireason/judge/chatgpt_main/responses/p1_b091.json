@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b091",
+  "results": [
+    {
+      "blind_id": "case_fa8d81739ba524b8",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the eight supplied dot patterns retain their colors, arrangement and placement; the grid dividers have slight slope/spacing changes. Instruction: the bottom-right question mark remains instead of a completed 4-by-4 dot pattern, so the requested drawing is absent. Knowledge: no same-color comparison result is supplied. Instruction failure ⇒ knowledge invalid. Quality: clear circles, readable question mark and coherent clean black-and-white layout, with no noticeable rendering artifact."
+    },
+    {
+      "blind_id": "case_09a5de9f3c3e1ce9",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the dark background and checked sleeve remain, but the faucet disappears and the hand has visibly changed finger contours and skin creases. Instruction: the small rod formerly held above the palm is completely absent, satisfying its removal. Knowledge: the explanation requires a vertical downward water stream; the edit removes the entire water stream and faucet, ignoring the required physical outcome. Quality: the cupped hand and sleeve are recognizable and coherently lit, but the hand has slightly harsh, smeared skin ridges."
+    }
+  ]
+}

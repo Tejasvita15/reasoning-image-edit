@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b023",
+  "results": [
+    {
+      "blind_id": "case_23bb5b100a9a240f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested enlargement, both clocks have different hand arrangements and thicker hands, the right clock is repositioned lower relative to the left, and numeral styling changes; the pale wall and two-clock composition remain. Instruction: the left clock is enlarged, and the two circular cases now visibly match in height and diameter, fulfilling the requested size match. Quality (edited image alone): satisfactory coherent circular cases, readable numerals, convincing wall shadows and clean surfaces; no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_73016dedc53a0103",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: most major non-requested content changes: the cow and milk carton disappear, the chicken moves to the top, a feather-like symbol and extra food objects appear, the honey dipper disappears from its jar, and garbled labels are added; yarn, eggs, sheep and bee remain recognizable. Instruction: instead of adding matches, the edit changes the worksheet objects and adds labels without any connecting lines or unambiguous matching scheme. The expected yarn–sheep, honey–bee, eggs–chicken and milk–cow matches are absent. Quality (edited image alone): severe semantic errors in multiple large garbled text labels, with cropped top illustrations and incoherent bottom object grouping. Knowledge: Instruction failure ⇒ knowledge invalid. The supplied knowledge explanation is blank; this score follows the mandatory instruction-failure coupling."
+    }
+  ]
+}

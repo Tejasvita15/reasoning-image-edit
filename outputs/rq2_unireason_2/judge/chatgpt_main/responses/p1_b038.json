@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b038",
+  "results": [
+    {
+      "blind_id": "case_58c2282e5d5ec7db",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white backdrop and two burlap drawstring bags remain, but the small bag is resized and shifted, and both bags have changed folds, weave, printed figures and cord/bead arrangements. These exceed the permitted resizing of the large bag. Instruction: 1. Both bags appear reduced and redrawn. 2. The right bag should match the left bag in size. 3. The right bag remains substantially taller and wider than the left, with the original large-versus-small relationship retained. 4. The requested size match is not achieved. Quality: structure ✔, natural lighting and shadows ✔, artifact-free ✔, texture fidelity ✔; the bags, cords, beads and tassels are coherent and clearly rendered."
+    },
+    {
+      "blind_id": "case_74589f7b3b217633",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the plain light environment and recognizable basketball remain, but the soccer ball is shifted to the lower center and its panel orientation changes; an unrequested brown-rimmed gray support is added between the balls. Instruction: 1. The basketball moves from beside the soccer ball to above it. 2. It should sit directly atop the soccer ball. 3. The requested vertical placement is achieved, but a small intervening support prevents direct ball-to-ball contact. 4. This is a minor deviation from the core placement. Quality: ball structure ✔, surface texture ✔, lighting ✔; artifact-free ✘ because a conspicuous flattened rimmed shape is wedged into the junction, making the connection between otherwise coherent balls visually unnatural."
+    }
+  ]
+}

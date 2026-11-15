@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b045",
+  "results": [
+    {
+      "blind_id": "case_1904e53c14f0978b",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding the permitted bird replacement, the blue sky and upper-right sun remain in place, but the cloud field has visibly changed into denser, differently shaped streaks. Instruction: the gull-like bird becomes a white, long-necked swan with a dark facial patch and orange bill; the requested result is an owl, so the replacement completely misidentifies the intended bird. Knowledge: the supplied explanation explicitly requires an owl, which is absent. Instruction failure ⇒ knowledge invalid. Quality: the swan and backlit wings are clearly structured, with coherent lighting and feather detail; slight blending of the black feet against the tail is a small local imperfection."
+    },
+    {
+      "blind_id": "case_6c5abfdded2c7c9b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the field, cloudy sky, distant tree line, horizontal walkway and curving right path preserve the composition, but the foreground foliage has visibly different leaf clusters and the distant tree silhouettes and small structures are reshaped. Instruction: the edit still shows an empty green flatland without any added prayer flags; the expected addition is visibly absent. Knowledge: the explanation requires five-colored prayer flags, but none appear. Instruction failure ⇒ knowledge invalid. Quality: the landscape has coherent perspective and overcast lighting without duplicated objects; mild blended, painterly foliage texture is a small imperfection."
+    }
+  ]
+}

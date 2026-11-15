@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b015",
+  "results": [
+    {
+      "blind_id": "case_3c8562d7ed303b21",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding the requested water discoloration, the coast and framing remain recognizable, but the distant trees/buildings are simplified and reshaped, and the right-hand rocks have visibly redrawn contours and textures. Instruction: The gray/turquoise water becomes extensive dark red water with white foam, fully showing the requested red tide. Knowledge: The explanation requires the water to turn red, which is plainly depicted. Quality (edited image only): The coastal layout is coherent, but the water has thick, unnaturally hard white foam outlines and smeared surface detail, while the rocks and distant shore have visibly flattened, painterly texture."
+    },
+    {
+      "blind_id": "case_b6b2ee1c112e77fe",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The boundary line and upper-right dark fabric remain recognizable, but the turf texture is substantially changed and the retained ball is relocated to the lower left with a different panel orientation; conspicuous filled patches occupy the former ball positions. Instruction: Three balls become one displaced ball. The expected result retains balls still touching the boundary, as specified by the supplied explanation; the edit instead removes the original left-side and line-overlapping balls, so most of the required selection is incorrect. Knowledge: Instruction failure ⇒ knowledge invalid. Quality (edited image only): The ball and field are recognizable, but several large smooth green patterned patches interrupt the turf, including a conspicuous pale patch across the white line, creating multiple distracting compositing defects."
+    }
+  ]
+}

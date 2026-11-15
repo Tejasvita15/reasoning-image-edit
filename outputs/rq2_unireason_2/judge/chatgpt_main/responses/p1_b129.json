@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b129",
+  "results": [
+    {
+      "blind_id": "case_57d3d7f8f9bef2f0",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background, brand and three-button arrangement remain, but the blue cuff disappears, the housing proportions change, and the pulse/memory readouts and small unit labels change beyond the requested pressure values. Instruction: the original 123/72 pressure digits become disconnected, malformed segments; the expected result is clearly legible hypotensive readings, so changing the screen does not reliably establish the requested values. Knowledge: neither systolic below 90 nor diastolic below 60 is coherently displayed; the mandatory failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality: the housing and lighting are coherent, but multiple broken numerical glyphs and garbled unit labels substantially degrade the display and its meaning."
+    },
+    {
+      "blind_id": "case_283a23abc51095dc",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding the added balloon, the bed and blanket folds, pillows, chair, carved wall panel, lamp, tray, curtains, window and rug retain their arrangement and appearance. Instruction: a salmon-colored inflated balloon is added in the room, but it hangs unsupported high beside the window; the requested regular-air balloon should rest down on a surface, so the object addition is present while the air-fill implication is wrong. Knowledge: the supplied explanation explicitly requires the balloon to lie on the floor; its elevated unsupported placement ignores that expected behavior. Quality: the edited image has coherent furniture and room geometry, detailed textiles, natural room lighting and a smoothly formed balloon with clean edges; no noticeable visual artifacts."
+    }
+  ]
+}

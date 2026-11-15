@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b007",
+  "results": [
+    {
+      "blind_id": "case_c45626280d0d6d4a",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding fur changes, the snowy foreground, distant building and muted sky are replaced by grass and a vivid forest, changing nearly all major surroundings; the seated pose and rightward tail remain recognizable. Instruction: The fur becomes more strongly textured but remains white and very thick; an appropriate summer coat change is not depicted. Knowledge: The supplied explanation requires gray fur, which is absent. Instruction failure ⇒ knowledge invalid. Quality (edited image alone): Anatomy, forest perspective and grass are coherent, but the coat has slightly unnatural, uniformly etched streaks rather than natural hair texture."
+    },
+    {
+      "blind_id": "case_2fd3ed78b19da242",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding the added emblem, the gray backdrop, white lidded mug and overall placement remain recognizable, but the mug silhouette is slightly widened and shifted, especially at the lid and handle, and the wood grain and tabletop reflection are visibly altered. Instruction: A centered red cross with balanced perpendicular arms has been added directly to the previously blank cup, fully depicting the requested classic emblem. Knowledge: The visible attached red cross fulfills the supplied explanation. Quality (edited image alone): The cup, handle and lid are structurally coherent; ceramic highlights, emblem edges, surface reflections and shadows look natural, with no noticeable generation artifacts."
+    }
+  ]
+}

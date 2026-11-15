@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b022",
+  "results": [
+    {
+      "blind_id": "case_a46dad3afd35f6cb",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The gray board, beveled covered cells and blue 1 clues remain recognizable in the same arrangement, but the existing green 2 clue in row 4, column 4 has been changed to red. Requested mine annotations are excluded from this comparison. Instruction: The edit adds red and green 2-shaped symbols instead of red Xs; the top-right covered cell and the covered cell in row 3, column 3 remain unmarked. A correct result would mark mines with red Xs according to neighboring clues; no requested X markers are present. Knowledge: Instruction failure ⇒ knowledge invalid. The supplied knowledge explanation is blank. Quality, edited image alone: Structure ✔, natural game-interface appearance ✔, artifacts ✔, surface fidelity ✔; the grid and colored numerals are coherent and legible without distracting visual defects."
+    },
+    {
+      "blind_id": "case_01644ae5a7655c81",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, glow, decorations and poster layout, the painting and frame retain their general identity but have conspicuously changed: crane feather/wing details and tree foliage are simplified and distorted, calligraphy is redrawn, and carved frame ornaments differ. Instruction: The edit adds a blue gradient, pale cloud motifs and a light halo around the centered frame. The expected poster also needs flying cranes around it, the exact large serif heading Artistic Charm: Beauty of Tradition at the top, and handwritten event information at bottom left. Those cranes and heading are absent, while large illegible script and garbled serif lines occupy the bottom center, leaving most requested text/decorative requirements unfulfilled. Quality, edited image alone: Structure ✘ and artifact-free ✘ because several prominent text lines are garbled and painted crane bodies/feathers blend into malformed strokes; gradient and cloud styling are coherent, but the text and painting defects are distracting."
+    }
+  ]
+}

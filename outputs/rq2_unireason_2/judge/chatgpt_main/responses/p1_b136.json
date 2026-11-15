@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b136",
+  "results": [
+    {
+      "blind_id": "case_532da5df34f74a73",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The lens fronts, bridge, nose pads, overall orientation and tabletop pattern remain recognizable and in matching positions, but the background surface has noticeably changed to a much harsher, mottled texture. Temple alterations are excluded. Instruction: The short lower arm is extended, but the new material turns upward and joins the other arm into a closed loop. Expected completion would give the glasses two separate finished temple tips; this is a major implementation error. Quality: Structural coherence ✘: the two temples form an implausible continuous rectangular enclosure, with an abrupt joint along the lower edge. Lighting and lens transparency ✔; the main semantic shape error prevents a natural glasses structure."
+    },
+    {
+      "blind_id": "case_7236c438af35dd36",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The bed, chair, window, curtains, lamp and room layout are retained, but the carved wall decoration is visibly reworked, the pillows and blanket folds change, and the bed tray contents are reduced/rearranged. Instruction: Three red inflated balloons appear, with two above/on the bed and one suspended near the lamp. A faithful result would add a single ordinary-air balloon resting in the room; the balloon addition addresses the idea but the number and unsupported placement are incorrect. Knowledge: The supplied explanation explicitly expects a balloon lying on the floor. None lies on the floor, and the rear balloon hovers without visible support, contradicting that fundamental ordinary-air behavior. Quality: Structure, furniture perspective and fabric textures ✔; natural integration has a small lighting/shadow weakness, as the glossy balloons lack convincing corresponding shadows on nearby bedding."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b104",
+  "results": [
+    {
+      "blind_id": "case_4a11041e1cdf2328",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background, upright orientation, four-column/two-row arrangement, four-tined heads and flared handles remain; the metal rendering has visibly stronger dark edge shading and brighter highlights. Instruction: the source contains eight forks and the edit still contains eight; the expected result is exactly six forks, so the requested count change is absent. Quality: structure, spacing and metallic surfaces are coherent; slight ragged dark outlines on several handle edges are a small rendering imperfection."
+    },
+    {
+      "blind_id": "case_e2167cc309aeea44",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the glass bowl, decorated spoon, corn cobs, rear jar and wooden tabletop retain their overall identities and arrangement, but individual loose kernels change shape and position and the jar clasp and bowl reflections are visibly redrawn. Powder wetting and the added dropper are excluded as requested changes. Instruction: a dropper and amber liquid descending onto and pooling on the powder have been added; this directly matches the expected depiction of iodine being dripped onto the pile. Quality: structural coherence, lighting, glass reflections and powder texture are satisfactory, with no clear generation artifact in the edited image alone. Knowledge: the supplied explanation requires cornstarch to turn blue on contact with iodine; the wetted region stays amber/brown and surrounding powder stays white, with no blue reaction visible, entirely omitting the stated effect."
+    }
+  ]
+}

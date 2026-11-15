@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b077",
+  "results": [
+    {
+      "blind_id": "case_6d38554418f8d44d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, glow, typography and placement changes, the face/gaze, earrings and back-lace construction visibly change; the dark bun and general over-the-shoulder pose remain recognizable. Instruction: The edit adds a green gradient, pale floral overlays, glow and a large gold handwritten The Big Day title, with the bride near the center-right as expected for the poster. However, the bottom information is nonsensical and cut off, and distinct background lace patterns are not evident; these leave required aspects incomplete. Quality: Structural coherence and lighting are broadly satisfactory, and the flowing skirt is coherent. The clearly garbled footer and its clipped second line are conspicuous semantic/layout flaws."
+    },
+    {
+      "blind_id": "case_f2a5e2bd7870795f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding requested staging, light and background changes, the silver circular ring and shoulder stones remain, but the main diamond is much larger with a different prong setting, and the band profile/stone arrangement changes noticeably. Instruction: The edit stages an upright ring centrally above bottom serif capitals, adds textile texture, an upper-right light beam and a soft shadow. The expected white-to-icy-gray restrained display is only partly realized: the background is dark gray above, the text is dark rather than light silver-gray, and the requested quotation is replaced by LOVE KNOWS NO BONDS followed by garbled text. Quality: Ring structure, metallic reflections and textile perspective are coherent, without obvious duplication; the nonsensical second line is a clear semantic artifact in an otherwise legible poster layout."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b056",
+  "results": [
+    {
+      "blind_id": "case_b0f5d7ecf0bd9265",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the two upper diamonds, lower-left subdivided square and enclosing frame retain their arrangement, but their strokes are visibly thickened/redrawn and the frame margins change. Instruction: the bottom-right rounded arrow-like outline remains instead of becoming the required plain square, so the requested replacement is absent. Knowledge: the supplied explanation requires a square without internal lines; the outline is not square. Instruction failure ⇒ knowledge invalid. Quality: satisfactory shape structure, legibility, flat graphic appearance and surface treatment; no conspicuous generation artifacts."
+    },
+    {
+      "blind_id": "case_badfe4e9451d2dd0",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: beyond an allowed single match move, most of the expression changes: the middle 2 and equals sign disappear, the final 5 becomes a framed red H, match lengths change and the yellow background folds are redrawn. Instruction: the original 5−2=5 is replaced by a 5, a long horizontal match and a boxed H, rather than a correct equation obtained by moving one match. Knowledge: the supplied explanation is blank; the visible result lacks a valid arithmetic equality, and the mandatory coupling determines the score. Instruction failure ⇒ knowledge invalid. Quality: the 5, long match and red H are legible with coherent shading and texture; a small malformed/overlapping match junction at the lower-left of the H frame is the visible imperfection."
+    }
+  ]
+}

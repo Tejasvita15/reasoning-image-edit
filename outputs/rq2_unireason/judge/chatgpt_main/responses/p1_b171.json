@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b171",
+  "results": [
+    {
+      "blind_id": "case_b390772149744e96",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding the liquid color and its associated refraction, the glass outline, rim, facets, fill level, white background and cast shadow remain visually unchanged. Instruction: the clear liquid becomes pink, with stronger magenta near the base; the expected result for this pure water is still colorless, so the requested outcome is misinterpreted. Knowledge: the supplied explanation explicitly requires no color change, contradicted by the pink liquid. Instruction failure ⇒ knowledge invalid. Quality: the edited glass has coherent geometry, realistic highlights, transparent surfaces and a natural shadow, with no noticeable structural or generation artifacts."
+    },
+    {
+      "blind_id": "case_df047a6a2df48e49",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding the requested creature replacement, the blue-sky setting and upper-right sunlight remain, but the cloud background is visibly reworked, especially the lower cloud band. Instruction: the gull is replaced by a white, long-necked swan with a black-and-orange bill; the expected replacement is an owl, so the central requested identity is wrong. Knowledge: the supplied explanation specifies an owl and the visible swan does not match. Instruction failure ⇒ knowledge invalid. Quality: the bird has coherent wings, feather layers, neck and lighting, but the sky has a slightly artificial rippled texture; no major structural failure is visible."
+    }
+  ]
+}

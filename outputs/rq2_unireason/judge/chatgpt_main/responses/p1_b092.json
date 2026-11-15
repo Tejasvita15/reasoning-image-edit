@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b092",
+  "results": [
+    {
+      "blind_id": "case_5eedbf170a8f1d79",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: All eight supplied dot arrangements, their colors, the white background and nine-cell layout remain intact; minor wobbling/thickening of grid-line contours is visible. Instruction: The bottom-right cell still contains a question mark instead of the required 4-by-4 black/white dot arrangement, so the requested completion is absent. Knowledge: The supplied equality-of-colors rule is not applied in the missing cell. Instruction failure ⇒ knowledge invalid. Quality: The diagram is clear and coherent with legible symbols and solid fills; slightly uneven grid-line edges are a minor imperfection."
+    },
+    {
+      "blind_id": "case_f1308a8eebbc2a07",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The stoppered, labeled nitric-acid bottle is replaced by a tightly cropped cylindrical vessel; the stopper, label, vessel silhouette, framing and liquid appearance are lost, although a white background remains. Instruction: A large quantity of reddish-brown dry powder and clumps appears, with airborne dust; the expected modest addition of iron powder to the existing solution is not depicted. Knowledge: Neither the light-green solution nor generated bubbles specified in the explanation are visible. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the vessel and granular powder are structurally coherent, with convincing fine texture, dust, glass highlights and shadow, and no noticeable generation artifacts."
+    }
+  ]
+}

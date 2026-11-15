@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b244",
+  "results": [
+    {
+      "blind_id": "case_f64604ed24211fa1",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding the required sand redistribution, the glass silhouette, neck, white background, placement and base reflection remain visually unchanged. Instruction: Sand has disappeared from the upper bulb and the lower mound has grown, matching the expected completed timing cycle. Knowledge: The upper chamber is empty, exactly as the supplied explanation requires, with the sand collected below. Quality: Coherent glass structure, plausible reflections and granular sand; no noticeable structural or texture artifacts."
+    },
+    {
+      "blind_id": "case_dfb1dd93c90a31b8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The braided trunk and recognizable leaf arrangement are retained, excluding authorized poster layout and background changes; however, foliage surfaces become markedly smoother and glossier, and the basket weave is visibly redrawn. Instruction: The plant is centered within a light green gradient and soft halo, with floating droplets, leaf silhouettes and a readable top-left Green Home title. These match the requested poster, except the heavy uppercase sans-serif title lacks the requested elegant natural-style lettering. Quality: The layout, readable lettering, trunk and basket are coherent, but the upper-left foliage visibly fades into a translucent hazy patch, producing a clear ghosted/blended leaf artifact."
+    }
+  ]
+}

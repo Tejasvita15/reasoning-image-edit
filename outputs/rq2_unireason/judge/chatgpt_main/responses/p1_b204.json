@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b204",
+  "results": [
+    {
+      "blind_id": "case_9d290aa3884294d9",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the two allowed removals, the remaining baguette is also erased into a smooth pale mass; the pale tabletop and framing remain recognizable. Instruction: The three textured baguettes become one fused, blank three-lobed form. Correct removal would leave one intact baguette and exposed tabletop; no intact baguette remains, so the request is not fulfilled. Quality: Structural coherence and texture fidelity fail severely: the dominant object is an amorphous smooth sheet with dangling lobes, dark cavities and colored edge halos rather than coherent natural forms."
+    },
+    {
+      "blind_id": "case_dcd6928f322e0d03",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding viewpoint-related changes, the black jacket, orange accents, zipper, collar and gray background remain, but the three shoulder stripes become two, the chest lettering changes from adidas to adidos, and glossy wrinkled fabric becomes uniformly flat and matte. Instruction: The oblique jacket becomes a straight-on full-front flat layout. The reference requires an overhead view with a large central neck opening and strongly foreshortened torso; the edit instead shows the entire long front and hem, so the viewpoint is in the wrong direction. Quality: Structural coherence, naturalness, artifact freedom and texture fidelity are satisfactory: clean sleeve contours, orderly stripes, aligned zipper and pockets, legible lettering and soft consistent shadows form a coherent product image."
+    }
+  ]
+}

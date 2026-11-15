@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b140",
+  "results": [
+    {
+      "blind_id": "case_de407e227ad08c76",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested resizing of the right bag, the left bag has changed folds, weave, drawing, cord loops and tassels; both bags retain their beige color and the white background, but several uninstructed details differ. Instruction: The right bag remains much taller and wider than the left. A successful edit would make the right bag match the small bag in overall size; the persistent size disparity fails that request. Quality: Structural coherence ✔, natural lighting and shadows ✔, artifact-free ✔, texture fidelity ✔; the two woven drawstring bags, beads and tassels are visually coherent."
+    },
+    {
+      "blind_id": "case_a59f4eabd2f662a7",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Allowing the requested viewpoint change, the black garment and gray background remain, but the orange shoulder/sleeve stripes and chest logo disappear, and the jacket hem becomes a large angular lower extension. Multiple garment details are changed beyond perspective. Instruction: The oblique jacket becomes a frontal, flattened garment with a tall torso. The reference instead looks down through the open neck, with strongly foreshortened torso and sleeves extending across the image. Neck opening, orientation, foreshortening and occlusion ✘; the edit is in the wrong viewing direction. Quality: Structural coherence ✘ and naturalness ✘: the lower body has abrupt rectangular side steps and a curved cutout-like bottom, the collar reads as a filled block, and the central closure ends partway down the torso. Sleeve texture is coherent, but multiple conspicuous shape and construction problems degrade the garment."
+    }
+  ]
+}

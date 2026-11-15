@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b030",
+  "results": [
+    {
+      "blind_id": "case_dda886ad8480f9db",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the flat field, distant trees, boardwalk, curved path and overcast sky retain their arrangement, but the foreground vegetation has visibly different leaf and flower detail. Instruction: no prayer flags have been added anywhere on the flatland; the expected strings of flags are absent, so the requested change is not followed. Knowledge: the specified five-colored flags are absent. Instruction failure ⇒ knowledge invalid. Quality: ✔ coherent landscape structure, natural overcast lighting, credible foliage textures and no conspicuous artifacts."
+    },
+    {
+      "blind_id": "case_cfddc04fddc8ee99",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": 3,
+      "rationale": "Consistency: most non-target content changes: the first two plus signs disappear, the top-right square and plus deform, the middle-right circle and square disappear, both existing bottom-row triangles disappear, and grid divisions and stroke widths change. Instruction: the question mark is replaced by a triangle with a blue disk in the lower-right region, but the disk is inside the triangle rather than on its bottom edge as the supplied answer requires; this is partial compliance. Knowledge: the supplied explanation explicitly calls for a triangle with a blue circle on its bottom edge; the clearly interior disk is one direct conflict. Quality: ✘ several structural problems, including the malformed top-right symbol, square outline merging into a grid divider, and central shapes connected by extraneous vertical strokes; otherwise the dark shapes remain distinguishable against white."
+    }
+  ]
+}

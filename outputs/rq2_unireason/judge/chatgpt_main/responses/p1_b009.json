@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b009",
+  "results": [
+    {
+      "blind_id": "case_0ac323a1a5672c64",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: navy woven upholstery, brown tapered legs and white background remain, but the rounded loose back cushions become flat rectangular panels and the seat/chaise cushions become noticeably thinner and more squared; these are design changes beyond a viewpoint change. Instruction: the edit still presents the long outer side arm and a chaise extending left in profile, rather than the reference frontal three-seat arrangement with the chaise toward the viewer on the right. Little correct front-view change is achieved. Quality: considered alone, the upholstered furniture has coherent boundaries, continuous fabric texture, clean legs and a clean white background without a clear generation defect."
+    },
+    {
+      "blind_id": "case_71d0d203b7c46dc2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the blue-and-white thermometer and bundled probe remain recognizable, but the device angle and casing proportions change, the wire loops are rearranged, and MAX becomes NAX. Instruction: the original reads 28.7 C; the supplied expectation is a rise to approximately 31.7 C. The edited display contains overlapping malformed digits and does not show that temperature, so the requested adjustment is not achieved. Knowledge: Instruction failure ⇒ knowledge invalid. The visible result also fails to express the supplied approximately 3 C increase. Quality: the main number segments overlap and deform, the decimal area has dangling malformed marks, and labels such as NAX and MIIN are corrupted; these multiple distracting display/text errors degrade an otherwise recognizable product image."
+    }
+  ]
+}

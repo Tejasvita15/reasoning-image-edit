@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b106",
+  "results": [
+    {
+      "blind_id": "case_881bcc15898797dc",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested background, decorations, typography and centering, the red lantern retains its broad identity but its gold floral outlines, rib contours and tassel attachment are noticeably redrawn. Instruction: the plain product image becomes a centered festive poster with willow branches, red petals, a red/gold glow and sparkles, as expected; however, the top headline is unrelated garbled lettering and the bottom calligraphy does not read the requested festive slogan. The main design is present but required typography is incomplete. Quality: coherent lantern, foliage and lighting, but multiple prominent text regions contain malformed or nonsensical lettering, including the large cursive line, creating distracting semantic defects."
+    },
+    {
+      "blind_id": "case_c5d6179f6bf3702f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding the creature replacement, the blue-sky setting remains recognizable, but cloud formations are extensively changed and the diffuse upper-right sun becomes a strong starburst with added lens flare. Instruction: the gull is replaced by a metallic golden crested bird with a narrow hooked-beak head; the expected replacement is an owl, which is not depicted. This completely misinterprets the requested bird identity. Knowledge: the supplied explanation explicitly requires an owl; the visible crested fantasy bird does not match. Instruction failure ⇒ knowledge invalid. Quality: assessed alone, the stylized gold bird has coherent wings, fan tail, crest and reflective surfaces; the sky and sunlight are natural within the composition, with no noticeable structural or texture artifacts."
+    }
+  ]
+}

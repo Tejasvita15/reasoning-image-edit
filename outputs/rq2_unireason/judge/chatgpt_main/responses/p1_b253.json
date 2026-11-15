@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b253",
+  "results": [
+    {
+      "blind_id": "case_ee0ba92805ec2f29",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the monitor and cuff remain recognizable on white, but both are enlarged/repositioned, cuff folds and stitching change, and labels and screen icons are altered beyond the requested pressure values. Instruction: the original 100/68 becomes malformed multi-character segment strings rather than readable hypertension values; a correct edit would show valid elevated systolic or diastolic readings. The requested meaningful value change is not achieved. Knowledge: the supplied greater-than-130 systolic or greater-than-80 diastolic criterion cannot be represented by these malformed readings. Instruction failure ⇒ knowledge invalid. Quality: monitor and cuff shapes and shading are coherent, but multiple garbled display strings, distorted small labels, and implausible pulse digits are distracting semantic errors."
+    },
+    {
+      "blind_id": "case_ce3d16a4be84c02a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the river bend, sky and broad countryside layout remain, but numerous hillside tree crowns, right-bank trees and eroded bank details are visibly reshaped; these changes are independent of the added boat and its water effects. Instruction: a narrow dark wooden covered boat is added on the river, satisfying the object and placement, but its open-sided pavilion and strongly upturned roof do not accurately supply the requested regional boat type. Knowledge: the explanation calls for a black-canopied Wu-peng boat; the visible pagoda-like roof differs clearly from that characteristic canopy, a noticeable regional-design mismatch. Quality: boat structure, water contact, reflection, perspective and lighting are coherent, with a minor overly smoothed/blended appearance in foliage and bank textures."
+    }
+  ]
+}

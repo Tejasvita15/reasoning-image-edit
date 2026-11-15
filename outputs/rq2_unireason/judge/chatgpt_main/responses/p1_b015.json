@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b015",
+  "results": [
+    {
+      "blind_id": "case_377f158a18d605ad",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the branch layout, leaf shapes and positions, background, lighting, and framing are all substantially changed. Instruction: green persimmons have been replaced by large yellow pear-like fruits with recessed blossom ends; the expected edit is the same persimmons becoming red as they mature, so the requested transformation is misinterpreted. Knowledge: yellow replacement fruit does not match the supplied red-persimmon expectation. Instruction failure ⇒ knowledge invalid. Quality: coherent fruit and leaf shapes, natural shading, fine skin texture, and no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_ddd727031ff14c26",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the main maze layout and flower placement remain recognizable, but the girl’s face, hair, body proportions and watering-can silhouette are redrawn, and flat wall/background fills become textured. Instruction: a red curve marks only a short lower-left interior segment, starting away from the girl and terminating at the bottom wall, with no route to the flowers. A complete continuous red passage through the maze is expected; most of that route is absent. Knowledge: the supplied explanation is blank; the visible incomplete route and mandatory coupling provide the scoring basis. Instruction failure ⇒ knowledge invalid. Quality: the illustration is structurally readable, but conspicuous pale-red ghost strokes form an unfinished rectangular trace beside the strong line, with red smearing across the lower green boundary."
+    }
+  ]
+}

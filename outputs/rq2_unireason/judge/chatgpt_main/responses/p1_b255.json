@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b255",
+  "results": [
+    {
+      "blind_id": "case_554243074b1da672",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding requested background, lighting, placement and typography changes, the wrapped/unwrapped pair and striped cup remain recognizable, but the foil folds and the exposed chocolate nut pattern are noticeably redrawn. Instruction: The white setting becomes a gold gradient with warm highlights and bokeh, and the pair sits lower centrally as expected. The upper-left brown metallic title is present, but omits \"a\" and visibly garbles \"moment\" and \"celebrating\", so the exact required headline is not fulfilled. Quality: Object shapes, foil texture and lighting are coherent; the malformed headline letters are a clear typography/semantic artifact."
+    },
+    {
+      "blind_id": "case_4f15923165a3fdee",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Existing stone colors, arrangement and red markers remain, but the board surface has conspicuous new colored grain, grid lines are warped, and stone contours/highlights are degraded. Instruction: The board is visibly retextured but no black stone is added; the intersection immediately left of the four consecutive black stones in the top occupied row remains empty. Expected is one added black stone completing five in a row, so the requested modification is absent. Knowledge: The supplied explanation is blank; the five-in-a-row expectation is inferred from the Gomoku task and visible four-stone line. No winning fifth stone appears. Instruction failure ⇒ knowledge invalid. Quality: The stones and board remain identifiable, but colored surface noise and wavering grid lines are clear distracting artifacts; this is more than moderate softness."
+    }
+  ]
+}

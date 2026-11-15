@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b059",
+  "results": [
+    {
+      "blind_id": "case_f131cb077e1ebf43",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding column removal and associated spacing, the white background and receding column motif remain, but the retained columns have noticeably remodeled, lumpier capitals and altered shaft/base proportions and darker outlines. Instruction: The original eight columns become six (one isolated at left and five at right); the expected result is exactly five. The count is reduced but the required count is wrong, giving partial compliance. Quality: Structure and lighting are broadly coherent, but wavy, crumpled capital details and irregular base contours are clear geometric artifacts; surface shading is otherwise readable."
+    },
+    {
+      "blind_id": "case_28baa13d3c0165d8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, saucers and right cup position remain recognizable. Beyond the permitted left-cup resizing, the right coffee beans acquire conspicuous colored outlines and altered gloss, while the left bean arrangement is replaced and the cup opening becomes markedly oval. Instruction: The left cup becomes a taller oval, but remains substantially narrower and smaller than the right cup. A correct result would enlarge it to the large cup’s dimensions; most of that size change is missing. Quality: Cup and saucer structure and shadow direction are coherent, but the right beans have unnatural rainbow-like edge halos and the left cup contains conspicuous white fragments among the beans. These are noticeable texture/semantic artifacts."
+    }
+  ]
+}

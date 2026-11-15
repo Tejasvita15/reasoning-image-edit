@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b019",
+  "results": [
+    {
+      "blind_id": "case_b245b1e97594648b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested setting, placement, lighting, palette and typography, the three drawers and round knobs remain, but the cabinet becomes narrower with revised top/base molding and slimmer, differently spaced legs. Instruction: 1. The isolated cabinet is placed against a warm white wall on light wood flooring, with a right curtain, angled sunlight and bottom-right text. 2. The expected scene includes the same cabinet slightly left and the exact supplied sentence in thin sans-serif type. 3. The room, palette and atmosphere fit, but the sentence is replaced by illegible pseudo-words. 4. This is partial compliance. Quality, edited image alone: structure, lighting and surface textures are coherent; the two lines of garbled lettering constitute a clear semantic artifact."
+    },
+    {
+      "blind_id": "case_0e1b90b36cd0ab06",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the requested fur changes, the seated pose and broad scene arrangement remain recognizable, but the eyes/muzzle are reshaped, the building windows and roof change, and snow and grass textures are substantially redrawn with stronger contrast. Instruction: 1. The white animal becomes orange-red with dark legs, a white throat and a dark red tail. 2. The expected result is the same fox in its summer coat. 3. The output instead gives it a red-fox appearance rather than the supplied gray summer outcome, so the requested seasonal transformation is poorly implemented. 4. Major omission. Knowledge: The explanation explicitly requires gray fur; the visibly orange-red coat contradicts that expectation. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: coherent fox anatomy and fur, grounded paws, plausible depth and lighting, and intact building structure; no noticeable generation artifacts."
+    }
+  ]
+}

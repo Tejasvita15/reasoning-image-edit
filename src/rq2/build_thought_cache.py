@@ -51,7 +51,8 @@ def think_once(
     thinking_seed: int,
 ):
     """
-    One timed thinking pass. Returns (rewrite, seconds, peak VRAM GB).
+    One timed Step1X thinking pass.
+    Returns (rewrite, seconds, peak VRAM GB).
     """
 
     import torch
@@ -87,6 +88,45 @@ def think_once(
     )
 
     return rewrite, latency_sec, peak_vram_gb
+
+
+def think_once_unireason(
+    runner,
+    images,
+    instruction: str,
+    thinking_seed: int,
+):
+    """
+    One timed UniReason thinking pass.
+    Returns (think_output, seconds, peak VRAM GB).
+
+    runner._think() calls set_global_seed(thinking_seed) internally,
+    so seeding is handled there.
+    """
+
+    import torch
+
+    torch.cuda.reset_peak_memory_stats()
+    torch.cuda.synchronize()
+
+    start = time.perf_counter()
+
+    think_output = runner._think(
+        images=images,
+        instruction=instruction,
+        thinking_seed=thinking_seed,
+    )
+
+    torch.cuda.synchronize()
+
+    latency_sec = time.perf_counter() - start
+
+    peak_vram_gb = (
+        torch.cuda.max_memory_allocated()
+        / (1024 ** 3)
+    )
+
+    return think_output, latency_sec, peak_vram_gb
 
 
 def main():
@@ -138,6 +178,13 @@ def main():
         default=3,
     )
 
+    parser.add_argument(
+        "--backend",
+        default="step1x",
+        choices=["step1x", "unireason"],
+        help="Model backend; selects the thinking implementation.",
+    )
+
     args = parser.parse_args()
 
     out_path = Path(args.out)
@@ -153,18 +200,12 @@ def main():
 
     determinism = enable_determinism()
 
-    # Heavy imports after determinism is configured.
-    from diffusers.pipelines.step1x_edit.pipeline_step1x_edit_thinker import (
-        Step1XEditThinker,
-    )
-
     from src.config import load_config
     from src.dataset import (
         get_decoded_source_images,
         prepare_example,
     )
     from src.seeding import derive_seed
-    from src.step1x_runner import Step1XRunner
 
     config = load_config(args.config)
 
@@ -175,14 +216,25 @@ def main():
     )
 
     print(
-        f"Split: {args.split} | examples: {len(examples)} "
+        f"Backend: {args.backend} | split: {args.split} "
+        f"| examples: {len(examples)} "
         f"| seed: {args.seed} | out: {out_path}"
     )
 
-    runner = Step1XRunner(config)
-    pipe = runner.pipe
-    fix_text_encoder_offload(pipe)
-    tokenizer = pipe.processor.tokenizer
+    if args.backend == "unireason":
+        from src.unireason_runner import UniReasonRunner
+        runner = UniReasonRunner(config)
+        tokenizer = runner.tokenizer
+    else:
+        from diffusers.pipelines.step1x_edit.pipeline_step1x_edit_thinker import (
+            Step1XEditThinker,
+        )
+        from src.step1x_runner import Step1XRunner
+        runner = Step1XRunner(config)
+        pipe = runner.pipe
+        fix_text_encoder_offload(pipe)
+        tokenizer = pipe.processor.tokenizer
+
     env = collect_env()
 
     # =========================================================
@@ -190,14 +242,23 @@ def main():
     # =========================================================
 
     first = examples[0]
+    first_images = [get_decoded_source_images(first)[0]]
 
-    think_once(
-        pipe,
-        Step1XEditThinker,
-        get_decoded_source_images(first)[0],
-        first["instruction"],
-        thinking_seed=0,
-    )
+    if args.backend == "unireason":
+        think_once_unireason(
+            runner,
+            first_images,
+            first["instruction"],
+            thinking_seed=0,
+        )
+    else:
+        think_once(
+            pipe,
+            Step1XEditThinker,
+            first_images[0],
+            first["instruction"],
+            thinking_seed=0,
+        )
 
     # =========================================================
     # Cache
@@ -230,16 +291,27 @@ def main():
                 "thinking",
             )
 
-            runs = [
-                think_once(
-                    pipe,
-                    Step1XEditThinker,
-                    image,
-                    example["instruction"],
-                    thinking_seed,
-                )
-                for _ in range(args.timing_repeats)
-            ]
+            if args.backend == "unireason":
+                runs = [
+                    think_once_unireason(
+                        runner,
+                        [image],
+                        example["instruction"],
+                        thinking_seed,
+                    )
+                    for _ in range(args.timing_repeats)
+                ]
+            else:
+                runs = [
+                    think_once(
+                        pipe,
+                        Step1XEditThinker,
+                        image,
+                        example["instruction"],
+                        thinking_seed,
+                    )
+                    for _ in range(args.timing_repeats)
+                ]
 
             rewrite = runs[0][0]
             latencies = [run[1] for run in runs]
@@ -257,7 +329,10 @@ def main():
                 "split_name": args.split,
                 "instruction": example["instruction"],
 
-                # Replayed verbatim as the prompt.
+                # Replayed verbatim during generation.
+                # Step1X: rewritten instruction (replaces prompt).
+                # UniReason: full <think>...</think> chain
+                #            (appended alongside the original instruction).
                 "rewrite": rewrite,
                 "thinking_token_count":
                     count_tokens(tokenizer, rewrite),
@@ -273,6 +348,7 @@ def main():
                     max(run[2] for run in runs),
 
                 "model_id": config["model"]["model_id"],
+                "backend": args.backend,
                 "offload_mode": offload_mode(config),
                 "determinism": determinism,
                 "env": env,

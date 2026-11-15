@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b146",
+  "results": [
+    {
+      "blind_id": "case_3bc1dd4f0a1c5c68",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The blue sky, distant right skyline and sandy setting remain, but the foreground terrain is visibly redrawn, with changed scattered rocks and flattened depressions; the pyramid change is excluded. Instruction: The continuous-sided pyramid becomes a terraced structure with broad central stairs and a summit temple, fully satisfying the requested Maya stepped-pyramid appearance. Knowledge: The temple and stairs evoke the supplied Kukulkan identification, but the building has visibly too few major terraces for that specific pyramid, a clear architectural discrepancy. Quality: Structure, perspective and lighting are coherent; repeated thin dark streaks down the pale terrace faces create a minor unnatural surface-texture issue."
+    },
+    {
+      "blind_id": "case_9f8c463496389f49",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The raspberry bowls, mint, spoon, napkin and pink wooden setting are all removed for a plain white scene, changing essentially all non-requested context. Instruction: The yogurt scene becomes a glass of clear water with a purple-to-pink indicator strip. A visible indicator color change in water addresses the main idea, but an immersed paper strip substitutes for dropping red-cabbage indicator into the liquid, which stays clear. Knowledge: The supplied explanation expects acidic yogurt to produce red or pink. Pink is visible on the strip, but the yogurt is absent, so the stated acid-response context is not represented. The instruction itself says water whereas the source and explanation concern yogurt. Quality: The glass, lighting and water surface are coherent, but an unexplained blue rectangular patch near the bottom reads as a disconnected reflection or duplicate strip artifact."
+    }
+  ]
+}

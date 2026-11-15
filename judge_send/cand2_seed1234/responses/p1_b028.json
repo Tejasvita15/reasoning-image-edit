@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b028",
+  "results": [
+    {
+      "blind_id": "case_77c4e4c8a8a47fb3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding the requested stone removal, the abdominal outline, spine, muscles and main organ positions remain recognizable, but the bright round focus anterior to the spine is also erased, tissue texture is coarser throughout, and corner annotations are distorted. Instruction: The conspicuous white deposit in the kidney on the image right disappears, leaving gray tissue; the expected stone-free appearance is achieved. Knowledge: The explanation requests removal of small white particles, and the renal white deposit is absent, matching that stated expectation. Quality: The edited CT has coherent cross-sectional anatomy and grayscale tissue structure without obvious patch seams; mildly malformed peripheral lettering is a small artifact."
+    },
+    {
+      "blind_id": "case_45483bb340ffcd74",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding the requested water-color change, the horizon, island buildings, shoreline, rocks and major foam swirls retain their layout. However, the foreground rocks have markedly intensified dark edges and blue-green coloring, and distant vegetation and buildings have stronger contrast and altered texture. Instruction: Gray-turquoise water becomes red throughout the visible tidal currents while white foam remains visible, fully depicting the requested red tide. Knowledge: The supplied expectation is that the water should turn red; the edited water clearly does so. Quality: The edited coastal scene has coherent geography, currents and foam, with consistent perspective and no duplicated objects; harsh outlined texture on the foreground rocks is a minor processing artifact."
+    }
+  ]
+}

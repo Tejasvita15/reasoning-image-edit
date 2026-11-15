@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b013",
+  "results": [
+    {
+      "blind_id": "case_b6ca0ebf0dfac1f7",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, decorations, text, centering and scaling, the cat is substantially changed: its tilted head becomes upright, ear proportions and face/eye configuration differ, and its body, front-leg stance and tail are different. White fur remains, but most subject-specific details do not. Instruction: The photograph becomes a centered-cat poster with a pink-to-blue gradient and a handwritten pink Pet Home title. The expected poster also needs recognizable floating paw prints, heart-shaped bubbles and the exact gray tagline Add warmth to your life. The bottom line instead reads nonsensical text, the hearts are flat, and the paw-like marks are incomplete, so compliance is partial. Quality of edited image alone: Structure and fur texture are coherent and lighting is plausible; artifact-free check fails for the nonsensical bottom text and malformed paw-like decorative marks, two noticeable semantic flaws."
+    },
+    {
+      "blind_id": "case_ac9ec6b230a77770",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The plain white background and centered isolated composition remain unchanged; the outline-to-shaded-solid transformation is explicitly requested and excluded. Instruction: The flat outlined circle has become a round shaded three-dimensional solid. The expected rotation result is a sphere, and the smooth spherical volume fully matches that change. Knowledge: The explanation explicitly states that the result should be a sphere; the edited circular silhouette with continuous curved-surface shading depicts exactly that solid, consistent with rotation about a diameter. Quality of edited image alone: Structural coherence, natural shading, artifact-free appearance and surface texture are satisfactory; the round contour and smooth highlight-to-shadow transition have no noticeable semantic or structural defects."
+    }
+  ]
+}

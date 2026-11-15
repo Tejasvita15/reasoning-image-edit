@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b021",
+  "results": [
+    {
+      "blind_id": "case_9b49b2b26be9cb5a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested rotation, the blue/cream carton, cap, cow motif and white background persist, but the front word loses its M and the four short lines beneath the cow disappear. Instruction: The view changes to an opposite oblique angle, with two broad faces visible; the reference requires the cow side straight on, a centered triangular gable and only a small cap projection on the left. Significant orientation and occlusion errors remain. Quality: The carton geometry, shading and cap are coherent, but the conspicuously incomplete ILK label is a clear semantic flaw."
+    },
+    {
+      "blind_id": "case_4adca3afda9040be",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Glass positions, outlines, fill levels and the plain tabletop remain consistent; excluding the requested red illumination, the unlit right-side background/shadow has a subtly cooler, darker appearance. Instruction: Red light has been added as a broad vertical wash over the left glass. Both glasses retain milk-like contents, but the requested red laser entering from the left is poorly implemented: no narrow lateral beam passes into or across the cups, and the right cup remains unilluminated. Knowledge: The supplied explanation expects a beam penetrating both cups; none is visible. Instruction failure ⇒ knowledge invalid. Quality: Assessed alone, the glasses, elliptical rims, liquid surfaces, bases and lighting gradients are coherent, with clean edges and no conspicuous generation artifacts."
+    }
+  ]
+}

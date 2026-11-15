@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b146",
+  "results": [
+    {
+      "blind_id": "case_b5992fb6796dd41f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The eye remains in the same close-up composition, but the surrounding skin is redrawn into strongly glossy ridges, lashes and brow hairs change, and the brown iris pattern and rim change beyond the requested pupil correction. Instruction: The pupil remains a large cloudy blue-white disk; the expected normal dark pupil is absent, so the requested correction is not achieved. Knowledge: The supplied explanation specifically requires removal of the white part on the pupil, which remains visible. Instruction failure ⇒ knowledge invalid. Quality: The eye has a coherent overall shape, but excessively shiny, plastic-looking skin ridges and an isolated dark curved mark on the iris are noticeable visual flaws."
+    },
+    {
+      "blind_id": "case_89c268dbfc2aa07b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The five original animal categories and tail types remain recognizable, but animal faces and proportions are redrawn, the spacing and marker layout change, and a sixth tail circle is added at the bottom. Instruction: Many colored curves are added where exactly five one-to-one matching connections were expected. The striped tail leads toward the rooster, feather-tail lines lead toward the pig or stop in the middle, and the pink curly tail leads toward the mouse; only the horse-hair connection is meaningfully correct. Several lines double back or have no animal endpoint, so most required matches fail. Knowledge: The explanation requires each tail to connect to its own animal; the visible wrong pairings and incomplete connections do not satisfy that rule. Instruction failure ⇒ knowledge invalid. Quality: The cartoon subjects are recognizable and cleanly colored, but numerous dangling and looping strokes, duplicated tail-circle content, and pale rectangular patches around several yellow markers create multiple distracting graphic artifacts."
+    }
+  ]
+}

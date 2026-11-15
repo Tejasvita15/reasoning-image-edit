@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b036",
+  "results": [
+    {
+      "blind_id": "case_7bd944588eae5eb2",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the five-by-five layout remains, but most colored circles outside the target cell change color, a second question mark replaces the top-row blue circle, and grid strokes are redrawn. Instruction: the target top-left question mark remains instead of being replaced with the required blue circle, so the requested edit is absent. Knowledge: Instruction failure ⇒ knowledge invalid. Quality, edited image alone: circles and question marks are recognizable, but doubled irregular grid strokes and uneven line intersections are clear drawing artifacts."
+    },
+    {
+      "blind_id": "case_91ba68e2fa059b91",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "Consistency: excluding the permitted repositioning, the green circle is noticeably enlarged and a black center dot is added; the white background and lavender outer outline remain recognizable. Instruction: the green circle moves from the lower right to nearly the outer circle center, as requested, but remains slightly right of the outer center. Knowledge: the explanation requires coincident centers; the nearly concentric outlines implement this with a small residual offset. Quality, edited image alone: both closed circular outlines, solid center dot and white field are coherent and clean, with no noticeable rendering defects."
+    }
+  ]
+}

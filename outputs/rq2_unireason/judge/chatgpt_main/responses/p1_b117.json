@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b117",
+  "results": [
+    {
+      "blind_id": "case_92bc005221a74270",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The aerial forested valley, distant clearing and general illumination remain recognizable, but tree-canopy detail and vegetation across areas away from the channel have changed noticeably. Instruction: The narrow meandering river becomes a much broader S-shaped watercourse with extra water patches; a correct edit would show a severed crescent meander beside a bypass channel. The small isolated sliver and partially off-frame lower-left water do not clearly establish that requested oxbow configuration, so most of the key change is missing. Knowledge: The supplied explanation requires a crescent-shaped lake separated from the main channel, which is not clearly depicted. Instruction failure ⇒ knowledge invalid. Quality: The landscape has coherent perspective and convincing forest structure, with a minor overly smooth, blended appearance along portions of the water and banks."
+    },
+    {
+      "blind_id": "case_0731dd80f5c89732",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The three-by-three grid and most left-column patterns remain recognizable, but the upper-middle cell gains a thick arc, the upper-right pattern is replaced, and the middle-right pattern becomes a question mark. These are multiple unrequested changes. Instruction: The original bottom-right question mark is replaced by two full concentric circles. Correct completion should retain the common lower-right inner and outer arc segments of the two bottom-row inputs; full circles add many absent segments, so the requested solution is poorly implemented. Knowledge: The supplied row-wise intersection rule is violated by the complete rings. Instruction failure ⇒ knowledge invalid. Quality: The edited puzzle remains legible with coherent circles, arcs and a clear question mark; slight waviness and roughness in the grid and line edges is a minor imperfection."
+    }
+  ]
+}

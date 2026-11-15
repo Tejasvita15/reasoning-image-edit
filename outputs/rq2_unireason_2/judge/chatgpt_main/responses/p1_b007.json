@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b007",
+  "results": [
+    {
+      "blind_id": "case_8407eb433627b9d1",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the canal, dark waterfront buildings, red lanterns and distant tree retain their overall arrangement, but all three people disappear and roof/vegetation details are visibly redrawn. These are outside the requested boat replacement. Instruction: the covered canal boat becomes a long open black boat with upturned ends and red seating; the expected replacement is a traditional Venetian boat, and the visible gondola fulfills it. Knowledge: the supplied explanation says to change to a gondola; its narrow black hull, curved ends and bow ornament identify the requested type, with no visible conflict. Quality: the boat structure, seating, water contact and reflection are coherent; a small amount of smeared architectural texture along the roofline prevents an artifact-free assessment."
+    },
+    {
+      "blind_id": "case_3bbd52896f2a0702",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background and green/red product design remain, but the carton changes shape and viewpoint, and the numerous packed cans are reduced and rearranged. Instruction: the separate right-hand Lime Coke can is removed from its original position and now stands upright atop the cans in the carton, matching the expected placement on top of the box. Quality: the product arrangement, cylindrical silhouettes and white background are coherent, but lettering on several lower cans is visibly broken and distorted, and the elevated can has an unusually thick doubled-looking bottom rim; these are clear localized rendering flaws."
+    }
+  ]
+}

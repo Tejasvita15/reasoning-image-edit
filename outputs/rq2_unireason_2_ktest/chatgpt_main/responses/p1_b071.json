@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b071",
+  "results": [
+    {
+      "blind_id": "case_88b7003f19550e07",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: marker body, ribbed grip, chisel tip, detached cap and their relative arrangement remain intact; illumination, shadows and apparent colors are excluded as part of UV exposure. Instruction: the bright neutral scene becomes a dark-edged green/cyan-lit scene with a vivid pink marker, conveying altered illumination but only partially depicting the requested UV effect. Knowledge: the supplied explanation specifically expects orange fluorescence; the tip, body and clip remain saturated pink rather than glowing orange, entirely missing that stated outcome. Quality: coherent marker and cap geometry, smooth surfaces, controlled highlights and cast shadows; no noticeable structural or generation artifacts."
+    },
+    {
+      "blind_id": "case_66fa5faf54900032",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "Consistency: the irregular outer contour, internal region boundaries, orientation and white surrounding field are preserved; only requested region fills change. Instruction: all regions receive red, yellow, blue or green, but the Four Color Theorem game is only partially satisfied because multiple edge-sharing regions have the same color. Knowledge: the supplied explanation is blank; scoring uses the adjacency constraint explicitly implied by the named game. The upper-left and middle-left red regions share an edge, as do the middle-left and bottom-left red regions; the upper-right and middle-right yellow regions and the two lower central yellow regions also share edges, giving multiple serious violations. Quality: clean closed regions, continuous black outlines and well-contained vivid fills form a coherent diagram without noticeable artifacts."
+    }
+  ]
+}

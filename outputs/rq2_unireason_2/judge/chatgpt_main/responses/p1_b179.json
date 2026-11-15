@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b179",
+  "results": [
+    {
+      "blind_id": "case_c87fdb68635263ed",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested poster layout, background and decorations, the braided trunk and woven basket identity remain, but many plant leaves have altered shapes and glossy, simplified surfaces, and the basket weave pattern is redrawn. Instruction: The white backdrop becomes a light green gradient with soft halos, floating droplets, decorative leaves and an upper-left Green Home title. This meets the intended fresh plant-poster composition; the decorative leaves are detailed leaves rather than silhouettes, a minor mismatch. Quality: Structure and title legibility are satisfactory, but the central foliage has conspicuously fused, plastic-looking surfaces and the basket weave has irregular blended bands; these are noticeable texture artifacts."
+    },
+    {
+      "blind_id": "case_089faf2ab35113ea",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The river bend, wooded left bank, right pasture and sky layout remain recognizable, but tree crowns and branches are substantially redrawn, bank contours change, and cloud streaks differ beyond the added boat and its reflection/wake. Instruction: A long covered wooden boat with upturned ends is added on the river. The expected result is a Jiangnan water-town boat; the edit supplies the main boat addition but its long squared passenger cabin and pale flat canopy only partly realize the requested regional type. Knowledge: The explanation specifically expects a black-canopied Wu-peng boat. The added boat instead has a light gray, nearly flat roof over a rectangular cabin, a clear conflict with that defining canopy requirement; flotation and reflection are plausible. Quality: Boat structure, perspective, reflection and overall landscape are coherent; some tree foliage blends into slightly unnatural smooth masses, a minor texture issue."
+    }
+  ]
+}

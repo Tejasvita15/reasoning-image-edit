@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b153",
+  "results": [
+    {
+      "blind_id": "case_174ee8c2e195f25f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background and upright glass-tube composition remain, but the tube is noticeably narrower and the HCl lettering is smaller and higher. Instruction: pale marble chips have been added inside the bottom of the tube; the expected chips are present, but the requested induced reaction has no visible sign, a minor omission in the core addition. Knowledge: the supplied explanation specifically predicts bubbles in hydrochloric acid; the liquid above and around the chips shows no effervescence, entirely omitting the stated reaction outcome. Quality: coherent glass contours, legible label, natural stone textures and shading, and no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_29b6db0d499c34ee",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the gold grid, wooden background, two existing green corner Xs, and three red Os retain their appearance and relative placement; added marks are assessed as the instructed edit. Instruction: two red Xs appear in the middle-left and middle-right cells, while the top-middle cell remains empty. A single X in top-middle would complete the existing top row; these additions do not produce a win and therefore constitute a major omission. Knowledge: the supplied explanation is blank; the winning-row expectation follows from the task and visible board, but the score uses the mandatory instruction-failure coupling. Instruction failure ⇒ knowledge invalid. Quality: clear grid, recognizable clean X/O symbols, coherent wood texture and gold shading, with no noticeable artifacts."
+    }
+  ]
+}

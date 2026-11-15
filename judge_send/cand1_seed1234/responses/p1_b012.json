@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b012",
+  "results": [
+    {
+      "blind_id": "case_e511ad235ee1d6fe",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested layout, background, decoration and size changes, the cat has altered eye shapes and coloring, a more upright head, different front-leg spacing and a newly extended tail. White fur and a seated pose remain. Instruction: The edit adds a centered white cat, pink-blue gradient, floating pink paws and the correct bright pink hand-drawn-style Pet Home title. A perfect result would also have heart-shaped bubbles, the exact tagline Add warmth to your life and a slightly enlarged cat. Hearts are absent, the gray tagline is nonsensical text, and the cat occupies less of the frame; these make compliance partial. Quality, edited image alone: Structure and fur texture are coherent, with clean decorative placement and plausible shading, but the large nonsensical bottom line is a clear semantic flaw."
+    },
+    {
+      "blind_id": "case_2c1ed21b5f77e5ce",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding the requested fur change, the seated posture, rightward tail, snowy foreground and distant dark building remain recognizable. However, foreground snow contours have been redrawn and the building/window detail and grass lighting have noticeably changed. Instruction: The white coat becomes gray with dark legs, ears and tail. The expected summer-fur transformation is clearly applied to the fox throughout, fully satisfying the stated change. Knowledge: The supplied explanation explicitly expects gray fox fur; the visible gray coat matches that expectation, with no conflicting required outcome. Quality, edited image alone: Structural coherence, natural appearance, artifact absence and texture fidelity are satisfactory; the fox has coherent limbs and facial features, detailed fur, convincing ground contact and a consistent defocused background."
+    }
+  ]
+}

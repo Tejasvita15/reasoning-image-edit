@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b006",
+  "results": [
+    {
+      "blind_id": "case_5a517c0e8d188d3f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, upright silver forks and two-row arrangement persist, but the horizontal spacing and outer margins change visibly, and the forks acquire darker outlines and altered handle shading. Instruction: The source has eight forks and the edit still has eight, four per row; the expected six-fork image is not produced, so the count change is absent. Quality, edited image only: Shapes, four-tined heads, metal surfaces and white background are coherent; small dark protrusions at the right side of the fork necks are a minor repeated edge imperfection."
+    },
+    {
+      "blind_id": "case_744dec90e1142fb5",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, metal blade details, green handles, diagonal orientations and shadows remain consistent; the small scissors sit slightly farther right relative to the large pair. Instruction: Both pairs retain their markedly different sizes. A compliant image would shrink the green-handled scissors to the small pair’s overall size, but they remain more than twice as long; the required resizing is absent. Quality, edited image only: Structural coherence, natural lighting, shadows and material textures are satisfactory. Both scissors have plausible blades and intact handle loops without noticeable generation artifacts."
+    }
+  ]
+}

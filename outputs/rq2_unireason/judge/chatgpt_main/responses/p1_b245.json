@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b245",
+  "results": [
+    {
+      "blind_id": "case_42e7153fb77ff90b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The blue-and-white housing, three buttons and separate cable remain recognizable, but the housing proportions/viewpoint, cable loops and position, button sizes, and several printed labels visibly change. Instruction: The original 28.7°C becomes an all-segments-looking 888°C display, rather than the expected approximately 31.7°C; the requested temperature adjustment is not achieved. Knowledge: The supplied explanation requires a 3°C rise, which this reading does not show. Instruction failure ⇒ knowledge invalid. Quality: The product silhouette and lighting are coherent, but multiple corrupted labels (MAM, NIN/MAK and the temperature range), stray small screen marks and ambiguous numeric display are distracting semantic artifacts."
+    },
+    {
+      "blind_id": "case_fc23b462be537970",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, composition, scale and illumination changes, the round gold bezel, blue stone and tapered bail remain recognizable; the chain becomes markedly finer relative to the pendant and its open-link appearance changes. Instruction: The white product background becomes a grey-blue gradient with a centered suspended gold-and-blue necklace and bottom serif text. The expected result also requires an upper-central pendant, velvet texture, star-like brilliance and the exact supplied sentence. The pendant sits below the midpoint, the background appears largely smooth, and the sentence is replaced by gibberish, so the composition only partially fulfills the request. Quality: The pendant shape, gold reflections and smooth background are coherent, but the bottom text is semantically garbled and the chain ends fade away within the image, creating two clear visual/semantic flaws."
+    }
+  ]
+}

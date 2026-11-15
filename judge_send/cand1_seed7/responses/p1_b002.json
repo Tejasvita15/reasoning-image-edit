@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b002",
+  "results": [
+    {
+      "blind_id": "case_7ade95d51a36781f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the field layout, white boundary and upper-right fabric remain recognizable, but grass texture is conspicuously coarser throughout and the retained upper-left ball has altered panel detailing; these are unrelated to the requested removals. Instruction: two lower balls have been replaced by flat patches. Correctly applying the supplied explanation requires retaining all three balls, including those overlapping the boundary; removing two completely misinterprets which balls are out of play. Knowledge: the explanation explicitly says all soccer balls should be retained, whereas only one remains. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: structure and texture are degraded by two conspicuous flat, oval fill patches with hard edges; the upper patch also interrupts the natural texture of the white line. Lighting and the remaining ball are broadly coherent, but the multiple distracting patches warrant 2."
+    },
+    {
+      "blind_id": "case_c23a75a044b0efdd",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background and left/right arrangement remain, but the small right turtle has a changed shell contour, head orientation and foreleg placement; the large turtle also has substantially altered shell and skin patterns, beyond an allowed size change. Instruction: the large left turtle remains substantially taller and wider than the right turtle. The expected edit is a reduction of the left turtle to the right turtle’s size, which is not achieved; the size relationship is still clearly unequal. Quality, edited image alone: coherent shells, recognizable faces and limbs, natural floor shadows and a clean background; a minor overly etched, tangled surface texture on the left shell reduces naturalness, without major structural failure."
+    }
+  ]
+}

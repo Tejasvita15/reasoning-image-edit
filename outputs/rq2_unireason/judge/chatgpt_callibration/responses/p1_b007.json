@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b007",
+  "results": [
+    {
+      "blind_id": "case_6ce1662e70d8f234",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the wood board, grid, star points, red marker and all existing black and white stones are retained; a slight vertical compression changes the framing and spacing subtly. Instruction: no black stone has been added. A correct edit would add one at the empty intersection immediately left of the four black stones in the top occupied row, making five contiguous black stones; the edited row still has only four. Knowledge: the explanation field is blank; the visible failure to add a winning stone triggers the required rule: Instruction failure ⇒ knowledge invalid. Quality: coherent circular stones, regular grid, natural highlights and shadows, and clean wooden texture show no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_a6c200cea59cf787",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the existing small red car is shifted to the right and separated from its neighbor, and the tabletop/background framing and visible reflections change. Instruction: the large left vehicle becomes a similarly sized red car, but its Beetle body is replaced by the small car’s different body design rather than resized. The expected result would preserve the large vehicle’s identity at the small vehicle’s scale; replacement is a major failure despite approximate size matching. Quality: both cars have coherent wheels, windows and contact shadows; a small irregularity in the right car’s front chrome/hood trim slightly reduces otherwise natural toy-car rendering."
+    }
+  ]
+}

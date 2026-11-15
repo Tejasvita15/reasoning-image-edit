@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b022",
+  "results": [
+    {
+      "blind_id": "case_a0a729462d51d91e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the plant retains its central position and outdoor setting, but the left and right leaves have visibly redrawn contours and veins, and the blurred tree silhouette/background patches change; flower opening is excluded. Instruction: the closed yellow bud becomes a fully open yellow flower with a broad exposed brown center, matching the requested full bloom. Knowledge: the supplied sunflower explanation is reflected in radiating yellow petals around a densely textured central disk on the leafy stalk. Quality: coherent flower, leaves and stem, natural lighting and depth of field, and convincing petal and disk textures without a clear artifact."
+    },
+    {
+      "blind_id": "case_aeec1c995905571c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: turquoise footwear, pink nail polish and rainy pavement setting remain, but the skin surface is substantially smoothed and background rain/bokeh details are rearranged; the intended anatomical correction is excluded. Instruction: seven visible toes become six, whereas the expected correction is a normal five-toed foot. Removing one excess toe leaves the central anatomical error unresolved, so the correction is poorly implemented. Quality: lighting, sandal construction, wet-ground texture and nail surfaces are coherent, but the clearly six-toed foot is a noticeable anatomical flaw."
+    }
+  ]
+}

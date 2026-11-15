@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b143",
+  "results": [
+    {
+      "blind_id": "case_fef990843e269865",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: maze walls and layout remain the same, but the girl is redrawn with different facial features, hair and dress details, and the flower/leaf shapes are altered. Instruction: no red path has been added at all; the expected continuous route from the girl through the maze to the flowers is absent. Knowledge: the supplied explanation is blank; the mandatory coupling applies: Instruction failure ⇒ knowledge invalid. Quality: the edited illustration alone has coherent cartoon anatomy, clean maze geometry, consistent flat colors and no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_64f94cf82937a3ba",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the wrapped-left/unwrapped-right product arrangement and striped paper cup remain recognizable, but the foil fold pattern and the exposed chocolate nut pattern and contour noticeably change beyond the requested placement and lighting. Instruction: the edit adds a champagne-gold setting, warm upper-right light, golden bokeh and a deep-brown metallic upper-left title, with the two chocolates centered below mid-frame. The expected exact slogan is not delivered: the final word is severely garbled, and the strong light/glitter treatment is less restrained than requested. Quality: product forms, shadows and foil texture are coherent, but the conspicuously malformed title word is a clear semantic artifact; the remaining text is readable."
+    }
+  ]
+}

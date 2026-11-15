@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b098",
+  "results": [
+    {
+      "blind_id": "case_71b89d746fa7c6e1",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the requested rock alteration, the sky, beach, people, distant rocks and framing remain consistent; the foreground surf beneath the rock has a visibly changed white foam band. Instruction: A small pale curved rim has appeared at the rock base, whereas the expected result is a natural opening through the rock to the sea. The massive rock remains essentially solid and the tiny inset does not clearly open to the sea, so most of the requested transformation is missing. Knowledge: The supplied explanation requires a rock archway opening to the sea; this is not visibly established. Instruction failure ⇒ knowledge invalid. Quality: The landscape, people and water are coherent, but the conspicuously pale, smooth arch rim looks pasted into the dark textured rock and has an awkward transition at its base, a clear local artifact."
+    },
+    {
+      "blind_id": "case_1bafaa89a1166479",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The two pears, their stems, turquoise tray, brown background and lighting remain consistent. Excluding the requested color change, the right fruit is noticeably rounder and now has a prominent upright stem, changing its original oblong silhouette. Instruction: The right-hand red fruit is now fully green, exactly the requested color and location; the requested recoloring is complete. Quality: The fruit shapes, stems, perspective and highlights are coherent, with no broken structures or ghosting; the green apple has a slightly overly smooth, plastic-like surface texture."
+    }
+  ]
+}

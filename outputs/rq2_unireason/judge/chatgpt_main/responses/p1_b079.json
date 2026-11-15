@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b079",
+  "results": [
+    {
+      "blind_id": "case_6b1cc58a29f0e3f9",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the raspberry bowl, mint, spoon, napkin and pink slatted surface are all removed, replacing the original scene with a glass against gray. Instruction: a water glass and multicolored strip appear, but no dropped cabbage indicator or resulting water coloration is visible; the requested color-change demonstration is mostly absent. Knowledge: the supplied explanation expects acidic yogurt to turn red or pink, but yogurt is absent and the water remains clear. Instruction failure ⇒ knowledge invalid. Quality: the glass, waterline, lighting and surface textures are coherent; a small detached red sliver at the rear rim is an unexplained visual artifact."
+    },
+    {
+      "blind_id": "case_a7ce49862f417393",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background and golden wooden material remain, but the retained objects are rearranged and reoriented, and all metal points disappear; these changes exceed a count adjustment. Instruction: the original nine pointed wooden pushpins become five wooden heads without visible points. Exactly six nails were expected, so the count change is attempted but the required number and nail structure are wrong. Quality: assessed alone, the five wooden spool-like objects have coherent contours, natural grain, consistent perspective and soft contact shadows without noticeable generation defects."
+    }
+  ]
+}

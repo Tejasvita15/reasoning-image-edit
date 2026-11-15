@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b179",
+  "results": [
+    {
+      "blind_id": "case_8898894073bba5fa",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background, gray material, fluted shafts, square capitals and descending row remain, but the row is enlarged and spread differently across the frame. Instruction: the source has eight columns and the edit still has eight; the expected five-column arrangement is absent, so the requested count change is not followed. Quality: structural coherence, natural shading, artifact freedom and surface fidelity are satisfactory; the columns form a coherent illustration with no clear structural defects."
+    },
+    {
+      "blind_id": "case_118a0551be00c61b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested background, reflections, positioning and typography changes, the red Ferrari and front three-quarter view remain, but the front wheel spoke pattern and grille emblem/detail are visibly altered. Instruction: the car is placed below center against dark blurred light trails with cool reflections and top-left/bottom-center text. The expected design also requires the exact silver-gray headline and Ferrari name; both strings are malformed, the headline is dark on a white banner, and the background conveys motion lights more clearly than an identifiable urban nightscape. This is partial compliance. Quality: car structure, lighting and paint are broadly coherent, but the visibly garbled headline and brand lettering are two clear semantic artifacts."
+    }
+  ]
+}

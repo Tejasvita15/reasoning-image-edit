@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b011",
+  "results": [
+    {
+      "blind_id": "case_3b095dedded87f7a",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "Consistency: Excluding release of the hand and the expected spring/ball motion, the orange ball has been deleted, a clear unauthorized change; the gray base, cream background and illustrated material style remain substantially consistent. Instruction: The hand disappears, but so does the ball. A released hand should leave the ball in the scene, so the main action is present but incompletely depicted. Knowledge: The explanation requires the spring to elongate and the ball to rise; the spring remains tightly compressed and no raised ball is visible, two serious failures of the stated outcome. Quality, edited image alone: The spring coils and rectangular base are coherent, with clean contours, consistent metallic shading and paper texture, and no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_ac9648a4f4685b2f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested layout, background, lighting, reflection and headline changes, the bottle retains its dark body and red capsule, but the label illustration/fine print are redrawn and the capsule branding is altered into different fragmented marks. Instruction: The bottle is upright and slightly below center against a wine-red to black spotlight gradient, with clear highlights, no added objects and the exact serif headline in pale gold at upper right. The bottom reflection and bright floor glow are conspicuous rather than subtle, a minor deviation from the restrained brief. Quality, edited image alone: Bottle shape, lighting, background and headline are coherent and clean; visibly malformed small label lettering and fragmented capsule symbols form a noticeable text-rendering flaw."
+    }
+  ]
+}

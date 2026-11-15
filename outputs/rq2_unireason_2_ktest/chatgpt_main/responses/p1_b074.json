@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b074",
+  "results": [
+    {
+      "blind_id": "case_5d623463e597810a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The gray backdrop and tabletop setting remain, but the CuSO4 label disappears, the measuring marks change, and a strong leftward blue shadow replaces the subtle original shadow. Instruction: A rectangular iron-colored block is now visibly immersed in the solution, fulfilling the requested placement. Knowledge: The supplied explanation requires pale green ferrous sulfate; the liquid remains saturated blue, entirely missing that stated reaction outcome. Quality: The glass, block, liquid and lighting are coherent, but several measurement characters are distorted or reversed."
+    },
+    {
+      "blind_id": "case_b34cd8145d2cdeb3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The close-up mouth composition and pink lip color remain, excluding the requested lip-texture changes; however, the nose/philtrum proportions change and the visible teeth become a different, prominent pair. Instruction: Upper-lip creases deepen and the lips acquire stronger ridges, but the large shiny lower lip still looks moist, so severe dehydration is only partially conveyed. Knowledge: The explanation calls for developed dry skin; the wrinkled upper lip suggests dryness, but the smooth glossy lower lip presents a clear conflict with that expected appearance. Quality: Facial anatomy and illumination are coherent with no duplication; the lower-lip highlights and repetitive grooves have a mildly waxy, artificial texture."
+    }
+  ]
+}

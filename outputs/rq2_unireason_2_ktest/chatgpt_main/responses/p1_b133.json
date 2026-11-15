@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b133",
+  "results": [
+    {
+      "blind_id": "case_00c88df4d68ad113",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, plate, fruit scatter, typography and placement, the cake remains a pink-dripped white cylinder with strawberry, blueberry and mint topping, but its drip contours and cream-dollop arrangement are noticeably changed, and an extra small blueberry appears on the cake. Instruction: The edit adds a centered cake on a round white plate, scattered berries and strawberry slices, a textured pink setting and powder. A fully compliant image would also have the exact berry-red handwritten title “Pink is the flavor of today” and subtle background “Happy Sweet Day”; instead, one large malformed Sweet/Day phrase occupies the top, so the main scene is realized but the text requirements are not. Quality: Structure, lighting and food textures are coherent, with a plausible plate and shadows; the conspicuously malformed headline is a clear text artifact."
+    },
+    {
+      "blind_id": "case_eeaf4f2e5e6c16fe",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The central bud, stalk and pond setting remain recognizable, but background leaves and water highlights are visibly rearranged, overall greens and contrast are strongly intensified, and the bud markings become larger dark spots; these are not required by opening the flower. Instruction: The edit brightens and enlarges the still-closed bud. The requested daytime state would show the flower open, yet its petals remain tightly upright with only narrow pale tips visible, so the requested change is absent. Knowledge: The supplied explanation requires fully spread petals revealing yellow stamens; neither spreading nor exposed yellow stamens is present. Instruction failure ⇒ knowledge invalid. Quality: Structural coherence ✔, natural appearance ✔, artifact-free ✔ and texture fidelity ✔; the closed bud, stalk, leaf surfaces and defocused pond highlights form a coherent photograph without a clear structural defect."
+    }
+  ]
+}

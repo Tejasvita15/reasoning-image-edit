@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b177",
+  "results": [
+    {
+      "blind_id": "case_3e906df2ce11cc57",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The peach background, mouth composition and illustration style remain, but the upper lip contour is raised and several pre-existing teeth change outline or alignment beyond filling the gaps. Instruction: Both missing-tooth spaces, upper left and lower right, are filled with suitably shaped white teeth, producing complete rows as requested. Quality: Structural coherence, illustrated lighting, texture and artifact checks are satisfactory; the finished mouth has clean, coherent contours and no noticeable generation flaw."
+    },
+    {
+      "blind_id": "case_428847ea475140eb",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the requested sand-state change and display scale, the glass silhouette, neck, white background, placement and base reflection remain visually consistent. Instruction: The upper chamber still holds a substantial reservoir and a thin falling stream remains; a completed cycle should leave the upper chamber empty and all sand below. No completed-cycle state is shown. Knowledge: The retained upper sand directly contradicts the supplied explanation that the upper part should be empty. Instruction failure ⇒ knowledge invalid. Quality: The edited image alone has coherent glass geometry, natural transparent surfaces, plausible sand texture and reflection, without noticeable artifacts; softness does not obscure its content."
+    }
+  ]
+}

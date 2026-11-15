@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b026",
+  "results": [
+    {
+      "blind_id": "case_de2685328b67526b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The glass, water level, laboratory equipment, board and framing remain recognizable, but the tabletop now has conspicuous colored coarse texture and the glass/water highlights acquire rainbow edging and changed bubble details. These are outside inserting the pencil. Instruction: A yellow pencil has been added with its lower end visibly submerged in the glass, fully satisfying insertion. Knowledge: The explanation requires an apparent break from refraction; the shaft instead continues essentially straight through the waterline without visible displacement or bending, ignoring the specified phenomenon. Quality, edited image alone: The scene and glass are coherent, but colored granular artifacts cover the tabletop and lower glass, and the lower pencil tip has an awkward jagged dark band; these are noticeable visual flaws."
+    },
+    {
+      "blind_id": "case_c013889335533e83",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and fanned-card concept remain, but the fan layout and card outlines/positions change substantially, and an extra card is introduced; these changes are unnecessary for adjusting the ranks to a full house. Instruction: The original 4, 6, 8, 8, 8 becomes a six-card display with a 4 and five prominent 8 indices. A full house should show five cards with three of one rank and two of another; the visible result does not implement that hand. Knowledge: Instruction failure ⇒ knowledge invalid. Quality, edited image alone: Card printing has multiple distracting semantic defects, including repeated eight-of-hearts designs, a club-like mark with a malformed stem, and a rightmost card combining a large 8 with a small 4 and an illegible black bottom-corner mark; the clean background does not resolve these structural errors."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+#!/bin/bash
+#PBS -N rq2_unireason_smoke
+#PBS -P personal-kirubhah
+#PBS -q normal
+#PBS -l select=1:ngpus=1:ncpus=16:mem=110G
+#PBS -l walltime=04:00:00
+#PBS -j oe
+
+# Smoke test: 2 K-dev examples through the UniReason pipeline.
+# Submit from the repo folder:
+#   cd ~/reasoning-image-edit && qsub jobs/rq2_unireason_smoke.pbs
+
+set -eo pipefail
+cd "${PBS_O_WORKDIR:?run this with qsub}"
+
+module purge
+module load python/3.10.9
+module load cuda/12.8.1
+source ~/venvs/unireason/bin/activate
+
+export HF_HOME=/scratch/users/ntu/kirubhah/hf_cache
+export HUGGINGFACE_HUB_CACHE=$HF_HOME/hub
+export HF_HUB_OFFLINE=1
+export CUBLAS_WORKSPACE_CONFIG=:4096:8
+export PYTHONHASHSEED=0
+
+SEED=42
+CONFIG=configs/rq2/unireason.yaml
+SPLITS=data/splits.json
+OUT=outputs/rq2_unireason_smoke
+LOGS=logs/rq2_unireason_smoke
+CACHE=$OUT/thought_cache/k_dev_n2_seed${SEED}.jsonl
+
+mkdir -p logs
+rm -rf "$OUT" "$LOGS"
+
+nvidia-smi
+python -c "import torch, flash_attn; print('torch', torch.__version__, 'cuda', torch.cuda.is_available(), torch.cuda.get_device_name(0))"
+
+python -m src.rq2.build_thought_cache \
+    --config "$CONFIG" --splits "$SPLITS" --split k_dev --seed "$SEED" \
+    --n_examples 2 --out "$CACHE" --backend unireason
+
+python -m src.rq2.run_rq2 \
+    --config "$CONFIG" --splits "$SPLITS" --split k_dev --seed "$SEED" \
+    --n_examples 2 --output_dir "$OUT" --log_dir "$LOGS" \
+    --subquestion 2.1 --num_inference_steps 50 \
+    --thinking off cached --true_cfg_scale 2 4 6 \
+    --thought_cache "$CACHE" --timing_repeats 2
+
+python -m src.rq2.check_rq2 \
+    --log_dir "$LOGS" --split k_dev --seed "$SEED" --expected_n 2 \
+    --thought_cache "$CACHE"
+
+echo "Smoke test finished"

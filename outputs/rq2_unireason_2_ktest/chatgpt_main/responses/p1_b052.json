@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b052",
+  "results": [
+    {
+      "blind_id": "case_e1555f2edf95c5a9",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the roadway, vegetation, dashboard layout and two hands remain recognizable, but the framing loses the dark upper windshield border, the gauge faces change and the hands/wrists are redrawn. The unreasonable extra wheel is excluded from consistency. Instruction: (1) the image is reframed and redrawn while both wheels remain; (2) a corrected scene should have one normally mounted steering wheel; (3) the floating upper wheel still blocks the windshield; (4) the central requested correction is absent. Instruction failure ⇒ knowledge invalid. Knowledge is not applicable to this item. Quality: structure ✘ because an unsupported second steering wheel floats above the held wheel; lighting/natural surface rendering ✔, artifact-free textures ✔. This is a clear semantic flaw despite otherwise coherent hands, dashboard and road."
+    },
+    {
+      "blind_id": "case_22d1b5c0617848d5",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the carpet, white wire grid, shoe positions and overall sneaker silhouettes are preserved. Excluding the requested color change, the smooth inner collars become visibly padded and creased, and the foreground lace routing/tongue-edge overlaps are redrawn. Instruction: (1) both white sneakers become brown throughout their uppers, laces and soles; (2) the expected image shows the same shoes colored brown; (3) both shoes clearly receive the requested color; (4) the color instruction is fully satisfied. Quality: structural coherence ✔ with plausible shoes and threading, naturalness ✔ with consistent shadows and perspective, artifact-free ✔, texture fidelity ✔ with coherent leather grain, stitching and carpet."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b238",
+  "results": [
+    {
+      "blind_id": "case_e1677cf6d89a22e4",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 2,
+      "knowledge_score": 3,
+      "rationale": "Consistency: excluding requested road damage, most major surroundings change: roadside trees and the guardrail disappear, large collapsed concrete structures and walls appear, and the mountain, sky and lamp arrangement are redrawn. Instruction: the previously smooth road now has broken pavement, displaced sections and rubble, fully showing earthquake-related road changes. Knowledge: cracking and deformation satisfy the supplied expectation, but long smoothly curling pavement/terrain sheets resemble flexible material rather than fractured rigid ground, a clear physical conflict. Quality: the image alone has multiple distracting structural distortions, including stretched hillside vegetation, ribbonlike ground surfaces and ambiguous fused concrete forms; foreground markings remain recognizable."
+    },
+    {
+      "blind_id": "case_787697880c0b7cd5",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: sky, distant tree line, horizontal paths and overall field layout are retained, but the uncovered foreground vegetation changes from fine yellow-green flowering cover to visibly larger leafy clumps. Instruction: several strings of rectangular printed prayer flags now cross the flatland and recede into the distance, fulfilling the requested addition. Knowledge: the flags visibly include blue, white, red, green and yellow, matching the supplied five-color expectation. Quality: perspective, cloth folds and overcast lighting are coherent; a small amount of flag-edge blending at overlapping foreground strings is the main visible imperfection."
+    }
+  ]
+}

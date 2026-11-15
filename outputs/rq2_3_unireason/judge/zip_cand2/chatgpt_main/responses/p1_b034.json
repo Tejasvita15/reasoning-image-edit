@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b034",
+  "results": [
+    {
+      "blind_id": "case_2e016082fd6c98fa",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the requested hand fills, the surrounding hand outlines are noticeably thickened and redrawn, and the frog body, eye contours and smile are altered; the white background and circular arrangement remain. Instruction: The surrounding hands remain white instead of receiving the blue or red colors corresponding to the frog’s hands, so the requested coloring is absent. Knowledge: Instruction failure ⇒ knowledge invalid. The supplied knowledge explanation is blank; this score uses the mandatory instruction-failure rule. Quality: The worksheet layout and frog are coherent, but several hand outlines become broken, uneven or speckled, particularly the top and bottom hands, creating a clear line-art defect."
+    },
+    {
+      "blind_id": "case_1236f059ab6906a9",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the requested statue replacement, the pale curved gallery setting remains recognizable, but its wall-panel geometry and horizontal molding positions visibly change. Instruction: The male statue becomes a classical female figure, but she retains both complete arms and hands and wears drapery across the torso; the requested broken-arm goddess, identified by the explanation as Venus de Milo, is not achieved. Knowledge: Instruction failure ⇒ knowledge invalid. The complete arms and covered torso do not represent the specified Venus de Milo. Quality: Assessed alone, the marble figure has coherent anatomy, convincingly carved folds and hair, consistent lighting, and a clean architectural setting without noticeable generation defects."
+    }
+  ]
+}

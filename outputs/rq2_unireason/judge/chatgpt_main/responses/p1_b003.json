@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b003",
+  "results": [
+    {
+      "blind_id": "case_4e97849ddf7062a9",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, upright rear paper, printer silhouette and trays remain recognizable and similarly arranged; however, the printer lid acquires conspicuous swirling colored texture and the front control buttons become distorted. The requested foreground document is excluded from this comparison. Instruction: The formerly blank output sheet now bears colored printed content and extends in front of the printer, exactly the requested placement of a printed document. Quality: Structural coherence is problematic in the muddled button panel and garbled document lettering; artifact freedom and surface texture are also problematic because of widespread wavy colored noise on the printer. Overall perspective and paper shadow remain plausible."
+    },
+    {
+      "blind_id": "case_e85b760c57f61d36",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding removal of two baguettes and their shadows, the remaining loaf is noticeably shorter, relocated and reshaped, with different crust markings; the background also acquires a large smooth pale patch with conspicuous boundaries and altered surrounding texture. Instruction: Three baguettes become one, so exactly two have been removed as requested; the unintended alterations to the survivor are assessed under consistency. Quality: Structural coherence and artifact freedom are problematic: a thin flap-like protrusion and black marks interrupt the loaf, while a very large irregular smooth patch creates an obvious discontinuity in the tabletop. The overall loaf perspective and contact shadow are plausible, but crust texture and background integration are visibly flawed."
+    }
+  ]
+}

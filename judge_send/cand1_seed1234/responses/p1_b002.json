@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b002",
+  "results": [
+    {
+      "blind_id": "case_d485ce7465272c47",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested viewpoint change, the black frame and botanical print remain recognizable, but the thin open wire support becomes a broad solid black backing and the pure white background becomes a shaded studio floor/background. Instruction: The front is substantially foreshortened, showing a viewpoint change, but a correct side view should match the reference's nearly edge-on leaning frame and open triangular wire support. The visible picture face and solid rear slab give significant orientation and structural errors. Quality: Viewed alone, the frame, inset picture and solid rear support have coherent straight edges, plausible shading and clean surfaces, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_c5bc644af455d3ca",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding resizing of the large left turtle, the right turtle changes from its original side-angled pose and shell pattern into a frontal turtle resembling the left one, and its position moves apart from the left turtle; the left turtle's surface coloration and framing also change. The white setting remains recognizable. Instruction: The left turtle remains conspicuously larger while the right turtle is reduced and changed. The expected result is a reduced left turtle matching the original small right turtle; the observed edit does not accomplish that size match and modifies the wrong target. Quality: Viewed alone, both turtles have coherent domed shells, distinct scale textures, plausible heads and limbs, and grounded soft shadows; no clear distortion or distracting artifacts are visible."
+    }
+  ]
+}

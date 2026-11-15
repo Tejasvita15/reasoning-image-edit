@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b243",
+  "results": [
+    {
+      "blind_id": "case_c15246c8d44a1484",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "Consistency: the bottle is greatly enlarged and cropped, its stopper and nitric-acid label disappear, and its proportions change; only the white setting remains. Instruction: a large mound of reddish-brown powder and suspended particles appears in the liquid. An appropriate addition of iron powder is expected; powder addition is represented, but its enormous quantity and rusty appearance only partially satisfy that request. Knowledge: the explanation requires light-green liquid and bubbles; the liquid is orange-brown and no distinct rising gas bubbles are visible, giving two substantial mismatches. Quality: the edited image alone has coherent glass contours, convincing granular sediment, reflections and lighting, with no noticeable structural artifacts."
+    },
+    {
+      "blind_id": "case_dd9b248d48cfeb58",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the mountain-valley silhouette and framing remain recognizable, but foreground vegetation is visibly reshaped and smeared and the star field gains extensive curved trails beyond adding auroral light. Instruction: bright blue-white concentric spiral bands replace the plain night sky. Intensified solar activity should be represented by visible aurora; luminous sky activity is present, but the rigid curling light-track form only partially matches that phenomenon. Knowledge: the supplied explanation calls for aurora; smooth nested rings with abrupt ends do not convincingly depict auroral curtains or diffuse bands, a clear mismatch. Quality: the landscape and luminous arcs are structurally readable and the glow is coherent, but foreground vegetation has a minor smeared, painterly texture flaw."
+    }
+  ]
+}

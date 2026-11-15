@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b237",
+  "results": [
+    {
+      "blind_id": "case_de56fc6c2723be73",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The cloudy sky, distant tree line, horizontal boardwalk and right-side path retain their arrangement, but the foreground vegetation is visibly regenerated with larger, sharper leaves and a different texture. Requested flag additions are excluded. Instruction: Several strings of printed rectangular prayer flags now cross the flatland, matching the requested addition; their palette has a minor discrepancy from the conventional five-color flags. Knowledge: The explanation requires five colors, whereas the visible flags include blue, white, yellow, green, orange-red and an additional distinct magenta/purple, a clear palette conflict. Quality: Landscape perspective and lighting are coherent, but flag strings have unclear support/attachment, and the lowest strand breaks into isolated ribbon-like fragments among the plants; these are noticeable structural flaws."
+    },
+    {
+      "blind_id": "case_53081d415cc121f1",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Monitor and cuff positions, white background, casing and pulse reading remain substantially consistent, but the cuff surface changes from fine fabric to a pronounced patterned texture, and printed labels/branding become heavier and distorted. Instruction: The edited display still reads 100 systolic and 68 diastolic, with pulse 70, just as the source; the expected change was elevated blood-pressure readings, so the requested modification is absent. Knowledge: Neither 100 nor 68 exceeds the supplied thresholds of 130 systolic or 80 diastolic. Instruction failure ⇒ knowledge invalid. Quality: The device geometry, cuff roll, lighting and main digital numbers are coherent; small printed labels and model lettering are visibly malformed, producing a noticeable text-quality flaw."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b142",
+  "results": [
+    {
+      "blind_id": "case_a7e52e0feccd4a31",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, shirt placement, short sleeves and side tab remain recognizable, excluding the requested fabric recoloring. The chest embroidery is enlarged and its lettering altered, the collar label changes, and several original fabric creases are smoothed away. Instruction: The black fabric becomes white; the expected result is the same garment in white, and that color change is fully achieved. Quality: Structure ✔ and natural lighting ✔; texture ✔ overall, but artifact-free ✘ because the prominent chest lettering is visibly malformed."
+    },
+    {
+      "blind_id": "case_98ea5c159cdd9abf",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Both red vehicle identities and the wooden tabletop setting persist, but the small car moves rightward into a separate position, its viewing angle changes, and tabletop reflections and shadows change visibly. Instruction: The source contains a large Beetle-style toy car, not a truck; treating that unambiguous larger vehicle as the intended target, it remains substantially larger than the small car. The expected equal-size vehicles are absent, so the requested size adjustment is not achieved. Quality: Structure ✔, naturalness ✔, artifact-free ✔ and texture fidelity ✔; both toys have coherent wheels, windows and bodywork with plausible surface reflections and contact shadows. Moderate softness does not prevent identification."
+    }
+  ]
+}

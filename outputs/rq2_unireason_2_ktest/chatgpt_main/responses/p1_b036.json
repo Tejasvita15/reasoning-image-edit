@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b036",
+  "results": [
+    {
+      "blind_id": "case_fcd1d267087bd1f5",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: excluding the added pitcher, stream and oil, the gray setting and overall cup placement remain, but the cup markings change size and alignment, the spout/rim contour changes, and the tabletop shadow is reshaped. Instruction: yellow liquid and a tipped pitcher with a continuous stream are added to the water-filled measuring vessel, exactly depicting the requested pouring. Knowledge: the explanation requires oil to float; some yellow oil gathers near the surface, but large yellow masses extend deep into the water and a flattened yellow pool appears at the bottom, a clear conflict with the expected floating layer. Quality: glass, lettering and lighting are coherent, but the opaque, soft-edged yellow blobs inside the otherwise transparent liquid look visibly pasted or poorly integrated."
+    },
+    {
+      "blind_id": "case_bda11eabe883b3f0",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding correction of the extra legs and the associated stance, the tan coat and outdoor setting remain, but facial proportions and nose/muzzle details change and the blurred foliage and ground textures are visibly redrawn. Instruction: the source has five visible paw-bearing legs; the edit removes the surplus limbs and presents two front legs, a visible rear leg and a partially occluded far rear limb in a plausible four-legged stance, fulfilling the anatomical correction. Quality: satisfactory anatomy and coherent paw contact, natural lighting and depth of field, and detailed fur; no noticeable duplication, malformed features or texture artifacts."
+    }
+  ]
+}

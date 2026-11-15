@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b139",
+  "results": [
+    {
+      "blind_id": "case_af2b3a7ee520c0dd",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the border and subdivided lower-left square remain recognizable, but both upper diamonds have disappeared, changing two non-requested elements. Instruction: the bottom-right rounded pointed shape becomes a sharp pentagonal arrow-like outline; the expected replacement is a plain square, so the requested pattern completion is absent. Knowledge: the supplied explanation requires a square with no middle line; the pointed outline contradicts it. Instruction failure ⇒ knowledge invalid. Quality: coherent closed shapes and clear black-on-white layout, but minor doubled/rough strokes along the border and square detract from otherwise clean line art."
+    },
+    {
+      "blind_id": "case_3d87720d888ff453",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 2,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the upright hourglass arrangement and white background persist, excluding the requested sand movement; however, the glass contours and reflections are washed out, the base reflection disappears, and the entire object becomes heavily blurred. Instruction: the upper sand reserve and falling stream are removed while sand is gathered below, showing the expected completed cycle. Knowledge: the upper bulb is empty, matching the supplied explanation, with a sand mound remaining in the lower bulb. Quality: the sand mound is recognizable and lighting is broadly coherent, but severe blur and near-erasure of the glass walls and neck obscure the object structure and surface detail, going beyond moderate softness."
+    }
+  ]
+}

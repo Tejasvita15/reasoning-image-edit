@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b061",
+  "results": [
+    {
+      "blind_id": "case_a6bbf03ac575c4df",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The diagonal composition, gray surface, metallic finish and handle direction remain, but the broad fork base has visibly changed curvature and reflection bands beyond the tine correction. Instruction: The miniature fork growing from one tine is removed and replaced by a normal tine; the expected ordinary four-tined fork is fully realized. Quality: Structure, perspective, metallic texture and soft cast shadow are coherent, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_980ac4537021eecc",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Most original face details and the layout are changed: several hollow eyes become filled, the bottom-left smile becomes a straight mouth, and all left-column inner frames merge with narrowed outer frames. Instruction: The question mark becomes a P-like symbol with a dot rather than the requested completed face; the expected bottom-right frowning face with its right eye filled is absent. Knowledge: The supplied explanation requires that crying face and filled right eye, neither of which is drawn. Instruction failure ⇒ knowledge invalid. Quality: Multiple conspicuous structural problems include fused inner/outer frames throughout the left column and a malformed question-mark-like symbol; black strokes and white backgrounds otherwise remain clear."
+    }
+  ]
+}

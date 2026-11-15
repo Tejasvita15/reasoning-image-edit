@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b024",
+  "results": [
+    {
+      "blind_id": "case_5882e3e8cec58e16",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background and two scissors remain, but the small silver scissors are enlarged and shifted left, and the green scissors have changed blade geometry and handle spacing beyond a size adjustment. Instruction: the green scissors remain much larger than the silver scissors; the expected result is green scissors matching the small pair in overall size, so the required size match is absent. Quality of the edited image alone: structure, lighting, metal and painted-handle textures are coherent, with clean object boundaries and no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_dc0d59ddac4e1b6f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background and recognizable left-side 14 minus 6 are retained, but several bold black text fragments and a long horizontal bar are introduced, changing multiple non-requested elements. Instruction: the right-side 82 becomes an incomplete numeral-like arrangement, and extra text and lines appear; exactly two relocated matchsticks should yield a readable true equation, which this image does not show. Quality of the edited image alone: multiple garbled black inscriptions, text overlapping the matchstick layout, and a malformed rightmost symbol produce distracting semantic and structural errors, despite recognizable match textures. The supplied knowledge explanation is blank. Instruction failure ⇒ knowledge invalid."
+    }
+  ]
+}

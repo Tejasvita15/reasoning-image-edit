@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b150",
+  "results": [
+    {
+      "blind_id": "case_4fce64649bc77e54",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The monitor, cuff, white background and overall arrangement remain, but the printed labels/logo are distorted and the cuff fabric texture and stitching visibly change. Instruction: The displayed pressure remains 100/68, with pulse 70; the expected edit would raise the pressure to hypertension values, so the requested change is absent. Knowledge: Neither 100 nor 68 exceeds the supplied systolic >130 or diastolic >80 threshold. Instruction failure ⇒ knowledge invalid. Quality: The device and cuff have coherent shapes and lighting, and the large digits are legible, but the smaller printed labels are visibly garbled, a clear text-rendering flaw."
+    },
+    {
+      "blind_id": "case_005e3a96d3caa688",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested recentering, background and festive additions, the recognizable person, crown, open-mouth expression and hands-under-chin pose remain, but the facial/skin rendering, curl detail and blouse folds/texture are noticeably altered. Instruction: The photo becomes a centered festive poster with rainbow colors, balloons, confetti, a cloud and radiant rays. The expected poster also has the exact title and smaller tagline plus fireworks; the text is instead nonsensical, the tagline is absent, and no clear fireworks appear. Thus the main idea is present but required elements fail. Quality: The layout and balloons are coherent, but several large lines of lettering are garbled, skin has distracting mottled texture, and hair and clothing show harsh smeared detail, producing multiple distracting artifacts."
+    }
+  ]
+}

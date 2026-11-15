@@ -1,0 +1,38 @@
+# UniReason RQ2 base config (RQ2.1, reused by RQ2.2).
+#
+# src/rq2/run_rq2.py sets true_cfg_scale and num_inference_steps per grid
+# point from its CLI arguments. The values below are placeholders.
+#
+# Model setup (done once, already downloaded to scratch):
+#   Weights: /scratch/users/ntu/kirubhah/models/UniReason
+#   Model files are in results/stage_1_align/0030000/ inside that folder.
+#   ema.safetensors must be merged there first:
+#     cat ema_part_* > ema.safetensors
+#   UniReason source: git clone https://github.com/AlenjandroWang/UniReason
+
+experiment_name: rq2_unireason
+
+model:
+  backend: unireason
+  model_id: Alex11556666/UniReason
+  model_path: /scratch/users/ntu/kirubhah/models/UniReason/results/stage_1_align/0030000
+  unireason_repo: ~/UniReason/UniReason
+  max_latent_size: 64
+  # Used only to satisfy the shared config validator.
+  dtype: bfloat16
+  cpu_offload: false
+
+generation:
+  # true_cfg_scale is the main grid axis (sets cfg_text_scale in the runner).
+  # run_rq2.py overrides it per grid point.
+  num_inference_steps: 50
+  true_cfg_scale: 4.0
+  # Image guidance scale, fixed throughout RQ2.
+  cfg_img_scale: 2
+  enable_thinking_mode: false
+  # Used only to satisfy the shared config validator.
+  enable_reflection_mode: false
+  max_try_cnt: 1
+
+output_dir: outputs/rq2_unireason
+log_file: logs/rq2_unireason/rq2_unireason.jsonl

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b011",
+  "results": [
+    {
+      "blind_id": "case_13d4580db8907cfa",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the permitted creature replacement, the blue-sky composition remains, but the clouds are substantially redrawn and the upper-right sun acquires prominent long starburst rays. Instruction: The white bird becomes a gold winged, antlered creature with a long animal muzzle; the expected replacement is an owl, so the requested identity is entirely wrong. Knowledge: The explanation explicitly requires an owl, and the depicted creature is not one. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the stylized golden creature has coherent wings, fan-shaped tail and sculptural surface, with consistent sunlight and clean cloud textures; no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_4725b07c77bab37c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The board layout, red corner marker and occupied positions are largely retained, but several existing stones change color: the two middle stones of the upper black run become white, while two white stones in the next row become black; other existing stones also flip, and wood grain changes. Instruction: No extra stone appears at the open left end of the original four-black horizontal run or elsewhere; the colors of existing stones are rearranged and no five-black line results. The expected single winning addition is absent. Knowledge: The supplied explanation is blank; the visible lack of an added stone or five-in-a-row supports instruction failure, and the score follows the mandatory coupling. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the grid, round stones, highlights, shadows and wooden texture are coherent and clean, with no noticeable structural or rendering artifacts."
+    }
+  ]
+}

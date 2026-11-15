@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b100",
+  "results": [
+    {
+      "blind_id": "case_b02705dc892d4c7d",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 1,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The outer body contour and renal masses remain recognizable, but most central abdominal soft tissues disappear into a black void, the vertebra becomes a smooth gray oval, and other internal structures are extensively changed beyond stone removal. Instruction: The conspicuous white cluster in the kidney on the image right is absent; the expected stone-free kidney is shown, fulfilling removal. Knowledge: The supplied explanation calls for removing small white particles; the bright renal particles are gone, matching that stated visual expectation. Quality: Structural coherence fails: a huge empty black abdominal region and a featureless oval in place of recognizable spinal structure make the CT anatomy severely incoherent; peripheral scan texture remains visible."
+    },
+    {
+      "blind_id": "case_d6f696bab0b6104a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested composition, background, text and effects, the blue top, red trousers, blue shoes and striped board remain recognizable. However, the raised right arm and hand change pose, facial details change, and skin and clothing are substantially redrawn with hard outlined textures. Instruction: A blue gradient sports poster adds an airborne central skater, yellow headline, speed streaks, lightning and skyline. The expected readable headline and bottom invitation are incomplete: the headline reads DARE TO LEAPP and the call-to-action is largely garbled; distinct added skateboard parts are not evident. These omissions make compliance partial. Quality: The composition, skyline and lighting effects are coherent, but visibly nonsensical bottom lettering and distorted, harshly outlined hand/skin details are clear artifacts."
+    }
+  ]
+}

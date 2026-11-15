@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b009",
+  "results": [
+    {
+      "blind_id": "case_9ea62d258617e16a",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested new interior, framing, lighting and poster typography, the cushion remains black and white with a pointed square silhouette, but its previously continuous diamond pattern is visibly broken into distorted overlapping patches across the center and lower portion. Instruction: The isolated cushion becomes a large main visual on a dark gray sofa with a cool minimalist palette and bold upper-left sans-serif text. The expected poster should emphasize intact geometric fabric and a meaningful headline about black, white and life’s order; the headline is garbled and the texture is corrupted, so compliance is partial. Quality of edited image alone: Structural coherence ✘ and artifact-free ✘: nonsensical headline words and conspicuous collage-like breaks in the cushion surface are distracting. Naturalness ✔ for the sofa lighting; texture fidelity ✘ for the cushion."
+    },
+    {
+      "blind_id": "case_ec6b306fb29a43d6",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and red/black suit colors remain, but the card fan angles and spacing change substantially, and the exposed right-hand diamond pips change shape and placement. These are unrelated to the requested rank correction. Instruction: The edit redraws the fan but still reads 4, 6, 8, 8, 8. A correct result would have three eights plus two matching lower ranks; neither the 4 nor the 6 is changed, so the requested full house is absent. Knowledge: The explanation requires three of one rank and two of another, whereas the visible lower ranks remain unequal. Instruction failure ⇒ knowledge invalid. Quality of edited image alone: Legible ranks, clean suits and plausible white card surfaces are satisfactory, but a conspicuous extra boundary to the right of the narrow 8-diamond index strip makes the diamond card structure incoherent. Structural coherence ✘; naturalness ✔; artifact-free ✘; texture fidelity ✔."
+    }
+  ]
+}

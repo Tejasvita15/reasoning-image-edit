@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b015",
+  "results": [
+    {
+      "blind_id": "case_932152cc2542ded7",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the gray printer body, front housing, output tray and white setting remain recognizable and aligned, but the rear paper-support/guide assembly is removed beyond moving the document. Instruction: the sheet is now upright directly in front of and occluding the printer, as the requested placement requires; however, it remains completely blank rather than a printed document, so compliance is partial. Quality: satisfactory object structure, perspective, contact shadow and smooth surface textures; the leaning sheet and visible printer edges are coherent without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_26b4473fc035b06b",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the blue sky, distant horizon and desert scene layout remain, but the sandy foreground is visibly changed into a nearly pure-white field with dark speckles, losing its original color and surface detail. Instruction: the sloping Egyptian pyramid becomes a terraced pyramid with a broad central staircase and summit temple, fully realizing the requested Maya stepped-pyramid change. Knowledge: the supplied explanation calls for the Kukulkan Pyramid at Chichen Itza; the visible receding platforms, axial stairway and rectangular summit shrine provide the recognizable architectural match. Quality: architectural structure and perspective are coherent, but conspicuous highlight clipping and posterized black/white surfaces across the monument and ground destroy natural stone and sand texture, a clear visual flaw."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b084",
+  "results": [
+    {
+      "blind_id": "case_719a22c6d88da62b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: excluding ripening of the foreground fruit, the scene is more tightly cropped, the upper right leaf occupies a different position, and the lower central leaf and branch details have been reshaped; the general foliage and branch arrangement remains recognizable. Instruction: the two prominent green-yellow persimmons become full orange-red fruit, clearly depicting maturation as requested. Knowledge: their orange-red coloring matches the supplied expectation that persimmons turn red; the lower fruit has a particularly red lower half. Quality: coherent round fruit, attached stems, leaf veins, lighting and depth of field; no noticeable structural or surface artifacts."
+    },
+    {
+      "blind_id": "case_bc37cf7d7e070581",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested layout, background, splash, shadow and title changes, the cylindrical transparent glass and milk subject are retained; the clear glass base is slightly thicker and differently contoured. Instruction: a centered splash, minimalist pale composition, upper uppercase sans-serif title and bottom shadow are present. However, the second line reads CLEAN O TE THEND rather than CLEAN TO THE END., the first title line is dark charcoal rather than light silver-gray, and the cast shadow is strongly dark rather than soft gray. These leave the requested design only partially fulfilled. Quality: glass, liquid splash and droplets have coherent forms and smooth lighting, but the visibly malformed title wording is a clear semantic defect."
+    }
+  ]
+}

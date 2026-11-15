@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b110",
+  "results": [
+    {
+      "blind_id": "case_34b3d4aa0cb80eaf",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: animal identities, colors, row order and white background remain recognizable, but the endpoint dots disappear and several animals receive large unrequested circular outlines. Instruction: five horizontal double-headed connections and several disconnected diagonal arrows are added; the expected result is one continuous line for each corresponding front and tail. The horizontal lines instead pair cow with rhinoceros, squirrel with dog, lion with cow, rhinoceros with squirrel, and dog with lion, so most required matching is wrong. Knowledge: the supplied explanation requires corresponding animal fronts and tails; none of the five main horizontal pairings does so. Instruction failure ⇒ knowledge invalid. Quality: animal drawings and flat colors are coherent, but floating arrow segments and overlapping open rings make the diagram visibly confusing and unfinished."
+    },
+    {
+      "blind_id": "case_854ce5989c18110f",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the duck pose, silhouette, orange bill and feet, white background and floor shadow remain aligned with the source. Beyond the allowed color change, the feather surface becomes visibly coarse and sculpted, with an added pale outline around the eye. Instruction: the formerly pale feathered regions across head, neck, wings, body and tail are now black, matching the expected black plumage while preserving the bill and legs. Quality: the duck anatomy and lighting are readable, but the feather surface has conspicuous smeared, lumpy patches and the eye has an unnaturally thin bright circular border."
+    }
+  ]
+}

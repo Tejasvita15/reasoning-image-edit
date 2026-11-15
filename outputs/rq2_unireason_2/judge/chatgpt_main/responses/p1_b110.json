@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b110",
+  "results": [
+    {
+      "blind_id": "case_bb923ce9a0f8dd35",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the white background, angled white monitor, brand and orange power button remain, but the blue cuff and both gray buttons disappear; time, pulse and other display markings also change. Instruction: 123/72 becomes an apparent 12/72. A correctly edited display should show a credible hypotensive blood-pressure pair; the systolic number is lowered, but below the diastolic number, so this is only partial compliance. Knowledge: the supplied explanation requires systolic below 90 or diastolic below 60; 12 satisfies the stated systolic threshold, but the visible reversed systolic/diastolic relationship is a clear physiological conflict. Quality: the body and lighting are coherent, but multiple unit labels and small LCD markings are garbled, with malformed display symbols and an awkwardly staggered main reading."
+    },
+    {
+      "blind_id": "case_78e0981139d083f2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white 4x4 grid and several animal positions remain, but multiple supplied clues change, including the top-row raccoon and dog becoming lions and the third-row right lion becoming a dog; several other faces acquire hybrid features. Instruction: all four empty cells receive pictures, but the expected additions are tiger, lion, raccoon and dog at r1c1, r1c3, r3c1 and r4c3 respectively. Only the raccoon is correctly supplied; the others show a lion-like hybrid or tigers, so most requested completion is incorrect. Knowledge: the supplied explanation is blank; the task itself implies distinct animal symbols in each row, column and 2x2 block, visibly violated by repeated lions and tigers. Instruction failure ⇒ knowledge invalid. Quality: grid structure and colors are clear, but numerous animal faces have conspicuous merged features, stray brown shapes and partial manes, producing multiple distracting structural artifacts."
+    }
+  ]
+}

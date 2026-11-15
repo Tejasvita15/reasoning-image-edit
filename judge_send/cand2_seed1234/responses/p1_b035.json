@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b035",
+  "results": [
+    {
+      "blind_id": "case_d96642966a780c18",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: the rain, warm background lights, pink polish and turquoise sandal theme remain, but the ankle skin texture/creases and sandal strap proportions and sole contour visibly change beyond correcting extra toes. Instruction: the toes are reshaped and lengthened; a correct result would have five anatomically plausible toes. Seven toe-like projections remain, including an enormous rounded nail-less big toe, so the anatomical correction is poorly implemented. Quality (edited image only): structural coherence is severely broken by the excessive elongated digits, deep unnatural gaps and bulbous big toe; lighting and pavement textures are coherent, but the forefoot skin is conspicuously smooth and distorted."
+    },
+    {
+      "blind_id": "case_78220cc507c4ecc3",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the board layout and existing blue and green clues remain, but an unrequested green 2 is inserted into the covered cell at row 3, column 4. Instruction: numerous red cross-like marks are added to already open blank cells on the left and bottom. The expected edit marks the covered mine cells at row 1 column 6, row 3 column 3, and row 4 column 5; these remain unmarked. The marking action is attempted but its required positions are wrong. Knowledge: the supplied explanation is blank; the visible marks violate the task-implied adjacency clues, and the mandatory instruction-failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality (edited image only): the grid is coherent and numerals legible, but the red symbols have conspicuous ragged, blocky merged centers that impair their appearance as clean Xs; gray cell surfaces and shading are otherwise consistent."
+    }
+  ]
+}

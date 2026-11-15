@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b202",
+  "results": [
+    {
+      "blind_id": "case_d98586ea53806be4",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding requested phone resizing, the tablet is enlarged and shifted right, and the phone is repositioned farther right, increasing the gap; white tabletop and basic device designs remain recognizable. Instruction: the phone becomes smaller relative to the tablet instead of matching its size. A correct edit would enlarge the phone to approximately the tablet’s dimensions; this reverses the requested change. Quality: satisfactory device structure, perspective, shadows and surface textures; the edited product image has no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_f0b7f2ea8f166d69",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: most major non-instruction details are redrawn: maze wall topology and proportions change extensively, and the animal’s pose, face and held gift and the large presents’ patterns change. Instruction: red strokes are added, but they run across walls and end in disconnected lower-maze segments without reaching the presents. The expected result is a continuous valid animal-to-gift route through the existing corridors, so the essential path is poorly implemented. Knowledge: the supplied explanation is blank; the task and visible maze imply traversable connected corridors, which the strokes violate. Instruction failure ⇒ knowledge invalid. Quality: satisfactory clean cartoon outlines, coherent animal and present shapes, flat fills and crisp maze strokes; no noticeable rendering artifacts."
+    }
+  ]
+}

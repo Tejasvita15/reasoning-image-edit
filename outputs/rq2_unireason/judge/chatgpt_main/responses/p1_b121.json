@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b121",
+  "results": [
+    {
+      "blind_id": "case_42ae45cf0306c842",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the remaining right baguette retains its shape, crust markings, position and lighting; the surrounding pale surface and framing remain consistent, excluding the requested removal regions. Instruction: two textured baguettes become a large white fill, but their silhouettes and dark contact shadows remain. The expected result is one baguette with exposed tabletop where two were removed; this is a poorly implemented removal. Quality: the bread texture and perspective are coherent, but the conspicuous smooth white double-lobed mass with a bright perimeter and heavy lower shadow is a clear unnatural visual artifact."
+    },
+    {
+      "blind_id": "case_24b6ba86569f2a46",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the original radial cluster, horizontal branch, leaf positions and backlighting are replaced by much larger leaves around a vertical stem; background bokeh also changes substantially. Instruction: irregular holes and brown scars appear, matching the expected pest damage, but the original leaves are replaced by a differently arranged plant close-up, so the requested transformation is only partially followed. Knowledge: the supplied explanation predicts holes from insect feeding; the visible irregular openings and missing leaf tissue plausibly show that effect. Quality: satisfactory structure, natural lighting, intact vein and surface textures, and coherent holes with visible dark background; no noticeable generation artifacts."
+    }
+  ]
+}

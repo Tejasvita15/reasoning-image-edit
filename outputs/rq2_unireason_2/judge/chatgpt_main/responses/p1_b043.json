@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b043",
+  "results": [
+    {
+      "blind_id": "case_3797ec7a902acc14",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding the requested creature replacement, the blue-sky setting and upper-right sun remain, but the cloud field is visibly reworked, with denser streaks at the right and lower center. Instruction: the gull becomes a long-necked white swan with an orange-and-black bill; the expected replacement is an owl, so the intended bird is entirely wrong. Knowledge: the supplied explanation explicitly requires an owl, which is absent. Instruction failure ⇒ knowledge invalid. Quality: the wings, neck, lighting and feather surfaces are coherent; the overlapping black feet have slightly blended toe contours, a small anatomical imperfection."
+    },
+    {
+      "blind_id": "case_fbe45d9f09f112a5",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested background, layout, decorative additions and typography, the lantern remains red with gold trim, but its gold floral motifs are redrawn and its bottom loop and tassel connection are changed. Instruction: the edit adds a centered lantern, golden leafy branches, red petals, glow, sparks and gold top and script bottom lettering. The expected poster needs the specified readable headline and a festive slogan over a red-to-gold gradient; both text regions instead contain nonsense, and the backdrop is chiefly dark brown and red. This fulfills the visual theme only partially. Quality: the lantern, petals and decorative branches are structurally coherent with convincing warm glow, but the two headline lines and bottom script contain extensive malformed or meaningless lettering, producing multiple distracting semantic and text defects."
+    }
+  ]
+}

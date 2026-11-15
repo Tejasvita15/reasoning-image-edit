@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b112",
+  "results": [
+    {
+      "blind_id": "case_bf3252b60e0a8c6f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background, blue connected-cell arrangement and existing numbers remain, but multiple hexagons are reshaped/tilted and their numeral placement and proportions change. Instruction: The bottom-left question mark remains; the expected edit was its replacement with 6, so the requested change is absent. Knowledge: The explanation requires 6 because 12 is twice 6; no answer is supplied. Instruction failure ⇒ knowledge invalid. Quality: The diagram and all characters are clear and coherent, with a minor uneven/jagged-outline imperfection along some cell edges."
+    },
+    {
+      "blind_id": "case_6029df41cc94bd16",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The keyboard, its labels and diagonal position, both purple flowers and stems, and tabletop composition remain consistent; the pale tabletop has slightly stronger mottled grain. Instruction: Two brown decorative emblems are added on the table, but their looping heart/circle forms and branching stems do not clearly depict the expected classic Christian cross; object placement is attempted while the central symbolic requirement is poorly implemented. Knowledge: The supplied explanation specifically requires a cross, which is not recognizably present. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the tabletop scene is coherent, keyboard lettering and petals are intact, and the ornaments have convincing solid outlines, surface texture and contact shadows without a clear visual artifact."
+    }
+  ]
+}

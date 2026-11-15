@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b086",
+  "results": [
+    {
+      "blind_id": "case_703c369b3f7181c7",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The horizon and open-sea composition remain, but the non-target sky has visibly altered cloud streaks and texture. Instruction: Fine blue waves become broad smooth dark ripples with pink sky reflections; a visible oil slick should coat the surface, but there is no clear oily film or rainbow pattern, so most of the requested transformation is missing. Knowledge: The supplied explanation requires a rainbow oil sheen, which is absent. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the seascape has coherent ripples, a clean horizon, plausible reflections and no noticeable structural or texture artifacts."
+    },
+    {
+      "blind_id": "case_9130dbee0706b277",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The six colored panels and their number values remain, but multiple non-target numeral shapes are redrawn, including the white 2 and 9, and panel gradients and spacing visibly change. Instruction: The bottom-right question mark is replaced with a narrow yellow 1.0-like inscription rather than the required 410, so the correct location is edited but the required answer is missing. Knowledge: The explanation gives concatenated difference and sum: 7−3=4 and 7+3=10, requiring 410; the visible result does not satisfy it. Instruction failure ⇒ knowledge invalid. Quality: The grid and most numerals are clean and readable, with coherent colors and shadows; a small stray dark/yellow spur beneath the bottom-right punctuation is a minor artifact."
+    }
+  ]
+}

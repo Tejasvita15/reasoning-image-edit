@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b184",
+  "results": [
+    {
+      "blind_id": "case_0a028c21b3badc81",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: monitor and cuff retain their arrangement, but branding and printed labels are distorted, cuff fabric texture changes, and the unrelated pulse reading changes from 70 to 180. Instruction: blood pressure remains 100/68; only the bottom pulse value rises. The expected change was hypertensive systolic or diastolic values, so the requested modification is not achieved. Knowledge: neither 100 nor 68 exceeds the supplied thresholds of 130 and 80; changing pulse does not satisfy that explanation. Instruction failure ⇒ knowledge invalid. Quality: device and cuff geometry, shadows and digital numerals are coherent, but malformed branding and small printed labels are clear textual artifacts."
+    },
+    {
+      "blind_id": "case_6dac2523185bca85",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the hand, blue sleeve and dark background remain recognizable, but the faucet disappears and the composition is enlarged/reframed around the hand. Instruction: the small dark rod remains held in the hand while the faucet and water stream are removed; the expected rod removal is not performed. Knowledge: the explanation requires a normal vertical downward stream, whereas no stream remains. Instruction failure ⇒ knowledge invalid. Quality: the hand, fingers, sleeve and held object are structurally coherent with plausible lighting; slight harsh, mottled texture on the hand is a minor surface imperfection."
+    }
+  ]
+}

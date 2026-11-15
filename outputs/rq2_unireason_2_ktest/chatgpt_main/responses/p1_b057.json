@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b057",
+  "results": [
+    {
+      "blind_id": "case_234041beff70c902",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the four-row grid becomes three rows, the giraffe and tree are redrawn, the header changes placement and lettering, and the lower explanatory text disappears; most major non-requested details change. Instruction: arrows and dot blocks replace the lower strip, but no directional blocks are placed in the grid. A completed route should connect the upper-left giraffe to the lower-right fruit; the grid remains empty, so the request is not fulfilled. Knowledge: the supplied explanation is blank; the mandatory instruction-failure coupling is the scoring basis. Instruction failure ⇒ knowledge invalid. Quality: the worksheet has multiple distracting defects, including tangled header lettering, a partially vanished giraffe body and legs, and a split vertical bar among the otherwise arrow/dot blocks; the grid itself is clean."
+    },
+    {
+      "blind_id": "case_98d4cd44b3cc3edc",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: beyond any permitted viewpoint change, the glossy teapot becomes flat outlined artwork, the spout loses its red color, the large pot loses its branding, and an additional small teapot changes the composition; most major non-requested details differ. Instruction: both drawn pots retain front-view silhouettes with tall bodies, raised knobs and open side handles. The reference instead shows an overhead circular lid, central knob, visible spout opening and foreshortened handle. No correct top-view transformation is present. Quality: the large outlined teapot has coherent contours and flat color, and the white background is clean; however, the lettering on the smaller pot is visibly malformed and partly illegible, a clear semantic artifact."
+    }
+  ]
+}

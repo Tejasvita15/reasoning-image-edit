@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b060",
+  "results": [
+    {
+      "blind_id": "case_76d3c293f61a83bc",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the table, white backdrop and other three chairs retain their layout; excluding the requested chair movement, the foreground chair back/leg construction and the books on the tabletop are visibly altered. Instruction: the foreground chair is shifted and turned sideways; a successful edit would tuck its seat beneath the tabletop. Its seat remains almost entirely outside the table, so the movement is poorly implemented. Quality: coherent furniture, lighting and wood/upholstery textures overall; the small stack of books has crumpled, blended edge detail."
+    },
+    {
+      "blind_id": "case_06efb19e47cbe7f2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding poster layout, background and added graphics, the recognizable braided plant and woven pot remain, but the foliage silhouette loses the long upper-left branch, and leaf, trunk and basket surfaces become strongly outlined and visibly restyled. Instruction: the edit adds a top-left GREEN HOME title, green gradient, surrounding leaves, droplets and halo around the central plant, matching the requested poster components. The halo and overall treatment are harsh rather than soft and naturally warm, a minor execution mismatch. Quality: title and composition are legible and the pot structure is coherent; conspicuous bright cutout-like outlines and fused, glossy dark foliage produce noticeable visual artifacts."
+    }
+  ]
+}

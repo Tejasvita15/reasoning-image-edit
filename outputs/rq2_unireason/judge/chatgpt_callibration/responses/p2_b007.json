@@ -1,0 +1,23 @@
+{
+  "batch_id": "p2_b007",
+  "results": [
+    {
+      "blind_id": "case_c6106779008ab0a9",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": 3,
+      "rationale": "Consistency: excluding the requested beach and shoreline transformation, the horizon, cloud formations, blue sky and offshore wave arrangement are retained; a tiny colored mark appears at the lower-right corner. Instruction: the sandy foreground becomes gray stones, but its left half is a regular rectangular paved surface while only the right half resembles loose shingle. A complete shingle beach should have loose pebbles throughout, so this is partial compliance. Knowledge: the right side has rounded coarse pebbles as explained, but the orderly bricklike left half clearly conflicts with that natural sediment expectation. Quality: sky and sea are coherent, but the ground has an abrupt central texture seam, conspicuously repetitive paving, and a nearly straight, poorly integrated water-to-ground boundary; these are multiple distracting surface/integration defects."
+    },
+    {
+      "blind_id": "case_d3869ea438ea9cf3",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the lip outline and highlights, peach background, existing teeth, gum contours and overall mouth arrangement remain visually unchanged outside the permitted tooth completion. Instruction: the upper missing tooth is filled with a white tooth, but the conspicuous lower-right gap remains empty. Completing the teeth requires both gaps to be filled, so the change is only partially complete. Quality: assessed alone, the illustration has coherent mouth and tooth shapes, clean outlines, consistent shading and smooth textures without noticeable generation artifacts; the depicted missing tooth is a semantically coherent feature."
+    }
+  ]
+}

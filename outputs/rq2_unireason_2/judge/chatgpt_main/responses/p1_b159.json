@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b159",
+  "results": [
+    {
+      "blind_id": "case_3e84cd0040a2794a",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding maturation-related fruit appearance, the branch structure disappears, the surrounding leaves are replaced by a large backing leaf, and fruit placement and background composition change substantially. Instruction: the green fruit becomes more yellow, but the expected result is the same persimmons visibly matured; the fruit remains yellow-green rather than showing the requested mature appearance, so most of the change is unfulfilled. Knowledge: the supplied explanation explicitly expects red persimmons, which are absent. Instruction failure ⇒ knowledge invalid. Quality: ✔ coherent rounded fruit and leaf shapes, ✔ natural shading, ✔ clean skin and vein textures, and ✔ no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_ed6d8c4177f7f35f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding requested background, placement, illumination and lettering changes, the round gold bezel and blue stone remain recognizable, but the compact bail becomes dramatically elongated with a different connector structure, and the chain links become finer and differently shaped. Instruction: the edit adds a centered hanging pendant, grey-blue textured background, luminous starburst and bottom serif lettering. The expected exact sentence is not reproduced: the visible text includes “thouts” and garbled second-line words; the prominent light lower band also makes the gradient less subtle. The main layout is achieved with important aspects incorrect. Quality: ✔ balanced composition and coherent metal outline; ✔ readable material shading and background texture; ✘ prominent malformed lettering creates a clear semantic artifact. The central stone reads as a stylized luminous graphic."
+    }
+  ]
+}

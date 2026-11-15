@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b172",
+  "results": [
+    {
+      "blind_id": "case_3331493aad9e3db1",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding removal of the rod and the expected water-flow change, the faucet is also entirely removed and the hand has visibly altered skin detail and finger contours; the dark background, cuff and basic hand position remain. Instruction: The rod formerly held over the palm is completely absent, matching the requested removal. Knowledge: The explanation requires a normal vertical downward water stream; the edit removes the entire stream and faucet instead, so the stated physical outcome is absent. Quality: The hand and cuff remain recognizable with coherent lighting and background, but the hand surface has a small waxy, overprocessed texture imperfection."
+    },
+    {
+      "blind_id": "case_37ca4a812c557376",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, lighting, layout and typography changes, the ivory handbag, arched handle, black edging and interlocking gold clasp remain recognizable, but the quilted stitching is visibly redrawn, especially the lower curved rows. Instruction: A gray textured advertisement background, halo and gold serif copy are added. The expected understated design calls for a slightly right-positioned bag, subdued halo, exact small copy and bottom-center fine GUCCI lettering; the bag stays centered, the halo is conspicuous, the oversized headline reads Elegaance, Always without the requested period, and GUCCI is placed on the bag rather than at the frame bottom. These are substantial incomplete aspects of the otherwise recognizable advertisement. Quality: Bag structure, leather surfaces and lighting are coherent and the background texture is clean; the visibly misspelled headline is a clear semantic text flaw."
+    }
+  ]
+}

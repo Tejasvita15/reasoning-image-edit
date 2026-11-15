@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b148",
+  "results": [
+    {
+      "blind_id": "case_f21b4c92a693cacf",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background, gray fluted column design, lighting and receding arrangement remain, but the retained columns are enlarged within the frame, changing the margins. Instruction: the count falls from eight to seven; the expected result is exactly five columns, so most of the required reduction remains undone. Quality: satisfactory structure, natural shading, clean surfaces and intact capitals and bases; no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_99e603e81f90043b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the blue three-by-three diagram remains recognizable, but the grid and symbols are vertically compressed and moved upward; the middle-row center square now masks the circle segment and the right square touches the circle instead of sitting separately below it. Instruction: the bottom-right question mark remains; the expected shape was a triangle with a blue circle on its bottom edge, and no such replacement appears. Knowledge: the supplied triangle-and-circle outcome is absent. Instruction failure ⇒ knowledge invalid. Quality: the diagram is legible and structurally coherent, with a small imperfection in slightly uneven, mottled outlines; shapes remain distinct."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b230",
+  "results": [
+    {
+      "blind_id": "case_711fcef7f9486f11",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "Consistency: the rail is substantially reframed, with its left upright outside the image, and the ball is larger relative to the rail; background texture and floor framing also change. Instruction: the ball moves to the upper right as requested, but its center sits slightly higher above the rail endpoint than the original left ball, rather than exactly matching the starting height. Knowledge: the approximately equal endpoint height expresses energy conservation, with a small height discrepancy. Quality: coherent spherical shading, intact metal curvature, believable surface textures and shadows; no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_67506d6720fb97b1",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the yogurt bowl, raspberries, mint, spoon, napkin and pink tabletop are all replaced by a glass against a gray background. Instruction: a glass of clear water and a vertically suspended multicolored strip appear; the requested cabbage-indicator color change in the liquid is not shown. The water remains colorless, so most of the requested effect is missing. Knowledge: the supplied explanation calls for acidic yogurt turning red or pink, whereas neither yogurt nor a pink/red mixture remains. Instruction failure ⇒ knowledge invalid. Quality: the glass rim, transparent water, paper texture, lighting and cast shadow are clean and visually coherent."
+    }
+  ]
+}

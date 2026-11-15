@@ -1,5 +1,3 @@
-# src/rq2/check_rq2.py
-
 """
 Validate RQ2.1 / RQ2.2 generation logs before handing outputs to the judge.
 
@@ -87,6 +85,9 @@ def main():
     parser.add_argument("--split", default="k_dev")
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--experiment_name", default="rq2_step1x")
+    parser.add_argument("--thinking_is_appended", action="store_true",
+                        help="UniReason: the thought is appended after the instruction, "
+                             "so the prompt stays the raw instruction.")
     parser.add_argument("--thinking", nargs="+", default=["off", "cached"])
     parser.add_argument("--cfgs", nargs="+", type=float, default=[2, 6, 10])
     parser.add_argument("--steps", nargs="+", type=int, default=[50])
@@ -182,8 +183,14 @@ def main():
                 fail(f"{where}: off row has a reformat_prompt")
 
         if thinking == "cached":
-            if row["prompt_used"] != row["reformat_prompt"]:
-                fail(f"{where}: prompt_used != reformat_prompt")
+            if args.thinking_is_appended:
+                if row["prompt_used"] != row["instruction"]:
+                    fail(f"{where}: appended replay must use the raw instruction")
+                thought = row["reformat_prompt"]
+            else:
+                if row["prompt_used"] != row["reformat_prompt"]:
+                    fail(f"{where}: prompt_used != reformat_prompt")
+                thought = row["prompt_used"]
 
             if row["pipeline_enable_thinking_mode"]:
                 fail(f"{where}: replay must keep pipeline thinking off")
@@ -194,8 +201,8 @@ def main():
                 fail(f"{where}: example not in the thought cache")
 
             if cached is not None:
-                if row["prompt_used"] != cached["rewrite"]:
-                    fail(f"{where}: prompt differs from the cached rewrite")
+                if thought != cached["rewrite"]:
+                    fail(f"{where}: thought differs from the cached rewrite")
 
                 if row["latency_thinking_sec"] != cached["latency_thinking_sec"]:
                     fail(f"{where}: thinking latency not charged from cache")
@@ -214,7 +221,7 @@ def main():
 
         if row.get("thinking_condition") == "cached":
             cached_prompts_by_uid[row["example_uid"]].add(
-                row["prompt_used"]
+                row["reformat_prompt"] if args.thinking_is_appended else row["prompt_used"]
             )
 
     for uid, seeds in seeds_by_uid.items():
@@ -307,7 +314,9 @@ def main():
 
         for uid in sorted(set(live_rows) & set(cached_rows)):
             live = live_rows[uid]
-            same_rewrite = live["reformat_prompt"] == cached_rows[uid]["prompt_used"]
+            cached_thought = (cached_rows[uid]["reformat_prompt"] if args.thinking_is_appended
+                              else cached_rows[uid]["prompt_used"])
+            same_rewrite = live["reformat_prompt"] == cached_thought
 
             mad = mean_abs_diff(
                 live["output_path"],

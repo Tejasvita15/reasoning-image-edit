@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b004",
+  "results": [
+    {
+      "blind_id": "case_38cd84da5a38a74e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the pale background and broad rightward shadow remain similar, but the surviving shoe is noticeably narrower and more upright, and its lace arrangement and upper-panel contours have changed. Removal of the left shoe and its shadow is excluded. Instruction: one of two shoes disappears; the expected result is exactly one remaining shoe, which is fully achieved. Quality: structural coherence ✔, natural lighting and shadow ✔, artifact-free ✔, leather texture ✔; the single shoe has coherent stitching, laces and sole without a clear defect."
+    },
+    {
+      "blind_id": "case_67814d2d1be04b2e",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background, upright orientation and two-row arrangement remain consistent, but the fork silhouettes have visibly changed, with broader-looking heads and altered handle taper. Instruction: the source has eight forks and the edit still has eight, in two rows of four; the expected six distinct forks are absent, so the requested count change is not achieved. Quality: structural coherence ✔ and natural metallic shading ✔; all forks have coherent four-tined heads. Artifact-free/texture fidelity have a minor issue: slightly rough, uneven handle edges and surface patches, while the overall utensil shapes remain clear."
+    }
+  ]
+}

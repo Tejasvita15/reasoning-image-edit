@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b001",
+  "results": [
+    {
+      "blind_id": "case_a5c8be7f89bc0692",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, decoration, glow and typography, the crane-and-pine composition remains recognizable, but crane outlines, foliage and rocks have been substantially redrawn and the frame carvings simplified. Instruction: The white backdrop becomes a blue gradient with cloud motifs and a glow around the centered painting. A complete result would also include surrounding flying cranes, the exact large serif heading at the top and handwritten event information at bottom left. The edit instead has garbled script across the bottom, no correct heading or event information, and no clear surrounding flying cranes; this is partial compliance. Quality, edited image alone: Structural coherence ✘ and artifact-free ✘: the large script and small footer are nonsensical, with footer letters crowded against the lower edge; painted bird details are visibly blended. Naturalness ✔ for the decorative poster treatment; texture fidelity ✘ for smeared painting detail."
+    },
+    {
+      "blind_id": "case_8a7363edfa227f0c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding requested placement, lighting, background, reflection and added text, the bottle silhouette and red capsule remain recognizable. However, the main label illustration and typography are visibly redrawn, and capsule branding is altered. Instruction: The background changes to a wine-red/dark gradient with a soft bright area, the upright bottle is prominently lit, and gold serif text appears on the right. A complete result would place the bottle slightly below center with a subtle bottom reflection and the exact phrase Timeless. Bottled. in the upper right. The actual wording is garbled, the bottle has no visible bottom reflection, and its center is approximately at frame center; partial compliance. Quality, edited image alone: Structural coherence ✘ and artifact-free ✘: large nonsensical text is partly occluded by the bottle and small label copy is malformed. Naturalness ✘: the bottle appears suspended against the gradient without grounding. The bottle shape is coherent, but texture fidelity has rough label and capsule details."
+    }
+  ]
+}

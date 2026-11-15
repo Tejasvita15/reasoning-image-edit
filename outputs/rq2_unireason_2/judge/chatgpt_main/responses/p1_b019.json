@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b019",
+  "results": [
+    {
+      "blind_id": "case_931a7468964b7849",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The spoon, napkin, pink tabletop and two foreground berries with mint retain their layout, but the background and spoon berries become black-purple and their textures change; lighting and saturation also change conspicuously. The foreground vessel/liquid changes are excluded as the requested target. Instruction: The white yogurt bowl becomes a transparent vessel with vivid purple-magenta liquid and a white upper layer. A colored glass of liquid addresses the main idea, but the indicator addition is not evident and the water-like result is incomplete. The instruction mentions water although the source shows yogurt. Knowledge: The supplied explanation expects acidic yogurt to turn red or pink; the predominantly violet liquid with residual white surface only partially matches that outcome, despite magenta regions. Quality: Vessel, spoon and mint are structurally readable, but the black-purple berries have conspicuously unnatural smeared/ridged surfaces and the intensely glowing liquid reduces photographic naturalness."
+    },
+    {
+      "blind_id": "case_1ff39e49970ffe5c",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The hourglass outline, glass reflections and base shadow are entirely removed, leaving a nearly uniform white field. Instruction: Instead of retaining the hourglass with its upper chamber empty and sand collected below after the cycle, the entire object disappears; the requested state is not depicted. Knowledge: The supplied explanation requires an empty upper chamber of the hourglass, but no hourglass or lower sand remains visible. Instruction failure ⇒ knowledge invalid. Quality: The edited image alone is a blank white field without a discernible subject or coherent depicted structure, a severe semantic failure; this is visible output content rather than an unreadable attachment."
+    }
+  ]
+}

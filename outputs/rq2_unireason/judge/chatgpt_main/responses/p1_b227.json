@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b227",
+  "results": [
+    {
+      "blind_id": "case_8f9306bfe7dc8618",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, base, lighting, palette, arrangement, camera angle and title changes, the two chocolate-coated cookies remain recognizable, but their individual coating contours and fine drizzle/crack patterns are visibly redrawn. Instruction: The white setting becomes a brown draped setting with a dark slate base, centered stacked cookies and upper-right lettering. The expected image would also have the exact supplied sentence, velvet and a slightly upward view. The lettering is largely gibberish, the fabric looks coarse rather than velvety, and the view still looks downward onto the slate; the main concept is only partially fulfilled. Quality: Structure and contact shadows are coherent, but the prominent garbled text and unnaturally embossed, heavily textured surfaces are two clear visual flaws."
+    },
+    {
+      "blind_id": "case_dee981d10d8073d3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding relocation of the holder and its shadow, the paper has a substantially higher top edge and changed height, the wood grain and contrast change throughout, and the holder contents are rearranged. The coffee cup remains in the upper right. Instruction: The holder disappears from the upper-left location and appears overlapping the lower-right corner of the paper, precisely the requested spatial change. Quality: The overhead composition, rectangular paper, cup and lighting are coherent, with convincing paper and wood textures; a small area of dark pen shapes within the holder blends together unnaturally."
+    }
+  ]
+}

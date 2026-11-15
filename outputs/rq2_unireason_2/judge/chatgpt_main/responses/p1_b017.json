@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b017",
+  "results": [
+    {
+      "blind_id": "case_9feba390f1744dab",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The existing stone arrangement is retained, but board grain and grid contrast change noticeably, and existing stones have reshaped highlights and outlines. Instruction: A black stone is added at the far right, between grid intersections; the requested winning addition should extend the four black stones across the upper row at their open left end. The isolated addition does not complete five, a major failure of the requested purpose. Knowledge: The supplied explanation is blank; the visible five-in-a-row task logic is not fulfilled, and the mandatory score coupling applies. Instruction failure ⇒ knowledge invalid. Quality: Board and stones are otherwise coherent, with plausible gloss and shadows, but the isolated stone placed within a grid cell is a clear game-layout semantic flaw."
+    },
+    {
+      "blind_id": "case_90a9c16e9e250e26",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The black-rimmed white clock and general composition remain, but the minute/hour dot markers disappear and several lower numerals are visibly damaged, with altered dial proportions. Instruction: The hands still indicate approximately 8:00; a successful change would show 9:00 with the hour hand toward 9 and minute hand toward 12. The requested time change is absent. Knowledge: The supplied explanation explicitly requires 9 o’clock, contradicted by the unchanged hour direction. Instruction failure ⇒ knowledge invalid. Quality: The rim and central hands are coherent, but numerals 4, 5, 7 and 8 have multiple distracting broken or smeared portions, and a small text watermark remains along the bottom."
+    }
+  ]
+}

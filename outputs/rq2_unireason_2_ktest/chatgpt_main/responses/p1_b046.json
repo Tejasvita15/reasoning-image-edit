@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b046",
+  "results": [
+    {
+      "blind_id": "case_702eba921cd11285",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, typography, motion effects and central poster placement, the yellow HUMMER bicycle identity and side-facing orientation remain, but the saddle profile, frame/support details and drivetrain/spoke arrangements visibly change. Instruction: The plain product image becomes a centered blue-green promotional poster with layered mountains, a city silhouette and sweeping wind trails, as expected. However, the required headline is misspelled (including CONCKER and MOUMNTEN), and the small slogan is garbled and positioned beneath the headline rather than beside the bicycle; the main design is present but required text is incomplete. Quality: Structural coherence is problematic: malformed headline/slogan lettering and tangled, distorted rear gear and crank details are multiple distracting errors. The gradient, silhouette layout and overall lighting are coherent."
+    },
+    {
+      "blind_id": "case_680b23973b18f05f",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the requested shape change and its consequent margins, the centered single yellow shape is retained, but the light-gray background becomes visibly whiter. Instruction: The wide ellipse becomes taller and slightly rounder; the expected result is a circle with equal visible width and height. It remains clearly horizontally elongated, so the essential requested change is poorly implemented. Knowledge: The supplied explanation expects a yellow circle; the yellow color remains, but the result is still an ellipse. Instruction failure ⇒ knowledge invalid. Quality: Structural coherence ✔, natural flat graphic appearance ✔, artifact-free ✔, surface fidelity ✔: the edited image has a clean continuous oval contour and a coherent yellow fill on a plain background, without distracting defects."
+    }
+  ]
+}

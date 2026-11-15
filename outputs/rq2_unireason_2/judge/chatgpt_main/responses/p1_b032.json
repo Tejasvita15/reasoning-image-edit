@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b032",
+  "results": [
+    {
+      "blind_id": "case_8c9f4d4ae01a06b6",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The stone arrangement and red corner marker remain, but the board acquires conspicuously mottled pale texture and the existing black stones lose their blue-toned highlights; these are multiple unrequested changes. Instruction: No additional black stone is visible. A successful edit would extend the four black stones in the upper row at its empty left end; the edited row still contains only four. Knowledge: The supplied explanation is blank; the visible absence of a winning addition and mandatory score coupling are the basis. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the board has coherent straight grid lines, round stones, consistent shadows and intact surface texture, with no clear structural artifact."
+    },
+    {
+      "blind_id": "case_42721c924a007891",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding the requested road and adjacent road-edge damage, the mountain silhouette, general trees and lamps retain their layout, but vegetation texture is substantially altered and a large smooth dark patch replaces detailed upper-left foliage. Instruction: The intact pavement becomes fractured, buckled and covered in displaced slabs, fully showing road changes after an earthquake. Knowledge: The supplied expectation of cracked pavement and surface deformation is directly met by branching fractures, displaced roadway sections and raised or sunken edges. Quality: Road perspective and broken slabs are intelligible, but a large amorphous patch in the upper-left trees and strongly mottled, unnatural foliage texture are clear visual artifacts."
+    }
+  ]
+}

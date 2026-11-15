@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b154",
+  "results": [
+    {
+      "blind_id": "case_2613806de7fe5411",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The beige setting and central brass scale remain recognizable, but the four right-hand weights become one, the base changes shape, and chain and metal details change. Instruction: Instead of retaining the original left weight and adding another distinct weight, the left pan contains a redesigned squat weight with an ornate bulb-shaped handle; the requested addition is poorly implemented. Knowledge: The required two left weights and leftward downward tilt are absent; the beam remains level. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the scale has coherent pans, chains, stand and weight forms, convincing metallic shading and surface textures, with no clear generation defect."
+    },
+    {
+      "blind_id": "case_d58fd230de623200",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and green/red product theme remain, but the carton perspective and proportions, arrangement of packed cans, and label details are visibly changed beyond the requested relocation. Instruction: The separate right can is removed from its original position and placed upright atop the left carton of cans, satisfying the core move; its scale relative to the packed cans has increased noticeably. Quality: Product silhouettes and carton structure are coherent, but the elevated can has garbled small lettering along its bottom and damaged ZERO SUGAR lettering; several packed-can labels also show distorted typography."
+    }
+  ]
+}

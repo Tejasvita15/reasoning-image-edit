@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b006",
+  "results": [
+    {
+      "blind_id": "case_5db71f75da5b86aa",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding viewpoint-dependent visibility and positioning, the red paint, yellow stripes, blue beacons, roof cannon and gray setting persist, but the two-axle truck becomes a three-axle truck and an additional separate roof hose loop appears. Instruction: A viewpoint change is visible, but the result is a right-facing three-quarter view with a substantial visible front, whereas the reference is a left-facing strict side profile; the axle proportions also disagree. These are major viewpoint/proportion errors. Quality: Assessed alone, the truck has coherent body panels, circular wheels, clean reflective trim and plausible shadows, without noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_a24f8efec6bcff8d",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The grid and seven other given arc patterns remain recognizable and consistent, but the existing middle-right arc pattern is replaced by a question mark, a clear unrelated alteration. Instruction: The original bottom-right question mark is replaced by two complete concentric circles. The required answer should retain only shared arc portions of the bottom-row inputs, including lower inner arcs and the lower-right outer arc, rather than completing both circles; the answer is therefore poorly implemented. Knowledge: Full rings add portions absent from one or both inputs and violate the supplied common-parts rule. Instruction failure ⇒ knowledge invalid. Quality: Assessed alone, the diagram has clean continuous strokes, coherent grid cells, a legible question mark and no conspicuous visual artifacts."
+    }
+  ]
+}

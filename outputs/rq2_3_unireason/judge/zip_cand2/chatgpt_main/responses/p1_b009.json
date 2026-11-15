@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b009",
+  "results": [
+    {
+      "blind_id": "case_d7fe5013d20c886e",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested interior, framing, tone and poster typography, the cushion retains its square silhouette and black-and-white diamond motif, but its surface design is visibly altered by a large central emblem and fragmented markings. Instruction: The isolated cushion becomes the main object in a monochrome room with a dark sofa. A complete result would emphasize intact geometry and close-up fabric texture with the specified bold title at upper left. The interior and restrained palette fit, but the title is garbled and placed at the bottom, and the decorative corruption obscures the fabric and geometry. Quality: Structural coherence and artifact freedom are problematic: the bottom lettering is nonsensical and broken, and the cushion has conspicuous tangled, fragmented graphics. Room perspective and sofa lighting are coherent."
+    },
+    {
+      "blind_id": "case_90a7c4657262e7ef",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The figure-eight shape, two counters, centered placement and white background remain visually consistent; only faint speckled fringe around the contour slightly alters the otherwise clean background. Instruction: The orange numeral becomes uniformly bright green. The expected result is the same numeral recolored green, which is fully achieved. Quality: Structure and flat graphic appearance are coherent, and the numeral is clearly legible; a small pale, speckled halo along portions of its edge is the only noticeable imperfection."
+    }
+  ]
+}

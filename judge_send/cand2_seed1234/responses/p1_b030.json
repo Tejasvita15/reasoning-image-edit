@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b030",
+  "results": [
+    {
+      "blind_id": "case_65cbdd4ef2d6a75e",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the six-by-six layout persists, but all numeric clues disappear and the revealed/raised cell appearances are replaced across the board. Instruction: numerous red Xs and one green X replace clues and empty cells; the expected edit marks only mines implied by the clues (row 1 column 6, row 3 column 3, row 4 column 5, counting from the top left). The board-wide marking completely misinterprets this requirement. Knowledge: Instruction failure ⇒ knowledge invalid. The supplied knowledge explanation is blank; this score follows the mandatory coupling. Quality, edited image alone: the regular grid, clear X symbols, flat cell surfaces and consistent graphic treatment are coherent and free of noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_d2c5409cf8428a35",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background and general diagonal arrangement remain, but the small silver scissors become smaller and shift, while the green scissors acquire separated, protruding handle arms instead of their intact connections. Instruction: the large scissors remain dramatically larger than the silver scissors, with no meaningful reduction to the requested matching size; the expected result is the green pair reduced to the small pair’s overall dimensions. This fails the requested size change. Quality, edited image alone: metal surfaces, shadows and handle texture are convincing, but the green scissors have visibly disconnected handle-to-blade construction and projecting open-ended arms, a clear structural defect."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b030",
+  "results": [
+    {
+      "blind_id": "case_aeb8a355577d1546",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding the requested answer, the blue circles, existing numbers, connecting arrows and white background retain their arrangement and appearance. Instruction: the target still contains a question mark; no number was filled in, so the requested change is absent. Knowledge: Instruction failure ⇒ knowledge invalid. The supplied explanation says 21, but the visible sequence implies 15 (36 minus 21, also 28 minus 13); neither is supplied. Quality: coherent circular nodes, legible numerals and intact arrows, with no noticeable structural artifacts."
+    },
+    {
+      "blind_id": "case_e07fb397c8a30aa9",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the eight existing dot patterns and their black/white assignments are preserved, but the grid geometry is visibly altered: horizontal dividers and the outer frame now slope slightly. Instruction: the bottom-right box still contains a question mark instead of the required 4-by-4 dot pattern, so no requested completion is present. Knowledge: Instruction failure ⇒ knowledge invalid. The stated equal-colors rule requires rows black-white-black-white, black-white-white-white, black-white-black-black, and white-black-white-black; these dots are absent. Quality: dots and question mark are clear and coherent; slight waviness and skew of the grid/frame are a minor visual imperfection."
+    }
+  ]
+}

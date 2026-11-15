@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b014",
+  "results": [
+    {
+      "blind_id": "case_2508bdd5ff2924fd",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The cream background, gray base and its rightward shadow remain, but both the orange ball and the entire spring have been deleted; their disappearance is not required by releasing the hand. Instruction: The hand disappears, but so do the ball and spring. A released hand should leave the ball present and unpressed; deleting the assembly poorly implements that action. Knowledge: Instruction failure ⇒ knowledge invalid. The specified spring elongation and ball rise are absent. Quality: Viewed alone, the gray rectangular bar has coherent bevels, clean edges, consistent surface texture and a plausible shadow on the cream background, with no noticeable structural artifacts."
+    },
+    {
+      "blind_id": "case_35f927f9220c6c0c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: White rims, pale blue faces, black numerals and the pale wall remain recognizable. However, the hands on both clocks change direction and the left clock shifts upward relative to the right, altering the original staggered arrangement beyond resizing. Instruction: The left clock is enlarged relative to the right. The expected result is equal clock size; the edited pair is nearly equal, but the left rim remains slightly smaller in both height and width, a minor size mismatch. Quality: Structural coherence, lighting and perspective, artifact absence and surface fidelity are satisfactory: both clock faces have legible complete numeral sequences, coherent hands and rims, and plausible wall shadows."
+    }
+  ]
+}

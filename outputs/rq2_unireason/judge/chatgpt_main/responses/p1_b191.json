@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b191",
+  "results": [
+    {
+      "blind_id": "case_c33c22e7c7363e6a",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, straight-leg silhouette, pockets, belt loops and hems remain recognizable and aligned, but the front fly has a visibly different curved seam/construction. Instruction: The cream fabric becomes blue across the waistband and both legs; the expected blue pants are fully realized. Quality: Structure, lighting, clean edges and fabric folds are coherent, with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_c820745c96f6a7c8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The frontal hamster, right-hand log and bedding retain their overall placement, but the muzzle and eye appearance change, and the blue backdrop, wood and shavings acquire conspicuous embossed textures. Instruction: The golden coat becomes gray over the head and body, fulfilling the requested recoloring while retaining a hamster. Quality: Anatomy remains readable, but widespread rippled background noise, harsh streaked fur and melted-looking bark and bedding create multiple distracting texture errors."
+    }
+  ]
+}

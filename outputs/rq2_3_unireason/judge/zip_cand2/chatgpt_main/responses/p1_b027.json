@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b027",
+  "results": [
+    {
+      "blind_id": "case_b0a96c34ec6d0d0b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: excluding hand release and resulting ball/spring changes, the cream textured background becomes plain white and the base changes its bevel, shading and width; these are multiple non-requested changes. Instruction: the pressing hand has disappeared entirely, leaving the orange ball free of contact, fully satisfying release. Knowledge: the ball becomes rounder and its top rises, but the spring remains compressed at essentially the same height and the ball support level does not rise; this clearly conflicts with the supplied expectation that the spring elongates and raises the ball. Quality: the edited illustration has coherent ball, coil and base shapes, smooth material shading and clean edges, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_215777862c314d73",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding requested poster layout, scale, background, lighting and decoration changes, the white pointed pump and brown-edged sole remain recognizable, but its silhouette is noticeably redrawn, with a flatter elongated forefoot and changed upper/back contours. Instruction: the shoe is prominent on a softly lit pale gray-to-white background with floating gold glitter and gold uppercase text at the top. A correct poster would display GRACE IN EVERY STEP and the specified readable slogan; instead both top lines are nonsensical and the slogan is absent, making compliance partial. Quality: the shoe, lighting, glitter and layout are visually coherent, but both large text lines contain pervasive garbled wording and malformed punctuation, creating multiple distracting semantic errors in the poster."
+    }
+  ]
+}

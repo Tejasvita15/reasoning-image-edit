@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b039",
+  "results": [
+    {
+      "blind_id": "case_c5fba2b3c4dc8322",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: excluding the requested whitening, the main branching arrangement and orange base remain recognizable, but fish silhouettes/distribution, surface-water texture, and reef texture are noticeably changed. Instruction: the red and dark branches become white; the expected result is the same organism with lost coloration, and this change is fully present. Knowledge: the supplied explanation explicitly expects white coral, which the edited branches satisfy. Quality: structure and underwater perspective are coherent, but the stark nearly featureless white surfaces and conspicuously smeared, crunchy reef textures create two clear visual flaws."
+    },
+    {
+      "blind_id": "case_c783081d90b122c4",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the canal, left-bank buildings, lanterns and tree broadly persist, but the boatman and another original occupant disappear, the remaining passenger changes appearance, and facade/vegetation details are altered. Boat-design changes are excluded. Instruction: the covered boat becomes an open black boat with raised ends and a metal bow ornament; the requested traditional Venetian boat is clearly realized. Knowledge: the supplied expectation is a gondola, and the long narrow hull, raised ends and characteristic bow ornament visibly match it. Quality: canal perspective, boat placement and reflections are coherent, but the foreground passenger has distorted facial/hand detail and the excessively elongated comb-like bow fitting looks malformed."
+    }
+  ]
+}

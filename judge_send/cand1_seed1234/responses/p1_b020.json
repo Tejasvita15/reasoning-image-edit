@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b020",
+  "results": [
+    {
+      "blind_id": "case_e79dd0c17c693247",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Outside the requested upper-left cell, multiple circle colors change, including the top-row fourth and fifth circles, second-row second and fourth circles, and several bottom-row circles; the five-by-five layout and white background remain. Instruction: The question mark remains instead of being replaced with the expected blue circle, so the requested change is absent. Knowledge: The supplied explanation requires a blue circle, which is not inserted. Instruction failure ⇒ knowledge invalid. Quality: The colored discs and overall grid are coherent and readable; the grid lines have a minor doubled, uneven-outline appearance."
+    },
+    {
+      "blind_id": "case_4ee6231015292410",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested anatomical correction, the turquoise sandal strap disappears, pink nail polish becomes bare nails, and the framing and wet-ground detail change; the turquoise/beige sole and rainy setting remain recognizable. Instruction: The original seven-toed foot is reduced, but six toes remain visible, including the small partly hidden toe at the far left. A correct result should have five anatomically plausible toes; the reduction is only a partial correction. Quality: The edited image has coherent rain, reflective ground, and clean sole contours, but the foot has an extra toe and an awkward inward-curling big toe with an oblique nail, producing clear anatomical flaws."
+    }
+  ]
+}

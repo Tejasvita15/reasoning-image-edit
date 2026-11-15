@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b016",
+  "results": [
+    {
+      "blind_id": "case_995bee6dcf2d46cf",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Excluding infestation changes, the branch remains right-entering and the green backlighting remains, but the upright leaves change shape and arrangement, and the background foliage and bright bokeh pattern are substantially altered. Instruction: Black many-legged pests appear across the leaves; an infested version should show eaten leaf tissue. Infestation is conveyed, but the blades remain largely intact without visible eaten holes, so the requested aftermath is incomplete. Knowledge: The supplied explanation specifically predicts holes from insect feeding; the intact blades conflict with that expected effect despite the visible pests. Quality: Leaf surfaces, lighting and background are coherent, but several black insect forms blend into vein-like branching lines, with ambiguous bodies and legs, creating a clear structural artifact."
+    },
+    {
+      "blind_id": "case_66dc98d0a3f3937c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The centered glass silhouette and approximately matching fill level remain, but the lower glass fluting and reflections are simplified, and the pale background and leftward floor shadow become much whiter and largely disappear. Instruction: The liquid remains transparent and colorless; this is the correct visible result after adding the reagent to pure water, with no required color shift omitted. Knowledge: The unchanged colorless liquid exactly matches the supplied no-color-change explanation. Quality: Structural coherence, natural lighting, clean glass contours and transparent surface rendering are satisfactory; no noticeable generation artifacts are visible."
+    }
+  ]
+}

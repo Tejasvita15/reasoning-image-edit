@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b055",
+  "results": [
+    {
+      "blind_id": "case_3d7f9ce669b394c3",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: excluding infestation damage, the leaf cluster is enlarged and cropped, leaf shapes and overlaps change, the branch becomes thicker, and bright backlighting and circular background highlights are replaced by diffuse light and a different dark background; most major non-requested details change. Instruction: formerly largely intact leaves now have multiple irregular holes with ragged pale edges, matching the requested pest-infested appearance fully. Knowledge: missing patches of leaf tissue visibly implement the supplied explanation that insects eat holes through leaves. Quality: coherent leaf veins and branch connections, natural diffuse lighting and plausible ragged hole edges; no noticeable structural or texture artifacts."
+    },
+    {
+      "blind_id": "case_262aa72d5131d4dd",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the repaired end and added supporting wheels, the deck is presented at a substantially flatter angle, the existing nose and rear wheel shift within the composition, and pavement texture and shadows change noticeably; the general gray setting and dark grip surface remain. Instruction: the broken splintered end is replaced by a continuous deck and front truck with wheels, fulfilling the main completion request, but the restored tail ends in an unusually straight thin edge rather than a convincingly finished rounded end. Quality: the board, wheels and trucks form a coherent object with believable contact shadows and grip texture; the slightly flattened blade-like tail edge is a minor shape imperfection."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b047",
+  "results": [
+    {
+      "blind_id": "case_2efb9d42eb5ce2ff",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background and black lines become black with rough white lines; the interior symbols disappear throughout, and the lower-left diamond is replaced by horizontal stripes. Most non-requested content changes. Instruction: the question mark becomes a tangled polygon; the expected result is a clean hexagon containing two small circles. The target cell is changed, but its required contents are poorly implemented. Knowledge: the supplied explanation requires a hexagon with two central circles, which are absent. Instruction failure ⇒ knowledge invalid. Quality: structural coherence and artifact freedom fail: broken grid strokes, a striped lower-left cell, and overlapping malformed edges in the lower-right cell severely disrupt the diagram."
+    },
+    {
+      "blind_id": "case_5c71734ffbf1de3b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the seated composition, green jacket, waistcoat, fruit table and ornate background remain recognizable, but the face and hair, background painting details, cabinet decoration, chair base, shoes and trouser folds are visibly redrawn. These exceed a single incidental change. Instruction: hand poses and rendering change, but the man still has three arms/hands: one beside the fruit, one holding the glass at his chest, and one on the right armrest. A correct edit would remove the extra limb and leave two anatomically connected arms; that correction is absent. Quality: lighting, fabric and painted furnishings are coherent, but the conspicuous third arm emerging centrally is a clear anatomical artifact."
+    }
+  ]
+}

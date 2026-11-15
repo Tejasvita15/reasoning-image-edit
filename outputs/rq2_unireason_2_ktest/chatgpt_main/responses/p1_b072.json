@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b072",
+  "results": [
+    {
+      "blind_id": "case_c5594e547af04ccf",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the close facial crop and gray sweater remain, but the sweater knit/collar geometry and background ceiling lights are noticeably changed; exposed facial texture is also altered. Mask reshaping is excluded. Instruction: the mask pleats change, but its upper edge remains below both nostrils. The expected correction is a mask raised over the nose; this is not accomplished. Knowledge: the supplied explanation requires nose coverage, yet the nose remains exposed. Instruction failure ⇒ knowledge invalid. Quality: ✔ coherent face, ears and mask structure; ✔ natural lighting; ✔ intact skin, cloth and knit textures; no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_fad6651d26696976",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding requested background, placement, lighting, reflection and headline changes, the red capsule, dark bottle shape and white Vino Rosso REGAL/ARDITI label are preserved; a small pale outline appears along the bottle silhouette. Instruction: the white setting becomes a wine-red/black spotlight backdrop, with the bottle upright slightly below frame center, a bottom reflection, no added objects and gold serif lettering at upper right. These match the expected restrained advertisement, but the headline reads “Timeless, Bottled.” with a comma instead of the required first period. Quality: ✔ coherent bottle and label layout, serif headline and reflection; ✔ plausible lighting and surfaces; ✘ thin pale edging around the capsule/shoulders gives a slight cutout appearance."
+    }
+  ]
+}

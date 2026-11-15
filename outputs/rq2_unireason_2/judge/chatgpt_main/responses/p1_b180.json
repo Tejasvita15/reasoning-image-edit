@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b180",
+  "results": [
+    {
+      "blind_id": "case_4c10af7c5c167f1e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested apple-count reduction, the glass plate is much smaller within the frame and its perspective/pattern changes; the remaining apple also has a different smooth skin, shape and long upright stem. The white background remains consistent. Instruction: six apples become exactly one red apple on the plate; the expected single-apple result is fully present. Quality: structural coherence ✔, natural lighting/contact shadow ✔, artifact-free ✔ and texture fidelity ✔; the lone apple and glass plate are clean and coherent."
+    },
+    {
+      "blind_id": "case_60e3dedace08d054",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding relocation of the loose right can, the tray changes perspective and framing, the packed-can arrangement changes, and numerous can labels are distorted; the white background and green/red product scheme remain. Instruction: the loose right can is removed from its former position and appears above the tray, matching the requested relocation, but a small visible gap beneath its base leaves it hovering rather than resting on the pack. Quality: structural coherence ✘ and texture fidelity ✘ because several labels contain warped/garbled lettering and the central front can has a conspicuously smeared graphic and dark malformed top; naturalness ✘ because the upper can appears unsupported. These multiple distracting errors warrant structural degradation."
+    }
+  ]
+}

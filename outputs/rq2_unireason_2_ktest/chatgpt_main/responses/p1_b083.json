@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b083",
+  "results": [
+    {
+      "blind_id": "case_3686a78e201ca9aa",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The original thick 3-by-3 framework and all six weather icons are replaced by a dense rectangular grid of characters; essentially all protected content changes. Instruction: Instead of completing the supplied puzzle, the edit replaces it with many cells containing letters, repeated digits and malformed marks, leaving other cells empty. It does not provide a completed 9-by-9 Sudoku. Knowledge: The explanation is blank; the required instruction-failure coupling determines this score. Instruction failure ⇒ knowledge invalid. Quality: Structural coherence and legibility fail extensively: numerous cells contain garbled or overlapping glyphs, with inconsistent symbols throughout the grid, constituting severe semantic and structural errors."
+    },
+    {
+      "blind_id": "case_63733e82595bb1c5",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The same region boundaries, green upper-left region, black right region, white remaining regions, palette, STAGE 1 label, gray marker and bottom scores remain visually unchanged apart from overall display scale. Instruction: No additional regions are colored; a completed four-color puzzle would fill the remaining regions while avoiding matching colors across shared borders. The requested completion is absent. Knowledge: The explanation is blank; the required instruction-failure coupling determines this score. Instruction failure ⇒ knowledge invalid. Quality: The edited game screen has coherent continuous outlines, clean flat fills, readable labels and intact interface elements, with no noticeable generation artifacts; moderate edge softness causes no semantic loss."
+    }
+  ]
+}

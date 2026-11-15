@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b223",
+  "results": [
+    {
+      "blind_id": "case_3c86c16d065c7fee",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: excluding the ball relocation, major non-requested scene details change: the left upright is removed and replaced by a short angular end, the track proportions change, and the wall and floor textures are redrawn. Instruction: the orange ball moves from the left to the upper right, showing the requested maximum-height position. Knowledge: its center is approximately at the corresponding original release height relative to the top of the track, consistent with the supplied energy-conservation explanation. Quality: the ball shading and metal surfaces are coherent, but the left track end has a conspicuous thin, bent shard and abrupt geometry; the rest of the scene is legible."
+    },
+    {
+      "blind_id": "case_66f3032d1b6f54fb",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the completed missing cube sections, the blue, white and orange face colors remain consistent, but the cube footprint and perspective shift and the surrounding black cloth pattern is visibly redrawn. Instruction: the recessed, incomplete top is filled into a complete aligned 4-by-4 cube with uniform visible face colors, fully satisfying completion. Quality: the cube has coherent straight rows, distinct rounded tiles and plausible highlights and shading; the fabric remains natural, with no noticeable structural or generation artifacts."
+    }
+  ]
+}

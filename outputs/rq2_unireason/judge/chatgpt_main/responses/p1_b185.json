@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b185",
+  "results": [
+    {
+      "blind_id": "case_ee90dfcb4959deae",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The main highway, upper-right diagonal road and right-hand settlement retain their layout, but the unchanged forest has more strongly outlined, saturated foliage and many right-hand roof shapes/textures are altered. Left-side development is excluded from this check. Instruction: A large lower-left forest area is replaced by closely packed roofed buildings and streets, making urbanization clearly evident on the requested side. Knowledge: Trees decrease and buildings increase on the left, exactly matching the supplied explanation. Quality: The aerial layout and highway remain coherent, but the lower-left roof area looks conspicuously flat and grainy with an abrupt boundary, and some roofs on the right have warped, flowing forms."
+    },
+    {
+      "blind_id": "case_371a998eb3ea7666",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The gold grid, existing green corner X marks and three red O marks preserve their arrangement and shapes. However, both the surrounding wooden tabletop and the wood grain within the board have noticeably changed texture and contrast. Instruction: A green X is added in the previously empty top-center cell, completing the top row exactly as required. Knowledge: The supplied explanation is blank; using the game logic explicitly implied by the task, three X marks in the top row constitute a win, so the move is fully plausible. Quality: The edited board has coherent square cells, legible X/O symbols, consistent gold edges and shadows, and natural wood surfaces without noticeable generation artifacts."
+    }
+  ]
+}

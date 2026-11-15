@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b250",
+  "results": [
+    {
+      "blind_id": "case_c9596f30f07809a3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested poster layout, background and decorations, the braided trunk and woven planter remain recognizable, but the foliage arrangement changes, including loss of the upper-left branch, and both leaf and basket textures become noticeably smoother and glossier. Instruction: 1. The edit adds a pale green gradient, central halo, floating droplets, peripheral green leaves and upper-left Green Home lettering. 2. The expected result is a fresh plant-centered promotional poster with those elements. 3. All requested elements are present, with warm natural colors and organic lettering. 4. Perfect compliance. Quality: Structure and readable typography ✔; overall lighting/layout ✔; artifact-free surfaces and texture fidelity ✘, as several central leaves merge into glossy, folded-looking shapes with unnaturally smeared highlights."
+    },
+    {
+      "blind_id": "case_dcbe015bded6fe3e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding requested placement, background and shadow changes, the blue controller retains its overall housing and paired sticks, but the four separate directional buttons become a connected cross, the center logo becomes a ring, and right-side button symbols change, including a polygon in place of the circle. Instruction: 1. A gray-blue backdrop, floating controller shadow and bold black Press Start. text are added. 2. The expected poster has a controller slightly above center, subtle grain, ample empty space and bottom-centered wording. 3. Placement, wording and broad palette match, but the dense conspicuous multicolored texture overwhelms the requested mild grain and clean restrained atmosphere. 4. Partial compliance. Quality: Overall controller structure and main text ✔; texture fidelity/artifact freedom ✘ because the background contains distracting smeared, raised specks and the controller button marks are irregular; the shadow and lighting remain broadly coherent."
+    }
+  ]
+}

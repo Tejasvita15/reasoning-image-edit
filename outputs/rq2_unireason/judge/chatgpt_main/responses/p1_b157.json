@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b157",
+  "results": [
+    {
+      "blind_id": "case_8dafbdbaaaca34e2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and two-bag arrangement remain, but the small bag is shorter and its printed figure and drawstrings change; the large bag also loses both orange beads and its printed figure changes. These are multiple uninstructed alterations. Instruction: Both silhouettes change, yet the right bag remains much taller and wider than the left. The expected result is the original large bag reduced to the small bag’s size; that size match is absent, so the instruction is not followed. Quality: Structure, lighting, shadows, fabric weave, cords and printed figures are coherent; no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_507c9d618a16c546",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The aerial forest setting and overhead light remain recognizable, excluding the requested river changes. However, tree-canopy shapes and textures change throughout, the foreground yellow trees shift, and the framing changes; multiple non-instruction details are altered. Instruction: The upper bend is broadened into a bulbous water area, but the visible water remains one continuous winding channel extending to the bottom edge. A cut-off meander should produce an isolated curved lake beside a continuing river; the defining separation and bypass channel are missing, a major omission. Knowledge: The supplied explanation requires a crescent-shaped lake separated from the main channel, which is absent. Instruction failure ⇒ knowledge invalid. Quality: The edited aerial scene has coherent banks, forest textures, lighting and water reflections, with no noticeable structural or generation artifacts."
+    }
+  ]
+}

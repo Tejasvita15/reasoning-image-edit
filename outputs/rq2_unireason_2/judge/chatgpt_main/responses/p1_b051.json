@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b051",
+  "results": [
+    {
+      "blind_id": "case_38788a6356933262",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the maze layout is retained, but the cream background becomes white, the girl's face and body proportions are redrawn, and the flowers and foliage change shape. Instruction: a short isolated red curved arrow appears in a lower corridor; a correct edit would trace a continuous route from the girl through the maze to the flowers. Neither endpoint is connected and almost the entire route is missing, a major omission. Knowledge: the supplied explanation is blank; the score follows the mandatory instruction-failure coupling. Instruction failure ⇒ knowledge invalid. Quality: judged alone, the illustration has coherent character anatomy, clear maze walls and flowers, clean edges and consistent flat rendering, without noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_3f89d43c52860812",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "Consistency: the white background and general bottle composition remain, but the readable nitric-acid label becomes garbled and the stopper, neck and bottle proportions visibly change. Instruction: a dark granular mound has been added inside the bottle at the liquid surface. The expected change is a modest quantity of iron powder in this solution; the correct container receives dark material, although its coarse piled appearance weakens the powder depiction. Knowledge: the supplied explanation expects light-green liquid and bubbles. The liquid remains pale yellow and no reaction bubbles are visible, omitting both expected effects. Quality: glass lighting and the bottle silhouette are coherent, but the label contains conspicuously malformed lettering and the sharply heaped granular material appears unnaturally supported at the liquid surface."
+    }
+  ]
+}

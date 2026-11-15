@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b268",
+  "results": [
+    {
+      "blind_id": "case_661570912c5884be",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "Consistency: branch, leaf veins, calyxes and background fruit remain recognizable, but the view is noticeably enlarged and reframed, cropping surrounding leaves. Instruction: the two foreground fruits change from green-yellow to ripe orange-red, matching maturation, although visible background fruits stay green. Knowledge: the foreground color change follows the supplied expectation that persimmons turn red, with a minor omission in the unchanged background fruit. Quality: coherent fruit shapes, natural skin marks and wrinkles, convincing leaf textures and lighting; no clear artifacts."
+    },
+    {
+      "blind_id": "case_a5a167f4cb32fbcc",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the central highway, its traffic, the right-side town and upper-right forest retain their layout and details; the altered left-side land is the requested region. Instruction: much of the left forest becomes a cleared area with rows of roof-like patches and new broad roads, but recognizable built development is incompletely realized. Knowledge: the tree reduction matches the explanation, while the required increase in buildings is only weakly represented by flattened, indistinct plots rather than clear structures. Quality: the left development has extensive streaked, blended roof textures, smeared roads and an elongated pale vehicle-like form, producing multiple distracting structural errors despite the coherent right-side town."
+    }
+  ]
+}

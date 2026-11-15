@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b126",
+  "results": [
+    {
+      "blind_id": "case_0de57b32248bf930",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: most major non-requested details change: the owl and fox are replaced by malformed spotted felines, the leopard is multiplied and distorted, the lion becomes seated, and the swatches shift left. Instruction: many arrows and brackets are added, but a correct result needs five unambiguous one-to-one animal-to-pattern connections; the tiger points to the brown scalloped swatch, the lion toward the spotted swatch, and other paths branch or stop without matching. Most required matches fail. Knowledge: the explanation requires matching animal coats; the visible stripe, spot, feather and plain-color associations are not correctly established. Instruction failure ⇒ knowledge invalid. Quality: structural coherence ✘ and artifact-free ✘: overlapping heads, fused bodies, detached fragments and tangled diagram paths create severe semantic and anatomical failures; flat colors and white background remain clean."
+    },
+    {
+      "blind_id": "case_f7121ea23e23a5cb",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested composition, backdrop and graphics, the gray shoe identity and colored side panel remain recognizable, but lace geometry, collar mesh, black heel-panel detailing and sole contours are visibly redrawn. Instruction: the centered shoe now sits over diagonal white flow tracks with speed streaks on a gray-to-ice-blue gradient, giving the requested modern sports-tech composition; however, the upper-right title reads LIGIRY rather than the required Light Start, so a required aspect is incorrect. Quality: structure ✔, lighting/perspective ✔ and overall artifact-free presentation ✔; the shoe and tracks form a coherent poster with legible headline lettering. Texture fidelity has a minor issue in the rough, irregular mesh and lace junctions near the front of the upper."
+    }
+  ]
+}

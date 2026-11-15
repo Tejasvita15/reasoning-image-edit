@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b094",
+  "results": [
+    {
+      "blind_id": "case_baa8ab76f8ade323",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The grid and several hexagons remain, but the top-left dot disappears and its line changes direction; middle-left and middle-center dots move, and the middle-right hexagon and dot disappear. These are outside the requested bottom-right edit. Instruction: The bottom-right cell still contains a red question mark rather than the required hexagon pattern with a far-right black circle and upper-right line, so the requested answer was not drawn. Knowledge: Neither specified pattern feature is supplied. Instruction failure ⇒ knowledge invalid. Quality: The diagram has multiple structural defects, including an isolated crooked stroke in the middle-right cell, missing symbols, and uneven broken-looking linework."
+    },
+    {
+      "blind_id": "case_26834d1270d74245",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The main-road alignment and broad right-side settlement layout remain, but right-side roof shapes and surface details are visibly distorted, and the retained forest and scene-wide color/contrast change noticeably. Instruction: A large lower-left forest area becomes a flat, densely crosshatched brown patch. Urbanization should visibly replace trees with additional buildings; tree removal is evident, but this patch lacks identifiable buildings at a plausible scale, leaving the main urban-development requirement poorly implemented. Knowledge: The explanation requires both fewer trees and more buildings; only the first is reliably visible. Instruction failure ⇒ knowledge invalid. Quality: The large rectangular patch has an unnatural repeated mesh-like texture and abrupt boundary, while numerous roofs on the right appear warped and smeared, producing multiple distracting structural and texture defects."
+    }
+  ]
+}

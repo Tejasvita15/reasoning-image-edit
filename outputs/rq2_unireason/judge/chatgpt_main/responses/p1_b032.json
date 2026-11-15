@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b032",
+  "results": [
+    {
+      "blind_id": "case_b0f442eae4aa8e22",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested reduction in apple count, the white background remains, but the glass plate has substantially different, darker radial grooves and the surviving apple has a different rounded shape, stem and skin texture. Instruction: Six apples become exactly one red apple on the plate, matching the expected single-apple result completely. Quality: Structure, lighting and fruit texture are coherent; a faint isolated curved gray mark below the front rim is a small distracting artifact."
+    },
+    {
+      "blind_id": "case_82e9b994d3500e52",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, centered trouser silhouette, button, belt loops, pockets and hems are retained, but the fly construction visibly changes from a straight narrow closure to a broader curved stitched panel. Instruction: The ivory fabric becomes blue throughout both legs and waistband, precisely fulfilling the expected blue-pants change. Quality: Coherent tailoring and leg shapes, natural fabric shading, clean edges and intact seams; no noticeable generation artifacts."
+    }
+  ]
+}

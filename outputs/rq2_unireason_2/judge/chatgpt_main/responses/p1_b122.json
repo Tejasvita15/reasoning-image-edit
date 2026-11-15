@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b122",
+  "results": [
+    {
+      "blind_id": "case_fefd4e989957479d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: mountain silhouettes and valley layout remain recognizable, but the pinpoint star field becomes curved trails and the foreground shrubs and hillside textures are visibly redrawn; the requested sky glow is excluded. Instruction: the dark sky gains bright blue nested luminous arcs. An intensified high-latitude scene should show aurora; the edit supplies atmospheric lights, but their smooth concentric, spiral-like form only partially realizes recognizable auroral curtains. Knowledge: the supplied explanation expects aurora phenomena; the new sky glow addresses that expectation, but the sharply traced nested loops with bright endpoints present a clear morphology mismatch. Quality: coherent landscape structure and light placement, with no obvious duplication; foreground vegetation has a minor crunchy, patchy texture defect."
+    },
+    {
+      "blind_id": "case_bbf854f3d1d2998d",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: apart from the permitted holder relocation, most major scene details change: the coffee cup disappears, the paper extends much farther upward and slightly left, the wood grain and color are altered, and the holder is enlarged and rotated. Instruction: the holder moves from the upper-left area to overlap the lower-right corner of the paper, with its former location vacated; this matches the requested destination. Quality: paper edges, holder, and overhead arrangement are coherent, with plausible contact shading and recognizable stationery; the wood surface has a minor harsh, smeared texture treatment, but no major structural failure."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b040",
+  "results": [
+    {
+      "blind_id": "case_358ae1ed0abee5bf",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding chair movement and rotation, the table, three other chairs, vase, dried arrangement, pedestal dish and white background remain aligned; the lower book cover gains a small greenish edge. Instruction: The foreground chair shifts left and rotates, but its cushion remains outside the table footprint. The expected result is a chair tucked beneath the tabletop; this repositioning leaves most of that requirement unmet. Quality: Structure, naturalness, artifact absence and textures are satisfactory; the wooden furniture, upholstered seat and tabletop objects are coherent."
+    },
+    {
+      "blind_id": "case_e13cfee6460ffdbb",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Existing O and X locations and the string grid are recognizable, but the grass texture is extensively altered, the left person’s arm reaches down to the center instead of the upper-middle cell, and framing/relative positions shift. Instruction: No new X is added; the board retains X marks only at center and bottom-right. A winning edit would add X at top-left to complete their diagonal, so the requested change is absent. Knowledge: The supplied explanation is blank; the winning diagonal follows the task and visible board. Mandatory coupling applies: Instruction failure ⇒ knowledge invalid. Quality: The grid, tiles and people are structurally readable with plausible lighting, but the grass has a clear pervasive wiry, smeared texture artifact."
+    }
+  ]
+}

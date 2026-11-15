@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b108",
+  "results": [
+    {
+      "blind_id": "case_9aeba4c9bf90db54",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested shirt recoloring, the overall silhouette, hanging position and framing remain, but the background lighting gradient, hanger wood grain, neck label and fabric folds visibly change. Instruction: The white short-sleeved shirt becomes black across its torso, collar and sleeves; interpreting “short sleeve” as the pictured shirt, this precisely fulfills the requested color change. Quality: Structural coherence ✔, natural lighting and drape ✔, artifact-free ✔, texture fidelity ✔; the black garment and wooden hanger appear coherent and clean."
+    },
+    {
+      "blind_id": "case_d9a3f5600d1e0f2a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the corrected neck and its necessary attachment, the swan remains on the right facing left, but the wing/body contour is raised and reshaped, the bill/head details change, and the surrounding water ripples are extensively redrawn. Instruction: The exaggerated sideways bend of the neck is replaced by a plausible upright neck curving smoothly into the breast, which is the expected correction of the visibly unreasonable body part; the requested anatomical repair is complete. Quality: Structural coherence ✔, natural lighting and perspective ✔, artifact-free ✔, texture fidelity ✔; the swan anatomy, feather surfaces, waterline and reflection form a convincing image."
+    }
+  ]
+}

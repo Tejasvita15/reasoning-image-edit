@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b158",
+  "results": [
+    {
+      "blind_id": "case_d2e305a9f4015e39",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The peach background and illustrated smile remain recognizable, but the lips and mouth outline move upward and change contour, and existing teeth are resized and repositioned beyond filling the gaps. Instruction: Two dark missing-tooth spaces become white teeth; a completed upper and lower row is expected, and both gaps are fully filled. Quality: Structural coherence, naturalness within the illustration style, clean contours and surface shading are satisfactory; no clear generation defect is visible."
+    },
+    {
+      "blind_id": "case_25779735f109765c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The bowl, spoon, napkin, mint and pink table retain their general arrangement, but all berries turn purple, the main cup acquires a bright magenta base, and textures and vessel proportions change. Instruction: A purple patch is added to the yogurt and berries are recolored; the requested result would show red-cabbage indicator changing color in a glass of water. No water glass or visible addition is shown, so most of that request is missing. Knowledge: The supplied explanation instead concerns acidic yogurt turning red or pink; the visible yogurt patch is purple. Instruction failure ⇒ knowledge invalid. Quality: The scene remains legible, but the berries have conspicuously plastic, exaggerated glossy surfaces and the luminous magenta cup base creates an unnatural lighting/material effect; these are noticeable visual flaws."
+    }
+  ]
+}

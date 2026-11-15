@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b025",
+  "results": [
+    {
+      "blind_id": "case_6e2da7797f6eddb2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested poster background, typography, decorative additions and layout, the plant foliage is noticeably redrawn with different leaf shapes and arrangements, the braided trunk changes, and the basket weave and proportions change. Instruction: The white backdrop becomes a light green gradient with a bright soft halo; the plant remains central, small floating droplets appear, and GREEN HOME is placed at the upper left. This matches the requested fresh poster overall, but distinct green leaf silhouettes in the surrounding atmosphere are missing or poorly expressed. Quality: Structure, plant textures and gradient are coherent, but leaf-like fragments visibly break up the M/E area of HOME, producing a clear typographic artifact."
+    },
+    {
+      "blind_id": "case_eed9ea17a0785003",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The maze geometry and overall layout remain recognizable, but the girl is redrawn with different face, hair and body details, and the flower/grass shapes change; the cream background also gains texture. Instruction: A short red bent line is added only in the lower maze. A compliant result would connect the girl entrance to the flower exit through open corridors. The line starts well away from the girl, ends inside the maze, and runs across the bottom green wall, so most of the required route is missing. Knowledge: The supplied explanation is blank; the task itself implies a continuous traversable route without wall crossings. The visible fragment fails that logic. Instruction failure ⇒ knowledge invalid. Quality: Structural coherence ✔, naturalness within the flat cartoon style ✔, artifact-free rendering ✔, and texture fidelity ✔; the girl, flowers, maze and red stroke are clean and legible."
+    }
+  ]
+}

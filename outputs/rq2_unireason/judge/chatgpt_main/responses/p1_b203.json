@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b203",
+  "results": [
+    {
+      "blind_id": "case_3eb7ef5ad6d5af24",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the maze walls and beige layout are retained, but the girl is visibly redrawn (face, hair and dress outline) and the flowers and foliage change shape. Instruction: a short red line is added in the lower maze; a complete route should run from the girl through open corridors to the flowers. This line starts inside the maze, crosses the bottom green wall and ends far from the flowers, so most of the required route is missing. Knowledge: no explanation was supplied; the task itself implies a traversable connected route, which is absent. Instruction failure ⇒ knowledge invalid. Quality: viewed alone, the cartoon has coherent shapes, clean flat colors, readable maze geometry and a smooth red stroke, without noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_f54a752c511e71e0",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "Consistency: the white background and nitric-acid label wording remain, but the bottle is enlarged within the frame, its stopper silhouette and highlights change, and label proportions and lettering are redrawn. Instruction: a conspicuous dark granular mound is added inside the bottle shoulder; adding a modest amount of iron powder to the liquid is the expected edit. Powder is present, but its large piled quantity above the liquid poorly represents an appropriate amount, yielding partial compliance. Knowledge: the supplied explanation calls for light-green solution and generated bubbles. The liquid remains pale yellowish and no bubbles are visible, missing both reaction outcomes. Quality: the bottle and label are legible with coherent glass shading, but the granular mound appears implausibly perched on the liquid surface, a clear semantic flaw."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b207",
+  "results": [
+    {
+      "blind_id": "case_a9b824b7fe0a68ba",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the requested sea-surface change, the level horizon and open composition remain, but the sky cloud bands and their distribution visibly change. Instruction: The finely rippled blue sea becomes smooth, dark reflective water with pink reflections; a recognizable oil slick should cover the surface, but no clear oily film or rainbow pattern appears, so the transformation is poorly implemented. Knowledge: The supplied explanation requires rainbow sheen, which is absent. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the smooth water, coherent reflections, distant horizon and softly clouded sky have natural perspective and lighting, with no noticeable structural or texture artifacts."
+    },
+    {
+      "blind_id": "case_875c7a34e59faae4",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding requested background, lighting, composition and typography changes, the ivory handbag and double-G hardware remain recognizable, but the handle becomes broader/flatter and the quilting seam geometry and lower stitched arcs noticeably change. Instruction: A gray-white fabric setting and gold upper-left serif copy are added around the featured bag. The expected result has the exact words Elegance, Always., a slightly right-of-center bag and fine gold GUCCI at the frame bottom. The headline is visibly misspelled/incomplete, GUCCI is printed on the bag tab rather than the frame bottom, and the bag remains centered; the advertisement concept is only partially fulfilled. Quality: The bag structure, metallic hardware and soft contact shadow are coherent; however, the visibly malformed headline and faint stray watermark-like lettering across the lower bag are two clear visual flaws."
+    }
+  ]
+}

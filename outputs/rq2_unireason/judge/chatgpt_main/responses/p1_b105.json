@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b105",
+  "results": [
+    {
+      "blind_id": "case_b5690e8b89d82ef9",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the crossed diamond, empty diamond, quartered square and rectangular border retain their forms and arrangement; the outer framing/margins are slightly tighter. Instruction: the bottom-right rounded arrow-like outline remains rather than being replaced by a plain square, so the requested correction is absent. Knowledge: the explanation requires a square without internal lines, which is not shown. Instruction failure ⇒ knowledge invalid. Quality: coherent black-outline diagram, readable shapes and clean white areas; no distracting structural artifacts."
+    },
+    {
+      "blind_id": "case_83e243026e9d32d1",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the eight completed hexagons retain their circles and line orientations, and the grid arrangement is preserved; the framing is slightly tighter, bringing the left grid edge to the image boundary. Instruction: the bottom-right cell still contains the red question mark instead of the required circle at far right and line at top right; no requested answer is drawn. Knowledge: the supplied expected circle and line positions are both absent. Instruction failure ⇒ knowledge invalid. Quality: legible, coherent grid, hexagons, circles and question mark with clean fills and no noticeable generation artifacts."
+    }
+  ]
+}

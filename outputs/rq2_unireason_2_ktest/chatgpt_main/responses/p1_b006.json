@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b006",
+  "results": [
+    {
+      "blind_id": "case_ada592d3f60d38bd",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, decorations, centering and scale, the cat's head tilt, eye coloration and facial proportions change, and its foreleg stance and tail outline are different; white fur and seated pose remain. Instruction: The edit adds a pink-blue backdrop, paw prints and a prominent handwritten pink 'Pet Home' title above a central cat. A correct poster would also retain the cat, slightly enlarge it, include heart-shaped bubbles and place the exact light-gray sans-serif tagline below. Heart bubbles are absent, the cat is not visibly enlarged, and the tagline is garbled, duplicated and misplaced, so compliance is partial. Quality: Structure and fur texture are coherent and the decorative layout is plausible; artifact-free/text checks fail because both smaller text strings contain malformed or missing letters, creating two clear semantic flaws."
+    },
+    {
+      "blind_id": "case_6b42950468752626",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The pink background remains broadly similar, but the non-target left orange is enlarged and its pulp pattern is substantially changed; the two-fruit arrangement loses its right fruit entirely. Instruction: The visible result is one enlarged left orange with empty space on the right. The expected result is two oranges, with the originally smaller right orange enlarged to match the original left orange. Removing the target and enlarging the other fruit completely misinterprets that change. Quality: Structural coherence, natural lighting and citrus texture are satisfactory, with a convincing rind and soft cast shadow; a thin irregular white strip along the bottom image boundary is a minor visible artifact."
+    }
+  ]
+}

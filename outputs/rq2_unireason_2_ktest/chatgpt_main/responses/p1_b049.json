@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b049",
+  "results": [
+    {
+      "blind_id": "case_4bf4e732a5ad1d15",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the instructed statue transformation, the cream paneled rotunda remains recognizable, but its panel divisions and curved molding geometry are visibly redrawn. Instruction: The nude male becomes a draped female classical figure; the expected broken-armed goddess should be Venus de Milo, but both arms and hands remain intact and her upper torso is clothed, so the defining transformation is largely missing. Knowledge: The supplied explanation explicitly specifies Venus de Milo, which this intact-armed figure does not represent. Instruction failure ⇒ knowledge invalid. Quality: The statue, pedestal and architectural setting are coherent with convincing stone shading; a small imperfection is the simplified, blended fingers of the hand at image left against the drapery."
+    },
+    {
+      "blind_id": "case_8953a4b3f5ed6160",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the new background, surrounding birds, glow, typography and poster arrangement, the retained painting is visibly redrawn with simplified cranes, tree, flowers and calligraphy; the carved frame ornamentation also changes. Instruction: The edit adds a centered painting, blue gradient, clouds, glowing frame and large serif heading. However the requested heading is misspelled, the surrounding short-necked birds do not convincingly depict cranes, and the lower-left script repeats a garbled title with unreadable marks rather than usable event information. These give partial compliance. Quality: The poster composition and frame outline are coherent, but malformed lettering in the heading, illegible bottom script and smeared details within the painting create multiple distracting defects; the cloud background and glow themselves are clean."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b156",
+  "results": [
+    {
+      "blind_id": "case_9c6770bf52d2033b",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested relocation, background and lighting changes, the red body, three-quarter view, headlights, hood vent and grille remain recognizable, but the white front license plate becomes black. Instruction: the edit adds an upper-left silver sans-serif headline, a lower-centered car, cool dark gradient and neon streaks. A correct poster would also clearly show a blurred urban nightscape and the exact Ferrari brand; the background is largely abstract and the bottom brand lettering is malformed, so compliance is partial. Quality: structure and lighting are generally coherent, with smooth paint and plausible car perspective, but the conspicuously garbled bottom word is a clear semantic artifact."
+    },
+    {
+      "blind_id": "case_81210418d96ad73e",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the main highway alignment, upper forest and right-side settlement layout are retained, excluding the requested left-side development; individual roofs in the right-side settlement have visibly changed shapes and details. Instruction: a large left-side forest area is replaced by flat gray-brown rectangular strips and broad lined corridors. The expected result is evident urban development with buildings on that side; clearing is visible, but recognizable new buildings are absent, making the main transformation poorly implemented. Knowledge: the explanation requires both fewer trees and more buildings. Trees are reduced but the replacement looks like flat parcels rather than additional buildings. Instruction failure ⇒ knowledge invalid. Quality: highway, remaining forest and settlement read coherently, but the left-side development has conspicuous smeared, translucent-looking parallel textures and poorly resolved structure."
+    }
+  ]
+}

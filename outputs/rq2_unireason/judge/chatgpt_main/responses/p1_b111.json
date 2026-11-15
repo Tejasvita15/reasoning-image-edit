@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b111",
+  "results": [
+    {
+      "blind_id": "case_24cdc0883de88224",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The overall wall/floor layout, cracks and two loose stones remain, but the surrounding wall texture and floor surface are both noticeably sharpened and darkened. Instruction: The central white opening becomes wider and loses much of its thick stone rim; a completed wall should close the opening with continuous stone. No closure is achieved. Quality: Structure and perspective are readable, but the large blank white cutout has an unnaturally flat, thin boundary and the surface texture is conspicuously harsh; these are visible artifacts."
+    },
+    {
+      "blind_id": "case_de0f548e594c566e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Cracks, floor layout and loose stones remain recognizable, but conspicuous triangular bright patches alter the wall lighting and the floor and wall textures become heavily mottled. Instruction: The jagged hole becomes a large roughly rectangular white opening instead of being filled with stone; the expected continuous completed wall is absent. Quality: The opening has a flat, implausibly smooth white interior, triangular illumination patches have abrupt boundaries, and wall/floor surfaces show distracting granular, faintly colored texture corruption. These multiple errors degrade naturalness and texture fidelity."
+    }
+  ]
+}

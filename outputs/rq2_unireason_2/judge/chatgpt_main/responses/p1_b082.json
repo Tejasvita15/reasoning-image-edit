@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b082",
+  "results": [
+    {
+      "blind_id": "case_001cf3966a912329",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": 2,
+      "rationale": "Consistency: The white background and four-by-four grid remain, but multiple existing clues change: the top-right dog becomes a lion/dog hybrid, the second-row left dog becomes a tiger/dog hybrid, and the top-row raccoon gains a mane and floppy ears. Instruction: All four blank cells are filled; the top-left lion, top-row third tiger and third-row left raccoon are appropriate, but the bottom-row third cell contains a tiger with dog ears instead of a dog, so completion is only partial. Knowledge: The supplied explanation is blank; applying the Sudoku logic explicitly implied by the task, repeated lions in the first row and repeated tigers in the second and fourth rows violate the required distinct animals, alongside altered clues. Quality: Grid structure and many faces are clear, but numerous faces have incongruous pasted ears, overlapping animal identities and uneven remnants, producing multiple distracting structural errors."
+    },
+    {
+      "blind_id": "case_cccce47b3bc6e3f8",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background and poster decorations, the black-and-gold fountain pen remains recognizable with its nib, clip and barrel, but its position shifts substantially toward the lower right. Instruction: The supplied source actually shows a pen, not a bear balloon. The edit adds a cheerful bear balloon, colorful stars, candy swirls, white clouds and a cyan gradient, meeting much of the requested poster design; however, the balloon is on the left rather than slightly right, and the heading is garbled rather than reading Bear Balloon Party. Quality: The clouds, stars, bear face and pen are coherent and colorful; the malformed heading words and rough pale remnants around the thin balloon ribbons are two noticeable visual flaws."
+    }
+  ]
+}

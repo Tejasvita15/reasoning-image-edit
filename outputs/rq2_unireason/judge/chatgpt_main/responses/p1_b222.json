@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b222",
+  "results": [
+    {
+      "blind_id": "case_c50e2dea4f033fe6",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the gold grid, wood grain, two green corner X marks and three red O marks retain their positions and appearance. Instruction: no X has been added; a winning edit should fill the empty top-middle cell to complete the top row, which remains empty. Quality: coherent grid geometry, clear symbols and clean wood and gold surfaces, with no noticeable artifacts. Knowledge: the supplied explanation is blank; the task and visible board imply completing three X marks in a row, but this has not occurred. Instruction failure ⇒ knowledge invalid."
+    },
+    {
+      "blind_id": "case_50f6cabe5bf5a181",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the scene layout and beige setting are retained, but the existing left weight has a longer narrow neck and shorter body, the right weights have changed contours, and the base shape and metal surface finish are visibly altered. Instruction: the left pan still contains only one weight, with no added weight; the beam remains level. The expected addition is absent. Quality: the edited scale has coherent chains, pans, weight shapes and base, with consistent metallic lighting and no noticeable generation artifacts. Knowledge: the explanation requires two weights on the left and a leftward tilt; neither is visible. Instruction failure ⇒ knowledge invalid."
+    }
+  ]
+}

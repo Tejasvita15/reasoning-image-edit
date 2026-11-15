@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b029",
+  "results": [
+    {
+      "blind_id": "case_71ed53b5ea8318b0",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The glass, counter, green board and microscope retain their general identities and arrangement, but the glass proportions/placement, bubble pattern and microscope/background framing visibly change beyond insertion. Instruction: A yellow pencil is newly present, extending above the rim and down into the water, fully satisfying the requested insertion. Knowledge: The explanation expects an apparently broken pencil; its shaft instead remains straight and aligned across the water surface, a clear missing refraction effect. Quality, edited image alone: Glass contours, pencil shape, lighting, counter texture and background depth are coherent, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_f46188bf6caf6cdc",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The smiling man, white hat, light shirt and palm setting remain recognizable, but facial details and beard contours, shirt pattern and framing/background geometry change noticeably outside the garland area. Instruction: A complete flower garland has been added around the neck and hangs over the chest as requested. Knowledge: The lei visibly contains magenta, white and yellow flowers/petal coloration and hangs plausibly around the neck, satisfying the supplied multicolored-lei explanation. Quality, edited image alone: Anatomy, flowers, lighting and overall composition are coherent; the small hat label has tangled, poorly resolved lettering, a minor local imperfection."
+    }
+  ]
+}

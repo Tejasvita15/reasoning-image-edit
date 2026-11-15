@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b181",
+  "results": [
+    {
+      "blind_id": "case_8ac7098beb7445b2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the yellow background and three main numerals remain recognizable, but the background shading/texture and the shapes and proportions of several unmoved match heads and shafts are visibly altered. Instruction: the original reads 5−2=5; the edit adds a rectangular loop in the subtraction position and removes the lower equality stick. This involves several sticks and leaves no correct equation. A successful edit would move exactly one existing stick and display a true equality. Knowledge: the explanation is blank; the visible result fails the stated arithmetic task. Instruction failure ⇒ knowledge invalid. Quality: the match materials and lighting are coherent, but the loop joins awkwardly to the adjacent 2 with overlapping enlarged heads, making the central symbol structurally ambiguous."
+    },
+    {
+      "blind_id": "case_d92d881abfb00c3f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the wrapped left ball, bare right ball and striped cup retain their identities and arrangement, excluding the requested relocation, backdrop and lighting. However, foil fold patterns, cup pleats and the exposed chocolate nut pattern are noticeably redrawn. Instruction: the pair appears below center against a gold gradient with upper-right warm light, gold bokeh and a dark metallic title at top left, as requested. The title instead reads approximately “Every bite, a momot worth ceeerreathing.”, failing the exact required wording; the light and bokeh are also stronger than restrained/faint. This is partial compliance. Quality: chocolates, foil, surface shadows and gold background are visually coherent, but the conspicuously garbled title is a clear semantic flaw."
+    }
+  ]
+}

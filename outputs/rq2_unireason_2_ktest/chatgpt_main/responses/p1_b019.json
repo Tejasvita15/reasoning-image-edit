@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b019",
+  "results": [
+    {
+      "blind_id": "case_46391e6eb5b97439",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Outside the requested handle completion, the two separated chopsticks become a single centered upright chopstick; the intact left chopstick and original spacing/angles are not preserved. The white background remains similar. Instruction: The visible change is a single wooden shaft with a complete pale handle and decorative band. Expected was completion of the missing handle on the right chopstick while retaining its identity. A completed handle is present, but consolidation of the pair into one recentered object makes this only partial fulfillment. Quality: Structural coherence ✔, natural lighting and shadows ✔, artifact-free ✔, surface texture ✔; the single wooden shaft, metal-colored handle and ornament are visually coherent."
+    },
+    {
+      "blind_id": "case_5da715658e29a2ed",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The general white-shirted torso, raised hand, dark wristband and neutral interior remain, but the shirt folds/collar and pocket are substantially redrawn, the wristband changes, and the lower face is cropped away. Instruction: The hand becomes more sharply defined with revised knuckles and tendons, but still shows a raised thumb and only three discernible curled fingers. Expected was an anatomically plausible hand with four curled fingers and a thumb. The apparent missing digit remains unresolved, so most of the correction is missing. Quality: Natural lighting ✔ and clothing texture ✔; structural coherence ✘ because the thumb-up fist has an incomplete-looking finger arrangement, with conspicuously rope-like hand tendons. Instruction failure ⇒ knowledge invalid."
+    }
+  ]
+}

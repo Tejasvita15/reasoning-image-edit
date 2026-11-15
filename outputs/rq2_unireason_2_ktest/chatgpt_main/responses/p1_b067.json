@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b067",
+  "results": [
+    {
+      "blind_id": "case_d2dd715b3bfa0a83",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The grid geometry, gray cells, raised covered-cell edges and green 2 remain recognizable, but the blue numerical clues are erased and previously empty revealed cells are filled with red symbols. Instruction: Red pin/hourglass-like symbols appear in nearly every cell rather than red Xs at inferred mine locations; the required selective annotation is completely misinterpreted. Knowledge: The explanation is blank; visible Minesweeper logic already rules out marking revealed clue cells and nearly all neighbors of a 1 as mines. Instruction failure ⇒ knowledge invalid. Quality: Assessed alone, the regular grid and repeated red icons are clean and coherent, the remaining green 2 is legible, and there are no noticeable rendering artifacts; softness does not obscure the layout."
+    },
+    {
+      "blind_id": "case_b20ea4b52860e170",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "Consistency: Beyond permitted fire and its illumination, the view is pulled back, a dark horizontal background band replaces the all-white upper background, and the surrounding powder clumps and scatter pattern are visibly rearranged. Instruction: A large yellow-orange flame rises directly from the red powder, clearly depicting the requested ignition of the pile in air. Knowledge: The supplied explanation expects slow burning with white smoke and a faint flame; the edited image instead has a vigorous towering flame with sparks and no visible white smoke, producing multiple substantial conflicts. Quality: Assessed alone, the mound, granular scatter, flame and warm illumination form a coherent scene with natural perspective and no conspicuous malformed structures or texture corruption."
+    }
+  ]
+}

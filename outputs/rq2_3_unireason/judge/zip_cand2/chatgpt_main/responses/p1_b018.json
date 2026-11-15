@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b018",
+  "results": [
+    {
+      "blind_id": "case_88df5b014a8a3850",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the removed left shoe and its shadow, the remaining shoe is visibly shifted left and slightly reoriented; the plain gray setting and overall illumination remain consistent. Instruction: the pair becomes exactly one shoe, fulfilling the requested removal. Quality: structure, natural lighting, leather texture, laces and sole are coherent, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_d25f3a1067fc252a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding requested hand colors, surrounding hand outlines have been redrawn with heavier contours, and the frog’s eyes, body silhouette and leg contours change; the overall arrangement and white background remain. Instruction: blue fills appear only along thumbs, sides and wrists of all eight surrounding hands. Correct completion would fill each hand blue or red according to its matching handedness; most interiors remain white and no surrounding hand is red, a major omission. Quality: the edited illustration has coherent silhouettes, clear outlines and clean flat color regions without noticeable artifacts. Knowledge: the supplied explanation is blank; the mandatory instruction-failure coupling applies. Instruction failure ⇒ knowledge invalid."
+    }
+  ]
+}

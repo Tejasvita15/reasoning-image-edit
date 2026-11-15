@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b148",
+  "results": [
+    {
+      "blind_id": "case_5d4858943af68303",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, positioning, lighting, brilliance and text changes, the gold circular bezel and blue stone identity remain recognizable, but the bail is reshaped into a much longer pointed form and the chain links become substantially finer. Instruction: The white product background becomes a textured blue-grey setting with a centered hanging pendant, bright starburst and lower serif title area, as expected. However, the title contains conspicuous misspellings and omissions instead of the exact requested sentence; the pendant also extends well into the middle. This is partial compliance. Quality: Structure and layout are coherent, with clean metal edges and consistent background texture (✔); the malformed words and letters in the large caption are a clear semantic artifact (✘)."
+    },
+    {
+      "blind_id": "case_369645ca4dac5975",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The river course, hills, sky, pasture, fences and tree positions remain recognizable, but left-bank foliage is visibly retextured and the river reflections and near shoreline details are altered beyond adding the boat. Instruction: A small dark open boat appears in the right-hand pasture beside the river. The expected addition is a Jiangnan water-town boat; the added boat supplies the object and general riverside placement but lacks its defining covered form, so compliance is partial. Knowledge: The supplied explanation specifically requires a black-canopied Wu-peng boat. The visible open hull has no black canopy, a clear conflict with that expectation. Quality: Landscape structure, lighting and textures are coherent (✔), without obvious duplication; the boat has a slightly detached appearance against the grass, with weak contact grounding (✘), a minor integration issue."
+    }
+  ]
+}

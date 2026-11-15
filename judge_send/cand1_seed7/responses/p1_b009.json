@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b009",
+  "results": [
+    {
+      "blind_id": "case_5ffec514fe5c39ee",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested left-cup relocation and its associated shadows, the other upright cup has also moved from the right to the center; the white ceramic appearance and plain gray setting remain consistent. Instruction: The left cup has moved off the surface and now rests tilted on the rim of the upright cup. This matches the expected placement of that cup onto the other cup, with the requested relationship fully present. Quality of the edited image alone: Structural coherence ✔, natural lighting and contact shadows ✔, artifact-free surfaces ✔, ceramic texture fidelity ✔; both cups have coherent rims and smooth shading."
+    },
+    {
+      "blind_id": "case_4a1415c059dd9a42",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested poster background, placement, glow and added lettering, the painting has been redrawn with altered crane poses, tree branches and flowers; the carved frame ornamentation also changes and its two brass hangers disappear. Instruction: A centered framed painting, blue gradient, cloud motifs, frame glow and lettering were added. The expected poster also needs surrounding flying cranes, the exact serif title and handwritten event information at bottom left. No flying cranes appear outside the painting, the title is incorrect, and the largely illegible event-like script is at bottom right, so the request is only partially fulfilled. Quality of the edited image alone: Structural coherence ✘ because the large heading, subtitle and lower script contain malformed or nonsensical words; naturalness ✔ for the stylized poster layout, artifact-free ✘ for the conspicuously corrupted lettering, texture fidelity ✔ for the painted scene and wood. Multiple unreadable text elements distract from an otherwise coherent composition."
+    }
+  ]
+}

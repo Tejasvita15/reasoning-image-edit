@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b064",
+  "results": [
+    {
+      "blind_id": "case_6e7bcf65e0b12bbe",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the surrounding puzzle is substantially redrawn: arrows are enlarged and repositioned, the upper horizontal grid divider disappears, the middle-right arrow acquires an extra bent stroke, and the checkerboard becomes irregular. Instruction: the bottom-right question mark remains instead of being replaced by the required right-pointing arrow; the requested completion is absent. Knowledge: the supplied explanation requires a right-pointing arrow, which is missing. Instruction failure ⇒ knowledge invalid. Quality: the diagram has multiple distracting structural defects, including the missing upper row divider, malformed middle-right arrow, and warped checkerboard patches."
+    },
+    {
+      "blind_id": "case_29a6ab4aa6e49397",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the retained left shoe keeps its position, silhouette, stitching and laces, and the surrounding light-gray setting remains recognizable, but its previously smooth leather highlights become visibly mottled. Instruction: the right shoe loses its leather, laces and sole details, but a large shoe-shaped pale volume and dark base remain; a successful removal would leave unobstructed background, so removal is only partial. Quality: the remaining black shoe is coherent, but the adjacent pale blob with an outlined edge and dark grounding shadow is a clear unnatural structural artifact."
+    }
+  ]
+}

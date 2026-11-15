@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b149",
+  "results": [
+    {
+      "blind_id": "case_a0b5cc8d8eb7d3dc",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the requested left-side development, the main road, upper forest and overall layout remain recognizable, but the right-hand settlement has visibly reworked roof details, including a conspicuous white rectangular roof near its center. Instruction: Trees have been cleared from the lower left and replaced by bare rectangular plots and a broad dark strip; an urbanizing left side should show increased buildings, which are absent. Most of the requested urban development is missing. Knowledge: The explanation requires fewer trees and more buildings; only tree reduction is visible. Instruction failure ⇒ knowledge invalid. Quality: The aerial perspective and forest are coherent, but the huge dark strip has smeared parallel textures and an indistinct connection to the road, creating a noticeable unnatural surface."
+    },
+    {
+      "blind_id": "case_62c5a0ad2bff2993",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The same puzzle regions, initial colored patches, blue background, timer and controls remain in place; outlines have slight local waviness/thickness changes. Instruction: The edited board retains the many pale blue unfilled regions and the same colored regions as the source. A completed puzzle would fill all regions with four colors while separating edge-adjacent regions by color; no visible completion occurs. Knowledge: The supplied explanation is blank; the task itself implies the four-color completion rule, but grading here follows the mandatory failure coupling because the puzzle remains uncompleted. Instruction failure ⇒ knowledge invalid. Quality: The board and controls are legible and structurally coherent, with clean solid colors; slightly uneven, softened black boundary strokes are a minor imperfection."
+    }
+  ]
+}

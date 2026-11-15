@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b125",
+  "results": [
+    {
+      "blind_id": "case_707714829e74139e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: excluding the requested depigmentation, the hand silhouette, finger positions and white background remain consistent, but the nails become purple and mottled and the skin texture/crease contrast becomes markedly harsher. Instruction: irregular white regions now cover much of the back of the same hand and extend along a finger and wrist; this matches the expected appearance of patchy depigmentation, fully fulfilling the request. Knowledge: the explanation requires white patches on the hand, and these are clearly present, with retained pigmented islands. Quality: anatomy and lighting direction are coherent, but the skin has a conspicuously coarse, chalky, embossed texture and the nails show unnatural blotchy coloration; these are visible surface artifacts."
+    },
+    {
+      "blind_id": "case_f89ebca20b6dfe15",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the maze walls, openings, top-left figure, black endpoint markers and white background retain the same visual arrangement; no non-instruction content change is apparent. Instruction: no red line has been added anywhere. The expected image would show a continuous red route from the figure to the lower-right exit, so the requested change is wholly absent. Knowledge: the supplied explanation is blank; the score follows the mandatory instruction-failure coupling because there is no marked route. Instruction failure ⇒ knowledge invalid. Quality: structural coherence, clean linework, flat graphic appearance and artifact-free surfaces are satisfactory; the maze and small figure are legible without distracting visual defects."
+    }
+  ]
+}

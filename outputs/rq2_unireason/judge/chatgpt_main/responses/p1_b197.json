@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b197",
+  "results": [
+    {
+      "blind_id": "case_f3120c809e8e08e8",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the grid, all eight existing shape arrangements, navy lines and white background remain visually unchanged. Instruction: no solution is drawn; the bottom-right question mark remains, whereas the requested completion should replace it with the appropriate triangle and circle. No compliance. Knowledge: the supplied explanation calls for a triangle with a blue circle on the bottom edge, which is absent. Instruction failure ⇒ knowledge invalid. Quality: satisfactory structure, clean geometric outlines, uniform flat fills and coherent spacing; no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_600a83ad4333a536",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the map boundaries, existing colored regions, blue gridded backdrop, timer and bottom controls retain their visible arrangement and appearance. Instruction: the numerous pale-blue unfilled regions remain unfilled; the puzzle has not been completed. Expected completion would color every region using the four available colors with different colors across shared boundaries. Knowledge: the supplied explanation is blank; the expected coloring rule is explicitly implied by the named Four-Color Theorem task, but the score follows the mandatory coupling. Instruction failure ⇒ knowledge invalid. Quality: satisfactory interlocking region geometry, clear outlines, legible timer and controls, consistent flat fills and no noticeable generation artifacts."
+    }
+  ]
+}

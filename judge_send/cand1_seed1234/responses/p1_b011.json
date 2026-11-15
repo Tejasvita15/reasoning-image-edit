@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b011",
+  "results": [
+    {
+      "blind_id": "case_0b539c88f0d40670",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The glass table, ribbed white vase and pale background remain recognizable, but the bouquet has different flowers and foliage, the book photograph changes from food to people, and the scene lighting/background becomes markedly darker. These exceed the permitted book relocation. Instruction: The book remains to the right of the vase, as in the source; the expected result places it on the opposite, left side. The requested spatial change is absent. Quality, edited image alone: Structure ✔, natural lighting and reflections ✔, artifact-free ✔, texture fidelity ✔; the glass tabletop, transparent supports, vase and open pages are coherent."
+    },
+    {
+      "blind_id": "case_5ea18efe06fdada5",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the instructed large-scissors size change, the white background and two-object arrangement are retained, but the small metal scissors have a visibly different blade angle and placement relative to their handles and the frame. Instruction: The large scissors have slimmer blades but still span far more of the image than the small scissors. The expected result is a green-handled pair matching the small pair in overall size; that size match is absent. Quality, edited image alone: Structure ✔, natural perspective and shadows ✔, artifact-free ✔, texture fidelity ✔; both pairs have coherent loops, blades and metal surfaces without noticeable generation flaws."
+    }
+  ]
+}

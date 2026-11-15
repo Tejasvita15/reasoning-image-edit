@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b145",
+  "results": [
+    {
+      "blind_id": "case_0ca0d15ed7af27ab",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The blue circles, connecting arrows, existing numbers, relative layout and white background remain visually unchanged. Instruction: No answer is inserted; the question mark remains. A completed image should replace it with a number, so the requested change is entirely absent. Knowledge: The supplied explanation asks for 21, although its subtraction rule applied to the visible 36 and 21 gives 15; the unchanged question mark satisfies neither. The score follows the mandatory coupling: Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the diagram has coherent circles and arrows, legible handwritten symbols and clean flat fills, with no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_078cada2c77a1e28",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the foreground chair repositioning, the table and other chairs retain their arrangement, but wood and upholstery textures visibly change, and the books and dried bouquet acquire altered, broken-looking detail. Instruction: The foreground chair moves left and farther back and is reoriented; a successful edit would tuck its seat underneath the tabletop. Its seat remains visibly outside the table, so the central requested placement is poorly implemented. Quality: The overall furniture scene is recognizable and lighting is coherent, but the foreground chair has a detached dark foot fragment and the tabletop objects and bouquet show visibly scrambled texture and edges."
+    }
+  ]
+}

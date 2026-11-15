@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b004",
+  "results": [
+    {
+      "blind_id": "case_9b7dbeda19bd1883",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding the added emblem, the white lidded mug and right handle remain recognizable, but the lid and handle contours/proportions change, the mug shifts upward, and the tabletop grain and background/table boundary change noticeably. Instruction: A plain front becomes a centered red, equal-armed cross attached to the cup, precisely the requested classic emblem. Knowledge: The explanation requires the Red Cross to be attached; the visible red cross on the white ceramic meets that expectation. Quality, edited image alone: Coherent mug, lid and handle structure, plausible glossy highlights and contact shadow, clean emblem edges and intact surface textures; no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_adb85e531cd4c310",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested interior, composition, tone, lighting and typography changes, the square cushion retains its black-and-white woven diamond identity, but the diamond motif arrangement and spacing visibly change across its face. Instruction: The isolated cushion becomes the main subject on a dark gray sofa in a cool industrial interior, with visible fabric texture and bold sans-serif text at upper left. The expected readable headline about black and white and life's order is instead largely nonsensical lettering, so a required aspect is incomplete. Quality, edited image alone: The sofa, cushion volume, industrial room, lighting and fabric texture are coherent, but the large headline contains conspicuously malformed words and nonsensical lines, a clear semantic flaw."
+    }
+  ]
+}

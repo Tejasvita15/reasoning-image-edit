@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b221",
+  "results": [
+    {
+      "blind_id": "case_0a38080d04092a5c",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the crossed diamond, empty diamond, subdivided square and enclosing rectangle retain their arrangement and forms; the framing/margins shift slightly. Instruction: the bottom-right pointed, rounded-ended shape remains instead of becoming an empty square, so the requested replacement is absent. Knowledge: the supplied explanation requires a square without interior lines, which is not shown. Instruction failure ⇒ knowledge invalid. Quality: the diagram is legible and structurally coherent, with one minor issue of ragged, intermittently doubled outline strokes around the frame."
+    },
+    {
+      "blind_id": "case_b48e8155eba9f7ee",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the grid, star points, red marker and all black and white stones retain their arrangement; the wood background has a small change in grain rendering. Instruction: no black stone is added. The upper row still has only four consecutive black stones, with an empty intersection immediately to their left where the winning fifth stone could go. The requested winning move is absent. Knowledge: the supplied explanation is blank; the five-in-a-row expectation follows from the Gomoku task and visible position, and the mandatory failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality: satisfactory structure, lighting, surfaces and artifact control; circular stones, coherent highlights/shadows and a readable regular board show no noticeable generation defect."
+    }
+  ]
+}

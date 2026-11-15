@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b072",
+  "results": [
+    {
+      "blind_id": "case_d62f3546bbbcaec9",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the centered glass silhouette, clear glass and white setting remain, but the floor reflection is visibly stronger and broader, with a distinct gray curved band absent in the source. Sand redistribution is excluded. Instruction: sand has disappeared from the upper bulb and accumulated in a taller lower mound, matching the expected completed timing cycle. Knowledge: the supplied explanation requires an empty upper chamber, which is visibly achieved with sand collected below. Quality: coherent glass contours, plausible sand texture, lighting and reflection; no noticeable structural or rendering artifacts."
+    },
+    {
+      "blind_id": "case_153de935ed00c454",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the authorized poster background, layout and decorations, the lantern has changed gold motif shapes and rib outlines, and its tassel attachment and strands are redrawn. Instruction: a central red lantern, golden willow branches, red petals, warm red-to-gold glow and sparkles are present as expected, but the headline reads WELCOMING followed by malformed wording instead of Spring Festival, and both bottom text lines are garbled rather than a meaningful festive slogan. These leave the poster partially compliant. Quality: the lantern and decorative composition are coherent with vivid lighting, but multiple prominent text regions have malformed or nonsensical wording, including the large headline, script slogan and small footer, creating distracting semantic errors."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b003",
+  "results": [
+    {
+      "blind_id": "case_f27bd8ceb822937b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested correction of unnatural red skin, the pose, tusks, ear arrangement and woodland composition remain recognizable, but the eyes and forehead contours, foot/toenail shapes, and foliage and ground textures have visibly changed. Instruction: 1. The red elephant becomes gray-brown. 2. A corrected animal should have plausible elephant coloration and anatomy. 3. The conspicuous unnatural color is corrected, with coherent trunk, tusks and limbs. 4. This fully meets the requested correction. Quality, edited image alone: Structural coherence ✔, natural lighting and grounding ✔, artifact-free ✔, and intact skin and landscape textures ✔; no clear anatomical or rendering defect is visible."
+    },
+    {
+      "blind_id": "case_84a36d90e284e688",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the authorized poster composition, lighting, background, decorative and text changes, the white pointed pump retains its recognizable side profile, curved opening, slender heel, tan sole trim and surface character. Instruction: 1. The shoe is enlarged against black with sweeping gold glitter and several text lines. 2. The expected poster has a gray-to-white gradient, the exact gold uppercase title GRACE IN EVERY STEP, and the exact clean sans-serif slogan. 3. Prominent shoe placement and gold decoration fulfill the main advertisement concept, but the background is black and both requested texts are replaced by garbled lettering, with a white mixed-case heading. 4. This is partial compliance. Quality, edited image alone: Shoe structure and texture ✔, lighting and glitter rendering ✔, but artifact-free/text coherence ✘: the large headline and multiple smaller text lines are malformed and unreadable, creating several distracting semantic errors."
+    }
+  ]
+}

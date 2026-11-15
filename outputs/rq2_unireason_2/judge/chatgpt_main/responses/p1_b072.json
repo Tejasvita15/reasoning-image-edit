@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b072",
+  "results": [
+    {
+      "blind_id": "case_ff4a8def854a5484",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the horizon, distant ship, blue sky and cloud arrangement remain recognizable and closely aligned; excluding the requested beach and its surf boundary, the open-water ripple and breaking-wave patterns visibly change. Instruction: sand has become a broad pebble-covered shore; the expected shingle beach is fully present. Knowledge: the visible rounded stones and coarse sediment match the supplied explanation. Quality: coherent sea/sky perspective and lighting, but the left foreground stones form an artificial regular lattice with a conspicuous transition into larger dark stones, and the foam reads as an unusually uniform white band."
+    },
+    {
+      "blind_id": "case_d827993d168ed7e6",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: the bearded identity, green jacket, wine glass, fruit table and woodland backdrop remain recognizable, but full trousers become a skirt-like garment exposing bare legs, the foot placement changes, and chair/base details are redrawn. Instruction: the source has three arms/hands, with one hand holding the glass and two resting to either side. The expected correction is a person with two anatomically connected arms; all three hands and their arms remain in the edit, so the central anatomical error is uncorrected. Quality: the clothing, setting and illumination are otherwise coherent, but the clearly visible third arm emerging centrally is a major anatomical structural failure."
+    }
+  ]
+}

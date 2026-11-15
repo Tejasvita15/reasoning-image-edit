@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b213",
+  "results": [
+    {
+      "blind_id": "case_c5693bd389d5c158",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the grid and white ground remain, but the existing squirrel at row 2 column 3 is replaced by a tree, and the retained squirrels, mushrooms and umbrellas are visibly redrawn with altered contours and proportions. Instruction: three empty cells receive symbols, but row 1 column 3 incorrectly receives a tree, row 2 column 2 a tree, and row 3 column 4 mushrooms; row 4 column 4 stays empty. Completing the Sudoku requires mushrooms, umbrella, squirrel and tree respectively, so most requested changes are incorrect or missing. Knowledge: the supplied explanation is blank; the task itself implies nonrepetition of the four symbols, contradicted by repeated trees and mushrooms. Instruction failure ⇒ knowledge invalid. Quality: coherent clean flat illustrations, intact grid, smooth outlines and uniform fills; no noticeable visual artifacts."
+    },
+    {
+      "blind_id": "case_73bb52ddf8d3e3dc",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: all eight given dot patterns, their black/white arrangements and panel locations are preserved; a small change in grid alignment makes the dividers slightly less straight. Instruction: the bottom-right box still contains a question mark and no dot pattern has been drawn, so the requested replacement is absent. Knowledge: the explanation requires a 4-by-4 pattern with black for matching input colors and white otherwise; the question mark supplies none of these comparisons. Instruction failure ⇒ knowledge invalid. Quality: the dots and question mark are clearly legible and the monochrome fills are clean, with only slight grid-line skew/unevenness."
+    }
+  ]
+}

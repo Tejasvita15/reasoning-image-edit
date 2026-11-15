@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b033",
+  "results": [
+    {
+      "blind_id": "case_efa666b1a5901e55",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the eight blue numbers and their row order remain, but the outer white margins are removed, grid-column proportions change, and faint colored rectangular patches appear around the symbols. Instruction: the red question mark is still present; the requested replacement by 25 is entirely absent, so this is non-compliance. Knowledge: the supplied rule gives 45 / 9 × 5 = 25, which is not filled in. Instruction failure ⇒ knowledge invalid. Quality: the grid and all symbols are coherent and legible, but faint yellow-green patching around the text is a small visible surface artifact."
+    },
+    {
+      "blind_id": "case_86f5fc39bcb77b03",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the central test tube, clear amber liquid, glass reflections, neighboring tubes and blurred laboratory background retain their appearance and relative placement. Instruction: no visible addition, drops or delivery implement appears; the liquid remains unchanged instead of depicting sodium hydroxide being added dropwise. Knowledge: the expected reddish-brown iron(III) hydroxide precipitate is absent and the solution remains transparent. Instruction failure ⇒ knowledge invalid. Quality: the edited image alone has coherent glass contours, natural reflections and lighting, and convincing liquid and background textures without noticeable artifacts."
+    }
+  ]
+}

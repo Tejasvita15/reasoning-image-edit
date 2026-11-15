@@ -1,0 +1,23 @@
+{
+  "batch_id": "p2_b002",
+  "results": [
+    {
+      "blind_id": "case_f4f5f16d1a691a93",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background and side-by-side arrangement remain, but the unchanged left tablet has been replaced by a narrow phone with an earpiece and navigation symbols; the right phone also has altered top sensors and screen symbols. Instruction: the right phone is visibly enlarged. A correct edit would retain the broad left tablet and enlarge the right phone to its size; here the tablet is replaced, and the enlarged phone remains much narrower than the original tablet, so the size match is poorly implemented. Quality, edited image alone: structural coherence ✔, naturalness ✔, artifact-free ✔, texture fidelity ✔; both devices have coherent outlines, screens, controls and soft contact shadows."
+    },
+    {
+      "blind_id": "case_1d9153e20a01166c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: the seated bearded man, green coat, crossed legs, fruit table and cabinet retain their broad arrangement, but facial proportions, fruit and foliage shapes, chair details, background painting and surface rendering are visibly changed. Instruction: the image is redrawn, yet still shows one hand hanging beside the fruit, another resting on the right armrest and a third holding the glass at the chest. A correct edit would remove or reconcile the extra arm so the man has two anatomically connected arms; that correction is absent. Quality, edited image alone: structural coherence ✘ because the man has three hands/arms, a major anatomical failure; natural lighting ✔ and coherent fabric and furniture textures ✔ do not resolve that central defect."
+    }
+  ]
+}

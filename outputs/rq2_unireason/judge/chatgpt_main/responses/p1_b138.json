@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b138",
+  "results": [
+    {
+      "blind_id": "case_cacd85ae5fb32f95",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and clear fluted plate concept remain, but the plate occupies a smaller portion of the frame and its groove pattern changes; the surviving apple also has a newly elongated form and conspicuous pale dotted surface instead of the original streaked finish. Apple removal itself is excluded. Instruction: Six apples become exactly one apple on the plate, precisely satisfying the requested count. Quality: Structure, lighting, glass reflections and surface finish are coherent; the glossy decorative apple has a clean outline and stem, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_d9eae30ffbf72cbb",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The right cup, both saucers, handles, bean piles, white background and composition remain closely aligned; a small change in bean surface contrast makes their highlights darker and more pronounced. Changes to the target cup dimensions are excluded. Instruction: The left cup remains substantially smaller than the right cup and its opening appears slightly narrower, whereas successful editing would enlarge it to match the right cup. No requested size match is achieved. Quality: Both ceramic cups and saucers have coherent outlines and perspective, the beans remain individually recognizable, and the shadows and textures show no noticeable artifacts."
+    }
+  ]
+}

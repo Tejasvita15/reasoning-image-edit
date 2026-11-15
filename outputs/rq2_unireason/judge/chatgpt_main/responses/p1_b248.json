@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b248",
+  "results": [
+    {
+      "blind_id": "case_bf20ce3c152b6ca2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white backdrop and two-bag arrangement remain, but the small bag is also reduced and shifted, both fabrics have much stronger reworked weave/folds, and the floral prints and cord/tassel details change. Instruction: Both bags appear smaller in the frame; a correct edit would make the right bag approximately the same height and volume as the left. The right bag remains substantially taller and wider, so the requested size match is mostly missing. Quality: Structural coherence, naturalness, artifact absence and texture fidelity are satisfactory; the bags, drawstrings, beads and contact shadows are coherent."
+    },
+    {
+      "blind_id": "case_c9409d3e8e7cd635",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested scene, placement, illumination and typography changes, the red Ferrari body, grille and headlight design remain recognizable, but wheel detail is changed to smeared spokes and the white license plate becomes a black plate with lettering. Instruction: The car is placed below center against a blurred dark urban nightscape with light streaks and reflections. This matches much of the intended cool poster composition, but the upper-left headline reads \"Unleash the the Flrice\" rather than \"Unleash the Drive.\", and a misspelled brand appears on the plate instead of smaller Ferrari lettering at the bottom center; compliance is partial. Quality: Car structure, reflective paint, lighting and background are coherent, but the duplicated/malformed headline and malformed plate brand are two clear text flaws."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b235",
+  "results": [
+    {
+      "blind_id": "case_02ba00512f20b392",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the four-by-four layout remains, but most fixed clues are replaced or altered: the top-row tree becomes a squirrel, the third-row umbrella becomes a squirrel, and several trees and mushrooms are replaced or merged. Instruction: blank cells should receive mushrooms, umbrella, squirrel and tree respectively; instead the upper blanks contain ERIY and COOT, the lower blanks contain a squirrel/tree hybrid and an umbrella. This does not complete the Sudoku. Knowledge: the supplied explanation is blank; the visible repeated and hybrid symbols violate the Sudoku logic implied by the task. Instruction failure ⇒ knowledge invalid. Quality: grid structure is clear, but several distracting symbol mergers, bare trunks, a yellow mushroom cap and nonsensical text undermine semantic coherence."
+    },
+    {
+      "blind_id": "case_475c7c54325d5cf2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: the subject retains the crown, white shirt, open-mouth expression and hands-under-chin pose, but facial proportions and eyes are redrawn, hair curls are heavily altered, and shirt and arm textures change noticeably; background replacement and centering are requested changes. Instruction: the edit adds a centered celebrant, confetti, balloons, fireworks, rainbow colors, clouds and strong rear rays. However, the large title and smaller tagline are extensively garbled rather than the requested wording, and the rainbow uses hard bands with simple cloud shapes rather than a soft gradient and cloud textures. This partially fulfills the poster request. Quality: festive composition and figure remain recognizable, but large malformed lettering, white disruptions through the title and distorted small text are multiple distracting structural errors; hair and clothing also look harshly processed."
+    }
+  ]
+}

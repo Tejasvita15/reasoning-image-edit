@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b039",
+  "results": [
+    {
+      "blind_id": "case_264fb22c03ba8bbd",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested color change, the white background and recognizable 8 remain, but the numeral geometry/framing changes noticeably: the lower right loop reaches the image edge and the waist and interior openings shift. Instruction: the orange 8 becomes uniformly bright green; the expected green numeral is fully present, so compliance is complete. Quality: structure and legibility are satisfactory, with coherent solid fill; a small blocky pale fringe around the contour is the main imperfection."
+    },
+    {
+      "blind_id": "case_c905f4fd513784a8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding correction of the unnatural red skin, the standing elephant, path, trees and sky retain their general arrangement. However, the skin wrinkles are extensively redrawn, the tusk curves and proportions change, and the eyes and ear contours also change. Instruction: the conspicuously red elephant becomes a plausible gray-beige elephant; the expected correction of the visible unreasonable coloration is fully realized, with coherent anatomy. Quality: structural coherence, natural lighting and perspective, artifact absence and texture fidelity are satisfactory; the painted elephant has clear eyes, coherent tusks and limbs, and continuous detailed skin without conspicuous defects."
+    }
+  ]
+}

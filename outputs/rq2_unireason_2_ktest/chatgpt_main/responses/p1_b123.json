@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b123",
+  "results": [
+    {
+      "blind_id": "case_052d2ede15c037fc",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested resizing of the large left eraser, the small right eraser is substantially reduced and lowered, and the wooden background and blurred objects are reframed and altered; the sleeve design remains recognizable. Instruction: The visible difference increases the size disparity by shrinking the already small eraser. The expected result is two equally sized erasers after reducing the large one; the left eraser remains much larger, so the requested change is not followed. Quality: The edited image alone has coherent eraser shapes, legible packaging, natural wood texture and lighting, and no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_922b8377c5a67224",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The only major original element, the wooden plank background, is extensively replaced: plank widths, seams, knots, grain and illumination all differ beyond the areas covered by added objects. Instruction: Several engraved round disks and two elongated dark implements have been added. A recognizable compass should be placed; the circular engraved disks suggest instruments but lack a clear compass needle or recognizable directional display, so the requested object is poorly implemented. Knowledge: The supplied explanation requires a compass, whereas the added assemblage does not clearly depict one. Instruction failure ⇒ knowledge invalid. Quality: The edited image has plausible metallic shading and wood texture, but the prominent disk engravings and small plaque contain warped, unreadable symbol-like marks, a clear semantic flaw."
+    }
+  ]
+}

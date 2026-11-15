@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b006",
+  "results": [
+    {
+      "blind_id": "case_e1253a8431543271",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and ring arrangement remain, but the surrounding hand outlines are enlarged/repositioned, the frog face and body proportions are redrawn, and the upper dashed motion lines disappear. These are outside the requested coloring. Instruction: All eight surrounding hands remain white; the expected edit would fill them blue or red according to their handedness and the frog examples. No requested coloring is performed. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the cartoon has coherent frog anatomy, clean five-finger hand outlines, smooth fills, and a clear uncluttered layout without noticeable rendering defects."
+    },
+    {
+      "blind_id": "case_8e45663f7a35771a",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The single figure eight, white background, and overall composition remain, but the numeral contour is visibly widened relative to the canvas, reducing the side margins, especially around the lower loop. Instruction: The entire orange numeral becomes green, exactly the requested color change, with no orange portions remaining. Quality: The numeral is legible with coherent continuous loops and a uniform green fill; faint pale blocky halos around parts of its outer edge are a small rendering imperfection."
+    }
+  ]
+}

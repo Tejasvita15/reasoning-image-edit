@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b141",
+  "results": [
+    {
+      "blind_id": "case_1bb6c1af0823e1cb",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding requested background, scale, placement, lighting and typography changes, the round blue faceted stone, thick gold bezel, connecting ring, tapered bail and linked gold chain retain the source design. Instruction: The necklace is reduced and centered on a grey-blue gradient with space below and a bottom serif line. The expected design requires an upper-central pendant, velvet texture, star-like brilliance and the exact quotation; the pendant sits below the midpoint, the background is smooth, no strong star glint is visible, and the quotation is replaced by garbled text. The main advertising composition is present but several requirements are incomplete. Quality: Structure ✘ because the large headline is nonsensical; naturalness ✘ because both chain ends stop and fade in midair; the pendant geometry and surface textures are otherwise coherent, without duplication."
+    },
+    {
+      "blind_id": "case_f180139de25f4575",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The grey printer body, rear upright blank sheet, tray positions, white surroundings and frontal viewpoint remain recognizable and aligned. The non-requested printer lid surface changes from smooth to visibly rippled and patterned. The front document and its occlusion of the controls are excluded as requested changes. Instruction: A large printed page with columns, a header graphic and blue edging now lies in front of the printer, replacing the blank foreground sheet and overlapping the printer face. This matches the expected printed document in front without a stipulated text or orientation. Quality: Structure ✔ for the printer and page geometry; naturalness ✔ for the page perspective and contact shadow; artifact-free ✘ for visibly malformed document lettering, especially the blue footer; texture fidelity ✘ for the unnatural wavy mottling across the printer lid. These are two clear visual flaws."
+    }
+  ]
+}

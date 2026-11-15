@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b116",
+  "results": [
+    {
+      "blind_id": "case_61d6f311a4ce2cfe",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding both temple arms, the lens outlines, nose pads, tabletop grain, lighting and framing remain consistent; the small bridge area between the lenses has a slightly different dark connection. Instruction: The blunt lower arm is extended leftward to a rounded tip. A complete, smoothly continuous temple was expected; the extension fulfills the core request, but a conspicuous notch remains at its join. Quality: Structure, perspective, lighting and tabletop texture are coherent; the small discontinuity in the lower temple is the one visible imperfection."
+    },
+    {
+      "blind_id": "case_3d5a83f501d4e0dd",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Beyond permitted pest damage, the leaf cluster is substantially replaced: leaf shapes and arrangement, branch orientation, framing, backlighting and the bright circular background highlights all change. Instruction: Several irregular holes and small brown damaged patches appear. The expected result is the original leaves with pest damage; holes realize the main idea, but the original cluster is replaced instead of simply damaged. Knowledge: The supplied explanation predicts insect-eaten holes, and the visible missing leaf tissue with irregular browned margins fully matches that biological outcome. Quality: Structure ✔, naturalness ✔, artifact-free ✔, texture fidelity ✔; the overlapping leaves, veins, irregular damage and soft dark background form a coherent image."
+    }
+  ]
+}

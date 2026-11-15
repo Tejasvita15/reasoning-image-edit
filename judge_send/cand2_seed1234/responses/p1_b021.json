@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b021",
+  "results": [
+    {
+      "blind_id": "case_e5bf656ff1560d84",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the frog is enlarged and redrawn with spread arms, changed face/body contours and feet; surrounding hand outlines and positions change, and dashed movement lines disappear. These are not requested color changes. Instruction: all eight surrounding hands remain white; the expected blue/red fills matching hand laterality are entirely absent. Knowledge: Instruction failure ⇒ knowledge invalid. The supplied knowledge explanation is blank; this score follows the mandatory coupling. Quality, edited image alone: coherent cartoon frog and five-digit hand silhouettes, smooth fills and clean outlines, with no noticeable rendering defects."
+    },
+    {
+      "blind_id": "case_7c1de2876a2b220e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: the centered framed crane-and-pine subject remains recognizable, but the internal birds, tree and flowers are visibly redrawn and the carved frame ornament is simplified; these exceed the requested poster surroundings and glow. Instruction: a blue gradient, cloud motifs, centered painting and large serif heading are added, with script below and a light frame halo. However, the heading is garbled instead of Artistic Charm: Beauty of Tradition, the script is not readable event information and sits across the bottom rather than bottom left, and flying cranes are absent from the surrounding background. This partially realizes the poster request. Quality, edited image alone: coherent frame, clouds and painting textures, but the two-line heading and separate cursive block contain conspicuous nonsensical text, with visible faint watermark markings; these are multiple distracting semantic defects."
+    }
+  ]
+}

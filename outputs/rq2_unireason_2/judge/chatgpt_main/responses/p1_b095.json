@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b095",
+  "results": [
+    {
+      "blind_id": "case_3c5a846cc63dee9f",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the internal maze walls are entirely removed, the upright bear is replaced by a running dog-like animal, and the gifts are relocated and duplicated; only a rectangular border and white background remain broadly similar. Instruction: a red winding line is added, but the expected marked route through the supplied maze from animal to gifts is absent; the line loops back on itself and never reaches a gift, so most of the requested solution is missing. Knowledge: the supplied explanation is blank; the mandatory instruction-failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality: the border and presents are clean and the flat illustration style is coherent, but the animal has an awkward overlapping neck/torso junction and malformed small hanging leg, producing noticeable anatomical distortion."
+    },
+    {
+      "blind_id": "case_50380a250ca2fdc4",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the gray printer, three front buttons, rear blank paper and white background are recognizable, but the scene is substantially reframed with a smaller printer and larger margins, and the printer is shown from a lower angle with a much shallower visible top and changed rear feed proportions. Instruction: the blank foreground sheet is replaced by a visibly printed document lying directly in front of the printer, fulfilling the requested placement. Quality: printer geometry, paper perspective and contact shadows are coherent, but the prominent document heading and body text contain distorted, unreadable letter-like forms, a noticeable semantic artifact."
+    }
+  ]
+}

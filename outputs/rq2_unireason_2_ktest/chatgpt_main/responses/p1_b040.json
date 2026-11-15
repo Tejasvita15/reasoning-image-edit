@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b040",
+  "results": [
+    {
+      "blind_id": "case_3a6742306d9aa5b4",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background and three-hand layout remain, but the upper-left scissors outline/cuff is redrawn and shifted, the right rock outline and position change, and stray marks appear at the top edge. The instructed lower-hand change is excluded. Instruction: the lower paper hand gains overlapping finger shapes and a small face; it does not become recognizable scissors. The expected result is scissors replacing paper so the unchanged rock defeats both opponents; that essential gesture is poorly implemented. Knowledge: the supplied explanation is blank; the game logic is explicit in the task, but the mandatory instruction-failure coupling determines this score. Instruction failure ⇒ knowledge invalid. Quality: the bold cartoon style is coherent, but the lower hand has a conspicuous extra overlapping finger and a face fused onto a fingertip, producing clear anatomical/semantic artifacts."
+    },
+    {
+      "blind_id": "case_335cd8bf81307184",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the lab-coat scene, held flask, writing hand and apple remain in broadly similar positions, but the HNO3 label becomes garbled symbols, notebook lettering changes, skin and coat details are substantially redrawn, and the small foreground apparatus is replaced with a copper-colored cup. Instruction: the held liquid changes from yellow to metallic orange/copper, without an identifiable copper piece immersed in it. A correct edit would visibly place copper in the reagent and show the resulting blue solution; most of that change is missing. Knowledge: the supplied explanation expects blue copper nitrate after copper reacts with nitric acid, whereas the edited liquid is orange and metallic. Instruction failure ⇒ knowledge invalid. Quality: the overall laboratory composition is understandable, but numerous labels and notebook markings are garbled, the small foreground apparatus has distorted structure, and surfaces have distracting metallic/overprocessed textures."
+    }
+  ]
+}

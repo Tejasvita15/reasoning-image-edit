@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b153",
+  "results": [
+    {
+      "blind_id": "case_7e7c71b21746814d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The canal, waterside buildings, lanterns and tree retain their general arrangement, but the original three occupants become one differently posed occupant, and facade/foliage details are visibly altered. Instruction: The covered boat becomes an open black vessel with elevated curved ends and a comb-like prow, fulfilling the requested traditional Venetian boat replacement. Knowledge: These visible gondola features match the supplied explanation, \"Change to gondola.\" Quality: Boat and architectural perspective are coherent, but the occupant has a visibly smeared face and poorly resolved arm/hand anatomy; water and building surfaces otherwise remain recognizable."
+    },
+    {
+      "blind_id": "case_eeafeb27968a2b5a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The yellow ground and original outer 5s and central 2 retain their arrangement, but several additional matchsticks create a square beneath the original minus, exceeding the single permitted moved stick. Instruction: The lower equals stroke disappears and three sides appear below the minus; the result lacks an equals sign and does not form a correct equation through one move. Knowledge: The supplied explanation is blank; the visible task itself requires a true equation, which is absent. Instruction failure ⇒ knowledge invalid. Quality: Assessed as an image alone, the matchsticks have coherent wooden shafts, red heads, plausible shadows and a clean background, without visible structural or texture artifacts."
+    }
+  ]
+}

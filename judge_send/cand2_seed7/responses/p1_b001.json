@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b001",
+  "results": [
+    {
+      "blind_id": "case_73ec05e8d90f4f0d",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, decorations, text and positioning, the cat has been replaced in appearance: eye color and shape, muzzle, ear proportions, body shape and front-leg pose all change; only its white coloring and seated species-level appearance remain. Instruction: The edit adds a centered white cat, pink/blue gradient and bright pink handwritten Pet Home title. A correct poster would retain and slightly enlarge the supplied cat, show recognizable paw prints and heart bubbles, and say Add warmth to your life below. The cat is visibly smaller in the composition, the decorations are mostly looping outlines, and the gray tagline is incorrect nonsense; the poster concept is partially fulfilled. Quality: Structure and fur texture are satisfactory, with coherent cat anatomy and a readable title; artifact-free presentation fails because the lower text is garbled and the repeated pink symbols are malformed."
+    },
+    {
+      "blind_id": "case_8de7373103eae56c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, placement, glow and poster additions, the crane-and-pine subject and dark carved rectangular frame remain recognizable, but individual cranes, tree and rock details are redrawn and distorted, and the frame carvings and proportions noticeably change. Instruction: The edit adds a blue gradient, centered framed painting, glow near the top hangers, large serif lettering and a cursive bottom line. The expected poster would include the exact Artistic Charm: Beauty of Tradition heading, surrounding light clouds and flying cranes, and bottom-left event information. Both text areas are nonsensical, the bottom line spans the center, no outside flying cranes appear, and the white swooshes do not clearly form clouds; most required additions are absent or poorly implemented. Quality: The overall poster arrangement is coherent, but both text blocks are garbled, with visibly damaged overlapping top glyphs, and several birds and foliage details inside the painting merge into warped shapes. These are multiple distracting structural and semantic defects."
+    }
+  ]
+}

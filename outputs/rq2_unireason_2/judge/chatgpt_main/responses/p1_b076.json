@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b076",
+  "results": [
+    {
+      "blind_id": "case_f075857f0a7c462a",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The unrequested tablet is transformed into a narrow phone with an earpiece and cameras; both devices have redesigned bezels and controls, and their spacing and background shadows change. Most major device details are altered. Instruction: 1. The right phone becomes taller and wider. 2. It should match the original tablet size. 3. Its height is approximately tablet-sized, but its width remains far narrower than the original tablet, while the tablet itself is replaced. 4. The requested size adjustment is only partially achieved. Quality: Structural coherence ✔, naturalness ✔, artifact-free ✔, texture fidelity ✔; the two phones have clean outlines, coherent screens and controls, and plausible soft shadows."
+    },
+    {
+      "blind_id": "case_c96ef2d139d5f270",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The original regular nine-cell grid and nearly all existing symbols disappear or change; the replacement irregular grid, large lower triangle and detached marks alter the entire layout. Instruction: 1. The question mark and surrounding puzzle are replaced by a different diagram. 2. The bottom-right cell should contain the correct triangle and circle. 3. There is no preserved bottom-right box with the requested answer, and the triangle beneath the grid has one interior dot and another detached below its base. 4. The task is completely misinterpreted. Knowledge: The supplied explanation requires a triangle with a blue circle on its bottom edge; neither visible dot occupies that edge. Instruction failure ⇒ knowledge invalid. Quality: Structure ✘: the irregular grid has awkward dangling dividers, and a vertical stem intrudes into the triangle apex. Naturalness ✔ for a flat schematic; clean strokes and uniform fills ✔, but these clear diagrammatic flaws reduce coherence."
+    }
+  ]
+}

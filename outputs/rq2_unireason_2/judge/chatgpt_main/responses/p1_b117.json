@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b117",
+  "results": [
+    {
+      "blind_id": "case_3fd5531f17f62ac0",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the black zip-jacket identity, orange trim, ribbed cuffs/hem and gray background remain, excluding viewpoint-dependent visibility and foreshortening; however, the three shoulder/sleeve stripes become two. Instruction: the view changes from oblique front to straight rear, not overhead. The reference shows a prominent open neck hole and strongly foreshortened torso viewed from above; the edit instead shows the full back and closed-looking collar, so the requested viewpoint fails. Quality: the edited jacket alone has coherent symmetrical garment construction, smooth shading, intact edges and plausible sleeve folds, without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_4a9a87e9b240da54",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: maze walls and openings, cream background, flower groups and overall placement are retained; the girl illustration is visibly redrawn, particularly the fringe and facial details. Instruction: red segments are added in the lower maze, but a correct edit would connect the girl’s entrance to the flowers through open corridors. The line starts midway inside the maze, intersects the central vertical wall, and includes a lower segment crossing the bottom boundary instead of following a continuous valid route. This is a major failure despite adding the requested color. Knowledge: no explanation was supplied; visible maze logic requires a connected route avoiding walls, which is absent. The score follows the mandatory instruction-failure coupling. Instruction failure ⇒ knowledge invalid. Quality: evaluated alone, the cartoon girl, flowers and maze have clean outlines, coherent shapes and flat colors; the thin red strokes are crisp, with no noticeable rendering artifacts."
+    }
+  ]
+}

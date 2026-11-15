@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b128",
+  "results": [
+    {
+      "blind_id": "case_7e3ee2751860caac",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the original ten regular 3×3 grids are extensively redrawn with changed yellow cells, missing divisions, added outer boxes and relocated brown dots; most major non-requested details change. Instruction: black line fragments and arrow-like strokes have been added, whereas the expected result connects each original left grid to its color-complementary right grid. Most strokes end in empty space and do not establish the required pairings, a major omission. Knowledge: the supplied rule requires yellow/white inversion at every corresponding cell; the altered patterns and incomplete connections do not demonstrate these matches. Instruction failure ⇒ knowledge invalid. Quality: multiple malformed grids have merged cells and inconsistent row/column structures, while doubled, disconnected strokes make the diagram structurally confusing; the flat colors remain readable."
+    },
+    {
+      "blind_id": "case_4882973996c3c7a6",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding the requested right-hand layer fills, the left ice cream, both sticks, black outlines, two color-key rows and white background remain visually unchanged. Instruction: the right ice cream is now filled brown, blue, yellow, green and red from its rounded top to its base. The expected fills follow its own key: blue, orange, light green, yellow and brown. All five layer positions use the wrong colors, so the coloring action is present but the requested pattern is poorly implemented. Knowledge: the supplied top-to-bottom/key correspondence is violated throughout by copying the left ice cream sequence. Instruction failure ⇒ knowledge invalid. Quality: coherent ice cream silhouettes, cleanly bounded colored layers, intact sticks and readable square swatches; no noticeable structural or generation artifacts."
+    }
+  ]
+}

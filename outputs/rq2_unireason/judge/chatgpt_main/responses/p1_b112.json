@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b112",
+  "results": [
+    {
+      "blind_id": "case_404e3f93b7814982",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The low board on a gray floor becomes an upright board against a wall; setting, lighting, orientation, intact deck appearance and wheel arrangement all change. Instruction: The broken deck becomes a full oval board, but the image replaces and reorients the skateboard rather than completing its missing end while retaining the existing structure; most of the requested repair is poorly implemented. Quality: The wall, pavement and lighting are coherent, but an oversized additional wheel and its long support behind a board already bearing two complete trucks create a clear structural anomaly."
+    },
+    {
+      "blind_id": "case_5b0ed9c7bde16cc2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The blue-and-white thermometer and cable remain recognizable, but casing proportions, button positions, cable loops, MAX label and printed temperature-range text change. Instruction: The display changes from 28.7 to 88.8 degrees Celsius; the expected result under the supplied explanation is approximately 31.7 degrees Celsius. The correct display is altered but the required temperature is substantially wrong. Knowledge: The supplied explanation requires approximately a 3-degree increase, whereas the image shows a 60.1-degree increase. Instruction failure ⇒ knowledge invalid. Quality: The device outline, buttons and cable are coherent, but the upper-left display label has overlapping malformed lettering, a noticeable text artifact."
+    }
+  ]
+}

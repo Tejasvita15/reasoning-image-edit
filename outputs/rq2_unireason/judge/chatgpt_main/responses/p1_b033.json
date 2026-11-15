@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b033",
+  "results": [
+    {
+      "blind_id": "case_4eb278e0d46d2db0",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white clock face, black rim and general layout remain, but numeral shapes change conspicuously (especially 12 and 6), major hour dots turn pale blue, and the rim/framing changes. Instruction: The hands still show 8:00; the expected edit is an hour hand at 9 with the minute hand at 12, so the requested time conversion is absent. Knowledge: The supplied explanation explicitly requires 9 o’clock, which is not shown. Instruction failure ⇒ knowledge invalid. Quality: The clock structure and hand geometry are coherent, but the 12 is visibly garbled with stray strokes and a dot, and the bottom watermark text is distorted; surfaces and lighting otherwise remain clean."
+    },
+    {
+      "blind_id": "case_8493d4c0bf7ba840",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The dark sock, side-on foot, exposed ankle and gray background remain recognizable. Excluding the requested hole repair, the toe and arch contours are reshaped and the exposed ankle/cuff outline and skin details change visibly. Instruction: The exposed-skin hole near the heel is replaced by continuous matching dark knit, completing the sock as requested. Quality: Structure, lighting, shadow, and fabric texture are coherent; the closed heel looks natural, with no visible seam artifact, duplication or malformed anatomy."
+    }
+  ]
+}

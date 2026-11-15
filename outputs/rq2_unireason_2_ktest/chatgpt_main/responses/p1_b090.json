@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b090",
+  "results": [
+    {
+      "blind_id": "case_cbb6fdca039e4275",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the spring and rectangular base retain their shapes and positions, but the cream textured background becomes white, the base shadow disappears, and the ball surface becomes visibly mottled. Instruction: the pressing hand is completely removed and the ball is unobstructed, precisely showing release. Knowledge: the explanation requires spring elongation and a rising ball; the spring remains compressed at the same height and the ball still rests at the same support level, a clear failure of the expected rebound. Quality: coherent ball, coil and base with clean silhouettes, but an abrupt transition from smooth to mottled texture across the ball is a small visible surface flaw."
+    },
+    {
+      "blind_id": "case_e213939004851eaa",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the upright forearm, bent elbow and R marker remain recognizable, but the black field acquires broad white side margins and the wrist/carpal outlines and joint spacing are noticeably redrawn. Instruction: the image is enlarged and rendered with smoother, brighter bone contours; a compliant edit would show a fracture of the left forearm bone, yet that bone retains a continuous shaft without a visible fracture line, break or displacement. Knowledge: the supplied explanation specifies a fractured left-side bone, which is absent. Instruction failure ⇒ knowledge invalid. Quality: the edited image alone has coherent forearm and wrist structures, legible R, smooth grayscale shading and clean outlines without distracting generation artifacts."
+    }
+  ]
+}

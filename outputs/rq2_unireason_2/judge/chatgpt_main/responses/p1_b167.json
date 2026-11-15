@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b167",
+  "results": [
+    {
+      "blind_id": "case_bb54b89ae721ba89",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested two removals, the third baguette should remain, but it too has disappeared; the outer pale background and framing remain recognizable. Instruction: 1. All three textured loaves are replaced by a single pale silhouette. 2. Exactly one of the original three baguettes should remain on the surface. 3. Bread removal is attempted, but the count is wrong and the removed area is not convincingly filled. 4. Major omission. Quality: Structural coherence ✘ and texture fidelity ✘: a huge smooth, scalloped blob dominates the frame, with a conspicuous outline and smeared shadows; naturalness ✘ and artifact-free ✘. This is a major structural failure rather than ordinary softness."
+    },
+    {
+      "blind_id": "case_9270d2d796fef3fd",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding requested background, lighting, placement and typography changes, the wrapped-left/unwrapped-right identities remain, but the foil folds, paper-cup pleats and exposed chocolate nut distribution are noticeably changed. Instruction: 1. A golden gradient, upper-right glow, bokeh and upper-left title are added around two lower-center chocolates. 2. The expected title is “Every bite, a moment worth celebrating.” in deep metallic brown. 3. Composition, palette, lighting and title styling largely match, but “moment” is malformed and the final word is garbled rather than “celebrating.” 4. Partial compliance because the specified message is not reproduced. Quality: Naturalness ✔ and texture fidelity ✔ for the foil, chocolate and illuminated surface; artifact-free ✘ and structural coherence ✘ for the clearly malformed title lettering, a noticeable semantic flaw in an otherwise coherent product image."
+    }
+  ]
+}

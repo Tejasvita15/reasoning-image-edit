@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b074",
+  "results": [
+    {
+      "blind_id": "case_f7e4529ce74926e8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested viewpoint change, the red fire engine, roof cannon and gray setting remain recognizable, but both white side shutters disappear, an extra rear axle is added, and the body panels and yellow stripe layout change substantially. Instruction: a clear left-facing side profile replaces the front three-quarter view, matching the reference viewing direction; however, the elongated three-axle silhouette and absent side compartments fail to reproduce the referenced object proportions and visible details. Quality: assessed alone, the rendered truck has coherent wheels, body panels, cannon, materials and ground shadow without a clear distracting artifact."
+    },
+    {
+      "blind_id": "case_bfb07592072ce037",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding the eye changes and stronger illumination implied by the task, the face is smaller and shifted within the frame, whisker paths change, and the visible body fur pattern is altered; the general cat pose remains recognizable. Instruction: the irises become vivid turquoise, but both pupils remain broad rather than narrowing into constricted slits; the requested strong-light eye response is absent. Knowledge: the supplied explanation requires pupil constriction, which is not visible. Instruction failure ⇒ knowledge invalid. Quality: the cat anatomy is recognizable, but severely clipped highlights and crushed shadows erase fur detail, and the highly luminous turquoise eyes appear unnatural."
+    }
+  ]
+}

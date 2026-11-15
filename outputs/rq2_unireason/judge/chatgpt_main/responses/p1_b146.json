@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b146",
+  "results": [
+    {
+      "blind_id": "case_bf50566450253db5",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The mug position and wood-table layout remain, but the paper now extends much farther upward and has a different coarse surface; the holder contents are also mirrored/reoriented rather than simply translated. Instruction: The holder disappears from the upper left and sits at the lower-right paper corner, fulfilling the requested relocation. Quality: Object shapes and lighting are generally coherent, but ghosted vertical wood-plank patterns visibly bleed through the upper paper, creating a clear surface artifact."
+    },
+    {
+      "blind_id": "case_656dd1edafd54a64",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested viewpoint change, the blue/cream carton, cap, MILK label, and white background remain recognizable; the cow-side graphic is noticeably changed, with its horizontal strokes removed and the outline extended downward. Instruction: The image changes to another three-quarter view, showing the cow panel at left and a substantial MILK front panel at right. The reference requires a straight-on cow-side view with no visible front panel and only a sliver of cap at left; the edited orientation and occlusion are significantly wrong. Quality: Structure, readable lettering, planar shading, cap geometry, and surface textures are coherent, with no noticeable standalone artifacts."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b001",
+  "results": [
+    {
+      "blind_id": "case_badbaede32fef5ba",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding the requested water-color change, the sky, distant wooded shoreline, buildings, horizon and overall swirl layout remain recognizable and aligned; the right foreground rocks have visibly altered, more blue-green and strongly contrasted surface texture. Instruction: The gray/turquoise water becomes red across the scene, matching the expected visible red tide completely. Knowledge: The supplied explanation says the water should turn red; the extensive red coloration directly satisfies that expectation. Quality (edited image alone): The coast, perspective and wave structures are coherent, with no major structural artifacts; some central water textures look slightly smeared and plasticky, a minor texture-fidelity issue."
+    },
+    {
+      "blind_id": "case_1725916eccf8a5fc",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the right shoe and the background reconstruction required by its removal, the left shoe retains its position, outline and laced design, and the surrounding gray background remains aligned; the retained shoe has noticeably harsher, grainier leather and seam texture. Instruction: The right shoe loses its black leather and laces, but a large pale shoe-shaped solid with a defined toe edge and shadow remains. The expected result is one shoe with unobstructed background where the other stood; the conspicuous replacement form makes removal poorly implemented, a major omission. Quality (edited image alone): The black shoe is structurally readable and its lighting coherent, but the large featureless pale shoe-like form and its abrupt tonal boundary are a clear semantic and surface artifact; the rest of the composition remains intact."
+    }
+  ]
+}

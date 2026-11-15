@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b002",
+  "results": [
+    {
+      "blind_id": "case_957236c1a738eaca",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, layout, decorations and radiance, the same person, open-mouth expression, hands-under-chin pose, white shirt and gold crown remain recognizable. However, facial features/skin are visibly redrawn and smoothed, hair curls change, and shirt folds and arm textures differ noticeably. Instruction: The edit adds a centered crowned person, rainbow colors, clouds, confetti, balloons, fireworks and rays, as expected for the requested festive poster. The large top heading omits 'Moments' and garbles 'Celebrate This Summer'; the smaller tagline also contains incorrect, garbled words instead of the requested sentence. The visual concept is present but required copy is incomplete. Quality: Structural layout is coherent and decorations are recognizable, but multiple malformed words in the prominent heading and tagline are distracting semantic errors; the person's skin and fabric also have conspicuously processed, uneven textures. These visible problems exceed a single minor imperfection."
+    },
+    {
+      "blind_id": "case_f6a9352296166ac1",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The monitor and cuff retain their placement, overall shapes, white background and pulse reading of 70. Non-target printed labels and model lettering are visibly distorted, and the cuff's fabric texture, seams and label details change noticeably. Instruction: The edited display still reads 100 systolic and 68 diastolic, the same as the source; a compliant edit would visibly change the pressure readings to hypertension values. No requested numeric change is made. Knowledge: The supplied explanation requires systolic greater than 130 or diastolic greater than 80; neither 100 nor 68 meets its respective threshold. Instruction failure ⇒ knowledge invalid. Quality: The device silhouette, cuff structure, lighting and large digital readings are coherent, but distorted small lettering on the housing and cuff creates a clear text-fidelity flaw. Textures remain recognizable without major structural collapse."
+    }
+  ]
+}

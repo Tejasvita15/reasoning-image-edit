@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b013",
+  "results": [
+    {
+      "blind_id": "case_1ba1ae8b03c78a18",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested placement, backdrop, shadow and caption, the blue controller identity and dual sticks remain, but the four separate directional buttons become a single cross, the circle face button becomes another square, and the central logo changes. Instruction: The edit adds a floating controller above center, a grainy blue-gray gradient, soft shadow and bold centered lower caption. The expected caption is exactly \"Press Start.\" on a light restrained background; the visible caption instead reads \"Pesss siest.\" and the vignette is substantially dark. The main poster idea is present but required details are wrong. Quality: Structure and shading are coherent and surface textures are intact, but the nonsensical prominent caption and malformed small controller markings are noticeable semantic/artifact flaws."
+    },
+    {
+      "blind_id": "case_d3424fe08f630ba2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested viewpoint change, the black zip jacket, orange shoulder/sleeve decoration, stand collar, pockets and gray background remain recognizable. However, the three orange stripes become two, the chest lettering changes from adidas to adidos, and the glossy folded fabric is replaced by a largely flat matte surface. Instruction: The original oblique frontal view becomes a symmetric frontal presentation. A correct top view would show the large central neck opening and strongly foreshortened torso seen in the reference. The edit instead shows the full-length front zipper and torso, with only a narrow collar opening; viewpoint, occlusion and foreshortening are incorrect, so this is a wrong-direction change. Quality: Considered alone, the jacket has coherent bilateral construction, clean zipper and pocket seams, consistent flat fabric shading, readable small lettering and no noticeable generation artifacts."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b156",
+  "results": [
+    {
+      "blind_id": "case_5d3d94fc5c8bfa56",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the basketball relocation and associated shadows, the soccer ball has visibly moved toward the center and its panel orientation has changed; the plain light background and basketball identity remain consistent. Instruction: the basketball moves from beside the soccer ball to directly above it, visibly resting on its top, exactly matching the requested arrangement. Quality: structure, lighting, shadows and surface textures are coherent; both balls have clean round contours without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_e37597b6cca0b7c1",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the left player’s arm and hand change pose, the grass texture is substantially altered, and board/card positions shift; existing O and X symbols remain recognizable. Instruction: the hand now points at the existing center X, but no new X is added. A successful edit would put an X in the empty top-left cell, completing the diagonal through the center and bottom-right X; that cell remains empty. Knowledge: the supplied explanation is blank; visible board logic establishes the missing winning diagonal, and the mandatory coupling applies: Instruction failure ⇒ knowledge invalid. Quality: coherent people, grid and legible symbols, with one minor issue of unnaturally smeared, curled grass texture across the lawn."
+    }
+  ]
+}

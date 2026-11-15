@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b261",
+  "results": [
+    {
+      "blind_id": "case_46ed8a46f0790780",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The four-circle square layout, white ground and shadows remain, but node labels 1, 2, 3 become 2, 4, 0 and several unrelated garbled captions are added. Arrow changes are excluded from consistency. Instruction: Instead of reversing an edge to produce a directed acyclic graph, the edit makes the left and bottom edges bidirectional and leaves the top edge without a clear arrowhead; the requested DAG is not achieved. Knowledge: The supplied explanation requires no cycles, but the opposing arrows allow immediate return cycles. Instruction failure ⇒ knowledge invalid. Quality: The circles and overall layout are coherent, but multiple unreadable captions and stray marks near the lower-left node visibly degrade the diagram."
+    },
+    {
+      "blind_id": "case_7f6662a777e633e8",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The map outline, interlocking region boundaries, existing orange/green/yellow/purple fills, blue background, timer and bottom controls remain visually consistent. Instruction: The edited puzzle still contains the same numerous pale-blue unfilled regions; completing it would require coloring those regions, so no substantive requested completion is visible. Knowledge: The supplied knowledge explanation is blank; the task itself implies a completed coloring with adjacent regions having different colors, but the map remains unfinished. Instruction failure ⇒ knowledge invalid. Quality: The edited image alone has coherent interlocking shapes, readable timer text, distinct flat fills and intact controls; moderate softness causes no semantic loss and there are no noticeable generation artifacts."
+    }
+  ]
+}

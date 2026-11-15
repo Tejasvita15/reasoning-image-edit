@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b106",
+  "results": [
+    {
+      "blind_id": "case_3dc6d7ce680ccfc2",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The two chocolate-coated cookies retain their recognizable forms and leaning stack; background, base, lighting, framing and viewpoint are authorized changes. The remaining surface decoration changes noticeably: the original cracks and drizzle paths are replaced by smoother coating and different thin lines. Instruction: The white setting becomes brown folded velvet with a dark slate base, centrally prominent cookies and warm upper-left highlights. The expected image also requires a slightly upward view and the exact quotation at upper right. The view still looks down onto substantial slate and cookie tops, and the prominent title is garbled rather than the requested sentence; this is partial compliance. Quality: Structure, lighting and dessert/slate/velvet textures are coherent and natural (✔), but text coherence is problematic (✘): the two-line heading consists of malformed, meaningless words, a clear visual-semantic flaw."
+    },
+    {
+      "blind_id": "case_9363d9f656318d6a",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding restoration of the broken end and necessary supporting hardware, most major retained details change: dark grip becomes bright cyan, the weathered gray ground becomes a white studio setting, and the steeply tilted diagonal board is repositioned into a much flatter, differently framed pose. Instruction: The splintered near end is replaced with a continuous rounded deck, and trucks and wheels support the completed board. A complete usable-looking skateboard is the expected result, and that requested restoration is visibly present. Quality: Lighting, wheel/truck structure and grip texture are coherent (✔), with no obvious ghosting or corrupted text (✔). The deck outline has slightly uneven, pinched transitions near its ends (✘), a small shape imperfection."
+    }
+  ]
+}

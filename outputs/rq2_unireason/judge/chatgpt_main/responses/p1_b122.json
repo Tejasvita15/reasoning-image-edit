@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b122",
+  "results": [
+    {
+      "blind_id": "case_ff153ed7315f2a4f",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the main road, upper-right forest, diagonal road and right-hand neighborhood retain their layout, but a conspicuous mid-right roof changes from a gray striped surface to bright white. Left-side redevelopment is excluded. Instruction: dense left-side trees are replaced by extensive roof rows and paved roads, clearly showing the requested urbanization. Knowledge: reduced tree coverage and increased buildings match the supplied explanation. Quality: aerial lighting and the main landscape are coherent, but the new left-side buildings form unusually fused, repetitive strips with poorly resolved individual structures, a noticeable structural flaw."
+    },
+    {
+      "blind_id": "case_068aee1750e6e4d5",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: black color, orange chest branding, central zipper and gray background persist; however the shoulder stripe pattern is reduced to two orange lines, the ribbed lower waistband disappears, and the modeled fabric folds become a flat surface beyond viewpoint-related changes. Instruction: the oblique jacket becomes a frontal flat display, with a long fully exposed torso and small collar opening. The reference requires an overhead view with a large central neck opening, strongly foreshortened torso and shoulders spanning horizontally; the viewpoint is in the wrong direction. Quality: the silhouette, zipper, pockets, logo and stripes are clean and coherent, but the abruptly straight, unhemmed-looking lower edge is a small garment-construction imperfection."
+    }
+  ]
+}

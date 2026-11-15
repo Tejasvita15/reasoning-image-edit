@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b071",
+  "results": [
+    {
+      "blind_id": "case_0b42c49646992ab9",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The wooded valley, distant clearing and overhead lighting remain recognizable, but tree-canopy patterns throughout the hills and foreground vegetation clusters are noticeably redrawn; river-shape changes are excluded. Instruction: A detached curved pool appears at lower left and the main river is broadened. A successful edit would visibly isolate a former river bend through a cutoff; the added pool conveys the oxbow idea, but its position does not convincingly correspond to a cut-off bend of the supplied river. This is partial compliance. Knowledge: The supplied explanation specifically expects a crescent-shaped lake separated from the main channel; the curved pool is visibly isolated by land, satisfying that stated expectation. Quality: Landscape structure and lighting are coherent, but the isolated pool has conspicuously blurred, pasted-looking edges and the main river has an unnaturally uniform smooth gradient lacking convincing surface detail."
+    },
+    {
+      "blind_id": "case_adcfaceef74db392",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The gray sky, distant tree line, horizontal boardwalk and curving path retain their layout. Excluding the requested flags and their occlusion, the field vegetation is noticeably changed from a fine yellow-green flowering carpet into larger, coarser leaves. Instruction: Numerous strings of rectangular printed prayer flags have been added across the flatland, matching the expected addition and placement completely. Knowledge: Blue, white, red, green and yellow flags are visibly present, matching the supplied five-color explanation. Quality: Flag rows recede coherently in perspective and the overcast lighting is consistent; there is minor texture blending in the foreground foliage, but no major structural failure."
+    }
+  ]
+}

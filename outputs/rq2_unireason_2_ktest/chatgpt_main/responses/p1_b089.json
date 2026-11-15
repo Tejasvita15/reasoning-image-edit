@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b089",
+  "results": [
+    {
+      "blind_id": "case_f8bcdf14b261c5fe",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding requested background, scale, placement, shadow and typography changes, the orange pebbled surface and recognizable seam arrangement remain, but the round basketball is visibly elongated vertically. Instruction: The white product background becomes black with a centered orange ball above mid-frame and bottom bold sans-serif lettering. This captures the requested poster layout, but the required exact tagline is garbled, an extra small garbled line appears, and the shadow is a broad bright gray ring rather than a subtle soft shadow. Thus the main idea is only partially fulfilled. Quality: Structure/text ✘: the ball is oval and both text lines contain malformed words. Naturalness ✘: the luminous ring makes the floating ball grounding unconvincing. Texture ✔: the orange pebbling is recognizable; these multiple distracting defects warrant 2."
+    },
+    {
+      "blind_id": "case_d48f844e2bc19bd0",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The identity, dark swept hair, pale background and blue collar remain recognizable. Excluding facial movements required by the task, the substantial beard/stubble has been smoothed away and the dark jacket/shoulder outline is changed, giving multiple non-instructed alterations. Instruction: A smiling face becomes a largely bilateral frown, with a long pinched red groove running down the viewer-right cheek from beneath the eye. The expected result is a crooked mouth and slanted/asymmetric eyes; the mouth remains roughly level and both eyes remain similarly open and aligned. The cheek distortion does not convincingly achieve the requested palsy, a major omission. Knowledge: The supplied explanation requires a crooked mouth and slanted eyes, whereas the conspicuous change is an unnatural cheek fold and a mostly symmetric frown. Instruction failure ⇒ knowledge invalid. Quality: Structure/naturalness ✘: the red stretched, branching fold from the lower eyelid into the cheek is a clear anatomical artifact. Hair, surrounding skin, clothing and background textures ✔; the localized but conspicuous deformation warrants 3."
+    }
+  ]
+}

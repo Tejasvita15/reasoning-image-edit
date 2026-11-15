@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b264",
+  "results": [
+    {
+      "blind_id": "case_22f615d2323b7d90",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The lenses, nose pads, upper arm, glasses placement, wood grain and lighting remain visually unchanged outside the requested arm repair. Instruction: A curved dark tip now extends the formerly truncated lower temple; a fully completed arm should connect continuously, but the junction retains a small notch/separation, so the core repair has a minor defect. Quality: Structure, perspective, lighting and surface texture are coherent; the small abrupt seam in the lower arm is the sole visible imperfection."
+    },
+    {
+      "blind_id": "case_be5f25568f471d2f",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The grid layout and all five existing marks retain their positions and shapes; excluding the added marks, the overall board/background rendering has noticeably darker, duller and grainier coloration. Instruction: Two red X marks were added in middle-left and middle-right. The required result is a single X in top-middle, completing the existing top-row X pair. The winning square remains empty, so the attempted marking has a major omission. Knowledge: The supplied explanation is blank; the visible board and task imply the three-in-a-row rule, and neither addition creates a winning line. Instruction failure ⇒ knowledge invalid. Quality: Structural coherence ✔, natural graphic shading ✔, artifact-free ✔, texture fidelity ✔; the nine-cell grid and all symbols are clear, with no distracting deformation."
+    }
+  ]
+}

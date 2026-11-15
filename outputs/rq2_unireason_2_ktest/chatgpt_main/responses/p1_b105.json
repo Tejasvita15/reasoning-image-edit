@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b105",
+  "results": [
+    {
+      "blind_id": "case_31cccd68231088d5",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the orange frame, white panels, title wording and maze layout remain, but the title lettering becomes visibly ragged, wall strokes are thicker and uneven, and the arrows gain black edging. Instruction: a red horizontal stroke and dangling central branch were added; a correct result would trace an uninterrupted entrance-to-exit route through the corridors. The horizontal stroke crosses numerous vertical walls and the branch cuts through central walls, so the route is poorly implemented. Knowledge: the supplied explanation is blank; corridor-following is implied by the maze task, but this score follows the mandatory instruction-failure coupling. Instruction failure ⇒ knowledge invalid. Quality: the graphic remains legible and the framing coherent, but speckled lettering and interrupted, stray red marks in the central branch are visible flaws."
+    },
+    {
+      "blind_id": "case_9dc52576b4febea2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: allowing the requested drawing and viewpoint change, the yellow cake, pale filling, gold support and dark backdrop remain recognizable. However, the printed wrapping paper disappears and the distinctive folded cake-and-cream interior becomes a generic smooth spiral. Instruction: the oblique photograph becomes a flat diagram, but the expected reference shows the full cake end centered above its support with the length receding behind it. Here a small end spiral sits at the left of an elongated side silhouette; orientation, proportions and occlusion therefore have major errors. Quality: clean contours, coherent flat colors and an uncluttered background are satisfactory, but the spiral end merges into an extended side body without a coherent perspective, and the layered base/face intersections create a noticeable structural ambiguity."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b178",
+  "results": [
+    {
+      "blind_id": "case_feb9823e0dedf503",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The branching arrangement and underwater composition remain recognizable, but the reef textures and shapes, fish distribution, and water-surface highlights are noticeably altered. Instruction: The red organism becomes much paler, addressing the requested loss of pigmentation, but substantial pink bands and dark tubes remain instead of a fully white organism. Knowledge: The supplied explanation requires white coral; the remaining pink coloration is a clear incomplete match. Quality: The scene is coherent, but the reef has conspicuously smeared, melted detail and the tubes have unnaturally smooth, banded surfaces."
+    },
+    {
+      "blind_id": "case_2d6fca2a8e63ea23",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested composition, splash, background, shadow and typography changes, the upright cylindrical glass and incoming milk stream remain recognizable, but the formerly smooth glass/milk surface gains a conspicuous embossed texture. Instruction: A central milk splash, neutral palette, bottom gray shadow and uppercase top title are present. However, the second title line reads garbled text rather than CLEAN TO THE END., the lettering is dark rather than light silver-gray, and the background is textured rather than pure white. Quality: The glass and splash have coherent silhouettes and lighting, but the nonsensical headline and pervasive rippled texture across the background and milk surface are clear visual flaws."
+    }
+  ]
+}

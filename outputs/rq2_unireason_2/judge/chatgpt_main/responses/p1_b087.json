@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b087",
+  "results": [
+    {
+      "blind_id": "case_a94e091579e97a47",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the colored six-panel arrangement remains, but every original given number disappears and the upper paired-square divisions are removed throughout, destroying most non-instructed puzzle content. Instruction: the question mark becomes yellow “8IX” rather than the required 410; the requested answer is not supplied. Knowledge: the supplied difference-and-sum rule gives 7−3=4 and 7+3=10, hence 410, which is absent. Instruction failure ⇒ knowledge invalid. Quality: the rectangular layout, shadows and visible glyphs are coherent, but horizontal banding across the gradients is a small surface imperfection."
+    },
+    {
+      "blind_id": "case_03c16b105664fe16",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the branch, surrounding smaller fruits, leaf arrangement, background and framing are replaced; the two foreground fruits also lose their original calyx structures and become apple-like shapes with slender upright stems. Instruction: fruit coloration changes from greenish to yellow, but the expected mature red persimmons are not depicted, so the requested maturation is poorly implemented. Knowledge: the supplied explanation explicitly requires red persimmons; both main fruits remain yellow. Instruction failure ⇒ knowledge invalid. Quality: assessed alone, the two yellow fruits have coherent rounded forms, natural skin texture, convincing stems, detailed leaf veins and consistent soft lighting, with no noticeable generation artifacts."
+    }
+  ]
+}

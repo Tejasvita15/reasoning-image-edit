@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b017",
+  "results": [
+    {
+      "blind_id": "case_41eb559a8d130af5",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested toe correction, the turquoise sandal and pink polish remain recognizable, but the sandal occupies less of the frame, the wet pavement/reflection pattern is changed, and the ankle texture is substantially redrawn. Instruction: The seven-toed foot becomes a five-toed foot, matching the expected correction of the unreasonable anatomy. Quality: Structure and lighting are broadly coherent, but the little toe has no discernible nail and the forefoot has conspicuously smooth, blended skin unlike the textured ankle; these are noticeable local flaws."
+    },
+    {
+      "blind_id": "case_b939fb99a0ebdefa",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Apart from permitted card-face changes, the white backdrop and five-card fan remain, but the fan geometry changes visibly: card edges and exposed widths shift, particularly around the middle cards. Instruction: The original 4, 6, 8, 8, 8 becomes 4, 6, 8, 8, B, with altered suits. A full house requires three matching ranks and a pair; the 4 and 6 remain different and the final rank is malformed, so the requested hand is not achieved. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: Card outlines and background are coherent, but the red B-like rank, black spade paired with red diamond body pips, and duplicated eight-of-spades cards create multiple conspicuous symbol and semantic errors."
+    }
+  ]
+}

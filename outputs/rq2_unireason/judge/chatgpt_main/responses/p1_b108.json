@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b108",
+  "results": [
+    {
+      "blind_id": "case_faa44c7e0c78f958",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: white background, trouser silhouette, waistband, belt loops, pockets, pleats and hems remain consistent; the small button has a changed dark multicolored appearance. Instruction: the cream fabric changes to an even medium blue across both legs and waistband; the expected blue pants are fully present. Quality: structure, lighting, fabric folds and clean edges are coherent, with no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_09cc67f4ca04f72e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": 3,
+      "rationale": "Consistency: excluding the requested left-side development, the main road and right-side neighborhood retain their general positions, but right-side roofs become distorted with cyan/pink highlights, and the upper-right trees acquire markedly altered bright, coarse textures. Instruction: the left forest is replaced by densely repeated tiny roof-like units and straight lanes. Expected development on the left is suggested, but the units form a miniature tiled pattern rather than convincing buildings at the scene scale, so compliance is partial. Knowledge: the supplied explanation expects fewer trees and more buildings; tree removal and apparent building multiplication satisfy that direction, but the enormous scale mismatch between left and right buildings is a clear real-world conflict. Quality: structural coherence and texture fidelity are problematic: repetitive miniature roof patterns, warped right-side roof shapes and unnatural cyan highlights create multiple distracting errors; the overall aerial road layout remains intelligible."
+    }
+  ]
+}

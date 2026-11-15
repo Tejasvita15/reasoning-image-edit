@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b215",
+  "results": [
+    {
+      "blind_id": "case_d188a179c99d7032",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding the requested channel changes, the forest canopy is extensively changed into rounded, painterly foliage and foreground grass/tree detail is redrawn; the valley composition, distant clearing and upper sunlight remain recognizable. Instruction: the central bend becomes a broad connected pool; a successful edit would show a cut-off crescent beside the main river, but no separated crescent lake is visible, so the essential cutoff is missing. Knowledge: the supplied explanation explicitly requires separation from the main channel, whereas the pool continues into the foreground river. Instruction failure ⇒ knowledge invalid. Quality: viewed alone, the stylized aerial landscape has coherent banks, vegetation, lighting and smooth water reflections, without a clear structural or rendering defect."
+    },
+    {
+      "blind_id": "case_e1159f95dc7e4361",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: river course, hills, pasture, fencing and sky layout remain, but woodland foliage and the exposed right-bank edge have visibly redrawn shapes and textures beyond the added boat. Instruction: a small occupied open boat and its reflection are added to the river; the expected Jiangnan boat is only partially represented by a generic narrow hull, with its defining canopy absent. Knowledge: the supplied explanation calls for a black-canopied Wu-peng boat, but the visible boat has an open top with exposed passengers and no black canopy. Instruction failure ⇒ knowledge invalid. Quality: the edited landscape is structurally coherent, with natural perspective, lighting, vegetation and water; the small boat sits plausibly on the water with a reflection and no conspicuous artifact."
+    }
+  ]
+}

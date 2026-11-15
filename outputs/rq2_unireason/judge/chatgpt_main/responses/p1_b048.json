@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b048",
+  "results": [
+    {
+      "blind_id": "case_2e3defaf820b9438",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding infestation and its damage, leaf positions and silhouettes have been substantially rearranged, additional foliage appears at upper right, and the background bokeh pattern changes; the general branch-and-green-background composition remains. Instruction: numerous black many-legged insects appear on the leaves, so infestation is conveyed, but the expected eaten holes are absent and the blades remain largely intact; this is partial compliance. Knowledge: the supplied explanation specifically requires holes caused by feeding; insects alone with intact leaves ignore that stated outcome. Quality: leaf and branch forms and backlighting are coherent, but the repeated flattened, comb-like insect bodies and stiff oversized legs create conspicuous unnatural anatomy and repetition."
+    },
+    {
+      "blind_id": "case_f44831a7d6539546",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: the two white cups, saucers and pale setting persist, but the left bean arrangement is replaced and the right beans and ceramic surfaces acquire conspicuous color-fringed, gritty textures; these exceed the requested cup resizing. Instruction: the left cup changes outline and sits lower but remains dramatically smaller than the right cup, appearing narrower rather than enlarged. The expected result is two cups matching in size, so the requested size adjustment is not accomplished. Quality: cup and saucer structures remain recognizable, but widespread multicolored edge ringing across the right beans, harsh dark outlines, and gritty streaked ceramic/background textures produce multiple distracting visual defects."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b008",
+  "results": [
+    {
+      "blind_id": "case_0c088891cb885e86",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "Consistency: Excluding the permitted repositioning, the green circle is noticeably smaller and the lavender outer circle is larger, with thicker outlines; the white background and outline colors remain consistent. Instruction: The green circle moves left toward the outer circle center. Perfect completion requires concentric circles; the centers are close but the green circle remains slightly right and below the outer center, a minor alignment error. Knowledge: The explanation requires coincident centers; the small residual offset is a minor geometric deviation. Quality, edited image only: Both closed circular outlines are coherent and clean against a plain white background, with no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_27e1255f0f5d85a2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The 4x4 arrangement remains, but fine pale grid lines become heavy black lines, numeral styling changes, and original clues change, including row 1 column 2 from 3 to 5 and row 2 column 2 from 2 to 1. Instruction: Empty cells receive numerals, but completing this Sudoku requires valid digits 1–4 with no repetition in rows, columns and 2x2 boxes. The edited grid contains 0, 5, 6, 7 and 8 and repeated 1s in row 2, so most of the required correctness is missing. Knowledge: Instruction failure ⇒ knowledge invalid. The supplied knowledge explanation is blank; this score follows the mandatory instruction-failure coupling. Quality, edited image only: The grid and most numerals are legible, but the upper-right numeral has a conspicuous doubled, overlapping outline and several glyph edges are ragged."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b241",
+  "results": [
+    {
+      "blind_id": "case_de8c24844adbc7f3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the patterned cloth and viewpoint remain recognizable, but the cube changes from a four-by-four grid to three-by-three, and existing white, orange and blue faces become red, green and white. These changes exceed filling the missing pieces. Instruction: the cavity is filled, but a completed version should retain the original cube structure; instead it is replaced with a different grid, and the front face still mixes green and white. Most of the required completion is poorly implemented. Quality: structural coherence, perspective, lighting, plastic texture and artifact-free rendering are satisfactory; the edited cube has clean, coherent edges and stickers."
+    },
+    {
+      "blind_id": "case_20e57f831172673e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the four-by-four grid and several original animal placements persist, but multiple given symbols change: the top-row raccoon and dog become lions, the second-row dog becomes a hybrid feline, and the third-row dog is rotated and distorted. Instruction: all empty cells acquire pictures; correct completion requires tiger at row 1 column 1, lion at row 1 column 3, raccoon at row 3 column 1, and dog at row 4 column 3 while preserving givens. Only the raccoon addition is clearly correct; the other additions are wrong or hybrid animals, so completion is largely incorrect. Knowledge: the supplied explanation is blank; visible repeated lions in the first row contradict the Sudoku logic implied by the task. Instruction failure ⇒ knowledge invalid. Quality: the grid is legible, but multiple animal heads merge dog ears or patches with tiger markings, and the third-row dog has visibly distorted, sideways facial features; these are distracting semantic and structural errors."
+    }
+  ]
+}

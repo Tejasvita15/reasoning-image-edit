@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b026",
+  "results": [
+    {
+      "blind_id": "case_e7d8c9036a24dc16",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 2,
+      "rationale": "Consistency: the gray grid, white background, and eight existing arc patterns remain visually consistent, excluding the requested answer cell. Instruction: the question mark is replaced with a clear right-facing semicircular arc in the correct cell, but the expected answer is two concentric lower-right quarter arcs; the location and drawing action comply, while the actual pattern is wrong. Knowledge: the supplied intersection rule requires retaining only segments common to both preceding patterns. The answer adds an upper-right portion and fails to retain the two separate common lower-right arcs, producing multiple logical mismatches. Quality: coherent grid and smooth legible arcs, clean white surfaces, and no noticeable ghosting or structural artifacts."
+    },
+    {
+      "blind_id": "case_0606a0ca478e981c",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding the operator changes involved in the attempted solution, the three matchstick digits, their arrangement, mustard background, lighting, and wooden-match appearance remain visually consistent. Instruction: the lower equality bar disappears and the original minus area becomes a three-sided box shape with a left vertical and bottom horizontal stick. A valid result should relocate exactly one match and form a true equation, for example 5 - 2 = 3 by moving the final 5 upper-left match to its upper-right. The output neither preserves the one-match constraint nor retains a readable equality, so most of the required result is missing. Knowledge: the supplied explanation is blank; the visible arithmetic task and mandatory coupling are the basis. Instruction failure ⇒ knowledge invalid. Quality: the edited image alone has coherent straight matchsticks, consistent red heads and shadows, a natural flat background, and no noticeable rendering artifacts."
+    }
+  ]
+}

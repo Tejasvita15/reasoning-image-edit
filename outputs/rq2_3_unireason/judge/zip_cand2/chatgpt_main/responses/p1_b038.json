@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b038",
+  "results": [
+    {
+      "blind_id": "case_0d1e897b487958ed",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The wooden frame is removed, circled engraved labels become large uncircled digits, and the tile texture and proportions change; most major non-requested details are different. Instruction: The tiles change to rows 4/3/2/7, 4/5/5/5, 9/4/0/0, and 1/1/2/2. A completed 15-puzzle should contain 1–15 in ascending row order with a final empty space; neither the original tile identities nor that arrangement is retained. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the image has coherent rounded wooden blocks, legible digits, regular spacing, natural shading, and clean wood texture without visible rendering defects."
+    },
+    {
+      "blind_id": "case_04d37be74797f4ad",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white material and plain gray-white setting remain consistent, and movement of the left cup is excluded. The other cup is noticeably reduced and repositioned, with a narrower silhouette. Instruction: The formerly sideways cup is upright above the other cup, with its base positioned over the lower opening; this shows the requested stacking. Quality: The cup contours, rim ellipses and surface gradients are smooth and coherent, but the upper base appears suspended over a dark gap within the wider lower opening, producing a conspicuous unsupported contact relationship."
+    }
+  ]
+}

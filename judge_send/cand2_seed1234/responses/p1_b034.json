@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b034",
+  "results": [
+    {
+      "blind_id": "case_81f02278f2a949f4",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background, lavender outer ring and green inner ring remain, excluding permitted positional changes; a conspicuous black square marker has been added inside the green circle. Instruction: the green circle remains displaced to the right and slightly below the outer circle center; the expected concentric arrangement is absent. Knowledge: the centers visibly do not coincide as the explanation requires. Instruction failure ⇒ knowledge invalid. Quality: the circular outlines and white field are coherent, but the isolated black boxed mark is a clear stray visual artifact."
+    },
+    {
+      "blind_id": "case_9c2eb4e3e20ef795",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the abdominal cross-section, organ arrangement and peripheral labels remain recognizable, but non-target soft tissues are flattened into uniform gray regions and the vertebral interior has become solid white, noticeably altering multiple structures and their texture. Instruction: the bright white particle cluster in the kidney on the right side of the image has disappeared; the expected CT with that stone cluster removed is present. Knowledge: removal of those small white particles matches the supplied explanation, with no residual bright cluster at that location. Quality: the cross-sectional layout is coherent, but pronounced loss of internal tissue texture and jagged, segmented tissue boundaries create noticeable visual flaws."
+    }
+  ]
+}

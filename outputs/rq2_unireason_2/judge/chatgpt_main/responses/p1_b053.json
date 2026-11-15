@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b053",
+  "results": [
+    {
+      "blind_id": "case_36d9072671ac1e0f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested phone resizing, the tablet is visibly wider and shifted right, the gap between devices increases, and the backdrop becomes brighter and more uniform; the white device styling and dark screens remain. Instruction: The phone becomes smaller relative to the tablet. A successful edit would make it approximately tablet-sized; it remains dramatically narrower and shorter, so the requested size match is not achieved. Quality: Structure ✔, natural lighting and contact shadows ✔, artifact-free ✔, surface fidelity ✔; both devices are coherent with clear bezels, screens, and controls."
+    },
+    {
+      "blind_id": "case_d67652cab5a8b7d9",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding creature replacement, the blue-sky composition remains, but the cloud formations are substantially redrawn and the upper-right sun gains prominent sharp rays and flare. Instruction: The gull is replaced by a golden crested fantasy bird with a long neck, hooked profile, and fan tail. The expected replacement is an owl; no owl face or owl body is present, so the target is misinterpreted. Knowledge: The supplied explanation explicitly requires an owl, whereas the visible metallic crested bird does not depict one. Instruction failure ⇒ knowledge invalid. Quality: Structure ✔, lighting ✔, artifact-free ✔, texture fidelity ✔; the stylized metallic bird has coherent feather panels, wings, tail, and highlights within the sky scene."
+    }
+  ]
+}

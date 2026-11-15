@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b007",
+  "results": [
+    {
+      "blind_id": "case_622928ac09c12470",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the requested shadow change, the upright wooden post and framing remain recognizable, but the pebbled, twig-strewn ground becomes uniform fine sand, and the post has altered grain, dark-face shading and top/base placement. Instruction: The long leftward shadow becomes darker and more solid rather than disappearing; the expected result is no projecting shadow, so the requested change is not achieved. Knowledge: The conspicuous long shadow contradicts the supplied no-shadow explanation. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: The post has coherent straight edges and wood grain, the granular ground and cast shadow are clean, and perspective and lighting are internally plausible, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_16510a15741ce395",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The yarn and cow remain recognizable near the top, but most of the original worksheet is changed: eggs, chicken and bee disappear, the honey jar is split/repeated, sheep are duplicated, new birdlike animals appear, and the two-column layout is replaced. Instruction: Instead of connecting yarn to sheep, honey to bee, eggs to chicken and milk to cow, the edit adds unrelated figures without clear matching marks; the required production-origin matches are absent. Knowledge: The supplied explanation is blank; the mandatory instruction-failure rule determines this score. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: Multiple distracting structural and semantic errors include a long bird neck emerging from a honey vessel, an apparently headless woolly figure, malformed bird/sheep hybrids and disconnected honey elements; the flat background and some individual icons are clean, but the overall illustration is incoherent."
+    }
+  ]
+}

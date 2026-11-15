@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b042",
+  "results": [
+    {
+      "blind_id": "case_0b6d1f8f4c9f16f9",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The orange front and dark left face remain recognizable, but intact pale top stickers have all become bright blue, and the black shapes and texture on the surrounding cloth are noticeably redrawn. These extend beyond filling the missing cube sections. Instruction: The source has a deep gap in the upper/front portion; the edit fills it with aligned cubies, producing a complete regular 4-by-4 cube with uninterrupted faces. This fulfills the visible completion task. Quality: Structure, perspective, sticker edges, plastic highlights and cloth texture are coherent, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_de72f3a2ee4baa28",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The white background, wooden grid and other symbol assignments remain, but board framing/proportions, wood grain and several existing tile shapes and placements are visibly changed. Instruction: The tilted bottom-left piece showing both X and O becomes a flat X-facing piece in the correct cell, exactly supplying the requested winning choice. Knowledge: The supplied explanation is blank; the scoring basis is the task-implied tic-tac-toe rule and visible board. X now occupies top-left, middle-left and bottom-left, completing a winning column. Quality: The edited board has coherent wooden construction, clear symbols, plausible shadows and clean textures without noticeable artifacts."
+    }
+  ]
+}

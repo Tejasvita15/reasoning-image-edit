@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b045",
+  "results": [
+    {
+      "blind_id": "case_810781fb95e6ae22",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "Consistency: the brown background, metal material and warm lighting remain, but the left upright is bent inward into a sweeping arc and the ball is enlarged relative to the apparatus; these are unrequested changes. Instruction: the orange ball moves from the left to the upper right, depicting the requested endpoint, but its center sits slightly higher relative to the upright tops than the initial position. Knowledge: the supplied conservation explanation calls for equal height; the endpoint is approximately level with the starting height, with a small upward discrepancy. Quality: the edited image alone has coherent smooth metal geometry, a well-shaped textured sphere, consistent lighting and clean surfaces without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_917ed7be4cd4a9ef",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the printer shape, three front buttons, rear blank sheet, output tray and white background are retained; the large gray lid acquires a visibly patterned texture. Instruction: dense printed lines replace the blank foreground sheet, yielding a printed document lying directly in front of the printer as requested. Quality: the printer and paper have coherent shapes and plausible shadows; slight mottled/moire-like texture across the lid is a minor surface imperfection. The small document text reads as fine printing without needing to be individually legible."
+    }
+  ]
+}

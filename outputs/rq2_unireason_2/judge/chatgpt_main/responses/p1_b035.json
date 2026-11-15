@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b035",
+  "results": [
+    {
+      "blind_id": "case_3029d36804f97116",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the centered glass tube and white backdrop remain, but the large HCl label and the visible liquid meniscus disappear; these are separate unrequested changes. Instruction: pale rounded stone pieces now occupy the tube bottom; the expected result is marble chips added inside the acid with a reaction. The added solids address the main idea, but their ball-like shape and the absent reaction leave it incomplete. Knowledge: the supplied explanation requires bubbles from reaction with hydrochloric acid; no bubbles are visible around or above the solids, and the acid surface is absent, so the expected chemical outcome is ignored. Quality: viewed alone, the glass outline, rounded solids, lighting, and white background are coherent, with natural shading and no clear rendering artifacts."
+    },
+    {
+      "blind_id": "case_c8021f2ea2856671",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the orange front, dark blue left face, general viewpoint, and fabric setting are retained. However, the existing pale top stickers become saturated blue and the surrounding black fabric pattern changes, especially at the lower right; both extend beyond filling the missing cube sections. Instruction: the open cavity and missing top sections are filled, producing a complete aligned 4-by-4 cube with uniform visible faces, precisely fulfilling completion. Quality: the edited cube has coherent straight grid divisions, rounded plastic borders, plausible perspective and shading, and intact fabric texture; no noticeable structural or generation artifacts are visible."
+    }
+  ]
+}

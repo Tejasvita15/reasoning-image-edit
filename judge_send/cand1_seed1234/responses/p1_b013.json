@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b013",
+  "results": [
+    {
+      "blind_id": "case_fd9ff47554fb4218",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the gray board and principal cell arrangement remain recognizable, but blue clues have become red, additional 1s appear in previously empty cells and a covered cell, and small dark glyphs have been added. Instruction: instead of marking mines with red Xs, the edit recolors and adds numeral 1s; no requested X marks are present. Knowledge: the supplied explanation is blank; the score follows mandatory instruction-failure coupling. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: the grid and large numerals are readable, but multiple stray miniature black glyphs below numbers, jagged numeral edges, and uneven grid borders produce distracting artifacts."
+    },
+    {
+      "blind_id": "case_aadc5b12fc5cec20",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the diagonal white boundary and blue marker remain, but the turf texture changes strongly across the scene, the upper-right dark object becomes a green patch, and the in-play balls disappear. Instruction: all three balls are replaced with conspicuous flat patches; the expected result retains all three because none is wholly beyond the line, so the requested selection of out-of-play balls is misinterpreted. Knowledge: the supplied explanation explicitly says all soccer balls should be retained, whereas none remains visible. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: several large, sharply edged olive patches interrupt the turf, including a split green/white patch cutting across the boundary; these conspicuous texture and surface discontinuities substantially degrade the scene."
+    }
+  ]
+}

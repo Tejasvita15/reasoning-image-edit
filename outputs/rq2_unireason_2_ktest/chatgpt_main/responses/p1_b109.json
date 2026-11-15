@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b109",
+  "results": [
+    {
+      "blind_id": "case_d3cb63e701b03354",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested body recoloring, the phone silhouette, camera and flash arrangement, position, surrounding dry stems and composition remain visually unchanged. Instruction: (1) The pale phone body becomes black. (2) The expected result is this same phone with a black finish. (3) The correct object and its visible casing are recolored completely, retaining realistic highlights. (4) Perfect compliance. Quality: Structure ✔, natural lighting and reflections ✔, artifact-free edges ✔, surface and dry-plant textures ✔; no noticeable visual defect."
+    },
+    {
+      "blind_id": "case_1b3aabc002f5badc",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested placement, background, slate, text and stronger glossy/charred presentation, the two overlapping steak pieces retain their identities and arrangement. The foreground rosemary garnish has visibly changed leaf shapes and branching, a clear non-requested alteration. Instruction: (1) The meat is reduced and placed below center on a black slate with a pale gray background and upper-right dark-brown bold sans-serif lettering. (2) The intended result includes a white/light-gray gradient and the exact words Bold. Juicy. (3) The overall minimalist layout and slate are achieved, but the lettering reads Bold. Juijy. and the background is predominantly gray rather than pure white with a light gradient. (4) Partial compliance. Quality: Structure and perspective ✔, coherent shadows ✔; artifact-free/text fidelity ✘ because the prominent word Juijy is malformed, and texture fidelity ✘ because the meat surface has conspicuously harsh, blotchy highlights and dark patches. These are noticeable flaws in an otherwise coherent food advertisement."
+    }
+  ]
+}

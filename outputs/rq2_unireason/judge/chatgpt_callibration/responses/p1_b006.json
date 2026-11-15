@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b006",
+  "results": [
+    {
+      "blind_id": "case_6e2fc482fc6df683",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the sky, wooded left hillside, distant hills, pasture trees and fences retain their arrangement, but the exposed right riverbank and its edge are visibly reshaped. Instruction: no boat has been added; the river remains empty, whereas the requested result needs a Jiangnan boat by the river. Knowledge: the specified black-canopied Wu-peng boat is absent. Instruction failure ⇒ knowledge invalid. Quality, considering the edited image alone: coherent banks, trees, water reflections and daylight; natural textures with no clear generation defects."
+    },
+    {
+      "blind_id": "case_18c72f005f165b6a",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the large left tablet has been replaced by a narrow phone with an earpiece and navigation icons; device spacing, bezel details and screen appearance also change, so most major protected device details are lost despite the retained white background. Instruction: the right phone becomes taller and wider, but remains far narrower than the original tablet; the tablet itself is replaced, leaving no faithful size match to the original reference device. Most of the required size adjustment is therefore poorly implemented. Quality, considering the edited image alone: the two phones have coherent screens, controls, perspective and shadows; slightly rough doubled contours along their metallic edges are a minor surface imperfection."
+    }
+  ]
+}

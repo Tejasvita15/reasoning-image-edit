@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b002",
+  "results": [
+    {
+      "blind_id": "case_f21fcb613ed77761",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the same beaker, diagonal rod, printed graduations, tabletop and blurred kitchen objects remain, but the framing has shifted upward through the scene, cutting off the rod tip and moving the beaker higher in the image; this is one clear composition change beyond adding oil. Instruction: golden oil now visibly fills the bottom of the previously empty cup, satisfying the requested addition without a specified fill level. Knowledge: the explanation predicts near invisibility of the immersed rod, but its lower tip remains distinctly outlined through the oil, a clear conflict with the expected optical effect. Quality: satisfactory glass structure, believable liquid surface and reflections, natural lighting and background blur, and no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_f962bc48caf401e4",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding the requested bottom-right replacement, the outer rectangular border and the eight other motifs retain their shapes, positions and arrangements; display scaling does not change those elements. Instruction: the empty bottom-right outlined placeholder is replaced by a large solid diamond. The expected replacement is a four-pointed star surrounded by four black dots; the location is correct, but the required shape and dots are missing, constituting a major omission. Knowledge: the supplied star-and-four-dots expectation is not met. Instruction failure ⇒ knowledge invalid. Quality: the edited diagram has coherent geometric symbols, consistent black-on-white rendering and an intact border, with no distracting artifacts; modest edge roughness does not obscure any symbol."
+    }
+  ]
+}

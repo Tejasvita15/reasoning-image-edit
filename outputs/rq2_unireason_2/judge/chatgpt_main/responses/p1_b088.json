@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b088",
+  "results": [
+    {
+      "blind_id": "case_b4019d188b3c0539",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the low broken board on grey ground becomes an upright board against a wall; the camera angle, setting, board orientation and surviving deck appearance all change. Instruction: a rounded complete-looking board appears, but the expected result was the original skateboard with its broken end restored. The original is replaced and repositioned rather than visibly completed, a major omission. Quality: lighting and pavement textures are coherent, but the additional wooden deck-like slab behind the blue board and the ambiguous hardware between the two create a noticeable structural confusion."
+    },
+    {
+      "blind_id": "case_a7526d8dd15cdfd1",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the enclosing frame, both upper diamonds and the divided lower-left square disappear; the entire diagram becomes a rectangle and a loop with a curved tail. Instruction: the expected edit replaces only the bottom-right shape with an undivided square. No square is supplied there and the pattern is removed, so the instruction is not followed. Knowledge: the supplied explanation explicitly requires a square without a middle line; neither the wide rectangle nor the loop satisfies it. Instruction failure ⇒ knowledge invalid. Quality: viewed alone, the simple black rectangle and loop have coherent outlines on a clean white field, with no noticeable rendering artifacts; their abstract content does not itself reduce visual quality."
+    }
+  ]
+}

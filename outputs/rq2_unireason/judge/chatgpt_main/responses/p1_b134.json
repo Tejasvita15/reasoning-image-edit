@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b134",
+  "results": [
+    {
+      "blind_id": "case_fdd98b7e6a0d041b",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The six colored tile groups, existing white and yellow numerals, gradients, shadows and arrangement remain visually unchanged. Instruction: The bottom-right question mark is still present; it should have been replaced with 410, so the requested change is absent. Knowledge: The supplied difference-and-sum rule gives 7−3=4 and 7+3=10, concatenated as 410; this answer is absent. Instruction failure ⇒ knowledge invalid. Quality: Legible numerals, coherent rectangular tiles, smooth gradients and consistent shadows; no noticeable visual artifacts."
+    },
+    {
+      "blind_id": "case_0d3798b6f7a638ab",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The grid arrangement and existing black/white dot assignments remain, but circle outlines become irregular and noisy, white cell backgrounds acquire speckled discoloration, and the question-mark shape shifts. Instruction: The target cell still contains a question mark and no dot array, so the requested pattern completion is absent. Knowledge: Applying the supplied same-color rule requires a 4×4 array with rows black/white/black/white, black/white/white/white, black/white/black/black, and white/black/white/black. None is drawn. Instruction failure ⇒ knowledge invalid. Quality: The dot arrays and grid remain readable and structurally coherent, but rough circle edges and mottled pale backgrounds are clear visual artifacts."
+    }
+  ]
+}

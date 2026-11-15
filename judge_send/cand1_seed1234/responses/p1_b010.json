@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b010",
+  "results": [
+    {
+      "blind_id": "case_023cfa7c3ac561c9",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white pointed-toe pump design, slender high heel, curved upper and tan sole remain consistent; the pair arrangement, background, lighting, decorations and typography are permitted by the poster request. Instruction: The isolated shoe becomes a prominent white pair surrounded by gold glitter on a softly lit light gray background. A correct poster would include the exact gold uppercase title and sans-serif slogan; both are replaced by unrelated garbled lettering, so the visual concept is present but required text is not fulfilled. Quality: Shoe structures, shading and surface textures are coherent, but several large headline and slogan lines contain conspicuously nonsensical and malformed letters, producing multiple distracting semantic defects."
+    },
+    {
+      "blind_id": "case_678a3ee680f47ece",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The white ceramic body, lid knob and right handle remain recognizable, but the gray background becomes black, the wooden tabletop and its shadow disappear, and the cup is enlarged and repositioned. These are multiple non-requested changes. Instruction: A prominent red cross is added to the cup front; the expected classic red cross attached to the existing white cup is fully present. Knowledge: The explanation says the Red Cross should be attached; the visible red cross sits on the cup surface and accords with that expectation. Quality: Structural coherence, natural ceramic highlights and texture fidelity are satisfactory; the lid, handle, body and crisp cross are well formed with no noticeable generation artifacts."
+    }
+  ]
+}

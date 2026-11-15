@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b012",
+  "results": [
+    {
+      "blind_id": "case_58c87b732146e217",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding the added garland and its occlusion, the face/gaze and beard details change, the shirt pattern changes, and the framing shows more torso and altered palm/background positions; the general man-in-hat tropical scene remains recognizable. Instruction: A flower loop is newly visible around the neck and down the chest, exactly the expected placement of a Hawaiian welcome garland, so compliance is complete. Knowledge: The added lei contains yellow, red and purple flowers, matching the explicit multicolored-lei explanation and hanging plausibly around the neck. Quality: Anatomy, flower shapes, lighting and fabric are coherent; the small white hat-label lettering is visibly garbled, a minor local imperfection."
+    },
+    {
+      "blind_id": "case_ef08e04f1f5172e5",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding movement and reorientation of the left cup and consequent shadows, the other upright cup changes conspicuously from a tall tapered cup into a broad shallow bowl; the plain pale setting and glossy white material remain consistent. Instruction: The sideways cup is now upright and supported within the lower vessel. The expected result is the original left cup placed on the other original cup; the stacking idea is present, but the receiving object has become a bowl, so the requested two-cup arrangement is only partially realized. Quality: Considered alone, the upper cup and lower bowl have coherent elliptical rims, smooth ceramic surfaces, plausible nesting/contact and grounded shadows, with no noticeable structural or texture artifacts."
+    }
+  ]
+}

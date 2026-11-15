@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b018",
+  "results": [
+    {
+      "blind_id": "case_54d2a94b384a6dec",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the black jacket, orange adidas chest mark, zip, cuffs and gray backdrop persist, excluding viewpoint-related projection changes; however the shoulder stripes are reduced from three to two and the prominently creased torso fabric becomes smooth. Instruction: the oblique original becomes a frontal elevation, with a full-height chest and hem, rather than the reference top view with a dominant neck opening and strongly foreshortened torso; the viewpoint changes in the wrong direction. Quality: the edited jacket alone has coherent seams, symmetrical garment construction, legible branding and clean surfaces without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_f7e1b275d4d186ea",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the wrapped left chocolate and bare right chocolate remain identifiable, excluding requested placement, background and lighting changes; the foil folds are substantially simplified, the cup loses one gold band, and the bare chocolate has many smaller nut bumps instead of the original large pieces. Instruction: two chocolates sit below center against a warm gold gradient with upper-right glow, golden bokeh and a dark brown upper-left heading, matching the intended layout and palette. However the heading is garbled (beginning Every bizk,) rather than the required complete sentence, so an essential requested aspect fails. Quality: the product shapes, foil, shadows and backdrop are visually coherent, but the large nonsensical headline is a clear semantic text flaw."
+    }
+  ]
+}

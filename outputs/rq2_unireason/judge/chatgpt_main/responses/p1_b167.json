@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b167",
+  "results": [
+    {
+      "blind_id": "case_3aace35160a23634",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "Consistency: the white background and bottle identity remain, but the stopper is higher and reshaped, the bottle proportions change, and the label is enlarged and redrawn. Instruction: a dark granular mound has been added to the correct vessel, but it forms a large dry-looking heap above the liquid at the shoulder rather than an appropriate amount mixed into the solution, giving partial compliance. Knowledge: the supplied explanation requires light-green solution and bubbles; the liquid remains pale yellowish and no bubbles are visible, two substantive omissions. Quality: the lettering is legible and bottle silhouette coherent, but the powder appears perched across the shoulder/liquid boundary and the neck-to-mound transition is visually awkward."
+    },
+    {
+      "blind_id": "case_aa0589ef86d5bb4a",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the entire staggered, arrow-linked sequence has become two packed rows of circles, with all original numbers and connectors replaced. Instruction: the requested question-mark circle is no longer identifiable and no correct single-number completion is supplied; the edit wholly replaces the puzzle. Knowledge: Instruction failure ⇒ knowledge invalid. The supplied explanation specifies 21, while the visible source subtraction pattern would give 36−21=15; the edit supplies neither a recognizable completion nor a preserved pattern. Quality: numerous characters are malformed or ambiguous, and many circular outlines merge into adjacent circles, producing multiple distracting structural and text defects."
+    }
+  ]
+}

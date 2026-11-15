@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b003",
+  "results": [
+    {
+      "blind_id": "case_4ddf64d553f53404",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested rotation, the black/red identity and gray background remain, but the glossy reflective finish is substantially dulled and the sculpted lower side panels/vents are simplified away. Instruction: the three-quarter helmet becomes symmetric and front-facing, but compared with the reference it exposes much more crown, has a strongly tapered chin, and omits the visible lateral chin details; the frontal viewpoint is only partially matched. Quality: the edited helmet alone has coherent symmetric construction, clean stripe boundaries, smooth surfaces and consistent shading, without noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_4de2d3e71112a86b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: excluding the requested water recoloring, the horizon, shoreline, buildings and major wave layout remain aligned, but foreground rocks acquire stronger blue-green coloration and contrast, and distant vegetation becomes more saturated and altered in texture. Instruction: the gray/turquoise sea changes to red throughout the visible water while retaining waves and foam, fully showing the requested red tide. Knowledge: the supplied explanation says the water should turn red; the visible red water directly satisfies that expectation. Quality: waves, shore geometry and lighting are coherent, with one minor issue in the overly sharpened, mottled rock surface texture."
+    }
+  ]
+}

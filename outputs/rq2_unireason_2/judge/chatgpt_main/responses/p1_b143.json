@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b143",
+  "results": [
+    {
+      "blind_id": "case_83e9670bd7cce726",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: excluding the permitted pyramid transformation, the blue sky, distant right skyline and foreground terrain layout remain recognizable; the sandy foreground has noticeably altered, mottled surface texture. Instruction: the continuous sloping pyramid becomes a terraced structure with a central staircase, satisfying the stepped-pyramid idea, but the tall pointed cap and limited broad terraces do not fully realize the requested Maya architecture. Knowledge: the supplied explanation specifies Kukulkan at Chichen Itza; the pointed summit instead of its flat-roofed summit temple is a clear architectural conflict. Quality assessed alone: coherent terraced geometry, continuous staircase, consistent sunlight and shadows, and readable stone surfaces; no clear structural or generation artifact."
+    },
+    {
+      "blind_id": "case_f73d87273694570e",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: nearly all protected numbers, circle positions, connecting arrows and the alternating row layout are changed; extra overlapping circles appear. Instruction: instead of filling the original question-mark circle, the edit replaces the diagram with unrelated numbers and malformed labels, so the requested solution is absent. Knowledge: the supplied explanation calls for 21, which is not inserted in the original target; the mandatory failure coupling applies. Instruction failure ⇒ knowledge invalid. Quality assessed alone: multiple top-row labels are garbled, circles overlap and merge, and connector geometry is confused, constituting severe symbol and diagram failures."
+    }
+  ]
+}

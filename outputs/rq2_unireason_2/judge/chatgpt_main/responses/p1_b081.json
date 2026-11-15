@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b081",
+  "results": [
+    {
+      "blind_id": "case_c4abdaa8eb211244",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 2,
+      "knowledge_score": 2,
+      "rationale": "Consistency: excluding requested road damage, the sky has acquired pronounced clouds, the mountain ridge and field details have changed, and roadside trees have different silhouettes and stretched foliage; the general valley setting remains. Instruction: the smooth road is now extensively fractured, displaced and covered with broken pavement, satisfying the requested post-earthquake road changes. Knowledge: cracks and deformation match the supplied explanation, but the pavement rises into repeated enormous thin curled sheets on both sides and forms an implausibly regular folded trough; these are multiple serious departures from credible fractured pavement. Quality: perspective remains readable, but numerous ribbon-like slabs, unnaturally stretched trees and smeared hillside textures create distracting structural and texture failures."
+    },
+    {
+      "blind_id": "case_91450a161f3e54ec",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background, square arrangement and outlined circular nodes remain, but three uninstructed labels change: upper-right 1 becomes 2, lower-right 2 becomes 3, and lower-left 3 becomes 0. Instruction: arrowheads are added to the left and bottom edges rather than reversing an edge cleanly. A correct result would have directed edges with no returning directed path; the clockwise four-node cycle remains and both bidirectional edges add two-node cycles, so the central requirement is poorly implemented. Knowledge: the explanation explicitly requires no cycles, which the surviving and newly introduced cycles contradict. Instruction failure ⇒ knowledge invalid. Quality: labels and arrow directions are readable, lines connect coherently and the background is clean; slightly irregular circle contours, especially the upper-left top edge, are a small drawing imperfection."
+    }
+  ]
+}

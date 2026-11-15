@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b003",
+  "results": [
+    {
+      "blind_id": "case_76e3652f2c65ebe2",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The six colored panels and white gutters remain, but most non-target numeric content changes: 5/3 becomes 3/5, the green panel loses all numbers, 5/4 becomes 5/7, 7/3 becomes 7/6, and several existing answers disappear or become glyphs. Instruction: The bottom-right question mark is replaced with garbled yellow marks; the expected edit is a legible 410 at that location. The target is edited but the required number is not supplied, a major failure. Knowledge: The supplied difference-and-sum rule gives 7−3=4 and 7+3=10, concatenated as 410; the visible marks do not express this result. Instruction failure ⇒ knowledge invalid. Quality: Panel structure and colors are coherent, but multiple answer cells contain severely garbled symbols and other cells are empty; textual and semantic coherence fail across the puzzle."
+    },
+    {
+      "blind_id": "case_c885e26af828122b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, repositioning, neon reflections and darker treatment, the red coupe identity, hood vent, headlight shapes and grille emblem remain recognizable. However, its viewpoint/body proportions change, with a smaller frontal face relative to the side, and the blank white plate becomes a black plate with malformed lettering. Instruction: The edit adds a blurred urban nightscape, cool dark textured treatment, reflected lights and a car below center. The expected silver-gray upper-left headline is “Unleash the Drive.” with smaller Ferrari lettering at bottom center; the actual headline reads “Unleash the Foirce,” and the Ferrari footer is absent. This achieves the poster concept but leaves required text incorrect/incomplete. Quality: The car, road lighting, paint reflections and motion blur are visually coherent; the headline contains a malformed word and the plate has garbled lettering, two clear semantic/text defects."
+    }
+  ]
+}

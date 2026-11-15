@@ -1,0 +1,23 @@
+{
+  "batch_id": "p2_b001",
+  "results": [
+    {
+      "blind_id": "case_6c8ede917e8033c1",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: excluding the beach surface and its surf interface, the horizon, distant ship, blue sea and cloud arrangement remain in place; the cloud texture has a slight local change. Instruction: sand is replaced by a broad pebble-covered shore, exactly the expected shingle beach. Knowledge: visibly rounded stones and coarse sediment satisfy the supplied explanation. Quality: the sea, horizon and foam are coherent, but the left foreground pebble texture forms conspicuously repetitive, flattened rows, a clear surface-texture flaw."
+    },
+    {
+      "blind_id": "case_93236fb44f832dfb",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the river bend, hills, sky and field layout remain recognizable, but tree crowns and branches across the left hillside have been redrawn and the right bank contours and exposed patches are noticeably altered beyond the boat addition. Instruction: a narrow wooden covered boat is added on the river, but its ornate upward-curving pagoda-like roof only partially realizes the requested Jiangnan boat. Knowledge: the supplied expectation is a black-canopied Wu-peng boat; the added vessel has a pale broad roof with sharply upturned corners rather than the characteristic low rounded dark canopy, a clear mismatch. Quality: the boat has a coherent hull, reflection and ripples, but the foliage and eroded riverbank show visibly smeared, irregular shapes that degrade natural surface detail."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b113",
+  "results": [
+    {
+      "blind_id": "case_59bf5bd16a898e08",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Outside the permitted bottom-left selection, most board details change: top-left X becomes L, middle-left X disappears, center O becomes a red stroke, bottom-middle gains O, bottom-right gains an arrow, lower dividers disappear, and framing and wood grain change. Instruction: The ambiguous bottom-left block becomes a clear X, as required, but the expected three X marks down the left column are absent; the requested winning outcome is incomplete. Knowledge: The supplied explanation is blank; task-implied tic-tac-toe logic requires three aligned X marks. No winning X line exists, a clear logical conflict. Quality: Wood textures, lighting and block shapes are coherent, but mixed non-game symbols and the discontinuous lower grid create noticeable semantic and structural flaws."
+    },
+    {
+      "blind_id": "case_9649b833a648c029",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The ground-level broken board is replaced by an upright board beside a wall; viewpoint, background, pose, visible face, surface texture and lighting all change beyond completing the skateboard. Instruction: A full rounded deck and two truck assemblies replace the broken deck, satisfying the main completion idea, but this is a substantially different board with an unexplained additional large wheel rather than a faithful completion of the original. Quality: The deck, wall and pavement look coherent and naturally lit, but a fifth oversized wheel attached near the lower left creates a clear mechanical artifact; the truck hardware also appears mildly distorted."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b205",
+  "results": [
+    {
+      "blind_id": "case_16b3f4225fa400c4",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, shirt placement, short sleeves and central Nike branding remain, but the neck label artwork changes and the fabric fold pattern is noticeably simplified and rearranged, beyond the requested recoloring. Instruction: The black shirt becomes white across its body, collar and sleeves, exactly the expected color change to the same garment; full compliance. Quality: Structure, lighting, clean edges and fabric appearance are satisfactory; the white shirt and dark embroidered logo are coherent without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_6dc78f3a1328f60e",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The yogurt bowl, berries, mint, spoon, napkin and pink table scene are all removed, replaced by a glass on a plain pale surface; virtually all non-instructed scene details change. Instruction: A glass of clear water with a rainbow-colored strip replaces the food scene. The expected requested result is red-cabbage indicator added to water with a resulting liquid color change; the glass is present but the liquid remains clear and the colored strip does not show the requested dropped indicator response, a major omission. Knowledge: The supplied explanation expects acidic yogurt to turn red or pink, but no yogurt or such response remains. Instruction failure ⇒ knowledge invalid. Quality: Glass geometry, transparent water, rim and base reflections, strip edges and cast shadow are coherent and clean, with no noticeable visual artifacts."
+    }
+  ]
+}

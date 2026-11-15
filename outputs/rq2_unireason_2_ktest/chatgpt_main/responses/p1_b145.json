@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b145",
+  "results": [
+    {
+      "blind_id": "case_2333228cd5d2e23d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested placement, setting and illumination changes, the orange ceramic body and cream shade remain recognizable, but the cylindrical metal foot becomes a dark flat plinth and the shade is noticeably narrower relative to the body. Instruction: The edit adds a centered illuminated lamp, navy background, warm glow, dark wooden desk, open pages and sunglasses; a correct result would also have the exact requested title in the upper right. The title is in that area but badly misspelled with repeated words, and the left publication resembles a book, so compliance is partial. Quality: Structure, perspective and desk textures are coherent; the prominent malformed headline is a clear semantic artifact, while the lamp and glasses remain identifiable."
+    },
+    {
+      "blind_id": "case_4201415f881dc5de",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The wall joints, pavement stains, white marking, board placement and wheels retain their arrangement, but the background surface texture is visibly reworked into a coarser, etched appearance. Instruction: The image remains a skateboard split into two separated pieces with exposed jagged wood. A completed skateboard should have a continuous joined deck; no such repair is visible, so the instruction is not followed. Quality: Board, wheels, wall and shadows are structurally coherent and plausible; slightly overprocessed pavement and masonry texture is a small perceptual imperfection."
+    }
+  ]
+}

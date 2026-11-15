@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b087",
+  "results": [
+    {
+      "blind_id": "case_01d02c6cbb9f337c",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested composition, splash, background, shadow and title changes, the clear cylindrical glass remains recognizable but its base and side profile are visibly reshaped. Instruction: The edit adds an uppercase centered heading above a central milk splash on white, as expected, but the second line reads \"SLOIA L AEL DION\" instead of \"CLEAN TO THE END.\" The title is dark gray rather than light silver-gray, and the requested soft bottom shadow is not evident; this is partial compliance. Quality: Structure and surface shading of the glass are coherent, but the nonsensical heading is a clear semantic flaw and the surrounding droplets have conspicuous dark ring-like outlines; the white layout is otherwise clean."
+    },
+    {
+      "blind_id": "case_a74e7d90c97fe40b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The board layout, existing X/O assignments and white background remain, but non-target wood-grain patterns are redrawn, including the bottom-middle tile, and the board framing/perspective and lighting visibly change. Instruction: The ambiguous tilted bottom-left X/O block becomes a face-up X, exactly the required selection to give X the left column. Knowledge: The supplied explanation is blank; using the tic-tac-toe logic explicitly implied by the task and visible board, top-left, middle-left and bottom-left now form three X marks in a straight line, a valid win. Quality: Structural coherence, naturalness, artifact absence and texture fidelity are satisfactory: clear symbols, plausible wooden dividers and blocks, and consistent perspective and shadows."
+    }
+  ]
+}

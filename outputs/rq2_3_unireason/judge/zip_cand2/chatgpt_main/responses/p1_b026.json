@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b026",
+  "results": [
+    {
+      "blind_id": "case_1ef18c1ee3d4243e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding requested background, positioning, lighting, reflection and added headline, the bottle retains its silhouette and red capsule, but the label illustration and lettering are redrawn and the neck emblem is altered. Instruction: the white setting becomes a dark spotlight advertisement with an upright bottle, bottom reflection and upper-right muted gold serif text; the expected wine-red gradient is instead yellow-gold, and the headline is garbled rather than “Timeless. Bottled.”, so compliance is partial. Quality (edited image only): bottle structure, reflection and smooth background are coherent, but the nonsensical headline and malformed fine label lettering are visible text artifacts."
+    },
+    {
+      "blind_id": "case_32b889f0518ff22b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: the green board, laboratory apparatus and tabletop remain recognizable, but the many original water bubbles disappear and the glass proportions and rim/base geometry are visibly changed beyond pencil insertion. Instruction: a yellow pencil has been added through the opening into the water, extending down to the glass bottom; this matches the requested insertion completely. Knowledge: the explanation requires an apparently broken pencil from refraction; the shaft remains essentially aligned across the water surface, without a clear refractive break, a noticeable conflict with that expectation. Quality (edited image only): the glass, water and room lighting are coherent, but the pencil has sharpened graphite tips at both ends and a silver ferrule-like band immediately below its upper wooden point, making its construction visibly anomalous."
+    }
+  ]
+}

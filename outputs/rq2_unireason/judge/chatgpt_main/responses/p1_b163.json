@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b163",
+  "results": [
+    {
+      "blind_id": "case_d8a9ebd70f1feb1f",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The spoon bowl, position, cream color and lighting remain closely preserved; the wooden background is visibly retextured, with changed contours in the dark horizontal grain and right-side knot. The requested handle extension is excluded. Instruction: A long cream shaft has been added below the original cut end. A completed spoon should have a continuous, coherent handle; the extension reaches a terminal end but joins with a conspicuous offset ledge and seam, giving partial compliance. Quality: Structure and artifact checks fail at the stepped, visibly spliced handle junction; otherwise the spoon shading and wood texture are natural and coherent."
+    },
+    {
+      "blind_id": "case_113be38f29a564cc",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, shirt layout, chest logo location and side tab remain preserved. Excluding the requested recoloring, the fabric fold pattern has noticeably changed, especially across the lower torso, and the neck label is more yellow with changed detail. Instruction: The black garment is now white throughout its body, sleeves and collar. This matches the expected white version of the same shirt, fulfilling the requested color change. Quality: The garment has coherent seams, folds and readable logo, with plausible soft shading and no duplication. A thin, unusually dark contour around much of the white garment gives a mildly outlined appearance, a small naturalness issue."
+    }
+  ]
+}

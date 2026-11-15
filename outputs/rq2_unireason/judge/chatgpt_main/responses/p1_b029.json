@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b029",
+  "results": [
+    {
+      "blind_id": "case_65bd5e7a49d8d510",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Most of the white background becomes black, the grid disappears, outlines become white, and several small inset shapes change; the unaffected puzzle is extensively altered. Instruction: The lower-right question mark remains with no answer drawn. A hexagon containing two small circles should replace it, so the requested change is absent. Knowledge: The supplied explanation specifies a hexagon with two central circles, neither of which appears in the target cell. Instruction failure ⇒ knowledge invalid. Quality: The shapes and question mark are recognizable, but the isolated pale bottom-left rectangular tile creates a conspicuous discontinuity in the otherwise black diagram; linework is visibly ragged."
+    },
+    {
+      "blind_id": "case_1e9429a6425f0cdb",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The coffee cup disappears, the paper extends much farther upward and gains a different texture, and the holder contents and wood details change. The broad overhead desk composition remains recognizable, but multiple unrequested details differ. Instruction: The holder is removed from the upper-left position and placed over the lower-right corner of the paper, exactly the requested destination. Quality: The edited image alone has a coherent overhead layout, a clean rectangular sheet, recognizable stationery in a plausible round holder, and consistent lighting and surface textures without clear structural artifacts."
+    }
+  ]
+}

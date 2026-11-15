@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b090",
+  "results": [
+    {
+      "blind_id": "case_11dd0c378eaf86e7",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested poster layout, background, decorations and text, the lantern has changed gold floral motifs, a rounder body profile and a shorter, flared tassel; multiple retained object details differ. Instruction: The plain image becomes a centered lantern poster with gold leafy branches, red petals, red/gold glow and sparkles, matching the expected festive composition. However, the required golden headline and meaningful bottom slogan are replaced by gibberish, so compliance is partial. Quality: Lantern structure, lighting and decorative textures are coherent, but both large headline lines and the two script lines contain conspicuously garbled wording, causing multiple distracting semantic errors."
+    },
+    {
+      "blind_id": "case_a2ec9824835d2e68",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Glass silhouette, rim, facets, water level, framing and tabletop shadow remain aligned; the non-target white background acquires a slight greenish, grainy cast. Liquid coloration is excluded from consistency. Instruction: The clear liquid becomes strongly pink. The expected result for reagent added to pure water is a colorless liquid; the sole requested chemical outcome is therefore incorrectly depicted, a major failure. Knowledge: The supplied explanation explicitly says no color change, remains colorless; saturated pink directly contradicts it. Instruction failure ⇒ knowledge invalid. Quality: Glass geometry, reflections, liquid boundary and shadow are coherent; a small brownish smear near the right liquid shoulder is a minor surface imperfection, with otherwise clean structure."
+    }
+  ]
+}

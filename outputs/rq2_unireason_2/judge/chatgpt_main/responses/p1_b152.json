@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b152",
+  "results": [
+    {
+      "blind_id": "case_571a484d459d2410",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The paper retains its rectangular position and the tabletop retains its plank layout, but the upper-right coffee mug is removed, the paper texture is flattened, and the wood is markedly brighter and higher contrast. These are multiple unrequested changes. Instruction: The holder moves from the upper left to overlap the lower-right corner of the paper, exactly the requested destination; the original location is cleared. Quality: Structural coherence ✔, naturalness ✔, artifact-free ✔, texture fidelity ✔: the overhead stationery arrangement, holder contents, paper edges and wood surfaces remain visually intelligible and coherent, without a noticeable structural defect."
+    },
+    {
+      "blind_id": "case_b110b8fdc08b4b59",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested staging, lighting, viewpoint, stacking and typography changes, the chocolate-coated cookie type and caramel drizzle remain recognizable, but the distinctive cracked coating and drizzle details have been replaced by different smoother surface patterns, a clear alteration of the product appearance. Instruction: The white setting becomes brown velvet with a black slate base and warm upper-left highlights. A perfect edit would show two stacked cookies and the exact quotation at top right from a slightly upward viewpoint. The edit shows three cookies, a largely garbled quotation spanning the top, and a viewpoint looking down on the slate; the central dessert styling is achieved but several required aspects are wrong. Quality: Object structure ✔, lighting and shadows ✔, material textures ✔; artifact-free ✘ because the prominent two-line caption contains distorted, nonsensical lettering. The cookies, velvet folds and slate otherwise form a coherent scene."
+    }
+  ]
+}

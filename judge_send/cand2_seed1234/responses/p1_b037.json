@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b037",
+  "results": [
+    {
+      "blind_id": "case_d99087fb99a45716",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested viewpoint change, the black/red palette, twin crown stripes and gray backdrop remain recognizable, but the visor loses its conspicuous glossy environmental reflections and becomes a largely uniform dark surface. Instruction: the three-quarter helmet is now centered and frontal, but versus the reference its crown is much taller, the lower face tapers more sharply and the lateral chin vents are missing; the front-view transformation is present with notable proportion/detail errors. Quality: considered alone, the helmet has a coherent symmetric shell, clean visor boundaries, smooth surfaces and plausible highlights without noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_054c8a63417d3934",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background and original two-column subject order persist, but the milk-carton artwork and lettering change, the sheep is visibly redrawn, and an extra central column of cartons and eggs appears. Instruction: the edit adds these pictures without connecting or otherwise correctly pairing the original products with their animal origins; the expected yarn–sheep, honey–bee, eggs–hen and milk–cow matches are not established. Quality: the cartoons remain recognizable and cleanly separated, but the cartons contain visibly malformed pseudo-lettering and inconsistent panel graphics. Knowledge: the supplied explanation is blank; the mandatory instruction-failure rule applies. Instruction failure ⇒ knowledge invalid."
+    }
+  ]
+}

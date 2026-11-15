@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b160",
+  "results": [
+    {
+      "blind_id": "case_7657b546ddb64fa3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 3,
+      "knowledge_score": 2,
+      "rationale": "Consistency: The framing, central post, level beam and four right-hand weights remain, but the backdrop acquires pronounced wrinkles, the base texture and lower edge change, and the right weights and chains have noticeably different contours and highlights. Instruction: An additional brass weight appears above the original left weight; the expected added left-side weight is present, but an odd broad support disc and elongated stem make the addition imperfect. Knowledge: The explanation requires two left weights and a leftward tilt. The left load increases, but the beam and pans remain level, failing the specified mechanical response. Quality: Lighting and brass surfaces are coherent, but the left stack has an unnatural pedestal-like junction that makes the weight structure visibly awkward; the remaining scale is legible."
+    },
+    {
+      "blind_id": "case_c754734c1b26cd93",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The river bend, sky, wooded left slope and right pasture retain their layout, but many tree shapes and foliage textures are redrawn and the right bank has substantially changed erosion and grass contours. Instruction: A long narrow covered wooden boat is added on the river, fulfilling the boat addition and location, but its pale broad roof and windowed cabin do not clearly supply the requested Jiangnan boat form. Knowledge: The supplied expectation is specifically a black-canopied Wu-peng boat; the visible light-colored, nearly flat cabin roof conflicts with that defining feature, although the narrow hull floats plausibly. Quality: The boat has a readable hull, roof, wake and reflection, and the landscape has coherent lighting, but foliage and eroded banks have conspicuously smeared, jagged shapes that reduce naturalness."
+    }
+  ]
+}

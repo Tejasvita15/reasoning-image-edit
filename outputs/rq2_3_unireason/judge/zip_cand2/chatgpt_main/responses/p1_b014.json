@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b014",
+  "results": [
+    {
+      "blind_id": "case_8d6393c4f3a1d4c5",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The green board, laboratory setting and tabletop remain recognizable, but the glass framing and proportions change, the water bubbles disappear, and the background apparatus and bench details shift. These changes exceed inserting the pencil. Instruction: A yellow pencil has been added with its lower portion visibly inside the water, exactly fulfilling the requested insertion. Knowledge: The submerged shaft is visibly displaced at the water surface, giving the broken appearance required by the refraction explanation. Quality: Viewed alone, the glass rim, transparent water, pencil facets, tabletop texture and soft background are coherent; lighting and reflections appear natural, without a clear generation artifact."
+    },
+    {
+      "blind_id": "case_b6c2ba8ad5c84771",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The axial body outline, kidney locations and broad abdominal arrangement persist, but the vertebral body changes from textured bone to solid bright white, the bright circular focus anterior to the spine changes, and peripheral labels are differently cropped. These are separate from the requested renal-stone removal. Instruction: The conspicuous white particle cluster within the kidney on the right side of the image is absent and replaced by surrounding gray tissue, meeting the requested stone removal. Knowledge: This matches the supplied explanation that the small white particles should disappear; the kidney itself remains present. Quality: Viewed alone, the axial scan has coherent organ boundaries, continuous body contours and plausible grayscale tissue texture, with no clear structural distortion or distracting generated artifact."
+    }
+  ]
+}

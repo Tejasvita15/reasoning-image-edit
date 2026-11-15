@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b120",
+  "results": [
+    {
+      "blind_id": "case_b9c92de932e74d67",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the gray fluted-column style and receding row remain, but the background changes from light gray to white, the column spacing/framing changes, and shaft/base proportions are altered. Instruction: eight columns remain visible; the expected result is exactly five columns, so the requested count change is absent. Quality: satisfactory structure, lighting, clean edges and surface shading; the stylized architectural row has no noticeable visual artifacts."
+    },
+    {
+      "blind_id": "case_b810eac2524190ce",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the bed, chair, window, curtains and wall carving retain their broad arrangement, but room colors become cooler and darker and the carving, bedding and rug textures are visibly altered. Instruction: two red balloons have been added above the bed; the expected result is one regular-air balloon in the room. Adding balloons addresses the main idea, but the number and unsupported elevated placement are incorrect. Knowledge: the supplied explanation requires the balloon to lie on the floor; both balloons are elevated above the bed, contradicting that physical expectation entirely. Quality: overall room structure is recognizable, but pervasive rippled/embossed distortion affects the bedding, wall ornament, branches and rug, with unnatural edge halos and degraded surface textures."
+    }
+  ]
+}

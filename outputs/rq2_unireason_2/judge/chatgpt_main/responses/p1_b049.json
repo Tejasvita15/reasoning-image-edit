@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b049",
+  "results": [
+    {
+      "blind_id": "case_169bad777eec2a29",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and four-by-four grid remain, but existing lion portraits lose most of their circular manes, existing dog faces/ears are redrawn, and grid positions shift slightly. Instruction: Three blanks receive animal heads but the upper-left cell stays empty; the upper-row tiger, third-row dog and bottom-row lion-like head are all incorrect completions. A correct completion would add tiger at r1c1, lion at r1c3, raccoon at r3c1 and dog at r4c3. Most required changes are therefore wrong. Knowledge: The supplied explanation is blank; the visible row/column repetitions violate the Sudoku logic implied by the task, and the mandatory instruction-failure coupling determines the score. Instruction failure ⇒ knowledge invalid. Quality: The grid and faces are legible and colors clean, but several lion manes appear abruptly truncated and the bottom-row third head has an inconsistent hybrid animal design, creating clear illustration defects."
+    },
+    {
+      "blind_id": "case_2352a512dee1643d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 2,
+      "rationale": "Consistency: The composition, wall/table background, upright, base, pans and right-hand weight arrangement remain recognizable and in place. However, the brass surfaces and chain edges are visibly restyled with stronger polished outlines, and the dark base texture is substantially redrawn. Instruction: An additional brass weight is visibly stacked above the original left weight on a broad disk. The core addition is present on the correct side, but the beam and pans remain level rather than showing the expected loaded-scale response, a minor omission under the supplied example. Knowledge: The explanation requires two left weights and a leftward tilt. Two weights are visible, but the unchanged horizontal beam and equal pan heights contradict the required balance response. Quality: The scale geometry, chains, right weights and surface shading are coherent; thin conspicuously bright/dark contour halos around the central pivot and beam slightly compromise the otherwise natural metallic rendering."
+    }
+  ]
+}

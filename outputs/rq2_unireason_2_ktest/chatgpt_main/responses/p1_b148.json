@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b148",
+  "results": [
+    {
+      "blind_id": "case_0d872e07dedcd6d4",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the three-row layout, pens and fruit counts remain, but the untouched watermelon stripe patterns and lemon contours/textures are visibly redrawn, and grid edges are slightly warped. Instruction: the target cell still contains a question mark; the expected change was its replacement with one watermelon, so no requested completion occurs. Knowledge: the supplied row-category and column-count rule requires one watermelon in the middle-right cell, which remains unanswered. Instruction failure ⇒ knowledge invalid. Quality: recognizable pens, fruit and symbol, coherent colors and shadows; a small imperfection is the slightly uneven outer grid outline."
+    },
+    {
+      "blind_id": "case_7f20475e620e432a",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: the grey three-drawer cabinet, round textured knobs and square legs remain recognizable; excluding the requested scene, placement and lighting changes, its upper moulding has noticeably changed from a broad bevel to several narrow stepped ridges. Instruction: the cabinet is placed left against a warm white wall and light wood floor, with a right-side linen curtain, open space and diagonal sunlight, matching the requested atmosphere and palette. However, the lower-right caption is bold rather than thin-line sans-serif, and numerous words are garbled instead of the specified sentence, giving partial compliance. Quality: cabinet geometry, curtain weave, wood grain and lighting are coherent, but the large caption has multiple malformed and unreadable words, with an awkward separate line above it, causing distracting structural degradation in the typography."
+    }
+  ]
+}

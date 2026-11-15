@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b059",
+  "results": [
+    {
+      "blind_id": "case_bae064cd9e48bd7a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the wooden dial, four numerals, two hands, black pedestal and gray background remain recognizable, excluding the requested front-view projection and drawing treatment. However, the open curved support becomes a complete ring with new horizontal braces, and the gold dial markings become black. Instruction: the oblique face becomes a circular face seen head-on, correctly addressing the main viewpoint request, but the reference retains an open support sweeping along the right side; the new symmetric closed ring and side braces misrepresent its spatial structure. Quality: the drawing alone has clean continuous outlines, legible numerals, coherent clock hands and pedestal, and controlled wood texture and highlights without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_af4ecae35b58635a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: a white puppy with a lime collar remains lying on wooden planks, but the framing pulls back, the facial proportions and ear shapes change, and the background foliage becomes a different, strongly defined bokeh pattern. Instruction: the mouth remains closed and no tongue is visible; the required heat-dissipating behavior is absent. Knowledge: the supplied explanation specifically requires the dog to stick out its tongue, which it does not do. Instruction failure ⇒ knowledge invalid. Quality: considered alone, the puppy has coherent facial and limb anatomy, clear fur and collar details, convincing plank texture and depth of field, with no noticeable generation artifacts."
+    }
+  ]
+}

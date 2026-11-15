@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b010",
+  "results": [
+    {
+      "blind_id": "case_349b405d62efa82a",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The seated pose, nose, snowy foreground, distant building, grass and framing remain consistent after accounting for image size; the eyes have noticeably darker, less golden irises. Fur color and coat texture changes are excluded as requested. Instruction: The white coat becomes gray across the head, body, legs and tail, accurately showing the requested summer fur change. Knowledge: This gray coat directly matches the supplied explanation that the fox fur should turn gray. Quality: Coherent fox anatomy, natural strand texture and lighting, clear eyes and nose, and a plausible softly focused background; no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_2ed0552de6205f09",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The five-by-five grid and most circle colors remain, but the bottom-left circle changes from red to green and the grid geometry and circle outlines are visibly redrawn, with shifted row boundaries. Instruction: The question mark remains in the top-left cell and no blue circle is placed there; the expected completed pattern is absent. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: The shapes and question mark are legible and the layout coherent, but slightly wavering, doubled grid strokes are a minor visual imperfection."
+    }
+  ]
+}

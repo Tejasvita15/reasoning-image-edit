@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b023",
+  "results": [
+    {
+      "blind_id": "case_bf45e1e60eed8973",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the required rotation and its occlusion changes, the black/red helmet identity and stripe motif remain, but the detailed chin-side vent and angular trim are simplified, the reflective surface treatment changes substantially, and the gray background gains a pronounced bright halo. Instruction: the three-quarter helmet becomes centered and frontal, as requested; however, against the reference the crown is disproportionately tall, the visor has a strongly bowed lower outline, and the chin section is shortened. The frontal direction is correct but the reference geometry has notable errors. Quality: assessed alone, the helmet has a coherent smooth shell, clean stripe boundaries, plausible glossy highlights and a continuous visor/chin construction without noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_73642e3efdf72dda",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the glass table, white ribbed vase and pale floral palette remain recognizable, but the bouquet arrangement changes, the book illustration changes from a food image to a person, and the table framing, leg proportions and rim geometry change visibly. Instruction: the book still lies to the right of the vase, just as in the source; the expected edit would place it on the left. Its changed page shape and image do not perform the requested relocation. Quality: assessed alone, flowers, vase, book and transparent legs are generally coherent, but the front-left glass rim has a conspicuous extra disconnected curved edge, making the tabletop construction visibly malformed."
+    }
+  ]
+}

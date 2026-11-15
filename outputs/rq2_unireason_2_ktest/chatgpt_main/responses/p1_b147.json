@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b147",
+  "results": [
+    {
+      "blind_id": "case_ded52b069d348f58",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the cloud formations, horizon, mainland outline, forest tracks and foreground buildings remain in place; there is a small change in fine shoreline/vegetation texture. Instruction: the elongated island on the right has disappeared and its location is filled with water, exactly the requested removal. Knowledge: the explanation identifies the right-hand island as the target, and no land remains there, matching that expectation. Quality: the aerial landscape is structurally coherent with natural sea and vegetation, but the pale, unusually smooth diagonal water streak in the upper-right sea is a minor texture-blending imperfection."
+    },
+    {
+      "blind_id": "case_c6319aecee174e98",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the three-row grid, backgrounds, garment categories and colors are retained, but non-target details are visibly redrawn, including the red flats’ bows and contours and the black sneakers’ lace and panel textures. Instruction: the middle-right cell still contains the black question mark; the expected white trousers have not been drawn, so the required change is absent. Knowledge: white pants are required by the pants row and white column in the supplied explanation, but the question mark remains. Instruction failure ⇒ knowledge invalid. Quality: judged alone, the collage has coherent clothing and shoe shapes, clean panel boundaries, plausible lighting and textures, and a legible question-mark symbol without a clear generation artifact."
+    }
+  ]
+}

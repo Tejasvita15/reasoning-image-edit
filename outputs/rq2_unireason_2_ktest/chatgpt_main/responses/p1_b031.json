@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b031",
+  "results": [
+    {
+      "blind_id": "case_b2c90cb6d9678f97",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The eight sports scenes, subjects, poses and grid placement remain recognizable, but non-target details are visibly redrawn, including the middle tennis court boundary, skier jacket details and baseball jersey lettering. Instruction: The target cell still contains a question mark, now larger; the required tennis image has not been drawn. Knowledge: The supplied explanation requires tennis to match the first cell of the row, whereas no sport appears in the target. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the nine-cell collage has coherent borders, recognizable sporting poses and equipment, natural scene lighting and no conspicuous structural artifacts."
+    },
+    {
+      "blind_id": "case_54e4eca09caecc43",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, title, positioning, gloss and shadow changes, the product is noticeably altered: its ice-cream folds and sprinkle arrangement change, and the cone embossing and waffle pattern are redesigned. Instruction: A centered glossy pink cone, blue-to-light gradient, soft bottom shadow, playful pink/yellow decoration and sugary rounded pink heading are present. However, the heading omits “the” from “Sweet to the core” and garbles the “into” wording; the surrounding illustrations are predominantly flowers and starbursts rather than the requested candies, with only sparse bubble-like dots. These are partial compliance. Quality: The cream, cone, highlights, shadow and colorful layout are coherent, but malformed heading wording and nonsensical embossed cone lettering are two visible semantic/text artifacts."
+    }
+  ]
+}

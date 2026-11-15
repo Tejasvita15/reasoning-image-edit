@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b023",
+  "results": [
+    {
+      "blind_id": "case_ac54dba311623869",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the glass outline, neck, placement, white background and overall reflection are preserved; the shadow/reflection immediately beneath the base is slightly darker. Instruction: sand remains in the upper bulb and a stream still connects it to the lower pile, essentially retaining the running state. A completed cycle should leave the upper bulb empty, so the requested change is absent. Knowledge: the visible upper sand contradicts the supplied empty-upper-part explanation. Instruction failure ⇒ knowledge invalid. Quality: coherent glass contours, plausible transparency, granular sand and natural lighting; no noticeable structural or generation artifacts."
+    },
+    {
+      "blind_id": "case_cbbbb629bb35a3e4",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the composition, opening outline and two loose stones remain in place, but the surrounding intact wall texture is substantially changed into high-contrast ridges and the floor surface is also noticeably darker and more strongly textured. Instruction: the same large white opening remains completely unfilled; completing the wall would close that opening with stone, so the required change is absent. Quality: room geometry and stones are recognizable, but conspicuously crunchy, smeared wall texture gives the surface an unnatural embossed appearance; this is a clear texture artifact."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b010",
+  "results": [
+    {
+      "blind_id": "case_c67f3820046469e3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the ground changes from irregular gravel with stones and a twig to uniform fine sand, and the post loses its knots and detailed grain with a changed top and outline; the instructed shadow change is excluded. Instruction: the shadow becomes a long dark band extending off the left edge, rather than disappearing as expected for the specified result, so the edit misinterprets the request. Knowledge: the supplied explanation requires no shadow, directly contradicted by the prominent cast shadow. Instruction failure ⇒ knowledge invalid. Quality: viewed alone, the post has coherent straight geometry, the sandy surface and directional lighting are natural, and no noticeable generation artifacts are present."
+    },
+    {
+      "blind_id": "case_673998d25680a084",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the authorized poster composition, background, lighting and decorations, the white pointed pump remains recognizable, but its opening and upper profile are visibly reshaped with much more exposed tan lining and a thicker dark-edged sole. Instruction: a prominent white heel, pale softly lit background and gold display lettering create the requested luxury-advertisement idea, but the title and slogan are replaced by illegible nonsensical text; the secondary lettering is not the requested clean sans-serif slogan. This is partial compliance. Quality: the shoe geometry, glossy surface and grounding shadow are coherent, but several large headline, middle and bottom text lines contain malformed or nonsensical lettering, creating multiple distracting semantic defects."
+    }
+  ]
+}

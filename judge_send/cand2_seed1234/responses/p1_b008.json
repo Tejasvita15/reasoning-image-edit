@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b008",
+  "results": [
+    {
+      "blind_id": "case_36406c6d5c510e7c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background and five-card subject remain, but the fan geometry and card positions change substantially, and suits/pip designs change, including a second spade eight and loss of the large diamond pips. Rank changes alone would be exempt. Instruction: the displayed ranks remain 4, 6, 8, 8, 8; a full house requires a pair alongside the three eights, so the requested rank change is absent. Knowledge: Instruction failure ⇒ knowledge invalid. Quality: card edges and printed numerals are clear with coherent lighting, but the duplicate eight of spades and upside-down heart beneath the upright final eight are clear semantic/design flaws."
+    },
+    {
+      "blind_id": "case_bc22e049294d30ea",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white studio background remains, but the originally smaller right turtle is reduced, turned toward the viewer, and separated from the left turtle; the left turtle also has visibly redrawn facial and shell detail. Only resizing the large turtle is exempt. Instruction: the left turtle remains large while the right turtle becomes much smaller; the expected result is a reduced left turtle matching the original small turtle, so the edit reverses the requested operation and does not achieve equal size. Quality: both turtles have coherent shells, faces and scaly limbs, natural contact shadows, and convincing surface textures without noticeable generation artifacts."
+    }
+  ]
+}

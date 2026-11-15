@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b012",
+  "results": [
+    {
+      "blind_id": "case_3a3dbe5d3f5c3d94",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 5,
+      "rationale": "Consistency: excluding the added garland, the framing and body scale change substantially, the shirt pattern and sleeves change, facial details are redrawn, and palm/background geometry shifts; most major non-requested details are altered. Instruction: a large loop of flowers has been added around the neck and hangs over the chest, exactly the requested placement. Knowledge: its yellow and magenta blossoms form a multicolored lei, matching the supplied explanation. Quality, edited image alone: coherent face, anatomy, flowers, lighting and fabric; a small malformed white logo/text patch on the hat band is the only conspicuous local imperfection."
+    },
+    {
+      "blind_id": "case_6ea27cf89f522108",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the left shoe stays in roughly the same position, but its lace arrangement, highlights and toe contour visibly change; the surrounding gray surface also acquires angular tonal boundaries extending beyond the removed shoe. Instruction: the right black shoe is gone, as a one-shoe result requires, but an obvious pale shoe-shaped silhouette remains, making removal incomplete. Quality, edited image alone: the remaining shoe is structurally coherent with readable laces and leather texture, but a large pale silhouette and angular, folded-looking background patch on the right are clear visual flaws."
+    }
+  ]
+}

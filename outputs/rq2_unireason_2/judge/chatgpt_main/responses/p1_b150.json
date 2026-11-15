@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b150",
+  "results": [
+    {
+      "blind_id": "case_36aaa09d2336a3d5",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding the requested eye response, the cat retains its pose, tabby markings, nose and muzzle, but the background becomes bright white, the body/background contour is more defined, and several whisker paths change. Instruction: the dark pupils enlarge dramatically rather than becoming narrow under strong light; the correct eyes are edited in the opposite direction, so the requested response is absent. Knowledge: the explanation requires constriction, whereas both pupils dilate. Instruction failure ⇒ knowledge invalid. Quality: ✔ coherent feline anatomy, ✔ natural fur and whiskers, ✔ consistent perspective and light, and ✔ no noticeable structural artifacts in the edited image."
+    },
+    {
+      "blind_id": "case_2285bc8f8ed0ba7e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding liquid color, the glass silhouette, waterline and placement remain consistent, but the rectangular reflections in the upper glass disappear and the tabletop/background shadows are largely removed. Instruction: the previously colorless water acquires a conspicuous pink tint in its lower portion; the expected result is the same colorless water, so the depicted color response is incorrect. Knowledge: the supplied explanation explicitly says no color change, contradicted by the pink liquid. Instruction failure ⇒ knowledge invalid. Quality: ✔ coherent glass rim, faceted sides and base, ✔ plausible perspective and transparent surfaces, ✔ smooth liquid appearance, and ✔ no noticeable duplication or structural corruption."
+    }
+  ]
+}

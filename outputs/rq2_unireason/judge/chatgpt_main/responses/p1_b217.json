@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b217",
+  "results": [
+    {
+      "blind_id": "case_274b93dc557cda0e",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: face, clothing folds, chair and table details, foliage, background painting and lighting are extensively redrawn; the overall seated composition remains recognizable. Instruction: the source has three arms/hands, and the edit retains both resting arms plus the separate central wine-holding arm. A corrected person should have two anatomically connected arms; the required correction is absent. Quality: structural coherence fails because the man visibly has three arms, a major anatomical error; lighting and painterly surfaces otherwise remain coherent."
+    },
+    {
+      "blind_id": "case_c1456e8ff79f17ae",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "Consistency: the branch arrangement and major leaves remain recognizable, but framing is tighter, the main fruit positions and relative sizes shift, and leaf surfaces and veins are noticeably reworked. Instruction: the two foreground fruits change from pale green to ripe orange-red; the expected mature fruit appearance is substantially achieved, although smaller visible background fruits remain green. Knowledge: the supplied explanation says persimmons should turn red; the foreground fruit gains plausible reddish-orange maturity coloration, with the remaining green background fruit a minor incomplete aspect. Quality: structural coherence, natural lighting, artifact absence and texture fidelity are satisfactory; fruit skins, stems, branches and leaf veins are clearly formed without conspicuous defects."
+    }
+  ]
+}

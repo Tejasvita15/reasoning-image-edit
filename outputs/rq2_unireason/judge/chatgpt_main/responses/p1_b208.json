@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b208",
+  "results": [
+    {
+      "blind_id": "case_3b3a6efa11ce43df",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested adapter relocation, the cable is enlarged and reshaped into near-circular coils with both connector ends gone; the adapter changes from a tall perspective view to a shorter frontal shape, and shadows become stronger. The white product colors and plain background remain. Instruction: The adapter moves from beside the coil to its central opening, precisely satisfying the requested central placement. Quality: Structure is problematic because the cable appears as closed concentric loops without identifiable ends or connectors; otherwise the adapter, smooth surfaces, neutral lighting, and background are coherent."
+    },
+    {
+      "blind_id": "case_03765203aef3889c",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The source actually depicts a black-and-gold fountain pen, whose recognizable nib, trim, clip, and diagonal orientation remain, but the pen is repositioned lower and farther right. The poster background and decorations are requested changes. Instruction: A blue gradient, white clouds, yellow stars, candy-like decorations, and a bear balloon create the requested cheerful poster concept. However, the balloon is on the left rather than slightly right, and the large colorful title is garbled rather than Bear Balloon Party. No bear balloon exists in the supplied source to reuse. These are substantial incomplete aspects of an otherwise recognizable poster edit. Quality: The pen and clouds are coherent, but the title contains conspicuously malformed words, the pink detail over the balloon is smeared and collides with lettering, and several decorative ribbons have broken, mottled forms. These multiple errors undermine an otherwise bright composition."
+    }
+  ]
+}

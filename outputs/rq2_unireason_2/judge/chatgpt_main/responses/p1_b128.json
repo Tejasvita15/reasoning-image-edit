@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b128",
+  "results": [
+    {
+      "blind_id": "case_ac4dcb51541151ce",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the three original digits, match colors and overall arrangement remain recognizable and aligned; the ochre background has a small change in surface texture. Equation modifications are excluded here. Instruction: the original 5−2=5 becomes approximately 502−5: a rectangular loop is built beneath the former subtraction stick and one equality bar disappears. A correct result should move exactly one existing match to leave a true equation; this introduces multiple sticks and leaves no equality sign. Knowledge: the supplied explanation is blank; the mandatory instruction-failure coupling applies, and the visible result is not an equation. Instruction failure ⇒ knowledge invalid. Quality: match textures, lighting and background are coherent, but the central loop crowds the neighboring 2 with overlapping match heads and doubled uprights, producing a clear structural/legibility flaw."
+    },
+    {
+      "blind_id": "case_2db56bf9b5524f98",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background, both saucers, large right cup and its coffee-bean arrangement remain consistent; the left cup’s bean arrangement is clearly replaced with many smaller beans rather than preserving its original contents. The requested size change itself is excluded. Instruction: the left cup is now narrower and remains markedly smaller than the right cup. The expected result is an enlarged left cup matching the right cup’s diameter and overall size; the visible change goes in the opposite direction. Quality: both cups and handles have coherent ceramic contours, the beans have natural surfaces, and the saucers, perspective and soft shadows are convincing, with no noticeable generation artifact."
+    }
+  ]
+}

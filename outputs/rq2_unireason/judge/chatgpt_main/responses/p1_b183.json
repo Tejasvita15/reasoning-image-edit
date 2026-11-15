@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b183",
+  "results": [
+    {
+      "blind_id": "case_49411930ce4dd953",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The eight existing dot patterns, their black/white assignments and the three-by-three arrangement remain intact, but the formerly smooth diagram linework is visibly roughened and slightly irregular throughout. Instruction: The bottom-right cell still contains a question mark; no answer pattern has been drawn, so the requested change is absent. Knowledge: The supplied equal-color rule requires a four-by-four dot answer (rows BWBW, BWWW, BBWB, WBBB), which is missing. Instruction failure ⇒ knowledge invalid. Quality: Structure and symbols are clear and coherent; mildly ragged circle edges and speckled linework are the small visible imperfection."
+    },
+    {
+      "blind_id": "case_64999a25ed71187c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The cat, facial pose, whiskers and blurred setting remain recognizable, but the face framing shifts and the fur and background undergo conspicuous contrast/exposure changes, with crushed shadows and bleached highlights. Instruction: The irises become vivid green and the image brighter, but both pupils remain broad rather than narrowing into constricted slits; the essential eye response is missing. Knowledge: The supplied explanation requires pupil constriction under strong light, which is not depicted. Instruction failure ⇒ knowledge invalid. Quality: Anatomy and whisker structure remain coherent, but extensive black/white clipping erases natural fur gradation, and the intensely saturated eyes look unnatural."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b024",
+  "results": [
+    {
+      "blind_id": "case_810b15de7ff8a38a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the gray board and most blue clues remain, but the green 2 moves from row 4 column 4 to row 4 column 5 and the blue 1 at row 5 column 5 disappears; these clue changes are beyond adding marks. Instruction: four red Xs appear, but a correct solution would mark row 1 column 6, row 3 column 3 and row 4 column 5 (rows counted from the top). Only the last is marked correctly; Xs instead cover an exposed clue and blank revealed cells, while two mines remain unmarked, a major omission. Knowledge: Instruction failure ⇒ knowledge invalid. Quality, edited image alone: coherent rectangular grid, recognizable numerals and deliberate red annotation strokes, consistent flat shading, and no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_0e4a7767c7afde92",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the pale background and lighting character remain coherent, but the surviving left shoe is visibly repositioned toward the center and its orientation and contour change; this is a clear alteration beyond removal. Instruction: the right shoe disappears, leaving exactly one black lace-up shoe and a clean background where the removed shoe was, fully fulfilling the requested removal. Quality, edited image alone: the single shoe has coherent construction, readable laces and stitching, convincing leather reflections and a natural contact shadow, without noticeable artifacts."
+    }
+  ]
+}

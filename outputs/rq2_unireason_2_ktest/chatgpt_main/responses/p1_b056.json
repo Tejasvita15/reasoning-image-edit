@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b056",
+  "results": [
+    {
+      "blind_id": "case_dec148ce7ebcfa25",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The four-box layout, green background and arrows remain recognizable, but the existing six faces have visibly redrawn, heavier eyes and smiles, and the pink hearts have changed outlines and stippled interiors. Instruction: Only one small smiling face was added to the bottom-right square; the six-to-three example requires three faces, so most of the required count is missing. Knowledge: The supplied explanation explicitly requires three smiling faces, whereas only one appears. Instruction failure ⇒ knowledge invalid. Quality: The edited diagram alone has coherent square borders, readable hearts and faces, clean fills and no distracting structural artifacts."
+    },
+    {
+      "blind_id": "case_746cb7a7a41df0b5",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Beyond any allowed viewpoint change, the single textured pineapple composition becomes a large uncolored outline drawing above a much smaller textured pineapple; object count, rendering and layout all change substantially, while the gray backdrop remains. Instruction: Both depictions retain upright side views with crowns above elongated bodies. The reference instead looks directly down onto a compact circular fruit with the crown overlapping its center; the requested top view is absent. Quality: Assessed alone, the two depictions are clearly separated and recognizable, with coherent outlines, plausible fruit texture and a clean neutral background; the sketch style does not introduce a structural defect."
+    }
+  ]
+}

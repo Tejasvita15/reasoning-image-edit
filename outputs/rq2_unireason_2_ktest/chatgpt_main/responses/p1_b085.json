@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b085",
+  "results": [
+    {
+      "blind_id": "case_dfcd486a5087f3dd",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white backdrop remains, but the ceramic pig identity, face, ears, feet, material, orientation and framing are replaced by an upright transparent glass jar. These are not repairs of the missing portion. Instruction: The difference is wholesale object replacement; completing the source should restore the broken pig-shaped vessel while retaining its surviving features. A different intact jar does not complete that vessel, so the instruction is misinterpreted. Quality: Structure, naturalness, artifact absence and glass texture are satisfactory; the edited jar has coherent threads, walls, reflections and base."
+    },
+    {
+      "blind_id": "case_4b0cbf3ea8375b04",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The green frog, expression, blue viewer-left hand, red viewer-right hand, surrounding hand outlines, dashed motion marks and white layout remain visually consistent. Instruction: No surrounding outline receives color; a correct edit would fill each surrounding hand blue or red according to the matching handedness demonstrated by the frog. All eight remain white, so the requested change is absent. Knowledge: The supplied explanation is blank; the mandatory instruction-failure coupling is the scoring basis. Instruction failure ⇒ knowledge invalid. Quality: The cartoon anatomy and hand silhouettes are coherent and the flat colors clean; a tiny isolated reddish fleck at the upper border is a minor artifact."
+    }
+  ]
+}

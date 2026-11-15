@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b228",
+  "results": [
+    {
+      "blind_id": "case_5f291b677216d10f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding repair of the heel hole, the dark sock and foot pose remain recognizable, but the knit and cuff markings are visibly redrawn, leg hair detail changes, and the tabletop has different visible scuffs. Instruction: The exposed-skin hole has been replaced by continuous dark knitted fabric; a complete sock is the expected result, and the repair fulfills it. Quality: Structure, lighting, fabric texture and foot silhouette are coherent, with no noticeable repair seam or generation artifact."
+    },
+    {
+      "blind_id": "case_f6a508b979459636",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The grid and hexagon layout remain, but most existing puzzle contents change: several black circles disappear or move, and lines in numerous cells rotate or disappear. Instruction: The bottom-right red question mark remains instead of being replaced by the required black circle at the far right and upper-right line; the requested completion is absent. Knowledge: The supplied explanation requires a far-right circle and top-right line, neither of which appears in the target cell. Instruction failure ⇒ knowledge invalid. Quality: Assessed alone, the diagram has clean coherent hexagons, grid lines, circles and a legible question mark, without visible rendering artifacts."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b108",
+  "results": [
+    {
+      "blind_id": "case_0515202deebb4eae",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The map layout, existing colored regions and timer value remain recognizable, but boundary strokes are substantially thickened, the blue background grid changes, and the toolbar lettering and icons are redrawn. Instruction: The edit retains the same extensive pale unfilled regions; a completed puzzle would color every region using the four available colors with unlike colors across shared borders. No visible completion occurs, so this is non-compliance. Knowledge: The supplied explanation is blank; the score follows the mandatory instruction-failure coupling. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the puzzle has coherent enclosed shapes, legible timer text, clean color fields and recognizable controls, without a clear distracting artifact."
+    },
+    {
+      "blind_id": "case_4a2e59a4ef9c0176",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The green maze topology, cream background and two flower clusters are preserved, but the girl’s face and body proportions and the watering-can silhouette change visibly. Instruction: A thin red angular marking is added only near the bottom boundary. The expected result is a continuous red route from the girl through open maze corridors to the flowers; this marking does not start at the girl or traverse the maze, and its vertical segments cross green boundaries. Most of the required route is missing. Knowledge: The supplied explanation is blank; the score follows the mandatory instruction-failure coupling, with the visible route also failing the corridor-following logic implied by the task. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the illustration has coherent cartoon anatomy, clean green geometry, readable flowers and smooth color fields; the red strokes are sharp and there are no clear rendering artifacts."
+    }
+  ]
+}

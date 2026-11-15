@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b170",
+  "results": [
+    {
+      "blind_id": "case_79fe14ebab63b835",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and white product colors remain, but the cable is relocated and reshaped into a wide, low stack instead of the original oval, and the adapter is shown frontally with much narrower-looking pins; these exceed the requested positional change. Instruction: The adapter moves from beside the cable into the middle of its loops. The expected result is an adapter centered inside the cable coil, which is fully achieved. Quality: Structural coherence ✔, natural lighting and shadows ✔, artifact-free appearance ✔, and smooth plastic and cable textures ✔; the product arrangement is visually coherent."
+    },
+    {
+      "blind_id": "case_349b6f925aa0ac24",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and green/red branding remain, but the tray changes from a strongly diagonal view to a nearly frontal view, its can arrangement is changed, and label lettering is distorted. Instruction: The separate right can moves above the tray. The expected result is that same can resting on top of the boxed cans; its horizontal placement is suitable, but a substantial white gap leaves it suspended rather than placed on top, so compliance is partial. Quality: Structural coherence ✘ and naturalness ✘ because the upper can floats unsupported and several lower can labels have malformed lettering; surface textures ✔ and otherwise clean edges ✔."
+    }
+  ]
+}

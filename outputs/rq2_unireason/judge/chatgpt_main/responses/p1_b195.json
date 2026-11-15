@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b195",
+  "results": [
+    {
+      "blind_id": "case_179f46d026f25ff3",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The ivory handbag, arched handle and double-G clasp remain recognizable, but the flap contour and quilting paths are visibly redrawn and the leather surface becomes much smoother; background, lighting and framing changes are excluded. Instruction: The edit adds a gray textured gradient and soft halo with ample space around the product, as expected, but the upper-left gold serif slogan is misspelled, the bag remains essentially centered, and GUCCI is placed on the bag rather than at the bottom center of the frame; partial compliance. Quality: Object structure, shadows and background are coherent, but the prominent malformed slogan is a clear text artifact."
+    },
+    {
+      "blind_id": "case_fa863543742938c2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The canal buildings, lanterns, vegetation and general perspective remain recognizable, but two extra boats are introduced and the original rear occupants, including the standing boatman, disappear; these are additional changes beyond replacing the vehicle type. Instruction: The covered canal craft becomes an open, narrow black boat with tall curved ends, and the other visible boats share that form. The expected change to traditional Venetian boats is fully present. Knowledge: The explanation specifies gondolas; the black elongated hulls, raised ends and distinctive bow ornament visibly convey gondolas, matching that expectation. Quality: Architecture, water and hull outlines are coherent, but the foreground passenger has visibly tangled, merged arm/hand detail, a noticeable anatomical flaw."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b014",
+  "results": [
+    {
+      "blind_id": "case_e855257abf49aa1d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background and blue/white product design remain, but the housing perspective and proportions, cable loops, button placement and center-button lettering change. Instruction: the original reads 28.7°C; the expected result is about 31.7°C. The edit instead shows malformed overlapping display segments with no clear 31.7 reading, so the requested adjustment is not achieved. Knowledge: the supplied +3°C expectation is not depicted. Instruction failure ⇒ knowledge invalid. Quality: the product silhouette and lighting are coherent, but the tangled, illegible numerical segments and corrupted center-button text create multiple distracting semantic errors."
+    },
+    {
+      "blind_id": "case_6d8127f33bf02933",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: excluding the requested surface transformation, the viewpoint changes from an elevated ocean view to a close, low water-level perspective, and the cloud bands and sky appearance change; the broad horizon composition remains. Instruction: blue seawater becomes dark, glossy liquid with slick-like patches, addressing the main idea, but the expected rainbow oil sheen is absent. Knowledge: the supplied explanation calls for rainbow patterns; the monochrome gray/black sheen has a clear missing physical appearance cue. Quality: the horizon, lighting and broad wave forms are coherent, but numerous sharply outlined flat oval patches in the foreground look like superimposed disks and disrupt the natural fluid surface."
+    }
+  ]
+}

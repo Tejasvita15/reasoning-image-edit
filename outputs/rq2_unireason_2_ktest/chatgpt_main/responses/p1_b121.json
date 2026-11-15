@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b121",
+  "results": [
+    {
+      "blind_id": "case_646477ca75c23d24",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The broad white door surface becomes a narrow vertical metal strip with a visible side edge and two additional large holes; framing, mounting-plate proportions, and perspective also change. Most major surrounding details are altered. Instruction: The edit changes the mounting presentation but leaves the black open-ended spindle exposed. A completed doorknob should provide a finished graspable knob over this mechanism; that change is absent. Quality: Structural coherence, naturalness, artifact absence, and surface texture are satisfactory; the exposed mechanical assembly, worn paint, and metal shading form a coherent image."
+    },
+    {
+      "blind_id": "case_87ce93467a7a457d",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The two-object arrangement becomes one centered charger; the large charger's body proportions, position, visible top detail, and printed labels change. The pale background remains broadly similar, but most major object details and composition do not. Instruction: The small right charger disappears, leaving a single charger resembling the original larger one. The expected result is two chargers of matching size with the smaller charger enlarged; removal does not fulfill this. Quality: The charger body, ports, lighting, and grounding shadow are coherent, with satisfactory surface texture and no duplication. The port labels have visibly malformed characters, a clear text artifact."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b051",
+  "results": [
+    {
+      "blind_id": "case_d64c0e18365ed44e",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, clouds, birds, typography and centering, the tower itself changes from an oblique view with several visible arches to a frontal, nearly symmetric view with one main arch; its architectural presentation is noticeably altered. Instruction: The blank background becomes a bluish-purple star-speckled poster with clouds, birds, a centered clear tower and the correct handwritten title. A fully compliant poster would also contain the exact requested subtitle and readable sans-serif agency details at bottom left. The subtitle is malformed and does not say “A romantic journey begins here”; the agency text is garbled, so compliance is partial. Quality: Structure and lighting of the main illustration are satisfactory, but the prominent nonsensical subtitle and multiple lines of corrupted bottom text are distracting semantic/text artifacts; tower and cloud textures are otherwise coherent."
+    },
+    {
+      "blind_id": "case_d02016ce026cb142",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background, upright bottle and red Coca-Cola branding remain recognizable. Excluding opening-related liquid changes, the label moves upward and changes proportions, and the lower bottle highlight/reflection pattern is noticeably redrawn, giving multiple non-requested changes. Instruction: Bubbles appear inside the upper liquid, but the red crown cap remains seated on the bottle mouth. The expected edit is an open mouth with the cap removed; that central operation is absent. Knowledge: The supplied explanation expects liquid and bubbles spraying out. Only internal bubbles are visible, with no external spray and the bottle still capped. Instruction failure ⇒ knowledge invalid. Quality: Structural coherence ✔, natural lighting and glass reflections ✔, artifact-free appearance ✔, texture fidelity ✔; the bottle silhouette, branding and visible bubbles form a coherent product image without a noticeable generation defect."
+    }
+  ]
+}

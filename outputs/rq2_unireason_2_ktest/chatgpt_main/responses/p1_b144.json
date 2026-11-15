@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b144",
+  "results": [
+    {
+      "blind_id": "case_3a73a84b50b56436",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, shadows, title and overall placement, several bean surfaces and shapes are redrawn: the top closed bean has different wrinkling, the central split bean has a different contour and crease, and the lower-left bean is substantially reshaped. Instruction: The edit adds a light beige poster background, brown serif bottom title and shadows beneath eight beans. The expected result preserves the original arrangement and exact slogan. Here the bottom horizontal bean is absent from its original arrangement, an upper-right bean appears instead, and the title reads “Brewed for soel” without the requested final period; shadows are also quite heavy. The concept is present but several requirements are incomplete. Quality: Structure and bean textures are coherent, and the poster has a clear layout; however, the otherwise legible slogan contains the conspicuous nonword “soel,” a noticeable semantic flaw."
+    },
+    {
+      "blind_id": "case_3f8c3affcec1a82d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The seated fox, rightward tail, snow and blurred building remain recognizable, but non-fur details change noticeably: amber eyes become bright green with heavier black outlines, the nose/muzzle changes shape, and building/window details and grass colors are redrawn. Instruction: Fur becomes more pointed and striated but remains white, with green staining below the body and tail. A summer-fur edit should visibly produce the gray coat specified in the supplied explanation; no gray transformation is shown, so the requested seasonal change is not implemented. Knowledge: The explanation explicitly says the fox fur should turn gray, whereas the edit retains white fur. Instruction failure ⇒ knowledge invalid. Quality: The seated anatomy and background perspective are readable, but green color bleeds into lower fur and the tail, and the sharply outlined luminous eyes look unnatural against the photographic scene; these are noticeable flaws."
+    }
+  ]
+}

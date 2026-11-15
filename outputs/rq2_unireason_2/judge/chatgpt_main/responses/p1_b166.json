@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b166",
+  "results": [
+    {
+      "blind_id": "case_de8e39a833914ded",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested poster background, decorations, title and compositional placement, the plant canopy has a different leaf arrangement and narrower outline, the braided trunk pattern changes, and the basket weave is simplified; the general plant and woven-pot types remain recognizable. Instruction: The white backdrop becomes a green gradient with a soft central halo, floating droplets and leaf silhouettes, with the plant central and a serif title at upper left. The expected fresh, warm plant poster is achieved, but the required title Green Home reads GREN HOME, a minor textual error. Quality: Structure, lighting, decorative layout and surface textures are coherent and clean; the missing letter in GREN is one small text imperfection."
+    },
+    {
+      "blind_id": "case_50dbf9486c6300a4",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding completion of the damaged wall, the floor texture and intact wall surfaces become conspicuously granular and heavily outlined. The floor perspective, major cracks and two loose stones retain their approximate positions. Instruction: The central white opening becomes larger and rounder rather than being filled. A successful edit would close it with continuous matching stone wall; the opening remains wholly uncompleted, so the task is not fulfilled. Quality: The room geometry is readable, but wall and floor surfaces exhibit pervasive distracting crunchy, wormlike texture artifacts, the stone details blend into this texture, and the intensely white opening has a flat, poorly resolved boundary. These multiple defects substantially degrade naturalness and texture fidelity."
+    }
+  ]
+}

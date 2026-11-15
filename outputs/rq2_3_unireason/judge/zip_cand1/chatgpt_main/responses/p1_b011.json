@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b011",
+  "results": [
+    {
+      "blind_id": "case_51f5c341bebb1e84",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, two-row arrangement, upright silver fork shapes, four tines and broad handles remain visually consistent; fine dark ragged marks along some handle edges are a minor unintended difference. Instruction: The source has eight forks and the edit still has eight, four in each row. The expected result is six forks, so no requested count change is achieved. Quality (edited image alone): Structural coherence, metallic shading and clean background are satisfactory; slight serrated/dashed edge artifacts on the handles are a small imperfection."
+    },
+    {
+      "blind_id": "case_9ff5c6d6df0f0811",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": 4,
+      "rationale": "Consistency: Excluding the permitted repositioning, the white background and green/lavender outline colors remain consistent. The green circle is visibly somewhat larger relative to the outer circle, an unintended size change. Instruction: The green circle moves left and upward from its original offset position. Perfect compliance would make both centers coincide; horizontal alignment is achieved, but the green center remains slightly below the outer center, leaving a small alignment error. Knowledge: The supplied explanation requires coincident centers. The nearly concentric result has the same small vertical deviation, so it is slightly imperfect geometrically. Quality (edited image alone): The two closed outlines and flat white background are coherent and clean; slight contour irregularity/flattening in the circular outlines is a minor shape imperfection."
+    }
+  ]
+}

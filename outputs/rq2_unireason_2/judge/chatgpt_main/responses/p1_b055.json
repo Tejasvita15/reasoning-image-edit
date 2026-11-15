@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b055",
+  "results": [
+    {
+      "blind_id": "case_eead017e4b5a84ec",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The canal, tiled buildings, lanterns and tree retain their overall arrangement, but two original people disappear, the remaining passenger is altered, and additional boats appear in previously empty water. Instruction: The covered craft is replaced by an open, long black boat with raised ends and red seating; all visible craft now have recognizable gondola forms, fulfilling the requested vehicle change. Knowledge: The explanation specifically calls for gondolas, and the narrow black hulls and distinctive raised bows match that expectation. Quality: Architecture, water and boat placement are broadly coherent, but the foreground passenger has visibly distorted face/hand details and the boat reflection is an unnaturally smooth, wedge-shaped patch."
+    },
+    {
+      "blind_id": "case_9fe82ac6e3f7590b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The four-by-four grid and several original symbols remain recognizable, but original givens change: row 2 column 3 becomes a tree instead of a squirrel, row 2 column 4 loses its mushrooms, and row 3 column 1 changes from umbrella to mushrooms. Instruction: Correct completion requires mushrooms at row 1 column 3, umbrella at row 2 column 2, squirrel at row 3 column 4, and tree at row 4 column 4. Instead these cells contain a tree, a canopy-less umbrella fragment, mushrooms, and a blank, respectively; most requested completion is incorrect or missing. Knowledge: The supplied explanation is blank; the task itself implies nonrepeating Sudoku symbols, visibly violated by repeated trees and mushrooms. The mandatory instruction-failure coupling determines this score. Instruction failure ⇒ knowledge invalid. Quality: The grid and many colored icons are clear, but multiple icons are structurally broken, including the bare umbrella crossbar, isolated branch/hook fragments, and mushrooms missing their colored caps."
+    }
+  ]
+}

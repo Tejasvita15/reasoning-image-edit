@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b054",
+  "results": [
+    {
+      "blind_id": "case_c0d99ca2af2e51f6",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and monitor/cuff arrangement remain, but both objects are enlarged and shifted, the monitor labels are corrupted, its heart/status icons disappear, and cuff stitching and tag details change. Requested pressure digits are excluded from this check. Instruction: The original 100/68 readings become malformed decimal-like strings resembling 11.218 and 11.618, while the pulse also becomes a malformed string. A successful edit would show clear hypertension pressure values; the changed display does not reliably supply those values, so this is a major omission. Knowledge: The supplied explanation requires systolic greater than 130 or diastolic greater than 80; neither is clearly represented by the malformed readings. Instruction failure ⇒ knowledge invalid. Quality: Object silhouettes, lighting and surface texture are coherent, but multiple garbled labels and implausibly segmented numerical strings significantly degrade the display semantics."
+    },
+    {
+      "blind_id": "case_aa0dc8189da933ff",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The small stoppered, labeled bottle is replaced by a tightly cropped open-ended cylindrical vessel; the stopper, shoulder, nitric-acid label and original framing are gone. Most major non-requested structure is different. Instruction: A large reddish-brown powder mound and suspended cloud appear, but the original solution bottle is replaced, and the quantity overwhelms the vessel rather than clearly showing an appropriate iron-powder addition to the existing solution. The requested modification is poorly implemented. Knowledge: The explanation predicts light-green solution and bubbles; the image instead shows an orange-brown cloud and mound without a clear light-green liquid or convincing gas bubbles. Instruction failure ⇒ knowledge invalid. Quality: Judged alone, the cylindrical glass boundaries, granular mound, suspended fine particles, lighting and shading are coherent, with no noticeable structural or texture artifacts."
+    }
+  ]
+}

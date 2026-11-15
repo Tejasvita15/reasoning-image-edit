@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b036",
+  "results": [
+    {
+      "blind_id": "case_c2865205265be4e5",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding the instructed shadow change, the gravel and twig-covered ground becomes smooth sand, the pale background line shifts, and the post shape, grain and placement change; the broad upright-post composition remains. Instruction: the long leftward shadow becomes a sharper dark diagonal extending off-frame instead of disappearing, so the requested noon shadow outcome is not achieved. Knowledge: the supplied explanation requires no shadow, contradicted by the conspicuous cast shadow. Instruction failure ⇒ knowledge invalid. Quality: assessed alone, the edited post has coherent straight geometry and wood grain, continuous fine sand texture, and a clean, plausible directional cast shadow, with no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_a31924f449ef154c",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: nearly the entire worksheet is replaced: the yarn, cow, chicken and milk carton disappear, the sheep moves and enlarges, the honey and eggs change form and location, and large invented labels are added. Instruction: instead of connecting yarn to sheep, honey to bee, eggs to chicken and milk to cow, the edit presents a new set of pictures and nonsensical labels with no clear origin matches. Knowledge: the explanation is blank; the mandatory instruction-failure coupling supplies the score. Instruction failure ⇒ knowledge invalid. Quality: the edited image alone contains multiple distracting semantic defects: gibberish large captions and smaller text, an ambiguous orange top-left form, and a fused egg/white-body/insect-like shape at lower right, despite clean outlines and a readable two-column layout."
+    }
+  ]
+}

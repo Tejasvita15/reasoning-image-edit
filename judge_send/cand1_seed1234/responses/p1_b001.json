@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b001",
+  "results": [
+    {
+      "blind_id": "case_18740c32dce277a1",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding matching marks or arrangement needed for matching, the yarn, milk carton and chicken disappear, a bowl replaces a product, the remaining illustrations are enlarged and rearranged, and nonsense captions are added; most major non-instruction details change. Instruction: The edit presents three rows of products and animals without valid connections; a correct result would match yarn–sheep, honey–bee, eggs–chicken and milk–cow. No correct matching is communicated. Knowledge: The supplied explanation is blank; the mandatory instruction-failure rule applies. Instruction failure ⇒ knowledge invalid. Quality: The cartoon objects have coherent silhouettes and colors, but multiple prominent captions are garbled and illegible as meaningful text, producing distracting semantic errors throughout the layout."
+    },
+    {
+      "blind_id": "case_bcaaecb81521a656",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, clouds, glow, typography and poster placement, the painting retains its crane-and-pine subject and dark frame, but crane shapes/poses and tree/rock details are noticeably redrawn, and the carved frame ornament changes. Instruction: A centered framed painting, blue gradient, outlined clouds, light halo, top lettering and bottom-left script are added. The expected poster also needs flying cranes around the painting, the exact title Artistic Charm: Beauty of Tradition in elegant serif lettering, and readable event information. Surrounding cranes are absent, the title is garbled cursive, and the bottom text is not usable event information, giving partial compliance. Quality: The frame and blue cloud layout are coherent and textures remain recognizable, but the large two-line heading and bottom-left text both contain conspicuously garbled wording; these multiple text defects distract from an otherwise legible visual composition."
+    }
+  ]
+}

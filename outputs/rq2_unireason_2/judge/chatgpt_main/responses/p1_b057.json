@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b057",
+  "results": [
+    {
+      "blind_id": "case_489aca3ce71b2837",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The patterned purple fabric and general viewpoint remain recognizable, but the existing blue/orange/pale faces change to green/white-yellow/red and the original four-across cube layout becomes approximately three-across. These alterations exceed filling the missing cube pieces. Instruction: The open recess is filled, but a correct completion would restore the missing portions of the original cube and its regular grid. Instead, the cube is reconfigured, with an oversized red central top tile and a mixed yellow/white front face; most of the required faithful completion is missing. Quality: Lighting, fabric and plastic surfaces are coherent, but the oversized top-center tile interrupts the cubie grid and creates a conspicuous structural flaw."
+    },
+    {
+      "blind_id": "case_50044072e4fe1930",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: All eight existing outer shapes and their paired interior symbols remain recognizable in their original cells; the grid and diagram have a slight overall positional/scale shift. Instruction: The question mark is replaced by an outlined eight-sided shape with a small stray central mark. The expected completion is a hexagon containing two small circles. Although the correct cell is edited, both the required outline and interior pair are missing, a major omission. Knowledge: The supplied explanation explicitly requires a hexagon with two small circles; the octagon and central scribble do not meet either condition. Instruction failure ⇒ knowledge invalid. Quality: The grid and existing geometric figures are legible and coherent, but the new bottom-right figure contains an ambiguous dangling stroke instead of a clean interior symbol, a noticeable artifact."
+    }
+  ]
+}

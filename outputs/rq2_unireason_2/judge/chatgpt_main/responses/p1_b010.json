@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b010",
+  "results": [
+    {
+      "blind_id": "case_aaefb1a544a0dfa9",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the right cup and saucer retain their placement and bean arrangement, but the left cup is moved downward and its original large beans are replaced by a different, much denser arrangement; the background also becomes brighter. Cup size itself is excluded from consistency. Instruction: the left cup becomes smaller, while the right cup remains large. The expected result is two equally large cups; the visible change is in the opposite direction, so the request is not fulfilled. Quality: structural coherence ✔, naturalness ✔, artifact-free ✔, textures ✔. Both cups, handles, beans and saucers are coherent, with plausible shadows; softness on the right does not obscure the objects."
+    },
+    {
+      "blind_id": "case_409d9422bbd847f1",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the black circular rim, white face, numerals, minute dots, framing and footer remain visually consistent; no clear non-requested content changes are visible. Instruction: no meaningful hand-position change occurs: the minute hand still points to 12 and the hour hand to 8. The expected Tokyo conversion should show 9:00, so the requested change is absent. Knowledge: the supplied explanation explicitly requires 9 o’clock, whereas the image still shows 8:00. Instruction failure ⇒ knowledge invalid. Quality: structural coherence ✔, naturalness ✔, texture fidelity ✔; the face and hands are legible and clean, but artifact-free ✘ because a small stock-image watermark remains along the bottom."
+    }
+  ]
+}

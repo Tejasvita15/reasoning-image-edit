@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b019",
+  "results": [
+    {
+      "blind_id": "case_fb15049a497cd956",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested rotation, the blue-and-cream milk-carton identity and white background remain, but black contour outlines and a bottom band are added, the cow panel becomes white, and its four blue lines disappear. Instruction: The cow side is turned toward the viewer, but a substantial MILK front face and broad cap top remain visible; the reference requires a straight-on side with the front face hidden and narrow cap profile. Thus the viewpoint change is partial. Quality: The standalone illustration has coherent carton geometry, clean contours, readable MILK lettering, and intact cap and cow drawing without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_e7de8734e70485c7",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, lighting, placement, and title, the wrapped-left/bare-right product arrangement remains, but foil fold geometry, chocolate nut patterns, and paper-cup stripe details visibly change. Instruction: The gold gradient, warm highlights, bokeh, brown metallic upper-left title treatment, and central chocolates are present. However, the required sentence is replaced by garbled words, and the chocolates are around mid-frame rather than distinctly lower. Quality: The chocolates are recognizable and the lighting is coherent, but several lines of malformed nonsensical title text, an angular white patch beneath/between the products, and a thin corrupted-looking bottom border create multiple distracting defects."
+    }
+  ]
+}

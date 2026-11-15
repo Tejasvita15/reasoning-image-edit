@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b138",
+  "results": [
+    {
+      "blind_id": "case_71b4d179a8978b6b",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested poster background, decorations and title, the supplied black fountain pen with gold nib and clip disappears entirely; no source subject is retained. Instruction: The edit replaces the pen photograph with a cheerful blue-gradient poster, white clouds, stars, candies, a right-positioned bear balloon and the correct colorful top title. A perfect edit would use the provided bear balloon, but the actual source is a pen, so the supplied-subject requirement is not fulfilled despite the other requested features. This is partial compliance. Quality: Structure, illustration lighting and surface textures are coherent, and the title is legible; a small awkward yellow-and-brown protrusion below the P in Party is a localized lettering/decorative imperfection."
+    },
+    {
+      "blind_id": "case_a0c0e7583d4b322d",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, gray fluted-column motif and receding left-to-right arrangement remain. Excluding the requested count change and associated spacing, the columns are visibly redrawn with different, more bulbous capital profiles and altered molding contours, a clear change to their architectural styling. Instruction: The source shows eight columns and the edit shows six distinct columns. The expected result is exactly five; reducing the count addresses the request but does not achieve its specified number, so compliance is partial. Quality: Structural coherence ✔, naturalness ✔, artifact-free ✔ and texture fidelity ✔. The six complete columns have coherent fluting, capitals, bases and shading against a clean background, without noticeable malformed geometry or rendering artifacts."
+    }
+  ]
+}

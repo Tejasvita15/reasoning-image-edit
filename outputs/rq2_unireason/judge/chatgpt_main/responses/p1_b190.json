@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b190",
+  "results": [
+    {
+      "blind_id": "case_f937a72fbaf31ba7",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and device designs remain recognizable, but the non-target tablet is enlarged and shifted right, and spacing between devices increases noticeably. Instruction: The phone becomes smaller relative to the tablet instead of matching its size; the expected result is a phone of approximately the tablet’s overall dimensions. This is a failure of the requested size adjustment. Quality: Structure, lighting, shadows and surface textures are coherent; clean device outlines and controls show no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_3936e535373f0bfd",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Black fabric, orange chest logo, central zipper, cuffs and gray background remain consistent in identity. Excluding the requested perspective change, the shoulder/sleeve stripe pattern is altered to two orange bands rather than the original three. Instruction: The oblique original becomes a straight frontal view, with the full torso and zipper still visible. The reference requires an overhead view with a large visible collar opening and strongly foreshortened torso; orientation, occlusion and proportions do not match, so the viewpoint change is in the wrong direction. Quality: The edited jacket alone has coherent symmetrical construction, legible logo, smooth fabric, clean zipper and natural shading without noticeable artifacts."
+    }
+  ]
+}

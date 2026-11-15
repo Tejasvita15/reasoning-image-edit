@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b006",
+  "results": [
+    {
+      "blind_id": "case_c8d553dfeed76054",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 2,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding the requested whitening, the main tubular arrangement and scene framing remain recognizable, but the reef, water-surface texture and fish details are visibly smeared and altered. Instruction: The reddish tubular organism becomes white across its branches, matching the requested loss of pigmentation. Knowledge: The supplied explanation requires whitening; the visible white organism fulfills that expectation. Quality: The underwater layout is coherent, but widespread oily, warped reef and water textures and flattened, nearly featureless bright tubes create multiple distracting texture defects."
+    },
+    {
+      "blind_id": "case_e417bcb0801e6f27",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: Excluding the added aurora and associated sky glow, the mountain outlines and foreground plant positions are preserved, but the foreground foliage has clearly intensified yellow-orange illumination. Instruction: A broad luminous arc with sweeping curtains now occupies the formerly clear night sky, fully depicting the requested solar-activity effect. Knowledge: The supplied expectation is an aurora in the sky, and the visible luminous curtains satisfy it. Quality: Coherent mountain silhouettes, recognizable vegetation, stars and smoothly flowing light curtains have natural spatial relationships and no conspicuous structural or texture artifacts."
+    }
+  ]
+}

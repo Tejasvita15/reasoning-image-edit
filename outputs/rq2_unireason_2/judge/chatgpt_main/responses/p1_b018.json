@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b018",
+  "results": [
+    {
+      "blind_id": "case_10751b0760dbdf0c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The wood board and broad arrangement persist, but multiple existing stones change color: the third black stone in the top row becomes white, two white stones in the next row become black, and the right black stone becomes white; an extra white stone also appears below. Instruction: Instead of adding a black stone at the open left end of the original four-black horizontal run, the edit changes existing pieces and produces no five-black winning line. Knowledge: The supplied explanation is blank; the visible board and Gomoku winning-line task establish the failed outcome, and the mandatory coupling determines this score. Instruction failure ⇒ knowledge invalid. Quality: Board perspective, round stones and lighting are coherent, but the lower central piece has an anomalous white ring and flat black center, a conspicuous stone-appearance defect."
+    },
+    {
+      "blind_id": "case_c29613388c9663c9",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The three-square layout and most numbers remain, but the bottom-left 6 in the rightmost figure changes to 9 and a new garbled two-line annotation appears beside it; the white background also gains conspicuous dark flecks around the marks. Instruction: The rightmost question mark remains unchanged rather than being replaced with the requested answer. Knowledge: The explanation requires 35, since 6/5 equals 42/35; that answer is absent. Instruction failure ⇒ knowledge invalid. Quality: The squares and main numerals are recognizable, but the lower-right annotation is malformed and partly unreadable, with distracting scratchy fragments around several numbers and line edges."
+    }
+  ]
+}

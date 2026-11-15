@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b001",
+  "results": [
+    {
+      "blind_id": "case_89430838c43d1bc0",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: excluding the requested red annotation, the green domed building, minarets, trees, sky, white maze paths and family retain their details and positions. Instruction: two disconnected red strokes were added, one across the bottom near the family and one curling around a central shrub. A correct result would trace one continuous traversable path from the bottom-right entrance to the building; these strokes run across grass, stop in the lower maze and never reach the destination, a major omission. Knowledge: the supplied explanation is blank; the score uses the mandatory coupling, not an absent explanation. Instruction failure ⇒ knowledge invalid. Quality assessed alone: ✔ coherent illustrated building, trees and figures, ✔ consistent flat cartoon lighting and textures, ✔ clean maze and red strokes without visible generation artifacts; softness does not obscure the scene."
+    },
+    {
+      "blind_id": "case_26960d127802d028",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: apart from the added white material, the glass rim and base, water, ice arrangement, wooden tabletop, reflections and composition remain visually unchanged. Instruction: one large upright white capsule-like mass appears near the bottom. The expected result is calcium chloride pellets added to the ice water with the specified five-minute state represented; discrete pellets are not shown and the substantial ice remains unchanged, so most of the requested modification is poorly implemented. Knowledge: the explanation expects exothermic dissolution and melting, whereas the large solid mass and ice persist visibly. Instruction failure ⇒ knowledge invalid. Quality assessed alone: ✔ coherent glass, ice and wooden surface with natural illumination; ✘ the smooth featureless white mass has conspicuously blurred edges and weak optical integration with the surrounding water, a clear localized visual flaw."
+    }
+  ]
+}

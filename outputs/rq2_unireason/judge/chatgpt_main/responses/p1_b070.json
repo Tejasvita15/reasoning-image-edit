@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b070",
+  "results": [
+    {
+      "blind_id": "case_739000feef9eeb9d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and green/red product scheme remain, but the tray perspective and dimensions, number/arrangement of packed cans, label lettering, and relative scale of the moved can change noticeably. Instruction: The separate right can has moved above the pack and its base rests on the packed cans, with no can remaining to the right; this matches the requested placement on top of the box. Quality: Structural coherence and texture fidelity are problematic: repeated distorted lettering includes \"Lims\" and malformed ZERO SUGAR labels, several pull tabs are warped, and the large can has a ragged label/fruit pattern. The overall product layout and white background remain understandable."
+    },
+    {
+      "blind_id": "case_d2f5bbd7ae8bd242",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background, two tan bags, orange beads and black motifs remain, but the fabric weave, embroidered figures, top folds, and cord/tassel geometry have been redrawn noticeably. Instruction: The right bag remains much taller and wider than the left; the expected result would have both bags matching the small bag in size. No requested size matching is visible, so the instruction is not followed. Quality: Structural coherence, naturalness, artifact absence and texture fidelity are satisfactory: both pouches have coherent gathered openings, continuous cords, plausible bead/tassel attachments, detailed woven fabric and consistent grounding shadows."
+    }
+  ]
+}

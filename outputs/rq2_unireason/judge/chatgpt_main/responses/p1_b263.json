@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b263",
+  "results": [
+    {
+      "blind_id": "case_94d196f45f82ba0f",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The grid and white background remain, but most given symbols are replaced, removed or altered: the top-row tree becomes a squirrel, the second-row squirrel disappears, and lower-row tree/umbrella/mushroom positions change. Instruction: The edit adds some symbols, but should fill the four empty cells with mushroom, umbrella, squirrel and tree respectively while retaining the givens. The first two remain blank and the bottom-right receives an umbrella instead of a tree; most required completion is missing. Knowledge: The supplied explanation is blank; visible Sudoku logic also fails through repeated squirrels and missing cells. Instruction failure ⇒ knowledge invalid. Quality: Grid structure is coherent, but multiple distracting drawing errors include a squirrel fused with a tree, a distorted squirrel with a trunk-like spike, and a truncated umbrella handle; several symbols are structurally corrupted."
+    },
+    {
+      "blind_id": "case_b7b8e26070cd56ec",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The wrapped-left/unwrapped-right chocolate identities and striped paper cup remain, excluding the requested positioning, backdrop and lighting changes. However, the foil fold pattern and the exposed chocolate nut arrangement/contour are noticeably redrawn. Instruction: A warm gold gradient, upper-right bokeh, highlighted chocolates centered slightly low, and dark brown metallic-looking upper-left typography are added as expected. The required sentence is replaced by nonsensical text beginning “Every bizk,” so the overall design is implemented but an essential requested component is wrong. Quality: The composition, shadows and foil/cup textures are coherent, but the large headline contains conspicuously garbled words, and the exposed chocolate has a slightly melted-looking glossy surface; these are clear visual/semantic flaws."
+    }
+  ]
+}

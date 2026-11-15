@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b270",
+  "results": [
+    {
+      "blind_id": "case_54c6b3eee645b709",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the blue-and-cream carton, cap and MILK lettering persist, but the cow drawing is redesigned and its four lower lines disappear; the splash boundary also changes beyond projection. Instruction: a viewpoint change is visible, but it remains a two-face three-quarter view with a prominent MILK face and exposed cap top, rather than the reference\u2019s straight-on cow-side view with symmetric gable and mostly hidden cap. Quality: the edited carton has coherent planar geometry, clean legible lettering and graphics, and consistent shading without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_fd6ed184dc27d232",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: red body, yellow trim, silver bumper and roof cannon remain recognizable, but an extra rear axle is added, the cab gains a rear window and changes shape, and the forward white equipment shutter becomes a solid red compartment. Instruction: the edit exposes more of a side, but faces right and retains a visible front face and oblique roof perspective; the reference is a left-facing strict profile with two axles and two white shutters. These are substantial orientation and structural mismatches. Quality: judged alone, the vehicle is coherently rendered with round wheels, connected body panels, plausible metallic surfaces and grounded shadows, without clear generation artifacts."
+    }
+  ]
+}

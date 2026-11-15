@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b005",
+  "results": [
+    {
+      "blind_id": "case_7b9b4133b8a4c275",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: board layout, remaining corner X pieces and loose pieces are preserved, but both board O pieces (top middle and bottom left) are additionally removed. Instruction: the center X is removed as expected, breaking the three-X diagonal; the requested removal is fully achieved. Knowledge: the supplied explanation is blank; using the tic-tac-toe logic explicitly implied by the task, the two remaining corner X pieces no longer form a winning line. Quality: coherent wooden board and pieces with natural lighting, but conspicuous smeared wood patches and dark residual marks in the center and other empty cells degrade surface fidelity."
+    },
+    {
+      "blind_id": "case_ad21fda316cf66bf",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background and small silver scissors remain recognizable, but the large scissors lose their broad blunt blade profile in favor of narrow pointed blades, and an isolated metal sliver appears below the small scissors. These are not required by resizing. Instruction: the large scissors have narrower blades but retain oversized green handles and a much greater overall length than the small scissors; the expected equal-size pair is largely unrealized. Quality: scissors have coherent handles, pivots and lighting, but the conspicuous detached blade-like fragment between them is a clear structural artifact; metal and green surface textures otherwise remain credible."
+    }
+  ]
+}

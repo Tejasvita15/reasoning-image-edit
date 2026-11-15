@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b097",
+  "results": [
+    {
+      "blind_id": "case_fa14fe8bced274d5",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the glass outline, fluting, waterline and framing remain, but the background becomes brighter white and the broad upper-glass reflections are substantially diminished. Instruction: a vivid magenta patch appears at the bottom with a faint pink cast above; the expected result is colorless water after reagent addition, so this misinterprets the requested outcome. Knowledge: the pink coloration contradicts the supplied no-color-change explanation. Instruction failure ⇒ knowledge invalid. Quality: the glass shape, water surface and grounding are coherent, with no duplicated objects; slight streaky texture in the pale central glass/liquid is a minor surface imperfection."
+    },
+    {
+      "blind_id": "case_809ff2caaef1f2ec",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: the hole outline, floor perspective and two stones remain positioned as before, but the surrounding wall surface and floor/stone textures are visibly changed into harsher, fragmented patterns. Instruction: the edit increases texture contrast while leaving the large white opening entirely present; completing the wall requires filling that opening with continuous stone, so the requested change is absent. Quality: the room and opening remain recognizable, but pervasive jagged mosaic-like texture corrupts the wall, opening edges and floor, producing multiple distracting surface artifacts and unnatural sharpness."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b091",
+  "results": [
+    {
+      "blind_id": "case_2d934bf39b5e4406",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested resizing, the large thermos shifts right and becomes wider, while the small thermos cap changes to a much shallower, more visibly open shape; the beige metallic colors and white background remain consistent. Instruction: The left thermos becomes shorter and wider, rather than matching the tall right thermos. A correct edit would make the left thermos approximately equal in height and overall size to the large one; the visible change does not accomplish that. Quality: Structural coherence ✔, natural lighting and grounded shadows ✔, artifact-free surfaces ✔, texture fidelity ✔; both thermoses have coherent rims, bodies and straps."
+    },
+    {
+      "blind_id": "case_fb3a28df4b799d0d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The original given digits retain their cells and values, but the grid changes from pale fine lines with emphasized central boundaries to uniformly dark lines, and the digit typography becomes heavy and bold. Instruction: Numbers are added to most empty cells, but row 3 column 1 remains blank. A correct completion would fill every empty cell with appropriate digits 1–4; repeated 3s in rows 1, 2 and 4, repeated 2s in row 3, and an 8 show that most of the solution is poorly implemented. Knowledge: The supplied explanation is blank; the task itself implies standard 4x4 Sudoku constraints, which these repetitions and the 8 violate. The mandatory coupling determines this score: Instruction failure ⇒ knowledge invalid. Quality: Structural coherence ✔, clear planar layout ✔, artifact-free rendering ✔, clean surfaces and legible digits ✔; the diagram is visually well formed."
+    }
+  ]
+}

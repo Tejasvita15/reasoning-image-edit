@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b114",
+  "results": [
+    {
+      "blind_id": "case_79ced7111e605197",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The dark background and sleeve remain recognizable, but the entire faucet disappears and the palm/finger contours are visibly redrawn; these are not required by rod removal. Instruction: The rod previously held over the palm is absent, meeting the requested removal. Knowledge: The stream also disappears completely; the supplied explanation requires visible normal vertically downward water flow, which is entirely absent. Quality: Viewed alone, the open hand, cuff, lighting and dark backdrop are coherent and natural; softness does not obscure their meaning and there are no clear structural artifacts."
+    },
+    {
+      "blind_id": "case_f076b9ba6d809f1e",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested splash, background, palette and layout changes, the glass remains a clear cylindrical tumbler but its body is noticeably squatter and wider in proportion; the milk-filled identity is retained. Instruction: The edit supplies a centered milk splash, clean white background and uppercase sans-serif heading. However, the second line reads \"SCCEAL AEL BION\" rather than \"CLEAN TO THE END.\", the heading is dark outlined gray rather than light silver-gray, and the requested soft bottom shadow is absent. These omissions make compliance partial. Quality: The glass, flowing milk, splash and reflective textures are structurally coherent with consistent lighting, but the prominent nonsensical second line is a clear textual semantic flaw."
+    }
+  ]
+}

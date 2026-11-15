@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b165",
+  "results": [
+    {
+      "blind_id": "case_30ebfa6e381b144e",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the requested lower-right answer, major non-target content is lost: the middle-right circle and lower-left diamond disappear, the middle-left polygon loses its dots, and the lower-middle pentagon is replaced by a small empty diamond; horizontal grid boundaries also shift. Instruction: The question mark remains beside tangled angular strokes instead of being replaced by the expected hexagon containing two small circles, so the requested pattern completion is not achieved. Knowledge: The supplied explanation explicitly requires a hexagon with two small circles; neither is recognizable in the answer. Instruction failure ⇒ knowledge invalid. Quality: Structural coherence ✘ and artifact-free ✘: several blank cells disrupt the diagram and overlapping disconnected angular and curved marks create an incoherent lower-right figure. Background and simple line texture are otherwise readable."
+    },
+    {
+      "blind_id": "case_bce5d7ce1bb1792e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Allowing completion of the broken deck and missing wheel assembly, the existing rounded end, dark grip surface and beige wheel style remain recognizable. However, the gray concrete background becomes largely white and the existing deck is reoriented to a flatter angle with altered framing, producing multiple noticeable non-instruction changes. Instruction: The splintered front is extended into a continuous deck with a finished upturned end and front truck and wheels. The expected complete usable-looking skateboard is present, fulfilling the request. Quality: Structural coherence ✔, naturalness ✔, artifact-free ✔ and texture fidelity ✔: the deck has a continuous rim, plausible truck and wheel occlusions, coherent grip texture, and a soft grounding shadow with no noticeable distracting artifacts."
+    }
+  ]
+}

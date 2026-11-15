@@ -1,0 +1,23 @@
+{
+  "batch_id": "p2_b010",
+  "results": [
+    {
+      "blind_id": "case_c429630bb9adab75",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: both glass silhouettes, rims, bases, positions, milk levels and tabletop composition are preserved; excluding the requested red illumination, the gray background has a small increase in fine grain. Instruction: a broad red glow covers the left glass and surrounding surface, while both glasses retain pale milk; the expected red laser entering from the left is not rendered as a beam, so the main requested addition is poorly implemented. Knowledge: no red beam penetrates both cups, and the right cup has no visible beam at all, contrary to the supplied explanation. Instruction failure ⇒ knowledge invalid. Quality: assessed alone, the glasses and liquid surfaces are structurally coherent, with smooth lighting, credible glass reflections and clean textures; the broad red illumination has no distracting rendering artifacts."
+    },
+    {
+      "blind_id": "case_f857d73a7cb712e9",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding permitted repositioning, background, shadow and typography changes, the blue controller retains its overall identity and twin sticks, but the separated directional buttons become a joined cross, the right circle button becomes another square, and the central PlayStation emblem changes to a ring. Multiple non-instructed details change. Instruction: the controller is now centered above mid-frame against a grainy gray-blue gradient with ample space and a soft shadow, and bold black sans-serif text is placed below it; however, the text visibly reads \"Pesss txet.\" instead of \"Press Start.\", leaving a required aspect incorrect. Quality: the composition, shading and controller outline are coherent, but the nonsensical headline and distorted/duplicated face-button symbols are noticeable semantic and rendering flaws."
+    }
+  ]
+}

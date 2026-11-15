@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b011",
+  "results": [
+    {
+      "blind_id": "case_d0987afb0daf4305",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: pose, nose, muzzle and whisker arrangement remain recognizable, but fur contrast and color are strongly altered and the formerly softly blurred body/background becomes conspicuously textured. Instruction: the irises turn bright cyan while both pupils remain broad instead of narrowing; the expected strong-light eye response is absent. Knowledge: the supplied explanation requires pupil constriction, which is not shown. Instruction failure ⇒ knowledge invalid. Quality: anatomy remains coherent, but harsh clipped highlights and crushed shadows degrade the fur, and fluorescent cyan eyes look unnatural."
+    },
+    {
+      "blind_id": "case_ebc93068ff5628cd",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: the canal and general building arrangement remain, but all three people disappear and details of the waterside vegetation and building facade are visibly changed; the requested boat replacement is excluded. Instruction: the covered craft is replaced by a long black open gondola with raised ends, a metal prow ornament and red passenger seats, fully matching the requested traditional Venetian boat. Knowledge: the supplied expectation is a gondola, and the characteristic hull and prow fulfill it. Quality: the boat and architecture are coherent, but a conspicuous flat tan triangular patch beneath the near hull creates an unnatural water-contact/reflection artifact."
+    }
+  ]
+}

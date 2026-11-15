@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b189",
+  "results": [
+    {
+      "blind_id": "case_4ceedc40779444e6",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: the seated pose, beard, green suit and overall room arrangement remain, but the face is redrawn, the foliage and wall painting change, and the table, chair base and shoes have noticeably different shapes and textures. Instruction: the image is restyled but still shows three hands and arms: one beside the fruit, one holding the glass, and one on the right armrest. A correct edit would leave two anatomically connected arms; the unreasonable extra limb is not corrected. Quality: lighting and fabric are coherent, but the three-arm anatomy is a major structural failure."
+    },
+    {
+      "blind_id": "case_fe5c74181841fd9a",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: beyond the allowed red marking, much of the maze geometry is redrawn or removed, the bear changes appearance, the gifts change proportions and ribbon details, and the framing changes. Instruction: red strokes have been added; the expected result is one continuous traversable route from the animal to the gifts. Instead there are broad looping and disconnected stretches, crossings through black walls, and an upper endpoint short of the gift area, so the required path is poorly implemented. Knowledge: no explanation was supplied; visible maze logic requires a connected route through openings. Instruction failure ⇒ knowledge invalid. Quality: the illustration remains recognizable, but numerous isolated black dots and stubs, abruptly broken wall segments, and doubled or branching red strokes create multiple distracting drawing artifacts."
+    }
+  ]
+}

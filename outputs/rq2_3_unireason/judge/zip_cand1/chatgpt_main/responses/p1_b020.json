@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b020",
+  "results": [
+    {
+      "blind_id": "case_c4459c364479525c",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, decorations, text and repositioning/scaling, the cat itself is substantially different: the tilted head becomes upright, eye and muzzle shapes change, ears become more symmetrical, and the front legs and paws assume a different pose. Most retained subject details are changed. Instruction: The plain photo becomes a centered cat poster with a pink-blue gradient, floating paw prints and a bright pink handwritten Pet Home title. A correct result would also show heart-shaped bubbles, slight enlargement and the exact light-gray tagline Add warmth to your life. Hearts are absent, the cat occupies less of the frame, and the gray tagline is unrelated gibberish; the main poster concept is only partially fulfilled. Quality: Structural coherence is satisfactory for the cat and paw decorations, naturalness and fur texture are satisfactory, and there is no conspicuous ghosting; however, the prominent bottom text is semantically garbled, a clear visual communication flaw."
+    },
+    {
+      "blind_id": "case_cb2a652e2e86406a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background and 4x4 arrangement remain, but the thin pale grid with emphasized central dividers becomes an entirely heavy black grid, and several supplied clues change, including row 1 column 2 from 3 to 2, row 2 column 2 from 2 to 8, and both left clues in row 4. These are multiple unauthorized changes. Instruction: Most empty cells acquire digits, but row 3 column 1 stays empty. The expected result is a fully filled valid 4x4 Sudoku retaining its clues; the output instead includes 5, 8 and 9 and repeated digits, such as two 2s in row 1 and row 4. Most required correct completion is poorly implemented. Knowledge: Instruction failure ⇒ knowledge invalid. The supplied explanation is blank; this score follows the mandatory instruction-failure coupling. Quality, assessed only as a graphic: Structural coherence ✔ (straight complete grid and clearly legible digits); naturalness ✔ (consistent flat black-and-white presentation); artifact-free ✔; texture fidelity ✔. Slight raster roughness does not obscure any digit."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b003",
+  "results": [
+    {
+      "blind_id": "case_a42a93def167b073",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background and five-by-five grid remain recognizable, and the lower four rows retain their circle colors, but three existing top-row circles change from blue/lime/blue to dark green; grid spacing and placement also shift slightly. Instruction: the question mark is recolored green and remains in the target cell instead of being replaced by the required blue circle, so the requested shape is absent. Knowledge: Instruction failure ⇒ knowledge invalid. Quality, considering the edited image alone: the grid, circular symbols and question mark are coherent and legible, with clean flat fills and no noticeable structural artifacts; moderate edge softness causes no semantic loss."
+    },
+    {
+      "blind_id": "case_b00737e0c31e97fd",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background and brown-cover/yellow-page identities remain, but the unrequested left book becomes visibly smaller with changed page texture, while the right book widens and shifts left. These extend beyond the allowed thickness change. Instruction: the right book gains a substantial page block, addressing the correct object and attribute, but its thickness remains visibly below that of the left book; an exact match would give both equally thick page blocks, so this is partial compliance. Quality, considering the edited image alone: both books have coherent rectangular page blocks, continuous covers and plausible perspective, with readable page textures and no noticeable generation artifacts."
+    }
+  ]
+}

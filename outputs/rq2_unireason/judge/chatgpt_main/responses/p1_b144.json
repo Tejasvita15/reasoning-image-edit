@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b144",
+  "results": [
+    {
+      "blind_id": "case_c8b57bcf5cb00255",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested setting, lighting, stacking, camera and typography changes, the cookies lose their distinctive cracks and irregular outlines, and their sparse curved drizzle becomes dense parallel stripes; these are multiple noticeable product-detail changes. Instruction: The white setting becomes brown fabric with a black slate base and upper-left highlights. The expected scene has exactly two stacked cookies, a slightly upward view, and the exact quotation at top right. The edit has three cookies, an elevated view and garbled text across the top; the rich dessert-display concept is present but several requirements are incomplete. Quality: Structure and lighting are coherent and the chocolate, fabric and slate remain recognizable; however, the conspicuously malformed headline is a clear semantic artifact."
+    },
+    {
+      "blind_id": "case_dc36c40207831f9e",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested placement, background, shadow and headline, the controller retains its blue/black palette and general control layout, but its tilted perspective changes to a symmetrical frontal view, the grip contours change, and the central PlayStation emblem becomes a different small symbol. Instruction: The edit adds a grainy light gray-blue gradient, soft underlying shadow, ample open space and a bold black bottom-centered headline, with the controller slightly above center. This closely matches the expected advertisement; the requested final period in \"Press Start.\" is missing, a minor omission. Quality: Structure, lighting, shadow and material rendering are coherent, and the headline is clean and legible. The tiny central button marking looks malformed, a small localized imperfection."
+    }
+  ]
+}

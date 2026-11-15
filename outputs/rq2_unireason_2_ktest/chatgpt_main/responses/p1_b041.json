@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b041",
+  "results": [
+    {
+      "blind_id": "case_9807f88e8fa26765",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the amber bottle, laboratory background and pale tabletop remain recognizable, but the headline is severely garbled, the beaker graduations are altered/removed, and the tabletop framing and marks change. Requested solution effects are excluded. Instruction: a white plume and submerged cloud have been added, suggesting dry ice, but the solution becomes saturated red-pink instead of showing the requested elapsed-time colourless result; the main action is only partially fulfilled. Knowledge: the supplied explanation predicts CO2 lowering pH and fading pink to colourless; the strongly coloured liquid directly contradicts that central outcome. Quality: glass and bottle shapes, lighting and surface textures are coherent, but the large first-line lettering is visibly malformed and unreadable, a clear semantic artifact."
+    },
+    {
+      "blind_id": "case_a75fe93d746ab522",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: teal upholstery, asymmetric shell design, pale wooden tray on the teal side unit, and white studio setting remain recognizable; viewpoint-related repositioning is excluded. The metal base changes from crossing floor rails to a perimeter-like sled arrangement, a clear alteration of the object structure. Instruction: the edit shows the opposite front-side angle, with the seat cushion and inner back still fully visible. The requested rear view and reference instead show the continuous outer back shell hiding the seat, with the side unit partly occluded; the viewpoint change is in the wrong direction. Quality: the edited chair and side unit have coherent contours, plausible materials, legible spatial relationships and natural studio shadows, without noticeable generation artifacts."
+    }
+  ]
+}

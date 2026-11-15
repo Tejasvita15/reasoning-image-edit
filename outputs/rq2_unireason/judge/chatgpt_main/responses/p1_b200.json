@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b200",
+  "results": [
+    {
+      "blind_id": "case_f5b40c645d6fa356",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Excluding the requested surface transformation, the open horizon and sky placement remain, but the sky cloud texture is visibly redrawn into sharper, denser bands. Instruction: The rippled blue sea becomes smooth, dark and glossy with broad pink-blue reflections; an oil slick should show an oily surface sheen. The main idea is present, but the visible result largely resembles reflective calm water rather than a clearly identifiable slick. Knowledge: The supplied explanation specifically expects rainbow patterns; the broad sky-colored reflections lack that iridescent rainbow pattern, a clear mismatch. Quality, edited image alone: The horizon and reflections are coherent, but several isolated black oval depressions on the distant surface appear unnaturally hole-like, a noticeable visual flaw."
+    },
+    {
+      "blind_id": "case_36354d480533f356",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The puzzle outline, region arrangement and existing colored regions are retained, but the blue background loses its square grid and the bottom toolbar lettering, button outlines and right-hand icons are visibly redrawn. Instruction: The edit leaves the numerous pale unfilled regions unfilled, retaining essentially the same partial coloring. A completed Four-Color Theorem puzzle would color every region while separating edge-adjacent regions by color; no substantive completion is visible. Knowledge: The supplied explanation is blank; this score follows the mandatory coupling rather than absent explanatory text. Instruction failure ⇒ knowledge invalid. Quality, edited image alone: The map regions and colored fills are coherent and the timer is legible; slight malformed blending in the small far-right toolbar icons is a minor imperfection."
+    }
+  ]
+}

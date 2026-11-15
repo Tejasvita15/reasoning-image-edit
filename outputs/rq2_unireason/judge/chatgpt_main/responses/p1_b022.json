@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b022",
+  "results": [
+    {
+      "blind_id": "case_becef49e5d6346e8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested placement, background, reflections and graphic treatment, the red Ferrari remains recognizable in a similar three-quarter view, but its headlamp internals and wheel detail are changed and the white license plate becomes dark gray. Instruction: The edit adds a blurred urban nightscape, restrained light streaks, a lower central car and text in the requested locations. A fully compliant poster would say “Unleash the Drive.” and “Ferrari”; instead the headline reads “Unleash the the Wice” and the bottom brand is malformed, while the palette is predominantly blue rather than dark gray. These are substantial incomplete aspects of the otherwise present poster concept. Quality: Structure, perspective and reflective bodywork are coherent; the headline and brand lettering contain two clear semantic/text defects. No major additional structural artifact is evident."
+    },
+    {
+      "blind_id": "case_ebaa8b0baf4a7f91",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": null,
+      "rationale": "Consistency: Beyond any allowed anatomical correction, the whole rendering changes to a strongly outlined illustration; the face, suit folds, ornate wall imagery, fruit-table details and chair pedestal are redrawn. General subject and arrangement remain recognizable, but most major non-instruction details differ. Instruction: The source has three visible hands/arms, including a central wine-holding arm in addition to both resting arms. The edit retains all three, while the lower-right leg and shoe disappear and the remaining crossed-leg arrangement ends in a truncated hanging trouser form. A correct edit would produce a coherent two-armed, two-legged person; the actual unreasonable anatomy is not corrected. Quality: The edited image alone has a major anatomical failure with three arms and an incomplete second leg. The stylized textures, lighting and wine glass are otherwise coherent, but they do not resolve the severe body structure errors."
+    }
+  ]
+}

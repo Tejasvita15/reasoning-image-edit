@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b045",
+  "results": [
+    {
+      "blind_id": "case_ab2daa88bb5e8934",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The broad ice-lined waterway composition remains, but the pale overcast sky becomes dark, strongly patterned clouds and the lighting changes to much harder, brighter contrast; these are not necessary consequences of melting. Instruction: The right ice bank appears lower and more cut away, suggesting some recession, but large foreground floes and the central distant iceberg become more prominent rather than showing a clear overall loss of ice. An appearance after warming should visibly show partially melted glaciers, so this is partial compliance. Knowledge: The supplied explanation expects partial melting; recession at the right is compatible, but the enlarged-looking central and foreground ice conflicts with a coherent reduction of the original ice. Quality: Structure, perspective, reflections and ice surfaces are coherent in this stylized landscape, with no clear duplication, broken forms or other noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_83cd08ffbc409311",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The peach setting and broad draped necklace arrangement remain recognizable, but the decorative medallion designs, chain-link shapes and continuity, and the contour of the upper-right prop change noticeably beyond recoloring. Instruction: The gold chain, both decorative ends and clasp are changed to metallic silver throughout, fulfilling the requested color change. Quality: Metallic shading and the setting are plausible, but a lower-left chain strand dissolves into faint disconnected ghost links and the adjacent outer strand has overlapping smeared links, creating clear structural artifacts."
+    }
+  ]
+}

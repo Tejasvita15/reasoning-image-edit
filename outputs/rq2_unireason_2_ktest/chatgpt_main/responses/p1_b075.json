@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b075",
+  "results": [
+    {
+      "blind_id": "case_8aa70170a875cc15",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the circular pile, blue surface and lower shadow retain their arrangement, but the untouched outer powder becomes markedly coarser and the blue background acquires stronger mottled texture. Instruction: a pale liquid pool with a small reflection now occupies the pile center; the expected addition of a portion of water to the same pile is visibly present. Knowledge: the supplied explanation requires blue crystals, yet the surrounding material remains white and the center is a grayish pool without blue crystals, missing the specified transformation. Quality: the pile silhouette, granular rim and shadow are coherent; the central liquid is somewhat unnaturally flat and featureless, a minor surface-rendering issue."
+    },
+    {
+      "blind_id": "case_673c75c031bf48bb",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 4,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the three overlapping tissues retain their ordering and broad geometry, but the gray background changes to pale pink and the tissue surface wrinkles and embossing become substantially stronger and altered. Instruction: all three main white tissue surfaces are now pink as expected, including their embossed borders; a small exposed white strip remains at the lower right behind the middle tissue, a minor missed area. Quality: coherent overlapping paper shapes, detailed embossed borders and fibrous creases, consistent light and contact shadows; no noticeable structural or generation artifacts."
+    }
+  ]
+}

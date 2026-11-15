@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b112",
+  "results": [
+    {
+      "blind_id": "case_307b9cbda16ec9b3",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: Excluding the requested water transformation, the empty seascape composition remains, but the sky has visibly different, brighter cloud bands and a sharper horizon. Instruction: Blue rippled water becomes broad brown-and-dark swirling bands; an oil-coated sea is expected. The surface transformation is present, but its opaque wood-grain appearance only partially conveys an oil slick. Knowledge: The supplied explanation requires an oily sheen with rainbow patterns; the brown monochromatic swirls lack the expected rainbow iridescence, a clear mismatch. Quality: The horizon and perspective are coherent, but the pervasive thick, repeated wood-grain pattern looks like a textured solid plane rather than a natural liquid surface, a noticeable visual flaw."
+    },
+    {
+      "blind_id": "case_69de8bfad5918154",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The white background remains, but the stoppered reagent bottle, neck, shoulders, readable nitric-acid label, bottle scale and framing are replaced by a close crop of a straight-sided unlabeled vessel; most major uninstructed details change. Instruction: A huge reddish-brown powder mound and suspended particles appear in orange liquid. The expected edit is an appropriate amount of iron powder added to the original solution; the excessive heap and rust-colored material poorly implement that change. Knowledge: The supplied explanation expects light-green solution and bubbles; neither is clearly depicted in the orange, powder-filled result. Instruction failure ⇒ knowledge invalid. Quality: The glass walls, particulate detail and lighting are coherent, but the thick granular band at the liquid surface blends awkwardly into the liquid, a minor texture issue."
+    }
+  ]
+}

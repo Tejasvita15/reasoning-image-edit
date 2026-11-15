@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b161",
+  "results": [
+    {
+      "blind_id": "case_7d1fe5b42178807c",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The hole outline, floor layout and two loose stones retain their positions, but the surrounding wall, floor and stones acquire conspicuous harsh, fragmented textures and stronger contrast. Instruction: The visible change is surface texture; a completed wall should fill the central opening with stone, but the large white hole remains fully open, so the instruction is not followed. Quality: Structure is recognizable, but naturalness and texture fidelity fail across the wall and floor: pervasive jagged, mosaic-like marks and crushed dark edges make the surfaces visibly corrupted."
+    },
+    {
+      "blind_id": "case_e2d308a2dd8aca96",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 4,
+      "rationale": "Consistency: Excluding the requested ball position, the metal track changes from a symmetric U with two upright ends to an asymmetric loop with an inward-curving left end; the ball is also substantially larger relative to the rail. The brown setting and lighting direction remain consistent. Instruction: The ball moves from the upper left to the upper right. The expected result is a ball marking its maximum rightward height, and the edit clearly depicts that endpoint near the right rail top. Knowledge: The supplied explanation requires equal rise by energy conservation. The right ball is approximately at the original release level relative to the rail top, but its height above the track bottom is slightly increased, a small deviation from exact equal height. Quality: Structural coherence, lighting, artifact absence and texture fidelity are satisfactory; the orange sphere and smooth continuous metal strip have clean contours, credible shading and coherent surfaces."
+    }
+  ]
+}

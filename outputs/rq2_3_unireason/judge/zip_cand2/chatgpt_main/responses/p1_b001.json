@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b001",
+  "results": [
+    {
+      "blind_id": "case_d3c5e6d36c9786eb",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the requested statue transformation, the curved gallery setting remains recognizable, but the wall-panel geometry and framing are noticeably altered, and the base is changed to a tall rectangular pedestal. Instruction: The male statue becomes a draped female figure, whereas the expected goddess has broken/missing arms; both arms and hands remain fully present, so a defining requested change is absent. Knowledge: The explanation specifies Venus de Milo, but the intact arms, clothed bust and long loose hair do not depict that statue. Instruction failure ⇒ knowledge invalid. Quality: The female stone figure, drapery, architectural perspective and lighting are coherent; slight blending of the extended right-hand fingers is a small local imperfection."
+    },
+    {
+      "blind_id": "case_3737e6d99cdcf041",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The four-by-four arrangement and white background persist, but the thin pale grid becomes uniformly heavy black, and multiple original clues change (top-row 3 becomes 2; second-row 1 and 3 become Z and 5; bottom-row 1 becomes 8). Instruction: Some empty cells receive marks, but a cell remains empty, existing clues are overwritten, and digits 5, 6, 7 and 8 appear where a completed four-by-four Sudoku requires 1–4; the requested solution is not supplied. Knowledge: The explanation is blank; visible task-implied Sudoku rules are violated by out-of-range digits and repeated column entries. Instruction failure ⇒ knowledge invalid. Quality: The grid is straight and most characters are readable, but the Z-like second-row symbol and overlapping malformed third-row symbols create multiple distracting text defects."
+    }
+  ]
+}

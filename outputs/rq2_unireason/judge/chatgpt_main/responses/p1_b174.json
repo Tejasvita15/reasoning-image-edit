@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b174",
+  "results": [
+    {
+      "blind_id": "case_e766edc88903111d",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The three square outlines, all supplied numerals, their relative positions and white background remain visually unchanged. Instruction: No answer has been inserted; the rightmost upper-right position still contains a question mark, whereas it should show 35. Knowledge: The supplied ratio rule requires 6/5 = 42/35; the unresolved question mark does not implement it. Instruction failure ⇒ knowledge invalid. Quality: The diagram has coherent square outlines, clearly legible numerals and an orderly layout, with no distracting structural artifacts."
+    },
+    {
+      "blind_id": "case_ff6cc55d40140ca7",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The black jacket, orange accents, central zipper and gray background remain recognizable, but the original glossy, wrinkled fabric becomes a flat illustration and the three orange sleeve stripes become a single broad stripe. These are changes beyond viewpoint. Instruction: The oblique source becomes a straight frontal view showing the full torso and hem. The reference instead looks downward through the large collar opening, with strongly foreshortened torso and shoulders spanning sideways; the requested top view is absent. Quality: Assessed alone, the illustration has coherent jacket construction, clean contours, readable chest branding, consistent shading and no noticeable generation artifacts."
+    }
+  ]
+}

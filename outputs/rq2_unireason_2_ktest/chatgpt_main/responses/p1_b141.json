@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b141",
+  "results": [
+    {
+      "blind_id": "case_1e7d4194d5c1da55",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: room layout, furniture positions, wall art, lamps and colors remain recognizable and aligned, but bedding folds and pillow contours, rug loop details and the outdoor window-view detail are visibly altered beyond the balloon addition. Instruction: a red inflated balloon has been added in front of the window, matching the requested balloon in the room. Knowledge: the explanation requires floating; the balloon is suspended above the window seat without support, fully matching that expectation. Quality: ✔ coherent bedroom and balloon shapes, ✔ natural lighting and perspective, ✔ clean edges without conspicuous artifacts, and ✔ convincing fabric, wood and upholstered surfaces."
+    },
+    {
+      "blind_id": "case_e6673072b57b3f23",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: excluding the requested water-color change, shoreline placement, horizon and principal rock shapes are retained, but the sky acquires blocky mottling, distant vegetation loses its original detail, and the right-hand rocks become more saturated with altered surface texture. Instruction: the previously blue-green water is now broadly red, with white foam retained, clearly depicting the requested red tide. Knowledge: the supplied explanation specifically expects red water; that visible outcome is fully present. Quality: ✔ coherent coastal layout and swirling water structure; ✘ conspicuous rectangular patches in the sky and smeared distant shoreline textures reduce naturalness and artifact freedom."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b201",
+  "results": [
+    {
+      "blind_id": "case_751b7ff8001be450",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the region layout, existing orange/green/yellow/purple fills, blue background and timer/palette are retained, but the black outlines and interface lettering are noticeably heavier in the edited image. Instruction: the same many pale-blue regions remain unfilled; a completed puzzle would color every region with at most four colors while separating edge-sharing neighbors, so completion is absent. Knowledge: the supplied explanation is blank; the visible unfinished puzzle fails the task, and the mandatory coupling applies: Instruction failure ⇒ knowledge invalid. Quality: satisfactory coherent region boundaries, readable timer and controls, consistent flat fills and no distracting artifacts; softness does not obscure the diagram."
+    },
+    {
+      "blind_id": "case_b5ef7ccf55fb848a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the blue-and-white thermometer, three buttons, red indicator and coiled probe remain recognizable, but the product is enlarged/reframed, its housing and cable contours change, and the printed upper Fahrenheit limit changes from 158 to 168. Instruction: the original 28.7°C display becomes 88.8°C; the supplied expected increase of approximately 3°C calls for approximately 31.7°C, so the requested temperature adjustment is not achieved. Knowledge: the displayed increase of 60.1°C contradicts the supplied 3°C expectation. Instruction failure ⇒ knowledge invalid. Quality: satisfactory coherent product geometry, legible display and labels, natural lighting and clean cable contours; no noticeable generation artifacts."
+    }
+  ]
+}

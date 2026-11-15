@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b034",
+  "results": [
+    {
+      "blind_id": "case_e8e7996947c5fb19",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The three square outlines, white background, and most surrounding numerals remain recognizable, but the first square’s lower-right 2 becomes 6 and an unsolicited malformed numeral cluster appears inside the middle square. Instruction: The rightmost question mark remains; a correct edit would replace it with 35, so the requested change is absent. Knowledge: The supplied equal-ratio rule requires 42/35 = 6/5; no 35 is supplied. Instruction failure ⇒ knowledge invalid. Quality: The diagram layout and surrounding text are legible, but the middle-square text is visibly garbled, a clear semantic artifact."
+    },
+    {
+      "blind_id": "case_67cdae174af4bf66",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The round black rim, white face, and most hour markings persist, but 8 disappears, 5 changes to 6, the framing shifts, and the bottom watermark text becomes distorted. Instruction: The long hand remains at 12 and the hour hand remains directed toward 8; the expected Tokyo conversion would show 9:00, so the requested time change is absent. Knowledge: The supplied explanation explicitly requires 9 o’clock, which is not shown. Instruction failure ⇒ knowledge invalid. Quality: The clock is recognizable, but its missing 8, duplicated 6, and garbled bottom text are multiple distracting semantic and text defects."
+    }
+  ]
+}

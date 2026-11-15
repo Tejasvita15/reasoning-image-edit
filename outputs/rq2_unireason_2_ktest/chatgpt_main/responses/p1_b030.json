@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b030",
+  "results": [
+    {
+      "blind_id": "case_18c6c0221b645445",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the white background, wooden nine-cell frame and symbol locations remain, but wood grain, block shapes and spacing, and the shapes and edges of several unchanged symbols visibly differ. Instruction: no X becomes O; the center remains X, whereas changing it to O would complete the middle column. The requested modification is absent. Knowledge: the supplied explanation is blank; the visible board still lacks an O winning line, and the mandatory coupling applies. Instruction failure ⇒ knowledge invalid. Quality: coherent wooden construction, legible symbols, natural shadows and convincing surface textures; no noticeable artifacts."
+    },
+    {
+      "blind_id": "case_48c3cc19fadb3fc7",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: excluding the modified tower, the blue sky, ocean waves, beach, pier and shoreline retain their arrangement and appearance; a slight vertical reframing shifts the horizon and foreground. Instruction: the sail-shaped building becomes a very tall straight tower extending beyond the top edge. This conveys increased height, but its unseen top and generic shape do not establish the requested tallest building, so the modification is partial. Knowledge: the explanation requires the Burj Khalifa; the visible slab-like tower with retained projecting platforms lacks its characteristic tapering stepped form, a clear identity conflict. Quality: the edited scene has coherent architecture, consistent daylight and perspective, detailed waves and natural shore textures, without noticeable generation artifacts."
+    }
+  ]
+}

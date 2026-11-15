@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b071",
+  "results": [
+    {
+      "blind_id": "case_226e674584ff2ec8",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The spoon bowl is rotated from upright to horizontal and moved substantially downward; the wood grain is also visibly redrawn, although the wooden setting and cream color remain. Handle completion is excluded from this comparison. Instruction: A long continuous handle with a rounded closed tip replaces the truncated stem, fulfilling the expected complete spoon handle. Quality: Structure, lighting, smooth ceramic surface and contact shadow are coherent; no noticeable generation artifacts."
+    },
+    {
+      "blind_id": "case_75777a66abd2edd0",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 3,
+      "rationale": "Consistency: The mountain, fields, sky and streetlight arrangement remain recognizable and closely aligned, but foliage across the roadside trees is visibly redrawn into different leaf textures. Road rupture and associated displaced material are excluded. Instruction: The smooth road becomes fractured and buckled, with broken slabs and displaced pavement across both lanes, fully depicting the requested earthquake road changes. Knowledge: The supplied explanation expects cracked pavement and surface deformation, both present, but several large fragments appear suspended high in the left trees without visible support, a clear physical implausibility in the aftermath scene. Quality: Landscape perspective and most pavement textures are coherent, but the isolated hovering angular fragments above the left roadside create a conspicuous structural/semantic flaw."
+    }
+  ]
+}

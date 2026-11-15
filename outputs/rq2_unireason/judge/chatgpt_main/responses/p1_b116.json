@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b116",
+  "results": [
+    {
+      "blind_id": "case_3158734ce554a240",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The six-panel arrangement, all supplied numbers, white gutters and shadows remain, but panel backgrounds have visibly changed from smooth gradients to mottled, flatter textures. Instruction: The bottom-right question mark remains; the expected replacement is 410, so the requested change is absent. Knowledge: The supplied difference-then-sum rule gives 7−3=4 and 7+3=10, concatenated as 410; no answer is supplied. Instruction failure ⇒ knowledge invalid. Quality: The edited puzzle has coherent rectangular panels, legible symbols, consistent shading and no distracting structural artifacts."
+    },
+    {
+      "blind_id": "case_b43c60fd92e30848",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The large broad tablet on the left has become a narrow phone, both device designs and screen details have changed, and their spacing and relative alignment differ substantially; the white background is retained. Instruction: The right phone is taller, but the expected image would retain the tablet and enlarge the phone to its dimensions. The result instead shows two narrow phones of unequal size, missing most of the requested size match. Quality: Both devices have coherent rounded frames, legible controls, clean screens and plausible soft contact shadows; no conspicuous deformation or rendering artifacts are visible."
+    }
+  ]
+}

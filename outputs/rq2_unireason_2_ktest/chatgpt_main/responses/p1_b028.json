@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b028",
+  "results": [
+    {
+      "blind_id": "case_6006f8d37e9bc872",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the single centered charger is moved left and reduced, the labels become darker, and a separate duplicate two-port panel is added on the right, substantially changing the composition. The white background and general charger styling remain. Instruction: the upper rectangular port remains distinctly wider and taller than the lower port; the added panel also has unequal ports. A correct edit would shrink the original upper interface to the lower interface size. The requested size match is absent. Quality: structure, lighting, clean surface textures and legible QC/18W and PD/20W labels are satisfactory; the two-panel product illustration has no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_81e18c2389c26c50",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: both clocks retain pale faces, white rims, black Arabic numerals and a light wall, but the hands on both faces change direction, and the right clock and overall framing are enlarged and repositioned. These are multiple non-requested changes beyond resizing the small clock. Instruction: the formerly smaller left clock now has the same apparent diameter as the right clock, fulfilling the requested size match. Quality: both circular clock structures, numeral sequences, hands, shadows and smooth wall textures are coherent and clean, with no noticeable visual artifacts."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b054",
+  "results": [
+    {
+      "blind_id": "case_925bf3dc54e79d3a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the teal backdrop and broad fan arrangement remain, but card overlaps and outlines shift, blue borders and face artwork change, and the central watermark becomes more prominent; these are not required rank changes. Instruction: the original three kings with 7 and 8 become a collection of mixed, malformed ranks and suits. A correct result needs four identifiable cards of the same rank; no such hand is visible, so the request is not fulfilled. Knowledge: the supplied four-equal-ranks rule is not met. Instruction failure ⇒ knowledge invalid. Quality: the background and card surfaces are coherent, but numerous garbled rank glyphs, conflicting suit markings, and displaced face-card graphics cause severe semantic failure; a conspicuous central watermark is also visible."
+    },
+    {
+      "blind_id": "case_2e2f2de2c600457b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested plate-count reduction, the white background and outer-column arrangement remain, but the plates become visibly darker gray and their finely textured rims and inner contours change, with new side indentations. Instruction: six plates become four through removal of the middle column. The expected result contains exactly two plates; reducing the count addresses the request partially but leaves two excess plates. Quality: four coherent circular plates sit naturally on a clean background, with intact surfaces and no ghosting; slight paired unevenness along the inner rims is a minor visible imperfection."
+    }
+  ]
+}

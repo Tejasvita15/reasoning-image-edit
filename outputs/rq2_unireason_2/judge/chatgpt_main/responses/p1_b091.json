@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b091",
+  "results": [
+    {
+      "blind_id": "case_bb5ed62170a1804d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the black-and-white clock design remains recognizable, but the rim and face proportions change, numeral positions shift, and a stray symbol appears above 12; the bottom imprint is also distorted. Instruction: the hands still indicate 8:00, with the minute hand at 12 and hour hand toward 8; the expected change to 9:00 is absent, so the instruction is not followed. Knowledge: the supplied explanation explicitly requires 9 o’clock, contradicted by the visible hands. Instruction failure ⇒ knowledge invalid. Quality: the dial, numerals and hands are coherent, but the stray glyph above 12 and garbled watermark-like bottom text are clear artifacts."
+    },
+    {
+      "blind_id": "case_edfb41e1ead3b0af",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested basketball movement and resulting contact/shadow changes, the soccer ball moves toward the center and its black-and-white panel orientation changes substantially; the basketball also has a different seam orientation and stronger highlight. The plain pale backdrop is retained. Instruction: the basketball moves from beside the soccer ball to directly above it, with its lower edge touching the soccer ball’s crown, fully matching the requested placement. Quality: both balls are recognizable, their stacked contact and floor shadow are coherent, and there is no duplication or text corruption; the soccer ball has a slightly angular, flattened lower contour, a minor shape imperfection."
+    }
+  ]
+}

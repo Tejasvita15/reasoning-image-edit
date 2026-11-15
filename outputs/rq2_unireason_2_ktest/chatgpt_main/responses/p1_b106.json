@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b106",
+  "results": [
+    {
+      "blind_id": "case_09ffc01c4448d886",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white background and two-carton arrangement remain, but the large left carton is enlarged and repositioned; the right carton gains a blue cap and its dark blue front graphics become light blue with a different wave. These are changes beyond resizing the small carton. Instruction: The right carton becomes taller, and a perfect edit would make it match the large carton in height and overall size. It remains clearly shorter, so the requested size match is only partial. Quality: Structural coherence ✔, natural illustrated shading and perspective ✔, artifact-free ✔, texture fidelity ✔; both cartons have clean folds, coherent caps and legible milk lettering."
+    },
+    {
+      "blind_id": "case_149f508b3c302c8b",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The left cube retains its two-by-two colored faces and the white reflective setting remains, but the right three-by-three cube is replaced by a smaller two-by-two cube with a new color arrangement, and the spacing and framing change substantially. Instruction: The observed change replaces and shrinks the right cube; the left cube retains essentially its original appearance. A correct result would enlarge the original small left cube to match the original large right cube while retaining their identities. This reverses the intended target and does not achieve that size match. Quality: Structural coherence ✔, natural perspective and reflections ✔, artifact-free ✔, texture fidelity ✔; the two depicted cubes have coherent face grids, glossy black borders and crisp colored panels."
+    }
+  ]
+}

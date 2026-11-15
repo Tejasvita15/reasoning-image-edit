@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b193",
+  "results": [
+    {
+      "blind_id": "case_0f9bdfd43225ba47",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 1,
+      "quality_score": 1,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the numerical zigzag diagram is replaced by two crowded rows of touching blue circles; circle count, outlines, connectors and nearly all labels change. Instruction: instead of filling the question-mark circle with a correct number, the edit replaces the puzzle with garbled letter strings, so the requested change is absent. Knowledge: the supplied explanation requests 21, which is not supplied in the target; Instruction failure ⇒ knowledge invalid. Quality: flat colors and background are clean, but pervasive nonsensical/garbled labels and merged diagram nodes constitute major semantic and structural failures."
+    },
+    {
+      "blind_id": "case_d218c928573cee5a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background, centered short-sleeve silhouette and side tab remain, excluding the requested fabric recoloring; however, the chest logo is larger and reshaped, the neck label design changes, and fabric creases are redistributed. Instruction: the black shirt fabric becomes white throughout the collar, sleeves and body, exactly fulfilling the requested color change. Quality: coherent shirt construction, clear logo, plausible light fabric folds and clean edges/background; no noticeable generation defect."
+    }
+  ]
+}

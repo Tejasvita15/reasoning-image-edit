@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b130",
+  "results": [
+    {
+      "blind_id": "case_fb118b745712a2a2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested background, repositioning, lighting, brilliance and title, the circular gold setting and blue stone identity remain recognizable, but the bail becomes much longer and sharper and the chain links become elongated and narrow. Instruction: The white product background becomes textured grey-blue, with a centered hanging pendant, starburst and bottom serif title area, matching the expected advertising layout. However, the required sentence is substantially garbled and the coarse background and large black lettering weaken the requested fine, restrained treatment; partial compliance. Quality: Structure and background texture are coherent, but the visibly malformed words are a clear semantic flaw and the bulb-like white highlight on the bail looks unnatural; the remaining pendant outline is clean."
+    },
+    {
+      "blind_id": "case_7830a195365de9c2",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested splash, composition, background, shadow and typography changes, the tall cylindrical milk glass remains recognizable, but its originally transparent rounded bottom is visibly changed to a flatter, broad silver-looking base. Instruction: The edit adds an uppercase top headline, prominent central splash and bottom shadow in a neutral minimalist layout. The expected exact headline on pure white with a soft grey shadow is only partly achieved: the second line reads incorrectly, the background is light grey, and the cast shadow is dark and strongly directional. Quality: Glass geometry and surface rendering are coherent, but the malformed headline is conspicuous and the long milk jet terminates in a rounded horizontal tip that looks like a solid bent form rather than flowing liquid; no major duplication or ghosting is visible."
+    }
+  ]
+}

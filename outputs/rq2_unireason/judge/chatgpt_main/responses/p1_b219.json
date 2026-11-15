@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b219",
+  "results": [
+    {
+      "blind_id": "case_9ecb926c02f63bf7",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: the white background and product colors remain, but the cable is enlarged and reshaped into many broad loops with both connectors lost, and the adapter changes from an oblique to a frontal view. These exceed repositioning the adapter. Instruction: the adapter moves from beside the coil to its central opening; an adapter surrounded by the cable is the expected result, and the requested central placement is achieved. Quality: natural soft lighting and smooth surfaces are satisfactory, but the inner cable has an abrupt squared termination near the upper left and the cable turns appear to merge at the top, weakening structural coherence."
+    },
+    {
+      "blind_id": "case_ed8ae978477d4ead",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: printer shape, three buttons, rear blank sheet, trays, white background and overall placement are retained; a slight mottled texture appears on the gray lid. The changed foreground document is excluded. Instruction: the previously blank foreground sheet now carries dense printed lines and extends in front of the output tray. A printed document in front of the printer is the expected result, and that placement is clearly achieved. Quality: printer structure, paper perspective and contact shadows are coherent; the document contains visibly distorted pseudo-letter strings rather than coherent printed text, a noticeable semantic flaw."
+    }
+  ]
+}

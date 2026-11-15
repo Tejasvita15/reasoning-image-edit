@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b050",
+  "results": [
+    {
+      "blind_id": "case_bc3d60cc9b63ec11",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested rotation, the white background, blue woven upholstery and brown tapered legs remain, but the visible three-back-cushion construction becomes two broad cushions and the continuous chaise cushion becomes a separate ottoman in front of a regular seat. Instruction: The side view becomes a frontal view, with the extension correctly on the viewer’s right; however, the reference has three seating sections and an integrated long chaise, so notable structural details of the expected front view are missing. Quality: The edited image alone is a coherent, clean furniture photograph, with plausible cushions, fabric, legs and lighting and no noticeable rendering artifacts."
+    },
+    {
+      "blind_id": "case_7c7d9d9c9965175f",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested layout, background, shadow and added text, the blue controller identity is broadly retained, but the separate directional buttons become a joined cross, the right circle button becomes a second square, and the center logo changes. Instruction: The edit adds a grainy gray-blue gradient, floating soft shadow and a centered bold black caption beneath an above-center controller. However, the caption visibly reads “Pesss siest.” rather than “Press Start.” and the strongly darkened edges do not match the requested light, restrained background. These are substantial incomplete aspects despite the correct poster layout. Quality: The silhouette, lighting and shadow are coherent, but the nonsensical prominent caption and duplicated square button symbol are two clear semantic flaws."
+    }
+  ]
+}

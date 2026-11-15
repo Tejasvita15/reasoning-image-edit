@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b029",
+  "results": [
+    {
+      "blind_id": "case_c4320ec8baf8c7a4",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the requested left-phone resizing, the hand grips/finger contours and desk/monitor background details have visibly changed; the right phone and blue sleeves retain their general appearance. Instruction: The left phone is still substantially shorter and narrower than the right phone, with no meaningful enlargement toward a size match. A successful edit would give both phones the same apparent dimensions, so the requested change is absent. Quality: Structure, lighting and surface textures are coherent, but a small beige tab protruding from the left phone’s upper edge is an isolated visual imperfection."
+    },
+    {
+      "blind_id": "case_0c3372bd250b719a",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": null,
+      "rationale": "Consistency: The wood floor, plug, cables, charger lettering and general casing remain consistent, but the port interiors/shapes and their voltage labels are visibly altered beyond a change in number. Instruction: The edited charger still has ten USB sockets arranged in two columns of five. The expected result is six sockets; no requested reduction is present. Quality: Lighting, casing and plug are coherent, but numerous socket interiors have warped, rough geometry and the repeated voltage labels are garbled, producing multiple distracting defects."
+    }
+  ]
+}

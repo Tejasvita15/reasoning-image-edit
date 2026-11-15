@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b073",
+  "results": [
+    {
+      "blind_id": "case_7369c8295e0ec24c",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: The left tablet has been replaced by a narrow phone; both devices have different bezel details, flat black screens and outlined rendering, and the original photographic surface shadows are lost. Most major non-requested details change. Instruction: The right phone becomes larger. A correct edit would retain the tablet and enlarge the existing phone to approximately its overall size. The right device approaches the original tablet height but remains substantially narrower, while the tablet comparison object disappears; the size adjustment is only partial. Quality: Structure and layout are coherent, black screens and white surfaces are clean, and there is no major deformation. Slightly ragged doubled perimeter contours are a small finish imperfection."
+    },
+    {
+      "blind_id": "case_953576c317fc300a",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: Beyond completing the broken end, the deck is flipped and stood vertically, its surface design changes, and the low ground-level scene becomes a wall-and-pavement setting with different lighting and framing. Nearly all major non-requested scene details change. Instruction: A complete rounded deck and two trucks appear. The expected edit would repair the missing jagged end of the existing skateboard into a continuous functional board. The output conveys a complete skateboard, but substitutes a differently presented board and includes an anomalous extra oversized wheel at the lower left; completion is partial. Quality: Wall and pavement textures, daylight and the main deck are convincing. Structural coherence is problematic because an oversized additional wheel and axle protrude behind the lower deck beside the normal truck wheels; this is a clear mechanical artifact."
+    }
+  ]
+}

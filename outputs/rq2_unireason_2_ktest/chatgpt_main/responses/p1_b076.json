@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b076",
+  "results": [
+    {
+      "blind_id": "case_8c70224e7414b595",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested viewing-angle change, the botanical print, black frame and white background remain recognizable, but the rear wire stand is removed and a separate outlined profile with guide lines is added. Instruction: the frame is turned substantially from the source and a narrow profile is attempted, but the main view still exposes the print; neither view reproduces the reference’s inclined frame and triangular rear support, so perspective and occlusion have major errors. Quality: the frame edges and botanical image are coherent and clean; the small printed lettering near the lower left of the inset is visibly malformed."
+    },
+    {
+      "blind_id": "case_dc5ca21883d0df7f",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: excluding the requested poster layout, garnishes, background and emphasis on color/texture, the salmon retains its distinctive wedge silhouette, curved white marbling and green leaf behind the upper right edge. Instruction: a centered salmon poster replaces the plain background with a glowing turquoise gradient and adds lemons, salt, herbs and bold white top lettering. However, the title reads “FRESH · HRIEE CIETARTISE” rather than “Fresh · Pure · Quality,” leaving a required component incorrect. Quality: the food forms, glossy surfaces, citrus sections and salt are visually coherent; the conspicuously garbled headline is a clear semantic flaw."
+    }
+  ]
+}

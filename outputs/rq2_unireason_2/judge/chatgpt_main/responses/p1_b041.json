@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b041",
+  "results": [
+    {
+      "blind_id": "case_97b7f0134aadf28d",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 5,
+      "rationale": "Consistency: The glass retains its placement and overall silhouette, but its lower facet reflections and base details are altered, and the gray background/table shadow becomes essentially white. Instruction: The liquid remains transparent and colorless, which is the requested post-reagent appearance; no visible color shift is necessary. Knowledge: This directly matches the supplied explanation that pure water remains colorless. Quality: Coherent glass geometry, clean rim and waterline, plausible reflections, and smooth surfaces without noticeable artifacts."
+    },
+    {
+      "blind_id": "case_08213d9decbfbbeb",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 5,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The existing lions lose their circular manes, several existing animal faces are redrawn, and grid boundaries shift; these are outside filling the empty cells. Instruction: Three blanks gain animals and the upper-left cell stays empty. The required additions are tiger at row 1 column 1, lion at row 1 column 3, raccoon at row 3 column 1, and dog at row 4 column 3; the visible additions do not provide these, leaving most required work incorrect. Knowledge: The supplied explanation is blank; Sudoku logic implied by the task requires each animal once per row and column. The third row repeats a dog, while other additions also conflict with that logic. Instruction failure ⇒ knowledge invalid. Quality: Viewed alone, the grid and animal illustrations have clear outlines, coherent facial features, clean flat colors, and no noticeable rendering artifacts."
+    }
+  ]
+}

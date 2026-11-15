@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b039",
+  "results": [
+    {
+      "blind_id": "case_23f4d6c885385396",
+      "status": "ok",
+      "consistency_score": 1,
+      "instruction_score": 5,
+      "quality_score": 3,
+      "knowledge_score": 5,
+      "rationale": "Consistency: excluding stone removal, the image is extensively altered: black exterior and internal fat become white, tissue contrast and texture change throughout, the framing enlarges, and corner scan annotations disappear; the broad anatomical arrangement remains recognizable. Instruction: the conspicuous white deposit in the image-right kidney is removed, leaving continuous gray tissue, which matches the requested stone removal. Knowledge: the supplied explanation asks for removal of small white particles, and the renal white deposit is absent, consistent with that visual expectation. Quality: the edited scan has a coherent axial arrangement, but large featureless white regions and an unnaturally thick dark outer contour produce noticeable tonal and texture artifacts."
+    },
+    {
+      "blind_id": "case_e020e70a9fc036d2",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 2,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the grid, blue clues and green 2 remain recognizable, but non-requested red box/scribbles overlay two revealed clue cells in row 4, columns 2 and 3. Instruction: one red X correctly marks row 4, column 5; the clues also require mines at row 1, column 6 and row 3, column 3, both left unmarked. Most required mine markings are missing, while revealed-number cells receive extraneous red marks. Knowledge: the supplied explanation is blank; the instruction failure activates the required coupling. Instruction failure ⇒ knowledge invalid. Quality: the grid and digits are legible and regular, but the red boxed/scribbled overlays on two digits are conspicuous malformed-symbol artifacts."
+    }
+  ]
+}

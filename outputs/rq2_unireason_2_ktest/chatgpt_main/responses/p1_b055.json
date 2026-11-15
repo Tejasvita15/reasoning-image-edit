@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b055",
+  "results": [
+    {
+      "blind_id": "case_c5cba2fab0de1d00",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The beige room, wooden floor, calico coloring and seated composition remain recognizable, but the eye shapes/highlights, whisker pattern and body proportions have noticeably changed beyond the needed anatomical repair. Instruction: The figure is redrawn with slimmer forelegs and a different belly, but the central extra ear and extra ear on the right remain. The expected correction is a kitten with two normally positioned ears; the unreasonable duplicated parts are not corrected, so compliance is 1. Quality: Natural lighting and fur texture are satisfactory, but the four-ear anatomy is a clear semantic flaw; otherwise the face, paws and scene are coherent."
+    },
+    {
+      "blind_id": "case_3c80714f14dd2f90",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The turquoise setting and white cylindrical holder are retained, but the holder is moved rightward and downward, its rim irregularities are removed, and the toothbrush head/bristle configuration changes. These exceed the requested toothbrush relocation. Instruction: The pink toothbrush changes from leaning outside the holder to standing with its lower handle occluded inside the opening. This matches the expected placement into the holder completely. Quality: Structural coherence, naturalness, artifact absence and texture fidelity are satisfactory: the brush meets the opening convincingly, the ceramic rim has coherent perspective, and lighting and contact shadows are plausible."
+    }
+  ]
+}

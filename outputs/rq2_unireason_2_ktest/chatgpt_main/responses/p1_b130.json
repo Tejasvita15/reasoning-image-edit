@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b130",
+  "results": [
+    {
+      "blind_id": "case_f66b57016136b284",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 5,
+      "quality_score": 4,
+      "knowledge_score": null,
+      "rationale": "Consistency: the numeral 8 retains its silhouette, two openings, centered placement and white background; faint colored speckling now fringes the outline on the white field. Instruction: the orange numeral becomes uniformly bright green, exactly the expected recoloring of the same number. Quality: structure and legibility are satisfactory, with coherent solid fill; slight colored edge noise is the sole minor artifact."
+    },
+    {
+      "blind_id": "case_aefef612a9595fe7",
+      "status": "ok",
+      "consistency_score": 4,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the fruit identities, counts, arrangements, white cells and green/blue/peach row bands remain intact; thin grid outlines show slight waviness. Instruction: the top-right cell still contains a large question mark and no oranges. The expected replacement is three oranges, so the requested drawing is absent. Knowledge: the supplied explanation requires three oranges to extend the same-fruit one/two/three progression; the unchanged question mark supplies none. Instruction failure ⇒ knowledge invalid. Quality: fruits and question mark are recognizable, textures and shading coherent; slight irregularity in thin panel outlines is a minor graphic flaw."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b085",
+  "results": [
+    {
+      "blind_id": "case_a9661c85ed8d8126",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the two missing-tooth regions, the lip outline and smile layout remain recognizable, but the surrounding skin/background is noticeably paler and the lips have altered shading and highlight shapes; existing teeth also have simplified shading. Instruction: 1. The upper gap now contains a white tooth, while the lower gap is filled with pink tissue. 2. A completed smile should have teeth in both gaps. 3. Only the upper missing tooth is convincingly restored; the lower location still lacks a white tooth. 4. This is partial compliance. Quality: Structural coherence ✔, naturalness within the illustration style ✔, artifact-free ✔, texture fidelity ✔; the mouth, gums and remaining gap form a clean, readable dental illustration without a conspicuous rendering defect."
+    },
+    {
+      "blind_id": "case_565a8b8e0e0b1aa9",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 3,
+      "quality_score": 3,
+      "knowledge_score": null,
+      "rationale": "Consistency: The supplied source actually depicts a black-and-gold fountain pen. Excluding the requested poster background, decorations, title and balloon positioning, the pen retains its diagonal orientation, but its cap and clip are replaced by a bear head, its detailed nib becomes a blunt gold point, and its body surface is redrawn with broad stripes. Instruction: 1. The edit adds a blue background, white clouds, stars, candy/confetti, a colorful Bear Balloon Party title and a bear head attached to the pen with a balloon string. 2. The requested result is a cheerful poster centered on a supplied bear balloon positioned slightly right. 3. Most poster components and the right-side bear are present, but the central object is a conspicuous pen/bear hybrid, and no bear balloon exists in the supplied source to preserve. 4. The main idea is partially realized. Quality: Structure and layout are readable, colors and cartoon lighting are coherent, and cloud/candy shapes are clean; artifact-free ✘ because the green y in Party has conspicuous ragged black and green damage across its upper stroke. Texture fidelity elsewhere is satisfactory."
+    }
+  ]
+}

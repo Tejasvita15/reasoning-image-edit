@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b155",
+  "results": [
+    {
+      "blind_id": "case_fc38b3db8d1e773d",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 1,
+      "quality_score": 3,
+      "knowledge_score": 1,
+      "rationale": "Consistency: Excluding the permitted bird replacement, the blue-sky composition and upper-right sun remain, but the cloud formations across the lower and right sky are visibly altered. Instruction: The gull becomes a white, long-necked bird with a small black head; the expected replacement is an owl, and no recognizable owl face or body is present. Knowledge: The explanation explicitly requires an owl, which is absent. Instruction failure ⇒ knowledge invalid. Quality: The sky and feather layers are coherent, but the head/neck anatomy is awkward and the right wing ends in unnaturally thin curling extensions, producing two noticeable structural flaws."
+    },
+    {
+      "blind_id": "case_98f0b991f7399d22",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 4,
+      "knowledge_score": 1,
+      "rationale": "Consistency: The square grid and general arrangement remain, but several protected examples change: the middle-right inner arc becomes closed, and the lower-left and lower-middle inner arcs also become closed circles. Instruction: The question mark is removed but its cell is entirely blank; the requested common-part pattern should retain the shared lower inner semicircle and lower-right outer arc. No answer pattern is drawn. Knowledge: The explanation requires retaining common parts of the first two figures in each row; blank output omits their visible shared arcs. Instruction failure ⇒ knowledge invalid. Quality: The grid and circular symbols remain legible and structurally coherent, with a minor rough, uneven quality to the black strokes; there is no major deformation or ambiguous symbol."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b176",
+  "results": [
+    {
+      "blind_id": "case_ce553bd4a1a9d0d1",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: The white setting and two-cup layout remain, but the left saucer is narrower and lower, the left bean arrangement is replaced with many smaller beans, and the right cup and beans become visibly softer. These are beyond the requested cup resizing. Instruction: 1. The left cup remains small, with a narrower bowl and changed beans. 2. It should match the right cup in height and width. 3. It is still substantially smaller and has not been enlarged to the reference size. 4. Non-compliance. Quality: Structural coherence ✔, naturalness ✔, artifact-free ✔, texture fidelity ✔; cups, saucers, bean forms and shadows are coherent. The right-side softness does not make the objects ambiguous."
+    },
+    {
+      "blind_id": "case_dae76d06a483b622",
+      "status": "ok",
+      "consistency_score": 5,
+      "instruction_score": 1,
+      "quality_score": 5,
+      "knowledge_score": null,
+      "rationale": "Consistency: Excluding the target foreground chair and the area it formerly occluded, the table, three other chairs, vase and flowers, books, pedestal dish, white background and framing remain visually unchanged. Instruction: 1. The foreground chair disappears. 2. It should move inward with its seat beneath the tabletop and its back and legs coherently present. 3. No corresponding chair back or legs remain at that place; removal does not demonstrate pushing the chair under the table. 4. Non-compliance. Quality: Structural coherence ✔, naturalness ✔, artifact-free ✔, texture fidelity ✔; the remaining furniture has plausible geometry, clean edges and consistent wood and upholstery surfaces, and the tabletop objects remain coherent."
+    }
+  ]
+}

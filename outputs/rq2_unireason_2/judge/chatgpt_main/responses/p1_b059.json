@@ -1,0 +1,23 @@
+{
+  "batch_id": "p1_b059",
+  "results": [
+    {
+      "blind_id": "case_b262884adac00a03",
+      "status": "ok",
+      "consistency_score": 3,
+      "instruction_score": 5,
+      "quality_score": 5,
+      "knowledge_score": 3,
+      "rationale": "Consistency: excluding the requested sea-surface transformation, the sky cloud bands have visibly changed, though the open horizon and basic composition remain. Instruction: the blue rippled sea becomes a continuous dark, glossy, swirling oily surface, matching the requested oil slick. Knowledge: the supplied explanation calls for rainbow patterns; the visible sheen is predominantly black, blue-gray and brown, without the expected rainbow iridescence, a clear omission. Quality: coherent waves, glossy reflections and horizon; satisfactory structure, lighting and texture, with no clear generation artifacts."
+    },
+    {
+      "blind_id": "case_7474165232eccf91",
+      "status": "ok",
+      "consistency_score": 2,
+      "instruction_score": 1,
+      "quality_score": 2,
+      "knowledge_score": 1,
+      "rationale": "Consistency: the thermometer body proportions and viewing angle change, the cable loops and position change, and the IN/OUT button becomes UN/OUT; blue-and-white styling and white background remain. Instruction: the original reads 28.7°C, so the supplied task and explanation require approximately 31.7°C. The edited display instead contains malformed seven-segment characters resembling U6J, with no readable 31.7 or decimal, failing the requested adjustment. Knowledge: no valid three-degree increase is depicted. Instruction failure ⇒ knowledge invalid. Quality: the main display has severely malformed numeric characters and dark smeared internal shading, and the button text is corrupted; the casing and cable remain recognizable but these multiple display/text defects are distracting."
+    }
+  ]
+}
